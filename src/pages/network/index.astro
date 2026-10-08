@@ -81,7 +81,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
   <script id="graph-data" type="application/json" set:html={graphData}></script>
   <script>
     // @ts-nocheck
-    import { UndirectedGraph } from "graphology";
+    import { MultiUndirectedGraph } from "graphology";
     import Sigma from "sigma";
     import { shortestPath } from "../../lib/pathfinding.mjs";
 
@@ -216,7 +216,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       const { nodes, edges } = getVisible();
       visibleEdges = edges;
       if (renderer) renderer.kill();
-      const graph = new UndirectedGraph({ multi: true });
+      const graph = new MultiUndirectedGraph();
       nodes.forEach((node, index) => {
         const angle = (2 * Math.PI * index) / nodes.length - Math.PI / 2;
         const radius = nodes.length > 30 ? 0.82 : 0.7;
