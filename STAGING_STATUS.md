@@ -18,5 +18,6 @@ Create a GitHub OAuth App while signed in as `pm4gis`:
 2. Homepage URL: `https://gishistory.pm4gis.nz/admin/`.
 3. Authorization callback URL: `https://auth.gishistory.pm4gis.nz/callback`.
 4. Keep the app owned by the GitHub account that can edit this public repository.
+5. Leave Device Flow off and turn off “Expire user access tokens”; the current Decap proxy does not refresh them.
 
 Enter the app's Client ID and newly generated Client Secret directly as Cloudflare Worker secrets named `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` on Worker `nzgis-history-editor-auth`. Do not put the secret in GitHub files, issues, email or chat. The existing `OAUTH_STATE_SECRET` stays in place. Then test editor login, a controlled draft, its pull request and preview, and a merge. Mobile layout and the complete OAuth popup flow have not yet been verified.

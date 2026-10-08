@@ -6,6 +6,7 @@ This Worker is the OAuth callback proxy for the editor at /admin/. It keeps the 
 
 1. Create a GitHub OAuth App for the staging editor.
 2. Set its homepage to https://gishistory.pm4gis.nz/admin/ and callback URL to https://auth.gishistory.pm4gis.nz/callback.
+   Leave Device Flow off. Turn off “Expire user access tokens” because this Decap proxy does not implement token refresh.
 3. The Worker is published at auth.gishistory.pm4gis.nz, with the OAUTH_STATE_SECRET already stored in Cloudflare.
 4. Add the OAuth App's GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET as Worker secrets in Cloudflare. Enter the client secret directly in the Cloudflare dashboard; do not put it in repository files or messages.
 5. Keep CMS_ORIGINS restricted to the stable editor origin in wrangler.jsonc. Do not add arbitrary pull request preview origins; preview branches are public code.
