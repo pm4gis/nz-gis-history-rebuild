@@ -15,7 +15,7 @@ The import reads the public reader data, then writes only the sample into Git. P
 
 - **Read:** the complete chapter and 38 linked account pages, with exact section anchors, image credits, source notes, adjustable reading width and type size, and a generated A5 PDF.
 - **Timeline:** eight events with record, date-precision and year filters. Display dates retain the precision in the source.
-- **Network:** Sigma.js with Graphology, filters by record type, relationship wording and event-year range, explicit inclusion of undated links, shortest-path finding, evidence details and a shareable query-string state.
+- **Network:** Sigma.js with Graphology where WebGL is available and an interactive SVG fallback elsewhere. Filters cover record type, relationship wording and event-year range, with explicit inclusion of undated links, shortest-path finding, evidence details and a shareable query-string state.
 - **Text alternative:** every node and relationship is available as HTML with links and evidence labels; the network does not require a pointer or motion.
 - **Search:** Pagefind indexes the static chapter, accounts and timeline in the browser.
 
@@ -33,14 +33,14 @@ npm run build
 
 `npm run build` validates content schemas, IDs, routes, evidence endpoints, date precision, privacy fields and media credits; runs Astro checks and the static build; builds the Pagefind index; extracts PDF fonts from pdfmake’s bundled files; generates the A5 PDF; then verifies static paths, image credits, PDF header, page size and the under-25-MiB asset target.
 
-GitHub Actions runs the same tests and build on pull requests and changes to `main`. Cloudflare Pages uses `npm run build` and `dist` as its output. Connect it to the public GitHub repository with `main` as the staging branch and pull-request previews enabled. Do not add the live custom domain.
+GitHub Actions runs the same tests and build on pull requests and changes to `main`. Cloudflare Pages builds `main` with `npm run build`, publishes `dist` at [gishistory.pm4gis.nz](https://gishistory.pm4gis.nz), and enables pull-request previews. Keep the live custom domain separate.
 
 ## Editor and OAuth
 
-`/admin/` uses Decap CMS with the GitHub backend and `editorial_workflow`. Edits go to an editorial branch and pull request. `workers/editor-auth/` contains the OAuth callback Worker. It validates a short-lived signed state cookie, limits the editor origin to the stable staging URL, checks the GitHub login against the repository owner, and keeps the OAuth client secret in Worker secrets. Follow the setup steps in `workers/editor-auth/README.md`; secrets are not stored in this repository.
+`/admin/` uses Decap CMS with the GitHub backend and `editorial_workflow`. Edits go to an editorial branch and pull request. `workers/editor-auth/` contains the OAuth callback Worker at `auth.gishistory.pm4gis.nz`. It validates a short-lived signed state cookie, limits the editor origin to the stable staging URL, checks the GitHub login against the repository owner, and keeps the OAuth client secret in Worker secrets. The signing secret is installed; a GitHub OAuth App and its client credentials are still required before editor sign-in can be tested. Follow `workers/editor-auth/README.md`; secrets are never stored in this repository.
 
 ## Free-tier fit
 
-Reader routes are static and make no runtime Function, D1, analytics or paid-service requests. The sample has 38 account pages, one chapter, eight events, one PDF and two local LINZ images. The local build produces 117 assets totalling 7.9 MB, with a 721 kB A5 PDF. On 2026-10-08, Cloudflare's [Pages limits](https://developers.cloudflare.com/pages/platform/limits/) document 500 builds per month, one build at a time, a 20-minute build timeout, 20,000 site files, 25 MiB per file, and unlimited active preview deployments. The OAuth callback is a separate Worker and shares the Free allowance of 100,000 requests per day and 10 ms CPU per invocation in the [Workers pricing](https://developers.cloudflare.com/workers/platform/pricing/) docs. The PDF is included in the Pages build command; confirm its output in the first deployment logs.
+Reader routes are static and make no runtime Function, D1, analytics or paid-service requests. The sample has 38 account pages, one chapter, eight events, one PDF and two local LINZ images. The local build produces 117 assets totalling 7.9 MB, with a 721 kB A5 PDF. On 2026-10-08, Cloudflare's [Pages limits](https://developers.cloudflare.com/pages/platform/limits/) document 500 builds per month, one build at a time, a 20-minute build timeout, 20,000 site files, 25 MiB per file, and unlimited active preview deployments. The OAuth callback is a separate Worker and shares the Free allowance of 100,000 requests per day and 10 ms CPU per invocation in the [Workers pricing](https://developers.cloudflare.com/workers/platform/pricing/) docs. The actual Pages build generated and verified the A5 PDF.
 
 This is a vertical slice, not the full 796-record migration. The private research corpus, contact details, submission inbox, full publication, reading trails and production cutover stay outside this repository.
