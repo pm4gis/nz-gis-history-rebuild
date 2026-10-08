@@ -1,0 +1,24 @@
+{
+  "a": "entity:fox-and-associates",
+  "b": "chapter:39",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "evidence": {
+    "status": "published-context-found",
+    "paragraphRefs": [
+      {
+        "sectionId": "terrain-becomes-data",
+        "sectionTitle": "Terrain becomes data",
+        "url": "/book/chapter/39/from-flat-maps-to-3d/#terrain-becomes-data",
+        "sources": []
+      }
+    ],
+    "eventIds": [
+      "2020-fox-tasman-river-model",
+      "2021-fox-tasman-river-award"
+    ],
+    "basis": "Curated link to a relevant chapter; check event sources for specific roles"
+  },
+  "kind": "published-association",
+  "id": "rel-7e6cae9d06a93826"
+}

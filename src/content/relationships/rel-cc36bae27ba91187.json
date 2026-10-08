@@ -1,0 +1,14 @@
+{
+  "a": "person:james-sturman",
+  "b": "entity:aurecon",
+  "label": "Associated with",
+  "basis": "Existing structured association. The linked accounts and public sources provide context; this link does not establish a specific role or period.",
+  "evidence": {
+    "status": "source-dataset-association-only",
+    "paragraphRefs": [],
+    "eventIds": [],
+    "basis": "Existing structured association. The linked accounts and public sources provide context; this link does not establish a specific role or period."
+  },
+  "kind": "published-association",
+  "id": "rel-cc36bae27ba91187"
+}

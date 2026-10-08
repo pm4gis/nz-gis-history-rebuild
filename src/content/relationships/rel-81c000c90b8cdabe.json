@@ -1,0 +1,22 @@
+{
+  "a": "person:mark-goodin",
+  "b": "person:trent-gulliver",
+  "label": "Named in the same paragraph",
+  "basis": "Reading connection only. A shared passage does not establish collaboration, employment or a shared role.",
+  "evidence": {
+    "status": "published-context-found",
+    "paragraphRefs": [
+      {
+        "sectionId": "a-cadastre-with-volume",
+        "sectionTitle": "A cadastre with volume",
+        "url": "/book/chapter/39/from-flat-maps-to-3d/#ch39-s05-p02",
+        "sources": [],
+        "blockId": "ch39-s05-p02"
+      }
+    ],
+    "eventIds": [],
+    "basis": "The linked chapter passage is a co-mention only; it does not prove a direct relationship."
+  },
+  "kind": "reading-context",
+  "id": "rel-81c000c90b8cdabe"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2021-fox-tasman-river-award",
+  "dateDisplay": "2021",
+  "startDate": "2021",
+  "endDate": null,
+  "datePrecision": "year",
+  "label": "Fox & Associates wins the Innovation Small Business award",
+  "summary": "The Tasman river-channel modelling project received the Innovation – Small Business award at the 2021 Spatial Excellence Awards in New Zealand and the Oceanic region.",
+  "categories": [
+    "business",
+    "award",
+    "river-modelling"
+  ],
+  "chapter": 39,
+  "chapterTitle": "Mapping in 3D",
+  "sectionId": "terrain-becomes-data",
+  "sectionTitle": "Terrain becomes data",
+  "url": "/book/chapter/39/from-flat-maps-to-3d/#terrain-becomes-data",
+  "evidenceStatus": "documented-or-strongly-supported",
+  "associationLabel": "Direct record links listed for this event",
+  "year": 2021,
+  "sources": [
+    {
+      "label": "Fox & Associates, Accurately Modelling Tasman River",
+      "url": "https://www.foxsurvey.co.nz/tasman-river/"
+    }
+  ],
+  "relatedRecordIds": [
+    "entity:fox-and-associates",
+    "entity:tasman-district-council"
+  ],
+  "related": [
+    "entity:fox-and-associates",
+    "entity:tasman-district-council"
+  ]
+}

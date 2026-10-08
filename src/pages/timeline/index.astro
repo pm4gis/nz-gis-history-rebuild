@@ -1,0 +1,74 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import SourceList from "../../components/SourceList.astro";
+import { getCollection } from "astro:content";
+
+const [eventEntries, records, chapters] = await Promise.all([getCollection("events"), getCollection("records"), getCollection("chapters")]);
+const chapter = chapters[0]?.data;
+const events = eventEntries.map((entry) => entry.data).sort((a, b) => (a.startDate || "").localeCompare(b.startDate || ""));
+const recordById = new Map(records.map((entry) => [entry.data.id, entry.data]));
+const years = events.map((event) => event.year).filter(Number.isFinite);
+const minYear = Math.min(...years);
+const maxYear = Math.max(...years);
+const precisionLabels = { day: "exact day recorded", month: "month recorded", year: "year recorded", approximate: "approximate date", range: "bounded range", decade: "decade recorded", unknown: "date unknown" };
+---
+<SiteLayout title="Timeline — A History of GIS in New Zealand" description={events.length + " dated events connected to Chapter " + chapter?.number + ", " + chapter?.name + "."}>
+  <section class="page-wrap">
+    <p class="eyebrow">Events · Chapter {chapter?.number} sample</p>
+    <h1 class="page-title">A timeline of {chapter?.name}</h1>
+    <p class="page-intro">{events.length} published events in the sample. Dates are shown at the precision recorded by the source release; a year is never presented as a day.</p>
+    <div class="tool-panel" aria-label="Timeline filters">
+      <div class="field"><label for="timeline-record">Related record</label><select id="timeline-record"><option value="">All records</option>{records.map((entry) => <option value={entry.data.id}>{entry.data.name}</option>)}</select></div>
+      <div class="field"><label for="timeline-precision">Date precision</label><select id="timeline-precision"><option value="">All precision levels</option><option value="day">Exact day</option><option value="month">Month</option><option value="year">Year</option><option value="approximate">Approximate</option><option value="range">Bounded range</option><option value="decade">Decade</option><option value="unknown">Unknown</option></select></div>
+      <div class="field"><label for="timeline-from">From year</label><input id="timeline-from" type="number" min={minYear} max={maxYear} value={minYear} /></div>
+      <div class="field"><label for="timeline-to">To year</label><input id="timeline-to" type="number" min={minYear} max={maxYear} value={maxYear} /></div>
+      <button class="button-secondary" id="timeline-reset" type="button">Reset</button>
+      <span id="timeline-count" class="small muted" aria-live="polite">{events.length} events</span>
+    </div>
+    <ol class="timeline-list" id="timeline-list">
+      {events.map((event) => {
+        const linked = [...new Set(event.relatedRecordIds || event.related || [])];
+        return <li class="timeline-item card" id={"event-" + event.id} data-year={event.year} data-precision={event.datePrecision} data-records={linked.join("|")}>
+          <div class="timeline-date">{event.dateDisplay}<span class="precision-note">{precisionLabels[event.datePrecision] || "recorded date precision"}</span></div>
+          <h2>{event.label}</h2>
+          <p>{event.summary}</p>
+          <p class="small muted">Evidence status: {event.evidenceStatus || "not specified in the release"} · {event.associationLabel || "Related records listed in the publication"}</p>
+          <div class="event-records">{linked.map((id) => recordById.has(id) ? <a href={recordById.get(id).url}>{recordById.get(id).name}</a> : <span class="tag">{id}</span>)}</div>
+          <details><summary class="small">Sources</summary><SourceList sources={event.sources} heading="Event sources" /></details>
+        </li>;
+      })}
+    </ol>
+    <p class="small muted" id="timeline-empty" hidden>No events match these filters.</p>
+  </section>
+  <script>
+    // @ts-nocheck
+    const list = document.getElementById("timeline-list");
+    const items = Array.from(list.querySelectorAll(".timeline-item"));
+    const recordSelect = document.getElementById("timeline-record");
+    const precisionSelect = document.getElementById("timeline-precision");
+    const fromInput = document.getElementById("timeline-from");
+    const toInput = document.getElementById("timeline-to");
+    const count = document.getElementById("timeline-count");
+    const empty = document.getElementById("timeline-empty");
+    const update = () => {
+      const visible = items.filter((item) => {
+        const year = Number(item.dataset.year);
+        const recordIds = (item.dataset.records || "").split("|");
+        return (!recordSelect.value || recordIds.includes(recordSelect.value)) &&
+          (!precisionSelect.value || precisionSelect.value === item.dataset.precision) &&
+          year >= Number(fromInput.value || -Infinity) && year <= Number(toInput.value || Infinity);
+      });
+      items.forEach((item) => { item.hidden = !visible.includes(item); });
+      count.textContent = visible.length + (visible.length === 1 ? " event" : " events");
+      empty.hidden = visible.length > 0;
+    };
+    [recordSelect, precisionSelect, fromInput, toInput].forEach((element) => element.addEventListener("change", update));
+    document.getElementById("timeline-reset").addEventListener("click", () => {
+      recordSelect.value = "";
+      precisionSelect.value = "";
+      fromInput.value = fromInput.min;
+      toInput.value = toInput.max;
+      update();
+    });
+  </script>
+</SiteLayout>

@@ -1,0 +1,21 @@
+{
+  "a": "person:urva-patel",
+  "b": "chapter:39",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "evidence": {
+    "status": "published-context-found",
+    "paragraphRefs": [
+      {
+        "sectionId": "from-model-to-digital-twin",
+        "sectionTitle": "From model to digital twin",
+        "url": "/book/chapter/39/from-flat-maps-to-3d/#from-model-to-digital-twin",
+        "sources": []
+      }
+    ],
+    "eventIds": [],
+    "basis": "Name matched in published prose; reading connection only"
+  },
+  "kind": "published-association",
+  "id": "rel-7d76430a0972df81"
+}

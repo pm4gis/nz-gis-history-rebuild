@@ -1,0 +1,41 @@
+{
+  "id": "person:marcus-girvan",
+  "slug": "marcus-girvan",
+  "name": "Marcus Girvan",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/marcus-girvan/",
+  "story": [
+    "Marcus Girvan is documented by Boffa Miskell as a biosecurity project manager and partner managing programmes including LINZ biosecurity and Mid Dome wilding-conifer control. Boffa Miskell also documents 3D web GIS and UAV work for invasive-conifer management. LINZ’s 2015 virtual field trip identified him as its biosecurity subject-matter expert.",
+    "LINZ names Marcus Girvan in its geospatial virtual field-trip record: Biosecurity Project Manager, Boffa Miskell, 2015 VFT."
+  ],
+  "chapters": [
+    12,
+    26,
+    29,
+    35,
+    38,
+    39
+  ],
+  "aliases": [
+    "Marcus Girvan"
+  ],
+  "status": "Account available",
+  "passages": [],
+  "sources": [
+    {
+      "label": "Boffa Miskell, Marcus Girvan profile",
+      "url": "https://www.boffamiskell.co.nz/whanau/marcus-girvan"
+    },
+    {
+      "label": "Boffa Miskell, Leveraging GIS technology to combat invasive conifers",
+      "url": "https://www.boffamiskell.co.nz/news-insights/leveraging-gis-technology-to-combat-invasive-conifers"
+    },
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "paragraphSources": [],
+  "contextLinks": []
+}

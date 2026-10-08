@@ -1,0 +1,43 @@
+{
+  "id": "entity:fox-and-associates",
+  "slug": "fox-and-associates",
+  "name": "Fox & Associates",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/fox-and-associates/",
+  "story": [
+    "Fox & Associates is a Christchurch and Ashburton surveying, planning, engineering and land-development firm whose work includes UAV and USV survey services. Its 2020 Tasman District Council trial tested a more complete approach to river-channel modelling across 30 kilometres of the Waimea and Motueka rivers and 9 km².",
+    "The team combined drone-mounted LiDAR, aerial photography, GPS and unmanned surface-vessel sonar. The resulting deliverables included a 3D point cloud, aerial imagery, terrain models for the river channels and conventional cross-sections. Fox & Associates won the 2021 Spatial Excellence Award for Innovation – Small Business for the project."
+  ],
+  "chapters": [
+    38,
+    39
+  ],
+  "aliases": [
+    "Fox & Associates",
+    "Fox and Associates",
+    "Fox Survey"
+  ],
+  "status": "GIS account available",
+  "passages": [
+    {
+      "title": "Terrain becomes data",
+      "url": "/book/chapter/39/from-flat-maps-to-3d/#terrain-becomes-data",
+      "chapter": 39,
+      "id": "terrain-becomes-data"
+    }
+  ],
+  "website": "https://www.foxsurvey.co.nz/",
+  "sources": [
+    {
+      "label": "Fox & Associates, Accurately Modelling Tasman River",
+      "url": "https://www.foxsurvey.co.nz/tasman-river/"
+    },
+    {
+      "label": "Fox & Associates, company website",
+      "url": "https://www.foxsurvey.co.nz/"
+    }
+  ],
+  "paragraphSources": [],
+  "identityNotice": false
+}

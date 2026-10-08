@@ -1,0 +1,310 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import { getCollection } from "astro:content";
+
+const [records, chapters, relations, events] = await Promise.all([
+  getCollection("records"), getCollection("chapters"), getCollection("relationships"), getCollection("events"),
+]);
+const chapter = chapters[0]?.data;
+const nodes = [
+  ...records.map((entry) => ({
+    id: entry.data.id, label: entry.data.name, kind: entry.data.kind, url: entry.data.url,
+    summary: entry.data.story?.[0] || entry.data.description || "",
+    sourceCount: Array.isArray(entry.data.sources) ? entry.data.sources.length : 0,
+  })),
+  ...(chapter ? [{ id: chapter.id, label: "Chapter " + chapter.number + ": " + chapter.name, kind: "Chapter", url: chapter.url, summary: "Narrative chapter", sourceCount: chapter.sourceNotes.length }] : []),
+];
+const edges = relations.map((entry) => entry.data);
+const eventData = events.map((entry) => entry.data);
+const graphData = JSON.stringify({ nodes, edges, events: eventData, chapterUrl: chapter?.url }).replace(/</g, "\\u003c");
+const kinds = [...new Set(nodes.map((node) => node.kind))].sort();
+const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
+---
+<SiteLayout title="Network — A History of GIS in New Zealand" description="Explore published records and inspect the basis for every connection.">
+  <section class="network-layout">
+    <p class="eyebrow">Network · {nodes.length} nodes · {edges.length} links</p>
+    <h1 class="page-title">Follow the connections</h1>
+    <p class="page-intro">Select a record or link to open its published account and basis. The graph does not infer roles from proximity. All movement is reader-controlled; the equivalent text view below works without the graph.</p>
+    <div class="info-card" style="margin:1.4rem 0">
+      <p><strong>Evidence key:</strong> “Published context found” links to a chapter passage or event. “Dataset association only” preserves the source release’s link and qualification where no specific claim citation is attached.</p>
+    </div>
+    <div class="tool-panel" aria-label="Network filters">
+      <div class="field"><label for="filter-kind">Record type</label><select id="filter-kind"><option value="">All types</option>{kinds.map((kind) => <option value={kind}>{kind}</option>)}</select></div>
+      <div class="field"><label for="filter-relation">Relationship wording</label><select id="filter-relation"><option value="">All relationship labels</option>{relationLabels.map((label) => <option value={label}>{label}</option>)}</select></div>
+      <div class="field"><label for="filter-from">From year</label><input id="filter-from" type="number" aria-label="Earliest year" /></div>
+      <div class="field"><label for="filter-to">To year</label><input id="filter-to" type="number" aria-label="Latest year" /></div>
+      <label class="checkbox-field"><input id="filter-undated" type="checkbox" /> Include undated links</label>
+      <button class="button-secondary" id="filter-reset" type="button">Reset filters</button>
+      <span class="small muted" id="network-count" aria-live="polite">{records.length} records · {edges.length} links</span>
+    </div>
+    <div class="network-workspace">
+      <div class="graph-frame">
+        <div id="graph" role="img" aria-label={"Interactive network of records in Chapter " + chapter?.number + ": " + chapter?.name}></div>
+        <div class="graph-overlay"><span class="graph-status-dot"></span><span id="graph-help">Click a node or connection to inspect it · Tab to use the controls</span></div>
+      </div>
+      <aside class="graph-panel" aria-labelledby="graph-panel-title">
+        <h2 id="graph-panel-title">Explore the network</h2>
+        <div class="field"><label for="node-picker">Choose a record</label><select id="node-picker"><option value="">Select a record</option>{nodes.map((node) => <option value={node.id}>{node.label}</option>)}</select></div>
+        <div id="graph-details" class="graph-details" aria-live="polite"><p>Select a node or a link to see its published wording, evidence status and route to the full account.</p></div>
+        <h3>Find a path</h3>
+        <div class="path-fields">
+          <div class="field"><label for="path-start">From</label><select id="path-start"><option value="">Choose start</option>{nodes.map((node) => <option value={node.id}>{node.label}</option>)}</select></div>
+          <div class="field"><label for="path-end">To</label><select id="path-end"><option value="">Choose end</option>{nodes.map((node) => <option value={node.id}>{node.label}</option>)}</select></div>
+        </div>
+        <button class="button" id="find-path" type="button" style="width:100%;margin-top:.5rem">Find shortest path</button>
+        <div id="path-result" class="graph-details" aria-live="polite" style="margin-top:.6rem">Choose two records to see a path through the visible links.</div>
+        <h3>Share this view</h3>
+        <p class="small muted">Record focus, filters and path selection are stored in the link.</p>
+        <button class="button-secondary" id="copy-state" type="button">Copy view link</button>
+        <span id="copy-result" class="small muted" aria-live="polite"></span>
+      </aside>
+    </div>
+    <details class="graph-text-alt">
+      <summary>Text alternative: browse {nodes.length} records and {edges.length} relationships</summary>
+      <p>Each row names the endpoints, keeps the published relationship wording, and states whether the release has a chapter or event context. Open a record link to read its account.</p>
+      <h2 class="small">Records</h2>
+      <ul class="graph-text-list">{nodes.map((node) => <li><button type="button" data-focus-node={node.id}>{node.label} · {node.kind}</button></li>)}</ul>
+      <h2 class="small">Published relationships</h2>
+      <ol class="relationship-list">
+        {edges.map((edge) => {
+          const nodeA = nodes.find((node) => node.id === edge.a);
+          const nodeB = nodes.find((node) => node.id === edge.b);
+          return <li class="card relationship-card">
+            <p>{nodeA?.url ? <a href={nodeA.url}>{nodeA.label}</a> : nodeA?.label} <strong>{edge.label}</strong> {nodeB?.url ? <a href={nodeB.url}>{nodeB.label}</a> : nodeB?.label}</p>
+            <span class={"evidence-badge " + (edge.evidence.status === "published-context-found" ? "context" : "qualified")}>{edge.evidence.status === "published-context-found" ? "Published context found" : "Dataset association only"}</span>
+            <p class="small">{edge.basis}</p>
+          </li>;
+        })}
+      </ol>
+    </details>
+  </section>
+  <script id="graph-data" type="application/json" set:html={graphData}></script>
+  <script>
+    // @ts-nocheck
+    import { UndirectedGraph } from "graphology";
+    import Sigma from "sigma";
+    import { shortestPath } from "../../lib/pathfinding.mjs";
+
+    const dataset = JSON.parse(document.getElementById("graph-data").textContent);
+    const nodeById = new Map(dataset.nodes.map((node) => [node.id, node]));
+    const eventById = new Map(dataset.events.map((event) => [event.id, event]));
+    const minYear = Math.min(...dataset.events.map((event) => Number(event.year)));
+    const maxYear = Math.max(...dataset.events.map((event) => Number(event.year)));
+    const graphElement = document.getElementById("graph");
+    const kindFilter = document.getElementById("filter-kind");
+    const relationFilter = document.getElementById("filter-relation");
+    const fromInput = document.getElementById("filter-from");
+    const toInput = document.getElementById("filter-to");
+    const undatedFilter = document.getElementById("filter-undated");
+    const nodePicker = document.getElementById("node-picker");
+    const startSelect = document.getElementById("path-start");
+    const endSelect = document.getElementById("path-end");
+    const detailPanel = document.getElementById("graph-details");
+    const pathPanel = document.getElementById("path-result");
+    const status = document.getElementById("network-count");
+    const palette = { Person: "#317c91", Organisation: "#176b55", Agency: "#176b55", Council: "#176b55", Business: "#a17a38", Company: "#a17a38", Project: "#8c5a9a", Technology: "#c16a48", System: "#c16a48", Chapter: "#4d5a51" };
+    let renderer = null;
+    let visibleEdges = [];
+    let pathNodeIds = [];
+    let pathEdgeIds = [];
+    let selectedNodeId = "";
+    let selectedEdgeId = "";
+
+    fromInput.min = String(minYear);
+    fromInput.max = String(maxYear);
+    fromInput.value = String(minYear);
+    toInput.min = String(minYear);
+    toInput.max = String(maxYear);
+    toInput.value = String(maxYear);
+    const params = new URLSearchParams(window.location.search);
+    kindFilter.value = params.get("kind") || "";
+    relationFilter.value = params.get("relation") || "";
+    fromInput.value = params.get("from") || String(minYear);
+    toInput.value = params.get("to") || String(maxYear);
+    undatedFilter.checked = params.get("undated") === "1";
+    selectedNodeId = params.get("focus") || "";
+    startSelect.value = params.get("start") || "";
+    endSelect.value = params.get("end") || "";
+
+    const createText = (parent, tag, value, className) => {
+      const element = document.createElement(tag);
+      element.textContent = value || "";
+      if (className) element.className = className;
+      parent.append(element);
+      return element;
+    };
+    const makeLink = (parent, label, href) => {
+      const link = document.createElement("a");
+      link.textContent = label;
+      link.href = href;
+      parent.append(link);
+      return link;
+    };
+    const replacePanel = () => detailPanel.replaceChildren();
+    const showNode = (id) => {
+      const node = nodeById.get(id);
+      if (!node) return;
+      selectedNodeId = id;
+      selectedEdgeId = "";
+      nodePicker.value = id;
+      replacePanel();
+      createText(detailPanel, "strong", node.label);
+      createText(detailPanel, "div", node.kind, "small muted");
+      if (node.summary) createText(detailPanel, "p", node.summary);
+      createText(detailPanel, "p", node.sourceCount + " source references on this account.", "small muted");
+      makeLink(detailPanel, "Open full account →", node.url);
+      updateGraph();
+      updateAddress();
+    };
+    const showEdge = (id) => {
+      const edge = dataset.edges.find((item) => item.id === id);
+      if (!edge) return;
+      selectedEdgeId = id;
+      selectedNodeId = "";
+      nodePicker.value = "";
+      replacePanel();
+      const contextual = edge.evidence.status === "published-context-found";
+      createText(detailPanel, "strong", edge.label);
+      createText(detailPanel, "div", contextual ? "Published context found" : "Dataset association only", "evidence-badge " + (contextual ? "context" : "qualified"));
+      createText(detailPanel, "p", edge.basis);
+      const a = nodeById.get(edge.a);
+      const b = nodeById.get(edge.b);
+      if (a) makeLink(detailPanel, "From: " + a.label, a.url);
+      if (b) makeLink(detailPanel, "To: " + b.label, b.url);
+      for (const ref of edge.evidence.paragraphRefs || []) {
+        makeLink(detailPanel, "Chapter context: " + ref.sectionTitle, ref.url || (dataset.chapterUrl + "#" + (ref.blockId || ref.sectionId)));
+        for (const source of ref.sources || []) {
+          if (source.url) makeLink(detailPanel, "Source: " + source.label, source.url);
+          else createText(detailPanel, "div", "Source: " + source.label, "small muted");
+        }
+      }
+      for (const eventId of edge.evidence.eventIds || []) {
+        const event = eventById.get(eventId);
+        if (event) makeLink(detailPanel, "Event: " + event.dateDisplay + " — " + event.label, "/timeline/#event-" + event.id);
+      }
+      updateGraph();
+      updateAddress();
+    };
+    const edgeInRange = (edge, rangeActive) => {
+      if (!rangeActive) return true;
+      const eventYears = (edge.evidence.eventIds || []).map((id) => Number(eventById.get(id)?.year)).filter(Number.isFinite);
+      if (eventYears.length) return eventYears.some((year) => year >= Number(fromInput.value) && year <= Number(toInput.value));
+      return undatedFilter.checked;
+    };
+    const getVisible = () => {
+      const nodes = dataset.nodes.filter((node) => !kindFilter.value || node.kind === kindFilter.value);
+      const nodeIds = new Set(nodes.map((node) => node.id));
+      const rangeActive = Number(fromInput.value) > minYear || Number(toInput.value) < maxYear;
+      const edges = dataset.edges.filter((edge) => nodeIds.has(edge.a) && nodeIds.has(edge.b) &&
+        (!relationFilter.value || edge.label === relationFilter.value) && edgeInRange(edge, rangeActive));
+      return { nodes, edges };
+    };
+    const updateAddress = () => {
+      const state = new URLSearchParams();
+      if (kindFilter.value) state.set("kind", kindFilter.value);
+      if (relationFilter.value) state.set("relation", relationFilter.value);
+      if (Number(fromInput.value) !== minYear) state.set("from", fromInput.value);
+      if (Number(toInput.value) !== maxYear) state.set("to", toInput.value);
+      if (undatedFilter.checked) state.set("undated", "1");
+      if (selectedNodeId) state.set("focus", selectedNodeId);
+      if (startSelect.value) state.set("start", startSelect.value);
+      if (endSelect.value) state.set("end", endSelect.value);
+      const next = window.location.pathname + (state.toString() ? "?" + state.toString() : "");
+      window.history.replaceState({}, "", next);
+    };
+    const updateGraph = () => {
+      const { nodes, edges } = getVisible();
+      visibleEdges = edges;
+      if (renderer) renderer.kill();
+      const graph = new UndirectedGraph({ multi: true });
+      nodes.forEach((node, index) => {
+        const angle = (2 * Math.PI * index) / nodes.length - Math.PI / 2;
+        const radius = nodes.length > 30 ? 0.82 : 0.7;
+        const onPath = pathNodeIds.includes(node.id);
+        graph.addNode(node.id, {
+          label: node.label, kind: node.kind, url: node.url,
+          x: Math.cos(angle) * radius, y: Math.sin(angle) * radius,
+          size: onPath ? 8 : (selectedNodeId === node.id ? 8 : 5),
+          color: onPath ? "#d18432" : (selectedNodeId === node.id ? "#123e34" : (palette[node.kind] || "#688274")),
+        });
+      });
+      edges.forEach((edge) => {
+        if (graph.hasNode(edge.a) && graph.hasNode(edge.b)) {
+          graph.addUndirectedEdgeWithKey(edge.id, edge.a, edge.b, {
+            label: edge.label,
+            size: pathEdgeIds.includes(edge.id) ? 2.8 : (selectedEdgeId === edge.id ? 2.2 : 1.15),
+            color: pathEdgeIds.includes(edge.id) ? "#d18432" : (selectedEdgeId === edge.id ? "#176b55" : "#b8c6bc"),
+          });
+        }
+      });
+      renderer = new Sigma(graph, graphElement, {
+        renderEdgeLabels: false,
+        labelRenderedSizeThreshold: 7,
+        labelDensity: 0.08,
+        labelGridCellSize: 100,
+        defaultNodeColor: "#176b55",
+        defaultEdgeColor: "#b8c6bc",
+        enableEdgeEvents: true,
+        zIndex: true,
+      });
+      renderer.on("clickNode", ({ node }) => showNode(node));
+      renderer.on("clickEdge", ({ edge }) => showEdge(edge));
+      status.textContent = nodes.length + " visible records · " + edges.length + " visible links";
+    };
+    const findPath = () => {
+      const { nodes, edges } = getVisible();
+      const start = startSelect.value;
+      const end = endSelect.value;
+      pathNodeIds = [];
+      pathEdgeIds = [];
+      if (!start || !end) {
+        pathPanel.textContent = "Choose a start and end record.";
+        updateGraph(); updateAddress(); return;
+      }
+      const result = shortestPath(nodes, edges, start, end);
+      if (!result) {
+        pathPanel.textContent = "No path exists between these records with the current filters.";
+      } else {
+        pathNodeIds = result.nodes;
+        pathEdgeIds = result.edges;
+        pathPanel.replaceChildren();
+        createText(pathPanel, "strong", result.edges.length ? "Shortest path · " + result.edges.length + " links" : "The start and end are the same record.");
+        pathNodeIds.forEach((id, index) => {
+          const node = nodeById.get(id);
+          if (!node) return;
+          if (index) {
+            const edge = dataset.edges.find((item) => item.id === pathEdgeIds[index - 1]);
+            createText(pathPanel, "div", "↓ " + (edge?.label || "linked to"), "small muted");
+          }
+          makeLink(pathPanel, node.label, node.url);
+        });
+        createText(pathPanel, "p", "The path is a route through recorded links, not evidence of a direct relationship between the endpoints.", "small muted");
+      }
+      updateGraph();
+      updateAddress();
+    };
+    const controls = [kindFilter, relationFilter, fromInput, toInput, undatedFilter];
+    controls.forEach((control) => control.addEventListener("change", () => { pathNodeIds = []; pathEdgeIds = []; updateGraph(); updateAddress(); }));
+    nodePicker.addEventListener("change", () => { if (nodePicker.value) showNode(nodePicker.value); });
+    document.getElementById("find-path").addEventListener("click", findPath);
+    [startSelect, endSelect].forEach((control) => control.addEventListener("change", updateAddress));
+    document.getElementById("filter-reset").addEventListener("click", () => {
+      kindFilter.value = ""; relationFilter.value = "";
+      fromInput.value = String(minYear); toInput.value = String(maxYear); undatedFilter.checked = false;
+      pathNodeIds = []; pathEdgeIds = []; updateGraph(); updateAddress();
+    });
+    document.getElementById("copy-state").addEventListener("click", async () => {
+      const message = document.getElementById("copy-result");
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        message.textContent = "View link copied.";
+      } catch {
+        message.textContent = "Copy is unavailable here. Copy the address from your browser.";
+      }
+    });
+    document.querySelectorAll("[data-focus-node]").forEach((button) => button.addEventListener("click", () => showNode(button.dataset.focusNode)));
+    updateGraph();
+    if (selectedNodeId && nodeById.has(selectedNodeId)) showNode(selectedNodeId);
+    if (startSelect.value && endSelect.value) findPath();
+  </script>
+</SiteLayout>

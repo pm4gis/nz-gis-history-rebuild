@@ -1,0 +1,14 @@
+{
+  "a": "person:esther-baumann",
+  "b": "entity:black-box-spatial",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "evidence": {
+    "status": "source-dataset-association-only",
+    "paragraphRefs": [],
+    "eventIds": [],
+    "basis": "Existing structured association; role and period require verification"
+  },
+  "kind": "published-association",
+  "id": "rel-ee68a69a0ec6a2f0"
+}

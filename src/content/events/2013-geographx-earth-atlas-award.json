@@ -1,0 +1,34 @@
+{
+  "id": "2013-geographx-earth-atlas-award",
+  "dateDisplay": "2013",
+  "startDate": "2013",
+  "endDate": null,
+  "datePrecision": "year",
+  "label": "Geographx atlas wins the IMTA Global Award",
+  "summary": "Geographx managed cartographic production for the EARTH Platinum World Atlas, which won the International Map Trade Association’s Global Award for Best Map Product.",
+  "categories": [
+    "cartography",
+    "map-design",
+    "award"
+  ],
+  "chapter": 39,
+  "chapterTitle": "Mapping in 3D",
+  "sectionId": "terrain-becomes-data",
+  "sectionTitle": "Terrain becomes data",
+  "url": "/book/chapter/39/from-flat-maps-to-3d/#terrain-becomes-data",
+  "evidenceStatus": "documented-or-strongly-supported",
+  "associationLabel": "Direct record links listed for this event",
+  "year": 2013,
+  "sources": [
+    {
+      "label": "Geographx, About",
+      "url": "https://www.geographx.co.nz/about/"
+    }
+  ],
+  "relatedRecordIds": [
+    "entity:geographx"
+  ],
+  "related": [
+    "entity:geographx"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "a": "person:brian-orland",
+  "b": "chapter:39",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "evidence": {
+    "status": "published-context-found",
+    "paragraphRefs": [
+      {
+        "sectionId": "when-the-map-acquires-height",
+        "sectionTitle": "Three dimensional mapping",
+        "url": "/book/chapter/39/from-flat-maps-to-3d/#when-the-map-acquires-height",
+        "sources": []
+      }
+    ],
+    "eventIds": [],
+    "basis": "Curated link to a relevant chapter; check event sources for specific roles"
+  },
+  "kind": "published-association",
+  "id": "rel-cacff614ed6c4314"
+}

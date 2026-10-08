@@ -1,0 +1,28 @@
+---
+import { getCollection } from "astro:content";
+const { sources = [], heading = "Sources" } = Astro.props;
+const usableSources = Array.isArray(sources) ? sources.filter((item) => item && item.label) : [];
+const [records, chapters] = await Promise.all([getCollection("records"), getCollection("chapters")]);
+const localPaths = new Set([...records.map((entry) => entry.data.url), ...chapters.map((entry) => entry.data.url)]);
+const hrefFor = (url) => {
+  if (!url) return "";
+  if (!url.startsWith("/")) return url;
+  const path = url.split("#")[0];
+  const local = localPaths.has(path) || localPaths.has(path.endsWith("/") ? path : path + "/");
+  return local ? url : "https://history.pm4gis.nz" + url;
+};
+---
+<section class="source-list" aria-label={heading}>
+  <h3>{heading}</h3>
+  {usableSources.length ? (
+    <ol>
+      {usableSources.map((source) => (
+        <li>
+          {source.url ? (
+            <a href={hrefFor(source.url)} target={hrefFor(source.url).startsWith("https://") ? "_blank" : undefined} rel={hrefFor(source.url).startsWith("https://") ? "noopener noreferrer" : undefined}>{source.label}</a>
+          ) : <span>{source.label}</span>}
+        </li>
+      ))}
+    </ol>
+  ) : <p class="muted small">No source reference is attached to this item in the published sample.</p>}
+</section>

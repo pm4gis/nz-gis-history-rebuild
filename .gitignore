@@ -1,0 +1,14 @@
+node_modules/
+public/admin/decap-cms.js
+dist/
+.astro/
+.cache/
+.codex/
+.agents/
+NZ_GIS_History_Rebuild_Design_Implementation_Plan_*.md
+.env
+.env.*
+!.env.example
+wrangler.local.jsonc
+*.log
+.DS_Store

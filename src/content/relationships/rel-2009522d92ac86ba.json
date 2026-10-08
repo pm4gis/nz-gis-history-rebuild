@@ -1,0 +1,14 @@
+{
+  "a": "person:keri-niven",
+  "b": "entity:aurecon",
+  "label": "Associated with",
+  "basis": "Existing structured association. The linked accounts and public sources provide context; this link does not establish a specific role or period.",
+  "evidence": {
+    "status": "source-dataset-association-only",
+    "paragraphRefs": [],
+    "eventIds": [],
+    "basis": "Existing structured association. The linked accounts and public sources provide context; this link does not establish a specific role or period."
+  },
+  "kind": "published-association",
+  "id": "rel-2009522d92ac86ba"
+}

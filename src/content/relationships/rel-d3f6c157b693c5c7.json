@@ -1,0 +1,21 @@
+{
+  "a": "person:terry-daniel",
+  "b": "chapter:39",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "evidence": {
+    "status": "published-context-found",
+    "paragraphRefs": [
+      {
+        "sectionId": "when-the-map-acquires-height",
+        "sectionTitle": "Three dimensional mapping",
+        "url": "/book/chapter/39/from-flat-maps-to-3d/#when-the-map-acquires-height",
+        "sources": []
+      }
+    ],
+    "eventIds": [],
+    "basis": "Name matched in published prose; reading connection only"
+  },
+  "kind": "published-association",
+  "id": "rel-d3f6c157b693c5c7"
+}

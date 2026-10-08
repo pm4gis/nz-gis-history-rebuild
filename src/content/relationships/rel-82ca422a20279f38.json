@@ -1,0 +1,21 @@
+{
+  "a": "person:trent-gulliver",
+  "b": "chapter:39",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "evidence": {
+    "status": "published-context-found",
+    "paragraphRefs": [
+      {
+        "sectionId": "a-cadastre-with-volume",
+        "sectionTitle": "A cadastre with volume",
+        "url": "/book/chapter/39/from-flat-maps-to-3d/#a-cadastre-with-volume",
+        "sources": []
+      }
+    ],
+    "eventIds": [],
+    "basis": "Curated link to a relevant chapter; check event sources for specific roles"
+  },
+  "kind": "published-association",
+  "id": "rel-82ca422a20279f38"
+}

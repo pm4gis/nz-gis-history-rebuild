@@ -1,0 +1,33 @@
+{
+  "id": "entity:trimble-new-zealand",
+  "slug": "trimble-new-zealand",
+  "name": "Trimble New Zealand",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/trimble-new-zealand/",
+  "story": [
+    "Trimble’s New Zealand presence dates to 1991, when the company acquired Datacom Software Research Ltd to strengthen software for mapping, land survey and hydrographic survey. That acquisition placed New Zealand software development inside a global positioning and surveying technology company during the period when GPS and digital field systems were becoming routine professional tools.",
+    "By 2023 Trimble reported more than 400 employees in New Zealand and a Christchurch office. Its New Zealand activities sit across positioning, surveying, mapping, engineering and construction technologies, linking the country’s GIS history with the parallel development of GNSS and spatial measurement."
+  ],
+  "chapters": [
+    12,
+    18,
+    19,
+    39
+  ],
+  "aliases": [
+    "Trimble",
+    "Trimble New Zealand"
+  ],
+  "status": "GIS account available",
+  "passages": [],
+  "website": "https://www.trimble.com/",
+  "sources": [
+    {
+      "label": "Trimble, first Trimble Technology Lab in New Zealand, 12 April 2023",
+      "url": "https://news.trimble.com/2023-04-12-Trimble-Opens-First-Trimble-Technology-Lab-in-New-Zealand-at-the-University-of-Auckland"
+    }
+  ],
+  "paragraphSources": [],
+  "coverageEnd": 2026
+}

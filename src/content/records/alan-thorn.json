@@ -1,0 +1,34 @@
+{
+  "id": "person:alan-thorn",
+  "slug": "alan-thorn",
+  "name": "Alan Thorn",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/alan-thorn/",
+  "story": [
+    "At GeoComputation '97 and SIRC '97 in Dunedin, Alan Thorn, Terry Daniel and Brian Orland described using GIS data to visualise New Zealand plantation-forest management scenarios. ARC/INFO supplied geographic and terrain information, while SmartForest II, image-processing tools and powerful workstations helped produce photorealistic scenes that could be assessed by managers and the public."
+  ],
+  "chapters": [
+    39
+  ],
+  "aliases": [
+    "Alan Thorn"
+  ],
+  "status": "Account available",
+  "passages": [
+    {
+      "title": "Three dimensional mapping",
+      "url": "/book/chapter/39/from-flat-maps-to-3d/#when-the-map-acquires-height",
+      "chapter": 39,
+      "id": "when-the-map-acquires-height"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Chapter 39 · Three dimensional mapping",
+      "url": "/book/chapter/39/from-flat-maps-to-3d/#ch39-s01-p02"
+    }
+  ],
+  "paragraphSources": [],
+  "contextLinks": []
+}

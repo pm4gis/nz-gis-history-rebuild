@@ -1,0 +1,34 @@
+{
+  "id": "1998-geographx-established",
+  "dateDisplay": "1998",
+  "startDate": "1998",
+  "endDate": null,
+  "datePrecision": "year",
+  "label": "Geographx is established as a map-design studio",
+  "summary": "Roger Smith established Geographx to produce custom cartographic work and maps for New Zealand and overseas clients.",
+  "categories": [
+    "business",
+    "cartography",
+    "map-design"
+  ],
+  "chapter": 39,
+  "chapterTitle": "Mapping in 3D",
+  "sectionId": "terrain-becomes-data",
+  "sectionTitle": "Terrain becomes data",
+  "url": "/book/chapter/39/from-flat-maps-to-3d/#terrain-becomes-data",
+  "evidenceStatus": "documented-or-strongly-supported",
+  "associationLabel": "Direct record links listed for this event",
+  "year": 1998,
+  "sources": [
+    {
+      "label": "Geographx, About",
+      "url": "https://www.geographx.co.nz/about/"
+    }
+  ],
+  "relatedRecordIds": [
+    "entity:geographx"
+  ],
+  "related": [
+    "entity:geographx"
+  ]
+}

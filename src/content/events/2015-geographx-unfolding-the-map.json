@@ -1,0 +1,40 @@
+{
+  "id": "2015-geographx-unfolding-the-map",
+  "dateDisplay": "2015",
+  "startDate": "2015",
+  "endDate": null,
+  "datePrecision": "year",
+  "label": "Geographx contributes to the National Library’s Unfolding the Map",
+  "summary": "Roger Smith curated the National Library exhibition on New Zealand cartography, a collaboration with LINZ, Eagle Technology and Archives New Zealand.",
+  "categories": [
+    "cartography",
+    "exhibition",
+    "national-library"
+  ],
+  "chapter": 39,
+  "chapterTitle": "Mapping in 3D",
+  "sectionId": "terrain-becomes-data",
+  "sectionTitle": "Terrain becomes data",
+  "url": "/book/chapter/39/from-flat-maps-to-3d/#terrain-becomes-data",
+  "evidenceStatus": "documented-or-strongly-supported",
+  "associationLabel": "Direct record links listed for this event",
+  "year": 2015,
+  "sources": [
+    {
+      "label": "Geographx, About",
+      "url": "https://www.geographx.co.nz/about/"
+    }
+  ],
+  "relatedRecordIds": [
+    "entity:geographx",
+    "person:roger-smith",
+    "entity:land-information-new-zealand-linz",
+    "entity:eagle-technology"
+  ],
+  "related": [
+    "entity:geographx",
+    "person:roger-smith",
+    "entity:land-information-new-zealand-linz",
+    "entity:eagle-technology"
+  ]
+}

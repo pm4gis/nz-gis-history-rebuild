@@ -1,0 +1,44 @@
+{
+  "id": "entity:aranz-geo-seequent",
+  "slug": "aranz-geo-seequent",
+  "name": "ARANZ Geo / Seequent",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/aranz-geo-seequent/",
+  "story": [
+    "Christchurch-based ARANZ Geo developed Leapfrog, 3D geological modelling software used in mining and minerals work. In 2017 the company adopted the Seequent name as its activity expanded into geothermal and renewable energy, civil engineering and environmental management.",
+    "Bentley Systems completed its acquisition of Seequent in June 2021. Seequent retained its name and operated as a standalone business unit within Bentley, carrying New Zealand-developed geoscience software into a larger infrastructure engineering portfolio."
+  ],
+  "chapters": [
+    39
+  ],
+  "aliases": [
+    "ARANZ Geo",
+    "Seequent"
+  ],
+  "status": "GIS account available",
+  "passages": [
+    {
+      "title": "Embedded spatial systems",
+      "url": "/book/chapter/44/gis-at-the-end-of-2025/#the-gis-is-already-elsewhere",
+      "chapter": 44,
+      "id": "the-gis-is-already-elsewhere"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Seequent / Bentley corporate history and acquisition announcements",
+      "url": "https://www.seequent.com/company/about-us/"
+    },
+    {
+      "label": "Seequent, ARANZ Geo announces company name change to Seequent, 2017",
+      "url": "https://www.seequent.com/aranz-geo-announces-company-name-change-to-seequent-reflects-vision-for-the-future/"
+    },
+    {
+      "label": "Seequent, Bentley Systems acquires Seequent, 2021",
+      "url": "https://www.seequent.com/bentley-systems-acquires-seequent-ltd/"
+    }
+  ],
+  "paragraphSources": [],
+  "identityNotice": true
+}

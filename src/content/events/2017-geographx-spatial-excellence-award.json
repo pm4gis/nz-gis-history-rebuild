@@ -1,0 +1,36 @@
+{
+  "id": "2017-geographx-spatial-excellence-award",
+  "dateDisplay": "2017",
+  "startDate": "2017",
+  "endDate": null,
+  "datePrecision": "year",
+  "label": "Roger Smith receives a Spatial Excellence award",
+  "summary": "The award recognised Smith’s contribution to New Zealand’s spatial and cartographic community.",
+  "categories": [
+    "cartography",
+    "award",
+    "professional-community"
+  ],
+  "chapter": 39,
+  "chapterTitle": "Mapping in 3D",
+  "sectionId": "terrain-becomes-data",
+  "sectionTitle": "Terrain becomes data",
+  "url": "/book/chapter/39/from-flat-maps-to-3d/#terrain-becomes-data",
+  "evidenceStatus": "documented-or-strongly-supported",
+  "associationLabel": "Direct record links listed for this event",
+  "year": 2017,
+  "sources": [
+    {
+      "label": "Geographx, About",
+      "url": "https://www.geographx.co.nz/about/"
+    }
+  ],
+  "relatedRecordIds": [
+    "entity:geographx",
+    "person:roger-smith"
+  ],
+  "related": [
+    "entity:geographx",
+    "person:roger-smith"
+  ]
+}

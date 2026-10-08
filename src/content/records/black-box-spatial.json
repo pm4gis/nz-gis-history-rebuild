@@ -1,0 +1,32 @@
+{
+  "id": "entity:black-box-spatial",
+  "slug": "black-box-spatial",
+  "name": "Black Box Spatial",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/black-box-spatial/",
+  "story": [
+    "Esther Baumann used Black Box Spatial’s affiliation in GISList correspondence during 2010–11. She shared advice on mountain-range labels and annotation, and sought ArcScene symbols for New Zealand trees and vegetation. These messages document the firm’s participation in practical GIS and cartographic discussions."
+  ],
+  "chapters": [
+    29,
+    39
+  ],
+  "aliases": [
+    "Black Box Spatial"
+  ],
+  "status": "GIS account available",
+  "passages": [],
+  "sources": [
+    {
+      "label": "Esther Baumann, Black Box Spatial, GISList: Mountain Range Labels, 10 June 2010",
+      "url": ""
+    },
+    {
+      "label": "Esther Baumann, Black Box Spatial, GISList: Arc Scene - tree symbols, 3 February 2011",
+      "url": ""
+    }
+  ],
+  "paragraphSources": [],
+  "identityNotice": false
+}

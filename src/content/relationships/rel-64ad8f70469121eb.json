@@ -1,0 +1,23 @@
+{
+  "a": "entity:aam-aamhatch",
+  "b": "chapter:39",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "evidence": {
+    "status": "published-context-found",
+    "paragraphRefs": [
+      {
+        "sectionId": "buildings-meet-geography",
+        "sectionTitle": "Buildings meet geography",
+        "url": "/book/chapter/39/from-flat-maps-to-3d/#buildings-meet-geography",
+        "sources": []
+      }
+    ],
+    "eventIds": [
+      "2009-aamhatch-wellington-city-model"
+    ],
+    "basis": "Name matched in published prose; reading connection only"
+  },
+  "kind": "published-association",
+  "id": "rel-64ad8f70469121eb"
+}

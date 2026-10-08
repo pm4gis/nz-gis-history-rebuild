@@ -1,0 +1,200 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import SourceList from "../components/SourceList.astro";
+import { getCollection } from "astro:content";
+
+const [recordEntries, chapterEntries, eventEntries, relationshipEntries] = await Promise.all([
+  getCollection("records"), getCollection("chapters"), getCollection("events"), getCollection("relationships"),
+]);
+const recordById = new Map(recordEntries.map((entry) => [entry.data.id, entry.data]));
+const chapterById = new Map(chapterEntries.map((entry) => [entry.data.id, entry.data]));
+const eventById = new Map(eventEntries.map((entry) => [entry.data.id, entry.data]));
+const sampleChapter = chapterEntries[0]?.data;
+const sampleChapterNumber = sampleChapter?.number;
+const toRoute = (id) => recordById.get(id)?.url || chapterById.get(id)?.url || null;
+export async function getStaticPaths() {
+  const [pathsForRecords, pathsForChapters] = await Promise.all([
+    getCollection("records"), getCollection("chapters"),
+  ]);
+  return [
+    ...pathsForRecords.map((entry) => ({
+      params: { path: entry.data.url.replace(/^\/|\/$/g, "") },
+      props: { type: "record", id: entry.data.id },
+    })),
+    ...pathsForChapters.map((entry) => ({
+      params: { path: entry.data.url.replace(/^\/|\/$/g, "") },
+      props: { type: "chapter", id: entry.data.id },
+    })),
+  ];
+}
+const { type, id } = Astro.props;
+const record = recordById.get(id);
+const chapter = chapterById.get(id);
+const linkNames = recordEntries.map((entry) => ({ name: entry.data.name, url: entry.data.url })).sort((a, b) => b.name.length - a.name.length);
+const splitLinkedText = (text) => {
+  const parts = [];
+  let remaining = text || "";
+  while (remaining) {
+    let bestIndex = -1;
+    let bestLink = null;
+    for (const item of linkNames) {
+      const index = remaining.indexOf(item.name);
+      const before = index > 0 ? remaining[index - 1] : "";
+      const after = index >= 0 ? remaining[index + item.name.length] : "";
+      const boundary = (value) => !value || !/[\p{L}\p{N}_]/u.test(value);
+      if (index >= 0 && boundary(before) && boundary(after) &&
+        (bestIndex < 0 || index < bestIndex || (index === bestIndex && item.name.length > bestLink.name.length))) {
+        bestIndex = index;
+        bestLink = item;
+      }
+    }
+    if (!bestLink) { parts.push({ text: remaining }); break; }
+    if (bestIndex > 0) parts.push({ text: remaining.slice(0, bestIndex) });
+    parts.push({ text: bestLink.name, href: bestLink.url });
+    remaining = remaining.slice(bestIndex + bestLink.name.length);
+  }
+  return parts;
+};
+const recordRelationships = record
+  ? relationshipEntries.filter((entry) => entry.data.a === record.id || entry.data.b === record.id).map((entry) => entry.data)
+  : [];
+const recordEvents = record
+  ? eventEntries.filter((entry) => (entry.data.relatedRecordIds || entry.data.related || []).includes(record.id)).map((entry) => entry.data)
+  : [];
+const relatedIds = [...new Set(recordRelationships.map((relation) => relation.a === record?.id ? relation.b : relation.a))];
+const chapterRecords = sampleChapterNumber == null ? [] : recordEntries
+  .filter((entry) => entry.data.chapters?.includes(sampleChapterNumber) || entry.data.passages?.some((passage) => passage.chapter === sampleChapterNumber))
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+const relationTarget = (relation, recordId) => {
+  const other = relation.a === recordId ? relation.b : relation.a;
+  return { id: other, name: recordById.get(other)?.name || chapterById.get(other)?.name || other, url: toRoute(other) };
+};
+---
+{type === "chapter" && chapter ? (
+  <SiteLayout title={chapter.name + " — A History of GIS in New Zealand"} description={"Chapter " + chapter.number + ": " + chapter.name}>
+    <article class="chapter-layout">
+      <header class="chapter-head">
+        <p class="eyebrow">Part {chapter.part} · Chapter {chapter.number}</p>
+        <h1>{chapter.name}</h1>
+        <div class="chapter-meta"><span>{chapter.sections.length} narrative sections</span><span>·</span><span>{chapter.sourceNotes.length} public source notes</span></div>
+        <div class="reader-controls" role="group" aria-label="Reading layout controls">
+          <span>Text layout</span>
+          <button type="button" data-reader-control="smaller" aria-label="Make text smaller">A−</button>
+          <button type="button" data-reader-control="larger" aria-label="Make text larger">A+</button>
+          <button type="button" data-reader-control="narrower" aria-label="Narrow text column">Narrow</button>
+          <button type="button" data-reader-control="wider" aria-label="Widen text column">Wide</button>
+        </div>
+        <p class="reader-download"><a class="button-secondary" href={"/downloads/chapter-" + chapter.number + "-a5.pdf"}>Download A5 chapter PDF</a></p>
+      </header>
+      <div class="chapter-grid">
+        <nav class="chapter-toc" aria-label="Chapter sections">
+          <h2>In this chapter</h2>
+          <ol>{chapter.sections.map((section) => <li><a href={"#" + section.id}>{section.title}</a></li>)}</ol>
+        </nav>
+        <div class="chapter-copy">
+          {chapter.sections.map((section) => (
+            <section class="chapter-section" id={section.id}>
+              <h2>{section.title}</h2>
+              {section.blocks.map((block) => block.type === "figure" ? (
+                <figure class="chapter-figure">
+                  <img src={block.asset} alt={block.alt || block.caption || ""} loading="lazy" />
+                  <figcaption><strong>{block.caption}</strong>{block.source && <span> · {block.source}</span>}</figcaption>
+                </figure>
+              ) : (
+                <p id={block.id}>
+                  {splitLinkedText(block.text || block.markdown || "").map((part) => part.href ? <a href={part.href}>{part.text}</a> : part.text)}
+                  {block.sources?.length > 0 && <sup class="paragraph-source">{block.sources.map((source, index) => <span><a href={source.url || "#chapter-sources"} aria-label={"Source " + (index + 1)}>{index + 1}</a>{index < block.sources.length - 1 ? ", " : ""}</span>)}</sup>}
+                </p>
+              ))}
+            </section>
+          ))}
+          <section class="chapter-sources" id="chapter-sources">
+            <h2>Chapter source notes</h2>
+            <ol>{chapter.sourceNotes.map((note) => <li id={note.id}>{note.text}</li>)}</ol>
+            <p class="small muted">Source-note wording and section text are preserved from the published chapter.</p>
+          </section>
+          <section class="chapter-sources">
+            <h2>Records connected to this chapter</h2>
+            <ul class="record-list">{chapterRecords.map((entry) => <li><a href={entry.data.url}><span>{entry.data.name}</span><small>{entry.data.kind}</small></a></li>)}</ul>
+          </section>
+        </div>
+      </div>
+    </article>
+  </SiteLayout>
+) : record ? (
+  <SiteLayout title={record.name + " — A History of GIS in New Zealand"} description={(record.story?.[0] || record.name).slice(0, 155)}>
+    <article class="record-layout">
+      <header>
+        <p class="eyebrow">{record.category || record.kind}</p>
+        <h1 class="page-title">{record.name}</h1>
+        <p class="page-intro">{record.description || record.story?.[0] || "Published account in the Chapter " + sampleChapterNumber + " staging sample."}</p>
+        <div class="chapter-meta" style="margin-top:1rem"><span class="tag">{record.kind}</span>{record.coverageEnd && <span>Coverage through {record.coverageEnd}</span>}{record.status && <span>{record.status}</span>}</div>
+      </header>
+      <div class="record-grid">
+        <div>
+          <div class="record-story">
+          {record.identityNotice && <p class="info-card"><strong>Names and historical identity:</strong> This account includes several names. Their dates and relationships need further research to distinguish predecessors, successors, businesses and products.</p>}
+          {record.contentSections?.length ? record.contentSections.map((section) => (
+              <section>
+                <h2>{section.title}</h2>
+                {section.paragraphs?.map((paragraph) => <p>{splitLinkedText(paragraph).map((part) => part.href ? <a href={part.href}>{part.text}</a> : part.text)}</p>)}
+              </section>
+            )) : record.story?.map((paragraph) => <p>{splitLinkedText(paragraph).map((part) => part.href ? <a href={part.href}>{part.text}</a> : part.text)}</p>)}
+          </div>
+          {record.passages?.some((passage) => passage.chapter === sampleChapterNumber) && (
+            <section class="chapter-sources">
+              <h2>In the narrative</h2>
+              <ul>{record.passages.filter((passage) => passage.chapter === sampleChapterNumber).map((passage) => <li><a href={passage.url}>{passage.title}</a></li>)}</ul>
+            </section>
+          )}
+          {recordRelationships.length > 0 && (
+            <section class="chapter-sources" id="relationships">
+              <h2>Connections and their published basis</h2>
+              <p class="small muted">A connection shows how the published dataset associates two records. Read its wording and basis before treating it as a specific historical claim.</p>
+              <ul class="relationship-list">
+                {recordRelationships.map((relation) => {
+                  const target = relationTarget(relation, record.id);
+                  const contextual = relation.evidence.status === "published-context-found";
+                  return <li class="card relationship-card">
+                    <div><span class={"evidence-badge " + (contextual ? "context" : "qualified")}>{contextual ? "Published context found" : "Dataset association only"}</span></div>
+                    <p><strong>{relation.label}</strong> · {target.url ? <a href={target.url}>{target.name}</a> : target.name}</p>
+                    <p class="small">{relation.basis}</p>
+                    {relation.evidence.paragraphRefs?.map((ref) => <p class="small muted">Context: <a href={ref.url || (sampleChapter?.url + "#" + (ref.blockId || ref.sectionId))}>{ref.sectionTitle}</a>{ref.sources?.length ? " · " + ref.sources.map((source) => source.label).join("; ") : ""}</p>)}
+                    {(relation.evidence.eventIds || []).map((eventId) => {
+                      const event = eventById.get(eventId);
+                      return event && <p class="small muted">Event context: <a href={"/timeline/#event-" + event.id}>{event.dateDisplay} — {event.label}</a></p>;
+                    })}
+                  </li>;
+                })}
+              </ul>
+            </section>
+          )}
+          {recordEvents.length > 0 && (
+            <section class="chapter-sources">
+              <h2>Events in this sample</h2>
+              <ul>{recordEvents.map((event) => <li><a href={"/timeline/#event-" + event.id}>{event.dateDisplay} — {event.label}</a></li>)}</ul>
+            </section>
+          )}
+          <SourceList sources={record.sources} />
+        </div>
+        <aside class="record-sidebar" aria-label="Record details">
+          <div class="card">
+            <h2>Record details</h2>
+            <dl class="detail-list">
+              <div><dt>Publication ID</dt><dd><code>{record.id}</code></dd></div>
+              <div><dt>Public slug</dt><dd><code>{record.slug}</code></dd></div>
+              <div><dt>Record type</dt><dd>{record.kind}</dd></div>
+              {record.website && <div><dt>Website</dt><dd><a href={record.website} target="_blank" rel="noopener noreferrer">Open external site ↗</a></dd></div>}
+              <div><dt>Chapter</dt><dd><a href={sampleChapter?.url}>Chapter {sampleChapterNumber}: {sampleChapter?.name}</a></dd></div>
+            </dl>
+          </div>
+          {relatedIds.length > 0 && <div class="card"><h2>Linked records ({relatedIds.length})</h2><div class="related-links">{relatedIds.map((relatedId) => { const target = relationTarget({ a: record.id, b: relatedId }, record.id); return target.url ? <a href={target.url}>{target.name}</a> : null; })}</div><p><a href={"/network/?focus=" + encodeURIComponent(record.id)}>Open this record in the network →</a></p></div>}
+        </aside>
+      </div>
+    </article>
+  </SiteLayout>
+) : (
+  <SiteLayout title="Not found — A History of GIS in New Zealand">
+    <div class="not-found"><p class="eyebrow">Staging edition</p><h1 class="page-title">This page is not in the sample</h1><p class="page-intro">The full publication remains available at <a href="https://history.pm4gis.nz">history.pm4gis.nz</a>.</p><p><a class="button" href="/browse/">Browse this sample</a></p></div>
+  </SiteLayout>
+)}

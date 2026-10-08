@@ -1,0 +1,33 @@
+{
+  "id": "person:jane-forsyth",
+  "slug": "jane-forsyth",
+  "name": "Jane Forsyth",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jane-forsyth/",
+  "story": [
+    "Jane Forsyth compiled the southern South Island, Stewart Island and subantarctic geology for GNS Science’s 1:1 million national map. Its service credits also name her among the QMAP sheet compilers."
+  ],
+  "chapters": [
+    9,
+    36,
+    39
+  ],
+  "aliases": [
+    "Jane Forsyth"
+  ],
+  "status": "Account available",
+  "passages": [],
+  "sources": [
+    {
+      "label": "GNS/Earth Sciences NZ 1:250 000 Geological Map and QMAP history",
+      "url": "https://www.gns.cri.nz/data-and-resources/1250-000-geological-map/"
+    },
+    {
+      "label": "GNS Science, 1:1 million Geological Map service: compilation and digital-production credits",
+      "url": "https://gis.gns.cri.nz/server/rest/services/Geological_Map_of_New_Zealand_1_Million/NZL_GNS_1M_geology_FeatureService/FeatureServer"
+    }
+  ],
+  "paragraphSources": [],
+  "contextLinks": []
+}

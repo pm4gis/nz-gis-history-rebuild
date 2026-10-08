@@ -1,0 +1,30 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import { getCollection } from "astro:content";
+
+const entries = await getCollection("records");
+const chapters = await getCollection("chapters");
+const chapter = chapters[0]?.data;
+const groups = [
+  { label: "People", kinds: ["Person"] },
+  { label: "Organisations and agencies", kinds: ["Organisation", "Agency", "Council"] },
+  { label: "Businesses", kinds: ["Business", "Company"] },
+  { label: "Systems, projects and technologies", kinds: ["System", "Project", "Technology"] },
+];
+const recordsFor = (group) => entries.filter((entry) => group.kinds.includes(entry.data.kind)).sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+<SiteLayout title="Browse records — A History of GIS in New Zealand">
+  <section class="page-wrap">
+    <p class="eyebrow">Published records · Chapter {chapter?.number} sample</p>
+    <h1 class="page-title">Browse the collection</h1>
+    <p class="page-intro">Each account has a stable public identifier and address. Follow its sources, events and links to other records.</p>
+    <div class="browse-sections">
+      {groups.map((group) => (
+        <section class="browse-section">
+          <h2>{group.label} <span class="muted">({recordsFor(group).length})</span></h2>
+          <ul>{recordsFor(group).map((entry) => <li><a href={entry.data.url}><span>{entry.data.name}</span><span aria-hidden="true">↗</span></a></li>)}</ul>
+        </section>
+      ))}
+    </div>
+  </section>
+</SiteLayout>

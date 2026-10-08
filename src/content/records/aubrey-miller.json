@@ -1,0 +1,33 @@
+{
+  "id": "person:aubrey-miller",
+  "slug": "aubrey-miller",
+  "name": "Aubrey Miller",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/aubrey-miller/",
+  "story": [
+    "Aubrey Miller is a University of Otago geospatial educator and practitioner. Otago identifies him as a Senior Professional Practice Fellow teaching GIS, spatial analysis, programming and remote sensing, managing the Spatial Software Laboratory and convening GIS@Otago. The 2018 New Zealand Esri User Conference also records his presentation on moving BIM information into GIS for three-dimensional use."
+  ],
+  "chapters": [
+    11,
+    29,
+    39
+  ],
+  "aliases": [
+    "Aubrey Miller"
+  ],
+  "status": "Account available",
+  "passages": [],
+  "sources": [
+    {
+      "label": "University of Otago, Aubrey Miller staff profile",
+      "url": "https://www.otago.ac.nz/surveying/staff/mr-aubrey-miller"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    }
+  ],
+  "paragraphSources": [],
+  "contextLinks": []
+}

@@ -1,0 +1,21 @@
+{
+  "a": "person:chris-scott",
+  "b": "chapter:39",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "evidence": {
+    "status": "published-context-found",
+    "paragraphRefs": [
+      {
+        "sectionId": "infrastructure-in-three-dimensions",
+        "sectionTitle": "Infrastructure in three dimensions",
+        "url": "/book/chapter/39/from-flat-maps-to-3d/#infrastructure-in-three-dimensions",
+        "sources": []
+      }
+    ],
+    "eventIds": [],
+    "basis": "Name matched in published prose; reading connection only"
+  },
+  "kind": "published-association",
+  "id": "rel-07fc605a32554ec1"
+}

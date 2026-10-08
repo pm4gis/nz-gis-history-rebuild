@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nzgis-history-editor-auth",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "vars": {
+    "ALLOWED_GITHUB_LOGIN": "pm4gis",
+    "CMS_ORIGINS": "https://gishistory.pm4gis.nz",
+    "CALLBACK_URL": "https://nzgis-history-editor-auth.workers.dev/callback"
+  }
+}

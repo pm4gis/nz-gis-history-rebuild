@@ -1,0 +1,14 @@
+{
+  "a": "entity:boffa-miskell",
+  "b": "chapter:39",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "evidence": {
+    "status": "source-dataset-association-only",
+    "paragraphRefs": [],
+    "eventIds": [],
+    "basis": "Curated link to a relevant chapter; check event sources for specific roles"
+  },
+  "kind": "published-association",
+  "id": "rel-9f7f183695898d85"
+}

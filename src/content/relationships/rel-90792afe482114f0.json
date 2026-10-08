@@ -1,0 +1,21 @@
+{
+  "a": "person:james-brasington",
+  "b": "chapter:39",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "evidence": {
+    "status": "published-context-found",
+    "paragraphRefs": [
+      {
+        "sectionId": "point-clouds-become-normal",
+        "sectionTitle": "Point clouds become normal",
+        "url": "/book/chapter/39/from-flat-maps-to-3d/#point-clouds-become-normal",
+        "sources": []
+      }
+    ],
+    "eventIds": [],
+    "basis": "Name matched in published prose; reading connection only"
+  },
+  "kind": "published-association",
+  "id": "rel-90792afe482114f0"
+}

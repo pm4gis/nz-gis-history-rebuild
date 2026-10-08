@@ -1,0 +1,94 @@
+---
+import "../styles/site.css";
+import { getCollection } from "astro:content";
+import provenance from "../content/provenance.json";
+
+const [chapters, records] = await Promise.all([getCollection("chapters"), getCollection("records")]);
+const sampleChapter = chapters[0]?.data;
+
+const {
+  title = "A History of GIS in New Zealand",
+  description = "A linked, evidence-led history of geographic information systems in Aotearoa New Zealand.",
+  noindex = false,
+  pageClass = "",
+} = Astro.props;
+const activePath = Astro.url.pathname;
+const navigation = [
+  { label: "Read", href: sampleChapter?.url || "/" },
+  { label: "Network", href: "/network/" },
+  { label: "Timeline", href: "/timeline/" },
+  { label: "Browse", href: "/browse/" },
+  { label: "Search", href: "/search/" },
+];
+---
+<!doctype html>
+<html lang="en-NZ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <meta name="theme-color" content="#f5f4ef" />
+    <title>{title}</title>
+  </head>
+  <body class={pageClass}>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="staging-banner"><span>STAGING EDITION</span><span>{sampleChapter?.name} · {records.length} public accounts</span></div>
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label="A History of GIS in New Zealand, home">
+        <span class="wordmark-mark" aria-hidden="true">NZ<span>GIS</span></span>
+        <span class="wordmark-name">A History of GIS<br />in New Zealand</span>
+      </a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        {navigation.map((item) => (
+          <a href={item.href} aria-current={activePath === item.href || (item.href !== "/" && activePath.startsWith(item.href)) ? "page" : undefined}>{item.label}</a>
+        ))}
+      </nav>
+      <a class="header-search" href="/search/" aria-label="Search the publication"><span aria-hidden="true">⌕</span></a>
+    </header>
+    <main id="main" data-pagefind-body>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="footer-brand"><strong>A History of GIS in New Zealand</strong><span>Staging edition from the {provenance.canonicalRelease} public release.</span></div>
+      <div class="footer-links"><a href="/about/">About this staging slice</a><a href="/search/">Search</a><a href="/network/">Explore the network</a></div>
+      <p class="footer-note">Public sample. The live publication and its routes are unchanged.</p>
+    </footer>
+    <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+    <script>
+      const storageKey = "nzgis-reader-settings-v1";
+      const defaults = { size: 19, width: 68, leading: 1.72 };
+      const readSettings = () => {
+        try { return { ...defaults, ...JSON.parse(localStorage.getItem(storageKey) || "{}") }; }
+        catch { return defaults; }
+      };
+      const applySettings = (settings) => {
+        document.documentElement.style.setProperty("--reader-size", settings.size + "px");
+        document.documentElement.style.setProperty("--reader-width", settings.width + "ch");
+        document.documentElement.style.setProperty("--reader-leading", settings.leading);
+      };
+      let settings = readSettings();
+      applySettings(settings);
+      document.querySelectorAll<HTMLButtonElement>("[data-reader-control]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const control = button.dataset.readerControl;
+          if (control === "larger") settings.size = Math.min(24, settings.size + 1);
+          if (control === "smaller") settings.size = Math.max(16, settings.size - 1);
+          if (control === "wider") settings.width = Math.min(82, settings.width + 4);
+          if (control === "narrower") settings.width = Math.max(56, settings.width - 4);
+          applySettings(settings);
+          localStorage.setItem(storageKey, JSON.stringify(settings));
+        });
+      });
+      const progress = document.getElementById("reading-progress");
+      const updateProgress = () => {
+        if (!progress) return;
+        const room = document.documentElement.scrollHeight - window.innerHeight;
+        progress.style.transform = "scaleX(" + (room > 0 ? window.scrollY / room : 0) + ")";
+      };
+      window.addEventListener("scroll", updateProgress, { passive: true });
+      window.addEventListener("resize", updateProgress);
+      updateProgress();
+    </script>
+  </body>
+</html>

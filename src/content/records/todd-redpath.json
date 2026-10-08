@@ -1,0 +1,33 @@
+{
+  "id": "person:todd-redpath",
+  "slug": "todd-redpath",
+  "name": "Todd Redpath",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/todd-redpath/",
+  "story": [
+    "Todd Redpath’s University of Otago research used remote sensing to study Tasman Glacier flow fields and later seasonal snow distribution. He also worked with the Mountain Research Centre and co-convened the 2019 GIS@Otago Symposium with Aubrey Miller."
+  ],
+  "chapters": [
+    11,
+    36,
+    39
+  ],
+  "aliases": [
+    "Todd Redpath"
+  ],
+  "status": "Account available",
+  "passages": [],
+  "sources": [
+    {
+      "label": "University of Otago, Surveying postgraduate research",
+      "url": "https://www.otago.ac.nz/surveying/research/postgraduate"
+    },
+    {
+      "label": "University of Otago Mountain Research Centre",
+      "url": "https://www.otago.ac.nz/surveying/potree/pub/mrc/about"
+    }
+  ],
+  "paragraphSources": [],
+  "contextLinks": []
+}
