@@ -246,7 +246,10 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       for (const node of nodes) {
         const point = positions.get(node.id);
         const highlighted = pathNodeIds.includes(node.id) || selectedNodeId === node.id;
-        const group = svgElement("g", { class: "network-svg-node", tabindex: "0", role: "button", "aria-label": `Inspect ${node.label}` });
+        const group = svgElement("g", { class: "network-svg-node" + (highlighted ? " is-highlighted" : ""), tabindex: "0", role: "button", "aria-label": `Inspect ${node.label}` });
+        const title = svgElement("title");
+        title.textContent = node.label;
+        group.append(title);
         group.append(svgElement("circle", { cx: point.x, cy: point.y, r: highlighted ? 10 : 7, fill: highlighted ? "#d18432" : (palette[node.kind] || "#688274"), stroke: "#fcfcf8", "stroke-width": 2 }));
         const label = svgElement("text", { x: point.x, y: point.y + (point.y < 350 ? -14 : 23), "text-anchor": "middle" });
         label.textContent = node.label.length > 22 ? node.label.slice(0, 20) + "…" : node.label;
@@ -256,7 +259,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
         svg.append(group);
       }
       graphElement.append(svg);
-      document.getElementById("graph-help").textContent = "Click or use Tab and Enter on a node or connection to inspect it";
+      document.getElementById("graph-help").textContent = "Hover or use Tab to name a node · Click or press Enter to inspect it";
     };
     const updateGraph = () => {
       const { nodes, edges } = getVisible();

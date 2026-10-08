@@ -2,7 +2,7 @@ backend:
   name: github
   repo: pm4gis/nz-gis-history-rebuild
   branch: main
-  base_url: https://nzgis-history-editor-auth.duane-wilkins.workers.dev
+  base_url: https://auth.gishistory.pm4gis.nz
   auth_endpoint: auth
   api_root: https://api.github.com
   squash_merges: true

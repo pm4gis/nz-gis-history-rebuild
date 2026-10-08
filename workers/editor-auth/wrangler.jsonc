@@ -7,6 +7,6 @@
   "vars": {
     "ALLOWED_GITHUB_LOGIN": "pm4gis",
     "CMS_ORIGINS": "https://gishistory.pm4gis.nz",
-    "CALLBACK_URL": "https://nzgis-history-editor-auth.duane-wilkins.workers.dev/callback"
+    "CALLBACK_URL": "https://auth.gishistory.pm4gis.nz/callback"
   }
 }
