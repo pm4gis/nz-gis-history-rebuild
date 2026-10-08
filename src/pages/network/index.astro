@@ -109,6 +109,13 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     let pathEdgeIds = [];
     let selectedNodeId = "";
     let selectedEdgeId = "";
+    const svgNamespace = "http://www.w3.org/2000/svg";
+    const webglAvailable = (() => {
+      try {
+        const canvas = document.createElement("canvas");
+        return Boolean(canvas.getContext("webgl2") || canvas.getContext("webgl"));
+      } catch { return false; }
+    })();
 
     fromInput.min = String(minYear);
     fromInput.max = String(maxYear);
@@ -212,10 +219,55 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       const next = window.location.pathname + (state.toString() ? "?" + state.toString() : "");
       window.history.replaceState({}, "", next);
     };
+    const svgElement = (tag, attributes = {}) => {
+      const element = document.createElementNS(svgNamespace, tag);
+      for (const [name, value] of Object.entries(attributes)) element.setAttribute(name, String(value));
+      return element;
+    };
+    const renderSvgFallback = (nodes, edges) => {
+      graphElement.replaceChildren();
+      const svg = svgElement("svg", { viewBox: "0 0 1000 700", preserveAspectRatio: "xMidYMid meet", class: "network-svg" });
+      const positions = new Map(nodes.map((node, index) => {
+        const angle = 2 * Math.PI * index / Math.max(nodes.length, 1) - Math.PI / 2;
+        return [node.id, { x: 500 + Math.cos(angle) * 370, y: 350 + Math.sin(angle) * 260 }];
+      }));
+      for (const edge of edges) {
+        const a = positions.get(edge.a);
+        const b = positions.get(edge.b);
+        if (!a || !b) continue;
+        const highlighted = pathEdgeIds.includes(edge.id) || selectedEdgeId === edge.id;
+        const group = svgElement("g", { class: "network-svg-edge", tabindex: "0", role: "button", "aria-label": `${nodeById.get(edge.a)?.label} ${edge.label} ${nodeById.get(edge.b)?.label}` });
+        group.append(svgElement("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, stroke: highlighted ? "#d18432" : "#b8c6bc", "stroke-width": highlighted ? 3 : 1.3 }));
+        group.append(svgElement("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, stroke: "transparent", "stroke-width": 12 }));
+        group.addEventListener("click", () => showEdge(edge.id));
+        group.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showEdge(edge.id); } });
+        svg.append(group);
+      }
+      for (const node of nodes) {
+        const point = positions.get(node.id);
+        const highlighted = pathNodeIds.includes(node.id) || selectedNodeId === node.id;
+        const group = svgElement("g", { class: "network-svg-node", tabindex: "0", role: "button", "aria-label": `Inspect ${node.label}` });
+        group.append(svgElement("circle", { cx: point.x, cy: point.y, r: highlighted ? 10 : 7, fill: highlighted ? "#d18432" : (palette[node.kind] || "#688274"), stroke: "#fcfcf8", "stroke-width": 2 }));
+        const label = svgElement("text", { x: point.x, y: point.y + (point.y < 350 ? -14 : 23), "text-anchor": "middle" });
+        label.textContent = node.label.length > 22 ? node.label.slice(0, 20) + "…" : node.label;
+        group.append(label);
+        group.addEventListener("click", () => showNode(node.id));
+        group.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showNode(node.id); } });
+        svg.append(group);
+      }
+      graphElement.append(svg);
+      document.getElementById("graph-help").textContent = "Click or use Tab and Enter on a node or connection to inspect it";
+    };
     const updateGraph = () => {
       const { nodes, edges } = getVisible();
       visibleEdges = edges;
-      if (renderer) renderer.kill();
+      if (renderer) { renderer.kill(); renderer = null; }
+      graphElement.replaceChildren();
+      if (!webglAvailable) {
+        renderSvgFallback(nodes, edges);
+        status.textContent = nodes.length + " visible records · " + edges.length + " visible links";
+        return;
+      }
       const graph = new MultiUndirectedGraph();
       nodes.forEach((node, index) => {
         const angle = (2 * Math.PI * index) / nodes.length - Math.PI / 2;
@@ -237,7 +289,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
           });
         }
       });
-      renderer = new Sigma(graph, graphElement, {
+      try { renderer = new Sigma(graph, graphElement, {
         renderEdgeLabels: false,
         labelRenderedSizeThreshold: 7,
         labelDensity: 0.08,
@@ -249,6 +301,11 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       });
       renderer.on("clickNode", ({ node }) => showNode(node));
       renderer.on("clickEdge", ({ edge }) => showEdge(edge));
+      } catch (error) {
+        console.warn("WebGL network rendering unavailable; using SVG view.", error);
+        renderer = null;
+        renderSvgFallback(nodes, edges);
+      }
       status.textContent = nodes.length + " visible records · " + edges.length + " visible links";
     };
     const findPath = () => {

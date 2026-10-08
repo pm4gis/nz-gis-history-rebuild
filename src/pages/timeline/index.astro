@@ -28,12 +28,14 @@ const precisionLabels = { day: "exact day recorded", month: "month recorded", ye
     <ol class="timeline-list" id="timeline-list">
       {events.map((event) => {
         const linked = [...new Set(event.relatedRecordIds || event.related || [])];
+        const publicLinked = linked.filter((id) => recordById.has(id));
+        const otherCount = linked.length - publicLinked.length;
         return <li class="timeline-item card" id={"event-" + event.id} data-year={event.year} data-precision={event.datePrecision} data-records={linked.join("|")}>
           <div class="timeline-date">{event.dateDisplay}<span class="precision-note">{precisionLabels[event.datePrecision] || "recorded date precision"}</span></div>
           <h2>{event.label}</h2>
           <p>{event.summary}</p>
           <p class="small muted">Evidence status: {event.evidenceStatus || "not specified in the release"} · {event.associationLabel || "Related records listed in the publication"}</p>
-          <div class="event-records">{linked.map((id) => recordById.has(id) ? <a href={recordById.get(id).url}>{recordById.get(id).name}</a> : <span class="tag">{id}</span>)}</div>
+          <div class="event-records">{publicLinked.map((id) => <a href={recordById.get(id).url}>{recordById.get(id).name}</a>)}{otherCount > 0 && <span class="small muted">{otherCount} other {otherCount === 1 ? "record" : "records"} in the full publication</span>}</div>
           <details><summary class="small">Sources</summary><SourceList sources={event.sources} heading="Event sources" /></details>
         </li>;
       })}

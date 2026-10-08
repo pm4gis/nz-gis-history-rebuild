@@ -157,6 +157,11 @@ main { min-height: 65vh; }
 .network-workspace { display: grid; grid-template-columns: minmax(0, 1fr) 310px; gap: .9rem; align-items: stretch; min-height: 590px; }
 .graph-frame { position: relative; min-height: 590px; background: #fcfcf8; border: 1px solid var(--line); border-radius: .5rem; overflow: hidden; }
 #graph { position: absolute; inset: 0; }
+.network-svg { width: 100%; height: 100%; display: block; }
+.network-svg-node, .network-svg-edge { cursor: pointer; outline: none; }
+.network-svg-node text { font: 12px system-ui, sans-serif; fill: #284539; paint-order: stroke; stroke: #fcfcf8; stroke-width: 3px; stroke-linejoin: round; }
+.network-svg-node:focus-visible circle { stroke: #172a23; stroke-width: 4px; }
+.network-svg-edge:focus-visible line:first-child { stroke: #172a23; stroke-width: 4px; }
 .graph-overlay { position: absolute; top: .7rem; left: .7rem; display: flex; gap: .4rem; align-items: center; padding: .4rem .55rem; background: rgb(255 254 250 / .94); border: 1px solid var(--line); border-radius: .35rem; font-size: .7rem; }
 .graph-status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); }
 .graph-panel { max-height: 690px; overflow: auto; padding: 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: .5rem; }
