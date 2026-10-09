@@ -243,7 +243,7 @@ html[data-palette="light-paper"] {
   --on-accent: #ffffff;
   --on-ink: #ffffff;
   --link-hover: #0b4235;
-  --field-border: #a3b6ab;
+  --field-border: #758b80;
   --glow-a: rgb(64 135 102 / .13);
   --glow-b: rgb(181 121 48 / .1);
   --hero-a: #122c26;
@@ -289,7 +289,7 @@ html[data-palette="light-mist"] {
   --on-accent: #ffffff;
   --on-ink: #ffffff;
   --link-hover: #123956;
-  --field-border: #a9bacc;
+  --field-border: #788b9f;
   --glow-a: rgb(83 137 205 / .15);
   --glow-b: rgb(146 171 210 / .12);
   --hero-a: #182a44;

@@ -58,6 +58,11 @@ for (const name of names) {
         ratio(t[foreground], t[background]).toFixed(2) + ")");
     }
   });
+  test(name + " form control boundaries meet non-text contrast", () => {
+    const t = palette(name);
+    assert.ok(ratio(t["field-border"], t.surface) >= 3,
+      name + " form field border is below 3:1 against its surface");
+  });
   test(name + " graph nodes, connections and selection meet non-text contrast", () => {
     const t = palette(name);
     for (const kind of [
