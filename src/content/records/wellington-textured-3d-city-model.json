@@ -1,0 +1,19 @@
+{
+  "id": "project:wellington-textured-3d-city-model",
+  "slug": "wellington-textured-3d-city-model",
+  "name": "Wellington textured 3D city model",
+  "kind": "Project",
+  "category": "3D mapping",
+  "url": "/projects/wellington-textured-3d-city-model/",
+  "description": "AAMHatch’s 2009 textured 3D city model of Wellington.",
+  "story": [
+    "AAMHatch produced Wellington’s textured 3D city model in 2009 using aerial imagery and building models."
+  ],
+  "themeIds": ["theme:3d-mapping"],
+  "sources": [
+    {
+      "label": "GIM International, Textured 3D City Model for Wellington",
+      "url": "https://www.gim-international.com/content/news/textured-3d-city-model-for-wellington"
+    }
+  ]
+}

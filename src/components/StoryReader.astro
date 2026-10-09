@@ -1,0 +1,147 @@
+---
+interface Props {
+  article: any;
+  passages?: any[];
+  themes?: any[];
+  records?: any[];
+  events?: any[];
+  relationships?: any[];
+  compact?: boolean;
+}
+const { article, passages = [], themes = [], records = [], events = [], relationships = [], compact = false } = Astro.props as Props;
+const recordById = new Map<string, any>(records.map((record) => [record.id, record] as const));
+const recordIds = [...new Set(passages.flatMap((passage) => passage.recordIds || []))];
+const linkedRecords = recordIds.map((id) => recordById.get(id)).filter(Boolean);
+const linkedEvents = events.filter((event) => (event.passageIds || []).some((id) => passages.some((passage) => passage.id === id)));
+const relevantRelationships = relationships.filter((item) => recordIds.includes(item.a) && recordIds.includes(item.b));
+const themeById = new Map<string, any>(themes.map((theme) => [theme.id, theme] as const));
+const positions = [[50, 18], [18, 76], [82, 76], [50, 55]];
+const graphLinks = relevantRelationships.map((relation) => ({
+  relation,
+  a: linkedRecords.findIndex((record) => record.id === relation.a),
+  b: linkedRecords.findIndex((record) => record.id === relation.b),
+})).filter((edge) => edge.a >= 0 && edge.b >= 0);
+const formatDate = (value) => new Date(value + "T00:00:00Z").toLocaleDateString("en-NZ", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+const eventHref = (event) => {
+  if (event.url) return event.url;
+  const passage = (event.passageIds || []).map((id) => passages.find((item) => item.id === id)).find(Boolean);
+  return passage ? `${article.url}#${passage.slug}` : "/timeline/";
+};
+---
+
+<section class="reader-workspace" data-reader-workspace data-article-id={article.id}>
+  <header class="story-heading">
+    <div class="story-heading-topline">
+      <p class="eyebrow">A linked history <span aria-hidden="true">/</span> Story</p>
+      <span class="updated-stamp"><span class="pulse-mark" aria-hidden="true"></span> Updated {formatDate(article.updatedAt)}</span>
+    </div>
+    <h1>{article.title}</h1>
+    <p class="story-summary">{article.summary}</p>
+    <div class="story-heading-meta">
+      <span>{passages.length} passages</span>
+      <span>{linkedRecords.length} linked records</span>
+      <span>{linkedEvents.length} timeline moments</span>
+    </div>
+  </header>
+
+  <div class="reader-grid">
+    <article class="narrative-column" aria-label="Story">
+      {passages.map((passage, index) => (
+        <section
+          class="reading-passage"
+          id={passage.slug}
+          data-passage-id={passage.id}
+          data-theme-ids={(passage.themeIds || []).join(" ")}
+          tabindex="-1"
+        >
+          <div class="passage-heading">
+            <span class="passage-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
+            <div>
+              <p class="passage-date">{linkedEvents.find((event) => (event.passageIds || []).includes(passage.id))?.dateDisplay || ""}</p>
+              <h2>{passage.title}</h2>
+            </div>
+          </div>
+          <div class="passage-copy">
+            {passage.paragraphs.map((paragraph) => (
+              <p>{paragraph.text}</p>
+            ))}
+          </div>
+          <div class="passage-foot">
+            <details class="passage-sources">
+              <summary>Sources <span>{passage.paragraphs.reduce((count, paragraph) => count + (paragraph.sources?.length || 0), 0)}</span></summary>
+              <ol>
+                {passage.paragraphs.flatMap((paragraph) => paragraph.sources || []).map((source) => (
+                  <li>{source.url ? <a href={source.url} target="_blank" rel="noopener noreferrer">{source.label}<span aria-hidden="true"> ↗</span></a> : <span>{source.label}</span>}</li>
+                ))}
+              </ol>
+            </details>
+            <div class="passage-links" aria-label="Linked records">
+              {(passage.recordIds || []).map((recordId) => {
+                const record = recordById.get(recordId);
+                return record && <a class="inline-record-link" href={record.url}>{record.name}<span aria-hidden="true"> ↗</span></a>;
+              })}
+            </div>
+          </div>
+        </section>
+      ))}
+      {!compact && <p class="reader-endnote">You’re at the end of this story. Follow a linked record, choose a theme above, or move through time with the timeline below.</p>}
+    </article>
+
+    <aside class="reader-context" aria-label="Story connections">
+      <div class="context-card context-network-card">
+        <div class="context-card-heading">
+          <div><p class="eyebrow">Around this story</p><h2>Connected records</h2></div>
+          <a class="icon-link" href="/network/" aria-label="Open the full network">↗</a>
+        </div>
+        {linkedRecords.length > 0 ? (
+          <div class="context-network" aria-label="A small network of records linked in this story">
+            <svg viewBox="0 0 100 100" role="img" aria-label="Lines connect the records listed below">
+              {graphLinks.map((edge) => {
+                const start = positions[edge.a % positions.length];
+                const end = positions[edge.b % positions.length];
+                return <g class="context-edge"><line x1={start[0]} y1={start[1]} x2={end[0]} y2={end[1]} /><circle class="edge-dot" r="1.3" cx={(start[0] + end[0]) / 2} cy={(start[1] + end[1]) / 2} /></g>;
+              })}
+            </svg>
+            {linkedRecords.slice(0, positions.length).map((record, index) => {
+              const point = positions[index];
+              return <a class="context-node" style={`--x:${point[0]}%;--y:${point[1]}%`} href={record.url} title={`${record.name} · ${record.kind}`}>
+                <span class="node-dot" aria-hidden="true"></span><span class="node-label">{record.name}</span>
+              </a>;
+            })}
+          </div>
+        ) : <p class="muted">No linked records in this story yet.</p>}
+        <ul class="relationship-legend">
+          {relevantRelationships.map((relation) => {
+            const a = recordById.get(relation.a);
+            const b = recordById.get(relation.b);
+            return <li><span class="relationship-line" aria-hidden="true"></span><span><a href={a?.url}>{a?.name}</a> <strong>{relation.label}</strong> <a href={b?.url}>{b?.name}</a></span></li>;
+          })}
+        </ul>
+        <a class="text-link" href="/network/">Explore the full network <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="context-card theme-card">
+        <p class="eyebrow">Choose a lens</p>
+        <h2>Read by theme</h2>
+        <p>Turn themes on in the header to shape this story and its timeline.</p>
+        <div class="theme-tags">
+          {(article.themeIds || []).map((id) => themeById.get(id)).filter(Boolean).map((theme) => (
+            <span class="theme-tag" style={`--theme-color:${theme.color || "#55b9a7"}`}>{theme.title}</span>
+          ))}
+        </div>
+      </div>
+
+      {linkedEvents.length > 0 && <div class="context-card next-moment-card">
+        <p class="eyebrow">In time</p>
+        <h2>Next moments</h2>
+        <ol>
+          {linkedEvents.map((event) => <li data-theme-ids={(event.themeIds || []).join(" ")}>
+            <span class="moment-year">{event.dateDisplay}</span>
+            <a href={eventHref(event)}>{event.label}</a>
+            <small>{event.datePrecision === "year" ? "Year-level date" : event.datePrecision + " precision"}</small>
+          </li>)}
+        </ol>
+      </div>}
+    </aside>
+  </div>
+</section>

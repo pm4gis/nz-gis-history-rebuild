@@ -1,16 +1,7 @@
 ---
-import { getCollection } from "astro:content";
 const { sources = [], heading = "Sources" } = Astro.props;
 const usableSources = Array.isArray(sources) ? sources.filter((item) => item && item.label) : [];
-const [records, chapters] = await Promise.all([getCollection("records"), getCollection("chapters")]);
-const localPaths = new Set([...records.map((entry) => entry.data.url), ...chapters.map((entry) => entry.data.url)]);
-const hrefFor = (url) => {
-  if (!url) return "";
-  if (!url.startsWith("/")) return url;
-  const path = url.split("#")[0];
-  const local = localPaths.has(path) || localPaths.has(path.endsWith("/") ? path : path + "/");
-  return local ? url : "https://history.pm4gis.nz" + url;
-};
+const hrefFor = (url?: string) => url || "";
 ---
 <section class="source-list" aria-label={heading}>
   <h3>{heading}</h3>

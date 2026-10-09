@@ -1,33 +1,33 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import provenance from "../../content/provenance.json";
 import { getCollection } from "astro:content";
 
-const chapter = (await getCollection("chapters"))[0]?.data;
-const records = await getCollection("records");
-const events = await getCollection("events");
-const relationships = await getCollection("relationships");
+const [articles, passages, records, events, relationships, themes, images] = await Promise.all([
+  getCollection("articles"), getCollection("passages"), getCollection("records"), getCollection("events"),
+  getCollection("relationships"), getCollection("themes"), getCollection("images"),
+]);
 ---
-<SiteLayout title="About this staging slice — A History of GIS in New Zealand">
-  <section class="page-wrap">
-    <p class="eyebrow">About this build</p>
-    <h1 class="page-title">A small sample from the live history</h1>
-    <p class="page-intro">This staging site rebuilds the publication around linked public records. It is not a replacement for the live site and does not change its domain or routes.</p>
-    <div class="record-story" style="margin-top:2rem">
-      <h2>What is included</h2>
-      <p>Chapter {chapter?.number}, “{chapter?.name}”, is preserved with all {chapter?.sections.length} sections, its public source notes and cited image credits. The sample contains {records.length} linked public records, {events.length} events and {relationships.length} published links from the live snapshot dated {provenance.extractedAt}.</p>
-      <p>Record IDs, slugs, public text, published citations, event dates and relationship wording come from the live publication. The export excludes private research and editorial datasets, internal source-register identifiers, contributor contact details and private asset-storage metadata.</p>
-      <h2>How to read network links</h2>
-      <p>Eight relationships in this sample have a matching chapter or event context. The remaining links preserve the published dataset’s association and qualification, but do not contain edge-level citation records. The site labels them accordingly and does not claim they establish employment, collaboration or causation.</p>
-      <h2>Editorial and deployment status</h2>
-      <p>Decap CMS is configured for GitHub editorial branches and pull requests. A Cloudflare OAuth Worker is included as a separate deployable component. Production credentials are intentionally absent from this public repository. A Cloudflare Pages pull-request preview is the target deployment; no live custom domain is configured here.</p>
-      <h2>Release reference</h2>
-      <dl class="detail-list">
-        <div><dt>Public source</dt><dd>{provenance.canonicalRelease}</dd></div>
-        <div><dt>Sample chapter</dt><dd>{provenance.sampleChapterId}</dd></div>
-        <div><dt>Sanitized content checksum</dt><dd><code>{provenance.sanitizedContentSha256}</code></dd></div>
-        <div><dt>Sample</dt><dd>{records.length} public records, {events.length} events and {relationships.length} relationship records.</dd></div>
-      </dl>
+<SiteLayout title="About — A History of GIS in New Zealand" description="How the reader, connected content and editing workflow fit together.">
+  <section class="page-wrap about-page">
+    <p class="eyebrow">About this reader</p>
+    <h1 class="page-title">A history that can keep growing</h1>
+    <p class="page-intro">Stories lead. Linked records, themes, dates and images give readers other paths through the same changing collection.</p>
+    <div class="about-counts" aria-label="Current sample size">
+      <div><strong>{articles.length}</strong><span>stories</span></div><div><strong>{passages.length}</strong><span>passages</span></div>
+      <div><strong>{records.length}</strong><span>records</span></div><div><strong>{events.length}</strong><span>events</span></div>
+      <div><strong>{relationships.length}</strong><span>connections</span></div><div><strong>{themes.length}</strong><span>themes</span></div><div><strong>{images.length}</strong><span>images</span></div>
+    </div>
+    <div class="about-copy">
+      <h2>Reading and navigation</h2>
+      <p>The opening reader uses the published AAM / AAMHatch and NorthSouth GIS NZ account. Theme choices filter passages and timeline moments. Timeline events jump to their related passages. The small contextual network stays beside the narrative; the larger Network view is optional.</p>
+      <p>Your reading position and selected skin are stored in this browser. The timeline retains the date precision recorded with each event. A year-level date is labelled as a year.</p>
+      <h2>Content updates</h2>
+      <p>Editors add stories and passages as separate entries in the editing workspace. A passage links to records and themes. An event links to one or more passages, and a relationship links two records. New content appears after a reviewed site build. The model has no preset story or passage count.</p>
+      <p>Images are local copies only where reuse terms allow it. Each image page records the source, credit and licence so the reading text stays uncluttered.</p>
+      <h2>Suggest an update</h2>
+      <p>There is no public submission form. Use the email link at the bottom of the page. It opens with the page address and prompts for the suggested change, source or memory, and related people or organisations.</p>
+      <h2>Preview status</h2>
+      <p>This clean-slate staging build is a small structural sample. The existing live publication remains unchanged. No deployment or production cutover is included in this work.</p>
     </div>
   </section>
 </SiteLayout>

@@ -1,0 +1,11 @@
+{
+  "id": "rel-sample-aam-acquires-northsouth",
+  "a": "entity:aam-aamhatch",
+  "b": "entity:northsouth-gis-nz",
+  "label": "acquired",
+  "basis": "The published account records AAM’s 2014 acquisition of NorthSouth GIS NZ.",
+  "passageIds": ["passage:aam-northsouth-2014"],
+  "sources": [
+    { "label": "NorthSouth GIS, History", "url": "https://www.northsouthgis.com/about-nsg/history" }
+  ]
+}

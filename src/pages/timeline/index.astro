@@ -3,23 +3,37 @@ import SiteLayout from "../../layouts/SiteLayout.astro";
 import SourceList from "../../components/SourceList.astro";
 import { getCollection } from "astro:content";
 
-const [eventEntries, records, chapters] = await Promise.all([getCollection("events"), getCollection("records"), getCollection("chapters")]);
-const chapter = chapters[0]?.data;
-const events = eventEntries.map((entry) => entry.data).sort((a, b) => (a.startDate || "").localeCompare(b.startDate || ""));
-const recordById = new Map(records.map((entry) => [entry.data.id, entry.data]));
-const years = events.map((event) => event.year).filter(Number.isFinite);
-const minYear = Math.min(...years);
-const maxYear = Math.max(...years);
-const precisionLabels = { day: "exact day recorded", month: "month recorded", year: "year recorded", approximate: "approximate date", range: "bounded range", decade: "decade recorded", unknown: "date unknown" };
+const [eventEntries, recordEntries, passageEntries, articleEntries] = await Promise.all([getCollection("events"), getCollection("records"), getCollection("passages"), getCollection("articles")]);
+const eventYear = (event) => {
+  if (Number.isFinite(event.year)) return event.year;
+  const parsed = /^(\d{4})/.exec(String(event.startDate || ""));
+  return parsed ? Number(parsed[1]) : Number.NaN;
+};
+const events = eventEntries.map((entry) => entry.data).sort((a, b) => eventYear(a) - eventYear(b));
+const records = recordEntries.map((entry) => entry.data);
+const recordById = new Map<string, any>(records.map((record) => [record.id, record] as const));
+const passageById = new Map<string, any>(passageEntries.map((entry) => [entry.data.id, entry.data] as const));
+const articleById = new Map<string, any>(articleEntries.map((entry) => [entry.data.id, entry.data] as const));
+const relatedRecordIds = (event: any): string[] => [...new Set<string>((event.passageIds || []).flatMap((passageId: string) => passageById.get(passageId)?.recordIds || []))];
+const years = events.map(eventYear).filter(Number.isFinite);
+const minYear = years.length ? Math.min(...years) : 0;
+const maxYear = years.length ? Math.max(...years) : 0;
+const precisionLabels = { day: "day recorded", month: "month recorded", year: "year recorded", approximate: "approximate date", range: "date range", decade: "decade recorded", unknown: "date unknown" };
+const eventHref = (event) => {
+  if (event.url) return event.url;
+  const passage = (event.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
+  const article = passage && articleById.get(passage.articleId);
+  return passage && article ? `${article.url}#${passage.slug}` : "/timeline/";
+};
 ---
-<SiteLayout title="Timeline — A History of GIS in New Zealand" description={events.length + " dated events connected to Chapter " + chapter?.number + ", " + chapter?.name + "."}>
-  <section class="page-wrap">
-    <p class="eyebrow">Events · Chapter {chapter?.number} sample</p>
-    <h1 class="page-title">A timeline of {chapter?.name}</h1>
-    <p class="page-intro">{events.length} published events in the sample. Dates are shown at the precision recorded by the source release; a year is never presented as a day.</p>
+<SiteLayout title="Timeline — A History of GIS in New Zealand" description="Explore dated records and events across the evolving GIS history collection.">
+  <section class="page-wrap timeline-page">
+    <p class="eyebrow">Parallel timelines</p>
+    <h1 class="page-title">GIS history, across time</h1>
+    <p class="page-intro">Follow events across people, organisations, projects and technologies. The date label keeps the precision recorded in its source.</p>
     <div class="tool-panel" aria-label="Timeline filters">
-      <div class="field"><label for="timeline-record">Related record</label><select id="timeline-record"><option value="">All records</option>{records.map((entry) => <option value={entry.data.id}>{entry.data.name}</option>)}</select></div>
-      <div class="field"><label for="timeline-precision">Date precision</label><select id="timeline-precision"><option value="">All precision levels</option><option value="day">Exact day</option><option value="month">Month</option><option value="year">Year</option><option value="approximate">Approximate</option><option value="range">Bounded range</option><option value="decade">Decade</option><option value="unknown">Unknown</option></select></div>
+      <div class="field"><label for="timeline-record">Related record</label><select id="timeline-record"><option value="">All records</option>{records.map((record) => <option value={record.id}>{record.name}</option>)}</select></div>
+      <div class="field"><label for="timeline-precision">Date precision</label><select id="timeline-precision"><option value="">All precision levels</option><option value="day">Day</option><option value="month">Month</option><option value="year">Year</option><option value="approximate">Approximate</option><option value="range">Range</option><option value="decade">Decade</option><option value="unknown">Unknown</option></select></div>
       <div class="field"><label for="timeline-from">From year</label><input id="timeline-from" type="number" min={minYear} max={maxYear} value={minYear} /></div>
       <div class="field"><label for="timeline-to">To year</label><input id="timeline-to" type="number" min={minYear} max={maxYear} value={maxYear} /></div>
       <button class="button-secondary" id="timeline-reset" type="button">Reset</button>
@@ -27,20 +41,23 @@ const precisionLabels = { day: "exact day recorded", month: "month recorded", ye
     </div>
     <ol class="timeline-list" id="timeline-list">
       {events.map((event) => {
-        const linked = [...new Set(event.relatedRecordIds || event.related || [])];
+        const linked = relatedRecordIds(event);
         const publicLinked = linked.filter((id) => recordById.has(id));
         const otherCount = linked.length - publicLinked.length;
-        return <li class="timeline-item card" id={"event-" + event.id} data-year={event.year} data-precision={event.datePrecision} data-records={linked.join("|")}>
-          <div class="timeline-date">{event.dateDisplay}<span class="precision-note">{precisionLabels[event.datePrecision] || "recorded date precision"}</span></div>
+        const year = eventYear(event);
+        return <li class="timeline-item card" id={`event-${event.id}`} data-year={Number.isFinite(year) ? year : ""} data-precision={event.datePrecision} data-records={linked.join("|")} data-theme-ids={(event.themeIds || []).join(" ")}>
+          <div class="timeline-date">{event.dateDisplay}<span class="precision-note">{precisionLabels[event.datePrecision] || "date precision not specified"}</span></div>
           <h2>{event.label}</h2>
           <p>{event.summary}</p>
-          <p class="small muted">Evidence status: {event.evidenceStatus || "not specified in the release"} · {event.associationLabel || "Related records listed in the publication"}</p>
-          <div class="event-records">{publicLinked.map((id) => <a href={recordById.get(id).url}>{recordById.get(id).name}</a>)}{otherCount > 0 && <span class="small muted">{otherCount} other {otherCount === 1 ? "record" : "records"} in the full publication</span>}</div>
-          <details><summary class="small">Sources</summary><SourceList sources={event.sources} heading="Event sources" /></details>
+          <div class="event-records">{publicLinked.map((id) => <a href={recordById.get(id).url}>{recordById.get(id).name}</a>)}{otherCount > 0 && <span class="small muted">{otherCount} additional records in the wider collection</span>}</div>
+          <p class="event-reading-link"><a href={eventHref(event)}>Read the related passage <span aria-hidden="true">→</span></a></p>
+          {event.sources?.length > 0 && <details><summary class="small">Sources</summary><SourceList sources={event.sources} heading="Event sources" /></details>}
         </li>;
       })}
     </ol>
+    {events.length === 0 && <p class="small muted">No timeline events have been published yet.</p>}
     <p class="small muted" id="timeline-empty" hidden>No events match these filters.</p>
+    <p class="timeline-precision-note">Dates are shown as published. “2014” means the source gives a year, not a specific day.</p>
   </section>
   <script>
     // @ts-nocheck
@@ -54,11 +71,11 @@ const precisionLabels = { day: "exact day recorded", month: "month recorded", ye
     const empty = document.getElementById("timeline-empty");
     const update = () => {
       const visible = items.filter((item) => {
-        const year = Number(item.dataset.year);
+        const year = item.dataset.year ? Number(item.dataset.year) : Number.NaN;
         const recordIds = (item.dataset.records || "").split("|");
         return (!recordSelect.value || recordIds.includes(recordSelect.value)) &&
           (!precisionSelect.value || precisionSelect.value === item.dataset.precision) &&
-          year >= Number(fromInput.value || -Infinity) && year <= Number(toInput.value || Infinity);
+          (!Number.isFinite(year) || (year >= Number(fromInput.value || -Infinity) && year <= Number(toInput.value || Infinity)));
       });
       items.forEach((item) => { item.hidden = !visible.includes(item); });
       count.textContent = visible.length + (visible.length === 1 ? " event" : " events");
@@ -66,11 +83,7 @@ const precisionLabels = { day: "exact day recorded", month: "month recorded", ye
     };
     [recordSelect, precisionSelect, fromInput, toInput].forEach((element) => element.addEventListener("change", update));
     document.getElementById("timeline-reset").addEventListener("click", () => {
-      recordSelect.value = "";
-      precisionSelect.value = "";
-      fromInput.value = fromInput.min;
-      toInput.value = toInput.max;
-      update();
+      recordSelect.value = ""; precisionSelect.value = ""; fromInput.value = fromInput.min; toInput.value = toInput.max; update();
     });
   </script>
 </SiteLayout>

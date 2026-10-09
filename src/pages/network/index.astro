@@ -2,80 +2,109 @@
 import SiteLayout from "../../layouts/SiteLayout.astro";
 import { getCollection } from "astro:content";
 
-const [records, chapters, relations, events] = await Promise.all([
-  getCollection("records"), getCollection("chapters"), getCollection("relationships"), getCollection("events"),
+const [recordEntries, articleEntries, passageEntries, eventEntries, relationshipEntries, themeEntries] = await Promise.all([
+  getCollection("records"), getCollection("articles"), getCollection("passages"), getCollection("events"),
+  getCollection("relationships"), getCollection("themes"),
 ]);
-const chapter = chapters[0]?.data;
+const records = recordEntries.map((entry) => entry.data);
+const articles = articleEntries.map((entry) => entry.data).filter((article) => article.status === "published");
+const passages = passageEntries.map((entry) => entry.data);
+const events = eventEntries.map((entry) => entry.data);
+const themes = themeEntries.map((entry) => entry.data);
+const timelineYear = (event) => {
+  if (Number.isFinite(event.year)) return event.year;
+  const parsed = /^(\d{4})/.exec(String(event.startDate || ""));
+  return parsed ? Number(parsed[1]) : Number.NaN;
+};
+const eventYearValues = events.map(timelineYear).filter(Number.isFinite);
+const minYear = eventYearValues.length ? Math.min(...eventYearValues) : 0;
+const maxYear = eventYearValues.length ? Math.max(...eventYearValues) : 0;
+const recordById = new Map(records.map((record) => [record.id, record]));
+const articleById = new Map(articles.map((article) => [article.id, article]));
+const passageById = new Map(passages.map((passage) => [passage.id, passage]));
+const eventUrl = (event) => {
+  if (event.url) return event.url;
+  const passage = (event.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
+  const article = passage && articleById.get(passage.articleId);
+  return passage && article ? `${article.url}#${passage.slug}` : "";
+};
 const nodes = [
-  ...records.map((entry) => ({
-    id: entry.data.id, label: entry.data.name, kind: entry.data.kind, url: entry.data.url,
-    summary: entry.data.story?.[0] || entry.data.description || "",
-    sourceCount: Array.isArray(entry.data.sources) ? entry.data.sources.length : 0,
-  })),
-  ...(chapter ? [{ id: chapter.id, label: "Chapter " + chapter.number + ": " + chapter.name, kind: "Chapter", url: chapter.url, summary: "Narrative chapter", sourceCount: chapter.sourceNotes.length }] : []),
+  ...records.map((record) => ({ id: record.id, label: record.name, kind: record.kind, url: record.url, summary: record.description || record.story?.[0] || "", sourceCount: record.sources?.length || 0, themeIds: record.themeIds || [] })),
+  ...articles.map((article) => ({ id: article.id, label: article.title, kind: "Story", url: article.url, summary: article.summary, sourceCount: 0, themeIds: article.themeIds || [] })),
+  ...events.map((event) => ({ id: event.id, label: event.label, kind: "Event", url: eventUrl(event), summary: event.summary, sourceCount: event.sources?.length || 0, year: timelineYear(event), dateDisplay: event.dateDisplay, datePrecision: event.datePrecision, themeIds: event.themeIds || [] })),
+  ...themes.map((theme) => ({ id: theme.id, label: theme.title, kind: "Theme", url: "/", summary: theme.description || "Reader theme", sourceCount: 0, themeIds: [theme.id] })),
 ];
-const edges = relations.map((entry) => entry.data);
-const eventData = events.map((entry) => entry.data);
-const graphData = JSON.stringify({ nodes, edges, events: eventData, chapterUrl: chapter?.url }).replace(/</g, "\\u003c");
-const kinds = [...new Set(nodes.map((node) => node.kind))].sort();
+const eventYearsForPassages = (passageIds) => events.filter((event) => (event.passageIds || []).some((id) => passageIds.includes(id))).map(timelineYear).filter(Number.isFinite);
+const passageSources = (passage) => (passage.paragraphs || []).flatMap((paragraph) => paragraph.sources || []);
+const edges = [
+  ...relationshipEntries.map((entry) => {
+    const relation = entry.data;
+    const contextPassage = (relation.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
+    return { id: relation.id, a: relation.a, b: relation.b, label: relation.label, basis: relation.basis, sources: relation.sources || [], years: eventYearsForPassages(relation.passageIds || []), themeIds: contextPassage?.themeIds || [], passageUrl: contextPassage ? `${articleById.get(contextPassage.articleId)?.url || "/"}#${contextPassage.slug}` : "" };
+  }),
+  ...passages.flatMap((passage) => {
+    const article = articleById.get(passage.articleId);
+    return (passage.recordIds || []).filter((recordId) => recordById.has(recordId)).map((recordId) => ({
+      id: `story-link:${passage.id}:${recordId}`, a: passage.articleId, b: recordId,
+      label: "in story", basis: `Linked in “${passage.title}”.`, sources: passageSources(passage), years: eventYearsForPassages([passage.id]),
+      themeIds: passage.themeIds || [], passageUrl: `${article?.url || "/"}#${passage.slug}`,
+    }));
+  }),
+  ...events.flatMap((event) => (event.passageIds || []).flatMap((passageId) => {
+    const passage = passageById.get(passageId);
+    return (passage?.recordIds || []).filter((recordId) => recordById.has(recordId)).map((recordId) => ({
+      id: `event-link:${event.id}:${recordId}`, a: event.id, b: recordId, label: "connected in time",
+      basis: `${event.dateDisplay} · ${event.datePrecision} precision.`, sources: event.sources || [], years: [timelineYear(event)].filter(Number.isFinite),
+      themeIds: event.themeIds || [], passageUrl: `${articleById.get(passage.articleId)?.url || "/"}#${passage.slug}`,
+    }));
+  })),
+  ...nodes.flatMap((node) => (node.themeIds || []).filter((themeId) => themes.some((theme) => theme.id === themeId)).map((themeId) => ({
+    id: `theme-link:${node.id}:${themeId}`, a: node.id, b: themeId, label: "theme", basis: "Tagged with this reader theme.", sources: [], years: [], themeIds: [themeId], passageUrl: "",
+  }))),
+];
+const graphData = JSON.stringify({ nodes, edges, minYear, maxYear }).replace(/</g, "\\u003c");
+const nodeKinds = [...new Set(nodes.map((node) => node.kind))].sort();
 const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
 ---
-<SiteLayout title="Network — A History of GIS in New Zealand" description="Explore published records and inspect the basis for every connection.">
+<SiteLayout title="Network — A History of GIS in New Zealand" description="An optional, source-linked view of stories, records, themes and dates.">
   <section class="network-layout">
-    <p class="eyebrow">Network · {nodes.length} nodes · {edges.length} links</p>
-    <h1 class="page-title">Follow the connections</h1>
-    <p class="page-intro">Select a record or link to open its published account and basis. The graph does not infer roles from proximity. All movement is reader-controlled; the equivalent text view below works without the graph.</p>
-    <div class="info-card" style="margin:1.4rem 0">
-      <p><strong>Evidence key:</strong> “Published context found” links to a chapter passage or event. “Dataset association only” preserves the source release’s link and qualification where no specific claim citation is attached.</p>
-    </div>
-    <div class="tool-panel" aria-label="Network filters">
-      <div class="field"><label for="filter-kind">Record type</label><select id="filter-kind"><option value="">All types</option>{kinds.map((kind) => <option value={kind}>{kind}</option>)}</select></div>
-      <div class="field"><label for="filter-relation">Relationship wording</label><select id="filter-relation"><option value="">All relationship labels</option>{relationLabels.map((label) => <option value={label}>{label}</option>)}</select></div>
-      <div class="field"><label for="filter-from">From year</label><input id="filter-from" type="number" aria-label="Earliest year" /></div>
-      <div class="field"><label for="filter-to">To year</label><input id="filter-to" type="number" aria-label="Latest year" /></div>
-      <label class="checkbox-field"><input id="filter-undated" type="checkbox" /> Include undated links</label>
+    <p class="eyebrow">Optional view · {nodes.length} nodes · {edges.length} links</p>
+    <h1 class="page-title">See the connections</h1>
+    <p class="page-intro">This view maps the links behind the narrative. Filter by theme or year, then select a node or line to open its story, record or named source.</p>
+    <div class="tool-panel network-filters" aria-label="Network filters">
+      <div class="field"><label for="filter-kind">Show type</label><select id="filter-kind"><option value="">All types</option>{nodeKinds.map((kind) => <option value={kind}>{kind}</option>)}</select></div>
+      <div class="field"><label for="filter-relation">Link wording</label><select id="filter-relation"><option value="">All links</option>{relationLabels.map((label) => <option value={label}>{label}</option>)}</select></div>
+      <div class="field"><label for="filter-from">From year</label><input id="filter-from" type="number" /></div>
+      <div class="field"><label for="filter-to">To year</label><input id="filter-to" type="number" /></div>
+      <label class="checkbox-field"><input id="filter-undated" type="checkbox" checked /> Include links without a date</label>
       <button class="button-secondary" id="filter-reset" type="button">Reset filters</button>
-      <span class="small muted" id="network-count" aria-live="polite">{records.length} records · {edges.length} links</span>
+      <span class="small muted" id="network-count" aria-live="polite">{nodes.length} items · {edges.length} links</span>
     </div>
     <div class="network-workspace">
       <div class="graph-frame">
-        <div id="graph" role="img" aria-label={"Interactive network of records in Chapter " + chapter?.number + ": " + chapter?.name}></div>
-        <div class="graph-overlay"><span class="graph-status-dot"></span><span id="graph-help">Click a node or connection to inspect it · Tab to use the controls</span></div>
+        <div id="graph" role="img" aria-label="Optional animated network of stories, records, events and themes"></div>
+        <div class="graph-overlay"><span class="graph-status-dot"></span><span id="graph-help">Select a node or line to inspect the link</span></div>
+        <p class="graph-motion-note">Slow motion map · pause with reduced motion setting</p>
       </div>
-      <aside class="graph-panel" aria-labelledby="graph-panel-title">
-        <h2 id="graph-panel-title">Explore the network</h2>
-        <div class="field"><label for="node-picker">Choose a record</label><select id="node-picker"><option value="">Select a record</option>{nodes.map((node) => <option value={node.id}>{node.label}</option>)}</select></div>
-        <div id="graph-details" class="graph-details" aria-live="polite"><p>Select a node or a link to see its published wording, evidence status and route to the full account.</p></div>
-        <h3>Find a path</h3>
-        <div class="path-fields">
-          <div class="field"><label for="path-start">From</label><select id="path-start"><option value="">Choose start</option>{nodes.map((node) => <option value={node.id}>{node.label}</option>)}</select></div>
-          <div class="field"><label for="path-end">To</label><select id="path-end"><option value="">Choose end</option>{nodes.map((node) => <option value={node.id}>{node.label}</option>)}</select></div>
-        </div>
-        <button class="button" id="find-path" type="button" style="width:100%;margin-top:.5rem">Find shortest path</button>
-        <div id="path-result" class="graph-details" aria-live="polite" style="margin-top:.6rem">Choose two records to see a path through the visible links.</div>
-        <h3>Share this view</h3>
-        <p class="small muted">Record focus, filters and path selection are stored in the link.</p>
-        <button class="button-secondary" id="copy-state" type="button">Copy view link</button>
+      <aside class="graph-panel" aria-labelledby="network-inspector-title">
+        <p class="eyebrow">Link inspector</p><h2 id="network-inspector-title">Explore a connection</h2>
+        <div class="field"><label for="node-picker">Choose a record or story</label><select id="node-picker"><option value="">Select an item</option>{nodes.map((node) => <option value={node.id}>{node.label} · {node.kind}</option>)}</select></div>
+        <div id="graph-details" class="graph-details" aria-live="polite"><p>Select a node or line. Its description, source links and related passage will appear here.</p></div>
+        <button class="button-secondary" id="copy-state" type="button">Copy this view</button>
         <span id="copy-result" class="small muted" aria-live="polite"></span>
       </aside>
     </div>
     <details class="graph-text-alt">
-      <summary>Text alternative: browse {nodes.length} records and {edges.length} relationships</summary>
-      <p>Each row names the endpoints, keeps the published relationship wording, and states whether the release has a chapter or event context. Open a record link to read its account.</p>
-      <h2 class="small">Records</h2>
+      <summary>Browse the network as a list</summary>
+      <p>All items and links are available below without using the animated view.</p>
+      <h2 class="small">Stories, records, events and themes</h2>
       <ul class="graph-text-list">{nodes.map((node) => <li><button type="button" data-focus-node={node.id}>{node.label} · {node.kind}</button></li>)}</ul>
-      <h2 class="small">Published relationships</h2>
-      <ol class="relationship-list">
-        {edges.map((edge) => {
-          const nodeA = nodes.find((node) => node.id === edge.a);
-          const nodeB = nodes.find((node) => node.id === edge.b);
-          return <li class="card relationship-card">
-            <p>{nodeA?.url ? <a href={nodeA.url}>{nodeA.label}</a> : nodeA?.label} <strong>{edge.label}</strong> {nodeB?.url ? <a href={nodeB.url}>{nodeB.label}</a> : nodeB?.label}</p>
-            <span class={"evidence-badge " + (edge.evidence.status === "published-context-found" ? "context" : "qualified")}>{edge.evidence.status === "published-context-found" ? "Published context found" : "Dataset association only"}</span>
-            <p class="small">{edge.basis}</p>
-          </li>;
-        })}
-      </ol>
+      <h2 class="small">Connections</h2>
+      <ol class="relationship-list">{edges.map((edge) => {
+        const a = nodes.find((node) => node.id === edge.a);
+        const b = nodes.find((node) => node.id === edge.b);
+        return <li class="card relationship-card"><p>{a?.url ? <a href={a.url}>{a.label}</a> : a?.label} <strong>{edge.label}</strong> {b?.url ? <a href={b.url}>{b.label}</a> : b?.label}</p><p class="small">{edge.basis}</p>{edge.sources?.length > 0 && <ul>{edge.sources.map((source) => <li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label} ↗</a></li>)}</ul>}</li>;
+      })}</ol>
     </details>
   </section>
   <script id="graph-data" type="application/json" set:html={graphData}></script>
@@ -83,288 +112,161 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     // @ts-nocheck
     import { MultiUndirectedGraph } from "graphology";
     import Sigma from "sigma";
-    import { shortestPath } from "../../lib/pathfinding.mjs";
 
-    const dataset = JSON.parse(document.getElementById("graph-data").textContent);
-    const nodeById = new Map(dataset.nodes.map((node) => [node.id, node]));
-    const eventById = new Map(dataset.events.map((event) => [event.id, event]));
-    const minYear = Math.min(...dataset.events.map((event) => Number(event.year)));
-    const maxYear = Math.max(...dataset.events.map((event) => Number(event.year)));
+    const data = JSON.parse(document.getElementById("graph-data").textContent);
+    const nodeById = new Map(data.nodes.map((node) => [node.id, node]));
     const graphElement = document.getElementById("graph");
     const kindFilter = document.getElementById("filter-kind");
-    const relationFilter = document.getElementById("filter-relation");
+    const linkFilter = document.getElementById("filter-relation");
     const fromInput = document.getElementById("filter-from");
     const toInput = document.getElementById("filter-to");
     const undatedFilter = document.getElementById("filter-undated");
     const nodePicker = document.getElementById("node-picker");
-    const startSelect = document.getElementById("path-start");
-    const endSelect = document.getElementById("path-end");
     const detailPanel = document.getElementById("graph-details");
-    const pathPanel = document.getElementById("path-result");
-    const status = document.getElementById("network-count");
-    const palette = { Person: "#317c91", Organisation: "#176b55", Agency: "#176b55", Council: "#176b55", Business: "#a17a38", Company: "#a17a38", Project: "#8c5a9a", Technology: "#c16a48", System: "#c16a48", Chapter: "#4d5a51" };
-    let renderer = null;
-    let visibleEdges = [];
-    let pathNodeIds = [];
-    let pathEdgeIds = [];
+    const count = document.getElementById("network-count");
+    const palette = { Person: "#3989a0", Business: "#dc9d4c", Company: "#dc9d4c", Organisation: "#48a98c", Agency: "#48a98c", Project: "#9c78bb", Technology: "#d47859", System: "#d47859", Story: "#ec7462", Event: "#f4c967", Theme: "#63caba" };
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let renderer;
+    let graph;
+    let currentThemeIds = readThemes();
     let selectedNodeId = "";
     let selectedEdgeId = "";
-    const svgNamespace = "http://www.w3.org/2000/svg";
-    const webglAvailable = (() => {
-      try {
-        const canvas = document.createElement("canvas");
-        return Boolean(canvas.getContext("webgl2") || canvas.getContext("webgl"));
-      } catch { return false; }
-    })();
+    let raf;
 
-    fromInput.min = String(minYear);
-    fromInput.max = String(maxYear);
-    fromInput.value = String(minYear);
-    toInput.min = String(minYear);
-    toInput.max = String(maxYear);
-    toInput.value = String(maxYear);
-    const params = new URLSearchParams(window.location.search);
-    kindFilter.value = params.get("kind") || "";
-    relationFilter.value = params.get("relation") || "";
-    fromInput.value = params.get("from") || String(minYear);
-    toInput.value = params.get("to") || String(maxYear);
-    undatedFilter.checked = params.get("undated") === "1";
+    function readThemes() { try { return JSON.parse(localStorage.getItem("nzgis-reader-themes-v1") || "[]"); } catch { return []; } }
+    const svgNS = "http://www.w3.org/2000/svg";
+    const webgl = (() => { try { const canvas = document.createElement("canvas"); return Boolean(canvas.getContext("webgl2") || canvas.getContext("webgl")); } catch { return false; } })();
+    fromInput.min = String(data.minYear); fromInput.max = String(data.maxYear); fromInput.value = String(data.minYear);
+    toInput.min = String(data.minYear); toInput.max = String(data.maxYear); toInput.value = String(data.maxYear);
+    const params = new URLSearchParams(location.search);
+    kindFilter.value = params.get("kind") || ""; linkFilter.value = params.get("link") || "";
+    fromInput.value = params.get("from") || String(data.minYear); toInput.value = params.get("to") || String(data.maxYear);
     selectedNodeId = params.get("focus") || "";
-    startSelect.value = params.get("start") || "";
-    endSelect.value = params.get("end") || "";
-
-    const createText = (parent, tag, value, className) => {
-      const element = document.createElement(tag);
-      element.textContent = value || "";
-      if (className) element.className = className;
-      parent.append(element);
-      return element;
+    const text = (parent, tag, value, className) => { const el = document.createElement(tag); el.textContent = value || ""; if (className) el.className = className; parent.append(el); return el; };
+    const addLink = (parent, label, href, external = false) => { const el = document.createElement("a"); el.textContent = label; el.href = href; if (external) { el.target = "_blank"; el.rel = "noopener noreferrer"; } parent.append(el); return el; };
+    const paletteColor = (node) => palette[node.kind] || "#6c9284";
+    const activeTheme = (node) => !currentThemeIds.length || (node.themeIds || []).some((id) => currentThemeIds.includes(id)) || currentThemeIds.includes(node.id);
+    const rangeActive = () => Number(fromInput.value) > data.minYear || Number(toInput.value) < data.maxYear;
+    const visibleSet = () => {
+      const from = Number(fromInput.value || data.minYear); const to = Number(toInput.value || data.maxYear);
+      const nodes = data.nodes.filter((node) => (!kindFilter.value || node.kind === kindFilter.value) && activeTheme(node) &&
+        (node.kind !== "Event" || !rangeActive() || (Number.isFinite(node.year) ? node.year >= from && node.year <= to : undatedFilter.checked)));
+      const ids = new Set(nodes.map((node) => node.id));
+      const edges = data.edges.filter((edge) => ids.has(edge.a) && ids.has(edge.b) && (!linkFilter.value || edge.label === linkFilter.value) &&
+        (!currentThemeIds.length || !edge.themeIds?.length || edge.themeIds.some((id) => currentThemeIds.includes(id))) &&
+        (!rangeActive() || (edge.years?.length ? edge.years.some((year) => year >= from && year <= to) : undatedFilter.checked)));
+      const connected = new Set(edges.flatMap((edge) => [edge.a, edge.b]));
+      return { nodes: nodes.filter((node) => !rangeActive() || node.kind !== "Event" || connected.has(node.id)), edges };
     };
-    const makeLink = (parent, label, href) => {
-      const link = document.createElement("a");
-      link.textContent = label;
-      link.href = href;
-      parent.append(link);
-      return link;
+    const address = () => {
+      const query = new URLSearchParams();
+      if (kindFilter.value) query.set("kind", kindFilter.value);
+      if (linkFilter.value) query.set("link", linkFilter.value);
+      if (Number(fromInput.value) !== data.minYear) query.set("from", fromInput.value);
+      if (Number(toInput.value) !== data.maxYear) query.set("to", toInput.value);
+      if (selectedNodeId) query.set("focus", selectedNodeId);
+      history.replaceState({}, "", location.pathname + (query.toString() ? "?" + query : ""));
     };
-    const replacePanel = () => detailPanel.replaceChildren();
+    const clearPanel = () => detailPanel.replaceChildren();
     const showNode = (id) => {
-      const node = nodeById.get(id);
-      if (!node) return;
-      selectedNodeId = id;
-      selectedEdgeId = "";
-      nodePicker.value = id;
-      replacePanel();
-      createText(detailPanel, "strong", node.label);
-      createText(detailPanel, "div", node.kind, "small muted");
-      if (node.summary) createText(detailPanel, "p", node.summary);
-      createText(detailPanel, "p", node.sourceCount + " source references on this account.", "small muted");
-      makeLink(detailPanel, "Open full account →", node.url);
-      updateGraph();
-      updateAddress();
+      const node = nodeById.get(id); if (!node) return;
+      selectedNodeId = id; selectedEdgeId = ""; nodePicker.value = id; clearPanel();
+      text(detailPanel, "strong", node.label); text(detailPanel, "div", node.kind, "small muted");
+      if (node.summary) text(detailPanel, "p", node.summary);
+      if (node.dateDisplay) text(detailPanel, "p", `${node.dateDisplay} · ${node.datePrecision} precision`, "small muted");
+      if (node.sourceCount) text(detailPanel, "p", `${node.sourceCount} source ${node.sourceCount === 1 ? "reference" : "references"} attached.`, "small muted");
+      if (node.url && node.kind !== "Theme") addLink(detailPanel, node.kind === "Story" ? "Read this story →" : node.kind === "Event" ? "Open its passage →" : "Open record →", node.url);
+      address(); draw();
     };
     const showEdge = (id) => {
-      const edge = dataset.edges.find((item) => item.id === id);
-      if (!edge) return;
-      selectedEdgeId = id;
-      selectedNodeId = "";
-      nodePicker.value = "";
-      replacePanel();
-      const contextual = edge.evidence.status === "published-context-found";
-      createText(detailPanel, "strong", edge.label);
-      createText(detailPanel, "div", contextual ? "Published context found" : "Dataset association only", "evidence-badge " + (contextual ? "context" : "qualified"));
-      createText(detailPanel, "p", edge.basis);
-      const a = nodeById.get(edge.a);
-      const b = nodeById.get(edge.b);
-      if (a) makeLink(detailPanel, "From: " + a.label, a.url);
-      if (b) makeLink(detailPanel, "To: " + b.label, b.url);
-      for (const ref of edge.evidence.paragraphRefs || []) {
-        makeLink(detailPanel, "Chapter context: " + ref.sectionTitle, ref.url || (dataset.chapterUrl + "#" + (ref.blockId || ref.sectionId)));
-        for (const source of ref.sources || []) {
-          if (source.url) makeLink(detailPanel, "Source: " + source.label, source.url);
-          else createText(detailPanel, "div", "Source: " + source.label, "small muted");
-        }
+      const edge = data.edges.find((item) => item.id === id); if (!edge) return;
+      selectedEdgeId = id; selectedNodeId = ""; nodePicker.value = ""; clearPanel();
+      const a = nodeById.get(edge.a); const b = nodeById.get(edge.b);
+      text(detailPanel, "strong", `${a?.label || "Item"} ${edge.label} ${b?.label || "item"}`);
+      text(detailPanel, "p", edge.basis);
+      if (edge.passageUrl) addLink(detailPanel, "Read the related passage →", edge.passageUrl);
+      if (edge.sources?.length) {
+        const list = document.createElement("ul");
+        edge.sources.forEach((source) => { const li = document.createElement("li"); addLink(li, `${source.label} ↗`, source.url || "#", Boolean(source.url && source.url.startsWith("http"))); list.append(li); });
+        detailPanel.append(list);
       }
-      for (const eventId of edge.evidence.eventIds || []) {
-        const event = eventById.get(eventId);
-        if (event) makeLink(detailPanel, "Event: " + event.dateDisplay + " — " + event.label, "/timeline/#event-" + event.id);
-      }
-      updateGraph();
-      updateAddress();
+      address(); draw();
     };
-    const edgeInRange = (edge, rangeActive) => {
-      if (!rangeActive) return true;
-      const eventYears = (edge.evidence.eventIds || []).map((id) => Number(eventById.get(id)?.year)).filter(Number.isFinite);
-      if (eventYears.length) return eventYears.some((year) => year >= Number(fromInput.value) && year <= Number(toInput.value));
-      return undatedFilter.checked;
+    const nodePosition = (node, index, total) => {
+      if (node.kind === "Story") return { x: 0, y: 0 };
+      const ring = node.kind === "Theme" ? 1.03 : node.kind === "Event" ? .48 : .76;
+      const seed = (index * 2.399963 + (node.kind === "Event" ? .65 : node.kind === "Theme" ? 1.1 : 0));
+      return { x: Math.cos(seed) * ring, y: Math.sin(seed) * ring };
     };
-    const getVisible = () => {
-      const nodes = dataset.nodes.filter((node) => !kindFilter.value || node.kind === kindFilter.value);
-      const nodeIds = new Set(nodes.map((node) => node.id));
-      const rangeActive = Number(fromInput.value) > minYear || Number(toInput.value) < maxYear;
-      const edges = dataset.edges.filter((edge) => nodeIds.has(edge.a) && nodeIds.has(edge.b) &&
-        (!relationFilter.value || edge.label === relationFilter.value) && edgeInRange(edge, rangeActive));
-      return { nodes, edges };
-    };
-    const updateAddress = () => {
-      const state = new URLSearchParams();
-      if (kindFilter.value) state.set("kind", kindFilter.value);
-      if (relationFilter.value) state.set("relation", relationFilter.value);
-      if (Number(fromInput.value) !== minYear) state.set("from", fromInput.value);
-      if (Number(toInput.value) !== maxYear) state.set("to", toInput.value);
-      if (undatedFilter.checked) state.set("undated", "1");
-      if (selectedNodeId) state.set("focus", selectedNodeId);
-      if (startSelect.value) state.set("start", startSelect.value);
-      if (endSelect.value) state.set("end", endSelect.value);
-      const next = window.location.pathname + (state.toString() ? "?" + state.toString() : "");
-      window.history.replaceState({}, "", next);
-    };
-    const svgElement = (tag, attributes = {}) => {
-      const element = document.createElementNS(svgNamespace, tag);
-      for (const [name, value] of Object.entries(attributes)) element.setAttribute(name, String(value));
-      return element;
-    };
-    const renderSvgFallback = (nodes, edges) => {
+    const svgNode = (name, attrs = {}) => { const el = document.createElementNS(svgNS, name); Object.entries(attrs).forEach(([key, value]) => el.setAttribute(key, String(value))); return el; };
+    const drawSVG = (nodes, edges) => {
       graphElement.replaceChildren();
-      const svg = svgElement("svg", { viewBox: "0 0 1000 700", preserveAspectRatio: "xMidYMid meet", class: "network-svg" });
-      const positions = new Map(nodes.map((node, index) => {
-        const angle = 2 * Math.PI * index / Math.max(nodes.length, 1) - Math.PI / 2;
-        return [node.id, { x: 500 + Math.cos(angle) * 370, y: 350 + Math.sin(angle) * 260 }];
-      }));
-      for (const edge of edges) {
-        const a = positions.get(edge.a);
-        const b = positions.get(edge.b);
-        if (!a || !b) continue;
-        const highlighted = pathEdgeIds.includes(edge.id) || selectedEdgeId === edge.id;
-        const group = svgElement("g", { class: "network-svg-edge", tabindex: "0", role: "button", "aria-label": `${nodeById.get(edge.a)?.label} ${edge.label} ${nodeById.get(edge.b)?.label}` });
-        group.append(svgElement("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, stroke: highlighted ? "#d18432" : "#b8c6bc", "stroke-width": highlighted ? 3 : 1.3 }));
-        group.append(svgElement("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, stroke: "transparent", "stroke-width": 12 }));
-        group.addEventListener("click", () => showEdge(edge.id));
-        group.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showEdge(edge.id); } });
-        svg.append(group);
-      }
-      for (const node of nodes) {
-        const point = positions.get(node.id);
-        const highlighted = pathNodeIds.includes(node.id) || selectedNodeId === node.id;
-        const group = svgElement("g", { class: "network-svg-node" + (highlighted ? " is-highlighted" : ""), tabindex: "0", role: "button", "aria-label": `Inspect ${node.label}` });
-        const title = svgElement("title");
-        title.textContent = node.label;
-        group.append(title);
-        group.append(svgElement("circle", { cx: point.x, cy: point.y, r: highlighted ? 10 : 7, fill: highlighted ? "#d18432" : (palette[node.kind] || "#688274"), stroke: "#fcfcf8", "stroke-width": 2 }));
-        const label = svgElement("text", { x: point.x, y: point.y + (point.y < 350 ? -14 : 23), "text-anchor": "middle" });
-        label.textContent = node.label.length > 22 ? node.label.slice(0, 20) + "…" : node.label;
-        group.append(label);
-        group.addEventListener("click", () => showNode(node.id));
-        group.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showNode(node.id); } });
-        svg.append(group);
-      }
-      graphElement.append(svg);
-      document.getElementById("graph-help").textContent = "Hover or use Tab to name a node · Click or press Enter to inspect it";
-    };
-    const updateGraph = () => {
-      const { nodes, edges } = getVisible();
-      visibleEdges = edges;
-      if (renderer) { renderer.kill(); renderer = null; }
-      graphElement.replaceChildren();
-      if (!webglAvailable) {
-        renderSvgFallback(nodes, edges);
-        status.textContent = nodes.length + " visible records · " + edges.length + " visible links";
-        return;
-      }
-      const graph = new MultiUndirectedGraph();
-      nodes.forEach((node, index) => {
-        const angle = (2 * Math.PI * index) / nodes.length - Math.PI / 2;
-        const radius = nodes.length > 30 ? 0.82 : 0.7;
-        const onPath = pathNodeIds.includes(node.id);
-        graph.addNode(node.id, {
-          label: node.label, kind: node.kind, url: node.url,
-          x: Math.cos(angle) * radius, y: Math.sin(angle) * radius,
-          size: onPath ? 8 : (selectedNodeId === node.id ? 8 : 5),
-          color: onPath ? "#d18432" : (selectedNodeId === node.id ? "#123e34" : (palette[node.kind] || "#688274")),
-        });
-      });
+      const svg = svgNode("svg", { viewBox: "0 0 900 620", class: "network-svg", role: "group", "aria-label": "Network diagram. Use Tab to inspect nodes and links." });
+      const points = new Map(nodes.map((node, index) => { const point = nodePosition(node, index, nodes.length); return [node.id, { x: 450 + point.x * 335, y: 310 + point.y * 235 }]; }));
       edges.forEach((edge) => {
-        if (graph.hasNode(edge.a) && graph.hasNode(edge.b)) {
-          graph.addUndirectedEdgeWithKey(edge.id, edge.a, edge.b, {
-            label: edge.label,
-            size: pathEdgeIds.includes(edge.id) ? 2.8 : (selectedEdgeId === edge.id ? 2.2 : 1.15),
-            color: pathEdgeIds.includes(edge.id) ? "#d18432" : (selectedEdgeId === edge.id ? "#176b55" : "#b8c6bc"),
-          });
-        }
+        const a = points.get(edge.a); const b = points.get(edge.b); if (!a || !b) return;
+        const group = svgNode("g", { tabindex: "0", role: "button", class: "network-svg-edge", "aria-label": `${nodeById.get(edge.a)?.label} ${edge.label} ${nodeById.get(edge.b)?.label}` });
+        group.append(svgNode("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, class: selectedEdgeId === edge.id ? "edge-selected" : "" }));
+        group.append(svgNode("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, class: "edge-hit" }));
+        group.addEventListener("click", () => showEdge(edge.id)); group.addEventListener("keydown", (event) => { if (["Enter", " "].includes(event.key)) { event.preventDefault(); showEdge(edge.id); } }); svg.append(group);
       });
-      try { renderer = new Sigma(graph, graphElement, {
-        renderEdgeLabels: false,
-        labelRenderedSizeThreshold: 7,
-        labelDensity: 0.08,
-        labelGridCellSize: 100,
-        defaultNodeColor: "#176b55",
-        defaultEdgeColor: "#b8c6bc",
-        enableEdgeEvents: true,
-        zIndex: true,
+      nodes.forEach((node) => {
+        const p = points.get(node.id); const g = svgNode("g", { tabindex: "0", role: "button", class: "network-svg-node", "aria-label": `Inspect ${node.label}, ${node.kind}` });
+        g.append(svgNode("circle", { cx: p.x, cy: p.y, r: node.kind === "Story" ? 14 : 9, fill: paletteColor(node), class: selectedNodeId === node.id ? "node-selected" : "" }));
+        const label = svgNode("text", { x: p.x, y: p.y + 24, "text-anchor": "middle" }); label.textContent = node.label.length > 25 ? node.label.slice(0, 22) + "…" : node.label; g.append(label);
+        g.addEventListener("click", () => showNode(node.id)); g.addEventListener("keydown", (event) => { if (["Enter", " "].includes(event.key)) { event.preventDefault(); showNode(node.id); } }); svg.append(g);
       });
-      renderer.on("clickNode", ({ node }) => showNode(node));
-      renderer.on("clickEdge", ({ edge }) => showEdge(edge));
-      } catch (error) {
-        console.warn("WebGL network rendering unavailable; using SVG view.", error);
-        renderer = null;
-        renderSvgFallback(nodes, edges);
-      }
-      status.textContent = nodes.length + " visible records · " + edges.length + " visible links";
+      graphElement.append(svg);
     };
-    const findPath = () => {
-      const { nodes, edges } = getVisible();
-      const start = startSelect.value;
-      const end = endSelect.value;
-      pathNodeIds = [];
-      pathEdgeIds = [];
-      if (!start || !end) {
-        pathPanel.textContent = "Choose a start and end record.";
-        updateGraph(); updateAddress(); return;
-      }
-      const result = shortestPath(nodes, edges, start, end);
-      if (!result) {
-        pathPanel.textContent = "No path exists between these records with the current filters.";
-      } else {
-        pathNodeIds = result.nodes;
-        pathEdgeIds = result.edges;
-        pathPanel.replaceChildren();
-        createText(pathPanel, "strong", result.edges.length ? "Shortest path · " + result.edges.length + " links" : "The start and end are the same record.");
-        pathNodeIds.forEach((id, index) => {
-          const node = nodeById.get(id);
-          if (!node) return;
-          if (index) {
-            const edge = dataset.edges.find((item) => item.id === pathEdgeIds[index - 1]);
-            createText(pathPanel, "div", "↓ " + (edge?.label || "linked to"), "small muted");
-          }
-          makeLink(pathPanel, node.label, node.url);
+    const draw = () => {
+      const { nodes, edges } = visibleSet();
+      if (renderer) { renderer.kill(); renderer = undefined; }
+      graphElement.replaceChildren();
+      if (!webgl) drawSVG(nodes, edges);
+      else {
+        graph = new MultiUndirectedGraph();
+        nodes.forEach((node, index) => {
+          const p = nodePosition(node, index, nodes.length);
+          graph.addNode(node.id, { label: node.label, x: p.x, y: p.y, size: selectedNodeId === node.id ? 11 : node.kind === "Story" ? 10 : node.kind === "Theme" ? 7 : 6, color: selectedNodeId === node.id ? "#f0b562" : paletteColor(node), kind: node.kind });
         });
-        createText(pathPanel, "p", "The path is a route through recorded links, not evidence of a direct relationship between the endpoints.", "small muted");
+        edges.forEach((edge) => { if (graph.hasNode(edge.a) && graph.hasNode(edge.b)) graph.addUndirectedEdgeWithKey(edge.id, edge.a, edge.b, { label: edge.label, size: selectedEdgeId === edge.id ? 2.5 : 1.3, color: selectedEdgeId === edge.id ? "#f0b562" : "#7d9a8f" }); });
+        renderer = new Sigma(graph, graphElement, { renderEdgeLabels: false, labelRenderedSizeThreshold: 5, labelDensity: .18, labelGridCellSize: 85, defaultNodeColor: "#48a98c", defaultEdgeColor: "#78948a", enableEdgeEvents: true });
+        renderer.on("clickNode", ({ node }) => showNode(node)); renderer.on("clickEdge", ({ edge }) => showEdge(edge));
+        if (!reducedMotion.matches && nodes.length <= 100) startMotion(nodes);
       }
-      updateGraph();
-      updateAddress();
+      count.textContent = `${nodes.length} visible items · ${edges.length} visible links`;
     };
-    const controls = [kindFilter, relationFilter, fromInput, toInput, undatedFilter];
-    controls.forEach((control) => control.addEventListener("change", () => { pathNodeIds = []; pathEdgeIds = []; updateGraph(); updateAddress(); }));
-    nodePicker.addEventListener("change", () => { if (nodePicker.value) showNode(nodePicker.value); });
-    document.getElementById("find-path").addEventListener("click", findPath);
-    [startSelect, endSelect].forEach((control) => control.addEventListener("change", updateAddress));
-    document.getElementById("filter-reset").addEventListener("click", () => {
-      kindFilter.value = ""; relationFilter.value = "";
-      fromInput.value = String(minYear); toInput.value = String(maxYear); undatedFilter.checked = false;
-      pathNodeIds = []; pathEdgeIds = []; updateGraph(); updateAddress();
-    });
-    document.getElementById("copy-state").addEventListener("click", async () => {
-      const message = document.getElementById("copy-result");
-      try {
-        await navigator.clipboard.writeText(window.location.href);
-        message.textContent = "View link copied.";
-      } catch {
-        message.textContent = "Copy is unavailable here. Copy the address from your browser.";
-      }
-    });
+    const startMotion = (nodes) => {
+      if (raf) cancelAnimationFrame(raf);
+      const base = new Map(nodes.map((node, index) => [node.id, nodePosition(node, index, nodes.length)]));
+      let last = 0;
+      const tick = (now) => {
+        if (!renderer || document.hidden) { raf = requestAnimationFrame(tick); return; }
+        if (now - last > 120) {
+          last = now;
+          graph.forEachNode((id) => {
+            const node = nodeById.get(id); if (!node || !["Event", "Theme"].includes(node.kind)) return;
+            const p = base.get(id); const phase = now / 4200 + id.length;
+            graph.setNodeAttribute(id, "x", p.x + Math.sin(phase) * .014);
+            graph.setNodeAttribute(id, "y", p.y + Math.cos(phase * .8) * .014);
+          });
+          renderer.refresh();
+        }
+        raf = requestAnimationFrame(tick);
+      };
+      raf = requestAnimationFrame(tick);
+    };
+    const updateAddressAndDraw = () => { draw(); address(); };
+    [kindFilter, linkFilter, fromInput, toInput, undatedFilter].forEach((control) => control.addEventListener("change", updateAddressAndDraw));
+    nodePicker.addEventListener("change", () => nodePicker.value && showNode(nodePicker.value));
     document.querySelectorAll("[data-focus-node]").forEach((button) => button.addEventListener("click", () => showNode(button.dataset.focusNode)));
-    updateGraph();
+    document.querySelectorAll("[data-focus-edge]").forEach((button) => button.addEventListener("click", () => showEdge(button.dataset.focusEdge)));
+    document.getElementById("filter-reset").addEventListener("click", () => { kindFilter.value = ""; linkFilter.value = ""; fromInput.value = data.minYear; toInput.value = data.maxYear; undatedFilter.checked = true; selectedNodeId = ""; selectedEdgeId = ""; updateAddressAndDraw(); });
+    document.getElementById("copy-state").addEventListener("click", async () => { const label = document.getElementById("copy-result"); try { await navigator.clipboard.writeText(location.href); label.textContent = "View link copied."; } catch { label.textContent = "Copy is unavailable here. Copy the address from your browser."; } });
+    window.addEventListener("reader:themes-changed", (event) => { currentThemeIds = event.detail.themes; updateAddressAndDraw(); });
+    document.addEventListener("visibilitychange", () => { if (!document.hidden && renderer && !reducedMotion.matches) startMotion([...visibleSet().nodes]); });
+    reducedMotion.addEventListener?.("change", () => updateAddressAndDraw());
+    draw();
     if (selectedNodeId && nodeById.has(selectedNodeId)) showNode(selectedNodeId);
-    if (startSelect.value && endSelect.value) findPath();
   </script>
 </SiteLayout>

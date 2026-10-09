@@ -1,0 +1,21 @@
+{
+  "id": "passage:aam-northsouth-2014",
+  "slug": "northsouth-gis-joins-aam",
+  "articleId": "article:aam-and-northsouth",
+  "title": "NorthSouth GIS joins AAM",
+  "order": 2,
+  "updatedAt": "2026-10-09",
+  "themeIds": ["theme:gis-businesses"],
+  "recordIds": ["entity:aam-aamhatch", "entity:northsouth-gis-nz"],
+  "paragraphs": [
+    {
+      "text": "In 2014, AAM acquired NorthSouth GIS NZ, a business that had grown from Explorer Graphics and delivered GIS consulting and application work. The acquisition joined a New Zealand consultancy lineage with a wider Australian geospatial services company.",
+      "sources": [
+        {
+          "label": "NorthSouth GIS, History",
+          "url": "https://www.northsouthgis.com/about-nsg/history"
+        }
+      ]
+    }
+  ]
+}
