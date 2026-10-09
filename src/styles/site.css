@@ -134,7 +134,7 @@ main { min-height: 65vh; }
 .network-svg-node.is-highlighted { transform-box: fill-box; transform-origin: center; transform: scale(1.1); }
 .network-svg-node.is-dimmed, .network-svg-edge.is-dimmed { opacity: 1; }
 .network-svg-node.is-dimmed circle { fill: var(--graph-muted); }
-.network-svg-node.is-dimmed text { fill: var(--graph-muted); }
+.network-svg-node.is-dimmed text { fill: var(--ink); }
 .network-svg-edge.is-dimmed line:first-child { stroke: var(--graph-edge-dim); }
 .network-svg-node:focus-visible circle, .network-svg-node.is-selected circle { stroke: var(--ink); stroke-width: 4px; }
 .network-svg-edge.is-highlighted line:first-child { stroke: var(--graph-highlight); stroke-width: 2.5px; opacity: 1; }
