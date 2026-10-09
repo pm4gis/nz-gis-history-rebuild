@@ -1,7 +1,6 @@
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
 import SourceList from "../components/SourceList.astro";
-import MiniNetwork from "../components/MiniNetwork.astro";
 import { getCollection } from "astro:content";
 
 const [recordEntries, relationshipEntries, eventEntries, articleEntries, passageEntries, themeEntries] = await Promise.all([
@@ -17,10 +16,6 @@ export async function getStaticPaths() {
 const { recordId } = Astro.props;
 const record = recordById.get(recordId);
 const relatedLinks = relationshipEntries.map((entry) => entry.data).filter((relation) => relation.a === recordId || relation.b === recordId);
-const nearbyIds = new Set([recordId, ...relatedLinks.map((relation) => relation.a === recordId ? relation.b : relation.a)]);
-const nearbyRecords = records.filter((item) => nearbyIds.has(item.id) && item.kind !== "Story");
-const miniNodes = nearbyRecords.map((item) => ({ id: item.id, label: item.name, kind: item.kind, url: item.url }));
-const miniEdges = relatedLinks.map((relation) => ({ id: relation.id, a: relation.a, b: relation.b, label: relation.label }));
 
 const connectedPassages = passageEntries.map((entry) => entry.data).filter((passage) => (passage.recordIds || []).includes(recordId));
 const recordEvents = eventEntries.map((entry) => entry.data).filter((event) => (event.recordIds || []).includes(recordId) || (event.passageIds || []).some((passageId) => connectedPassages.some((passage) => passage.id === passageId)));
@@ -73,7 +68,6 @@ const contextArticle = contextPassage && articlesById.get(contextPassage.article
         <SourceList sources={record.sources} heading="Sources and further reading" />
       </div>
       <aside class="record-facts" aria-label="Record details">
-        {miniNodes.length > 1 && <div class="context-card"><p class="eyebrow">Connected records</p><h2>Explore nearby connections</h2><MiniNetwork nodes={miniNodes} edges={miniEdges} centralId={recordId} fullUrl={`/network/?focus=${encodeURIComponent(recordId)}`} /></div>}
         <div class="context-card"><p class="eyebrow">Record at a glance</p><dl>
           <div><dt>Type</dt><dd>{record.kind}</dd></div>
           {record.coverageEnd && <div><dt>Coverage</dt><dd>Through {record.coverageEnd}</dd></div>}
