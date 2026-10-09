@@ -449,11 +449,15 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       const svg = svgNode("svg", { viewBox: "0 0 900 620", class: "network-svg", role: "group", "aria-label": "Network diagram. Use Tab to inspect nodes and links." });
       const layout = graphPositions(nodes, edges);
       const points = new Map(nodes.map((node) => { const point = layout.get(node.id); return [node.id, { x: 450 + point.x * 335, y: 310 + point.y * 235 }]; }));
+      const edgeLinesByNode = new Map(nodes.map((node) => [node.id, []]));
+      let suppressSvgClickUntil = -Infinity;
       edges.forEach((edge) => {
         const a = points.get(edge.a); const b = points.get(edge.b); if (!a || !b) return;
         const group = svgNode("g", { tabindex: "0", role: "button", "aria-pressed": String(selectedEdgeId === edge.id), "data-edge-id": edge.id, class: `network-svg-edge${selectedEdgeId === edge.id ? " is-selected is-highlighted" : ""}`, "aria-label": `${nodeById.get(edge.a)?.label} ${edge.label} ${nodeById.get(edge.b)?.label}` });
-        group.append(svgNode("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, class: selectedEdgeId === edge.id ? "edge-selected" : "" }));
-        group.append(svgNode("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, class: "edge-hit" }));
+        const visibleLine = svgNode("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, class: selectedEdgeId === edge.id ? "edge-selected" : "" });
+        const hitLine = svgNode("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, class: "edge-hit" });
+        group.append(visibleLine, hitLine);
+        [edge.a, edge.b].forEach((id) => edgeLinesByNode.get(id)?.push({ visibleLine, hitLine, edge }));
         group.addEventListener("click", () => showEdge(edge.id)); group.addEventListener("keydown", (event) => { if (["Enter", " "].includes(event.key)) { event.preventDefault(); showEdge(edge.id); } }); svg.append(group);
       });
       nodes.forEach((node) => {
@@ -463,7 +467,55 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
         const edgeFocus = edgeById.get(selectedEdgeId);
         if (node.id !== selectedNodeId && node.id !== edgeFocus?.a && node.id !== edgeFocus?.b && !labelKinds.includes(node.kind)) label.setAttribute("class", "network-svg-label-secondary");
         g.append(label);
-        g.addEventListener("click", () => showNode(node.id)); g.addEventListener("focus", () => { hoveredNodeId = node.id; syncSelection(); }); g.addEventListener("blur", () => { hoveredNodeId = ""; syncSelection(); }); g.addEventListener("keydown", (event) => { if (["Enter", " "].includes(event.key)) { event.preventDefault(); showNode(node.id); } }); svg.append(g);
+        let dragPointerId = null;
+        let dragged = false;
+        g.addEventListener("pointerdown", (event) => {
+          if (event.button !== 0) return;
+          dragPointerId = event.pointerId;
+          dragged = false;
+          g.__dragOrigin = { x: event.clientX, y: event.clientY };
+          g.setPointerCapture(event.pointerId);
+          graphElement.classList.add("is-dragging");
+        });
+        g.addEventListener("pointermove", (event) => {
+          if (dragPointerId !== event.pointerId) return;
+          const origin = g.__dragOrigin;
+          if (!dragged && Math.hypot(event.clientX - origin.x, event.clientY - origin.y) < 3) return;
+          dragged = true;
+          const matrix = svg.getScreenCTM();
+          if (!matrix) return;
+          const cursor = svg.createSVGPoint();
+          cursor.x = event.clientX; cursor.y = event.clientY;
+          const view = cursor.matrixTransform(matrix.inverse());
+          const point = { x: Math.max(12, Math.min(888, view.x)), y: Math.max(12, Math.min(608, view.y)) };
+          points.set(node.id, point);
+          const circle = g.querySelector("circle");
+          circle.setAttribute("cx", String(point.x)); circle.setAttribute("cy", String(point.y));
+          label.setAttribute("x", String(point.x)); label.setAttribute("y", String(point.y + 24));
+          (edgeLinesByNode.get(node.id) || []).forEach(({ visibleLine, hitLine, edge }) => {
+            const a = points.get(edge.a); const b = points.get(edge.b);
+            [visibleLine, hitLine].forEach((line) => {
+              line.setAttribute("x1", String(a.x)); line.setAttribute("y1", String(a.y));
+              line.setAttribute("x2", String(b.x)); line.setAttribute("y2", String(b.y));
+            });
+          });
+          manualPositions.set(node.id, { x: (point.x - 450) / 335, y: (point.y - 310) / 235 });
+        });
+        const finishDrag = (event) => {
+          if (dragPointerId !== event.pointerId) return;
+          if (g.hasPointerCapture(event.pointerId)) g.releasePointerCapture(event.pointerId);
+          if (dragged) suppressSvgClickUntil = performance.now() + 400;
+          dragPointerId = null;
+          g.__dragOrigin = null;
+          graphElement.classList.remove("is-dragging");
+        };
+        g.addEventListener("pointerup", finishDrag);
+        g.addEventListener("pointercancel", finishDrag);
+        g.addEventListener("click", () => { if (performance.now() >= suppressSvgClickUntil) showNode(node.id); });
+        g.addEventListener("focus", () => { hoveredNodeId = node.id; syncSelection(); });
+        g.addEventListener("blur", () => { hoveredNodeId = ""; syncSelection(); });
+        g.addEventListener("keydown", (event) => { if (["Enter", " "].includes(event.key)) { event.preventDefault(); showNode(node.id); } });
+        svg.append(g);
       });
       graphElement.append(svg);
     };

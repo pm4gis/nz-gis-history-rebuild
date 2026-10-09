@@ -125,12 +125,17 @@ main { min-height: 65vh; }
 #graph { position: absolute; inset: 0; }
 .network-svg { width: 100%; height: 100%; display: block; }
 .network-svg-node, .network-svg-edge { cursor: pointer; outline: none; transition: opacity .18s ease, transform .18s ease; }
+.network-svg-node { cursor: grab; touch-action: none; }
+.network-svg-node:active, #graph.is-dragging .network-svg-node { cursor: grabbing; }
 .network-svg-node text { font: 12px var(--font-sans); fill: var(--ink); paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; opacity: 0; pointer-events: none; }
 .network-svg-node:hover text, .network-svg-node:focus-visible text, .network-svg-node.is-highlighted text:not(.network-svg-label-secondary) { opacity: 1; }
 .network-svg-node text.network-svg-label-secondary { opacity: 0 !important; }
 .network-svg-node:hover text.network-svg-label-secondary, .network-svg-node:focus-visible text.network-svg-label-secondary { opacity: 1 !important; }
 .network-svg-node.is-highlighted { transform-box: fill-box; transform-origin: center; transform: scale(1.1); }
-.network-svg-node.is-dimmed, .network-svg-edge.is-dimmed { opacity: .27; }
+.network-svg-node.is-dimmed, .network-svg-edge.is-dimmed { opacity: 1; }
+.network-svg-node.is-dimmed circle { fill: var(--graph-muted); }
+.network-svg-node.is-dimmed text { fill: var(--graph-muted); }
+.network-svg-edge.is-dimmed line:first-child { stroke: var(--graph-edge-dim); }
 .network-svg-node:focus-visible circle, .network-svg-node.is-selected circle { stroke: var(--ink); stroke-width: 4px; }
 .network-svg-edge.is-highlighted line:first-child { stroke: var(--graph-highlight); stroke-width: 2.5px; opacity: 1; }
 .network-svg-edge:focus-visible line:first-child { stroke: var(--ink); stroke-width: 4px; }
