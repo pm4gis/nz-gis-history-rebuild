@@ -59,6 +59,9 @@ if (!home.includes("Contents") || !home.includes('class="book-section"') || home
   throw new Error("The home page does not render the long-form book without a shared timeline or embedded graph.");
 }
 if (home.includes("Staging publication")) throw new Error("The home page renders internal staging copy.");
+const homeIds = [...home.matchAll(/\\bid="([^"]+)"/g)].map((match) => match[1]);
+const duplicateHomeIds = homeIds.filter((id, index) => homeIds.indexOf(id) !== index);
+if (duplicateHomeIds.length) throw new Error("The combined book contains duplicate HTML IDs: " + [...new Set(duplicateHomeIds)].join(", "));
 const preface = await readFile(path.join(dist, "stories/preface/index.html"), "utf8");
 if (!preface.includes("Writing this book began as a way of using AI") || !preface.includes("use the Suggest an update by email link")) throw new Error("The separate preface page is missing or its update instructions are out of date.");
 const aam = records.find((record) => record.id === "entity:aam-aamhatch");
