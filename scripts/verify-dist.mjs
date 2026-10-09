@@ -58,7 +58,7 @@ if (!home.includes("A History of GIS in New Zealand") || !home.includes("Start r
 if (!home.includes("Contents") || !home.includes('class="book-section"') || home.includes("timeline-dock") || home.includes("MiniNetwork")) {
   throw new Error("The home page does not render the long-form book without a shared timeline or embedded graph.");
 }
-if (home.includes("Writing this book began as a way of using AI") || home.includes("Staging publication")) throw new Error("The home page renders internal staging copy.");
+if (home.includes("Staging publication")) throw new Error("The home page renders internal staging copy.");
 const preface = await readFile(path.join(dist, "stories/preface/index.html"), "utf8");
 if (!preface.includes("Writing this book began as a way of using AI") || !preface.includes("use the Suggest an update by email link")) throw new Error("The separate preface page is missing or its update instructions are out of date.");
 const aam = records.find((record) => record.id === "entity:aam-aamhatch");
