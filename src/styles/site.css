@@ -1217,3 +1217,57 @@ input[type="checkbox"], input[type="radio"], input[type="range"] { accent-color:
   .timeline-item { min-height: 0; margin: 0 0 .8rem; padding: .95rem; }
   .timeline-item::before { display: block; top: 1rem; left: -1.68rem; width: 11px; height: 11px; border-color: var(--surface); }
 }
+
+/* Inline links to collection records, with a hover and keyboard preview. */
+.entity-reference { position: relative; display: inline-block; z-index: 1; }
+.entity-reference:hover, .entity-reference:focus-within { z-index: 20; }
+.entity-reference-link {
+  color: var(--green-dark);
+  font-weight: 650;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--green);
+  text-underline-offset: .18em;
+  border-radius: 2px;
+}
+.entity-reference-link:hover { color: var(--link-hover); text-decoration-style: solid; }
+.entity-reference-link:focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
+.entity-preview {
+  position: absolute;
+  top: calc(100% + .35rem);
+  left: 0;
+  z-index: 30;
+  display: grid;
+  gap: .42rem;
+  width: min(20rem, calc(100vw - 2rem));
+  padding: .8rem .9rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 12px 32px color-mix(in srgb, var(--ink) 22%, transparent);
+  font-size: .75rem;
+  line-height: 1.5;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-.2rem);
+  transition: opacity .12s ease, transform .12s ease, visibility .12s ease;
+}
+.entity-reference:hover .entity-preview, .entity-reference:focus-within .entity-preview {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.entity-preview > strong { color: var(--ink); font-size: .82rem; line-height: 1.3; }
+.entity-preview-description { color: var(--muted); }
+.entity-preview-open { justify-self: start; color: var(--green-dark); font-size: .7rem; font-weight: 750; text-decoration: underline; text-underline-offset: .16em; }
+.entity-preview-open:hover { color: var(--link-hover); }
+.entity-preview-open:focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
+@media (max-width: 650px) {
+  .entity-preview { width: min(18rem, calc(100vw - 2rem)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .entity-preview { transition: none; }
+}
