@@ -1,4 +1,6 @@
 ---
+import InlineEntityLinks from "./InlineEntityLinks.astro";
+
 interface Props {
   article: any;
   passages?: any[];
@@ -22,6 +24,7 @@ const articleThemeIds = [...new Set([...(article.themeIds || []), ...passages.fl
 const imageById = new Map<string, any>(images.map((image) => [image.id, image] as const));
 const formatDate = (value) => new Date(value + "T00:00:00Z").toLocaleDateString("en-NZ", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const passageBlocks = (passage) => passage.blocks?.length ? passage.blocks : (passage.paragraphs || []).map((paragraph) => ({ type: "paragraph", ...paragraph }));
+const recordsForPassage = (passage) => (passage.recordIds || []).map((id) => recordById.get(id)).filter((record) => record && record.kind !== "Story");
 const passageSources = (passage) => passageBlocks(passage).flatMap((block) => block.type === "paragraph" ? block.sources || [] : []);
 ---
 
@@ -61,14 +64,14 @@ const passageSources = (passage) => passageBlocks(passage).flatMap((block) => bl
             </div>
           </div>
           <div class="passage-copy">
-            {passageBlocks(passage).map((block) => block.type === "figure" ? (() => {
+            {passageBlocks(passage).map((block, blockIndex) => block.type === "figure" ? (() => {
               const image = block.imageId ? imageById.get(block.imageId) : null;
               return <figure class="reading-figure">
                 {image && <a href={`/images/${image.slug}/`} aria-label={`Open image details for ${image.title}`}><img src={image.assetPath} alt={block.alt || image.altText} loading="lazy" /></a>}
                 <figcaption>{block.caption}{block.credit && <span class="figure-credit"> {block.credit}</span>}{image && <> <a href={`/images/${image.slug}/`}>Image details and source ↗</a></>}</figcaption>
               </figure>;
             })() : (
-              <p>{block.text}</p>
+              <p><InlineEntityLinks text={block.text} records={recordsForPassage(passage)} idBase={`story-${passage.slug}-${blockIndex}`} /></p>
             ))}
           </div>
           <div class="passage-foot">
