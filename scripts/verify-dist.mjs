@@ -72,6 +72,7 @@ if (home.includes("Download PDF")) throw new Error("PDF functionality remains on
 for (const file of builtFiles.filter((path) => path.endsWith(".html"))) {
   const html = await readFile(file, "utf8");
   if (html.includes('class="timeline-dock"')) throw new Error("A shared timeline dock remains on " + path.relative(dist, file) + ".");
+  if (html.includes('class="mini-network"')) throw new Error("An embedded mini network diagram remains on " + path.relative(dist, file) + ".");
 }
 const chronology = await readFile(path.join(dist, "timeline/index.html"), "utf8");
 if (!chronology.includes("Chronological event cards") || !chronology.includes("Earlier events") || !chronology.includes("Later events")) throw new Error("Chronology is missing its accessible horizontal scroll region.");
