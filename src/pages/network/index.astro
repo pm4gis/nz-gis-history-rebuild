@@ -202,16 +202,14 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     const focusPosition = (x, y, ratio = .78) => {
       if (!renderer) return;
       const camera = renderer.getCamera();
-      const defaultState = { x: .5, y: .5, angle: 0, ratio: 1 };
-      const pixel = renderer.graphToViewport({ x, y }, { cameraState: defaultState });
-      const framed = renderer.viewportToFramedGraph(pixel, { cameraState: defaultState });
-      const state = { x: framed.x, y: framed.y, ratio: Math.min(camera.getState().ratio, ratio) };
+      const state = { x, y, ratio: Math.min(camera.getState().ratio, ratio) };
       if (reducedMotion.matches) camera.setState(state);
       else camera.animate(state, { duration: 420, easing: "cubicInOut" });
     };
     const focusNode = (id) => {
-      if (!renderer || !graph?.hasNode(id)) return;
-      const attrs = graph.getNodeAttributes(id);
+      if (!renderer) return;
+      const attrs = renderer.getNodeDisplayData(id);
+      if (!attrs) return;
       focusPosition(attrs.x, attrs.y);
     };
     const showNode = (id) => {
@@ -256,7 +254,8 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       }
       address(); syncSelection();
       if (a && b && graph?.hasNode(a.id) && graph?.hasNode(b.id)) {
-        const aa = graph.getNodeAttributes(a.id); const bb = graph.getNodeAttributes(b.id);
+        const aa = renderer.getNodeDisplayData(a.id); const bb = renderer.getNodeDisplayData(b.id);
+        if (!aa || !bb) return;
         focusPosition((aa.x + bb.x) / 2, (aa.y + bb.y) / 2, .85);
       }
     };
