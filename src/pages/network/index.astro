@@ -127,7 +127,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
         <div id="graph" role="img" aria-describedby="graph-help" aria-label="Interactive network of stories, records, events and themes"></div>
         <span class="graph-selection-pulse" id="graph-pulse" aria-hidden="true"></span>
         <div class="graph-overlay"><span class="graph-status-dot" aria-hidden="true"></span><span id="graph-help">Choose a name or theme to bring its story links, relationships and dates into focus.</span></div>
-        <p class="graph-motion-note">Selection animates focus · respects reduced motion</p>
+        <p class="graph-motion-note">Drag nodes to rearrange · scroll to zoom · select to explore</p>
       </div>
       <aside class="graph-panel" aria-labelledby="network-inspector-title">
         <p class="eyebrow">Link inspector</p><h2 id="network-inspector-title">Explore a connection</h2>
@@ -136,6 +136,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
         <div class="node-search-results" id="node-search-results" role="group" aria-label="Matching network items"></div>
         <div id="graph-details" class="graph-details" aria-live="polite"><p>Select a node or line. Its description, source links and related passage will appear here.</p></div>
         <button class="button-secondary" id="graph-reset" type="button">Clear selection and reset view</button>
+        <button class="button-secondary" id="layout-reset" type="button">Reset node positions</button>
         <button class="button-secondary" id="copy-state" type="button">Copy this view</button>
         <span id="copy-result" class="small muted" aria-live="polite"></span>
       </aside>
@@ -157,7 +158,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
   <script>
     // @ts-nocheck
     import { MultiUndirectedGraph } from "graphology";
-    import Sigma from "sigma";
+    import Sigma, { DEFAULT_STYLES } from "sigma";
 
     const data = JSON.parse(document.getElementById("graph-data").textContent);
     const nodeById = new Map(data.nodes.map((node) => [node.id, node]));
@@ -191,6 +192,8 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     let hoveredNodeId = "";
     let hoveredEdgeId = "";
     let positionAnimationToken = 0;
+    let lastNodeDragEnd = -Infinity;
+    const manualPositions = new Map();
 
     function readThemes() { try { return JSON.parse(localStorage.getItem("nzgis-reader-themes-v1") || "[]"); } catch { return []; } }
     const svgNS = "http://www.w3.org/2000/svg";
@@ -284,7 +287,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       if (matches.length > 16) text(nodeResults, "span", `Showing 16 of ${matches.length}. Refine the search to see another item.`, "small muted");
     };
     const syncSelection = () => {
-      renderer?.refresh();
+      renderer?.refresh({ skipIndexation: true });
       graphElement.querySelectorAll("[data-node-id]").forEach((element) => {
         const id = element.dataset.nodeId;
         const isSelected = id === selectedNodeId;
@@ -320,7 +323,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       if (!renderer) return;
       const attrs = renderer.getNodeDisplayData(id);
       if (!attrs) return;
-      focusPosition(selectedNodeId === id ? 0 : attrs.x, selectedNodeId === id ? 0 : attrs.y);
+      focusPosition(attrs.x, attrs.y);
       graphPulse.dataset.nodeId = id;
       graphPulse.classList.remove("is-active");
       requestAnimationFrame(() => graphPulse.classList.add("is-active"));
@@ -453,6 +456,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       const oldPositions = new Map();
       if (graph) graph.forEachNode((id, attrs) => oldPositions.set(id, { x: attrs.x, y: attrs.y }));
       const layout = graphPositions(nodes, edges);
+      manualPositions.forEach((position, id) => { if (layout.has(id)) layout.set(id, position); });
       if (renderer) { renderer.kill(); renderer = undefined; }
       graphElement.replaceChildren();
       if (!webgl) drawSVG(nodes, edges);
@@ -463,39 +467,67 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
           const previous = oldPositions.get(node.id);
           const focusEdge = edgeById.get(selectedEdgeId);
           const isFocus = node.id === selectedNodeId || node.id === focusEdge?.a || node.id === focusEdge?.b;
-          graph.addNode(node.id, { label: isFocus || labelKinds.includes(node.kind) ? node.label : "", x: previous?.x ?? p.x, y: previous?.y ?? p.y, size: selectedNodeId === node.id ? 11 : node.kind === "Story" ? 10 : node.kind === "Theme" ? 7 : 6, color: selectedNodeId === node.id ? "#f0b562" : paletteColor(node), kind: node.kind });
+          graph.addNode(node.id, { id: node.id, fullLabel: node.label, label: isFocus || labelKinds.includes(node.kind) ? node.label : "", x: previous?.x ?? p.x, y: previous?.y ?? p.y, size: selectedNodeId === node.id ? 11 : node.kind === "Story" ? 10 : node.kind === "Theme" ? 7 : 6, color: selectedNodeId === node.id ? "#f0b562" : paletteColor(node), kind: node.kind });
         });
-        edges.forEach((edge) => { if (graph.hasNode(edge.a) && graph.hasNode(edge.b)) graph.addUndirectedEdgeWithKey(edge.id, edge.a, edge.b, { label: edge.label, size: selectedEdgeId === edge.id ? 2.5 : 1.3, color: selectedEdgeId === edge.id ? "#f0b562" : "#7d9a8f" }); });
+        edges.forEach((edge) => { if (graph.hasNode(edge.a) && graph.hasNode(edge.b)) graph.addUndirectedEdgeWithKey(edge.id, edge.a, edge.b, { id: edge.id, label: edge.label, size: selectedEdgeId === edge.id ? 2.5 : 1.3, color: selectedEdgeId === edge.id ? "#f0b562" : "#7d9a8f" }); });
         renderer = new Sigma(graph, graphElement, {
-          renderEdgeLabels: false, labelRenderedSizeThreshold: 6, labelDensity: .08, labelGridCellSize: 90,
-          defaultNodeColor: "#48a98c", defaultEdgeColor: "#78948a", enableEdgeEvents: true,
-          nodeReducer: (key, attrs) => {
-            const focusId = selectedNodeId || hoveredNodeId;
-            const focusEdge = edgeById.get(selectedEdgeId);
-            const onFocusEdge = Boolean(focusEdge && (key === focusEdge.a || key === focusEdge.b));
-            const nearFocus = Boolean(focusId && (key === focusId || graph.hasEdge(key, focusId)));
-            if (!focusId && !selectedEdgeId) return attrs;
-            if (key === selectedNodeId) return { ...attrs, label: nodeById.get(key)?.label || attrs.label, color: "#f0b562", size: attrs.size * 1.45, highlighted: true };
-            if (key === hoveredNodeId) return { ...attrs, label: nodeById.get(key)?.label || attrs.label, size: attrs.size * 1.35, highlighted: true };
-            if (onFocusEdge) return { ...attrs, color: "#d7aa72", size: attrs.size * 1.18, highlighted: true };
-            if (nearFocus) return { ...attrs, size: attrs.size * 1.12 };
-            return { ...attrs, color: "#b6c2bb", size: attrs.size * .84 };
+          settings: {
+            renderEdgeLabels: false, labelRenderedSizeThreshold: 6, labelDensity: .08, labelGridCellSize: 90,
+            defaultNodeColor: "#48a98c", defaultEdgeColor: "#78948a", enableEdgeEvents: true,
+            enableNodeDrag: true, autoRescale: "once", itemSizesReference: "screen", nodeLabelEvents: "extend",
           },
-          edgeReducer: (key, attrs) => {
-            const [source, target] = graph.extremities(key);
-            const selectedEdge = edgeById.get(selectedEdgeId);
-            const related = [selectedNodeId, hoveredNodeId, selectedEdge?.a, selectedEdge?.b].some((id) => id && (source === id || target === id));
-            if (key === selectedEdgeId || key === hoveredEdgeId) return { ...attrs, color: "#e3a14f", size: 2.5 };
-            if (related) return { ...attrs, color: "#728b7e", size: 1.8 };
-            if (selectedNodeId || selectedEdgeId || hoveredNodeId || hoveredEdgeId) return { ...attrs, color: "#d3dbd6", size: .9 };
-            return attrs;
+          styles: {
+            nodes: [
+              DEFAULT_STYLES.nodes,
+              { when: (attrs) => Boolean(selectedNodeId || selectedEdgeId || hoveredNodeId) &&
+                attrs.id !== selectedNodeId && attrs.id !== hoveredNodeId &&
+                ![selectedNodeId, hoveredNodeId].some((id) => id && graph.hasEdge(attrs.id, id)) &&
+                ![edgeById.get(selectedEdgeId)?.a, edgeById.get(selectedEdgeId)?.b].includes(attrs.id),
+                then: { color: "#b6c2bb", size: (attrs) => attrs.size * .84 } },
+              { when: (attrs) => attrs.id === selectedNodeId,
+                then: { color: "#f0b562", size: (attrs) => attrs.size * 1.45,
+                  label: { attribute: "fullLabel" }, labelVisibility: "visible" } },
+              { when: (attrs) => attrs.id === hoveredNodeId,
+                then: { size: (attrs) => attrs.size * 1.35,
+                  label: { attribute: "fullLabel" }, labelVisibility: "visible" } },
+              { when: (attrs) => [edgeById.get(selectedEdgeId)?.a, edgeById.get(selectedEdgeId)?.b].includes(attrs.id),
+                then: { color: "#d7aa72", size: (attrs) => attrs.size * 1.18,
+                  label: { attribute: "fullLabel" }, labelVisibility: "visible" } },
+              { cursor: "grab" },
+              { whenState: "isDragged", then: { depth: "topNodes", label: { attribute: "fullLabel" },
+                labelVisibility: "visible", cursor: "grabbing" } },
+            ],
+            edges: [
+              DEFAULT_STYLES.edges,
+              { when: (attrs) => Boolean(selectedNodeId || selectedEdgeId || hoveredNodeId || hoveredEdgeId) &&
+                attrs.id !== selectedEdgeId && attrs.id !== hoveredEdgeId &&
+                ![selectedNodeId, hoveredNodeId, edgeById.get(selectedEdgeId)?.a,
+                  edgeById.get(selectedEdgeId)?.b].some((id) => id &&
+                  (edgeById.get(attrs.id)?.a === id || edgeById.get(attrs.id)?.b === id)),
+                then: { color: "#d3dbd6", size: .9 } },
+              { when: (attrs) => [selectedNodeId, hoveredNodeId].some((id) => id &&
+                (edgeById.get(attrs.id)?.a === id || edgeById.get(attrs.id)?.b === id)),
+                then: { color: "#728b7e", size: 1.8 } },
+              { when: (attrs) => attrs.id === selectedEdgeId || attrs.id === hoveredEdgeId,
+                then: { color: "#e3a14f", size: 2.5 } },
+            ],
+            stage: [{ whenState: "isDragging", then: { cursor: "grabbing" } }],
           },
         });
-        renderer.on("clickNode", ({ node }) => showNode(node)); renderer.on("clickEdge", ({ edge }) => showEdge(edge));
-        renderer.on("enterNode", ({ node }) => { hoveredNodeId = node; renderer.refresh(); });
-        renderer.on("leaveNode", ({ node }) => { if (hoveredNodeId === node) { hoveredNodeId = ""; renderer.refresh(); } });
-        renderer.on("enterEdge", ({ edge }) => { hoveredEdgeId = edge; renderer.refresh(); });
-        renderer.on("leaveEdge", ({ edge }) => { if (hoveredEdgeId === edge) { hoveredEdgeId = ""; renderer.refresh(); } });
+        renderer.on("nodeDragStart", () => { positionAnimationToken++; graphElement.classList.add("is-dragging"); });
+        renderer.on("nodeDragEnd", ({ node, allDraggedNodes }) => {
+          lastNodeDragEnd = performance.now();
+          graphElement.classList.remove("is-dragging");
+          (allDraggedNodes?.length ? allDraggedNodes : [node]).forEach((id) => {
+            if (graph.hasNode(id)) manualPositions.set(id, { x: graph.getNodeAttribute(id, "x"), y: graph.getNodeAttribute(id, "y") });
+          });
+          placePulse();
+        });
+        renderer.on("clickNode", ({ node }) => { if (performance.now() - lastNodeDragEnd > 250) showNode(node); }); renderer.on("clickEdge", ({ edge }) => showEdge(edge));
+        renderer.on("enterNode", ({ node }) => { hoveredNodeId = node; renderer.refresh({ skipIndexation: true }); });
+        renderer.on("leaveNode", ({ node }) => { if (hoveredNodeId === node) { hoveredNodeId = ""; renderer.refresh({ skipIndexation: true }); } });
+        renderer.on("enterEdge", ({ edge }) => { hoveredEdgeId = edge; renderer.refresh({ skipIndexation: true }); });
+        renderer.on("leaveEdge", ({ edge }) => { if (hoveredEdgeId === edge) { hoveredEdgeId = ""; renderer.refresh({ skipIndexation: true }); } });
         renderer.on("afterRender", placePulse);
         if ((selectedNodeId || selectedEdgeId) && oldPositions.size && !reducedMotion.matches) {
           const token = ++positionAnimationToken;
@@ -506,7 +538,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
             const eased = 1 - Math.pow(1 - progress, 3);
             nodes.forEach((node) => {
               const from = oldPositions.get(node.id); const to = layout.get(node.id);
-              if (!from || !to) return;
+              if (!from || !to || manualPositions.has(node.id)) return;
               graph.setNodeAttribute(node.id, "x", from.x + (to.x - from.x) * eased);
               graph.setNodeAttribute(node.id, "y", from.y + (to.y - from.y) * eased);
             });
@@ -546,12 +578,14 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       clearPanel(); text(detailPanel, "p", "Select a node or line. Its description, source links and connected items will appear here.");
       graphHelp.textContent = "Choose a name or theme to bring its story links, relationships and dates into focus.";
       address(); syncSelection(); renderNodeResults();
+      manualPositions.clear(); draw();
       if (renderer) {
         const camera = renderer.getCamera();
         if (reducedMotion.matches) camera.setState({ x: .5, y: .5, angle: 0, ratio: 1 });
         else camera.animate({ x: .5, y: .5, angle: 0, ratio: 1 }, { duration: 360, easing: "cubicInOut" });
       }
     });
+    document.getElementById("layout-reset").addEventListener("click", () => { manualPositions.clear(); positionAnimationToken++; draw(); if (selectedNodeId) focusNode(selectedNodeId); });
     document.getElementById("copy-state").addEventListener("click", async () => { const label = document.getElementById("copy-result"); try { await navigator.clipboard.writeText(location.href); label.textContent = "View link copied."; } catch { label.textContent = "Copy is unavailable here. Copy the address from your browser."; } });
     window.addEventListener("reader:themes-changed", (event) => { currentThemeIds = event.detail.themes; updateAddressAndDraw(); });
     reducedMotion.addEventListener?.("change", () => { if (reducedMotion.matches) renderer?.getCamera().cancelAnimation(); });

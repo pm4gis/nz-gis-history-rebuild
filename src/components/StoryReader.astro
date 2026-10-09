@@ -1,4 +1,5 @@
 ---
+import MiniNetwork from "./MiniNetwork.astro";
 interface Props {
   article: any;
   passages?: any[];
@@ -20,14 +21,17 @@ const relevantRelationships = relationships.filter((item) => recordIds.includes(
 const themeById = new Map<string, any>(themes.map((theme) => [theme.id, theme] as const));
 const articleThemeIds = [...new Set([...(article.themeIds || []), ...passages.flatMap((passage) => passage.themeIds || [])])];
 const imageById = new Map<string, any>(images.map((image) => [image.id, image] as const));
-const positions = [[50, 18], [18, 76], [82, 76], [50, 55]];
-const visibleRecords = linkedRecords.slice(0, positions.length);
-const visibleRecordIds = new Set(visibleRecords.map((record) => record.id));
-const graphLinks = relevantRelationships.map((relation) => ({
-  relation,
-  a: visibleRecords.findIndex((record) => record.id === relation.a),
-  b: visibleRecords.findIndex((record) => record.id === relation.b),
-})).filter((edge) => visibleRecordIds.has(edge.relation.a) && visibleRecordIds.has(edge.relation.b) && edge.a >= 0 && edge.b >= 0);
+const miniRecords = linkedRecords.filter((record) => record.kind !== "Story");
+const miniIds = new Set(miniRecords.map((record) => record.id));
+const miniNodes = [
+  { id: article.id, label: article.title, kind: "Story", url: article.url },
+  ...miniRecords.map((record) => ({ id: record.id, label: record.name, kind: record.kind, url: record.url })),
+];
+const miniEdges = [
+  ...miniRecords.map((record) => ({ id: `story:${record.id}`, a: article.id, b: record.id, label: "in story" })),
+  ...relevantRelationships.filter((relation) => miniIds.has(relation.a) && miniIds.has(relation.b))
+    .map((relation) => ({ id: relation.id, a: relation.a, b: relation.b, label: relation.label })),
+];
 const formatDate = (value) => new Date(value + "T00:00:00Z").toLocaleDateString("en-NZ", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const passageBlocks = (passage) => passage.blocks?.length ? passage.blocks : (passage.paragraphs || []).map((paragraph) => ({ type: "paragraph", ...paragraph }));
 const passageSources = (passage) => passageBlocks(passage).flatMap((block) => block.type === "paragraph" ? block.sources || [] : []);
@@ -119,21 +123,7 @@ const eventHref = (event) => {
           <a class="icon-link" href="/network/" aria-label="Open the full network">↗</a>
         </div>
         {linkedRecords.length > 0 ? (
-          <div class="context-network" aria-label="A small network of records linked in this story">
-            <svg viewBox="0 0 100 100" role="img" aria-label="Lines connect the records listed below">
-              {graphLinks.map((edge) => {
-                const start = positions[edge.a];
-                const end = positions[edge.b];
-                return <g class="context-edge"><line x1={start[0]} y1={start[1]} x2={end[0]} y2={end[1]} /><circle class="edge-dot" r="1.3" cx={(start[0] + end[0]) / 2} cy={(start[1] + end[1]) / 2} /></g>;
-              })}
-            </svg>
-            {visibleRecords.map((record, index) => {
-              const point = positions[index];
-              return <a class="context-node" style={`--x:${point[0]}%;--y:${point[1]}%`} href={record.url} title={`${record.name} · ${record.kind}`}>
-                <span class="node-dot" aria-hidden="true"></span><span class="node-label">{record.name}</span>
-              </a>;
-            })}
-          </div>
+          <MiniNetwork nodes={miniNodes} edges={miniEdges} centralId={article.id} fullUrl={`/network/?focus=${encodeURIComponent(article.id)}`} />
         ) : <p class="muted">No linked records in this story yet.</p>}
         <ul class="relationship-legend">
           {relevantRelationships.slice(0, 8).map((relation) => {
@@ -142,7 +132,6 @@ const eventHref = (event) => {
             return <li><span class="relationship-line" aria-hidden="true"></span><span><a href={a?.url}>{a?.name}</a> <strong>{relation.label}</strong> <a href={b?.url}>{b?.name}</a></span></li>;
           })}
         </ul>
-        <a class="text-link" href="/network/">Explore the full network <span aria-hidden="true">→</span></a>
       </div>
 
       <div class="context-card theme-card">

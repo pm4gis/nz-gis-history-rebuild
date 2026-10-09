@@ -1,0 +1,75 @@
+---
+interface Props {
+  nodes: { id: string; label: string; kind?: string; url?: string }[];
+  edges: { id: string; a: string; b: string; label?: string }[];
+  centralId?: string;
+  fullUrl?: string;
+}
+const { nodes, edges, centralId = "", fullUrl = "/network/" } = Astro.props as Props;
+const cleanNodes = nodes.filter((node) => node?.id && node?.label);
+const ids = new Set(cleanNodes.map((node) => node.id));
+const cleanEdges = edges.filter((edge) => edge?.a !== edge?.b && ids.has(edge.a) && ids.has(edge.b));
+const payload = JSON.stringify({ nodes: cleanNodes, edges: cleanEdges, centralId }).replace(/</g, "\\u003c");
+---
+<div class="mini-network" data-mini-network>
+  <div class="mini-network-graph" data-mini-canvas aria-label="Interactive diagram of the records connected to this page"></div>
+  <script type="application/json" data-mini-json set:html={payload}></script>
+  <p class="mini-network-instructions">Drag to move a record · select to inspect</p>
+  <div class="mini-network-selection" data-mini-selection aria-live="polite"><span>Select a record to open its page.</span></div>
+  <details class="mini-network-alternative">
+    <summary>All records in this diagram ({cleanNodes.length})</summary>
+    <ul>{cleanNodes.map((node) => <li>{node.url ? <a href={node.url}>{node.label}</a> : <span>{node.label}</span>}</li>)}</ul>
+  </details>
+  <a class="text-link" href={fullUrl}>Explore in the full network →</a>
+</div>
+<script>
+  // @ts-nocheck
+  import { MultiUndirectedGraph } from "graphology";
+  import Sigma, { DEFAULT_STYLES } from "sigma";
+  const supportsWebGL = () => { try { const c = document.createElement("canvas"); return !!(c.getContext("webgl2") || c.getContext("webgl")); } catch { return false; } };
+  document.querySelectorAll("[data-mini-network]").forEach((host) => {
+    const stage = host.querySelector("[data-mini-canvas]");
+    const selection = host.querySelector("[data-mini-selection]");
+    const payload = JSON.parse(host.querySelector("[data-mini-json]").textContent);
+    if (!payload.nodes.length || !supportsWebGL()) {
+      stage.hidden = true;
+      host.querySelector(".mini-network-instructions").hidden = true;
+      return;
+    }
+    const graph = new MultiUndirectedGraph();
+    const nodeMap = new Map(payload.nodes.map((node) => [node.id, node]));
+    const others = payload.nodes.filter((node) => node.id !== payload.centralId);
+    payload.nodes.forEach((node) => {
+      const central = node.id === payload.centralId;
+      const index = others.findIndex((item) => item.id === node.id);
+      const angle = (2 * Math.PI * index / Math.max(others.length, 1)) - Math.PI / 2;
+      const radius = others.length > 24 ? .93 : .78;
+      graph.addNode(node.id, { label: node.label, x: central ? 0 : Math.cos(angle) * radius,
+        y: central ? 0 : Math.sin(angle) * radius, color: central ? "#c77e56" :
+        node.kind === "Person" ? "#3989a0" : "#48a98c", size: central ? 12 : 8 });
+    });
+    payload.edges.forEach((edge) => {
+      if (graph.hasNode(edge.a) && graph.hasNode(edge.b) && !graph.hasEdge(edge.id))
+        graph.addUndirectedEdgeWithKey(edge.id, edge.a, edge.b, { label: edge.label || "", color: "#86a49d", size: 1.2 });
+    });
+    let draggedRecently = -Infinity;
+    const renderer = new Sigma(graph, stage, {
+      settings: { enableNodeDrag: true, autoRescale: "once", itemSizesReference: "screen",
+        enableEdgeEvents: false, nodeLabelEvents: "extend", labelDensity: .18, labelRenderedSizeThreshold: 6,
+        gestureTarget: "shared", enableCameraRotation: false },
+      styles: { nodes: [DEFAULT_STYLES.nodes, { cursor: "grab" },
+        { whenState: "isDragged", then: { cursor: "grabbing", labelVisibility: "visible", depth: "topNodes" } }],
+        stage: [{ whenState: "isDragging", then: { cursor: "grabbing" } }] },
+    });
+    renderer.on("nodeDragEnd", () => { draggedRecently = performance.now(); });
+    renderer.on("clickNode", ({ node: id }) => {
+      if (performance.now() - draggedRecently < 250) return;
+      const item = nodeMap.get(id); if (!item) return;
+      selection.replaceChildren();
+      const title = document.createElement("strong"); title.textContent = item.label; selection.append(title);
+      if (item.kind) { const kind = document.createElement("span"); kind.textContent = " · " + item.kind; selection.append(kind); }
+      if (item.url) { const link = document.createElement("a"); link.href = item.url; link.textContent = " Open page →"; selection.append(link); }
+    });
+    if ("ResizeObserver" in window) new ResizeObserver(() => { renderer.resize(true); renderer.refresh(); }).observe(stage);
+  });
+</script>
