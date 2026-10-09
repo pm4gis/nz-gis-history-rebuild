@@ -444,10 +444,10 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       return positions;
     };
     const svgNode = (name, attrs = {}) => { const el = document.createElementNS(svgNS, name); Object.entries(attrs).forEach(([key, value]) => el.setAttribute(key, String(value))); return el; };
-    const drawSVG = (nodes, edges) => {
+    const drawSVG = (nodes, edges, layoutOverride) => {
       graphElement.replaceChildren();
       const svg = svgNode("svg", { viewBox: "0 0 900 620", class: "network-svg", role: "group", "aria-label": "Network diagram. Use Tab to inspect nodes and links." });
-      const layout = graphPositions(nodes, edges);
+      const layout = layoutOverride || graphPositions(nodes, edges);
       const points = new Map(nodes.map((node) => { const point = layout.get(node.id); return [node.id, { x: 450 + point.x * 335, y: 310 + point.y * 235 }]; }));
       const edgeLinesByNode = new Map(nodes.map((node) => [node.id, []]));
       let suppressSvgClickUntil = -Infinity;
@@ -528,7 +528,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       manualPositions.forEach((position, id) => { if (layout.has(id)) layout.set(id, position); });
       if (renderer) { renderer.kill(); renderer = undefined; }
       graphElement.replaceChildren();
-      if (!webgl) drawSVG(nodes, edges);
+      if (!webgl) drawSVG(nodes, edges, layout);
       else {
         graph = new MultiUndirectedGraph();
         nodes.forEach((node, index) => {

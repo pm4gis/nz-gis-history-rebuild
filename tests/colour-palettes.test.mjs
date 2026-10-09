@@ -101,6 +101,7 @@ test("the SVG network fallback supports pointer dragging with theme-aware dim co
   assert.match(fullNetwork, /addEventListener\("pointermove"/);
   assert.match(fullNetwork, /addEventListener\("pointerup"/);
   assert.match(fullNetwork, /manualPositions\.set\(node\.id/);
+  assert.match(fullNetwork, /drawSVG\(nodes, edges, layout\)/);
   assert.match(css, /\.network-svg-node\.is-dimmed circle\s*\{[^}]*var\(--graph-muted\)/s);
   assert.match(css, /\.network-svg-edge\.is-dimmed line:first-child\s*\{[^}]*var\(--graph-edge-dim\)/s);
   assert.doesNotMatch(css, /\.network-svg-node\.is-dimmed, \.network-svg-edge\.is-dimmed\s*\{\s*opacity:\s*\.27/);
