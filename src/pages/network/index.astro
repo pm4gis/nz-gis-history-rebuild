@@ -90,7 +90,8 @@ const edges = [
     id: `theme-link:${node.id}:${themeId}`, a: node.id, b: themeId, label: "theme", basis: "Tagged with this reader theme.", sources: [], years: [], themeIds: [themeId], passageUrl: "",
   })).filter((edge) => edge.a !== edge.b)),
 ];
-const graphData = JSON.stringify({ nodes, edges, minYear, maxYear }).replace(/</g, "\\u003c");
+const defaultFocusNodeId = articles.find((article) => article.slug === "what-the-computer-inherited")?.id || "";
+const graphData = JSON.stringify({ nodes, edges, minYear, maxYear, defaultFocusNodeId }).replace(/</g, "\\u003c");
 const kindGroups = [
   ...directoryGroups.map((group) => ({ label: group.label, id: group.id })),
   { label: "Stories", id: "stories" }, { label: "Events", id: "events" }, { label: "Themes", id: "themes" }, { label: "Directory indexes", id: "indexes" },
@@ -101,9 +102,9 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
 ---
 <SiteLayout title="Network — A History of GIS in New Zealand" description="An optional, source-linked view of stories, records, themes and dates.">
   <section class="network-layout">
-    <p class="eyebrow">Optional view · {nodes.length} nodes · {edges.length} links</p>
+    <p class="eyebrow">Optional view · explore one connection at a time</p>
     <h1 class="page-title">See the connections</h1>
-    <p class="page-intro">People, organisations, stories, events and themes share one network. Select a type or connection button, then choose any item to see its related passages, dates and records.</p>
+    <p class="page-intro">The network opens at the first story. Select a nearby record to follow its links, or search for any person, organisation, story or theme to start somewhere else.</p>
     <div class="network-filter-panel" aria-label="Network filters">
       <div class="network-filter-block"><span class="filter-label">Focus on types</span><div class="choice-row" role="group" aria-label="Focus network on selected item types and their connections">
         <button class="choice-chip is-active" type="button" data-kind-all aria-pressed="true">All types</button>
@@ -126,7 +127,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       <div class="graph-frame">
         <div id="graph" role="img" aria-describedby="graph-help" aria-label="Interactive network of stories, records, events and themes"></div>
         <span class="graph-selection-pulse" id="graph-pulse" aria-hidden="true"></span>
-        <div class="graph-overlay"><span class="graph-status-dot" aria-hidden="true"></span><span id="graph-help">Choose a name or theme to bring its story links, relationships and dates into focus.</span></div>
+        <div class="graph-overlay"><span class="graph-status-dot" aria-hidden="true"></span><span id="graph-help">Showing the opening story and its direct connections.</span></div>
         <p class="graph-motion-note">Drag nodes to rearrange · scroll to zoom · select to explore</p>
       </div>
       <aside class="graph-panel" aria-labelledby="network-inspector-title">
@@ -223,7 +224,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     selectedKinds = new Set((params.get("kind") || "").split("|").filter(Boolean).map((value) => kindAliases[value] || value).filter((value) => validGroups.has(value)));
     selectedLinks = new Set((params.get("link") || "").split("|").filter(Boolean));
     fromInput.value = params.get("from") || String(data.minYear); toInput.value = params.get("to") || String(data.maxYear);
-    selectedNodeId = params.get("focus") || "";
+    selectedNodeId = params.get("focus") || data.defaultFocusNodeId || "";
     const text = (parent, tag, value, className) => { const el = document.createElement(tag); el.textContent = value || ""; if (className) el.className = className; parent.append(el); return el; };
     const addLink = (parent, label, href, external = false) => { const el = document.createElement("a"); el.textContent = label; el.href = href; if (external) { el.target = "_blank"; el.rel = "noopener noreferrer"; } parent.append(el); return el; };
     const paletteColor = (node) => graphColours.kinds[node.kind] || graphColours.base;
@@ -661,7 +662,8 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     window.addEventListener("site:palette-changed", () => { graphColours = loadGraphColours(); positionAnimationToken++; draw(); syncSelection(); });
     reducedMotion.addEventListener?.("change", () => { if (reducedMotion.matches) renderer?.getCamera().cancelAnimation(); });
     syncFilterButtons(); draw(); renderNodeResults();
-    if (selectedNodeId && nodeById.has(selectedNodeId)) showNode(selectedNodeId);
+    if (selectedNodeId && nodeById.has(selectedNodeId) && visibleSet().nodes.some((node) => node.id === selectedNodeId)) showNode(selectedNodeId);
+    else { selectedNodeId = ""; draw(); renderNodeResults(); }
     if ("ResizeObserver" in window) new ResizeObserver(() => { renderer?.resize(true); renderer?.refresh(); }).observe(graphElement);
   </script>
 </SiteLayout>

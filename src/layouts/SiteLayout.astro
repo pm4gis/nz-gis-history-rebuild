@@ -70,15 +70,16 @@ const mailBody = encodeURIComponent(`Page or story: ${title}\nURL: ${Astro.url.h
           <span class="palette-name" data-palette-name>Night</span>
           <span class="palette-cycle" aria-hidden="true">↻</span>
         </button>
+        <details class="theme-menu">
+          <summary aria-label="Open reading theme filters">Read by theme <span class="theme-status" data-theme-count aria-live="polite">All themes</span></summary>
+          <nav class="theme-rail" aria-label="Select themes to shape the reading view">
+            {themes.map((entry) => <button class="theme-chip" type="button" data-theme-choice value={entry.data.id} aria-pressed="false" style={`--theme-color:${entry.data.color || "#55b9a7"}`}>
+              <span class="theme-option-dot" aria-hidden="true"></span>{entry.data.title}
+            </button>)}
+            <button class="theme-clear" type="button" data-clear-themes>Clear filters</button>
+          </nav>
+        </details>
       </div>
-      <nav class="theme-rail" aria-label="Select themes to shape the reading view">
-        <span class="theme-rail-label">Read by theme</span>
-        {themes.map((entry) => <button class="theme-chip" type="button" data-theme-choice value={entry.data.id} aria-pressed="false" style={`--theme-color:${entry.data.color || "#55b9a7"}`}>
-          <span class="theme-option-dot" aria-hidden="true"></span>{entry.data.title}
-        </button>)}
-        <button class="theme-clear" type="button" data-clear-themes>Clear</button>
-        <span class="theme-status" data-theme-count aria-live="polite">All themes</span>
-      </nav>
     </header>
     <main id="main" data-pagefind-body>
       <a class="resume-nudge" data-resume-link hidden><span>Continue reading</span><strong data-resume-title></strong><span aria-hidden="true">↗</span></a>

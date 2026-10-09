@@ -47,7 +47,7 @@ const passageRecords = (passage) => (passage.recordIds || []).map((id) => record
   </nav>
 
   <div class="book-text">
-    {articles.map((article) => {
+    {articles.map((article, articleIndex) => {
       const storyPassages = passagesByArticle.get(article.id) || [];
       const cover = article.headerImageId ? imageById.get(article.headerImageId) : undefined;
       return <section class="book-section" id={`book-section-${article.slug}`} aria-labelledby={`book-title-${article.slug}`}>
@@ -105,7 +105,11 @@ const passageRecords = (passage) => (passage.recordIds || []).map((id) => record
           <summary>Further sources and notes <span>{article.sourceNotes.length}</span></summary>
           <ol>{article.sourceNotes.map((note) => <li id={`book-note-${article.slug}-${note.id}`}>{note.text}</li>)}</ol>
         </details>}
-        <p class="book-return"><a href="#book-top">Back to the start of the book</a></p>
+        <nav class="book-section-navigation" aria-label={`Continue through the book after ${article.title}`}>
+          {articleIndex > 0 && <a href={`#book-section-${articles[articleIndex - 1].slug}`}><span>Previous section</span><strong>← {articles[articleIndex - 1].title}</strong></a>}
+          <a class="book-section-contents" href="#book-top">Contents ↑</a>
+          {articleIndex + 1 < articles.length && <a class="book-section-next" href={`#book-section-${articles[articleIndex + 1].slug}`}><span>Next section</span><strong>{articles[articleIndex + 1].title} →</strong></a>}
+        </nav>
       </section>;
     })}
   </div>
