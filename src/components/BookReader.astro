@@ -39,7 +39,7 @@ const passageRecords = (passage) => (passage.recordIds || []).map((id) => record
     <details>
       <summary>Contents <span>{articles.length} sections</span></summary>
       <ol>
-        {articles.map((article) => <li><a href={`#${article.slug}`}>{article.title}</a></li>)}
+        {articles.map((article) => <li><a href={`#book-section-${article.slug}`}>{article.title}</a></li>)}
       </ol>
     </details>
   </nav>
@@ -48,7 +48,7 @@ const passageRecords = (passage) => (passage.recordIds || []).map((id) => record
     {articles.map((article) => {
       const storyPassages = passagesByArticle.get(article.id) || [];
       const cover = article.headerImageId ? imageById.get(article.headerImageId) : undefined;
-      return <section class="book-section" id={article.slug} aria-labelledby={`book-title-${article.slug}`}>
+      return <section class="book-section" id={`book-section-${article.slug}`} aria-labelledby={`book-title-${article.slug}`}>
         <header class="book-section-heading">
           <p class="eyebrow">{article.slug === "preface" ? "Introduction" : "A History of GIS in New Zealand"}</p>
           <h2 id={`book-title-${article.slug}`}>{article.title}</h2>
@@ -65,12 +65,12 @@ const passageRecords = (passage) => (passage.recordIds || []).map((id) => record
           const sources = sourceList(passage);
           const linkedRecordIds = new Set(linkedRecords.map((record) => record.id));
           const linkedRelationships = relationships.filter((relationship) => linkedRecordIds.has(relationship.a) && linkedRecordIds.has(relationship.b));
-          return <section class="book-passage" id={passage.slug} data-passage-id={passage.id} data-theme-ids={(passage.themeIds || []).join(" ")} tabindex="-1" aria-labelledby={`passage-title-${passage.slug}`}>
+          return <section class="book-passage" id={`book-passage-${article.slug}--${passage.slug}`} data-passage-slug={passage.slug} data-passage-id={passage.id} data-theme-ids={(passage.themeIds || []).join(" ")} tabindex="-1" aria-labelledby={`passage-title-${article.slug}--${passage.slug}`}>
             <header class="book-passage-heading">
               {datedEvents.length > 0 && <ul class="book-dates" aria-label="Related dated events">
                 {datedEvents.map((event) => <li><a href={`/timeline/#event-${event.id}`}><time datetime={event.startDate}>{event.dateDisplay}</time><span>{event.label}</span></a></li>)}
               </ul>}
-              <h3 id={`passage-title-${passage.slug}`}>{passage.title}</h3>
+              <h3 id={`passage-title-${article.slug}--${passage.slug}`}>{passage.title}</h3>
             </header>
             <div class="book-passage-copy">
               {passageBlocks(passage).map((block) => block.type === "figure" ? (() => {
@@ -101,7 +101,7 @@ const passageRecords = (passage) => (passage.recordIds || []).map((id) => record
         })}
         {article.sourceNotes?.length > 0 && <details class="book-source-notes">
           <summary>Further sources and notes <span>{article.sourceNotes.length}</span></summary>
-          <ol>{article.sourceNotes.map((note) => <li id={note.id}>{note.text}</li>)}</ol>
+          <ol>{article.sourceNotes.map((note) => <li id={`book-note-${article.slug}-${note.id}`}>{note.text}</li>)}</ol>
         </details>}
         <p class="book-return"><a href="#book-top">Back to the start of the book</a></p>
       </section>;
