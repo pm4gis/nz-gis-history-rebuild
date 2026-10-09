@@ -10,7 +10,6 @@ const {
   pageClass = "",
 } = Astro.props;
 const activePath = Astro.url.pathname;
-const activePath = Astro.url.pathname;
 const navigation = [
   { label: "Read", href: "/" },
   { label: "Chronology", href: "/timeline/" },
@@ -19,7 +18,6 @@ const navigation = [
 ];
 const mailSubject = encodeURIComponent(`NZ GIS History suggestion: ${title}`);
 const mailBody = encodeURIComponent(`Page or story: ${title}\nURL: ${Astro.url.href}\n\nWhat should be added or changed?\n\nWhat source or memory can help us check it?\n\nWhich people, organisations, projects, themes or dates should connect to it?\n\nYour name (optional):\n`);
----
 ---
 <!doctype html>
 <html lang="en-NZ" data-palette="dark-night">
