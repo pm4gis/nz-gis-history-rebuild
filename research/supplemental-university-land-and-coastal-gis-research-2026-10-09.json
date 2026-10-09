@@ -114,11 +114,12 @@
       "authorOrganisation": "William Gorrie Tate; Massey University",
       "publishedAt": "2013",
       "type": "MPhil in Geographic Information Systems thesis",
-      "url": "https://mro.massey.ac.nz/",
-      "relevantEvidence": "GIS investigation of sea-level-rise impacts on the New Plymouth coastline; repository record and thesis files acknowledge LINZ data accessed through Koordinates, including bathymetric, spot-height and map products.",
+      "url": "https://mro.massey.ac.nz/items/e132bd40-738c-4816-a8c1-051997cc1564",
+      "relevantEvidence": "Uses GIS with property and census datasets and a 3D coast/seabed model to investigate potential inundation and erosion/accretion scenarios; thesis abstract notes its scenario assumptions. It acknowledges LINZ data obtained through Koordinates.",
       "accessDate": "2026-10-09",
       "rightsAndReuse": "Use repository record/search by exact title; no full-text redistribution rights established.",
-      "citationRef": "turn52search0"
+      "citationRef": "turn67search2",
+      "alternateIdentifier": "http://hdl.handle.net/10179/5784"
     },
     {
       "id": "morris-south-dunedin-risk",
@@ -162,11 +163,12 @@
       "authorOrganisation": "Daniel Nutsford; University of Canterbury",
       "publishedAt": "2014",
       "type": "Master of Geographic Information Science thesis",
-      "url": "https://ir.canterbury.ac.nz/",
-      "relevantEvidence": "Uses spatial analysis to investigate associations between urban natural environments and health indicators.",
+      "url": "https://ir.canterbury.ac.nz/items/b5712efa-4ed2-4519-bb7a-fde03f533f23",
+      "relevantEvidence": "Master of Geographic Information Science thesis using GIS and a visibility-index method with individual-level NZ Health Survey data to examine natural-environment exposure and health indicators in Wellington.",
       "accessDate": "2026-10-09",
       "rightsAndReuse": "Use repository record/search by exact title; no full-text redistribution rights established.",
-      "citationRef": "turn49search3"
+      "citationRef": "turn67search0",
+      "alternateIdentifier": "http://hdl.handle.net/10092/9279"
     },
     {
       "id": "mcpherson-base-map-usability",
@@ -174,11 +176,12 @@
       "authorOrganisation": "Rory McPherson; University of Canterbury",
       "publishedAt": "2016",
       "type": "Master of Geographic Information Science thesis",
-      "url": "https://ir.canterbury.ac.nz/",
-      "relevantEvidence": "Compares user experience of canvas, topographic and street basemaps; a useful bridge from topographic map history to digital basemap design.",
+      "url": "https://ir.canterbury.ac.nz/items/d57dd7af-3850-4ccc-b009-f6cea6df030c",
+      "relevantEvidence": "Master of Geographic Information Science thesis comparing canvas, topographic and street basemaps using an online survey and usability measures.",
       "accessDate": "2026-10-09",
       "rightsAndReuse": "Use repository record/search by exact title; no full-text redistribution rights established.",
-      "citationRef": "turn52search7"
+      "citationRef": "turn67search3",
+      "alternateIdentifier": "http://hdl.handle.net/10092/15009"
     },
     {
       "id": "berger-kaikoura-shoreline",
@@ -480,11 +483,37 @@
       "publishedAt": "2021",
       "type": "annual report",
       "url": "https://www.linz.govt.nz/about-linz/our-organisation/annual-reports",
-      "relevantEvidence": "LINZ annual reporting gives the LDS launch date as 1 July 2011 and describes it as powered by Koordinates; pinpoint the exact report page/section before public import.",
+      "relevantEvidence": "LINZ annual reporting says the LINZ Data Service launched on 1 July 2011 and describes Koordinates as its platform provider; use LINZ's first-party account and pinpoint the specific report page before importing.",
       "accessDate": "2026-10-09",
       "rightsAndReuse": "Government report; link and paraphrase.",
       "citationRef": "turn55search13",
       "confidence": "medium"
+    },
+    {
+      "id": "murdoch-tighe-waiheke-marine-planning",
+      "title": "Geospatial Analysis of Marine Habitat Representation for Marine Spatial Planning Around Waiheke Island Auckland New Zealand",
+      "authorOrganisation": "Levi Murdoch-Tighe; Auckland University of Technology",
+      "publishedAt": "2022",
+      "type": "Master of Science (Research) thesis",
+      "url": "https://openrepository.aut.ac.nz/items/e7a98970-386c-42aa-8b07-5808af1086f2",
+      "alternateIdentifier": "https://hdl.handle.net/10292/15445",
+      "relevantEvidence": "Uses mapped habitat, GIS, multivariate analysis and Marxan models to explore representative marine protected-area options and participatory management around Waiheke.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Repository item includes an item-specific licence. Link and cite; inspect licence before reuse of text, figures or data.",
+      "citationRef": "turn68search0"
+    },
+    {
+      "id": "bilkey-karekare-dune-uav",
+      "title": "Sand Dune Vegetation Monitoring and Assessment Using UAV Remote Sensing: A Case Study for Karekare Beach Auckland Region New Zealand",
+      "authorOrganisation": "Joshua Glyn Bilkey; Auckland University of Technology",
+      "publishedAt": "2022",
+      "type": "Master of Geographic Information Science thesis",
+      "url": "https://openrepository.aut.ac.nz/items/09542e83-74a4-4d3b-b318-793813d4e1b1",
+      "alternateIdentifier": "https://hdl.handle.net/10292/15135",
+      "relevantEvidence": "Compares UAV remote-sensing and vegetation-classification approaches for dune monitoring at Karekare; describes OBIA and pixel-based accuracy and notes invasive pampas grass classification.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Repository item; link and cite. Confirm item-specific licence before reusing figures or text.",
+      "citationRef": "turn68search2"
     }
   ],
   "proposedResearchRecords": [
@@ -493,9 +522,11 @@
       "title": "The alienation of the Opuatia block: a GIS case study",
       "sourceIds": [
         "whitehead-opuatia",
-        "kukutai-opuatia"
+        "kukutai-opuatia",
+        "murdoch-tighe-waiheke-marine-planning",
+        "bilkey-karekare-dune-uav"
       ],
-      "summary": "A research publication pair on reconstructing Māori land-block history by linking historical land records to current geospatial structures, while documenting data interoperability and governance limitations.",
+      "summary": "A research publication pair on reconstructing Māori land-block history by linking historical land records to current geospatial structures, while documenting data interoperability and governance limitations. Additional university leads connect coastal GIS to marine habitat planning and dune-vegetation monitoring.",
       "connectionsToReview": [
         "Jesse Whitehead — authored report",
         "University of Waikato — publisher/research host",
@@ -672,12 +703,12 @@
   ],
   "gapsAndNextResearch": [
     "This is a curated expansion, not an exhaustive census of all NZ university GIS theses. Use DigitalNZ/NZ Research and each university repository for a systematic subject-and-year sweep.",
-    "Resolve exact repository permalinks and complete metadata for the UC, Massey and Otago thesis leads marked medium confidence before importing them as publication records.",
     "Find and verify New Zealand university research on CFRT commissioned map books, Tribunal evidence mapping and LHAD implementation, with claimant ownership and access terms recorded per item.",
     "Build a layer-by-layer LDS register with layer ID, authoritative custodian, revision history, geometry/scale, update schedule, API endpoints, licence and documented downstream use. Current register captures service-level categories, not every layer.",
     "Pinpoint historical Topo50 and LDS annual-report citations and the exact Esri event page before converting those leads into public story claims.",
     "Expand sea-level research across regional council hazard assessments, NIWA scenarios, MfE guidance, local planning instruments, adaptation programmes and community mapping; distinguish model assumptions and vertical datums.",
-    "Search Survey and Spatial New Zealand, Spatial News, NZ Esri user-group newsletters and conference proceedings for work not indexed in university repositories."
+    "Search Survey and Spatial New Zealand, Spatial News, NZ Esri user-group newsletters and conference proceedings for work not indexed in university repositories.",
+    "Remaining exact repository leads should be converted from discovery results to stable item permalinks before any public import; do not substitute institution homepages for a record citation."
   ],
   "contentHandling": {
     "replicate": "Bibliographic records, URLs, dates, repository identifiers, original short summaries, access notes, rights metadata and source-backed relationship proposals are stored here.",
