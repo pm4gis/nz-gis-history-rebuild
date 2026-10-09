@@ -166,7 +166,21 @@ const eventHref = (event) => {
 
       const savedSkin = readStored(skinKey, "light");
       root.dataset.skin = savedSkin === "dark" ? "dark" : "light";
-      const savedProgress = readStored(progressKey, null);
+      let savedProgress = readStored(progressKey, null);
+      if (savedProgress?.url === "/") {
+        // The old root page held the Preface and the earlier AAM sample. Preserve those readers' saved place after the homepage change.
+        const legacyTitle = String(savedProgress.title || "");
+        const legacyPassage = String(savedProgress.passage || "");
+        if (legacyPassage === "preface" || /preface/i.test(legacyTitle)) {
+          savedProgress = { ...savedProgress, url: "/stories/preface/", title: "Preface — A History of GIS in New Zealand" };
+          localStorage.setItem(progressKey, JSON.stringify(savedProgress));
+        } else if (/aamhatch|northsouth|wellington/i.test(`${legacyTitle} ${legacyPassage}`)) {
+          savedProgress = { ...savedProgress, url: "/stories/from-flat-maps-to-3d/", passage: "buildings-meet-geography-2289da86de", title: "Mapping in 3D — A History of GIS in New Zealand" };
+          localStorage.setItem(progressKey, JSON.stringify(savedProgress));
+        } else {
+          savedProgress = null;
+        }
+      }
       const resumeLink = document.querySelector("[data-resume-link]");
       if (savedProgress?.url && savedProgress?.passage && resumeLink) {
         const targetHash = "#" + encodeURIComponent(savedProgress.passage);
