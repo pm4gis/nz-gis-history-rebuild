@@ -1,4 +1,6 @@
 ---
+import InlineEntityLinks from "./InlineEntityLinks.astro";
+
 interface Props {
   articles: any[];
   passages: any[];
@@ -73,13 +75,13 @@ const passageRecords = (passage) => (passage.recordIds || []).map((id) => record
               <h3 id={`passage-title-${article.slug}--${passage.slug}`}>{passage.title}</h3>
             </header>
             <div class="book-passage-copy">
-              {passageBlocks(passage).map((block) => block.type === "figure" ? (() => {
+              {passageBlocks(passage).map((block, blockIndex) => block.type === "figure" ? (() => {
                 const image = block.imageId ? imageById.get(block.imageId) : undefined;
                 return <figure class="book-figure">
                   {image && <a href={`/images/${image.slug}/`} aria-label={`Open image details for ${image.title}`}><img src={image.assetPath} alt={block.alt || image.altText} loading="lazy" /></a>}
                   <figcaption>{block.caption}{block.credit && <span> {block.credit}</span>}{image && <> <a href={`/images/${image.slug}/`}>Image details and source</a></>}</figcaption>
                 </figure>;
-              })() : <p>{block.text}</p>)}
+              })() : <p><InlineEntityLinks text={block.text} records={linkedRecords} idBase={`book-${article.slug}-${passage.slug}-${blockIndex}`} /></p>)}
             </div>
             {(sources.length > 0 || linkedRecords.length > 0) && <footer class="book-passage-links">
               {linkedRelationships.length > 0 && <ul class="relationship-list" aria-label="Documented connections between records in this passage">
