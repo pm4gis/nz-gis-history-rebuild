@@ -111,7 +111,9 @@ const mailBody = encodeURIComponent(`Page or story: ${title}\nURL: ${Astro.url.h
       let savedProgress = readStored(progressKey, null);
             const resumeLink = document.querySelector("[data-resume-link]");
       if (savedProgress?.url && savedProgress?.passage && resumeLink) {
-        const targetHash = "#" + encodeURIComponent(savedProgress.passage);
+        const legacyPassage = savedProgress.url === "/" ? [...document.querySelectorAll("[data-passage-id]")].find((passage) => passage.dataset.passageSlug === savedProgress.passage) : null;
+        const resumeTarget = legacyPassage?.id || savedProgress.passage;
+        const targetHash = "#" + encodeURIComponent(resumeTarget);
         if (savedProgress.url !== location.pathname || location.hash !== targetHash) {
           resumeLink.href = savedProgress.url + targetHash;
           resumeLink.querySelector("[data-resume-title]").textContent = savedProgress.title || "Your last story";
@@ -168,7 +170,7 @@ const mailBody = encodeURIComponent(`Page or story: ${title}\nURL: ${Astro.url.h
         progress.style.transform = "scaleX(" + (room > 0 ? window.scrollY / room : 0) + ")";
         const article = document.querySelector("[data-reader-workspace]");
         if (!article) return;
-        const passages = [...article.querySelectorAll("[data-passage-id]")];
+        const passages = [...article.querySelectorAll("[data-passage-id]")].filter((passage) => !passage.hidden && passage.getClientRects().length > 0);
         const active = [...passages].reverse().find((passage) => passage.getBoundingClientRect().top < window.innerHeight * .42) || passages[0];
         if (active) {
           localStorage.setItem(progressKey, JSON.stringify({ url: location.pathname, passage: active.id, title: document.title }));
