@@ -2,34 +2,17 @@
   "id": "2009-aamhatch-wellington-city-model",
   "dateDisplay": "2009",
   "startDate": "2009",
-  "endDate": null,
   "datePrecision": "year",
+  "year": 2009,
   "label": "AAMHatch produces Wellington’s textured 3D city model",
   "summary": "AAMHatch’s Wellington project used aerial imagery and building models to create a textured three-dimensional city representation.",
-  "categories": [
-    "industry",
-    "imagery",
-    "photogrammetry",
-    "3d"
-  ],
-  "chapter": 39,
-  "chapterTitle": "Mapping in 3D",
-  "sectionId": "buildings-meet-geography",
-  "sectionTitle": "Buildings meet geography",
-  "url": "/book/chapter/39/from-flat-maps-to-3d/#buildings-meet-geography",
-  "evidenceStatus": "documented-or-strongly-supported",
-  "associationLabel": "Direct business link recorded for this sourced milestone",
-  "year": 2009,
+  "url": "/stories/aam-and-northsouth/#wellington-textured-city-model",
+  "passageIds": ["passage:aamhatch-wellington-2009"],
+  "themeIds": ["theme:3d-mapping"],
   "sources": [
     {
       "label": "GIM International, Textured 3D City Model for Wellington",
       "url": "https://www.gim-international.com/content/news/textured-3d-city-model-for-wellington"
     }
-  ],
-  "relatedRecordIds": [
-    "entity:aam-aamhatch"
-  ],
-  "related": [
-    "entity:aam-aamhatch"
   ]
 }

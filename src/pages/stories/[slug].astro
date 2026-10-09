@@ -1,0 +1,22 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import StoryReader from "../../components/StoryReader.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("articles");
+  return articles.filter((entry) => entry.data.status === "published").map((entry) => ({ params: { slug: entry.data.slug }, props: { articleId: entry.data.id } }));
+}
+
+const { articleId } = Astro.props;
+const [articleEntries, passageEntries, recordEntries, eventEntries, relationshipEntries, themeEntries] = await Promise.all([
+  getCollection("articles"), getCollection("passages"), getCollection("records"), getCollection("events"),
+  getCollection("relationships"), getCollection("themes"),
+]);
+const article = articleEntries.find((entry) => entry.data.id === articleId)?.data;
+const passages = passageEntries.map((entry) => entry.data).filter((passage) => passage.articleId === articleId).sort((a, b) => a.order - b.order);
+---
+
+{article ? <SiteLayout title={article.title + " — A History of GIS in New Zealand"} description={article.summary}>
+  <StoryReader article={article} passages={passages} themes={themeEntries.map((entry) => entry.data)} records={recordEntries.map((entry) => entry.data)} events={eventEntries.map((entry) => entry.data)} relationships={relationshipEntries.map((entry) => entry.data)} />
+</SiteLayout> : <SiteLayout title="Story not found — A History of GIS in New Zealand"><section class="not-found"><p class="eyebrow">Story</p><h1>Story unavailable</h1><a href="/">Return to the reader</a></section></SiteLayout>}

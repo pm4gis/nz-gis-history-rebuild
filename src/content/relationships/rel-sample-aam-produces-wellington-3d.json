@@ -1,0 +1,11 @@
+{
+  "id": "rel-sample-aam-produces-wellington-3d",
+  "a": "entity:aam-aamhatch",
+  "b": "project:wellington-textured-3d-city-model",
+  "label": "produced",
+  "basis": "The published account says AAMHatch produced the Wellington textured 3D city model in 2009.",
+  "passageIds": ["passage:aamhatch-wellington-2009"],
+  "sources": [
+    { "label": "GIM International, Textured 3D City Model for Wellington", "url": "https://www.gim-international.com/content/news/textured-3d-city-model-for-wellington" }
+  ]
+}

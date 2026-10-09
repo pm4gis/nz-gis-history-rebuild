@@ -1,79 +1,34 @@
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
+import StoryReader from "../components/StoryReader.astro";
 import { getCollection } from "astro:content";
 
-const [records, chapters, events, relationships] = await Promise.all([
-  getCollection("records"), getCollection("chapters"), getCollection("events"), getCollection("relationships"),
+const [articleEntries, passageEntries, recordEntries, eventEntries, relationshipEntries, themeEntries, imageEntries] = await Promise.all([
+  getCollection("articles"), getCollection("passages"), getCollection("records"), getCollection("events"),
+  getCollection("relationships"), getCollection("themes"), getCollection("images"),
 ]);
-const chapter = chapters[0]?.data;
-const people = records.filter((entry) => entry.data.kind === "Person").sort((a, b) => a.data.name.localeCompare(b.data.name));
-const systems = records.filter((entry) => ["Project", "Technology", "System"].includes(entry.data.kind)).sort((a, b) => a.data.name.localeCompare(b.data.name));
-const organisations = records.filter((entry) => ["Organisation", "Agency", "Council", "Business", "Company"].includes(entry.data.kind)).sort((a, b) => a.data.name.localeCompare(b.data.name));
-const firstPeople = people.slice(0, 5);
-const image = chapter?.heroImage;
+const articles = articleEntries.map((entry) => entry.data).filter((article) => article.status === "published")
+  .sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || b.updatedAt.localeCompare(a.updatedAt));
+const featured = articles[0];
+const storyPassages = featured ? passageEntries.map((entry) => entry.data).filter((passage) => passage.articleId === featured.id).sort((a, b) => a.order - b.order) : [];
+const image = imageEntries[0]?.data;
+const getPageTitle = (article) => article ? article.title + " — A History of GIS in New Zealand" : "A History of GIS in New Zealand";
 ---
-<SiteLayout title="A History of GIS in New Zealand — Staging edition">
-  <section class="home-hero">
-    <div>
-      <p class="eyebrow">A linked historical reference · Staging edition</p>
-      <h1>How New Zealand learned to map itself</h1>
-      <p class="lead">People, public institutions, companies, technologies and places shaped the country's digital geography. Follow the narrative, trace a connection, compare events or search the published record.</p>
-      <div class="hero-actions">
-        <a class="button" href={chapter?.url ?? "/"}>Read Chapter {chapter?.number} <span aria-hidden="true">→</span></a>
-        <a class="button-secondary" href="/network/">Explore a connection</a>
-      </div>
-    </div>
-    {image && (
-      <figure class="hero-image">
-        <img src={image.path} alt={image.title} width={image.width} height={image.height} fetchpriority="high" />
-        <figcaption>{image.title} · {image.author} · {image.license}. <a href={image.licenseUrl}>Licence</a>.</figcaption>
-      </figure>
-    )}
-  </section>
 
-  <section class="explore-strip" aria-labelledby="entry-heading">
-    <div class="section-heading"><h2 id="entry-heading">Choose a way in</h2><span class="muted small">Four routes through one linked collection</span></div>
-    <div class="entry-grid">
-      <a class="entry-card card" href={chapter?.url ?? "/"}>
-        <span>01 · Narrative</span><strong>Read the account</strong><small>One complete chapter with sources, illustrations and linked records.</small>
-      </a>
-      <a class="entry-card card" href="/network/">
-        <span>02 · Connections</span><strong>Explore the network</strong><small>Follow relationships and inspect their published basis.</small>
-      </a>
-      <a class="entry-card card" href="/timeline/">
-        <span>03 · Events</span><strong>Move through time</strong><small>Dates keep the precision recorded by the publication.</small>
-      </a>
-      <a class="entry-card card" href="/browse/">
-        <span>04 · Records</span><strong>Browse the people</strong><small>Open accounts, organisations, systems and projects directly.</small>
-      </a>
-      <a class="entry-card card" href="/search/">
-        <span>05 · Find</span><strong>Search the text</strong><small>Search the chapter and public sample without an account.</small>
-      </a>
-    </div>
-  </section>
+<SiteLayout title={getPageTitle(featured)} description={featured?.summary || "An evolving, linked history of GIS in Aotearoa New Zealand."} pageClass="home-reader">
+  {featured ? <StoryReader article={featured} passages={storyPassages} themes={themeEntries.map((entry) => entry.data)} records={recordEntries.map((entry) => entry.data)} events={eventEntries.map((entry) => entry.data)} relationships={relationshipEntries.map((entry) => entry.data)} /> : <section class="empty-reader"><p class="eyebrow">Reader workspace</p><h1>Stories are being prepared</h1><p>When an article is published, it will appear here. More passages can be added as the story grows.</p></section>}
 
-  <section class="home-lower">
-    <div>
-      <div class="section-heading"><h2>Begin with a person</h2><a href="/browse/">Browse all {people.length} people →</a></div>
-      <ul class="record-list">
-        {firstPeople.map((person) => <li><a href={person.data.url}><span>{person.data.name}</span><small>Person ↗</small></a></li>)}
-      </ul>
+  <section class="home-after-reader" aria-label="More to explore">
+    <div class="home-after-heading"><div><p class="eyebrow">Keep exploring</p><h2>Follow the threads</h2></div><p>Each person, organisation, project and image opens as its own page.</p></div>
+    <div class="explore-cards">
+      <a class="explore-card" href="/browse/"><span class="explore-card-icon" aria-hidden="true">⌘</span><span><strong>People &amp; organisations</strong><small>Open the connected records</small></span><span aria-hidden="true">↗</span></a>
+      <a class="explore-card" href="/timeline/"><span class="explore-card-icon" aria-hidden="true">◷</span><span><strong>Browse time</strong><small>See the published milestones</small></span><span aria-hidden="true">↗</span></a>
+      <a class="explore-card" href="/network/"><span class="explore-card-icon" aria-hidden="true">⌘</span><span><strong>Open the network</strong><small>Explore the wider set of links</small></span><span aria-hidden="true">↗</span></a>
     </div>
-    <div>
-      <div class="section-heading"><h2>This staging slice</h2></div>
-      <div class="info-card">
-        <p><strong>{records.length} public records</strong> linked to Chapter {chapter?.number}, plus {events.length} dated events and {relationships.length} published links.</p>
-        <p>Each record retains its live ID, URL, text and source metadata. Links without article or event context are labelled as dataset associations.</p>
-      </div>
-      <p class="small muted">The full publication remains live and unchanged while this rebuild is reviewed.</p>
-    </div>
-  </section>
-
-  <section class="explore-strip">
-    <div class="section-heading"><h2>Systems and organisations in this chapter</h2><a href="/browse/">Full record index →</a></div>
-    <div class="record-list">
-      {systems.slice(0, 4).map((record) => <a href={record.data.url}><span>{record.data.name}</span><small>{record.data.kind}</small></a>)}
-      {organisations.slice(0, 4).map((record) => <a href={record.data.url}><span>{record.data.name}</span><small>{record.data.kind}</small></a>)}
-    </div>
+    {articles.length > 1 && <div class="recent-stories"><h2>Recent story updates</h2><ul>{articles.slice(1).map((article) => <li><a href={article.url}><span>{article.title}</span><small>Updated {article.updatedAt}</small></a></li>)}</ul></div>}
+    {image && <a class="image-feature" href={`/images/${image.slug}/`}>
+      <img src={image.assetPath} alt={image.altText} width="1800" height="520" loading="lazy" />
+      <span class="image-feature-overlay"><span class="eyebrow">From the image archive</span><strong>{image.title}</strong><small>{image.credit} · Image details and source ↗</small></span>
+    </a>}
   </section>
 </SiteLayout>

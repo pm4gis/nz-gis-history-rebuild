@@ -8,16 +8,71 @@ backend:
   squash_merges: true
 
 publish_mode: editorial_workflow
-media_folder: public/assets/editorial
-public_folder: /assets/editorial
+media_folder: public/assets/images
+public_folder: /assets/images
 site_url: https://gishistory.pm4gis.nz
 display_url: https://gishistory.pm4gis.nz
 locale: en
 
 collections:
+  - name: articles
+    label: Stories
+    label_singular: Story
+    folder: src/content/articles
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: id
+    summary: "{{title}} · updated {{updatedAt}}"
+    fields:
+      - { name: id, label: Stable ID, widget: string }
+      - { name: slug, label: URL slug, widget: string }
+      - { name: title, label: Story title, widget: string }
+      - { name: url, label: Public route, widget: string }
+      - { name: summary, label: Short summary, widget: text }
+      - { name: status, label: Status, widget: select, options: [draft, published], default: draft }
+      - { name: updatedAt, label: Editorial update date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { name: featured, label: Feature on reader home, widget: boolean, default: false }
+      - { name: themeIds, label: Theme IDs, widget: list, field: { name: themeId, label: Theme ID, widget: string }, required: false }
+
+  - name: passages
+    label: Story passages
+    label_singular: Passage
+    folder: src/content/passages
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: id
+    summary: "{{title}} · {{articleId}}"
+    fields:
+      - { name: id, label: Stable ID, widget: string }
+      - { name: slug, label: Passage anchor, widget: string }
+      - { name: articleId, label: Story ID, widget: string }
+      - { name: title, label: Passage heading, widget: string }
+      - { name: order, label: Reading order, widget: number, value_type: int }
+      - { name: updatedAt, label: Editorial update date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { name: themeIds, label: Theme IDs, widget: list, field: { name: themeId, label: Theme ID, widget: string }, required: false }
+      - { name: recordIds, label: Linked record IDs, widget: list, field: { name: recordId, label: Record ID, widget: string }, required: false }
+      - name: paragraphs
+        label: Paragraphs
+        widget: list
+        summary: "{{fields.text}}"
+        fields:
+          - { name: text, label: Paragraph text, widget: text }
+          - name: sources
+            label: Sources for this paragraph
+            widget: list
+            required: false
+            fields:
+              - { name: id, label: Source ID, widget: string, required: false }
+              - { name: label, label: Published source or memory, widget: string }
+              - { name: url, label: Source URL, widget: string, required: false }
+
   - name: records
-    label: Historical records
-    label_singular: Historical record
+    label: People, organisations and projects
+    label_singular: Record
     folder: src/content/records
     extension: json
     format: json
@@ -27,110 +82,28 @@ collections:
     summary: "{{name}} · {{kind}}"
     fields:
       - { name: id, label: Stable ID, widget: string }
-      - { name: slug, label: Public slug, widget: string }
+      - { name: slug, label: URL slug, widget: string }
       - { name: name, label: Name, widget: string }
-      - { name: kind, label: Record type, widget: select, options: [Person, Agency, Business, Organisation, Council, Project, Technology, System] }
+      - { name: kind, label: Record type, widget: select, options: [Person, Organisation, Agency, Business, Council, Project, Technology, System] }
       - { name: category, label: Category, widget: string, required: false }
       - { name: url, label: Public route, widget: string }
-      - { name: website, label: Website, widget: string, required: false }
-      - { name: story, label: Account paragraphs, widget: list, field: { name: paragraph, label: Paragraph, widget: text } }
       - { name: description, label: Short description, widget: text, required: false }
-      - { name: sources, label: Sources, widget: list, required: false, fields: [{ name: id, label: Source ID, widget: string, required: false }, { name: label, label: Citation, widget: string }, { name: url, label: URL, widget: string, required: false }] }
-      - { name: chapters, label: Chapter numbers, widget: list, field: { name: chapter, label: Number, widget: number } }
-      - { name: aliases, label: Aliases, widget: list, field: { name: alias, label: Alias, widget: string } }
-      - { name: passages, label: Chapter passages, widget: list, required: false, fields: [{ name: title, label: Section, widget: string }, { name: url, label: URL, widget: string }, { name: chapter, label: Chapter number, widget: number, required: false }, { name: id, label: Passage ID, widget: string, required: false }] }
-      - { name: status, label: Publication status, widget: string, required: false }
-      - { name: coverageEnd, label: Coverage end year, widget: number, required: false }
-      - { name: currentCouncil, label: Current council, widget: boolean, required: false }
-      - { name: contextLinks, label: Context links, widget: list, required: false, fields: [{ name: label, label: Link text, widget: string }, { name: url, label: URL, widget: string }] }
-      - { name: contentSections, label: Account sections, widget: list, required: false, fields: [{ name: title, label: Heading, widget: string }, { name: paragraphs, label: Paragraphs, widget: list, field: { name: paragraph, label: Paragraph, widget: text } }] }
-      - name: paragraphSources
-        label: Paragraph source groups
+      - { name: story, label: Account paragraphs, widget: list, field: { name: paragraph, label: Paragraph, widget: text }, required: false }
+      - name: sources
+        label: Sources
         widget: list
         required: false
-        field:
-          name: sourceGroup
-          label: Sources for one paragraph
-          widget: list
-          fields:
-            - { name: id, label: Source ID, widget: string, required: false }
-            - { name: label, label: Citation, widget: string }
-            - { name: url, label: URL, widget: string, required: false }
-            - { name: accessed, label: Accessed, widget: string, required: false }
-            - { name: type, label: Source type, widget: string, required: false }
-      - name: biographyParagraphSources
-        label: Biography paragraph source groups
-        widget: list
-        required: false
-        field:
-          name: sourceGroup
-          label: Sources for one paragraph
-          widget: list
-          fields:
-            - { name: id, label: Source ID, widget: string, required: false }
-            - { name: label, label: Citation, widget: string }
-            - { name: url, label: URL, widget: string, required: false }
-            - { name: accessed, label: Accessed, widget: string, required: false }
-            - { name: type, label: Source type, widget: string, required: false }
-      - { name: recollections, label: Published recollections, widget: list, field: { name: recollection, label: Recollection, widget: text }, required: false }
-
-  - name: chapters
-    label: Chapters
-    label_singular: Chapter
-    folder: src/content/chapters
-    extension: json
-    format: json
-    create: false
-    slug: "{{slug}}"
-    identifier_field: id
-    summary: "Chapter {{number}} · {{name}}"
-    fields:
-      - { name: id, label: Stable ID, widget: string }
-      - { name: slug, label: Slug, widget: string }
-      - { name: name, label: Title, widget: string }
-      - { name: kind, label: Type, widget: hidden, default: Chapter }
-      - { name: category, label: Category, widget: string }
-      - { name: url, label: Public route, widget: string }
-      - { name: chapters, label: Chapter links, widget: list, field: { name: chapter, label: Number, widget: number } }
-      - { name: number, label: Chapter number, widget: number }
-      - { name: part, label: Part, widget: number }
-      - { name: status, label: Publication status, widget: string, required: false }
-      - name: sections
-        label: Narrative sections
-        widget: list
-        summary: "{{fields.title}}"
         fields:
-          - { name: id, label: Section ID, widget: string }
-          - { name: title, label: Heading, widget: string }
-          - name: blocks
-            label: Paragraphs and figures
-            widget: list
-            fields:
-              - { name: id, label: Block ID, widget: string }
-              - { name: type, label: Block type, widget: select, options: [paragraph, figure] }
-              - { name: text, label: Text, widget: text, required: false }
-              - { name: markdown, label: Markdown, widget: text, required: false }
-              - { name: asset, label: Image path, widget: string, required: false }
-              - { name: alt, label: Alternative text, widget: string, required: false }
-              - { name: caption, label: Caption, widget: string, required: false }
-              - { name: source, label: Image credit, widget: string, required: false }
-              - { name: sources, label: Paragraph sources, widget: list, required: false, fields: [{ name: id, label: Source ID, widget: string, required: false }, { name: label, label: Citation, widget: string }, { name: url, label: URL, widget: string, required: false }] }
-      - { name: sourceNotes, label: Source notes, widget: list, fields: [{ name: id, label: Note ID, widget: string }, { name: chapter, label: Chapter, widget: number }, { name: text, label: Note, widget: text }] }
-      - name: heroImage
-        label: Chapter image and credit
-        widget: object
-        fields:
-          - { name: path, label: Image path, widget: string }
-          - { name: origin, label: Image host, widget: string }
-          - { name: title, label: Image title, widget: string }
-          - { name: author, label: Credit, widget: string }
-          - { name: license, label: Licence, widget: string }
-          - { name: licenseUrl, label: Licence URL, widget: string }
-          - { name: width, label: Width, widget: number }
-          - { name: height, label: Height, widget: number }
+          - { name: id, label: Source ID, widget: string, required: false }
+          - { name: label, label: Published source or memory, widget: string }
+          - { name: url, label: Source URL, widget: string, required: false }
+      - { name: aliases, label: Other names, widget: list, field: { name: alias, label: Name, widget: string }, required: false }
+      - { name: themeIds, label: Theme IDs, widget: list, field: { name: themeId, label: Theme ID, widget: string }, required: false }
+      - { name: status, label: Public status line, widget: string, required: false }
+      - { name: website, label: Website, widget: string, required: false }
 
   - name: events
-    label: Events
+    label: Timeline events
     label_singular: Event
     folder: src/content/events
     extension: json
@@ -142,29 +115,27 @@ collections:
     fields:
       - { name: id, label: Stable event ID, widget: string }
       - { name: dateDisplay, label: Display date, widget: string }
-      - { name: startDate, label: Start date (retain precision), widget: string }
+      - { name: startDate, label: Date value (keep known precision), widget: string }
       - { name: endDate, label: End date, widget: string, required: false }
       - { name: datePrecision, label: Date precision, widget: select, options: [day, month, year, approximate, range, decade, unknown] }
-      - { name: label, label: Event, widget: string }
+      - { name: year, label: Position on timeline, widget: number, value_type: int, required: false }
+      - { name: label, label: Event name, widget: string }
       - { name: summary, label: Summary, widget: text }
-      - { name: categories, label: Categories, widget: list, field: { name: category, label: Category, widget: string } }
-      - { name: chapter, label: Chapter number, widget: number }
-      - { name: chapterTitle, label: Chapter title, widget: string }
-      - { name: sectionId, label: Chapter section ID, widget: string }
-      - { name: sectionTitle, label: Chapter section, widget: string }
-      - { name: canonicalUrl, label: Chapter passage URL, widget: string, required: false }
-      - { name: evidenceStatus, label: Evidence status, widget: string, required: false }
-      - { name: placeIds, label: Place record IDs, widget: list, field: { name: placeId, label: ID, widget: string } }
-      - { name: sources, label: Sources, widget: list, required: false, fields: [{ name: id, label: Source ID, widget: string, required: false }, { name: label, label: Citation, widget: string }, { name: url, label: URL, widget: string, required: false }] }
-      - { name: relatedRecordIds, label: Related record IDs, widget: list, field: { name: recordId, label: ID, widget: string } }
-      - { name: year, label: Sort year, widget: number }
-      - { name: url, label: Public route, widget: string }
-      - { name: related, label: Related IDs (legacy field), widget: list, required: false, field: { name: recordId, label: ID, widget: string } }
-      - { name: associationLabel, label: Association label, widget: string, required: false }
+      - { name: url, label: Related reading route, widget: string, required: false }
+      - { name: passageIds, label: Related passage IDs, widget: list, field: { name: passageId, label: Passage ID, widget: string }, required: false }
+      - { name: themeIds, label: Theme IDs, widget: list, field: { name: themeId, label: Theme ID, widget: string }, required: false }
+      - name: sources
+        label: Sources
+        widget: list
+        required: false
+        fields:
+          - { name: id, label: Source ID, widget: string, required: false }
+          - { name: label, label: Published source or memory, widget: string }
+          - { name: url, label: Source URL, widget: string, required: false }
 
   - name: relationships
-    label: Relationships
-    label_singular: Relationship
+    label: Connections
+    label_singular: Connection
     folder: src/content/relationships
     extension: json
     format: json
@@ -173,23 +144,57 @@ collections:
     identifier_field: id
     summary: "{{a}} · {{label}} · {{b}}"
     fields:
-      - { name: id, label: Stable relationship ID, widget: string }
-      - { name: a, label: From record ID, widget: string }
-      - { name: b, label: To record ID, widget: string }
-      - { name: label, label: Published relationship wording, widget: string }
-      - { name: basis, label: Published qualification, widget: text }
-      - name: evidence
-        label: Evidence and context
-        widget: object
+      - { name: id, label: Stable ID, widget: string }
+      - { name: a, label: First record ID, widget: string }
+      - { name: b, label: Second record ID, widget: string }
+      - { name: label, label: Connection wording, widget: string }
+      - { name: basis, label: Context for this connection, widget: text }
+      - { name: passageIds, label: Related passage IDs, widget: list, field: { name: passageId, label: Passage ID, widget: string }, required: false }
+      - name: sources
+        label: Sources
+        widget: list
+        required: false
         fields:
-          - { name: status, label: Evidence status, widget: select, options: [published-context-found, source-dataset-association-only] }
-          - { name: eventIds, label: Event IDs, widget: list, field: { name: eventId, label: ID, widget: string } }
-          - { name: basis, label: Evidence basis, widget: text }
-          - name: paragraphRefs
-            label: Chapter passages
-            widget: list
-            fields:
-              - { name: sectionId, label: Section ID, widget: string }
-              - { name: sectionTitle, label: Section title, widget: string }
-              - { name: blockId, label: Paragraph ID, widget: string }
-              - { name: sources, label: Sources, widget: list, required: false, fields: [{ name: id, label: Source ID, widget: string, required: false }, { name: label, label: Citation, widget: string }, { name: url, label: URL, widget: string, required: false }] }
+          - { name: id, label: Source ID, widget: string, required: false }
+          - { name: label, label: Published source or memory, widget: string }
+          - { name: url, label: Source URL, widget: string, required: false }
+
+  - name: themes
+    label: Reader themes
+    label_singular: Theme
+    folder: src/content/themes
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: id
+    summary: "{{title}}"
+    fields:
+      - { name: id, label: Stable ID, widget: string }
+      - { name: slug, label: URL slug, widget: string }
+      - { name: title, label: Theme name, widget: string }
+      - { name: description, label: Description, widget: text, required: false }
+      - { name: color, label: Accent colour, widget: string, required: false }
+
+  - name: images
+    label: Image records
+    label_singular: Image
+    folder: src/content/images
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: id
+    summary: "{{title}} · {{credit}}"
+    fields:
+      - { name: id, label: Stable ID, widget: string }
+      - { name: slug, label: URL slug, widget: string }
+      - { name: title, label: Image title, widget: string }
+      - { name: assetPath, label: Local image copy, widget: image }
+      - { name: altText, label: Alternative text, widget: string }
+      - { name: sourceName, label: Original publisher, widget: string }
+      - { name: sourceUrl, label: Original image or publication URL, widget: string }
+      - { name: credit, label: Required image credit, widget: string }
+      - { name: licence, label: Reuse licence, widget: string }
+      - { name: licenceUrl, label: Licence URL, widget: string }
+      - { name: themeIds, label: Theme IDs, widget: list, field: { name: themeId, label: Theme ID, widget: string }, required: false }

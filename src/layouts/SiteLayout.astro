@@ -1,42 +1,75 @@
 ---
 import "../styles/site.css";
 import { getCollection } from "astro:content";
-import provenance from "../content/provenance.json";
 
-const [chapters, records] = await Promise.all([getCollection("chapters"), getCollection("records")]);
-const sampleChapter = chapters[0]?.data;
-
+const [themes, records, eventEntries, passageEntries, articleEntries] = await Promise.all([
+  getCollection("themes"), getCollection("records"), getCollection("events"), getCollection("passages"), getCollection("articles"),
+]);
+const timelineEvents = eventEntries.map((entry) => entry.data)
+  .filter((event) => event.passageIds?.length)
+  .sort((a, b) => timelineYear(a) - timelineYear(b));
+function timelineYear(event) {
+  if (Number.isFinite(event.year)) return event.year;
+  const parsed = /^(\d{4})/.exec(String(event.startDate || ""));
+  return parsed ? Number(parsed[1]) : Number.POSITIVE_INFINITY;
+}
+const recordById = new Map(records.map((entry) => [entry.data.id, entry.data]));
+const passageById = new Map(passageEntries.map((entry) => [entry.data.id, entry.data]));
+const articleById = new Map(articleEntries.map((entry) => [entry.data.id, entry.data]));
+const yearValues = timelineEvents.map(timelineYear).filter(Number.isFinite);
+const firstYear = yearValues.length ? Math.min(...yearValues) : 0;
+const lastYear = yearValues.length ? Math.max(...yearValues) : 0;
+const position = (year) => !Number.isFinite(year) || firstYear === lastYear ? 50 : 7 + ((year - firstYear) / (lastYear - firstYear)) * 86;
+const timelineRange = yearValues.length ? `${firstYear} → ${lastYear}` : "Dates not yet known";
+const laneKinds = [
+  { label: "People", kinds: ["Person"] },
+  { label: "Organisations", kinds: ["Organisation", "Agency", "Council", "Business", "Company"] },
+  { label: "Projects", kinds: ["Project"] },
+  { label: "Technologies", kinds: ["Technology", "System"] },
+];
+const timelineLanes = laneKinds.map((lane) => ({
+  ...lane,
+  stops: timelineEvents.flatMap((event) => (event.passageIds || []).flatMap((passageId) => (passageById.get(passageId)?.recordIds || []).map((id) => ({ event, record: recordById.get(id) }))))
+    .filter(({ record }) => record && lane.kinds.includes(record.kind)),
+})).filter((lane) => lane.stops.length);
 const {
   title = "A History of GIS in New Zealand",
-  description = "A linked, evidence-led history of geographic information systems in Aotearoa New Zealand.",
+  description = "Stories, people, organisations and events in New Zealand’s GIS history.",
   noindex = false,
   pageClass = "",
 } = Astro.props;
 const activePath = Astro.url.pathname;
 const navigation = [
-  { label: "Read", href: sampleChapter?.url || "/" },
-  { label: "Network", href: "/network/" },
+  { label: "Read", href: "/" },
   { label: "Timeline", href: "/timeline/" },
   { label: "Browse", href: "/browse/" },
-  { label: "Search", href: "/search/" },
+  { label: "Network", href: "/network/" },
 ];
+const mailSubject = encodeURIComponent(`NZ GIS History suggestion: ${title}`);
+const mailBody = encodeURIComponent(`Page or story: ${title}\nURL: ${Astro.url.href}\n\nWhat should be added or changed?\n\nWhat source or memory can help us check it?\n\nWhich people, organisations, projects, themes or dates should connect to it?\n\nYour name (optional):\n`);
+const eventHref = (event) => {
+  if (event.url) return event.url;
+  const passage = (event.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
+  const article = passage && articleById.get(passage.articleId);
+  return passage && article ? `${article.url}#${passage.slug}` : "/timeline/";
+};
 ---
 <!doctype html>
-<html lang="en-NZ">
+<html lang="en-NZ" data-skin="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
-    <meta name="theme-color" content="#f5f4ef" />
+    <meta name="theme-color" content="#f4f2ec" />
     <title>{title}</title>
   </head>
   <body class={pageClass}>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <div class="staging-banner"><span>STAGING EDITION</span><span>{sampleChapter?.name} · {records.length} public accounts</span></div>
+    <a class="skip-link" href="#main">Skip to story</a>
+    <div class="preview-ribbon"><span class="live-dot" aria-hidden="true"></span> Structural preview <span class="preview-divider">·</span> Small published sample <span class="preview-divider">·</span> Live site unchanged</div>
     <header class="site-header">
       <a class="wordmark" href="/" aria-label="A History of GIS in New Zealand, home">
-        <span class="wordmark-mark" aria-hidden="true">NZ<span>GIS</span></span>
+        <span class="wordmark-mark" aria-hidden="true"><span>NZ</span><i>GIS</i></span>
         <span class="wordmark-name">A History of GIS<br />in New Zealand</span>
       </a>
       <nav class="primary-nav" aria-label="Main navigation">
@@ -44,51 +77,205 @@ const navigation = [
           <a href={item.href} aria-current={activePath === item.href || (item.href !== "/" && activePath.startsWith(item.href)) ? "page" : undefined}>{item.label}</a>
         ))}
       </nav>
-      <a class="header-search" href="/search/" aria-label="Search the publication"><span aria-hidden="true">⌕</span></a>
+      <div class="header-tools">
+        <details class="theme-picker">
+          <summary><span class="theme-picker-icon" aria-hidden="true">◉</span><span>Focus</span><span class="theme-picker-count" data-theme-count>All</span></summary>
+          <fieldset>
+            <legend>Shape the reading view</legend>
+            <p>Choose one or more themes to filter passages, links and timeline moments.</p>
+            {themes.map((entry) => <label class="theme-option">
+              <input type="checkbox" data-theme-choice value={entry.data.id} />
+              <span class="theme-option-dot" style={`--theme-color:${entry.data.color || "#55b9a7"}`}></span>
+              <span>{entry.data.title}</span>
+            </label>)}
+            <button class="text-button" type="button" data-clear-themes>Clear theme filters</button>
+          </fieldset>
+        </details>
+        <button class="skin-toggle" type="button" data-skin-toggle aria-pressed="false" aria-label="Switch to dark glass skin"><span aria-hidden="true">◐</span><span>Skin</span></button>
+        <a class="header-search" href="/search/" aria-label="Search the publication"><span aria-hidden="true">⌕</span></a>
+      </div>
     </header>
     <main id="main" data-pagefind-body>
+      <a class="resume-nudge" data-resume-link hidden><span>Continue reading</span><strong data-resume-title></strong><span aria-hidden="true">↗</span></a>
       <slot />
     </main>
     <footer class="site-footer">
-      <div class="footer-brand"><strong>A History of GIS in New Zealand</strong><span>Staging edition from the {provenance.canonicalRelease} public release.</span></div>
-      <div class="footer-links"><a href="/about/">About this staging slice</a><a href="/search/">Search</a><a href="/network/">Explore the network</a></div>
-      <p class="footer-note">Public sample. The live publication and its routes are unchanged.</p>
+      <div class="footer-brand"><strong>A History of GIS in New Zealand</strong><span>Stories that keep growing as new material is added.</span></div>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="/images/">Images</a><a href="/about/">About</a><a href="/network/">Network</a></nav>
+      <a class="suggest-link" href={`mailto:pm4gis@gmail.com?subject=${mailSubject}&body=${mailBody}`}>Suggest an update by email <span aria-hidden="true">↗</span></a>
+      <p class="footer-note">No submission form. Your email opens with the page details and prompts ready to fill in.</p>
     </footer>
+
+    {timelineEvents.length > 0 && <aside class="timeline-dock" aria-label="Story timeline">
+      <div class="timeline-dock-bar">
+        <button class="timeline-toggle" type="button" data-timeline-toggle aria-expanded="false" aria-controls="timeline-expansion">
+          <span class="timeline-orbit" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span><strong>Timeline</strong><small>{timelineRange}</small></span>
+          <span class="timeline-chevron" aria-hidden="true">⌃</span>
+        </button>
+        <div class="timeline-track" role="group" aria-label="Select a timeline event">
+          <span class="timeline-track-line" aria-hidden="true"></span>
+          {timelineEvents.map((event) => <button
+            class="timeline-stop"
+            type="button"
+            style={`--stop-x:${position(timelineYear(event))}%`}
+            data-event-select
+            data-event-id={event.id}
+            data-event-url={eventHref(event)}
+            data-passage-ids={(event.passageIds || []).join(" ")}
+            data-theme-ids={(event.themeIds || []).join(" ")}
+            aria-label={`${event.dateDisplay}, ${event.label} (${event.datePrecision} date precision)`}
+            title={`${event.dateDisplay} · ${event.label} · ${event.datePrecision} precision`}
+          ><span class="timeline-stop-dot" aria-hidden="true"></span><span class="timeline-stop-label">{event.dateDisplay}</span></button>)}
+        </div>
+        <button class="timeline-play" type="button" data-timeline-play aria-label="Play through timeline" title="Play timeline">▶</button>
+      </div>
+      <div class="timeline-expansion" id="timeline-expansion" hidden>
+        <div class="timeline-expansion-head"><div><p class="eyebrow">Read across time</p><h2>Parallel lanes</h2></div><p>Choose an event to jump to its passage.</p></div>
+        <div class="timeline-lanes">
+          {timelineLanes.map((lane) => <div class="timeline-lane" data-lane-label={lane.label}>
+            <h3>{lane.label}</h3><div class="timeline-lane-track"><span class="timeline-track-line" aria-hidden="true"></span>
+          {lane.stops.map(({ event, record }) => <button class="lane-stop" type="button" style={`--stop-x:${position(timelineYear(event))}%`} data-event-select data-event-id={event.id} data-event-url={eventHref(event)} data-passage-ids={(event.passageIds || []).join(" ")} data-theme-ids={(event.themeIds || []).join(" ")} title={`${event.dateDisplay}: ${record.name} · ${event.datePrecision} precision`}>
+                <span class="lane-stop-dot" aria-hidden="true"></span><span class="lane-stop-label">{record.name}</span>
+              </button>)}
+            </div>
+          </div>)}
+          <div class="timeline-lane event-lane"><h3>Events</h3><div class="timeline-lane-track"><span class="timeline-track-line" aria-hidden="true"></span>
+            {timelineEvents.map((event) => <button class="lane-stop" type="button" style={`--stop-x:${position(timelineYear(event))}%`} data-event-select data-event-id={event.id} data-event-url={eventHref(event)} data-passage-ids={(event.passageIds || []).join(" ")} data-theme-ids={(event.themeIds || []).join(" ")} title={`${event.dateDisplay}: ${event.label} · ${event.datePrecision} precision`}>
+              <span class="lane-stop-dot" aria-hidden="true"></span><span class="lane-stop-label">{event.label}</span>
+            </button>)}
+          </div></div>
+        </div>
+        <p class="timeline-date-note">Dates retain their published precision. A year label means the source gives a year, not a specific day.</p>
+      </div>
+      <p class="timeline-live" aria-live="polite" data-timeline-live></p>
+    </aside>}
+
     <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
     <script>
-      const storageKey = "nzgis-reader-settings-v1";
-      const defaults = { size: 19, width: 68, leading: 1.72 };
-      const readSettings = () => {
-        try { return { ...defaults, ...JSON.parse(localStorage.getItem(storageKey) || "{}") }; }
-        catch { return defaults; }
+      // @ts-nocheck
+      const skinKey = "nzgis-skin-v1";
+      const progressKey = "nzgis-reading-progress-v2";
+      const themeKey = "nzgis-reader-themes-v1";
+      const root = document.documentElement;
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      const readStored = (key, fallback) => { try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); } catch { return fallback; } };
+
+      const savedSkin = readStored(skinKey, "light");
+      root.dataset.skin = savedSkin === "dark" ? "dark" : "light";
+      const savedProgress = readStored(progressKey, null);
+      const resumeLink = document.querySelector("[data-resume-link]");
+      if (savedProgress?.url && savedProgress?.passage && resumeLink) {
+        const targetHash = "#" + encodeURIComponent(savedProgress.passage);
+        if (savedProgress.url !== location.pathname || location.hash !== targetHash) {
+          resumeLink.href = savedProgress.url + targetHash;
+          resumeLink.querySelector("[data-resume-title]").textContent = savedProgress.title || "Your last story";
+          resumeLink.hidden = false;
+        }
+      }
+      const skinButton = document.querySelector("[data-skin-toggle]");
+      const updateSkinLabel = () => {
+        const dark = root.dataset.skin === "dark";
+        skinButton?.setAttribute("aria-pressed", String(dark));
+        skinButton?.setAttribute("aria-label", dark ? "Switch to light editorial skin" : "Switch to dark glass skin");
+        if (skinButton) skinButton.querySelector("span:last-child").textContent = dark ? "Light" : "Dark";
       };
-      const applySettings = (settings) => {
-        document.documentElement.style.setProperty("--reader-size", settings.size + "px");
-        document.documentElement.style.setProperty("--reader-width", settings.width + "ch");
-        document.documentElement.style.setProperty("--reader-leading", settings.leading);
-      };
-      let settings = readSettings();
-      applySettings(settings);
-      document.querySelectorAll<HTMLButtonElement>("[data-reader-control]").forEach((button) => {
-        button.addEventListener("click", () => {
-          const control = button.dataset.readerControl;
-          if (control === "larger") settings.size = Math.min(24, settings.size + 1);
-          if (control === "smaller") settings.size = Math.max(16, settings.size - 1);
-          if (control === "wider") settings.width = Math.min(82, settings.width + 4);
-          if (control === "narrower") settings.width = Math.max(56, settings.width - 4);
-          applySettings(settings);
-          localStorage.setItem(storageKey, JSON.stringify(settings));
-        });
+      updateSkinLabel();
+      skinButton?.addEventListener("click", () => {
+        root.dataset.skin = root.dataset.skin === "dark" ? "light" : "dark";
+        localStorage.setItem(skinKey, JSON.stringify(root.dataset.skin));
+        updateSkinLabel();
       });
+
+      const themeInputs = [...document.querySelectorAll("[data-theme-choice]")];
+      const applyThemes = (chosen) => {
+        themeInputs.forEach((input) => { input.checked = chosen.includes(input.value); });
+        const active = new Set(chosen);
+        document.querySelectorAll("[data-theme-ids]").forEach((item) => {
+          const ids = item.dataset.themeIds.trim().split(/\s+/).filter(Boolean);
+          const visible = active.size === 0 || ids.length === 0 || ids.some((id) => active.has(id));
+          item.hidden = !visible;
+        });
+        const count = document.querySelector("[data-theme-count]");
+        if (count) count.textContent = chosen.length ? String(chosen.length) : "All";
+        localStorage.setItem(themeKey, JSON.stringify(chosen));
+        window.dispatchEvent(new CustomEvent("reader:themes-changed", { detail: { themes: chosen } }));
+      };
+      const savedThemes = readStored(themeKey, []);
+      applyThemes(Array.isArray(savedThemes) ? savedThemes : []);
+      themeInputs.forEach((input) => input.addEventListener("change", () => {
+        applyThemes(themeInputs.filter((item) => item.checked).map((item) => item.value));
+      }));
+      document.querySelector("[data-clear-themes]")?.addEventListener("click", () => applyThemes([]));
+
       const progress = document.getElementById("reading-progress");
       const updateProgress = () => {
         if (!progress) return;
         const room = document.documentElement.scrollHeight - window.innerHeight;
         progress.style.transform = "scaleX(" + (room > 0 ? window.scrollY / room : 0) + ")";
+        const article = document.querySelector("[data-reader-workspace]");
+        if (!article) return;
+        const passages = [...article.querySelectorAll("[data-passage-id]")];
+        const active = [...passages].reverse().find((passage) => passage.getBoundingClientRect().top < window.innerHeight * .42) || passages[0];
+        if (active) {
+          localStorage.setItem(progressKey, JSON.stringify({ url: location.pathname, passage: active.id, title: document.title }));
+        }
       };
       window.addEventListener("scroll", updateProgress, { passive: true });
       window.addEventListener("resize", updateProgress);
       updateProgress();
+
+      const timelineExpansion = document.getElementById("timeline-expansion");
+      const timelineToggle = document.querySelector("[data-timeline-toggle]");
+      timelineToggle?.addEventListener("click", () => {
+        const open = timelineToggle.getAttribute("aria-expanded") !== "true";
+        timelineToggle.setAttribute("aria-expanded", String(open));
+        timelineExpansion.hidden = !open;
+      });
+      const selectTimelineEvent = (button) => {
+        const ids = (button.dataset.passageIds || "").split(/\s+/).filter(Boolean);
+        const passage = ids.map((id) => document.querySelector(`[data-passage-id="${CSS.escape(id)}"]`)).find(Boolean);
+        if (passage) {
+          document.querySelectorAll("[data-event-select]").forEach((stop) => stop.classList.toggle("is-current", stop.dataset.eventId === button.dataset.eventId));
+          passage.classList.add("is-timeline-selected");
+          if (!reduceMotion.matches) passage.scrollIntoView({ behavior: "smooth", block: "center" });
+          else passage.scrollIntoView({ block: "center" });
+          passage.focus({ preventScroll: true });
+          const label = button.getAttribute("aria-label") || button.title;
+          const live = document.querySelector("[data-timeline-live]");
+          if (live) live.textContent = "Selected " + label;
+          history.replaceState({}, "", location.pathname + location.search + "#" + passage.id);
+          window.setTimeout(() => passage.classList.remove("is-timeline-selected"), reduceMotion.matches ? 1 : 1600);
+        } else if (button.dataset.eventUrl) {
+          location.href = button.dataset.eventUrl;
+        }
+      };
+      document.querySelectorAll("[data-event-select]").forEach((button) => button.addEventListener("click", () => selectTimelineEvent(button)));
+      const playButton = document.querySelector("[data-timeline-play]");
+      let playTimer;
+      playButton?.addEventListener("click", () => {
+        if (playTimer) {
+          clearInterval(playTimer); playTimer = undefined;
+          playButton.textContent = "▶"; playButton.setAttribute("aria-label", "Play through timeline"); return;
+        }
+        const stops = [...document.querySelectorAll(".timeline-dock-bar [data-event-select]")].filter((stop) => !stop.hidden);
+        if (!stops.length) return;
+        let index = -1;
+        playButton.textContent = "Ⅱ"; playButton.setAttribute("aria-label", "Pause timeline playback");
+        const advance = () => { index = (index + 1) % stops.length; selectTimelineEvent(stops[index]); };
+        advance();
+        playTimer = window.setInterval(advance, reduceMotion.matches ? 3500 : 2300);
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (!(event.target instanceof HTMLElement) || !event.target.matches(".timeline-stop, .lane-stop")) return;
+        if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+        const stops = [...event.target.closest(".timeline-track, .timeline-lane-track").querySelectorAll("button:not([hidden])")];
+        const current = stops.indexOf(event.target);
+        const step = event.key === "ArrowRight" ? 1 : -1;
+        const next = stops[(current + step + stops.length) % stops.length];
+        if (next) { event.preventDefault(); next.focus(); }
+      });
     </script>
   </body>
 </html>
