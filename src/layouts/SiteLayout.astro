@@ -2,7 +2,7 @@
 import "../styles/site.css";
 import { getCollection } from "astro:content";
 
-const themes = (await getCollection("themes")).map((entry) => entry.data);
+const themes = await getCollection("themes");
 const {
   title = "A History of GIS in New Zealand",
   description = "Stories, people, organisations and events in New Zealand’s GIS history.",
