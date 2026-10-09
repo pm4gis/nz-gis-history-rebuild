@@ -1,0 +1,729 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Supplemental New Zealand GIS research register: university research, claimant mapping, coastlines and national data infrastructure",
+  "status": "research-only; not published content",
+  "preparedAt": "2026-10-09",
+  "canonicalPublicationChecked": "https://history.pm4gis.nz",
+  "stagingContext": {
+    "repository": "pm4gis/nz-gis-history-rebuild",
+    "branch": "codex/book-first-reader-2026-10-09",
+    "pullRequest": 9,
+    "instruction": "Keep this register outside src/content. It is a reviewable research package and makes no edits to canonical records."
+  },
+  "method": {
+    "scope": "Curated additions identified from institutional repositories, government sources, Tribunal records, research publications and professional material.",
+    "sourcePriority": "Institutional repositories and primary government/organisation records first; peer-reviewed literature and independent research for interpretation and corroboration.",
+    "rights": "Store bibliographic metadata and original paraphrased notes. Do not copy thesis/article full text into the project unless an item-specific licence explicitly permits the intended reuse. Link to repository-hosted files. For claimant evidence, check ownership, confidentiality, tikanga and claimant authority before reuse.",
+    "datePrecision": "Use source publication date as listed; repository crawl or upload dates are not treated as publication dates."
+  },
+  "findings": [
+    {
+      "id": "claimant-mapping-is-a-research-practice",
+      "finding": "CFRT describes GIS mapping as evidence support for eligible claimant groups: maps can combine chronological and geographic views of alienation, raupatu, purchases, development schemes, historic ownership, rohe, wāhi tapu and remaining Māori land. CFRT also states that claimant-supplied confidential information means many maps are not public; generic overview map books filed at the Tribunal may be public, while claimant-specific map books are claimant-owned.",
+      "evidenceSourceIds": [
+        "cfrt-mapping",
+        "cfrt-claimant-guide"
+      ],
+      "interpretation": "Treat claimant mapping as a set of claimant-led, district and commissioned projects, not one national map programme. Respect the source's access and ownership conditions."
+    },
+    {
+      "id": "lhad-local-not-national",
+      "finding": "Waitangi Tribunal evidence identifies Te Matua Whenua / Land History and Alienation Database as a Central North Island inquiry resource. The Tribunal lists the 2005 evidence and a separate LHAD data bundle; the bundle is too large for website download and the Tribunal directs users to request a copy.",
+      "evidenceSourceIds": [
+        "tribunal-lhad-record",
+        "cfrt-report-lhad"
+      ],
+      "interpretation": "Do not describe LHAD as a complete national land-alienation database. Record its district and inquiry context unless further evidence establishes wider coverage."
+    },
+    {
+      "id": "land-history-method",
+      "finding": "The Opuatia GIS case study demonstrates a block-level method connecting Māori Land Court historic records with LINZ geospatial data. It reports substantial alienation and fragmentation, while explicitly identifying poor interoperability and archival research limits.",
+      "evidenceSourceIds": [
+        "whitehead-opuatia",
+        "kukutai-opuatia"
+      ],
+      "interpretation": "A strong proposed story is about reconstructing block histories by linking records, parcel/title structures and maps, alongside data sovereignty and interoperability limits."
+    },
+    {
+      "id": "coastal-mapping-and-risk",
+      "finding": "LINZ's 3D Coastal Mapping programme began in late 2023 and runs through June 2027. It targets up to 40% of the coastline, nominally from 200 m inland of MHWS to 25 m water depth, using LiDAR and multibeam. The programme is baseline elevation mapping, not itself a sea-level-rise forecast.",
+      "evidenceSourceIds": [
+        "linz-3d-coastal-programme",
+        "linz-lds"
+      ],
+      "interpretation": "Connect historical coastal GIS theses and risk studies to the current data programme, but distinguish observed terrain/bathymetry from scenario modelling, hazard probabilities and planning decisions."
+    },
+    {
+      "id": "lds-as-data-infrastructure",
+      "finding": "LINZ describes the LDS as an online search, preview, download and API service for land and seabed datasets. Documented categories include imagery, elevation, topographic, hydrographic, property/boundary/ownership, place names, roads/addresses and Crown land. Current guidance documents OGC web services including WMTS and WFS.",
+      "evidenceSourceIds": [
+        "linz-lds",
+        "linz-web-services",
+        "linz-licensing"
+      ],
+      "interpretation": "Treat LDS as an access and publication platform; keep dataset custodian, platform/provider, licence and API access method as separate fields."
+    },
+    {
+      "id": "topo-series-history",
+      "finding": "LINZ release documentation and the National Library's cartographic history support a distinct Topo50 story: the national 1:50,000 mapping series launched in 2009, with digital production and an updated reference framework.",
+      "evidenceSourceIds": [
+        "linz-topo50-history",
+        "natlib-topo-history"
+      ],
+      "interpretation": "Research the shift from NZMS 260 to Topo50 and how digital map production, georeferencing and LDS services changed access and reuse."
+    },
+    {
+      "id": "separate-ed-identities",
+      "finding": "Koordinates sources identify Ed Corkery as the company's CEO. Separate Esri event material identifies an Ed Cook as a GIS Technical Solutions Consultant at Eagle Technology in an emergency-management presentation. Available evidence does not support identifying these as the same person or attributing Koordinates work to Ed Cook.",
+      "evidenceSourceIds": [
+        "koordinates-about",
+        "esri-emergency-presentation"
+      ],
+      "interpretation": "Keep two person candidates separate until primary biographical evidence supports any identity merge."
+    }
+  ],
+  "sourceRegister": [
+    {
+      "id": "digitalnz-research-portal",
+      "title": "NZ Research",
+      "authorOrganisation": "DigitalNZ",
+      "publishedAt": "undated; migrated in 2023",
+      "type": "research discovery portal",
+      "url": "https://digitalnz.org/records?tab=research",
+      "relevantEvidence": "DigitalNZ describes the portal as an index of New Zealand research outputs, including theses; the search result reported roughly 205,000 research objects, including about 44,000 masters-level records. Counts are dynamic and should be rechecked before publication.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Discovery metadata; follow each originating repository's terms.",
+      "citationRef": "turn49search0"
+    },
+    {
+      "id": "gulliver-3d-cadastre",
+      "title": "Developing a 3D Digital Cadastral Survey System for New Zealand",
+      "authorOrganisation": "Trent Frederick Douglas Gulliver; University of Canterbury",
+      "publishedAt": "2015",
+      "type": "Master of Geographic Information Science thesis",
+      "url": "https://hdl.handle.net/10092/11730",
+      "alternateIdentifier": "https://doi.org/10.26021/8682",
+      "relevantEvidence": "Examines New Zealand cadastral survey system requirements and proposes a conceptual approach to digital 3D cadastral capability.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Repository-hosted thesis PDF; link and cite. No project-wide licence established.",
+      "citationRef": "turn61search0"
+    },
+    {
+      "id": "tate-new-plymouth-sea-level",
+      "title": "The effect of a rise in mean sea level on the New Plymouth coastline: a GIS investigation",
+      "authorOrganisation": "William Gorrie Tate; Massey University",
+      "publishedAt": "2013",
+      "type": "MPhil in Geographic Information Systems thesis",
+      "url": "https://mro.massey.ac.nz/items/e132bd40-738c-4816-a8c1-051997cc1564",
+      "relevantEvidence": "Uses GIS with property and census datasets and a 3D coast/seabed model to investigate potential inundation and erosion/accretion scenarios; thesis abstract notes its scenario assumptions. It acknowledges LINZ data obtained through Koordinates.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Use repository record/search by exact title; no full-text redistribution rights established.",
+      "citationRef": "turn67search2",
+      "alternateIdentifier": "http://hdl.handle.net/10179/5784"
+    },
+    {
+      "id": "morris-south-dunedin-risk",
+      "title": "Sea level rise: an assessment of risk, South Dunedin",
+      "authorOrganisation": "Kirsty Morris; University of Otago",
+      "publishedAt": "23 May 2009",
+      "type": "Master of Planning thesis",
+      "url": "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/Sea-level-rise--an-assessment/9926479582501891",
+      "relevantEvidence": "The abstract states GIS methodology was integrated into a South Dunedin risk assessment; it gives scenario outputs but explicitly notes excluded compounding hazards and a dune-breach assumption. Those historical scenario results must not be presented as current forecasts.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Open-access thesis for research/private study; repository says copyright all rights reserved unless otherwise indicated. Link and cite; do not mirror thesis or maps.",
+      "citationRef": "turn65view1"
+    },
+    {
+      "id": "kelly-nz-shoreline-change",
+      "title": "Decadal shoreline change on the New Zealand coast",
+      "authorOrganisation": "Melissa Kelly; University of Otago",
+      "publishedAt": "2013",
+      "type": "Master of Science thesis",
+      "url": "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/Decadal-shoreline-change-on-the-New/9926480079401891",
+      "relevantEvidence": "Uses GIS, orthorectified aerial photographs, 2011 GPS shoreline positions and Environment Canterbury beach profiles across four study sites. The repository says full text is unavailable/restricted; use the abstract and metadata only.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Repository marks full text unavailable/restricted; do not redistribute. Link and cite.",
+      "citationRef": "turn65view2"
+    },
+    {
+      "id": "newman-southland-coastal-change",
+      "title": "Using Historic Satellite and 3D UAV Imagery to Map the Dynamics of the Coast at Sites with Anthropogenic Debris in Southland New Zealand",
+      "authorOrganisation": "Cassandra Newman; Auckland University of Technology",
+      "publishedAt": "2022",
+      "type": "Master of Science Research thesis",
+      "url": "https://openrepository.aut.ac.nz/items/17e3daab-8246-4738-bbbd-8f6c6716133b",
+      "relevantEvidence": "Uses historical satellite imagery and seasonal 3D UAV imagery at four Southland sites to quantify shoreline and volumetric change; the repository identifies it as a 2022 Master of Science (Research) thesis.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Institutional repository record; link and cite.",
+      "citationRef": "turn65view3"
+    },
+    {
+      "id": "nutsford-urban-nature-health",
+      "title": "An exploration of the associations between urban natural environments and indicators of mental and physical health",
+      "authorOrganisation": "Daniel Nutsford; University of Canterbury",
+      "publishedAt": "2014",
+      "type": "Master of Geographic Information Science thesis",
+      "url": "https://ir.canterbury.ac.nz/items/b5712efa-4ed2-4519-bb7a-fde03f533f23",
+      "relevantEvidence": "Master of Geographic Information Science thesis using GIS and a visibility-index method with individual-level NZ Health Survey data to examine natural-environment exposure and health indicators in Wellington.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Use repository record/search by exact title; no full-text redistribution rights established.",
+      "citationRef": "turn67search0",
+      "alternateIdentifier": "http://hdl.handle.net/10092/9279"
+    },
+    {
+      "id": "mcpherson-base-map-usability",
+      "title": "A usability comparison of canvas, topographic and street base maps",
+      "authorOrganisation": "Rory McPherson; University of Canterbury",
+      "publishedAt": "2016",
+      "type": "Master of Geographic Information Science thesis",
+      "url": "https://ir.canterbury.ac.nz/items/d57dd7af-3850-4ccc-b009-f6cea6df030c",
+      "relevantEvidence": "Master of Geographic Information Science thesis comparing canvas, topographic and street basemaps using an online survey and usability measures.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Use repository record/search by exact title; no full-text redistribution rights established.",
+      "citationRef": "turn67search3",
+      "alternateIdentifier": "http://hdl.handle.net/10092/15009"
+    },
+    {
+      "id": "berger-kaikoura-shoreline",
+      "title": "Characterising landscape and sea level dynamics to predict shoreline responses over the next 100+ years in a high energy tectonic setting, Kaikoura, New Zealand",
+      "authorOrganisation": "Hannah Berger; University of Canterbury",
+      "publishedAt": "2017",
+      "type": "Master of Science thesis",
+      "url": "https://ir.canterbury.ac.nz/items/4dcea50d-a956-466c-8455-efbc65ea57ac",
+      "relevantEvidence": "Hannah Victoria Berger's 2017 MSc develops a conceptual framework for local coastal sediment dynamics and sea-level response, considering tectonics, climate and human intervention along the Kaikōura coast. The thesis notes sparse data constraints and should be read as a dated research scenario.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "UC repository states copyright/all rights reserved unless otherwise indicated; link and cite.",
+      "citationRef": "turn69search0",
+      "alternateIdentifier": "http://hdl.handle.net/10092/13400"
+    },
+    {
+      "id": "pereka-kawa-geospatial",
+      "title": "A kawa led approach for the practical application of geospatial science",
+      "authorOrganisation": "Javell Pereka; Massey University",
+      "publishedAt": "2023",
+      "type": "Master of Science thesis",
+      "url": "https://mro.massey.ac.nz/items/022e5f56-7d88-4d49-b116-f5dadd409bdc",
+      "relevantEvidence": "Massey repository identifies an indefinitely embargoed 2023 MSc thesis. Its abstract discusses georeferencing historical Whanganui River maps, text extraction, iwi wellbeing indicators, story maps and data sovereignty.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Embargoed indefinitely: use repository metadata only and do not reproduce thesis content.",
+      "citationRef": "turn69search1"
+    },
+    {
+      "id": "thom-land-loss-wellbeing",
+      "title": "Land Loss, Historic Trauma and the Intergenerational Transmission of Wellbeing: The Experience of Iwi in Aotearoa New Zealand",
+      "authorOrganisation": "Rowan Thom; Te Herenga Waka—Victoria University of Wellington",
+      "publishedAt": "2021",
+      "type": "Master's thesis",
+      "url": "https://openaccess.wgtn.ac.nz/articles/thesis/Land_Loss_Historic_Trauma_and_the_Intergenerational_Transmission_of_Wellbeing_The_Experience_of_Iwi_in_Aotearoa_New_Zealand/14420591",
+      "relevantEvidence": "Uses geospatial data of Māori land holdings at different points in time, linked to contemporary iwi outcomes using Census 2013 and Te Kupenga data; the repository lists a CC BY-NC-SA 4.0 licence.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Repository lists CC BY-NC-SA 4.0; attribution, noncommercial use and share-alike terms apply. Confirm thesis metadata and licence before reuse.",
+      "citationRef": "turn70search1"
+    },
+    {
+      "id": "pacey-benefits-barriers-maori",
+      "title": "The benefits and barriers to GIS for Māori",
+      "authorOrganisation": "H. A. Pacey; Lincoln University",
+      "publishedAt": "2005",
+      "type": "Master of Indigenous Planning and Development thesis",
+      "url": "http://hdl.handle.net/10182/655",
+      "relevantEvidence": "Kaupapa Māori research on potential benefits and barriers including access, capability, cost, cultural heritage and intellectual-property concerns. A DOC science report cites the thesis and gives its full title, award, year and length.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Repository PDF may be available; use metadata and original paraphrase, not copied thesis text.",
+      "citationRef": "turn61search8"
+    },
+    {
+      "id": "harmsworth-motueka-iwi-gis",
+      "title": "Report on the development and use of GIS for iwi and hapū: Motueka case study",
+      "authorOrganisation": "Graham Harmsworth, Ana Park and David Walker; Manaaki Whenua – Landcare Research",
+      "publishedAt": "2005",
+      "type": "research report",
+      "url": "https://www.landcareresearch.co.nz/assets/researchpubs/harmsworth_gis_iwi.pdf",
+      "relevantEvidence": "Documents iwi/hapū GIS work in the Motueka region and examples concerning Te Ātiawa Treaty hearings and cultural impact assessment.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Public report PDF; rights for wholesale redistribution not confirmed. Link and paraphrase.",
+      "citationRef": "turn58search7"
+    },
+    {
+      "id": "he-whare-hangarau",
+      "title": "He Whare Hangarau Māori: Language, culture & technology",
+      "authorOrganisation": "University of Waikato; edited collection",
+      "publishedAt": "2017",
+      "type": "open-access edited book",
+      "url": "https://hdl.handle.net/10289/12259",
+      "relevantEvidence": "Includes Māori mapping and technology case studies, including Te Koronga mapping and the Indigenous Mapping Wānanga.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Repository lists Creative Commons Attribution-NonCommercial 4.0 International. Reuse only with attribution, noncommercial use and compliance with the licence; verify per chapter and any third-party material before copying.",
+      "citationRef": "turn58search2"
+    },
+    {
+      "id": "hakopa-paepae",
+      "title": "The Paepae: Spatial information technologies and the geography of narratives",
+      "authorOrganisation": "Hauiti Hakopa; University of Otago",
+      "publishedAt": "2011",
+      "type": "PhD thesis",
+      "url": "https://hdl.handle.net/10523/1801",
+      "relevantEvidence": "University of Otago PhD thesis (2011) on spatial information technologies and narrative geography. The stable handle is cited in peer-reviewed publication references; direct record metadata should be checked before import.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Thesis; link and cite. Verify item-level rights before reuse.",
+      "citationRef": "turn71search6"
+    },
+    {
+      "id": "ngamata pono-co-creation",
+      "title": "Ngā Mātāpono e Rua: Stories of co-creation for bicultural spatial governance in Aotearoa New Zealand",
+      "authorOrganisation": "New Zealand Geographer",
+      "publishedAt": "2021",
+      "type": "peer-reviewed journal article",
+      "url": "https://doi.org/10.1111/nzg.12299",
+      "relevantEvidence": "Examines co-creation and bicultural spatial governance, providing a conceptual and practice-oriented connection between mapping and governance.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Journal article; store citation and paraphrase only unless licence permits text reuse.",
+      "citationRef": "turn58search5"
+    },
+    {
+      "id": "whitehead-opuatia",
+      "title": "The alienation of the Opuatia block: A GIS case study report written for Counting our Tūpuna",
+      "authorOrganisation": "Jesse Whitehead; National Institute of Demographic and Economic Analysis, University of Waikato",
+      "publishedAt": "2021",
+      "type": "research report",
+      "url": "https://hdl.handle.net/10289/17803",
+      "relevantEvidence": "Combines Māori Land Court historical alienation records with LINZ spatial data to analyse fragmentation and ownership change since 1866; report identifies source interoperability barriers and archival limits.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Repository-hosted report; link and cite. No project-wide full-text redistribution permission established.",
+      "citationRef": "turn61search3"
+    },
+    {
+      "id": "kukutai-opuatia",
+      "title": "Tracing Opuatia: Repatriating and repurposing colonial land data",
+      "authorOrganisation": "Tahu Kukutai et al.; New Zealand Geographer",
+      "publishedAt": "2022",
+      "type": "peer-reviewed journal article",
+      "url": "https://doi.org/10.1111/nzg.12344",
+      "relevantEvidence": "Discusses repatriating and repurposing colonial land data, including the Opuatia case and links among Māori Land Court records, LINZ parcel/title material and survey plans; foregrounds data access and sovereignty.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Store bibliographic metadata and a short original summary; check article-level licence before reproducing any text or figures.",
+      "citationRef": "turn53search0"
+    },
+    {
+      "id": "cfrt-mapping",
+      "title": "Research activities",
+      "authorOrganisation": "Crown Forestry Rental Trust",
+      "publishedAt": "undated",
+      "type": "official programme description",
+      "url": "https://cfrt.org.nz/research-activities/",
+      "relevantEvidence": "Describes eligible-claimant mapping services, uses of maps in evidence and settlement negotiations, examples of mapped issues, and the distinction between public overview map books and claimant-owned/confidential maps.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Organisation's web content; quote only within fair dealing/fair use limits and link to the source.",
+      "citationRef": "turn62search0"
+    },
+    {
+      "id": "cfrt-claimant-guide",
+      "title": "Aratohu mō ngā Rōpū Kaitono / Guide for Claimants Negotiating Treaty Settlements",
+      "authorOrganisation": "Crown Forestry Rental Trust",
+      "publishedAt": "2018 (PDF upload path; confirm document title page)",
+      "type": "claimant research guide",
+      "url": "https://cfrt.org.nz/wp/wp-content/uploads/2018/05/GuideforClaimantsNegotiatingTreatySettlements.pdf",
+      "relevantEvidence": "Explains how map books can connect technical research and traditional history, and describes GIS mapping support and categories of events and places that may be mapped.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Link and paraphrase; check permission before reproducing figures or substantial text.",
+      "citationRef": "turn62search9"
+    },
+    {
+      "id": "tribunal-lhad-record",
+      "title": "Search Inquiry Documents: Te Matua Whenua – The Land History and Alienation Database evidence and data",
+      "authorOrganisation": "Waitangi Tribunal",
+      "publishedAt": "2005 evidence; current record page",
+      "type": "primary inquiry evidence catalogue",
+      "url": "https://www.waitangitribunal.govt.nz/en/reports-and-documents?Sort=wai-asc&Type=evidence&start=5290",
+      "relevantEvidence": "Lists David Alexander's 2005 evidence, follow-up evidence and LHAD data. The catalogue states the data bundle is too large for website download and must be requested.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Follow Tribunal access instructions; data bundle not publicly downloadable from this listing.",
+      "citationRef": "turn64search0"
+    },
+    {
+      "id": "cfrt-report-lhad",
+      "title": "Report to Appointors 2001/2002",
+      "authorOrganisation": "Crown Forestry Rental Trust",
+      "publishedAt": "2002",
+      "type": "annual report",
+      "url": "https://cfrt.org.nz/wp/wp-content/uploads/2018/05/ReporttoAppointors2001_2002.pdf",
+      "relevantEvidence": "Describes Te Matua Whenua as a database project in the Central North Island context, intended to describe land alienation and support detailed maps.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Link and paraphrase.",
+      "citationRef": "turn64search10"
+    },
+    {
+      "id": "kukutai-insurance-retreat",
+      "title": "Insurance retreat in residential properties from future sea level rise in Aotearoa New Zealand",
+      "authorOrganisation": "Climatic Change",
+      "publishedAt": "2024",
+      "type": "peer-reviewed journal article",
+      "url": "https://doi.org/10.1007/s10584-024-03699-1",
+      "relevantEvidence": "Uses spatial exposure analysis involving LINZ coastline and extreme sea-level inundation scenarios to assess residential insurance retreat. Cite the paper for its stated assumptions and scope.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Store citation and paraphrase only unless article licence allows broader reuse.",
+      "citationRef": "turn48search10"
+    },
+    {
+      "id": "kennedy-nz-higher-sea-levels",
+      "title": "Recent and future higher sea levels in New Zealand: A review",
+      "authorOrganisation": "David Kennedy; New Zealand Geographer",
+      "publishedAt": "2008",
+      "type": "peer-reviewed review article",
+      "url": "https://doi.org/10.1111/j.1745-7939.2008.00132.x",
+      "relevantEvidence": "Reviews observed and projected higher sea levels for New Zealand; useful historical context, not a substitute for current hazard projections.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Metadata and paraphrase only unless licence permits text reuse.",
+      "citationRef": "turn53search9"
+    },
+    {
+      "id": "linz-3d-coastal-programme",
+      "title": "The programme – 3D Coastal Mapping",
+      "authorOrganisation": "Toitū Te Whenua Land Information New Zealand",
+      "publishedAt": "programme started late 2023; page current at access",
+      "type": "official programme page",
+      "url": "https://www.linz.govt.nz/products-services/data/3d-coastal-mapping/programme",
+      "relevantEvidence": "Programme duration through June 2027; up to 40% of coastline; nominal mapping extent 200 m inland from MHWS to 25 m water depth; LiDAR and multibeam.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Link and attribute LINZ data separately from LINZ explanatory page content.",
+      "citationRef": "turn63search0"
+    },
+    {
+      "id": "linz-lds",
+      "title": "LINZ Data Service",
+      "authorOrganisation": "Toitū Te Whenua Land Information New Zealand",
+      "publishedAt": "undated; current page at access",
+      "type": "official data-service description",
+      "url": "https://www.linz.govt.nz/products-services/data/linz-data-service",
+      "relevantEvidence": "Describes search, preview, download and API access and the main categories of land and seabed data available through LDS.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Dataset-level metadata and licence must be checked for each layer.",
+      "citationRef": "turn64search3"
+    },
+    {
+      "id": "linz-web-services",
+      "title": "Web services and versions and version support",
+      "authorOrganisation": "Toitū Te Whenua Land Information New Zealand",
+      "publishedAt": "undated; guidance current at access",
+      "type": "official technical documentation",
+      "url": "https://www.linz.govt.nz/guidance/data-service/linz-data-service-guide/web-services",
+      "relevantEvidence": "Documents LDS API and OGC service options; current version guidance includes WMTS, WFS and CS-W. API keys and specific service limits apply.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Technical documentation; link. Do not treat API access as permission to ignore layer terms.",
+      "citationRef": "turn63search2"
+    },
+    {
+      "id": "linz-licensing",
+      "title": "Licensing and using data",
+      "authorOrganisation": "Toitū Te Whenua Land Information New Zealand",
+      "publishedAt": "undated; current guidance at access",
+      "type": "official licensing guidance",
+      "url": "https://www.linz.govt.nz/products-services/data/licensing-and-using-data",
+      "relevantEvidence": "Almost all LDS data is CC BY 4.0, but aerial imagery, personal-information layers and some other exceptions have distinct terms or additional access requirements.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Apply the specific dataset licence and attribution; do not assume every LDS layer has identical terms.",
+      "citationRef": "turn64search4"
+    },
+    {
+      "id": "linz-topo50-history",
+      "title": "Topo50 release notes and update history",
+      "authorOrganisation": "Toitū Te Whenua Land Information New Zealand",
+      "publishedAt": "undated; update history current at access",
+      "type": "official map series documentation",
+      "url": "https://www.linz.govt.nz/products-services/maps/new-zealand-topographic-maps/topo50-map-chooser/release-notes-update-history",
+      "relevantEvidence": "Provides a maintained record of Topo50 map and dataset changes.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Link and attribute LINZ datasets separately.",
+      "citationRef": "turn63search6"
+    },
+    {
+      "id": "natlib-topo-history",
+      "title": "A history of topographic mapping in New Zealand",
+      "authorOrganisation": "National Library of New Zealand",
+      "publishedAt": "undated",
+      "type": "cartographic history guide",
+      "url": "https://natlib.govt.nz/collections/a-z/cartographic-collection",
+      "relevantEvidence": "National Library cartographic history is a discovery lead for the NZMS 260 to Topo50 transition and NZTM history; exact history page permalink remains to be pinned before public import.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Link and paraphrase; identify a stable page URL before publication.",
+      "citationRef": "turn54search8",
+      "confidence": "medium"
+    },
+    {
+      "id": "koordinates-about",
+      "title": "About Koordinates",
+      "authorOrganisation": "Koordinates",
+      "publishedAt": "undated; current company page",
+      "type": "company profile",
+      "url": "https://koordinates.com/about/",
+      "relevantEvidence": "Koordinates company page identifies Ed Corkery as CEO. Koordinates' own 2013 account states that LDS was built using Koordinates Enterprise and supported by its engineers; treat this as a company account and corroborate with LINZ records.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Company source; link and paraphrase.",
+      "citationRef": "turn61search4"
+    },
+    {
+      "id": "esri-emergency-presentation",
+      "title": "New Zealand GIS for Emergency Management",
+      "authorOrganisation": "Esri event / Eagle Technology and Fire and Emergency New Zealand presenters",
+      "publishedAt": "undated event page",
+      "type": "conference or user-group presentation",
+      "url": "https://storymaps.arcgis.com/stories/a599ee990ba04782bb492850b8ed1670",
+      "relevantEvidence": "A StoryMaps event item among a set of GIS emergency-management presentations; this lead requires the title, authors and event date to be read from the presentation before public import.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Presentation material; link only until item-specific reuse permissions are known.",
+      "citationRef": "turn66view1",
+      "confidence": "medium"
+    },
+    {
+      "id": "lds-launch",
+      "title": "LINZ Annual Report 2020/21",
+      "authorOrganisation": "Toitū Te Whenua Land Information New Zealand",
+      "publishedAt": "2021",
+      "type": "annual report",
+      "url": "https://www.linz.govt.nz/about-linz/our-organisation/annual-reports",
+      "relevantEvidence": "LINZ annual reporting says the LINZ Data Service launched on 1 July 2011 and describes Koordinates as its platform provider; use LINZ's first-party account and pinpoint the specific report page before importing.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Government report; link and paraphrase.",
+      "citationRef": "turn55search13",
+      "confidence": "medium"
+    },
+    {
+      "id": "murdoch-tighe-waiheke-marine-planning",
+      "title": "Geospatial Analysis of Marine Habitat Representation for Marine Spatial Planning Around Waiheke Island Auckland New Zealand",
+      "authorOrganisation": "Levi Murdoch-Tighe; Auckland University of Technology",
+      "publishedAt": "2022",
+      "type": "Master of Science (Research) thesis",
+      "url": "https://openrepository.aut.ac.nz/items/e7a98970-386c-42aa-8b07-5808af1086f2",
+      "alternateIdentifier": "https://hdl.handle.net/10292/15445",
+      "relevantEvidence": "Uses mapped habitat, GIS, multivariate analysis and Marxan models to explore representative marine protected-area options and participatory management around Waiheke.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Repository item includes an item-specific licence. Link and cite; inspect licence before reuse of text, figures or data.",
+      "citationRef": "turn68search0"
+    },
+    {
+      "id": "bilkey-karekare-dune-uav",
+      "title": "Sand Dune Vegetation Monitoring and Assessment Using UAV Remote Sensing: A Case Study for Karekare Beach Auckland Region New Zealand",
+      "authorOrganisation": "Joshua Glyn Bilkey; Auckland University of Technology",
+      "publishedAt": "2022",
+      "type": "Master of Geographic Information Science thesis",
+      "url": "https://openrepository.aut.ac.nz/items/09542e83-74a4-4d3b-b318-793813d4e1b1",
+      "alternateIdentifier": "https://hdl.handle.net/10292/15135",
+      "relevantEvidence": "Compares UAV remote-sensing and vegetation-classification approaches for dune monitoring at Karekare; describes OBIA and pixel-based accuracy and notes invasive pampas grass classification.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Repository item; link and cite. Confirm item-specific licence before reusing figures or text.",
+      "citationRef": "turn68search2"
+    },
+    {
+      "id": "thom-land-loss-peer-reviewed",
+      "title": "Land loss and the intergenerational transmission of wellbeing: The experience of iwi in Aotearoa New Zealand",
+      "authorOrganisation": "Rowan Ropata Macgregor Thom and Arthur Grimes; Social Science & Medicine",
+      "publishedAt": "2022",
+      "type": "peer-reviewed open-access journal article",
+      "url": "https://doi.org/10.1016/j.socscimed.2022.114804",
+      "relevantEvidence": "Journal article based on geospatial historical landholding data for 70 North Island iwi and contemporary cultural wellbeing and health outcomes; distinguish this 2022 article from Thom's 2021 thesis and verify the article's specific licence before text reuse.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Publisher marks article open access under a Creative Commons licence; check licence version and reuse conditions at the article record before copying text, figures or data.",
+      "citationRef": "turn70search0"
+    }
+  ],
+  "proposedResearchRecords": [
+    {
+      "suggestedType": "publication",
+      "title": "The alienation of the Opuatia block: a GIS case study",
+      "sourceIds": [
+        "whitehead-opuatia",
+        "kukutai-opuatia",
+        "murdoch-tighe-waiheke-marine-planning",
+        "bilkey-karekare-dune-uav"
+      ],
+      "summary": "A research publication pair on reconstructing Māori land-block history by linking historical land records to current geospatial structures, while documenting data interoperability and governance limitations. Additional university leads connect coastal GIS to marine habitat planning and dune-vegetation monitoring.",
+      "connectionsToReview": [
+        "Jesse Whitehead — authored report",
+        "University of Waikato — publisher/research host",
+        "Māori Land Court records — source material used",
+        "LINZ — geospatial data source",
+        "Ngāti Tiipa — Opuatia case context"
+      ],
+      "publicationStatus": "proposal only"
+    },
+    {
+      "suggestedType": "story",
+      "title": "Mapping land history for Treaty claim research",
+      "sourceIds": [
+        "cfrt-mapping",
+        "cfrt-claimant-guide",
+        "tribunal-lhad-record",
+        "cfrt-report-lhad",
+        "pacey-benefits-barriers-maori",
+        "harmsworth-motueka-iwi-gis"
+      ],
+      "summary": "Explain claimant-led and commissioned map books, the distinct role of CFRT, the Central North Island LHAD, Māori GIS capability research, and the legal, ethical and data-access limits on reuse.",
+      "connectionsToReview": [
+        "Crown Forestry Rental Trust — commissioned/funded support where source confirms",
+        "Waitangi Tribunal — evidence filing/access",
+        "claimant groups — owners/users; name only from specific records",
+        "researchers — author-specific works"
+      ],
+      "publicationStatus": "proposal only"
+    },
+    {
+      "suggestedType": "story",
+      "title": "From sea-level scenarios to a national coastal elevation baseline",
+      "sourceIds": [
+        "morris-south-dunedin-risk",
+        "tate-new-plymouth-sea-level",
+        "newman-southland-coastal-change",
+        "kennedy-nz-higher-sea-levels",
+        "kukutai-insurance-retreat",
+        "linz-3d-coastal-programme"
+      ],
+      "summary": "Trace the evolution from local GIS risk and shoreline studies to present coastal elevation and bathymetric mapping, keeping terrain data, hazard modelling and insurance/planning interpretation distinct.",
+      "publicationStatus": "proposal only"
+    },
+    {
+      "suggestedType": "story",
+      "title": "Topo50, Koordinates and the LINZ Data Service",
+      "sourceIds": [
+        "gulliver-3d-cadastre",
+        "mcpherson-base-map-usability",
+        "linz-topo50-history",
+        "linz-lds",
+        "linz-web-services",
+        "linz-licensing",
+        "lds-launch",
+        "koordinates-about"
+      ],
+      "summary": "Explain national topographic map history and how the LDS made authoritative land/seabed data discoverable and accessible through downloads and APIs; separate LINZ data custody from Koordinates platform services.",
+      "publicationStatus": "proposal only"
+    },
+    {
+      "suggestedType": "publication",
+      "title": "Māori geospatial practice and governance reading collection",
+      "sourceIds": [
+        "pacey-benefits-barriers-maori",
+        "harmsworth-motueka-iwi-gis",
+        "he-whare-hangarau",
+        "hakopa-paepae",
+        "ngamata pono-co-creation",
+        "pereka-kawa-geospatial",
+        "thom-land-loss-peer-reviewed"
+      ],
+      "summary": "A bibliographic collection spanning Māori GIS capability, iwi/hapū practice, cultural mapping, spatial narratives, kawa-led geospatial work and bicultural spatial governance.",
+      "publicationStatus": "proposal only"
+    }
+  ],
+  "relationshipRegister": [
+    {
+      "subject": "Crown Forestry Rental Trust",
+      "predicate": "provides mapping support to",
+      "object": "eligible claimant groups",
+      "date": "undated/current service description",
+      "sourceIds": [
+        "cfrt-mapping"
+      ],
+      "basis": "The Trust describes this as a service and identifies the claimant eligibility condition."
+    },
+    {
+      "subject": "Crown Forestry Rental Trust",
+      "predicate": "commissioned or supported",
+      "object": "Te Matua Whenua / LHAD",
+      "date": "2001–2005 evidence window",
+      "sourceIds": [
+        "cfrt-report-lhad",
+        "tribunal-lhad-record"
+      ],
+      "basis": "CFRT annual report and Tribunal evidence catalogue; scope is Central North Island inquiry context, not national coverage."
+    },
+    {
+      "subject": "Jesse Whitehead",
+      "predicate": "authored",
+      "object": "Opuatia GIS case study report",
+      "date": "2021",
+      "sourceIds": [
+        "whitehead-opuatia"
+      ],
+      "basis": "Repository author and publication metadata."
+    },
+    {
+      "subject": "Opuatia GIS case study",
+      "predicate": "used",
+      "object": "Māori Land Court historical records and LINZ geospatial information",
+      "date": "1866 onward historical analysis; report published 2021",
+      "sourceIds": [
+        "whitehead-opuatia"
+      ],
+      "basis": "Report abstract explicitly identifies these source classes."
+    },
+    {
+      "subject": "LINZ",
+      "predicate": "publishes data through",
+      "object": "LINZ Data Service",
+      "date": "LDS launched 2011",
+      "sourceIds": [
+        "linz-lds",
+        "lds-launch"
+      ],
+      "basis": "Current LINZ service description and annual report. Koordinates platform role is separately attributed."
+    },
+    {
+      "subject": "LINZ",
+      "predicate": "runs",
+      "object": "3D Coastal Mapping programme",
+      "date": "late 2023–June 2027",
+      "sourceIds": [
+        "linz-3d-coastal-programme"
+      ],
+      "basis": "Official LINZ programme page."
+    }
+  ],
+  "identityAndEvidenceReview": [
+    {
+      "issue": "Ed Cook versus Ed Corkery",
+      "status": "keep separate",
+      "detail": "Ed Corkery is identified by Koordinates as CEO. Ed Cook appears in emergency-management GIS presentation material in an Eagle Technology role. No evidence found tying Ed Cook to Koordinates.",
+      "sourceIds": [
+        "koordinates-about",
+        "esri-emergency-presentation"
+      ]
+    },
+    {
+      "issue": "Land History and Alienation Database scope",
+      "status": "qualify scope",
+      "detail": "Evidence is tied to Te Matua Whenua and the Central North Island inquiry. Do not imply nationwide coverage.",
+      "sourceIds": [
+        "tribunal-lhad-record",
+        "cfrt-report-lhad"
+      ]
+    },
+    {
+      "issue": "Claimant map-book ownership and confidentiality",
+      "status": "access restricted / claimant authority required",
+      "detail": "CFRT states many maps use confidential information and claimant-specific map books are claimant-owned. Public visibility in a Tribunal record does not itself establish unrestricted reuse rights.",
+      "sourceIds": [
+        "cfrt-mapping"
+      ]
+    },
+    {
+      "issue": "LDS licence exceptions",
+      "status": "check layer metadata",
+      "detail": "Most LDS data is CC BY 4.0, but imagery, personal-information layers and pending-approval cadastral data may have different terms or access requirements.",
+      "sourceIds": [
+        "linz-licensing"
+      ]
+    }
+  ],
+  "gapsAndNextResearch": [
+    "This is a curated expansion, not an exhaustive census of all NZ university GIS theses. Use DigitalNZ/NZ Research and each university repository for a systematic subject-and-year sweep.",
+    "Find and verify New Zealand university research on CFRT commissioned map books, Tribunal evidence mapping and LHAD implementation, with claimant ownership and access terms recorded per item.",
+    "Build a layer-by-layer LDS register with layer ID, authoritative custodian, revision history, geometry/scale, update schedule, API endpoints, licence and documented downstream use. Current register captures service-level categories, not every layer.",
+    "Pinpoint historical Topo50 and LDS annual-report citations and the exact Esri event page before converting those leads into public story claims.",
+    "Expand sea-level research across regional council hazard assessments, NIWA scenarios, MfE guidance, local planning instruments, adaptation programmes and community mapping; distinguish model assumptions and vertical datums.",
+    "Search Survey and Spatial New Zealand, Spatial News, NZ Esri user-group newsletters and conference proceedings for work not indexed in university repositories.",
+    "Remaining exact repository leads should be converted from discovery results to stable item permalinks before any public import; do not substitute institution homepages for a record citation."
+  ],
+  "contentHandling": {
+    "replicate": "Bibliographic records, URLs, dates, repository identifiers, original short summaries, access notes, rights metadata and source-backed relationship proposals are stored here.",
+    "doNotReplicate": "Do not copy complete copyrighted thesis/article PDFs, figures, claimant map books, personal information or confidential cultural information into the site repository without specific permission/licence and appropriate claimant authority.",
+    "publicationGate": "Before public import, resolve medium-confidence citations, check existing record IDs and names in canonical data, map each claim to a pinpoint citation, and validate licence, cultural authority, date precision and relationships."
+  }
+}

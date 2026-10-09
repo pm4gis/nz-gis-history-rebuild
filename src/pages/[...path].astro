@@ -1,7 +1,7 @@
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
 import SourceList from "../components/SourceList.astro";
-import MiniNetwork from "../components/MiniNetwork.astro";
+import InlineEntityLinks from "../components/InlineEntityLinks.astro";
 import { getCollection } from "astro:content";
 
 const [recordEntries, relationshipEntries, eventEntries, articleEntries, passageEntries, themeEntries] = await Promise.all([
@@ -17,10 +17,7 @@ export async function getStaticPaths() {
 const { recordId } = Astro.props;
 const record = recordById.get(recordId);
 const relatedLinks = relationshipEntries.map((entry) => entry.data).filter((relation) => relation.a === recordId || relation.b === recordId);
-const nearbyIds = new Set([recordId, ...relatedLinks.map((relation) => relation.a === recordId ? relation.b : relation.a)]);
-const nearbyRecords = records.filter((item) => nearbyIds.has(item.id) && item.kind !== "Story");
-const miniNodes = nearbyRecords.map((item) => ({ id: item.id, label: item.name, kind: item.kind, url: item.url }));
-const miniEdges = relatedLinks.map((relation) => ({ id: relation.id, a: relation.a, b: relation.b, label: relation.label }));
+const relatedRecords = [...new Map(relatedLinks.map((relation) => recordById.get(relation.a === recordId ? relation.b : relation.a)).filter(Boolean).map((related) => [related.id, related] as const)).values()];
 
 const connectedPassages = passageEntries.map((entry) => entry.data).filter((passage) => (passage.recordIds || []).includes(recordId));
 const recordEvents = eventEntries.map((entry) => entry.data).filter((event) => (event.recordIds || []).includes(recordId) || (event.passageIds || []).some((passageId) => connectedPassages.some((passage) => passage.id === passageId)));
@@ -53,9 +50,9 @@ const eventHref = (event) => event.url || (() => {
       <div class="record-narrative">
         {(record.story || []).map((paragraph, index) => {
           const sources = record.biographyParagraphSources?.[index]?.length ? record.biographyParagraphSources[index] : (record.paragraphSources?.[index] || []);
-          return <div class="record-paragraph-group"><p class="record-paragraph">{paragraph}</p>{sources.length > 0 && <details class="passage-sources"><summary>Sources <span>{sources.length}</span></summary><SourceList sources={sources} heading="Sources for this paragraph" /></details>}</div>;
+          return <div class="record-paragraph-group"><p class="record-paragraph"><InlineEntityLinks text={paragraph} records={relatedRecords} idBase={`record-${recordId}-bio-${index}`} /></p>{sources.length > 0 && <details class="passage-sources"><summary>Sources <span>{sources.length}</span></summary><SourceList sources={sources} heading="Sources for this paragraph" /></details>}</div>;
         })}
-        {(record.contentSections || []).map((section) => <section class="record-related-section"><h2>{section.title}</h2>{(section.paragraphs || []).map((paragraph) => <p class="record-paragraph">{paragraph}</p>)}</section>)}
+        {(record.contentSections || []).map((section, sectionIndex) => <section class="record-related-section"><h2>{section.title}</h2>{(section.paragraphs || []).map((paragraph, paragraphIndex) => <p class="record-paragraph"><InlineEntityLinks text={paragraph} records={relatedRecords} idBase={`record-${recordId}-section-${sectionIndex}-${paragraphIndex}`} /></p>)}</section>)}
         {record.recollections?.length > 0 && <section class="record-related-section"><p class="eyebrow">Personal recollections</p>{record.recollections.map((recollection) => <blockquote>{recollection}</blockquote>)}</section>}
         {record.photoGallery && <details class="record-gallery-notes"><summary>{record.photoGallery.title} <span>{record.photoGallery.items?.length || 0} descriptions</span></summary><p>{record.photoGallery.intro}</p><ul>{(record.photoGallery.items || []).map((item) => <li><strong>{item.alt}</strong><p>{item.caption}</p>{item.people?.map((group) => <small>{group.label}: {group.ids.map((id) => recordById.get(id)?.name || id).join(", ")}</small>)}</li>)}</ul><p class="small muted">The source package included the published captions and credits, but not these image files.</p></details>}
         {record.contextLinks?.length > 0 && <section class="record-related-section"><p class="eyebrow">Related links</p><ul>{record.contextLinks.map((link) => <li><a href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ↗</a></li>)}</ul></section>}
@@ -73,7 +70,6 @@ const contextArticle = contextPassage && articlesById.get(contextPassage.article
         <SourceList sources={record.sources} heading="Sources and further reading" />
       </div>
       <aside class="record-facts" aria-label="Record details">
-        {miniNodes.length > 1 && <div class="context-card"><p class="eyebrow">Connected records</p><h2>Explore nearby connections</h2><MiniNetwork nodes={miniNodes} edges={miniEdges} centralId={recordId} fullUrl={`/network/?focus=${encodeURIComponent(recordId)}`} /></div>}
         <div class="context-card"><p class="eyebrow">Record at a glance</p><dl>
           <div><dt>Type</dt><dd>{record.kind}</dd></div>
           {record.coverageEnd && <div><dt>Coverage</dt><dd>Through {record.coverageEnd}</dd></div>}

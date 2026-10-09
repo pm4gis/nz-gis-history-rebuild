@@ -52,21 +52,30 @@ const walk = async (directory) => {
 const builtFiles = await walk(dist);
 if (builtFiles.some((file) => file.toLowerCase().endsWith(".pdf"))) throw new Error("Unexpected PDF output exists in the static site.");
 const home = await readFile(path.join(dist, "index.html"), "utf8");
-if (!home.includes("How GIS took shape in New Zealand") || !home.includes("Start reading") || !home.includes("Explore across time") || !home.includes("Suggest an update by email")) {
-  throw new Error("Home output is missing the reading entry point, timeline or update-by-email link.");
+if (!home.includes("A History of GIS in New Zealand") || !home.includes("Start reading") || !home.includes("Open chronology") || !home.includes("Suggest an update by email") || !home.includes('data-reader-workspace')) {
+  throw new Error("Home output is missing the continuous reading entry point, chronology link or update-by-email link.");
 }
-if (home.includes("Writing this book began as a way of using AI") || home.includes("Staging publication") || home.includes("No linked records in this story yet")) {
-  throw new Error("The home page still renders the preface or internal staging copy as its main content.");
+if (!home.includes("Contents") || !home.includes('class="book-section"') || home.includes("timeline-dock") || home.includes("MiniNetwork")) {
+  throw new Error("The home page does not render the long-form book without a shared timeline or embedded graph.");
 }
+if (home.includes("Staging publication")) throw new Error("The home page renders internal staging copy.");
+const homeIds = [...home.matchAll(/\\bid="([^"]+)"/g)].map((match) => match[1]);
+const duplicateHomeIds = homeIds.filter((id, index) => homeIds.indexOf(id) !== index);
+if (duplicateHomeIds.length) throw new Error("The combined book contains duplicate HTML IDs: " + [...new Set(duplicateHomeIds)].join(", "));
 const preface = await readFile(path.join(dist, "stories/preface/index.html"), "utf8");
-if (!preface.includes("Writing this book began as a way of using AI") || !preface.includes("use the Suggest an update by email link")) {
-  throw new Error("The separate preface page is missing or its update instructions are out of date.");
-}
+if (!preface.includes("Writing this book began as a way of using AI") || !preface.includes("use the Suggest an update by email link")) throw new Error("The separate preface page is missing or its update instructions are out of date.");
 const aam = records.find((record) => record.id === "entity:aam-aamhatch");
-if (!aam) throw new Error("The AAM / AAMHatch record is missing from the imported collection.");
+if (!aam) throw new Error("The AAM / AAMHatch record is missing.");
 const aamPage = await readFile(path.join(dist, aam.url.replace(/^\/+/, ""), "index.html"), "utf8");
-if (!aamPage.includes("AAM / AAMHatch") || !aamPage.includes("NorthSouth GIS NZ")) throw new Error("The AAM / NorthSouth GIS record content is missing from its public page.");
+if (!aamPage.includes("AAM / AAMHatch") || !aamPage.includes("NorthSouth GIS NZ")) throw new Error("The AAM / NorthSouth GIS record content is missing.");
 if (home.includes("Download PDF")) throw new Error("PDF functionality remains on the reader home.");
+for (const file of builtFiles.filter((path) => path.endsWith(".html"))) {
+  const html = await readFile(file, "utf8");
+  if (html.includes('class="timeline-dock"')) throw new Error("A shared timeline dock remains on " + path.relative(dist, file) + ".");
+  if (html.includes('class="mini-network"')) throw new Error("An embedded mini network diagram remains on " + path.relative(dist, file) + ".");
+}
+const chronology = await readFile(path.join(dist, "timeline/index.html"), "utf8");
+if (!chronology.includes("Chronological event cards") || !chronology.includes("Earlier events") || !chronology.includes("Later events")) throw new Error("Chronology is missing its accessible horizontal scroll region.");
 for (const relative of ["network/index.html", "timeline/index.html", "browse/index.html"]) {
   const html = await readFile(path.join(dist, relative), "utf8");
   if (/<select\b/i.test(html)) throw new Error("A dropdown selector remains on " + relative + ". Use visible selection buttons instead.");

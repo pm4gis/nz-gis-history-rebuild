@@ -1,0 +1,116 @@
+---
+import InlineEntityLinks from "./InlineEntityLinks.astro";
+
+interface Props {
+  articles: any[];
+  passages: any[];
+  records: any[];
+  relationships: any[];
+  events: any[];
+  images: any[];
+}
+
+const { articles, passages, records, relationships, events, images } = Astro.props as Props;
+const recordById = new Map<string, any>(records.map((record) => [record.id, record] as const));
+const imageById = new Map<string, any>(images.map((image) => [image.id, image] as const));
+const passagesByArticle = new Map<string, any[]>();
+for (const passage of passages) {
+  const group = passagesByArticle.get(passage.articleId) || [];
+  group.push(passage);
+  passagesByArticle.set(passage.articleId, group);
+}
+for (const group of passagesByArticle.values()) group.sort((a, b) => a.order - b.order);
+const eventsByPassage = new Map<string, any[]>();
+for (const event of events) {
+  for (const passageId of event.passageIds || []) {
+    const group = eventsByPassage.get(passageId) || [];
+    group.push(event);
+    eventsByPassage.set(passageId, group);
+  }
+}
+const passageBlocks = (passage) => passage.blocks?.length ? passage.blocks : (passage.paragraphs || []).map((paragraph) => ({ type: "paragraph", ...paragraph }));
+const sourceList = (passage) => [...new Map([
+  ...(passage.sources || []),
+  ...passageBlocks(passage).flatMap((block) => block.sources || []),
+].map((source) => [source.id || source.url || source.label, source])).values()];
+const passageRecords = (passage) => (passage.recordIds || []).map((id) => recordById.get(id)).filter((record) => record && record.kind !== "Story");
+---
+
+<section class="book-reader" data-reader-workspace data-article-id="whole-book" aria-label="The complete narrative">
+  <nav class="book-contents" aria-label="Contents">
+    <details>
+      <summary>Contents <span>{articles.length} sections</span></summary>
+      <ol>
+        {articles.map((article) => <li><a href={`#book-section-${article.slug}`}>{article.title}</a></li>)}
+      </ol>
+    </details>
+  </nav>
+
+  <div class="book-text">
+    {articles.map((article, articleIndex) => {
+      const storyPassages = passagesByArticle.get(article.id) || [];
+      const cover = article.headerImageId ? imageById.get(article.headerImageId) : undefined;
+      return <section class="book-section" id={`book-section-${article.slug}`} aria-labelledby={`book-title-${article.slug}`}>
+        <header class="book-section-heading">
+          <p class="eyebrow">{article.slug === "preface" ? "Introduction" : "A History of GIS in New Zealand"}</p>
+          <h2 id={`book-title-${article.slug}`}>{article.title}</h2>
+          <p>{article.summary}</p>
+          {cover && <figure class="book-cover">
+            <a href={`/images/${cover.slug}/`} aria-label={`Open image details for ${cover.title}`}><img src={cover.assetPath} alt={cover.altText} loading="lazy" /></a>
+            <figcaption>{cover.caption || cover.title} <a href={`/images/${cover.slug}/`}>Image details and source</a></figcaption>
+          </figure>}
+        </header>
+
+        {storyPassages.map((passage) => {
+          const datedEvents = eventsByPassage.get(passage.id) || [];
+          const linkedRecords = passageRecords(passage);
+          const sources = sourceList(passage);
+          const linkedRecordIds = new Set(linkedRecords.map((record) => record.id));
+          const linkedRelationships = relationships.filter((relationship) => linkedRecordIds.has(relationship.a) && linkedRecordIds.has(relationship.b));
+          return <section class="book-passage" id={`book-passage-${article.slug}--${passage.slug}`} data-passage-slug={passage.slug} data-passage-id={passage.id} data-theme-ids={(passage.themeIds || []).join(" ")} tabindex="-1" aria-labelledby={`passage-title-${article.slug}--${passage.slug}`}>
+            <header class="book-passage-heading">
+              {datedEvents.length > 0 && <ul class="book-dates" aria-label="Related dated events">
+                {datedEvents.map((event) => <li><a href={`/timeline/#event-${event.id}`}><time datetime={event.startDate}>{event.dateDisplay}</time><span>{event.label}</span></a></li>)}
+              </ul>}
+              <h3 id={`passage-title-${article.slug}--${passage.slug}`}>{passage.title}</h3>
+            </header>
+            <div class="book-passage-copy">
+              {passageBlocks(passage).map((block, blockIndex) => block.type === "figure" ? (() => {
+                const image = block.imageId ? imageById.get(block.imageId) : undefined;
+                return <figure class="book-figure">
+                  {image && <a href={`/images/${image.slug}/`} aria-label={`Open image details for ${image.title}`}><img src={image.assetPath} alt={block.alt || image.altText} loading="lazy" /></a>}
+                  <figcaption>{block.caption}{block.credit && <span> {block.credit}</span>}{image && <> <a href={`/images/${image.slug}/`}>Image details and source</a></>}</figcaption>
+                </figure>;
+              })() : <p><InlineEntityLinks text={block.text} records={linkedRecords} idBase={`book-${article.slug}-${passage.slug}-${blockIndex}`} /></p>)}
+            </div>
+            {(sources.length > 0 || linkedRecords.length > 0) && <footer class="book-passage-links">
+              {linkedRelationships.length > 0 && <ul class="relationship-list" aria-label="Documented connections between records in this passage">
+                {linkedRelationships.map((relationship) => {
+                  const left = recordById.get(relationship.a);
+                  const right = recordById.get(relationship.b);
+                  return <li><p><a href={left.url}>{left.name}</a> {relationship.label} <a href={right.url}>{right.name}</a></p>{relationship.basis && <small>{relationship.basis}</small>}</li>;
+                })}
+              </ul>}
+              {linkedRecords.length > 0 && <ul class="book-record-links" aria-label="People, organisations and other records discussed in this passage">
+                {linkedRecords.map((record) => <li><a href={record.url}>{record.name}</a><span>{record.kind}</span></li>)}
+              </ul>}
+              {sources.length > 0 && <details class="book-sources">
+                <summary>Sources <span>{sources.length}</span></summary>
+                <ol>{sources.map((source) => <li>{source.url ? <a href={source.url} target="_blank" rel="noopener noreferrer">{source.label}<span aria-hidden="true"> ↗</span></a> : <span>{source.label}</span>}</li>)}</ol>
+              </details>}
+            </footer>}
+          </section>;
+        })}
+        {article.sourceNotes?.length > 0 && <details class="book-source-notes">
+          <summary>Further sources and notes <span>{article.sourceNotes.length}</span></summary>
+          <ol>{article.sourceNotes.map((note) => <li id={`book-note-${article.slug}-${note.id}`}>{note.text}</li>)}</ol>
+        </details>}
+        <nav class="book-section-navigation" aria-label={`Continue through the book after ${article.title}`}>
+          {articleIndex > 0 && <a href={`#book-section-${articles[articleIndex - 1].slug}`}><span>Previous section</span><strong>← {articles[articleIndex - 1].title}</strong></a>}
+          <a class="book-section-contents" href="#book-top">Contents ↑</a>
+          {articleIndex + 1 < articles.length && <a class="book-section-next" href={`#book-section-${articles[articleIndex + 1].slug}`}><span>Next section</span><strong>{articles[articleIndex + 1].title} →</strong></a>}
+        </nav>
+      </section>;
+    })}
+  </div>
+</section>

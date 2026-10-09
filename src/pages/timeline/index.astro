@@ -9,7 +9,13 @@ const eventYear = (event) => {
   const parsed = /^(\d{4})/.exec(String(event.startDate || ""));
   return parsed ? Number(parsed[1]) : Number.NaN;
 };
-const events = eventEntries.map((entry) => entry.data).sort((a, b) => eventYear(a) - eventYear(b));
+const events = eventEntries.map((entry) => entry.data).sort((a, b) => {
+  const aYear = eventYear(a);
+  const bYear = eventYear(b);
+  if (Number.isFinite(aYear) && Number.isFinite(bYear) && aYear !== bYear) return aYear - bYear;
+  if (Number.isFinite(aYear) !== Number.isFinite(bYear)) return Number.isFinite(aYear) ? -1 : 1;
+  return String(a.startDate || "").localeCompare(String(b.startDate || "")) || a.label.localeCompare(b.label);
+});
 const records = recordEntries.map((entry) => entry.data);
 const recordById = new Map<string, any>(records.map((record) => [record.id, record] as const));
 const passageById = new Map<string, any>(passageEntries.map((entry) => [entry.data.id, entry.data] as const));
@@ -19,20 +25,21 @@ const eventThemeIds = (event: any): string[] => [...new Set<string>([...(event.t
 const years = events.map(eventYear).filter(Number.isFinite);
 const minYear = years.length ? Math.min(...years) : 0;
 const maxYear = years.length ? Math.max(...years) : 0;
+const decades = [...new Set(years.map((year) => Math.floor(year / 10) * 10))].sort((a, b) => a - b);
 const precisionLabels = { day: "day recorded", month: "month recorded", year: "year recorded", approximate: "approximate date", range: "date range", "year-range": "year range", "day-range": "day range", decade: "decade recorded", unknown: "date unknown" };
 const precisionValues = [...new Set(events.map((event) => event.datePrecision))].sort();
 const eventHref = (event) => {
   if (event.url) return event.url;
   const passage = (event.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
   const article = passage && articleById.get(passage.articleId);
-  return passage && article ? `${article.url}#${passage.slug}` : "/timeline/";
+  return passage && article ? `/#${passage.slug}` : "/timeline/";
 };
 ---
-<SiteLayout title="Timeline — A History of GIS in New Zealand" description="Explore dated records and events across the evolving GIS history collection.">
+<SiteLayout title="Chronology — A History of GIS in New Zealand" description="Explore dated records and events across the evolving GIS history collection.">
   <section class="page-wrap timeline-page">
-    <p class="eyebrow">Parallel timelines</p>
+    <p class="eyebrow">A chronological index</p>
     <h1 class="page-title">GIS history, across time</h1>
-    <p class="page-intro">Follow events across people, organisations, projects and technologies. The date label keeps the precision recorded in its source.</p>
+    <p class="page-intro">Read events from left to right on a larger screen or as a vertical list on a phone. Open an event’s related passage, people, organisations and sources.</p>
     <div class="timeline-filter-panel" aria-label="Timeline filters">
       <div class="timeline-record-filter">
         <label class="browse-search-label" for="timeline-record-search">Related people and organisations</label>
@@ -54,7 +61,16 @@ const eventHref = (event) => {
         </div>
       </div>
     </div>
-    <ol class="timeline-list" id="timeline-list">
+    <nav class="timeline-decade-nav" aria-label="Jump to a decade">
+      <span>Jump to</span>
+      {decades.map((decade) => <button type="button" class="choice-chip" data-decade-jump={decade}>{decade}s</button>)}
+    </nav>
+    <div class="timeline-scroll-tools" aria-label="Chronology scroll controls">
+      <button type="button" class="button-secondary" id="timeline-earlier" aria-controls="timeline-list">← Earlier events</button>
+      <button type="button" class="button-secondary" id="timeline-later" aria-controls="timeline-list">Later events →</button>
+    </div>
+    <div class="timeline-track-region" role="region" aria-label="Chronological event cards. Scroll left and right on a larger screen." tabindex="0">
+    <ol class="timeline-list" id="timeline-list" aria-label="Events in chronological order">
       {events.map((event) => {
         const linked = relatedRecordIds(event);
         const publicLinked = linked.filter((id) => recordById.has(id) && recordById.get(id).kind !== "Story");
@@ -70,6 +86,7 @@ const eventHref = (event) => {
         </li>;
       })}
     </ol>
+    </div>
     {events.length === 0 && <p class="small muted">No timeline events have been published yet.</p>}
     <p class="small muted" id="timeline-empty" hidden>No events match these filters.</p>
     <p class="timeline-precision-note">Dates are shown as published. “2014” means the source gives a year, not a specific day.</p>
@@ -152,6 +169,15 @@ const eventHref = (event) => {
       selectedRecordIds.clear(); selectedPrecisions.clear(); recordSearch.value = ""; fromInput.value = fromInput.min; toInput.value = toInput.max;
       syncPrecisionButtons(); renderRecords(); renderSelectedRecords(); update();
     });
+    const timelineTrack = document.querySelector(".timeline-track-region");
+    const scrollTimeline = (direction) => timelineTrack.scrollBy({ left: direction * Math.max(300, timelineTrack.clientWidth * 0.82), behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    document.getElementById("timeline-earlier").addEventListener("click", () => scrollTimeline(-1));
+    document.getElementById("timeline-later").addEventListener("click", () => scrollTimeline(1));
+    document.querySelectorAll("[data-decade-jump]").forEach((button) => button.addEventListener("click", () => {
+      const decade = Number(button.dataset.decadeJump);
+      const target = items.find((item) => !item.hidden && Number(item.dataset.year) >= decade);
+      target?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest", inline: "start" });
+    }));
     syncPrecisionButtons(); renderRecords(); update();
   </script>
 </SiteLayout>

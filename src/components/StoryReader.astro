@@ -1,5 +1,6 @@
 ---
-import MiniNetwork from "./MiniNetwork.astro";
+import InlineEntityLinks from "./InlineEntityLinks.astro";
+
 interface Props {
   article: any;
   passages?: any[];
@@ -21,25 +22,10 @@ const relevantRelationships = relationships.filter((item) => recordIds.includes(
 const themeById = new Map<string, any>(themes.map((theme) => [theme.id, theme] as const));
 const articleThemeIds = [...new Set([...(article.themeIds || []), ...passages.flatMap((passage) => passage.themeIds || [])])];
 const imageById = new Map<string, any>(images.map((image) => [image.id, image] as const));
-const miniRecords = linkedRecords.filter((record) => record.kind !== "Story");
-const miniIds = new Set(miniRecords.map((record) => record.id));
-const miniNodes = [
-  { id: article.id, label: article.title, kind: "Story", url: article.url },
-  ...miniRecords.map((record) => ({ id: record.id, label: record.name, kind: record.kind, url: record.url })),
-];
-const miniEdges = [
-  ...miniRecords.map((record) => ({ id: `story:${record.id}`, a: article.id, b: record.id, label: "in story" })),
-  ...relevantRelationships.filter((relation) => miniIds.has(relation.a) && miniIds.has(relation.b))
-    .map((relation) => ({ id: relation.id, a: relation.a, b: relation.b, label: relation.label })),
-];
 const formatDate = (value) => new Date(value + "T00:00:00Z").toLocaleDateString("en-NZ", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const passageBlocks = (passage) => passage.blocks?.length ? passage.blocks : (passage.paragraphs || []).map((paragraph) => ({ type: "paragraph", ...paragraph }));
+const recordsForPassage = (passage) => (passage.recordIds || []).map((id) => recordById.get(id)).filter((record) => record && record.kind !== "Story");
 const passageSources = (passage) => passageBlocks(passage).flatMap((block) => block.type === "paragraph" ? block.sources || [] : []);
-const eventHref = (event) => {
-  if (event.url) return event.url;
-  const passage = (event.passageIds || []).map((id) => passages.find((item) => item.id === id)).find(Boolean);
-  return passage ? `${article.url}#${passage.slug}` : "/timeline/";
-};
 ---
 
 <section class="reader-workspace" data-reader-workspace data-article-id={article.id}>
@@ -53,7 +39,6 @@ const eventHref = (event) => {
     <div class="story-heading-meta">
       <span>{passages.length} passages</span>
       <span>{linkedRecords.length} linked records</span>
-      <span>{linkedEvents.length} timeline moments</span>
     </div>
     {article.headerImageId && imageById.get(article.headerImageId) && (() => {
       const image = imageById.get(article.headerImageId);
@@ -79,14 +64,14 @@ const eventHref = (event) => {
             </div>
           </div>
           <div class="passage-copy">
-            {passageBlocks(passage).map((block) => block.type === "figure" ? (() => {
+            {passageBlocks(passage).map((block, blockIndex) => block.type === "figure" ? (() => {
               const image = block.imageId ? imageById.get(block.imageId) : null;
               return <figure class="reading-figure">
                 {image && <a href={`/images/${image.slug}/`} aria-label={`Open image details for ${image.title}`}><img src={image.assetPath} alt={block.alt || image.altText} loading="lazy" /></a>}
                 <figcaption>{block.caption}{block.credit && <span class="figure-credit"> {block.credit}</span>}{image && <> <a href={`/images/${image.slug}/`}>Image details and source ↗</a></>}</figcaption>
               </figure>;
             })() : (
-              <p>{block.text}</p>
+              <p><InlineEntityLinks text={block.text} records={recordsForPassage(passage)} idBase={`story-${passage.slug}-${blockIndex}`} /></p>
             ))}
           </div>
           <div class="passage-foot">
@@ -111,7 +96,7 @@ const eventHref = (event) => {
         {article.sourceNotes?.length > 0 && <details class="source-notes-panel"><summary>Sources and notes <span>{article.sourceNotes.length}</span></summary><ol>{article.sourceNotes.map((note) => <li id={note.id}>{note.text}</li>)}</ol></details>}
         <nav class="story-transport" aria-label="Move through the narrative">
           {previousArticle ? <a class="story-transport-link" href={previousArticle.url}><small>Previous story</small><strong>← {previousArticle.title}</strong></a> : <span></span>}
-          {nextArticle ? <a class="story-transport-link story-transport-next" href={nextArticle.url}><small>Continue reading</small><strong>{nextArticle.title} →</strong></a> : <span class="reader-endnote">You’ve reached the current end of the narrative. Follow a linked record, choose a theme, or move through time below.</span>}
+          {nextArticle ? <a class="story-transport-link story-transport-next" href={nextArticle.url}><small>Continue reading</small><strong>{nextArticle.title} →</strong></a> : <span class="reader-endnote">You’ve reached the current end of the narrative. Follow a linked record, choose a theme, or browse the chronology.</span>}
         </nav>
       </>}
     </article>
@@ -122,22 +107,26 @@ const eventHref = (event) => {
           <div><p class="eyebrow">Around this story</p><h2>Connected records</h2></div>
           <a class="icon-link" href="/network/" aria-label="Open the full network">↗</a>
         </div>
-        {linkedRecords.length > 0 ? (
-          <MiniNetwork nodes={miniNodes} edges={miniEdges} centralId={article.id} fullUrl={`/network/?focus=${encodeURIComponent(article.id)}`} />
-        ) : <p class="muted">No linked records in this story yet.</p>}
-        <ul class="relationship-legend">
-          {relevantRelationships.slice(0, 8).map((relation) => {
+        {relevantRelationships.length > 0 && <ul class="relationship-list">
+          {relevantRelationships.map((relation) => {
             const a = recordById.get(relation.a);
             const b = recordById.get(relation.b);
-            return <li><span class="relationship-line" aria-hidden="true"></span><span><a href={a?.url}>{a?.name}</a> <strong>{relation.label}</strong> <a href={b?.url}>{b?.name}</a></span></li>;
+            return <li>
+              <p><a href={a?.url}>{a?.name}</a> <strong>{relation.label}</strong> <a href={b?.url}>{b?.name}</a></p>
+              {relation.basis && <small>{relation.basis}</small>}
+            </li>;
           })}
+        </ul>}
+        <ul class="connected-record-list" aria-label="Records discussed in this story">
+          {linkedRecords.map((record) => <li><a href={record.url}>{record.name}</a><span>{record.kind}</span></li>)}
         </ul>
+        <a class="text-link" href="/network/">Explore the full network <span aria-hidden="true">→</span></a>
       </div>
 
       <div class="context-card theme-card">
         <p class="eyebrow">Choose a lens</p>
         <h2>Read by theme</h2>
-        <p>Select a theme above to filter the passages and timeline, or open its page to see every related record.</p>
+        <p>Select a theme above to focus the passages, or open its page to see related records.</p>
         <div class="theme-tags">
           {articleThemeIds.map((id) => themeById.get(id)).filter(Boolean).map((theme) => (
             <a class="theme-tag" href={`/themes/${theme.slug}/`} style={`--theme-color:${theme.color || "#55b9a7"}`}>{theme.title}<span aria-hidden="true"> ↗</span></a>
@@ -145,17 +134,6 @@ const eventHref = (event) => {
         </div>
       </div>
 
-      {linkedEvents.length > 0 && <div class="context-card next-moment-card">
-        <p class="eyebrow">In time</p>
-        <h2>Timeline moments</h2>
-        <ol>
-          {linkedEvents.map((event) => <li data-theme-ids={(event.themeIds || []).join(" ")}>
-            <span class="moment-year">{event.dateDisplay}</span>
-            <a href={eventHref(event)}>{event.label}</a>
-            <small>{event.datePrecision === "year" ? "year recorded" : event.datePrecision.replace("-", " ") + " precision"}</small>
-          </li>)}
-        </ol>
-      </div>}
     </aside>
   </div>
 </section>
