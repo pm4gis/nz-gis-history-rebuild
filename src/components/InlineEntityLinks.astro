@@ -1,0 +1,47 @@
+---
+interface Props {
+  text: string;
+  records: any[];
+  idBase: string;
+}
+
+const { text = "", records = [], idBase = "text" } = Astro.props as Props;
+const escapeRegex = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const candidates = [...new Map(
+  records
+    .filter((record) => record?.name && record?.url && String(record.name).trim().length >= 3)
+    .sort((a, b) => String(b.name).length - String(a.name).length)
+    .map((record) => [String(record.name).toLocaleLowerCase(), record] as const),
+).values()];
+const pattern = candidates.length
+  ? new RegExp(`(?<![\\p{L}\\p{N}_])(${candidates.map((record) => escapeRegex(String(record.name).trim())).join("|")})(?![\\p{L}\\p{N}_])`, "giu")
+  : null;
+const byName = new Map(candidates.map((record) => [String(record.name).toLocaleLowerCase(), record]));
+const safeBase = String(idBase).replace(/[^a-zA-Z0-9_-]/g, "-");
+const segments: Array<{ text: string; record?: any; previewId?: string }> = [];
+let lastIndex = 0;
+let matchIndex = 0;
+if (pattern) {
+  for (const match of String(text).matchAll(pattern)) {
+    const start = match.index ?? 0;
+    const name = match[0];
+    if (start > lastIndex) segments.push({ text: String(text).slice(lastIndex, start) });
+    const record = byName.get(name.toLocaleLowerCase());
+    segments.push({ text: name, record, previewId: `entity-preview-${safeBase}-${matchIndex++}` });
+    lastIndex = start + name.length;
+  }
+}
+if (lastIndex < String(text).length) segments.push({ text: String(text).slice(lastIndex) });
+if (segments.length === 0) segments.push({ text: String(text) });
+---
+
+{segments.map((segment) => segment.record
+  ? <span class="entity-reference">
+      <a class="entity-reference-link" href={segment.record.url} aria-describedby={segment.previewId}>{segment.text}</a>
+      <span class="entity-preview" id={segment.previewId} role="group" aria-label={`About ${segment.record.name}`}>
+        <strong>{segment.record.name}</strong>
+        {((segment.record.description || segment.record.story?.[0] || segment.record.summary || "").trim()) && <span class="entity-preview-description">{(segment.record.description || segment.record.story?.[0] || segment.record.summary).trim().slice(0, 220)}</span>}
+        <a class="entity-preview-open" href={segment.record.url}>Open {segment.record.kind?.toLowerCase() || "record"} <span aria-hidden="true">↗</span></a>
+      </span>
+    </span>
+  : segment.text)}
