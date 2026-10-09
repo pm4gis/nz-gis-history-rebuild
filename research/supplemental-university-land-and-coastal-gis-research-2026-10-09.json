@@ -210,16 +210,15 @@
     },
     {
       "id": "thom-land-loss-wellbeing",
-      "title": "Land Loss, Historic Trauma and the Intergenerational Transmission of Wellbeing: The Experience of Iwi ...",
-      "authorOrganisation": "Rowan Thom; University of Auckland",
-      "publishedAt": "2020 (repository metadata may show 2021)",
-      "type": "thesis",
-      "url": "https://researchspace.auckland.ac.nz/",
-      "relevantEvidence": "Uses temporally informed Māori land/geospatial data and connects land loss history with wellbeing measures. Verify the complete title and award metadata before importing.",
+      "title": "Land Loss, Historic Trauma and the Intergenerational Transmission of Wellbeing: The Experience of Iwi in Aotearoa New Zealand",
+      "authorOrganisation": "Rowan Thom; Te Herenga Waka—Victoria University of Wellington",
+      "publishedAt": "2021",
+      "type": "Master's thesis",
+      "url": "https://openaccess.wgtn.ac.nz/articles/thesis/Land_Loss_Historic_Trauma_and_the_Intergenerational_Transmission_of_Wellbeing_The_Experience_of_Iwi_in_Aotearoa_New_Zealand/14420591",
+      "relevantEvidence": "Uses geospatial data of Māori land holdings at different points in time, linked to contemporary iwi outcomes using Census 2013 and Te Kupenga data; the repository lists a CC BY-NC-SA 4.0 licence.",
       "accessDate": "2026-10-09",
-      "rightsAndReuse": "Repository record; link and cite. Confirm title/date discrepancies from deposited record.",
-      "citationRef": "turn48search0",
-      "confidence": "medium"
+      "rightsAndReuse": "Repository lists CC BY-NC-SA 4.0; attribution, noncommercial use and share-alike terms apply. Confirm thesis metadata and licence before reuse.",
+      "citationRef": "turn70search1"
     },
     {
       "id": "pacey-benefits-barriers-maori",
@@ -263,12 +262,11 @@
       "authorOrganisation": "Hauiti Hakopa; University of Otago",
       "publishedAt": "2011",
       "type": "PhD thesis",
-      "url": "https://ourarchive.otago.ac.nz/",
-      "relevantEvidence": "Research on spatial information technologies, narrative and Māori knowledge; use a stable repository record rather than temporary signed file links.",
+      "url": "https://hdl.handle.net/10523/1801",
+      "relevantEvidence": "University of Otago PhD thesis (2011) on spatial information technologies and narrative geography. The stable handle is cited in peer-reviewed publication references; direct record metadata should be checked before import.",
       "accessDate": "2026-10-09",
-      "rightsAndReuse": "Repository item; verify stable handle and specific reuse rights before import.",
-      "citationRef": "turn58search9",
-      "confidence": "medium"
+      "rightsAndReuse": "Thesis; link and cite. Verify item-level rights before reuse.",
+      "citationRef": "turn71search6"
     },
     {
       "id": "ngamata pono-co-creation",
@@ -514,6 +512,18 @@
       "accessDate": "2026-10-09",
       "rightsAndReuse": "Repository item; link and cite. Confirm item-specific licence before reusing figures or text.",
       "citationRef": "turn68search2"
+    },
+    {
+      "id": "thom-land-loss-peer-reviewed",
+      "title": "Land loss and the intergenerational transmission of wellbeing: The experience of iwi in Aotearoa New Zealand",
+      "authorOrganisation": "Rowan Ropata Macgregor Thom and Arthur Grimes; Social Science & Medicine",
+      "publishedAt": "2022",
+      "type": "peer-reviewed open-access journal article",
+      "url": "https://doi.org/10.1016/j.socscimed.2022.114804",
+      "relevantEvidence": "Journal article based on geospatial historical landholding data for 70 North Island iwi and contemporary cultural wellbeing and health outcomes; distinguish this 2022 article from Thom's 2021 thesis and verify the article's specific licence before text reuse.",
+      "accessDate": "2026-10-09",
+      "rightsAndReuse": "Publisher marks article open access under a Creative Commons licence; check licence version and reuse conditions at the article record before copying text, figures or data.",
+      "citationRef": "turn70search0"
     }
   ],
   "proposedResearchRecords": [
@@ -595,7 +605,8 @@
         "he-whare-hangarau",
         "hakopa-paepae",
         "ngamata pono-co-creation",
-        "pereka-kawa-geospatial"
+        "pereka-kawa-geospatial",
+        "thom-land-loss-peer-reviewed"
       ],
       "summary": "A bibliographic collection spanning Māori GIS capability, iwi/hapū practice, cultural mapping, spatial narratives, kawa-led geospatial work and bicultural spatial governance.",
       "publicationStatus": "proposal only"
