@@ -4,6 +4,7 @@
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   Cross-Origin-Resource-Policy: same-site
+  Strict-Transport-Security: max-age=15552000
 
 /admin/*
   X-Robots-Tag: noindex, nofollow
