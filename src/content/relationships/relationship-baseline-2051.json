@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2051",
+  "a": "person:jeremy-gulson",
+  "b": "chapter:42",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

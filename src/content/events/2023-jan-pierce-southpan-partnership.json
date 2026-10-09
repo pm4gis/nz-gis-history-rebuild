@@ -1,0 +1,25 @@
+{
+  "id": "2023-jan-pierce-southpan-partnership",
+  "dateDisplay": "2023-03",
+  "startDate": "2023-03",
+  "datePrecision": "month",
+  "year": 2023,
+  "label": "SouthPAN trans-Tasman partnership reaches a milestone",
+  "summary": "LINZ Kaihautū Jan Pierce joined the public milestone for the SouthPAN partnership, a satellite-based positioning service developed with Australia.",
+  "url": "/stories/rebuilding-the-coordinate-framework/#datum-and-projection-efe15c6958",
+  "passageIds": [
+    "passage:chapter-19-efe15c6958"
+  ],
+  "recordIds": [
+    "person:jan-pierce",
+    "entity:land-information-new-zealand-linz",
+    "chapter:19"
+  ],
+  "themeIds": [],
+  "categories": [
+    "southpan",
+    "positioning",
+    "linz"
+  ],
+  "sources": []
+}

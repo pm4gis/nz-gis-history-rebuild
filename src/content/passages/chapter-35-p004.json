@@ -1,0 +1,73 @@
+{
+  "id": "passage:chapter-35-fabb1c89cf",
+  "slug": "s-map-and-our-environment-fabb1c89cf",
+  "articleId": "article:chapter-35",
+  "title": "S-map and Our Environment",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35",
+    "entity:vector",
+    "person:david-medyckyj-scott"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Landcare Research followed the LRIS Portal with services that let people use environmental information directly in a browser. S-map Online launched on 29 August 2011, and Our Environment followed in December. David Medyckyj-Scott, then Informatics Team Manager, described the need to serve people who wanted useful maps and information without downloading data into GIS software. These applications extended online access beyond the professional data users served by LRIS.",
+      "markdown": "Landcare Research followed the LRIS Portal with services that let people use environmental information directly in a browser. S-map Online launched on 29 August 2011, and Our Environment followed in December. David Medyckyj-Scott, then Informatics Team Manager, described the need to serve people who wanted useful maps and information without downloading data into GIS software. These applications extended online access beyond the professional data users served by LRIS.",
+      "sources": [
+        {
+          "label": "Landcare Research press release, National soils data now available online, 29 August 2011",
+          "url": "https://www.scoop.co.nz/stories/SC1108/S00076/national-soils-data-now-available-online.htm"
+        },
+        {
+          "label": "New Zealand Cartographic Society, Cartographic Activities in New Zealand 2011–2015, printed pp.11–12: August and December 2011 releases and LINZ-derived basemaps",
+          "url": "https://icaci.org/files/documents/national_reports/2011-2015/new_zealand.pdf"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "S-map Online allowed users to search for a location, inspect mapped soil properties and obtain soil factsheets. A farmer or adviser could examine drainage or available-water information for mapped soils without operating the specialist systems used to compile it. The service made a developing national soil-information resource queryable online. Its launch did not mean the underlying soil survey was complete: information was available where S-map mapping existed, and further coverage depended on continued survey work and funding.",
+      "markdown": "S-map Online allowed users to search for a location, inspect mapped soil properties and obtain soil factsheets. A farmer or adviser could examine drainage or available-water information for mapped soils without operating the specialist systems used to compile it. The service made a developing national soil-information resource queryable online. Its launch did not mean the underlying soil survey was complete: information was available where S-map mapping existed, and further coverage depended on continued survey work and funding.",
+      "sources": [
+        {
+          "label": "Landcare Research, Soil Horizons 20, September 2011, printed pp.4–5: LRIS Portal and S-map Online",
+          "url": "https://www.landcareresearch.co.nz/assets/Publications/Soil-Horizons/Soil_Horizons_20.pdf"
+        },
+        {
+          "label": "Landcare Research press release, National soils data now available online, 29 August 2011",
+          "url": "https://www.scoop.co.nz/stories/SC1108/S00076/national-soils-data-now-available-online.htm"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Our Environment presented a wider land atlas, covering subjects such as land-use capability, vegetation, erosion and ecosystems. Users could query maps, read explanations and produce reports or printable maps. Links to LRIS allowed GIS users to obtain the underlying datasets. The Informatics team designed the application for people without specialist GIS knowledge, including planners, policy staff, farmers, researchers and the public. Explanatory information helped users interpret the scientific classifications behind the colours on the map.",
+      "markdown": "Our Environment presented a wider land atlas, covering subjects such as land-use capability, vegetation, erosion and ecosystems. Users could query maps, read explanations and produce reports or printable maps. Links to LRIS allowed GIS users to obtain the underlying datasets. The Informatics team designed the application for people without specialist GIS knowledge, including planners, policy staff, farmers, researchers and the public. Explanatory information helped users interpret the scientific classifications behind the colours on the map.",
+      "sources": [
+        {
+          "label": "Our Environment, About this site: version 1 launched in 2011 and Informatics team",
+          "url": "https://ourenvironment.scinfo.org.nz/help/about"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The two services also required national basemaps suited to their science data. Landcare Research built scale-dependent web maps from LINZ’s 1:50,000 topographic vector data, with additional information from other custodians. This meant rendering the vector features as web maps; it does not imply that the applications used the later vector-tile delivery format. Medyckyj-Scott recalls LINZ identifying these as possibly the first national web basemaps derived from its 1:50,000 vector data. The published technical account confirms the local basemap development, while the priority claim remains his recollection.",
+      "markdown": "The two services also required national basemaps suited to their science data. Landcare Research built scale-dependent web maps from LINZ’s 1:50,000 topographic vector data, with additional information from other custodians. This meant rendering the vector features as web maps; it does not imply that the applications used the later vector-tile delivery format. Medyckyj-Scott recalls LINZ identifying these as possibly the first national web basemaps derived from its 1:50,000 vector data. The published technical account confirms the local basemap development, while the priority claim remains his recollection.",
+      "sources": [
+        {
+          "label": "New Zealand Cartographic Society, Cartographic Activities in New Zealand 2011–2015, printed pp.11–12: August and December 2011 releases and LINZ-derived basemaps",
+          "url": "https://icaci.org/files/documents/national_reports/2011-2015/new_zealand.pdf"
+        },
+        {
+          "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+          "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

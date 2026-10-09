@@ -1,0 +1,53 @@
+{
+  "id": "person:geoff-park",
+  "slug": "geoff-park",
+  "name": "Geoff Park",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/geoff-park/",
+  "story": [
+    "Geoff Park was an ecologist, research scientist and writer whose work examined the history of New Zealand's landscapes, especially coastal plains. He began his ecological history Ngā Uruora during a Stout Research Centre fellowship in 1986 and published it in 1995. Theatre Country followed in 2006. His writing and conservation work provide a wider intellectual background to his Biological Resources Centre work. He died in 2009.",
+    "Mary McEwen’s contemporary account identifies Geoff Park as Biological Resources Centre manager during its early exploration of GIS and BRIS. Park convened the technical group that developed Protected Natural Areas survey methods, intended to supply both conservation priorities and information for the proposed national biological-resources system.",
+    "Geoff Park, then manager of the Biological Resources Centre, worked with Mary McEwen on the possibilities of GIS for biological information. Her 1989 report recalls their interest when ecological boundaries were being digitised in late 1985. Park also convened the technical advisory group that developed the Protected Natural Areas Programme’s survey method. Field assessment would supply information for the proposed Biological Resources Information System."
+  ],
+  "sources": [
+    {
+      "label": "Mary McEwen, Geographical Information Systems and the Department of Conservation, July 1990, pp. 2–5",
+      "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/srir80.pdf"
+    },
+    {
+      "label": "Geoff Park - Writer's Files • Read NZ Te Pou Muramura · career/profile reference",
+      "url": "https://www.read-nz.org/writers-files/writer/park-geoff"
+    },
+    {
+      "label": "Chapter 9 · Ecological databases",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Geoff Park"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Geoff Park - Writer's Files • Read NZ Te Pou Muramura · career/profile reference",
+        "url": "https://www.read-nz.org/writers-files/writer/park-geoff"
+      }
+    ],
+    [
+      {
+        "label": "Mary McEwen, Geographical Information Systems and the Department of Conservation, July 1990, pp. 2–5",
+        "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/srir80.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · Ecological databases",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

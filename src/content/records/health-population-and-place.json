@@ -1,0 +1,14 @@
+{
+  "id": "chapter:27",
+  "articleId": "article:chapter-27",
+  "slug": "health-population-and-place",
+  "name": "Health population and place",
+  "kind": "Story",
+  "category": "GIS in practice",
+  "url": "/stories/health-population-and-place/",
+  "description": "A disease case can be put on a map as soon as it has a usable location, yet a case count alone is only a partial measure of disease. Ten cases in a suburb of 2,000 people mean something different from ten cases in a city of 100,000, so public-health mapping has to combine events with the population from which they arose. In New Zealand that brought notified-disease records into contact with addresses, Census geograph",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": []
+}

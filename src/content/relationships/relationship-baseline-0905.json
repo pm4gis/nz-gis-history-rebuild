@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0905",
+  "a": "person:graeme-blick",
+  "b": "entity:department-of-survey-and-land-information-dosli",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

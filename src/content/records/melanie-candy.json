@@ -1,0 +1,42 @@
+{
+  "id": "person:melanie-candy",
+  "slug": "melanie-candy",
+  "name": "Melanie Candy",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/melanie-candy/",
+  "story": [
+    "Taranaki Regional Council’s Transforming Taranaki publication identifies Melanie Candy as a GIS officer updating a riparian plan. The account places her work in the council’s programme of mapping and planning streamside protection on farms. It documents a specific operational use of GIS without establishing a wider career chronology.",
+    "The council's November 2011 programme booklet shows Melanie Candy updating a riparian plan, with aerial mapping on screen and paper."
+  ],
+  "sources": [
+    {
+      "label": "Taranaki Regional Council, Transforming Taranaki: GIS and riparian planning",
+      "url": "https://www.trc.govt.nz/assets/Documents/Research-reviews/Land/transforming-taranaki.pdf"
+    },
+    {
+      "label": "Chapter 26 · A plan for each farm",
+      "url": "/stories/conservation-and-environment/"
+    }
+  ],
+  "aliases": [
+    "Melanie Candy"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Taranaki Regional Council, Transforming Taranaki: GIS and riparian planning",
+        "url": "https://www.trc.govt.nz/assets/Documents/Research-reviews/Land/transforming-taranaki.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 26 · A plan for each farm",
+        "url": "/stories/conservation-and-environment/"
+      }
+    ]
+  ]
+}

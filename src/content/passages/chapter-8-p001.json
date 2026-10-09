@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-8-1b6d74c5d5",
+  "slug": "mapping-forest-change-1b6d74c5d5",
+  "articleId": "article:chapter-8",
+  "title": "Mapping forest change",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:8",
+    "entity:ministry-of-works-and-development",
+    "entity:new-zealand-forest-service",
+    "entity:scion-forest-research"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Plantation forests require repeated mapping. Stands are planted, thinned and harvested. Roads are built and extended, stream crossings change, firebreaks are maintained, and compartments that once held trees of one age may contain something quite different after the next rotation. Forest maps had to keep pace with those changes.",
+      "markdown": "Plantation forests require repeated mapping. Stands are planted, thinned and harvested. Roads are built and extended, stream crossings change, firebreaks are maintained, and compartments that once held trees of one age may contain something quite different after the next rotation. Forest maps had to keep pace with those changes.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Foresters had managed this problem long before GIS. Forest maps divided estates into compartments and stands, aerial photographs helped identify boundaries and condition, and field inventory supplied measurements of stocking, diameter, height, species and volume. Separate records carried planting year, silvicultural treatment and expected yield. A manager could combine those sources manually, but every change created more work keeping the map, inventory and planning records aligned.",
+      "markdown": "Foresters had managed this problem long before GIS. Forest maps divided estates into compartments and stands, aerial photographs helped identify boundaries and condition, and field inventory supplied measurements of stocking, diameter, height, species and volume. Separate records carried planting year, silvicultural treatment and expected yield. A manager could combine those sources manually, but every change created more work keeping the map, inventory and planning records aligned.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Computers entered forestry through modelling and inventory before the GIS label became common. A Ministry of Works and Development and New Zealand Forest Service forestry model was documented in 1979–80 as a tool for forecasting future developments in forest industries. The Forest Research Institute also developed a substantial modelling culture around growth, yield and management. These systems dealt with forests numerically, but a model of future timber supply was not the same thing as a geographic information system.",
+      "markdown": "Computers entered forestry through modelling and inventory before the GIS label became common. A Ministry of Works and Development and New Zealand Forest Service forestry model was documented in 1979–80 as a tool for forecasting future developments in forest industries. The Forest Research Institute also developed a substantial modelling culture around growth, yield and management. These systems dealt with forests numerically, but a model of future timber supply was not the same thing as a geographic information system.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

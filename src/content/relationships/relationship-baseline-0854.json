@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0854",
+  "a": "person:m-dovey",
+  "b": "chapter:1",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-1-a364eef899"
+  ],
+  "sources": []
+}

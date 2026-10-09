@@ -1,0 +1,25 @@
+{
+  "id": "entity:ope",
+  "slug": "ope",
+  "name": "Ope",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/ope/",
+  "website": null,
+  "story": [
+    "Trevor Hart founded Ope. Its own practice history describes specialist ArcGIS Enterprise work from 2017, including platform design, upgrades, health checks and Qonda tools for government, utility and infrastructure customers."
+  ],
+  "sources": [
+    {
+      "label": "Ope Ltd, company website",
+      "url": "https://www.ope.nz/"
+    }
+  ],
+  "aliases": [
+    "Ope"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

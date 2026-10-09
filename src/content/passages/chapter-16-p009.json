@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-16-54247bd790",
+  "slug": "linking-census-records-54247bd790",
+  "articleId": "article:chapter-16",
+  "title": "Linking census records",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Once census statistics and digital polygons shared identifiers, the meshblock became much more useful outside census production. Counts of people, households and dwellings could be joined to polygons and mapped. Rates could be calculated using population denominators. Small areas could be aggregated into service catchments or compared with roads, environmental hazards, facilities and administrative areas. A GIS analyst could start with the same official population geography used by Statistics New Zealand rather than creating an independent set of neighbourhood boundaries for every project.",
+      "markdown": "Once census statistics and digital polygons shared identifiers, the meshblock became much more useful outside census production. Counts of people, households and dwellings could be joined to polygons and mapped. Rates could be calculated using population denominators. Small areas could be aggregated into service catchments or compared with roads, environmental hazards, facilities and administrative areas. A GIS analyst could start with the same official population geography used by Statistics New Zealand rather than creating an independent set of neighbourhood boundaries for every project.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That capability spread across sectors because many questions need both a numerator and a population at risk or served. Public-health researchers could relate disease or service access to population. Councils could compare development and infrastructure with where people lived. Transport analysts could estimate demand, market analysts could examine local populations, and emergency planners could relate hazards to communities. Police and academic researchers could connect operational or social information with census characteristics. Those applications belong principally in their sector chapters, but they depended on the statistical geography established here.",
+      "markdown": "That capability spread across sectors because many questions need both a numerator and a population at risk or served. Public-health researchers could relate disease or service access to population. Councils could compare development and infrastructure with where people lived. Transport analysts could estimate demand, market analysts could examine local populations, and emergency planners could relate hazards to communities. Police and academic researchers could connect operational or social information with census characteristics. Those applications belong principally in their sector chapters, but they depended on the statistical geography established here.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The academic literature provides a practical glimpse of the pattern. By 2002 national accessibility studies were using the centroids of roughly 38,000 2001 census meshblocks as population locations for GIS modelling. Later research used meshblocks and larger census geographies for deprivation, health access, alcohol availability and other spatial analyses. A centroid was not the location of every person in the polygon, and analysts had to understand that approximation, but the common geography made national-scale population analysis practical with the desktop GIS tools of the period.",
+      "markdown": "The academic literature provides a practical glimpse of the pattern. By 2002 national accessibility studies were using the centroids of roughly 38,000 2001 census meshblocks as population locations for GIS modelling. Later research used meshblocks and larger census geographies for deprivation, health access, alcohol availability and other spatial analyses. A centroid was not the location of every person in the polygon, and analysts had to understand that approximation, but the common geography made national-scale population analysis practical with the desktop GIS tools of the period.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

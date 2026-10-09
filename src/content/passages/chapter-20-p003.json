@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-20-7cd1eb2e36",
+  "slug": "the-mosaic-7cd1eb2e36",
+  "articleId": "article:chapter-20",
+  "title": "The mosaic",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Digital mosaics changed the practical experience of aerial photography. Earlier users worked with separate frames, flight lines, survey indexes and contact prints. A project might require finding the relevant survey, selecting several overlapping photographs and understanding how each frame related to the ground. Photogrammetrists were comfortable with that structure, but it was not how most planners, engineers or property staff wanted to use imagery inside GIS.",
+      "markdown": "Digital mosaics changed the practical experience of aerial photography. Earlier users worked with separate frames, flight lines, survey indexes and contact prints. A project might require finding the relevant survey, selecting several overlapping photographs and understanding how each frame related to the ground. Photogrammetrists were comfortable with that structure, but it was not how most planners, engineers or property staff wanted to use imagery inside GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A digital orthophoto mosaic joined corrected images into continuous coverage. The user could pan across a district or region without stopping at a photograph edge to load another frame. Tiling still existed underneath the display because computers and storage systems needed manageable file sizes, but the tiles could be organised so the imagery behaved like one surface. Later web services hid even more of that storage structure from the ordinary user.",
+      "markdown": "A digital orthophoto mosaic joined corrected images into continuous coverage. The user could pan across a district or region without stopping at a photograph edge to load another frame. Tiling still existed underneath the display because computers and storage systems needed manageable file sizes, but the tiles could be organised so the imagery behaved like one surface. Later web services hid even more of that storage structure from the ordinary user.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A continuous mosaic could combine photographs taken at different times. Large areas could take days or weeks to capture. Weather, flying conditions and the extent of the programme could produce different acquisition dates within one regional product. Seamlines and radiometric processing could disguise some differences between frames without making the capture simultaneous. Metadata about date and coverage remained part of using the imagery properly.",
+      "markdown": "A continuous mosaic could combine photographs taken at different times. Large areas could take days or weeks to capture. Weather, flying conditions and the extent of the programme could produce different acquisition dates within one regional product. Seamlines and radiometric processing could disguise some differences between frames without making the capture simultaneous. Metadata about date and coverage remained part of using the imagery properly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Storage was also a practical constraint. High-resolution colour imagery produces large raster files, and in the 1990s and early 2000s even a council-scale mosaic could place heavy demands on disks, networks and desktop computers. Organisations tiled imagery, compressed it, created lower-resolution versions and stored master products centrally. Displaying imagery across an entire city required file management and reliable network delivery as well as image capture.",
+      "markdown": "Storage was also a practical constraint. High-resolution colour imagery produces large raster files, and in the 1990s and early 2000s even a council-scale mosaic could place heavy demands on disks, networks and desktop computers. Organisations tiled imagery, compressed it, created lower-resolution versions and stored master products centrally. Displaying imagery across an entire city required file management and reliable network delivery as well as image capture.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

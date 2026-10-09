@@ -1,0 +1,42 @@
+{
+  "id": "person:sam-williamson",
+  "slug": "sam-williamson",
+  "name": "Sam Williamson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sam-williamson/",
+  "story": [
+    "Sam Williamson presented ArcGIS Pro, Enterprise and field apps in 2018.",
+    "A LINZ geospatial student or graduate profile records Sam Williamson: Geospatial Specialist, Fulton Hogan; formerly Eagle Technology technical solutions consultant/intern."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Sam Williamson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

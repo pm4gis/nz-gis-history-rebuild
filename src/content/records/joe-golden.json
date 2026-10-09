@@ -1,0 +1,39 @@
+{
+  "id": "person:joe-golden",
+  "slug": "joe-golden",
+  "name": "Joe Golden",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/joe-golden/",
+  "story": [
+    "Joe Golden represented Intergraph Corporation New Zealand in the University of Canterbury’s July 1992 report on new engineering software. He appears with engineering dean Alex Sutherland beside some of the 80 MicroStation licences supplied under Intergraph’s Professional Development Initiative. The agreement also included MGE geographic and land-information software for civil engineering teaching."
+  ],
+  "sources": [
+    {
+      "label": "University of Canterbury Chronicle, New System in Mechanical Engineering / Computer Integrated Manufacturing",
+      "url": "https://digitalvoyages.canterbury.ac.nz/omeka-s/files/original/246d76e45ec62305c029eca025115c3f85b8a92c.pdf"
+    },
+    {
+      "label": "University of Canterbury Chronicle, 30 July 1992, Intergraph gives CAD software to Engineering, printed p.5",
+      "url": "https://digitalvoyages.canterbury.ac.nz/omeka-s/files/original/b091612a9e70ae57d3df8715e5e2fbfd36b1b9a7.pdf"
+    }
+  ],
+  "aliases": [
+    "Joe Golden"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "University of Canterbury Chronicle, New System in Mechanical Engineering / Computer Integrated Manufacturing",
+        "url": "https://digitalvoyages.canterbury.ac.nz/omeka-s/files/original/246d76e45ec62305c029eca025115c3f85b8a92c.pdf"
+      },
+      {
+        "label": "University of Canterbury Chronicle, 30 July 1992, Intergraph gives CAD software to Engineering, printed p.5",
+        "url": "https://digitalvoyages.canterbury.ac.nz/omeka-s/files/original/b091612a9e70ae57d3df8715e5e2fbfd36b1b9a7.pdf"
+      }
+    ]
+  ]
+}

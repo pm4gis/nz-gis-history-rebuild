@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0379",
+  "a": "person:joe-golden",
+  "b": "chapter:11",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

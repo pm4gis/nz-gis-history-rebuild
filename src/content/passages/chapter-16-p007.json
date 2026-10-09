@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-16-1a92db9d49",
+  "slug": "digitising-boundaries-1a92db9d49",
+  "articleId": "article:chapter-16",
+  "title": "Digitising boundaries",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16",
+    "entity:department-of-survey-and-land-information-dosli",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The next major change came in 1991. Statistics New Zealand’s later statistical standard records that the nationwide meshblock pattern was first digitised by the Department of Survey and Land Information, or DOSLI, that year. The work digitised an existing meshblock framework. The national statistical geography had been operating since 1976, and mapped population subdivisions had a much older ancestry. DOSLI’s work created the first nationwide digital representation of that boundary pattern, making the geometry available as a maintained spatial dataset rather than only as a paper-based statistical geography.",
+      "markdown": "The next major change came in 1991. Statistics New Zealand’s later statistical standard records that the nationwide meshblock pattern was first digitised by the Department of Survey and Land Information, or DOSLI, that year. The work digitised an existing meshblock framework. The national statistical geography had been operating since 1976, and mapped population subdivisions had a much older ancestry. DOSLI’s work created the first nationwide digital representation of that boundary pattern, making the geometry available as a maintained spatial dataset rather than only as a paper-based statistical geography.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The source material reveals what that conversion involved. The 2008 digital-boundary metadata records that the original digital points were captured in 1991 from urban maps at about 1:5,000 and rural maps at about 1:50,000. The inherited positional tolerance was correspondingly different, recorded at roughly plus or minus 10 metres in urban areas and plus or minus 25 metres in rural areas. Digital boundary position retained the uncertainty of the source mapping. Digitisation gave the boundary coordinates, topology and repeatable identifiers, but it inherited the cartographic accuracy and generalisation of the source maps.",
+      "markdown": "The source material reveals what that conversion involved. The 2008 digital-boundary metadata records that the original digital points were captured in 1991 from urban maps at about 1:5,000 and rural maps at about 1:50,000. The inherited positional tolerance was correspondingly different, recorded at roughly plus or minus 10 metres in urban areas and plus or minus 25 metres in rural areas. Digital boundary position retained the uncertainty of the source mapping. Digitisation gave the boundary coordinates, topology and repeatable identifiers, but it inherited the cartographic accuracy and generalisation of the source maps.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Census boundaries served statistical purposes and could follow different lines from cadastral parcels. Where possible, meshblock edges could follow roads, rivers, coastlines or cadastral boundaries because those features were easier to recognise and less ambiguous in the field. In other places the statistical requirement governed the subdivision. During later maintenance, Statistics New Zealand checked meshblock patterns against cadastral information and adjusted misalignments, while changes could also be triggered by local authorities, the Local Government Commission, the Representation Commission and census-enumeration requirements. Statistical geography borrowed stable features from other datasets without becoming those datasets.",
+      "markdown": "Census boundaries served statistical purposes and could follow different lines from cadastral parcels. Where possible, meshblock edges could follow roads, rivers, coastlines or cadastral boundaries because those features were easier to recognise and less ambiguous in the field. In other places the statistical requirement governed the subdivision. During later maintenance, Statistics New Zealand checked meshblock patterns against cadastral information and adjusted misalignments, while changes could also be triggered by local authorities, the Local Government Commission, the Representation Commission and census-enumeration requirements. Statistical geography borrowed stable features from other datasets without becoming those datasets.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1991 conversion created a new sort of national maintenance problem. The digital pattern had to remain internally consistent, align sensibly with other authoritative boundaries and retain identifiers that allowed statistics to be joined to geometry. Later metadata describes detailed annual boundary maintenance as well as the less detailed census-pattern files used for general mapping. By 2008 the detailed Level 1 pattern was being maintained through the year and finalised annually, while Level 2 census patterns were produced on the five-year census cycle. Those labels refer to the later digital distribution and maintenance system.",
+      "markdown": "The 1991 conversion created a new sort of national maintenance problem. The digital pattern had to remain internally consistent, align sensibly with other authoritative boundaries and retain identifiers that allowed statistics to be joined to geometry. Later metadata describes detailed annual boundary maintenance as well as the less detailed census-pattern files used for general mapping. By 2008 the detailed Level 1 pattern was being maintained through the year and finalised annually, while Level 2 census patterns were produced on the five-year census cycle. Those labels refer to the later digital distribution and maintenance system.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "person:beth-anne-lee",
+  "slug": "beth-anne-lee",
+  "name": "Beth-Anne Lee",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/beth-anne-lee/",
+  "story": [
+    "At the 2019 New Zealand Esri User Conference, Beth-Anne Lee co-presented Eagle Technology sessions on ArcGIS field apps, including QuickCapture, Survey123 and Collector. An MSD case study also records her as a Senior GIS Analyst in the Centre for Social Research and Evaluation, using spatial analysis to review service areas and target resources."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    },
+    {
+      "label": "Beth-Anne Lee - Eagle Technology | LinkedIn · public profile",
+      "url": "https://ca.linkedin.com/in/beth-anne-lee-bba28ab8"
+    }
+  ],
+  "aliases": [
+    "Beth-Anne Lee"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      }
+    ]
+  ]
+}

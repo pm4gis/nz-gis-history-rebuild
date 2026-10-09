@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2315",
+  "a": "person:kimberley-d-arcy",
+  "b": "chapter:12",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

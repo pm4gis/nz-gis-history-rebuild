@@ -1,0 +1,64 @@
+{
+  "id": "passage:chapter-43-28c71931a5",
+  "slug": "moving-data-automatically-28c71931a5",
+  "articleId": "article:chapter-43",
+  "title": "Moving data automatically",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43",
+    "entity:auckland-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2010s, data transformation itself had become a distinct area of geospatial work. Extract-transform-load workflows moved information between systems while changing formats, schemas, coordinates, attributes or geometry. FME became one prominent tool in New Zealand practice, alongside scripts and other integration methods. Organisations used these tools to reduce repeated translation and reconciliation between systems.",
+      "markdown": "By the 2010s, data transformation itself had become a distinct area of geospatial work. Extract-transform-load workflows moved information between systems while changing formats, schemas, coordinates, attributes or geometry. FME became one prominent tool in New Zealand practice, alongside scripts and other integration methods. Organisations used these tools to reduce repeated translation and reconciliation between systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Auckland Council provides a documented 2016 example. After the 2010 amalgamation, the council inherited a large and uneven collection of spatial information from predecessor organisations. An Esri account of the consolidation records the use of ArcGIS together with FME to migrate and rationalise the information into the new council environment. It reports that 8,470 geographic datasets were reduced to 2,056, and that 697 datasets associated with the district plan were replaced by 25. Those figures describe an enterprise migration rather than an unattended nightly process, but they demonstrate the scale at which repeatable transformation, schema change and controlled movement had become part of GIS work.",
+      "markdown": "Auckland Council provides a documented 2016 example. After the 2010 amalgamation, the council inherited a large and uneven collection of spatial information from predecessor organisations. An Esri account of the consolidation records the use of ArcGIS together with FME to migrate and rationalise the information into the new council environment. It reports that 8,470 geographic datasets were reduced to 2,056, and that 697 datasets associated with the district plan were replaced by 25. Those figures describe an enterprise migration rather than an unattended nightly process, but they demonstrate the scale at which repeatable transformation, schema change and controlled movement had become part of GIS work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Large migration projects show another limit of the word automated. The transformations may run without a person editing every feature, but people still have to decide which source is authoritative, which old fields can be discarded, how classifications should be reconciled and what must remain traceable for legal or operational reasons. Auckland Council’s reduction in dataset count reflected governance and consolidation decisions as well as software tooling. The tools made thousands of repeated conversions manageable after people had designed a target structure and rules for moving the information. Automation works best when the repetitive part is clearly separated from the judgement that should not be repeated blindly.",
+      "markdown": "Large migration projects show another limit of the word automated. The transformations may run without a person editing every feature, but people still have to decide which source is authoritative, which old fields can be discarded, how classifications should be reconciled and what must remain traceable for legal or operational reasons. Auckland Council’s reduction in dataset count reflected governance and consolidation decisions as well as software tooling. The tools made thousands of repeated conversions manageable after people had designed a target structure and rules for moving the information. Automation works best when the repetitive part is clearly separated from the judgement that should not be repeated blindly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was one reason visual ETL workspaces became attractive to GIS teams. They made the transformation chain visible enough that a practitioner could follow data from a source through filters, attribute changes, coordinate transformations and geometry operations into a destination. A workspace could be rerun when a fresh source arrived and adjusted when the schema changed. That accessibility did not make the workflow self-explanatory, and large workspaces could become just as difficult to maintain as code. GIS practitioners increasingly designed, tested and owned data-integration workflows rather than handing occasional conversions to somebody else.",
+      "markdown": "This was one reason visual ETL workspaces became attractive to GIS teams. They made the transformation chain visible enough that a practitioner could follow data from a source through filters, attribute changes, coordinate transformations and geometry operations into a destination. A workspace could be rerun when a fresh source arrived and adjusted when the schema changed. That accessibility did not make the workflow self-explanatory, and large workspaces could become just as difficult to maintain as code. GIS practitioners increasingly designed, tested and owned data-integration workflows rather than handing occasional conversions to somebody else.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A different example appears in New Zealand’s 2024 hydrographic risk assessment. Raw Automatic Identification System vessel data arrived as large numbers of daily and monthly records. The documented workflow used FME to combine the files by month and reformat the relevant messages before loading the results into an ArcGIS geodatabase for track construction and analysis. These ETL routines supported everyday spatial data maintenance. A substantial part of modern GIS consists of making data from one system usable in another without asking a person to repair every file by hand.",
+      "markdown": "A different example appears in New Zealand’s 2024 hydrographic risk assessment. Raw Automatic Identification System vessel data arrived as large numbers of daily and monthly records. The documented workflow used FME to combine the files by month and reformat the relevant messages before loading the results into an ArcGIS geodatabase for track construction and analysis. These ETL routines supported everyday spatial data maintenance. A substantial part of modern GIS consists of making data from one system usable in another without asking a person to repair every file by hand.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Practitioner examples show the same logic at smaller scales. Stantec analyst Rory McPherson used ArcGIS Pro, Python and FME to automate Wellington Water beforeUdig requests. Morphum’s Daniel Nutsford worked with FME across environmental and infrastructure workflows, while Christopher Duncan’s Traverse and Seamless work followed spatial-data integration into a broader enterprise integration practice.",
+      "sources": [
+        {
+          "label": "Rory McPherson, Wellington Water beforeUdig automation presentation",
+          "url": "https://www.eagle.co.nz/sites/default/files/Rory_McPherson.pdf"
+        },
+        {
+          "label": "Morphum Environmental, Daniel Nutsford profile",
+          "url": "https://www.morphum.com/team/daniel-nutsford"
+        },
+        {
+          "label": "Seamless Data, Company",
+          "url": "https://www.seamlessdata.co.nz/company/"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

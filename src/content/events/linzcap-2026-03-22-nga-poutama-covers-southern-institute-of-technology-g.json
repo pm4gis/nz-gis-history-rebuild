@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2026-03-22-nga-poutama-covers-southern-institute-of-technology-gis-micro-credential",
+  "dateDisplay": "2026-03-22",
+  "startDate": "2026-03-22",
+  "datePrecision": "day",
+  "year": 2026,
+  "label": "Ngā Poutama covers Southern Institute of Technology GIS micro-credential",
+  "summary": "The series connected formal micro-credential study with Māori GIS resources.",
+  "url": "/stories/the-map-becomes-an-application/#practical-maori-web-mapping-23fcc809db",
+  "passageIds": [
+    "passage:chapter-35-23fcc809db"
+  ],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "entity:hutt-city-council",
+  "slug": "hutt-city-council",
+  "name": "Hutt City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/hutt-city-council/",
+  "website": "https://www.huttcity.govt.nz",
+  "story": [
+    "By 2000, Hutt City Council’s Land Information staff had supplied aerial photographs for the Chilton Saint James vegetation-fire GIS project. Council practitioner Greg Drummond acted as the project’s GIS in School mentor."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Fire Service Commission Research Report No.10, A Pilot Study to Identify Strategies to Assess Vegetation Fire Hazards, Chilton Saint James School",
+      "url": "https://www.fireandemergency.nz/assets/Documents/Research-and-reports/Report-10-Pilot-Study-to-Identify-Strategies-to-Assess-Vegetation-Fire-Hazards.pdf"
+    }
+  ],
+  "aliases": [
+    "Hutt City Council"
+  ],
+  "themeIds": [
+    "local-government"
+  ],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

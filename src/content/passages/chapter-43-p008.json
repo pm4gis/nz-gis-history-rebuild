@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-43-fc191bdd9b",
+  "slug": "run-it-again-tomorrow-fc191bdd9b",
+  "articleId": "article:chapter-43",
+  "title": "Run it again tomorrow",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "technology-stack"
+  ],
+  "recordIds": [
+    "chapter:43"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Automation becomes infrastructure when the process is expected to run repeatedly rather than only when its author is sitting at the keyboard. Scheduled publication, database synchronisation, data extraction, cache generation, report production and quality checks all move GIS towards maintained services. The output may still be a map or dataset, but its production starts to resemble an operational system. Someone has to know whether the job ran, whether the source arrived, whether credentials still work and what should happen when an input is empty.",
+      "markdown": "Automation becomes infrastructure when the process is expected to run repeatedly rather than only when its author is sitting at the keyboard. Scheduled publication, database synchronisation, data extraction, cache generation, report production and quality checks all move GIS towards maintained services. The output may still be a map or dataset, but its production starts to resemble an operational system. Someone has to know whether the job ran, whether the source arrived, whether credentials still work and what should happen when an input is empty.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The temptation is to describe unattended processing as removing people from the workflow. In practice it often moves them to a different point. Staff design the process, monitor logs, investigate failures, approve changes and check results. A daily job that has run correctly for two years may become almost invisible until the morning it does not. Organisations then discover whether the documentation exists, whether the original developer is still around and whether the password belongs to a service account or to someone who left three restructures ago.",
+      "markdown": "The temptation is to describe unattended processing as removing people from the workflow. In practice it often moves them to a different point. Staff design the process, monitor logs, investigate failures, approve changes and check results. A daily job that has run correctly for two years may become almost invisible until the morning it does not. Organisations then discover whether the documentation exists, whether the original developer is still around and whether the password belongs to a service account or to someone who left three restructures ago.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Manaaki’s 2020 COVID-19 response also used repeatable data handling. Survey123 Connect sent submissions to a hosted ArcGIS Online feature layer used by maps, dashboards and web applications. A daily extraction backed up the operational layer and supplied it for analysis. The scheduled export made that safeguard part of routine operations.",
+      "markdown": "Manaaki’s 2020 COVID-19 response also used repeatable data handling. Survey123 Connect sent submissions to a hosted ArcGIS Online feature layer used by maps, dashboards and web applications. A daily extraction backed up the operational layer and supplied it for analysis. The scheduled export made that safeguard part of routine operations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Scheduled work also made ownership harder to ignore. A manually produced map normally has an obvious operator because somebody has to make it. A scheduled job may have no visible author at the moment it runs. The organisation therefore needs to know who receives a failure alert, who can change the credentials, who understands the data licence and who decides whether a missed run can simply be restarted. These questions sound administrative until a process feeds a public service or an operational decision. Automation turns some ordinary GIS housekeeping into service management.",
+      "markdown": "Scheduled work also made ownership harder to ignore. A manually produced map normally has an obvious operator because somebody has to make it. A scheduled job may have no visible author at the moment it runs. The organisation therefore needs to know who receives a failure alert, who can change the credentials, who understands the data licence and who decides whether a missed run can simply be restarted. These questions sound administrative until a process feeds a public service or an operational decision. Automation turns some ordinary GIS housekeeping into service management.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2010s and 2020s, web services, enterprise databases and applications depended on repeated processing behind the interface. The user might see an updated layer, dashboard or service without knowing whether an analyst had touched the data that day. GIS output was becoming a maintained process as much as a document produced on request.",
+      "markdown": "By the 2010s and 2020s, web services, enterprise databases and applications depended on repeated processing behind the interface. The user might see an updated layer, dashboard or service without knowing whether an analyst had touched the data that day. GIS output was becoming a maintained process as much as a document produced on request.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

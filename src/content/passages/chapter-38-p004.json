@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-38-dbf10a4da4",
+  "slug": "point-clouds-without-a-laser-dbf10a4da4",
+  "articleId": "article:chapter-38",
+  "title": "Point clouds without a laser",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The dense three-dimensional point cloud was another reason UAV photogrammetry spread into geospatial work. LiDAR point clouds were created by laser ranging, while SfM could produce a visually similar cloud from photographs alone. To a GIS user, both could support surfaces, sections, profiles, volumetric calculations and three-dimensional display. The similarity of the output, however, should not hide the difference in how it was measured.",
+      "markdown": "The dense three-dimensional point cloud was another reason UAV photogrammetry spread into geospatial work. LiDAR point clouds were created by laser ranging, while SfM could produce a visually similar cloud from photographs alone. To a GIS user, both could support surfaces, sections, profiles, volumetric calculations and three-dimensional display. The similarity of the output, however, should not hide the difference in how it was measured.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Airborne LiDAR sends laser pulses towards the ground and measures their return. Image-based photogrammetry reconstructs geometry from visible texture appearing in multiple photographs. A laser pulse may produce returns through gaps in vegetation and support classification of ground beneath parts of a canopy. A camera usually reconstructs the surfaces it can see. Dense scrub, forest, water, reflective material, uniform surfaces and moving vegetation can all cause difficulties for image matching.",
+      "markdown": "Airborne LiDAR sends laser pulses towards the ground and measures their return. Image-based photogrammetry reconstructs geometry from visible texture appearing in multiple photographs. A laser pulse may produce returns through gaps in vegetation and support classification of ground beneath parts of a canopy. A camera usually reconstructs the surfaces it can see. Dense scrub, forest, water, reflective material, uniform surfaces and moving vegetation can all cause difficulties for image matching.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Several measurement methods could now produce high-density terrain data. A point cloud ceased to identify the sensor that created it. Metadata and method became necessary to understand what the points represented. Dense three-dimensional datasets could come from LiDAR, photogrammetry or other methods, each with different measurement and processing assumptions.",
+      "markdown": "Several measurement methods could now produce high-density terrain data. A point cloud ceased to identify the sensor that created it. Metadata and method became necessary to understand what the points represented. Dense three-dimensional datasets could come from LiDAR, photogrammetry or other methods, each with different measurement and processing assumptions.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

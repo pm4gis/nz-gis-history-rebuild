@@ -1,0 +1,50 @@
+{
+  "id": "person:bryan-clarke",
+  "slug": "bryan-clarke",
+  "name": "Bryan Clarke",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/bryan-clarke/",
+  "story": [
+    "Bryan Clarke (1960–2024) co-founded Vicinity Solutions and worked on spatial-data architecture. A company case study records his independent review of a draft New Zealand addressing profile developed by a LINZ-led working group. His review covered the conceptual model and the related draft international standard, identifying issues that informed revisions. Vicinity’s memorial also records his SIBA work on education and capability.",
+    "In 2001 Bryan Clarke represented Christchurch as the local-government Data Modeller on the Crown emergency-services core-data project, working with University of Canterbury’s Richard Pascoe, who advised on UML and ISO/TC211 standards."
+  ],
+  "sources": [
+    {
+      "label": "Vicinity GIS, company background and Bryan Clarke memorial",
+      "url": "https://vicinitysolutions.co.nz/contact-us/about-us.html"
+    },
+    {
+      "label": "Vicinity Solutions, New Zealand Geospatial Office: review of draft addressing profile",
+      "url": "https://vicgis.com/projects/nz-geospatial-office.html"
+    },
+    {
+      "label": "Chapter 23 · The parcel becomes a key",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Bryan Clarke"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Vicinity GIS, company background and Bryan Clarke memorial",
+        "url": "https://vicinitysolutions.co.nz/contact-us/about-us.html"
+      },
+      {
+        "label": "Vicinity Solutions, New Zealand Geospatial Office: review of draft addressing profile",
+        "url": "https://vicgis.com/projects/nz-geospatial-office.html"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · The parcel becomes a key",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

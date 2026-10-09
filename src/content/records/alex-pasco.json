@@ -1,0 +1,31 @@
+{
+  "id": "person:alex-pasco",
+  "slug": "alex-pasco",
+  "name": "Alex Pasco",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/alex-pasco/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Alex Pasco: Geospatial Data Administrator, New Zealand Defence Force; University of Otago MAppSc GIS."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Alex Pasco"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

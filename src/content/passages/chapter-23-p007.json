@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-23-8cc0b38217",
+  "slug": "a-corporate-system-8cc0b38217",
+  "articleId": "article:chapter-23",
+  "title": "A corporate system",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "local-government"
+  ],
+  "recordIds": [
+    "chapter:23"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the mid-1990s, the phrase corporate GIS was appearing because councils were trying to move beyond isolated applications. Departments could share spatial information while retaining separate applications and databases. The corporate model managed common spatial data and services across the organisation.",
+      "markdown": "By the mid-1990s, the phrase corporate GIS was appearing because councils were trying to move beyond isolated applications. Departments could share spatial information while retaining separate applications and databases. The corporate model managed common spatial data and services across the organisation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The GIS team’s work broadened accordingly. Staff still produced maps and carried out analysis, but they also maintained shared layers, managed links to business systems, defined update procedures, supported users and dealt with coordinate and data-conversion problems. Information-services staff became more involved because the GIS increasingly depended on corporate networks, servers, database platforms and backup arrangements. Marr and Benwell’s surveys captured this movement of responsibility while it was happening.",
+      "markdown": "The GIS team’s work broadened accordingly. Staff still produced maps and carried out analysis, but they also maintained shared layers, managed links to business systems, defined update procedures, supported users and dealt with coordinate and data-conversion problems. Information-services staff became more involved because the GIS increasingly depended on corporate networks, servers, database platforms and backup arrangements. Marr and Benwell’s surveys captured this movement of responsibility while it was happening.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change created a practical tension between central control and distributed use. A council wanted one authoritative road centreline, one maintained property framework and one current set of planning zones, but planners, engineers and property staff wanted to use those records in their own work. Desktop GIS made copies easy to create, as Chapter 22 described. Corporate GIS tried to keep the master information central while allowing more people to query or analyse it.",
+      "markdown": "The change created a practical tension between central control and distributed use. A council wanted one authoritative road centreline, one maintained property framework and one current set of planning zones, but planners, engineers and property staff wanted to use those records in their own work. Desktop GIS made copies easy to create, as Chapter 22 described. Corporate GIS tried to keep the master information central while allowing more people to query or analyse it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Duplicate copies of data continued to require management. Departments could still build their own layers, contractors could return files in different formats and project directories could accumulate old extracts. The corporate model provided a place to decide which version should be treated as current. It also created a clearer route for correcting an error once and propagating the change to several users rather than relying on everyone to repair their own copy.",
+      "markdown": "Duplicate copies of data continued to require management. Departments could still build their own layers, contractors could return files in different formats and project directories could accumulate old extracts. The corporate model provided a place to decide which version should be treated as current. It also created a clearer route for correcting an error once and propagating the change to several users rather than relying on everyone to repair their own copy.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "article:chapter-44",
+  "slug": "gis-at-the-end-of-2025",
+  "title": "GIS and AI in 2025",
+  "url": "/stories/gis-at-the-end-of-2025/",
+  "summary": "By 31 December 2025, a New Zealand geospatial practitioner could spend much of a working day dealing with geography without opening what an earlier generation would have recognised as a conventional GIS. Data could arrive through ",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 44,
+  "themeIds": [
+    "women-in-gis",
+    "profession"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch44-note-01",
+      "text": "1. The final chapter’s early AI lineage is supported by the documented 1989 GIS conference expert-system work, the 1990 SIRC natural-language GIS interface, subsequent New Zealand neural-network and spatial-data-mining research, and peer-reviewed remote-sensing studies. These examples establish a longer research lineage and are not presented as one continuous national AI programme."
+    },
+    {
+      "id": "ch44-note-02",
+      "text": "2. Ministry for the Environment material on the LUCAS 2020 Land Use Map provides the strongest operational machine-learning case. Deep-learning techniques were used within a maintained national mapping workflow for greenhouse-gas reporting, alongside labelled training data, accuracy assessment, visual inspection, manual review and ArcGIS Pro editing. The chapter therefore avoids the misleading shorthand that “AI mapped New Zealand”."
+    },
+    {
+      "id": "ch44-note-03",
+      "text": "3. Rere-No-A-Rangi Pope and Marcus Frean, “Georeferencing Historical Maps at Scale”, GIScience 2025, is the principal automatic historical-map georeferencing case. It uses salient line intersections and contemporary cadastral data and was evaluated across large samples of Aotearoa New Zealand. It is peer-reviewed research, not an operational national georeferencing service."
+    },
+    {
+      "id": "ch44-note-04",
+      "text": "4. Kalana Wijegunarathna, Kristin Stock and Christopher B. Jones, GIScience 2025, supports the large-multimodal-model locality-georeferencing experiment combining written descriptions with map excerpts. The paper reports preliminary experiments on a small manually annotated dataset and describes the complete workflow as work in progress. It is evidence of research capability at the cutoff, not institutional production deployment."
+    },
+    {
+      "id": "ch44-note-05",
+      "text": "5. The official FOSS4G Auckland 2025 programme supports the presence of geospatial AI, natural-language search and AI-assisted programming in mainstream professional discussion by November 2025. Phil Clunies-Ross’s lightning talk on AI-assisted spatial reporting and Delinify provides a narrower New Zealand practitioner signal. The evidence establishes practitioner product development and experimentation, not organisation-wide generative-AI adoption."
+    },
+    {
+      "id": "ch44-note-06",
+      "text": "6. The sources separately document research, maintained production systems and practitioner experiments. Expert systems are not large language models, Random Forest classification is machine learning but not generative AI, deterministic scripts remain automation even when an AI system helped draft the code, and software availability is not evidence of New Zealand deployment."
+    }
+  ]
+}

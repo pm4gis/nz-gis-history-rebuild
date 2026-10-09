@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-42-98b901ca62",
+  "slug": "update-intervals-98b901ca62",
+  "articleId": "article:chapter-42",
+  "title": "Update intervals",
+  "order": 17,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of 2025 real-time mapping had become an ordinary phrase across hazard monitoring, emergency management, transport and other operational GIS. In practice, 'real time' usually meant information refreshed quickly enough for operational use, not zero delay. Sensors have sampling and processing delays. Human reports take time to collect and verify. Aerial imagery may be hours or days old by the time it appears in a service. Road status can change faster than a database can be updated. Even a dashboard that refreshes every few seconds may be displaying one source that is much older than the others.",
+      "markdown": "By the end of 2025 real-time mapping had become an ordinary phrase across hazard monitoring, emergency management, transport and other operational GIS. In practice, 'real time' usually meant information refreshed quickly enough for operational use, not zero delay. Sensors have sampling and processing delays. Human reports take time to collect and verify. Aerial imagery may be hours or days old by the time it appears in a service. Road status can change faster than a database can be updated. Even a dashboard that refreshes every few seconds may be displaying one source that is much older than the others.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Operational value depended on whether information was current enough for the decision being made. GeoNet's automated event information may need minute-scale latency. A road-closure layer may be operationally useful if it is maintained carefully across the day. Post-event LiDAR can be extremely valuable even when it arrives days later because it measures change that no field team could map comprehensively. A recovery dataset may remain valuable for years after the emergency has ended.",
+      "markdown": "Operational value depended on whether information was current enough for the decision being made. GeoNet's automated event information may need minute-scale latency. A road-closure layer may be operationally useful if it is maintained carefully across the day. Post-event LiDAR can be extremely valuable even when it arrives days later because it measures change that no field team could map comprehensively. A recovery dataset may remain valuable for years after the emergency has ended.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Operational mapping depended on managing delays between observation, checking and publication. New Zealand built sensor networks, spatial-data infrastructures, services, field systems and professional communities that shortened the distance between something happening and a usable geographic record reaching the people who needed it. Canterbury showed the cost of incompatible information environments. Kaikōura showed that the landscape and reference framework themselves could change. During Cyclone Gabrielle, agencies shared geographic information while working with disrupted networks and changing reports from the field.",
+      "markdown": "Operational mapping depended on managing delays between observation, checking and publication. New Zealand built sensor networks, spatial-data infrastructures, services, field systems and professional communities that shortened the distance between something happening and a usable geographic record reaching the people who needed it. Canterbury showed the cost of incompatible information environments. Kaikōura showed that the landscape and reference framework themselves could change. During Cyclone Gabrielle, agencies shared geographic information while working with disrupted networks and changing reports from the field.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The next stage reduces the manual work inside those chains. Scripts, ETL tools, models, scheduled processes and later machine-learning workflows increasingly automate repetitive GIS operations. The speed problem becomes a workflow problem: deciding which steps can be repeated safely, how errors are detected and who maintains the process after its original author has moved on. Chapter 43 follows that longer history of automation, from small pieces of code that saved an analyst an afternoon to pipelines that keep whole spatial information systems moving.",
+      "markdown": "The next stage reduces the manual work inside those chains. Scripts, ETL tools, models, scheduled processes and later machine-learning workflows increasingly automate repetitive GIS operations. The speed problem becomes a workflow problem: deciding which steps can be repeated safely, how errors are detected and who maintains the process after its original author has moved on. Chapter 43 follows that longer history of automation, from small pieces of code that saved an analyst an afternoon to pipelines that keep whole spatial information systems moving.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

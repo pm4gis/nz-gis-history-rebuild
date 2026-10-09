@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-14-226b4cfcfc",
+  "slug": "a-national-utility-226b4cfcfc",
+  "articleId": "article:chapter-14",
+  "title": "A national utility",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "cadastre"
+  ],
+  "recordIds": [
+    "chapter:14"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of the 2000s Landonline had become something quite different from the project launched a decade earlier. Survey and title professionals searched nationally, lodged structured survey datasets and submitted most title dealings electronically. Business rules checked routine work. A large share of straightforward title transactions could update the register with little or no manual re-entry. The system had moved from digitising records to mediating the transactions that changed those records.",
+      "markdown": "By the end of the 2000s Landonline had become something quite different from the project launched a decade earlier. Survey and title professionals searched nationally, lodged structured survey datasets and submitted most title dealings electronically. Business rules checked routine work. A large share of straightforward title transactions could update the register with little or no manual re-entry. The system had moved from digitising records to mediating the transactions that changed those records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Landonline was a statutory production and transaction environment with controlled access, professional responsibilities and legal and personal records. It made the authoritative survey and title processes digital before many of their non-personal spatial outputs became easier to download and reuse through later LINZ services.",
+      "markdown": "Landonline was a statutory production and transaction environment with controlled access, professional responsibilities and legal and personal records. It made the authoritative survey and title processes digital before many of their non-personal spatial outputs became easier to download and reuse through later LINZ services.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The system continued to require maintenance and development. Software had to be maintained, standards updated, security managed, users trained and business rules revised as law and practice changed. By 2010 the programme had passed through a third phase intended to remove most remaining paper handling, but the service would continue to be rebuilt and modernised in later decades. LINZ established a continuing electronic service. It was an operating model in which the national cadastre and title register could be changed through electronic professional transactions.",
+      "markdown": "The system continued to require maintenance and development. Software had to be maintained, standards updated, security managed, users trained and business rules revised as law and practice changed. By 2010 the programme had passed through a third phase intended to remove most remaining paper handling, but the service would continue to be rebuilt and modernised in later decades. LINZ established a continuing electronic service. It was an operating model in which the national cadastre and title register could be changed through electronic professional transactions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapter 13 ended when the parcel became maintained national data. Landonline went further. It turned the process of creating surveys, registering dealings, searching records and updating the national land system into digital work. A different national mapping problem was undergoing its own conversion. Topographic mapping also became a maintained database, but without the legal transaction machinery that made Landonline such a distinctive New Zealand information system.",
+      "markdown": "Chapter 13 ended when the parcel became maintained national data. Landonline went further. It turned the process of creating surveys, registering dealings, searching records and updating the national land system into digital work. A different national mapping problem was undergoing its own conversion. Topographic mapping also became a maintained database, but without the legal transaction machinery that made Landonline such a distinctive New Zealand information system.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

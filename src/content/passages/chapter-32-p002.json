@@ -1,0 +1,48 @@
+{
+  "id": "passage:chapter-32-3460d584f6",
+  "slug": "the-database-arrives-quietly-3460d584f6",
+  "articleId": "article:chapter-32",
+  "title": "The database arrives quietly",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:32",
+    "entity:geographic-business-solutions",
+    "person:harley-prowse",
+    "person:tony-elson"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The database layer was one reason open source could spread without attracting much attention outside technical teams. A user might work through a browser, a desktop GIS or a purpose-built application while PostGIS handled geometry and attributes behind the scenes. The organisation did not have to present the system as an open-source GIS. It only had to decide that an open component was suitable for a particular part of the architecture. This made adoption incremental and often invisible. Open source could therefore enter through the basement while the people upstairs kept using the same map application.",
+      "markdown": "The database layer was one reason open source could spread without attracting much attention outside technical teams. A user might work through a browser, a desktop GIS or a purpose-built application while PostGIS handled geometry and attributes behind the scenes. The organisation did not have to present the system as an open-source GIS. It only had to decide that an open component was suitable for a particular part of the architecture. This made adoption incremental and often invisible. Open source could therefore enter through the basement while the people upstairs kept using the same map application.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By December 2008 Wood was publicly discussing PostGIS, Apache and UMN MapServer as a complete standards-based web mapping environment. In July 2009 he referred to PostGIS tables containing hundreds of millions of point features and discussed MapServer, GeoServer and OpenLayers as practical ways to publish and view spatial information. These records place the New Zealand open-source story firmly in database and server work before QGIS became the most visible open desktop application. Organisations combined software components to meet their production requirements.",
+      "markdown": "By December 2008 Wood was publicly discussing PostGIS, Apache and UMN MapServer as a complete standards-based web mapping environment. In July 2009 he referred to PostGIS tables containing hundreds of millions of point features and discussed MapServer, GeoServer and OpenLayers as practical ways to publish and view spatial information. These records place the New Zealand open-source story firmly in database and server work before QGIS became the most visible open desktop application. Organisations combined software components to meet their production requirements.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A government-commissioned study published in 2009 provides a commercial example. Geographic Business Solutions had selected MapServer, PostgreSQL and Apache for an Auckland courier-dispatch website. The system displayed live courier and job locations received from mobile GPS units and supported tracking and replay. Couriers could use the operational service while the software library and spatial database remained behind the interface. Open-source components supported the service’s daily work.",
+      "markdown": "A government-commissioned study published in 2009 provides a commercial example. Geographic Business Solutions had selected MapServer, PostgreSQL and Apache for an Auckland courier-dispatch website. The system displayed live courier and job locations received from mobile GPS units and supported tracking and replay. Couriers could use the operational service while the software library and spatial database remained behind the interface. Open-source components supported the service’s daily work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GBS itself makes the open-source-versus-proprietary divide less tidy than later labels imply. Harley Prowse and Tony Elson founded the consultancy in 2002 after earlier work through GTU and Geographic Technologies and a period of independent consulting. The company later became a prominent Esri partner, yet this 2009 system used open components because they suited the service being built. Consultancies changed components as customer requirements, staff skills and platforms changed.",
+      "markdown": "GBS itself makes the open-source-versus-proprietary divide less tidy than later labels imply. Harley Prowse and Tony Elson founded the consultancy in 2002 after earlier work through GTU and Geographic Technologies and a period of independent consulting. The company later became a prominent Esri partner, yet this 2009 system used open components because they suited the service being built. Consultancies changed components as customer requirements, staff skills and platforms changed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NIWA’s 2010 Ocean Survey 20/20 Bay of Islands portal gives a fuller picture of the same approach. Later technical documentation records GeoNetwork handling metadata and discovery, PostGIS storing spatial data, MapServer publishing WMS and WFS services, OpenLayers providing browser mapping and SilverStripe supporting the web environment. Several packages together formed the working GIS, each performing a different job and communicating through agreed interfaces. That component model became familiar across geospatial systems, whether the components themselves were open or proprietary.",
+      "markdown": "NIWA’s 2010 Ocean Survey 20/20 Bay of Islands portal gives a fuller picture of the same approach. Later technical documentation records GeoNetwork handling metadata and discovery, PostGIS storing spatial data, MapServer publishing WMS and WFS services, OpenLayers providing browser mapping and SilverStripe supporting the web environment. Several packages together formed the working GIS, each performing a different job and communicating through agreed interfaces. That component model became familiar across geospatial systems, whether the components themselves were open or proprietary.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

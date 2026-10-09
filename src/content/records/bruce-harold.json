@@ -1,0 +1,70 @@
+{
+  "id": "person:bruce-harold",
+  "slug": "bruce-harold",
+  "name": "Bruce Harold",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/bruce-harold/",
+  "story": [
+    "Bruce Harold appears in Eagle Technology’s 1996 Esri conference proceedings and later in Esri’s published work on data interoperability. In September 2024 he co-authored an explanation of the relationship between ArcGIS Data Interoperability and FME with Nolan Reichmann. Their article described how FME’s format handling and data transformations were made available within ArcGIS workflows.",
+    "John Arnerich’s November 2025 account of Locus names Rotorua Lakes and Greg Bennett as early supporters and recalls Bruce Harold’s encouragement, adding people and working relationships to the software’s adoption history."
+  ],
+  "sources": [
+    {
+      "label": "John Arnerich, 25 Years of Locus, 27 November 2025",
+      "url": "https://locusglobal.com/blog/blog/2025/11/27/25-years-of-locus/"
+    },
+    {
+      "label": "Locus, We are Locus",
+      "url": "https://locusglobal.com/we-are-locus/"
+    },
+    {
+      "label": "Bruce Harold, Eagle Technology conference paper, Esri proceedings, 1996",
+      "url": "https://library.esri.com/docs/proc96/TO50/PAP038/ZONEGEO.HTM"
+    },
+    {
+      "label": "Bruce Harold and Nolan Reichmann, How does Data Interoperability relate to FME?, Esri, 18 September 2024",
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-pro/analytics/how-does-data-interoperability-relate-to-fme"
+    },
+    {
+      "label": "Bruce Harold - Redlands, California, United States | Professional Profile | LinkedIn · public profile",
+      "url": "https://www.linkedin.com/in/bruce-harold-a3a657"
+    },
+    {
+      "label": "Chapter 43 · The repetitive job",
+      "url": "/stories/automating-the-gis-work/"
+    }
+  ],
+  "aliases": [
+    "Bruce Harold"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "John Arnerich, 25 Years of Locus, 27 November 2025",
+        "url": "https://locusglobal.com/blog/blog/2025/11/27/25-years-of-locus/"
+      },
+      {
+        "label": "Locus, We are Locus",
+        "url": "https://locusglobal.com/we-are-locus/"
+      },
+      {
+        "label": "Bruce Harold, Eagle Technology conference paper, Esri proceedings, 1996",
+        "url": "https://library.esri.com/docs/proc96/TO50/PAP038/ZONEGEO.HTM"
+      },
+      {
+        "label": "Bruce Harold and Nolan Reichmann, How does Data Interoperability relate to FME?, Esri, 18 September 2024",
+        "url": "https://www.esri.com/arcgis-blog/products/arcgis-pro/analytics/how-does-data-interoperability-relate-to-fme"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 43 · The repetitive job",
+        "url": "/stories/automating-the-gis-work/"
+      }
+    ]
+  ]
+}

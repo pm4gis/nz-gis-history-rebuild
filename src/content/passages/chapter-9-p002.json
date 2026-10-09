@@ -1,0 +1,54 @@
+{
+  "id": "passage:chapter-9-68517bbc35",
+  "slug": "ecological-databases-68517bbc35",
+  "articleId": "article:chapter-9",
+  "title": "Ecological databases",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9",
+    "entity:department-of-conservation",
+    "person:mary-mcewen",
+    "person:geoff-park"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Biological Resources Centre began this work in the mid-1980s. In late 1985 the centre was considering how ecological-region and ecological-district boundaries should be digitised rather than continued only through traditional cartographic methods. At about the same time, DSIR’s Science Mapping Unit was beginning to use an Intergraph GIS. Mary McEwen later documented the work in detail while considering how the new Department of Conservation might organise its own geographic information.",
+      "markdown": "The Biological Resources Centre began this work in the mid-1980s. In late 1985 the centre was considering how ecological-region and ecological-district boundaries should be digitised rather than continued only through traditional cartographic methods. At about the same time, DSIR’s Science Mapping Unit was beginning to use an Intergraph GIS. Mary McEwen later documented the work in detail while considering how the new Department of Conservation might organise its own geographic information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The scientific framework already existed. Ecological regions and districts divided New Zealand into areas intended to reflect recurring ecological character. The boundaries could then provide a common geography for other biological information. A protected area, wetland, wildlife site or other inventory record could be related to the ecological district in which it occurred, while geological and soil information could be brought into the same system when required.",
+      "markdown": "The scientific framework already existed. Ecological regions and districts divided New Zealand into areas intended to reflect recurring ecological character. The boundaries could then provide a common geography for other biological information. A protected area, wetland, wildlife site or other inventory record could be related to the ecological district in which it occurred, while geological and soil information could be brought into the same system when required.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A 1986 mock-up of a proposed Biological Resources Information System for the North Taranaki Ecological District shows how the idea was being tested. It combined graphical and textual output with material held in different map projections. Before scientists could compare inventories, their coordinates, map frameworks and classifications had to be reconciled well enough for an overlay to mean what they thought it meant.",
+      "markdown": "A 1986 mock-up of a proposed Biological Resources Information System for the North Taranaki Ecological District shows how the idea was being tested. It combined graphical and textual output with material held in different map projections. Before scientists could compare inventories, their coordinates, map frameworks and classifications had to be reconciled well enough for an overlay to mean what they thought it meant.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Biologists used the system alongside field observation and ecological classification. It provided a structure in which observations and mapped classifications could be linked by location. A wildlife record could be selected because it fell inside a particular district. A wetland inventory could be viewed beside protected areas. The geographic framework allowed several scientific records to refer to the same part of the country without requiring a new combined paper map to be drawn for every question.",
+      "markdown": "Biologists used the system alongside field observation and ecological classification. It provided a structure in which observations and mapped classifications could be linked by location. A wildlife record could be selected because it fell inside a particular district. A wetland inventory could be viewed beside protected areas. The geographic framework allowed several scientific records to refer to the same part of the country without requiring a new combined paper map to be drawn for every question.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "McEwen’s report also records the maintenance required after conversion. Boundaries, classifications and source records needed updating as scientific understanding improved, reserves were created, sites were reclassified and new observations were made.",
+      "markdown": "McEwen’s report also records the maintenance required after conversion. Boundaries, classifications and source records needed updating as scientific understanding improved, reserves were created, sites were reclassified and new observations were made.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Geoff Park, then manager of the Biological Resources Centre, worked with Mary McEwen on the possibilities of GIS for biological information. Her 1989 report recalls their interest when ecological boundaries were being digitised in late 1985. Park also convened the technical advisory group that developed the Protected Natural Areas Programme’s survey method. Field assessment would supply information for the proposed Biological Resources Information System.",
+      "markdown": "Geoff Park, then manager of the Biological Resources Centre, worked with Mary McEwen on the possibilities of GIS for biological information. Her 1989 report recalls their interest when ecological boundaries were being digitised in late 1985. Park also convened the technical advisory group that developed the Protected Natural Areas Programme’s survey method. Field assessment would supply information for the proposed Biological Resources Information System.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

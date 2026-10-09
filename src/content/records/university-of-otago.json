@@ -1,0 +1,41 @@
+{
+  "id": "entity:university-of-otago",
+  "slug": "university-of-otago",
+  "name": "University of Otago",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/university-of-otago/",
+  "website": null,
+  "story": [
+    "Otago connected surveying, geographic information and research through teaching and professional exchange. The SIRC conference lineage provided a recurring forum for spatial-information research. Māori spatial research associated with Hauiti Hākopa also examined how mapping could support information embedded in ancestral landscapes.",
+    "Its School of Surveying introduced the Land and Spatial Information Studies degree in the late 1980s."
+  ],
+  "sources": [
+    {
+      "label": "Ngā Pae o te Māramatanga, Hauiti Hākopa research profile",
+      "url": "https://www.maramatanga.ac.nz/person/dr-hauiti-h-kopa"
+    },
+    {
+      "label": "AJHR 1913 survey history",
+      "url": "https://paperspast.natlib.govt.nz/parliamentary/AJHR1913-I.2.3.2.2"
+    },
+    {
+      "label": "He Whare Hangarau Māori, University of Waikato, including on Indigenous Mapping Wānanga 2017",
+      "url": "https://natlib.govt.nz/records/38823234"
+    },
+    {
+      "label": "University of Otago, History of the School of Surveying: Land and Spatial Information Studies degree",
+      "url": "https://www.otago.ac.nz/surveying/about/history"
+    }
+  ],
+  "aliases": [
+    "University of Otago"
+  ],
+  "themeIds": [
+    "profession",
+    "local-government"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

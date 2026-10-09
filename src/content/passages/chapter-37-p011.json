@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-37-997878372e",
+  "slug": "open-elevation-997878372e",
+  "articleId": "article:chapter-37",
+  "title": "Open elevation",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37",
+    "entity:traverse-seamless"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The other national change was access. Programme outputs were released through LINZ data services rather than retained only by the organisations that commissioned the flying. Current national products include the bare-earth DEM, surface model, hillshades and access to source point clouds. Individual source datasets may remain owned or licensed by the organisations that funded them, but they are distributed under open terms where specified. The result is a shared elevation resource whose reuse is no longer limited to the original flood model, engineering project or council.",
+      "markdown": "The other national change was access. Programme outputs were released through LINZ data services rather than retained only by the organisations that commissioned the flying. Current national products include the bare-earth DEM, surface model, hillshades and access to source point clouds. Individual source datasets may remain owned or licensed by the organisations that funded them, but they are distributed under open terms where specified. The result is a shared elevation resource whose reuse is no longer limited to the original flood model, engineering project or council.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Open access changed the practical audience. A university researcher could use a regional point cloud without negotiating a bespoke data transfer. A consultant could begin with an existing terrain model rather than commissioning a new survey simply to establish basic topography. Councils could combine neighbouring coverage. Community and environmental projects could use detailed terrain that would previously have been financially out of reach. None of this made LiDAR acquisition cheap, but coordinated public investment allowed the same expensive capture to support many later users.",
+      "markdown": "Open access changed the practical audience. A university researcher could use a regional point cloud without negotiating a bespoke data transfer. A consultant could begin with an existing terrain model rather than commissioning a new survey simply to establish basic topography. Councils could combine neighbouring coverage. Community and environmental projects could use detailed terrain that would previously have been financially out of reach. None of this made LiDAR acquisition cheap, but coordinated public investment allowed the same expensive capture to support many later users.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The economics therefore resemble other parts of New Zealand’s geospatial history. Aircraft, sensors, flight planning, processing, classification, quality control, storage and professional expertise all remained real costs. The larger shift concerned who paid at the point of reuse. National coordination and open publication moved LiDAR from a series of project purchases towards a common spatial foundation.",
+      "markdown": "The economics therefore resemble other parts of New Zealand’s geospatial history. Aircraft, sensors, flight planning, processing, classification, quality control, storage and professional expertise all remained real costs. The larger shift concerned who paid at the point of reuse. National coordination and open publication moved LiDAR from a series of project purchases towards a common spatial foundation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "There is also a maintenance problem. Terrain data can remain useful for years, but urban development, earthworks, river movement, forestry and natural hazards gradually age it. A national elevation model therefore needs acquisition dates and source boundaries as much as it needs seamless display. The smooth hillshade tempts users to forget that different parts of the country may have been captured in different seasons and years. Infrastructure is not the same thing as simultaneity.",
+      "markdown": "There is also a maintenance problem. Terrain data can remain useful for years, but urban development, earthworks, river movement, forestry and natural hazards gradually age it. A national elevation model therefore needs acquisition dates and source boundaries as much as it needs seamless display. The smooth hillshade tempts users to forget that different parts of the country may have been captured in different seasons and years. Infrastructure is not the same thing as simultaneity.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

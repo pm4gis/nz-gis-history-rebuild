@@ -1,0 +1,55 @@
+{
+  "id": "person:steve-abley",
+  "slug": "steve-abley",
+  "name": "Steve Abley",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/steve-abley/",
+  "story": [
+    "Steve Abley entered the workforce in 1988 and gained an engineering technology qualification through practical work and extramural study before completing an honours civil-engineering degree at Canterbury. He worked for consultants and constructors in New Zealand and the United Kingdom. He became a fellow of Engineering New Zealand in 2011 and received its MacLean Citation in 2015. His leadership at Abley combines transport engineering, spatial technology and consultancy management.",
+    "Steve Abley’s 1996 university project mapping Christchurch pedestrian crossings formed the starting point for the later transport and spatial consultancy.",
+    "Abley’s company history records the firm’s starting point: Steve Abley mapped Christchurch City pedestrian crossings for a final-year university project in 1996, then established a transport consultancy in 2003. The firm’s development joined spatial analysis with transport engineering and road-safety work."
+  ],
+  "sources": [
+    {
+      "label": "Abley company history",
+      "url": "https://abley.com/our-story"
+    },
+    {
+      "label": "Steve Abley | CEO | Abley · career/profile reference",
+      "url": "https://abley.com/steve-abley"
+    },
+    {
+      "label": "Chapter 12 · A consultancy appears",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Steve Abley"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Steve Abley | CEO | Abley · career/profile reference",
+        "url": "https://abley.com/steve-abley"
+      }
+    ],
+    [
+      {
+        "label": "Abley company history",
+        "url": "https://abley.com/our-story"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · A consultancy appears",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

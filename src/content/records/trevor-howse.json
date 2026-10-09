@@ -1,0 +1,50 @@
+{
+  "id": "person:trevor-howse",
+  "slug": "trevor-howse",
+  "name": "Trevor Howse",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/trevor-howse/",
+  "story": [
+    "Trevor Howse was a lead researcher for the Ngāi Tahu claim, gathering and interpreting the documentary record of land transactions and tribal history. Ngāi Tahu’s published account describes his persistence in locating files. He also contributed to the early Kā Huru Manu paepae.",
+    "Kā Huru Manu’s early paepae included Trevor Howse, Kelly Davis, Matapura Ellison, Jimmy Russell and David Higgins, while Muriel Johnstone contributed knowledge of the Ōraka Aparima takiwā."
+  ],
+  "sources": [
+    {
+      "label": "Te Rūnanga o Ngāi Tahu, Trevor Howse’s work on the Ngāi Tahu claim, 17 January 2014",
+      "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/trevor-howse-nicknamed-wekafor-prowess-uncovering-files-ngai-tahu-claim-process/"
+    },
+    {
+      "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+      "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+    },
+    {
+      "label": "Chapter 35 · Public applications",
+      "url": "/stories/the-map-becomes-an-application/"
+    }
+  ],
+  "aliases": [
+    "Trevor Howse"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Te Rūnanga o Ngāi Tahu, Trevor Howse’s work on the Ngāi Tahu claim, 17 January 2014",
+        "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/trevor-howse-nicknamed-wekafor-prowess-uncovering-files-ngai-tahu-claim-process/"
+      },
+      {
+        "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+        "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 35 · Public applications",
+        "url": "/stories/the-map-becomes-an-application/"
+      }
+    ]
+  ]
+}

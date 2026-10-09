@@ -1,0 +1,25 @@
+{
+  "id": "entity:otorohanga-district-council",
+  "slug": "otorohanga-district-council",
+  "name": "Ōtorohanga District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/otorohanga-district-council/",
+  "website": "https://www.otodc.govt.nz",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Ōtorohanga District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

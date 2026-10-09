@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0998",
+  "a": "person:takerei-norton",
+  "b": "entity:te-runanga-o-ngai-tahu-ngai-tahu-archive",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

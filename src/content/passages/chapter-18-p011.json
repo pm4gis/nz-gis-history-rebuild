@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-18-872dcda4e5",
+  "slug": "from-gps-to-gnss-872dcda4e5",
+  "articleId": "article:chapter-18",
+  "title": "From GPS to GNSS",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For the early part of this history, GPS is the correct term because the United States system is what the New Zealand sources describe. As receivers later became capable of using signals from several satellite constellations, GNSS became the more accurate umbrella term. The vocabulary changed gradually, and historical writing needs to follow the technology rather than replace every old reference to GPS with a modern label.",
+      "markdown": "For the early part of this history, GPS is the correct term because the United States system is what the New Zealand sources describe. As receivers later became capable of using signals from several satellite constellations, GNSS became the more accurate umbrella term. The vocabulary changed gradually, and historical writing needs to follow the technology rather than replace every old reference to GPS with a modern label.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "More satellites and more signals improved availability and resilience, especially where parts of the sky were obstructed. Receiver electronics also became smaller, cheaper and less power-hungry. Correction delivery moved from local radio links and dedicated services towards continuous reference networks and internet distribution. These developments made high-accuracy positioning easier to use in ordinary work, although the underlying distinctions between autonomous, differential and carrier-phase methods remained.",
+      "markdown": "More satellites and more signals improved availability and resilience, especially where parts of the sky were obstructed. Receiver electronics also became smaller, cheaper and less power-hungry. Correction delivery moved from local radio links and dedicated services towards continuous reference networks and internet distribution. These developments made high-accuracy positioning easier to use in ordinary work, although the underlying distinctions between autonomous, differential and carrier-phase methods remained.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The field device changed with it. Separate receiver, data logger and office-processing stages increasingly gave way to integrated controllers and mobile GIS applications. Features and attributes could be captured together. Corrections could arrive while the rover was working. Positions could be checked against existing layers immediately rather than after a day’s field work. None of these changes happened on one date, but together they shortened the distance between observing something and seeing it correctly placed in an organisational database.",
+      "markdown": "The field device changed with it. Separate receiver, data logger and office-processing stages increasingly gave way to integrated controllers and mobile GIS applications. Features and attributes could be captured together. Corrections could arrive while the rover was working. Positions could be checked against existing layers immediately rather than after a day’s field work. None of these changes happened on one date, but together they shortened the distance between observing something and seeing it correctly placed in an organisational database.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

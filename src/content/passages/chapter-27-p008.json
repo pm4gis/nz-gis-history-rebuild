@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-27-6789139440",
+  "slug": "census-data-becomes-free-6789139440",
+  "articleId": "article:chapter-27",
+  "title": "Census data becomes free",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27",
+    "entity:stats-nz",
+    "person:laila-harre"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Both disease rates and accessibility modelling depended heavily on population data. In the early 2000s that information was not automatically a free download. On 9 May 2002 Statistics Minister Laila Harré announced that detailed 2001 Census results would become available free through Census Table Builder. Until then, Statistics New Zealand had charged for detailed information through Supermap subscriptions costing a minimum of NZ$3,300 and up to about NZ$25,000 depending on the level of information required.",
+      "markdown": "Both disease rates and accessibility modelling depended heavily on population data. In the early 2000s that information was not automatically a free download. On 9 May 2002 Statistics Minister Laila Harré announced that detailed 2001 Census results would become available free through Census Table Builder. Until then, Statistics New Zealand had charged for detailed information through Supermap subscriptions costing a minimum of NZ$3,300 and up to about NZ$25,000 depending on the level of information required.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The government release described those charges as a major access barrier, particularly for communities and other users with limited budgets. It specifically named health boards among the organisations expected to benefit from free access. For a health analyst, the change affected more than a spreadsheet licence. Population denominators, age structures, ethnicity and other local demographic variables were part of the inputs needed to interpret health events and service needs.",
+      "markdown": "The government release described those charges as a major access barrier, particularly for communities and other users with limited budgets. It specifically named health boards among the organisations expected to benefit from free access. For a health analyst, the change affected more than a spreadsheet licence. Population denominators, age structures, ethnicity and other local demographic variables were part of the inputs needed to interpret health events and service needs.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Twenty days later, the connection was made explicitly at the launch of the Public Health Observatory. The Minister credited Statistics New Zealand with supplying the boundary information needed to draw maps and the population information needed for regional comparison. She also linked the new availability of free Census data to the viability of services such as the Observatory. The sequence provides a rare case where a change in government data pricing can be tied directly to a documented GIS-enabled public service.",
+      "markdown": "Twenty days later, the connection was made explicitly at the launch of the Public Health Observatory. The Minister credited Statistics New Zealand with supplying the boundary information needed to draw maps and the population information needed for regional comparison. She also linked the new availability of free Census data to the viability of services such as the Observatory. The sequence provides a rare case where a change in government data pricing can be tied directly to a documented GIS-enabled public service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS software could already map disease records, but population-health analysis also needed national demographic information at appropriate geographic scales. Removing a large recurring access charge widened the group of organisations able to perform that work without first buying a commercial demographic-data package.",
+      "markdown": "GIS software could already map disease records, but population-health analysis also needed national demographic information at appropriate geographic scales. Removing a large recurring access charge widened the group of organisations able to perform that work without first buying a commercial demographic-data package.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

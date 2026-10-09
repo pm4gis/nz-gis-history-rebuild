@@ -1,0 +1,63 @@
+{
+  "id": "passage:chapter-29-99e14779ee",
+  "slug": "a-profession-broader-than-one-platform-99e14779ee",
+  "articleId": "article:chapter-29",
+  "title": "A profession broader than one platform",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "profession"
+  ],
+  "recordIds": [
+    "chapter:29"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2020s no single vendor community could plausibly stand for the whole New Zealand geospatial profession. Esri remained highly visible, but QGIS, PostGIS, GeoServer and other open tools were established parts of production environments. FOSS4G held its global conference in Tāmaki Makaurau Auckland from 17 to 23 November 2025, placing New Zealand practitioners inside an international open-source ecosystem on home ground. Its presence made visible a community that had already spent years building and supporting open spatial infrastructure in New Zealand organisations.",
+      "markdown": "By the 2020s no single vendor community could plausibly stand for the whole New Zealand geospatial profession. Esri remained highly visible, but QGIS, PostGIS, GeoServer and other open tools were established parts of production environments. FOSS4G held its global conference in Tāmaki Makaurau Auckland from 17 to 23 November 2025, placing New Zealand practitioners inside an international open-source ecosystem on home ground. Its presence made visible a community that had already spent years building and supporting open spatial infrastructure in New Zealand organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "At the same time, platform-specific communities remained useful. In 2024, organisers reported that eight New Zealand Esri regional events involved about 650 people from roughly 400 organisations.",
+      "markdown": "At the same time, platform-specific communities remained useful. In 2024, organisers reported that eight New Zealand Esri regional events involved about 650 people from roughly 400 organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The broader profession was visible in the range of people who could now be involved in a spatial system. A project might include a business analyst defining user requirements, a spatial data engineer preparing pipelines, a database specialist maintaining PostgreSQL or an enterprise geodatabase, a developer building a web interface, a remote-sensing specialist processing imagery, a cartographer managing communication, and an architect connecting the whole system to identity, cloud or corporate infrastructure. Some would describe themselves as GIS professionals and some would not. The work still depended on geographic concepts even when the job title had moved away from GIS.",
+      "markdown": "The broader profession was visible in the range of people who could now be involved in a spatial system. A project might include a business analyst defining user requirements, a spatial data engineer preparing pipelines, a database specialist maintaining PostgreSQL or an enterprise geodatabase, a developer building a web interface, a remote-sensing specialist processing imagery, a cartographer managing communication, and an architect connecting the whole system to identity, cloud or corporate infrastructure. Some would describe themselves as GIS professionals and some would not. The work still depended on geographic concepts even when the job title had moved away from GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This breadth changed the meaning of professional competence. Knowing how to use a desktop GIS remained useful, but it was no longer enough to describe the field. Practitioners also needed to understand data quality, coordinate systems, metadata, privacy, databases, APIs, automation, visual communication and the organisational purpose behind the work. Different jobs required different depths, and no individual was expected to master every part of the stack.",
+      "markdown": "This breadth changed the meaning of professional competence. Knowing how to use a desktop GIS remained useful, but it was no longer enough to describe the field. Practitioners also needed to understand data quality, coordinate systems, metadata, privacy, databases, APIs, automation, visual communication and the organisational purpose behind the work. Different jobs required different depths, and no individual was expected to master every part of the stack.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Open-source communities reinforced this pluralism. QGIS, PostGIS, GeoServer and related tools created additional routes into development, contribution and support alongside commercial platforms. A practitioner could read source code, submit fixes, write plugins, join international mailing lists or build a production service without relying on a national distributor. The skills and social networks around those tools therefore crossed organisational and national boundaries in different ways from conventional vendor user groups.",
+      "markdown": "Open-source communities reinforced this pluralism. QGIS, PostGIS, GeoServer and related tools created additional routes into development, contribution and support alongside commercial platforms. A practitioner could read source code, submit fixes, write plugins, join international mailing lists or build a production service without relying on a national distributor. The skills and social networks around those tools therefore crossed organisational and national boundaries in different ways from conventional vendor user groups.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "At the same time, the expansion of cloud services and APIs made some spatial work look less like traditional GIS. A developer could build a location-aware application while rarely opening a desktop GIS. A data engineer could maintain spatial tables and pipelines without producing maps. An imagery specialist could spend most of the day in classification and processing environments. The common thread was the disciplined handling of location, geometry, spatial relationships and geographic reference across several kinds of interface.",
+      "markdown": "At the same time, the expansion of cloud services and APIs made some spatial work look less like traditional GIS. A developer could build a location-aware application while rarely opening a desktop GIS. A data engineer could maintain spatial tables and pipelines without producing maps. An imagery specialist could spend most of the day in classification and processing environments. The common thread was the disciplined handling of location, geometry, spatial relationships and geographic reference across several kinds of interface.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "OSGeo Oceania gave the open-source community a regional organisation and conference series. FOSS4G SotM Oceania met in Wellington in 2019 and Auckland in 2023, before Auckland hosted the global FOSS4G conference in 2025. The sequence made the New Zealand QGIS, OpenStreetMap and wider open geospatial community more visible as part of an Oceania-wide network.",
+      "sources": [
+        {
+          "label": "OSGeo Oceania, About",
+          "url": "https://osgeo-oceania.org/about/"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

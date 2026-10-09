@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0895",
+  "a": "person:sharon-richardson",
+  "b": "entity:critchlow",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

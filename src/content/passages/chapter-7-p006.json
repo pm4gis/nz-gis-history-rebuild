@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-7-3380695a6a",
+  "slug": "paper-still-carried-the-system-3380695a6a",
+  "articleId": "article:chapter-7",
+  "title": "Paper still carried the system",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Many users continued to obtain NZLRI information as printed maps. Paper worksheets and extended legends remained the main way the information was distributed for much of the period. A planner, catchment officer or consultant could work from a printed sheet showing the coded map units and then use the accompanying legend to interpret the rock, soil, slope, erosion, vegetation and LUC information. The GIS sat behind production and analysis while paper remained the practical interface for many users. Digital geography had arrived, but for plenty of people its user interface was still a folded sheet, a legend and enough desk space to spread them out.",
+      "markdown": "Many users continued to obtain NZLRI information as printed maps. Paper worksheets and extended legends remained the main way the information was distributed for much of the period. A planner, catchment officer or consultant could work from a printed sheet showing the coded map units and then use the accompanying legend to interpret the rock, soil, slope, erosion, vegetation and LUC information. The GIS sat behind production and analysis while paper remained the practical interface for many users. Digital geography had arrived, but for plenty of people its user interface was still a folded sheet, a legend and enough desk space to spread them out.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This arrangement suited organisations that needed the information without maintaining their own GIS. A regional office could request a particular map or use the standard worksheet series without buying specialist hardware and software. Where a different thematic view was needed, the database could support a new plot and the result could again be delivered on paper. Digital storage therefore widened the range of outputs before it changed the way every user accessed them.",
+      "markdown": "This arrangement suited organisations that needed the information without maintaining their own GIS. A regional office could request a particular map or use the standard worksheet series without buying specialist hardware and software. Where a different thematic view was needed, the database could support a new plot and the result could again be delivered on paper. Digital storage therefore widened the range of outputs before it changed the way every user accessed them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The separation also affected how errors and revisions travelled. A correction made to the maintained database could be incorporated into later plots, but an older worksheet already sitting in an office drawer did not update itself. Users could therefore be working from different editions or survey dates without the difference being obvious from the appearance of the map alone. Extended legends, edition information and source dates were part of using the data properly.",
+      "markdown": "The separation also affected how errors and revisions travelled. A correction made to the maintained database could be incorporated into later plots, but an older worksheet already sitting in an office drawer did not update itself. Users could therefore be working from different editions or survey dates without the difference being obvious from the appearance of the map alone. Extended legends, edition information and source dates were part of using the data properly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Regional planning used the same material at a broader scale. Agencies could compare the distribution of capability classes, erosion limitations or other land-resource characteristics across catchments or districts and identify areas requiring more detailed investigation. The national inventory was suitable for screening and regional assessment because it had been compiled consistently enough to support those comparisons. It was not a substitute for the detailed survey needed when a decision depended on conditions within a particular property or development site.",
+      "markdown": "Regional planning used the same material at a broader scale. Agencies could compare the distribution of capability classes, erosion limitations or other land-resource characteristics across catchments or districts and identify areas requiring more detailed investigation. The national inventory was suitable for screening and regional assessment because it had been compiled consistently enough to support those comparisons. It was not a substitute for the detailed survey needed when a decision depended on conditions within a particular property or development site.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

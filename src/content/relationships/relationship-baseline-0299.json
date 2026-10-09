@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0299",
+  "a": "person:claire-thurlow",
+  "b": "chapter:12",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

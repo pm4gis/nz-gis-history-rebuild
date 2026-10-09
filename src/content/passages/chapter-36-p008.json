@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-36-d9d482336e",
+  "slug": "finding-the-usable-observation-d9d482336e",
+  "articleId": "article:chapter-36",
+  "title": "Finding the usable observation",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36",
+    "entity:traverse-seamless"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Users selected suitable imagery from the more frequent coverage. New Zealand’s cloud, mountains, coast and strong seasonal differences make date selection part of the analysis. A nominal five-day or ten-day revisit does not mean a useful optical image appears every five or ten days. A pass may be obscured by cloud, affected by haze or captured at a time of year that makes comparison with an earlier scene misleading. The archive can therefore contain many observations of a place while only a smaller subset is suitable for a particular question.",
+      "markdown": "Users selected suitable imagery from the more frequent coverage. New Zealand’s cloud, mountains, coast and strong seasonal differences make date selection part of the analysis. A nominal five-day or ten-day revisit does not mean a useful optical image appears every five or ten days. A pass may be obscured by cloud, affected by haze or captured at a time of year that makes comparison with an earlier scene misleading. The archive can therefore contain many observations of a place while only a smaller subset is suitable for a particular question.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This changed the practitioner’s job from ordering the one affordable scene to screening a sequence. The user could inspect cloud cover, acquisition date and sensor characteristics, then choose several observations rather than treating the first available image as definitive. That is one reason free archives and repeated Sentinel coverage reinforced each other. The archive reduced the cost of looking again. The sensor programme increased the number of opportunities to find a useful view.",
+      "markdown": "This changed the practitioner’s job from ordering the one affordable scene to screening a sequence. The user could inspect cloud cover, acquisition date and sensor characteristics, then choose several observations rather than treating the first available image as definitive. That is one reason free archives and repeated Sentinel coverage reinforced each other. The archive reduced the cost of looking again. The sensor programme increased the number of opportunities to find a useful view.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Mosaics introduced another layer of judgement. A national satellite mosaic may appear continuous on screen even though neighbouring areas were captured on different dates. Cloud removal can require selecting pixels or tiles from several acquisitions. Vegetation may be at different stages of growth, snow may differ between mountain ranges, river colour may reflect different flow conditions and coastal water may have been recorded under different tides. The seamless visual result is a composite rather than a photograph of the whole country at one moment.",
+      "markdown": "Mosaics introduced another layer of judgement. A national satellite mosaic may appear continuous on screen even though neighbouring areas were captured on different dates. Cloud removal can require selecting pixels or tiles from several acquisitions. Vegetation may be at different stages of growth, snow may differ between mountain ranges, river colour may reflect different flow conditions and coastal water may have been recorded under different tides. The seamless visual result is a composite rather than a photograph of the whole country at one moment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The LINZ 2017/18 Sentinel-2 product combined imagery acquired across a year. Its national 10 metre layer was assembled from acquisitions spanning December 2016 to December 2017. The purpose was to create a consistent cloud-free visual layer, not to preserve one simultaneous national observation. That approach is entirely sensible for a basemap. It would be inappropriate to use the same mosaic uncritically for an analysis requiring every location to represent the same season or event date. Routine earth observation therefore increased the supply of imagery while making metadata about time even more important.",
+      "markdown": "The LINZ 2017/18 Sentinel-2 product combined imagery acquired across a year. Its national 10 metre layer was assembled from acquisitions spanning December 2016 to December 2017. The purpose was to create a consistent cloud-free visual layer, not to preserve one simultaneous national observation. That approach is entirely sensible for a basemap. It would be inappropriate to use the same mosaic uncritically for an analysis requiring every location to represent the same season or event date. Routine earth observation therefore increased the supply of imagery while making metadata about time even more important.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "person:roz-buick",
+  "slug": "roz-buick",
+  "name": "Roz Buick",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/roz-buick/",
+  "story": [
+    "By 1996 Linda Lilburne, George Benwell and Roz Buick were putting the architecture question more formally, warning that GIS could grow towards “bloatware” proportions if every specialist function were absorbed into one package and arguing instead for interoperability. The terminology is very 1990s; the platform-versus-specialist-tools argument is not."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Roz Buick"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

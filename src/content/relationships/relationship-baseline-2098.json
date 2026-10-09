@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2098",
+  "a": "person:daniel-nutsford",
+  "b": "chapter:43",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

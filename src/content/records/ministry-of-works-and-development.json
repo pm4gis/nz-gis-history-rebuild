@@ -1,0 +1,29 @@
+{
+  "id": "entity:ministry-of-works-and-development",
+  "slug": "ministry-of-works-and-development",
+  "name": "Ministry of Works and Development",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/ministry-of-works-and-development/",
+  "website": null,
+  "story": [
+    "Resource and infrastructure work at the Ministry of Works and Development helped establish early computer-based geographic information. The New Zealand Land Resource Inventory brought mapped information about land into a form that could be stored and analysed. Mainframe computing, resource classification and the requirements of government programmes shaped the work."
+  ],
+  "sources": [
+    {
+      "label": "DSIR Physics and Engineering Laboratory, Final Report: Landsat II Investigation Programme No. 28230, Report No. 587",
+      "url": "https://ntrs.nasa.gov/api/citations/19770026620/downloads/19770026620.pdf"
+    },
+    {
+      "label": "ESCAP GIS workshop report, Keith Carr contribution on New Zealand land/resource information and NZLRI",
+      "url": "https://repository.unescap.org/"
+    }
+  ],
+  "aliases": [
+    "Ministry of Works and Development"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

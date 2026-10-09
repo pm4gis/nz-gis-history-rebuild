@@ -1,0 +1,54 @@
+{
+  "id": "2011-our-environment",
+  "dateDisplay": "December 2011",
+  "startDate": "2011-12",
+  "datePrecision": "month",
+  "year": 2011,
+  "label": "Our Environment launched",
+  "summary": "Our Environment gave users browser access to a land atlas with environmental maps, queries and explanatory information.",
+  "url": "/stories/the-map-becomes-an-application/#s-map-and-our-environment-fabb1c89cf",
+  "passageIds": [
+    "passage:chapter-35-fabb1c89cf"
+  ],
+  "recordIds": [
+    "system:our-environment",
+    "person:david-medyckyj-scott",
+    "entity:manaaki-whenua-landcare-research",
+    "chapter:35",
+    "entity:vector"
+  ],
+  "themeIds": [],
+  "categories": [
+    "web mapping"
+  ],
+  "sources": [
+    {
+      "label": "Landcare Research press release, National soils data now available online, 29 August 2011",
+      "url": "https://www.scoop.co.nz/stories/SC1108/S00076/national-soils-data-now-available-online.htm"
+    },
+    {
+      "label": "New Zealand Cartographic Society, Cartographic Activities in New Zealand 2011–2015, printed pp.11–12: August and December 2011 releases and LINZ-derived basemaps",
+      "url": "https://icaci.org/files/documents/national_reports/2011-2015/new_zealand.pdf"
+    },
+    {
+      "label": "Landcare Research, Soil Horizons 20, September 2011, printed pp.4–5: LRIS Portal and S-map Online",
+      "url": "https://www.landcareresearch.co.nz/assets/Publications/Soil-Horizons/Soil_Horizons_20.pdf"
+    },
+    {
+      "label": "Landcare Research press release, National soils data now available online, 29 August 2011",
+      "url": "https://www.scoop.co.nz/stories/SC1108/S00076/national-soils-data-now-available-online.htm"
+    },
+    {
+      "label": "Our Environment, About this site: version 1 launched in 2011 and Informatics team",
+      "url": "https://ourenvironment.scinfo.org.nz/help/about"
+    },
+    {
+      "label": "New Zealand Cartographic Society, Cartographic Activities in New Zealand 2011–2015, printed pp.11–12: August and December 2011 releases and LINZ-derived basemaps",
+      "url": "https://icaci.org/files/documents/national_reports/2011-2015/new_zealand.pdf"
+    },
+    {
+      "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+      "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+    }
+  ]
+}

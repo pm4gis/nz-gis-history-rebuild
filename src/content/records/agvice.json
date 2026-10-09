@@ -1,0 +1,30 @@
+{
+  "id": "entity:agvice",
+  "slug": "agvice",
+  "name": "AgVice",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/agvice/",
+  "website": null,
+  "story": [
+    "AgVice used GIS, digital farm plans, drones and web mapping in farm-environment and catchment work. Eagle’s Wai Kōkopu material documents ArcGIS, StoryMaps and Experience Builder in the programme, while AgVice’s own material identifies Debbie Care as founder."
+  ],
+  "sources": [
+    {
+      "label": "AgVice, About",
+      "url": "https://www.agvice.co.nz/about/"
+    },
+    {
+      "label": "Eagle Technology, AgVice and Wai Kōkopu case material",
+      "url": "https://www.eagle.co.nz/node/355"
+    }
+  ],
+  "aliases": [
+    "AgVice"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:p-brabhaharan",
+  "slug": "p-brabhaharan",
+  "name": "P. Brabhaharan",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/p-brabhaharan/",
+  "story": [
+    "The 2005 earthquake-risk report prepared for Environment Canterbury by P. Brabhaharan, Robert Davey, Francis O’Riley and Leonard Wiles documents a difficult exchange of network information. Telecom kept Christchurch assets in Smallworld GIS and restricted release of its complete underground cable network. Earlier studies had received incomplete CAD extracts, and by 2005 the report described the loss of the earlier in-house drafting capability. Smallworld could translate layers and attributes, but producing a disconnected selection from the network remained difficult."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 25 · One asset, several systems",
+      "url": "/stories/mapping-the-networks/"
+    }
+  ],
+  "aliases": [
+    "P. Brabhaharan"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 25 · One asset, several systems",
+        "url": "/stories/mapping-the-networks/"
+      }
+    ]
+  ]
+}

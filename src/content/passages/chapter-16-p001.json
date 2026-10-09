@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-16-374f9056b5",
+  "slug": "census-boundaries-374f9056b5",
+  "articleId": "article:chapter-16",
+  "title": "Census boundaries",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A topographic boundary usually follows something that can be seen or measured in the landscape. A cadastral boundary represents a legal interest in land. Census geography has a different job. Its lines divide the country into units in which people, households and dwellings can be counted, coded and aggregated. A road, river, ridge or parcel boundary may provide a convenient edge, but the reason for the line is statistical rather than physical or legal. That difference made census geography an unusually useful form of national spatial infrastructure once its boundaries became digital.",
+      "markdown": "A topographic boundary usually follows something that can be seen or measured in the landscape. A cadastral boundary represents a legal interest in land. Census geography has a different job. Its lines divide the country into units in which people, households and dwellings can be counted, coded and aggregated. A road, river, ridge or parcel boundary may provide a convenient edge, but the reason for the line is statistical rather than physical or legal. That difference made census geography an unusually useful form of national spatial infrastructure once its boundaries became digital.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand had been organising population through maps long before GIS. By 1886 census enumerators were dividing their districts into sub-enumerator districts and marking those divisions on maps. The Survey Office prepared maps for the books used in the field, carrying the census subdivisions alongside boundaries that enumerators needed to recognise. After the count, mapped population could be used for other purposes. Lands and Survey records from the 1890s show population-distribution maps prepared from census results for the Representation Commission, connecting the geography of enumeration with the periodic redrawing of parliamentary representation.",
+      "markdown": "New Zealand had been organising population through maps long before GIS. By 1886 census enumerators were dividing their districts into sub-enumerator districts and marking those divisions on maps. The Survey Office prepared maps for the books used in the field, carrying the census subdivisions alongside boundaries that enumerators needed to recognise. After the count, mapped population could be used for other purposes. Lands and Survey records from the 1890s show population-distribution maps prepared from census results for the Representation Commission, connecting the geography of enumeration with the periodic redrawing of parliamentary representation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The process was already substantial by the 1901 census. Lands and Survey reported preparing 47 duplicate census maps and marking 986 sub-enumerator districts. District survey offices produced the working maps, Head Office checked them, and the subdivisions were later coloured and annotated so population could be allocated for the Representation Commission. One district reported that six draughtsmen could be occupied for about a month on tracing, marking and colouring the census mapping. Census geography defined the areas used to collect and publish population information. It was a recurring national cartographic production job carried by survey and statistical staff.",
+      "markdown": "The process was already substantial by the 1901 census. Lands and Survey reported preparing 47 duplicate census maps and marking 986 sub-enumerator districts. District survey offices produced the working maps, Head Office checked them, and the subdivisions were later coloured and annotated so population could be allocated for the Representation Commission. One district reported that six draughtsmen could be occupied for about a month on tracing, marking and colouring the census mapping. Census geography defined the areas used to collect and publish population information. It was a recurring national cartographic production job carried by survey and statistical staff.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

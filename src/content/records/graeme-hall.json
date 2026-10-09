@@ -1,0 +1,48 @@
+{
+  "id": "person:graeme-hall",
+  "slug": "graeme-hall",
+  "name": "Graeme Hall",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/graeme-hall/",
+  "story": [
+    "Graeme Hall co-authored the 1989 account of the Mackenzie Protected Natural Areas ecological GIS with Peter Espie.",
+    "Peter Espie and Graeme Hall described an ecological GIS for the Mackenzie Basin in 1989. Their work brought vegetation, fauna, landform, soil and other information from the Protected Natural Areas survey into a microcomputer GIS. Users could classify the records by an ecological attribute or examine combinations such as vegetation type and landform. Results could be mapped in two or three dimensions."
+  ],
+  "sources": [
+    {
+      "label": "Peter Espie and Graeme Hall, Management applications using the Mackenzie PNA database, New Zealand Journal of Ecology 12, 1989, p.128",
+      "url": "https://newzealandecology.org/nzje/1825"
+    },
+    {
+      "label": "Chapter 9 · Mackenzie ecological GIS, 1989",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Graeme Hall"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Peter Espie and Graeme Hall, Management applications using the Mackenzie PNA database, New Zealand Journal of Ecology 12, 1989, p.128",
+        "url": "https://newzealandecology.org/nzje/1825"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · Mackenzie ecological GIS, 1989",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Mackenzie ecological GIS, 1989",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ]
+}

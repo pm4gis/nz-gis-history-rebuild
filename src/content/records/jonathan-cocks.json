@@ -1,0 +1,31 @@
+{
+  "id": "person:jonathan-cocks",
+  "slug": "jonathan-cocks",
+  "name": "Jonathan Cocks",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jonathan-cocks/",
+  "story": [
+    "Jonathan Cocks of DSIR Crop Research at Lincoln proposed the in-camera radiometer used in PEL’s aircraft multispectral work. The 1976 Landsat report credits his idea for measuring target radiance during photographic surveys."
+  ],
+  "sources": [
+    {
+      "label": "NASA/DSIR New Zealand Landsat II investigation reports, NASA-CR-146632 and related",
+      "url": "https://ntrs.nasa.gov/api/citations/19760013518/downloads/19760013518.pdf"
+    }
+  ],
+  "aliases": [
+    "Jonathan Cocks"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NASA/DSIR New Zealand Landsat II investigation reports, NASA-CR-146632 and related",
+        "url": "https://ntrs.nasa.gov/api/citations/19760013518/downloads/19760013518.pdf"
+      }
+    ]
+  ]
+}

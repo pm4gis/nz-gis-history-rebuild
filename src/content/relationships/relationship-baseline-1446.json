@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1446",
+  "a": "entity:university-of-canterbury",
+  "b": "chapter:6",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-6-b5f009e26c",
+    "passage:chapter-6-e04c029193"
+  ],
+  "sources": []
+}

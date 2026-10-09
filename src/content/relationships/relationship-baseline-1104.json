@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1104",
+  "a": "person:tony-shepherd",
+  "b": "entity:gore-district-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

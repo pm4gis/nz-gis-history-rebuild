@@ -1,0 +1,31 @@
+{
+  "id": "person:scott-tansley",
+  "slug": "scott-tansley",
+  "name": "Scott Tansley",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/scott-tansley/",
+  "story": [
+    "LINZ’s geospatial industry career material profiles Scott Tansley: Statistics NZ Senior Geospatial Consultant from 2013; spatial enablement programme; previously NorthSouth GIS."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Working in New Zealand’s geospatial industry",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry"
+    }
+  ],
+  "aliases": [
+    "Scott Tansley"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Working in New Zealand’s geospatial industry",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry"
+      }
+    ]
+  ]
+}

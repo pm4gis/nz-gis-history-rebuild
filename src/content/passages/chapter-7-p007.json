@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-7-6b5f5a778a",
+  "slug": "from-map-to-farm-plan-6b5f5a778a",
+  "articleId": "article:chapter-7",
+  "title": "From map to farm plan",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "At farm scale, the land-capability approach became more specific. Soil and water conservation planning used land inventory and capability assessments to divide a property according to erosion risk, wetness, soil limitations and other constraints. Conservation staff could then recommend different treatment for different parts of the farm rather than assume one management practice suited the whole property.",
+      "markdown": "At farm scale, the land-capability approach became more specific. Soil and water conservation planning used land inventory and capability assessments to divide a property according to erosion risk, wetness, soil limitations and other constraints. Conservation staff could then recommend different treatment for different parts of the farm rather than assume one management practice suited the whole property.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The map might separate flatter cultivable land from steeper pastoral land, erosion-prone faces and areas better kept under protective vegetation. The classes described different land capabilities and management constraints. A lower-capability unit could still have a productive role if managed within its physical limits, while Class 8 land could be valuable for catchment protection, biodiversity, recreation or water yield. The classification described capability for sustained production, not the total value of a place.",
+      "markdown": "The map might separate flatter cultivable land from steeper pastoral land, erosion-prone faces and areas better kept under protective vegetation. The classes described different land capabilities and management constraints. A lower-capability unit could still have a productive role if managed within its physical limits, while Class 8 land could be valuable for catchment protection, biodiversity, recreation or water yield. The classification described capability for sustained production, not the total value of a place.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Catchment authorities and later regional councils continued preparing detailed land-capability maps and soil-conservation plans after the national first-edition programme had finished. These local surveys worked at finer scales than the national NZLRI and could record variation that the regional dataset necessarily generalised. A farm-scale plan and the national inventory therefore served related but different purposes.",
+      "markdown": "Catchment authorities and later regional councils continued preparing detailed land-capability maps and soil-conservation plans after the national first-edition programme had finished. These local surveys worked at finer scales than the national NZLRI and could record variation that the regional dataset necessarily generalised. A farm-scale plan and the national inventory therefore served related but different purposes.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This difference in scale would later become easy to overlook in GIS. A national polygon could be clipped neatly to a farm boundary and displayed beside detailed property information. That did not make the national land-resource mapping a farm survey. The operation changed the extent of the file, not the scale at which the original information had been collected.",
+      "markdown": "This difference in scale would later become easy to overlook in GIS. A national polygon could be clipped neatly to a farm boundary and displayed beside detailed property information. That did not make the national land-resource mapping a farm survey. The operation changed the extent of the file, not the scale at which the original information had been collected.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

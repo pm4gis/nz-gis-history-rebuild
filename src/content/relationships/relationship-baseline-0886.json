@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0886",
+  "a": "person:jamie-burmeister",
+  "b": "entity:adapt-solutions",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

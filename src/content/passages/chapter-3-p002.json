@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-3-92c45d797e",
+  "slug": "metric-conversion-92c45d797e",
+  "articleId": "article:chapter-3",
+  "title": "Metric conversion",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:3",
+    "person:w-i-reilly"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "MAPPAK developed during a period when Lands and Survey faced a large conversion programme. New Zealand was changing from imperial to metric measurement and adopting the New Zealand Map Grid for national metric mapping. W. I. Reilly published the NZMG design in 1973, and the new 1:50,000 NZMS260 topographic series began appearing later in the decade. The first sheet, T12 Thames, was published in 1977.",
+      "markdown": "MAPPAK developed during a period when Lands and Survey faced a large conversion programme. New Zealand was changing from imperial to metric measurement and adopting the New Zealand Map Grid for national metric mapping. W. I. Reilly published the NZMG design in 1973, and the new 1:50,000 NZMS260 topographic series began appearing later in the decade. The first sheet, T12 Thames, was published in 1977.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Metrication affected much more than labels and scale bars. Existing cadastral and topographic information had been compiled under older measurement systems, projections and sheet layouts. New metric series required coordinates, linework and annotation to be transformed or recompiled. Lands and Survey had thousands of sheets to deal with, so repeated mathematical conversion and automated plotting were obvious candidates for computer processing.",
+      "markdown": "Metrication affected much more than labels and scale bars. Existing cadastral and topographic information had been compiled under older measurement systems, projections and sheet layouts. New metric series required coordinates, linework and annotation to be transformed or recompiled. Lands and Survey had thousands of sheets to deal with, so repeated mathematical conversion and automated plotting were obvious candidates for computer processing.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NZMG was designed specifically for New Zealand and used a polynomial formulation rather than one of the more common projection implementations later built into international software. It reduced scale distortion effectively across the country, but its specialised mathematics later caused compatibility problems in generic navigation and mapping software. During the 1970s the immediate task was simpler: convert existing material into the new national mapping framework and produce replacement maps. Colley’s thesis treated that conversion as both a cartographic and data-management problem.",
+      "markdown": "NZMG was designed specifically for New Zealand and used a polynomial formulation rather than one of the more common projection implementations later built into international software. It reduced scale distortion effectively across the country, but its specialised mathematics later caused compatibility problems in generic navigation and mapping software. During the 1970s the immediate task was simpler: convert existing material into the new national mapping framework and produce replacement maps. Colley’s thesis treated that conversion as both a cartographic and data-management problem.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The thesis separated several tasks that had often been part of one manual workflow. Existing linework had to be captured. Coordinates had to be transformed. The resulting geometry had to be checked and edited. Cartographic output still had to meet acceptable production standards, while descriptive information associated with the geometry had to be stored in a form that could be reused.",
+      "markdown": "The thesis separated several tasks that had often been part of one manual workflow. Existing linework had to be captured. Coordinates had to be transformed. The resulting geometry had to be checked and edited. Cartographic output still had to meet acceptable production standards, while descriptive information associated with the geometry had to be stored in a form that could be reused.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

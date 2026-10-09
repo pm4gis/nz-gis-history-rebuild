@@ -1,0 +1,31 @@
+{
+  "id": "person:randolph-hambling",
+  "slug": "randolph-hambling",
+  "name": "Randolph Hambling",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/randolph-hambling/",
+  "story": [
+    "Project manager Randolph Hambling described MapInfo’s use in the Ministry of Forestry’s East Coast erosion-control programme in 1995. The work involved landowners, planting areas and payments, so the GIS had to connect mapped polygons with the records used to administer the scheme. Wellington-based Critchlow Associates was identified as the MapInfo master agent."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 22 · MapInfo in Gisborne",
+      "url": "/stories/gis-comes-to-the-desktop/"
+    }
+  ],
+  "aliases": [
+    "Randolph Hambling"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 22 · MapInfo in Gisborne",
+        "url": "/stories/gis-comes-to-the-desktop/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:patrick-de-jong",
+  "slug": "patrick-de-jong",
+  "name": "Patrick de Jong",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/patrick-de-jong/",
+  "story": [
+    "Patrick de Jong studied forest science at the Australian National University from 2012 to 2015. His professional profile records work with CarbonCrop and volunteer service as a firefighter and GIS analyst with Fire and Emergency New Zealand. His forestry mapping therefore sits alongside practical work in environmental information and emergency response.",
+    "Patrick de Jong presented Esri field applications in forestry in 2018."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "Patrick de Jong - CarbonCrop | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/patrick-de-jong-carbon"
+    }
+  ],
+  "aliases": [
+    "Patrick de Jong"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Patrick de Jong - CarbonCrop | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/patrick-de-jong-carbon"
+      }
+    ],
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1996-guild-on-the-web",
+  "dateDisplay": "January 1996",
+  "startDate": "1996-01",
+  "datePrecision": "month",
+  "year": 1996,
+  "label": "GUILD-on-the-Web released",
+  "summary": "Landcare Research released GUILD-on-the-Web, developed under Robert Gibb’s leadership with David Medyckyj-Scott as co-developer.",
+  "url": "/stories/the-first-web-maps/#guild-on-the-web-1996-1ac44c5733",
+  "passageIds": [
+    "passage:chapter-30-1ac44c5733"
+  ],
+  "recordIds": [
+    "system:guild-on-the-web",
+    "person:r-g-gibb",
+    "person:david-medyckyj-scott",
+    "entity:manaaki-whenua-landcare-research",
+    "chapter:30",
+    "entity:university-of-otago"
+  ],
+  "themeIds": [],
+  "categories": [
+    "web mapping"
+  ],
+  "sources": [
+    {
+      "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+      "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+    },
+    {
+      "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+      "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+    },
+    {
+      "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+      "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+    },
+    {
+      "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+      "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+    },
+    {
+      "label": "UKOLN, JISC-CNI 2000 speaker biography: David Medyckyj-Scott",
+      "url": "https://www.ukoln.ac.uk/events/jisc-cni-2000/presentations/jisc_biographies.html"
+    },
+    {
+      "label": "Morris, Medyckyj-Scott and Burnhill, EDINA Digimap, LIBER Quarterly 10(4), 2000, DOI 10.18352/lq.7615",
+      "url": "https://liberquarterly.eu/article/view/10218"
+    }
+  ]
+}

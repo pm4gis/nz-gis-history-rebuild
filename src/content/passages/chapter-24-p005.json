@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-24-52ac4c0640",
+  "slug": "fisheries-builds-a-spatial-service-52ac4c0640",
+  "articleId": "article:chapter-24",
+  "title": "Fisheries builds a spatial service",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:24"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Ministry of Fisheries developed another model in the following years. The National Aquatic Biodiversity Information System, usually shortened to NABIS, was developed in 2001 as a geospatial data reporting and management tool. It brought together spatial information relevant to New Zealand fisheries and marine biodiversity, including species distributions, fisheries management areas and commercial catch. By the middle of the decade it was operating as a web-based GIS used in fisheries and biodiversity planning, monitoring and policy work.",
+      "markdown": "The Ministry of Fisheries developed another model in the following years. The National Aquatic Biodiversity Information System, usually shortened to NABIS, was developed in 2001 as a geospatial data reporting and management tool. It brought together spatial information relevant to New Zealand fisheries and marine biodiversity, including species distributions, fisheries management areas and commercial catch. By the middle of the decade it was operating as a web-based GIS used in fisheries and biodiversity planning, monitoring and policy work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Marine administration is inherently geographic. Quota management areas have boundaries. Commercial catch is reported against defined areas and locations. Species distributions vary across depth, habitat and region. Marine reserves, fishing restrictions and other management zones overlap a physical environment that has no roads or parcel boundaries to orient the user. A spatial system provided a common interface for information that otherwise sat in separate research, management and administrative records.",
+      "markdown": "Marine administration is inherently geographic. Quota management areas have boundaries. Commercial catch is reported against defined areas and locations. Species distributions vary across depth, habitat and region. Marine reserves, fishing restrictions and other management zones overlap a physical environment that has no roads or parcel boundaries to orient the user. A spatial system provided a common interface for information that otherwise sat in separate research, management and administrative records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NABIS allowed users to build maps from selected layers rather than receive only a fixed published map. A user could combine a base map with biological distributions, management boundaries and catch information. The system therefore served several types of work from the same maintained information. A policy analyst could examine an area under consideration, a researcher could compare biological and management geography, and an external user could inspect information without obtaining the ministry’s internal GIS software.",
+      "markdown": "NABIS allowed users to build maps from selected layers rather than receive only a fixed published map. A user could combine a base map with biological distributions, management boundaries and catch information. The system therefore served several types of work from the same maintained information. A policy analyst could examine an area under consideration, a researcher could compare biological and management geography, and an external user could inspect information without obtaining the ministry’s internal GIS software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The service also became a continuing programme rather than a one-off web publication. A 2009 study of spatial information in the New Zealand economy recorded three full-time-equivalent staff focused on NABIS management and development. A May 2008 survey of about 2,000 users informed work on a second-generation system. Forty survey respondents estimated an average productivity improvement of about nine per cent.",
+      "markdown": "The service also became a continuing programme rather than a one-off web publication. A 2009 study of spatial information in the New Zealand economy recorded three full-time-equivalent staff focused on NABIS management and development. A May 2008 survey of about 2,000 users informed work on a second-generation system. Forty survey respondents estimated an average productivity improvement of about nine per cent.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Specialist staff maintained the layers, checked new material, managed the application and decided how the information would be presented. The ministry could maintain spatial information centrally while policy staff, researchers and external users interacted with selected parts of it through a common service.",
+      "markdown": "Specialist staff maintained the layers, checked new material, managed the application and decided how the information would be presented. The ministry could maintain spatial information centrally while policy staff, researchers and external users interacted with selected parts of it through a common service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NABIS combined geographic query with fisheries information held in other systems. A user interested in orange roughy catch or a fisheries management area did not need to think first about GIS software. The task was to find and compare fisheries information by location. The mapping technology remained underneath the service, but the business subject increasingly defined the experience.",
+      "markdown": "NABIS combined geographic query with fisheries information held in other systems. A user interested in orange roughy catch or a fisheries management area did not need to think first about GIS software. The task was to find and compare fisheries information by location. The mapping technology remained underneath the service, but the business subject increasingly defined the experience.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

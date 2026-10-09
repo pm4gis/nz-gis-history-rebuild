@@ -1,0 +1,48 @@
+{
+  "id": "article:chapter-37",
+  "slug": "lidar-remakes-the-landscape",
+  "title": "LiDAR mapping",
+  "url": "/stories/lidar-remakes-the-landscape/",
+  "summary": "For four days in July 2003, an aircraft crossed Christchurch and part of the adjoining Waimakariri River corridor carrying a laser scanner. Christchurch City Council commissioned the survey, flown by AAM GeoScan from 6 to 9 July. ",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 37,
+  "themeIds": [
+    "imagery"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch37-note-01",
+      "text": "1. Project records for Christchurch City Council and AAM GeoScan support the airborne LiDAR acquisition from 6 to 9 July 2003 over Christchurch and part of the Waimakariri corridor, including GPS control, point classification, checking/editing and delivered terrain products. In the current evidence this is the earliest firmly documented operational council LiDAR survey. It is not claimed as the first New Zealand LiDAR survey."
+    },
+    {
+      "id": "ch37-note-02",
+      "text": "2. Further Canterbury acquisitions in July 2005 and February 2008 support the transition from a single local contract towards repeated and regional elevation coverage. These records are used to demonstrate reuse and chronology rather than national priority."
+    },
+    {
+      "id": "ch37-note-03",
+      "text": "3. North Shore City material supports a 2004 LiDAR survey, two-metre terrain model, MIKE 21 overland-flow modelling from 2005, field verification during 2005/06 and later GIS/property use. The sources describe laser survey, terrain modelling, hydraulic analysis, field checks and integration with corporate GIS."
+    },
+    {
+      "id": "ch37-note-04",
+      "text": "4. Canterbury earthquake-era comparisons use pre-event LiDAR as a baseline for later subsidence and flood-vulnerability work. The chapter confines this to the measurement value of repeated elevation surveys; the wider earthquake response and common operating picture belong in Chapter 42."
+    },
+    {
+      "id": "ch37-note-05",
+      "text": "5. LINZ Provincial Growth Fund LiDAR programme and outcome reporting, Master Research Register P9C-S21, is the principal national-programme route. It documents the coordinated programme from 2018 and national coverage increasing from roughly one-fifth towards roughly four-fifths by 2024, with open point clouds and derived DEM/DSM products. Coverage percentages refer to the dates of the particular sources; later coverage does not describe the position at the 2018 funding decision."
+    },
+    {
+      "id": "ch37-note-06",
+      "text": "6. LINZ National Aerial LiDAR Base Specification and programme material support common coordinate, vertical-datum, classification, accuracy, reporting and deliverable requirements, including classified point clouds and one-metre derived elevation/surface products. A one-metre grid must not be described as one-metre positional accuracy."
+    },
+    {
+      "id": "ch37-note-07",
+      "text": "7. LAS/LAZ point clouds, bare-earth DEMs, surface models, contours and hillshades remain technically distinct. The chapter follows source terminology where historical documents use DEM, DTM or DSM inconsistently."
+    },
+    {
+      "id": "ch37-note-08",
+      "text": "8. LiDAR does not establish legal cadastral boundaries and ordinary topographic LiDAR does not automatically measure underwater terrain. Bathymetric LiDAR is a separate specialised acquisition. These controls prevent the visual precision of the data from being overstated."
+    }
+  ]
+}

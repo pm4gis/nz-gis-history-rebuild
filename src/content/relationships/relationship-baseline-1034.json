@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1034",
+  "a": "person:lex-chalmers",
+  "b": "entity:university-of-waikato",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

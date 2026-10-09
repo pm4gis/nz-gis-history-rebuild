@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1231",
+  "a": "system:timaru-significant-natural-areas-survey",
+  "b": "entity:timaru-district-council",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

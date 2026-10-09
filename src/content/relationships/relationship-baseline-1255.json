@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1255",
+  "a": "entity:abley",
+  "b": "chapter:12",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-12-b51b8936ec"
+  ],
+  "sources": []
+}

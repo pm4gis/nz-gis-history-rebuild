@@ -1,0 +1,39 @@
+{
+  "id": "person:steve-edbrooke",
+  "slug": "steve-edbrooke",
+  "name": "Steve Edbrooke",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/steve-edbrooke/",
+  "story": [
+    "Steve Edbrooke compiled the Kermadec Islands, North Island and northern South Island geology for GNS Science’s 1:1 million national map. He was also a compiler in the underlying QMAP series."
+  ],
+  "sources": [
+    {
+      "label": "GNS/Earth Sciences NZ 1:250 000 Geological Map and QMAP history",
+      "url": "https://www.gns.cri.nz/data-and-resources/1250-000-geological-map/"
+    },
+    {
+      "label": "GNS Science, 1:1 million Geological Map service: compilation and digital-production credits",
+      "url": "https://gis.gns.cri.nz/server/rest/services/Geological_Map_of_New_Zealand_1_Million/NZL_GNS_1M_geology_FeatureService/FeatureServer"
+    }
+  ],
+  "aliases": [
+    "Steve Edbrooke"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "GNS/Earth Sciences NZ 1:250 000 Geological Map and QMAP history",
+        "url": "https://www.gns.cri.nz/data-and-resources/1250-000-geological-map/"
+      },
+      {
+        "label": "GNS Science, 1:1 million Geological Map service: compilation and digital-production credits",
+        "url": "https://gis.gns.cri.nz/server/rest/services/Geological_Map_of_New_Zealand_1_Million/NZL_GNS_1M_geology_FeatureService/FeatureServer"
+      }
+    ]
+  ]
+}

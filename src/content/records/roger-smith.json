@@ -1,0 +1,42 @@
+{
+  "id": "person:roger-smith",
+  "slug": "roger-smith",
+  "name": "Roger Smith",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/roger-smith/",
+  "story": [
+    "Roger Smith founded Geographx in 1998, producing maps that used terrain modelling, natural-colour basemaps and oblique views to communicate landforms. He curated the National Library’s Unfolding the Map exhibition in 2015 and received the 2017 New Zealand Spatial Excellence Award for outstanding contribution. He served as New Zealand Cartographic Society president from 2018 to 2022.",
+    "Roger Smith established Geographx as a map-design studio in 1998, combining digital terrain, spatial data and cartographic production in work ranging from natural-colour New Zealand basemaps to major atlas projects."
+  ],
+  "sources": [
+    {
+      "label": "Geographx, About: studio history and Roger Smith’s cartography",
+      "url": "https://www.geographx.co.nz/about/"
+    },
+    {
+      "label": "Chapter 12 · Company staff",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Roger Smith"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Geographx, About: studio history and Roger Smith’s cartography",
+        "url": "https://www.geographx.co.nz/about/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Company staff",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

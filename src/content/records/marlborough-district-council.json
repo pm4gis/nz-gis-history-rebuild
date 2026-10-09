@@ -1,0 +1,26 @@
+{
+  "id": "entity:marlborough-district-council",
+  "slug": "marlborough-district-council",
+  "name": "Marlborough District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/marlborough-district-council/",
+  "website": "https://www.marlborough.govt.nz",
+  "story": [
+    "By 2006, Marlborough District Council used GIS in resource management and hazard work. Staff digitised hand-drawn Renwick fault traces from historic and modern aerial photographs."
+  ],
+  "sources": [
+    {
+      "label": "Geotech Consulting Ltd letter to Marlborough District Council, Possible fault traces in and near Renwick",
+      "url": "https://data.marlborough.govt.nz/trim/api/trim/get?application=smtechreports&company=mdc&id=14257515"
+    }
+  ],
+  "aliases": [
+    "Marlborough District Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

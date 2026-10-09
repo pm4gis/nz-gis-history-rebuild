@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0991",
+  "a": "person:kim-ollivier",
+  "b": "entity:ollivier-company",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

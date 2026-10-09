@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1930",
+  "a": "person:lien-pham",
+  "b": "chapter:44",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-44-bc3f33378c"
+  ],
+  "sources": []
+}

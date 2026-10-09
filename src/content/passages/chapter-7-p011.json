@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-7-007da9644e",
+  "slug": "a-database-can-age-007da9644e",
+  "articleId": "article:chapter-7",
+  "title": "A database can age",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the mid-1990s funding for regional-scale NZLRI remapping had largely ceased. Institutional histories later described the national database as static in some respects and acknowledged that parts of the information had become outdated. Land cover changes, new erosion, changing drainage, forestry, subdivision and revised soil or geological knowledge could all alter conditions after the original survey.",
+      "markdown": "By the mid-1990s funding for regional-scale NZLRI remapping had largely ceased. Institutional histories later described the national database as static in some respects and acknowledged that parts of the information had become outdated. Land cover changes, new erosion, changing drainage, forestry, subdivision and revised soil or geological knowledge could all alter conditions after the original survey.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The problem affected different attributes differently. Rock type changed slowly and could remain useful for decades, while vegetation and erosion could change substantially over much shorter periods. A polygon could therefore contain a mixture of relatively durable physical information and observations tied closely to the date of survey. Treating the whole record as equally current would hide that distinction.",
+      "markdown": "The problem affected different attributes differently. Rock type changed slowly and could remain useful for decades, while vegetation and erosion could change substantially over much shorter periods. A polygon could therefore contain a mixture of relatively durable physical information and observations tied closely to the date of survey. Treating the whole record as equally current would hide that distinction.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Digitised data still required maintenance. It made updates technically easier once revised information existed, but someone still had to fund new mapping, field checks and interpretation. A national database could survive organisational restructuring and software changes while gradually becoming less current in places where no new survey work was carried out.",
+      "markdown": "Digitised data still required maintenance. It made updates technically easier once revised information existed, but someone still had to fund new mapping, field checks and interpretation. A national database could survive organisational restructuring and software changes while gradually becoming less current in places where no new survey work was carried out.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The institutional home also changed. Water and Soil functions passed through the restructuring of the late 1980s and early 1990s, and Landcare Research inherited the national land-resource database during Crown Research Institute formation. The data later became part of nationally significant science collections and eventually moved into modern online distribution systems. Those later access changes rested on the same polygons and classifications built through the earlier survey programme.",
+      "markdown": "The institutional home also changed. Water and Soil functions passed through the restructuring of the late 1980s and early 1990s, and Landcare Research inherited the national land-resource database during Crown Research Institute formation. The data later became part of nationally significant science collections and eventually moved into modern online distribution systems. Those later access changes rested on the same polygons and classifications built through the earlier survey programme.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

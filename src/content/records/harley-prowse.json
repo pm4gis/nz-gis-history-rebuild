@@ -1,0 +1,44 @@
+{
+  "id": "person:harley-prowse",
+  "slug": "harley-prowse",
+  "name": "Harley Prowse",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/harley-prowse/",
+  "story": [
+    "Harley Prowse and Tony Elson met at GTU, a GIS consultancy associated with Auckland UniServices, before working independently and forming GBS in June 2002. GBS’s 2022 retrospective recalls David Hawke as a mentor to both. The account follows their move from individual contracting to a consultancy serving councils, utilities, forestry and agricultural clients.",
+    "Harley Prowse and Tony Elson met through GTU, associated with Auckland UniServices, and formed GBS in June 2002 after contracting independently. The company’s retrospective records its early hires, a client base spanning councils, utilities, forestry, research and agriculture, and Esri Silver and Gold partner milestones in 2011 and 2013. GBS later established an affiliate in Korea and began US operations."
+  ],
+  "sources": [
+    {
+      "label": "GBS, 20 years of GBS: a short history, 28 September 2022",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    },
+    {
+      "label": "Chapter 12 · A consultancy appears",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Harley Prowse"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "GBS, 20 years of GBS: a short history, 28 September 2022",
+        "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · A consultancy appears",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

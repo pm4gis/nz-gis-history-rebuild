@@ -1,0 +1,29 @@
+{
+  "id": "entity:e-spatial",
+  "slug": "e-spatial",
+  "name": "e-Spatial",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/e-spatial/",
+  "website": null,
+  "story": [
+    "Matti Seikkula and Simon Jellie co-founded e-Spatial, which began operating in 1998 and was incorporated in 1999. The company worked in location intelligence, land and property information, connecting geographic data with business systems. A merger with Harrison Grierson was announced in 2017."
+  ],
+  "sources": [
+    {
+      "label": "Management Magazine NZ / CIO NZ / Harrison Grierson material on e-Spatial",
+      "url": "https://management.co.nz/news/harrison-grierson-merges-and-diversifies"
+    },
+    {
+      "label": "e-Spatial Limited registry-derived record plus Commerce Commission 2013 description",
+      "url": "https://www.companyhub.nz/companyDetails.cfm?nzbn=9429037578091"
+    }
+  ],
+  "aliases": [
+    "e-Spatial"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

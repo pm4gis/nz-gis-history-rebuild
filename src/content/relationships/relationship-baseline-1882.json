@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1882",
+  "a": "person:leonard-wiles",
+  "b": "chapter:25",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-25-b239127218"
+  ],
+  "sources": []
+}

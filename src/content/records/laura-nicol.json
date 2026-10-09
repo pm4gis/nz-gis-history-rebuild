@@ -1,0 +1,50 @@
+{
+  "id": "person:laura-nicol",
+  "slug": "laura-nicol",
+  "name": "Laura Nicol",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/laura-nicol/",
+  "story": [
+    "The December 1998 Dunedin City Lifelines Project report lists Laura Nicol, GIS Analyst in Dunedin City Council’s City Consultants, among its special contributors. The project assessed infrastructure vulnerability to natural hazards. Nicol later appears on the project-held December 2008 NZEUG committee list, linking council practice with the profession’s volunteer network.",
+    "Steve Richards and Greg Bennett had left the committee at the December 2008 AGM, and the new committee was listed as Byron Cochrane, Glenn Russell, Igor Albornett, John Thyne, Junior Lee-Chee, Laura Nicol, Meghan Williams, Peter Fraser, Rachel Summers, Richard Wells and Tony Standen."
+  ],
+  "sources": [
+    {
+      "label": "Dunedin City Lifelines Project report, December 1998: contributors",
+      "url": "https://www.dunedin.govt.nz/__data/assets/pdf_file/0006/1234896/dunedin-city-lifelines-project-report-december-1998.pdf"
+    },
+    {
+      "label": "NZEUG, December 2008 newsletter",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Laura Nicol"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Dunedin City Lifelines Project report, December 1998: contributors",
+        "url": "https://www.dunedin.govt.nz/__data/assets/pdf_file/0006/1234896/dunedin-city-lifelines-project-report-december-1998.pdf"
+      },
+      {
+        "label": "NZEUG, December 2008 newsletter",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

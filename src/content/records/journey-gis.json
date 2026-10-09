@@ -1,0 +1,34 @@
+{
+  "id": "entity:journey-gis",
+  "slug": "journey-gis",
+  "name": "Journey GIS",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/journey-gis/",
+  "website": null,
+  "story": [
+    "Journey GIS, named as GIS Journey Limited in LINZ’s annual report, supported practical geospatial learning and Māori mapping capability. From October 2020, the company supported fortnightly Ngā Poutama Matawhenua online wānanga delivered by LINZ with Te Kāhui Manu Hōkai Māori GIS Association.",
+    "The wānanga offered applied GIS learning for iwi, Māori trusts and environmental groups. The collaboration received the 2021 Spatial Excellence Community Impact award, announced in February 2022. "
+  ],
+  "sources": [
+    {
+      "label": "LINZ Annual Report 2020/21",
+      "url": "https://www.linz.govt.nz/sites/default/files/corp/toitu-te-whenua_annual-report-20-21-a11y-web_20211201.pdf"
+    },
+    {
+      "label": "Survey & Spatial NZ, 2021 Spatial Excellence Awards",
+      "url": "https://www.spatialsource.com.au/nz-spatial-excellence-awards-winners-announced/"
+    }
+  ],
+  "aliases": [
+    "Journey GIS",
+    "GIS Journey Limited",
+    "GIS Journey"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "person:kirsty-mackie",
+  "slug": "kirsty-mackie",
+  "name": "Kirsty Mackie",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kirsty-mackie/",
+  "story": [
+    "Women in Spatial + Survey’s committee biography describes Kirsty Mackie using GIS and remote sensing for geomorphometric analysis, then carrying GIS skills into photogrammetry and reality-capture work. The group records that she became its chair in 2023 and helped grow its Auckland branch.",
+    "Kirsty Mackie used GIS and remote sensing for geomorphometric analysis, then carried those skills into photogrammetry and reality-capture practice; she became WIS+S chair in 2023. "
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial + Survey, The Committee",
+      "url": "https://womeninspatial.wordpress.com/the-committee/"
+    },
+    {
+      "label": "Kirsty Mackie - Global Survey New Zealand | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/kirsty-mackie"
+    },
+    {
+      "label": "Chapter 29 · New professional networks",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Kirsty Mackie"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Women in Spatial + Survey, The Committee",
+        "url": "https://womeninspatial.wordpress.com/the-committee/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · New professional networks",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

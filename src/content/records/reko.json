@@ -1,0 +1,50 @@
+{
+  "id": "person:reko",
+  "slug": "reko",
+  "name": "Reko",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/reko/",
+  "story": [
+    "Reko shared South Island interior geographic knowledge with John Turnbull Thomson at Tūtūrau in 1856, including a map drawn in dust.",
+    "In 1856 Reko shared knowledge of the South Island interior with John Turnbull Thomson at Tūtūrau, including a map drawn in dust. Thomson’s subsequent reconnaissance and later published mapping formed a further stage in the record."
+  ],
+  "sources": [
+    {
+      "label": "National Library of New Zealand, Reko, 1803?-1868 authority record",
+      "url": "https://natlib.govt.nz/records/22394114"
+    },
+    {
+      "label": "Turnbull Library Record, Maori geographical knowledge and mapping, 1 May 1980",
+      "url": "https://paperspast.natlib.govt.nz/periodicals/TLR19800501.2.5"
+    },
+    {
+      "label": "Chapter 1 · Existing map records",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "Reko"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "National Library of New Zealand, Reko, 1803?-1868 authority record",
+        "url": "https://natlib.govt.nz/records/22394114"
+      },
+      {
+        "label": "Turnbull Library Record, Maori geographical knowledge and mapping, 1 May 1980",
+        "url": "https://paperspast.natlib.govt.nz/periodicals/TLR19800501.2.5"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 1 · Existing map records",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

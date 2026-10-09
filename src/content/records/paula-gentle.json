@@ -1,0 +1,46 @@
+{
+  "id": "person:paula-gentle",
+  "slug": "paula-gentle",
+  "name": "Paula Gentle",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/paula-gentle/",
+  "story": [
+    "Paula Gentle appears in LINZ’s geodetic work as a Geodetic Surveyor. LINZ workshop records also name her in technical work on the GeoNet and PositioNZ GNSS networks and the International GNSS Service, connecting field positioning with the maintained national reference framework.",
+    "LINZ names Paula Gentle in its geospatial virtual field-trip record: Geodetic Surveyor, LINZ, 2015 VFT."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    },
+    {
+      "label": "LINZ, geodetic workshops",
+      "url": "https://www.linz.govt.nz/guidance/geodetic-system/geodetic-standards-specifications-and-resources/geodetic-publications-and-presentations/geodetic-workshops"
+    }
+  ],
+  "aliases": [
+    "Paula Gentle"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      },
+      {
+        "label": "LINZ, geodetic workshops",
+        "url": "https://www.linz.govt.nz/guidance/geodetic-system/geodetic-standards-specifications-and-resources/geodetic-publications-and-presentations/geodetic-workshops"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

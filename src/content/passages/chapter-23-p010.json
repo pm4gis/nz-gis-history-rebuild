@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-23-359577828b",
+  "slug": "auckland-works-across-boundaries-359577828b",
+  "articleId": "article:chapter-23",
+  "title": "Auckland works across boundaries",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "local-government"
+  ],
+  "recordIds": [
+    "chapter:23",
+    "entity:auckland-regional-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 1999, several Auckland councils had established GIS systems and needed to use information across council boundaries. The eight territorial authorities and the Auckland Regional Council identified GIS as an area in which they could work together. They were using different GIS platforms, so collaboration did not begin with choosing one common software environment.",
+      "markdown": "By 1999, several Auckland councils had established GIS systems and needed to use information across council boundaries. The eight territorial authorities and the Auckland Regional Council identified GIS as an area in which they could work together. They were using different GIS platforms, so collaboration did not begin with choosing one common software environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The group instead concentrated on shared information. The Office of the Auditor-General later documented how a GIS Working Group created a Standards Working Group to compare the aerial-photography specifications being used by the councils. The resulting Auckland Area Orthophotography Standard was finalised in February 2003. Acquisition standards had become a regional coordination task for council GIS; Chapter 20 describes the imagery programme.",
+      "markdown": "The group instead concentrated on shared information. The Office of the Auditor-General later documented how a GIS Working Group created a Standards Working Group to compare the aerial-photography specifications being used by the councils. The resulting Auckland Area Orthophotography Standard was finalised in February 2003. Acquisition standards had become a regional coordination task for council GIS; Chapter 20 describes the imagery programme.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The councils had all invested in spatial information about the areas they administered, while the Regional Council needed information across the whole metropolitan region. Roads, planning, environment and imagery crossed organisational boundaries whether or not the databases did. Agreement on a shared orthophotography specification allowed several systems to use a common input without requiring the councils to replace their existing GIS platforms.",
+      "markdown": "The councils had all invested in spatial information about the areas they administered, while the Regional Council needed information across the whole metropolitan region. Roads, planning, environment and imagery crossed organisational boundaries whether or not the databases did. Agreement on a shared orthophotography specification allowed several systems to use a common input without requiring the councils to replace their existing GIS platforms.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was corporate GIS extending beyond a single corporation. The same principles applied at regional scale: agree what the shared resource represented, define enough common standards for it to be reused, then allow different organisations and systems to work from the result. The technology was heterogeneous, but the data had to line up.",
+      "markdown": "This was corporate GIS extending beyond a single corporation. The same principles applied at regional scale: agree what the shared resource represented, define enough common standards for it to be reused, then allow different organisations and systems to work from the result. The technology was heterogeneous, but the data had to line up.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

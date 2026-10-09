@@ -1,0 +1,25 @@
+{
+  "id": "1999-auckland-councils",
+  "dateDisplay": "1999",
+  "startDate": "1999",
+  "datePrecision": "year",
+  "year": 1999,
+  "label": "Auckland councils establish GIS collaboration",
+  "summary": "Eight Auckland local authorities established a GIS working group to coordinate imagery and data practices.",
+  "url": "/stories/councils-build-corporate-gis/#auckland-works-across-boundaries-359577828b",
+  "passageIds": [
+    "passage:chapter-23-359577828b"
+  ],
+  "recordIds": [
+    "chapter:23",
+    "entity:auckland-regional-council"
+  ],
+  "themeIds": [
+    "local-government"
+  ],
+  "categories": [
+    "local-government",
+    "collaboration"
+  ],
+  "sources": []
+}

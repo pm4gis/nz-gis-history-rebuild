@@ -1,0 +1,17 @@
+{
+  "id": "chapter:3",
+  "articleId": "article:chapter-3",
+  "slug": "drawing-maps-by-machine",
+  "name": "Computer cartography",
+  "kind": "Story",
+  "category": "Early computing",
+  "url": "/stories/drawing-maps-by-machine/",
+  "description": "By the late 1970s, the Department of Lands and Survey was using a computer-assisted system to convert cadastral mapping into digital form. A paper cadastral sheet was fixed to a large digitising table, control points were established, and an operator traced selected lines and points with an electronic cursor. The system recorded coordinates rather than an image of the page. Boundaries, roads and other features could ",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "technology-stack",
+    "imagery"
+  ]
+}

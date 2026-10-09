@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0943",
+  "a": "person:jasmin-callosa-tarr",
+  "b": "entity:gis-in-conservation-scgis-new-zealand-and-fiji",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

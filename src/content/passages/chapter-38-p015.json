@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-38-b21dfac3b6",
+  "slug": "drones-and-other-platforms-b21dfac3b6",
+  "articleId": "article:chapter-38",
+  "title": "Drones and other platforms",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 31 December 2025, UAV photogrammetry had become one ordinary option for detailed local capture. Drones joined the range of available survey and observation methods. Each method occupies a different combination of area, accuracy, timing, sensor capability, cost, risk and terrain. A regional council still has reasons to commission broad aerial imagery. A national elevation programme still has reasons to use airborne LiDAR. A surveyor still has reasons to occupy points on the ground.",
+      "markdown": "By 31 December 2025, UAV photogrammetry had become one ordinary option for detailed local capture. Drones joined the range of available survey and observation methods. Each method occupies a different combination of area, accuracy, timing, sensor capability, cost, risk and terrain. A regional council still has reasons to commission broad aerial imagery. A national elevation programme still has reasons to use airborne LiDAR. A surveyor still has reasons to occupy points on the ground.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The mature choice is therefore methodological rather than fashionable. A drone is useful when the required area is small enough, access and aviation conditions are manageable, the surface can be reconstructed from imagery, and the project benefits from very high local detail or repeat timing. It is less useful where dense vegetation hides the ground, weather prevents reliable flying, the site is too large, the regulatory environment is difficult or another sensor provides a better measurement.",
+      "markdown": "The mature choice is therefore methodological rather than fashionable. A drone is useful when the required area is small enough, access and aviation conditions are manageable, the surface can be reconstructed from imagery, and the project benefits from very high local detail or repeat timing. It is less useful where dense vegetation hides the ground, weather prevents reliable flying, the site is too large, the regulatory environment is difficult or another sensor provides a better measurement.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Te Maari demonstrates the distinction neatly. The November 2012 LiDAR and aerial survey mapped a broad eruption landscape soon after the event. The later Draganfly project worked over a much smaller crater field and examined what could be resolved from local UAV imagery. One did not invalidate the other. They answered different acquisition problems at different scales.",
+      "markdown": "Te Maari demonstrates the distinction neatly. The November 2012 LiDAR and aerial survey mapped a broad eruption landscape soon after the event. The later Draganfly project worked over a much smaller crater field and examined what could be resolved from local UAV imagery. One did not invalidate the other. They answered different acquisition problems at different scales.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

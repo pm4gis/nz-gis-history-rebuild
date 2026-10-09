@@ -1,0 +1,31 @@
+{
+  "id": "person:natalie-scott",
+  "slug": "natalie-scott",
+  "name": "Natalie Scott",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/natalie-scott/",
+  "story": [
+    "Natalie Scott of Interpret Geospatial Solutions presented “Safer Communities: Improving Auckland’s Walkability” at the 2017 New Zealand Esri User Conference. The case records consultancy GIS being applied to urban walkability and transport-related spatial analysis."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Natalie Scott"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

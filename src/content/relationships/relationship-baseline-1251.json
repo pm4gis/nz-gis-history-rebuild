@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1251",
+  "a": "system:discrete-global-grid-systems",
+  "b": "entity:manaaki-whenua-landcare-research",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

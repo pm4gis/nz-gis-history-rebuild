@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-18-37e3a41544",
+  "slug": "different-jobs-different-tolerances-37e3a41544",
+  "articleId": "article:chapter-18",
+  "title": "Different jobs, different tolerances",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "As GPS spread, accuracy became a requirement to be chosen rather than a single measure of technological progress. A geodetic survey establishing national control needed results that could support many other surveys. Engineering and cadastral work had stringent tolerances and formal quality requirements. A utility crew trying to find a buried cable needed enough accuracy to get to the right place, but its field GIS also depended on network diagrams, asset identifiers and local observations. A wildlife team recording a nest or sampling site might accept a different uncertainty again.",
+      "markdown": "As GPS spread, accuracy became a requirement to be chosen rather than a single measure of technological progress. A geodetic survey establishing national control needed results that could support many other surveys. Engineering and cadastral work had stringent tolerances and formal quality requirements. A utility crew trying to find a buried cable needed enough accuracy to get to the right place, but its field GIS also depended on network diagrams, asset identifiers and local observations. A wildlife team recording a nest or sampling site might accept a different uncertainty again.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Agriculture made the trade-offs particularly visible. Yield mapping and variable-rate application did not require the same accuracy as a cadastral boundary, but errors could still translate directly into wasted fertiliser, poor guidance or misleading maps. A farmer could pay for sub-metre corrections because there was an operational return from placing machinery or measurements more consistently. The value of the GPS system was therefore tied to the economics of the task, not to the smallest number the receiver brochure could print.",
+      "markdown": "Agriculture made the trade-offs particularly visible. Yield mapping and variable-rate application did not require the same accuracy as a cadastral boundary, but errors could still translate directly into wasted fertiliser, poor guidance or misleading maps. A farmer could pay for sub-metre corrections because there was an operational return from placing machinery or measurements more consistently. The value of the GPS system was therefore tied to the economics of the task, not to the smallest number the receiver brochure could print.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Environmental work had similar choices. A repeated monitoring point may need enough positional consistency to ensure a team returns to the same patch over several seasons. A broad species observation may be useful at lower accuracy. An engineering survey around a mine or coast may require differential or RTK methods. GIS made these datasets easy to display together, which could disguise the fact that they had been collected under different positional standards.",
+      "markdown": "Environmental work had similar choices. A repeated monitoring point may need enough positional consistency to ensure a team returns to the same patch over several seasons. A broad species observation may be useful at lower accuracy. An engineering survey around a mine or coast may require differential or RTK methods. GIS made these datasets easy to display together, which could disguise the fact that they had been collected under different positional standards.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Good metadata and field practice became increasingly important for that reason. Users needed to know what coordinate system was being used, whether positions were corrected, how the point had been located and what feature the coordinate represented. A map could draw points with exquisite graphical precision even when the field observations behind them were much rougher. Digital display never had much difficulty looking more certain than the evidence.",
+      "markdown": "Good metadata and field practice became increasingly important for that reason. Users needed to know what coordinate system was being used, whether positions were corrected, how the point had been located and what feature the coordinate represented. A map could draw points with exquisite graphical precision even when the field observations behind them were much rougher. Digital display never had much difficulty looking more certain than the evidence.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

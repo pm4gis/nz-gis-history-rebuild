@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0492",
+  "a": "person:tahu-kukutai",
+  "b": "chapter:33",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-33-bce15db842"
+  ],
+  "sources": []
+}

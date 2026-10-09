@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0783",
+  "a": "person:leonard-brown",
+  "b": "chapter:36",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-36-a1ca3ceb6c"
+  ],
+  "sources": []
+}

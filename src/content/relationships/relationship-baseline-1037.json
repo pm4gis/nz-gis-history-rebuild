@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1037",
+  "a": "person:craig-thompson",
+  "b": "entity:niwa",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

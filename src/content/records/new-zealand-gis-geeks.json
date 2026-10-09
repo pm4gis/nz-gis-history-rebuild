@@ -1,0 +1,31 @@
+{
+  "id": "entity:new-zealand-gis-geeks",
+  "slug": "new-zealand-gis-geeks",
+  "name": "NZ GIS Geeks",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/new-zealand-gis-geeks/",
+  "website": "https://www.facebook.com/groups/nzgis/",
+  "story": [
+    "NZ GIS Geeks is an informal Facebook community for people working with, studying or simply interested in GIS. Public group material invites members to share questions, links, events, examples and GIS humour, making it a peer-to-peer contact point outside formal associations and conferences.",
+    "The group is publicly documented by 2015, but its precise start date is not established in the sources reviewed. Its informality is part of its value: practitioners can ask for help and exchange working knowledge in a familiar social space."
+  ],
+  "sources": [
+    {
+      "label": "NZ GIS Geeks Facebook group",
+      "url": "https://www.facebook.com/groups/nzgis/"
+    }
+  ],
+  "aliases": [
+    "NZ GIS Geeks",
+    "New Zealand GIS Geeks",
+    "NZ GIS Geeks Facebook group"
+  ],
+  "themeIds": [
+    "profession",
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

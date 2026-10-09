@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1165",
+  "a": "system:enterprise-gis",
+  "b": "system:docgis",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

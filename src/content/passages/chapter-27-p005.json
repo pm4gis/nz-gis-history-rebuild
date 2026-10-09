@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-27-5d6825d623",
+  "slug": "phew-puts-surveillance-in-a-browser-5d6825d623",
+  "articleId": "article:chapter-27",
+  "title": "PHEW! puts surveillance in a browser",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27",
+    "person:annette-king",
+    "person:bruce-adlam"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The national web component had begun earlier. At the May 2002 launch of the New Zealand Public Health Observatory, Health Minister Annette King described the Ministry of Health as having started to combine GIS and the Internet for communicable-disease information in 1999 through the Public Health Early Warning system, PHEW!. The system allowed a person with a web browser to create and view maps, tables and statistics from the national notifiable-disease surveillance system. The Ministry described the system as a world first.",
+      "markdown": "The national web component had begun earlier. At the May 2002 launch of the New Zealand Public Health Observatory, Health Minister Annette King described the Ministry of Health as having started to combine GIS and the Internet for communicable-disease information in 1999 through the Public Health Early Warning system, PHEW!. The system allowed a person with a web browser to create and view maps, tables and statistics from the national notifiable-disease surveillance system. The Ministry described the system as a world first.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "ESR's own surveillance systems also kept moving. By May 2007 EpiSurv7 was operating on the SurvINZ infrastructure as a secure web-based national notification system. The contemporary system description lists enhanced GIS capability, local and national reporting, near-real-time information and integration of several surveillance streams. ESR's Bruce Adlam presented the system to the Pacific Public Health Surveillance Network coordinating body that March. GIS had moved from being something analysts did to extracts from the disease database to being an explicit capability of the national surveillance application itself.",
+      "markdown": "ESR's own surveillance systems also kept moving. By May 2007 EpiSurv7 was operating on the SurvINZ infrastructure as a secure web-based national notification system. The contemporary system description lists enhanced GIS capability, local and national reporting, near-real-time information and integration of several surveillance streams. ESR's Bruce Adlam presented the system to the Pacific Public Health Surveillance Network coordinating body that March. GIS had moved from being something analysts did to extracts from the disease database to being an explicit capability of the national surveillance application itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Waikato paper adds a useful limit to what PHEW! displayed. It describes the website as exposing a subset of the national EpiSurv database, with Territorial Local Authority geography as its most detailed representation. That scale was much coarser than the geocoded case locations available inside surveillance systems and research datasets. Public access and operational detail were therefore separated. The web service could make national patterns visible without publishing individual household locations.",
+      "markdown": "The Waikato paper adds a useful limit to what PHEW! displayed. It describes the website as exposing a subset of the national EpiSurv database, with Territorial Local Authority geography as its most detailed representation. That scale was much coarser than the geocoded case locations available inside surveillance systems and research datasets. Public access and operational detail were therefore separated. The web service could make national patterns visible without publishing individual household locations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later technical sources describe PHEW! as carrying more than static choropleth maps. Users could obtain current information on notifiable-disease incidence and view detailed EpiSurv time series for mapped regions. The system also made an early attempt to flag anomalies in temporal and geographic patterns, and later outbreak-detection literature associates New Zealand surveillance with cumulative-sum methods for detecting possible outbreaks.",
+      "markdown": "Later technical sources describe PHEW! as carrying more than static choropleth maps. Users could obtain current information on notifiable-disease incidence and view detailed EpiSurv time series for mapped regions. The system also made an early attempt to flag anomalies in temporal and geographic patterns, and later outbreak-detection literature associates New Zealand surveillance with cumulative-sum methods for detecting possible outbreaks.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Government descriptions, research papers, professional reports and historic URLs describe PHEW!’s functions. The original web application is no longer available for readers to inspect.",
+      "markdown": "Government descriptions, research papers, professional reports and historic URLs describe PHEW!’s functions. The original web application is no longer available for readers to inspect.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

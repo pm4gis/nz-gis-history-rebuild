@@ -1,0 +1,31 @@
+{
+  "id": "person:marian-hobbs",
+  "slug": "marian-hobbs",
+  "name": "Marian Hobbs",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/marian-hobbs/",
+  "story": [
+    "As Environment Minister, Marian Hobbs launched the published Land Environments of New Zealand resource on 23 April 2003. Her release describes LENZ as a nationally consistent environmental classification built from climate, soil and landform variables and produced by the Ministry for the Environment with Landcare Research."
+  ],
+  "sources": [
+    {
+      "label": "Beehive, Award-winning classification system published as full colour atlas, 23 April 2003",
+      "url": "https://www.beehive.govt.nz/release/award-winning-classification-system-published-full-colour-atlas"
+    }
+  ],
+  "aliases": [
+    "Marian Hobbs"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Beehive, Award-winning classification system published as full colour atlas, 23 April 2003",
+        "url": "https://www.beehive.govt.nz/release/award-winning-classification-system-published-full-colour-atlas"
+      }
+    ]
+  ]
+}

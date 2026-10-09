@@ -1,0 +1,26 @@
+{
+  "id": "entity:corelogic-nz",
+  "slug": "corelogic-nz",
+  "name": "CoreLogic NZ",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/corelogic-nz/",
+  "website": null,
+  "story": [
+    "CoreLogic NZ appears in the practitioner record through location-data and location-intelligence work. Its 2017 New Zealand Esri User Conference presentation by Phil Woods described contextual marketing using location business intelligence."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "CoreLogic NZ"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

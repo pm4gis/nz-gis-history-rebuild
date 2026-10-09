@@ -1,0 +1,38 @@
+{
+  "id": "passage:chapter-42-c58a7ffce6",
+  "slug": "nzta-during-cyclone-gabrielle-c58a7ffce6",
+  "articleId": "article:chapter-42",
+  "title": "NZTA during Cyclone Gabrielle",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "During Cyclone Gabrielle in February 2023, NZTA used its ArcGIS Enterprise on Kubernetes environment for field survey and situational awareness.",
+      "markdown": "During Cyclone Gabrielle in February 2023, NZTA used its ArcGIS Enterprise on Kubernetes environment for field survey and situational awareness.",
+      "sources": [
+        {
+          "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+          "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The event response drew on the shared-service platform described in Chapter 40.",
+      "markdown": "The event response drew on the shared-service platform described in Chapter 40.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The NZTA and Esri case study records this operational use. Its benefit and performance claims remain attributed to the customer case.",
+      "markdown": "The NZTA and Esri case study records this operational use. Its benefit and performance claims remain attributed to the customer case.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

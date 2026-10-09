@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2366",
+  "a": "person:kristin-stock",
+  "b": "chapter:11",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

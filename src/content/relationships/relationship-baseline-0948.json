@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0948",
+  "a": "person:darrel-hall",
+  "b": "entity:hawkes-bay-region-gis-forum",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

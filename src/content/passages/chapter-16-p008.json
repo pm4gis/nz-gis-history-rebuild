@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-16-59c7cc223c",
+  "slug": "maintaining-classifications-59c7cc223c",
+  "articleId": "article:chapter-16",
+  "title": "Maintaining classifications",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16",
+    "entity:department-of-survey-and-land-information-dosli",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Institutional responsibility was divided between the organisation defining the statistical geography and the mapping organisations maintaining its digital representation. The 1991 conversion was carried out by DOSLI for the statistical system. Later metadata records Statistics New Zealand as defining and managing the statistical boundaries while LINZ maintained parts of the detailed digital pattern on its behalf. By the 2000s Statistics New Zealand geography staff were checking proposed changes against cadastral and administrative information as part of a continuing maintenance cycle. The arrangement was therefore neither a simple Statistics New Zealand database nor a LINZ mapping product: the statistical purpose and the spatial maintenance depended on both institutional traditions.",
+      "markdown": "Institutional responsibility was divided between the organisation defining the statistical geography and the mapping organisations maintaining its digital representation. The 1991 conversion was carried out by DOSLI for the statistical system. Later metadata records Statistics New Zealand as defining and managing the statistical boundaries while LINZ maintained parts of the detailed digital pattern on its behalf. By the 2000s Statistics New Zealand geography staff were checking proposed changes against cadastral and administrative information as part of a continuing maintenance cycle. The arrangement was therefore neither a simple Statistics New Zealand database nor a LINZ mapping product: the statistical purpose and the spatial maintenance depended on both institutional traditions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The identifiers were as important as the lines. The later metadata describes each meshblock as having a unique seven-digit number and records coding rules for changes such as subdivision. When a block was split, the successor geography needed codes that could be distinguished from the earlier unit while the relationship between old and new patterns remained traceable. A polygon without a stable code was little use for census tables, and a code without a known pattern year could be misleading. The database had to preserve both where the unit was and which version of the statistical classification it belonged to.",
+      "markdown": "The identifiers were as important as the lines. The later metadata describes each meshblock as having a unique seven-digit number and records coding rules for changes such as subdivision. When a block was split, the successor geography needed codes that could be distinguished from the earlier unit while the relationship between old and new patterns remained traceable. A polygon without a stable code was little use for census tables, and a code without a known pattern year could be misleading. The database had to preserve both where the unit was and which version of the statistical classification it belonged to.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The detailed and generalised products also served different needs. By 2008 the Level 1 pattern represented the more detailed maintained boundaries, while Level 2 provided a less detailed census-pattern geography suited to general mapping and distribution. Generalisation reduced coordinate detail without changing the intended statistical relationships. That made smaller files and cleaner maps possible, but it also meant users needed to know which product they had loaded. Two boundary files could describe the same census framework while differing in geometric detail and intended use.",
+      "markdown": "The detailed and generalised products also served different needs. By 2008 the Level 1 pattern represented the more detailed maintained boundaries, while Level 2 provided a less detailed census-pattern geography suited to general mapping and distribution. Generalisation reduced coordinate detail without changing the intended statistical relationships. That made smaller files and cleaner maps possible, but it also meant users needed to know which product they had loaded. Two boundary files could describe the same census framework while differing in geometric detail and intended use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The hierarchy was better understood as a set of relationships than as one ladder. Meshblocks could aggregate into area units, but the same fine-grained units also supported territorial-authority, regional-council, ward, constituency and parliamentary-electorate geographies. Those larger boundaries existed for different statutory or analytical reasons and changed on different schedules. Small meshblocks could be recombined for council wards, electorates and area units while retaining the separate purposes of each geography. That flexibility became one of the main reasons the meshblock pattern was so widely reused in GIS.",
+      "markdown": "The hierarchy was better understood as a set of relationships than as one ladder. Meshblocks could aggregate into area units, but the same fine-grained units also supported territorial-authority, regional-council, ward, constituency and parliamentary-electorate geographies. Those larger boundaries existed for different statutory or analytical reasons and changed on different schedules. Small meshblocks could be recombined for council wards, electorates and area units while retaining the separate purposes of each geography. That flexibility became one of the main reasons the meshblock pattern was so widely reused in GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

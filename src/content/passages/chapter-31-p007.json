@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-31-4bd5014c9e",
+  "slug": "search-becomes-ordinary-4bd5014c9e",
+  "articleId": "article:chapter-31",
+  "title": "Search becomes ordinary",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The search box was central to the audience change. Institutional GIS usually began with a known task and a known dataset. A user might select an address search, a parcel query or a layer list because the application had been designed around that organisation's information. Google Maps encouraged a looser starting point. The user could type what they knew, whether that was a street address, business name or place, and expect the system to interpret it geographically.",
+      "markdown": "The search box was central to the audience change. Institutional GIS usually began with a known task and a known dataset. A user might select an address search, a parcel query or a layer list because the application had been designed around that organisation's information. Google Maps encouraged a looser starting point. The user could type what they knew, whether that was a street address, business name or place, and expect the system to interpret it geographically.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This reduced the amount of spatial knowledge required before a person could begin. A user did not need to know which territorial authority contained a property, which map sheet covered a valley or which layer stored a road name. Search increasingly performed that translation. The map could answer a question written in ordinary language.",
+      "markdown": "This reduced the amount of spatial knowledge required before a person could begin. A user did not need to know which territorial authority contained a property, which map sheet covered a valley or which layer stored a road name. Search increasingly performed that translation. The map could answer a question written in ordinary language.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Local search also linked mapping more closely to commercial and everyday activity. A map could be a directory as well as a representation of roads and terrain. Finding accommodation, a restaurant or a service increasingly meant seeing where it was in relation to everything else. The geographic context was no longer a specialist add-on. It was part of the normal search result.",
+      "markdown": "Local search also linked mapping more closely to commercial and everyday activity. A map could be a directory as well as a representation of roads and terrain. Finding accommodation, a restaurant or a service increasingly meant seeing where it was in relation to everything else. The geographic context was no longer a specialist add-on. It was part of the normal search result.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Custom maps extended the same idea. Users could collect places, add annotations and share a mapped set of locations without building a GIS dataset in the traditional sense. That complemented professional data management while further eroding the old boundary between people who made maps and people who merely read them. Creating a simple digital map was becoming an ordinary web activity.",
+      "markdown": "Custom maps extended the same idea. Users could collect places, add annotations and share a mapped set of locations without building a GIS dataset in the traditional sense. That complemented professional data management while further eroding the old boundary between people who made maps and people who merely read them. Creating a simple digital map was becoming an ordinary web activity.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

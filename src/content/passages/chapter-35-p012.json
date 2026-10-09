@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-35-430efce6bf",
+  "slug": "maintaining-applications-430efce6bf",
+  "articleId": "article:chapter-35",
+  "title": "Maintaining applications",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Applications also created maintenance obligations that were easy to underestimate at launch. A map printed in a report remains fixed. A live application depends on software, data, authentication, browsers, networks and organisations that continue changing. The user expects the application to behave as though none of that complexity exists.",
+      "markdown": "Applications also created maintenance obligations that were easy to underestimate at launch. A map printed in a report remains fixed. A live application depends on software, data, authentication, browsers, networks and organisations that continue changing. The user expects the application to behave as though none of that complexity exists.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Policedata.nz moved from Flash to HTML as browser support and delivery technology changed. The purpose of the application remained stable while the interface technology changed. Similar maintenance pressures affect hosted maps, StoryMaps, embedded forms and dashboards. An application can look lightweight while creating a continuing obligation to test, update and sometimes rebuild it.",
+      "markdown": "Policedata.nz moved from Flash to HTML as browser support and delivery technology changed. The purpose of the application remained stable while the interface technology changed. Similar maintenance pressures affect hosted maps, StoryMaps, embedded forms and dashboards. An application can look lightweight while creating a continuing obligation to test, update and sometimes rebuild it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Personnel changes affect resilience too. A configurable application may have been assembled rapidly by a small team that understood every dependency. Years later, another team may inherit the system with no knowledge of why a field, filter or permission was designed that way. Good documentation becomes part of application resilience. This was already true of GIS databases, while application proliferation increased the number of components and user-facing dependencies that had to be understood.",
+      "markdown": "Personnel changes affect resilience too. A configurable application may have been assembled rapidly by a small team that understood every dependency. Years later, another team may inherit the system with no knowledge of why a field, filter or permission was designed that way. Good documentation becomes part of application resilience. This was already true of GIS databases, while application proliferation increased the number of components and user-facing dependencies that had to be understood.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A simple interface can also hide analytical choices. A dashboard that provides only selected categories may prevent invalid combinations and make interpretation easier. It can also make the limits of the data less obvious. A user sees a polished answer rather than the messy decisions that produced it. The historical movement towards applications therefore improved accessibility while placing more responsibility on the people designing the defaults.",
+      "markdown": "A simple interface can also hide analytical choices. A dashboard that provides only selected categories may prevent invalid combinations and make interpretation easier. It can also make the limits of the data less obvious. A user sees a polished answer rather than the messy decisions that produced it. The historical movement towards applications therefore improved accessibility while placing more responsibility on the people designing the defaults.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Live applications are also unusually fragile historical objects. A printed map can survive unchanged in an archive for decades, while an online application may disappear when a service is retired, a browser technology is no longer supported or an organisation rebuilds its website. Even when the service survives, the interface may change enough to erase how users originally encountered it. That makes period screenshots, tutorial videos, technical notes and platform metadata disproportionately valuable for reconstructing this stage of GIS history. The application age produced more public-facing spatial tools, but it also produced records that can be harder to preserve than the paper maps they partly replaced.",
+      "markdown": "Live applications are also unusually fragile historical objects. A printed map can survive unchanged in an archive for decades, while an online application may disappear when a service is retired, a browser technology is no longer supported or an organisation rebuilds its website. Even when the service survives, the interface may change enough to erase how users originally encountered it. That makes period screenshots, tutorial videos, technical notes and platform metadata disproportionately valuable for reconstructing this stage of GIS history. The application age produced more public-facing spatial tools, but it also produced records that can be harder to preserve than the paper maps they partly replaced.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

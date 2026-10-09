@@ -1,0 +1,42 @@
+{
+  "id": "person:w-i-reilly",
+  "slug": "w-i-reilly",
+  "name": "W. I. Reilly",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/w-i-reilly/",
+  "story": [
+    "W. I. Reilly designed the New Zealand Map Grid, published in 1973. LINZ’s technical history credits the projection to him. NZMG provided the coordinate framework for national metric topographic mapping and became a common reference system in New Zealand GIS data before the transition to NZTM2000.",
+    "W. I. Reilly published the NZMG design in 1973, and the new 1:50,000 NZMS260 topographic series began appearing later in the decade. The first sheet, T12 Thames, was published in 1977."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand Map Grid",
+      "url": "https://www.linz.govt.nz/guidance/geodetic-system/coordinate-systems-used-new-zealand/projections/new-zealand-map-grid-nzmg"
+    },
+    {
+      "label": "Chapter 3 · Metric conversion",
+      "url": "/stories/drawing-maps-by-machine/"
+    }
+  ],
+  "aliases": [
+    "W. I. Reilly"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, New Zealand Map Grid",
+        "url": "https://www.linz.govt.nz/guidance/geodetic-system/coordinate-systems-used-new-zealand/projections/new-zealand-map-grid-nzmg"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 3 · Metric conversion",
+        "url": "/stories/drawing-maps-by-machine/"
+      }
+    ]
+  ]
+}

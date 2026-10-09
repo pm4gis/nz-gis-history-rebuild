@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-19-83b2fecb78",
+  "slug": "a-maintained-national-framework-83b2fecb78",
+  "articleId": "article:chapter-19",
+  "title": "A maintained national framework",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 2018 New Zealand’s coordinate framework looked very different from the system GPS had begun pressing against in the early 1990s. The national datum was geocentric and linked to an international reference frame. Mapping used NZTM2000 rather than NZMG. PositioNZ continuously observed the reference network and supplied archived and real-time data. The deformation model provided a formal way to relate observations at different times to epoch 2000.0.",
+      "markdown": "By 2018 New Zealand’s coordinate framework looked very different from the system GPS had begun pressing against in the early 1990s. The national datum was geocentric and linked to an international reference frame. Mapping used NZTM2000 rather than NZMG. PositioNZ continuously observed the reference network and supplied archived and real-time data. The deformation model provided a formal way to relate observations at different times to epoch 2000.0.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The older physical infrastructure remained part of the system. Survey marks still connected local work to the national framework, and historical survey observations continued to contribute to geodetic adjustment. New infrastructure had been added around them: continuous stations, online observation archives, streaming services, model files, transformation grids and maintained coordinate databases.",
+      "markdown": "The older physical infrastructure remained part of the system. Survey marks still connected local work to the national framework, and historical survey observations continued to contribute to geodetic adjustment. New infrastructure had been added around them: continuous stations, online observation archives, streaming services, model files, transformation grids and maintained coordinate databases.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change also altered GIS practice. Coordinate reference information could no longer be treated as an incidental label attached to a dataset after it had been created. Datum, projection and, for high-accuracy work, epoch and deformation could affect whether two sets of coordinates represented the same physical place. The software made transformations easier, but the user still had to know what the source coordinates meant.",
+      "markdown": "The change also altered GIS practice. Coordinate reference information could no longer be treated as an incidental label attached to a dataset after it had been created. Datum, projection and, for high-accuracy work, epoch and deformation could affect whether two sets of coordinates represented the same physical place. The software made transformations easier, but the user still had to know what the source coordinates meant.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand’s national reference framework had become a maintained digital service as well as a survey network. Its coordinates could be revised after new observations or deformation, its model could be patched after earthquakes, and its active stations could supply data continuously. Aerial imagery was undergoing a similar change in use, moving from specialist survey and photogrammetric production into a routinely acquired, shared and refreshed layer used across GIS.",
+      "markdown": "New Zealand’s national reference framework had become a maintained digital service as well as a survey network. Its coordinates could be revised after new observations or deformation, its model could be patched after earthquakes, and its active stations could supply data continuously. Aerial imagery was undergoing a similar change in use, moving from specialist survey and photogrammetric production into a routinely acquired, shared and refreshed layer used across GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

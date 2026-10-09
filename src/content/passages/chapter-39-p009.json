@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-39-31427c7f72",
+  "slug": "digital-auckland-31427c7f72",
+  "articleId": "article:chapter-39",
+  "title": "Digital Auckland",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39",
+    "entity:auckland-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A city model provided a different kind of 3D environment. In 2011 Auckland Council commissioned Nextspace to create the Digital Auckland 3D city model. Auckland Transport evidence prepared in 2013 for the City Rail Link described the model as merging information from multiple sources and being updated from time to time. It had already been used to visualise plans for Auckland's future urban environment.",
+      "markdown": "A city model provided a different kind of 3D environment. In 2011 Auckland Council commissioned Nextspace to create the Digital Auckland 3D city model. Auckland Transport evidence prepared in 2013 for the City Rail Link described the model as merging information from multiple sources and being updated from time to time. It had already been used to visualise plans for Auckland's future urban environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For the City Rail Link, Auckland Transport commissioned Nextspace to build a construction-sequence visualisation for the Albert Street section within the wider Digital Auckland environment. The proposed underground railway and its construction stages could be placed against the existing city rather than shown as isolated engineering drawings. That made the model useful as a communication and planning device. It also brought together geography above and below the ground, a recurring problem in dense urban areas.",
+      "markdown": "For the City Rail Link, Auckland Transport commissioned Nextspace to build a construction-sequence visualisation for the Albert Street section within the wider Digital Auckland environment. The proposed underground railway and its construction stages could be placed against the existing city rather than shown as isolated engineering drawings. That made the model useful as a communication and planning device. It also brought together geography above and below the ground, a recurring problem in dense urban areas.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital Auckland integrated city information in a three-dimensional model. Contemporary council reporting in 2014 still described Council and its council-controlled organisations as investigating a digital data and modelling tool that could collate information about above- and below-ground infrastructure, with a business case being prepared. Later New Zealand research described Digital Auckland as a tool for integrating and managing information from multiple custodians while ownership and management of the underlying data remained distributed. The project integrated and displayed information at city scale.",
+      "markdown": "Digital Auckland integrated city information in a three-dimensional model. Contemporary council reporting in 2014 still described Council and its council-controlled organisations as investigating a digital data and modelling tool that could collate information about above- and below-ground infrastructure, with a business case being prepared. Later New Zealand research described Digital Auckland as a tool for integrating and managing information from multiple custodians while ownership and management of the underlying data remained distributed. The project integrated and displayed information at city scale.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "City models varied in their visual detail and in the information held for individual features. A recognisable skyline can be produced from relatively simple building massing, terrain and textures. An information model becomes more useful when buildings and infrastructure can be identified, queried and linked to other records. Digital Auckland sat on the path between those worlds, using a visual city environment to bring together information that had previously been harder to understand in combination.",
+      "markdown": "City models varied in their visual detail and in the information held for individual features. A recognisable skyline can be produced from relatively simple building massing, terrain and textures. An information model becomes more useful when buildings and infrastructure can be identified, queried and linked to other records. Digital Auckland sat on the path between those worlds, using a visual city environment to bring together information that had previously been harder to understand in combination.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

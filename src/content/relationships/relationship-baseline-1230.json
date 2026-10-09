@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1230",
+  "a": "system:south-island-orthophoto-2004",
+  "b": "system:enterprise-gis",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

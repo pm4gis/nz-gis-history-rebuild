@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1105",
+  "a": "person:richard-lovell",
+  "b": "entity:timaru-district-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

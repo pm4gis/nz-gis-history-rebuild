@@ -1,0 +1,24 @@
+{
+  "id": "entity:new-zealand-board-of-geography-teachers",
+  "slug": "new-zealand-board-of-geography-teachers",
+  "name": "New Zealand Board of Geography Teachers",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/new-zealand-board-of-geography-teachers/",
+  "story": [
+    "The New Zealand Board of Geography Teachers (NZBoGT) is a subcommittee of the New Zealand Geographical Society. It supports quality geography teaching in secondary schools, raises the subject’s profile through competitions and events, and promotes links between schools, tertiary education and the wider geography workforce. The board also advises the Ministry of Education and NZQA and supports school GIS through resources such as the GIS Lounge and regional Teacher GIS Champions."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "New Zealand Board of Geography Teachers"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

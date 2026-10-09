@@ -1,0 +1,50 @@
+{
+  "id": "person:greg-bennett",
+  "slug": "greg-bennett",
+  "name": "Greg Bennett",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/greg-bennett/",
+  "story": [
+    "Greg Bennett supported early FME use at Rotorua Lakes, according to John Arnerich’s account. NZEUG’s December 2008 newsletter records that Greg Bennett had stood down from the committee at that year’s AGM.",
+    "Steve Richards and Greg Bennett had left the committee at the December 2008 AGM, and the new committee was listed as Byron Cochrane, Glenn Russell, Igor Albornett, John Thyne, Junior Lee-Chee, Laura Nicol, Meghan Williams, Peter Fraser, Rachel Summers, Richard Wells and Tony Standen."
+  ],
+  "sources": [
+    {
+      "label": "Locus retrospective, 2025",
+      "url": "https://locusglobal.com/blog/blog/2025/11/27/25-years-of-locus/"
+    },
+    {
+      "label": "NZEUG, December 2008 newsletter",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Greg Bennett"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Locus retrospective, 2025",
+        "url": "https://locusglobal.com/blog/blog/2025/11/27/25-years-of-locus/"
+      },
+      {
+        "label": "NZEUG, December 2008 newsletter",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

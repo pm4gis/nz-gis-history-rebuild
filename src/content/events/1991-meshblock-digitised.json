@@ -1,0 +1,24 @@
+{
+  "id": "1991-meshblock-digitised",
+  "dateDisplay": "1991",
+  "startDate": "1991",
+  "datePrecision": "year",
+  "year": 1991,
+  "label": "Nationwide meshblock pattern digitised",
+  "summary": "DOSLI digitised the nationwide meshblock pattern, separating the established statistical geography from its authoritative digital representation.",
+  "url": "/stories/census-geography/#digitising-boundaries-1a92db9d49",
+  "passageIds": [
+    "passage:chapter-16-1a92db9d49"
+  ],
+  "recordIds": [
+    "entity:department-of-survey-and-land-information-dosli",
+    "chapter:16",
+    "entity:stats-nz"
+  ],
+  "themeIds": [],
+  "categories": [
+    "census",
+    "database"
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1234",
+  "a": "system:timaru-significant-natural-areas-survey",
+  "b": "chapter:23",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

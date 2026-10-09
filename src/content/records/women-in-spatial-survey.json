@@ -1,0 +1,76 @@
+{
+  "id": "entity:women-in-spatial-survey",
+  "slug": "women-in-spatial-survey",
+  "name": "Women in Spatial + Survey",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/women-in-spatial-survey/",
+  "website": null,
+  "story": [
+    "Women in Spatial + Survey (WIS+S) says its network re-formed in 2011 to connect women across Aotearoa’s spatial and surveying community. Its current statement says the remit has since widened to diversity and inclusion, and that anyone supporting this aim is welcome at events. The group describes those events as a place for networking, celebration, discussion and progress for women and minority communities. This is the group’s own account of its purpose; its earlier lineage is not dated in the sources reviewed.",
+    "The group archive describes an informal rhythm of breakfasts, lunchtime talks and evening events about every two months, with time to discuss issues and share job opportunities. A September 2015 event report records 47 women at a breakfast where Galia Barhava-Monteith of Professionelle discussed barriers to advancement, informal networks and mentoring. Those comments are the speaker’s career-development advice, not a representative survey of the spatial workforce.",
+    "The 5 July 2018 mid-winter event at Transpower brought almost 60 people together for lightning talks. Claire Buxton of Calibre connected land-administration technology with physical access and community practice; Catriona O’Neill presented the NZTA Geospatial team’s remit across mapping and analysis, current information, data procurement, project advice and MapHub self-service; Bonita Gestro described volunteer conservation GIS; and Olivia Martin recounted GIS planning and building-loss mapping from a Canadian wildfire response in May 2016. The event also announced a WIS survey with Victoria University of Wellington and awarded the group’s first conference sponsorship to Rosey Harris for GeoCart’18.",
+    "Harris’s 2019 participant account describes how attending GeoCart’18 helped her enter the wider GIS community. The example shows a practical access role for the network: introducing an early-career practitioner to people, work and technical exchange beyond her immediate workplace.",
+    "In October 2018, Bridgit Sissons spoke to 50 WIS members about the Engineering New Zealand Diversity Agenda. Members then discussed challenges specific to the spatial industry, and the group reported that some took these conversations back to their workplaces. A 2024 lightning-talk recap shows the technical range of later gatherings, including tactile maps, surveying, GIS in schools and data collection.",
+    "The group’s committee biographies connect the network to different career stages. They describe Amy Tay’s transport and infrastructure GIS consulting, FME, data transformation and 3D modelling; Georgia Goodsell’s spatial-intelligence work and volunteer effort to connect new entrants; Devon Allen’s cadastral and engineering surveying and resource-consent work; and student representative Malindi Reihana-Ruka’s interest in working with her community and encouraging other entrants. These biographies are not date-stamped, so titles and study stages are not treated as current.",
+    "The 2018 group archive announced a WIS survey with Victoria University of Wellington, but the records reviewed do not establish its results or link it to later studies. Separately, a 2026 report on the 2025 Geospatial Industry Profile Survey names WIS+S among six committee organisations and credits Rachel Summers with analysis of anonymous responses. It reports 503 responses in 2025 and compares women’s share of survey responses at 40.5% in 2023 and 42.3% in 2025. These are online survey respondent proportions, not estimates of the whole geospatial workforce.",
+    "Across its events and survey participation, Women in Spatial + Survey connects peer support with wider efforts to understand inclusion and representation in the geospatial workforce."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial + Survey, “Supporting diversity and inclusion in spatial and survey careers”",
+      "url": "https://womeninspatial.wordpress.com/"
+    },
+    {
+      "label": "Women in Spatial + Survey, group archive and history",
+      "url": "https://womeninspatial.wordpress.com/author/womeninspatial/"
+    },
+    {
+      "label": "Women in Spatial, “What Stops Women Rising to the Top?”, 12 September 2015",
+      "url": "https://womeninspatial.wordpress.com/2015/09/12/galia-barhava-monteith-what-stops-women-rising-to-the-top/"
+    },
+    {
+      "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+      "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+    },
+    {
+      "label": "Women in Spatial, “Rosey Harris on GeoCart’18”, 30 August 2019",
+      "url": "https://womeninspatial.wordpress.com/2019/08/30/rosey-harris-on-geocart18/"
+    },
+    {
+      "label": "Women in Spatial, “The Diversity Agenda”, 16 November 2018",
+      "url": "https://womeninspatial.wordpress.com/2018/11/16/the-diversity-agenda/"
+    },
+    {
+      "label": "Women in Spatial + Survey, “The Committee”",
+      "url": "https://womeninspatial.wordpress.com/the-committee/"
+    },
+    {
+      "label": "Women in Spatial + Survey, “Mid-Winter Lightning Talks”, 25 August 2024",
+      "url": "https://womeninspatial.wordpress.com/2024/08/25/mid-winter-lightning-talks/"
+    },
+    {
+      "label": "LINZ, “Geospatial Industry Profile Survey Results 2023”",
+      "url": "https://www.linz.govt.nz/sites/default/files/doc/GISS%20Report%202023.pdf"
+    },
+    {
+      "label": "Survey and Spatial New Zealand, “Geospatial Industry Profile Survey Results 2025”",
+      "url": "https://www.surveyspatialnz.org/Attachment?Action=Download&Attachment_id=9352"
+    },
+    {
+      "label": "Spatial Source, “NZ geospatial industry survey report released”, 23 March 2026 (secondary account)",
+      "url": "https://www.spatialsource.com.au/nz-geospatial-industry-survey-report-released/"
+    },
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "Women in Spatial + Survey"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

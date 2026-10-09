@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2481",
+  "a": "person:julian-thom",
+  "b": "entity:university-of-otago",
+  "label": "Associated with",
+  "basis": "Documented University of Otago surveying and GNSS research.",
+  "passageIds": [],
+  "sources": []
+}

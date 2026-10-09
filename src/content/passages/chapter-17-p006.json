@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-17-b9920fb018",
+  "slug": "rural-distance-becomes-an-address-b9920fb018",
+  "articleId": "article:chapter-17",
+  "title": "Rural distance becomes an address",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17",
+    "entity:mackenzie-district-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Rural addressing exposed the weakness of relying on familiar urban street numbering. A farmhouse might sit many kilometres along a road with no dense sequence of neighbouring numbers and few obvious landmarks. Emergency crews travelling at night could lose considerable time if the caller’s location depended on a farm name or directions such as a turn after a particular bridge. Rural Address Property Identification, commonly known as RAPID, addressed this by tying the number to distance along the road. Accurate entrance locations helped emergency services find rural properties.",
+      "markdown": "Rural addressing exposed the weakness of relying on familiar urban street numbering. A farmhouse might sit many kilometres along a road with no dense sequence of neighbouring numbers and few obvious landmarks. Emergency crews travelling at night could lose considerable time if the caller’s location depended on a farm name or directions such as a turn after a particular bridge. Rural Address Property Identification, commonly known as RAPID, addressed this by tying the number to distance along the road. Accurate entrance locations helped emergency services find rural properties.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the familiar RAPID method, a number is calculated from the distance in metres from the defined start of a road to the property entrance, divided by ten, with odd and even numbering used for opposite sides. A property numbered 500 is therefore about five kilometres from the road’s start rather than merely the five-hundredth lot. Councils allocate the number, and the entrance rather than the cadastral centre of the property is normally the operational location. The method makes the number itself useful to someone travelling along the road, especially where houses are widely separated.",
+      "markdown": "Under the familiar RAPID method, a number is calculated from the distance in metres from the defined start of a road to the property entrance, divided by ten, with odd and even numbering used for opposite sides. A property numbered 500 is therefore about five kilometres from the road’s start rather than merely the five-hundredth lot. Councils allocate the number, and the entrance rather than the cadastral centre of the property is normally the operational location. The method makes the number itself useful to someone travelling along the road, especially where houses are widely separated.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Councils introduced the scheme through local implementation. Mackenzie District Council, for example, records implementing RAPID in 2001 to replace rural fire numbers. The approach was incorporated into the Australian/New Zealand rural and urban addressing standard issued in 2003 and subsequently revised. Police guidance later described RAPID as a nationwide system for helping emergency services locate rural properties. Distance-based rural addressing spread during the late 1990s and early 2000s.",
+      "markdown": "Councils introduced the scheme through local implementation. Mackenzie District Council, for example, records implementing RAPID in 2001 to replace rural fire numbers. The approach was incorporated into the Australian/New Zealand rural and urban addressing standard issued in 2003 and subsequently revised. Police guidance later described RAPID as a nationwide system for helping emergency services locate rural properties. Distance-based rural addressing spread during the late 1990s and early 2000s.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "RAPID also demonstrates that an address carries location and access information beyond the parcel label. The operational reference point is the entrance from the road. A large rural title can have more than one entrance and therefore more than one useful access location. Several dwellings can share an entrance. A number that helps an ambulance reach the correct gate can be more operationally useful than the centroid of the legal parcel. Digital GIS made it possible to preserve both relationships rather than choosing one geometry and pretending it served every purpose.",
+      "markdown": "RAPID also demonstrates that an address carries location and access information beyond the parcel label. The operational reference point is the entrance from the road. A large rural title can have more than one entrance and therefore more than one useful access location. Several dwellings can share an entrance. A number that helps an ambulance reach the correct gate can be more operationally useful than the centroid of the legal parcel. Digital GIS made it possible to preserve both relationships rather than choosing one geometry and pretending it served every purpose.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

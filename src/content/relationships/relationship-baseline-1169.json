@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1169",
+  "a": "system:docgis",
+  "b": "entity:department-of-conservation",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

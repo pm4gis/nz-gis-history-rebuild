@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0533",
+  "a": "person:graeme-blick",
+  "b": "chapter:19",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-19-d8aa821386"
+  ],
+  "sources": []
+}

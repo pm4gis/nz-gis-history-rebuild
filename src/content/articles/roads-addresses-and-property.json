@@ -1,0 +1,34 @@
+{
+  "id": "article:chapter-17",
+  "slug": "roads-addresses-and-property",
+  "title": "Roads, addresses and property",
+  "url": "/stories/roads-addresses-and-property/",
+  "summary": "An address looks simple because most of the work has already been done. A number and road name can usually take a courier, ambulance, council officer or mapping application to one recognisable place. Inside a GIS, however, that ap",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 17,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch17-note-01",
+      "text": "1. Emergency Services Address. The LINZ Emergency Services Address specification was accepted 9 November 2001 and recovered as version 1.9.7 published in April 2004. The specification defines a shared core dataset around address data, road-network data and place-name data. It documents national digital standardisation; it does not establish the invention of addressing or the first national address database."
+    },
+    {
+      "id": "ch17-note-02",
+      "text": "2. Local and national responsibility. Historical DCDB material and later LINZ addressing guidance document territorial authorities allocating road names and property numbers and the national land-information organisation collating, checking and redistributing the national record. The modern workflow does not establish every detail of practice in the 1990s."
+    },
+    {
+      "id": "ch17-note-03",
+      "text": "3. RAPID and addressing standards. Mackenzie District Council's documented 2001 RAPID implementation provides a local example; a national first is not established. The 2003 Australian/New Zealand rural and urban addressing standard and its 2011 replacement document the national standards lineage and the distance-based numbering method."
+    },
+    {
+      "id": "ch17-note-04",
+      "text": "4. StreetLink. The Statistics New Zealand Census Meshblock Dataset Guide and StreetLink documentation describe how street names and address ranges were linked to meshblocks and larger official geographies. The 2007 government pricing record documents NZ$6,000 plus GST first supply, NZ$2,000 annual update and NZ$250 quarterly update before the standard file became free on 7 July 2007."
+    },
+    {
+      "id": "ch17-note-05",
+      "text": "5. AIMS and later national data. The 2016 ALGIM GIS Symposium documentation describes a mature AIMS environment and national roads database using council-supplied geometries, road-name conflict checking and address-direction alignment. The exact first operational date remains unresolved and is not required. Current LINZ material only retrospectively documents later product lineage such as NZ Addresses replacing NZ Street Address in 2023."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "person:dionne-hansen",
+  "slug": "dionne-hansen",
+  "name": "Dionne Hansen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/dionne-hansen/",
+  "story": [
+    "LINZ’s 2016 geospatial virtual field trip identified Dionne Hansen as a Senior Geodetic/Geophysical Analyst. Her role sits in the specialist work that maintains and interprets New Zealand’s positioning framework, connecting geodetic observations with the coordinate infrastructure used by surveyors and GIS.",
+    "LINZ names Dionne Hansen in its geospatial virtual field-trip record: Senior Geodetic/Geophysical Analyst, LINZ, 2016 VFT."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Dionne Hansen"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

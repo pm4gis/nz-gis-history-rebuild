@@ -1,0 +1,54 @@
+{
+  "id": "article:chapter-26",
+  "slug": "conservation-and-environment",
+  "title": "Conservation and environment",
+  "url": "/stories/conservation-and-environment/",
+  "summary": "In late 1985 Mary McEwen encountered GIS while ecological region and district boundaries were being digitised and DSIR’s Science Mapping Unit was beginning to use an Intergraph system. The work sat inside a longer conservation tra",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 26,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch26-note-01",
+      "text": "1. Mary McEwen’s near-contemporary account supports the late-1985 ecological-GIS bridge: ecological region and district boundaries being digitised while the DSIR Science Mapping Unit began using Intergraph and the Biological Resources Centre developed a geographic biological-information concept. Chapter 9 discusses the detailed early science lineage; Chapter 26 does not call this New Zealand’s first conservation GIS."
+    },
+    {
+      "id": "ch26-note-02",
+      "text": "2. Departmental history supports the multiple geographic-information traditions inherited by the Department of Conservation in 1987. The chapter does not infer a national enterprise GIS at DOC formation."
+    },
+    {
+      "id": "ch26-note-03",
+      "text": "3. DOC Annual Report 2000/01 supports Biodiversity Information Platform development at conservancy and national levels and the planned Bay of Plenty pilot. The BIP-to-DOCgis transition is supported by DOC’s 2003 technical paper and Release II training material, which document ArcSDE, ArcGIS, ArcIMS, SQL Server, a national geodatabase, browser applications, links to business databases and field-device pathways. Planned and operational components remain distinguished."
+    },
+    {
+      "id": "ch26-note-04",
+      "text": "4. DOCgis credits in the period material include national and conservancy teams and Head Office information-management and spatial-management units. Duane Wilkins’s account also records his work on DOCgis and the 2012 regional shared-service reform."
+    },
+    {
+      "id": "ch26-note-05",
+      "text": "5. The 2015 connected DOC presentation supports later operational examples only at that date, including Treaty settlement material, Te Araroa, Catchpool Valley, functional-location identifiers, assets/boundaries and rapid map requests. These examples are not projected back to 2003."
+    },
+    {
+      "id": "ch26-note-06",
+      "text": "6. LCDB chronology is supported by the Motu/LCDB records: LCDB1 completed in 2000 from summer 1996/97 SPOT imagery, and LCDB2 released in July 2004 using summer 2001/02 Landsat 7 imagery with checking/correction and change information. The process is not described as fully automatic classification."
+    },
+    {
+      "id": "ch26-note-07",
+      "text": "7. Taranaki Regional Council material supports adoption of the Riparian Implementation Strategy in March 1993 and the GIS-based plan workflow from 2001. The council’s retrospective programme history supplies the reported production and time figures, including 279 plans during 1993–2001, more than 2,000 during 2001–2011 and plan preparation falling from about three days to one day. These remain council-reported figures."
+    },
+    {
+      "id": "ch26-note-08",
+      "text": "8. LINZ’s current geospatial-groups record and organisation material support New Zealand GIS in Conservation being established in 2012. It is used as a bounded community endpoint; Chapter 29 discusses the wider professional-network history."
+    },
+    {
+      "id": "ch26-note-09",
+      "text": "DOC’s annual report, 2003 technical paper and training guide establish the Biodiversity Information Platform, National Enterprise GIS and DOCgis chronology. Duane Wilkins’s account supplies the DOCgis design recollection and the 2012 shared-service history."
+    },
+    {
+      "id": "ch26-note-species-records-1987-1993",
+      "text": "Sources: DOC, Amphibian and Reptile Distribution Scheme: database development chronology (https://www.doc.govt.nz/our-work/reptiles-and-frogs-distribution/atlas/species-sightings-and-data-management/what-is-the-ard-scheme/)."
+    }
+  ]
+}

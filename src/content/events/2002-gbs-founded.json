@@ -1,0 +1,34 @@
+{
+  "id": "2002-gbs-founded",
+  "dateDisplay": "June 2002",
+  "startDate": "2002-06",
+  "datePrecision": "month",
+  "year": 2002,
+  "label": "Geographic Business Solutions is founded",
+  "summary": "Harley Prowse and Tony Elson formed GBS after earlier work through GTU and independent GIS consulting.",
+  "url": "/stories/an-industry-and-community-form/#a-consultancy-appears-b51b8936ec",
+  "passageIds": [
+    "passage:chapter-12-b51b8936ec"
+  ],
+  "recordIds": [
+    "entity:geographic-business-solutions",
+    "chapter:12",
+    "entity:abley",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:splice-group",
+    "entity:terralink",
+    "person:steve-abley",
+    "person:beryl-pimblott",
+    "person:harley-prowse",
+    "person:tony-elson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "industry",
+    "software",
+    "professional"
+  ],
+  "sources": []
+}

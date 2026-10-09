@@ -1,0 +1,35 @@
+{
+  "id": "person:dion-fabbro",
+  "slug": "dion-fabbro",
+  "name": "Dion Fabbro",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/dion-fabbro/",
+  "story": [
+    "At the 2018 New Zealand Esri User Conference, Dion Fabbro presented “Myrtle rust: improving DOC’s response through GIS.” The programme records a practical conservation application of GIS within the Department of Conservation’s response to the biosecurity threat."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "Dion Fabbro - Bureau of Meteorology | LinkedIn · public profile",
+      "url": "https://au.linkedin.com/in/dionfabbro"
+    }
+  ],
+  "aliases": [
+    "Dion Fabbro"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ]
+  ]
+}

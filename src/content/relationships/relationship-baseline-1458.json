@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1458",
+  "a": "entity:university-of-otago",
+  "b": "chapter:29",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-29-aa58591027"
+  ],
+  "sources": []
+}

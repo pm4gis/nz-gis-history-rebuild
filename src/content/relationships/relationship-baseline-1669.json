@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1669",
+  "a": "person:kim-ollivier",
+  "b": "chapter:12",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-12-0a270cec64"
+  ],
+  "sources": []
+}

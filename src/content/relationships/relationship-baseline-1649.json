@@ -1,0 +1,13 @@
+{
+  "id": "relationship:baseline-1649",
+  "a": "person:chris-skelly",
+  "b": "chapter:27",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-27-c0ce78eba9",
+    "passage:chapter-27-73a6354dbb",
+    "passage:chapter-27-3a9d0a44c2"
+  ],
+  "sources": []
+}

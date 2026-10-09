@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2022-hokonui-restoration-virtual-field-trip",
+  "dateDisplay": "2022",
+  "startDate": "2022-01-01",
+  "datePrecision": "year",
+  "year": 2022,
+  "label": "Hokonui restoration virtual field trip",
+  "summary": "The school programme linked technology with restoration and te taiao.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

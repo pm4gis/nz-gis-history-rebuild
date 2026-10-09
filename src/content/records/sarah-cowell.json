@@ -1,0 +1,31 @@
+{
+  "id": "person:sarah-cowell",
+  "slug": "sarah-cowell",
+  "name": "Sarah Cowell",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sarah-cowell/",
+  "story": [
+    "Sarah Cowell of Statistics New Zealand organised correspondence on behalf of the Christchurch committee, for the 17 April 2008 regional meeting at Environment Canterbury. The venue filled before the day. The agenda mixed an ArcGIS 9.3 preview with DOC wildfire analysis, Statistics New Zealand meshblocks, Canterbury transport analysis, GNS Science geology, Terralink data delivery and five-minute practitioner demonstrations. A follow-up message in May said the presentations had been placed online."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Sarah Cowell"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

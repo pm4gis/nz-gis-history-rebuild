@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1396",
+  "a": "entity:orbica",
+  "b": "chapter:28",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-28-a74e7647c8"
+  ],
+  "sources": []
+}

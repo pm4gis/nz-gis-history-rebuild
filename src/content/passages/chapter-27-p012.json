@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-27-1962327508",
+  "slug": "manaaki-1962327508",
+  "articleId": "article:chapter-27",
+  "title": "Manaaki",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27",
+    "person:duane-wilkins"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "During New Zealand’s 2020 COVID-19 response, Manaaki connected field reporting with a hosted GIS. Survey123 Connect sent place-based submissions to an ArcGIS Online feature layer used by maps, dashboards and web applications. A registration form and small website connected people with the shared service, and the layer was extracted daily for backup and analysis.",
+      "markdown": "During New Zealand’s 2020 COVID-19 response, Manaaki connected field reporting with a hosted GIS. Survey123 Connect sent place-based submissions to an ArcGIS Online feature layer used by maps, dashboards and web applications. A registration form and small website connected people with the shared service, and the layer was extracted daily for backup and analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Access control was built into the data model. Each user could see only their own records by default, and users from the same organisation did not automatically see one another’s entries. A public registration form collected only the details needed to create an account, while the operational feature layer remained restricted. Esri made up to 165 usernames available without charge for COVID-19 use.",
+      "markdown": "Access control was built into the data model. Each user could see only their own records by default, and users from the same organisation did not automatically see one another’s entries. A public registration form collected only the details needed to create an account, while the operational feature layer remained restricted. Esri made up to 165 usernames available without charge for COVID-19 use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The public side of Manaaki used another pattern. Several applications re-shared public datasets from other sources, and hosted layers were expected to retain source links and extraction dates. A tabbed StoryMap acted as a launch page for embedded applications, forms and viewers, while dashboards were built with the then-public beta Dashboard application. Sensitive operational records and public contextual information could therefore sit in the same broad platform without being exposed through the same permissions.",
+      "markdown": "The public side of Manaaki used another pattern. Several applications re-shared public datasets from other sources, and hosted layers were expected to retain source links and extraction dates. A tabbed StoryMap acted as a launch page for embedded applications, forms and viewers, while dashboards were built with the then-public beta Dashboard application. Sensitive operational records and public contextual information could therefore sit in the same broad platform without being exposed through the same permissions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Duane Wilkins prepared the Manaaki technical design and migration record while the team planned the service’s transfer or continued management. Seconded from LINZ to the COVID-19 Operations Command Centre, he developed a support website and map-based tools for Māori and Pacific communities and NGOs. Manaaki was a collaborative response programme.",
+      "markdown": "Duane Wilkins prepared the Manaaki technical design and migration record while the team planned the service’s transfer or continued management. Seconded from LINZ to the COVID-19 Operations Command Centre, he developed a support website and map-based tools for Māori and Pacific communities and NGOs. Manaaki was a collaborative response programme.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:john-beavan",
+  "slug": "john-beavan",
+  "name": "John Beavan",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/john-beavan/",
+  "story": [
+    "Merrin Pearse worked on the realisation of NZGD2000, while John Beavan at the Institute of Geological and Nuclear Sciences contributed to the deformation modelling.",
+    "Rachelle Winefield, Chris Crook and John Beavan documented the deformation patch developed after the 2009 Fiordland earthquake and the method used to incorporate it into LINZ processing."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 19 · Designing NZGD2000",
+      "url": "/stories/rebuilding-the-coordinate-framework/"
+    },
+    {
+      "label": "Chapter 19 · Real time",
+      "url": "/stories/rebuilding-the-coordinate-framework/"
+    }
+  ],
+  "aliases": [
+    "John Beavan"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 19 · Designing NZGD2000",
+        "url": "/stories/rebuilding-the-coordinate-framework/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 19 · Real time",
+        "url": "/stories/rebuilding-the-coordinate-framework/"
+      }
+    ]
+  ]
+}

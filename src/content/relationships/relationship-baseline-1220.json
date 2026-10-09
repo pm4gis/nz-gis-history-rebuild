@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1220",
+  "a": "system:south-island-orthophoto-2004",
+  "b": "entity:terralink",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2025-06-13-keith-holswich-presents-he-kete-matauranga",
+  "dateDisplay": "2025-06-13",
+  "startDate": "2025-06-13",
+  "datePrecision": "day",
+  "year": 2025,
+  "label": "Keith Holswich presents He Kete Mātauranga",
+  "summary": "The Ngāti Rāhiri grassroots GIS system was presented as a hapū-led approach to protecting, managing and sharing whenua information.",
+  "url": "/stories/the-map-becomes-an-application/#practical-maori-web-mapping-23fcc809db",
+  "passageIds": [
+    "passage:chapter-35-23fcc809db"
+  ],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ]
+}

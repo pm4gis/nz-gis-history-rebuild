@@ -1,0 +1,36 @@
+{
+  "id": "person:ken-williams",
+  "slug": "ken-williams",
+  "name": "Ken Williams",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ken-williams/",
+  "story": [
+    "Ken Williams at North Shore City Council circulated the results of a December 2009 GISList question about splitting polylines at vertices. He reported 25 replies and at least six approaches, including COGO tools, extensions, Manifold and Python. His summary documents practical peer support between council GIS staff and the wider practitioner community."
+  ],
+  "sources": [
+    {
+      "label": "Duane Wilkins Gmail archive, NZEUG GISList messages, administration traffic and shutdown notice"
+    },
+    {
+      "label": "Chapter 12 · Companies and user groups",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Ken Williams"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Companies and user groups",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

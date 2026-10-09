@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1360",
+  "a": "entity:mapdata-sciences",
+  "b": "chapter:16",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-16-df6f81dcf0",
+    "passage:chapter-16-f2e8d11365"
+  ],
+  "sources": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-7-6c61371599",
+  "slug": "urban-land-capability-6c61371599",
+  "articleId": "article:chapter-7",
+  "title": "Urban land capability",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7",
+    "person:bob-cathcart",
+    "person:m-r-jessen"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The same classification logic was adapted for urban planning during the 1980s. M. R. Jessen’s 1987 *Urban Land Use Capability Survey Handbook* documented a system developed for land evaluation at the more detailed scales required for urban development. The work drew on the LUC tradition but focused on constraints relevant to settlement, infrastructure and hazard rather than on agricultural production alone.",
+      "markdown": "The same classification logic was adapted for urban planning during the 1980s. M. R. Jessen’s 1987 *Urban Land Use Capability Survey Handbook* documented a system developed for land evaluation at the more detailed scales required for urban development. The work drew on the LUC tradition but focused on constraints relevant to settlement, infrastructure and hazard rather than on agricultural production alone.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The handbook acknowledged earlier urban capability surveys and the contribution of catchment-authority staff. Bob Cathcart of the Northland Catchment Commission was credited with preparing some of the earliest New Zealand urban LUC surveys and demonstrating their use in urban planning. Staff from twelve catchment authorities commented during development of the handbook, and Palmerston North City Corporation also contributed to the final review.",
+      "markdown": "The handbook acknowledged earlier urban capability surveys and the contribution of catchment-authority staff. Bob Cathcart of the Northland Catchment Commission was credited with preparing some of the earliest New Zealand urban LUC surveys and demonstrating their use in urban planning. Staff from twelve catchment authorities commented during development of the handbook, and Palmerston North City Corporation also contributed to the final review.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later institutional histories record urban LUC use by councils including Whangarei and Palmerston North for planning and hazard mapping. At urban scales, questions about slope stability, flooding, drainage, erosion and ground conditions could affect the suitability of land for development. A capability map gave planners a way to organise those physical constraints spatially rather than relying on separate reports with different boundaries.",
+      "markdown": "Later institutional histories record urban LUC use by councils including Whangarei and Palmerston North for planning and hazard mapping. At urban scales, questions about slope stability, flooding, drainage, erosion and ground conditions could affect the suitability of land for development. A capability map gave planners a way to organise those physical constraints spatially rather than relying on separate reports with different boundaries.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These councils adapted the land-capability method to the scales and decisions of urban planning and assessment. They used it for particular tasks rather than applying the rural national map unchanged.",
+      "markdown": "These councils adapted the land-capability method to the scales and decisions of urban planning and assessment. They used it for particular tasks rather than applying the rural national map unchanged.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

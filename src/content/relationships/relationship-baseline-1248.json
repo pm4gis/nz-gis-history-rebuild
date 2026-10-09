@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1248",
+  "a": "system:our-environment",
+  "b": "chapter:35",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

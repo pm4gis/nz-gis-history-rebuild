@@ -1,0 +1,32 @@
+{
+  "id": "entity:geospatial-capability-committee",
+  "slug": "geospatial-capability-committee",
+  "name": "Geospatial Capability Committee",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/geospatial-capability-committee/",
+  "website": null,
+  "story": [
+    "The Geospatial Capability Committee is LINZ’s cross-sector forum for building New Zealand’s geospatial workforce. Its work connects public agencies, education providers, professional groups, Māori geospatial communities and industry.",
+    "Its goals include strengthening geospatial education at school and tertiary levels, improving women’s representation in senior geospatial roles, and creating high-quality pathways for Māori participation. The committee also designed and runs the biennial New Zealand Geospatial Industry Profile Survey, first conducted in 2023 to establish a baseline for tracking workforce change."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    },
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    }
+  ],
+  "aliases": [
+    "Geospatial Capability Committee"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

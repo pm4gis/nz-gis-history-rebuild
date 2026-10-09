@@ -1,0 +1,61 @@
+{
+  "id": "person:richard-wells",
+  "slug": "richard-wells",
+  "name": "Richard Wells",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/richard-wells/",
+  "story": [
+    "Richard Wells contributed to the 2024 Marine Geospatial Information Working Group discussion as a GEOINT New Zealand maritime team lead. The minutes record an ArcGIS Maritime presentation with Eagle Technology’s John Plunkett. Earlier project-held NZEUG records list Wells in the 2008 committee and the 2010 AGM, documenting participation in the professional community as well as defence mapping.",
+    "Steve Richards and Greg Bennett had left the committee at the December 2008 AGM, and the new committee was listed as Byron Cochrane, Glenn Russell, Igor Albornett, John Thyne, Junior Lee-Chee, Laura Nicol, Meghan Williams, Peter Fraser, Rachel Summers, Richard Wells and Tony Standen."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand ESRI Users Group, 2010 Annual General Meeting Minutes"
+    },
+    {
+      "label": "Eagle Technology, 2017 New Zealand Esri User Conference Sponsorship and Exhibitor Prospectus",
+      "url": "https://www.eagle.co.nz/sites/default/files/2017_Sponsor_Brochure_0.pdf"
+    },
+    {
+      "label": "LINZ, Marine Geospatial Information Working Group minutes, 3 May 2024",
+      "url": "https://www.linz.govt.nz/sites/default/files/2024-08/20240503%20MGI%20WG6%20Minutes.pdf"
+    },
+    {
+      "label": "NZEUG, December 2008 newsletter",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Richard Wells"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Eagle Technology, 2017 New Zealand Esri User Conference Sponsorship and Exhibitor Prospectus",
+        "url": "https://www.eagle.co.nz/sites/default/files/2017_Sponsor_Brochure_0.pdf"
+      },
+      {
+        "label": "LINZ, Marine Geospatial Information Working Group minutes, 3 May 2024",
+        "url": "https://www.linz.govt.nz/sites/default/files/2024-08/20240503%20MGI%20WG6%20Minutes.pdf"
+      },
+      {
+        "label": "NZEUG, December 2008 newsletter",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

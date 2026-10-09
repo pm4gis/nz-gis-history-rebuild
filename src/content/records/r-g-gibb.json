@@ -1,0 +1,109 @@
+{
+  "id": "person:r-g-gibb",
+  "slug": "r-g-gibb",
+  "name": "Robert Gibb",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/r-g-gibb/",
+  "story": [
+    "P. R. Stephens, R. G. Gibb and J. R. Dymond wrote on integrating remote sensing and GIS for natural-resource management.",
+    "At the first national multidisciplinary GIS conference in Wellington in June 1989, P. G. Luckman, R. G. Gibb and M. R. Jessen presented work integrating expert systems and GIS for land classification and assessment. A peer-reviewed follow-up appeared in the New Zealand Geographer in 1990. Those rule-based systems encoded geographic classification through computational reasoning before modern machine-learning methods.",
+    "Robert Gibb led GUILD-on-the-Web at Landcare Research, with David Medyckyj-Scott as co-developer. Released in January 1996, it was an early public web service for environmental spatial data. Gibb and Medyckyj-Scott published their account of the system at the 1996 Spatial Information Research Centre colloquium. The earlier references to R. G. Gibb in this history are retained under his full name.",
+    "Gibb later worked with Alexander Raichev and Michael Speth on rHEALPix, a discrete global grid system with identified, nested cells. He contributed to the OGC DGGS specification and edited its 2021 Part 1 revision, associated with ISO 19170-1:2021. This work connected Manaaki Whenua’s research in spatial referencing with an international standards programme. It sits alongside his earlier work in remote sensing, GIS and land assessment."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 6 · A shared name",
+      "url": "/stories/when-gis-became-gis/"
+    },
+    {
+      "label": "Chapter 44 · AI before the boom",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    },
+    {
+      "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+      "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+    },
+    {
+      "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+      "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+    },
+    {
+      "label": "Gibb, Raichev and Speth, The rHEALPix Discrete Global Grid System, Landcare Research DataStore, deposited 2016, DOI 10.7931/J2D21VHM",
+      "url": "https://datastore.landcareresearch.co.nz/dataset/rhealpix-discrete-global-grid-system"
+    },
+    {
+      "label": "OGC Abstract Specification Topic 21, Discrete Global Grid Systems, version 1.0, 1 August 2017",
+      "url": "https://portal.ogc.org/files/15-104r5.pdf"
+    },
+    {
+      "label": "Robert Gibb (editor), OGC Topic 21, DGGS Part 1, version 2.0, 23 September 2021, 20-040r3",
+      "url": "https://docs.ogc.org/as/20-040r3/20-040r3.html"
+    },
+    {
+      "label": "ISO/TC 211, ISO 19170-1:2021: DGGS core reference system, operations and equal-area Earth reference system",
+      "url": "https://committee.iso.org/sites/tc211/home/projects-old/projects---complete-list-old/iso-19170-1.html"
+    }
+  ],
+  "aliases": [
+    "Robert Gibb",
+    "R. G. Gibb"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 6 · A shared name",
+        "url": "/stories/when-gis-became-gis/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · AI before the boom",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ],
+    [
+      {
+        "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+        "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+      },
+      {
+        "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+        "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Gibb, Raichev and Speth, The rHEALPix Discrete Global Grid System, Landcare Research DataStore, deposited 2016, DOI 10.7931/J2D21VHM",
+        "url": "https://datastore.landcareresearch.co.nz/dataset/rhealpix-discrete-global-grid-system"
+      },
+      {
+        "label": "OGC Abstract Specification Topic 21, Discrete Global Grid Systems, version 1.0, 1 August 2017",
+        "url": "https://portal.ogc.org/files/15-104r5.pdf"
+      },
+      {
+        "label": "Robert Gibb (editor), OGC Topic 21, DGGS Part 1, version 2.0, 23 September 2021, 20-040r3",
+        "url": "https://docs.ogc.org/as/20-040r3/20-040r3.html"
+      },
+      {
+        "label": "ISO/TC 211, ISO 19170-1:2021: DGGS core reference system, operations and equal-area Earth reference system",
+        "url": "https://committee.iso.org/sites/tc211/home/projects-old/projects---complete-list-old/iso-19170-1.html"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Web, 1996",
+      "url": "/stories/the-first-web-maps/"
+    },
+    {
+      "label": "Discrete global grids",
+      "url": "/stories/the-spatial-infrastructure-idea/"
+    }
+  ]
+}

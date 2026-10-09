@@ -1,0 +1,46 @@
+{
+  "id": "system:nzta-enterprise",
+  "slug": "nzta-enterprise",
+  "name": "NZTA enterprise platform",
+  "kind": "Project",
+  "category": "Systems and projects",
+  "url": "/systems/nzta-enterprise/",
+  "story": [
+    "From 2021 NZ Transport Agency Waka Kotahi and Eagle developed a proof of concept and implementation of ArcGIS Enterprise on Kubernetes. The published case describes limitations in a heavily centralised GIS environment and a move towards a hub-and-spoke spatial-service model. Peter Willoughby is named on the NZTA side and Jithen Singh on the Eagle side. A central capability maintained authoritative data and platform governance while business teams developed applications and workflows around shared services.",
+    "The case describes integrations with transport asset, safety and investment systems. ArcGIS Enterprise, ArcGIS Online, dashboards, field surveys and data services supported different ways of reaching the same maintained information. Kubernetes supplied a cloud-native deployment model intended to support scaling, upgrades and resilience. Platform operation still required clear responsibilities for the data, permissions and connections with other business systems.",
+    "Cyclone Gabrielle in February 2023 provided an operational test of the platform. The case describes centralised field survey and situational-awareness workflows used during the response. Staff could bring transport information and changing field observations into applications used to understand damage and access conditions. This depended on shared services remaining available while response teams worked across affected areas.",
+    "The implementation extends an organisational pattern visible in DOCgis twenty years earlier: geographic information maintained centrally has to reach distributed users and applications reliably. The software and deployment methods changed, while data stewardship, access, support and integration remained part of the work. Later claims about cost savings, downtime and operating benefits belong to the published NZTA and Esri account; they are separate from the dated 2021 development and February 2023 response evidence."
+  ],
+  "sources": [
+    {
+      "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+    }
+  ],
+  "aliases": [
+    "NZTA GIS",
+    "Waka Kotahi GIS",
+    "ArcGIS Enterprise on Kubernetes",
+    "spatial as a service"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "Platform development",
+      "paragraphs": [
+        "From 2021 NZ Transport Agency Waka Kotahi and Eagle developed a proof of concept and implementation of ArcGIS Enterprise on Kubernetes. The published case describes limitations in a heavily centralised GIS environment and a move towards a hub-and-spoke spatial-service model. Peter Willoughby is named on the NZTA side and Jithen Singh on the Eagle side. A central capability maintained authoritative data and platform governance while business teams developed applications and workflows around shared services.",
+        "The case describes integrations with transport asset, safety and investment systems. ArcGIS Enterprise, ArcGIS Online, dashboards, field surveys and data services supported different ways of reaching the same maintained information. Kubernetes supplied a cloud-native deployment model intended to support scaling, upgrades and resilience. Platform operation still required clear responsibilities for the data, permissions and connections with other business systems."
+      ]
+    },
+    {
+      "title": "Cyclone response",
+      "paragraphs": [
+        "Cyclone Gabrielle in February 2023 provided an operational test of the platform. The case describes centralised field survey and situational-awareness workflows used during the response. Staff could bring transport information and changing field observations into applications used to understand damage and access conditions. This depended on shared services remaining available while response teams worked across affected areas.",
+        "The implementation extends an organisational pattern visible in DOCgis twenty years earlier: geographic information maintained centrally has to reach distributed users and applications reliably. The software and deployment methods changed, while data stewardship, access, support and integration remained part of the work. Later claims about cost savings, downtime and operating benefits belong to the published NZTA and Esri account; they are separate from the dated 2021 development and February 2023 response evidence."
+      ]
+    }
+  ]
+}

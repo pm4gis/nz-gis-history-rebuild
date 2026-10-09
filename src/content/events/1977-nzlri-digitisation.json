@@ -1,0 +1,24 @@
+{
+  "id": "1977-nzlri-digitisation",
+  "dateDisplay": "1977 to 1980",
+  "startDate": "1977",
+  "endDate": "1980",
+  "datePrecision": "year-range",
+  "year": 1977,
+  "label": "NZLRI national land-resource maps are digitised",
+  "summary": "The national land-resource inventory was converted into a maintained vector database feeding the LADEDA analytical lineage.",
+  "url": "/stories/from-map-sheets-to-spatial-data/#from-coloured-units-to-polygons-e9abb2d6e6",
+  "passageIds": [
+    "passage:chapter-5-e9abb2d6e6"
+  ],
+  "recordIds": [
+    "entity:vector",
+    "chapter:5"
+  ],
+  "themeIds": [],
+  "categories": [
+    "land",
+    "database"
+  ],
+  "sources": []
+}

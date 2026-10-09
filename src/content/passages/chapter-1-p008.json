@@ -1,0 +1,59 @@
+{
+  "id": "passage:chapter-1-a364eef899",
+  "slug": "the-people-behind-the-sheets-a364eef899",
+  "articleId": "article:chapter-1",
+  "title": "The people behind the sheets",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:1",
+    "person:mary-mulcahy",
+    "person:mary-sutherland",
+    "person:madge-pirrit",
+    "person:rachel-gillanders",
+    "person:m-dovey",
+    "person:m-freeman"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The inherited system depended on a technical workforce that is easy to hide behind institutional names. Surveyors and field assistants established control and boundaries. Human computers reduced observations. Draughtspeople compiled plans and maps. Lithographic and photographic staff reproduced them. Clerks indexed records, photogrammetrists measured through stereo imagery, and staff in district offices knew how the pieces fitted together.",
+      "markdown": "The inherited system depended on a technical workforce that is easy to hide behind institutional names. Surveyors and field assistants established control and boundaries. Human computers reduced observations. Draughtspeople compiled plans and maps. Lithographic and photographic staff reproduced them. Clerks indexed records, photogrammetrists measured through stereo imagery, and staff in district offices knew how the pieces fitted together.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The work could reach industrial scale. By the 1890s Lands and Survey was producing more than a million lithographic impressions in a year for land administration and other government purposes. By the twentieth century the same broad production culture supported topographic series, census mapping, aerial photography, geological and soil mapping and specialised agency work. Standard symbols, sheet numbering, coordinate frameworks and record identifiers provided a form of interoperability before the word was common in information technology.",
+      "markdown": "The work could reach industrial scale. By the 1890s Lands and Survey was producing more than a million lithographic impressions in a year for land administration and other government purposes. By the twentieth century the same broad production culture supported topographic series, census mapping, aerial photography, geological and soil mapping and specialised agency work. Standard symbols, sheet numbering, coordinate frameworks and record identifiers provided a form of interoperability before the word was common in information technology.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Rachel Gillanders and draughtswoman Madge Pirrit worked within this broader production system. Pirrit’s credited maps span town and cadastral compilation from the 1920s through aerial-photo-supported wartime topography and later work into 1949. Their names sit alongside a much larger workforce whose observations, calculations and linework accumulated in departmental records. Later digitisation inherited that work, including its strengths, omissions and uncertain boundaries.",
+      "markdown": "Rachel Gillanders and draughtswoman Madge Pirrit worked within this broader production system. Pirrit’s credited maps span town and cadastral compilation from the 1920s through aerial-photo-supported wartime topography and later work into 1949. Their names sit alongside a much larger workforce whose observations, calculations and linework accumulated in departmental records. Later digitisation inherited that work, including its strengths, omissions and uncertain boundaries.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Mary Sutherland, a professionally qualified forester, undertook technical calculation and laboratory work during 1923–32 while accommodation rules limited her field deployment. M. Dovey and M. Freeman appear among the draughting staff converting soil-survey and laboratory classification into thematic maps in 1946–50. Mary Mulcahy selected ballot cards and processed military-service records in 1917–18, within a system organised through mapped recruiting districts. These were different jobs, each contributing to the records that linked people, resources and administrative decisions with place.",
+      "sources": [
+        {
+          "label": "Dictionary of New Zealand Biography / Te Ara, Mary Sutherland",
+          "url": "https://teara.govt.nz/en/biographies/4s58/sutherland-mary/print"
+        },
+        {
+          "label": "Manaaki Whenua, A brief history of Soil Bureau, 1930–80, staff chronology",
+          "url": "https://cdm20022.contentdm.oclc.org/digital/collection/p20022coll3/id/268/"
+        },
+        {
+          "label": "Manatū Taonga / NZHistory, Mary Mulcahy",
+          "url": "https://nzhistory.govt.nz/people/mary-mulcahy"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

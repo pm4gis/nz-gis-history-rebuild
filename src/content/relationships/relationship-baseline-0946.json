@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0946",
+  "a": "person:steve-edbrooke",
+  "b": "entity:gns-science",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

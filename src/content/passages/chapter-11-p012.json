@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-11-f6fb77d9bb",
+  "slug": "a-field-rather-than-a-package-f6fb77d9bb",
+  "articleId": "article:chapter-11",
+  "title": "A field rather than a package",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the middle of the 1990s, New Zealand university GIS had several characteristics of a durable field. Formal teaching was documented at Auckland and Canterbury. Otago had a recurring spatial-information research forum with a growing proceedings series. Computer scientists were publishing on geographic data exchange and system design. Postgraduate research was examining organisational adoption, Treaty-related spatial information, hazards and environmental applications.",
+      "markdown": "By the middle of the 1990s, New Zealand university GIS had several characteristics of a durable field. Formal teaching was documented at Auckland and Canterbury. Otago had a recurring spatial-information research forum with a growing proceedings series. Computer scientists were publishing on geographic data exchange and system design. Postgraduate research was examining organisational adoption, Treaty-related spatial information, hazards and environmental applications.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The field was also connected outward. SIRC papers included researchers from universities, Crown science organisations and practical government contexts. AURISA provided another route between academic and professional work. GIS education was therefore not developing behind the university gate while practitioners built a separate industry. The same people, papers and research questions moved between laboratories, departments, conferences and operational organisations.",
+      "markdown": "The field was also connected outward. SIRC papers included researchers from universities, Crown science organisations and practical government contexts. AURISA provided another route between academic and professional work. GIS education was therefore not developing behind the university gate while practitioners built a separate industry. The same people, papers and research questions moved between laboratories, departments, conferences and operational organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Operating a package was only part of GIS expertise. Students also faced incompatible data, uncertain source quality, database design, organisational maintenance and spatial-analysis questions. University research investigated these problems while teaching provided access to specialised systems. GIS had become a subject whose methods and assumptions could be tested as well as taught.",
+      "markdown": "Operating a package was only part of GIS expertise. Students also faced incompatible data, uncertain source quality, database design, organisational maintenance and spatial-analysis questions. University research investigated these problems while teaching provided access to specialised systems. GIS had become a subject whose methods and assumptions could be tested as well as taught.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 1996 New Zealand had university GIS courses, specialist laboratories, postgraduate research, an annual spatial-information colloquium and regular exchange with practitioners. Each university built its programme at its own pace, without a single national GIS curriculum.",
+      "markdown": "By 1996 New Zealand had university GIS courses, specialist laboratories, postgraduate research, an annual spatial-information colloquium and regular exchange with practitioners. Each university built its programme at its own pace, without a single national GIS curriculum.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That exchange extended beyond the universities. Vendors, consultancies, user groups and professional networks were creating a wider GIS community at the same time that universities were producing research and graduates. By the mid-1990s GIS in New Zealand was no longer held together only by a few departmental systems or isolated technical projects. It had acquired places where it could be taught, criticised, researched and passed to the next group of practitioners.",
+      "markdown": "That exchange extended beyond the universities. Vendors, consultancies, user groups and professional networks were creating a wider GIS community at the same time that universities were producing research and graduates. By the mid-1990s GIS in New Zealand was no longer held together only by a few departmental systems or isolated technical projects. It had acquired places where it could be taught, criticised, researched and passed to the next group of practitioners.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

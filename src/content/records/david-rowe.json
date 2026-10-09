@@ -1,0 +1,31 @@
+{
+  "id": "person:david-rowe",
+  "slug": "david-rowe",
+  "name": "David Rowe",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-rowe/",
+  "story": [
+    "David Rowe, Ude Shankar and M. James used ArcInfo to build a three-dimensional model of Lake Taupō's shallow littoral zone from roughly 300 shoreline transects, aerial photography, direct observations, echosounding and differential GPS. They were interested in a practical management question: how would different permitted lake levels alter the clean-sand habitat used by smelt for spawning at depths between about half a metre and two and a half metres? Five lake levels could be tested against the model rather than treated as an abstract change in water elevation. The GIS connected a management setting at the lake surface to fish habitat around kilometres of shoreline."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 9 · The CRI reorganisation",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "David Rowe"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 9 · The CRI reorganisation",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

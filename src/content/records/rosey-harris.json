@@ -1,0 +1,63 @@
+{
+  "id": "person:rosey-harris",
+  "slug": "rosey-harris",
+  "name": "Rosey Harris",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rosey-harris/",
+  "story": [
+    "Rosey Harris's professional record includes work with OSPRI. Her account of attending GeoCart in 2018 describes the value of conference participation and learning within the cartographic community. Together, these records connect her professional work with the career support provided by Women in Spatial.",
+    "Women in Spatial awarded Rosey Harris its first conference sponsorship in 2018 so she could attend GeoCart’18. In a 2019 participant account, Harris described the conference as helping her enter the wider GIS community and see a broader range of geospatial work.",
+    "The July 2018 WIS event announced a WIS survey with Victoria University of Wellington and presented the group’s first conference sponsorship to Rosey Harris for GeoCart’18. Harris’s later account describes the conference as an entry into the wider GIS community."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+      "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+    },
+    {
+      "label": "Women in Spatial, “Rosey Harris on GeoCart’18”, 30 August 2019",
+      "url": "https://womeninspatial.wordpress.com/2019/08/30/rosey-harris-on-geocart18/"
+    },
+    {
+      "label": "Rosey Harris - OSPRI | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/rosey-harris-b6206a144"
+    },
+    {
+      "label": "Chapter 29 · New professional networks",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Rosey Harris"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Rosey Harris - OSPRI | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/rosey-harris-b6206a144"
+      }
+    ],
+    [
+      {
+        "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+        "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+      },
+      {
+        "label": "Women in Spatial, “Rosey Harris on GeoCart’18”, 30 August 2019",
+        "url": "https://womeninspatial.wordpress.com/2019/08/30/rosey-harris-on-geocart18/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · New professional networks",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

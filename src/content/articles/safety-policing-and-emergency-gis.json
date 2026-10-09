@@ -1,0 +1,42 @@
+{
+  "id": "article:chapter-28",
+  "slug": "safety-policing-and-emergency-gis",
+  "title": "Policing and public safety",
+  "url": "/stories/safety-policing-and-emergency-gis/",
+  "summary": "By the mid-1990s New Zealand Police was rebuilding the way it recorded and retrieved operational information. The important geographic decision was made inside that wider records environment. A later practitioner account by Andy G",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 28,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch28-note-01",
+      "text": "1. Police development evidence supports geographic analysis as a key reporting capability in the mid-1990s records-management environment and a client GIS rollout to 19 analyst sites in early 1999, later expanding to 33. Contemporary government material records MAPS operating in Wellington by November 1999 and a proposed national expansion during 2000. The manuscript does not state that the proposed rollout was completed on schedule or call MAPS the first Police GIS."
+    },
+    {
+      "id": "ch28-note-02",
+      "text": "2. The Office of the Auditor-General’s 2001 Police report is the principal operational MAPS source. It documents radius searches, time-based analysis, localised hot spots, repeat call-outs, shifts in crime patterns, Census-linked strategic comparison and movement analysis. These are described as investigation, prevention, intelligence and deployment support, not predictive policing."
+    },
+    {
+      "id": "ch28-note-03",
+      "text": "3. The 2008 practitioner account supports the client-to-browser transition: expansion from 19 to 33 analyst sites, the maintenance burden of distributed workstations, the thin-client decision, a general browser MAPS release in late 2000 and later access through the Police network. The exact relationship between the November 1999 Wellington MAPS and the late-2000 browser release remains explicitly unresolved."
+    },
+    {
+      "id": "ch28-note-04",
+      "text": "4. The same practitioner account supplies approximate early and later geocoding estimates. They remain documented estimates rather than exact performance statistics."
+    },
+    {
+      "id": "ch28-note-05",
+      "text": "5. New Zealand Fire Service Commission Annual Report 2000/01 supports the resource-allocation model using TransCAD, deprivation information, commercial fire risk and projected development/growth to test station locations against the stated response-time objective. FIRS 2000 is described only as an online incident-information/reporting system because the annual report does not establish it as GIS."
+    },
+    {
+      "id": "ch28-note-06",
+      "text": "6. The 2017 Priority Locations Index and New Zealand Crime Harm Index study supports the distinction between crime volume/density, social-disadvantage/crime vulnerability and harm-weighted offending. The chapter preserves the weak relationship found between PLI and CHI and does not imply either index automatically determines deployment."
+    },
+    {
+      "id": "ch28-note-07",
+      "text": "7. New Zealand Police launch and update material supports policedata.nz launching on 30 November 2016, changing from Flash to HTML on 31 October 2017 and receiving further mobile-friendly reporting in April 2018. Police consultation with Statistics New Zealand and the Office of the Privacy Commissioner and the use of anonymised information support the privacy distinction between public reporting and internal operational GIS."
+    }
+  ]
+}

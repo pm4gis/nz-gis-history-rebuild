@@ -1,0 +1,26 @@
+{
+  "id": "passage:chapter-33-8f9efcc241",
+  "slug": "teaching-people-to-use-the-open-data-environment-8f9efcc241",
+  "articleId": "article:chapter-33",
+  "title": "Teaching people to use the open-data environment",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Open data was useful only when people could find, understand and reuse it. LINZ’s capability programmes addressed that practical layer directly. GeoBites sessions covered authoritative national datasets, web services, property and address data, marine information, LiDAR and data-management practices. Ngā Poutama Matawhenua used the same open-data environment for Māori land, freshwater, climate resilience, historical imagery, coastal applications and other kaupapa Māori mapping. This material should be cross-linked to the detailed LINZ Data Service and open-data history rather than repeating that platform history here: the capability programme shows how open spatial data was taught and applied.",
+      "markdown": "Open data was useful only when people could find, understand and reuse it. LINZ’s capability programmes addressed that practical layer directly. GeoBites sessions covered authoritative national datasets, web services, property and address data, marine information, LiDAR and data-management practices. Ngā Poutama Matawhenua used the same open-data environment for Māori land, freshwater, climate resilience, historical imagery, coastal applications and other kaupapa Māori mapping. This material should be cross-linked to the detailed LINZ Data Service and open-data history rather than repeating that platform history here: the capability programme shows how open spatial data was taught and applied.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

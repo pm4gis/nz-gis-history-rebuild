@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0772",
+  "a": "person:darren-walton",
+  "b": "chapter:28",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-28-46b1a61852"
+  ],
+  "sources": []
+}

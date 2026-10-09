@@ -1,0 +1,54 @@
+{
+  "id": "entity:niwa",
+  "slug": "niwa",
+  "name": "NIWA",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/niwa/",
+  "website": null,
+  "story": [
+    "NIWA used geographic information in freshwater, marine and atmospheric research. Its DASmap work connects a research organisation with Integrated Mapping and early web delivery. The wider history includes mapped scientific observations and services whose requirements extended beyond conventional land-based mapping.",
+    "NIWA developed the River Environment Classification for the Ministry for the Environment, which launched it in Wellington on 22 March 2004. The hierarchy classified river sections using catchment climate, topography, geology and land cover, followed by stream order and valley landform. Maps at about 1:50,000 provided a spatial framework for regional planning and environmental reporting. NIWA worked with regional councils on water-quality and water-quantity case studies; Ton Snelder documented the programme in Freshwater Update.",
+    "Don Robertson and Mary de Winton’s September 2004 account described the completed Freshwater Biodata Information System, partly funded through DOC’s TFBIS programme. It integrated fish, invertebrate, aquatic-plant and other biological records, searchable by organism, sampling attributes, catchment, river reach or map polygon. They distinguished this working data service from Freshwater Information New Zealand, then still under development. FINZ was intended to use the River Environment Classification to connect biological and environmental data with enhanced web mapping."
+  ],
+  "sources": [
+    {
+      "label": "NIWA DAS database upgrade presentation, Integrated Mapping / John McCombs development note",
+      "url": "https://pgrsc.org/wp-content/uploads/2023/07/1-4-2-Brent-Wood-DASdb_OSGEO_2022.pdf"
+    },
+    {
+      "label": "NIWA, Freshwater Update No.6 (2004), River Environment Classification launch",
+      "url": "https://niwa.co.nz/lakes/freshwater-update/no06-2004/niwa-completes-development-new-zealand-river-environment-classification"
+    },
+    {
+      "label": "Don Robertson and Mary de Winton, FBIS: a new freshwater biodata information system, 1 September 2004",
+      "url": "https://niwa.co.nz/water-atmosphere/vol12-no3-september-2004/fbis-new-freshwater-biodata-information-system"
+    }
+  ],
+  "aliases": [
+    "NIWA"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [
+    [
+      {
+        "label": "NIWA DAS database upgrade presentation, Integrated Mapping / John McCombs development note",
+        "url": "https://pgrsc.org/wp-content/uploads/2023/07/1-4-2-Brent-Wood-DASdb_OSGEO_2022.pdf"
+      }
+    ],
+    [
+      {
+        "label": "NIWA, Freshwater Update No.6 (2004), River Environment Classification launch",
+        "url": "https://niwa.co.nz/lakes/freshwater-update/no06-2004/niwa-completes-development-new-zealand-river-environment-classification"
+      }
+    ],
+    [
+      {
+        "label": "Don Robertson and Mary de Winton, FBIS: a new freshwater biodata information system, 1 September 2004",
+        "url": "https://niwa.co.nz/water-atmosphere/vol12-no3-september-2004/fbis-new-freshwater-biodata-information-system"
+      }
+    ]
+  ],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2375",
+  "a": "person:holden-hohaia",
+  "b": "entity:nga-poutama-matawhenua",
+  "label": "Named participant or presenter",
+  "basis": "LINZ Ngā Poutama Matawhenua programme record",
+  "passageIds": [],
+  "sources": []
+}

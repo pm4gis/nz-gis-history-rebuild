@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-26-f257b0d00d",
+  "slug": "building-a-biodiversity-platform-f257b0d00d",
+  "articleId": "article:chapter-26",
+  "title": "Building a biodiversity platform",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "DOC’s 2000/01 annual report described Biodiversity Information Platform development at both conservancy and national levels. A Bay of Plenty Conservancy pilot was planned for August 2001. The proposed intranet system would allow staff to select maps containing roads and tracks, combine them with land-cover and land-resource layers, identify mapped features, run database and graphical queries, and turn layers on or off. The design was intended to widen staff access to terrestrial and freshwater biodiversity information rather than leave spatial work with a small specialist group.",
+      "markdown": "DOC’s 2000/01 annual report described Biodiversity Information Platform development at both conservancy and national levels. A Bay of Plenty Conservancy pilot was planned for August 2001. The proposed intranet system would allow staff to select maps containing roads and tracks, combine them with land-cover and land-resource layers, identify mapped features, run database and graphical queries, and turn layers on or off. The design was intended to widen staff access to terrestrial and freshwater biodiversity information rather than leave spatial work with a small specialist group.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The platform provided maintained data and interactive services. National biological and asset databases were to be overlaid on geographic information and exposed through an interface that allowed staff to explore the relationship between records. That required common coordinates, agreed identifiers and enough metadata for users to understand the layers they were seeing. It also required a way to distinguish nationally maintained information from data being developed in a conservancy.",
+      "markdown": "The platform provided maintained data and interactive services. National biological and asset databases were to be overlaid on geographic information and exposed through an interface that allowed staff to explore the relationship between records. That required common coordinates, agreed identifiers and enough metadata for users to understand the layers they were seeing. It also required a way to distinguish nationally maintained information from data being developed in a conservancy.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Bay of Plenty pilot reflected the department’s distributed structure. A national system had to accommodate the different conservation workflows operating across Head Office, conservancies and field teams. Regional offices held much of the local knowledge needed to interpret or maintain the data. The enterprise system developed through both national programmes and conservancy work.",
+      "markdown": "The Bay of Plenty pilot reflected the department’s distributed structure. A national system had to accommodate the different conservation workflows operating across Head Office, conservancies and field teams. Regional offices held much of the local knowledge needed to interpret or maintain the data. The enterprise system developed through both national programmes and conservancy work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "During the next two years the Biodiversity Information Platform was absorbed into a broader National Enterprise GIS. The name DOCgis was applied to the intranet and extranet application lineage. By 2003 the technical architecture had moved well beyond the original biodiversity portal proposal, with central databases, desktop GIS, browser applications and links to business systems all being treated as parts of the same environment.",
+      "markdown": "During the next two years the Biodiversity Information Platform was absorbed into a broader National Enterprise GIS. The name DOCgis was applied to the intranet and extranet application lineage. By 2003 the technical architecture had moved well beyond the original biodiversity portal proposal, with central databases, desktop GIS, browser applications and links to business systems all being treated as parts of the same environment.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

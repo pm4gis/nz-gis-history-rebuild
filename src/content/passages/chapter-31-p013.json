@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-31-84a5547d6f",
+  "slug": "specialist-gis-alongside-google-84a5547d6f",
+  "articleId": "article:chapter-31",
+  "title": "Specialist GIS alongside Google",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Professional GIS continued to support specialist data management and analysis. Google Maps was not a cadastral system, an enterprise asset database, a statistical production environment or a substitute for controlled operational mapping. Google Earth could display an overlay very effectively while still being the wrong place to maintain the authoritative version of that data. Professional work continued to depend on coordinate systems, metadata, editing rules, spatial databases, analytical methods and governance.",
+      "markdown": "Professional GIS continued to support specialist data management and analysis. Google Maps was not a cadastral system, an enterprise asset database, a statistical production environment or a substitute for controlled operational mapping. Google Earth could display an overlay very effectively while still being the wrong place to maintain the authoritative version of that data. Professional work continued to depend on coordinate systems, metadata, editing rules, spatial databases, analytical methods and governance.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Accuracy requirements also remained different. A geocoder that was useful for finding a shop was not automatically suitable for dispatching an emergency vehicle. An image that was useful for recognising a farm was not automatically suitable for survey work. A route intended for a consumer journey was not the same thing as a transport model. Mass-market mapping widened access without erasing the reasons specialist spatial systems existed.",
+      "markdown": "Accuracy requirements also remained different. A geocoder that was useful for finding a shop was not automatically suitable for dispatching an emergency vehicle. An image that was useful for recognising a farm was not automatically suitable for survey work. A route intended for a consumer journey was not the same thing as a transport model. Mass-market mapping widened access without erasing the reasons specialist spatial systems existed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The effect on GIS teams was more subtle. Users and managers became harder to impress with a map merely because it was interactive. They had already used Google. They began asking why an internal viewer could not search an address as easily, why panning took so long, why imagery was unavailable, or why sharing a result still required more effort than sending a link or opening a Google Earth file. Consumer experience had become part of requirements gathering.",
+      "markdown": "The effect on GIS teams was more subtle. Users and managers became harder to impress with a map merely because it was interactive. They had already used Google. They began asking why an internal viewer could not search an address as easily, why panning took so long, why imagery was unavailable, or why sharing a result still required more effort than sending a link or opening a Google Earth file. Consumer experience had become part of requirements gathering.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Professional teams also used the new tools themselves. Google Earth could be a quick way to orient someone to a place, test whether a coordinate was wildly wrong, discuss a site with a non-specialist or distribute a KML result. These were useful jobs precisely because they did not require the full GIS every time. The consumer tool joined the professional toolkit without replacing it.",
+      "markdown": "Professional teams also used the new tools themselves. Google Earth could be a quick way to orient someone to a place, test whether a coordinate was wildly wrong, discuss a site with a non-specialist or distribute a KML result. These were useful jobs precisely because they did not require the full GIS every time. The consumer tool joined the professional toolkit without replacing it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

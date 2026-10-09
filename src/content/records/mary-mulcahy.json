@@ -1,0 +1,44 @@
+{
+  "id": "person:mary-mulcahy",
+  "slug": "mary-mulcahy",
+  "name": "Mary Mulcahy",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mary-mulcahy/",
+  "story": [
+    "Mary Mulcahy selected ballot cards and processed military-service records during 1917–18 within the geographically organised recruiting system.",
+    "Mary Mulcahy selected ballot cards and processed military-service records in 1917–18, within a system organised through mapped recruiting districts. Her work helped maintain the records linking people and military-service decisions with place."
+  ],
+  "sources": [
+    {
+      "label": "Manatū Taonga / NZHistory, Mary Mulcahy",
+      "url": "https://nzhistory.govt.nz/people/mary-mulcahy"
+    },
+    {
+      "label": "Chapter 1 · The people behind the sheets",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "Mary Mulcahy"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Manatū Taonga / NZHistory, Mary Mulcahy",
+        "url": "https://nzhistory.govt.nz/people/mary-mulcahy"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 1 · The people behind the sheets",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

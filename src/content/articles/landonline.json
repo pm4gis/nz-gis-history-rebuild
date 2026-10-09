@@ -1,0 +1,40 @@
+{
+  "id": "article:chapter-14",
+  "slug": "landonline",
+  "title": "Landonline",
+  "url": "/stories/landonline/",
+  "summary": "When Land Information New Zealand was created in 1996 it inherited two national record systems that had grown up for different purposes. The survey and cadastral side came largely from the Department of Survey and Land Information",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 14,
+  "themeIds": [
+    "cadastre"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch14-note-01",
+      "text": "1. Programme decision and phases. The Office of the Auditor-General's later Landonline programme history documents the November 1997 decision to develop Landonline and the distinction between Stage One and Stage Two. Contemporary ministerial and LINZ material document electronic records, internal automation, remote search, electronic lodgement and pre-validation without assigning one launch date to the whole programme."
+    },
+    {
+      "id": "ch14-note-02",
+      "text": "2. Rollout. Keep the April 2000 Otago/Southland implementation milestone separate from the December 2000 Dunedin customer launch and from completion of Stage One in May 2002. Official LINZ and government launch material documents these dates."
+    },
+    {
+      "id": "ch14-note-03",
+      "text": "3. Paper-title endpoint. The 31 May 2002 government release documents the final paper certificate of land title under the old issue model. This endpoint does not establish completion of all Landonline capabilities."
+    },
+    {
+      "id": "ch14-note-04",
+      "text": "4. Legislation. The Land Transfer (Computer Registers and Electronic Lodgement) Amendment Act 2002 and the Cadastral Survey Act 2002 document the statutory basis of electronic registers, instruments, survey datasets and lodgement. Keep enactment and commencement dates distinct from later compulsory professional uptake."
+    },
+    {
+      "id": "ch14-note-05",
+      "text": "5. E-survey and e-dealing. Contemporary papers by Bevin and by Haanen, Bevin and Sutherland document structured cadastral survey data and automated validation. LINZ annual reporting documents nationwide e-survey availability in November 2003, completion of Survey Conversion in December 2003, mandatory electronic survey datasets from September 2007 and mandatory electronic title transactions by lawyers and conveyancers from February 2009."
+    },
+    {
+      "id": "ch14-note-06",
+      "text": "6. Terralink and EDS. The documented 16 June 1999 EDS subcontract, January 2001 receivership and government material record underestimated cost/time and associated losses. The evidence does not establish one technical defect as the cause of the receivership."
+    }
+  ]
+}

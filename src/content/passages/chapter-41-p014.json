@@ -1,0 +1,28 @@
+{
+  "id": "passage:chapter-41-937c6b94a6",
+  "slug": "access-crosses-the-boundary-937c6b94a6",
+  "articleId": "article:chapter-41",
+  "title": "Access crosses the boundary",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41",
+    "entity:koordinates"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Hosting also changed the location of access control. Earlier internal GIS could often assume that being on the organisational network was itself part of the security boundary. Public and hosted services needed clearer distinctions between anonymous users, registered users, trusted applications, editors and administrators. Koordinates ID in the 2017 migration is a simple example of that shift: the same hosted identity could operate across several sites, while the data services remained organisationally distinct. ArcGIS Online used its own accounts, groups and sharing controls. APIs could require keys or tokens even when the underlying data was public.",
+      "markdown": "Hosting also changed the location of access control. Earlier internal GIS could often assume that being on the organisational network was itself part of the security boundary. Public and hosted services needed clearer distinctions between anonymous users, registered users, trusted applications, editors and administrators. Koordinates ID in the 2017 migration is a simple example of that shift: the same hosted identity could operate across several sites, while the data services remained organisationally distinct. ArcGIS Online used its own accounts, groups and sharing controls. APIs could require keys or tokens even when the underlying data was public.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Those mechanisms made external reuse easier, but they also created more credentials and permission decisions to manage. A public dataset might allow anonymous viewing while restricting editing. A partner organisation might receive access to material that was not public. An automated application might need a key that should not be embedded carelessly in a public page or shared between unrelated systems. Chapter 40 treated identity as part of enterprise GIS. In the hosted period, identity increasingly had to work across organisational and platform boundaries rather than stopping at the office network.",
+      "markdown": "Those mechanisms made external reuse easier, but they also created more credentials and permission decisions to manage. A public dataset might allow anonymous viewing while restricting editing. A partner organisation might receive access to material that was not public. An automated application might need a key that should not be embedded carelessly in a public page or shared between unrelated systems. Chapter 40 treated identity as part of enterprise GIS. In the hosted period, identity increasingly had to work across organisational and platform boundaries rather than stopping at the office network.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

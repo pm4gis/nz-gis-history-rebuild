@@ -1,0 +1,42 @@
+{
+  "id": "person:deanna-teao",
+  "slug": "deanna-teao",
+  "name": "Deanna Teao",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/deanna-teao/",
+  "story": [
+    "LINZ’s 2026 Geospatial Capability Committee material lists Deanna Teao in local government representative; Geospatial Capability Committee..",
+    "A LINZ geospatial student or graduate profile records Deanna Teao: Massey MSc Remote Sensing student; later/current GCC local-government representative."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    },
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Deanna Teao"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

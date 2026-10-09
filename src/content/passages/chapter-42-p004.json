@@ -1,0 +1,86 @@
+{
+  "id": "passage:chapter-42-617f32c44a",
+  "slug": "canterbury-exposes-the-gaps-617f32c44a",
+  "articleId": "article:chapter-42",
+  "title": "Canterbury exposes the gaps",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42",
+    "entity:canterbury-regional-council-environment-canterbury",
+    "entity:christchurch-city-council",
+    "entity:eagle-technology",
+    "entity:earth-cubed",
+    "entity:trade-me",
+    "entity:tauranga-city-council",
+    "person:jithen-singh",
+    "person:justin-fail",
+    "person:kim-ollivier",
+    "person:martin-erasmuson",
+    "person:stephen-ferriss",
+    "person:dave-loubser",
+    "person:iain-campion",
+    "person:mark-thompson"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Canterbury earthquake sequence beginning in September 2010 exposed the difficulty of sharing spatial information across a large recovery effort. Later accounts describe a landscape of many agencies, contractors and datasets that had not been designed in advance to function as one information environment. The response and recovery generated urgent demand for property information, zoning, infrastructure status, aerial imagery, geotechnical information, cadastral data and many other spatial layers. The need was immediate, but the institutional machinery for supplying it consistently had to be assembled while the work was already under way.",
+      "markdown": "The Canterbury earthquake sequence beginning in September 2010 exposed the difficulty of sharing spatial information across a large recovery effort. Later accounts describe a landscape of many agencies, contractors and datasets that had not been designed in advance to function as one information environment. The response and recovery generated urgent demand for property information, zoning, infrastructure status, aerial imagery, geotechnical information, cadastral data and many other spatial layers. The need was immediate, but the institutional machinery for supplying it consistently had to be assembled while the work was already under way.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Tasman",
+      "caption": "Tasman. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "Practitioners exchanged earthquake mapping information within days of the event. On 8 September 2010 Mark Thompson, GIS business leader at Tauranga City Council, circulated a crowd-sourced Google map of Christchurch and asked whether it was “a bit of Neogeography”. Jithen Singh at Eagle Technology replied that live crowd-sourced information had already been added to an earthquake Common Operating Picture alongside data being refreshed from authoritative sources. Dave Loubser of Wellington consultancy Earth Cubed pointed the list towards another Christchurch earthquake map. Official GIS, commercial systems and public mapping were already being combined within days of the 4 September earthquake.",
+      "markdown": "Practitioners exchanged earthquake mapping information within days of the event. On 8 September 2010 Mark Thompson, GIS business leader at Tauranga City Council, circulated a crowd-sourced Google map of Christchurch and asked whether it was “a bit of Neogeography”. Jithen Singh at Eagle Technology replied that live crowd-sourced information had already been added to an earthquake Common Operating Picture alongside data being refreshed from authoritative sources. Dave Loubser of Wellington consultancy Earth Cubed pointed the list towards another Christchurch earthquake map. Official GIS, commercial systems and public mapping were already being combined within days of the 4 September earthquake.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The practitioner networks were pulled into that work as well. On 26 February 2011, four days after the February earthquake, Environment Canterbury's Iain Campion used GISList to seek people with Esri skills who might be able to work eight-hour mapping shifts in the Christchurch emergency operations centre at the Art Gallery. The request went out before the staffing requirement had even been formally confirmed. In the following weeks the same list moved from finding people to finding usable data. Kim Ollivier pressed for reusable map services rather than links to finished web maps; Jithen Singh pointed users towards Esri REST, WFS and WMS services; Beca's Justin Fail reported work by Christchurch City Council to establish WMS and WFS services; and practitioners circulated aerial imagery and demolition data. The thread captures an untidy but important part of emergency GIS: formal systems were essential, but so were people who knew whom to ask and how to expose the data quickly enough for somebody else to use it.",
+      "markdown": "The practitioner networks were pulled into that work as well. On 26 February 2011, four days after the February earthquake, Environment Canterbury's Iain Campion used GISList to seek people with Esri skills who might be able to work eight-hour mapping shifts in the Christchurch emergency operations centre at the Art Gallery. The request went out before the staffing requirement had even been formally confirmed. In the following weeks the same list moved from finding people to finding usable data. Kim Ollivier pressed for reusable map services rather than links to finished web maps; Jithen Singh pointed users towards Esri REST, WFS and WMS services; Beca's Justin Fail reported work by Christchurch City Council to establish WMS and WFS services; and practitioners circulated aerial imagery and demolition data. The thread captures an untidy but important part of emergency GIS: formal systems were essential, but so were people who knew whom to ask and how to expose the data quickly enough for somebody else to use it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the most visible early products was Landcheck. It answered a narrow public question about land zoning after the 2011 Christchurch earthquake. CERA's later record says Trade Me was asked to build the site in four days, did so at no cost, and Landcheck launched on 23 June 2011. By 16 September it had exceeded ten million hits. The numbers reflect public demand rather than geospatial sophistication. A simple property lookup was valuable because it connected an authoritative spatial classification to the question thousands of people actually had. In an emergency, the elegant GIS architecture sits behind the scene; what the public remembers is whether the address box gives them an answer.",
+      "markdown": "One of the most visible early products was Landcheck. It answered a narrow public question about land zoning after the 2011 Christchurch earthquake. CERA's later record says Trade Me was asked to build the site in four days, did so at no cost, and Landcheck launched on 23 June 2011. By 16 September it had exceeded ten million hits. The numbers reflect public demand rather than geospatial sophistication. A simple property lookup was valuable because it connected an authoritative spatial classification to the question thousands of people actually had. In an emergency, the elegant GIS architecture sits behind the scene; what the public remembers is whether the address box gives them an answer.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Landcheck served public enquiries within the wider Canterbury recovery programme. The 2016 CERA SDI whitepaper records an initial LINZ-funded cloud-hosted GIS and a multi-agency GIS roundtable established in 2011 to guide the emerging infrastructure. At maturity the SDI delivered more than 4,000 datasets through 80 secure and public data services, including 10 imagery services, from 14 public and private organisations. The architecture used role-based security, catalogued services, web viewers and standards including REST, WMS, WFS and KML. The whitepaper described relationships, trust and governance as more difficult to establish than the servers.",
+      "markdown": "Landcheck served public enquiries within the wider Canterbury recovery programme. The 2016 CERA SDI whitepaper records an initial LINZ-funded cloud-hosted GIS and a multi-agency GIS roundtable established in 2011 to guide the emerging infrastructure. At maturity the SDI delivered more than 4,000 datasets through 80 secure and public data services, including 10 imagery services, from 14 public and private organisations. The architecture used role-based security, catalogued services, web viewers and standards including REST, WMS, WFS and KML. The whitepaper described relationships, trust and governance as more difficult to establish than the servers.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Government formally announced the Canterbury Spatial Data Infrastructure programme in November 2012. It was intended to remove barriers to information sharing between agencies, use web technology more effectively and support three-dimensional visualisation. In July 2013 the Forward Works Spatial Coordination project added a practical planning tool that brought recovery agencies’ works and utilities into one integrated view with locations, timeframes and other attributes. Its immediate purpose was operational: coordinate construction, avoid scheduling clashes and reduce repeated excavation of the same streets.",
+      "markdown": "The Government formally announced the Canterbury Spatial Data Infrastructure programme in November 2012. It was intended to remove barriers to information sharing between agencies, use web technology more effectively and support three-dimensional visualisation. In July 2013 the Forward Works Spatial Coordination project added a practical planning tool that brought recovery agencies’ works and utilities into one integrated view with locations, timeframes and other attributes. Its immediate purpose was operational: coordinate construction, avoid scheduling clashes and reduce repeated excavation of the same streets.",
+      "sources": [
+        {
+          "label": "Beehive, Important boost for Canterbury rebuild, 16 November 2012",
+          "url": "https://www.beehive.govt.nz/release/important-boost-canterbury-rebuild"
+        },
+        {
+          "label": "Beehive, Canterbury SDI programme delivering benefits, 31 July 2013",
+          "url": "https://www.beehive.govt.nz/release/canterbury-sdi-programme-delivering-benefits"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Stephen Ferriss and Martin Erasmuson documented the CERA spatial data infrastructure in a March 2016 business whitepaper. Ferriss was CERA’s Data and GIS Manager and had overseen the infrastructure’s continuing development and support for the wider stakeholder community. Their account explains the work of connecting organisations, establishing access and maintaining services during recovery. It identifies the management and information-sharing work behind the datasets and viewers used across Canterbury.",
+      "markdown": "Stephen Ferriss and Martin Erasmuson documented the CERA spatial data infrastructure in a March 2016 business whitepaper. Ferriss was CERA’s Data and GIS Manager and had overseen the infrastructure’s continuing development and support for the wider stakeholder community. Their account explains the work of connecting organisations, establishing access and maintaining services during recovery. It identifies the management and information-sharing work behind the datasets and viewers used across Canterbury.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

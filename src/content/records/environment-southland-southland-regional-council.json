@@ -1,0 +1,35 @@
+{
+  "id": "entity:environment-southland-southland-regional-council",
+  "slug": "environment-southland-southland-regional-council",
+  "name": "Environment Southland / Southland Regional Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/environment-southland-southland-regional-council/",
+  "website": "https://www.es.govt.nz",
+  "story": [
+    "Environment Southland participated in and co-sponsored Topoclimate South’s regional soil and microclimate mapping programme in 1998–2001. Its institutional strategy maps explicitly credit ES GIS in 2001. Documented work also includes GIS mapping for pest management that year."
+  ],
+  "sources": [
+    {
+      "label": "Hutchinson, Richards and Risk, Aspects of accumulated heat patterns (growing-degree days) and pasture growth in Southland",
+      "url": "https://www.nzgajournal.org.nz/index.php/ProNZGA/article/view/2396"
+    },
+    {
+      "label": "Manaaki Whenua, A history of New Zealand soil survey, 1990s restructuring and Topoclimate South/growOTAGO sections",
+      "url": "https://soils.landcareresearch.co.nz/topics/soil-survey/history-of-nz-soil-survey"
+    },
+    {
+      "label": "Environment Southland Regional Pest Management Strategy, Appendix 3 map-source statement",
+      "url": "https://www.bionet.nz/assets/Uploads/southland-regional-pest-management-strategy.pdf"
+    }
+  ],
+  "aliases": [
+    "Environment Southland",
+    "Southland Regional Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

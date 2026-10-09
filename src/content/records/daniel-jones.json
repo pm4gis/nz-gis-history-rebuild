@@ -1,0 +1,31 @@
+{
+  "id": "person:daniel-jones",
+  "slug": "daniel-jones",
+  "name": "Daniel Jones",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/daniel-jones/",
+  "story": [
+    "Daniel Jones's 2019 University of Canterbury master's thesis examined the integration of BIM and GIS. The research proposed a workflow integrating BIM and GIS for urban risk and resilience, using Christchurch and the Taiora Queen Elizabeth II recreation and sports centre as a case. It explored semantic and web-service issues as well as the geographic relationship between a detailed building model and wider spatial context. The thesis used the term digital twin."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 39 · Buildings meet geography",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Daniel Jones"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 39 · Buildings meet geography",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2014-linz-school-virtual-field-trip-wins-nz-spatial-excellence-award",
+  "dateDisplay": "2014",
+  "startDate": "2014-01-01",
+  "datePrecision": "year",
+  "year": 2014,
+  "label": "LINZ school virtual field trip wins NZ Spatial Excellence Award",
+  "summary": "The 2014 geospatial virtual field trip won the People and Community category.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

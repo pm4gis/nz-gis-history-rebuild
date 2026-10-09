@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-40-20048f3f19",
+  "slug": "the-metadata-standard-problem-20048f3f19",
+  "articleId": "article:chapter-40",
+  "title": "The metadata standard problem",
+  "order": 19,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:department-of-conservation"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Metadata became a particularly revealing test of the enterprise and SDI ambitions. In 2003 the Department of Conservation's enterprise-GIS paper said its national geodatabase would migrate to the New Zealand Geospatial Metadata Standard when that standard was fully implemented. A June 2004 draft New Zealand Government Geospatial Metadata Standard then attempted to turn ISO 19115 into a government profile for describing spatial data consistently. On paper this made sense: if organisations could describe source, quality, extent, currency, responsibility and use constraints in the same structured way, data could be discovered and assessed beyond the team that created it.",
+      "markdown": "Metadata became a particularly revealing test of the enterprise and SDI ambitions. In 2003 the Department of Conservation's enterprise-GIS paper said its national geodatabase would migrate to the New Zealand Geospatial Metadata Standard when that standard was fully implemented. A June 2004 draft New Zealand Government Geospatial Metadata Standard then attempted to turn ISO 19115 into a government profile for describing spatial data consistently. On paper this made sense: if organisations could describe source, quality, extent, currency, responsibility and use constraints in the same structured way, data could be discovered and assessed beyond the team that created it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Implementation was much less elegant. A 2007 review of the national and regional Wildfire Threat Analysis programme records that adoption of the New Zealand standard initially complicated the work because projects were using different software and there was no tool capable of reading and writing the required metadata. LINZ eventually helped produce a Microsoft Word template so the projects could comply, while existing national metadata written in another format had to be rewritten. Metadata standards still required affordable software, staff time and workable publishing processes.",
+      "markdown": "Implementation was much less elegant. A 2007 review of the national and regional Wildfire Threat Analysis programme records that adoption of the New Zealand standard initially complicated the work because projects were using different software and there was no tool capable of reading and writing the required metadata. LINZ eventually helped produce a Microsoft Word template so the projects could comply, while existing national metadata written in another format had to be rewritten. Metadata standards still required affordable software, staff time and workable publishing processes.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The national approach changed rather than disappearing. In July 2010 the State Services Commission endorsed the ANZLIC Metadata Profile as the recommended geospatial metadata standard for government agencies. It was based on the Australia/New Zealand adoption of ISO 19115, but practical implementation increasingly relied on smaller mandatory cores, templates and tools such as ANZMet Lite rather than expecting every ordinary data custodian to confront the full structure of an international metadata schema. The 2015 revision of ISO 19115 then superseded the earlier 2005 standard and the 2007 regional profile, but the implementation problem did not magically disappear. LINZ guidance prepared in 2019 described metadata creation as complex and time-consuming, noted that tools and best-practice guidance had not yet emerged for the 2015 version, and pragmatically recommended continuing with the older profile until usable tooling caught up. Formal standards continued to advance faster than the software and processes needed to make them routine.",
+      "markdown": "The national approach changed rather than disappearing. In July 2010 the State Services Commission endorsed the ANZLIC Metadata Profile as the recommended geospatial metadata standard for government agencies. It was based on the Australia/New Zealand adoption of ISO 19115, but practical implementation increasingly relied on smaller mandatory cores, templates and tools such as ANZMet Lite rather than expecting every ordinary data custodian to confront the full structure of an international metadata schema. The 2015 revision of ISO 19115 then superseded the earlier 2005 standard and the 2007 regional profile, but the implementation problem did not magically disappear. LINZ guidance prepared in 2019 described metadata creation as complex and time-consuming, noted that tools and best-practice guidance had not yet emerged for the 2015 version, and pragmatically recommended continuing with the older profile until usable tooling caught up. Formal standards continued to advance faster than the software and processes needed to make them routine.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the later 2010s, the practical route to discovery was becoming less dependent on every organisation implementing one elaborate catalogue in exactly the same way. Data.govt.nz moved towards a common catalogue schema based on DCAT and mapped to other schemes including ANZLIC, while harvesting metadata automatically from CSW catalogues, CKAN and data.json feeds including ArcGIS sources. ArcGIS Online item metadata could in turn be harvested into the national data catalogue. The original SDI objective of making distributed information discoverable and reusable remained, but the implementation was becoming an ecosystem of hosted catalogues, platform metadata, harvesting and web services rather than one uniformly implemented national metadata stack. The standards continued, while much of the practical interoperability moved closer to the services and platforms people were actually using.",
+      "markdown": "By the later 2010s, the practical route to discovery was becoming less dependent on every organisation implementing one elaborate catalogue in exactly the same way. Data.govt.nz moved towards a common catalogue schema based on DCAT and mapped to other schemes including ANZLIC, while harvesting metadata automatically from CSW catalogues, CKAN and data.json feeds including ArcGIS sources. ArcGIS Online item metadata could in turn be harvested into the national data catalogue. The original SDI objective of making distributed information discoverable and reusable remained, but the implementation was becoming an ecosystem of hosted catalogues, platform metadata, harvesting and web services rather than one uniformly implemented national metadata stack. The standards continued, while much of the practical interoperability moved closer to the services and platforms people were actually using.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

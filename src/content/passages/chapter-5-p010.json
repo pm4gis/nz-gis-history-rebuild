@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-5-b2bdbbfa73",
+  "slug": "from-in-house-to-commercial-gis-b2bdbbfa73",
+  "articleId": "article:chapter-5",
+  "title": "From in-house to commercial GIS",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The NZLRI team changed from its locally developed GIS environment to commercial GIS software in 1988. Later historical material identifies ARC/INFO as the commercial system adopted in the Water and Soil lineage. The change occurred after years of digital capture, database management, selection and plotting had already been established around NZLRI and LADEDA. Staff transferred an existing geographic database and working methods into a commercial platform.",
+      "markdown": "The NZLRI team changed from its locally developed GIS environment to commercial GIS software in 1988. Later historical material identifies ARC/INFO as the commercial system adopted in the Water and Soil lineage. The change occurred after years of digital capture, database management, selection and plotting had already been established around NZLRI and LADEDA. Staff transferred an existing geographic database and working methods into a commercial platform.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Commercial software altered the development burden. A purpose-built system required local staff to maintain code for functions that GIS vendors were increasingly supplying as standard products, including vector editing, polygon processing, database links and cartographic output. The organisation could redirect effort from maintaining every part of the software environment towards managing the data and using a wider set of tools. The migration also made it easier to exchange methods and skills with other organisations adopting the same commercial platforms.",
+      "markdown": "Commercial software altered the development burden. A purpose-built system required local staff to maintain code for functions that GIS vendors were increasingly supplying as standard products, including vector editing, polygon processing, database links and cartographic output. The organisation could redirect effort from maintaining every part of the software environment towards managing the data and using a wider set of tools. The migration also made it easier to exchange methods and skills with other organisations adopting the same commercial platforms.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Staff transferred the data and working methods into the new platform. LADEDA had been built for a specific national dataset at a time when suitable commercial GIS products were not yet common in New Zealand. By the late 1980s the market had changed. Intergraph systems were appearing in scientific mapping, Esri software had a growing local presence, and universities were beginning to teach GIS explicitly. A system developed internally in the late 1970s now operated in a field with commercial alternatives.",
+      "markdown": "Staff transferred the data and working methods into the new platform. LADEDA had been built for a specific national dataset at a time when suitable commercial GIS products were not yet common in New Zealand. By the late 1980s the market had changed. Intergraph systems were appearing in scientific mapping, Esri software had a growing local presence, and universities were beginning to teach GIS explicitly. A system developed internally in the late 1970s now operated in a field with commercial alternatives.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1988 change also marks the point at which several previously separate traditions, including land-resource databases, remote sensing, automated mapping and commercial graphics systems, increasingly came under the shared GIS label. NZLRI had already supplied one of those traditions with a national database, experienced users and more than a decade of accumulated work.",
+      "markdown": "The 1988 change also marks the point at which several previously separate traditions, including land-resource databases, remote sensing, automated mapping and commercial graphics systems, increasingly came under the shared GIS label. NZLRI had already supplied one of those traditions with a national database, experienced users and more than a decade of accumulated work.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

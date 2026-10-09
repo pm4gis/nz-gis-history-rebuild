@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2465",
+  "a": "person:shannon-mccolley",
+  "b": "entity:land-information-new-zealand-linz",
+  "label": "Associated with",
+  "basis": "Documented association in the 7 October 2026 entity-gap expansion research.",
+  "passageIds": [],
+  "sources": []
+}

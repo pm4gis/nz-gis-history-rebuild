@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-24-3510b72bef",
+  "slug": "government-applications-3510b72bef",
+  "articleId": "article:chapter-24",
+  "title": "Government applications",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:24"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the late 1990s, a government task could use GIS without becoming a GIS project. The specialised systems described in Chapter 10 had established that departments could maintain national spatial databases and digital mapping environments. Desktop software had widened access, while census boundaries, cadastral data, addresses, topography and other national datasets were becoming easier to obtain in forms that ordinary analysts could use. Location could now enter a policy paper, operational response or regulatory system without the organisation first building a mapping department around it.",
+      "markdown": "By the late 1990s, a government task could use GIS without becoming a GIS project. The specialised systems described in Chapter 10 had established that departments could maintain national spatial databases and digital mapping environments. Desktop software had widened access, while census boundaries, cadastral data, addresses, topography and other national datasets were becoming easier to obtain in forms that ordinary analysts could use. Location could now enter a policy paper, operational response or regulatory system without the organisation first building a mapping department around it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Administrative and analytical work also began using geographic information. Treasury analysts wanted to understand differences between regional economies. Biosecurity staff needed to find infected and potentially exposed apiaries during an incursion. Fisheries managers had to relate species, catch and management areas to the marine environment. Mining and petroleum administrators dealt with legal permit areas that had to be defined, checked and maintained geographically. In each case, the map sat beside administrative records, scientific evidence or policy analysis rather than replacing them.",
+      "markdown": "Administrative and analytical work also began using geographic information. Treasury analysts wanted to understand differences between regional economies. Biosecurity staff needed to find infected and potentially exposed apiaries during an incursion. Fisheries managers had to relate species, catch and management areas to the marine environment. Mining and petroleum administrators dealt with legal permit areas that had to be defined, checked and maintained geographically. In each case, the map sat beside administrative records, scientific evidence or policy analysis rather than replacing them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Central government remained organisationally uneven. Some agencies had specialist GIS teams, some bought prepared datasets and desktop software, and others used spatial functions embedded in larger information systems. Restructuring also moved functions between departments during the 1990s and 2000s. Government therefore used several architectures rather than one common model. The shared pattern was that more public-sector work could assume the existence of digital geographic information and staff who knew how to use it.",
+      "markdown": "Central government remained organisationally uneven. Some agencies had specialist GIS teams, some bought prepared datasets and desktop software, and others used spatial functions embedded in larger information systems. Restructuring also moved functions between departments during the 1990s and 2000s. Government therefore used several architectures rather than one common model. The shared pattern was that more public-sector work could assume the existence of digital geographic information and staff who knew how to use it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

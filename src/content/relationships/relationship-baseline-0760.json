@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0760",
+  "a": "person:robert-sanson",
+  "b": "chapter:24",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-24-a6684b8874"
+  ],
+  "sources": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "profession",
+  "slug": "profession",
+  "title": "Becoming a GIS profession",
+  "description": "Follow teaching, conferences, user groups and the widening definition of GIS work.",
+  "color": "#68a8c6",
+  "passageIds": [
+    "passage:chapter-6-e04c029193",
+    "passage:chapter-6-bc94bd66ec",
+    "passage:chapter-11-6b17dc2b4d",
+    "passage:chapter-12-db33362cb9",
+    "passage:chapter-29-18b0a31a28",
+    "passage:chapter-29-99e14779ee",
+    "passage:chapter-44-07cb21dd5b"
+  ],
+  "stops": [
+    {
+      "passageId": "passage:chapter-6-e04c029193",
+      "title": "Teaching GIS",
+      "url": "/stories/when-gis-became-gis/#teaching-gis"
+    },
+    {
+      "passageId": "passage:chapter-6-bc94bd66ec",
+      "title": "A shared name",
+      "url": "/stories/when-gis-became-gis/#a-shared-name"
+    },
+    {
+      "passageId": "passage:chapter-11-6b17dc2b4d",
+      "title": "A recurring research forum",
+      "url": "/stories/universities-build-a-field/#a-recurring-research-forum"
+    },
+    {
+      "passageId": "passage:chapter-12-db33362cb9",
+      "title": "Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/#users-organise-themselves"
+    },
+    {
+      "passageId": "passage:chapter-29-18b0a31a28",
+      "title": "User groups become infrastructure",
+      "url": "/stories/becoming-a-gis-professional/#user-groups-become-infrastructure"
+    },
+    {
+      "passageId": "passage:chapter-29-99e14779ee",
+      "title": "A profession broader than one platform",
+      "url": "/stories/becoming-a-gis-professional/#a-profession-broader-than-one-platform"
+    },
+    {
+      "passageId": "passage:chapter-44-07cb21dd5b",
+      "title": "The specialist at the endpoint",
+      "url": "/stories/gis-at-the-end-of-2025/#the-specialist-at-the-endpoint"
+    }
+  ]
+}

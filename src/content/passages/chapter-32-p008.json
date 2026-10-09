@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-32-ce97893059",
+  "slug": "the-national-map-adopts-open-tools-ce97893059",
+  "articleId": "article:chapter-32",
+  "title": "The national map adopts open tools",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "LINZ used open-source tools in national topographic mapping. LINZ began its Future Topographic Maps programme in November 2024 to replace ageing production technology and modernise the way topographic data and map products were maintained. Later programme documentation records QGIS and Kart as intended key tools in that future production environment, with QGIS supporting cartographic editing and layout and Kart providing spatial version control. Because those descriptions were published after the historical cutoff, they are used here only to document the direction of the programme that had already begun by 31 December 2025, not to claim that the later production state had already been achieved.",
+      "markdown": "LINZ used open-source tools in national topographic mapping. LINZ began its Future Topographic Maps programme in November 2024 to replace ageing production technology and modernise the way topographic data and map products were maintained. Later programme documentation records QGIS and Kart as intended key tools in that future production environment, with QGIS supporting cartographic editing and layout and Kart providing spatial version control. Because those descriptions were published after the historical cutoff, they are used here only to document the direction of the programme that had already begun by 31 December 2025, not to claim that the later production state had already been achieved.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Kart represented a different kind of practice in the programme design. Later LINZ documentation described it as spatial version control, tracking changes to geographic data in a way comparable with software teams managing code. Earlier national mapping systems had also controlled revisions and production stages, but the technical model here came directly from modern software development. The spatial dataset became a version-controlled asset whose changes could be tracked, compared and managed through a dedicated workflow.",
+      "markdown": "Kart represented a different kind of practice in the programme design. Later LINZ documentation described it as spatial version control, tracking changes to geographic data in a way comparable with software teams managing code. Earlier national mapping systems had also controlled revisions and production stages, but the technical model here came directly from modern software development. The spatial dataset became a version-controlled asset whose changes could be tracked, compared and managed through a dedicated workflow.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Future Topographic Maps was still an active transition at 31 December 2025. LINZ planned to use open-source software for national topographic map production. Landonline, data services and geodetic systems used other software environments.",
+      "markdown": "Future Topographic Maps was still an active transition at 31 December 2025. LINZ planned to use open-source software for national topographic map production. Landonline, data services and geodetic systems used other software environments.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That would have been an unusual proposition in the desktop GIS market of the early 1990s. By the 2020s it barely required explanation. Open-source databases and servers had already spent years behind working systems, QGIS had matured as a desktop and cartographic tool, and organisations had become accustomed to combining products from different sources. National mapping moved through several generations of systems; other organisations followed different implementation paths.",
+      "markdown": "That would have been an unusual proposition in the desktop GIS market of the early 1990s. By the 2020s it barely required explanation. Open-source databases and servers had already spent years behind working systems, QGIS had matured as a desktop and cartographic tool, and organisations had become accustomed to combining products from different sources. National mapping moved through several generations of systems; other organisations followed different implementation paths.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "entity:new-zealand-forest-service",
+  "slug": "new-zealand-forest-service",
+  "name": "New Zealand Forest Service",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/new-zealand-forest-service/",
+  "website": null,
+  "story": [
+    "The Forest Service’s mapping connected forest inventory, stands, roads and management records. Its disappearance in the 1980s changed the organisations responsible for that information, while the practical requirements of forestry continued. Later government and commercial systems inherited parts of the data, methods and experience."
+  ],
+  "sources": [],
+  "aliases": [
+    "New Zealand Forest Service"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

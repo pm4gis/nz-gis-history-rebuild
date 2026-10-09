@@ -1,0 +1,42 @@
+{
+  "id": "person:david-heron",
+  "slug": "david-heron",
+  "name": "David Heron",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-heron/",
+  "story": [
+    "GNS Science credits David Heron with map design, digital cartography and GIS development for its 1:1 million Geological Map of New Zealand. The national map was compiled mainly from the published 1:250,000 QMAP sheets.",
+    "Mark Rattenbury and Mike Isaac's project history names Philip Carthew, Greg Drummond, David Heron, Biljana Lukovic, Jeff Lyall, Ben Morrison, Penny Murray and Belinda Smith Lyttle among those providing text production, GIS and cartography. Universities supplied thesis and unpublished mapping, while NIWA supplied offshore data. Digital image products were being released from 2004 and vector GIS products from 2006. By 2012 QMAP data could also be consumed through web map services, so a programme conceived as a national map series had become a reusable national data service."
+  ],
+  "sources": [
+    {
+      "label": "GNS Science, 1:1 million Geological Map service: compilation and digital-production credits",
+      "url": "https://gis.gns.cri.nz/server/rest/services/Geological_Map_of_New_Zealand_1_Million/NZL_GNS_1M_geology_FeatureService/FeatureServer"
+    },
+    {
+      "label": "Chapter 9 · Rebuilding the geological map",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "David Heron"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "GNS Science, 1:1 million Geological Map service: compilation and digital-production credits",
+        "url": "https://gis.gns.cri.nz/server/rest/services/Geological_Map_of_New_Zealand_1_Million/NZL_GNS_1M_geology_FeatureService/FeatureServer"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · Rebuilding the geological map",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

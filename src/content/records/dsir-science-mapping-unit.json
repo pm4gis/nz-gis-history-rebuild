@@ -1,0 +1,25 @@
+{
+  "id": "entity:dsir-science-mapping-unit",
+  "slug": "dsir-science-mapping-unit",
+  "name": "DSIR Science Mapping Unit",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/dsir-science-mapping-unit/",
+  "website": null,
+  "story": [
+    "The DSIR Science Mapping Unit used Intergraph GIS during the mid-1980s. Mary McEwen described ecological digitising work and contact with the unit in her account of the Biological Resources Centre."
+  ],
+  "sources": [
+    {
+      "label": "Mary McEwen, DOC science report on development of biological-resource information/GIS",
+      "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/SRIR80.pdf"
+    }
+  ],
+  "aliases": [
+    "DSIR Science Mapping Unit"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0909",
+  "a": "person:matti-seikkula",
+  "b": "entity:e-spatial",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

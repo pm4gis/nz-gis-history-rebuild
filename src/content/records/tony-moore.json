@@ -1,0 +1,32 @@
+{
+  "id": "person:tony-moore",
+  "slug": "tony-moore",
+  "name": "Tony Moore",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/tony-moore/",
+  "website": null,
+  "story": [
+    "Tony Moore is a GIS academic at the University of Otago School of Surveying, where his teaching and research cover GIS, geovisualisation, cartography, spatial algorithms and spatial analysis. He arrived in New Zealand in 2001 after earlier work as a GIS analyst.",
+    "Moore has been active in New Zealand cartography as a GeoCart organiser and New Zealand Cartographic Society officer. He served as NZCS president from 2022 to 2026 and has contributed research on cartographic visualisation, web and collaborative GIS, and map design."
+  ],
+  "sources": [
+    {
+      "label": "University of Otago, School of Surveying staff",
+      "url": "https://www.otago.ac.nz/surveying/staff"
+    },
+    {
+      "label": "New Zealand Cartographic Society, About NZCS",
+      "url": "https://cartography.org.nz/about/nzcs"
+    }
+  ],
+  "aliases": [
+    "Tony Moore",
+    "Antoni Moore"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

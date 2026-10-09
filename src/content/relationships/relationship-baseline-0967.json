@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0967",
+  "a": "person:james-maguire",
+  "b": "entity:massey-university",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

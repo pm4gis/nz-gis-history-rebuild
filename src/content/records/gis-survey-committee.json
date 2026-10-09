@@ -1,0 +1,24 @@
+{
+  "id": "entity:gis-survey-committee",
+  "slug": "gis-survey-committee",
+  "name": "GIS Survey Committee (GISS Committee)",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/gis-survey-committee/",
+  "story": [
+    "The GIS Survey Committee (GISS Committee) brings sector groups together to measure New Zealand’s geospatial workforce. It developed the first New Zealand Geospatial Industry Profile Survey in 2023, gathering demographic and employment information to establish a baseline. LINZ describes the survey as biennial so later rounds can track change and inform future initiatives. The 2023 committee included Emerging Spatial Professionals, the Geospatial Capability Committee, LocationTech, the New Zealand Esri Users Group, Survey and Spatial NZ and Women in Spatial + Survey."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    }
+  ],
+  "aliases": [
+    "GIS Survey Committee (GISS Committee)"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

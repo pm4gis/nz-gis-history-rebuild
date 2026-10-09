@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-28-1b98d5c32a",
+  "slug": "nineteen-analyst-sites-1b98d5c32a",
+  "articleId": "article:chapter-28",
+  "title": "Nineteen analyst sites",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The early client system made a simple operational change possible. Recorded incidents could be brought together according to place and time rather than read only as separate reports. An analyst could compare what had happened around a street, neighbourhood or patrol area, then add other attributes from the records. The map was no longer only the output of an enquiry. It became a way of constructing the enquiry.",
+      "markdown": "The early client system made a simple operational change possible. Recorded incidents could be brought together according to place and time rather than read only as separate reports. An analyst could compare what had happened around a street, neighbourhood or patrol area, then add other attributes from the records. The map was no longer only the output of an enquiry. It became a way of constructing the enquiry.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A burglary report contained an address, date, method of entry and details of what was taken. A list could sort those records by time or offence code, while location allowed the analyst to examine proximity, concentration and movement. Once events were geocoded, a cluster of burglaries could be compared with surrounding streets, with other recent events and with the timing or characteristics of those offences. Geocoding made geographic relationships easier to inspect while crime itself remained inherently uncertain.",
+      "markdown": "A burglary report contained an address, date, method of entry and details of what was taken. A list could sort those records by time or offence code, while location allowed the analyst to examine proximity, concentration and movement. Once events were geocoded, a cluster of burglaries could be compared with surrounding streets, with other recent events and with the timing or characteristics of those offences. Geocoding made geographic relationships easier to inspect while crime itself remained inherently uncertain.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The limits of the first deployment also became obvious. A client application installed at dozens of analyst sites was expensive to support and difficult to keep consistent. The software required more capable machines than ordinary office applications, and map production required printers. Data loading and version control added work that had little to do with crime analysis itself. Police had found a useful analytical method, but the first delivery model kept it tied closely to specialist locations and specialist staff.",
+      "markdown": "The limits of the first deployment also became obvious. A client application installed at dozens of analyst sites was expensive to support and difficult to keep consistent. The software required more capable machines than ordinary office applications, and map production required printers. Data loading and version control added work that had little to do with crime analysis itself. Police had found a useful analytical method, but the first delivery model kept it tied closely to specialist locations and specialist staff.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:terry-daniel",
+  "slug": "terry-daniel",
+  "name": "Terry Daniel",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/terry-daniel/",
+  "story": [
+    "At GeoComputation '97 and SIRC '97 in Dunedin, Alan Thorn, Terry Daniel and Brian Orland described using GIS data to visualise New Zealand plantation-forest management scenarios. ARC/INFO supplied geographic and terrain information, while SmartForest II, image-processing tools and powerful workstations helped produce photorealistic scenes that could be assessed by managers and the public."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 39 · Three dimensional mapping",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Terry Daniel"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 39 · Three dimensional mapping",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

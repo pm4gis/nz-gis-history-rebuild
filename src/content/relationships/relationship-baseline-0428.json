@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0428",
+  "a": "person:mervyn-c-probine",
+  "b": "chapter:4",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-4-e9b8032a50"
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:erica-black",
+  "slug": "erica-black",
+  "name": "Erica Black",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/erica-black/",
+  "story": [
+    "LINZ’s geospatial industry career material profiles Erica Black: Critchlow Data Consultant using MapInfo; Geography and MSc GIS background."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Working in New Zealand’s geospatial industry",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry"
+    }
+  ],
+  "aliases": [
+    "Erica Black"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Working in New Zealand’s geospatial industry",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry"
+      }
+    ]
+  ]
+}

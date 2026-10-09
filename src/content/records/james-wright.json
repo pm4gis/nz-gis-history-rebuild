@@ -1,0 +1,31 @@
+{
+  "id": "person:james-wright",
+  "slug": "james-wright",
+  "name": "James Wright",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/james-wright/",
+  "story": [
+    "James Wright presented GALoP-X at the 2019 New Zealand Esri User Conference. Eagle described the programme as a six-week intensive covering ArcGIS technology and the wider work needed to deliver GIS projects, including solution architecture, project management and business cases. It aimed to help people enter or grow into spatial roles."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    }
+  ],
+  "aliases": [
+    "James Wright"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      }
+    ]
+  ]
+}

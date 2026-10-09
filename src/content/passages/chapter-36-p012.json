@@ -1,0 +1,29 @@
+{
+  "id": "passage:chapter-36-dd9700de63",
+  "slug": "from-fields-to-management-zones-dd9700de63",
+  "articleId": "article:chapter-36",
+  "title": "From fields to management zones",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36",
+    "entity:lincoln-university",
+    "person:simon-tenbusch"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Agricultural analysis combined satellite imagery with elevation and yield information. Simon Tenbusch’s 2025 Lincoln University precision-agriculture dissertation examined management-zone creation for maize in the Whakatāne area using Sentinel-2 NDRE, one metre LiDAR elevation information, yield data and GIS/statistical modelling. Satellite imagery was one input among several. The analysis did not ask whether satellite imagery or LiDAR was the better technology. It combined observations at different scales to support a specific management question.",
+      "markdown": "Agricultural analysis combined satellite imagery with elevation and yield information. Simon Tenbusch’s 2025 Lincoln University precision-agriculture dissertation examined management-zone creation for maize in the Whakatāne area using Sentinel-2 NDRE, one metre LiDAR elevation information, yield data and GIS/statistical modelling. Satellite imagery was one input among several. The analysis did not ask whether satellite imagery or LiDAR was the better technology. It combined observations at different scales to support a specific management question.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Access had changed substantially since the early Landsat programme. In the 1970s the challenge was getting satellite measurements through specialist computers and turning them into something map-like. In the mature workflow, satellite data arrive as one component in a larger analytical stack. The practitioner chooses bands, dates and derived measures alongside terrain and production information. The sensor becomes less visible because the analysis is organised around the agricultural problem rather than around the novelty of obtaining an image from space.",
+      "markdown": "Access had changed substantially since the early Landsat programme. In the 1970s the challenge was getting satellite measurements through specialist computers and turning them into something map-like. In the mature workflow, satellite data arrive as one component in a larger analytical stack. The practitioner chooses bands, dates and derived measures alongside terrain and production information. The sensor becomes less visible because the analysis is organised around the agricultural problem rather than around the novelty of obtaining an image from space.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

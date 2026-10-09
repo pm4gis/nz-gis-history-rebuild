@@ -1,0 +1,42 @@
+{
+  "id": "person:katrina-richards",
+  "slug": "katrina-richards",
+  "name": "Katrina Richards",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/katrina-richards/",
+  "story": [
+    "Katrina Richards was a University of Otago Geography co-author of the 2000 Topoclimate South paper on accumulated heat and pasture growth.",
+    "Gary Hutchinson and Bill Risk, affiliated with the Topoclimate South Project, and Katrina Richards from University of Otago Geography co-authored a contemporary account of the work in 2000. Manaaki Whenua’s later history identifies Hutchinson as the project lead. Southland Regional Council worked with southern district and city councils, community partners and researchers to give landowners information for decisions about crops and land-use diversification. Soil and climate map series were distributed in 2002."
+  ],
+  "sources": [
+    {
+      "label": "Hutchinson, Richards and Risk, Aspects of accumulated heat patterns (growing-degree days) and pasture growth in Southland",
+      "url": "https://www.nzgajournal.org.nz/index.php/ProNZGA/article/view/2396"
+    },
+    {
+      "label": "Chapter 23 · A new local government",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Katrina Richards"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Hutchinson, Richards and Risk, Aspects of accumulated heat patterns (growing-degree days) and pasture growth in Southland",
+        "url": "https://www.nzgajournal.org.nz/index.php/ProNZGA/article/view/2396"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · A new local government",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

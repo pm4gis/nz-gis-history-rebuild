@@ -1,0 +1,31 @@
+{
+  "id": "person:annette-king",
+  "slug": "annette-king",
+  "name": "Annette King",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/annette-king/",
+  "story": [
+    "At the May 2002 launch of the New Zealand Public Health Observatory, Health Minister Annette King described the Ministry of Health as having started to combine GIS and the Internet for communicable-disease information in 1999 through the Public Health Early Warning system, PHEW!. The system allowed a person with a web browser to create and view maps, tables and statistics from the national notifiable-disease surveillance system. The Ministry described the system as a world first."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 27 · PHEW! puts surveillance in a browser",
+      "url": "/stories/health-population-and-place/"
+    }
+  ],
+  "aliases": [
+    "Annette King"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 27 · PHEW! puts surveillance in a browser",
+        "url": "/stories/health-population-and-place/"
+      }
+    ]
+  ]
+}

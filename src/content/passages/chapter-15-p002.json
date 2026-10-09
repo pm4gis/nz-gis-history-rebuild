@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-15-f5ce4f99a7",
+  "slug": "a-small-scale-database-first-f5ce4f99a7",
+  "articleId": "article:chapter-15",
+  "title": "A small-scale database first",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:15",
+    "entity:traverse-seamless",
+    "person:geoff-omalley",
+    "person:robin-pickering",
+    "person:dave-mole",
+    "person:geoff-howard",
+    "person:peter-woodsford",
+    "person:bill-robertson"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand converted its national topographic archive in stages. The early national programme covered the 1:250,000 series. A 1989 article by Geoff O’Malley and Geoff Howard was already titled “The 1/250000 digital topographic data base of New Zealand: an outline”, placing a national digital database firmly inside professional cartographic practice by the end of the decade. A later technical account by Geoff Howard, Robin Pickering, Dave Mole and Peter Woodsford records that Surveyor-General Bill Robertson approved a business case around 1987 to convert the 1:250,000 mapping into a digital database. The programme was expected to take about three years but was reported as completed in roughly eighteen months.",
+      "markdown": "New Zealand converted its national topographic archive in stages. The early national programme covered the 1:250,000 series. A 1989 article by Geoff O’Malley and Geoff Howard was already titled “The 1/250000 digital topographic data base of New Zealand: an outline”, placing a national digital database firmly inside professional cartographic practice by the end of the decade. A later technical account by Geoff Howard, Robin Pickering, Dave Mole and Peter Woodsford records that Surveyor-General Bill Robertson approved a business case around 1987 to convert the 1:250,000 mapping into a digital database. The programme was expected to take about three years but was reported as completed in roughly eighteen months.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The conversion method reflected the technology available. The first work used a bureau service and SCITEX scanning and vectorisation rather than a modern desktop GIS workflow. Published map linework could be scanned, converted into vectors, structured and checked so that it behaved as connected geographic information rather than as an electronic tracing. Professional accounts describe the resulting database as seamless and topologically structured. Roads connected to roads, polygons closed properly and the database could understand adjacency and containment rather than storing only a collection of unrelated graphic elements.",
+      "markdown": "The conversion method reflected the technology available. The first work used a bureau service and SCITEX scanning and vectorisation rather than a modern desktop GIS workflow. Published map linework could be scanned, converted into vectors, structured and checked so that it behaved as connected geographic information rather than as an electronic tracing. Professional accounts describe the resulting database as seamless and topologically structured. Roads connected to roads, polygons closed properly and the database could understand adjacency and containment rather than storing only a collection of unrelated graphic elements.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GeoVision VISION was selected as the geographic database environment. That choice connected the topographic programme with the same broad generation of specialist workstation GIS described elsewhere in the book. The brand mattered less than the decision to create a maintained national information source rather than a set of digital drawings. Once the database existed, it could support map production, data supply and new forms of updating that were difficult when the paper sheet remained the basic unit of maintenance.",
+      "markdown": "GeoVision VISION was selected as the geographic database environment. That choice connected the topographic programme with the same broad generation of specialist workstation GIS described elsewhere in the book. The brand mattered less than the decision to create a maintained national information source rather than a set of digital drawings. Once the database existed, it could support map production, data supply and new forms of updating that were difficult when the paper sheet remained the basic unit of maintenance.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The database was also beginning to move outside the production office. By 1992, documentation for the New Zealand Land Resource Inventory referred to licensed digital topographic data at 1:250,000 obtained from the Department of Survey and Land Information. The national topographic database was therefore already useful as input to other GIS work rather than only as an internal cartographic tool. That external demand would become one of the forces pushing the more detailed 1:50,000 information toward digital form.",
+      "markdown": "The database was also beginning to move outside the production office. By 1992, documentation for the New Zealand Land Resource Inventory referred to licensed digital topographic data at 1:250,000 obtained from the Department of Survey and Land Information. The national topographic database was therefore already useful as input to other GIS work rather than only as an internal cartographic tool. That external demand would become one of the forces pushing the more detailed 1:50,000 information toward digital form.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

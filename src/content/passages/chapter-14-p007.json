@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-14-fc41c0f055",
+  "slug": "the-dealing-becomes-data-fc41c0f055",
+  "articleId": "article:chapter-14",
+  "title": "The dealing becomes data",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:14"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The title side went through a comparable change. Lawyers and conveyancers had long prepared instruments whose legal effect was registered by the land-registration system. E-dealing moved routine work into an electronic workspace where transaction details could be assembled, validated, digitally certified and submitted. For straightforward dealings, software could compare the submission with the current register and apply business rules before registration.",
+      "markdown": "The title side went through a comparable change. Lawyers and conveyancers had long prepared instruments whose legal effect was registered by the land-registration system. E-dealing moved routine work into an electronic workspace where transaction details could be assembled, validated, digitally certified and submitted. For straightforward dealings, software could compare the submission with the current register and apply business rules before registration.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The statutory system retained authority over the register. Digital certificates identified authorised practitioners and supported the trust model needed for electronic signatures and certifications. Responsibility did not disappear simply because the transaction became easier to transmit. In some respects it became more explicit: the practitioner supplying structured information was responsible for getting that information right before submission, while LINZ could automate checks that previously required staff to re-key and compare paper forms.",
+      "markdown": "The statutory system retained authority over the register. Digital certificates identified authorised practitioners and supported the trust model needed for electronic signatures and certifications. Responsibility did not disappear simply because the transaction became easier to transmit. In some respects it became more explicit: the practitioner supplying structured information was responsible for getting that information right before submission, while LINZ could automate checks that previously required staff to re-key and compare paper forms.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The efficiency gains became substantial once use increased. Later Auditor-General work found that electronic processing reduced double handling, paper storage and internal re-entry, and shifted more data capture toward the professionals who originated the transaction. Processing that had taken hours, days or sometimes longer could occur in minutes for routine work. The gain was partly purchased by moving preparation and validation effort outward. A solicitor or surveyor could do more from the office, but also had to maintain compatible systems, authentication, staff capability and familiarity with Landonline’s rules.",
+      "markdown": "The efficiency gains became substantial once use increased. Later Auditor-General work found that electronic processing reduced double handling, paper storage and internal re-entry, and shifted more data capture toward the professionals who originated the transaction. Processing that had taken hours, days or sometimes longer could occur in minutes for routine work. The gain was partly purchased by moving preparation and validation effort outward. A solicitor or surveyor could do more from the office, but also had to maintain compatible systems, authentication, staff capability and familiarity with Landonline’s rules.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change also made service availability a new operational dependency. In the paper system an office could continue some work during a local computer problem. In the electronic system, outages could stop searching, validation or lodgement for many users at once. Ministers were already acknowledging such disruption during the early rollout. Landonline traded the limits of paper distribution for the strengths and weaknesses of a national online service.",
+      "markdown": "The change also made service availability a new operational dependency. In the paper system an office could continue some work during a local computer problem. In the electronic system, outages could stop searching, validation or lodgement for many users at once. Ministers were already acknowledging such disruption during the early rollout. Landonline traded the limits of paper distribution for the strengths and weaknesses of a national online service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Customer adoption was also a technology problem in the ordinary sense. Firms needed computers, network connections, supported software and staff who could use the new workflows. A large surveying or legal practice could spread those costs across many transactions. Smaller practices had fewer people to absorb training and system administration. LINZ used training, fee settings and staged compulsion to push adoption while giving the market time to adjust. The change altered government processing and the equipment and skills required in private professional offices.",
+      "markdown": "Customer adoption was also a technology problem in the ordinary sense. Firms needed computers, network connections, supported software and staff who could use the new workflows. A large surveying or legal practice could spread those costs across many transactions. Smaller practices had fewer people to absorb training and system administration. LINZ used training, fee settings and staged compulsion to push adoption while giving the market time to adjust. The change altered government processing and the equipment and skills required in private professional offices.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The professional organisations were deeply involved because Landonline redistributed responsibility. A system that pre-validated a survey dataset or dealing could reduce LINZ handling, but the original professional still certified the work. Digital certificates tied submissions to named authorised users. This was a technical security mechanism and a professional accountability mechanism at the same time. The system became faster partly because it trusted structured information supplied by people whose authority and liability were already established outside the software.",
+      "markdown": "The professional organisations were deeply involved because Landonline redistributed responsibility. A system that pre-validated a survey dataset or dealing could reduce LINZ handling, but the original professional still certified the work. Digital certificates tied submissions to named authorised users. This was a technical security mechanism and a professional accountability mechanism at the same time. The system became faster partly because it trusted structured information supplied by people whose authority and liability were already established outside the software.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

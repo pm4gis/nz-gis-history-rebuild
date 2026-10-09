@@ -1,0 +1,31 @@
+{
+  "id": "person:megan-cheong",
+  "slug": "megan-cheong",
+  "name": "Megan Cheong",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/megan-cheong/",
+  "story": [
+    "Megan Cheong presented her experience with Eagle Technology’s GALoP-X geospatial training at the 2019 New Zealand Esri User Conference. An Soka University profile records her work as a geospatial analyst at New Zealand’s Ministry for Primary Industries, including airport pest dashboards, mobile forestry surveys, and maps of flooded areas and critical infrastructure for emergency awareness."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    }
+  ],
+  "aliases": [
+    "Megan Cheong"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      }
+    ]
+  ]
+}

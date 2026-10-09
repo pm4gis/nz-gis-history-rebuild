@@ -1,0 +1,36 @@
+{
+  "id": "entity:geographic-business-solutions",
+  "slug": "geographic-business-solutions",
+  "name": "Geographic Business Solutions",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/geographic-business-solutions/",
+  "website": null,
+  "story": [
+    "Harley Prowse and Tony Elson met through GTU, a GIS consultancy associated with Auckland UniServices, and began contracting independently before forming Geographic Business Solutions (GBS) in June 2002. The company’s 2022 retrospective describes an early contract-led period, its first hires around 2004 and 2005–06, and client work across councils, utilities, forestry, agriculture and research. It names Rayonier, United Networks (later Vector), United Water (later Veolia), Scion, Atlas, Papakura District Council, Nelson City Council, Ravensdown and Auckland Regional Council among its clients.",
+    "GBS became an Esri Silver Partner in 2011 and a Gold Partner in 2013. Its company profile describes a consultancy built around geospatial architecture, technical consulting, software development, project management and business analysis. The firm’s retrospective records clients across local government, utilities, forestry, transport and agriculture, then traces expansion through GBS Korea in 2018 and US operations in 2019–20; its profile dates the Montana affiliate opening to February 2020."
+  ],
+  "sources": [
+    {
+      "label": "GBS, 20 years of GBS: a short history, 2022",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    },
+    {
+      "label": "Geographic Business Solutions, About Us",
+      "url": "https://gbs.kiwi/about-us/"
+    },
+    {
+      "label": "GBS, Company Profile",
+      "url": "https://gbs.kiwi/company-profile/"
+    }
+  ],
+  "aliases": [
+    "Geographic Business Solutions"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

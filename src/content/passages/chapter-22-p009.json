@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-22-29f24fa21a",
+  "slug": "formats-become-everyday-infrastructure-29f24fa21a",
+  "articleId": "article:chapter-22",
+  "title": "Formats become everyday infrastructure",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22",
+    "entity:stats-nz",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The desktop market also pushed software formats into routine data exchange. Esri shapefiles became common because they were simple to move between machines and widely supported. MapInfo formats were similarly common in organisations using that software. A supplier wanting to reach both groups often delivered more than one version of the same dataset.",
+      "markdown": "The desktop market also pushed software formats into routine data exchange. Esri shapefiles became common because they were simple to move between machines and widely supported. MapInfo formats were similarly common in organisations using that software. A supplier wanting to reach both groups often delivered more than one version of the same dataset.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Statistics New Zealand provides a clear government example. By 2007 it was distributing digital geographic boundary data in both Esri shapefile and MapInfo formats. The agency did not need every customer to use the same GIS. It could publish the statistical geography in formats expected by two large groups of desktop users and let them load the boundaries into their existing workflows.",
+      "markdown": "Statistics New Zealand provides a clear government example. By 2007 it was distributing digital geographic boundary data in both Esri shapefile and MapInfo formats. The agency did not need every customer to use the same GIS. It could publish the statistical geography in formats expected by two large groups of desktop users and let them load the boundaries into their existing workflows.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "File formats affected how information could be exchanged. Field names, data types, coordinate definitions and attribute structures could change during conversion. Shapefiles carried technical constraints that later formats would address more cleanly. Users still needed to know what had been delivered rather than assume that two files representing the same boundaries were identical in every detail.",
+      "markdown": "File formats affected how information could be exchanged. Field names, data types, coordinate definitions and attribute structures could change during conversion. Shapefiles carried technical constraints that later formats would address more cleanly. Users still needed to know what had been delivered rather than assume that two files representing the same boundaries were identical in every detail.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Even so, file-based exchange allowed GIS to spread without organisations agreeing on one software platform. A council using MapInfo, a government analyst using ArcView and a consultant using another package could often pass vector data between systems. Chapter 21 described interoperability as a national infrastructure goal. Desktop formats provided one rough, widely used form of it in everyday practice.",
+      "markdown": "Even so, file-based exchange allowed GIS to spread without organisations agreeing on one software platform. A council using MapInfo, a government analyst using ArcView and a consultant using another package could often pass vector data between systems. Chapter 21 described interoperability as a national infrastructure goal. Desktop formats provided one rough, widely used form of it in everyday practice.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

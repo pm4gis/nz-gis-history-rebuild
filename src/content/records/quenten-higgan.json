@@ -1,0 +1,47 @@
+{
+  "id": "person:quenten-higgan",
+  "slug": "quenten-higgan",
+  "name": "Quenten Higgan",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/quenten-higgan/",
+  "story": [
+    "Quenten Higgan worked with AsureQuality’s AgriBase, a national spatial database of farms and rural properties, and later in biosecurity surveillance and innovation. His 2019 New Zealand Esri User Conference presentation on the Queensland fruit-fly response won the conference best-presenter award. His work links maintained rural spatial data with operational biosecurity response."
+  ],
+  "sources": [
+    {
+      "label": "AsureQuality, Database that makes a difference for NZ producers",
+      "url": "https://www.asurequality.com/about/news/database-that-makes-a-difference-for-nz-producers/"
+    },
+    {
+      "label": "MPI surveillance reporting naming Quenten Higgan",
+      "url": "https://www.mpi.govt.nz/dmsdocument/65409/direct"
+    },
+    {
+      "label": "Eagle Technology, final wrap NZEUC 2019",
+      "url": "https://www.eagle.co.nz/blog/final-wrap-nzeuc-2019"
+    }
+  ],
+  "aliases": [
+    "Quenten Higgan"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "AsureQuality, Database that makes a difference for NZ producers",
+        "url": "https://www.asurequality.com/about/news/database-that-makes-a-difference-for-nz-producers/"
+      },
+      {
+        "label": "MPI surveillance reporting naming Quenten Higgan",
+        "url": "https://www.mpi.govt.nz/dmsdocument/65409/direct"
+      },
+      {
+        "label": "Eagle Technology, final wrap NZEUC 2019",
+        "url": "https://www.eagle.co.nz/blog/final-wrap-nzeuc-2019"
+      }
+    ]
+  ]
+}

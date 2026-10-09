@@ -1,0 +1,46 @@
+{
+  "id": "person:john-dymond",
+  "slug": "john-dymond",
+  "name": "John Dymond",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/john-dymond/",
+  "story": [
+    "P. R. Stephens, R. G. Gibb and J. R. Dymond wrote on integrating remote sensing and GIS for natural-resource management.",
+    "In Gisborne, John Dymond, M. J. Page and L. J. Brown used Landsat TM imagery to prepare 1:100,000 vegetation mapping during debate over a forestry incentive scheme. The classification was compared with vegetation information already held in GIS, much of it roughly twenty years old, and the largest discrepancies were taken back into the field. Some represented real landscape change and some were classification error. After field correction the reported overall accuracy rose from 84 to 90 per cent."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 6 · A shared name",
+      "url": "/stories/when-gis-became-gis/"
+    },
+    {
+      "label": "Chapter 9 · The CRI reorganisation",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "John Dymond",
+    "J. R. Dymond",
+    "J. R. Dymond’s"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 6 · A shared name",
+        "url": "/stories/when-gis-became-gis/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · The CRI reorganisation",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

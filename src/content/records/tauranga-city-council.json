@@ -1,0 +1,26 @@
+{
+  "id": "entity:tauranga-city-council",
+  "slug": "tauranga-city-council",
+  "name": "Tauranga City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/tauranga-city-council/",
+  "website": "https://www.tauranga.govt.nz",
+  "story": [
+    "Council minutes in 2022 record GIS practitioner Rex Maranda’s move from Land Information Officer to the GIS team in 2004. He developed and managed the internal SmartZoom viewer, SmartViewer and internal mapping, and provided GIS support for emergency management."
+  ],
+  "sources": [
+    {
+      "label": "Tauranga City Council meeting minutes, 13 June 2022: Rex Maranda’s 25 years’ service",
+      "url": "https://infocouncil.tauranga.govt.nz/Open/2022/06/CO_20220613_MIN_2429.PDF"
+    }
+  ],
+  "aliases": [
+    "Tauranga City Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

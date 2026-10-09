@@ -1,0 +1,27 @@
+{
+  "id": "entity:lincoln-university",
+  "slug": "lincoln-university",
+  "name": "Lincoln University",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/lincoln-university/",
+  "website": null,
+  "story": [
+    "Lincoln taught and researched GIS in environmental management, computing and Māori development. Huia Pacey’s 2005 thesis examined the benefits and barriers to GIS for Māori using a Kaupapa Māori framework."
+  ],
+  "sources": [
+    {
+      "label": "Huia A. Pacey, The Benefits and Barriers to GIS for Māori, Lincoln University",
+      "url": "http://hdl.handle.net/10182/655"
+    }
+  ],
+  "aliases": [
+    "Lincoln University"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

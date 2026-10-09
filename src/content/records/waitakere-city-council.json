@@ -1,0 +1,29 @@
+{
+  "id": "entity:waitakere-city-council",
+  "slug": "waitakere-city-council",
+  "name": "Waitakere City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/waitakere-city-council/",
+  "website": null,
+  "story": [
+    "Waitākere City Council used MapInfo and MapBasic and integrated GIS with asset management during 1999–2002. It also participated in Auckland regional GIS coordination and worked on MapInfo–Confirm integration."
+  ],
+  "sources": [
+    {
+      "label": "Office of the Auditor-General, GIS and the Auckland Area Orthophotography Standard",
+      "url": "https://oag.parliament.nz/2004/working-together/case-study6.htm"
+    },
+    {
+      "label": "Martin Roundill, MapInfo-L message on Waitakere City Council MapInfo/Confirm integration and related MapBasic correspondence",
+      "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40lists.directionsmag.com&o=newest&q=subject%3A%22%5C%5BMI%5C-L%5C%5D+Error%22"
+    }
+  ],
+  "aliases": [
+    "Waitakere City Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

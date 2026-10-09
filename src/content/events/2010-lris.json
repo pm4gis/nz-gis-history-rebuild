@@ -1,0 +1,27 @@
+{
+  "id": "2010-lris",
+  "dateDisplay": "2010",
+  "startDate": "2010",
+  "datePrecision": "year",
+  "year": 2010,
+  "label": "LRIS Portal exposes land-resource information as online services",
+  "summary": "The portal became part of the shift from distributing files and products to maintaining web-accessible spatial services. David Medyckyj-Scott and James Barringer documented the new environmental-data distribution service in 2011.",
+  "url": "/stories/cloud-services-and-apis/#lris-and-lds-bb38207cbc",
+  "passageIds": [
+    "passage:chapter-41-bb38207cbc"
+  ],
+  "recordIds": [
+    "person:david-medyckyj-scott",
+    "entity:manaaki-whenua-landcare-research",
+    "entity:koordinates",
+    "chapter:41",
+    "entity:stats-nz"
+  ],
+  "themeIds": [],
+  "categories": [
+    "open-data",
+    "services",
+    "land"
+  ],
+  "sources": []
+}

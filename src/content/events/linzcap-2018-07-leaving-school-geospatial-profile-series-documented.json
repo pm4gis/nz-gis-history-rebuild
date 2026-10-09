@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2018-07-leaving-school-geospatial-profile-series-documented",
+  "dateDisplay": "2018-07",
+  "startDate": "2018-07-01",
+  "datePrecision": "month",
+  "year": 2018,
+  "label": "Leaving School geospatial profile series documented",
+  "summary": "Kate Waterhouse was profiled in Leaving School issue 13; the series continued annually with GIS, hydrography, environmental and geospatial practitioners.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

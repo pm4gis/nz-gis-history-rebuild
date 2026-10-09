@@ -1,0 +1,44 @@
+{
+  "id": "passage:chapter-4-db2cb9d359",
+  "slug": "processing-the-tapes-db2cb9d359",
+  "articleId": "article:chapter-4",
+  "title": "Processing the tapes",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:4",
+    "person:a-d-fowles",
+    "person:i-l-thomas",
+    "person:m-j-mcdonnell",
+    "person:p-j-ellis",
+    "person:r-s-mason"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The PEL processing environment was spread across several computers, and the data physically travelled with the workflow. Contemporary reports describe access to an IBM 370/168 in Wellington, together with in-house HP 2100 and Varian 620-series systems. Programs on the IBM were written in PL/I. NASA tapes were decoded on the central system, known artefacts were corrected, and selected image areas could then be transferred to nine-track tape for further work on local machines. The workflow depended on both the computing capacity of the larger IBM and the availability of smaller systems within PEL. A satellite had already crossed the country in minutes; getting a useful piece of its imagery through the computers was still a decidedly terrestrial exercise.",
+      "markdown": "The PEL processing environment was spread across several computers, and the data physically travelled with the workflow. Contemporary reports describe access to an IBM 370/168 in Wellington, together with in-house HP 2100 and Varian 620-series systems. Programs on the IBM were written in PL/I. NASA tapes were decoded on the central system, known artefacts were corrected, and selected image areas could then be transferred to nine-track tape for further work on local machines. The workflow depended on both the computing capacity of the larger IBM and the availability of smaller systems within PEL. A satellite had already crossed the country in minutes; getting a useful piece of its imagery through the computers was still a decidedly terrestrial exercise.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Remote Sensing Section’s staff are unusually well documented for an early New Zealand digital-mapping programme. I. L. Thomas worked on IBM tape decoding, rectification, image cataloguing and distribution. M. J. McDonnell worked on digital image enhancement and cluster analysis. A. D. Fowler was involved in colour processing, multispectral compositing and calibration, while R. S. Mason worked on electronics and preparation of the aircraft multispectral system. Dr P. J. Ellis headed the Remote Sensing Section. The programme required scientific interpretation, software, electronics, data handling and cartographic correction.",
+      "markdown": "The Remote Sensing Section’s staff are unusually well documented for an early New Zealand digital-mapping programme. I. L. Thomas worked on IBM tape decoding, rectification, image cataloguing and distribution. M. J. McDonnell worked on digital image enhancement and cluster analysis. A. D. Fowler was involved in colour processing, multispectral compositing and calibration, while R. S. Mason worked on electronics and preparation of the aircraft multispectral system. Dr P. J. Ellis headed the Remote Sensing Section. The programme required scientific interpretation, software, electronics, data handling and cartographic correction.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The processing routines included histogram equalisation, band ratios, scaling, line-error removal, enhancement and clustering. These operations were constrained by the size of the machines and by the amount of data that could be moved conveniently between them. Instead of repeatedly processing an entire scene, staff often worked with selected subsets. Intermediate products were written to tape and moved between systems. Storage and transfer were part of the technical workflow rather than background services that could be ignored.",
+      "markdown": "The processing routines included histogram equalisation, band ratios, scaling, line-error removal, enhancement and clustering. These operations were constrained by the size of the machines and by the amount of data that could be moved conveniently between them. Instead of repeatedly processing an entire scene, staff often worked with selected subsets. Intermediate products were written to tape and moved between systems. Storage and transfer were part of the technical workflow rather than background services that could be ignored.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Output was also limited by the available devices. Early work included small 128 by 128 image areas printed through an electrostatic line printer and then photographed to produce colour composites. The satellite was modern; the output chain could still end with somebody photographing a printout. Later reports describe an Optronics Colorwrite and the LANSYS image-processing package. The processing chain could therefore run from satellite sensor to magnetic tape, central computer, local computer, printer or colour-output device, and finally to a product that a scientist or mapping specialist could interpret. None of those steps was automatic, and several depended on locally written software.",
+      "markdown": "Output was also limited by the available devices. Early work included small 128 by 128 image areas printed through an electrostatic line printer and then photographed to produce colour composites. The satellite was modern; the output chain could still end with somebody photographing a printout. Later reports describe an Optronics Colorwrite and the LANSYS image-processing package. The processing chain could therefore run from satellite sensor to magnetic tape, central computer, local computer, printer or colour-output device, and finally to a product that a scientist or mapping specialist could interpret. None of those steps was automatic, and several depended on locally written software.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

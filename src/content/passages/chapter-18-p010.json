@@ -1,0 +1,53 @@
+{
+  "id": "passage:chapter-18-9fee6450bc",
+  "slug": "people-between-antenna-and-database-9fee6450bc",
+  "articleId": "article:chapter-18",
+  "title": "People between antenna and database",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The spread of GPS also created work that sat between surveying and GIS. Someone had to plan observations, set up bases, manage receiver files, apply corrections, transform coordinates and decide whether a result was good enough for the task. Equipment suppliers trained users and helped organisations choose between navigation, mapping and survey systems. GIS staff designed feature classes and attribute forms so a field position arrived with enough information to be useful. Database staff then had to reconcile new observations with records that might have been created years earlier from plans or manually digitised maps.",
+      "markdown": "The spread of GPS also created work that sat between surveying and GIS. Someone had to plan observations, set up bases, manage receiver files, apply corrections, transform coordinates and decide whether a result was good enough for the task. Equipment suppliers trained users and helped organisations choose between navigation, mapping and survey systems. GIS staff designed feature classes and attribute forms so a field position arrived with enough information to be useful. Database staff then had to reconcile new observations with records that might have been created years earlier from plans or manually digitised maps.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Taiaroa Head project makes that mixture unusually visible. Surveying expertise established the spatial control. Photogrammetry supplied mapped detail. Wildlife staff supplied the biological observations and management context. Post-processing converted raw receiver observations into usable coordinates. The spatial information system brought those parts together. The project depended on surveyors, field crews, database staff and GIS specialists as well as GPS equipment.",
+      "markdown": "The Taiaroa Head project makes that mixture unusually visible. Surveying expertise established the spatial control. Photogrammetry supplied mapped detail. Wildlife staff supplied the biological observations and management context. Post-processing converted raw receiver observations into usable coordinates. The spatial information system brought those parts together. The project depended on surveyors, field crews, database staff and GIS specialists as well as GPS equipment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same was true in operational organisations. Vector’s field crews carried the devices, but the system depended on office GIS, Smallworld data, ArcPad translation, asset-management rules, hardware support and later mobile communications. Precision agriculture combined farmers and machinery operators with positioning services, controllers, GIS software and agronomic interpretation. As satellite positioning became easier to use, some of the specialist work became less visible rather than disappearing. The field user increasingly saw a coordinate, while reference networks, software, data models and quality checks did more of their work in the background.",
+      "markdown": "The same was true in operational organisations. Vector’s field crews carried the devices, but the system depended on office GIS, Smallworld data, ArcPad translation, asset-management rules, hardware support and later mobile communications. Precision agriculture combined farmers and machinery operators with positioning services, controllers, GIS software and agronomic interpretation. As satellite positioning became easier to use, some of the specialist work became less visible rather than disappearing. The field user increasingly saw a coordinate, while reference networks, software, data models and quality checks did more of their work in the background.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The maintained positioning framework also depended on named specialists. LINZ records Paula Gentle working with the GeoNet and PositioNZ GNSS networks and the International GNSS Service, Dionne Hansen as a senior geodetic/geophysical analyst, and Nic Donnelly working on the national reference frame and analysing land movement after the Canterbury and Kaikōura earthquakes. Their work sat between satellite signals, survey practice and the coordinates used by other spatial systems.",
+      "sources": [
+        {
+          "label": "LINZ, geodetic workshops",
+          "url": "https://www.linz.govt.nz/guidance/geodetic-system/geodetic-standards-specifications-and-resources/geodetic-publications-and-presentations/geodetic-workshops"
+        },
+        {
+          "label": "LEARNZ, Nic Donnelly geodetic work",
+          "url": "https://www.learnz.org.nz/node/1978"
+        },
+        {
+          "label": "LINZ, Geospatial for Schools archive",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

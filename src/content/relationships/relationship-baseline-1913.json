@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1913",
+  "a": "person:terry-daniel",
+  "b": "chapter:39",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-39-0d16451ce2"
+  ],
+  "sources": []
+}

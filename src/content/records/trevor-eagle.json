@@ -1,0 +1,42 @@
+{
+  "id": "person:trevor-eagle",
+  "slug": "trevor-eagle",
+  "name": "Trevor Eagle",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/trevor-eagle/",
+  "story": [
+    "Trevor Eagle represented New Zealand in swimming at the 1950 Empire Games before developing a business career at IBM. In 1969 he established International Data Limited, supplying computing bureau, consulting and education services. He and Corallie formed Eagle Technology Group in 1984. His wider work included leadership in information-technology industry organisations and support for education, science and environmental groups. He died in 2000 and was recognised in the Hi-Tech Hall of Fame in 2007.",
+    "Trevor Eagle co-founded Eagle with Corallie Eagle, developing the company’s computing and technology business."
+  ],
+  "sources": [
+    {
+      "label": "Eagle company history",
+      "url": "https://www.eagle.co.nz/about/our-history"
+    },
+    {
+      "label": "Trevor Eagle — NZ Hi-Tech Awards · career/profile reference",
+      "url": "https://www.hitech.org.nz/awards/flying-kiwi/trevor-eagle/"
+    }
+  ],
+  "aliases": [
+    "Trevor Eagle"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Trevor Eagle — NZ Hi-Tech Awards · career/profile reference",
+        "url": "https://www.hitech.org.nz/awards/flying-kiwi/trevor-eagle/"
+      }
+    ],
+    [
+      {
+        "label": "Eagle company history",
+        "url": "https://www.eagle.co.nz/about/our-history"
+      }
+    ]
+  ]
+}

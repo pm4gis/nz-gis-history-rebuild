@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-44-07cb21dd5b",
+  "slug": "the-specialist-at-the-endpoint-07cb21dd5b",
+  "articleId": "article:chapter-44",
+  "title": "The specialist at the endpoint",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "profession"
+  ],
+  "recordIds": [
+    "chapter:44"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The working definition of a GIS specialist had consequently become less tidy. Some roles remained close to cartography, spatial analysis, survey, remote sensing or database custodianship. Others crossed into Python, SQL, APIs, web development, data engineering, cloud platforms and automated deployment. A practitioner could spend most of a day writing transformations or configuring services and still be solving a recognisably geographic problem. Another could use sophisticated geospatial applications without writing code at all.",
+      "markdown": "The working definition of a GIS specialist had consequently become less tidy. Some roles remained close to cartography, spatial analysis, survey, remote sensing or database custodianship. Others crossed into Python, SQL, APIs, web development, data engineering, cloud platforms and automated deployment. A practitioner could spend most of a day writing transformations or configuring services and still be solving a recognisably geographic problem. Another could use sophisticated geospatial applications without writing code at all.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "AI widened that range rather than collapsing it. A person with strong spatial knowledge could use a coding assistant to create scripts they might not have written unaided, but they still needed enough understanding to recognise when the script misunderstood the data. A developer could use a multimodal model in a geospatial application, but still needed to know how coordinates, map scale, feature geometry and spatial uncertainty affected the result. A remote-sensing specialist could train a classifier quickly, but still had to decide whether the training examples represented the landscapes to which the model would be applied.",
+      "markdown": "AI widened that range rather than collapsing it. A person with strong spatial knowledge could use a coding assistant to create scripts they might not have written unaided, but they still needed enough understanding to recognise when the script misunderstood the data. A developer could use a multimodal model in a geospatial application, but still needed to know how coordinates, map scale, feature geometry and spatial uncertainty affected the result. A remote-sensing specialist could train a classifier quickly, but still had to decide whether the training examples represented the landscapes to which the model would be applied.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The enduring skill lay in understanding geographic data, asking workable spatial questions, recognising uncertainty, structuring repeatable processes and knowing when the output deserved checking. New Zealand's GIS history had already moved through enough software generations to show the limits of memorising commands in one package. AI made some technical actions easier to initiate while those underlying judgements retained their value.",
+      "markdown": "The enduring skill lay in understanding geographic data, asking workable spatial questions, recognising uncertainty, structuring repeatable processes and knowing when the output deserved checking. New Zealand's GIS history had already moved through enough software generations to show the limits of memorising commands in one package. AI made some technical actions easier to initiate while those underlying judgements retained their value.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Spatial tools became part of other professions’ working systems. A planner might use a map application rather than a desktop GIS. An emergency manager might use a common operating picture. A scientist might call a spatial service from Python. A developer might query PostGIS through an API. A data analyst might ask an AI assistant to generate a spatial query. The user no longer had to identify the activity as GIS for spatial concepts and infrastructure to shape the result.",
+      "markdown": "Spatial tools became part of other professions’ working systems. A planner might use a map application rather than a desktop GIS. An emergency manager might use a common operating picture. A scientist might call a spatial service from Python. A developer might query PostGIS through an API. A data analyst might ask an AI assistant to generate a spatial query. The user no longer had to identify the activity as GIS for spatial concepts and infrastructure to shape the result.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

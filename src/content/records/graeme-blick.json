@@ -1,0 +1,45 @@
+{
+  "id": "person:graeme-blick",
+  "slug": "graeme-blick",
+  "name": "Graeme Blick",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/graeme-blick/",
+  "story": [
+    "Graeme Blick’s 2025 New Year Honours citation records work at Geological Survey from 1969 to 1995, including photogrammetry and geodetic surveying, and service as New Zealand’s Chief Geodesist from 2009. It credits his contribution to the Southern Positioning Augmentation Network established in 2022. He was appointed a Companion of the New Zealand Order of Merit for services to geodesy.",
+    "Geoff Howard, Graeme Blick and Fran McNamara described another production change in 2009. The named specialists worked alongside cartographers, photogrammetrists, conversion operators and database staff who kept the national series running."
+  ],
+  "sources": [
+    {
+      "label": "DPMC, New Year Honours 2025: Graeme Blick, services to geodesy",
+      "url": "https://www.dpmc.govt.nz/honours/lists/ny2025-cnzm"
+    },
+    {
+      "label": "Chapter 15 · People behind the database",
+      "url": "/stories/topography-goes-digital/"
+    }
+  ],
+  "aliases": [
+    "Graeme Blick"
+  ],
+  "themeIds": [
+    "open-practice",
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "DPMC, New Year Honours 2025: Graeme Blick, services to geodesy",
+        "url": "https://www.dpmc.govt.nz/honours/lists/ny2025-cnzm"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 15 · People behind the database",
+        "url": "/stories/topography-goes-digital/"
+      }
+    ]
+  ]
+}

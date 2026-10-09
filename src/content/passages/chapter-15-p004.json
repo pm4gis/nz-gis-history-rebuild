@@ -1,0 +1,58 @@
+{
+  "id": "passage:chapter-15-c5de79514a",
+  "slug": "data-and-cartography-c5de79514a",
+  "articleId": "article:chapter-15",
+  "title": "Data and cartography",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:15",
+    "entity:department-of-conservation"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A topographic database stores features and attributes; a topographic map presents selected information at a particular scale for a particular reader. A road may have one database centreline but be drawn with different widths or symbols. A building might remain in the source data while being omitted from a smaller-scale product. A place name has a geographic relationship to a feature, yet its printed position may be moved to avoid colliding with a road, contour or another label.",
+      "markdown": "A topographic database stores features and attributes; a topographic map presents selected information at a particular scale for a particular reader. A road may have one database centreline but be drawn with different widths or symbols. A building might remain in the source data while being omitted from a smaller-scale product. A place name has a geographic relationship to a feature, yet its printed position may be moved to avoid colliding with a road, contour or another label.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The digital system increasingly separated maintained source data from particular map products. Feature geometry, classification and attributes could be maintained independently from cartographic portrayal. Rules could automate much of the symbolisation, but cartographers still had to resolve difficult cases. A river crossing a road, closely spaced labels or a cluster of buildings could produce technically valid data and a terrible map. The database made consistency easier; it did not make judgement unnecessary.",
+      "markdown": "The digital system increasingly separated maintained source data from particular map products. Feature geometry, classification and attributes could be maintained independently from cartographic portrayal. Rules could automate much of the symbolisation, but cartographers still had to resolve difficult cases. A river crossing a road, closely spaced labels or a cluster of buildings could produce technically valid data and a terrible map. The database made consistency easier; it did not make judgement unnecessary.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "There was also a positional legacy. Much of the early topographic database was populated by converting cartographic drawings that had been prepared to make readable maps, not to preserve the highest obtainable coordinate accuracy for every feature. Cartographers sometimes displaced features deliberately so that symbols could be distinguished. A road beside a river might be separated on the map even if their real-world positions were closer. Once that linework entered a database, the visual adjustment could look like an exact coordinate unless its provenance was understood.",
+      "markdown": "There was also a positional legacy. Much of the early topographic database was populated by converting cartographic drawings that had been prepared to make readable maps, not to preserve the highest obtainable coordinate accuracy for every feature. Cartographers sometimes displaced features deliberately so that symbols could be distinguished. A road beside a river might be separated on the map even if their real-world positions were closer. Once that linework entered a database, the visual adjustment could look like an exact coordinate unless its provenance was understood.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later maintenance increasingly sought better source information. Aerial and satellite imagery, photogrammetric work and authoritative data from other agencies could be used to improve geometry as well as keep features current. By the Topo50 period LINZ described using imagery and information from organisations such as the Department of Conservation and the national road authority to maintain the source database. Digital production therefore changed the update workflow, but it did not eliminate observation. Someone still had to know that a road had opened, a track had disappeared, a coastline had changed or a place name had been amended.",
+      "markdown": "Later maintenance increasingly sought better source information. Aerial and satellite imagery, photogrammetric work and authoritative data from other agencies could be used to improve geometry as well as keep features current. By the Topo50 period LINZ described using imagery and information from organisations such as the Department of Conservation and the national road authority to maintain the source database. Digital production therefore changed the update workflow, but it did not eliminate observation. Someone still had to know that a road had opened, a track had disappeared, a coastline had changed or a place name had been amended.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Revision remained an information-gathering problem as well as a database-editing problem. Topographic agencies had always depended on aerial photography, field reports, other government organisations and local knowledge to find changes. Digital maintenance altered the destination of that evidence. Instead of marking up a drawing whose next life was another printed edition, staff could update a source feature that would feed several outputs. The potential efficiency was substantial, but only if change information arrived reliably and was assessed consistently.",
+      "markdown": "Revision remained an information-gathering problem as well as a database-editing problem. Topographic agencies had always depended on aerial photography, field reports, other government organisations and local knowledge to find changes. Digital maintenance altered the destination of that evidence. Instead of marking up a drawing whose next life was another printed edition, staff could update a source feature that would feed several outputs. The potential efficiency was substantial, but only if change information arrived reliably and was assessed consistently.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That made relationships with other agencies more important. A national road authority might know about a new highway before the mapping agency did. Conservation staff might hold better information about tracks, huts and protected areas. Local authorities could know about urban expansion or renamed roads. Imagery could reveal physical change without explaining what an object should be called or how it should be classified. Maintaining the database meant combining observation with institutional evidence rather than assuming one source could describe the whole country.",
+      "markdown": "That made relationships with other agencies more important. A national road authority might know about a new highway before the mapping agency did. Conservation staff might hold better information about tracks, huts and protected areas. Local authorities could know about urban expansion or renamed roads. Imagery could reveal physical change without explaining what an object should be called or how it should be classified. Maintaining the database meant combining observation with institutional evidence rather than assuming one source could describe the whole country.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The update cycle also changed expectations. A printed map edition could tolerate a lag because users understood that the sheet represented a particular revision date. A database supplied directly to GIS customers encouraged a stronger expectation that accepted changes should appear quickly. By 2007–08 LINZ was measuring how rapidly notified critical changes, errors and omissions appeared through NZTopoOnline. The production system was becoming a service with timeliness obligations as well as a cartographic archive.",
+      "markdown": "The update cycle also changed expectations. A printed map edition could tolerate a lag because users understood that the sheet represented a particular revision date. A database supplied directly to GIS customers encouraged a stronger expectation that accepted changes should appear quickly. By 2007–08 LINZ was measuring how rapidly notified critical changes, errors and omissions appeared through NZTopoOnline. The production system was becoming a service with timeliness obligations as well as a cartographic archive.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-3-761de75cc2",
+  "slug": "routes-and-terrain-761de75cc2",
+  "articleId": "article:chapter-3",
+  "title": "Routes and terrain",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:3",
+    "person:g-j-harrington",
+    "person:a-c-shailes"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Ministry of Works was also applying computers to geographic problems during the 1970s. Its engineering work involved road and rail alignments, earthworks, gradients, terrain and hydro development, all of which generated large calculation workloads. Retrospective accounts describe computer-assisted route selection using information derived partly from aerial photography. The computer could evaluate more alternatives than an engineering team could reasonably calculate in detail by hand.",
+      "markdown": "The Ministry of Works was also applying computers to geographic problems during the 1970s. Its engineering work involved road and rail alignments, earthworks, gradients, terrain and hydro development, all of which generated large calculation workloads. Retrospective accounts describe computer-assisted route selection using information derived partly from aerial photography. The computer could evaluate more alternatives than an engineering team could reasonably calculate in detail by hand.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A. C. Shailes later described the Mangaweka road-rail deviation as one case in which computers generated or evaluated possible trail lines subject to engineering controls such as gradient and earthworks. In the Clutha Valley, ten road alternatives were reported as being examined through computer processing where manual methods might have allowed detailed consideration of only two. The computers supported engineering analysis.",
+      "markdown": "A. C. Shailes later described the Mangaweka road-rail deviation as one case in which computers generated or evaluated possible trail lines subject to engineering controls such as gradient and earthworks. In the Clutha Valley, ten road alternatives were reported as being examined through computer processing where manual methods might have allowed detailed consideration of only two. The computers supported engineering analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These route programs used geographic measurements and engineering constraints for particular projects. They were designed to solve specific engineering problems. Later GIS software incorporated similar forms of terrain and route analysis inside broader environments, but the underlying calculations had already been used in specialist engineering systems.",
+      "markdown": "These route programs used geographic measurements and engineering constraints for particular projects. They were designed to solve specific engineering problems. Later GIS software incorporated similar forms of terrain and route analysis inside broader environments, but the underlying calculations had already been used in specialist engineering systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Terrain representation was also being automated. In 1976 G. J. Harrington of the New Zealand Agricultural Engineering Institute published Contouring by Computer from Stadia Field Data. The program converted surveyed positions and elevations into contour information by interpolating between irregularly distributed field observations. Computer-generated contours are now routine, but the 1976 work records part of the shift from manual interpolation to software-based terrain processing in New Zealand.",
+      "markdown": "Terrain representation was also being automated. In 1976 G. J. Harrington of the New Zealand Agricultural Engineering Institute published Contouring by Computer from Stadia Field Data. The program converted surveyed positions and elevations into contour information by interpolating between irregularly distributed field observations. Computer-generated contours are now routine, but the 1976 work records part of the shift from manual interpolation to software-based terrain processing in New Zealand.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A contour is derived rather than measured directly. Field observations provide positions and heights, and an interpolation method estimates the surface between them. Moving that process into software made the method repeatable and allowed larger sets of observations to be handled consistently. The resulting contour still depended on the quality and distribution of the source observations and on the interpolation method used.",
+      "markdown": "A contour is derived rather than measured directly. Field observations provide positions and heights, and an interpolation method estimates the surface between them. Moving that process into software made the method repeatable and allowed larger sets of observations to be handled consistently. The resulting contour still depended on the quality and distribution of the source observations and on the interpolation method used.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

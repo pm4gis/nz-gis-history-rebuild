@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-38-aeb867879d",
+  "slug": "repeatability-is-harder-than-repetition-aeb867879d",
+  "articleId": "article:chapter-38",
+  "title": "Repeatability is harder than repetition",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Returning to the same site is easy to describe and harder to do consistently. A monitoring programme has to consider flight height, camera, lens, overlap, lighting, vegetation, ground control and the coordinate solution from one campaign to the next. If these change substantially, differences between two surfaces can reflect the survey method as well as the landscape. A time series therefore depends on repeatable acquisition and processing as well as repeated flights.",
+      "markdown": "Returning to the same site is easy to describe and harder to do consistently. A monitoring programme has to consider flight height, camera, lens, overlap, lighting, vegetation, ground control and the coordinate solution from one campaign to the next. If these change substantially, differences between two surfaces can reflect the survey method as well as the landscape. A time series therefore depends on repeatable acquisition and processing as well as repeated flights.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vegetation creates a particular problem. Grass, shrubs and trees move in wind and change with season. Photogrammetry reconstructs what the camera sees, so a taller or denser canopy can appear as surface change even when the ground beneath it has not moved. Bare slopes and engineering sites are often easier to compare than forested terrain. Analysts may need to mask vegetation, select stable features or use another sensor where the ground itself is the required measurement.",
+      "markdown": "Vegetation creates a particular problem. Grass, shrubs and trees move in wind and change with season. Photogrammetry reconstructs what the camera sees, so a taller or denser canopy can appear as surface change even when the ground beneath it has not moved. Bare slopes and engineering sites are often easier to compare than forested terrain. Analysts may need to mask vegetation, select stable features or use another sensor where the ground itself is the required measurement.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lighting and water can be equally troublesome. Strong shadows may hide texture needed for image matching, while low-texture surfaces offer few reliable features. Water moves, reflects the sky and changes appearance between photographs, so SfM often struggles to reconstruct it as a stable surface. Coastal and river projects may still use UAV imagery effectively, but the method does not automatically turn every visible scene into precise geometry.",
+      "markdown": "Lighting and water can be equally troublesome. Strong shadows may hide texture needed for image matching, while low-texture surfaces offer few reliable features. Water moves, reflects the sky and changes appearance between photographs, so SfM often struggles to reconstruct it as a stable surface. Coastal and river projects may still use UAV imagery effectively, but the method does not automatically turn every visible scene into precise geometry.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These limits are part of the reason UAV mapping settled into a toolkit rather than becoming a universal replacement. Practitioners learned which surfaces and conditions suited image-based reconstruction. A technique can become ordinary without becoming suitable for everything.",
+      "markdown": "These limits are part of the reason UAV mapping settled into a toolkit rather than becoming a universal replacement. Practitioners learned which surfaces and conditions suited image-based reconstruction. A technique can become ordinary without becoming suitable for everything.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

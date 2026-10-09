@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-34-5f1abc2b2f",
+  "slug": "taking-the-model-into-the-street-5f1abc2b2f",
+  "articleId": "article:chapter-34",
+  "title": "Taking the model into the street",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "North Shore City Council used handheld equipment in 2005 and 2006 to check modelled overland flow paths on site. The council had used LiDAR and GIS to model where stormwater would move across the urban landscape during heavy rain. That analysis could identify likely overland flow paths, but a model was not the same as the street itself. In the summer of 2005–06 a pilot field assessment used a PDA running ArcPad to take the mapped flow paths and supporting council data into the field.",
+      "markdown": "North Shore City Council used handheld equipment in 2005 and 2006 to check modelled overland flow paths on site. The council had used LiDAR and GIS to model where stormwater would move across the urban landscape during heavy rain. That analysis could identify likely overland flow paths, but a model was not the same as the street itself. In the summer of 2005–06 a pilot field assessment used a PDA running ArcPad to take the mapped flow paths and supporting council data into the field.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The field engineer could access cadastral boundaries, roads, aerial photographs, stormwater and wastewater networks, parks and reserves, and the modelled overland flow paths. Standard forms and pick lists were used to capture observations in a database-ready structure. Staff used the PDA to compare the model with conditions on the ground. It placed the council’s spatial evidence beside the physical kerb, property, channel and obstruction being assessed. Field inspection could confirm the model, qualify it or reveal details that were not visible in the source data.",
+      "markdown": "The field engineer could access cadastral boundaries, roads, aerial photographs, stormwater and wastewater networks, parks and reserves, and the modelled overland flow paths. Standard forms and pick lists were used to capture observations in a database-ready structure. Staff used the PDA to compare the model with conditions on the ground. It placed the council’s spatial evidence beside the physical kerb, property, channel and obstruction being assessed. Field inspection could confirm the model, qualify it or reveal details that were not visible in the source data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This closed a loop that desktop GIS often left open. Office analysis generated a hypothesis about the real world, the field worker carried that hypothesis back to the place, and the observation returned to improve the information base. The project authors explicitly contrasted the method with older paper field sheets that had to be manually transferred into spreadsheets or other systems. Structured mobile capture reduced that re-entry. It also made the design of the form part of the GIS itself because the categories chosen in the field determined what could later be queried and analysed.",
+      "markdown": "This closed a loop that desktop GIS often left open. Office analysis generated a hypothesis about the real world, the field worker carried that hypothesis back to the place, and the observation returned to improve the information base. The project authors explicitly contrasted the method with older paper field sheets that had to be manually transferred into spreadsheets or other systems. Structured mobile capture reduced that re-entry. It also made the design of the form part of the GIS itself because the categories chosen in the field determined what could later be queried and analysed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "North Shore staff used both connected and offline tools. Most supporting layers could be served to the PDA through ArcIMS rather than stored locally, which saved scarce memory and reduced setup effort. That arrangement demonstrates the other direction mobile GIS was taking as networks improved. Some projects tried to make the field device a thin client of the central environment. Others carried more data locally. New Zealand organisations ended up needing methods suited to very different urban and back-country connectivity conditions.",
+      "markdown": "North Shore staff used both connected and offline tools. Most supporting layers could be served to the PDA through ArcIMS rather than stored locally, which saved scarce memory and reduced setup effort. That arrangement demonstrates the other direction mobile GIS was taking as networks improved. Some projects tried to make the field device a thin client of the central environment. Others carried more data locally. New Zealand organisations ended up needing methods suited to very different urban and back-country connectivity conditions.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

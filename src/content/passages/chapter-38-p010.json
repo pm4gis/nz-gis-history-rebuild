@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-38-a19d06fd5c",
+  "slug": "centimetres-on-the-screen-a19d06fd5c",
+  "articleId": "article:chapter-38",
+  "title": "Centimetres on the screen",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "UAV products often arrive with very small numbers attached to them. Ground sample distance may be two centimetres, five centimetres or another impressively fine figure. That number describes the approximate size represented by an image pixel at the ground surface under the flight geometry. It says nothing by itself about whether a feature is located within two centimetres of its true coordinate.",
+      "markdown": "UAV products often arrive with very small numbers attached to them. Ground sample distance may be two centimetres, five centimetres or another impressively fine figure. That number describes the approximate size represented by an image pixel at the ground surface under the flight geometry. It says nothing by itself about whether a feature is located within two centimetres of its true coordinate.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Several sources of error sit between the camera and the map. The onboard GNSS may locate the camera imperfectly. Lens distortion has to be modelled. Ground-control coordinates have their own uncertainty. Poor flight geometry can weaken the camera solution. Surfaces with little texture may reconstruct badly. Coordinate transformations and elevation references can introduce further problems if they are handled carelessly.",
+      "markdown": "Several sources of error sit between the camera and the map. The onboard GNSS may locate the camera imperfectly. Lens distortion has to be modelled. Ground-control coordinates have their own uncertainty. Poor flight geometry can weaken the camera solution. Surfaces with little texture may reconstruct badly. Coordinate transformations and elevation references can introduce further problems if they are handled carelessly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This is why professional UAV reports often include error statistics from checkpoints rather than relying on resolution alone. The map may be extraordinarily detailed and still need a more modest statement about absolute accuracy. Conversely, a model with larger pixels can be well controlled for the purpose at hand. Resolution and accuracy answer different questions.",
+      "markdown": "This is why professional UAV reports often include error statistics from checkpoints rather than relying on resolution alone. The map may be extraordinarily detailed and still need a more modest statement about absolute accuracy. Conversely, a model with larger pixels can be well controlled for the purpose at hand. Resolution and accuracy answer different questions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The distinction also affects volume calculations. Stockpile, cut-and-fill or landslide volumes are derived from differences between surfaces. Small vertical biases across a large area can produce substantial volume errors even when the model looks excellent. Repeated surveys therefore need stable control and consistent processing if the derived change is to be trusted.",
+      "markdown": "The distinction also affects volume calculations. Stockpile, cut-and-fill or landslide volumes are derived from differences between surfaces. Small vertical biases across a large area can produce substantial volume errors even when the model looks excellent. Repeated surveys therefore need stable control and consistent processing if the derived change is to be trusted.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

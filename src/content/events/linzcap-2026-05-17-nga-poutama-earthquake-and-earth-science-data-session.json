@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2026-05-17-nga-poutama-earthquake-and-earth-science-data-session",
+  "dateDisplay": "2026-05-17",
+  "startDate": "2026-05-17",
+  "datePrecision": "day",
+  "year": 2026,
+  "label": "Ngā Poutama earthquake and earth-science data session",
+  "summary": "Jonathan Hanson of Earth Sciences New Zealand/GeoNet demonstrated earthquake and earth-science data for Māori GIS and planning.",
+  "url": "/stories/the-map-becomes-an-application/#practical-maori-web-mapping-23fcc809db",
+  "passageIds": [
+    "passage:chapter-35-23fcc809db"
+  ],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ]
+}

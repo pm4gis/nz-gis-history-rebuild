@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-8-5f74d8d0d8",
+  "slug": "photographs-into-forest-data-5f74d8d0d8",
+  "articleId": "article:chapter-8",
+  "title": "Photographs into forest data",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:8",
+    "entity:new-zealand-aerial-mapping",
+    "entity:scion-forest-research"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Aerial photography remained one of forestry’s main spatial sources during this transition. Plantation boundaries, roads, clearings and differences in stand condition could be interpreted from photographs, while repeated photography provided a record of change. The Forest Research Institute literature of the late 1970s already included work on aerial photography in exotic forest inventory and the use of inventory for plantation planning. GIS added another destination for the interpreted information rather than replacing the photography itself.",
+      "markdown": "Aerial photography remained one of forestry’s main spatial sources during this transition. Plantation boundaries, roads, clearings and differences in stand condition could be interpreted from photographs, while repeated photography provided a record of change. The Forest Research Institute literature of the late 1970s already included work on aerial photography in exotic forest inventory and the use of inventory for plantation planning. GIS added another destination for the interpreted information rather than replacing the photography itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand Aerial Mapping had long supplied forestry and other land-based industries with aerial survey. Its move into analytical and then digital photogrammetric production during the 1980s meant measurements from photographs could increasingly be delivered as digital coordinates or CAD/GIS data. Chapter 3 followed the Wild BC1 and later GeoVision equipment behind that transition. For forestry clients, the practical change was shorter movement from aerial survey to a computer-held forest map.",
+      "markdown": "New Zealand Aerial Mapping had long supplied forestry and other land-based industries with aerial survey. Its move into analytical and then digital photogrammetric production during the 1980s meant measurements from photographs could increasingly be delivered as digital coordinates or CAD/GIS data. Chapter 3 followed the Wild BC1 and later GeoVision equipment behind that transition. For forestry clients, the practical change was shorter movement from aerial survey to a computer-held forest map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The source still required interpretation. A photograph could show a visible edge between stands or the line of a road, but a database needed to know what the feature represented. Field information and management records were still required for attributes such as planting year, treatment history, stocking or expected yield. Digital mapping reduced one part of the conversion chain while leaving forestry knowledge at the centre of the record.",
+      "markdown": "The source still required interpretation. A photograph could show a visible edge between stands or the line of a road, but a database needed to know what the feature represented. Field information and management records were still required for attributes such as planting year, treatment history, stocking or expected yield. Digital mapping reduced one part of the conversion chain while leaving forestry knowledge at the centre of the record.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

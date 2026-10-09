@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0791",
+  "a": "person:jesse-merkle",
+  "b": "chapter:38",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-38-56d5b073bb"
+  ],
+  "sources": []
+}

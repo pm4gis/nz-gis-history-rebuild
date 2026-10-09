@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-37-5d16441131",
+  "slug": "from-contours-to-dense-measurements-5d16441131",
+  "articleId": "article:chapter-37",
+  "title": "From contours to dense measurements",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "GIS had used elevation long before airborne laser scanning arrived. Contours, spot heights, photogrammetric terrain models and interpolated surfaces could represent the shape of the land, and New Zealand mapping agencies had decades of experience producing them. What LiDAR changed was the density and regularity of the observations. Instead of relying primarily on lines and selected heights from which a surface was inferred, an airborne laser survey could collect a dense cloud of three-dimensional points across a large area. That made subtle slopes, banks, channels and surface breaks easier to model.",
+      "markdown": "GIS had used elevation long before airborne laser scanning arrived. Contours, spot heights, photogrammetric terrain models and interpolated surfaces could represent the shape of the land, and New Zealand mapping agencies had decades of experience producing them. What LiDAR changed was the density and regularity of the observations. Instead of relying primarily on lines and selected heights from which a surface was inferred, an airborne laser survey could collect a dense cloud of three-dimensional points across a large area. That made subtle slopes, banks, channels and surface breaks easier to model.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The improvement involved resolution, coverage, repeatability and the growing ability to reuse elevation data across several applications. A detailed terrain surface could support questions that had previously been awkward, expensive or dependent on substantial field survey. Water could be modelled across urban streets and properties. Small changes in ground height could be compared between repeated surveys. Engineers could derive sections and slopes over wide areas. Planners and environmental teams could inspect terrain independently of the contours printed on a topographic map. The same acquisition could be reused for several tasks, which gradually changed the economics of elevation data.",
+      "markdown": "The improvement involved resolution, coverage, repeatability and the growing ability to reuse elevation data across several applications. A detailed terrain surface could support questions that had previously been awkward, expensive or dependent on substantial field survey. Water could be modelled across urban streets and properties. Small changes in ground height could be compared between repeated surveys. Engineers could derive sections and slopes over wide areas. Planners and environmental teams could inspect terrain independently of the contours printed on a topographic map. The same acquisition could be reused for several tasks, which gradually changed the economics of elevation data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LiDAR also separated two ideas that were easily blurred in everyday GIS work. A digital surface model represents the upper surface detected by the sensor, potentially including buildings and vegetation. A bare-earth elevation model attempts to represent the terrain beneath those objects. A flood model usually needs something much closer to the ground surface than a model that leaves tree canopies and roofs standing in the way of the water.",
+      "markdown": "LiDAR also separated two ideas that were easily blurred in everyday GIS work. A digital surface model represents the upper surface detected by the sensor, potentially including buildings and vegetation. A bare-earth elevation model attempts to represent the terrain beneath those objects. A flood model usually needs something much closer to the ground surface than a model that leaves tree canopies and roofs standing in the way of the water.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

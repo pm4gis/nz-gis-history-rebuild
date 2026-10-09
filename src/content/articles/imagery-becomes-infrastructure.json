@@ -1,0 +1,36 @@
+{
+  "id": "article:chapter-20",
+  "slug": "imagery-becomes-infrastructure",
+  "title": "Aerial imagery",
+  "url": "/stories/imagery-becomes-infrastructure/",
+  "summary": "Aerial photographs had been used in New Zealand mapping for decades before GIS became common. They helped photogrammetrists compile topographic maps, foresters interpret stands, engineers inspect routes and land-resource staff rea",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 20,
+  "themeIds": [
+    "imagery"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch20-note-01",
+      "text": "1. Early orthophoto production. Lands and Survey records document purchase of a computer system for orthophoto production in 1977 and orthophoto mapping of the Clutha–Alexandra area in 1978–79 for Ministry of Works hydro-development planning. Manufacturer and software remain unresolved. The evidence does not establish a national first."
+    },
+    {
+      "id": "ch20-note-02",
+      "text": "2. Photogrammetric bridge. The established New Zealand Aerial Mapping evidence documents the 1984 Wild BC1 analytical stereoplotter and 1988 GeoVision retrofit only as a bridge. Chapter 3 describes the hardware."
+    },
+    {
+      "id": "ch20-note-03",
+      "text": "3. Auckland coordination. The Office of the Auditor-General, Local Authorities Working Together (2004), Case Study 6, documents the eight Auckland-region authorities' GIS cooperation from 1999, their different systems and data standards, and the Auckland Area Orthophotography Standard finalised in February 2003. The report identifies aligned procurement as a further step; do not claim the standard proves that joint contracts were already executed."
+    },
+    {
+      "id": "ch20-note-04",
+      "text": "4. National imagery coordination. The 2014 LINZ portfolio briefing documents the National Imagery Coordination Programme, coordinated public-sector acquisition, consistent standards, the central-government imagery fund involving LINZ, MPI and DOC, and release of North and South Island aerial imagery through the LINZ Data Service."
+    },
+    {
+      "id": "ch20-note-05",
+      "text": "5. Crown Aerial Film Library. LINZ's collection history documents nearly 700,000 negatives from about 7,300 surveys flown between 1936 and 2008 and the scanning programme begun in 2014 and completed in June 2023. Scanning, georeferencing and orthorectification produced different image products."
+    }
+  ]
+}

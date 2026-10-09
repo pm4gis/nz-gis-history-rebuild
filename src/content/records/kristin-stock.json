@@ -1,0 +1,68 @@
+{
+  "id": "person:kristin-stock",
+  "slug": "kristin-stock",
+  "name": "Kristin Stock",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kristin-stock/",
+  "story": [
+    "Kristin Stock's background combines surveying, urban and regional planning, computing and a doctorate in semantic database integration at Queensland University of Technology. She worked in cadastral, engineering and mining surveying, government land information and consultancy before joining Massey in 2014 from Nottingham. As director of the Massey Geoinformatics Collaboratory, she has led research into geographic descriptions, biological collections, disaster information and Māori landscape classification.",
+    "Kalana Wijegunarathna and Kristin Stock of Massey University, with Christopher B. Jones of Cardiff University, examined whether large multimodal models could combine a written locality description with a map. Natural-history collections contain huge numbers of specimens whose recorded locations are written as ordinary descriptions rather than coordinates. A collector might have written that a specimen came from a certain distance along a road, near a river, south of a settlement or beside a reserve. Converting such descriptions into coordinates has long required both language interpretation and geographic reasoning.",
+    "A 2018 GIScience paper by Niloofar Aflaki, Shaun Russell and Kristin Stock examined the difficulties of creating annotated geospatial natural-language descriptions. In 2019 Stock and collaborators presented \"He Tatai Whenua\", work on automated extraction of landscape terms and meanings in New Zealand Māori. These projects predated the current large-language-model boom and treated language as data that needed careful annotation, interpretation and computational representation. Coordinates returned from natural-language queries required validation against the intended places.",
+    "LINZ’s tertiary GIS directory lists Kristin Stock for Massey University."
+  ],
+  "sources": [
+    {
+      "label": "Associate Professor Kristin Stock - Associate Professor - Massey University · career/profile reference",
+      "url": "https://ns-proxy1.massey.ac.nz/massey/expertise/profile.cfm?stref=993350"
+    },
+    {
+      "label": "Kristin Stock - Massey University | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/kristin-stock-448b164"
+    },
+    {
+      "label": "Chapter 44 · A model reads the map",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    },
+    {
+      "label": "Chapter 44 · Natural language returns",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    },
+    {
+      "label": "LINZ, Studying GIS",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis"
+    }
+  ],
+  "aliases": [
+    "Kristin Stock"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Associate Professor Kristin Stock - Associate Professor - Massey University · career/profile reference",
+        "url": "https://ns-proxy1.massey.ac.nz/massey/expertise/profile.cfm?stref=993350"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · A model reads the map",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · Natural language returns",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Studying GIS",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis"
+      }
+    ]
+  ]
+}

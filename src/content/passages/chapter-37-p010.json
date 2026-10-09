@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-37-f8590f0696",
+  "slug": "a-specification-for-a-country-f8590f0696",
+  "articleId": "article:chapter-37",
+  "title": "A specification for a country",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "National coverage required national consistency. LINZ's National Aerial LiDAR Base Specification set common expectations for coordinate systems, vertical datum, classification, accuracy, project reporting and deliverables. Programme-era contracts produced classified point clouds alongside one-metre bare-earth elevation models and one-metre surface models. The programme allowed different local requirements while ensuring that regional datasets could be checked and combined without every user first reverse-engineering a local specification.",
+      "markdown": "National coverage required national consistency. LINZ's National Aerial LiDAR Base Specification set common expectations for coordinate systems, vertical datum, classification, accuracy, project reporting and deliverables. Programme-era contracts produced classified point clouds alongside one-metre bare-earth elevation models and one-metre surface models. The programme allowed different local requirements while ensuring that regional datasets could be checked and combined without every user first reverse-engineering a local specification.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The specifications also evolved. Earlier versions set minimum pulse-density requirements that later versions increased, while accuracy controls and reporting requirements were refined. National elevation infrastructure was maintained through common technical specifications. A national model is credible only if users can understand how its component surveys meet common requirements. Standards became part of the data.",
+      "markdown": "The specifications also evolved. Earlier versions set minimum pulse-density requirements that later versions increased, while accuracy controls and reporting requirements were refined. National elevation infrastructure was maintained through common technical specifications. A national model is credible only if users can understand how its component surveys meet common requirements. Standards became part of the data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Quality control remained necessary even with a specification. LINZ describes centrally checking and editing programme data before publication. Classification errors, water surfaces, vegetation, bridges and complex terrain still need scrutiny. Hydroflattening and breaklines may be required so rivers, lakes and other surfaces behave sensibly in a derived elevation model. The move to national infrastructure therefore increased the importance of systematic quality assurance rather than making it disappear.",
+      "markdown": "Quality control remained necessary even with a specification. LINZ describes centrally checking and editing programme data before publication. Classification errors, water surfaces, vegetation, bridges and complex terrain still need scrutiny. Hydroflattening and breaklines may be required so rivers, lakes and other surfaces behave sensibly in a derived elevation model. The move to national infrastructure therefore increased the importance of systematic quality assurance rather than making it disappear.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "National elevation products combined derived grids from individual surveys, while the source LiDAR point clouds remained separate datasets. A one-metre national DEM is a derived product assembled from source surveys. It is extraordinarily useful for many GIS users who may never download a LAS file. Yet the source point cloud preserves much more information than the grid. Keeping both allows general users to work with a simple national terrain surface while specialists return to the measurements when a different classification or analysis is needed.",
+      "markdown": "National elevation products combined derived grids from individual surveys, while the source LiDAR point clouds remained separate datasets. A one-metre national DEM is a derived product assembled from source surveys. It is extraordinarily useful for many GIS users who may never download a LAS file. Yet the source point cloud preserves much more information than the grid. Keeping both allows general users to work with a simple national terrain surface while specialists return to the measurements when a different classification or analysis is needed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

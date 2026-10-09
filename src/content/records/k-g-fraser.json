@@ -1,0 +1,33 @@
+{
+  "id": "person:k-g-fraser",
+  "slug": "k-g-fraser",
+  "name": "K. G. Fraser",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/k-g-fraser/",
+  "story": [
+    "Michael Anderson and George Benwell surveyed local-authority GIS use in 1992, and K. G. Fraser and E. Todd compared the situation in July 1993 with February 1992."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23 · Adoption accelerates",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "K. G. Fraser"
+  ],
+  "themeIds": [
+    "local-government"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · Adoption accelerates",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

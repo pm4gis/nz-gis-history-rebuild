@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1124",
+  "a": "person:mike-bundock",
+  "b": "entity:smallworld-ge-smallworld",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

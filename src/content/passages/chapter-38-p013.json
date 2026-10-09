@@ -1,0 +1,63 @@
+{
+  "id": "passage:chapter-38-a1ca3ceb6c",
+  "slug": "from-experiment-to-working-method-a1ca3ceb6c",
+  "articleId": "article:chapter-38",
+  "title": "From experiment to working method",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "imagery"
+  ],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the late 2010s the New Zealand literature had changed tone. The early question had been whether a small UAV and SfM could produce useful spatial data. Later papers assumed that they could and concentrated on how to apply the method, test it, repeat it and integrate it with other measurements. The 2017 engineering-geology work used RTK control and standard coordinates. The Auckland monitoring programme used repeated terrain models. Environmental projects combined low-altitude imagery with satellite or field data.",
+      "markdown": "By the late 2010s the New Zealand literature had changed tone. The early question had been whether a small UAV and SfM could produce useful spatial data. Later papers assumed that they could and concentrated on how to apply the method, test it, repeat it and integrate it with other measurements. The 2017 engineering-geology work used RTK control and standard coordinates. The Auckland monitoring programme used repeated terrain models. Environmental projects combined low-altitude imagery with satellite or field data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Professional drone mapping spread across sectors on different timelines, under different accuracy requirements and for different site sizes. Surveying, hazards, environmental monitoring, agriculture, construction and infrastructure each had their own reasons to adopt or reject the method. That pattern is a better indicator of adoption than finding a company that advertised the first drone service.",
+      "markdown": "Professional drone mapping spread across sectors on different timelines, under different accuracy requirements and for different site sizes. Surveying, hazards, environmental monitoring, agriculture, construction and infrastructure each had their own reasons to adopt or reject the method. That pattern is a better indicator of adoption than finding a company that advertised the first drone service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The software changed with the practice. Agisoft PhotoScan, later renamed Metashape, became one widely used option, while Pix4D and other packages also appeared in professional workflows. Increasing automation made camera alignment, dense matching and orthomosaic generation accessible to teams that were not specialist photogrammetric bureaux. That accessibility could conceal complexity. A model can process successfully while still being poorly controlled or unsuitable for the measurement being claimed.",
+      "markdown": "The software changed with the practice. Agisoft PhotoScan, later renamed Metashape, became one widely used option, while Pix4D and other packages also appeared in professional workflows. Increasing automation made camera alignment, dense matching and orthomosaic generation accessible to teams that were not specialist photogrammetric bureaux. That accessibility could conceal complexity. A model can process successfully while still being poorly controlled or unsuitable for the measurement being claimed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Computing also mattered. Hundreds or thousands of high-resolution photographs consume storage and processing time, while dense point clouds and textured meshes can become large very quickly. Faster workstations, GPUs and later cloud processing made larger projects easier. ",
+      "markdown": "Computing also mattered. Hundreds or thousands of high-resolution photographs consume storage and processing time, while dense point clouds and textured meshes can become large very quickly. Faster workstations, GPUs and later cloud processing made larger projects easier. ",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the late 2010s practitioners were using drones inside established GIS workflows rather than as isolated demonstrations. Debbie Care used them in farm-environment planning, Ann De Schutter presented DOC imagery and drone work on Auckland Island, Marcus Girvan’s biosecurity projects used UAV capture for invasive-conifer control, and Sarah Pitcher-Campbell documented forestry applications through Interpine. Craig MacAlpine’s New Zealand Fire Service lightning talk on drone imagery capture and processing adds an emergency-service example from 2017.",
+      "sources": [
+        {
+          "label": "New Zealand Esri User Conference programme, 2019",
+          "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+        },
+        {
+          "label": "Boffa Miskell, Leveraging GIS technology to combat invasive conifers",
+          "url": "https://www.boffamiskell.co.nz/news-insights/leveraging-gis-technology-to-combat-invasive-conifers"
+        },
+        {
+          "label": "Interpine GIS archive",
+          "url": "https://interpine.nz/category/gis/page/2/"
+        },
+        {
+          "label": "New Zealand Esri User Conference programme, 2017",
+          "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

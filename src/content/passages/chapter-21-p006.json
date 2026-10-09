@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-21-ee30d4b7c3",
+  "slug": "metadata-travels-with-the-data-ee30d4b7c3",
+  "articleId": "article:chapter-21",
+  "title": "Metadata travels with the data",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Metadata became one of the least visible pieces of this infrastructure and one of the easiest to miss in ordinary GIS work. A dataset might display immediately, but responsible reuse required context. Users needed to know the geographic extent, coordinate reference system, date, origin, lineage, scale or resolution, quality, update frequency, restrictions and the organisation responsible for the information. Without those details, a technically readable file could be difficult to assess.",
+      "markdown": "Metadata became one of the least visible pieces of this infrastructure and one of the easiest to miss in ordinary GIS work. A dataset might display immediately, but responsible reuse required context. Users needed to know the geographic extent, coordinate reference system, date, origin, lineage, scale or resolution, quality, update frequency, restrictions and the organisation responsible for the information. Without those details, a technically readable file could be difficult to assess.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "ANZLIC had already been working on common metadata approaches. Its 2001 guidelines defined core metadata elements for geographic data in Australia and New Zealand. In 2007 ANZLIC published Metadata Profile 1.1, based on the Australian and New Zealand adoption of ISO 19115 and using ISO 19139 for XML implementation. The profile replaced the earlier core-element guidelines with a more formal standards-based structure.",
+      "markdown": "ANZLIC had already been working on common metadata approaches. Its 2001 guidelines defined core metadata elements for geographic data in Australia and New Zealand. In 2007 ANZLIC published Metadata Profile 1.1, based on the Australian and New Zealand adoption of ISO 19115 and using ISO 19139 for XML implementation. The profile replaced the earlier core-element guidelines with a more formal standards-based structure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand government endorsement followed. LINZ’s 2009/10 annual report records formal endorsement of a geospatial metadata standard through the State Services Commission’s e-Government Interoperability Framework, or e-GIF. Later LINZ documentation dates endorsement of ANZLIC Metadata Profile 1.1 for New Zealand government agencies to July 2010. Local government and Crown research institutes were encouraged to use it as well.",
+      "markdown": "New Zealand government endorsement followed. LINZ’s 2009/10 annual report records formal endorsement of a geospatial metadata standard through the State Services Commission’s e-Government Interoperability Framework, or e-GIF. Later LINZ documentation dates endorsement of ANZLIC Metadata Profile 1.1 for New Zealand government agencies to July 2010. Local government and Crown research institutes were encouraged to use it as well.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Agencies still had to prepare and maintain metadata after the standard was endorsed. Producing good metadata required agencies to understand and document their own information, then maintain the description as the data changed. A standard could define common fields and structures. It could not recover provenance that had already been lost or force every project team to record it properly.",
+      "markdown": "Agencies still had to prepare and maintain metadata after the standard was endorsed. Producing good metadata required agencies to understand and document their own information, then maintain the description as the data changed. A standard could define common fields and structures. It could not recover provenance that had already been lost or force every project team to record it properly.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

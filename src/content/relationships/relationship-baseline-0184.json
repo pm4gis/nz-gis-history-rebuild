@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0184",
+  "a": "entity:stronger-christchurch-infrastructure-rebuild-team-scirt",
+  "b": "chapter:42",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

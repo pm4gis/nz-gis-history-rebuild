@@ -1,0 +1,26 @@
+{
+  "id": "2025-foss4g-auckland",
+  "dateDisplay": "2025-11-17 to 2025-11-23",
+  "startDate": "2025-11-17",
+  "endDate": "2025-11-23",
+  "datePrecision": "day-range",
+  "year": 2025,
+  "label": "Auckland hosts the global FOSS4G conference",
+  "summary": "Hosting the global conference brought New Zealand’s open geospatial community and its international connections into public view.",
+  "url": "/stories/open-source-changes-the-tools/#a-community-large-enough-to-host-the-world-aa98df6e0c",
+  "passageIds": [
+    "passage:chapter-32-aa98df6e0c"
+  ],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "themeIds": [
+    "open-practice"
+  ],
+  "categories": [
+    "open-source",
+    "conference",
+    "professional"
+  ],
+  "sources": []
+}

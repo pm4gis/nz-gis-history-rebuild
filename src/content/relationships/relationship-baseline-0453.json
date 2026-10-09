@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0453",
+  "a": "person:peter-willoughby",
+  "b": "chapter:42",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-42-f46a66f084"
+  ],
+  "sources": []
+}

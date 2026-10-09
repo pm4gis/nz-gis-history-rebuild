@@ -1,0 +1,42 @@
+{
+  "id": "person:m-s-colley",
+  "slug": "m-s-colley",
+  "name": "M. S. Colley",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/m-s-colley/",
+  "story": [
+    "M. S. Colley’s 1979 Canterbury computer-science MSc thesis designed an automated system for converting cadastral maps from the imperial grid to the new metric mapping system. It examined cartographic-quality computer output and a data structure joining graphical and descriptive information. The thesis documents practical software and data-design questions in New Zealand’s early computer-mapping work.",
+    "M. S. Colley developed MAPPAK during MSc work in Computer Science at the University of Canterbury around requirements supplied by Lands and Survey, and documented the work in a 1979 thesis, A Computer System for a Cadastral Mapping Application. Colley described MAPPAK as being used for both rural and urban cadastral compilation. The thesis covered automated conversion between map series, computer-produced cartography, graphical and descriptive data structures, editing, plotting and proposed land-information processing. The 1979 thesis described both operational functions and proposed features."
+  ],
+  "sources": [
+    {
+      "label": "M. S. Colley, A computer system for a cadastral mapping application, MSc thesis, University of Canterbury, 1979",
+      "url": "https://ir.canterbury.ac.nz/items/f2abb49d-e38f-4019-b8ba-38667aaba5bb"
+    },
+    {
+      "label": "Chapter 3 · Digitising map sheets",
+      "url": "/stories/drawing-maps-by-machine/"
+    }
+  ],
+  "aliases": [
+    "M. S. Colley"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "M. S. Colley, A computer system for a cadastral mapping application, MSc thesis, University of Canterbury, 1979",
+        "url": "https://ir.canterbury.ac.nz/items/f2abb49d-e38f-4019-b8ba-38667aaba5bb"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 3 · Digitising map sheets",
+        "url": "/stories/drawing-maps-by-machine/"
+      }
+    ]
+  ]
+}

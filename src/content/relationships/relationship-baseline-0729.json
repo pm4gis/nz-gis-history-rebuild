@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0729",
+  "a": "person:jon-hargest",
+  "b": "chapter:18",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-18-65d86e5082"
+  ],
+  "sources": []
+}

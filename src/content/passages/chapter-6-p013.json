@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-6-5387d7b4de",
+  "slug": "early-gis-practitioners-5387d7b4de",
+  "articleId": "article:chapter-6",
+  "title": "Early GIS practitioners",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:6"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 1989 GIS was still far from an ordinary desktop tool. Workstations, licences, graphics equipment and data conversion placed it beyond casual adoption by small teams with no technical support. National datasets were incomplete or expensive to obtain, and moving data between systems could require considerable effort. Many future GIS users in councils and utilities had not yet begun the large conversion programmes that would dominate the first half of the 1990s.",
+      "markdown": "By 1989 GIS was still far from an ordinary desktop tool. Workstations, licences, graphics equipment and data conversion placed it beyond casual adoption by small teams with no technical support. National datasets were incomplete or expensive to obtain, and moving data between systems could require considerable effort. Many future GIS users in councils and utilities had not yet begun the large conversion programmes that would dominate the first half of the 1990s.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Yet the field no longer depended on one organisation sustaining one experimental system. If a specialist left a department, there were other places where GIS skills could be learnt or bought. University courses existed. Commercial suppliers and consultants existed. Several large public organisations had working spatial databases. Conference papers provided a national forum for exchanging methods.",
+      "markdown": "Yet the field no longer depended on one organisation sustaining one experimental system. If a specialist left a department, there were other places where GIS skills could be learnt or bought. University courses existed. Commercial suppliers and consultants existed. Several large public organisations had working spatial databases. Conference papers provided a national forum for exchanging methods.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand had individual geographic information systems before it had a broad GIS profession. During the 1980s the profession began to form around shared software concepts, data practices, courses, suppliers and meetings. The technology became portable between institutions even though the data and organisational problems remained local.",
+      "markdown": "New Zealand had individual geographic information systems before it had a broad GIS profession. During the 1980s the profession began to form around shared software concepts, data practices, courses, suppliers and meetings. The technology became portable between institutions even though the data and organisational problems remained local.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That portability set up the next stage of the history. Once an organisation no longer had to invent its own GIS software, and once staff could be trained in general GIS methods, adoption required less technical invention. It still required money, data conversion, management support and a reason to use the system. Those conditions would come together unevenly across councils, government agencies, utilities, science organisations and businesses during the 1990s.",
+      "markdown": "That portability set up the next stage of the history. Once an organisation no longer had to invent its own GIS software, and once staff could be trained in general GIS methods, adoption required less technical invention. It still required money, data conversion, management support and a reason to use the system. Those conditions would come together unevenly across councils, government agencies, utilities, science organisations and businesses during the 1990s.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

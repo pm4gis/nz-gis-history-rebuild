@@ -1,0 +1,39 @@
+{
+  "id": "2003-christchurch-lidar",
+  "dateDisplay": "2003-07",
+  "startDate": "2003-07",
+  "datePrecision": "month",
+  "year": 2003,
+  "label": "LiDAR enters the Christchurch terrain story",
+  "summary": "The July 2003 Christchurch acquisition is an early documented operational council LiDAR survey. The book does not claim it was New Zealand’s first.",
+  "url": "/stories/lidar-remakes-the-landscape/#christchurch-july-2003-a6aa735b22",
+  "passageIds": [
+    "passage:chapter-37-a6aa735b22"
+  ],
+  "recordIds": [
+    "chapter:37",
+    "entity:christchurch-city-council",
+    "person:andrew-steffert",
+    "person:carl-johnson",
+    "person:terry-van-kalken"
+  ],
+  "themeIds": [],
+  "categories": [
+    "lidar",
+    "terrain"
+  ],
+  "sources": [
+    {
+      "label": "Archives Central, Horizons Regional Council reports and project records relating to the 2004 flood and subsequent floodplain mapping/LiDAR",
+      "url": "https://archivescentral.org.nz/horizons-regional-council/recordset/horizons-regional-council-reports-no-numbering?order=field_has_beginning_date&page=0&sort=asc"
+    },
+    {
+      "label": "Archives Central, Flood Plain Hazard Assessment Hydraulic Modelling and Mapping - Mangaone Stream and Taonui Basin and Manawatu Breach, HRC 00460:2:54",
+      "url": "https://archivescentral.org.nz/horizons-regional-council/record/flood-plain-hazard-assessment-hydraulic-modelling-and-mapping"
+    },
+    {
+      "label": "Andrew Steffert, Horizons Regional Council Flood Plain Mapping Project and LiDAR Overview, 8th ICA Mountain Cartography Workshop",
+      "url": "https://mountaincartography.icaci.org/publications/papers/papers_taurewa_12/papers/mcw2012_sec5_ch18_p119-120_steffert.pdf"
+    }
+  ]
+}

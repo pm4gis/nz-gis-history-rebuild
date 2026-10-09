@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-12-b4162ebd37",
+  "slug": "the-desktop-market-widens-b4162ebd37",
+  "articleId": "article:chapter-12",
+  "title": "The desktop market widens",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12",
+    "entity:critchlow",
+    "entity:mapdata-sciences",
+    "person:steve-critchlow"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Critchlow illustrates another route into the industry. Steve Critchlow founded the company in Wellington in 1991. By August 1995 a contemporary New Zealand forestry publication described Critchlow Associates as the Wellington-based MapInfo master agent. The same report documented operational MapInfo use in the Ministry of Forestry's East Coast erosion-control programme, which had begun the previous year. More than 16,000 hectares were being monitored, with the software used to map reserves, planting and land use and to calculate areas relevant to forestry grants.",
+      "markdown": "Critchlow illustrates another route into the industry. Steve Critchlow founded the company in Wellington in 1991. By August 1995 a contemporary New Zealand forestry publication described Critchlow Associates as the Wellington-based MapInfo master agent. The same report documented operational MapInfo use in the Ministry of Forestry's East Coast erosion-control programme, which had begun the previous year. More than 16,000 hectares were being monitored, with the software used to map reserves, planting and land use and to calculate areas relevant to forestry grants.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A local supplier, data and an operational requirement supported this use of desktop GIS. The East Coast project did not need to recreate the specialist workstation culture of the previous decade. A PC-based product could be used inside a live government programme with financial and land-management consequences. The local agent could supply the software and help make it usable. Desktop GIS widened the market partly because the commercial support structure widened with it.",
+      "markdown": "A local supplier, data and an operational requirement supported this use of desktop GIS. The East Coast project did not need to recreate the specialist workstation culture of the previous decade. A PC-based product could be used inside a live government programme with financial and land-management consequences. The local agent could supply the software and help make it usable. Desktop GIS widened the market partly because the commercial support structure widened with it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Critchlow supplied data, training and implementation services as well as MapInfo software. The business later supplied Census and location data, training, professional services and other GIS products. That mixture is characteristic of the New Zealand market. Software, data and service boundaries were porous because customers needed a usable combination rather than a pure vendor relationship. MapData Sciences would occupy a similar space around Census mapping and data products, while other companies developed specialist property, address and location services. A GIS firm could make money because it knew how to get useful geography into the customer's preferred software, not because it had persuaded the customer to adopt one brand forever.",
+      "markdown": "Critchlow supplied data, training and implementation services as well as MapInfo software. The business later supplied Census and location data, training, professional services and other GIS products. That mixture is characteristic of the New Zealand market. Software, data and service boundaries were porous because customers needed a usable combination rather than a pure vendor relationship. MapData Sciences would occupy a similar space around Census mapping and data products, while other companies developed specialist property, address and location services. A GIS firm could make money because it knew how to get useful geography into the customer's preferred software, not because it had persuaded the customer to adopt one brand forever.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-41-bb38207cbc",
+  "slug": "lris-and-lds-bb38207cbc",
+  "articleId": "article:chapter-41",
+  "title": "LRIS and LDS",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41",
+    "entity:koordinates",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Land Resource Information Systems Portal turned that model into an institutional service in 2010. Manaaki Whenua records the first LRIS Portal release as being developed with Koordinates, providing access to land-resource information that had previously been distributed through more specialised channels. The LINZ Data Service followed in 2011. A 2012 government case study described LDS as providing national datasets through downloadable formats and web services, and a June 2013 government announcement said it had more than 5,600 registered users and more than forty free and open fundamental datasets.",
+      "markdown": "The Land Resource Information Systems Portal turned that model into an institutional service in 2010. Manaaki Whenua records the first LRIS Portal release as being developed with Koordinates, providing access to land-resource information that had previously been distributed through more specialised channels. The LINZ Data Service followed in 2011. A 2012 government case study described LDS as providing national datasets through downloadable formats and web services, and a June 2013 government announcement said it had more than 5,600 registered users and more than forty free and open fundamental datasets.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Those services changed the public face of national spatial data, but the backend change was just as useful. The same platform pattern could serve different custodians while allowing each organisation to remain responsible for its own data. LRIS did not become LINZ, and LINZ did not become the Ministry for the Environment. They could nevertheless use a common delivery environment. By 2017 the Koordinates platform was also serving the MfE Data Service, Stats NZ Datafinder, GEOINT New Zealand Data Service, Canterbury Maps Data Service and other New Zealand publishers.",
+      "markdown": "Those services changed the public face of national spatial data, but the backend change was just as useful. The same platform pattern could serve different custodians while allowing each organisation to remain responsible for its own data. LRIS did not become LINZ, and LINZ did not become the Ministry for the Environment. They could nevertheless use a common delivery environment. By 2017 the Koordinates platform was also serving the MfE Data Service, Stats NZ Datafinder, GEOINT New Zealand Data Service, Canterbury Maps Data Service and other New Zealand publishers.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The growth of these portals made an older distinction more obvious. Publishing a file lets another organisation make a copy. Publishing a service allows another system to depend on a maintained endpoint. The copy is under the consumer's control but can become stale. The service can remain closer to the publisher's current data but introduces a dependency on connectivity, provider availability, authentication and interface stability. Neither model is automatically better. New Zealand organisations increasingly used both options.",
+      "markdown": "The growth of these portals made an older distinction more obvious. Publishing a file lets another organisation make a copy. Publishing a service allows another system to depend on a maintained endpoint. The copy is under the consumer's control but can become stale. The service can remain closer to the publisher's current data but introduces a dependency on connectivity, provider availability, authentication and interface stability. Neither model is automatically better. New Zealand organisations increasingly used both options.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

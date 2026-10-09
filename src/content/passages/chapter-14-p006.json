@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-14-67de02c526",
+  "slug": "the-survey-becomes-data-67de02c526",
+  "articleId": "article:chapter-14",
+  "title": "The survey becomes data",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:14",
+    "person:tony-bevin",
+    "person:anselm-haanen",
+    "person:neil-sutherland"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For surveyors, Stage Two changed the relationship between a plan and the national cadastre. A cadastral survey dataset could contain structured observations, coordinates, parcel relationships and supporting information rather than arriving only as a finished drawing. Contemporary Landonline papers by Tony Bevin, Anselm Haanen and Neil Sutherland describe a system designed around digital submission, automated validation and closer integration of geodetic, cadastral and title information. The surveyor was no longer only submitting a document for LINZ staff to interpret. The surveyor was becoming a direct producer of structured national data.",
+      "markdown": "For surveyors, Stage Two changed the relationship between a plan and the national cadastre. A cadastral survey dataset could contain structured observations, coordinates, parcel relationships and supporting information rather than arriving only as a finished drawing. Contemporary Landonline papers by Tony Bevin, Anselm Haanen and Neil Sutherland describe a system designed around digital submission, automated validation and closer integration of geodetic, cadastral and title information. The surveyor was no longer only submitting a document for LINZ staff to interpret. The surveyor was becoming a direct producer of structured national data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Pre-validation was central to the idea. Software could test whether required fields were present, whether observations closed, whether parcel relationships were coherent and whether specified business rules had been met before final submission. Some checks remained professional or legal judgements and could not sensibly be automated. Others were mechanical enough to move into software. The attraction was obvious: find routine errors while the surveyor still had the job open rather than after formal lodgement had started an examination cycle.",
+      "markdown": "Pre-validation was central to the idea. Software could test whether required fields were present, whether observations closed, whether parcel relationships were coherent and whether specified business rules had been met before final submission. Some checks remained professional or legal judgements and could not sensibly be automated. Others were mechanical enough to move into software. The attraction was obvious: find routine errors while the surveyor still had the job open rather than after formal lodgement had started an examination cycle.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The architecture also encouraged standardised exchange. Contemporary papers discuss LandXML as a developing mechanism for moving survey information between professional software and Landonline. That work connected New Zealand cadastral automation with international efforts to describe survey observations and land-parcel information in structured formats. The product name is less important than the direction. A survey dataset could move between systems without being flattened first into a printed plan.",
+      "markdown": "The architecture also encouraged standardised exchange. Contemporary papers discuss LandXML as a developing mechanism for moving survey information between professional software and Landonline. That work connected New Zealand cadastral automation with international efforts to describe survey observations and land-parcel information in structured formats. The product name is less important than the direction. A survey dataset could move between systems without being flattened first into a printed plan.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nationwide e-survey functionality became available in November 2003. Survey conversion was completed in December that year, with LINZ reporting about 1.35 million converted parcels loaded. The system could generate plans from submitted digital data and support online certification by territorial authorities. Drafting, checking, certification and database updates moved into a shared digital process, changing who performed parts of the work as well as making some stages faster.",
+      "markdown": "Nationwide e-survey functionality became available in November 2003. Survey conversion was completed in December that year, with LINZ reporting about 1.35 million converted parcels loaded. The system could generate plans from submitted digital data and support online certification by territorial authorities. Drafting, checking, certification and database updates moved into a shared digital process, changing who performed parts of the work as well as making some stages faster.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

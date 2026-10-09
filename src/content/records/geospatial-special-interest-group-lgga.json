@@ -1,0 +1,38 @@
+{
+  "id": "entity:geospatial-special-interest-group-lgga",
+  "slug": "geospatial-special-interest-group-lgga",
+  "name": "Geospatial Special Interest Group / LGGA",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/geospatial-special-interest-group-lgga/",
+  "story": [
+    "The Local Government Geospatial Alliance (LGGA) was a council-led network for collaboration on shared geospatial data, capability and standards across New Zealand’s regional and unitary councils.",
+    "The Local Government Geospatial Alliance (LGGA) brought council geospatial practitioners together to collaborate on national datasets, capability and standards. It later transitioned into the Geospatial Special Interest Group within the Te Uru Kahika regional and unitary council structure while retaining the LGGA identity.",
+    "LGGA worked with LINZ and other agencies on practical national projects. LINZ’s 2013/14 annual report records the alliance as a partner in developing a national walking and cycling tracks dataset and mapping standard. From 2015, LGGA and LINZ also worked with councils on scanning the Crown aerial film archive, with the resulting historical imagery made accessible through Retrolens."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    },
+    {
+      "label": "LINZ Annual Report 2013/14, national tracks dataset partnership",
+      "url": "https://www.linz.govt.nz/sites/default/files/corp/LINZ_annual-report_2013-2014.pdf"
+    },
+    {
+      "label": "Canterbury Maps, Retrolens historic image resource",
+      "url": "https://canterburymaps.govt.nz/map?webmap=c17119a2451c4d36856e1dc2527e076a"
+    }
+  ],
+  "aliases": [
+    "Geospatial Special Interest Group / LGGA"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

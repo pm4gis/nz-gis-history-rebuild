@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-29-60ff00896e",
+  "slug": "before-gis-was-a-job-title-60ff00896e",
+  "articleId": "article:chapter-29",
+  "title": "Before GIS was a job title",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:29"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For much of the period in which digital mapping developed in New Zealand, there was no settled occupation called a GIS professional. People arrived from surveying, cartography, photogrammetry, geography, planning, forestry, computing, resource science, local government and database work. They learnt different software, used different terminology and often belonged first to another profession. Enough people were gradually solving recognisably similar spatial problems for a shared community to form across those older disciplines through meetings, publishing, training and recruitment.",
+      "markdown": "For much of the period in which digital mapping developed in New Zealand, there was no settled occupation called a GIS professional. People arrived from surveying, cartography, photogrammetry, geography, planning, forestry, computing, resource science, local government and database work. They learnt different software, used different terminology and often belonged first to another profession. Enough people were gradually solving recognisably similar spatial problems for a shared community to form across those older disciplines through meetings, publishing, training and recruitment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That mixed origin remained visible for decades. A council officer maintaining property and utility layers, a scientist combining remote sensing with land-resource data, a programmer building spatial databases and a cartographer preparing digital maps could all be doing work that later sat comfortably under a GIS or geospatial label. Their qualifications, employers and daily tasks could be quite different. GIS became a shared technical language before it became a reliable job title.",
+      "markdown": "That mixed origin remained visible for decades. A council officer maintaining property and utility layers, a scientist combining remote sensing with land-resource data, a programmer building spatial databases and a cartographer preparing digital maps could all be doing work that later sat comfortably under a GIS or geospatial label. Their qualifications, employers and daily tasks could be quite different. GIS became a shared technical language before it became a reliable job title.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change is easiest to see through the places where practitioners began encountering one another. Conferences and colloquia gathered people who had previously worked inside separate institutional traditions. User groups created repeat contact around particular software families. Professional associations and informal mailing lists made advice and examples travel faster than formal manuals. By the 2010s, concern had shifted from the existence of GIS expertise to the supply of experienced people available to hire.",
+      "markdown": "The change is easiest to see through the places where practitioners began encountering one another. Conferences and colloquia gathered people who had previously worked inside separate institutional traditions. User groups created repeat contact around particular software families. Professional associations and informal mailing lists made advice and examples travel faster than formal manuals. By the 2010s, concern had shifted from the existence of GIS expertise to the supply of experienced people available to hire.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

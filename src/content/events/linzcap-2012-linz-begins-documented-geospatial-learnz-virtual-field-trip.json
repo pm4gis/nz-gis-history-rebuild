@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2012-linz-begins-documented-geospatial-learnz-virtual-field-trips",
+  "dateDisplay": "2012",
+  "startDate": "2012-01-01",
+  "datePrecision": "year",
+  "year": 2012,
+  "label": "LINZ begins documented geospatial LEARNZ virtual field trips",
+  "summary": "The 2012 trip focused on how location-based information supported the Christchurch rebuild; Jeremy Gulson and Nic Donnelly are among the named subject-matter experts.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

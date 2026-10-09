@@ -1,0 +1,38 @@
+{
+  "id": "person:jeremy-severinsen",
+  "slug": "jeremy-severinsen",
+  "name": "Jeremy Severinsen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jeremy-severinsen/",
+  "story": [
+    "LINZ’s 2014 geospatial virtual field trip named Jeremy Severinsen as a Portfolio Manager and subject-matter expert explaining geospatial work to schools. The record provides a named example of the programme and management roles that sat alongside technical specialists in the national location-information system.",
+    "LINZ names Jeremy Severinsen in its geospatial virtual field-trip record: Portfolio Manager, LINZ, 2014 VFT."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Jeremy Severinsen"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

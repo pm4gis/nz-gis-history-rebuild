@@ -1,0 +1,85 @@
+{
+  "id": "passage:chapter-23-461687bcb1",
+  "slug": "a-new-local-government-461687bcb1",
+  "articleId": "article:chapter-23",
+  "title": "A new local government",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "entity:environment-southland-southland-regional-council",
+    "entity:integrated-mapping",
+    "entity:marlborough-district-council",
+    "entity:otago-regional-council",
+    "entity:university-of-otago",
+    "person:bill-risk",
+    "person:gary-hutchinson",
+    "person:katrina-richards",
+    "person:ian-sutherland",
+    "person:ian-mccahon",
+    "person:ian-lynn",
+    "person:sam-carrick"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "On 1 November 1989 New Zealand’s local-government map changed abruptly. Hundreds of local bodies, including cities, boroughs, counties, catchment boards and other authorities, were reorganised into 86 regional and territorial authorities. The new councils inherited staff, maps, rating systems, engineering plans, property records, drainage information, environmental files and the unfinished business of their predecessors. They also inherited the practical problem that many of those records described the same places in different ways.",
+      "markdown": "On 1 November 1989 New Zealand’s local-government map changed abruptly. Hundreds of local bodies, including cities, boroughs, counties, catchment boards and other authorities, were reorganised into 86 regional and territorial authorities. The new councils inherited staff, maps, rating systems, engineering plans, property records, drainage information, environmental files and the unfinished business of their predecessors. They also inherited the practical problem that many of those records described the same places in different ways.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Council GIS work had begun before the reorganisation. Some local authorities had already been using computer mapping, and later surveys recorded implementations dating from before 1988. The new structure did, however, concentrate a wider range of functions inside larger organisations at the same time that digital mapping was becoming easier to buy and run. Property, planning, engineering and environmental information that had previously sat in separate agencies or departments increasingly had to be managed together.",
+      "markdown": "Council GIS work had begun before the reorganisation. Some local authorities had already been using computer mapping, and later surveys recorded implementations dating from before 1988. The new structure did, however, concentrate a wider range of functions inside larger organisations at the same time that digital mapping was becoming easier to buy and run. Property, planning, engineering and environmental information that had previously sat in separate agencies or departments increasingly had to be managed together.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Resource Management Act 1991 added another spatial workload when it came into force on 1 October that year. Territorial authorities needed land-use and district-planning information, while regional councils worked across water, air, coast, catchments and other environmental functions. Many of the records involved boundaries, networks, sites or monitoring locations. A council could continue to produce paper maps for those functions, but the underlying information was becoming more useful when it could be maintained once and reused across several jobs.",
+      "markdown": "The Resource Management Act 1991 added another spatial workload when it came into force on 1 October that year. Territorial authorities needed land-use and district-planning information, while regional councils worked across water, air, coast, catchments and other environmental functions. Many of the records involved boundaries, networks, sites or monitoring locations. A council could continue to produce paper maps for those functions, but the underlying information was becoming more useful when it could be maintained once and reused across several jobs.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same reuse could begin with material that was barely digital at all. In May 2006 Ian McCahon of Geotech Consulting sent Marlborough District Council two hand-drawn sheets of possible fault traces around Renwick. The traces had been interpreted from old RNZAF aerial photographs, newer council aerials and field observations, and were intended to be digitised into the council GIS. The consultant offered either to redraw them in CorelDraw and supply DWF files for transfer, or to let council staff digitise the sheets in-house. He also insisted that the approximate locations and interpretive nature of the traces be carried into the final output. The correspondence says the work had been requested by council officer Ian Sutherland. It is a small but revealing handoff: field interpretation became pencil lines, pencil lines became digital geometry, and the uncertainty could not sensibly be cleaned away by the software.",
+      "markdown": "The same reuse could begin with material that was barely digital at all. In May 2006 Ian McCahon of Geotech Consulting sent Marlborough District Council two hand-drawn sheets of possible fault traces around Renwick. The traces had been interpreted from old RNZAF aerial photographs, newer council aerials and field observations, and were intended to be digitised into the council GIS. The consultant offered either to redraw them in CorelDraw and supply DWF files for transfer, or to let council staff digitise the sheets in-house. He also insisted that the approximate locations and interpretive nature of the traces be carried into the final output. The correspondence says the work had been requested by council officer Ian Sutherland. It is a small but revealing handoff: field interpretation became pencil lines, pencil lines became digital geometry, and the uncertainty could not sensibly be cleaned away by the software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The early 1990s were therefore less a story of councils discovering maps than of councils reorganising information that was already geographic. Rates referred to properties. Consents referred to sites. Roads, water pipes and drains formed networks. District plans divided land into zones. Rivers and catchments crossed property and council boundaries. GIS arrived in local government at a point when the organisation itself was being asked to behave more like an integrated information system.",
+      "markdown": "The early 1990s were therefore less a story of councils discovering maps than of councils reorganising information that was already geographic. Rates referred to properties. Consents referred to sites. Roads, water pipes and drains formed networks. District plans divided land into zones. Rivers and catchments crossed property and council boundaries. GIS arrived in local government at a point when the organisation itself was being asked to behave more like an integrated information system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Topoclimate South assembled soil and climate information across roughly 800,000 hectares of Southland and South Otago between 1998 and 2001. About 900 automated dataloggers measured local conditions for mapping at 1:50,000, including accumulated heat expressed as growing-degree days. Gary Hutchinson and Bill Risk, affiliated with the Topoclimate South Project, and Katrina Richards from University of Otago Geography co-authored a contemporary account of the work in 2000. Manaaki Whenua’s later history identifies Hutchinson as the project lead. Southland Regional Council worked with southern district and city councils, community partners and researchers to give landowners information for decisions about crops and land-use diversification. Soil and climate map series were distributed in 2002. The project helped stimulate growOTAGO, which extended a similar regional approach into Otago.",
+      "sources": [
+        {
+          "label": "Hutchinson, Richards and Risk, Aspects of accumulated heat patterns (growing-degree days) and pasture growth in Southland",
+          "url": "https://www.nzgajournal.org.nz/index.php/ProNZGA/article/view/2396"
+        },
+        {
+          "label": "Manaaki Whenua, A history of New Zealand soil survey, 1990s restructuring and Topoclimate South/growOTAGO sections",
+          "url": "https://soils.landcareresearch.co.nz/topics/soil-survey/history-of-nz-soil-survey"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Otago Regional Council published growOTAGO in 2004 with NIWA, AgResearch, Manaaki Whenua, universities and other partners. The product included 92 climate maps, soil mapping and topographic and aerial context, distributed on four CDs and later through an online map service. Ian Lynn and Sam Carrick are among the research contributors identified in the technical histories. Integrated Mapping developed the website and CD presentation. The combination made regional land-resource information usable beyond the offices that had assembled it: farmers and advisers could compare soil and climate conditions when considering an existing activity or a possible new one.",
+      "sources": [
+        {
+          "label": "National Library of New Zealand catalogue record, GrowOtago: climate and soil maps",
+          "url": "https://natlib.govt.nz/records/20595857"
+        },
+        {
+          "label": "Otago Regional Council GrowOtago map-service metadata",
+          "url": "https://maps.orc.govt.nz/arcgis/rest/services/GrowOtago/MapServer"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

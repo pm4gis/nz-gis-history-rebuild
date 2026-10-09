@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-11-79631e4212",
+  "slug": "maori-land-values-1995-1996-79631e4212",
+  "articleId": "article:chapter-11",
+  "title": "Māori land values, 1995–1996",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11",
+    "entity:critchlow",
+    "entity:massey-university",
+    "person:garth-harmsworth"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Research and professional meetings during the mid-1990s addressed the use of GIS for Māori land and values. Garth Harmsworth prepared a discussion document on Māori values for land-use planning in 1995 and contributed an extended abstract on GIS and Māori land values to the April 1996 remote-sensing and GIS workshop at Massey University.",
+      "sources": [
+        {
+          "label": "Harmsworth, Park and Walker, Report on the development and use of GIS for iwi and hapū: bibliography of 1995–1996 work",
+          "url": "https://www.landcareresearch.co.nz/assets/researchpubs/harmsworth_gis_iwi.pdf"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The conference Mapping Māori Land and Resource Aspirations was held in Wellington on 28 June 1996, with proceedings issued by Critchlow Associates. These contributions placed Māori land, information and planning within the period’s GIS discussions. The later Manaaki Whenua report on GIS for iwi and hapū records the publications and conference, providing a link between the earlier work and subsequent research.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

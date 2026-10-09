@@ -1,0 +1,34 @@
+{
+  "id": "1996-wairarapa-lifelines-association",
+  "dateDisplay": "1996-06-21",
+  "startDate": "1996-06-21",
+  "datePrecision": "day",
+  "year": 1996,
+  "label": "Wairarapa lifelines association formed",
+  "summary": "A Masterton meeting established the association; later documentation records GIS support.",
+  "url": "/stories/mapping-the-networks/#wairarapa-lifelines-established-in-1996-ab139e9991",
+  "passageIds": [
+    "passage:chapter-25-ab139e9991"
+  ],
+  "recordIds": [
+    "entity:wairarapa-engineering-lifelines-association",
+    "chapter:25",
+    "entity:wellington-regional-council-greater-wellington-regional-council"
+  ],
+  "themeIds": [],
+  "categories": [
+    "GIS",
+    "utilities",
+    "research"
+  ],
+  "sources": [
+    {
+      "label": "Wairarapa Engineering Lifelines Association, Risk to lifelines from natural hazards, Chapter 1: project background",
+      "url": "https://www.civildefence.govt.nz/assets/Uploads/documents/lifelines/wela-risk-to-lifelines-from-natural-hazards-chapter-1.pdf"
+    },
+    {
+      "label": "Wairarapa Engineering Lifelines Association, Risk to lifelines from natural hazards, Chapter 1: project background",
+      "url": "https://www.civildefence.govt.nz/assets/Uploads/documents/lifelines/wela-risk-to-lifelines-from-natural-hazards-chapter-1.pdf"
+    }
+  ]
+}

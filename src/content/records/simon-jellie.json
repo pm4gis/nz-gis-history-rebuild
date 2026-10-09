@@ -1,0 +1,77 @@
+{
+  "id": "person:simon-jellie",
+  "slug": "simon-jellie",
+  "name": "Simon Jellie",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/simon-jellie/",
+  "story": [
+    "Simon Jellie's professional background includes study at the International Institute of Aerial Survey and Earth Sciences in the Netherlands from 1982 to 1984. His career has combined spatial consultancy with professional governance, including membership of the Institute of Directors. His association with Kairūri Community Trust connects that experience with support for the surveying and spatial profession.",
+    "Simon Jellie co-founded the consultancy that became e-Spatial with Matti Seikkula in 1998, after they worked at Critchlow. His later company and client accounts identify him in the firm’s leadership. Harrison Grierson’s November 2017 merger announcement describes e-Spatial’s spatial consulting, solution development, data-management and technology services.",
+    "GBS's own retrospective remembers a wider circle around that period including Kim Ollivier, David Pimblott, Mike Oberdries, Simon Jellie and Steve Critchlow. Practitioners met repeatedly as customers, consultants, competitors, conference speakers and collaborators."
+  ],
+  "sources": [
+    {
+      "label": "Management Magazine NZ / CIO NZ / Harrison Grierson material on e-Spatial",
+      "url": "https://management.co.nz/news/harrison-grierson-merges-and-diversifies"
+    },
+    {
+      "label": "e-Spatial Limited registry-derived record plus Commerce Commission 2013 description",
+      "url": "https://www.companyhub.nz/companyDetails.cfm?nzbn=9429037578091"
+    },
+    {
+      "label": "Simon Jellie, e-Spatial, client account published by Growth Management Consulting",
+      "url": "https://www.growthmanagement.co.nz/client-viewpoint.html"
+    },
+    {
+      "label": "e-Spatial founding and Harrison Grierson integration, existing company and Chapter 17 research",
+      "url": "https://management.co.nz/news/harrison-grierson-merges-and-diversifies"
+    },
+    {
+      "label": "Simon Jellie - Kairuri Community Trust | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/simon-jellie-968a563"
+    },
+    {
+      "label": "Chapter 12 · Company staff",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Simon Jellie"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Simon Jellie - Kairuri Community Trust | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/simon-jellie-968a563"
+      }
+    ],
+    [
+      {
+        "label": "Management Magazine NZ / CIO NZ / Harrison Grierson material on e-Spatial",
+        "url": "https://management.co.nz/news/harrison-grierson-merges-and-diversifies"
+      },
+      {
+        "label": "e-Spatial Limited registry-derived record plus Commerce Commission 2013 description",
+        "url": "https://www.companyhub.nz/companyDetails.cfm?nzbn=9429037578091"
+      },
+      {
+        "label": "Simon Jellie, e-Spatial, client account published by Growth Management Consulting",
+        "url": "https://www.growthmanagement.co.nz/client-viewpoint.html"
+      },
+      {
+        "label": "e-Spatial founding and Harrison Grierson integration, existing company and Chapter 17 research",
+        "url": "https://management.co.nz/news/harrison-grierson-merges-and-diversifies"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Company staff",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

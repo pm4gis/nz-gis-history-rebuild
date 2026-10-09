@@ -1,0 +1,26 @@
+{
+  "id": "entity:aurecon",
+  "slug": "aurecon",
+  "name": "Aurecon",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/aurecon/",
+  "website": null,
+  "story": [
+    "Aurecon appears in the New Zealand GIS practitioner record through spatial tools used for infrastructure and engagement. James Sturman’s 2019 conference presentation used StoryMaps and augmented/virtual-reality approaches for river-regeneration engagement."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    }
+  ],
+  "aliases": [
+    "Aurecon"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

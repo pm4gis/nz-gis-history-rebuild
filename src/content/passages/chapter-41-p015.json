@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-41-be5139d2df",
+  "slug": "operating-spatial-services-be5139d2df",
+  "articleId": "article:chapter-41",
+  "title": "Operating spatial services",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Cloud and hosted platforms redistributed operational responsibility rather than abolishing it. An organisation running its own stack had to worry about servers, operating systems, storage, database software, GIS servers, patching, capacity, backup and much of disaster recovery. A hosted provider could take responsibility for some of those layers. That could reduce the amount of infrastructure an individual agency had to build and maintain, particularly for public distribution or rapidly assembled applications.",
+      "markdown": "Cloud and hosted platforms redistributed operational responsibility rather than abolishing it. An organisation running its own stack had to worry about servers, operating systems, storage, database software, GIS servers, patching, capacity, backup and much of disaster recovery. A hosted provider could take responsibility for some of those layers. That could reduce the amount of infrastructure an individual agency had to build and maintain, particularly for public distribution or rapidly assembled applications.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Other responsibilities stayed with the data owner. A provider cannot decide whether a boundary is authoritative, whether a field should be public, whether a service can tolerate downtime, or whether a dataset is appropriate for a particular decision. Permissions still need design. Schemas still need governance. Backups still need thought, even when the provider supplies technical recovery features. Organisations remained responsible for the information they hosted.",
+      "markdown": "Other responsibilities stayed with the data owner. A provider cannot decide whether a boundary is authoritative, whether a field should be public, whether a service can tolerate downtime, or whether a dataset is appropriate for a particular decision. Permissions still need design. Schemas still need governance. Backups still need thought, even when the provider supplies technical recovery features. Organisations remained responsible for the information they hosted.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cost also changed shape. Capital purchases and some perpetual licence models were joined or replaced by subscriptions, hosted storage, service tiers and consumption-based charges. Entry could become easier because organisations could publish without buying infrastructure first, while recurring fees and dependence on vendor pricing became more visible. Cloud GIS costs varied with the service, workload and support arrangements. The main shift concerned which costs were visible, who carried them and how quickly capacity could be added.",
+      "markdown": "Cost also changed shape. Capital purchases and some perpetual licence models were joined or replaced by subscriptions, hosted storage, service tiers and consumption-based charges. Entry could become easier because organisations could publish without buying infrastructure first, while recurring fees and dependence on vendor pricing became more visible. Cloud GIS costs varied with the service, workload and support arrangements. The main shift concerned which costs were visible, who carried them and how quickly capacity could be added.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

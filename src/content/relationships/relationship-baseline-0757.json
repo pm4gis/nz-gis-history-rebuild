@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0757",
+  "a": "person:suzi-kerr",
+  "b": "chapter:24",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-24-c1d6a6cda1"
+  ],
+  "sources": []
+}

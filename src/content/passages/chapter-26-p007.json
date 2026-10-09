@@ -1,0 +1,67 @@
+{
+  "id": "passage:chapter-26-70d5c1dde2",
+  "slug": "docgis-after-the-2003-releases-70d5c1dde2",
+  "articleId": "article:chapter-26",
+  "title": "DOCgis after the 2003 releases",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26",
+    "entity:eagle-technology",
+    "person:duane-wilkins"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Biodiversity Information Platform provided the starting point for DOC’s broader National Enterprise GIS. The work continued after the 2003 DOCgis releases.",
+      "markdown": "The Biodiversity Information Platform provided the starting point for DOC’s broader National Enterprise GIS. The work continued after the 2003 DOCgis releases.",
+      "sources": [
+        {
+          "label": "Department of Conservation Annual Report for the year ended 30 June 2001, Biodiversity Information Platform Project section",
+          "url": "https://www.doc.govt.nz/globalassets/documents/about-doc/role/policies-and-plans/050-annual-report-for-year-ended-30-june-2001.pdf"
+        },
+        {
+          "label": "Department of Conservation, Managing Conservation Enterprise Systems: National Enterprise GIS Implementation for Conservation Management, Esri International User Conference 2003, Paper 1048",
+          "url": "https://proceedings.esri.com/library/userconf/proc03/p1048.pdf"
+        },
+        {
+          "label": "Department of Conservation, DOCgis Training Guide, Intranet Edition, 2003, Release II"
+        },
+        {
+          "label": "Department of Conservation, 'GIS? What’s GIS?' conservation blog",
+          "url": "https://blog.doc.govt.nz/2009/08/24/gis-whats-gis/"
+        },
+        {
+          "label": "New Zealand Conservation Authority public papers, June 2015, reproduced DOCgis map print",
+          "url": "https://ftp.doc.govt.nz/public/folder/mlawv0pcMkWvExCkUCOkvg/nzca/public-papers/2015/2015-06-nzca-public-papers-june-2015.pdf"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "DOC’s architecture linked centrally held spatial data with operational databases and field workflows. Continued development had to support both specialist GIS users and staff using the browser applications.",
+      "markdown": "DOC’s architecture linked centrally held spatial data with operational databases and field workflows. Continued development had to support both specialist GIS users and staff using the browser applications.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2003 releases established browser access for distributed offices. Maintaining that access meant supporting older computers and slow connections alongside the specialist workstations.",
+      "markdown": "The 2003 releases established browser access for distributed offices. Maintaining that access meant supporting older computers and slow connections alongside the specialist workstations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Departmental teams included Science and Technology & Information Services Division, Information Management Unit and Spatial Information Management at Head Office, alongside conservancy information-management units. Duane Wilkins recalls that Eagle Technology designed DOCgis before 2003, with departmental analysts and developers continuing its development. He also recalls difficult relations between regional teams and the GIS manager. Around a decade later, Wilkins returned to lead GIS; in 2012 the team became a shared service for the regions, a change he remembers as highly successful.",
+      "markdown": "Departmental teams included Science and Technology & Information Services Division, Information Management Unit and Spatial Information Management at Head Office, alongside conservancy information-management units. Duane Wilkins recalls that Eagle Technology designed DOCgis before 2003, with departmental analysts and developers continuing its development. He also recalls difficult relations between regional teams and the GIS manager. Around a decade later, Wilkins returned to lead GIS; in 2012 the team became a shared service for the regions, a change he remembers as highly successful.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOC publicly described DOCgis as part of an organisation-wide national GIS on 24 August 2009. A DOCgis map print dated 12 February 2013, later reproduced in official New Zealand Conservation Authority papers, shows DOCgis still in use.",
+      "markdown": "DOC publicly described DOCgis as part of an organisation-wide national GIS on 24 August 2009. A DOCgis map print dated 12 February 2013, later reproduced in official New Zealand Conservation Authority papers, shows DOCgis still in use.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

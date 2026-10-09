@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-6-9266bbf08f",
+  "slug": "a-field-described-from-new-zealand-9266bbf08f",
+  "articleId": "article:chapter-6",
+  "title": "A field described from New Zealand",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:6",
+    "person:keith-carr"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Keith Carr’s 1988 paper “The Implementation of GIS in New Zealand”, presented to an ESCAP regional workshop, described systems already in use before the Wellington conference. His examples included the national resource database, digital cadastral work, remote sensing and the growing use of commercial systems. Carr brought these activities together under the term GIS.",
+      "markdown": "Keith Carr’s 1988 paper “The Implementation of GIS in New Zealand”, presented to an ESCAP regional workshop, described systems already in use before the Wellington conference. His examples included the national resource database, digital cadastral work, remote sensing and the growing use of commercial systems. Carr brought these activities together under the term GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Carr’s account also helps separate the national history from the marketing histories of individual vendors. The systems he could point to did not share one technical genealogy. NZLRI had grown from land-resource mapping and locally written software. Cadastral computerisation came from survey and mapping requirements. Remote sensing had developed through scientific image processing. Commercial GIS was arriving across that already populated technical landscape.",
+      "markdown": "Carr’s account also helps separate the national history from the marketing histories of individual vendors. The systems he could point to did not share one technical genealogy. NZLRI had grown from land-resource mapping and locally written software. Cadastral computerisation came from survey and mapping requirements. Remote sensing had developed through scientific image processing. Commercial GIS was arriving across that already populated technical landscape.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The phrase “implementation of GIS” therefore meant several things at once. It could refer to converting an existing national dataset into a GIS environment, installing a commercial workstation, extending a specialised database, or developing new applications around existing digital information. Those activities had different costs, staff and institutional histories. A purchase date alone could not describe them.",
+      "markdown": "The phrase “implementation of GIS” therefore meant several things at once. It could refer to converting an existing national dataset into a GIS environment, installing a commercial workstation, extending a specialised database, or developing new applications around existing digital information. Those activities had different costs, staff and institutional histories. A purchase date alone could not describe them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was particularly clear where an organisation already owned years of spatial data. Replacing software did not replace the database, field methods or accumulated classification work. An NZLRI polygon remained the result of resource mapping even when stored in ARC/INFO rather than LADEDA. A cadastral line retained the limitations of its source map regardless of the workstation used to display it.",
+      "markdown": "This was particularly clear where an organisation already owned years of spatial data. Replacing software did not replace the database, field methods or accumulated classification work. An NZLRI polygon remained the result of resource mapping even when stored in ARC/INFO rather than LADEDA. A cadastral line retained the limitations of its source map regardless of the workstation used to display it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

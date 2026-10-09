@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-42-1f0c613fc3",
+  "slug": "geonet-normalises-the-live-map-1f0c613fc3",
+  "articleId": "article:chapter-42",
+  "title": "GeoNet normalises the live map",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "GeoNet provided New Zealand with a long-running example of geography that changes because the physical event has just happened. The project was established in 2001 to build and operate a modern geological hazard monitoring system. A 2004 strategic review records a July 2001 launch, while the current institutional history describes the March 2001 funding decision and the early programme of upgrading earthquake monitoring, communications, data management, volcano surveillance, landslide response and earth-deformation monitoring. The national system was built around instruments, communications, automated processing, data infrastructure and staff who could interpret what those systems reported.",
+      "markdown": "GeoNet provided New Zealand with a long-running example of geography that changes because the physical event has just happened. The project was established in 2001 to build and operate a modern geological hazard monitoring system. A 2004 strategic review records a July 2001 launch, while the current institutional history describes the March 2001 funding decision and the early programme of upgrading earthquake monitoring, communications, data management, volcano surveillance, landslide response and earth-deformation monitoring. The national system was built around instruments, communications, automated processing, data infrastructure and staff who could interpret what those systems reported.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "An earthquake did not have to wait for a survey team to reach the site before it acquired a coordinate and appeared in a national information system. Instrument readings could be transmitted, processed and disseminated rapidly enough for the event itself to become a changing digital object. Over time the public also became accustomed to seeing recent earthquakes, shaking information and other hazard data on maps soon after an event. The expectation that a map might be updated because something happened minutes earlier became ordinary.",
+      "markdown": "An earthquake did not have to wait for a survey team to reach the site before it acquired a coordinate and appeared in a national information system. Instrument readings could be transmitted, processed and disseminated rapidly enough for the event itself to become a changing digital object. Over time the public also became accustomed to seeing recent earthquakes, shaking information and other hazard data on maps soon after an event. The expectation that a map might be updated because something happened minutes earlier became ordinary.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GeoNet also demonstrates why the word real-time needs discipline. Different parts of the system operate at different speeds. Instrument streams can be continuous or near-continuous, automated locations can be calculated rapidly, and scientific review may refine an event later. A map that updates quickly can still contain provisional information. Shorter latency allowed people outside the specialist monitoring community to use the observations during events.",
+      "markdown": "GeoNet also demonstrates why the word real-time needs discipline. Different parts of the system operate at different speeds. Instrument streams can be continuous or near-continuous, automated locations can be calculated rapidly, and scientific review may refine an event later. A map that updates quickly can still contain provisional information. Shorter latency allowed people outside the specialist monitoring community to use the observations during events.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

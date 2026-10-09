@@ -1,0 +1,47 @@
+{
+  "id": "person:mark-holmes",
+  "slug": "mark-holmes",
+  "name": "Mark Holmes",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mark-holmes/",
+  "story": [
+    "Mark Holmes of Photomap NZ, Nelson, used GISList to discuss working with ArcView 3.2 in 2010 and its compatibility with 64-bit Windows 7 in December 2011. His messages also covered NZMG-to-NZTM2000 conversion. They document a small commercial practice maintaining useful desktop software across changes in operating systems and coordinate standards. Holmes and fellow Photomap owner Cathy McBride also designed trail map boards for Codgers Mountain Bike Park, documented by Nelson City Council in January 2013.",
+    "In December 2011 Mark Holmes at Photomap NZ was still asking whether ArcView 3.2 would run happily on a 64-bit Windows 7 machine. New releases, old software, home-grown scripts and operating-system changes overlapped for years. Organisations moved between desktop versions at different times."
+  ],
+  "sources": [
+    {
+      "label": "Mark Holmes / Photomap NZ GISList ArcView 3.2 continuity messages"
+    },
+    {
+      "label": "Nelson City Council, Live Nelson, issue 343, 26 January 2013, p.5: New maps highlight Codgers Mountain Bike Park",
+      "url": "https://img.scoop.co.nz/media/pdfs/1301/11444106Live_Nelson_Issue_343_WEB_VERSION.pdf"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Mark Holmes"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Nelson City Council, Live Nelson, issue 343, 26 January 2013, p.5: New maps highlight Codgers Mountain Bike Park",
+        "url": "https://img.scoop.co.nz/media/pdfs/1301/11444106Live_Nelson_Issue_343_WEB_VERSION.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

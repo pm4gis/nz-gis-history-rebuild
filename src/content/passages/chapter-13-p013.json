@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-13-1bfde7f4ed",
+  "slug": "the-handover-happens-district-by-district-1bfde7f4ed",
+  "articleId": "article:chapter-13",
+  "title": "The handover happens district by district",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13",
+    "entity:terralink"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "There was no national midnight when DCDB disappeared and Landonline took over. LINZ records the first Landonline rollout in Otago in April 2000. DCDB maintenance stopped in Otago on 30 March 2000, then in Southland and Canterbury later that year. Nelson, Westland, Marlborough, Wellington, Gisborne, Hawke’s Bay, South Auckland and Taranaki followed during 2001. North Auckland was the last district, on 22 March 2002.",
+      "markdown": "There was no national midnight when DCDB disappeared and Landonline took over. LINZ records the first Landonline rollout in Otago in April 2000. DCDB maintenance stopped in Otago on 30 March 2000, then in Southland and Canterbury later that year. Nelson, Westland, Marlborough, Wellington, Gisborne, Hawke’s Bay, South Auckland and Taranaki followed during 2001. North Auckland was the last district, on 22 March 2002.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The transition involved several stages of conversion. For almost two years New Zealand was moving through different cadastral production states depending on the Land District. Staff, contractors, surveyors and downstream data users had to work through a staged migration rather than a single replacement. Data conversion, quality improvement, business change and system rollout overlapped. The old database remained historically relevant even after a district stopped maintaining it because the lineage of Landonline parcel data still led back through DCDB to the maps and surveys from which it had been built.",
+      "markdown": "The transition involved several stages of conversion. For almost two years New Zealand was moving through different cadastral production states depending on the Land District. Staff, contractors, surveyors and downstream data users had to work through a staged migration rather than a single replacement. Data conversion, quality improvement, business change and system rollout overlapped. The old database remained historically relevant even after a district stopped maintaining it because the lineage of Landonline parcel data still led back through DCDB to the maps and surveys from which it had been built.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The wider Landonline programme encountered difficulties. Terralink signed a major subcontract with EDS in 1999 and entered receivership in January 2001 after serious losses associated with that work. The commercial and programme history deserves its own treatment, because it involves project estimates, contracting, organisational change and a national transaction system rather than only cadastral conversion. Chapter 14 takes up that story. Replacing the national system involved data conversion, new working methods and continued service delivery.",
+      "markdown": "The wider Landonline programme encountered difficulties. Terralink signed a major subcontract with EDS in 1999 and entered receivership in January 2001 after serious losses associated with that work. The commercial and programme history deserves its own treatment, because it involves project estimates, contracting, organisational change and a national transaction system rather than only cadastral conversion. Chapter 14 takes up that story. Replacing the national system involved data conversion, new working methods and continued service delivery.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2127",
+  "a": "person:rory-mcpherson",
+  "b": "chapter:43",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

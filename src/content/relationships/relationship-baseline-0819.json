@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0819",
+  "a": "person:phil-clunies-ross",
+  "b": "chapter:44",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-44-77e4d81263"
+  ],
+  "sources": []
+}

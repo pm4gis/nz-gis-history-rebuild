@@ -1,0 +1,26 @@
+{
+  "id": "entity:downer",
+  "slug": "downer",
+  "name": "Downer",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/downer/",
+  "website": null,
+  "story": [
+    "Downer began developing GRAIL with Eagle support in 2011 for telecommunications design and delivery. The customer case identifies Graeme Henderson and Ryan MacVeigh and describes GRAIL as Downer’s first GIS system. A later Enterprise Licence Agreement widened access to ArcGIS within the business.",
+    "The first-GIS description is specific to the Downer customer case. It is evidence about this implementation and is not generalised across contractors."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+    }
+  ],
+  "aliases": [
+    "Downer"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

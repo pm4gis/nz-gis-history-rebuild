@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-28-07730a870f",
+  "slug": "searching-around-the-burglary-07730a870f",
+  "articleId": "article:chapter-28",
+  "title": "Searching around the burglary",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "One Auditor-General example begins with a burglary in Mt Victoria. An investigating officer could ask MAPS to display all burglaries within a defined radius of the address over the previous month, then separate those incidents according to whether a suspect had already been identified, what had been stolen and how entry had been gained. The point on the map was therefore only the starting location for a much wider query. Officers could use the map to investigate the circumstances of a reported event.",
+      "markdown": "One Auditor-General example begins with a burglary in Mt Victoria. An investigating officer could ask MAPS to display all burglaries within a defined radius of the address over the previous month, then separate those incidents according to whether a suspect had already been identified, what had been stolen and how entry had been gained. The point on the map was therefore only the starting location for a much wider query. Officers could use the map to investigate the circumstances of a reported event.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same records could be used differently for prevention. A Community Constable preparing to speak with a Neighbourhood Watch group could examine when recent burglaries had occurred and how homes had been entered. The geography defined the area of interest, while the incident attributes provided the detail needed for a practical discussion about local security. The system could also display offence density at a very local scale, including street-level hot spots, and identify addresses associated with repeated call-outs.",
+      "markdown": "The same records could be used differently for prevention. A Community Constable preparing to speak with a Neighbourhood Watch group could examine when recent burglaries had occurred and how homes had been entered. The geography defined the area of interest, while the incident attributes provided the detail needed for a practical discussion about local security. The system could also display offence density at a very local scale, including street-level hot spots, and identify addresses associated with repeated call-outs.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That workflow changed the role of the map. A paper wall map with pins could show where burglaries had occurred, but each extra question required someone to reorganise information manually. MAPS allowed the same body of records to be filtered repeatedly. A radius could be altered, the time window changed, offence characteristics selected and repeat locations highlighted without rebuilding the whole map. Crime geography became an interactive part of analysis rather than a static record of where events had been reported.",
+      "markdown": "That workflow changed the role of the map. A paper wall map with pins could show where burglaries had occurred, but each extra question required someone to reorganise information manually. MAPS allowed the same body of records to be filtered repeatedly. A radius could be altered, the time window changed, offence characteristics selected and repeat locations highlighted without rebuilding the whole map. Crime geography became an interactive part of analysis rather than a static record of where events had been reported.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Auditor-General also records a movement analysis tool that could help work across Police districts by following recorded sightings of suspects or vehicles. For longer-term planning, MAPS could show changes in crime patterns over time and compare those patterns with Census demographic information. The report used changes in income and crime levels as an example of the kind of relationship that could be examined. These were analytical possibilities. Geography made comparison easier, while causal interpretation still depended on the quality of the records and the judgement of analysts.",
+      "markdown": "The Auditor-General also records a movement analysis tool that could help work across Police districts by following recorded sightings of suspects or vehicles. For longer-term planning, MAPS could show changes in crime patterns over time and compare those patterns with Census demographic information. The report used changes in income and crime levels as an example of the kind of relationship that could be examined. These were analytical possibilities. Geography made comparison easier, while causal interpretation still depended on the quality of the records and the judgement of analysts.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

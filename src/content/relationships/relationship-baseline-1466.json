@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1466",
+  "a": "entity:wellington-regional-council-greater-wellington-regional-council",
+  "b": "chapter:25",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-25-ab139e9991"
+  ],
+  "sources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-31-c0892c5a78",
+  "slug": "directions-without-a-gis-c0892c5a78",
+  "articleId": "article:chapter-31",
+  "title": "Directions without a GIS",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Driving directions were another example of a specialist spatial operation becoming routine consumer behaviour. Route calculation had existed for years in transport systems, network GIS and commercial navigation products. The localised Google Maps service made the result available through an ordinary search interface. Enter a starting place and a destination, and the map returned a route.",
+      "markdown": "Driving directions were another example of a specialist spatial operation becoming routine consumer behaviour. Route calculation had existed for years in transport systems, network GIS and commercial navigation products. The localised Google Maps service made the result available through an ordinary search interface. Enter a starting place and a destination, and the map returned a route.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Users obtained the result through a simple interface. There was no need to select a network dataset, set impedance values or understand graph algorithms. The route appeared as a normal property of the map. The technical work was hidden behind the service.",
+      "markdown": "Users obtained the result through a simple interface. There was no need to select a network dataset, set impedance values or understand graph algorithms. The route appeared as a normal property of the map. The technical work was hidden behind the service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That hiding of complexity would recur throughout modern digital mapping. Spatial analysis did not disappear. It became embedded in products whose users did not need to know that an analysis had occurred. Directions, address matching and later traffic estimates increasingly became expected features rather than specialist outputs.",
+      "markdown": "That hiding of complexity would recur throughout modern digital mapping. Spatial analysis did not disappear. It became embedded in products whose users did not need to know that an analysis had occurred. Directions, address matching and later traffic estimates increasingly became expected features rather than specialist outputs.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

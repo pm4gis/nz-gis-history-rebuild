@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1391",
+  "a": "entity:new-zealand-police",
+  "b": "chapter:28",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-28-828e75ea07",
+    "passage:chapter-28-87d97a67ca"
+  ],
+  "sources": []
+}

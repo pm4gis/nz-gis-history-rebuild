@@ -1,0 +1,31 @@
+{
+  "id": "person:corallie-eagle",
+  "slug": "corallie-eagle",
+  "name": "Corallie Eagle",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/corallie-eagle/",
+  "story": [
+    "Corallie Eagle co-founded Eagle with Trevor Eagle and helped lead the family-owned business."
+  ],
+  "sources": [
+    {
+      "label": "Eagle company history",
+      "url": "https://www.eagle.co.nz/about/our-history"
+    }
+  ],
+  "aliases": [
+    "Corallie Eagle"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Eagle company history",
+        "url": "https://www.eagle.co.nz/about/our-history"
+      }
+    ]
+  ]
+}

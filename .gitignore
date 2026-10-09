@@ -12,3 +12,4 @@ NZ_GIS_History_Rebuild_Design_Implementation_Plan_*.md
 wrangler.local.jsonc
 *.log
 .DS_Store
+migration-source-*/

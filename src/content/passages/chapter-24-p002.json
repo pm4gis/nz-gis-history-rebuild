@@ -1,0 +1,49 @@
+{
+  "id": "passage:chapter-24-c1d6a6cda1",
+  "slug": "treasury-maps-the-economy-c1d6a6cda1",
+  "articleId": "article:chapter-24",
+  "title": "Treasury maps the economy",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:24",
+    "entity:critchlow",
+    "entity:stats-nz",
+    "person:suzi-kerr",
+    "person:jason-timmins"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In June 2000 the Treasury published a working paper by Suzi Kerr and Jason Timmins titled Economic Geography & Spatial Statistics: Theory and Empirics of New Zealand Regions. It examined regional economic characteristics and explicitly used GIS as part of the analytical method. Critchlow Associates supplied Census96 data and ArcView software. The material included geographic boundaries and demographic, household, labour-force and socioeconomic information organised at meshblock, area-unit, territorial-authority and regional-council levels.",
+      "markdown": "In June 2000 the Treasury published a working paper by Suzi Kerr and Jason Timmins titled Economic Geography & Spatial Statistics: Theory and Empirics of New Zealand Regions. It examined regional economic characteristics and explicitly used GIS as part of the analytical method. Critchlow Associates supplied Census96 data and ArcView software. The material included geographic boundaries and demographic, household, labour-force and socioeconomic information organised at meshblock, area-unit, territorial-authority and regional-council levels.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The researchers used statistical geography prepared by Statistics New Zealand, whose work is described in Chapter 16. With packaged data and desktop software, they could examine regional differences without establishing the kind of GIS production system used by mapping agencies in the previous decade.",
+      "markdown": "The researchers used statistical geography prepared by Statistics New Zealand, whose work is described in Chapter 16. With packaged data and desktop software, they could examine regional differences without establishing the kind of GIS production system used by mapping agencies in the previous decade.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The geographic units gave the researchers several scales at which to examine the same country. Meshblocks provided fine-grained population geography, while area units and local-government boundaries supported broader regional comparison. Economic variables could be mapped rather than read only as columns in national tables. GIS made geographic pattern easier to inspect and allowed analysis to be organised around places rather than one national average, while causal interpretation still depended on the underlying evidence.",
+      "markdown": "The geographic units gave the researchers several scales at which to examine the same country. Meshblocks provided fine-grained population geography, while area units and local-government boundaries supported broader regional comparison. Economic variables could be mapped rather than read only as columns in national tables. GIS made geographic pattern easier to inspect and allowed analysis to be organised around places rather than one national average, while causal interpretation still depended on the underlying evidence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The supply arrangement also records how government GIS could depend on organisations outside the department. Treasury received both software and prepared Census96 information from Critchlow rather than assembling every component itself. Statistics New Zealand remained the source of the census and statistical geography, while a commercial supplier packaged the data for desktop use. Policy analysis could therefore draw on a chain of national data production, commercial preparation and desktop software without Treasury becoming a producer of those underlying spatial datasets.",
+      "markdown": "The supply arrangement also records how government GIS could depend on organisations outside the department. Treasury received both software and prepared Census96 information from Critchlow rather than assembling every component itself. Statistics New Zealand remained the source of the census and statistical geography, while a commercial supplier packaged the data for desktop use. Policy analysis could therefore draw on a chain of national data production, commercial preparation and desktop software without Treasury becoming a producer of those underlying spatial datasets.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2000 this kind of use required far less technical infrastructure than it would have a decade earlier. An analyst could work with regional boundaries and attributes on a desktop computer rather than submit a mapping request to a specialist production unit. The work was still recognisably GIS, but the organisational role had changed. Geography had become another analytical dimension available to a policy team.",
+      "markdown": "By 2000 this kind of use required far less technical infrastructure than it would have a decade earlier. An analyst could work with regional boundaries and attributes on a desktop computer rather than submit a mapping request to a specialist production unit. The work was still recognisably GIS, but the organisational role had changed. Geography had become another analytical dimension available to a policy team.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

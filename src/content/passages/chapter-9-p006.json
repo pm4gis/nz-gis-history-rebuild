@@ -1,0 +1,44 @@
+{
+  "id": "passage:chapter-9-f9f05acb91",
+  "slug": "field-geology-into-digital-production-f9f05acb91",
+  "articleId": "article:chapter-9",
+  "title": "Field geology into digital production",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9",
+    "person:david-heron",
+    "person:aleksandra-lukovic",
+    "person:belinda-smith-lyttle",
+    "person:delia-strong",
+    "person:maureen-coomer"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "QMAP required substantial work between field interpretation and the finished map. Geologists produced observations and interpretations. Compilers reconciled material from different periods, scales and authors, while digital capture staff converted or edited linework and attributes. Cartographers then fitted a readable selection of that detail onto each sheet. The calm appearance of the published map concealed the work of reconciling field observations, earlier mapping, database rules and the space available on paper.",
+      "markdown": "QMAP required substantial work between field interpretation and the finished map. Geologists produced observations and interpretations. Compilers reconciled material from different periods, scales and authors, while digital capture staff converted or edited linework and attributes. Cartographers then fitted a readable selection of that detail onto each sheet. The calm appearance of the published map concealed the work of reconciling field observations, earlier mapping, database rules and the space available on paper.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later GNS metadata makes some of that production work visible. David Heron is credited with map design, digital cartography and GIS development in the national geological-map lineage. Maureen Coomer, Aleksandra Lukovic, Belinda Smith Lyttle and Delia Strong are explicitly credited with digital capture in later national geology metadata. These credits refer to later national geology metadata; the contributors to the first QMAP sheets require separate identification.",
+      "markdown": "Later GNS metadata makes some of that production work visible. David Heron is credited with map design, digital cartography and GIS development in the national geological-map lineage. Maureen Coomer, Aleksandra Lukovic, Belinda Smith Lyttle and Delia Strong are explicitly credited with digital capture in later national geology metadata. These credits refer to later national geology metadata; the contributors to the first QMAP sheets require separate identification.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital capture required interpretation and checking. The mapped line had to be connected to the correct geological unit and retain the intended topology and attributes. Adjacent polygons needed consistent shared boundaries. Faults and other linear features had to retain their own identities rather than becoming accidental edges between coloured areas. Where older source maps differed in scale or interpretation, somebody had to decide how the competing geometry should be handled.",
+      "markdown": "Digital capture required interpretation and checking. The mapped line had to be connected to the correct geological unit and retain the intended topology and attributes. Adjacent polygons needed consistent shared boundaries. Faults and other linear features had to retain their own identities rather than becoming accidental edges between coloured areas. Where older source maps differed in scale or interpretation, somebody had to decide how the competing geometry should be handled.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The resulting database therefore carried a production history inside it. A polygon might incorporate a recent field observation, an older geological map, a revised stratigraphic interpretation and digital editing completed by several staff. The final map could look clean because much of that complexity had been resolved before publication. GIS made the result easier to maintain but did not remove the chain of judgement behind it.",
+      "markdown": "The resulting database therefore carried a production history inside it. A polygon might incorporate a recent field observation, an older geological map, a revised stratigraphic interpretation and digital editing completed by several staff. The final map could look clean because much of that complexity had been resolved before publication. GIS made the result easier to maintain but did not remove the chain of judgement behind it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

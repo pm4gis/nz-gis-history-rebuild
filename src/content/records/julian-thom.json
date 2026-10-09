@@ -1,0 +1,35 @@
+{
+  "id": "person:julian-thom",
+  "slug": "julian-thom",
+  "name": "Julian Thom",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/julian-thom/",
+  "website": null,
+  "story": [
+    "Julian Thom studied surveying at the University of Otago and worked with Robert Odolinski on precise GNSS positioning research. Their peer-reviewed work examined between-baseline differenced and instantaneous real-time kinematic positioning using simultaneous GPS, BeiDou, Galileo and QZSS measurements.",
+    "Thom received the Student of the Year award at the 2018 New Zealand Spatial Excellence Awards. University of Otago records identify him as one of Odolinski’s students and as a co-author of the GNSS research published in Survey Review."
+  ],
+  "sources": [
+    {
+      "label": "University of Otago, On the use of between-baseline differenced and instantaneous RTK positioning, 2019",
+      "url": "https://ourarchive.otago.ac.nz/esploro/outputs/journalArticle/On-the-use-of-between-baseline-differenced/9926515123001891"
+    },
+    {
+      "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+      "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+    },
+    {
+      "label": "University of Otago, Robert Odolinski profile",
+      "url": "https://www.otago.ac.nz/surveying/staff/robert-odolinski"
+    }
+  ],
+  "aliases": [
+    "Julian Thom"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

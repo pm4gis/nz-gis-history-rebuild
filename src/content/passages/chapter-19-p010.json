@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-19-3d87afac04",
+  "slug": "kaikoura-moves-the-control-3d87afac04",
+  "articleId": "article:chapter-19",
+  "title": "Kaikōura moves the control",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The magnitude 7.8 Kaikōura earthquake struck shortly after midnight on 14 November 2016. Fault rupture and associated deformation affected a large part of the north-eastern South Island and lower North Island. LINZ rapidly published provisional horizontal and vertical movement maps for affected localities and guidance for surveyors working with pre- and post-earthquake coordinates. For most map users, an earthquake changes roads, coastlines and buildings. For surveyors it can also move the coordinate framework beneath the job, turning yesterday’s reliable control into something that has to be questioned.",
+      "markdown": "The magnitude 7.8 Kaikōura earthquake struck shortly after midnight on 14 November 2016. Fault rupture and associated deformation affected a large part of the north-eastern South Island and lower North Island. LINZ rapidly published provisional horizontal and vertical movement maps for affected localities and guidance for surveyors working with pre- and post-earthquake coordinates. For most map users, an earthquake changes roads, coastlines and buildings. For surveyors it can also move the coordinate framework beneath the job, turning yesterday’s reliable control into something that has to be questioned.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The movement required an update to the existing deformation model. Near the faults, displacement varied sharply over short distances, and some high-order control marks could no longer support their previous coordinate orders. LINZ and GNS collected new observations and modelled the earthquake deformation while surveyors and infrastructure projects continued to need usable coordinates.",
+      "markdown": "The movement required an update to the existing deformation model. Near the faults, displacement varied sharply over short distances, and some high-order control marks could no longer support their previous coordinate orders. LINZ and GNS collected new observations and modelled the earthquake deformation while surveyors and infrastructure projects continued to need usable coordinates.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For a period, different coordinate references had to coexist deliberately. Survey guidance distinguished between existing pre-earthquake coordinates, provisional post-earthquake coordinates and positions derived from PositioNZ services. Users were expected to record which basis they had used. That was less tidy than a single instantly corrected database, but it reflected the reality that observations, models and official updates could not all be produced at the moment the faults moved.",
+      "markdown": "For a period, different coordinate references had to coexist deliberately. Survey guidance distinguished between existing pre-earthquake coordinates, provisional post-earthquake coordinates and positions derived from PositioNZ services. Users were expected to record which basis they had used. That was less tidy than a single instantly corrected database, but it reflected the reality that observations, models and official updates could not all be produced at the moment the faults moved.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The provisional movement maps made the coordinate problem visible. They showed horizontal and vertical displacement across the affected region rather than treating the earthquake only as damage to buildings or roads. Survey control had moved because the land carrying it had moved. The national system had to decide how much of that physical movement should appear directly as changed official coordinates and how much should remain represented through the deformation model.",
+      "markdown": "The provisional movement maps made the coordinate problem visible. They showed horizontal and vertical displacement across the affected region rather than treating the earthquake only as damage to buildings or roads. Survey control had moved because the land carrying it had moved. The national system had to decide how much of that physical movement should appear directly as changed official coordinates and how much should remain represented through the deformation model.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

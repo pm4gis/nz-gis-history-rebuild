@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0298",
+  "a": "person:cathy-mcbride",
+  "b": "chapter:22",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

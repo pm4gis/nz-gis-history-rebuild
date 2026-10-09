@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1748",
+  "a": "person:rachel-gillanders",
+  "b": "chapter:1",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-1-6c2c3ccbe6",
+    "passage:chapter-1-a364eef899"
+  ],
+  "sources": []
+}

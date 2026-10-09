@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-33-bfd635c66e",
+  "slug": "permission-to-derive-bfd635c66e",
+  "articleId": "article:chapter-33",
+  "title": "Permission to derive",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The next stage concerned what a user was legally allowed to do with government geography once they had it. OpenStreetMap provides a useful New Zealand example because its model allowed contributors to incorporate, modify and redistribute geography inside another database.",
+      "markdown": "The next stage concerned what a user was legally allowed to do with government geography once they had it. OpenStreetMap provides a useful New Zealand example because its model allowed contributors to incorporate, modify and redistribute geography inside another database.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "On 18 March 2008, LINZ gave OpenStreetMap permission to use its information if the required Crown attribution and disclaimer accompanied the data. The permission allowed LINZ information to be included, modified and derived in OSM with suitable attribution.",
+      "markdown": "On 18 March 2008, LINZ gave OpenStreetMap permission to use its information if the required Crown attribution and disclaimer accompanied the data. The permission allowed LINZ information to be included, modified and derived in OSM with suitable attribution.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That was a different kind of access from a free web viewer. OpenStreetMap contributors were incorporating and maintaining geographic data inside another database. They wanted to bring authoritative geographic information into a separately maintained public database, edit it, combine it with community contributions and redistribute the result. Doing that safely required more than technical access. It required permission that fitted the downstream use.",
+      "markdown": "That was a different kind of access from a free web viewer. OpenStreetMap contributors were incorporating and maintaining geographic data inside another database. They wanted to bring authoritative geographic information into a separately maintained public database, edit it, combine it with community contributions and redistribute the result. Doing that safely required more than technical access. It required permission that fitted the downstream use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Users still needed to understand open-licence terms. When OpenStreetMap moved to the Open Database Licence in 2011, LINZ gave further consent on 23 August for relevant CC BY data from the LINZ Data Service to be relicensed under OSM’s terms. Reuse therefore required additional permission as well as a download. A dataset could be easy to obtain while downstream rights still needed attention.",
+      "markdown": "Users still needed to understand open-licence terms. When OpenStreetMap moved to the Open Database Licence in 2011, LINZ gave further consent on 23 August for relevant CC BY data from the LINZ Data Service to be relicensed under OSM’s terms. Reuse therefore required additional permission as well as a download. A dataset could be easy to obtain while downstream rights still needed attention.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The OpenStreetMap case also illustrates the practical terms of data reuse. LINZ had to authorise reuse separately from making the data visible or downloadable.",
+      "markdown": "The OpenStreetMap case also illustrates the practical terms of data reuse. LINZ had to authorise reuse separately from making the data visible or downloadable.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-40-5f67e3b666",
+  "slug": "niwa-takes-another-route-5f67e3b666",
+  "articleId": "article:chapter-40",
+  "title": "NIWA takes another route",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "person:brent-wood"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Enterprise GIS is sometimes mistakenly equated with a particular commercial platform. NIWA developed systems during the mid-2000s and early 2010s. In 2006 NIWA practitioner Brent Wood described PostGIS being used on about half a dozen systems, with some datasets containing hundreds of millions of features. Later technical correspondence described PostGIS operating with Apache and UMN MapServer in an OGC web-mapping environment.",
+      "markdown": "Enterprise GIS is sometimes mistakenly equated with a particular commercial platform. NIWA developed systems during the mid-2000s and early 2010s. In 2006 NIWA practitioner Brent Wood described PostGIS being used on about half a dozen systems, with some datasets containing hundreds of millions of features. Later technical correspondence described PostGIS operating with Apache and UMN MapServer in an OGC web-mapping environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2010 Ocean Survey 20/20 Bay of Islands portal made that architecture visible to a wider audience. NIWA had carried out a large multidisciplinary marine survey and needed to publish data, reports, imagery and metadata. The solution used GeoNetwork for metadata discovery, PostGIS as the spatial database server, MapServer for OGC map and feature services, OpenLayers as the browser map client and SilverStripe as the content-management layer. The public interface combined interactive maps with searchable metadata and downloadable material.",
+      "markdown": "The 2010 Ocean Survey 20/20 Bay of Islands portal made that architecture visible to a wider audience. NIWA had carried out a large multidisciplinary marine survey and needed to publish data, reports, imagery and metadata. The solution used GeoNetwork for metadata discovery, PostGIS as the spatial database server, MapServer for OGC map and feature services, OpenLayers as the browser map client and SilverStripe as the content-management layer. The public interface combined interactive maps with searchable metadata and downloadable material.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NIWA used open-source software to support its operational requirements. The open-source history is discussed in Chapter 32. In enterprise terms, NIWA was assembling reusable database, metadata, service and web components around organisational scientific information. The same broad problems remained: which information was authoritative, how metadata was maintained, how services were exposed and how users could discover and reuse the data.",
+      "markdown": "NIWA used open-source software to support its operational requirements. The open-source history is discussed in Chapter 32. In enterprise terms, NIWA was assembling reusable database, metadata, service and web components around organisational scientific information. The same broad problems remained: which information was authoritative, how metadata was maintained, how services were exposed and how users could discover and reuse the data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The NIWA case also demonstrates federation. Scientific organisations rarely fit neatly into one central schema because projects produce different kinds of observations and models. Enterprise capability can therefore mean managed connections among systems rather than forcing every dataset into one database. Shared services and metadata can provide organisational coherence even when the underlying data remain distributed.",
+      "markdown": "The NIWA case also demonstrates federation. Scientific organisations rarely fit neatly into one central schema because projects produce different kinds of observations and models. Enterprise capability can therefore mean managed connections among systems rather than forcing every dataset into one database. Shared services and metadata can provide organisational coherence even when the underlying data remain distributed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

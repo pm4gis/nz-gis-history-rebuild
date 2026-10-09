@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-38-aecd6f33d3",
+  "slug": "processing-drone-surveys-aecd6f33d3",
+  "articleId": "article:chapter-38",
+  "title": "Processing drone surveys",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Many users needed a map, elevation surface or measurement derived from the model. An orthomosaic could enter the GIS as a basemap. A surface model could support contours, slope calculations or volumes. A profile could be extracted for an engineer. A geologist could map scarps against the reconstructed terrain. The sophisticated photogrammetry often disappeared behind products that fitted familiar GIS practice.",
+      "markdown": "Many users needed a map, elevation surface or measurement derived from the model. An orthomosaic could enter the GIS as a basemap. A surface model could support contours, slope calculations or volumes. A profile could be extracted for an engineer. A geologist could map scarps against the reconstructed terrain. The sophisticated photogrammetry often disappeared behind products that fitted familiar GIS practice.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This helped UAV mapping spread. Organisations did not need to redesign every downstream workflow around the aircraft. They could receive a georeferenced raster, a surface or a point cloud and combine it with parcels, assets, geology, field observations or earlier surveys. The acquisition method was new, while much of the analytical environment was already familiar.",
+      "markdown": "This helped UAV mapping spread. Organisations did not need to redesign every downstream workflow around the aircraft. They could receive a georeferenced raster, a surface or a point cloud and combine it with parcels, assets, geology, field observations or earlier surveys. The acquisition method was new, while much of the analytical environment was already familiar.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "At the same time, the products carried new provenance requirements. Users needed the flight date, aircraft and sensor where relevant, coordinate system, control method, processing settings and accuracy information. Repeat projects needed consistent naming, storage and archiving so that one flight could be compared with the next. A folder full of attractive orthomosaics without dates or control information is not much of a monitoring system.",
+      "markdown": "At the same time, the products carried new provenance requirements. Users needed the flight date, aircraft and sensor where relevant, coordinate system, control method, processing settings and accuracy information. Repeat projects needed consistent naming, storage and archiving so that one flight could be compared with the next. A folder full of attractive orthomosaics without dates or control information is not much of a monitoring system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same issue appears throughout New Zealand's digital mapping history. Making data easier to create increases the need to manage it properly. Drones lowered some barriers to acquisition, but they could also produce duplicate, poorly documented or unnecessarily large datasets with impressive speed. The aircraft made capture easier. It did not make information management optional.",
+      "markdown": "The same issue appears throughout New Zealand's digital mapping history. Making data easier to create increases the need to manage it properly. Drones lowered some barriers to acquisition, but they could also produce duplicate, poorly documented or unnecessarily large datasets with impressive speed. The aircraft made capture easier. It did not make information management optional.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

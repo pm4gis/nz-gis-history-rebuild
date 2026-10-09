@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2486",
+  "a": "entity:geospatial-special-interest-group-lgga",
+  "b": "entity:land-information-new-zealand-linz",
+  "label": "Associated with",
+  "basis": "Documented collaboration on national tracks data, geospatial capability and historical aerial imagery.",
+  "passageIds": [],
+  "sources": []
+}

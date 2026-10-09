@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-43-6fd3556448",
+  "slug": "automation-reaches-imagery-6fd3556448",
+  "articleId": "article:chapter-43",
+  "title": "Automation reaches imagery",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43",
+    "entity:orbica"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "National remote-sensing programmes combined automated processing with interpretation and checking. Early satellite work required specialists to perform much of the image handling and classification explicitly. By the 2020s automated processes could assist with identifying likely change across entire national datasets. The Ministry for the Environment’s documentation for the LUCAS 2020 Land Use Map records a workflow using Sentinel-2 imagery and analytical methods that included automated and deep-learning steps alongside manual interpretation and quality assurance.",
+      "markdown": "National remote-sensing programmes combined automated processing with interpretation and checking. Early satellite work required specialists to perform much of the image handling and classification explicitly. By the 2020s automated processes could assist with identifying likely change across entire national datasets. The Ministry for the Environment’s documentation for the LUCAS 2020 Land Use Map records a workflow using Sentinel-2 imagery and analytical methods that included automated and deep-learning steps alongside manual interpretation and quality assurance.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Automation and image interpretation remained part of the same production workflow. LUCAS exists to support national greenhouse-gas reporting, so a convincing classification is not enough. Land-use classes have definitions, changes need evidence, and errors can affect reporting. Automated methods could narrow the search, process imagery consistently and help find candidate changes. People still had to review the result and decide whether the classification was defensible.",
+      "markdown": "Automation and image interpretation remained part of the same production workflow. LUCAS exists to support national greenhouse-gas reporting, so a convincing classification is not enough. Land-use classes have definitions, changes need evidence, and errors can affect reporting. Automated methods could narrow the search, process imagery consistently and help find candidate changes. People still had to review the result and decide whether the classification was defensible.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Conventional automation begins to meet machine learning when some patterns are learned from examples rather than specified step by step. A script follows rules written by people. A trained model can infer patterns from examples and apply them to new data, although the model still sits inside a larger human-designed workflow. By the end of 2025 New Zealand geospatial practice contained both. Automation developed from repeated commands into system integration and more complex analysis.",
+      "markdown": "Conventional automation begins to meet machine learning when some patterns are learned from examples rather than specified step by step. A script follows rules written by people. A trained model can infer patterns from examples and apply them to new data, although the model still sits inside a larger human-designed workflow. By the end of 2025 New Zealand geospatial practice contained both. Automation developed from repeated commands into system integration and more complex analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "An April 2019 AI Forum case study described Orbica’s construction-monitoring work for Thyssenkrupp at a site in Saudi Arabia. Orbica assembled high-resolution imagery, used machine-learning models to identify construction features and compared observed progress with the schedule. The report also records human review feeding corrected outputs back into model training.",
+      "markdown": "An April 2019 AI Forum case study described Orbica’s construction-monitoring work for Thyssenkrupp at a site in Saudi Arabia. Orbica assembled high-resolution imagery, used machine-learning models to identify construction features and compared observed progress with the schedule. The report also records human review feeding corrected outputs back into model training.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

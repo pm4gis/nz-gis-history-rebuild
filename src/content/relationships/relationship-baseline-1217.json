@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1217",
+  "a": "system:mapinfo-local-government",
+  "b": "chapter:22",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

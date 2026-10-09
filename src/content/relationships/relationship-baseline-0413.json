@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0413",
+  "a": "person:martin-dsouza",
+  "b": "chapter:42",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

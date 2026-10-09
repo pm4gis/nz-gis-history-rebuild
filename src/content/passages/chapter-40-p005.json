@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-40-28a769445a",
+  "slug": "many-users-one-record-28a769445a",
+  "articleId": "article:chapter-40",
+  "title": "Many users, one record",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Moving information into a shared database changes editing as much as access. When one person edits a local file, responsibility is obvious. When dozens or hundreds of users depend on a common record, an edit can have consequences far beyond the person making it. Organisations therefore had to distinguish readers from editors, define who could alter schemas, establish validation and decide how conflicts would be handled. The database was now worth more than the map on any one person’s screen, which also meant one enthusiastic edit could become everybody else’s problem.",
+      "markdown": "Moving information into a shared database changes editing as much as access. When one person edits a local file, responsibility is obvious. When dozens or hundreds of users depend on a common record, an edit can have consequences far beyond the person making it. Organisations therefore had to distinguish readers from editors, define who could alter schemas, establish validation and decide how conflicts would be handled. The database was now worth more than the map on any one person’s screen, which also meant one enthusiastic edit could become everybody else’s problem.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Different technologies handled those problems in different ways. Some enterprise GIS platforms used database transactions and GIS-specific versioning. Some applications separated operational editing from published read-only datasets. Other organisations continued to move information through scheduled replication or controlled imports because real-time shared editing was unnecessary or too risky. Organisations therefore followed several maturity paths rather than one common ladder.",
+      "markdown": "Different technologies handled those problems in different ways. Some enterprise GIS platforms used database transactions and GIS-specific versioning. Some applications separated operational editing from published read-only datasets. Other organisations continued to move information through scheduled replication or controlled imports because real-time shared editing was unnecessary or too risky. Organisations therefore followed several maturity paths rather than one common ladder.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Authority became the issue. A shared enterprise dataset needed an answer to the question of who was responsible for it. That answer was often not the GIS team. A property group might own property information while GIS staff administered the database and services. An engineering team might own an asset schema while a platform team kept the system available. Enterprise GIS made custodianship more explicit because technical centralisation could no longer be allowed to blur business responsibility.",
+      "markdown": "Authority became the issue. A shared enterprise dataset needed an answer to the question of who was responsible for it. That answer was often not the GIS team. A property group might own property information while GIS staff administered the database and services. An engineering team might own an asset schema while a platform team kept the system available. Enterprise GIS made custodianship more explicit because technical centralisation could no longer be allowed to blur business responsibility.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

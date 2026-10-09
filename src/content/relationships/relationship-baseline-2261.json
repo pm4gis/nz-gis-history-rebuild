@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2261",
+  "a": "person:mairead-de-roiste",
+  "b": "entity:geospatial-capability-committee",
+  "label": "Committee member",
+  "basis": "LINZ current Geospatial Capability Committee membership",
+  "passageIds": [],
+  "sources": []
+}

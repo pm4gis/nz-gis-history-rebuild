@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1651",
+  "a": "person:malcolm-fraser",
+  "b": "chapter:16",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-16-6017b61846"
+  ],
+  "sources": []
+}

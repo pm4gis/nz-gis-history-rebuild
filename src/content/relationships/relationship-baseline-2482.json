@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2482",
+  "a": "person:julian-thom",
+  "b": "person:robert-odolinski",
+  "label": "Associated with",
+  "basis": "Documented student/research co-author relationship.",
+  "passageIds": [],
+  "sources": []
+}

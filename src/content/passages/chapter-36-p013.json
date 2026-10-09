@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-36-ba865dc619",
+  "slug": "a-national-archive-takes-shape-ba865dc619",
+  "articleId": "article:chapter-36",
+  "title": "A national archive takes shape",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2020s the accumulation itself had become useful infrastructure. The Ministry for the Environment’s satellite-data search service brings together national image series that span Landsat 4 material from 1990, Landsat 7, SPOT and DMC coverage through the 2000s and early 2010s, Landsat 8 and annual Sentinel-2 datasets from 2016 onward. The service is a modern access point to imagery acquired under different programmes and at different times. Those historical datasets originally arrived through several distribution systems; the modern service makes them accessible as a sequence.",
+      "markdown": "By the 2020s the accumulation itself had become useful infrastructure. The Ministry for the Environment’s satellite-data search service brings together national image series that span Landsat 4 material from 1990, Landsat 7, SPOT and DMC coverage through the 2000s and early 2010s, Landsat 8 and annual Sentinel-2 datasets from 2016 onward. The service is a modern access point to imagery acquired under different programmes and at different times. Those historical datasets originally arrived through several distribution systems; the modern service makes them accessible as a sequence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That changes how a project can begin. An analyst investigating coastal change, land-cover conversion or vegetation response does not necessarily start by asking which new image should be purchased. The first question can be what observations already exist, which dates are comparable and whether the archive is adequate before new acquisition is considered. Earlier projects often had to build an image collection around the immediate budget. Later projects could begin with decades of accumulated observation and then decide where the record was incomplete.",
+      "markdown": "That changes how a project can begin. An analyst investigating coastal change, land-cover conversion or vegetation response does not necessarily start by asking which new image should be purchased. The first question can be what observations already exist, which dates are comparable and whether the archive is adequate before new acquisition is considered. Earlier projects often had to build an image collection around the immediate budget. Later projects could begin with decades of accumulated observation and then decide where the record was incomplete.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The growing archive also made older decisions easier to revisit. A land-cover boundary mapped in one decade could be compared with earlier and later observations. A classification method could be rerun on an older image using newer tools, provided differences in sensor and preprocessing were handled honestly. That possibility does not make history perfectly measurable from space. It does mean that New Zealand’s landscape has an increasingly dense digital observational memory, much of it created before anyone knew exactly which future questions would be asked of it.",
+      "markdown": "The growing archive also made older decisions easier to revisit. A land-cover boundary mapped in one decade could be compared with earlier and later observations. A classification method could be rerun on an older image using newer tools, provided differences in sensor and preprocessing were handled honestly. That possibility does not make history perfectly measurable from space. It does mean that New Zealand’s landscape has an increasingly dense digital observational memory, much of it created before anyone knew exactly which future questions would be asked of it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A longer archive also increases the temptation to treat every sensor as though it were measuring the landscape in the same way. Landsat, SPOT and Sentinel differ in pixel size, spectral bands, calibration, revisit pattern and processing history. A vegetation boundary visible in one system may be represented differently in another even when nothing has changed on the ground. Long-term analysis therefore depends on harmonising the observations or choosing methods that acknowledge those differences. The archive makes comparison possible; it does not make comparison automatic. Maintained products such as LCDB and LUCAS supplied consistent classifications across their image collections. They carried forward an interpretation framework as well as a collection of images.",
+      "markdown": "A longer archive also increases the temptation to treat every sensor as though it were measuring the landscape in the same way. Landsat, SPOT and Sentinel differ in pixel size, spectral bands, calibration, revisit pattern and processing history. A vegetation boundary visible in one system may be represented differently in another even when nothing has changed on the ground. Long-term analysis therefore depends on harmonising the observations or choosing methods that acknowledge those differences. The archive makes comparison possible; it does not make comparison automatic. Maintained products such as LCDB and LUCAS supplied consistent classifications across their image collections. They carried forward an interpretation framework as well as a collection of images.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

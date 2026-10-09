@@ -1,0 +1,28 @@
+{
+  "id": "2021-jan-pierce-customer-delivery",
+  "dateDisplay": "2021-08",
+  "startDate": "2021-08",
+  "datePrecision": "month",
+  "year": 2021,
+  "label": "Jan Pierce becomes Kaihautū Customer Delivery",
+  "summary": "LINZ appointed Pierce to lead its Customer Delivery group as the agency moved to a new four-group structure.",
+  "url": "/stories/enterprise-gis/#the-platform-team-4580a42438",
+  "passageIds": [
+    "passage:chapter-40-4580a42438"
+  ],
+  "recordIds": [
+    "person:jan-pierce",
+    "entity:land-information-new-zealand-linz",
+    "chapter:40",
+    "entity:new-zealand-police",
+    "person:duane-wilkins",
+    "person:sarah-hodgson"
+  ],
+  "themeIds": [],
+  "categories": [
+    "linz",
+    "leadership",
+    "public-services"
+  ],
+  "sources": []
+}

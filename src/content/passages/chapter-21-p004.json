@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-21-5ee12aa3cc",
+  "slug": "from-discussion-to-strategy-5ee12aa3cc",
+  "articleId": "article:chapter-21",
+  "title": "From discussion to strategy",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21",
+    "person:david-parker"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In October 2004 the Government noted its growing reliance on geospatial information and the absence of a coordinated strategy across government. A discussion document, Geospatial Information: The Future Role of Government, followed in November. Consultation included workshops in the four main centres and participants from central and local government, Crown entities, academia, Māori and industry. Written submissions and an online questionnaire extended that process beyond the workshops.",
+      "markdown": "In October 2004 the Government noted its growing reliance on geospatial information and the absence of a coordinated strategy across government. A discussion document, Geospatial Information: The Future Role of Government, followed in November. Consultation included workshops in the four main centres and participants from central and local government, Crown entities, academia, Māori and industry. Written submissions and an online questionnaire extended that process beyond the workshops.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The resulting strategy was approved by Cabinet in October 2006. The New Zealand Geospatial Office was established within LINZ in 2006 to lead implementation. The published document, A New Zealand Geospatial Strategy: Understanding our Geographic Information Landscape, appeared in January 2007 under Minister for Land Information David Parker. Its acknowledgements list a broad group of central-government departments, local-government interests, research organisations and emergency services involved in its development.",
+      "markdown": "The resulting strategy was approved by Cabinet in October 2006. The New Zealand Geospatial Office was established within LINZ in 2006 to lead implementation. The published document, A New Zealand Geospatial Strategy: Understanding our Geographic Information Landscape, appeared in January 2007 under Minister for Land Information David Parker. Its acknowledgements list a broad group of central-government departments, local-government interests, research organisations and emergency services involved in its development.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The strategy described government geospatial resources as having developed largely on an independent basis. That independence had produced useful systems, but it also created duplication and made sharing harder. Separately collected data could describe locations differently, and the lack of common approaches could limit the ability to assemble information for work that crossed administrative or professional boundaries.",
+      "markdown": "The strategy described government geospatial resources as having developed largely on an independent basis. That independence had produced useful systems, but it also created duplication and made sharing harder. Separately collected data could describe locations differently, and the lack of common approaches could limit the ability to assemble information for work that crossed administrative or professional boundaries.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The proposed response was organised around four goals: governance, data, access and interoperability. Governance dealt with coordination and accountability. Data dealt with identifying, preserving and maintaining fundamental national resources. Access dealt with making government information and services discoverable and obtainable. Interoperability dealt with enabling data, systems and services from different organisations to be combined and reused.",
+      "markdown": "The proposed response was organised around four goals: governance, data, access and interoperability. Governance dealt with coordination and accountability. Data dealt with identifying, preserving and maintaining fundamental national resources. Access dealt with making government information and services discoverable and obtainable. Interoperability dealt with enabling data, systems and services from different organisations to be combined and reused.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

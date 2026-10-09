@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-7-df68c9ed13",
+  "slug": "erosion-on-the-map-df68c9ed13",
+  "articleId": "article:chapter-7",
+  "title": "Erosion on the map",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Erosion was built into the NZLRI twice. Present erosion type and severity formed one of the five inventory factors, while susceptibility to future erosion also influenced the LUC assessment. That distinction allowed the mapping to record both what was visible at the time and how vulnerable the land might be under continued or changed use.",
+      "markdown": "Erosion was built into the NZLRI twice. Present erosion type and severity formed one of the five inventory factors, while susceptibility to future erosion also influenced the LUC assessment. That distinction allowed the mapping to record both what was visible at the time and how vulnerable the land might be under continued or changed use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The system recognised several forms of erosion because they required different responses. Sheet and rill erosion on cultivated land, soil slips on hill country, gullies, streambank erosion and larger mass-movement processes did not create the same management problem. The mapped severity also mattered. A small area with occasional erosion did not receive the same treatment as land where erosion was widespread or difficult to control.",
+      "markdown": "The system recognised several forms of erosion because they required different responses. Sheet and rill erosion on cultivated land, soil slips on hill country, gullies, streambank erosion and larger mass-movement processes did not create the same management problem. The mapped severity also mattered. A small area with occasional erosion did not receive the same treatment as land where erosion was widespread or difficult to control.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil conservation provided the original practical setting for much of this classification work. Land capability surveys were used at regional and catchment scales, and more detailed surveys supported farm soil and water conservation plans. A farm plan normally began with an inventory and LUC assessment, then set out conservation works or management practices suited to the land. These could include changes to grazing or cultivation, erosion-control planting, water-control work or protection of land that was too unstable for intensive use.",
+      "markdown": "Soil conservation provided the original practical setting for much of this classification work. Land capability surveys were used at regional and catchment scales, and more detailed surveys supported farm soil and water conservation plans. A farm plan normally began with an inventory and LUC assessment, then set out conservation works or management practices suited to the land. These could include changes to grazing or cultivation, erosion-control planting, water-control work or protection of land that was too unstable for intensive use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The classification therefore connected mapped evidence with management without turning the map into a legal instruction. A LUC class described physical capability and limitation. It did not determine what a landowner must do, what a council would consent, or whether a particular use was economically attractive. Markets, farm systems, infrastructure and regulation sat outside the physical classification even though they could affect the decision made from it.",
+      "markdown": "The classification therefore connected mapped evidence with management without turning the map into a legal instruction. A LUC class described physical capability and limitation. It did not determine what a landowner must do, what a council would consent, or whether a particular use was economically attractive. Markets, farm systems, infrastructure and regulation sat outside the physical classification even though they could affect the decision made from it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

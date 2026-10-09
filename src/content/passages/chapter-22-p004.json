@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-22-958a169409",
+  "slug": "parallel-software-systems-958a169409",
+  "articleId": "article:chapter-22",
+  "title": "Parallel software systems",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Software histories are often written as a neat succession of products. New Zealand practice was less tidy. ARC/INFO did not vanish when ArcView appeared, and MapInfo did not make workstation GIS redundant. Organisations selected platforms according to the work, the data they already held, staff experience, cost and the systems they needed to connect to.",
+      "markdown": "Software histories are often written as a neat succession of products. New Zealand practice was less tidy. ARC/INFO did not vanish when ArcView appeared, and MapInfo did not make workstation GIS redundant. Organisations selected platforms according to the work, the data they already held, staff experience, cost and the systems they needed to connect to.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A production GIS might be responsible for editing and quality control while desktop users worked from exported copies. A science organisation could use specialist image-processing software alongside vector GIS. A council could have one package in the central GIS team and another in a business unit. By the early 2000s some organisations had several desktop and server products operating at different layers of the same information environment.",
+      "markdown": "A production GIS might be responsible for editing and quality control while desktop users worked from exported copies. A science organisation could use specialist image-processing software alongside vector GIS. A council could have one package in the central GIS team and another in a business unit. By the early 2000s some organisations had several desktop and server products operating at different layers of the same information environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The desktop therefore changed access before it simplified architecture. A staff member could gain the ability to make a thematic map without gaining the ability to maintain the authoritative road network underneath it. A planner could query parcels without becoming a cadastral database administrator. A policy analyst could join census variables to boundaries without running the systems that produced the census geography. GIS work became more distributed even while data stewardship often remained centralised.",
+      "markdown": "The desktop therefore changed access before it simplified architecture. A staff member could gain the ability to make a thematic map without gaining the ability to maintain the authoritative road network underneath it. A planner could query parcels without becoming a cadastral database administrator. A policy analyst could join census variables to boundaries without running the systems that produced the census geography. GIS work became more distributed even while data stewardship often remained centralised.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This separation became one of the defining characteristics of ordinary organisational GIS. The number of people using spatial information could grow faster than the number of people maintaining it. Desktop tools made that possible because they gave subject specialists enough GIS capability for their own work while leaving the difficult production tasks with dedicated teams.",
+      "markdown": "This separation became one of the defining characteristics of ordinary organisational GIS. The number of people using spatial information could grow faster than the number of people maintaining it. Desktop tools made that possible because they gave subject specialists enough GIS capability for their own work while leaving the difficult production tasks with dedicated teams.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

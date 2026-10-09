@@ -1,0 +1,35 @@
+{
+  "id": "person:phil-clunies-ross",
+  "slug": "phil-clunies-ross",
+  "name": "Phil Clunies-Ross",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/phil-clunies-ross/",
+  "story": [
+    "Phil Clunies-Ross presented a lightning talk at FOSS4G Auckland in November 2025 about Delinify, a reporting tool he had recently built using open source and AI. The conference record documents a public demonstration; it does not describe organisational deployment or ongoing maintenance. The example places AI-assisted spatial reporting among the tools practitioners were exploring at the end of 2025."
+  ],
+  "sources": [
+    {
+      "label": "Phil Clunies-Ross - delinify | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/pcrnz"
+    },
+    {
+      "label": "Chapter 44 · AI enters practice",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Phil Clunies-Ross"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 44 · AI enters practice",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

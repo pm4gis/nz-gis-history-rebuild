@@ -1,0 +1,33 @@
+{
+  "id": "entity:siba-new-zealand-locationtech",
+  "slug": "siba-new-zealand-locationtech",
+  "name": "SIBA New Zealand / LocationTech",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/siba-new-zealand-locationtech/",
+  "website": null,
+  "story": [
+    "SIBA New Zealand represented the spatial industry from 2009, with the organisation joining NZTech and becoming LocationTech in 2020. Its role included industry advocacy, professional connections and workforce capability. It provided a sector-level forum alongside product user groups and professional bodies.",
+    "LocationTech’s current mission is to advance location-enabled innovation in Aotearoa and help people and businesses benefit from it. The organisation works on industry intelligence, collaboration and education, and is hosted by the New Zealand IoT Alliance."
+  ],
+  "sources": [
+    {
+      "label": "LocationTech / SIBA New Zealand history",
+      "url": "https://locationtech.org.nz/"
+    },
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "SIBA New Zealand",
+    "LocationTech"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

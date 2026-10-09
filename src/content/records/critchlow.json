@@ -1,0 +1,43 @@
+{
+  "id": "entity:critchlow",
+  "slug": "critchlow",
+  "name": "Critchlow",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/critchlow/",
+  "website": null,
+  "story": [
+    "Steve Critchlow records founding Critchlow in April 1991. The firm helped make desktop mapping and commercial spatial data available to government, councils and businesses. Early work included MapInfo, census mapping, location data, training and packaged products that customers could use in day-to-day analysis.",
+    "The business later extended this location-data work into route optimisation, address validation and imagery services. Critchlow’s NationalMap data supports its routing products. Government co-funding in 2020 helped the company build SwitchMyFleet, a free tool that compares the operating costs and route requirements of internal-combustion and electric commercial fleets.",
+    "SwitchMyFleet received the 2021 New Zealand Spatial Excellence Award for Technical Excellence, announced in February 2022, and won the Asia-Pacific SIBA|GITA Technical Excellence award in May 2022. The project brought New Zealand road and address data together with vehicle, terrain, loading and route calculations for fleet transition planning."
+  ],
+  "sources": [
+    {
+      "label": "Critchlow, About us",
+      "url": "https://www.critchlow.co.nz/about-us"
+    },
+    {
+      "label": "Critchlow, 25 years and counting: Steve Critchlow on founding the company",
+      "url": "https://info.critchlow.co.nz/critchlow-turns-25"
+    },
+    {
+      "label": "Critchlow, SwitchMyFleet",
+      "url": "https://www.critchlow.co.nz/products/switchmyfleet"
+    },
+    {
+      "label": "Critchlow, 2021 Spatial Excellence Award for SwitchMyFleet",
+      "url": "https://www.critchlow.co.nz/resources/blog/critchlow-geospatial-takes-out-technical-excellence-honours-at-the-2021-spatial-excellence-awards"
+    },
+    {
+      "label": "Critchlow, 2022 Asia-Pacific Spatial Excellence Award",
+      "url": "https://www.critchlow.co.nz/resources/blog/another-award-for-critchlow-geospatial-for-switchmyfleet-at-the-2022-asia-pacific-spatial-excellence-awards"
+    }
+  ],
+  "aliases": [
+    "Critchlow"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

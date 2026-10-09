@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-27-45e8f5300c",
+  "slug": "hauora-manaaki-45e8f5300c",
+  "articleId": "article:chapter-27",
+  "title": "Hauora-Manaaki",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In 2021, Hauora-Manaaki was built on Manaaki to support pro-equity implementation and real-time monitoring of the COVID-19 vaccination programme. It ran on ArcGIS Online, with governance focused on confidentiality and permitted use.",
+      "markdown": "In 2021, Hauora-Manaaki was built on Manaaki to support pro-equity implementation and real-time monitoring of the COVID-19 vaccination programme. It ran on ArcGIS Online, with governance focused on confidentiality and permitted use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Hauora-Manaaki agreement states that Māori Data Sovereignty principles apply and names Rangatiratanga, Whakapapa, Whanaungatanga, Kotahitanga, Manaakitanga and Kaitiakitanga. It says no iwi-level data will be stored on the platform, restricts use to pro-equity purposes unless additional use is explicitly agreed, and treats District Health Board information as confidential unless otherwise specified. National-level information already supplied as public open data is treated differently from restricted operational data.",
+      "markdown": "The Hauora-Manaaki agreement states that Māori Data Sovereignty principles apply and names Rangatiratanga, Whakapapa, Whanaungatanga, Kotahitanga, Manaakitanga and Kaitiakitanga. It says no iwi-level data will be stored on the platform, restricts use to pro-equity purposes unless additional use is explicitly agreed, and treats District Health Board information as confidential unless otherwise specified. National-level information already supplied as public open data is treated differently from restricted operational data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Privacy controls were similarly explicit. The platform was not to collect personal information beyond what was required to maintain the system, and no identifiable health information was to be stored. Uploaded data had to be aggregated and anonymised before access and use. The agreement also provided for deletion of shared information on authorised request, required individual user accounts and two-factor authentication, and recorded that the platform was not rated to hold information subject to the Government Security Classification System.",
+      "markdown": "Privacy controls were similarly explicit. The platform was not to collect personal information beyond what was required to maintain the system, and no identifiable health information was to be stored. Uploaded data had to be aggregated and anonymised before access and use. The agreement also provided for deletion of shared information on authorised request, required individual user accounts and two-factor authentication, and recorded that the platform was not rated to hold information subject to the Government Security Classification System.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The system’s deployment was technically straightforward; aggregation, confidentiality, access and Māori authority over data required separate governance decisions.",
+      "markdown": "The system’s deployment was technically straightforward; aggregation, confidentiality, access and Māori authority over data required separate governance decisions.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1525",
+  "a": "entity:auckland-regional-council",
+  "b": "chapter:20",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-20-44f14362be"
+  ],
+  "sources": []
+}

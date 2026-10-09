@@ -1,0 +1,33 @@
+{
+  "id": "person:walter-mantell",
+  "slug": "walter-mantell",
+  "name": "Walter Mantell",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/walter-mantell/",
+  "story": [
+    "Te Wharekorari supplied geographic knowledge to Walter Mantell in 1848 during Crown land-acquisition work in the South Island. Rivers, lakes, routes and place names entered sketches and purchase mapping through encounters of this kind. The mapmaking occurred alongside negotiations over land and the recording of reserves and settlement interests. Naming the knowledge holder identifies a contribution otherwise easily absorbed into the credit given to the official who kept or published the paper record."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 1 · The parcel record",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "Walter Mantell"
+  ],
+  "themeIds": [
+    "cadastre"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 1 · The parcel record",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

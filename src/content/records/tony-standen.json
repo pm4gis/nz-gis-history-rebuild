@@ -1,0 +1,48 @@
+{
+  "id": "person:tony-standen",
+  "slug": "tony-standen",
+  "name": "Tony Standen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/tony-standen/",
+  "story": [
+    "Tony Standen served as NZEUG’s deputy chair at its fifteenth AGM, held at Wellington Town Hall on 10 November 2010. The project-held minutes record that the executive remained unchanged after the election.",
+    "Tony Standen, Team Leader Information Delivery at New Plymouth District Council, was handling the conference call for papers, while Junior Lee-Chee, Maps and Designs Manager at Auckland City Council, collected votes on the conference's future."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG, 10 November 2010 AGM minutes",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Tony Standen - Clarus | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/tony-standen-6304421b"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Tony Standen"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZEUG, 10 November 2010 AGM minutes",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

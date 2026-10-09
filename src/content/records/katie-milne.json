@@ -1,0 +1,42 @@
+{
+  "id": "person:katie-milne",
+  "slug": "katie-milne",
+  "name": "Katie Milne",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/katie-milne/",
+  "story": [
+    "Katie Milne presented a DOC Survey123 hackathon in 2018.",
+    "Eagle Technology's 2019 New Zealand Esri User Conference programme records Katie Milne, Department of Conservation, presenting Helicopter Boarding Pass – Survey123 for safety in the field. The checklist was designed for rapid updating and captured location, user and date metadata for field safety."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "Chapter 34 · Chapter source notes",
+      "url": "/stories/mapping-leaves-the-office/"
+    }
+  ],
+  "aliases": [
+    "Katie Milne"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 34 · Chapter source notes",
+        "url": "/stories/mapping-leaves-the-office/"
+      }
+    ]
+  ]
+}

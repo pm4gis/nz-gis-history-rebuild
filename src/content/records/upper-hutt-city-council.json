@@ -1,0 +1,32 @@
+{
+  "id": "entity:upper-hutt-city-council",
+  "slug": "upper-hutt-city-council",
+  "name": "Upper Hutt City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/upper-hutt-city-council/",
+  "website": "https://www.upperhuttcity.com",
+  "story": [
+    "From February 2003, XPLORER gave the public online access to property information that had previously been requested in paper packets. The browser service brought property and rating details, values and aerial photographs together; a government case recorded about 26,000 monthly map downloads and fewer in-person property enquiries. A 2013 upgrade added mobile HTML5 access to property, underground-service and district-planning information."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23, “Upper Hutt puts property online” and its source note",
+      "url": "/stories/councils-build-corporate-gis/"
+    },
+    {
+      "label": "Chapter 30, “The map leaves the counter” and its source note",
+      "url": "/stories/the-first-web-maps/"
+    }
+  ],
+  "aliases": [
+    "Upper Hutt City Council"
+  ],
+  "themeIds": [
+    "local-government"
+  ],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

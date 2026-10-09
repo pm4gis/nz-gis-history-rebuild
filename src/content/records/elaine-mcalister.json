@@ -1,0 +1,55 @@
+{
+  "id": "person:elaine-mcalister",
+  "slug": "elaine-mcalister",
+  "name": "Elaine McAlister",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/elaine-mcalister/",
+  "story": [
+    "Elaine McAlister's career combines geospatial practice, education and professional advocacy. Her career profile describes twenty-five years in the geospatial industry and records work with GeoEd Ltd, together with study at the University of Edinburgh in 1992–93. Her conservation GIS work forms part of that career in spatial education and support.",
+    "Elaine McAlister presented DOC’s move to cloud GIS in 2018.",
+    "At the 2018 New Zealand Spatial Excellence Awards, Elaine McAlister received the Professional of the Year award. The government’s contemporary winner list places that recognition in the same year that she presented DOC’s move to cloud GIS at the New Zealand Esri User Conference."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "Elaine McAlister - GeoEd Ltd | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/elaine-mcalister-75b3064"
+    },
+    {
+      "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+      "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+    }
+  ],
+  "aliases": [
+    "Elaine McAlister"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Elaine McAlister - GeoEd Ltd | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/elaine-mcalister-75b3064"
+      }
+    ],
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+        "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0955",
+  "a": "person:mike-king",
+  "b": "entity:interpine-innovation",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

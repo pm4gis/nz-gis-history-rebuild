@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1155",
+  "a": "system:enterprise-gis",
+  "b": "person:jithen-singh",
+  "label": "Named in the system account",
+  "basis": "Existing technology/project account",
+  "passageIds": [],
+  "sources": []
+}

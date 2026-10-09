@@ -1,0 +1,28 @@
+{
+  "id": "person:shannon-mccolley",
+  "slug": "shannon-mccolley",
+  "name": "Shannon McColley",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/shannon-mccolley/",
+  "website": null,
+  "story": [
+    "Shannon McColley is a Historical Imagery Specialist at Toitū Te Whenua LINZ. The New Zealand Cartographic Society records that she came to New Zealand in 2008 and has worked on digitising and curating historical maps and aerial photographs.",
+    "She has also served the New Zealand Cartographic Society as secretary and webmaster and as a director of GeoCart. Her work sits at the intersection of historical imagery, digital preservation, cartography and the wider GIS community."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Cartographic Society, About NZCS",
+      "url": "https://cartography.org.nz/about/nzcs"
+    }
+  ],
+  "aliases": [
+    "Shannon McColley",
+    "Shannon L. McColley"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

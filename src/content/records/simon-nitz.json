@@ -1,0 +1,48 @@
+{
+  "id": "person:simon-nitz",
+  "slug": "simon-nitz",
+  "name": "Simon Nitz",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/simon-nitz/",
+  "story": [
+    "Simon Nitz’s OSGeo professional biography describes consulting in New Zealand and Australia, with a focus on open-source desktop and web mapping. It records chairing New Zealand’s MapInfo User Group during the 1990s and 2000s and helping organise FOSS4G/SotM Oceania events. The biography documents the overlap between the commercial desktop user community and later open-source networks.",
+    "Simon Nitz at Napier City Council favoured an independent bi- or triannual whole-sector event, while Central Hawke's Bay engineer Peter Eastwood argued that New Zealand was too small for every supplier to sustain a separate conference. The discussion concerned the cost, format and usefulness of conferences. It reflected the mixed software estates council staff were actually supporting."
+  ],
+  "sources": [
+    {
+      "label": "OSGeo, Simon Nitz advocate biography",
+      "url": "https://wiki.osgeo.org/wiki/OSGeo_Advocate"
+    },
+    {
+      "label": "Simon Nitz - Whanganui District Council | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/simonnitz"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Simon Nitz"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "OSGeo, Simon Nitz advocate biography",
+        "url": "https://wiki.osgeo.org/wiki/OSGeo_Advocate"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "person:hamish-kingsbury",
+  "slug": "hamish-kingsbury",
+  "name": "Hamish Kingsbury",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/hamish-kingsbury/",
+  "story": [
+    "Hamish Kingsbury's professional work includes information-systems consultancy and geospatial services. His career profile records study at the University of Canterbury, including a distinction in 2014–15, and work with Stantec in Christchurch. The automated service-authoring work discussed in the book forms part of this combination of spatial information and software practice.",
+    "Hamish Kingsbury presented automated service authoring in 2018.",
+    "A LINZ geospatial student or graduate profile records Hamish Kingsbury: Senior Spatial Data Specialist, Abley; 2015 NZ Esri Young Scholar and NZ Spatial Excellence undergraduate award."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "Hamish Kingsbury - Stantec | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/hamish-kingsbury"
+    },
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Hamish Kingsbury"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Hamish Kingsbury - Stantec | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/hamish-kingsbury"
+      }
+    ],
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

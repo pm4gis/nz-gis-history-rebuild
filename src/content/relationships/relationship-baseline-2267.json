@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2267",
+  "a": "person:chris-morris",
+  "b": "entity:geospatial-capability-committee",
+  "label": "Committee member",
+  "basis": "LINZ current Geospatial Capability Committee membership",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "person:kelly-davis",
+  "slug": "kelly-davis",
+  "name": "Kelly Davis",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kelly-davis/",
+  "story": [
+    "Kelly Davis grew up at Waihao and learned about the Waihao River and surrounding Wainono and Waimate areas through his father and other kaumātua. A descendant of Rāwiri Te Maire, he advocated for mahinga kai and the protection of Kāi Tahu cultural values. He supplied material early in the Cultural Mapping Project and saw GIS as a way for future generations to understand their relationships and rights across the whenua. He died in March 2007.",
+    "Kelly Davis was among the first to provide material for the Ngāi Tahu Cultural Mapping Project. His Kā Huru Manu profile describes knowledge of Waihao, Wainono and Waimate and advocacy for mahinga kai and cultural values. He saw GIS as a way for children to understand their relationship with the whenua. He died in March 2007, before the project’s first mapping hui.",
+    "Kā Huru Manu’s early paepae included Trevor Howse, Kelly Davis, Matapura Ellison, Jimmy Russell and David Higgins, while Muriel Johnstone contributed knowledge of the Ōraka Aparima takiwā."
+  ],
+  "sources": [
+    {
+      "label": "Kā Huru Manu, Kelly Davis",
+      "url": "https://kahurumanu.co.nz/our-people/kelly-davis"
+    },
+    {
+      "label": "Chapter 35 · Public applications",
+      "url": "/stories/the-map-becomes-an-application/"
+    }
+  ],
+  "aliases": [
+    "Kelly Davis"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Kelly Davis · career/profile reference",
+        "url": "https://kahurumanu.co.nz/our-people/kelly-davis"
+      }
+    ],
+    [
+      {
+        "label": "Kā Huru Manu, Kelly Davis",
+        "url": "https://kahurumanu.co.nz/our-people/kelly-davis"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 35 · Public applications",
+        "url": "/stories/the-map-becomes-an-application/"
+      }
+    ]
+  ]
+}

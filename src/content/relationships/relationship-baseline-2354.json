@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2354",
+  "a": "person:tania-te-hira",
+  "b": "chapter:11",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

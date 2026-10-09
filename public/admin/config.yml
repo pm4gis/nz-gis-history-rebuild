@@ -33,8 +33,17 @@ collections:
       - { name: summary, label: Short summary, widget: text }
       - { name: status, label: Status, widget: select, options: [draft, published], default: draft }
       - { name: updatedAt, label: Editorial update date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { name: readingOrder, label: Reading order, widget: number, value_type: int, required: false }
       - { name: featured, label: Feature on reader home, widget: boolean, default: false }
+      - { name: headerImageId, label: Header image ID, widget: string, required: false }
       - { name: themeIds, label: Theme IDs, widget: list, field: { name: themeId, label: Theme ID, widget: string }, required: false }
+      - name: sourceNotes
+        label: Sources and notes
+        widget: list
+        required: false
+        fields:
+          - { name: id, label: Note ID, widget: string, required: false }
+          - { name: text, label: Note text, widget: text }
 
   - name: passages
     label: Story passages
@@ -55,20 +64,32 @@ collections:
       - { name: updatedAt, label: Editorial update date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
       - { name: themeIds, label: Theme IDs, widget: list, field: { name: themeId, label: Theme ID, widget: string }, required: false }
       - { name: recordIds, label: Linked record IDs, widget: list, field: { name: recordId, label: Record ID, widget: string }, required: false }
-      - name: paragraphs
-        label: Paragraphs
+      - name: blocks
+        label: Narrative blocks
         widget: list
-        summary: "{{fields.text}}"
+        summary: "{{fields.type}} · {{fields.text}}"
         fields:
-          - { name: text, label: Paragraph text, widget: text }
+          - { name: type, label: Block type, widget: select, options: [paragraph, figure] }
+          - { name: text, label: Paragraph text, widget: text, required: false }
+          - { name: markdown, label: Formatted source text, widget: text, required: false }
+          - { name: imageId, label: Local image record ID, widget: string, required: false }
+          - { name: alt, label: Image alternative text, widget: string, required: false }
+          - { name: caption, label: Figure caption, widget: text, required: false }
+          - { name: credit, label: Figure credit, widget: string, required: false }
           - name: sources
             label: Sources for this paragraph
             widget: list
             required: false
             fields:
-              - { name: id, label: Source ID, widget: string, required: false }
               - { name: label, label: Published source or memory, widget: string }
               - { name: url, label: Source URL, widget: string, required: false }
+      - name: sources
+        label: Passage sources
+        widget: list
+        required: false
+        fields:
+          - { name: label, label: Published source or memory, widget: string }
+          - { name: url, label: Source URL, widget: string, required: false }
 
   - name: records
     label: People, organisations and projects
@@ -82,9 +103,10 @@ collections:
     summary: "{{name}} · {{kind}}"
     fields:
       - { name: id, label: Stable ID, widget: string }
+      - { name: articleId, label: Linked story ID, widget: string, required: false }
       - { name: slug, label: URL slug, widget: string }
       - { name: name, label: Name, widget: string }
-      - { name: kind, label: Record type, widget: select, options: [Person, Organisation, Agency, Business, Council, Project, Technology, System] }
+      - { name: kind, label: Record type, widget: select, options: [Person, Organisation, Agency, Business, Council, Project, Technology, System, Story] }
       - { name: category, label: Category, widget: string, required: false }
       - { name: url, label: Public route, widget: string }
       - { name: description, label: Short description, widget: text, required: false }
@@ -94,13 +116,73 @@ collections:
         widget: list
         required: false
         fields:
-          - { name: id, label: Source ID, widget: string, required: false }
           - { name: label, label: Published source or memory, widget: string }
           - { name: url, label: Source URL, widget: string, required: false }
       - { name: aliases, label: Other names, widget: list, field: { name: alias, label: Name, widget: string }, required: false }
       - { name: themeIds, label: Theme IDs, widget: list, field: { name: themeId, label: Theme ID, widget: string }, required: false }
       - { name: status, label: Public status line, widget: string, required: false }
       - { name: website, label: Website, widget: string, required: false }
+      - { name: coverageEnd, label: Coverage end, widget: number, value_type: int, required: false }
+      - { name: currentCouncil, label: Current council, widget: boolean, required: false }
+      - name: paragraphSources
+        label: Sources by story paragraph
+        widget: list
+        required: false
+        field:
+          name: sourceGroup
+          label: Sources for one paragraph
+          widget: list
+          fields:
+            - { name: label, label: Source, widget: string }
+            - { name: url, label: URL, widget: string, required: false }
+      - name: biographyParagraphSources
+        label: Biography sources by paragraph
+        widget: list
+        required: false
+        field:
+          name: sourceGroup
+          label: Sources for one paragraph
+          widget: list
+          fields:
+            - { name: label, label: Source, widget: string }
+            - { name: url, label: URL, widget: string, required: false }
+      - name: contentSections
+        label: Additional sections
+        widget: list
+        required: false
+        fields:
+          - { name: title, label: Section title, widget: string }
+          - { name: paragraphs, label: Paragraphs, widget: list, field: { name: paragraph, label: Paragraph, widget: text } }
+      - { name: recollections, label: Personal recollections, widget: list, field: { name: recollection, label: Recollection, widget: text }, required: false }
+      - name: contextLinks
+        label: Related links
+        widget: list
+        required: false
+        fields:
+          - { name: label, label: Link name, widget: string }
+          - { name: url, label: URL, widget: string }
+      - name: photoGallery
+        label: Photograph captions and credits
+        widget: object
+        required: false
+        fields:
+          - { name: title, label: Gallery title, widget: string }
+          - { name: intro, label: Introduction, widget: text, required: false }
+          - { name: credit, label: Overall credit, widget: string, required: false }
+          - name: items
+            label: Captions
+            widget: list
+            required: false
+            fields:
+              - { name: alt, label: Image description, widget: string }
+              - { name: caption, label: Caption, widget: text }
+              - name: people
+                label: Named people in caption
+                widget: list
+                required: false
+                fields:
+                  - { name: label, label: Group label, widget: string }
+                  - { name: ids, label: Record IDs, widget: list, field: { name: id, label: Record ID, widget: string } }
 
   - name: events
     label: Timeline events
@@ -117,19 +199,20 @@ collections:
       - { name: dateDisplay, label: Display date, widget: string }
       - { name: startDate, label: Date value (keep known precision), widget: string }
       - { name: endDate, label: End date, widget: string, required: false }
-      - { name: datePrecision, label: Date precision, widget: select, options: [day, month, year, approximate, range, decade, unknown] }
+      - { name: datePrecision, label: Date precision, widget: select, options: [day, month, year, approximate, range, year-range, day-range, decade, unknown] }
       - { name: year, label: Position on timeline, widget: number, value_type: int, required: false }
       - { name: label, label: Event name, widget: string }
       - { name: summary, label: Summary, widget: text }
       - { name: url, label: Related reading route, widget: string, required: false }
       - { name: passageIds, label: Related passage IDs, widget: list, field: { name: passageId, label: Passage ID, widget: string }, required: false }
+      - { name: recordIds, label: Related record IDs, widget: list, field: { name: recordId, label: Record ID, widget: string }, required: false }
       - { name: themeIds, label: Theme IDs, widget: list, field: { name: themeId, label: Theme ID, widget: string }, required: false }
+      - { name: categories, label: Event categories, widget: list, field: { name: category, label: Category, widget: string }, required: false }
       - name: sources
         label: Sources
         widget: list
         required: false
         fields:
-          - { name: id, label: Source ID, widget: string, required: false }
           - { name: label, label: Published source or memory, widget: string }
           - { name: url, label: Source URL, widget: string, required: false }
 
@@ -155,7 +238,6 @@ collections:
         widget: list
         required: false
         fields:
-          - { name: id, label: Source ID, widget: string, required: false }
           - { name: label, label: Published source or memory, widget: string }
           - { name: url, label: Source URL, widget: string, required: false }
 
@@ -175,6 +257,15 @@ collections:
       - { name: title, label: Theme name, widget: string }
       - { name: description, label: Description, widget: text, required: false }
       - { name: color, label: Accent colour, widget: string, required: false }
+      - { name: passageIds, label: Passages in this theme, widget: list, field: { name: passageId, label: Passage ID, widget: string }, required: false }
+      - name: stops
+        label: Theme stops
+        widget: list
+        required: false
+        fields:
+          - { name: passageId, label: Passage ID, widget: string }
+          - { name: title, label: Passage title, widget: string }
+          - { name: url, label: Story and passage URL, widget: string }
 
   - name: images
     label: Image records
@@ -197,4 +288,5 @@ collections:
       - { name: credit, label: Required image credit, widget: string }
       - { name: licence, label: Reuse licence, widget: string }
       - { name: licenceUrl, label: Licence URL, widget: string }
+      - { name: caption, label: Caption, widget: text, required: false }
       - { name: themeIds, label: Theme IDs, widget: list, field: { name: themeId, label: Theme ID, widget: string }, required: false }

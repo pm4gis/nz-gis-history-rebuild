@@ -1,0 +1,37 @@
+{
+  "id": "person:olivia-martin",
+  "slug": "olivia-martin",
+  "name": "Olivia Martin",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/olivia-martin/",
+  "story": [
+    "At the 2018 Women in Spatial lightning talks, Olivia Martin described GIS work from an earlier Canadian wildfire response in May 2016. Her team produced action-section plans every few hours, inspection plans and maps of buildings lost to fire. The event report identifies her as working for Transpower in New Zealand at the time of the talk, not as the employer for the earlier Canadian work."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+      "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+    },
+    {
+      "label": "Olivia Martin - Queenstown Lakes District Council | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/oliviamartin13"
+    }
+  ],
+  "aliases": [
+    "Olivia Martin"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+        "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+      }
+    ]
+  ]
+}

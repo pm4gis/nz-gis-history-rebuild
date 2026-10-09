@@ -1,0 +1,46 @@
+{
+  "id": "person:james-maguire",
+  "slug": "james-maguire",
+  "name": "James Maguire",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/james-maguire/",
+  "story": [
+    "James Maguire’s 1999 Massey University thesis developed a Java viewing client for Genasys New Zealand GIS software. He built vector-data, image-download and database components for occasional GIS users and evaluated their performance against the existing server-based viewer. The thesis preserves a local software-development example from the expansion of networked GIS access.",
+    "James Maguire’s 1999 Massey University thesis records another approach to widening GIS access. Working with Genasys New Zealand software, he developed a Java viewing client with vector, image-download and database components. The project addressed the performance and usability of tools available to occasional GIS users. It places client-side GIS development within the late-1990s New Zealand software record, alongside the server-based web systems used by public agencies."
+  ],
+  "sources": [
+    {
+      "label": "James Maguire, The development of a Java based GIS viewing tool, Master of Technology thesis, Massey University",
+      "url": "https://mro.massey.ac.nz/items/f608ac2d-a3fb-4671-9894-deddd647befe"
+    },
+    {
+      "label": "James Maguire - Autodesk | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/jimmymic"
+    },
+    {
+      "label": "Chapter 30 · A map without GIS software",
+      "url": "/stories/the-first-web-maps/"
+    }
+  ],
+  "aliases": [
+    "James Maguire"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "James Maguire, The development of a Java based GIS viewing tool, Master of Technology thesis, Massey University",
+        "url": "https://mro.massey.ac.nz/items/f608ac2d-a3fb-4671-9894-deddd647befe"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 30 · A map without GIS software",
+        "url": "/stories/the-first-web-maps/"
+      }
+    ]
+  ]
+}

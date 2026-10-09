@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-19-e05eda5fc5",
+  "slug": "the-repeat-gps-network-e05eda5fc5",
+  "articleId": "article:chapter-19",
+  "title": "The repeat GPS network",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19",
+    "person:peter-morgan"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Five repeat first-order GPS campaigns were carried out between 1992 and 1998. The initial NZGD2000 realisation used 29 primary First Order 2000 stations, all of which were also existing NZGD49 control stations. Reoccupying the older marks allowed the new satellite-based observations to be connected with the control system already used by surveyors and mapping organisations.",
+      "markdown": "Five repeat first-order GPS campaigns were carried out between 1992 and 1998. The initial NZGD2000 realisation used 29 primary First Order 2000 stations, all of which were also existing NZGD49 control stations. Reoccupying the older marks allowed the new satellite-based observations to be connected with the control system already used by surveyors and mapping organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LINZ contracted Dr Peter Morgan of the University of Canberra to process the first-order campaign data using GAMIT, GLOBK and GLOGR. Network observations were processed together and related to international reference stations. The work produced coordinates for the defining network in the International Terrestrial Reference Frame 1996, initially at an observation epoch around 1996.5, before relating them to the new datum’s reference epoch.",
+      "markdown": "LINZ contracted Dr Peter Morgan of the University of Canberra to process the first-order campaign data using GAMIT, GLOBK and GLOGR. Network observations were processed together and related to international reference stations. The work produced coordinates for the defining network in the International Terrestrial Reference Frame 1996, initially at an observation epoch around 1996.5, before relating them to the new datum’s reference epoch.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The survey programme extended beyond the 29 defining stations. Second-order network design and observation followed in 1995 and 1996, with later regional campaigns carrying the new framework through third and lower-order control. Existing observations were reused where their quality was adequate, while some marks had to be reobserved. A national datum only became operational for everyday survey work when the high-order framework could be connected to the denser control on which local surveys depended.",
+      "markdown": "The survey programme extended beyond the 29 defining stations. Second-order network design and observation followed in 1995 and 1996, with later regional campaigns carrying the new framework through third and lower-order control. Existing observations were reused where their quality was adequate, while some marks had to be reobserved. A national datum only became operational for everyday survey work when the high-order framework could be connected to the denser control on which local surveys depended.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The programme involved more people than the authors named on the technical reports. Field crews occupied control marks across the country, geodetic staff planned networks and observation schedules, analysts processed repeated campaigns, and database staff carried revised coordinates into the national geodetic records. Equipment and processing methods had changed sharply since the triangulation era, but the job still required a national chain of observations that other survey work could trust.",
+      "markdown": "The programme involved more people than the authors named on the technical reports. Field crews occupied control marks across the country, geodetic staff planned networks and observation schedules, analysts processed repeated campaigns, and database staff carried revised coordinates into the national geodetic records. Equipment and processing methods had changed sharply since the triangulation era, but the job still required a national chain of observations that other survey work could trust.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "entity:new-plymouth-district-council",
+  "slug": "new-plymouth-district-council",
+  "name": "New Plymouth District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/new-plymouth-district-council/",
+  "website": "https://www.newplymouthnz.com",
+  "story": [
+    "Contemporary 2005 District Plan sheets establish digital council plan-map production using LINZ base mapping and licensed Critchlow digital map data. Documented work includes New Plymouth District Plan digital map series, amended August 2005."
+  ],
+  "sources": [
+    {
+      "label": "New Plymouth District Council, New Plymouth District Plan map index and planning-map sheets",
+      "url": "https://www.npdc.govt.nz/media/r3yhpvlu/index-new-plymouth-left.pdf"
+    }
+  ],
+  "aliases": [
+    "New Plymouth District Council"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "person:michele-daly",
+  "slug": "michele-daly",
+  "name": "Michele Daly",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/michele-daly/",
+  "story": [
+    "Michele Daly's background combines geology and environmental management with disaster-risk work. Her qualifications include a BSc, an MSc in geology and a diploma in environmental management. Her institutional profile lists operations management in Society and Infrastructure, with expertise in emergency management, community resilience, risk communication, evacuation planning and social vulnerability. Her publications also address coastal hazards and climate adaptation in Samoa and local-government disaster-risk capability in Indonesia.",
+    "Michele Daly co-authored the 2015 retrospective explaining the Auckland lifelines project begun in 1996.",
+    "Michele Daly and David Johnston’s later account describes hazard and infrastructure maps alongside workshops in which utilities assessed vulnerability and recovery."
+  ],
+  "sources": [
+    {
+      "label": "Michele Daly and David Johnston, The genesis of volcanic risk assessment for the Auckland engineering lifelines project: 1996–2000, 2015",
+      "url": "https://link.springer.com/article/10.1186/s13617-015-0027-9"
+    },
+    {
+      "label": "Michele Daly · career/profile reference",
+      "url": "https://www.gns.cri.nz/about-us/staff-search/michele-daly/"
+    },
+    {
+      "label": "Michele Daly - Earth Sciences New Zealand | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/michele-daly-995ba55"
+    },
+    {
+      "label": "Chapter 25 · Auckland lifelines, established in 1996",
+      "url": "/stories/mapping-the-networks/"
+    }
+  ],
+  "aliases": [
+    "Michele Daly"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Michele Daly · career/profile reference",
+        "url": "https://www.gns.cri.nz/about-us/staff-search/michele-daly/"
+      }
+    ],
+    [
+      {
+        "label": "Michele Daly and David Johnston, The genesis of volcanic risk assessment for the Auckland engineering lifelines project: 1996–2000, 2015",
+        "url": "https://link.springer.com/article/10.1186/s13617-015-0027-9"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 25 · Auckland lifelines, established in 1996",
+        "url": "/stories/mapping-the-networks/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Auckland lifelines, established in 1996",
+      "url": "/stories/mapping-the-networks/"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "passage:chapter-39-ca1f5dae42",
+  "slug": "point-clouds-become-normal-ca1f5dae42",
+  "articleId": "article:chapter-39",
+  "title": "Point clouds become normal",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39",
+    "person:mike-pinkerton",
+    "person:richard-williams",
+    "person:james-brasington",
+    "person:damia-vericat",
+    "person:murray-hicks"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A point cloud can look like a three-dimensional model when viewed on screen. Rotate it and a building, cliff or riverbank appears. Zoom closer and individual observations become visible. Yet the cloud may contain little explicit understanding of what each group of points represents. Turning dense measurements into useful spatial information requires classification, filtering, surfaces, object extraction or links to other datasets. ",
+      "markdown": "A point cloud can look like a three-dimensional model when viewed on screen. Rotate it and a building, cliff or riverbank appears. Zoom closer and individual observations become visible. Yet the cloud may contain little explicit understanding of what each group of points represents. Turning dense measurements into useful spatial information requires classification, filtering, surfaces, object extraction or links to other datasets. ",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand surveying provides a clear professional transition. Mike Pinkerton's 2010 FIG paper, Terrestrial Laser Scanning for Mainstream Land Surveying, treated laser scanning as a technique moving beyond specialist novelty into ordinary survey practice. The instrument could rapidly collect dense three-dimensional observations of structures and terrain, but the surveying task still required control, registration, checking and a deliverable suited to the client. The scanner increased the quantity of measurement; it did not remove the need to decide what the measurements meant.",
+      "markdown": "New Zealand surveying provides a clear professional transition. Mike Pinkerton's 2010 FIG paper, Terrestrial Laser Scanning for Mainstream Land Surveying, treated laser scanning as a technique moving beyond specialist novelty into ordinary survey practice. The instrument could rapidly collect dense three-dimensional observations of structures and terrain, but the surveying task still required control, registration, checking and a deliverable suited to the client. The scanner increased the quantity of measurement; it did not remove the need to decide what the measurements meant.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Rees River research published in 2014 pushed density even further. Richard Williams, James Brasington, Damià Vericat and Murray Hicks combined mobile terrestrial laser scanning with aerial photography and optical bathymetric mapping over a braided-river reach. Their work assembled more than five billion survey observations into detailed terrain information. Processing, storing and analysing billions of points required methods suited to the size and structure of the survey data.",
+      "markdown": "The Rees River research published in 2014 pushed density even further. Richard Williams, James Brasington, Damià Vericat and Murray Hicks combined mobile terrestrial laser scanning with aerial photography and optical bathymetric mapping over a braided-river reach. Their work assembled more than five billion survey observations into detailed terrain information. Processing, storing and analysing billions of points required methods suited to the size and structure of the survey data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Point clouds also blurred the boundary between GIS, surveying and engineering software. A surveyor might register scans in specialist software, derive a surface, export selected objects and then place the results into GIS. An engineer might use the same observations in CAD or a design system. The growing question concerned how geometry, coordinates and meaning survived as information moved between disciplines and systems.",
+      "markdown": "Point clouds also blurred the boundary between GIS, surveying and engineering software. A surveyor might register scans in specialist software, derive a surface, export selected objects and then place the results into GIS. An engineer might use the same observations in CAD or a design system. The growing question concerned how geometry, coordinates and meaning survived as information moved between disciplines and systems.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

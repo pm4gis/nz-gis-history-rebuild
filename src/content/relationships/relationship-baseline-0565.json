@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0565",
+  "a": "person:takerei-norton",
+  "b": "chapter:35",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-35-8ab5f7559c"
+  ],
+  "sources": []
+}

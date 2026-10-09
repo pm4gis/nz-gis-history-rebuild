@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1401",
+  "a": "entity:scion-forest-research",
+  "b": "chapter:28",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-28-d2141c3d3a"
+  ],
+  "sources": []
+}

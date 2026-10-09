@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-18-1e243f0680",
+  "slug": "position-and-interpretation-1e243f0680",
+  "articleId": "article:chapter-18",
+  "title": "Position and interpretation",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Chapter 17 followed the construction of national road, address and property-location systems. GPS did not make those systems redundant. A receiver can tell a user where its antenna is in a coordinate framework. It does not know that the place is 24 Example Road, that the pole beside it is asset P10327, that the land is part of a particular parcel, or that the location lies within a statistical area. Those meanings come from other records and institutions.",
+      "markdown": "Chapter 17 followed the construction of national road, address and property-location systems. GPS did not make those systems redundant. A receiver can tell a user where its antenna is in a coordinate framework. It does not know that the place is 24 Example Road, that the pole beside it is asset P10327, that the land is part of a particular parcel, or that the location lies within a statistical area. Those meanings come from other records and institutions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Mobile field GIS combined measured positions with existing asset and observation records. Vector’s crews did not use GPS as a substitute for the electricity-network database. They used position alongside asset maps, pole numbers, addresses and cable connectivity. At Taiaroa Head, GPS did not replace decades of albatross breeding observations. It helped give those observations reliable spatial relationships. In precision farming, DGPS did not decide where fertiliser was needed. It allowed a machine and its data to act on a location chosen through other measurements and analysis.",
+      "markdown": "Mobile field GIS combined measured positions with existing asset and observation records. Vector’s crews did not use GPS as a substitute for the electricity-network database. They used position alongside asset maps, pole numbers, addresses and cable connectivity. At Taiaroa Head, GPS did not replace decades of albatross breeding observations. It helped give those observations reliable spatial relationships. In precision farming, DGPS did not decide where fertiliser was needed. It allowed a machine and its data to act on a location chosen through other measurements and analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Direct coordinate capture still required mapping judgement. The antenna might be at the gate while the feature being described was the house. A user might stand safely beside a road rather than on the centreline being updated. A utility asset could be underground and inferred from other evidence. GIS still needed a data model that stated what the coordinate represented.",
+      "markdown": "Direct coordinate capture still required mapping judgement. The antenna might be at the gate while the feature being described was the house. A user might stand safely beside a road rather than on the centreline being updated. A utility asset could be underground and inferred from other evidence. GIS still needed a data model that stated what the coordinate represented.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

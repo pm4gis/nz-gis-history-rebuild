@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0011",
+  "a": "entity:aerial-surveys",
+  "b": "chapter:37",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

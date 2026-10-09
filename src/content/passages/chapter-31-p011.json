@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-31-934c71685f",
+  "slug": "maps-inside-other-websites-934c71685f",
+  "articleId": "article:chapter-31",
+  "title": "Maps inside other websites",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Google Maps API pushed the same idea into web development. A website could place its own locations or thematic information on top of a familiar map without building the whole navigation, basemap and rendering environment from scratch. The period called these combinations “mashups”, a term that captured the improvisational character of the early web. A developer could take data from one source, a map from another and create a new public service.",
+      "markdown": "The Google Maps API pushed the same idea into web development. A website could place its own locations or thematic information on top of a familiar map without building the whole navigation, basemap and rendering environment from scratch. The period called these combinations “mashups”, a term that captured the improvisational character of the early web. A developer could take data from one source, a map from another and create a new public service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The barrier to putting an interactive map inside a website had fallen. Organisations that would never have funded a dedicated GIS viewer could add location to directories, tourism sites, property services, event pages and other applications.",
+      "markdown": "The barrier to putting an interactive map inside a website had fallen. Organisations that would never have funded a dedicated GIS viewer could add location to directories, tourism sites, property services, event pages and other applications.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This broadened the group of people who could make maps. GIS professionals remained important where data quality, spatial analysis, coordinate systems or authoritative information were involved, but they were no longer the only people capable of putting an interactive map online. Web developers could treat mapping as one component among many.",
+      "markdown": "This broadened the group of people who could make maps. GIS professionals remained important where data quality, spatial analysis, coordinate systems or authoritative information were involved, but they were no longer the only people capable of putting an interactive map online. Web developers could treat mapping as one component among many.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

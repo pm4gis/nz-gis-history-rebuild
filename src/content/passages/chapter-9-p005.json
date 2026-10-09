@@ -1,0 +1,56 @@
+{
+  "id": "passage:chapter-9-94bf81a964",
+  "slug": "rebuilding-the-geological-map-94bf81a964",
+  "articleId": "article:chapter-9",
+  "title": "Rebuilding the geological map",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9",
+    "entity:vector",
+    "person:david-heron",
+    "person:belinda-smith-lyttle",
+    "person:greg-drummond",
+    "person:mark-rattenbury",
+    "person:mike-isaac",
+    "person:philip-carthew",
+    "person:biljana-lukovic",
+    "person:jeff-lyall",
+    "person:ben-morrison",
+    "person:penny-murray"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "QMAP began in 1994 with compilation of the Dunedin sheet. By the time the twenty-first sheet completed the series, the project had run for nearly eighteen years and cost about NZ$24 million. GIS supported data capture, management and map production. The result was a replacement map series and an attribute-rich, nationally consistent spatial database built from new fieldwork, earlier maps, unpublished research and revised geological interpretation.",
+      "markdown": "QMAP began in 1994 with compilation of the Dunedin sheet. By the time the twenty-first sheet completed the series, the project had run for nearly eighteen years and cost about NZ$24 million. GIS supported data capture, management and map production. The result was a replacement map series and an attribute-rich, nationally consistent spatial database built from new fieldwork, earlier maps, unpublished research and revised geological interpretation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The production team is unusually well documented. Mark Rattenbury and Mike Isaac's project history names Philip Carthew, Greg Drummond, David Heron, Biljana Lukovic, Jeff Lyall, Ben Morrison, Penny Murray and Belinda Smith Lyttle among those providing text production, GIS and cartography. Universities supplied thesis and unpublished mapping, while NIWA supplied offshore data. Digital image products were being released from 2004 and vector GIS products from 2006. By 2012 QMAP data could also be consumed through web map services, so a programme conceived as a national map series had become a reusable national data service.",
+      "markdown": "The production team is unusually well documented. Mark Rattenbury and Mike Isaac's project history names Philip Carthew, Greg Drummond, David Heron, Biljana Lukovic, Jeff Lyall, Ben Morrison, Penny Murray and Belinda Smith Lyttle among those providing text production, GIS and cartography. Universities supplied thesis and unpublished mapping, while NIWA supplied offshore data. Digital image products were being released from 2004 and vector GIS products from 2006. By 2012 QMAP data could also be consumed through web map services, so a programme conceived as a national map series had become a reusable national data service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Fieldwork remained at the beginning of the process. Geologists still examined rock exposures, structures, landforms and relationships between units. They used previous maps, reports, photographs and other observations to decide how the geology should be interpreted across areas where the rocks were not continuously visible. GIS did not decide where a fault ran through covered ground or which formation best explained a sequence of outcrops. It held the interpretation after that judgement had been made and allowed the linework and descriptions to be managed more systematically.",
+      "markdown": "Fieldwork remained at the beginning of the process. Geologists still examined rock exposures, structures, landforms and relationships between units. They used previous maps, reports, photographs and other observations to decide how the geology should be interpreted across areas where the rocks were not continuously visible. GIS did not decide where a fault ran through covered ground or which formation best explained a sequence of outcrops. It held the interpretation after that judgement had been made and allowed the linework and descriptions to be managed more systematically.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A geological map contains several linked kinds of information. A coloured polygon represents a geological unit, but the map also records contacts, faults, folds, point observations and other structural information. Descriptions identify age, rock type and relationships between units. In a paper series much of that information is compressed into the sheet, legend and accompanying text. In GIS the geometry and descriptive records can be maintained separately from the cartographic layout used for one publication.",
+      "markdown": "A geological map contains several linked kinds of information. A coloured polygon represents a geological unit, but the map also records contacts, faults, folds, point observations and other structural information. Descriptions identify age, rock type and relationships between units. In a paper series much of that information is compressed into the sheet, legend and accompanying text. In GIS the geometry and descriptive records can be maintained separately from the cartographic layout used for one publication.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That separation changed revision work. Correcting a geological boundary in a maintained dataset could feed later maps and analyses without redrawing every product built from the same information. A researcher interested in one formation could select its mapped extent directly. Another could combine the geology with elevation, geochemistry, mineral occurrences or other spatial evidence. The published sheet remained a useful scientific summary, but it was no longer the only durable form of the mapping.",
+      "markdown": "That separation changed revision work. Correcting a geological boundary in a maintained dataset could feed later maps and analyses without redrawing every product built from the same information. A researcher interested in one formation could select its mapped extent directly. Another could combine the geology with elevation, geochemistry, mineral occurrences or other spatial evidence. The published sheet remained a useful scientific summary, but it was no longer the only durable form of the mapping.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

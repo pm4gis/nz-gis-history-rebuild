@@ -1,0 +1,31 @@
+{
+  "id": "person:georgina-te-heuheu",
+  "slug": "georgina-te-heuheu",
+  "name": "Georgina te Heuheu",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/georgina-te-heuheu/",
+  "story": [
+    "As Courts Minister, Georgina te Heuheu officially launched the Māori Land Court GIS Project on 4 March 2011. The release documents the portal’s geospatial Māori land information, public search and download functions, te reo Māori view and use of Google technology with LINZ information."
+  ],
+  "sources": [
+    {
+      "label": "Beehive, GIS launch heralds new era, 4 March 2011",
+      "url": "https://www.beehive.govt.nz/release/gis-launch-heralds-new-era"
+    }
+  ],
+  "aliases": [
+    "Georgina te Heuheu"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Beehive, GIS launch heralds new era, 4 March 2011",
+        "url": "https://www.beehive.govt.nz/release/gis-launch-heralds-new-era"
+      }
+    ]
+  ]
+}

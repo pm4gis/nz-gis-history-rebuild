@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-9-5cfbbbf632",
+  "slug": "shared-scientific-infrastructure-5cfbbbf632",
+  "articleId": "article:chapter-9",
+  "title": "Shared scientific infrastructure",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Geologists, ecologists and hydrologists used GIS in ways suited to their disciplines. Geology relied heavily on interpreted polygons, structural features and field compilation. Ecology used geographic frameworks to relate observations and inventories across the landscape. Hydrology needed networks, catchments and measurements that changed through time. Landscape classification used national environmental data to generate new spatial categories through repeatable procedures.",
+      "markdown": "Geologists, ecologists and hydrologists used GIS in ways suited to their disciplines. Geology relied heavily on interpreted polygons, structural features and field compilation. Ecology used geographic frameworks to relate observations and inventories across the landscape. Hydrology needed networks, catchments and measurements that changed through time. Landscape classification used national environmental data to generate new spatial categories through repeatable procedures.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Their systems nevertheless shared a growing set of requirements. Data needed coordinates, documented classifications, maintainable attributes and a way to move between analytical software and cartographic output. Scientists needed to know scale, source, date and uncertainty. Organisations needed to preserve both the files and enough institutional knowledge to make them usable after staff or software changed.",
+      "markdown": "Their systems nevertheless shared a growing set of requirements. Data needed coordinates, documented classifications, maintainable attributes and a way to move between analytical software and cartographic output. Scientists needed to know scale, source, date and uncertainty. Organisations needed to preserve both the files and enough institutional knowledge to make them usable after staff or software changed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Scientists used commercial GIS alongside their research methods during the 1990s. Arc/Info could store a geological unit or a river network because scientists had already decided what the feature represented and how it should be classified. ArcView could display model results because the modelling work had produced values tied to locations. The software made it easier to compare information held in maps, tables and reports.",
+      "markdown": "Scientists used commercial GIS alongside their research methods during the 1990s. Arc/Info could store a geological unit or a river network because scientists had already decided what the feature represented and how it should be classified. ArcView could display model results because the modelling work had produced values tied to locations. The software made it easier to compare information held in maps, tables and reports.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the early 2000s a national geological map series could be maintained as digital data, ecological frameworks could organise several scientific inventories, catchment research could join spatial and time-series information, and national landscapes could be classified through repeatable GIS procedures. Scientific mapping was becoming less dependent on one final sheet as the permanent home of the information. The next stage of the history follows the same tools into government organisations, where spatial data were increasingly used for administration, regulation, services and everyday operational work.",
+      "markdown": "By the early 2000s a national geological map series could be maintained as digital data, ecological frameworks could organise several scientific inventories, catchment research could join spatial and time-series information, and national landscapes could be classified through repeatable GIS procedures. Scientific mapping was becoming less dependent on one final sheet as the permanent home of the information. The next stage of the history follows the same tools into government organisations, where spatial data were increasingly used for administration, regulation, services and everyday operational work.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "person:fran-mcnamara",
+  "slug": "fran-mcnamara",
+  "name": "Fran McNamara",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/fran-mcnamara/",
+  "story": [
+    "A caption in Landlink, Issue 8 (May 1999), names Fran McNamara as a member of the front row in a team photograph accompanying “LINZ first in mapping”. The article says the pictured team received plaques for contributions to establishing the New Zealand Topographic Digital Database and dates the four-year project to 1995 with LINZ’s predecessor DOSLI.",
+    "Geoff Howard, Graeme Blick and Fran McNamara described another production change in 2009. The named specialists worked alongside cartographers, photogrammetrists, conversion operators and database staff who kept the national series running."
+  ],
+  "sources": [
+    {
+      "label": "Landlink, Issue 8 (May 1999), page 1, “LINZ first in mapping” (scan provided by Nathan Heazlewood)",
+      "url": "/assets/images/landlink-1999-topographic-database.jpg"
+    },
+    {
+      "label": "Chapter 15 · People behind the database",
+      "url": "/stories/topography-goes-digital/"
+    }
+  ],
+  "aliases": [
+    "Fran McNamara"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Landlink, Issue 8 (May 1999), page 1, “LINZ first in mapping” (scan provided by Nathan Heazlewood)",
+        "url": "/assets/images/landlink-1999-topographic-database.jpg"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 15 · People behind the database",
+        "url": "/stories/topography-goes-digital/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "DOSLI history and photo gallery",
+      "url": "/entities/department-of-survey-and-land-information-dosli/"
+    }
+  ]
+}

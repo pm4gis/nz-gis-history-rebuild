@@ -1,0 +1,26 @@
+{
+  "id": "entity:ministry-for-primary-industries",
+  "slug": "ministry-for-primary-industries",
+  "name": "Ministry for Primary Industries",
+  "kind": "Business",
+  "category": "Central government",
+  "url": "/entities/ministry-for-primary-industries/",
+  "website": null,
+  "story": [
+    "The Ministry for Primary Industries used GIS in biosecurity and primary-industry programmes. The 2017 New Zealand Esri User Conference records Alysia Barnes presenting Survey123 for monitoring kauri dieback, showing mobile GIS inside an operational biosecurity workflow."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Ministry for Primary Industries"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

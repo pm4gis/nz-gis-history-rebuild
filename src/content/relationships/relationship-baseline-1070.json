@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1070",
+  "a": "person:junior-lee-chee",
+  "b": "entity:new-zealand-esri-users-group",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

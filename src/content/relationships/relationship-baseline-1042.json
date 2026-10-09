@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1042",
+  "a": "person:trevor-hart",
+  "b": "entity:eagle-technology",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "entity:maori-land-court",
+  "slug": "maori-land-court",
+  "name": "Māori Land Court",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/maori-land-court/",
+  "website": null,
+  "story": [
+    "The Court’s land records connect survey plans, titles, ownership and partitions with later digital access. Māori Land Online and geographic services provided new ways to locate information, while understanding the record still required attention to the land’s legal and historical context. The history follows the relationship between the underlying record and the maps used to find it.",
+    "In April 2002 the Court completed a major stage of the Māori Land Information System (MLIS), a networked computerised index of Māori land title and ownership information. The government record also documents digitised historic records, Māori Land Online under development, and a GIS being built to link with MLIS and display Māori land in map form.",
+    "The Māori Land Court GIS Project was officially launched on 4 March 2011. The public portal supplied geospatial information for Māori land blocks, supported searching and downloading, could be viewed in te reo Māori, and was designed so additional information layers could be added over time."
+  ],
+  "sources": [
+    {
+      "label": "Beehive, GIS launch heralds new era",
+      "url": "https://www.beehive.govt.nz/release/gis-launch-heralds-new-era"
+    },
+    {
+      "label": "Beehive, Māori Land Court changes deliver a world first, 16 April 2002",
+      "url": "https://www.beehive.govt.nz/release/m%C3%A4ori-land-court-changes-deliver-world-first"
+    }
+  ],
+  "aliases": [
+    "Māori Land Court"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

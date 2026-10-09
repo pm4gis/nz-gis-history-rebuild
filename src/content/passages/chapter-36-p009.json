@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-36-0cf3a2b449",
+  "slug": "pixels-become-data-0cf3a2b449",
+  "articleId": "article:chapter-36",
+  "title": "Pixels become data",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36",
+    "entity:university-of-waikato",
+    "person:nam-thang-ha"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2010s New Zealand earth-observation work increasingly treated images as inputs to repeatable data production. LUCAS provides a national example. Coastal research provides a more specialised one. Nam-Thang Ha’s 2021 University of Waikato doctoral work examined seagrass dynamics and above-ground biomass in Tauranga Harbour using Landsat and Sentinel imagery, GIS and machine-learning methods. The research combined observations through time rather than treating a satellite image as a static background map.",
+      "markdown": "By the 2010s New Zealand earth-observation work increasingly treated images as inputs to repeatable data production. LUCAS provides a national example. Coastal research provides a more specialised one. Nam-Thang Ha’s 2021 University of Waikato doctoral work examined seagrass dynamics and above-ground biomass in Tauranga Harbour using Landsat and Sentinel imagery, GIS and machine-learning methods. The research combined observations through time rather than treating a satellite image as a static background map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The mature workflow is worth distinguishing from the early idea of simply viewing an image. Raw sensor measurements may first be corrected and geometrically aligned. Bands can then be displayed as natural or false-colour composites, transformed into indices or passed into classification and modelling processes. The resulting output might be a categorical land-cover layer, an estimate, a probability surface or a change map. By the time the output appears in GIS, the original satellite measurement may be several analytical steps behind the product the user actually works with.",
+      "markdown": "The mature workflow is worth distinguishing from the early idea of simply viewing an image. Raw sensor measurements may first be corrected and geometrically aligned. Bands can then be displayed as natural or false-colour composites, transformed into indices or passed into classification and modelling processes. The resulting output might be a categorical land-cover layer, an estimate, a probability surface or a change map. By the time the output appears in GIS, the original satellite measurement may be several analytical steps behind the product the user actually works with.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That chain introduces opportunities for error as well as capability. A land-cover polygon is not true merely because it was derived from a satellite. A machine-learning classification can be wrong in consistent and convincing ways. A time-series trend can reflect inconsistent cloud masking or seasonal timing. A national dataset therefore needs metadata explaining the image dates, methods, classes and accuracy, and users still need to know whether the product is fit for their question. Earth observation became routine partly because these processing chains became easier to repeat. It became dependable only where those chains remained controlled.",
+      "markdown": "That chain introduces opportunities for error as well as capability. A land-cover polygon is not true merely because it was derived from a satellite. A machine-learning classification can be wrong in consistent and convincing ways. A time-series trend can reflect inconsistent cloud masking or seasonal timing. A national dataset therefore needs metadata explaining the image dates, methods, classes and accuracy, and users still need to know whether the product is fit for their question. Earth observation became routine partly because these processing chains became easier to repeat. It became dependable only where those chains remained controlled.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

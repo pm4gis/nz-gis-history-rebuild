@@ -1,0 +1,35 @@
+{
+  "id": "person:richard-williams",
+  "slug": "richard-williams",
+  "name": "Richard Williams",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/richard-williams/",
+  "story": [
+    "Richard Williams, James Brasington, Damià Vericat and Murray Hicks combined mobile terrestrial laser scanning with aerial photography and optical bathymetric mapping over a Rees River braided reach in research published in 2014. Their work assembled more than five billion survey observations into detailed terrain information. Processing, storing and analysing billions of points required methods suited to the size and structure of the survey data."
+  ],
+  "sources": [
+    {
+      "label": "Richard Williams | Earth Sciences New Zealand | NIWA · public profile",
+      "url": "https://niwa.co.nz/people/richard-williams"
+    },
+    {
+      "label": "Chapter 39 · Point clouds become normal",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Richard Williams"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 39 · Point clouds become normal",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

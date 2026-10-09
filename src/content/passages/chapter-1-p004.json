@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-1-80f8ea6518",
+  "slug": "national-sheets-80f8ea6518",
+  "articleId": "article:chapter-1",
+  "title": "National sheets",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:1"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Topographic mapping supplied another major inheritance. New Zealand had topographic maps long before the national NZMS1 series, but the series created a more systematic one-mile-to-the-inch framework for national coverage. The first NZMS1 sheet, Napier and Hastings N134, was published in March 1939.",
+      "markdown": "Topographic mapping supplied another major inheritance. New Zealand had topographic maps long before the national NZMS1 series, but the series created a more systematic one-mile-to-the-inch framework for national coverage. The first NZMS1 sheet, Napier and Hastings N134, was published in March 1939.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Second World War interrupted ordinary production and redirected mapping capacity towards defence. Detailed fortress-area maps, aerial photography, field survey and existing control were combined under practical time pressure. Lands and Survey used whatever production methods were available, including plane-table work, vertical photography and stereoscopic instruments when planned equipment could not be obtained. The wartime system was a hybrid production sequence in which older survey and draughting methods were combined with newer imagery.",
+      "markdown": "The Second World War interrupted ordinary production and redirected mapping capacity towards defence. Detailed fortress-area maps, aerial photography, field survey and existing control were combined under practical time pressure. Lands and Survey used whatever production methods were available, including plane-table work, vertical photography and stereoscopic instruments when planned equipment could not be obtained. The wartime system was a hybrid production sequence in which older survey and draughting methods were combined with newer imagery.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "After the war, national topographic coverage became an increasingly standard reference for other work. Roads, rivers, settlements, contours, coastlines and named features supplied a common geographic backdrop to engineering, science, planning and administration. Place-name work helped regularise the labels carried by those maps, while survey control supported the geometry underneath them. When later digital mapping systems needed national base information, much of the content had already been selected, generalised and maintained through this paper-series tradition.",
+      "markdown": "After the war, national topographic coverage became an increasingly standard reference for other work. Roads, rivers, settlements, contours, coastlines and named features supplied a common geographic backdrop to engineering, science, planning and administration. Place-name work helped regularise the labels carried by those maps, while survey control supported the geometry underneath them. When later digital mapping systems needed national base information, much of the content had already been selected, generalised and maintained through this paper-series tradition.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The sheets also carried the limitations of their scale and purpose. A road centreline suitable for a national topographic map was not a cadastral boundary, and a contour was an interpreted representation of terrain rather than a directly surveyed line at every point. Displaying different sources together required users to understand their scale, purpose and accuracy. Similar-looking lines could represent very different evidence.",
+      "markdown": "The sheets also carried the limitations of their scale and purpose. A road centreline suitable for a national topographic map was not a cadastral boundary, and a contour was an interpreted representation of terrain rather than a directly surveyed line at every point. Displaying different sources together required users to understand their scale, purpose and accuracy. Similar-looking lines could represent very different evidence.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

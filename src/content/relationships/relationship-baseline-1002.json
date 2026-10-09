@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1002",
+  "a": "person:mike-donald",
+  "b": "entity:terralink",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

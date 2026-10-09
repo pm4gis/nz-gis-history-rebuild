@@ -1,0 +1,26 @@
+{
+  "id": "entity:wellington-city-council",
+  "slug": "wellington-city-council",
+  "name": "Wellington City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/wellington-city-council/",
+  "website": "https://www.wcc.govt.nz",
+  "story": [
+    "Wellington City Council’s official GIS metadata records City Mapping data captured in 1987–96 and completely recaptured from stereopair aerial photographs in 1996 for a new GIS. Later aerial surveys refreshed the imagery and base data."
+  ],
+  "sources": [
+    {
+      "label": "Wellington City Council, Metadata information for Geographic Information Systems Data, Wellington City Kerbs / historical City Mapping lineage",
+      "url": "https://wellington.govt.nz/~/media/maps/gis/gis-data-metadata.pdf"
+    }
+  ],
+  "aliases": [
+    "Wellington City Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

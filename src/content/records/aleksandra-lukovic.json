@@ -1,0 +1,42 @@
+{
+  "id": "person:aleksandra-lukovic",
+  "slug": "aleksandra-lukovic",
+  "name": "Aleksandra Lukovic",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/aleksandra-lukovic/",
+  "story": [
+    "Aleksandra Lukovic is credited with digital capture for GNS Science’s 1:1 million Geological Map of New Zealand, alongside the map’s geological compilers and GIS cartographer.",
+    "Maureen Coomer, Aleksandra Lukovic, Belinda Smith Lyttle and Delia Strong are explicitly credited with digital capture in later national geology metadata. These credits refer to later national geology metadata; the contributors to the first QMAP sheets require separate identification."
+  ],
+  "sources": [
+    {
+      "label": "GNS Science, 1:1 million Geological Map service: compilation and digital-production credits",
+      "url": "https://gis.gns.cri.nz/server/rest/services/Geological_Map_of_New_Zealand_1_Million/NZL_GNS_1M_geology_FeatureService/FeatureServer"
+    },
+    {
+      "label": "Chapter 9 · Field geology into digital production",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Aleksandra Lukovic"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "GNS Science, 1:1 million Geological Map service: compilation and digital-production credits",
+        "url": "https://gis.gns.cri.nz/server/rest/services/Geological_Map_of_New_Zealand_1_Million/NZL_GNS_1M_geology_FeatureService/FeatureServer"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · Field geology into digital production",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "entity:boffa-miskell",
+  "slug": "boffa-miskell",
+  "name": "Boffa Miskell",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/boffa-miskell/",
+  "website": null,
+  "story": [
+    "Boffa Miskell used GIS in planning, biosecurity and environmental management. Published project material documents field verification and dashboards for Wellington’s character-area review, and 3D web GIS and UAV-supported workflows for invasive-conifer control."
+  ],
+  "sources": [
+    {
+      "label": "Boffa Miskell, Engagement innovations win awards",
+      "url": "https://www.boffamiskell.co.nz/news-insights/engagement-innovations-win-awards"
+    },
+    {
+      "label": "Boffa Miskell, Leveraging GIS technology to combat invasive conifers",
+      "url": "https://www.boffamiskell.co.nz/news-insights/leveraging-gis-technology-to-combat-invasive-conifers"
+    }
+  ],
+  "aliases": [
+    "Boffa Miskell"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

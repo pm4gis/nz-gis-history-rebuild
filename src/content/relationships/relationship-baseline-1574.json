@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1574",
+  "a": "person:j-woodham",
+  "b": "chapter:27",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-27-4b1fb43cf4"
+  ],
+  "sources": []
+}

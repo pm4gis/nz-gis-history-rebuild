@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0351",
+  "a": "person:hauiti-hakopa",
+  "b": "chapter:35",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-35-71de0c0d83"
+  ],
+  "sources": []
+}

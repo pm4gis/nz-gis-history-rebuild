@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-34-c12236e936",
+  "slug": "responsibility-for-field-edits-c12236e936",
+  "articleId": "article:chapter-34",
+  "title": "Responsibility for field edits",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Once field staff could update mapped records directly, authority over changes to the organisation’s version of the truth had to be made explicit. In a paper workflow the delay between field note and database entry often created an informal review point. Someone in the office interpreted the note, checked the identifier and decided how it should alter the corporate record. Mobile GIS could shorten that path to minutes. That was efficient, but it meant authority had to be designed deliberately rather than inherited from the old process.",
+      "markdown": "Once field staff could update mapped records directly, authority over changes to the organisation’s version of the truth had to be made explicit. In a paper workflow the delay between field note and database entry often created an informal review point. Someone in the office interpreted the note, checked the identifier and decided how it should alter the corporate record. Mobile GIS could shorten that path to minutes. That was efficient, but it meant authority had to be designed deliberately rather than inherited from the old process.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Different organisations solved the problem in different ways. Some field edits could be accepted immediately because the worker was the person responsible for maintaining that asset or observation. Other changes needed approval, especially where geometry affected legal, engineering, regulatory or public-facing information. Mobile systems therefore developed alongside user roles, edit permissions, validation rules and review queues. The field device might make changing a feature easy, but the organisation still had to decide whether ease of editing and authority to edit were the same thing.",
+      "markdown": "Different organisations solved the problem in different ways. Some field edits could be accepted immediately because the worker was the person responsible for maintaining that asset or observation. Other changes needed approval, especially where geometry affected legal, engineering, regulatory or public-facing information. Mobile systems therefore developed alongside user roles, edit permissions, validation rules and review queues. The field device might make changing a feature easy, but the organisation still had to decide whether ease of editing and authority to edit were the same thing.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was particularly important where local knowledge and central databases disagreed. The person standing beside a track, pole, culvert or monitoring site could see something that the office record had missed, but the database might also contain information from surveys, legal records or other systems that was not visible in the field. Good mobile workflows had to preserve both the immediacy of local correction and the discipline of organisational records. Mobile workflows made the exchange between field knowledge and the central database faster and more explicit.",
+      "markdown": "This was particularly important where local knowledge and central databases disagreed. The person standing beside a track, pole, culvert or monitoring site could see something that the office record had missed, but the database might also contain information from surveys, legal records or other systems that was not visible in the field. Good mobile workflows had to preserve both the immediacy of local correction and the discipline of organisational records. Mobile workflows made the exchange between field knowledge and the central database faster and more explicit.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same issue helped move GIS work towards application design. A field application could decide which fields were editable, which values were allowed, when a photograph was required, whether a geometry change was permitted and what happened after submission. Those choices encoded organisational policy into the interface. By the late 2010s, much of the sophistication of mobile GIS was no longer visible as a map function at all. It sat in the permissions, forms and workflow rules that determined what happened to the information after the user pressed submit.",
+      "markdown": "The same issue helped move GIS work towards application design. A field application could decide which fields were editable, which values were allowed, when a photograph was required, whether a geometry change was permitted and what happened after submission. Those choices encoded organisational policy into the interface. By the late 2010s, much of the sophistication of mobile GIS was no longer visible as a map function at all. It sat in the permissions, forms and workflow rules that determined what happened to the information after the user pressed submit.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

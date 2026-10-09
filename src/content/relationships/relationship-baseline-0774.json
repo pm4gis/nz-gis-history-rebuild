@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0774",
+  "a": "person:peter-whigham",
+  "b": "chapter:39",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-39-f305bc5792"
+  ],
+  "sources": []
+}

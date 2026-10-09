@@ -1,0 +1,67 @@
+{
+  "id": "person:kat-salm",
+  "slug": "kat-salm",
+  "name": "Kat Salm",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kat-salm/",
+  "story": [
+    "A 2019 Geospatial Research Institute seminar described Kat Salm’s work across government, industry and research/education in New Zealand. She presented findings from a survey of women in the spatial industry; the seminar notice records her 2018 New Zealand Spatial Excellence Award for Women’s Leadership and a 2019 Asia-Pacific Spatial Excellence Award. The institute’s 2021–22 report later listed her as a board member and Business Development Manager at FrontierSI.",
+    "In 2019 the Geospatial Research Institute hosted Dr Kat Salm to present findings from a survey of women in the New Zealand spatial industry; the institute also recorded her 2018 New Zealand Spatial Excellence Award for Women’s Leadership and a 2019 Asia-Pacific Spatial Excellence Award. ",
+    "LINZ’s 2026 Geospatial Capability Committee material lists Kat Salm in Survey & Spatial NZ Spatial Stream representative; Geospatial Capability Committee.."
+  ],
+  "sources": [
+    {
+      "label": "Geospatial Research Institute Toi Hangarau, seminar with Kat Salm, 25 October 2019",
+      "url": "https://geospatial.ac.nz/seminar-25-october-2019-women-in-spatial-and-frontiersi/"
+    },
+    {
+      "label": "Geospatial Research Institute Toi Hangarau, Annual Report 2021–22",
+      "url": "https://geospatial.ac.nz/wp-content/uploads/2024/05/GRI_-Report-2021-2022.pdf"
+    },
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    },
+    {
+      "label": "Chapter 29 · New professional networks",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Kat Salm"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Geospatial Research Institute Toi Hangarau, seminar with Kat Salm, 25 October 2019",
+        "url": "https://geospatial.ac.nz/seminar-25-october-2019-women-in-spatial-and-frontiersi/"
+      },
+      {
+        "label": "Geospatial Research Institute Toi Hangarau, Annual Report 2021–22",
+        "url": "https://geospatial.ac.nz/wp-content/uploads/2024/05/GRI_-Report-2021-2022.pdf"
+      },
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · New professional networks",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ]
+  ]
+}

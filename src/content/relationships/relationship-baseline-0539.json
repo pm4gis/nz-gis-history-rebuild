@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0539",
+  "a": "person:harley-prowse",
+  "b": "chapter:32",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-32-3460d584f6"
+  ],
+  "sources": []
+}

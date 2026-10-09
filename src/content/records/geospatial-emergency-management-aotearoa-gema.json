@@ -1,0 +1,30 @@
+{
+  "id": "entity:geospatial-emergency-management-aotearoa-gema",
+  "slug": "geospatial-emergency-management-aotearoa-gema",
+  "name": "Geospatial Emergency Management Aotearoa (GEMA)",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/geospatial-emergency-management-aotearoa-gema/",
+  "website": null,
+  "story": [
+    "GEMA connected geospatial and emergency-management practitioners in a voluntary cross-sector network. Its public profile describes knowledge-sharing and capability across emergency-management work. Such connections supported people who needed to collaborate across organisations when geographic information had to be assembled and used quickly.",
+    "LINZ lists GEMA among New Zealand’s geospatial groups. The association describes emergency management through reduction, readiness, response and recovery, placing location information and shared methods across the disaster-management cycle."
+  ],
+  "sources": [
+    {
+      "label": "Geospatial Emergency Management Aotearoa public profile",
+      "url": "https://hub.gema.nz/"
+    },
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "Geospatial Emergency Management Aotearoa (GEMA)"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

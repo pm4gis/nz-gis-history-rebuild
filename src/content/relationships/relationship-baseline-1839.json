@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1839",
+  "a": "person:anselm-haanen",
+  "b": "chapter:14",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-14-67de02c526"
+  ],
+  "sources": []
+}

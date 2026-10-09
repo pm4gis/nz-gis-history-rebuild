@@ -1,0 +1,54 @@
+{
+  "id": "person:stuart-halliday",
+  "slug": "stuart-halliday",
+  "name": "Stuart Halliday",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/stuart-halliday/",
+  "story": [
+    "Stuart Halliday’s published CV records service as Bay of Plenty Regional Council GIS Team Leader from November 1992 to July 2003, including establishing the GIS, writing strategy and integrating spatial and textual databases. He contributed to the 2003 national cartography report, which describes the council’s separate cartography section established in 1998.",
+    "Stuart Halliday later recorded that he became GIS Team Leader at the Bay of Plenty Regional Council in November 1992 and stayed until July 2003, establishing and implementing the council GIS, writing strategy, supervising three staff and integrating spatial and textual databases. A 2003 national report on New Zealand cartography, to which Halliday contributed, shows that the council did not treat every map-making task as GIS work. In 1998 it created a separate cartography section after deciding that GIS analysis and specialist map production required different skills. CorelDraw, Illustrator and Freehand remained part of the cartographic toolset, supplemented by GIS, CAD and remote-sensing software."
+  ],
+  "sources": [
+    {
+      "label": "Stuart L. Halliday curriculum vitae reproduced as exhibit in Ngāti Pāhauwera affidavit material",
+      "url": "https://www.whakatau.govt.nz/assets/Treaty-Settlements/FIND_Treaty_Settlements/Ngati-Pahauwera/Ngati-Pahauwera-Affidavits-1-of-4-PDF20MB.pdf"
+    },
+    {
+      "label": "New Zealand Cartographic Society, Cartographic Activities in New Zealand 1999-2003, National Report to 12th ICA General Assembly",
+      "url": "https://icaci.org/files/documents/national_reports/1999-2003/NewZealand.pdf"
+    },
+    {
+      "label": "Stuart Halliday - Geospatial Solutions Ltd | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/stuart-halliday-25a48552"
+    },
+    {
+      "label": "Chapter 22 · Desktop costs",
+      "url": "/stories/gis-comes-to-the-desktop/"
+    }
+  ],
+  "aliases": [
+    "Stuart Halliday"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Stuart L. Halliday curriculum vitae reproduced as exhibit in Ngāti Pāhauwera affidavit material",
+        "url": "https://www.whakatau.govt.nz/assets/Treaty-Settlements/FIND_Treaty_Settlements/Ngati-Pahauwera/Ngati-Pahauwera-Affidavits-1-of-4-PDF20MB.pdf"
+      },
+      {
+        "label": "New Zealand Cartographic Society, Cartographic Activities in New Zealand 1999-2003, National Report to 12th ICA General Assembly",
+        "url": "https://icaci.org/files/documents/national_reports/1999-2003/NewZealand.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 22 · Desktop costs",
+        "url": "/stories/gis-comes-to-the-desktop/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:brendon-woodford",
+  "slug": "brendon-woodford",
+  "name": "Brendon Woodford",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/brendon-woodford/",
+  "story": [
+    "Brendon Woodford is a University of Otago computing researcher and teacher whose interests include machine learning, knowledge engineering, health informatics and information-systems development. His doctoral work, completed in 2008, examined intelligent decision-support systems for New Zealand horticulture. His research has included neural networks, fuzzy systems, image recognition and data visualisation, followed by applications in health data analytics.",
+    "Michael Joy's 2003 doctoral research at Massey University used GIS and neural-network predictive modelling for river biological assessment, while Brendon Woodford's SIRC work in 2005 and 2008 examined machine learning and rule extraction from spatial data."
+  ],
+  "sources": [
+    {
+      "label": "Brendon Woodford · career/profile reference",
+      "url": "https://www.otago.ac.nz/school-of-computing/our-people/brendon-woodford"
+    },
+    {
+      "label": "Chapter 44 · AI before the boom",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Brendon Woodford"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Brendon Woodford · career/profile reference",
+        "url": "https://www.otago.ac.nz/school-of-computing/our-people/brendon-woodford"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · AI before the boom",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

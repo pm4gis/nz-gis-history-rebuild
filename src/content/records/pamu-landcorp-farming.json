@@ -1,0 +1,30 @@
+{
+  "id": "entity:pamu-landcorp-farming",
+  "slug": "pamu-landcorp-farming",
+  "name": "Pāmu / Landcorp Farming",
+  "kind": "Business",
+  "category": "Government",
+  "url": "/entities/pamu-landcorp-farming/",
+  "website": null,
+  "story": [
+    "Pāmu used enterprise and field GIS for farm operations and asset decisions. Eagle’s published case records ArcGIS Online and Survey123 supporting winter-grazing decisions, while conference material records wider natural and built asset-management use."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, Pāmu and Esri help solve winter grazing challenges",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/p%C4%81mu-and-esri-help-solve-winter-grazing-challenges"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    }
+  ],
+  "aliases": [
+    "Pāmu / Landcorp Farming"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

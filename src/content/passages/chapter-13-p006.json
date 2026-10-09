@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-13-31b499bdf2",
+  "slug": "accuracy-and-continuity-31b499bdf2",
+  "articleId": "article:chapter-13",
+  "title": "Accuracy and continuity",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The weakest part of a paper cadastral record map could become the most misleading part of the digital system because the screen removed many of the visual clues about its origin. Record maps had been compiled at very different scales. LINZ’s later accuracy guidance gives a range from roughly 1:400 in dense urban areas to 1:50,000 in remote rural areas. At 1:50,000, a plotting displacement of only one millimetre on the map represents about fifty metres on the ground. A crisp digital line could therefore carry an uncertainty much larger than its appearance implied. Zooming in made the line bigger while leaving the nineteenth- or twentieth-century evidence underneath it unchanged.",
+      "markdown": "The weakest part of a paper cadastral record map could become the most misleading part of the digital system because the screen removed many of the visual clues about its origin. Record maps had been compiled at very different scales. LINZ’s later accuracy guidance gives a range from roughly 1:400 in dense urban areas to 1:50,000 in remote rural areas. At 1:50,000, a plotting displacement of only one millimetre on the map represents about fifty metres on the ground. A crisp digital line could therefore carry an uncertainty much larger than its appearance implied. Zooming in made the line bigger while leaving the nineteenth- or twentieth-century evidence underneath it unchanged.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Digitising preserved much of that inherited positional error and could add a little more. The operator had to locate the paper line with a cursor, register the sheet correctly and work with whatever generalisation, distortion or compilation error was already present. More decimal places in the stored coordinates did not add more truth. Computers are particularly good at giving weak source material a very tidy haircut.",
+      "markdown": "Digitising preserved much of that inherited positional error and could add a little more. The operator had to locate the paper line with a cursor, register the sheet correctly and work with whatever generalisation, distortion or compilation error was already present. More decimal places in the stored coordinates did not add more truth. Computers are particularly good at giving weak source material a very tidy haircut.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The national database nevertheless could be topologically complete. Parcel polygons could close, shared boundaries could connect and the system could know which parcels sat next to one another. That kind of structural consistency is useful for indexing, GIS overlay, property administration and data distribution. Survey accuracy instead concerns where the boundary lies in relation to survey marks, observations, bearings, distances and the legal survey record. The two ideas overlap, but they are not interchangeable.",
+      "markdown": "The national database nevertheless could be topologically complete. Parcel polygons could close, shared boundaries could connect and the system could know which parcels sat next to one another. That kind of structural consistency is useful for indexing, GIS overlay, property administration and data distribution. Survey accuracy instead concerns where the boundary lies in relation to survey marks, observations, bearings, distances and the legal survey record. The two ideas overlap, but they are not interchangeable.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New surveys allowed some DCDB geometry to improve over time, but the uneven quality remained a system-level limitation. Users who treated the parcel layer as a convenient base map could work productively with it. Users who assumed the displayed coordinates were equivalent to cadastral survey evidence could get into trouble. The shift from paper to digital had made the cadastre easier to see and reuse. It had not repealed measurement error.",
+      "markdown": "New surveys allowed some DCDB geometry to improve over time, but the uneven quality remained a system-level limitation. Users who treated the parcel layer as a convenient base map could work productively with it. Users who assumed the displayed coordinates were equivalent to cadastral survey evidence could get into trouble. The shift from paper to digital had made the cadastre easier to see and reuse. It had not repealed measurement error.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

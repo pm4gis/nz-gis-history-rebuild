@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-40-e89d1f3499",
+  "slug": "governance-catches-up-e89d1f3499",
+  "articleId": "article:chapter-40",
+  "title": "Governance catches up",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Once many systems share spatial information, governance stops being a meeting-room abstraction. Someone has to decide who can create a new authoritative layer, who approves a schema change and who is allowed to publish information to a wider audience. Someone must determine which dataset wins when two systems disagree. Someone must own the response when a critical service fails.",
+      "markdown": "Once many systems share spatial information, governance stops being a meeting-room abstraction. Someone has to decide who can create a new authoritative layer, who approves a schema change and who is allowed to publish information to a wider audience. Someone must determine which dataset wins when two systems disagree. Someone must own the response when a critical service fails.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These decisions carry organisational consequences because a platform administrator and a data owner are often different people. GIS staff may know how to keep a database running without having authority to decide what a road classification means. An asset manager may own the business definition without having the technical access to alter the enterprise schema directly. Mature enterprise GIS depends on separating those responsibilities clearly enough that the organisation knows who is accountable for each decision.",
+      "markdown": "These decisions carry organisational consequences because a platform administrator and a data owner are often different people. GIS staff may know how to keep a database running without having authority to decide what a road classification means. An asset manager may own the business definition without having the technical access to alter the enterprise schema directly. Mature enterprise GIS depends on separating those responsibilities clearly enough that the organisation knows who is accountable for each decision.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Access control adds another layer. Some spatial information is appropriate for public use. Some is suitable for staff but not publication. Other information may involve personal, property, operational or security sensitivities. Enterprise GIS therefore became part of organisational identity and permissions systems rather than a collection of open folders available to anyone who knew the path.",
+      "markdown": "Access control adds another layer. Some spatial information is appropriate for public use. Some is suitable for staff but not publication. Other information may involve personal, property, operational or security sensitivities. Enterprise GIS therefore became part of organisational identity and permissions systems rather than a collection of open folders available to anyone who knew the path.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2000s and 2010s, organisations applied ordinary access controls, change records and information-security requirements to GIS.",
+      "markdown": "By the 2000s and 2010s, organisations applied ordinary access controls, change records and information-security requirements to GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-17-78d25a532d",
+  "slug": "public-address-data-78d25a532d",
+  "articleId": "article:chapter-17",
+  "title": "Public address data",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "National address data later became available through downloads and services. The official record is published as reusable point and road data and updated frequently. Users can download complete datasets, call services or maintain local copies from regular changes. A council, emergency organisation, utility, delivery service or software developer can build its own application around the same national identifiers rather than retyping a separate address list from scratch.",
+      "markdown": "National address data later became available through downloads and services. The official record is published as reusable point and road data and updated frequently. Users can download complete datasets, call services or maintain local copies from regular changes. A council, emergency organisation, utility, delivery service or software developer can build its own application around the same national identifiers rather than retyping a separate address list from scratch.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "OpenStreetMap contributors imported large numbers of LINZ address points beginning in 2017 and later developed routines to reconcile changes. Comparing the independently maintained systems exposed duplicate coordinates, apartment and unit complexities, missing records and other inconsistencies. Keeping them aligned required continuing checks and updates.",
+      "markdown": "OpenStreetMap contributors imported large numbers of LINZ address points beginning in 2017 and later developed routines to reconcile changes. Comparing the independently maintained systems exposed duplicate coordinates, apartment and unit complexities, missing records and other inconsistencies. Keeping them aligned required continuing checks and updates.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The modern national dataset has continued to evolve. NZ Addresses replaced the older NZ Street Address product in 2023, while road and locality products have also been revised. Fire and Emergency New Zealand’s locality information, originally maintained to help responders locate emergency calls, was transferred into LINZ stewardship in the 2020s. These later changes continued a pattern established two decades earlier: location information created for one operational purpose can become shared national infrastructure when common standards, maintenance responsibilities and distribution mechanisms are strong enough.",
+      "markdown": "The modern national dataset has continued to evolve. NZ Addresses replaced the older NZ Street Address product in 2023, while road and locality products have also been revised. Fire and Emergency New Zealand’s locality information, originally maintained to help responders locate emergency calls, was transferred into LINZ stewardship in the 2020s. These later changes continued a pattern established two decades earlier: location information created for one operational purpose can become shared national infrastructure when common standards, maintenance responsibilities and distribution mechanisms are strong enough.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "relationship:baseline-1274",
+  "a": "entity:critchlow",
+  "b": "chapter:12",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-12-b4162ebd37",
+    "passage:chapter-12-44546cee53",
+    "passage:chapter-12-0a270cec64"
+  ],
+  "sources": []
+}

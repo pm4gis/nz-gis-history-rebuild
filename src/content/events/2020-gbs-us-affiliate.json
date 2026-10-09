@@ -1,0 +1,34 @@
+{
+  "id": "2020-gbs-us-affiliate",
+  "dateDisplay": "February 2020",
+  "startDate": "2020-02",
+  "datePrecision": "month",
+  "year": 2020,
+  "label": "GBS opens its US affiliate in Montana",
+  "summary": "GBS’s company profile dates the opening of its US affiliate office in Kalispell, Montana, to February 2020.",
+  "url": "/stories/an-industry-and-community-form/#a-consultancy-appears-b51b8936ec",
+  "passageIds": [
+    "passage:chapter-12-b51b8936ec"
+  ],
+  "recordIds": [
+    "entity:geographic-business-solutions",
+    "chapter:12",
+    "entity:abley",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:splice-group",
+    "entity:terralink",
+    "person:steve-abley",
+    "person:beryl-pimblott",
+    "person:harley-prowse",
+    "person:tony-elson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "industry",
+    "software",
+    "global-context"
+  ],
+  "sources": []
+}

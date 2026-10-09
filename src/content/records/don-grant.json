@@ -1,0 +1,35 @@
+{
+  "id": "person:don-grant",
+  "slug": "don-grant",
+  "name": "Don Grant",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/don-grant/",
+  "story": [
+    "Graeme Blick and Don Grant were among the LINZ geodesists documenting the development of NZGD2000."
+  ],
+  "sources": [
+    {
+      "label": "Don Grant - School of Surveying, University of Otago | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/don-grant-119a9a23"
+    },
+    {
+      "label": "Chapter 19 · Designing NZGD2000",
+      "url": "/stories/rebuilding-the-coordinate-framework/"
+    }
+  ],
+  "aliases": [
+    "Don Grant"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 19 · Designing NZGD2000",
+        "url": "/stories/rebuilding-the-coordinate-framework/"
+      }
+    ]
+  ]
+}

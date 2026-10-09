@@ -1,0 +1,27 @@
+{
+  "id": "passage:chapter-36-1507e4f510",
+  "slug": "observation-becomes-reporting-1507e4f510",
+  "articleId": "article:chapter-36",
+  "title": "Observation becomes reporting",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Land Use and Carbon Analysis System pushed repeated earth observation into another kind of national obligation. LUCAS was developed so New Zealand could measure and report land use, land-use change and forestry for international greenhouse-gas accounting. Ministry for the Environment documentation describes national land-use maps for nominal dates at the end of 1989, 2007, 2012, 2016 and 2020. Satellite imagery and aerial photography were interpreted with other spatial information to establish classes and identify change, particularly where forest gain or loss affected carbon reporting.",
+      "markdown": "The Land Use and Carbon Analysis System pushed repeated earth observation into another kind of national obligation. LUCAS was developed so New Zealand could measure and report land use, land-use change and forestry for international greenhouse-gas accounting. Ministry for the Environment documentation describes national land-use maps for nominal dates at the end of 1989, 2007, 2012, 2016 and 2020. Satellite imagery and aerial photography were interpreted with other spatial information to establish classes and identify change, particularly where forest gain or loss affected carbon reporting.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2012 LUCAS interpretation guide did not treat imagery as self-explanatory. It defined land-use classes and described how interpreters should identify them from remotely sensed evidence. Later mapping used change detection, manual checking and additional information to decide whether a spectral difference represented an actual land-use change. The 2020 land-use map, commissioned in 2022 and documented in 2024, used Sentinel-2 imagery and more recent analytical methods, including automated and deep-learning steps, but still retained quality-control and review processes. More automation did not turn national land-use mapping into a one-button classification problem.",
+      "markdown": "The 2012 LUCAS interpretation guide did not treat imagery as self-explanatory. It defined land-use classes and described how interpreters should identify them from remotely sensed evidence. Later mapping used change detection, manual checking and additional information to decide whether a spectral difference represented an actual land-use change. The 2020 land-use map, commissioned in 2022 and documented in 2024, used Sentinel-2 imagery and more recent analytical methods, including automated and deep-learning steps, but still retained quality-control and review processes. More automation did not turn national land-use mapping into a one-button classification problem.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

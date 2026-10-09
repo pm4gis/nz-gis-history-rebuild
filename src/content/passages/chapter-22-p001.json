@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-22-ac7aab1bb3",
+  "slug": "the-gis-room-ac7aab1bb3",
+  "articleId": "article:chapter-22",
+  "title": "The GIS room",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22",
+    "entity:university-of-canterbury"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In the late 1980s a New Zealand organisation that used GIS could still have a fairly literal GIS room. A GIS installation could be somewhere you walked into, because the room contained a fair portion of the system. The more capable environments were built around minicomputers or Unix workstations, graphics screens, specialist storage, digitisers and plotters. ARC/INFO, Intergraph and other commercial systems could maintain large datasets and perform work that earlier purpose-built systems had shown was possible, but they were not ordinary office software. The people operating them usually knew the data structures, commands and hardware well enough to keep production moving when something failed.",
+      "markdown": "In the late 1980s a New Zealand organisation that used GIS could still have a fairly literal GIS room. A GIS installation could be somewhere you walked into, because the room contained a fair portion of the system. The more capable environments were built around minicomputers or Unix workstations, graphics screens, specialist storage, digitisers and plotters. ARC/INFO, Intergraph and other commercial systems could maintain large datasets and perform work that earlier purpose-built systems had shown was possible, but they were not ordinary office software. The people operating them usually knew the data structures, commands and hardware well enough to keep production moving when something failed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That arrangement suited organisations that had enough spatial work to justify a specialist unit. Water and Soil moved the established NZLRI and LADEDA environment to ARC/INFO in 1988. The University of Canterbury had workstation ARC/INFO and ERDAS capability by 1989. Councils, science organisations and government departments were buying or planning systems that could maintain authoritative spatial databases rather than produce only individual maps. A planner, scientist or manager might use the results without ever touching the GIS terminal.",
+      "markdown": "That arrangement suited organisations that had enough spatial work to justify a specialist unit. Water and Soil moved the established NZLRI and LADEDA environment to ARC/INFO in 1988. The University of Canterbury had workstation ARC/INFO and ERDAS capability by 1989. Councils, science organisations and government departments were buying or planning systems that could maintain authoritative spatial databases rather than produce only individual maps. A planner, scientist or manager might use the results without ever touching the GIS terminal.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Personal computers changed that division gradually. They became capable of displaying useful maps, storing local datasets and running software designed for people who did not want to operate a full production GIS. Windows and graphical interfaces reduced the amount of command knowledge needed for routine work. Hard disks grew large enough to hold datasets that previously belonged on central systems, while network shares and CD-ROMs gave organisations new ways to distribute them. GIS began to appear on desks that had previously received only printouts.",
+      "markdown": "Personal computers changed that division gradually. They became capable of displaying useful maps, storing local datasets and running software designed for people who did not want to operate a full production GIS. Windows and graphical interfaces reduced the amount of command knowledge needed for routine work. Hard disks grew large enough to hold datasets that previously belonged on central systems, while network shares and CD-ROMs gave organisations new ways to distribute them. GIS began to appear on desks that had previously received only printouts.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The shift built on an existing digital base. New Zealand already had digital cadastre, topography, land-resource information, satellite imagery, census geography and scientific databases. The distance between those datasets and the person wanting to use them shrank. A desktop application could turn a centrally produced dataset into something an analyst could query and map directly rather than sending every request to a cartographic or GIS unit.",
+      "markdown": "The shift built on an existing digital base. New Zealand already had digital cadastre, topography, land-resource information, satellite imagery, census geography and scientific databases. The distance between those datasets and the person wanting to use them shrank. A desktop application could turn a centrally produced dataset into something an analyst could query and map directly rather than sending every request to a cartographic or GIS unit.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

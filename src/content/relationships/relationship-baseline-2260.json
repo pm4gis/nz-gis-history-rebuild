@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2260",
+  "a": "person:clay-byrne",
+  "b": "entity:geospatial-capability-committee",
+  "label": "Committee member",
+  "basis": "LINZ current Geospatial Capability Committee membership",
+  "passageIds": [],
+  "sources": []
+}

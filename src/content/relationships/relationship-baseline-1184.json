@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1184",
+  "a": "system:auckland-gfmo",
+  "b": "person:paul-donald",
+  "label": "Named in the system account",
+  "basis": "Existing technology/project account",
+  "passageIds": [],
+  "sources": []
+}

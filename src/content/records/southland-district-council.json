@@ -1,0 +1,26 @@
+{
+  "id": "entity:southland-district-council",
+  "slug": "southland-district-council",
+  "name": "Southland District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/southland-district-council/",
+  "website": "https://www.southlanddc.govt.nz",
+  "story": [
+    "Southland District Council participated with the regional council and other southern councils in Topoclimate South’s 1998–2001 land-resource mapping programme."
+  ],
+  "sources": [
+    {
+      "label": "Manaaki Whenua, A history of New Zealand soil survey, 1990s restructuring and Topoclimate South/growOTAGO sections",
+      "url": "https://soils.landcareresearch.co.nz/topics/soil-survey/history-of-nz-soil-survey"
+    }
+  ],
+  "aliases": [
+    "Southland District Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

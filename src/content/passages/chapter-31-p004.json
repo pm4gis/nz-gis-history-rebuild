@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-31-8b47da046b",
+  "slug": "addresses-become-an-api-8b47da046b",
+  "articleId": "article:chapter-31",
+  "title": "Addresses become an API",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "On 6 September 2006 Google announced Maps API geocoding support for Australia and New Zealand. The technical description sounds modest: a web application could send a New Zealand street address to Google's service and receive coordinates that could be placed on a map. In practice, it shifted another piece of specialist geographic infrastructure into a form ordinary web developers could call from code.",
+      "markdown": "On 6 September 2006 Google announced Maps API geocoding support for Australia and New Zealand. The technical description sounds modest: a web application could send a New Zealand street address to Google's service and receive coordinates that could be placed on a map. In practice, it shifted another piece of specialist geographic infrastructure into a form ordinary web developers could call from code.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand councils, emergency services, health organisations, commercial data companies and GIS teams had long needed ways to connect addresses with coordinates. Doing that reliably required address data, matching rules, maintenance and software. In professional systems the difference between a valid service address, a cadastral parcel, a postal address and a location used for emergency response could be important. None of those institutional requirements disappeared because Google exposed a geocoder.",
+      "markdown": "New Zealand councils, emergency services, health organisations, commercial data companies and GIS teams had long needed ways to connect addresses with coordinates. Doing that reliably required address data, matching rules, maintenance and software. In professional systems the difference between a valid service address, a cadastral parcel, a postal address and a location used for emergency response could be important. None of those institutional requirements disappeared because Google exposed a geocoder.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The threshold for a simpler class of problem fell. A developer building a public website could use a remote service to place an address on an interactive map without first acquiring a local street database and running a GIS geocoding tool. Location functionality became available to people who thought of themselves as web developers rather than GIS developers.",
+      "markdown": "The threshold for a simpler class of problem fell. A developer building a public website could use a remote service to place an address on an interactive map without first acquiring a local street database and running a GIS geocoding tool. Location functionality became available to people who thought of themselves as web developers rather than GIS developers.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was an early example of a pattern that would become much more important later: a spatial function could be consumed as a service rather than installed as part of a complete GIS environment. Cloud services and machine-to-machine geography would later extend that architecture much further. In 2006 the immediate effect was simpler. New Zealand addresses had become something an ordinary web application could ask an external mapping service to locate.",
+      "markdown": "This was an early example of a pattern that would become much more important later: a spatial function could be consumed as a service rather than installed as part of a complete GIS environment. Cloud services and machine-to-machine geography would later extend that architecture much further. In 2006 the immediate effect was simpler. New Zealand addresses had become something an ordinary web application could ask an external mapping service to locate.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

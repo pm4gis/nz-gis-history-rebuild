@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-43-790ba2bf79",
+  "slug": "reproducibility-becomes-part-of-the-job-790ba2bf79",
+  "articleId": "article:chapter-43",
+  "title": "Reproducibility becomes part of the job",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Repeatable processing offered more than speed. It could make a method inspectable. A script, SQL query, graphical model, workspace or configuration file can preserve the logic used to create an output. If the same inputs and parameters remain available, another practitioner has a better chance of rerunning the work than if the method survives only as a remembered sequence of menu choices. National datasets and operational services may need to be rebuilt regularly, so the method itself becomes part of the production record.",
+      "markdown": "Repeatable processing offered more than speed. It could make a method inspectable. A script, SQL query, graphical model, workspace or configuration file can preserve the logic used to create an output. If the same inputs and parameters remain available, another practitioner has a better chance of rerunning the work than if the method survives only as a remembered sequence of menu choices. National datasets and operational services may need to be rebuilt regularly, so the method itself becomes part of the production record.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Reproducibility required documented inputs, dependencies and processing steps. The software version may change, a library may disappear, a web service may alter its response, or a source dataset may gain a new field while losing an old one. Paths, credentials and environment settings can be as important as the visible processing logic. A workflow that depends on “C:\\GIS\\Final\\Final2\\ReallyFinal” is still automation, but it is not yet much of an institutional asset.",
+      "markdown": "Reproducibility required documented inputs, dependencies and processing steps. The software version may change, a library may disappear, a web service may alter its response, or a source dataset may gain a new field while losing an old one. Paths, credentials and environment settings can be as important as the visible processing logic. A workflow that depends on “C:\\GIS\\Final\\Final2\\ReallyFinal” is still automation, but it is not yet much of an institutional asset.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Version control brought software-development practice closer to GIS production. By the 2020s some spatial teams were managing scripts, configuration and even geographic change histories through repository-style tools. LINZ’s use of Kart in the Future Topographic Maps programme is a particularly direct example because the organisation describes it as spatial version control. Version control makes changes traceable, comparable and recoverable as the production dataset evolves.",
+      "markdown": "Version control brought software-development practice closer to GIS production. By the 2020s some spatial teams were managing scripts, configuration and even geographic change histories through repository-style tools. LINZ’s use of Kart in the Future Topographic Maps programme is a particularly direct example because the organisation describes it as spatial version control. Version control makes changes traceable, comparable and recoverable as the production dataset evolves.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "person:maui-hudson",
+  "slug": "maui-hudson",
+  "name": "Maui Hudson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/maui-hudson/",
+  "story": [
+    "Maui Hudson's interdisciplinary research applies Indigenous knowledge to decisions about technology, health, the environment and innovation. His ANZSOG biography records affiliations to Te Whakatōhea, Ngā Ruahine and Te Mahurehure and work at the University of Waikato. He helped establish Te Mana Raraunga and contributed to international Indigenous data-governance initiatives, including work on CARE principles and the Open Data Charter.",
+    "Maui Hudson is a founding contributor to Te Mana Raraunga and Māori data-sovereignty scholarship, linking governance principles with the use of community information.",
+    "Te Mana Raraunga formed in 2015, with Tahu Kukutai and Maui Hudson among the founding contributors identified in the research. Its charter brought Māori authority, governance and benefit into discussion of data access. These questions applied to geographic information about land, environments and communities as well as other forms of data."
+  ],
+  "sources": [
+    {
+      "label": "Te Mana Raraunga organisational record",
+      "url": "https://www.temanararaunga.maori.nz/"
+    },
+    {
+      "label": "Associate Professor Maui Hudson - ANZSOG · career/profile reference",
+      "url": "https://anzsog.edu.au/faculty-and-expert-contributors/associate-professor-maui-hudson"
+    },
+    {
+      "label": "Chapter 33 · Controlled information",
+      "url": "/stories/open-data-changes-access/"
+    }
+  ],
+  "aliases": [
+    "Maui Hudson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Associate Professor Maui Hudson - ANZSOG · career/profile reference",
+        "url": "https://anzsog.edu.au/faculty-and-expert-contributors/associate-professor-maui-hudson"
+      }
+    ],
+    [
+      {
+        "label": "Te Mana Raraunga organisational record",
+        "url": "https://www.temanararaunga.maori.nz/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 33 · Controlled information",
+        "url": "/stories/open-data-changes-access/"
+      }
+    ]
+  ]
+}

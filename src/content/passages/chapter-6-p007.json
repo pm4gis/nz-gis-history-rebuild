@@ -1,0 +1,50 @@
+{
+  "id": "passage:chapter-6-e04c029193",
+  "slug": "teaching-gis-e04c029193",
+  "articleId": "article:chapter-6",
+  "title": "Teaching GIS",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "profession"
+  ],
+  "recordIds": [
+    "chapter:6",
+    "entity:university-of-auckland",
+    "entity:university-of-canterbury",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The appearance of GIS in university courses provides another dated change. University of Auckland Geography was teaching a senior undergraduate GIS course from 1985. University of Canterbury introduced a graduate GIS course in 1987. By 1989 Canterbury Geography had workstation ARC/INFO and ERDAS capability.",
+      "markdown": "The appearance of GIS in university courses provides another dated change. University of Auckland Geography was teaching a senior undergraduate GIS course from 1985. University of Canterbury introduced a graduate GIS course in 1987. By 1989 Canterbury Geography had workstation ARC/INFO and ERDAS capability.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A university course differed from learning one organisation’s internal production system. Students could be taught general ideas about spatial databases, raster and vector data, analysis and cartographic output using tools that were also appearing in agencies and consultancies. The resulting skills could travel with graduates. An employee no longer needed to begin entirely with the peculiarities of one locally developed system.",
+      "markdown": "A university course differed from learning one organisation’s internal production system. Students could be taught general ideas about spatial databases, raster and vector data, analysis and cartographic output using tools that were also appearing in agencies and consultancies. The resulting skills could travel with graduates. An employee no longer needed to begin entirely with the peculiarities of one locally developed system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The equipment still shaped how the subject was taught. Workstation software and specialist licences meant GIS was concentrated in laboratories rather than spread across ordinary student computers. Data had to be prepared and storage managed carefully. Output required access to suitable graphics hardware and printers or plotters. The laboratory was both classroom and computing facility.",
+      "markdown": "The equipment still shaped how the subject was taught. Workstation software and specialist licences meant GIS was concentrated in laboratories rather than spread across ordinary student computers. Data had to be prepared and storage managed carefully. Output required access to suitable graphics hardware and printers or plotters. The laboratory was both classroom and computing facility.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The pairing of ARC/INFO and ERDAS at Canterbury also reflected the two technical traditions described in the preceding chapters. Vector GIS and raster image processing were now being taught within one academic environment. A student could work with polygon databases and remotely sensed imagery without treating them as wholly separate professions. The international software market had begun packaging together skills that New Zealand organisations had previously developed through different institutional lineages.",
+      "markdown": "The pairing of ARC/INFO and ERDAS at Canterbury also reflected the two technical traditions described in the preceding chapters. Vector GIS and raster image processing were now being taught within one academic environment. A student could work with polygon databases and remotely sensed imagery without treating them as wholly separate professions. The international software market had begun packaging together skills that New Zealand organisations had previously developed through different institutional lineages.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Otago, Auckland, Canterbury and other institutions would build GIScience, surveying, remote-sensing and spatial-information teaching and research over the following decades. For the 1980s, the course dates establish a simpler point: GIS had acquired a syllabus.",
+      "markdown": "Otago, Auckland, Canterbury and other institutions would build GIScience, surveying, remote-sensing and spatial-information teaching and research over the following decades. For the 1980s, the course dates establish a simpler point: GIS had acquired a syllabus.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

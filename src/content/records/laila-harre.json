@@ -1,0 +1,31 @@
+{
+  "id": "person:laila-harre",
+  "slug": "laila-harre",
+  "name": "Laila Harré",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/laila-harre/",
+  "story": [
+    "On 9 May 2002 Statistics Minister Laila Harré announced that detailed 2001 Census results would become available free through Census Table Builder. Until then, Statistics New Zealand had charged for detailed information through Supermap subscriptions costing a minimum of NZ$3,300 and up to about NZ$25,000 depending on the level of information required."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 27 · Census data becomes free",
+      "url": "/stories/health-population-and-place/"
+    }
+  ],
+  "aliases": [
+    "Laila Harré"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 27 · Census data becomes free",
+        "url": "/stories/health-population-and-place/"
+      }
+    ]
+  ]
+}

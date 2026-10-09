@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2131",
+  "a": "person:hayley-hume-merry",
+  "b": "chapter:23",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

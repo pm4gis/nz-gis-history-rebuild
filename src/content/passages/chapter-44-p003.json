@@ -1,0 +1,52 @@
+{
+  "id": "passage:chapter-44-bc3f33378c",
+  "slug": "learning-from-examples-bc3f33378c",
+  "articleId": "article:chapter-44",
+  "title": "Learning from examples",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:44",
+    "entity:manaaki-whenua-landcare-research",
+    "entity:vector",
+    "person:lars-brabyn",
+    "person:nam-thang-ha",
+    "person:lien-pham",
+    "person:salman-ashraf",
+    "person:guopeng-jiang"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Conventional GIS automation generally follows rules that a person has specified. A script can select features, calculate fields, transform coordinates and generate outputs because its instructions describe those operations. Machine learning changes part of that relationship. Instead of defining every rule explicitly, a practitioner supplies examples or other structured evidence from which a model learns patterns that can be applied to new data. The difference becomes practical when the task is easier to demonstrate repeatedly than to describe as a complete set of rules, as often happens in image classification.",
+      "markdown": "Conventional GIS automation generally follows rules that a person has specified. A script can select features, calculate fields, transform coordinates and generate outputs because its instructions describe those operations. Machine learning changes part of that relationship. Instead of defining every rule explicitly, a practitioner supplies examples or other structured evidence from which a model learns patterns that can be applied to new data. The difference becomes practical when the task is easier to demonstrate repeatedly than to describe as a complete set of rules, as often happens in image classification.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand remote-sensing research provides a clear progression. In 2016 Lien Pham, Lars Brabyn and Salman Ashraf published work combining QuickBird imagery, LiDAR-derived topographic information and object-based classification to identify a native tree species, using methods including Random Forest and support-vector machines. In the Waikato, Guopeng Jiang's 2020 doctoral work used random forests, XGBoost and other methods with spatial yield and environmental data for precision agriculture. At Tauranga Harbour, Nam-Thang Ha and collaborators used Sentinel and Landsat imagery with ensemble machine learning, change detection and later radar-optical sensor fusion to map seagrass distribution and biomass. By 2021, researchers were using machine learning in geospatial work. It was one of several analytical approaches available for specific mapping problems.",
+      "markdown": "New Zealand remote-sensing research provides a clear progression. In 2016 Lien Pham, Lars Brabyn and Salman Ashraf published work combining QuickBird imagery, LiDAR-derived topographic information and object-based classification to identify a native tree species, using methods including Random Forest and support-vector machines. In the Waikato, Guopeng Jiang's 2020 doctoral work used random forests, XGBoost and other methods with spatial yield and environmental data for precision agriculture. At Tauranga Harbour, Nam-Thang Ha and collaborators used Sentinel and Landsat imagery with ensemble machine learning, change detection and later radar-optical sensor fusion to map seagrass distribution and biomass. By 2021, researchers were using machine learning in geospatial work. It was one of several analytical approaches available for specific mapping problems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Land Use and Carbon Analysis System provides the stronger production case. In 2022 the Ministry for the Environment contracted Manaaki Whenua Landcare Research to produce a 2020 national Land Use Map for greenhouse-gas reporting. The work used Sentinel-2 imagery and a mixture of established mapping methods and deep-learning techniques. The contract included reviewing areas mapped as forest in the 2016 Land Use Map using deep learning, identifying changes between mapping periods and incorporating those results into the maintained national time series. The final 2020 product was therefore not a laboratory demonstration detached from government use. It was part of an operational national reporting workflow.",
+      "markdown": "The Land Use and Carbon Analysis System provides the stronger production case. In 2022 the Ministry for the Environment contracted Manaaki Whenua Landcare Research to produce a 2020 national Land Use Map for greenhouse-gas reporting. The work used Sentinel-2 imagery and a mixture of established mapping methods and deep-learning techniques. The contract included reviewing areas mapped as forest in the 2016 Land Use Map using deep learning, identifying changes between mapping periods and incorporating those results into the maintained national time series. The final 2020 product was therefore not a laboratory demonstration detached from government use. It was part of an operational national reporting workflow.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The deep-learning work used a labelled training layer derived from the existing Land Use Map and Sentinel-2 imagery. Models were assessed through accuracy measures and visual inspection, predictions were reviewed for both model errors and errors in the existing map, and training could be refined and rerun. Final land-use changes were edited into the Ministry's geospatial feature service using ArcGIS Pro, with quality standards and manual review remaining part of the project. The computer helped identify and classify likely patterns at national scale. People still had to decide whether those patterns were acceptable evidence for a map used in international greenhouse-gas reporting.",
+      "markdown": "The deep-learning work used a labelled training layer derived from the existing Land Use Map and Sentinel-2 imagery. Models were assessed through accuracy measures and visual inspection, predictions were reviewed for both model errors and errors in the existing map, and training could be refined and rerun. Final land-use changes were edited into the Ministry's geospatial feature service using ArcGIS Pro, with quality standards and manual review remaining part of the project. The computer helped identify and classify likely patterns at national scale. People still had to decide whether those patterns were acceptable evidence for a map used in international greenhouse-gas reporting.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The LUCAS workflow combined machine learning with established production methods. Training data carry earlier decisions about categories and boundaries. Satellite imagery varies with season, cloud, sensor and landscape. A model that performs well across one set of examples can perform poorly somewhere different. LUCAS worked because learned classification sat inside a larger production system that included existing datasets, controlled classes, imagery preparation, review, editing and quality assurance. The model formed part of a maintained geographic database.",
+      "markdown": "The LUCAS workflow combined machine learning with established production methods. Training data carry earlier decisions about categories and boundaries. Satellite imagery varies with season, cloud, sensor and landscape. A model that performs well across one set of examples can perform poorly somewhere different. LUCAS worked because learned classification sat inside a larger production system that included existing datasets, controlled classes, imagery preparation, review, editing and quality assurance. The model formed part of a maintained geographic database.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

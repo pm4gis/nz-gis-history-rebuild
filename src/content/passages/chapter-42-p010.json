@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-42-e15c27b984",
+  "slug": "the-network-can-fail-too-e15c27b984",
+  "articleId": "article:chapter-42",
+  "title": "The network can fail too",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Connected GIS creates a challenge during disasters. Cloud platforms, live services and mobile applications depend on electricity, telecommunications and authentication systems that may also be affected. During Cyclone Gabrielle, power and communications failures forced teams to use offline desktop tools and printed maps. Emergency GIS plans need to cover those outages as well as connected operations.",
+      "markdown": "Connected GIS creates a challenge during disasters. Cloud platforms, live services and mobile applications depend on electricity, telecommunications and authentication systems that may also be affected. During Cyclone Gabrielle, power and communications failures forced teams to use offline desktop tools and printed maps. Emergency GIS plans need to cover those outages as well as connected operations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Offline mapping had already developed through field GIS, cached basemaps and synchronisation workflows described in Chapter 34. In an emergency the requirement becomes less optional. A field team may need the last available operational dataset on a device before entering an area with poor coverage. A coordination centre may need exported products that can be distributed without relying on a live dashboard. Printed maps remain useful when several people need the same stable briefing object, when batteries are limited or when a network connection cannot be assumed.",
+      "markdown": "Offline mapping had already developed through field GIS, cached basemaps and synchronisation workflows described in Chapter 34. In an emergency the requirement becomes less optional. A field team may need the last available operational dataset on a device before entering an area with poor coverage. A coordination centre may need exported products that can be distributed without relying on a live dashboard. Printed maps remain useful when several people need the same stable briefing object, when batteries are limited or when a network connection cannot be assumed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Paper maps, desktop tools, web services and cloud platforms continued to be used together. By 2023 New Zealand could operate sophisticated cloud GIS while still finding practical value in an exported PDF or a sheet of paper. Paper survived because emergency operating environments can be hostile to systems that depend on continuous connectivity.",
+      "markdown": "Paper maps, desktop tools, web services and cloud platforms continued to be used together. By 2023 New Zealand could operate sophisticated cloud GIS while still finding practical value in an exported PDF or a sheet of paper. Paper survived because emergency operating environments can be hostile to systems that depend on continuous connectivity.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

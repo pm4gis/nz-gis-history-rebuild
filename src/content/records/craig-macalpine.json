@@ -1,0 +1,31 @@
+{
+  "id": "person:craig-macalpine",
+  "slug": "craig-macalpine",
+  "name": "Craig MacAlpine",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/craig-macalpine/",
+  "story": [
+    "Craig MacAlpine of the New Zealand Fire Service presented a 2017 conference lightning talk on drone imagery capture and processing. The presentation records UAV imagery entering operational emergency-service GIS at the same time that drones were becoming routine spatial data-capture tools."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Craig MacAlpine"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

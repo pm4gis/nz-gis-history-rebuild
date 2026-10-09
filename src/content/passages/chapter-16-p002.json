@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-16-6017b61846",
+  "slug": "the-census-office-goes-to-war-6017b61846",
+  "articleId": "article:chapter-16",
+  "title": "The census office goes to war",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16",
+    "entity:stats-nz",
+    "person:malcolm-fraser"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "During the First World War the Census and Statistics Office was given a task that looked very much like a census while serving a different purpose. The National Registration Act 1915 required men aged 17 to 60 to provide a detailed personal schedule to Government Statistician Malcolm Fraser. The form recorded identity, address, occupation, dependants, physical condition, military experience and, for men aged 19 to 45, willingness to serve overseas or in another war role. Contemporary accounts often referred to it as the war census, but it remained legally distinct from the ordinary population census.",
+      "markdown": "During the First World War the Census and Statistics Office was given a task that looked very much like a census while serving a different purpose. The National Registration Act 1915 required men aged 17 to 60 to provide a detailed personal schedule to Government Statistician Malcolm Fraser. The form recorded identity, address, occupation, dependants, physical condition, military experience and, for men aged 19 to 45, willingness to serve overseas or in another war role. Contemporary accounts often referred to it as the war census, but it remained legally distinct from the ordinary population census.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Post and Telegraph staff delivered the cards to every household in October and November 1915. Manatū Taonga records 208,513 completed schedules. A staff of 244 clerks processed them, and 300 county rolls of military-aged men were supplied to local recruiting committees. The geography was practical: local committees received lists of men in their own areas and used them in a final push for voluntary enlistment.",
+      "markdown": "Post and Telegraph staff delivered the cards to every household in October and November 1915. Manatū Taonga records 208,513 completed schedules. A staff of 244 clerks processed them, and 300 county rolls of military-aged men were supplied to local recruiting committees. The geography was practical: local committees received lists of men in their own areas and used them in a final push for voluntary enlistment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The government initially presented National Registration as a manpower survey. The Military Service Act 1916 then directed the Government Statistician to prepare the military reserve register using the 1915 National Register together with all other available information. The registration system therefore became the administrative base for conscription ballots, organised through recruiting districts and the card records held by the Census and Statistics Office.",
+      "markdown": "The government initially presented National Registration as a manpower survey. The Military Service Act 1916 then directed the Government Statistician to prepare the military reserve register using the 1915 National Register together with all other available information. The registration system therefore became the administrative base for conscription ballots, organised through recruiting districts and the card records held by the Census and Statistics Office.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Fraser’s census experience made him a natural administrator for the job. He personally conducted the ballots, and in June 1918 his own card emerged from one of them. The press enjoyed the coincidence. He was 45, technically within the eligible range, although medical boards were by then rejecting men over 44 for active service abroad. The census register supplied the records used for the military ballots.",
+      "markdown": "Fraser’s census experience made him a natural administrator for the job. He personally conducted the ballots, and in June 1918 his own card emerged from one of them. The press enjoyed the coincidence. He was 45, technically within the eligible range, although medical boards were by then rejecting men over 44 for active service abroad. The census register supplied the records used for the military ballots.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The ordinary population census followed a separate timetable. It had been scheduled for early 1916, was delayed because the war had disrupted population patterns, and was eventually taken on 15 October 1916. Statistics New Zealand's historical account records that the household census schedules were then used to help complete the military register. Population counting and conscription remained distinct legal processes, yet the same statistical office, household information and geographic organisation connected them in practice.",
+      "markdown": "The ordinary population census followed a separate timetable. It had been scheduled for early 1916, was delayed because the war had disrupted population patterns, and was eventually taken on 15 October 1916. Statistics New Zealand's historical account records that the household census schedules were then used to help complete the military register. Population counting and conscription remained distinct legal processes, yet the same statistical office, household information and geographic organisation connected them in practice.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

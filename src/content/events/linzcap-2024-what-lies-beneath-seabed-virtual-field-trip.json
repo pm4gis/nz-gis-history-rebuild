@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2024-what-lies-beneath-seabed-virtual-field-trip",
+  "dateDisplay": "2024",
+  "startDate": "2024-01-01",
+  "datePrecision": "year",
+  "year": 2024,
+  "label": "What lies beneath seabed virtual field trip",
+  "summary": "The school programme moved into marine geospatial information and seabed discovery.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

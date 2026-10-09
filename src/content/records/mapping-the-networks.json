@@ -1,0 +1,14 @@
+{
+  "id": "chapter:25",
+  "articleId": "article:chapter-25",
+  "slug": "mapping-the-networks",
+  "name": "Utility networks",
+  "kind": "Story",
+  "category": "GIS in practice",
+  "url": "/stories/mapping-the-networks/",
+  "description": "An electricity cable, telephone circuit, water main or gas pipe can be drawn perfectly on a map and still be a poor network record. Operators need to know where it is, but they also need to know what it connects to, which equipment sits at either end, what happens at branches and switches, and which customers or downstream assets depend on the path. A line that ends a few centimetres short of the correct node on scre",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0947",
+  "a": "person:jane-forsyth",
+  "b": "entity:gns-science",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

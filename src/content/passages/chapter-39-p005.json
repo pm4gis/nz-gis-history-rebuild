@@ -1,0 +1,43 @@
+{
+  "id": "passage:chapter-39-d9599a550d",
+  "slug": "a-cadastre-with-volume-d9599a550d",
+  "articleId": "article:chapter-39",
+  "title": "A cadastre with volume",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39",
+    "entity:university-of-canterbury",
+    "person:anselm-haanen",
+    "person:trent-gulliver",
+    "person:mark-goodin"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand's digital cadastre was built around a powerful two-dimensional representation of parcels and survey geometry. That worked well for most land, but cities increasingly contained apartments, tunnels, easements, shared access, stacked units and rights that occupied different vertical spaces. A plan could describe those arrangements, but the database did not necessarily hold them as explicit three-dimensional objects.",
+      "markdown": "New Zealand's digital cadastre was built around a powerful two-dimensional representation of parcels and survey geometry. That worked well for most land, but cities increasingly contained apartments, tunnels, easements, shared access, stacked units and rights that occupied different vertical spaces. A plan could describe those arrangements, but the database did not necessarily hold them as explicit three-dimensional objects.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "From 2014 onward a well-documented New Zealand research lineage examined what a 3D digital cadastre would require. Trent Gulliver and Anselm Haanen presented Developing a Three-Dimensional Digital Cadastral System for New Zealand at the FIG Congress in 2014. Gulliver's University of Canterbury master's research followed in 2015, and a 2016 paper by Gulliver, Haanen and Mark Goodin set out a pathway towards a 3D digital cadastre for New Zealand by 2021. The date was a proposed target.",
+      "markdown": "From 2014 onward a well-documented New Zealand research lineage examined what a 3D digital cadastre would require. Trent Gulliver and Anselm Haanen presented Developing a Three-Dimensional Digital Cadastral System for New Zealand at the FIG Congress in 2014. Gulliver's University of Canterbury master's research followed in 2015, and a 2016 paper by Gulliver, Haanen and Mark Goodin set out a pathway towards a 3D digital cadastre for New Zealand by 2021. The date was a proposed target.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The problem was deeper than extruding parcel polygons upward. Legal space may be bounded by floors, ceilings, sloping surfaces or surveyed heights. Adjacent rights need consistent topology and identifiers. Survey rules, title relationships and the authoritative cadastral record all have to agree with the geometry. A colourful three-dimensional block model can show an apartment stack, but a national cadastre has to maintain what each volume legally means.",
+      "markdown": "The problem was deeper than extruding parcel polygons upward. Legal space may be bounded by floors, ceilings, sloping surfaces or surveyed heights. Adjacent rights need consistent topology and identifiers. Survey rules, title relationships and the authoritative cadastral record all have to agree with the geometry. A colourful three-dimensional block model can show an apartment stack, but a national cadastre has to maintain what each volume legally means.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later LINZ material confirms that this remained an active transition rather than a finished historical event. The agency's 2023-27 strategic intentions said the cadastre already held significant information depicting three-dimensional property ownership, while representation remained available through two-dimensional plan images. From 1 July 2024, NZVD2016 became the official vertical datum for cadastral surveys containing reduced levels, with LINZ guidance explicitly linking the requirement to future conversion to a 3D cadastre. By the end of 2025 the institutional groundwork had advanced, but it would be wrong to describe New Zealand as operating a complete nationwide 3D cadastre.",
+      "markdown": "Later LINZ material confirms that this remained an active transition rather than a finished historical event. The agency's 2023-27 strategic intentions said the cadastre already held significant information depicting three-dimensional property ownership, while representation remained available through two-dimensional plan images. From 1 July 2024, NZVD2016 became the official vertical datum for cadastral surveys containing reduced levels, with LINZ guidance explicitly linking the requirement to future conversion to a 3D cadastre. By the end of 2025 the institutional groundwork had advanced, but it would be wrong to describe New Zealand as operating a complete nationwide 3D cadastre.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

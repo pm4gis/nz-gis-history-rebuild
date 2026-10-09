@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0811",
+  "a": "person:lien-pham",
+  "b": "chapter:44",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-44-bc3f33378c"
+  ],
+  "sources": []
+}

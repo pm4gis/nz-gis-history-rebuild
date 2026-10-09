@@ -1,0 +1,79 @@
+{
+  "id": "passage:chapter-25-b239127218",
+  "slug": "one-asset-several-systems-b239127218",
+  "articleId": "article:chapter-25",
+  "title": "One asset, several systems",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:canterbury-regional-council-environment-canterbury",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector",
+    "person:craig-thompson",
+    "person:tom-clarkson",
+    "person:warren-gray",
+    "person:robert-davey",
+    "person:francis-oriley",
+    "person:leonard-wiles",
+    "person:p-brabhaharan"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The map was only one place where a utility asset existed digitally. A transformer might also appear in a financial register, maintenance system, fault history, inspection database and engineering model. If each system used a different identifier, staff had to infer that several records referred to the same piece of equipment. A stable asset identifier provided a cleaner link between them.",
+      "markdown": "The map was only one place where a utility asset existed digitally. A transformer might also appear in a financial register, maintenance system, fault history, inspection database and engineering model. If each system used a different identifier, staff had to infer that several records referred to the same piece of equipment. A stable asset identifier provided a cleaner link between them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vector’s later documentation shows this architecture becoming explicit. SAP held asset and maintenance information, while Smallworld provided the geographic network record. Network information could also feed specialist electricity-modelling tools and distribution-management systems. The same physical asset therefore appeared through several technical views, each built for a different part of the business.",
+      "markdown": "Vector’s later documentation shows this architecture becoming explicit. SAP held asset and maintenance information, while Smallworld provided the geographic network record. Network information could also feed specialist electricity-modelling tools and distribution-management systems. The same physical asset therefore appeared through several technical views, each built for a different part of the business.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This arrangement reduced the need to force every attribute into the GIS. Finance could remain responsible for financial records, maintenance systems for work history and SCADA for operational telemetry. The GIS could remain authoritative for geographic and network relationships while sharing a common asset identity with the other systems. Integration worked when the systems agreed about which physical object they were describing.",
+      "markdown": "This arrangement reduced the need to force every attribute into the GIS. Finance could remain responsible for financial records, maintenance systems for work history and SCADA for operational telemetry. The GIS could remain authoritative for geographic and network relationships while sharing a common asset identity with the other systems. Integration worked when the systems agreed about which physical object they were describing.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The alternative was duplication. If a transformer was renamed or replaced in one system but not another, reports could diverge. If a cable geometry was corrected without the related asset link being maintained, the map and maintenance history could separate. Network GIS therefore moved progressively towards master-data disciplines that later enterprise systems would formalise more heavily.",
+      "markdown": "The alternative was duplication. If a transformer was renamed or replaced in one system but not another, reports could diverge. If a cable geometry was corrected without the related asset link being maintained, the map and maintenance history could separate. Network GIS therefore moved progressively towards master-data disciplines that later enterprise systems would formalise more heavily.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2005 NIWA’s Craig Thompson, Tom Clarkson and Warren Gray described a GIS risk-assessment tool developed for Transpower’s electricity pylons. The tool combined land cover, slope, proximity to rivers and river size to rank the structures nationally for exposure to flooding, scour and slips. Its results were checked against sites already known to be at risk. This gave a transmission owner a way to direct attention across a large network when several hazards could affect the same asset. The same NIWA account describes support for helicopter laser surveys of high-voltage lines. Meteorological observations at intervals of 10 or 20 kilometres and detailed three-dimensional weather modelling helped interpret individual spans. GIS analysis, laser measurements and weather science were being used together in decisions about transmission infrastructure.",
+      "sources": [
+        {
+          "label": "Craig Thompson, Tom Clarkson and Warren Gray, Managing risk in energy supply, NIWA Water & Atmosphere",
+          "url": "https://niwa.co.nz/water-atmosphere/vol13-no4-december-2005/managing-risk-energy-supply"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2005 earthquake-risk report prepared for Environment Canterbury by P. Brabhaharan, Robert Davey, Francis O’Riley and Leonard Wiles documents a difficult exchange of network information. Telecom kept Christchurch assets in Smallworld GIS and restricted release of its complete underground cable network. Earlier studies had received incomplete CAD extracts, and by 2005 the report described the loss of the earlier in-house drafting capability. Smallworld could translate layers and attributes, but producing a disconnected selection from the network remained difficult. The proposed workaround was to trace selected printed GIS output back into CAD. TelstraClear was willing to provide selected GIS information under confidentiality, while Transpower and Orion also held network information that could contribute to the assessment. The risk team’s method depended on access permissions and the structure of the utility database.",
+      "sources": [
+        {
+          "label": "P. Brabhaharan, Robert Davey, Francis O’Riley and Leonard Wiles, Earthquake Risk Assessment Study Part 1, Report U04/108 for Environment Canterbury",
+          "url": "https://studylib.net/doc/8795765/earthquake-risk-assessment-study"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Utility and transport records also preserve the people doing the integration work. Transpower’s Alaina Dalzell presented georeferencing substation assets to improve data quality in 2017, while NZ Transport Agency staff Katie Dooley and Emma Winthrop presented GIS collaboration with the North Canterbury Transport Infrastructure Recovery alliance after the Kaikōura earthquake.",
+      "sources": [
+        {
+          "label": "New Zealand Esri User Conference programme, 2017",
+          "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

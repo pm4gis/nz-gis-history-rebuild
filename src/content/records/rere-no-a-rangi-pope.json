@@ -1,0 +1,33 @@
+{
+  "id": "person:rere-no-a-rangi-pope",
+  "slug": "rere-no-a-rangi-pope",
+  "name": "Rere-No-A-Rangi Pope",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rere-no-a-rangi-pope/",
+  "story": [
+    "In 2025, Rere-No-A-Rangi Pope and Marcus Frean published peer-reviewed research on Koki Tauriterite, an approach to georeferencing historical maps at scale. It links salient line intersections in historic map images with contemporary cadastral data to narrow candidate locations. The authors frame this as research in historical GIS and spatial data justice; the paper does not describe an operational national service."
+  ],
+  "sources": [
+    {
+      "label": "Rangi Pope and Marcus Frean, “Georeferencing Historical Maps at Scale”, GIScience 2025",
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.GIScience.2025.11"
+    }
+  ],
+  "aliases": [
+    "Rere-No-A-Rangi Pope"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Rangi Pope and Marcus Frean, “Georeferencing Historical Maps at Scale”, GIScience 2025",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.GIScience.2025.11"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-4-d5be6e1983",
+  "slug": "darfield-and-ground-truth-d5be6e1983",
+  "articleId": "article:chapter-4",
+  "title": "Darfield and ground truth",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:4",
+    "person:jonathan-cocks",
+    "person:r-s-mason"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Satellite classification depended on observations from the ground. PEL used Darfield as one of its recurring test areas and supported the Landsat programme with aircraft and field work. The aircraft system used four Hasselblad cameras arranged to record different spectral ranges chosen to approximate Landsat bands. Radiometers and cassette-tape recording were also used in the survey programme. Farmers in the study area supplied information about crops and ground conditions so that spectral patterns could be compared with known land cover.",
+      "markdown": "Satellite classification depended on observations from the ground. PEL used Darfield as one of its recurring test areas and supported the Landsat programme with aircraft and field work. The aircraft system used four Hasselblad cameras arranged to record different spectral ranges chosen to approximate Landsat bands. Radiometers and cassette-tape recording were also used in the survey programme. Farmers in the study area supplied information about crops and ground conditions so that spectral patterns could be compared with known land cover.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Jonathan Cocks of DSIR Crop Research is credited in the programme reports with proposing an in-camera radiometer approach. R. S. Mason worked on the multispectral-survey equipment and electronics. The aircraft observations provided measurements at a different scale from Landsat and could be matched with field information. Researchers could then test whether patterns in the satellite data corresponded with the land-cover classes they were trying to identify. This reduced the risk of treating a mathematically tidy cluster as a known crop or surface type without field evidence.",
+      "markdown": "Jonathan Cocks of DSIR Crop Research is credited in the programme reports with proposing an in-camera radiometer approach. R. S. Mason worked on the multispectral-survey equipment and electronics. The aircraft observations provided measurements at a different scale from Landsat and could be matched with field information. Researchers could then test whether patterns in the satellite data corresponded with the land-cover classes they were trying to identify. This reduced the risk of treating a mathematically tidy cluster as a known crop or surface type without field evidence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Ground truth also exposed seasonal and environmental variation. The same crop could produce different spectral values at different stages of growth, and moisture, soil background and atmospheric conditions could alter the recorded signal. Classification therefore required more than a fixed lookup table. Staff compared sensor values with observations, adjusted processing methods and assessed whether the resulting classes were useful for the intended application. The work combined field knowledge with numerical analysis.",
+      "markdown": "Ground truth also exposed seasonal and environmental variation. The same crop could produce different spectral values at different stages of growth, and moisture, soil background and atmospheric conditions could alter the recorded signal. Classification therefore required more than a fixed lookup table. Staff compared sensor values with observations, adjusted processing methods and assessed whether the resulting classes were useful for the intended application. The work combined field knowledge with numerical analysis.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

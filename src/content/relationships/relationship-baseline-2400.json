@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2400",
+  "a": "entity:new-zealand-mountain-safety-council",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

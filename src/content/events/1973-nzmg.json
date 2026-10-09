@@ -1,0 +1,23 @@
+{
+  "id": "1973-nzmg",
+  "dateDisplay": "1973",
+  "startDate": "1973",
+  "datePrecision": "year",
+  "year": 1973,
+  "label": "New Zealand Map Grid designed",
+  "summary": "W. I. Reilly developed the New Zealand Map Grid, later embedded in national metric mapping and digital practice.",
+  "url": "/stories/coordinates-enter-the-computer/#transforming-one-coordinate-world-into-another-2ab91fbc4f",
+  "passageIds": [
+    "passage:chapter-2-2ab91fbc4f"
+  ],
+  "recordIds": [
+    "person:w-i-reilly",
+    "chapter:2"
+  ],
+  "themeIds": [],
+  "categories": [
+    "projection",
+    "geodesy"
+  ],
+  "sources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "person:m-freeman",
+  "slug": "m-freeman",
+  "name": "M. Freeman",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/m-freeman/",
+  "story": [
+    "M. Dovey and M. Freeman appear among the draughting staff converting soil-survey and laboratory classification into thematic maps in 1946–50."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 1 · The people behind the sheets",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "M. Freeman"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 1 · The people behind the sheets",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

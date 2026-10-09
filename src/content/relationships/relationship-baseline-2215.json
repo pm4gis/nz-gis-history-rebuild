@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2215",
+  "a": "person:daniel-nutsford",
+  "b": "entity:university-of-canterbury",
+  "label": "Associated with",
+  "basis": "Documented association in the people-expansion research; role and period are described in the linked profile sources.",
+  "passageIds": [],
+  "sources": []
+}

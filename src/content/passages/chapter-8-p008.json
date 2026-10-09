@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-8-2d7398153c",
+  "slug": "growth-models-and-gis-2d7398153c",
+  "articleId": "article:chapter-8",
+  "title": "Growth models and GIS",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:8"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Forestry retained specialist models alongside GIS rather than replacing them. Systems such as STANDPAK were developed to model radiata pine growth, management and utilisation. They could compare silvicultural regimes, rotation age, site quality, stocking and expected financial outcomes. Their strength lay in modelling what might happen within a stand, while GIS supplied the geography of where the stands were and how they related to terrain and neighbouring features.",
+      "markdown": "Forestry retained specialist models alongside GIS rather than replacing them. Systems such as STANDPAK were developed to model radiata pine growth, management and utilisation. They could compare silvicultural regimes, rotation age, site quality, stocking and expected financial outcomes. Their strength lay in modelling what might happen within a stand, while GIS supplied the geography of where the stands were and how they related to terrain and neighbouring features.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the later 1990s researchers were linking these forms of information more directly. New Zealand work on forest visualisation used stand boundaries created in TERRASOFT and ARC/INFO, digital elevation data and outputs from STANDPAK to create scenario-based views of future forest structure. The stand geometry could be draped over terrain while modelled age or management states changed through time. This allowed researchers to examine how planned operations might alter the appearance and structure of a forest landscape before the changes occurred.",
+      "markdown": "By the later 1990s researchers were linking these forms of information more directly. New Zealand work on forest visualisation used stand boundaries created in TERRASOFT and ARC/INFO, digital elevation data and outputs from STANDPAK to create scenario-based views of future forest structure. The stand geometry could be draped over terrain while modelled age or management states changed through time. This allowed researchers to examine how planned operations might alter the appearance and structure of a forest landscape before the changes occurred.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The workflow was still technically awkward. Different software expected different formats, coordinate systems and metadata, and the 1997 visualisation work records the manual editing, conversion and checks needed to move data between systems. Much of the useful work lay in those steps between specialised tools.",
+      "markdown": "The workflow was still technically awkward. Different software expected different formats, coordinate systems and metadata, and the 1997 visualisation work records the manual editing, conversion and checks needed to move data between systems. Much of the useful work lay in those steps between specialised tools.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The resulting simulations extended forestry GIS beyond inventory and map production. They could support landscape planning, visual assessment and comparison of management scenarios. A stand was no longer represented only by its current mapped boundary and attributes. It could also be linked to a model of what that stand might look like after harvesting, replanting or several years of growth.",
+      "markdown": "The resulting simulations extended forestry GIS beyond inventory and map production. They could support landscape planning, visual assessment and comparison of management scenarios. A stand was no longer represented only by its current mapped boundary and attributes. It could also be linked to a model of what that stand might look like after harvesting, replanting or several years of growth.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

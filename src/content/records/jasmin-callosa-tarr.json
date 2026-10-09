@@ -1,0 +1,42 @@
+{
+  "id": "person:jasmin-callosa-tarr",
+  "slug": "jasmin-callosa-tarr",
+  "name": "Jasmin Callosa Tarr",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jasmin-callosa-tarr/",
+  "story": [
+    "SCGIS lists Jasmin Callosa Tarr as a chapter official supporting the New Zealand and Fiji conservation GIS network.",
+    "LINZ’s 2026 Geospatial Capability Committee material lists Jasmin Callosa-Tarr in Jacobs, corresponding member; Geospatial Capability Committee.."
+  ],
+  "sources": [
+    {
+      "label": "SCGIS New Zealand and Fiji chapter",
+      "url": "https://www.scgis.org/new-zealand-and-fiji"
+    },
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    }
+  ],
+  "aliases": [
+    "Jasmin Callosa Tarr"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "SCGIS New Zealand and Fiji chapter",
+        "url": "https://www.scgis.org/new-zealand-and-fiji"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0864",
+  "a": "person:r-g-dick",
+  "b": "chapter:2",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-2-8de87e20d6"
+  ],
+  "sources": []
+}

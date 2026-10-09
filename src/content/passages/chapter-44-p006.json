@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-44-9989c07d1e",
+  "slug": "natural-language-returns-9989c07d1e",
+  "articleId": "article:chapter-44",
+  "title": "Natural language returns",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:44",
+    "person:kristin-stock",
+    "person:niloofar-aflaki",
+    "person:shaun-russell"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 2010s add another bridge. A 2018 GIScience paper by Niloofar Aflaki, Shaun Russell and Kristin Stock examined the difficulties of creating annotated geospatial natural-language descriptions. In 2019 Stock and collaborators presented \"He Tatai Whenua\", work on automated extraction of landscape terms and meanings in New Zealand Māori. These projects predated the current large-language-model boom and treated language as data that needed careful annotation, interpretation and computational representation. Coordinates returned from natural-language queries required validation against the intended places.",
+      "markdown": "The 2010s add another bridge. A 2018 GIScience paper by Niloofar Aflaki, Shaun Russell and Kristin Stock examined the difficulties of creating annotated geospatial natural-language descriptions. In 2019 Stock and collaborators presented \"He Tatai Whenua\", work on automated extraction of landscape terms and meanings in New Zealand Māori. These projects predated the current large-language-model boom and treated language as data that needed careful annotation, interpretation and computational representation. Coordinates returned from natural-language queries required validation against the intended places.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Māori language work addressed governance of language resources; the documented work did not establish a generative-AI deployment. Landscape terms can encode relationships and meanings that do not map neatly onto an English gazetteer or a generic ontology. Computational extraction can assist research, while authority over the source material and its future use still comes from people and communities rather than technical capability. By 2025, wider debates over Māori Data Sovereignty, cultural information and controlled access were already established in New Zealand geospatial practice. A model’s capacity to ingest text or maps left those obligations intact.",
+      "markdown": "The Māori language work addressed governance of language resources; the documented work did not establish a generative-AI deployment. Landscape terms can encode relationships and meanings that do not map neatly onto an English gazetteer or a generic ontology. Computational extraction can assist research, while authority over the source material and its future use still comes from people and communities rather than technical capability. By 2025, wider debates over Māori Data Sovereignty, cultural information and controlled access were already established in New Zealand geospatial practice. A model’s capacity to ingest text or maps left those obligations intact.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Generative systems changed the interaction again because a user could increasingly express a technical requirement in ordinary language and receive code, queries or explanations in return. For GIS practitioners this could mean a draft Python script, an SQL statement, a JavaScript function, an expression, a data-cleaning routine or help interpreting an error message. The resulting code might still perform entirely conventional deterministic processing. Asking a language model to write a buffer-and-join script is different from asking a multimodal model to infer a location from a map and a paragraph of text.",
+      "markdown": "Generative systems changed the interaction again because a user could increasingly express a technical requirement in ordinary language and receive code, queries or explanations in return. For GIS practitioners this could mean a draft Python script, an SQL statement, a JavaScript function, an expression, a data-cleaning routine or help interpreting an error message. The resulting code might still perform entirely conventional deterministic processing. Asking a language model to write a buffer-and-join script is different from asking a multimodal model to infer a location from a map and a paragraph of text.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

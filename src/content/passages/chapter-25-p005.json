@@ -1,0 +1,37 @@
+{
+  "id": "passage:chapter-25-ab139e9991",
+  "slug": "wairarapa-lifelines-established-in-1996-ab139e9991",
+  "articleId": "article:chapter-25",
+  "title": "Wairarapa lifelines, established in 1996",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:wellington-regional-council-greater-wellington-regional-council",
+    "entity:wairarapa-engineering-lifelines-association"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Wairarapa Engineering Lifelines Association was formed at a Masterton meeting on 21 June 1996. District councils, Wairarapa Electricity, the regional council and other services were represented. Its later project report describes Wellington Regional Council’s Wairarapa office providing GIS support and says geographic services were still developing when the project began.",
+      "sources": [
+        {
+          "label": "Wairarapa Engineering Lifelines Association, Risk to lifelines from natural hazards, Chapter 1: project background",
+          "url": "https://www.civildefence.govt.nz/assets/Uploads/documents/lifelines/wela-risk-to-lifelines-from-natural-hazards-chapter-1.pdf"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The report’s later participant list includes telecommunications providers. Those later company names cannot all be read as the membership of the founding meeting. This regional collaboration adds a documented utility contribution while leaving individual operators’ first GIS adoption dates open.",
+      "sources": [
+        {
+          "label": "Wairarapa Engineering Lifelines Association, Risk to lifelines from natural hazards, Chapter 1: project background",
+          "url": "https://www.civildefence.govt.nz/assets/Uploads/documents/lifelines/wela-risk-to-lifelines-from-natural-hazards-chapter-1.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

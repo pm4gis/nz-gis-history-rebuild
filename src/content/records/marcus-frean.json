@@ -1,0 +1,44 @@
+{
+  "id": "person:marcus-frean",
+  "slug": "marcus-frean",
+  "name": "Marcus Frean",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/marcus-frean/",
+  "story": [
+    "Marcus Frean is an associate professor in engineering and computer science at Te Herenga Waka Victoria University of Wellington. He holds an honours BSc from Massey University and a PhD from the University of Edinburgh. His research training included neural information processing at Cambridge, work on the evolution of cooperation at Otago, and boosting and inference at the University of Queensland. This provides a broader machine-learning background to his historical-map research.",
+    "In 2025, Rere-No-A-Rangi Pope and Marcus Frean at Victoria University of Wellington presented a method for georeferencing historical maps at scale at GIScience 2025 in Christchurch."
+  ],
+  "sources": [
+    {
+      "label": "Marcus Frean · career/profile reference",
+      "url": "https://people.wgtn.ac.nz/marcus.frean"
+    },
+    {
+      "label": "Chapter 44 · Reading maps with AI",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Marcus Frean"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Marcus Frean · career/profile reference",
+        "url": "https://people.wgtn.ac.nz/marcus.frean"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · Reading maps with AI",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

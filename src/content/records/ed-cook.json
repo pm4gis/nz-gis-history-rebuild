@@ -1,0 +1,35 @@
+{
+  "id": "person:ed-cook",
+  "slug": "ed-cook",
+  "name": "Ed Cook",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ed-cook/",
+  "story": [
+    "At the 2018 New Zealand Esri User Conference, Ed Cook presented on ArcGIS web maps and field apps. The 2019 programme also names him with Beth-Anne Lee in two sessions on ArcGIS Field Apps, covering QuickCapture, Survey123, Collector and workflows that combine the apps."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "Ed Cook - Eagle Technology | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/edcnz"
+    }
+  ],
+  "aliases": [
+    "Ed Cook"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ]
+  ]
+}

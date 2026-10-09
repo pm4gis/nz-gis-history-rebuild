@@ -1,0 +1,50 @@
+{
+  "id": "passage:chapter-26-611e7efe0e",
+  "slug": "conservation-gis-beyond-government-611e7efe0e",
+  "articleId": "article:chapter-26",
+  "title": "Conservation GIS beyond government",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26",
+    "entity:eagle-technology",
+    "entity:gis-in-conservation-scgis-new-zealand-and-fiji",
+    "entity:new-zealand-ecological-restoration-network",
+    "person:parker-jones",
+    "person:mike-peters"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "One volunteer experiment had already pushed well beyond desktop mapping. Mike Peters later recalled that the New Zealand Ecological Restoration Network's Pipi 4 system, developed from 2005, gained GIS capability with help from Parker Jones at Eagle Technology and an Esri Conservation GIS grant. Peters said a live Pipi demonstration at a Wellington NZ Esri User Conference was followed by roughly NZ$600,000 of donated Esri software, including ArcIMS and ArcSDE, arriving in boxes on a pallet. Pipi then hosted customised web maps for conservation projects ranging from small sites to catchment-scale work. Community conservation groups were developing web GIS before later support networks were established.",
+      "markdown": "One volunteer experiment had already pushed well beyond desktop mapping. Mike Peters later recalled that the New Zealand Ecological Restoration Network's Pipi 4 system, developed from 2005, gained GIS capability with help from Parker Jones at Eagle Technology and an Esri Conservation GIS grant. Peters said a live Pipi demonstration at a Wellington NZ Esri User Conference was followed by roughly NZ$600,000 of donated Esri software, including ArcIMS and ArcSDE, arriving in boxes on a pallet. Pipi then hosted customised web maps for conservation projects ranging from small sites to catchment-scale work. Community conservation groups were developing web GIS before later support networks were established.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2010s conservation GIS was no longer confined to government departments, councils and research organisations. NZ GIS in Conservation was established in 2012 as a registered not-for-profit to support the use of GIS by volunteer conservation groups and iwi working in conservation around New Zealand. By then, desktop GIS, national datasets and web tools were becoming practical for smaller conservation organisations as well as large agencies.",
+      "markdown": "By the 2010s conservation GIS was no longer confined to government departments, councils and research organisations. NZ GIS in Conservation was established in 2012 as a registered not-for-profit to support the use of GIS by volunteer conservation groups and iwi working in conservation around New Zealand. By then, desktop GIS, national datasets and web tools were becoming practical for smaller conservation organisations as well as large agencies.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Volunteer groups had often worked with highly local information: trap lines, restoration sites, pest observations, planting areas, tracks and property boundaries. Earlier GIS systems could be too expensive or technically demanding for a small community organisation to maintain. Desktop software became easier to obtain, national datasets became more accessible and web mapping reduced the amount of local infrastructure required. Specialist support could then be directed at the conservation task rather than at acquiring a full enterprise GIS.",
+      "markdown": "Volunteer groups had often worked with highly local information: trap lines, restoration sites, pest observations, planting areas, tracks and property boundaries. Earlier GIS systems could be too expensive or technically demanding for a small community organisation to maintain. Desktop software became easier to obtain, national datasets became more accessible and web mapping reduced the amount of local infrastructure required. Specialist support could then be directed at the conservation task rather than at acquiring a full enterprise GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The groups still faced the same basic data questions as larger organisations. Someone had to decide how features were named, where the current copy lived, how field observations were checked and whether sensitive locations could be shared. Small scale did not remove the need for disciplined information management. It did make the social side of the work more visible because the person collecting the field observation might also be the person maintaining the map.",
+      "markdown": "The groups still faced the same basic data questions as larger organisations. Someone had to decide how features were named, where the current copy lived, how field observations were checked and whether sensitive locations could be shared. Small scale did not remove the need for disciplined information management. It did make the social side of the work more visible because the person collecting the field observation might also be the person maintaining the map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Community conservation also widened the range of organisations that could contribute geographic information. Government agencies remained responsible for national datasets and statutory functions, but volunteer groups could collect detailed local records that no national programme could capture at the same frequency. GIS provided a practical way to combine those local observations with wider environmental context when governance and data-sharing arrangements allowed it.",
+      "markdown": "Community conservation also widened the range of organisations that could contribute geographic information. Government agencies remained responsible for national datasets and statutory functions, but volunteer groups could collect detailed local records that no national programme could capture at the same frequency. GIS provided a practical way to combine those local observations with wider environmental context when governance and data-sharing arrangements allowed it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

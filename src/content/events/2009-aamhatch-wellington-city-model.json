@@ -6,13 +6,27 @@
   "year": 2009,
   "label": "AAMHatch produces Wellington’s textured 3D city model",
   "summary": "AAMHatch’s Wellington project used aerial imagery and building models to create a textured three-dimensional city representation.",
-  "url": "/stories/aam-and-northsouth/#wellington-textured-city-model",
-  "passageIds": ["passage:aamhatch-wellington-2009"],
-  "themeIds": ["theme:3d-mapping"],
+  "url": "/stories/from-flat-maps-to-3d/#buildings-meet-geography-2289da86de",
+  "passageIds": [
+    "passage:chapter-39-2289da86de"
+  ],
+  "recordIds": [
+    "entity:aam-aamhatch",
+    "chapter:39",
+    "entity:university-of-canterbury",
+    "person:daniel-jones"
+  ],
+  "themeIds": [],
+  "categories": [
+    "industry",
+    "imagery",
+    "photogrammetry",
+    "3d"
+  ],
   "sources": [
     {
-      "label": "GIM International, Textured 3D City Model for Wellington",
-      "url": "https://www.gim-international.com/content/news/textured-3d-city-model-for-wellington"
+      "label": "Beehive, 3D models to aid Christchurch vision, 7 March 2014",
+      "url": "https://www.beehive.govt.nz/release/3d-models-aid-christchurch-vision"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "id": "open-practice",
+  "slug": "open-practice",
+  "title": "Open source and open data",
+  "description": "Follow the separate but intersecting histories of open software and reusable public data.",
+  "color": "#c4a85a",
+  "passageIds": [
+    "passage:chapter-32-069a12d50e",
+    "passage:chapter-32-91d01fe961",
+    "passage:chapter-33-8efa04925a",
+    "passage:chapter-33-51393f242c",
+    "passage:chapter-32-aa98df6e0c"
+  ],
+  "stops": [
+    {
+      "passageId": "passage:chapter-32-069a12d50e",
+      "title": "Open source underneath the map",
+      "url": "/stories/open-source-changes-the-tools/#open-source-underneath-the-map"
+    },
+    {
+      "passageId": "passage:chapter-32-91d01fe961",
+      "title": "QGIS comes into view",
+      "url": "/stories/open-source-changes-the-tools/#qgis-comes-into-view"
+    },
+    {
+      "passageId": "passage:chapter-33-8efa04925a",
+      "title": "A licence for reuse",
+      "url": "/stories/open-data-changes-access/#a-licence-for-reuse"
+    },
+    {
+      "passageId": "passage:chapter-33-51393f242c",
+      "title": "The LINZ Data Service",
+      "url": "/stories/open-data-changes-access/#the-linz-data-service"
+    },
+    {
+      "passageId": "passage:chapter-32-aa98df6e0c",
+      "title": "A community large enough to host the world",
+      "url": "/stories/open-source-changes-the-tools/#a-community-large-enough-to-host-the-world"
+    }
+  ]
+}

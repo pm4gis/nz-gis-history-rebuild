@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0954",
+  "a": "person:julian-kardos",
+  "b": "entity:intergraph-new-zealand",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

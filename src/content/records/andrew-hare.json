@@ -1,0 +1,53 @@
+{
+  "id": "person:andrew-hare",
+  "slug": "andrew-hare",
+  "name": "Andrew Hare",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/andrew-hare/",
+  "story": [
+    "Andrew Hare dates the beginning of his GIS career to 1996, when he worked in Brisbane for a marketing company. In his March 2025 career account he described twenty-nine years in the field and working with MapInfo for his first fourteen years. His later council career includes Waitaki District Council as well as the Waimate work described in the history.",
+    "Andrew Hare was Waimate District Council’s GIS Administrator during the June 2006 Canterbury snowstorm. NIWA’s preliminary analysis credits him with supplying 12 snow-depth observations gathered from residents who called the council on the morning of the storm. Those observations contributed to the report’s approximate regional snow-depth surface, illustrating council GIS staff’s role in collecting local information during an emergency.",
+    "By June 2006 Andrew Hare was the council's GIS Administrator. During the 12 June snowstorm he collected twelve additional snow-depth observations from callers around the district, data that NIWA then used in its regional reconstruction of the event. In March 2007 he was on the MapInfo-L mailing list answering a MapInfo Professional 8.0 problem under his Waimate title. A year later he described another practical job: create a marker point every metre down a pipe, join an Excel table to those points by distance using SQL, convert decimal distances to whole numbers and accept a little positional error to the nearest metre."
+  ],
+  "sources": [
+    {
+      "label": "NIWA, Preliminary analysis of the 12 June 2006 Canterbury snow storm, p. 12",
+      "url": "https://niwa.co.nz/sites/default/files/import/attachments/canterbury_snow_storm_june_2006.pdf"
+    },
+    {
+      "label": "Andrew Hare - Waitaki District Council | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/andrew-hare-nz"
+    },
+    {
+      "label": "Chapter 23 · The parcel becomes a key",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Andrew Hare"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Andrew Hare - Waitaki District Council | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/andrew-hare-nz"
+      }
+    ],
+    [
+      {
+        "label": "NIWA, Preliminary analysis of the 12 June 2006 Canterbury snow storm, p. 12",
+        "url": "https://niwa.co.nz/sites/default/files/import/attachments/canterbury_snow_storm_june_2006.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · The parcel becomes a key",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

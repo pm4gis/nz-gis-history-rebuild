@@ -1,0 +1,26 @@
+{
+  "id": "entity:interpret-geospatial-solutions",
+  "slug": "interpret-geospatial-solutions",
+  "name": "Interpret Geospatial Solutions",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/interpret-geospatial-solutions/",
+  "website": null,
+  "story": [
+    "Interpret Geospatial Solutions appears in New Zealand conference records as a spatial consultancy working across transport, location analysis and application development. In 2017 Natalie Scott presented Auckland walkability analysis and other staff presented transport and spatial-analysis work."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Interpret Geospatial Solutions"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

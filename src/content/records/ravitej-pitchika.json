@@ -1,0 +1,31 @@
+{
+  "id": "person:ravitej-pitchika",
+  "slug": "ravitej-pitchika",
+  "name": "Ravitej Pitchika",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ravitej-pitchika/",
+  "story": [
+    "Ravitej Pitchika’s 2017 MGIS thesis describes field work conducted roughly four years after the August 2012 Te Maari eruption at Tongariro. Remembering it as a 2012 drone survey would collapse the event and the later research into one date. Early UAV mapping in New Zealand also appeared through several routes, including research, surveying, engineering and environmental projects that gradually showed what small aircraft and digital photogrammetry could do."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 38 · A crater field above Tongariro",
+      "url": "/stories/mapping-from-a-drone/"
+    }
+  ],
+  "aliases": [
+    "Ravitej Pitchika"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 38 · A crater field above Tongariro",
+        "url": "/stories/mapping-from-a-drone/"
+      }
+    ]
+  ]
+}

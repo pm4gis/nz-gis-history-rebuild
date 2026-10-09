@@ -1,0 +1,63 @@
+{
+  "id": "person:tony-elson",
+  "slug": "tony-elson",
+  "name": "Tony Elson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/tony-elson/",
+  "story": [
+    "Tony Elson studied at the University of Waikato from 1992 to 1995 before the consultancy work described in the history. Alongside GIS business leadership, he served as president of Papakura City Football Club from 2014 to 2018. His professional record thus includes community governance as well as technical and commercial GIS practice.",
+    "Tony Elson co-founded GBS with Harley Prowse in June 2002 after their earlier work at GTU and separate contracting. The company’s retrospective describes how they developed the consultancy and its client relationships. Project-held NZEUG AGM minutes also record Elson’s committee service in 2010, alongside his commercial GIS work.",
+    "Harley Prowse and Tony Elson met through GTU, associated with Auckland UniServices, and formed GBS in June 2002 after contracting independently. The company’s retrospective records its early hires, a client base spanning councils, utilities, forestry, research and agriculture, and Esri Silver and Gold partner milestones in 2011 and 2013. GBS later established an affiliate in Korea and began US operations."
+  ],
+  "sources": [
+    {
+      "label": "GBS, 20 years of GBS: a short history, 28 September 2022",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    },
+    {
+      "label": "NZEUG, 10 November 2010 AGM minutes",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Tony Elson - Geographic Business Solutions | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/tonyelson"
+    },
+    {
+      "label": "Chapter 12 · A consultancy appears",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Tony Elson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Tony Elson - Geographic Business Solutions | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/tonyelson"
+      }
+    ],
+    [
+      {
+        "label": "GBS, 20 years of GBS: a short history, 28 September 2022",
+        "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+      },
+      {
+        "label": "NZEUG, 10 November 2010 AGM minutes",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · A consultancy appears",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

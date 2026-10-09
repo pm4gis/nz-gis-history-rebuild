@@ -1,0 +1,54 @@
+{
+  "id": "article:chapter-40",
+  "slug": "enterprise-gis",
+  "title": "Enterprise GIS",
+  "url": "/stories/enterprise-gis/",
+  "summary": "By the late 1990s New Zealand organisations had already proved that GIS could do useful work. That success created a new problem: GIS multiplied. Councils could maintain property and infrastructure layers, government departments c",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 40,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch40-note-01",
+      "text": "1. Cindy Munns’ 1999 Esri International User Conference paper on object-relational spatial databases provides the principal period architecture evidence for LINZ’s Core Records System. It records Informix and SDE, approximately 750 GB of total data of which about 400 GB was geospatial, approximately fifty developers, Internet deployment requirements and the intention to integrate spatial and non-spatial land records. The chapter uses this as enterprise-architecture evidence rather than as a substitute for the fuller Landonline history."
+    },
+    {
+      "id": "ch40-note-02",
+      "text": "2. Christchurch City Council’s 2001/02 Corporate Plan and February 2003 corporate-status material support the council case. The former records planned integration of GIS, Webmap, environmental layers, GEMs and the National Property Database within the council electronic-information environment. The latter records Corporate Webmap rollout completion, a 35 per cent increase in users since June 2002 and growth from 55 to 69 datasets. These figures establish corporate diffusion without implying a specific undocumented database architecture."
+    },
+    {
+      "id": "ch40-note-03",
+      "text": "3. The Department of Conservation’s 2003 National Enterprise GIS conference paper and Release II material support the BIP-to-DOCgis transition, ArcSDE, ArcGIS and ArcIMS architecture, national geodatabase, browser clients, business-database links and field-device pathways. Attribution remains organisational unless a source directly identifies an individual contribution. The existence of central infrastructure is not used to credit national GIS management with regional or field innovation that the sources attribute elsewhere."
+    },
+    {
+      "id": "ch40-note-04",
+      "text": "4. NIWA’s enterprise/federated alternative is supported by Brent Wood’s 30 October 2006 PostgreSQL correspondence and the later FOSS4G case study of the Ocean Survey 20/20 Bay of Islands portal. These sources establish substantial PostGIS use and a 2010 portal combining GeoNetwork, PostGIS, MapServer, OpenLayers and SilverStripe. The architecture is evidence of reusable scientific spatial infrastructure, not proof that all NIWA GIS used this stack."
+    },
+    {
+      "id": "ch40-note-05",
+      "text": "5. The metadata-standard section is supported by the 2007 Wildfire Threat Analysis implementation review, LINZ’s 2019 metadata guidance, ANZLIC standards chronology and data.govt.nz’s 2016 technical update. The wildfire review records the absence of a tool able to read and write the New Zealand standard and the resulting Word-template workaround. LINZ later described metadata creation as complex and time-consuming and noted that tooling had not caught up with the 2015 ISO revision. The manuscript therefore concludes that standards frequently outran practical tooling, not that metadata standards simply failed or disappeared."
+    },
+    {
+      "id": "ch40-note-06",
+      "text": "This section synthesises the documented operating responsibilities and dependencies described across the existing council, contractor and transport-platform case records."
+    },
+    {
+      "id": "ch40-note-07",
+      "text": "The 2016 Auckland Council ArcNews case documents the GFMO programme, technology mix, data-consolidation figures and named customer and supplier roles. The dataset totals describe consolidation, not an assumption that fewer records are always better."
+    },
+    {
+      "id": "ch40-note-08",
+      "text": "Eagle's Downer customer case documents GRAIL's 2011 start, its description as Downer's first GIS system and the named customer and supplier roles. The account is specific to Downer and is not generalised across contractors."
+    },
+    {
+      "id": "ch40-note-09",
+      "text": "The NZTA and Esri case study documents the 2021 ArcGIS Enterprise on Kubernetes work, hub-and-spoke model and named implementation roles. Reported outcomes remain attributed to that customer case."
+    },
+    {
+      "id": "ch40-note-10",
+      "text": "10. Duane Wilkins’s account of the New Zealand Police ArcGIS Enterprise implementation team in 2021 names Wilkins as lead and Sarah Hodgson as a team member."
+    }
+  ]
+}

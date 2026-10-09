@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0677",
+  "a": "person:walter-mantell",
+  "b": "chapter:1",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-1-67bf38bca3"
+  ],
+  "sources": []
+}

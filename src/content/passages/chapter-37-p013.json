@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-37-1ebfdc3774",
+  "slug": "a-national-terrain-foundation-1ebfdc3774",
+  "articleId": "article:chapter-37",
+  "title": "A national terrain foundation",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "imagery"
+  ],
+  "recordIds": [
+    "chapter:37"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the mid-2020s, LiDAR had travelled a long way from the local contracts of the early 2000s. The 2003 Christchurch survey was a carefully commissioned city project with specialist processing and local deliverables. Similar acquisitions spread through councils and regional programmes because flood modelling, engineering and environmental work could justify the cost. Repeated Canterbury surveys then showed the value of keeping measured terrain through time. The 2018 funding decision and subsequent regional partnerships turned that accumulated practice into a coordinated national programme.",
+      "markdown": "By the mid-2020s, LiDAR had travelled a long way from the local contracts of the early 2000s. The 2003 Christchurch survey was a carefully commissioned city project with specialist processing and local deliverables. Similar acquisitions spread through councils and regional programmes because flood modelling, engineering and environmental work could justify the cost. Repeated Canterbury surveys then showed the value of keeping measured terrain through time. The 2018 funding decision and subsequent regional partnerships turned that accumulated practice into a coordinated national programme.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Detailed terrain data became available for reuse across disciplines, projects and organisations. A planner, flood modeller, engineer, researcher or GIS analyst can begin with a nationally distributed terrain foundation whose source surveys, coordinate systems and specifications are documented. The point cloud remains available for questions that need the measurements themselves, while derived one-metre models make the data usable by a much wider audience. That combination of detailed source data and accessible standard products is what made LiDAR ordinary.",
+      "markdown": "Detailed terrain data became available for reuse across disciplines, projects and organisations. A planner, flood modeller, engineer, researcher or GIS analyst can begin with a nationally distributed terrain foundation whose source surveys, coordinate systems and specifications are documented. The point cloud remains available for questions that need the measurements themselves, while derived one-metre models make the data usable by a much wider audience. That combination of detailed source data and accessible standard products is what made LiDAR ordinary.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Earlier forestry, engineering, coastal or research LiDAR acquisitions may yet be identified in company and institutional records. The Christchurch survey provides a dated council case against which those earlier acquisitions can be compared.",
+      "markdown": "Earlier forestry, engineering, coastal or research LiDAR acquisitions may yet be identified in company and institutional records. The Christchurch survey provides a dated council case against which those earlier acquisitions can be compared.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LiDAR had made large-area terrain measurable as dense three-dimensional data. A very different acquisition model was also emerging. Small remotely piloted aircraft carrying ordinary digital cameras allowed individual teams to create their own high-resolution orthomosaics, point clouds and surface models over much smaller areas, shifting some detailed mapping from national and regional laser surveys to locally controlled drone capture.",
+      "markdown": "LiDAR had made large-area terrain measurable as dense three-dimensional data. A very different acquisition model was also emerging. Small remotely piloted aircraft carrying ordinary digital cameras allowed individual teams to create their own high-resolution orthomosaics, point clouds and surface models over much smaller areas, shifting some detailed mapping from national and regional laser surveys to locally controlled drone capture.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

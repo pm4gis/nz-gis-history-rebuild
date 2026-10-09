@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-36-f5baa93ce2",
+  "slug": "the-archive-opens-f5baa93ce2",
+  "articleId": "article:chapter-36",
+  "title": "The archive opens",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For much of the remote-sensing era, imagery access itself constrained what could be attempted. A project might purchase selected scenes, work with the dates that could be afforded and store only what was needed for the immediate task. In 2008 the United States Geological Survey changed that calculation for Landsat. From 1 October, all Landsat 7 ETM+ scenes in the USGS EROS archive were made available at no charge. The wider programme then opened the Landsat 1-5 archive for free electronic access through the remainder of that year.",
+      "markdown": "For much of the remote-sensing era, imagery access itself constrained what could be attempted. A project might purchase selected scenes, work with the dates that could be afforded and store only what was needed for the immediate task. In 2008 the United States Geological Survey changed that calculation for Landsat. From 1 October, all Landsat 7 ETM+ scenes in the USGS EROS archive were made available at no charge. The wider programme then opened the Landsat 1-5 archive for free electronic access through the remainder of that year.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Remote sensing still required processing, storage and skilled interpretation. Someone still had to find the right scenes, download them, manage large raster files, deal with cloud and sensor problems, process them and understand what comparisons were valid. Free access removed the need to treat every additional historical scene as another purchase decision. A researcher could assemble a longer sequence, revisit an earlier year or test several dates before deciding which observations were usable. For New Zealand, where cloud can make optical imagery an exercise in patience, the ability to look across more acquisitions was particularly valuable.",
+      "markdown": "Remote sensing still required processing, storage and skilled interpretation. Someone still had to find the right scenes, download them, manage large raster files, deal with cloud and sensor problems, process them and understand what comparisons were valid. Free access removed the need to treat every additional historical scene as another purchase decision. A researcher could assemble a longer sequence, revisit an earlier year or test several dates before deciding which observations were usable. For New Zealand, where cloud can make optical imagery an exercise in patience, the ability to look across more acquisitions was particularly valuable.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The archive also changed historical analysis. Landsat’s long record meant a contemporary project could reach back into earlier decades without having collected the data itself at the time. The satellite had been repeatedly observing the country whether or not a particular New Zealand agency had an active project underway. Once those observations were easily accessible, the archive became a time machine with some fairly obvious caveats: different sensors, different seasons, cloud, missing data and changing preprocessing all had to be handled properly. Researchers could interrogate a long record of repeated observations.",
+      "markdown": "The archive also changed historical analysis. Landsat’s long record meant a contemporary project could reach back into earlier decades without having collected the data itself at the time. The satellite had been repeatedly observing the country whether or not a particular New Zealand agency had an active project underway. Once those observations were easily accessible, the archive became a time machine with some fairly obvious caveats: different sensors, different seasons, cloud, missing data and changing preprocessing all had to be handled properly. Researchers could interrogate a long record of repeated observations.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

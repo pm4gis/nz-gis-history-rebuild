@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-24-981b72aea2",
+  "slug": "routine-government-use-981b72aea2",
+  "articleId": "article:chapter-24",
+  "title": "Routine government use",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:24"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The early government GIS story was about departments acquiring systems and converting maps into digital databases. By the 2000s the technology had moved deeper into administrative work. Geographic information was being used to examine economic regions, manage a biosecurity response, organise fisheries information and define regulated permit areas. None of those activities existed primarily to make maps.",
+      "markdown": "The early government GIS story was about departments acquiring systems and converting maps into digital databases. By the 2000s the technology had moved deeper into administrative work. Geographic information was being used to examine economic regions, manage a biosecurity response, organise fisheries information and define regulated permit areas. None of those activities existed primarily to make maps.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The systems remained uneven and agency specific. Some were desktop analyses, some operational datasets, some public web services and some regulatory databases. They did not converge on one vendor or one central government platform. They shared the assumption that location could be stored, queried and maintained alongside the other information needed to run the programme.",
+      "markdown": "The systems remained uneven and agency specific. Some were desktop analyses, some operational datasets, some public web services and some regulatory databases. They did not converge on one vendor or one central government platform. They shared the assumption that location could be stored, queried and maintained alongside the other information needed to run the programme.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That assumption changed the place of GIS in government. A new spatial task no longer required an argument that geographic information belonged in the work. The questions were increasingly about data quality, identifiers, access, maintenance and how the spatial record connected with the business system around it. Network operators had already been confronting the same questions with electricity, telecommunications, water and other infrastructure, where connectivity between assets became as central as their location.",
+      "markdown": "That assumption changed the place of GIS in government. A new spatial task no longer required an argument that geographic information belonged in the work. The questions were increasingly about data quality, identifiers, access, maintenance and how the spatial record connected with the business system around it. Network operators had already been confronting the same questions with electricity, telecommunications, water and other infrastructure, where connectivity between assets became as central as their location.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

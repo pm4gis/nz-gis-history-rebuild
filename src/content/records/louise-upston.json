@@ -1,0 +1,33 @@
+{
+  "id": "person:louise-upston",
+  "slug": "louise-upston",
+  "name": "Louise Upston",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/louise-upston/",
+  "story": [
+    "As Land Information Minister, Louise Upston announced the inaugural New Zealand Spatial Excellence Awards in November 2014. The government release records the awards as a joint undertaking between the spatial profession, business and government and identifies LINZ’s Geospatial Virtual Field Trip for Schools as the People & Community winner."
+  ],
+  "sources": [
+    {
+      "label": "Beehive, Awards put spotlight on location innovation, 29 November 2014",
+      "url": "https://www.beehive.govt.nz/release/awards-put-spotlight-location-innovation"
+    }
+  ],
+  "aliases": [
+    "Louise Upston"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Beehive, Awards put spotlight on location innovation, 29 November 2014",
+        "url": "https://www.beehive.govt.nz/release/awards-put-spotlight-location-innovation"
+      }
+    ]
+  ]
+}

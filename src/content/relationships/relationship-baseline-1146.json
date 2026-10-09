@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1146",
+  "a": "system:enterprise-gis",
+  "b": "entity:department-of-conservation",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

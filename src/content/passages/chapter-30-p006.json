@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-30-50ae27dc46",
+  "slug": "census-geography-on-the-web-50ae27dc46",
+  "articleId": "article:chapter-30",
+  "title": "Census geography on the web",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30",
+    "entity:mapdata-sciences",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Statistics New Zealand’s 2001 Census products show another version of the transition. In March 2002 the department documented a free public Census WebMap on its website. Browser users could identify geographic areas and obtain Census statistics without owning specialist GIS software. MapData Sciences was commissioned to develop and host the service.",
+      "markdown": "Statistics New Zealand’s 2001 Census products show another version of the transition. In March 2002 the department documented a free public Census WebMap on its website. Browser users could identify geographic areas and obtain Census statistics without owning specialist GIS software. MapData Sciences was commissioned to develop and host the service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "WebMap was free to view; access to the underlying GIS data had separate conditions. The same March 2002 product sheet priced the complete Meshblock Database at $1,200 plus GST and multi-organisation use at $5,000 plus GST. Digital boundaries were supplied under licensing arrangements, while authorised suppliers sold mapping packages that combined Census information, boundaries, topographic overlays and software. A person could therefore look at statistical geography for nothing while an organisation wanting to reuse the same geography in its own GIS still faced charges and licence conditions.",
+      "markdown": "WebMap was free to view; access to the underlying GIS data had separate conditions. The same March 2002 product sheet priced the complete Meshblock Database at $1,200 plus GST and multi-organisation use at $5,000 plus GST. Digital boundaries were supplied under licensing arrangements, while authorised suppliers sold mapping packages that combined Census information, boundaries, topographic overlays and software. A person could therefore look at statistical geography for nothing while an organisation wanting to reuse the same geography in its own GIS still faced charges and licence conditions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Browser access and open data arrived through separate changes. Browser access lowered the cost of seeing and querying information. Open licensing and reusable downloads changed the terms on which people could obtain the data itself. Two months later, in May 2002, the Government announced free access to detailed Census results through the Census Table Builder, explicitly identifying cost as an access barrier. Open-data policy and services continued to develop after this release.",
+      "markdown": "Browser access and open data arrived through separate changes. Browser access lowered the cost of seeing and querying information. Open licensing and reusable downloads changed the terms on which people could obtain the data itself. Two months later, in May 2002, the Government announced free access to detailed Census results through the Census Table Builder, explicitly identifying cost as an access barrier. Open-data policy and services continued to develop after this release.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Census WebMap also demonstrated something broader about public institutions. A web map could publish a carefully selected view without distributing the organisation’s entire analytical environment. Statistics New Zealand could control which geography, statistics and functions appeared in the service while keeping the underlying production systems separate. The browser was becoming a publication layer over institutional GIS.",
+      "markdown": "The Census WebMap also demonstrated something broader about public institutions. A web map could publish a carefully selected view without distributing the organisation’s entire analytical environment. Statistics New Zealand could control which geography, statistics and functions appeared in the service while keeping the underlying production systems separate. The browser was becoming a publication layer over institutional GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

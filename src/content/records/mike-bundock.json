@@ -1,0 +1,48 @@
+{
+  "id": "person:mike-bundock",
+  "slug": "mike-bundock",
+  "name": "Mike Bundock",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mike-bundock/",
+  "story": [
+    "Mike Bundock worked with Smallworld in the UK, then established its Australasian operation in 1993, according to his company biography.",
+    "Mike Bundock’s company biography records his work with Smallworld in the United Kingdom before establishing an Australasian operation in 1993. That regional operation date is separate from Vector’s documented migration in 1998–99 and does not establish the first New Zealand installation."
+  ],
+  "sources": [
+    {
+      "label": "Augview, Mike Bundock management biography: Smallworld UK and Australasian operation, 1990–2000",
+      "url": "https://www.augview.net/company/"
+    },
+    {
+      "label": "Chapter 25 · Smallworld at Vector",
+      "url": "/stories/mapping-the-networks/"
+    }
+  ],
+  "aliases": [
+    "Mike Bundock"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Augview, Mike Bundock management biography: Smallworld UK and Australasian operation, 1990–2000",
+        "url": "https://www.augview.net/company/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 25 · Smallworld at Vector",
+        "url": "/stories/mapping-the-networks/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Smallworld at Vector",
+      "url": "/stories/mapping-the-networks/"
+    }
+  ]
+}

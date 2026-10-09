@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1444",
+  "a": "entity:university-of-auckland",
+  "b": "chapter:6",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-6-bc94bd66ec",
+    "passage:chapter-6-e04c029193"
+  ],
+  "sources": []
+}

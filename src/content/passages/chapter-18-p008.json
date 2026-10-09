@@ -1,0 +1,55 @@
+{
+  "id": "passage:chapter-18-c4ce579f27",
+  "slug": "gis-goes-into-the-field-c4ce579f27",
+  "articleId": "article:chapter-18",
+  "title": "GIS goes into the field",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18",
+    "entity:department-of-conservation",
+    "entity:eagle-technology",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Vector used mobile GIS to take network information into the field. Development began in August 2001. By April 2002 the electricity network company was introducing 40 Compaq iPAQ handheld computers and six rugged Panasonic Toughbook notebooks for field crews. The project was reported as costing about NZ$200,000, with expected annual savings of about NZ$500,000 from reducing duplicated data entry, errors and trips back to the office for plans.",
+      "markdown": "Vector used mobile GIS to take network information into the field. Development began in August 2001. By April 2002 the electricity network company was introducing 40 Compaq iPAQ handheld computers and six rugged Panasonic Toughbook notebooks for field crews. The project was reported as costing about NZ$200,000, with expected annual savings of about NZ$500,000 from reducing duplicated data entry, errors and trips back to the office for plans.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Tongariro River",
+      "caption": "Tongariro River. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "The equipment is now a small museum of early mobile computing. The Toughbooks ran the Smallworld GIS used in Vector’s office. The iPAQs had 64 MB of memory, a 256 MB storage card and Esri ArcPad supplied by Eagle Technology. Each PDA also had a Navman GPS device which the contemporary report said could automatically locate the worker to within about 10 metres. Vector developed its own translation between ArcPad and Smallworld so that field and corporate data could be exchanged.",
+      "markdown": "The equipment is now a small museum of early mobile computing. The Toughbooks ran the Smallworld GIS used in Vector’s office. The iPAQs had 64 MB of memory, a 256 MB storage card and Esri ArcPad supplied by Eagle Technology. Each PDA also had a Navman GPS device which the contemporary report said could automatically locate the worker to within about 10 metres. Vector developed its own translation between ArcPad and Smallworld so that field and corporate data could be exchanged.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Connectivity limited the field system. In 2002 Vector had considered wireless access but decided the available bandwidth was not adequate for the amount of mapping data involved. The iPAQs therefore worked largely as synchronised field devices. Staff took data with them, collected or updated information in the field, then plugged the units into an office cradle to exchange data with the corporate GIS. The satellite part was already mobile. Crews synchronised their data when a connection was available.",
+      "markdown": "Connectivity limited the field system. In 2002 Vector had considered wireless access but decided the available bandwidth was not adequate for the amount of mapping data involved. The iPAQs therefore worked largely as synchronised field devices. Staff took data with them, collected or updated information in the field, then plugged the units into an office cradle to exchange data with the corporate GIS. The satellite part was already mobile. Crews synchronised their data when a connection was available.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By August 2003 that boundary had shifted. Vector field staff were using Bluetooth phones and Vodafone GPRS to reach corporate network information from the field. They could search by address or pole number and trace underground cable feeds without returning to the office for a printed plan. GPS, portable GIS and mobile communications were converging, but each had arrived through a different technical route.",
+      "markdown": "By August 2003 that boundary had shifted. Vector field staff were using Bluetooth phones and Vodafone GPRS to reach corporate network information from the field. They could search by address or pole number and trace underground cable feeds without returning to the office for a printed plan. GPS, portable GIS and mobile communications were converging, but each had arrived through a different technical route.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vector’s April 2002 deployment provides a firmly dated example of mobile GIS being introduced for working crews. Earlier handheld and GPS experiments almost certainly existed, and Department of Conservation material from the same period describes ArcPad, GPS and Windows CE as an implementation pathway. Operational rollout to working crews marked a stronger milestone than an isolated experiment.",
+      "markdown": "Vector’s April 2002 deployment provides a firmly dated example of mobile GIS being introduced for working crews. Earlier handheld and GPS experiments almost certainly existed, and Department of Conservation material from the same period describes ArcPad, GPS and Windows CE as an implementation pathway. Operational rollout to working crews marked a stronger milestone than an isolated experiment.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

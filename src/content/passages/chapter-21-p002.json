@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-21-d9cf5661aa",
+  "slug": "early-coordination-d9cf5661aa",
+  "articleId": "article:chapter-21",
+  "title": "Early coordination",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand’s involvement in wider land-information coordination predated the formal Geospatial Strategy by nearly two decades. The Australian Land Information Council was established in 1986, and New Zealand was represented from 1987 with participating rights similar to the Australian jurisdictions. In November 1991 New Zealand became a full member and the body was renamed the Australia New Zealand Land Information Council, or ANZLIC. Its role was policy and coordination rather than running the member jurisdictions’ operational systems.",
+      "markdown": "New Zealand’s involvement in wider land-information coordination predated the formal Geospatial Strategy by nearly two decades. The Australian Land Information Council was established in 1986, and New Zealand was represented from 1987 with participating rights similar to the Australian jurisdictions. In November 1991 New Zealand became a full member and the body was renamed the Australia New Zealand Land Information Council, or ANZLIC. Its role was policy and coordination rather than running the member jurisdictions’ operational systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The arrangement reflected a problem that both countries were already encountering. Land and spatial information was being collected by many parts of government, and the ability to exchange it depended on more than purchasing compatible software. National and trans-Tasman work increasingly dealt with data management, standards, metadata and institutional responsibilities. ANZLIC supplied a forum in which those subjects could be treated as shared infrastructure issues rather than problems for individual GIS teams to solve repeatedly.",
+      "markdown": "The arrangement reflected a problem that both countries were already encountering. Land and spatial information was being collected by many parts of government, and the ability to exchange it depended on more than purchasing compatible software. National and trans-Tasman work increasingly dealt with data management, standards, metadata and institutional responsibilities. ANZLIC supplied a forum in which those subjects could be treated as shared infrastructure issues rather than problems for individual GIS teams to solve repeatedly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand also developed its own cross-government arrangements. The 2007 Geospatial Strategy records that government had recognised by 1995 that the spatial-data system was economically valuable. From 1996 LINZ convened an Officials’ Committee for Geospatial Information involving a range of agencies and local-government interests. The committee undertook collaborative work and advised LINZ, including on national topographic and hydrographic infrastructure.",
+      "markdown": "New Zealand also developed its own cross-government arrangements. The 2007 Geospatial Strategy records that government had recognised by 1995 that the spatial-data system was economically valuable. From 1996 LINZ convened an Officials’ Committee for Geospatial Information involving a range of agencies and local-government interests. The committee undertook collaborative work and advised LINZ, including on national topographic and hydrographic infrastructure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Its limitations were equally clear in the later strategy. The committee could encourage coordination but did not have authority to ensure that wider cross-government actions were funded or completed. Agencies still had their own statutory responsibilities, budgets and operational priorities. A national spatial-information programme needed cooperation between organisations that were not managed as one GIS department and had no reason to surrender control of the datasets they were responsible for maintaining.",
+      "markdown": "Its limitations were equally clear in the later strategy. The committee could encourage coordination but did not have authority to ensure that wider cross-government actions were funded or completed. Agencies still had their own statutory responsibilities, budgets and operational priorities. A national spatial-information programme needed cooperation between organisations that were not managed as one GIS department and had no reason to surrender control of the datasets they were responsible for maintaining.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2004-03-04-south-island-orthophotos",
+  "dateDisplay": "4 March 2004",
+  "startDate": "2004-03-04",
+  "datePrecision": "day",
+  "year": 2004,
+  "label": "Councils share a South Island orthophoto acquisition",
+  "summary": "On 4 March 2004 Terralink announced a South Island aerial-imagery acquisition covering about 42,000 square kilometres. The release describes about 2,500 aerial photographs and approximately 5,500 orthophoto tiles. These figures are the project scale given in the contemporary announcement. The named participating councils were Waimakariri, Ashburton, Timaru, Waimate, Waitaki and Mackenzie District Councils, together with Environment Canterbury. The stated uses included local-government GIS, consent processing, land-use work, civil defence and asset management. A shared imagery acquisition gave several authorities a common regional base while leaving their internal GIS arrangements distinct.",
+  "url": "/stories/imagery-becomes-infrastructure/#a-shared-south-island-image-base-804f2b19d0",
+  "passageIds": [
+    "passage:chapter-20-804f2b19d0"
+  ],
+  "recordIds": [
+    "system:south-island-orthophoto-2004",
+    "entity:waimakariri-district-council",
+    "entity:ashburton-district-council",
+    "entity:timaru-district-council",
+    "entity:waimate-district-council",
+    "entity:waitaki-district-council",
+    "entity:mackenzie-district-council",
+    "entity:canterbury-regional-council-environment-canterbury",
+    "chapter:20",
+    "entity:terralink"
+  ],
+  "themeIds": [],
+  "categories": [
+    "local-government",
+    "imagery",
+    "regional-collaboration"
+  ],
+  "sources": [
+    {
+      "label": "Terralink International, ‘Terralink starts biggest ever aerial photography task’, 4 March 2004",
+      "url": "https://www.scoop.co.nz/stories/SC0403/S00018.htm"
+    },
+    {
+      "label": "Terralink International, ‘Terralink starts biggest ever aerial photography task’, 4 March 2004",
+      "url": "https://www.scoop.co.nz/stories/SC0403/S00018.htm"
+    }
+  ]
+}

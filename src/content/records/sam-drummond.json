@@ -1,0 +1,53 @@
+{
+  "id": "person:sam-drummond",
+  "slug": "sam-drummond",
+  "name": "Sam Drummond",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sam-drummond/",
+  "story": [
+    "Sam Drummond's technology career includes business development and data and application integration. He studied at the University of Canterbury from 2004 to 2006 and gained Microsoft Azure Fundamentals certification in 2019. His professional record also includes FME Professional certification in 2021 and FME Business Professional certification in 2022.",
+    "Sam Drummond’s 2025 account documents the first ten years of Traverse and Seamless, developing integration services for councils and utilities.",
+    "Sam Drummond’s November 2025 anniversary account describes ten years of Traverse and Seamless. The business concentrated on information moving between systems, including those used by councils and electricity distributors. Its history follows the growth of specialist integration services as geographic information became part of wider organisational workflows."
+  ],
+  "sources": [
+    {
+      "label": "Seamless anniversary account, 2025",
+      "url": "https://www.seamlessdata.co.nz/articles/seamless-turns-10/"
+    },
+    {
+      "label": "Sam Drummond - Seamless Data & App Integration | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/samdrummond"
+    },
+    {
+      "label": "Chapter 43 · The repetitive job",
+      "url": "/stories/automating-the-gis-work/"
+    }
+  ],
+  "aliases": [
+    "Sam Drummond"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Sam Drummond - Seamless Data & App Integration | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/samdrummond"
+      }
+    ],
+    [
+      {
+        "label": "Seamless anniversary account, 2025",
+        "url": "https://www.seamlessdata.co.nz/articles/seamless-turns-10/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 43 · The repetitive job",
+        "url": "/stories/automating-the-gis-work/"
+      }
+    ]
+  ]
+}

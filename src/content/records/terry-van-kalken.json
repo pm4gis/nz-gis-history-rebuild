@@ -1,0 +1,46 @@
+{
+  "id": "person:terry-van-kalken",
+  "slug": "terry-van-kalken",
+  "name": "Terry van Kalken",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/terry-van-kalken/",
+  "story": [
+    "Terry van Kalken was a DHI co-author of the 2006–07 Horizons flood-modelling and mapping report.",
+    "Archives Central adds some names to the modelling stage: Terry van Kalken and Carl Johnson of DHI Water and Environment prepared the 2006-07 final report for Mangaone Stream, the Taonui Basin and Manawatū breach scenarios. The useful afterlife was as important as the original purchase. Horizons later used the same elevation data for landform and soil work, drainage, tsunami and storm-surge analysis, transport corridors, erosion and river-channel migration. A dataset bought because the region had just flooded had become general-purpose terrain infrastructure."
+  ],
+  "sources": [
+    {
+      "label": "Archives Central, Flood Plain Hazard Assessment Hydraulic Modelling and Mapping - Mangaone Stream and Taonui Basin and Manawatu Breach, HRC 00460:2:54",
+      "url": "https://archivescentral.org.nz/horizons-regional-council/record/flood-plain-hazard-assessment-hydraulic-modelling-and-mapping"
+    },
+    {
+      "label": "Terry van Kalken - Asian Development Bank (ADB) | LinkedIn · public profile",
+      "url": "https://au.linkedin.com/in/terryvankalken"
+    },
+    {
+      "label": "Chapter 20 · Imagery as a base layer",
+      "url": "/stories/imagery-becomes-infrastructure/"
+    }
+  ],
+  "aliases": [
+    "Terry van Kalken"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Archives Central, Flood Plain Hazard Assessment Hydraulic Modelling and Mapping - Mangaone Stream and Taonui Basin and Manawatu Breach, HRC 00460:2:54",
+        "url": "https://archivescentral.org.nz/horizons-regional-council/record/flood-plain-hazard-assessment-hydraulic-modelling-and-mapping"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 20 · Imagery as a base layer",
+        "url": "/stories/imagery-becomes-infrastructure/"
+      }
+    ]
+  ]
+}

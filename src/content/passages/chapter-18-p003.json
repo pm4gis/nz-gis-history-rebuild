@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-18-7d6deadf62",
+  "slug": "measuring-instead-of-deriving-7d6deadf62",
+  "articleId": "article:chapter-18",
+  "title": "Measuring instead of deriving",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A GPS receiver calculates position from timed signals transmitted by satellites. For an ordinary three-dimensional position it also has to solve the receiver’s clock error, which is why several satellites must be visible at the same time. That basic explanation can make the process sound more automatic than early professional practice actually was. Satellite geometry, obstructions, atmospheric effects, reflected signals, receiver quality and the positioning method all affected the result. Ridges, bush and buildings could obstruct satellite signals and affect positioning.",
+      "markdown": "A GPS receiver calculates position from timed signals transmitted by satellites. For an ordinary three-dimensional position it also has to solve the receiver’s clock error, which is why several satellites must be visible at the same time. That basic explanation can make the process sound more automatic than early professional practice actually was. Satellite geometry, obstructions, atmospheric effects, reflected signals, receiver quality and the positioning method all affected the result. Ridges, bush and buildings could obstruct satellite signals and affect positioning.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Surveyors could obtain much higher precision than an ordinary stand-alone navigation receiver because they were often interested in the relative position between two receivers rather than accepting each receiver’s independent position. If both observed the same satellites at the same time, many shared errors could be reduced when the measurements were processed together. Carrier-phase observations provided another large improvement because the radio carrier could be measured far more precisely than the coarse ranging code, provided the system could resolve the number of carrier cycles between receiver and satellite.",
+      "markdown": "Surveyors could obtain much higher precision than an ordinary stand-alone navigation receiver because they were often interested in the relative position between two receivers rather than accepting each receiver’s independent position. If both observed the same satellites at the same time, many shared errors could be reduced when the measurements were processed together. Carrier-phase observations provided another large improvement because the radio carrier could be measured far more precisely than the coarse ranging code, provided the system could resolve the number of carrier cycles between receiver and satellite.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Static surveying therefore involved occupying points and accumulating observations. Fast or rapid static techniques shortened occupation times when equipment, baselines and satellite conditions allowed it. Differential GPS used a receiver at a known location to provide corrections to another receiver. Real-time kinematic positioning pushed the carrier-phase approach into the field by sending correction information to a rover quickly enough to calculate a high-precision position while the user was still standing there. These were related techniques, but they were not interchangeable names for “accurate GPS”.",
+      "markdown": "Static surveying therefore involved occupying points and accumulating observations. Fast or rapid static techniques shortened occupation times when equipment, baselines and satellite conditions allowed it. Differential GPS used a receiver at a known location to provide corrections to another receiver. Real-time kinematic positioning pushed the carrier-phase approach into the field by sending correction information to a rover quickly enough to calculate a high-precision position while the user was still standing there. These were related techniques, but they were not interchangeable names for “accurate GPS”.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The field workflow mattered as much as the receiver. Antenna heights had to be measured correctly. Reference stations had to be known. Batteries, cables, storage and observation schedules had to work. Data then had to be copied, processed and checked. A survey could fail because the mathematics was wrong, but it could also fail because someone entered the wrong antenna height or occupied the wrong mark. Satellites removed some old lines of sight between ground stations; they did not remove field discipline.",
+      "markdown": "The field workflow mattered as much as the receiver. Antenna heights had to be measured correctly. Reference stations had to be known. Batteries, cables, storage and observation schedules had to work. Data then had to be copied, processed and checked. A survey could fail because the mathematics was wrong, but it could also fail because someone entered the wrong antenna height or occupied the wrong mark. Satellites removed some old lines of sight between ground stations; they did not remove field discipline.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

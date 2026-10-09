@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-35-34be47f403",
+  "slug": "a-portal-for-a-subject-34be47f403",
+  "articleId": "article:chapter-35",
+  "title": "A portal for a subject",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Land Resource Information Systems Portal launched publicly in August 2010. The LRIS Portal gave users access to nationally significant land-resource and environmental data held by Manaaki Whenua. It organised that information so that users could find, inspect and obtain data relevant to soils, land-use capability and related land-resource questions.",
+      "markdown": "The Land Resource Information Systems Portal launched publicly in August 2010. The LRIS Portal gave users access to nationally significant land-resource and environmental data held by Manaaki Whenua. It organised that information so that users could find, inspect and obtain data relevant to soils, land-use capability and related land-resource questions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "An older web map might invite a user to switch layers on and off and explore what was available. A subject portal has to explain what the information is, how it is organised and how to get to the useful part without already knowing the internal catalogue. Search, metadata, preview and download become part of the spatial experience. The map remains important, but it is one step in a larger information journey.",
+      "markdown": "An older web map might invite a user to switch layers on and off and explore what was available. A subject portal has to explain what the information is, how it is organised and how to get to the useful part without already knowing the internal catalogue. Search, metadata, preview and download become part of the spatial experience. The map remains important, but it is one step in a larger information journey.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LRIS also shows a different development beyond widening access to reusable government and research data. Once datasets could be distributed online, organisations had to think about how non-specialists would find and understand them. A folder full of downloadable files would satisfy the narrow technical meaning of online access while still leaving most users stranded. Portals therefore became part of the infrastructure of use, translating a collection of datasets into an interface organised around a subject.",
+      "markdown": "LRIS also shows a different development beyond widening access to reusable government and research data. Once datasets could be distributed online, organisations had to think about how non-specialists would find and understand them. A folder full of downloadable files would satisfy the narrow technical meaning of online access while still leaving most users stranded. Portals therefore became part of the infrastructure of use, translating a collection of datasets into an interface organised around a subject.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Contemporary material recorded more than 1,700 downloads soon after the LRIS launch. People were obtaining data for work outside the portal. The application was becoming a doorway into a larger spatial-data ecosystem.",
+      "markdown": "Contemporary material recorded more than 1,700 downloads soon after the LRIS launch. People were obtaining data for work outside the portal. The application was becoming a doorway into a larger spatial-data ecosystem.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

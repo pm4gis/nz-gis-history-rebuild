@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-17-79bb9d218b",
+  "slug": "maintaining-one-national-record-79bb9d218b",
+  "articleId": "article:chapter-17",
+  "title": "Maintaining one national record",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2010s LINZ’s Address Information Management System, or AIMS, provided a centralised environment for managing national addresses, including information needed for electoral purposes. Territorial authorities remained the source of allocated addresses. LINZ incorporated those notifications into the national record, maintained road and address relationships and published data for wider use. The architecture preserved the long-standing institutional split between local allocation and national collation while replacing more fragmented exchange with a managed database environment.",
+      "markdown": "By the 2010s LINZ’s Address Information Management System, or AIMS, provided a centralised environment for managing national addresses, including information needed for electoral purposes. Territorial authorities remained the source of allocated addresses. LINZ incorporated those notifications into the national record, maintained road and address relationships and published data for wider use. The architecture preserved the long-standing institutional split between local allocation and national collation while replacing more fragmented exchange with a managed database environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The public data also became more explicit about identity. Address records could carry unique identifiers rather than depending entirely on a formatted text string. Address wording can change while the underlying location relationship continues, and two systems can format the same address differently. Persistent identifiers allow databases to compare and update records without relying only on spelling. Road and address records could also be related to territorial authorities and parcels, making the national dataset useful as a linking layer across otherwise separate information systems.",
+      "markdown": "The public data also became more explicit about identity. Address records could carry unique identifiers rather than depending entirely on a formatted text string. Address wording can change while the underlying location relationship continues, and two systems can format the same address differently. Persistent identifiers allow databases to compare and update records without relying only on spelling. Road and address records could also be related to territorial authorities and parcels, making the national dataset useful as a linking layer across otherwise separate information systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Quality remained dependent on the chain of contributors. A national database cannot know about a new subdivision until the responsible local information reaches it. A road name can be legally correct but still confusing if a similar name already exists nearby. A point can be placed on the correct parcel but at a location that is poor for navigation. LINZ guidance therefore emphasised standardised allocation, notification and checking rather than treating addresses as coordinates that could be generated automatically from parcel geometry.",
+      "markdown": "Quality remained dependent on the chain of contributors. A national database cannot know about a new subdivision until the responsible local information reaches it. A road name can be legally correct but still confusing if a similar name already exists nearby. A point can be placed on the correct parcel but at a location that is poor for navigation. LINZ guidance therefore emphasised standardised allocation, notification and checking rather than treating addresses as coordinates that could be generated automatically from parcel geometry.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Distribution also changed. The LINZ Data Service, launched in 2011, progressively made national land and location data easier to obtain and reuse. Address and road datasets later became openly downloadable and available through web services and APIs, with regular updates. This wider open-data transition belongs principally in Chapter 33, but its effect on addressing was straightforward: an authoritative national address record could increasingly be built directly into council systems, applications and GIS workflows without the older product-ordering model.",
+      "markdown": "Distribution also changed. The LINZ Data Service, launched in 2011, progressively made national land and location data easier to obtain and reuse. Address and road datasets later became openly downloadable and available through web services and APIs, with regular updates. This wider open-data transition belongs principally in Chapter 33, but its effect on addressing was straightforward: an authoritative national address record could increasingly be built directly into council systems, applications and GIS workflows without the older product-ordering model.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

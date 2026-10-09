@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1167",
+  "a": "system:enterprise-gis",
+  "b": "system:downer-grail",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-27-80407e80cf",
+  "slug": "population-and-place-80407e80cf",
+  "articleId": "article:chapter-27",
+  "title": "Population and place",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Across this period, the technology changed more quickly than the basic geographic questions. Health Waikato needed to know where notified cases were and how their frequency related to the population underneath them. EpiSurv and PHEW! connected local records with national surveillance and public presentation. The Public Health Observatory combined health information with Census boundaries and population context. Accessibility modelling treated travel through the road network as part of population health, while geocoding research exposed how uncertain addresses could distort rural rates.",
+      "markdown": "Across this period, the technology changed more quickly than the basic geographic questions. Health Waikato needed to know where notified cases were and how their frequency related to the population underneath them. EpiSurv and PHEW! connected local records with national surveillance and public presentation. The Public Health Observatory combined health information with Census boundaries and population context. Accessibility modelling treated travel through the road network as part of population health, while geocoding research exposed how uncertain addresses could distort rural rates.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2020 a small team could assemble forms, feature layers, maps, web applications and dashboards without building a dedicated server GIS from scratch. That did not make the information problem simpler. Manaaki needed per-user visibility and separation between operational and public data. Hauora-Manaaki required aggregation, anonymisation, confidentiality controls and explicit Māori Data Sovereignty principles. More capable delivery tools increased the need to decide exactly what should be visible, to whom and for what purpose.",
+      "markdown": "By 2020 a small team could assemble forms, feature layers, maps, web applications and dashboards without building a dedicated server GIS from scratch. That did not make the information problem simpler. Manaaki needed per-user visibility and separation between operational and public data. Hauora-Manaaki required aggregation, anonymisation, confidentiality controls and explicit Māori Data Sovereignty principles. More capable delivery tools increased the need to decide exactly what should be visible, to whom and for what purpose.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Health GIS therefore became less identifiable as a separate kind of mapping system. A surveillance analyst might work with geocoded cases and Census rates. A policy team might use modelled travel times. A public website might serve maps and tables from several national datasets. A community-response team might collect place-based needs through a form whose users never opened a conventional GIS application. Geography persisted through all of them as a way of organising records, populations, services and access.",
+      "markdown": "Health GIS therefore became less identifiable as a separate kind of mapping system. A surveillance analyst might work with geocoded cases and Census rates. A policy team might use modelled travel times. A public website might serve maps and tables from several national datasets. A community-response team might collect place-based needs through a form whose users never opened a conventional GIS application. Geography persisted through all of them as a way of organising records, populations, services and access.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Policing, safety and emergency GIS used some familiar components: geocoded events, Census context, operational databases, web delivery and later public dashboards. The working pressures were different. Police and emergency users often had to decide where to deploy people and resources while events were unfolding, and spatial systems moved from specialist crime analysis into operational policing and emergency-management capability.",
+      "markdown": "Policing, safety and emergency GIS used some familiar components: geocoded events, Census context, operational databases, web delivery and later public dashboards. The working pressures were different. Police and emergency users often had to decide where to deploy people and resources while events were unfolding, and spatial systems moved from specialist crime analysis into operational policing and emergency-management capability.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

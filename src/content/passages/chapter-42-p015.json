@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-42-476ff871a9",
+  "slug": "field-capture-becomes-operational-data-476ff871a9",
+  "articleId": "article:chapter-42",
+  "title": "Field capture becomes operational data",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "KiwiRail used field assessments and photographs to record damage on the Palmerston North to Gisborne line. Cyclone Gabrielle damaged more than 300 sites on the Hawke's Bay rail network described in the StoryMap, including severe damage in the Esk Valley. KiwiRail deployed Survey123 to four teams of consultants to assess and record damage, with photographs captured from the air and on the ground. Incoming information could then be visualised through ArcGIS Online applications as it was captured.",
+      "markdown": "KiwiRail used field assessments and photographs to record damage on the Palmerston North to Gisborne line. Cyclone Gabrielle damaged more than 300 sites on the Hawke's Bay rail network described in the StoryMap, including severe damage in the Esk Valley. KiwiRail deployed Survey123 to four teams of consultants to assess and record damage, with photographs captured from the air and on the ground. Incoming information could then be visualised through ArcGIS Online applications as it was captured.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The workflow is a direct descendant of the mobile GIS developments described earlier in the book, but the operational context is different. The field form replaced paper while also controlling required fields, identifiers, location and later synchronisation. It was feeding a changing shared picture of infrastructure damage while decisions about access, repair and priorities were being made. Structured fields and photographs helped turn individual observations into records that could be compared and mapped across a long transport corridor.",
+      "markdown": "The workflow is a direct descendant of the mobile GIS developments described earlier in the book, but the operational context is different. The field form replaced paper while also controlling required fields, identifiers, location and later synchronisation. It was feeding a changing shared picture of infrastructure damage while decisions about access, repair and priorities were being made. Structured fields and photographs helped turn individual observations into records that could be compared and mapped across a long transport corridor.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same principle appears in welfare and building assessments. A location-enabled form creates a record that can immediately join other geographic information. A dashboard can summarise progress without someone retyping every field sheet into a separate system. That speed is valuable, but it also makes data design more important. Poor categories, missing timestamps or ambiguous status values can propagate just as quickly as good information.",
+      "markdown": "The same principle appears in welfare and building assessments. A location-enabled form creates a record that can immediately join other geographic information. A dashboard can summarise progress without someone retyping every field sheet into a separate system. That speed is valuable, but it also makes data design more important. Poor categories, missing timestamps or ambiguous status values can propagate just as quickly as good information.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-39-ab8b750767",
+  "slug": "a-third-coordinate-needs-discipline-ab8b750767",
+  "articleId": "article:chapter-39",
+  "title": "A third coordinate needs discipline",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Working in three dimensions also exposes coordinate problems that can remain hidden in ordinary map use. Horizontal position in New Zealand is commonly expressed through NZGD2000 and NZTM2000, but elevation depends on the vertical reference used by the survey or dataset. Engineering projects may use local benchmarks or project grids. BIM models often begin from a local building origin chosen for design convenience rather than a national geodetic coordinate.",
+      "markdown": "Working in three dimensions also exposes coordinate problems that can remain hidden in ordinary map use. Horizontal position in New Zealand is commonly expressed through NZGD2000 and NZTM2000, but elevation depends on the vertical reference used by the survey or dataset. Engineering projects may use local benchmarks or project grids. BIM models often begin from a local building origin chosen for design convenience rather than a national geodetic coordinate.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A model can look perfectly aligned inside its own software and still be wrong when combined with another dataset. A building shifted a metre horizontally may be obvious against an orthophoto, but a height mismatch can be harder to notice until two surfaces, floors or pipes are compared. Differences between ellipsoidal heights, orthometric heights and local datums can therefore become operational rather than academic. The national reference framework therefore continued to affect 3D GIS practice long after its establishment.",
+      "markdown": "A model can look perfectly aligned inside its own software and still be wrong when combined with another dataset. A building shifted a metre horizontally may be obvious against an orthophoto, but a height mismatch can be harder to notice until two surfaces, floors or pipes are compared. Differences between ellipsoidal heights, orthometric heights and local datums can therefore become operational rather than academic. The national reference framework therefore continued to affect 3D GIS practice long after its establishment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The move to NZVD2016 in cadastral surveying is one example of this longer dependency. A future 3D cadastre needs legal heights that can be compared consistently rather than a collection of isolated local references. Infrastructure integration has the same need. A drainage network, road design and building model cannot be confidently combined if their elevations refer to different surfaces or benchmarks and nobody records the distinction.",
+      "markdown": "The move to NZVD2016 in cadastral surveying is one example of this longer dependency. A future 3D cadastre needs legal heights that can be compared consistently rather than a collection of isolated local references. Infrastructure integration has the same need. A drainage network, road design and building model cannot be confidently combined if their elevations refer to different surfaces or benchmarks and nobody records the distinction.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For practitioners this changed quality assurance. Checking whether a layer was in the right projection was no longer enough. Teams also had to ask what the Z values represented, which vertical datum or benchmark was used, whether heights were measured or modelled and whether the geometry had been transformed correctly. Three dimensions added another coordinate, but also another way for apparently precise data to disagree.",
+      "markdown": "For practitioners this changed quality assurance. Checking whether a layer was in the right projection was no longer enough. Teams also had to ask what the Z values represented, which vertical datum or benchmark was used, whether heights were measured or modelled and whether the geometry had been transformed correctly. Three dimensions added another coordinate, but also another way for apparently precise data to disagree.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

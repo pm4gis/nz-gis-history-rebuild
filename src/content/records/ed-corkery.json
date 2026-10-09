@@ -1,0 +1,42 @@
+{
+  "id": "person:ed-corkery",
+  "slug": "ed-corkery",
+  "name": "Ed Corkery",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ed-corkery/",
+  "story": [
+    "Ed Corkery co-founded Koordinates with Rob Coup in 2007, as recorded by investor IAG Firemark Ventures. Firemark’s portfolio dates its investment to 2022. Corkery’s contribution sits in the commercial development of an online platform for publishing and accessing spatial data, documented elsewhere in the Koordinates company account.",
+    "By March 2017 the company was promoting its Query API alongside government data services on the platform. Its contemporary Datarama material said datasets on Stats NZ Datafinder and other Koordinates-powered sites could be accessed using the Koordinates query API. The platform later exposed vector, raster and set-query interfaces as well as OGC and Esri-compatible services."
+  ],
+  "sources": [
+    {
+      "label": "IAG Firemark Ventures, Koordinates investment portfolio",
+      "url": "https://iagfiremarkventures.com/portfolio/"
+    },
+    {
+      "label": "Chapter 41 · Applications call geography",
+      "url": "/stories/cloud-services-and-apis/"
+    }
+  ],
+  "aliases": [
+    "Ed Corkery"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "IAG Firemark Ventures, Koordinates investment portfolio",
+        "url": "https://iagfiremarkventures.com/portfolio/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 41 · Applications call geography",
+        "url": "/stories/cloud-services-and-apis/"
+      }
+    ]
+  ]
+}

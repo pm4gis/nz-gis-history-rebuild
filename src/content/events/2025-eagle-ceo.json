@@ -1,0 +1,79 @@
+{
+  "id": "2025-eagle-ceo",
+  "dateDisplay": "2025-12-15",
+  "startDate": "2025-12-15",
+  "datePrecision": "day",
+  "year": 2025,
+  "label": "Eagle appoints Graeme Henderson CEO",
+  "summary": "Eagle appointed Henderson Chief Executive Officer after his earlier customer-facing GIS work with the company.",
+  "url": "/stories/an-industry-and-community-form/#esri-and-eagle-in-new-zealand-eb1fae3cf8",
+  "passageIds": [
+    "passage:chapter-12-eb1fae3cf8"
+  ],
+  "recordIds": [
+    "person:graeme-henderson",
+    "chapter:12",
+    "entity:eagle-technology",
+    "entity:new-zealand-esri-users-group",
+    "entity:smallworld-ge-smallworld",
+    "person:david-pimblott",
+    "person:jithen-singh",
+    "person:nathan-heazlewood",
+    "person:parker-jones",
+    "person:scott-campbell",
+    "person:trevor-hart"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "enterprise",
+    "software",
+    "industry"
+  ],
+  "sources": [
+    {
+      "label": "NZ Hi-Tech Awards, Trevor Eagle Flying Kiwi profile",
+      "url": "https://www.hitech.org.nz/awards/flying-kiwi/trevor-eagle/"
+    },
+    {
+      "label": "Registry-derived record for historic International Data Limited, company no. 76949",
+      "url": "https://www.nzlbusiness.com/company/struck-off/Merrett-Financial-Systems-Limited"
+    },
+    {
+      "label": "Registry-derived record for historic IDL Utilities / Prime Computer of N Z Limited",
+      "url": "https://www.nzlbusiness.com/company/registered/It-Qualifications-Limited"
+    },
+    {
+      "label": "Eagle Technology corporate material and 2013 GBS Gold Partner release",
+      "url": "https://www.eagle.co.nz/"
+    },
+    {
+      "label": "Geographic Business Solutions, GBS attains Esri Gold Partner Status, carried by Scoop",
+      "url": "https://www.scoop.co.nz/stories/BU1308/S00725/gbs-attains-esri-gold-partner-status.htm"
+    },
+    {
+      "label": "Esri, 'History of GIS' and company history",
+      "url": "https://www.esri.com/en-us/what-is-gis/history-of-gis"
+    },
+    {
+      "label": "David Pimblott professional profile, Topline",
+      "url": "https://topline.com/people/david-pimblott-46e4e308bb"
+    },
+    {
+      "label": "Royal Society Te Apārangi Wellington Branch, Parker Jones lecture notice, 'Putting the Where into decisions: a 40 year journey...'",
+      "url": "https://www.royalsocietyofnewzealandwellingtonbranch.org/"
+    },
+    {
+      "label": "Minister for Land Information Mark Mitchell, 'New Zealand ESRI User Conference'",
+      "url": "https://www.beehive.govt.nz/speech/new-zealand-esri-user-conference"
+    },
+    {
+      "label": "Eagle Technology, 'Eagle Technology Appoints New CEO, Graeme Henderson'",
+      "url": "https://www.eagle.co.nz/news"
+    },
+    {
+      "label": "New Zealand ESRI Users Group, 2010 Annual General Meeting Minutes"
+    }
+  ]
+}

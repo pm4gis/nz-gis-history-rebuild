@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-33-5abb4ca0a7",
+  "slug": "from-product-to-shared-foundation-5abb4ca0a7",
+  "articleId": "article:chapter-33",
+  "title": "From product to shared foundation",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the early 2010s, the relationship between New Zealand GIS users and national spatial data had changed substantially. A practitioner in the 1990s might begin a project by identifying a supplier, requesting a quotation, ordering an extract and checking whether the licence allowed the intended use. A practitioner a decade later could increasingly begin by searching a portal, downloading an authoritative dataset and reading a standard licence.",
+      "markdown": "By the early 2010s, the relationship between New Zealand GIS users and national spatial data had changed substantially. A practitioner in the 1990s might begin a project by identifying a supplier, requesting a quotation, ordering an extract and checking whether the licence allowed the intended use. A practitioner a decade later could increasingly begin by searching a portal, downloading an authoritative dataset and reading a standard licence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The transition was uneven. Free Census access arrived before a general government open-licensing framework. LINZ dramatically reduced topographic charges years before Topo50 data were distributed free electronically. OpenStreetMap needed specific reuse permission before NZGOAL existed. LRIS and the LINZ Data Service appeared as practical portals while policy and licensing were still evolving around them.",
+      "markdown": "The transition was uneven. Free Census access arrived before a general government open-licensing framework. LINZ dramatically reduced topographic charges years before Topo50 data were distributed free electronically. OpenStreetMap needed specific reuse permission before NZGOAL existed. LRIS and the LINZ Data Service appeared as practical portals while policy and licensing were still evolving around them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That unevenness is the history. New Zealand did not wake up one morning with an open spatial-data infrastructure. Prices fell, web access spread, permissions accumulated, licensing became more standard and portals made delivery routine. Each step removed a different kind of friction.",
+      "markdown": "That unevenness is the history. New Zealand did not wake up one morning with an open spatial-data infrastructure. Prices fell, web access spread, permissions accumulated, licensing became more standard and portals made delivery routine. Each step removed a different kind of friction.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The changes also reinforced one another. Cheaper or free data encouraged more people to build applications and analyses. More users exposed problems in formats, metadata and update processes. Standard licences reduced uncertainty for organisations wanting to publish derived products. Better portals made those licences useful in practice. By the time open data became an ordinary phrase, much of the important work had already been done through a series of less dramatic administrative and technical decisions.",
+      "markdown": "The changes also reinforced one another. Cheaper or free data encouraged more people to build applications and analyses. More users exposed problems in formats, metadata and update processes. Standard licences reduced uncertainty for organisations wanting to publish derived products. Better portals made those licences useful in practice. By the time open data became an ordinary phrase, much of the important work had already been done through a series of less dramatic administrative and technical decisions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The cumulative effect was larger than any single policy announcement. Authoritative spatial information increasingly became something other organisations could assume existed and could build upon. Easier access to foundational data reduced the work required to begin an analysis.",
+      "markdown": "The cumulative effect was larger than any single policy announcement. Authoritative spatial information increasingly became something other organisations could assume existed and could build upon. Easier access to foundational data reduced the work required to begin an analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Producing maps, checking analyses and assessing release conditions still required work, but easier access to data changed the starting point. By 2013, important parts of New Zealand’s national geographic framework were no longer encountered chiefly as expensive specialist products. They were becoming shared digital foundations for whatever came next.",
+      "markdown": "Producing maps, checking analyses and assessing release conditions still required work, but easier access to data changed the starting point. By 2013, important parts of New Zealand’s national geographic framework were no longer encountered chiefly as expensive specialist products. They were becoming shared digital foundations for whatever came next.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

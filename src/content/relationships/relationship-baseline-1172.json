@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1172",
+  "a": "system:docgis",
+  "b": "person:duane-wilkins",
+  "label": "Named in the system account",
+  "basis": "Existing technology/project account",
+  "passageIds": [],
+  "sources": []
+}

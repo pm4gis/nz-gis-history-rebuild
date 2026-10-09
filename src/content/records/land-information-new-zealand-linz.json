@@ -1,0 +1,104 @@
+{
+  "id": "entity:land-information-new-zealand-linz",
+  "slug": "land-information-new-zealand-linz",
+  "name": "Land Information New Zealand (LINZ)",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/land-information-new-zealand-linz/",
+  "website": null,
+  "story": [
+    "LINZ was established in 1996 and became responsible for land titles, survey regulation, geodesy, topography and hydrographic information. Landonline changed title and survey transactions, while the LINZ Data Service changed the way spatial datasets were obtained and reused. The historical chapters follow these services as separate programmes, with different technical and organisational demands.",
+    "LINZ’s 2020/21 annual report names Duane Wilkins as a geospatial capability advisor and GIS wānanga facilitator. LINZ lists him as geospatial consultant for Ngā Poutama Matawhenua.",
+    "The 1 July 1996 division of DOSLI gave LINZ the core government regulatory and purchase functions and Terralink the commercial activities. Hydrographic responsibilities also moved from the Royal New Zealand Navy to LINZ. These transfers joined land and seabed information within the new organisation, while preserving a distinction between public functions and commercial services.",
+    "The change from DCDB to Landonline happened district by district. LINZ records the end of DCDB maintenance in Otago on 30 March 2000 and in North Auckland on 22 March 2002, with the other districts moving between those dates. Cadastral record maps had supplied much of the earlier digital geometry. LINZ retains the DCDB documentation because understanding that lineage remains necessary when using the records carried into Landonline.",
+    "LINZ implemented NZGD2000 in 1998. Graeme Blick’s 2003 account explains its compatibility with GPS and its treatment of crustal movement: a deformation model relates observations to the reference epoch, and mark coordinates can be revised after new observations, earthquakes or local movement. Maintaining a national reference frame therefore required continuing geodetic work as well as publishing coordinates.",
+    "The LINZ Data Service launched on 1 July 2011. An October 2012 government case study records delivery of property, topographic, hydrographic, geodetic and electoral-address information in common spatial formats and through web services using open standards. Most data used Creative Commons Attribution licensing, while ownership layers had additional protections. The same case study describes reuse in forestry carbon calculations, council viewers and BRANZ earthquake and corrosion-risk information.",
+    "Alongside its statutory land-information services, LINZ works to grow geospatial capability across New Zealand. Its committee connects public agencies, educators, industry and Māori representatives; programmes include school GIS resources, workforce-survey evidence and practical Māori mapping wānanga."
+  ],
+  "sources": [
+    {
+      "label": "LINZ institutional history / whakapapa",
+      "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+    },
+    {
+      "label": "LINZ Annual Report 2020/21",
+      "url": "https://www.linz.govt.nz/sites/default/files/corp/toitu-te-whenua_annual-report-20-21-a11y-web_20211201.pdf"
+    },
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    },
+    {
+      "label": "LINZ, Historic property databases: DCDB lineage and district maintenance cutovers, 2000–02",
+      "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/property-ownership-and-boundary-data/historic-property-databases"
+    },
+    {
+      "label": "Graeme Blick, Implementation and Development of NZGD2000, New Zealand Surveyor 293, June 2003, pp.15–19",
+      "url": "https://www.linz.govt.nz/sites/default/files/cust/blick-nzgd2000.pdf"
+    },
+    {
+      "label": "Open Government Case Study: Land Information New Zealand Data Service, 8 October 2012, pp.1–2",
+      "url": "https://www.data.govt.nz/assets/OpenDataCaseStudies-printablePDFs/Visio-LINZ-Data-Service-case-study-October-2012-0.pdf"
+    },
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    }
+  ],
+  "aliases": [
+    "Land Information New Zealand (LINZ)"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [
+    [
+      {
+        "label": "LINZ institutional history / whakapapa",
+        "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+      },
+      {
+        "label": "LINZ Annual Report 2020/21",
+        "url": "https://www.linz.govt.nz/sites/default/files/corp/toitu-te-whenua_annual-report-20-21-a11y-web_20211201.pdf"
+      },
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ],
+    [
+      {
+        "label": "LINZ Annual Report 2020/21",
+        "url": "https://www.linz.govt.nz/sites/default/files/corp/toitu-te-whenua_annual-report-20-21-a11y-web_20211201.pdf"
+      },
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Our whakapapa: April 1987 restructuring, 1995 title transfer and 1 July 1996 division",
+        "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Historic property databases: DCDB lineage and district maintenance cutovers, 2000–02",
+        "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/property-ownership-and-boundary-data/historic-property-databases"
+      }
+    ],
+    [
+      {
+        "label": "Graeme Blick, Implementation and Development of NZGD2000, New Zealand Surveyor 293, June 2003, pp.15–19",
+        "url": "https://www.linz.govt.nz/sites/default/files/cust/blick-nzgd2000.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Open Government Case Study: Land Information New Zealand Data Service, 8 October 2012, pp.1–2",
+        "url": "https://www.data.govt.nz/assets/OpenDataCaseStudies-printablePDFs/Visio-LINZ-Data-Service-case-study-October-2012-0.pdf"
+      }
+    ]
+  ],
+  "biographyParagraphSources": []
+}

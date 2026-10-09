@@ -1,0 +1,26 @@
+{
+  "id": "linzcap-2020-10-29-growgisnz-geobites-publishes-macrons-webinar",
+  "dateDisplay": "2020-10-29",
+  "startDate": "2020-10-29",
+  "datePrecision": "day",
+  "year": 2020,
+  "label": "GrowGISNZ GeoBites publishes macrons webinar",
+  "summary": "Ian, Wendy and Duane demonstrated the use and importance of macrons in New Zealand GIS tools and data; full identities of Ian and Wendy require verification before person records are created.",
+  "url": "/stories/open-data-changes-access/#teaching-people-to-use-the-open-data-environment-8f9efcc241",
+  "passageIds": [
+    "passage:chapter-33-8f9efcc241"
+  ],
+  "recordIds": [
+    "chapter:33"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "person:p-r-zwart",
+  "slug": "p-r-zwart",
+  "name": "P. R. Zwart",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/p-r-zwart/",
+  "story": [
+    "P. R. Zwart wrote about mature GIS and the idea of “taking the G out of GIS”, while Canterbury computer scientists outlined GIS problems of interest to their discipline. These topics linked organisational adoption, information-system integration and technical research. The university forum was watching GIS spread into practice while simultaneously asking what the technology was becoming."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 11 · A recurring research forum",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ],
+  "aliases": [
+    "P. R. Zwart"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 11 · A recurring research forum",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ]
+  ]
+}

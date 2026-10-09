@@ -1,0 +1,53 @@
+{
+  "id": "person:rachel-gillanders",
+  "slug": "rachel-gillanders",
+  "name": "Rachel Gillanders",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rachel-gillanders/",
+  "story": [
+    "Rachel Gillanders worked in the Department of Lands and Survey’s computing and draughting workforce. The department’s 1912 report identifies Miss Gillanders as a Computer transferred to Christchurch. Gazette staff records later describe her as a Draughtswoman and Computer, documenting a combined calculation and map-production role before electronic computing.",
+    "Rachel Gillanders and draughtswoman Madge Pirrit worked within this broader production system. Pirrit’s credited maps span town and cadastral compilation from the 1920s through aerial-photo-supported wartime topography and later work into 1949. Their names sit alongside a much larger workforce whose observations, calculations and linework accumulated in departmental records. Later digitisation inherited that work, including its strengths, omissions and uncertain boundaries."
+  ],
+  "sources": [
+    {
+      "label": "Department of Lands and Survey nominal rolls, 1901 and 1907, identifying Rachel Gillanders"
+    },
+    {
+      "label": "Department of Lands and Survey surveys annual report, 1912; Miss Gillanders, Computer, transferred to Christchurch"
+    },
+    {
+      "label": "New Zealand Gazette staff records, 1921 and 1926; R. Gillanders, Draughtswoman and Computer, Christchurch"
+    },
+    {
+      "label": "Chapter 1 · Maps before computers",
+      "url": "/stories/what-the-computer-inherited/"
+    },
+    {
+      "label": "Chapter 1 · The people behind the sheets",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "Rachel Gillanders"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 1 · Maps before computers",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 1 · The people behind the sheets",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

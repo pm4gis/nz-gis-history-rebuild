@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-11-224cf9ea6b",
+  "slug": "cyclone-bola-erosion-research-1995-224cf9ea6b",
+  "articleId": "article:chapter-11",
+  "title": "Cyclone Bola erosion research, 1995",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:11",
+    "entity:massey-university",
+    "person:sheryl-denise-hendriksen"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Sheryl Denise Hendriksen used GIS in her 1995 Massey University thesis to investigate soil-slip erosion following Cyclone Bola in 1988. Her analysis examined relationships between the erosion and slope angle, underlying rock type and slope aspect on the North Island’s East Coast. Aerial photographs helped delineate soil slips, while digital contour data supplied terrain information.",
+      "sources": [
+        {
+          "label": "Sheryl Denise Hendriksen, East Coast soil-slip GIS thesis, Massey University, 1995",
+          "url": "https://mro.massey.ac.nz/items/5eec6d47-c57a-4d98-a75f-5b32bccf1f1d/full"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The research also examined how more detailed slope and aspect information could improve the land-use-capability information available to managers and planners. It brought several New Zealand data sources into an analysis of a specific environmental problem. Hendriksen’s work gives the university account a named contribution in soil science and connects postgraduate GIS research with the practical task of assessing erosion-prone land.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

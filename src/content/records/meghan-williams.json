@@ -1,0 +1,31 @@
+{
+  "id": "person:meghan-williams",
+  "slug": "meghan-williams",
+  "name": "Meghan Williams",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/meghan-williams/",
+  "story": [
+    "Steve Richards and Greg Bennett had left the committee at the December 2008 AGM, and the new committee was listed as Byron Cochrane, Glenn Russell, Igor Albornett, John Thyne, Junior Lee-Chee, Laura Nicol, Meghan Williams, Peter Fraser, Rachel Summers, Richard Wells and Tony Standen."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Meghan Williams"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

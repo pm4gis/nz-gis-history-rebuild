@@ -1,0 +1,79 @@
+{
+  "id": "person:garth-harmsworth",
+  "slug": "garth-harmsworth",
+  "name": "Garth Harmsworth",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/garth-harmsworth/",
+  "story": [
+    "Garth Harmsworth completed an honours MSc in earth sciences at Waikato in 1983. His environmental-science career has included resource assessment, national databases, GIS and Indigenous research at Manaaki Whenua from 1992. He has worked with Māori organisations, government agencies, councils and communities on land-use planning, ecosystem health, cultural indicators, landscape restoration and research capability.",
+    "Garth Harmsworth joined Landcare Research in 1992. His work connected land-resource assessment and national environmental databases with GIS and Māori-led research. Manaaki Whenua’s professional account describes research on Māori land use, ecosystem indicators and the relationship between environmental information and Indigenous knowledge. He co-authored the 2005 Motueka case study on developing and using GIS for iwi and hapū with Mick Park and Dean Walker. His earlier work included regional land-resource data for GIS in 1993–1994 and Māori land-values research in 1995–1996.",
+    "Garth Harmsworth prepared a discussion document on Māori values for land-use planning in 1995 and contributed an extended abstract on GIS and Māori land values to the April 1996 remote-sensing and GIS workshop at Massey University."
+  ],
+  "sources": [
+    {
+      "label": "Manaaki Whenua, Garth Harmsworth: research background",
+      "url": "https://www.landcareresearch.co.nz/about-us/our-people/garth-harmsworth"
+    },
+    {
+      "label": "Garth Harmsworth, Mick Park and Dean Walker, Report on the development and use of GIS for iwi and hapū: Motueka case study, May 2005",
+      "url": "https://icm.landcareresearch.co.nz/knowledgebase/publications/documents/FinalMay2005ICMMaoriGISreport.pdf"
+    },
+    {
+      "label": "Manaaki Whenua ICM, Garth Harmsworth bibliography: 1993 Bay of Plenty and 1994 Gisborne–East Cape GIS data reports",
+      "url": "https://icm.landcareresearch.co.nz/about/people/garth_harmsworth.asp"
+    },
+    {
+      "label": "Harmsworth, Park and Walker, Report on the development and use of GIS for iwi and hapū: bibliography of 1995–1996 work",
+      "url": "https://www.landcareresearch.co.nz/assets/researchpubs/harmsworth_gis_iwi.pdf"
+    },
+    {
+      "label": "Chapter 11 · Māori land values, 1995–1996",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ],
+  "aliases": [
+    "Garth Harmsworth"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Our people » Manaaki Whenua · career/profile reference",
+        "url": "https://www.landcareresearch.co.nz/about-us/our-people/garth-harmsworth"
+      }
+    ],
+    [
+      {
+        "label": "Manaaki Whenua, Garth Harmsworth: research background",
+        "url": "https://www.landcareresearch.co.nz/about-us/our-people/garth-harmsworth"
+      },
+      {
+        "label": "Garth Harmsworth, Mick Park and Dean Walker, Report on the development and use of GIS for iwi and hapū: Motueka case study, May 2005",
+        "url": "https://icm.landcareresearch.co.nz/knowledgebase/publications/documents/FinalMay2005ICMMaoriGISreport.pdf"
+      },
+      {
+        "label": "Manaaki Whenua ICM, Garth Harmsworth bibliography: 1993 Bay of Plenty and 1994 Gisborne–East Cape GIS data reports",
+        "url": "https://icm.landcareresearch.co.nz/about/people/garth_harmsworth.asp"
+      },
+      {
+        "label": "Harmsworth, Park and Walker, Report on the development and use of GIS for iwi and hapū: bibliography of 1995–1996 work",
+        "url": "https://www.landcareresearch.co.nz/assets/researchpubs/harmsworth_gis_iwi.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 11 · Māori land values, 1995–1996",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Māori land values, 1995–1996",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ]
+}

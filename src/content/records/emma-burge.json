@@ -1,0 +1,31 @@
+{
+  "id": "person:emma-burge",
+  "slug": "emma-burge",
+  "name": "Emma Burge",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/emma-burge/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Emma Burge: GIS Analyst, Environmental Protection Authority; Massey PGDip Geospatial Science."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Emma Burge"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

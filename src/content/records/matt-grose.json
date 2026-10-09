@@ -1,0 +1,43 @@
+{
+  "id": "person:matt-grose",
+  "slug": "matt-grose",
+  "name": "Matt Grose",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/matt-grose/",
+  "story": [
+    "Matt Grose presented DOC’s GIS performance work in 2018.",
+    "LINZ’s Ngā Poutama Matawhenua record names Matt Grose: Department of Conservation; Ngā Poutama conversation participant."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ],
+  "aliases": [
+    "Matt Grose",
+    "Matthew Grose"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Ngā Poutama Matawhenua",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+      }
+    ]
+  ]
+}

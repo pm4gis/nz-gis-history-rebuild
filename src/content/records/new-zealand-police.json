@@ -1,0 +1,31 @@
+{
+  "id": "entity:new-zealand-police",
+  "slug": "new-zealand-police",
+  "name": "New Zealand Police",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/new-zealand-police/",
+  "website": null,
+  "story": [
+    "Police GIS connected incidents, addresses, operational planning and information from other organisations. Later public reporting added a different audience for geographic crime data. An official November 2016 launch advisory names Gavin Knight as the practitioner demonstrating policedata.nz, providing a specific contribution within that wider organisational history.",
+    "In 2021, Duane Wilkins led a Police ArcGIS Enterprise implementation team that included Sarah Hodgson."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Police, Invitation to demonstration of new Police online crime data reporting tool",
+      "url": "https://www.police.govt.nz/news/release/invitation-demonstration-new-police-online-crime-data-reporting-tool"
+    },
+    {
+      "label": "Author account supplied by Duane Wilkins, Police ArcGIS Enterprise team, 2021"
+    }
+  ],
+  "aliases": [
+    "New Zealand Police"
+  ],
+  "themeIds": [
+    "technology-stack"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

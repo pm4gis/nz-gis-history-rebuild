@@ -1,6 +1,8 @@
 # NZ GIS History reader
 
-This is a clean structural preview of a narrative-led history reader. The sample contains one story about the AAM / AAMHatch Wellington city model and the AAM acquisition of NorthSouth GIS NZ. It is designed to grow by adding records rather than extending a fixed chapter list.
+This is the staging rebuild of the NZ GIS History reader. It contains the complete published baseline released on 7 October 2026: 45 editable stories (the preface and 44 narrative groupings), 583 passages, 796 records, 167 events, 2,502 connections, seven themes and 300 source notes. The AAM / AAMHatch Wellington city model and NorthSouth GIS NZ acquisition are included in the relevant narrative and linked records. The content model has no fixed chapter count.
+
+The migration uses the published baseline only. It excludes the separate unpublished candidate and removes internal research metadata and contributor-only file paths. The package supplied two local image copies; those have individual source and licence pages. Captions remain for published figures whose image file was not included.
 
 ## Run locally
 
@@ -32,7 +34,7 @@ The Git-backed editor at `/admin/` manages seven collections:
 - **Themes** let readers filter across the narrative and visual views.
 - **Images** have their own detail page for the local copy, source, credit and licence.
 
-Add as many entries as needed. A new story is an article and one or more passages; it does not need a chapter number or a template edit. Link IDs between entries, then run validation and review the generated preview before publishing.
+Add as many entries as needed. A new story is an article and one or more passages; it does not need a chapter number or a template edit. Link stable IDs between entries, then run validation and review the generated preview before publishing. The migration can be reproduced from an approved published-baseline JSON with `npm run import:baseline -- /path/to/base_canonical.json`; the import source file is intentionally not stored in this repository.
 
 ## Reader interactions
 
@@ -42,4 +44,4 @@ The story is the default view. The contextual network stays small; the full anim
 
 ## Scope
 
-This staging preview uses only a small AAM / NorthSouth sample and does not publish a full content migration. It is available at [gishistory.pm4gis.nz](https://gishistory.pm4gis.nz); the canonical publication at `history.pm4gis.nz` remains separate. Review [`IMPLEMENTATION_PLAN.md`](IMPLEMENTATION_PLAN.md) for the content update process.
+This full-baseline rebuild is published to [gishistory.pm4gis.nz](https://gishistory.pm4gis.nz); the canonical publication at `history.pm4gis.nz` remains separate. Review [`IMPLEMENTATION_PLAN.md`](IMPLEMENTATION_PLAN.md) for the content update process and remaining editorial checks.

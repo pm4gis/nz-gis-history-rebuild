@@ -1,0 +1,37 @@
+{
+  "id": "person:f-dumble",
+  "slug": "f-dumble",
+  "name": "F. Dumble",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/f-dumble/",
+  "story": [
+    "F. Dumble co-authored the Waikato dental GIS work presented in 2001–02, alongside J. Woodham."
+  ],
+  "sources": [
+    {
+      "label": "Finding, Filling, Drilling and Closing the Gaps - ESRI 2002"
+    },
+    {
+      "label": "Whigham, P. A. (ed.), SIRC 2001 proceedings entry, Terrorising the Tooth Fairy with GIS: Finding, Filling, Drilling and Closing the Gaps"
+    },
+    {
+      "label": "Chapter 27 · Health population and place",
+      "url": "/stories/health-population-and-place/"
+    }
+  ],
+  "aliases": [
+    "F. Dumble"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 27 · Health population and place",
+        "url": "/stories/health-population-and-place/"
+      }
+    ]
+  ]
+}

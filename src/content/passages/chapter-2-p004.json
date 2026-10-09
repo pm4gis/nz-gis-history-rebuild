@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-2-d29b3d5200",
+  "slug": "geodetic-adjustment-d29b3d5200",
+  "articleId": "article:chapter-2",
+  "title": "Geodetic adjustment",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:2"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Geodesy was particularly well suited to electronic computation because its workflows were already mathematical and highly structured. A national control network combined many observations whose small inconsistencies had to be reconciled through adjustment. The work could involve large systems of equations, repeated iteration and careful propagation of corrections. Human computers and mechanical calculators could do it, but the workload increased rapidly as networks became larger and expectations of consistency increased.",
+      "markdown": "Geodesy was particularly well suited to electronic computation because its workflows were already mathematical and highly structured. A national control network combined many observations whose small inconsistencies had to be reconciled through adjustment. The work could involve large systems of equations, repeated iteration and careful propagation of corrections. Human computers and mechanical calculators could do it, but the workload increased rapidly as networks became larger and expectations of consistency increased.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NZGD49 had been completed using predominantly pre-electronic methods. Electronic computing later made it practical to maintain, recompute and transform coordinates on a larger scale. Existing trig coordinates could be loaded as data and new observations compared against the established network. Programs could repeat the mathematical operations consistently, provided the code and input were correct.",
+      "markdown": "NZGD49 had been completed using predominantly pre-electronic methods. Electronic computing later made it practical to maintain, recompute and transform coordinates on a larger scale. Existing trig coordinates could be loaded as data and new observations compared against the established network. Programs could repeat the mathematical operations consistently, provided the code and input were correct.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That last condition never went away. An electronic result could be wrong because the observation was wrong, the card was wrong, the program was wrong or the assumptions were wrong. The machine was fast enough to produce a large wrong answer without becoming embarrassed. Survey practice therefore retained independent checks, known control and professional judgement even as more arithmetic moved into computing.",
+      "markdown": "That last condition never went away. An electronic result could be wrong because the observation was wrong, the card was wrong, the program was wrong or the assumptions were wrong. The machine was fast enough to produce a large wrong answer without becoming embarrassed. Survey practice therefore retained independent checks, known control and professional judgement even as more arithmetic moved into computing.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The national coordinate framework also made computer use more useful outside geodesy. Engineering, hydrography and mapping could exchange positions because they referred to compatible control rather than entirely local numerical worlds. A coordinate became more valuable when another organisation could understand it. Long before digital files moved easily between systems, standard reference frameworks were already doing part of the interoperability work.",
+      "markdown": "The national coordinate framework also made computer use more useful outside geodesy. Engineering, hydrography and mapping could exchange positions because they referred to compatible control rather than entirely local numerical worlds. A coordinate became more valuable when another organisation could understand it. Long before digital files moved easily between systems, standard reference frameworks were already doing part of the interoperability work.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2016-jan-pierce-linz-open-data",
+  "dateDisplay": "2016",
+  "startDate": "2016",
+  "datePrecision": "year",
+  "year": 2016,
+  "label": "Jan Pierce presents LINZ’s open-data journey",
+  "summary": "Pierce and Chief Geodesist Graeme Blick presented the LINZ Data Service and the agency’s work to make imagery available for reuse.",
+  "url": "/stories/open-data-changes-access/#the-linz-data-service-51393f242c",
+  "passageIds": [
+    "passage:chapter-33-51393f242c"
+  ],
+  "recordIds": [
+    "person:jan-pierce",
+    "entity:land-information-new-zealand-linz",
+    "chapter:33",
+    "person:graeme-blick",
+    "person:michael-cooper"
+  ],
+  "themeIds": [
+    "open-practice",
+    "women-in-gis"
+  ],
+  "categories": [
+    "open-data",
+    "linz",
+    "imagery"
+  ],
+  "sources": []
+}

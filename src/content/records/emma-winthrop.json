@@ -1,0 +1,31 @@
+{
+  "id": "person:emma-winthrop",
+  "slug": "emma-winthrop",
+  "name": "Emma Winthrop",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/emma-winthrop/",
+  "story": [
+    "Emma Winthrop of the New Zealand Transport Agency co-presented a 2017 conference session on GIS collaboration between the agency and the North Canterbury Transport Infrastructure Recovery alliance. The case connects transport infrastructure, shared spatial information and the recovery programme after the Kaikōura earthquake."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Emma Winthrop"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

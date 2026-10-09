@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0692",
+  "a": "person:ude-shankar",
+  "b": "chapter:9",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-9-f5818ca326"
+  ],
+  "sources": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "person:a-d-fowles",
+  "slug": "a-d-fowles",
+  "name": "Dennis Fowler",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/a-d-fowles/",
+  "story": [
+    "Dennis Fowler was a professional photographer who moved from DSIR’s Chemistry Division to the PEL Remote Sensing Section. The 1976 programme report records his Chemistry Division work during 1969–74 and his transfer to remote sensing in 1974. He developed the colour-processing laboratory, multispectral colour-compositing techniques and instrument calibration. Writing as A. D. Fowler, he co-authored the 1977 PEL report’s accounts of photographic processing, data acquisition and target radiance. A 2005 Waikanae Camera Club biography describes him as PEL’s principal photographer and credits his establishment of a satellite-imagery processing laboratory."
+  ],
+  "sources": [
+    {
+      "label": "NASA/DSIR New Zealand Landsat II investigation reports, NASA-CR-146632 and related",
+      "url": "https://ntrs.nasa.gov/api/citations/19760013518/downloads/19760013518.pdf"
+    },
+    {
+      "label": "DSIR PEL Report 587, Landsat II final report, September 1977, pp.9–10 and 109–110",
+      "url": "https://ntrs.nasa.gov/api/citations/19770026620/downloads/19770026620.pdf?attachment=true"
+    },
+    {
+      "label": "Waikanae Camera Club Newsletter, volume 29, issue 4, May 2005, p.4: Speaker for May 10th, Dennis Fowler",
+      "url": "https://kcps.org.nz/wp-content/uploads/2011/09/2005-05-wcc-newsletter.pdf"
+    }
+  ],
+  "aliases": [
+    "Dennis Fowler",
+    "A. D. Fowles",
+    "A. D. Fowler",
+    "A.D. Fowler"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NASA/DSIR New Zealand Landsat II investigation reports, NASA-CR-146632 and related",
+        "url": "https://ntrs.nasa.gov/api/citations/19760013518/downloads/19760013518.pdf"
+      },
+      {
+        "label": "DSIR PEL Report 587, Landsat II final report, September 1977, pp.9–10 and 109–110",
+        "url": "https://ntrs.nasa.gov/api/citations/19770026620/downloads/19770026620.pdf?attachment=true"
+      },
+      {
+        "label": "Waikanae Camera Club Newsletter, volume 29, issue 4, May 2005, p.4: Speaker for May 10th, Dennis Fowler",
+        "url": "https://kcps.org.nz/wp-content/uploads/2011/09/2005-05-wcc-newsletter.pdf"
+      }
+    ]
+  ]
+}

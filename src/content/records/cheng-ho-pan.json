@@ -1,0 +1,31 @@
+{
+  "id": "person:cheng-ho-pan",
+  "slug": "cheng-ho-pan",
+  "name": "Cheng Ho Pan (Ben Cheng)",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/cheng-ho-pan/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Cheng Ho Pan (Ben Cheng): Location Data Analyst, LINZ; University of Otago PGDip Applied Science GIS."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Cheng Ho Pan (Ben Cheng)"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-40-048819695d",
+  "slug": "upgrades-become-organisational-events-048819695d",
+  "articleId": "article:chapter-40",
+  "title": "Upgrades become organisational events",
+  "order": 16,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Shared platforms also made technology replacement more consequential. A GIS desktop could once be upgraded when an analyst was ready. An enterprise platform might contain databases, services, scripts, field workflows and public applications that all depended on a particular version or interface. Moving one component could force several others to move with it.",
+      "markdown": "Shared platforms also made technology replacement more consequential. A GIS desktop could once be upgraded when an analyst was ready. An enterprise platform might contain databases, services, scripts, field workflows and public applications that all depended on a particular version or interface. Moving one component could force several others to move with it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Migration therefore became part of GIS history. Data had to be converted. Services had to be republished. Custom applications had to be tested. Integrations had to be checked. Users needed warning when behaviour changed. The larger the platform became, the less credible it was to treat an upgrade as simply installing newer software.",
+      "markdown": "Migration therefore became part of GIS history. Data had to be converted. Services had to be republished. Custom applications had to be tested. Integrations had to be checked. Users needed warning when behaviour changed. The larger the platform became, the less credible it was to treat an upgrade as simply installing newer software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Enterprise GIS continued alongside older systems where those systems remained useful. Working integrations have value. Rebuilding them costs time and introduces risk. New Zealand organisations, like their counterparts elsewhere, often accumulated mixtures of old and new components because replacing the entire spatial environment at once was rarely practical.",
+      "markdown": "Enterprise GIS continued alongside older systems where those systems remained useful. Working integrations have value. Rebuilding them costs time and introduces risk. New Zealand organisations, like their counterparts elsewhere, often accumulated mixtures of old and new components because replacing the entire spatial environment at once was rarely practical.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

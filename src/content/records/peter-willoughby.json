@@ -1,0 +1,55 @@
+{
+  "id": "person:peter-willoughby",
+  "slug": "peter-willoughby",
+  "name": "Peter Willoughby",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/peter-willoughby/",
+  "story": [
+    "Peter Willoughby's professional profile identifies him as a Senior Geospatial System Specialist at NZ Transport Agency Waka Kotahi. He studied at the University of Pretoria from 2002 to 2006. His interests in enterprise GIS and its contribution to organisational work provide context for the platform modernisation described in the history.",
+    "Peter Willoughby is documented as a platform leader in NZTA’s enterprise-GIS modernisation. From 2021 he worked with Eagle on a resilient, governed hub-and-spoke spatial-service model using ArcGIS Enterprise on Kubernetes. The platform was used operationally during Cyclone Gabrielle in February 2023.",
+    "Peter Willoughby represented the platform side of the programme and Jithen Singh the Eagle public-sector role. The documented environment includes authoritative transport data, integrations, dashboards and field workflows, with the Kubernetes platform providing a cloud-native route to scaling and resilience."
+  ],
+  "sources": [
+    {
+      "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+    },
+    {
+      "label": "Peter Willoughby - NZ Transport Agency Waka Kotahi | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/peter-willoughby-0393001b"
+    },
+    {
+      "label": "Chapter 40 · NZTA moves to Kubernetes",
+      "url": "/stories/enterprise-gis/"
+    }
+  ],
+  "aliases": [
+    "Peter Willoughby"
+  ],
+  "themeIds": [
+    "technology-stack"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Peter Willoughby - NZ Transport Agency Waka Kotahi | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/peter-willoughby-0393001b"
+      }
+    ],
+    [
+      {
+        "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+        "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 40 · NZTA moves to Kubernetes",
+        "url": "/stories/enterprise-gis/"
+      }
+    ]
+  ]
+}

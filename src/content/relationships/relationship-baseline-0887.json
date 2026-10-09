@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0887",
+  "a": "person:esther-baumann",
+  "b": "entity:black-box-spatial",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-22-2c9e7b5db0",
+  "slug": "the-gis-job-changes-2c9e7b5db0",
+  "articleId": "article:chapter-22",
+  "title": "The GIS job changes",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "GIS specialists supported a growing number of desktop users as planners, scientists, policy analysts and property professionals took on routine map production, selections, joins and thematic mapping. Dedicated teams could concentrate on more demanding work while helping staff use the prepared data.",
+      "markdown": "GIS specialists supported a growing number of desktop users as planners, scientists, policy analysts and property professionals took on routine map production, selections, joins and thematic mapping. Dedicated teams could concentrate on more demanding work while helping staff use the prepared data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That freed specialists for other work while creating a support load of its own. Someone had to prepare standard layers, maintain master datasets, solve projection problems, manage licences, document procedures and help users who had enough software access to get themselves into trouble. Templates, shared symbology, training courses and internal guidance became part of running GIS across an organisation.",
+      "markdown": "That freed specialists for other work while creating a support load of its own. Someone had to prepare standard layers, maintain master datasets, solve projection problems, manage licences, document procedures and help users who had enough software access to get themselves into trouble. Templates, shared symbology, training courses and internal guidance became part of running GIS across an organisation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Adoption varied. Some organisations kept tight control over GIS licences and data, while others distributed desktop tools broadly. A smaller council might have one person carrying both GIS and other technical responsibilities, while a large department could maintain specialist production teams and dozens of desktop users. Across those different arrangements, more people were interacting directly with spatial information.",
+      "markdown": "Adoption varied. Some organisations kept tight control over GIS licences and data, while others distributed desktop tools broadly. A smaller council might have one person carrying both GIS and other technical responsibilities, while a large department could maintain specialist production teams and dozens of desktop users. Across those different arrangements, more people were interacting directly with spatial information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2000s, GIS could therefore exist in an organisation at several levels at once. A central database or specialist team maintained authoritative information. Desktop packages allowed analysts and business units to work with it. Commercial suppliers delivered software, prepared datasets and support. File formats and network folders moved information between the layers, sometimes elegantly and sometimes by somebody copying a folder called FINAL into another folder called FINAL2.",
+      "markdown": "By the 2000s, GIS could therefore exist in an organisation at several levels at once. A central database or specialist team maintained authoritative information. Desktop packages allowed analysts and business units to work with it. Commercial suppliers delivered software, prepared datasets and support. File formats and network folders moved information between the layers, sometimes elegantly and sometimes by somebody copying a folder called FINAL into another folder called FINAL2.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

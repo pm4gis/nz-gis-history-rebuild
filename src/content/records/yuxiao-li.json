@@ -1,0 +1,31 @@
+{
+  "id": "person:yuxiao-li",
+  "slug": "yuxiao-li",
+  "name": "Yuxiao Li",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/yuxiao-li/",
+  "story": [
+    "At the 1999 SIRC colloquium in Dunedin, Yuxiao Li, Peter Whigham, George Benwell and Nick Mulgan presented a paper on the design of a general-purpose three-dimensional spatial information system. The paper addressed the representation, storage and handling of three-dimensional objects. A photographically convincing scene and a spatial database capable of maintaining volumes, relationships and geometry are related problems, but they are not the same problem."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 39 · Visualisation and modelling",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Yuxiao Li"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 39 · Visualisation and modelling",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

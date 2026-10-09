@@ -1,0 +1,34 @@
+{
+  "id": "1989-national-gis-conference",
+  "dateDisplay": "1989-06-26 to 1989-06-28",
+  "startDate": "1989-06-26",
+  "endDate": "1989-06-28",
+  "datePrecision": "day-range",
+  "year": 1989,
+  "label": "First National Multi-Disciplinary GIS Conference",
+  "summary": "The Wellington conference Getting it all together with GIS marked GIS as a recognised cross-sector professional field.",
+  "url": "/stories/when-gis-became-gis/#a-shared-name-bc94bd66ec",
+  "passageIds": [
+    "passage:chapter-6-bc94bd66ec"
+  ],
+  "recordIds": [
+    "chapter:6",
+    "entity:university-of-auckland",
+    "person:p-r-van-berkel",
+    "person:r-d-williams",
+    "person:clive-elliott",
+    "person:john-dymond",
+    "person:m-r-jessen",
+    "person:p-g-luckman",
+    "person:p-r-stephens",
+    "person:r-g-gibb"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "categories": [
+    "professional",
+    "conference"
+  ],
+  "sources": []
+}

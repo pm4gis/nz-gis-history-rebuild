@@ -1,0 +1,47 @@
+{
+  "id": "system:auckland-gfmo",
+  "slug": "auckland-gfmo",
+  "name": "Auckland Council GFMO",
+  "kind": "Project",
+  "category": "Systems and projects",
+  "url": "/systems/auckland-gfmo/",
+  "story": [
+    "Auckland Council began operating on 1 November 2010, inheriting geospatial systems, data and working practices from the former Auckland authorities. Its four-year Geospatial Future Mode of Operation programme consolidated that estate into a council-wide service. The work covered applications, schemas, datasets, integrations, processes and responsibilities. The new organisation needed geographic information for property records, civil defence, resource planning, building consents and other services while the migration proceeded.",
+    "The 2016 Esri account identifies Ingrid McClymont in council geospatial management, Paul Donald among the council participants and Nathan Heazlewood as project manager from Eagle’s professional-services team. ArcGIS Desktop, ArcGIS Server, Portal for ArcGIS, a central geodatabase and Safe Software FME formed part of the environment. Geographic Business Solutions contributed to GeoMaps. These contributions sat beside council staff responsible for maintaining information and supporting its use.",
+    "The account records a reduction from 8,470 inherited geographic datasets to 2,056. It also describes replacing 697 district-plan geographic datasets with 25 while keeping historic information for traceability. Staff had to decide which records were authoritative, reconcile old structures with new schemas and retain the information needed for legal and operational reference. FME supported transformation and migration within those decisions.",
+    "GFMO introduced formal service levels and closer integration with council IT. GeoMaps and other applications broadened access to centrally managed information while specialist teams retained the underlying data-management capability. The case study records three awards received in 2015. Its implementation figures describe the scale of consolidation; they come from the customer and vendor account of the programme.",
+    "The dataset totals describe consolidation and the removal of duplication. Historic information remained available for legal and operational reference."
+  ],
+  "sources": [
+    {
+      "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+      "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+    }
+  ],
+  "aliases": [
+    "Geospatial Future Mode of Operation",
+    "GFMO",
+    "GeoMaps"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "Council consolidation",
+      "paragraphs": [
+        "Auckland Council began operating on 1 November 2010, inheriting geospatial systems, data and working practices from the former Auckland authorities. Its four-year Geospatial Future Mode of Operation programme consolidated that estate into a council-wide service. The work covered applications, schemas, datasets, integrations, processes and responsibilities. The new organisation needed geographic information for property records, civil defence, resource planning, building consents and other services while the migration proceeded.",
+        "The 2016 Esri account identifies Ingrid McClymont in council geospatial management, Paul Donald among the council participants and Nathan Heazlewood as project manager from Eagle’s professional-services team. ArcGIS Desktop, ArcGIS Server, Portal for ArcGIS, a central geodatabase and Safe Software FME formed part of the environment. Geographic Business Solutions contributed to GeoMaps. These contributions sat beside council staff responsible for maintaining information and supporting its use."
+      ]
+    },
+    {
+      "title": "Data and services",
+      "paragraphs": [
+        "The account records a reduction from 8,470 inherited geographic datasets to 2,056. It also describes replacing 697 district-plan geographic datasets with 25 while keeping historic information for traceability. Staff had to decide which records were authoritative, reconcile old structures with new schemas and retain the information needed for legal and operational reference. FME supported transformation and migration within those decisions.",
+        "GFMO introduced formal service levels and closer integration with council IT. GeoMaps and other applications broadened access to centrally managed information while specialist teams retained the underlying data-management capability. The case study records three awards received in 2015. Its implementation figures describe the scale of consolidation; they come from the customer and vendor account of the programme.",
+        "The dataset totals describe consolidation and the removal of duplication. Historic information remained available for legal and operational reference."
+      ]
+    }
+  ]
+}

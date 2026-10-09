@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1990",
+  "a": "person:s-thompson",
+  "b": "chapter:8",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-8-518a61ae87"
+  ],
+  "sources": []
+}

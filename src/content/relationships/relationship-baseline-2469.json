@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2469",
+  "a": "person:robert-odolinski",
+  "b": "entity:survey-and-spatial-nz-tatai-whenua",
+  "label": "Associated with",
+  "basis": "Documented association in the 7 October 2026 entity-gap expansion research.",
+  "passageIds": [],
+  "sources": []
+}

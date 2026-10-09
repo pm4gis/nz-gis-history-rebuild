@@ -1,0 +1,59 @@
+{
+  "id": "passage:chapter-39-2289da86de",
+  "slug": "buildings-meet-geography-2289da86de",
+  "articleId": "article:chapter-39",
+  "title": "Buildings meet geography",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39",
+    "entity:aam-aamhatch",
+    "entity:university-of-canterbury",
+    "person:daniel-jones"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Building Information Modelling introduced another boundary. BIM systems could represent doors, walls, structural components, services and other parts of a building in considerable detail. GIS could place that building within roads, parcels, hazards, terrain, population and infrastructure networks. Combining GIS and BIM required compatible coordinates, data structures and object definitions.",
+      "markdown": "Building Information Modelling introduced another boundary. BIM systems could represent doors, walls, structural components, services and other parts of a building in considerable detail. GIS could place that building within roads, parcels, hazards, terrain, population and infrastructure networks. Combining GIS and BIM required compatible coordinates, data structures and object definitions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Daniel Jones's 2019 University of Canterbury master's thesis examined that problem directly. The research proposed a workflow integrating BIM and GIS for urban risk and resilience, using Christchurch and the Taiora Queen Elizabeth II recreation and sports centre as a case. It explored semantic and web-service issues as well as the geographic relationship between a detailed building model and wider spatial context. The thesis used the term digital twin.",
+      "markdown": "Daniel Jones's 2019 University of Canterbury master's thesis examined that problem directly. The research proposed a workflow integrating BIM and GIS for urban risk and resilience, using Christchurch and the Taiora Queen Elizabeth II recreation and sports centre as a case. It explored semantic and web-service issues as well as the geographic relationship between a detailed building model and wider spatial context. The thesis used the term digital twin.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Christchurch project demonstrated a proposed geospatial workflow and research use at its stated scale. Published material describes a research case, rather than a city-wide live digital twin. Research and prototypes often precede the organisational processes, standards and funding needed for ongoing operational use.",
+      "markdown": "The Christchurch project demonstrated a proposed geospatial workflow and research use at its stated scale. Published material describes a research case, rather than a city-wide live digital twin. Research and prototypes often precede the organisational processes, standards and funding needed for ongoing operational use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS-BIM integration also exposed semantic problems hidden by good graphics. A BIM object might know that it is a door of a particular type and belongs to a particular room. A GIS building polygon might know the address, parcel, hazard zone and surrounding transport network. Converting either dataset carelessly can strip away the relationships that made it useful. The challenge became deciding which details should move across the boundary and how they would remain current afterwards.",
+      "markdown": "GIS-BIM integration also exposed semantic problems hidden by good graphics. A BIM object might know that it is a door of a particular type and belongs to a particular room. A GIS building polygon might know the address, parcel, hazard zone and surrounding transport network. Converting either dataset carelessly can strip away the relationships that made it useful. The challenge became deciding which details should move across the boundary and how they would remain current afterwards.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "AAMHatch produced Wellington’s textured 3D city model in 2009 using aerial imagery and building models. The project placed detailed urban structures into a geographic view, extending commercial mapping from two-dimensional imagery towards textured city models.",
+      "markdown": "AAMHatch produced Wellington’s textured 3D city model in 2009 using aerial imagery and building models. The project placed detailed urban structures into a geographic view, extending commercial mapping from two-dimensional imagery towards textured city models.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Canterbury earthquake recovery made another collection of city models publicly reusable. In March 2014 the Canterbury Spatial Data Infrastructure programme released pre-earthquake three-dimensional models of commercial buildings within Christchurch’s four avenues under an open licence. The collection included buildings that had been demolished as well as those still standing. Existing and proposed buildings could then be placed together for consultation and planning, while the government release also identified simulations of urban form, wind and shade as potential uses.",
+      "markdown": "Canterbury earthquake recovery made another collection of city models publicly reusable. In March 2014 the Canterbury Spatial Data Infrastructure programme released pre-earthquake three-dimensional models of commercial buildings within Christchurch’s four avenues under an open licence. The collection included buildings that had been demolished as well as those still standing. Existing and proposed buildings could then be placed together for consultation and planning, while the government release also identified simulations of urban form, wind and shade as potential uses.",
+      "sources": [
+        {
+          "label": "Beehive, 3D models to aid Christchurch vision, 7 March 2014",
+          "url": "https://www.beehive.govt.nz/release/3d-models-aid-christchurch-vision"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

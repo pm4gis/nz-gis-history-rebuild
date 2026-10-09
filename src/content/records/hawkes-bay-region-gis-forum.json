@@ -1,0 +1,24 @@
+{
+  "id": "entity:hawkes-bay-region-gis-forum",
+  "slug": "hawkes-bay-region-gis-forum",
+  "name": "Hawke’s Bay Region GIS Forum",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/hawkes-bay-region-gis-forum/",
+  "website": null,
+  "story": [
+    "Council practitioners used the Hawke’s Bay forum to discuss GIS work and professional events. In September 2008, Darrel Hall summarised their views on the future of GIS conferences. He described a regional mix of MapInfo, GenaMap and Esri users and discussed the cost and value of attending national events."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG GISList discussion, The future of the NZ ESRI User Group Conference, including council and Hawke's Bay regional responses"
+    }
+  ],
+  "aliases": [
+    "Hawke’s Bay Region GIS Forum"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

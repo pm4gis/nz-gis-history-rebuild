@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1014",
+  "a": "person:tim-watson",
+  "b": "entity:wellington-regional-council-greater-wellington-regional-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

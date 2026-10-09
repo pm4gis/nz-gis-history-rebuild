@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-40-3b2f15aae8",
+  "slug": "centralise-or-federate-3b2f15aae8",
+  "articleId": "article:chapter-40",
+  "title": "Centralise or federate",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Enterprise GIS often produced pressure to centralise. One database, one server environment and one set of standards promised fewer duplicates and easier support. Sometimes that worked well. Common coordinate systems, schemas, metadata, identifiers and basemaps could reduce friction across an organisation. A shared platform could also concentrate expertise and avoid every team buying its own infrastructure.",
+      "markdown": "Enterprise GIS often produced pressure to centralise. One database, one server environment and one set of standards promised fewer duplicates and easier support. Sometimes that worked well. Common coordinate systems, schemas, metadata, identifiers and basemaps could reduce friction across an organisation. A shared platform could also concentrate expertise and avoid every team buying its own infrastructure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Some work was better supported by local or distributed systems. Specialist systems existed for good reasons. A network utility required topology and asset behaviour that a generic GIS might not manage well. Scientific databases contained measurements and models that did not fit a corporate feature schema. Cadastral and title systems carried legal requirements outside the scope of ordinary GIS databases. The enterprise problem was therefore often one of connection rather than conquest.",
+      "markdown": "Some work was better supported by local or distributed systems. Specialist systems existed for good reasons. A network utility required topology and asset behaviour that a generic GIS might not manage well. Scientific databases contained measurements and models that did not fit a corporate feature schema. Cadastral and title systems carried legal requirements outside the scope of ordinary GIS databases. The enterprise problem was therefore often one of connection rather than conquest.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NIWA's service-based approach illustrates this, and the Digital Auckland case in the previous chapter made the same point at city scale. Information can remain with its custodian while being exposed through managed interfaces. Enterprise capability may come from agreed identifiers, standards and services rather than physical consolidation into one enormous database.",
+      "markdown": "NIWA's service-based approach illustrates this, and the Digital Auckland case in the previous chapter made the same point at city scale. Information can remain with its custodian while being exposed through managed interfaces. Enterprise capability may come from agreed identifiers, standards and services rather than physical consolidation into one enormous database.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

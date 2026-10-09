@@ -1,0 +1,31 @@
+{
+  "id": "person:russel-mcquoid",
+  "slug": "russel-mcquoid",
+  "name": "Russel McQuoid",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/russel-mcquoid/",
+  "story": [
+    "Stephen Walsh and Russel McQuoid examined the resource-management process and its implications for land-information systems. Other papers addressed the institutional position of the national surveying and mapping agency and the future of the national topographic database. By then, GIS and land-information systems were being discussed as parts of public administration as well as mapping technology."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 10 · Land information becomes policy",
+      "url": "/stories/gis-inside-government/"
+    }
+  ],
+  "aliases": [
+    "Russel McQuoid"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 10 · Land information becomes policy",
+        "url": "/stories/gis-inside-government/"
+      }
+    ]
+  ]
+}

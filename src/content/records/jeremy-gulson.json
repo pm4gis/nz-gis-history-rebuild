@@ -1,0 +1,46 @@
+{
+  "id": "person:jeremy-gulson",
+  "slug": "jeremy-gulson",
+  "name": "Jeremy Gulson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jeremy-gulson/",
+  "story": [
+    "Jeremy Gulson is documented in operational geospatial work spanning the Canterbury rebuild and national transport. LINZ’s 2012 schools programme identified him as a Senior Spatial Consultant for SCIRT. In 2021 Waka Kotahi recorded him as Geospatial Manager and Manager Business Intelligence Direction presenting its multi-modal network framework, including routable networks, digital-twin potential, the One Network Framework and the Asset Management Data Standard.",
+    "LINZ names Jeremy Gulson in its geospatial virtual field-trip record: Senior Spatial Consultant, SCIRT, 2012 VFT."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    },
+    {
+      "label": "Waka Kotahi, Multi-modal network webinar recording, September 2021",
+      "url": "https://nzta.govt.nz/roads-and-rail/asset-management-data-standard/newsletters-and-updates/multi-modal-network-webinar-recording-available-september-2021"
+    }
+  ],
+  "aliases": [
+    "Jeremy Gulson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      },
+      {
+        "label": "Waka Kotahi, Multi-modal network webinar recording, September 2021",
+        "url": "https://nzta.govt.nz/roads-and-rail/asset-management-data-standard/newsletters-and-updates/multi-modal-network-webinar-recording-available-september-2021"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "passage:chapter-44-ebb70c2c9a",
+  "slug": "reading-maps-with-ai-ebb70c2c9a",
+  "articleId": "article:chapter-44",
+  "title": "Reading maps with AI",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:44",
+    "person:rere-no-a-rangi-pope",
+    "person:marcus-frean"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The other direction of change involved the maps themselves. A historical paper map can be scanned easily, but a scan is still an image until it is connected to geographic coordinates. Georeferencing has traditionally required a person to recognise features, identify corresponding control points and fit the image to a modern coordinate framework. That is manageable for a few maps and laborious for a large archive. In 2025, Rere-No-A-Rangi Pope and Marcus Frean at Victoria University of Wellington presented a different approach at GIScience 2025 in Christchurch.",
+      "markdown": "The other direction of change involved the maps themselves. A historical paper map can be scanned easily, but a scan is still an image until it is connected to geographic coordinates. Georeferencing has traditionally required a person to recognise features, identify corresponding control points and fit the image to a modern coordinate framework. That is manageable for a few maps and laborious for a large archive. In 2025, Rere-No-A-Rangi Pope and Marcus Frean at Victoria University of Wellington presented a different approach at GIScience 2025 in Christchurch.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Their paper, \"Georeferencing Historical Maps at Scale\", used salient line intersections to match features in historical map images with contemporary cadastral data. The method was designed for the awkward reality that old cadastral maps and current parcels do not contain identical geometry. Parcels have been subdivided, land use has changed, map images contain noise and historical maps may have uncertain orientation or scale. The researchers therefore looked for angular relationships in line intersections that persisted strongly enough to narrow possible locations. In one stage of evaluation, the algorithm was scaled across 100,000 randomly selected regions of Aotearoa New Zealand.",
+      "markdown": "Their paper, \"Georeferencing Historical Maps at Scale\", used salient line intersections to match features in historical map images with contemporary cadastral data. The method was designed for the awkward reality that old cadastral maps and current parcels do not contain identical geometry. Parcels have been subdivided, land use has changed, map images contain noise and historical maps may have uncertain orientation or scale. The researchers therefore looked for angular relationships in line intersections that persisted strongly enough to narrow possible locations. In one stage of evaluation, the algorithm was scaled across 100,000 randomly selected regions of Aotearoa New Zealand.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The research applied computational methods to historical maps and tested the resulting georeferencing against the source records. Pope and Frean explicitly frame historical cadastral maps within colonisation, dispossession and spatial data justice. Their method uses current LINZ parcel data to help locate older map images, but the old map and the modern cadastre are not treated as identical truths. The algorithm performs record linkage across two representations created at different times and for different purposes. Automation can make large collections more accessible while the provenance and politics of the source maps remain part of the interpretation.",
+      "markdown": "The research applied computational methods to historical maps and tested the resulting georeferencing against the source records. Pope and Frean explicitly frame historical cadastral maps within colonisation, dispossession and spatial data justice. Their method uses current LINZ parcel data to help locate older map images, but the old map and the modern cadastre are not treated as identical truths. The algorithm performs record linkage across two representations created at different times and for different purposes. Automation can make large collections more accessible while the provenance and politics of the source maps remain part of the interpretation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By August 2025, New Zealand researchers were testing computational methods to search for geographic correspondences across national cadastral data and historical imagery at a scale impractical to inspect manually.",
+      "markdown": "By August 2025, New Zealand researchers were testing computational methods to search for geographic correspondences across national cadastral data and historical imagery at a scale impractical to inspect manually.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

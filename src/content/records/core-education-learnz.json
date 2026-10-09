@@ -1,0 +1,24 @@
+{
+  "id": "entity:core-education-learnz",
+  "slug": "core-education-learnz",
+  "name": "CORE Education / LEARNZ",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/core-education-learnz/",
+  "story": [
+    "CORE Education runs LEARNZ, a free online field-trip programme that brings learners to people, places and projects beyond the classroom. LINZ has sponsored geospatial field trips through LEARNZ since 2012 to introduce students and teachers to spatial sciences and geospatial careers. The trips use videos, expert interviews and curriculum resources on topics from Christchurch’s rebuild and Māori place names to outdoor safety and seabed mapping."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "CORE Education / LEARNZ"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

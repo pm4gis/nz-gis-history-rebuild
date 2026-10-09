@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-18-22db061c83",
+  "slug": "a-global-coordinate-meets-a-moving-country-22db061c83",
+  "articleId": "article:chapter-18",
+  "title": "A global coordinate meets a moving country",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "GPS also exposed a deeper problem. The satellites operated in a global geocentric reference environment, while much New Zealand mapping and surveying still depended on NZGD49 and coordinate systems built for an earlier era. A GPS receiver could produce an internally good position that did not overlay older national data correctly if the datum relationship was ignored. The issue had been foreshadowed by the Transit observations in Fiordland in the 1970s, and it became harder to avoid as GPS use expanded.",
+      "markdown": "GPS also exposed a deeper problem. The satellites operated in a global geocentric reference environment, while much New Zealand mapping and surveying still depended on NZGD49 and coordinate systems built for an earlier era. A GPS receiver could produce an internally good position that did not overlay older national data correctly if the datum relationship was ignored. The issue had been foreshadowed by the Transit observations in Fiordland in the 1970s, and it became harder to avoid as GPS use expanded.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "During the 1990s repeated GPS campaigns became part of the work used to establish a new national geodetic framework. Five repeat surveys between 1992 and 1998 supplied observations for the initial realisation that became NZGD2000. The response went well beyond buying better receivers. New Zealand needed a coordinate framework compatible with satellite positioning and capable of dealing with a country whose crust does not stay put.",
+      "markdown": "During the 1990s repeated GPS campaigns became part of the work used to establish a new national geodetic framework. Five repeat surveys between 1992 and 1998 supplied observations for the initial realisation that became NZGD2000. The response went well beyond buying better receivers. New Zealand needed a coordinate framework compatible with satellite positioning and capable of dealing with a country whose crust does not stay put.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Emergency dispatch made the consequences of digital location data unusually immediate. In 1996 Police replaced 29 district control rooms with three communications centres in Auckland, Wellington and Christchurch using the Communications and Resource Deployment system, CARD. Police later recorded that the first job entered into the new system was logged at 14:36 on 28 October 1996 and concerned youths removing guttering from a scout hall in Hamilton. The event was unremarkable, which is useful historically. A national digital dispatch system began its recorded working life with an ordinary address that someone still had to find.",
+      "markdown": "Emergency dispatch made the consequences of digital location data unusually immediate. In 1996 Police replaced 29 district control rooms with three communications centres in Auckland, Wellington and Christchurch using the Communications and Resource Deployment system, CARD. Police later recorded that the first job entered into the new system was logged at 14:36 on 28 October 1996 and concerned youths removing guttering from a scout hall in Hamilton. The event was unremarkable, which is useful historically. A national digital dispatch system began its recorded working life with an ordinary address that someone still had to find.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2005 independent review showed how dependent the centralised model had become on mapping. Call takers were relying increasingly on digital mapping tools, while the review still encountered complaints about lost local knowledge and recommended better aerial mapping, rural rapid-number data and GPS coordinates for rural properties. It also identified a much smaller problem with larger consequences: the Intergraph CARD Address Search field could delay confirmation of a caller's street if the search was not broadened correctly. Location technology had made national dispatch possible, but it had not abolished the basic question at the start of an emergency call: where, exactly, is this person?",
+      "markdown": "A 2005 independent review showed how dependent the centralised model had become on mapping. Call takers were relying increasingly on digital mapping tools, while the review still encountered complaints about lost local knowledge and recommended better aerial mapping, rural rapid-number data and GPS coordinates for rural properties. It also identified a much smaller problem with larger consequences: the Intergraph CARD Address Search field could delay confirmation of a caller's street if the search was not broadened correctly. Location technology had made national dispatch possible, but it had not abolished the basic question at the start of an emergency call: where, exactly, is this person?",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the end of the period covered here, the practical change was already established. A coordinate no longer had to arrive mainly through an existing map or a chain of ground measurements carried back to the office. It could increasingly be measured where the work happened, attached to a feature, checked against other data and transferred into GIS. The next problem was ensuring that millions of those measured positions meant the same thing once they reached the national map.",
+      "markdown": "By the end of the period covered here, the practical change was already established. A coordinate no longer had to arrive mainly through an existing map or a chain of ground measurements carried back to the office. It could increasingly be measured where the work happened, attached to a feature, checked against other data and transferred into GIS. The next problem was ensuring that millions of those measured positions meant the same thing once they reached the national map.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

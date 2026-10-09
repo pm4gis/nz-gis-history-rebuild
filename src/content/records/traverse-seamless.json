@@ -1,0 +1,30 @@
+{
+  "id": "entity:traverse-seamless",
+  "slug": "traverse-seamless",
+  "name": "Traverse / Seamless",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/traverse-seamless/",
+  "website": null,
+  "story": [
+    "Sam Drummond’s November 2025 anniversary account places the business’s beginnings ten years earlier under the Traverse name. Its work concentrated on information moving between systems, including councils and electricity distributors. The account names early customers and supporters at Waimakariri District Council, Environment Canterbury and Transpower. The later Seamless business illustrates the growth of specialist integration services beneath the applications people used to view and manage geographic information."
+  ],
+  "sources": [
+    {
+      "label": "Sam Drummond, Seamless Turns 10, 10 November 2025",
+      "url": "https://www.seamlessdata.co.nz/articles/seamless-turns-10/"
+    },
+    {
+      "label": "Geographic Business Solutions, 20 years of GBS: a short history",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    }
+  ],
+  "aliases": [
+    "Traverse",
+    "Seamless"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

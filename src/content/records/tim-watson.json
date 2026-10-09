@@ -1,0 +1,42 @@
+{
+  "id": "person:tim-watson",
+  "slug": "tim-watson",
+  "name": "Tim Watson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/tim-watson/",
+  "story": [
+    "Tim Watson, a Greater Wellington Technical Services officer, assessed hardware and software for the Ngāti Hāmua sacred-sites mapping project. Jason Kerehi’s 2005 account records his advice to use ArcView 3.2, considering the iwi’s requirements, cost and compatibility with council systems. The project also used GPS, a digital camera and a scanner to link field locations with supporting material.",
+    "Greater Wellington Technical Services Officer Tim Watson assessed the hardware and software. Although ArcView 8.1 was available, he recommended ArcView 3.2 because it did what the project needed, was well tested, carried a one-off cost and kept the iwi technically compatible with Greater Wellington and Masterton District Council. The kit around it was equally of its time: digital camera, scanner, memory stick and GPS. Rangitāne researchers controlled the site work and linked photographs, interviews and documentary evidence to the GIS, while elders raised ownership and security concerns."
+  ],
+  "sources": [
+    {
+      "label": "Jason Kerehi, Ngā wāhi tapu o Ngāti Hāmua, Indigenous Knowledges Conference, 22–25 June 2005",
+      "url": "https://www.gw.govt.nz/assets/Documents/2005/09/011-Rangitane-GIS-Conference-Paper-Final-without-umlauts-_2_.pdf"
+    },
+    {
+      "label": "Chapter 29 · Recurring forums",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Tim Watson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Jason Kerehi, Ngā wāhi tapu o Ngāti Hāmua, Indigenous Knowledges Conference, 22–25 June 2005",
+        "url": "https://www.gw.govt.nz/assets/Documents/2005/09/011-Rangitane-GIS-Conference-Paper-Final-without-umlauts-_2_.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · Recurring forums",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

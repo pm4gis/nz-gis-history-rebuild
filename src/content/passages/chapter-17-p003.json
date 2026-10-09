@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-17-4062a38f8b",
+  "slug": "local-records-national-need-4062a38f8b",
+  "articleId": "article:chapter-17",
+  "title": "Local records, national need",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The basic institutional arrangement placed much of address creation close to the ground. City and district councils allocated road names and property numbers. That made sense because subdivision, building and road changes were local events, and councils were often the first public bodies to know that a new street or address existed. National users, however, needed those local decisions to be collected consistently. Electoral administration, Statistics New Zealand, central government, emergency services and later national web and GIS applications all depended on address information that crossed council boundaries.",
+      "markdown": "The basic institutional arrangement placed much of address creation close to the ground. City and district councils allocated road names and property numbers. That made sense because subdivision, building and road changes were local events, and councils were often the first public bodies to know that a new street or address existed. National users, however, needed those local decisions to be collected consistently. Electoral administration, Statistics New Zealand, central government, emergency services and later national web and GIS applications all depended on address information that crossed council boundaries.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Surveyor-General acquired an important collation role within that arrangement. Under the Local Government Act framework, territorial authorities were required to advise the national land-information system of allocated or changed road names and property numbers. Later LINZ guidance describes the national record as being maintained from those local notifications, with the central agency checking information against addressing standards and incorporating it into national address and road data. Councils allocated addresses within the shared framework. It was a distributed production system in which local authorities assigned much of the information and a national custodian assembled, checked and redistributed it.",
+      "markdown": "The Surveyor-General acquired an important collation role within that arrangement. Under the Local Government Act framework, territorial authorities were required to advise the national land-information system of allocated or changed road names and property numbers. Later LINZ guidance describes the national record as being maintained from those local notifications, with the central agency checking information against addressing standards and incorporating it into national address and road data. Councils allocated addresses within the shared framework. It was a distributed production system in which local authorities assigned much of the information and a national custodian assembled, checked and redistributed it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That workflow was inherently geographic. A new road name had to refer to the correct road. A property number needed a meaningful position along it. The locality or suburb needed to distinguish the address from similar names elsewhere. An address also had to be related to the right electoral, statistical and local-government areas. Errors that looked small in a database could become operationally large when a record was assigned to the wrong road, a road name was duplicated or an emergency crew was sent toward the wrong end of a rural route.",
+      "markdown": "That workflow was inherently geographic. A new road name had to refer to the correct road. A property number needed a meaningful position along it. The locality or suburb needed to distinguish the address from similar names elsewhere. An address also had to be related to the right electoral, statistical and local-government areas. Errors that looked small in a database could become operationally large when a record was assigned to the wrong road, a road name was duplicated or an emergency crew was sent toward the wrong end of a rural route.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

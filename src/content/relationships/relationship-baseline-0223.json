@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0223",
+  "a": "entity:esri",
+  "b": "chapter:6",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

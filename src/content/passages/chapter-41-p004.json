@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-41-fbd36de1bc",
+  "slug": "the-service-moves-to-the-cloud-fbd36de1bc",
+  "articleId": "article:chapter-41",
+  "title": "The service moves to the cloud",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41",
+    "entity:koordinates"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In 2017 that platform model became explicitly cloud based for three important national services. Koordinates support material states that the LINZ Data Service, the LRIS Portal and the MfE Data Service migrated from on-premises installations to a Koordinates cloud installation. Users were moved to a common Koordinates ID so the same account could work across sites on the platform. The migration changed hosting arrangements and part of the identity model.",
+      "markdown": "In 2017 that platform model became explicitly cloud based for three important national services. Koordinates support material states that the LINZ Data Service, the LRIS Portal and the MfE Data Service migrated from on-premises installations to a Koordinates cloud installation. Users were moved to a common Koordinates ID so the same account could work across sites on the platform. The migration changed hosting arrangements and part of the identity model.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Porirua coast",
+      "caption": "Porirua coast. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "LINZ's 2017/18 annual report independently confirms the move for LDS. It states that the service moved to a cloud-based platform in September 2017 to improve sustainability and scalability and to respond more quickly and cost-effectively to demands for additional storage. This account concerns LINZ’s public distribution service. Selected workloads moved to hosted infrastructure where it solved a delivery problem, and the arrangement gradually became routine.",
+      "markdown": "LINZ's 2017/18 annual report independently confirms the move for LDS. It states that the service moved to a cloud-based platform in September 2017 to improve sustainability and scalability and to respond more quickly and cost-effectively to demands for additional storage. This account concerns LINZ’s public distribution service. Selected workloads moved to hosted infrastructure where it solved a delivery problem, and the arrangement gradually became routine.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The migration also exposes the new dependency created by convenience. User identities had to be migrated. Applications and workflows that relied on a service needed the service to remain reachable. A provider-controlled environment could change authentication, storage, interfaces or commercial terms in ways consumers had to absorb. Hosted platforms removed some infrastructure work from individual agencies, but they did not remove governance, business continuity or the need to understand what other systems depended on the service.",
+      "markdown": "The migration also exposes the new dependency created by convenience. User identities had to be migrated. Applications and workflows that relied on a service needed the service to remain reachable. A provider-controlled environment could change authentication, storage, interfaces or commercial terms in ways consumers had to absorb. Hosted platforms removed some infrastructure work from individual agencies, but they did not remove governance, business continuity or the need to understand what other systems depended on the service.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

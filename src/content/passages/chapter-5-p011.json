@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-5-7d651ec112",
+  "slug": "early-spatial-datasets-7d651ec112",
+  "articleId": "article:chapter-5",
+  "title": "Early spatial datasets",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "NZLRI and LADEDA were operating before the adoption of commercial GIS packages. New Zealand’s land-resource programme started before the term GIS was common in local professional use. The inventory was being digitised from 1977, and by the early 1980s a purpose-built computer environment was retrieving, processing and plotting national polygon data. Contemporary authors called the system GIS by 1985.",
+      "markdown": "NZLRI and LADEDA were operating before the adoption of commercial GIS packages. New Zealand’s land-resource programme started before the term GIS was common in local professional use. The inventory was being digitised from 1977, and by the early 1980s a purpose-built computer environment was retrieving, processing and plotting national polygon data. Contemporary authors called the system GIS by 1985.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Software could only retrieve erosion classes or produce a land-resource plot because field and mapping teams had spent years defining units, interpreting photographs, checking ground conditions and coding descriptions consistently. The digital system reused that work. Its analytical capability depended on the quality and maintenance of the inventory beneath it.",
+      "markdown": "Software could only retrieve erosion classes or produce a land-resource plot because field and mapping teams had spent years defining units, interpreting photographs, checking ground conditions and coding descriptions consistently. The digital system reused that work. Its analytical capability depended on the quality and maintenance of the inventory beneath it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The later 1:50,000 conversion continued the same pattern. New software and coordinate transformation did not remove the need to compare lines with aerial photographs, topographic maps and control points. Digital production changed how corrections could be made and propagated through the database, but it did not remove the judgement involved in deciding where a thematic boundary belonged. The national dataset became easier to query and reproduce while retaining the characteristics of the mapping from which it had been built.",
+      "markdown": "The later 1:50,000 conversion continued the same pattern. New software and coordinate transformation did not remove the need to compare lines with aerial photographs, topographic maps and control points. Digital production changed how corrections could be made and propagated through the database, but it did not remove the judgement involved in deciding where a thematic boundary belonged. The national dataset became easier to query and reproduce while retaining the characteristics of the mapping from which it had been built.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 1990 the NZLRI existed as a national digital land-resource database operating within a commercial GIS environment, with its earlier LADEDA lineage preserved in technical publications and institutional records. The paper sheets remained useful products, but they were no longer the only place where the inventory existed. The maintained spatial data could generate new maps, tables and analyses from the same national record. New Zealand had moved from mapping land resources onto sheets to maintaining the mapped units as spatial data.",
+      "markdown": "By 1990 the NZLRI existed as a national digital land-resource database operating within a commercial GIS environment, with its earlier LADEDA lineage preserved in technical publications and institutional records. The paper sheets remained useful products, but they were no longer the only place where the inventory existed. The maintained spatial data could generate new maps, tables and analyses from the same national record. New Zealand had moved from mapping land resources onto sheets to maintaining the mapped units as spatial data.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

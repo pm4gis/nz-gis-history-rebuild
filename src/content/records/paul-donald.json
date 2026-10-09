@@ -1,0 +1,31 @@
+{
+  "id": "person:paul-donald",
+  "slug": "paul-donald",
+  "name": "Paul Donald",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/paul-donald/",
+  "story": [
+    "Paul Donald is named among the Auckland Council participants in the published GFMO implementation account."
+  ],
+  "sources": [
+    {
+      "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+      "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+    }
+  ],
+  "aliases": [
+    "Paul Donald"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+        "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+      }
+    ]
+  ]
+}

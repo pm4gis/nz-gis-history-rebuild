@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0962",
+  "a": "person:huia-pacey",
+  "b": "entity:lincoln-university",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

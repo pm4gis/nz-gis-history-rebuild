@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2042",
+  "a": "entity:waikato-regional-council",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

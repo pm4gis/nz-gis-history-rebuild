@@ -1,0 +1,52 @@
+{
+  "id": "person:te-wharekorari",
+  "slug": "te-wharekorari",
+  "name": "Te Wharekorari",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/te-wharekorari/",
+  "story": [
+    "Te Wharekorari supplied South Island geographic knowledge to Walter Mantell during Crown land-acquisition work in 1848.",
+    "Te Wharekorari supplied geographic knowledge to Walter Mantell in 1848 during Crown land-acquisition work in the South Island. Rivers, lakes, routes and place names entered sketches and purchase mapping through encounters of this kind. The mapmaking occurred alongside negotiations over land and the recording of reserves and settlement interests. Naming the knowledge holder identifies a contribution otherwise easily absorbed into the credit given to the official who kept or published the paper record."
+  ],
+  "sources": [
+    {
+      "label": "National Library / ATL, Te Wharekorari map record",
+      "url": "https://natlib.govt.nz/records/22386209"
+    },
+    {
+      "label": "National Library, Te Wharekorari authority record and associated Mantell maps E-333-036, E-333-037, E-333-038",
+      "url": "https://natlib.govt.nz/records/22386209"
+    },
+    {
+      "label": "Chapter 1 · The parcel record",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "Te Wharekorari"
+  ],
+  "themeIds": [
+    "cadastre"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "National Library / ATL, Te Wharekorari map record",
+        "url": "https://natlib.govt.nz/records/22386209"
+      },
+      {
+        "label": "National Library, Te Wharekorari authority record and associated Mantell maps E-333-036, E-333-037, E-333-038",
+        "url": "https://natlib.govt.nz/records/22386209"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 1 · The parcel record",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

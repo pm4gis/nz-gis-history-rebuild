@@ -1,0 +1,31 @@
+{
+  "id": "person:s-thompson",
+  "slug": "s-thompson",
+  "name": "S. Thompson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/s-thompson/",
+  "story": [
+    "Andrew Dunningham and S. Thompson published “Use of geographic information systems in New Zealand forestry applications” in the Commonwealth Forestry Review. Their paper described the need within Ministry of Forestry service and research work for efficient storage, retrieval, transformation and display of spatial information. The examples used TERRASOFT, a GIS running on a personal computer."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 8 · A PC GIS in 1989",
+      "url": "/stories/forestry-finds-gis/"
+    }
+  ],
+  "aliases": [
+    "S. Thompson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 8 · A PC GIS in 1989",
+        "url": "/stories/forestry-finds-gis/"
+      }
+    ]
+  ]
+}

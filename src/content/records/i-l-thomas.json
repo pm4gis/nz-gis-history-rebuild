@@ -1,0 +1,42 @@
+{
+  "id": "person:i-l-thomas",
+  "slug": "i-l-thomas",
+  "name": "I. L. Thomas",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/i-l-thomas/",
+  "story": [
+    "I. L. Thomas joined PEL’s Remote Sensing Section in June 1975. The 1976 report credits IBM 370 Landsat tape decoding and rectification, imagery cataloguing and distribution, and ground support for aircraft surveys.",
+    "I. L. Thomas and P. J. Ellis documented the Remote-sensing Image Library Information System, RILIS, in an April 1976 user guide. RILIS ran in Time Shared BASIC on the HP 2100. It stored information about available imagery and allowed users to search the collection using geographic and other identifying information. The system dealt with the catalogue rather than performing the image analysis itself."
+  ],
+  "sources": [
+    {
+      "label": "NASA/DSIR New Zealand Landsat II investigation reports, NASA-CR-146632 and related",
+      "url": "https://ntrs.nasa.gov/api/citations/19760013518/downloads/19760013518.pdf"
+    },
+    {
+      "label": "Chapter 4 · RILIS",
+      "url": "/stories/turning-the-landscape-into-numbers/"
+    }
+  ],
+  "aliases": [
+    "I. L. Thomas"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NASA/DSIR New Zealand Landsat II investigation reports, NASA-CR-146632 and related",
+        "url": "https://ntrs.nasa.gov/api/citations/19760013518/downloads/19760013518.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 4 · RILIS",
+        "url": "/stories/turning-the-landscape-into-numbers/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1010",
+  "a": "person:andrew-marr",
+  "b": "entity:university-of-otago",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "passage:chapter-12-44546cee53",
+  "slug": "assembling-a-gis-44546cee53",
+  "articleId": "article:chapter-12",
+  "title": "Assembling a GIS",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12",
+    "entity:critchlow",
+    "entity:eagle-technology",
+    "entity:new-zealand-aerial-mapping",
+    "entity:smallworld-ge-smallworld",
+    "entity:terralink"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The industry existed because commercial packages were frameworks rather than complete organisational systems. ARC/INFO installations commonly relied on AML scripting and local data-management practices. ArcView later brought Avenue scripting to desktop applications. MapInfo had MapBasic and a market of extensions and packaged datasets. Smallworld used its own programming environment and customer-specific network models. Behind those visible products were database procedures, translation tools and interfaces connecting spatial records with property, asset, planning or business systems.",
+      "markdown": "The industry existed because commercial packages were frameworks rather than complete organisational systems. ARC/INFO installations commonly relied on AML scripting and local data-management practices. ArcView later brought Avenue scripting to desktop applications. MapInfo had MapBasic and a market of extensions and packaged datasets. Smallworld used its own programming environment and customer-specific network models. Behind those visible products were database procedures, translation tools and interfaces connecting spatial records with property, asset, planning or business systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Data conversion absorbed large amounts of effort. An organisation with decades of paper maps did not acquire a digital asset register by installing software on Monday. Plans had to be digitised, identifiers reconciled, geometry checked, attributes entered and errors found. The work created jobs for digitising operators, survey and cartographic technicians, database staff, quality-control specialists, programmers and contractors. Many are harder to recover by name than the managers, founders and conference speakers who left more visible records. Commercial GIS depended on installation, support and data-conversion staff as well as company founders.",
+      "markdown": "Data conversion absorbed large amounts of effort. An organisation with decades of paper maps did not acquire a digital asset register by installing software on Monday. Plans had to be digitised, identifiers reconciled, geometry checked, attributes entered and errors found. The work created jobs for digitising operators, survey and cartographic technicians, database staff, quality-control specialists, programmers and contractors. Many are harder to recover by name than the managers, founders and conference speakers who left more visible records. Commercial GIS depended on installation, support and data-conversion staff as well as company founders.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Commercial firms distributed and translated national cadastral data alongside their software services. Historical records list licensed distributors including Terralink, New Zealand Aerial Mapping, Eagle Technology, MapInfo Australia, Critchlow Associates and Map Data Sciences. Distributors could receive Crown cadastral data, translate it into formats required by customers, add services and support, and supply it under the prevailing licensing arrangements. The detailed history of the digital cadastre sits outside this industry account. By the 1990s, format conversion and data delivery were commercial services in their own right.",
+      "markdown": "Commercial firms distributed and translated national cadastral data alongside their software services. Historical records list licensed distributors including Terralink, New Zealand Aerial Mapping, Eagle Technology, MapInfo Australia, Critchlow Associates and Map Data Sciences. Distributors could receive Crown cadastral data, translate it into formats required by customers, add services and support, and supply it under the prevailing licensing arrangements. The detailed history of the digital cadastre sits outside this industry account. By the 1990s, format conversion and data delivery were commercial services in their own right.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Training was equally practical infrastructure. GIS systems were not self-explanatory, and specialist workstation environments could impose a steep learning curve. Local courses reduced dependence on overseas expertise and created people who could support the next implementation. Staff learnt enough to write local procedures, maintain data and diagnose failures without calling a consultant for every problem. The person who knew why the plotter had stopped halfway through an A0 sheet could be surprisingly valuable to an organisation's spatial strategy.",
+      "markdown": "Training was equally practical infrastructure. GIS systems were not self-explanatory, and specialist workstation environments could impose a steep learning curve. Local courses reduced dependence on overseas expertise and created people who could support the next implementation. Staff learnt enough to write local procedures, maintain data and diagnose failures without calling a consultant for every problem. The person who knew why the plotter had stopped halfway through an A0 sheet could be surprisingly valuable to an organisation's spatial strategy.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

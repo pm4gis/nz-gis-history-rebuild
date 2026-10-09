@@ -1,0 +1,35 @@
+{
+  "id": "person:sophie-curtis-ham",
+  "slug": "sophie-curtis-ham",
+  "name": "Sophie Curtis-Ham",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sophie-curtis-ham/",
+  "story": [
+    "Sophie Curtis-Ham and Darren Walton’s 2017 Applied Geography paper compared two approaches at Census Area Unit level: the Priority Locations Index and the New Zealand Crime Harm Index. Both used geography to guide attention, but they measured different things. Treating them as alternative hot-spot maps would lose the point of the comparison."
+  ],
+  "sources": [
+    {
+      "label": "Sophie Curtis-Ham - NZ Police | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/sophie-curtis-ham"
+    },
+    {
+      "label": "Chapter 28 · From hot spots to priority locations",
+      "url": "/stories/safety-policing-and-emergency-gis/"
+    }
+  ],
+  "aliases": [
+    "Sophie Curtis-Ham"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 28 · From hot spots to priority locations",
+        "url": "/stories/safety-policing-and-emergency-gis/"
+      }
+    ]
+  ]
+}

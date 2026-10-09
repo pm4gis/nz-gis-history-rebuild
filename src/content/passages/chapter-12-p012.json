@@ -1,0 +1,99 @@
+{
+  "id": "passage:chapter-12-0a270cec64",
+  "slug": "company-staff-0a270cec64",
+  "articleId": "article:chapter-12",
+  "title": "Company staff",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12",
+    "entity:critchlow",
+    "entity:e-spatial",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:geographic-business-solutions",
+    "entity:geographx",
+    "person:corallie-eagle",
+    "person:david-aalbers",
+    "person:david-pimblott",
+    "person:heath-rongo",
+    "person:justin-fail",
+    "person:lisa-read",
+    "person:matti-seikkula",
+    "person:parker-jones",
+    "person:shane-pienaar",
+    "person:simon-hope",
+    "person:simon-jellie",
+    "person:roger-smith",
+    "person:beryl-pimblott",
+    "person:harley-prowse",
+    "person:tony-elson",
+    "person:kim-ollivier",
+    "person:steve-critchlow",
+    "person:mike-oberdries"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Company histories naturally preserve founders and senior figures, but the working industry was larger. Trevor and Corallie Eagle belong in the longer computing genealogy. Parker Jones appears in the later-1980s sales and implementation history around Prime and Eagle. David and Beryl Pimblott belong together in the founding of Explorer Graphics. Steve Critchlow belongs in the desktop software and data-business story. Their names provide useful anchors, but none of them substitutes for the programmers, trainers, support staff, cartographers, conversion teams and customer-side GIS specialists who turned commercial products into functioning systems.",
+      "markdown": "Company histories naturally preserve founders and senior figures, but the working industry was larger. Trevor and Corallie Eagle belong in the longer computing genealogy. Parker Jones appears in the later-1980s sales and implementation history around Prime and Eagle. David and Beryl Pimblott belong together in the founding of Explorer Graphics. Steve Critchlow belongs in the desktop software and data-business story. Their names provide useful anchors, but none of them substitutes for the programmers, trainers, support staff, cartographers, conversion teams and customer-side GIS specialists who turned commercial products into functioning systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Several later businesses make that circulation easier to see. Geographic Business Solutions was founded in 2002 by Harley Prowse and Tony Elson after an earlier consultancy lineage through GTU, a subsidiary of Auckland UniServices, and Geographic Technologies. GBS's own retrospective remembers a wider circle around that period including Kim Ollivier, David Pimblott, Mike Oberdries, Simon Jellie and Steve Critchlow. Practitioners met repeatedly as customers, consultants, competitors, conference speakers and collaborators.",
+      "markdown": "Several later businesses make that circulation easier to see. Geographic Business Solutions was founded in 2002 by Harley Prowse and Tony Elson after an earlier consultancy lineage through GTU, a subsidiary of Auckland UniServices, and Geographic Technologies. GBS's own retrospective remembers a wider circle around that period including Kim Ollivier, David Pimblott, Mike Oberdries, Simon Jellie and Steve Critchlow. Practitioners met repeatedly as customers, consultants, competitors, conference speakers and collaborators.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Some commercial GIS businesses concentrated on particular products or services. Roger Smith established Geographx as a map-design studio in 1998, combining digital terrain, spatial data and cartographic production in work ranging from natural-colour New Zealand basemaps to major atlas projects. Matti Seikkula and Simon Jellie formed the consultancy that became e-Spatial in 1998 after meeting while working at Critchlow; Harrison Grierson announced a merger with the Wellington spatial consultancy in November 2017, and later accounts record its purchase in 2018. Geographx specialised in cartographic production, while e-Spatial supplied spatial consulting and implementation services.",
+      "markdown": "Some commercial GIS businesses concentrated on particular products or services. Roger Smith established Geographx as a map-design studio in 1998, combining digital terrain, spatial data and cartographic production in work ranging from natural-colour New Zealand basemaps to major atlas projects. Matti Seikkula and Simon Jellie formed the consultancy that became e-Spatial in 1998 after meeting while working at Critchlow; Harrison Grierson announced a merger with the Wellington spatial consultancy in November 2017, and later accounts record its purchase in 2018. Geographx specialised in cartographic production, while e-Spatial supplied spatial consulting and implementation services.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The movement of people between sectors also blurred the boundary between vendor, consultant and practitioner. A person could learn a package in a university or government environment, move into consulting, then train customers who later developed their own internal teams. A customer implementation could become the case study at the next conference. A support problem could turn into a local application. By the later 1990s GIS skills were becoming portable professional capital, and the labour market was beginning to connect organisations that had once developed digital mapping capability largely on their own.",
+      "markdown": "The movement of people between sectors also blurred the boundary between vendor, consultant and practitioner. A person could learn a package in a university or government environment, move into consulting, then train customers who later developed their own internal teams. A customer implementation could become the case study at the next conference. A support problem could turn into a local application. By the later 1990s GIS skills were becoming portable professional capital, and the labour market was beginning to connect organisations that had once developed digital mapping capability largely on their own.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That created a modest feedback loop. More organisations adopted GIS, which created demand for trained people. More trained people made adoption less risky. More local projects produced examples that consultants and user groups could share. The commercial industry grew alongside the practitioner community. The people selling and supporting GIS were helping to enlarge the pool of people capable of challenging their advice.",
+      "markdown": "That created a modest feedback loop. More organisations adopted GIS, which created demand for trained people. More trained people made adoption less risky. More local projects produced examples that consultants and user groups could share. The commercial industry grew alongside the practitioner community. The people selling and supporting GIS were helping to enlarge the pool of people capable of challenging their advice.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GBS’s 2022 retrospective records Justin Fail joining around 2004 and Simon Hope around 2005–06. It also describes Lisa Read’s work on development and processes, Shane Pienaar’s technical direction, and David Aalbers and Heath Rongo joining in 2011 and 2012.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later records make more of the working commercial workforce visible. Jamie Till appears in Eagle’s technical-advisory and primary-industry application work, Joshua Gore in LocalMaps development, and Sarah Pitcher-Campbell in forestry GIS, remote sensing and later Eagle work. Christopher Duncan’s career through Traverse and Seamless shows a related path in which spatial-data translation and FME work broadened into enterprise data and application integration. Conference records add Errin Rowan and Danielle Spain in Eagle’s technical presentation work, while Phil Woods of CoreLogic represented the growing location-intelligence market.",
+      "sources": [
+        {
+          "label": "New Zealand Agribusiness 2019, Manuka Health GIS feature",
+          "url": "https://newzealandinc.com/wp-content/uploads/2020/04/2019-07-31-Agribusiness.pdf"
+        },
+        {
+          "label": "Prosple, Eagle Technology graduate story: Joshua Gore",
+          "url": "https://prosple.com/graduate-employers/eagle-technology/graduate-stories/joshua-gore"
+        },
+        {
+          "label": "Interpine, cloud and GIS archive",
+          "url": "https://interpine.nz/discover-the-cloud-for-forest-management-at-nzif-conference-2013/"
+        },
+        {
+          "label": "Seamless Data, Company",
+          "url": "https://www.seamlessdata.co.nz/company/"
+        },
+        {
+          "label": "New Zealand Esri User Conference programme, 2017",
+          "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

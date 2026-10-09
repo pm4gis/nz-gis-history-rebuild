@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1086",
+  "a": "person:p-r-van-berkel",
+  "b": "entity:ministry-of-works-and-development",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

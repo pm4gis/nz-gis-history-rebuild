@@ -1,0 +1,25 @@
+{
+  "id": "entity:bay-of-plenty-regional-council",
+  "slug": "bay-of-plenty-regional-council",
+  "name": "Bay of Plenty Regional Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/bay-of-plenty-regional-council/",
+  "website": "https://www.boprc.govt.nz",
+  "description": "Named in Desktop costs (Chapter 22). Follow the linked passage for context.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Bay of Plenty Regional Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

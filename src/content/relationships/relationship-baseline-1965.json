@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1965",
+  "a": "person:a-c-shailes",
+  "b": "chapter:3",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-3-761de75cc2"
+  ],
+  "sources": []
+}

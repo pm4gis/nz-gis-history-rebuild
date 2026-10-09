@@ -1,0 +1,42 @@
+{
+  "id": "person:urva-patel",
+  "slug": "urva-patel",
+  "name": "Urva Patel",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/urva-patel/",
+  "story": [
+    "Urva Patel's professional background includes civil and construction engineering and work with Beca. Her public career profile describes international engineering experience, while her doctoral research examines digital twins in relation to urban well-being. Her work connects the design of built environments with the use of integrated spatial and digital information.",
+    "Urva Patel's 2025 Auckland University of Technology doctorate examined digital twins in relation to New Zealand urban well-being and the Treasury's Living Standards Framework. The research used public social, economic and environmental data, tested open-source platforms including Eclipse Ditto and FIWARE, and evaluated a proof-of-concept approach. A peer-reviewed Cities paper published in October 2025 developed the work into a well-being-oriented framework for urban digital twins."
+  ],
+  "sources": [
+    {
+      "label": "Urva Patel - Beca | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/urva-patel-75a99b106"
+    },
+    {
+      "label": "Chapter 39 · From model to digital twin",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Urva Patel"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Urva Patel - Beca | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/urva-patel-75a99b106"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 39 · From model to digital twin",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

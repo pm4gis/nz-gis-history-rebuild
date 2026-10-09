@@ -1,0 +1,25 @@
+{
+  "id": "1975-landsat",
+  "dateDisplay": "1975-10",
+  "startDate": "1975-10",
+  "datePrecision": "month",
+  "year": 1975,
+  "label": "Formal Landsat II investigation begins",
+  "summary": "The first Landsat II scene for the formal New Zealand investigation arrived in October 1975 and entered a mainframe and minicomputer processing workflow.",
+  "url": "/stories/turning-the-landscape-into-numbers/#landsat-arrives-e9b8032a50",
+  "passageIds": [
+    "passage:chapter-4-e9b8032a50"
+  ],
+  "recordIds": [
+    "chapter:4",
+    "person:mervyn-c-probine"
+  ],
+  "themeIds": [
+    "imagery"
+  ],
+  "categories": [
+    "earth-observation",
+    "computing"
+  ],
+  "sources": []
+}

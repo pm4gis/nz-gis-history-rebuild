@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1271",
+  "a": "entity:christchurch-city-council",
+  "b": "chapter:30",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-30-46e20e67ed"
+  ],
+  "sources": []
+}

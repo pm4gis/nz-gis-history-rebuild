@@ -1,0 +1,42 @@
+{
+  "id": "article:chapter-9",
+  "slug": "science-goes-spatial",
+  "title": "Scientific mapping",
+  "url": "/stories/science-goes-spatial/",
+  "summary": "New Zealand scientists had been making maps long before GIS arrived. Geologists compiled formations and structures from field observations, samples, aerial photographs and earlier surveys. Ecologists divided the country into regio",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 9,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch09-note-01",
+      "text": "1. W. Mary McEwen, Department of Conservation Science and Research Internal Report 80, 1990, is the principal source for the Biological Resources Centre, late-1985 digitisation planning and the 1986 North Taranaki Biological Resources Information System mock-up. The report records limitations in the demonstration data and positional precision; the manuscript does not present the mock-up as an authoritative production database."
+    },
+    {
+      "id": "ch09-note-02",
+      "text": "2. QMAP programme publications, GNS Science records and later national geological-map metadata support the mid-1990s to 2010s geological-mapping lineage. Later metadata names David Heron for map/GIS work and Maureen Coomer, Aleksandra Lukovic, Belinda Smith Lyttle and Delia Strong for digital capture. These later credits document production roles but are not projected backwards onto every early QMAP sheet."
+    },
+    {
+      "id": "ch09-note-03",
+      "text": "3. Simon Cox and Mark Rattenbury's 2006 work using QMAP in gold-prospectivity modelling supports the example of national geological data being reused analytically rather than only published as map sheets."
+    },
+    {
+      "id": "ch09-note-04",
+      "text": "4. The Dunedin Pilot Hazards Information System is supported by 1993-94 University of Otago/Institute of Geological and Nuclear Sciences/local-government project material. It is used as a scientific GIS crossing into administrative application, not as a general emergency-management history."
+    },
+    {
+      "id": "ch09-note-05",
+      "text": "5. Sohail Afzal Choudhry's 1998 University of Waikato doctoral research on the Kaimai hydropower project catchment supports the hydrology section, including ARC/INFO, ArcView, spatial time-series databases and dynamic segmentation. It is a research case, not evidence that all NIWA or New Zealand hydrology used the same architecture."
+    },
+    {
+      "id": "ch09-note-06",
+      "text": "6. Lars Brabyn's 2000 landscape-classification work supports the national automated-classification example. The manuscript treats the method as repeatable GIS procedure dependent on selected variables and source data, not as modern autonomous AI. The 23 April 2003 Beehive release on Land Environments of New Zealand documents the national publication, its fifteen-variable environmental classification, the Landcare Research–Ministry for the Environment partnership and its intended applications."
+    },
+    {
+      "id": "ch09-note-mackenzie-ecological-gis-1989",
+      "text": "Sources: Peter Espie and Graeme Hall, Management applications using the Mackenzie PNA database, New Zealand Journal of Ecology 12, 1989, p.128 (https://newzealandecology.org/nzje/1825)."
+    }
+  ]
+}

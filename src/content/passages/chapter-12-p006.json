@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-12-b25d40d4e0",
+  "slug": "support-after-the-sale-b25d40d4e0",
+  "articleId": "article:chapter-12",
+  "title": "Support after the sale",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Local support changed the risk calculation for organisations considering GIS. A technically capable package was much less attractive if every difficult problem required an overseas telephone call, an international consultant or a wait for replacement media. New Zealand distributors and consultants could inspect the customer's data, understand the local computing environment and provide training without turning every problem into an international project. This was especially valuable when software, operating systems, databases and specialist peripherals all had to cooperate. Customers purchased implementation expertise and support alongside code. It was access to people who knew how the code behaved when attached to actual New Zealand data.",
+      "markdown": "Local support changed the risk calculation for organisations considering GIS. A technically capable package was much less attractive if every difficult problem required an overseas telephone call, an international consultant or a wait for replacement media. New Zealand distributors and consultants could inspect the customer's data, understand the local computing environment and provide training without turning every problem into an international project. This was especially valuable when software, operating systems, databases and specialist peripherals all had to cooperate. Customers purchased implementation expertise and support alongside code. It was access to people who knew how the code behaved when attached to actual New Zealand data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Support also exposed the limits of generic software. A council, forestry project or utility rarely used the same fields, identifiers and workflows as the example in a manual. Someone had to translate organisational language into a data model and then explain the resulting system back to users. That could require custom menus, scripts, forms, reports and quality checks. Small changes accumulated into local applications that were recognisably built on a commercial product, while their code and configuration had to be preserved separately from the base software. The support relationship could therefore continue for years after the original purchase.",
+      "markdown": "Support also exposed the limits of generic software. A council, forestry project or utility rarely used the same fields, identifiers and workflows as the example in a manual. Someone had to translate organisational language into a data model and then explain the resulting system back to users. That could require custom menus, scripts, forms, reports and quality checks. Small changes accumulated into local applications that were recognisably built on a commercial product, while their code and configuration had to be preserved separately from the base software. The support relationship could therefore continue for years after the original purchase.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Training created another dependency and another opportunity. Early courses were often product-specific because users first needed to operate the system in front of them, but the better implementations also transferred knowledge about data structures, projections, database design and maintenance. A trained customer could begin to distinguish a software defect from a bad dataset or a badly designed process. That was healthy for the profession, if occasionally inconvenient for anyone hoping that a new release would resolve every organisational problem. The more capable the user community became, the less convincing a purely sales-led account of GIS was.",
+      "markdown": "Training created another dependency and another opportunity. Early courses were often product-specific because users first needed to operate the system in front of them, but the better implementations also transferred knowledge about data structures, projections, database design and maintenance. A trained customer could begin to distinguish a software defect from a bad dataset or a badly designed process. That was healthy for the profession, if occasionally inconvenient for anyone hoping that a new release would resolve every organisational problem. The more capable the user community became, the less convincing a purely sales-led account of GIS was.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Support records are also one reason the commercial workforce is difficult to reconstruct. A founder appears in company histories and a presenter appears in a conference programme. The person who installed a workstation, recovered a corrupted coverage, rewrote a conversion routine or explained the same projection problem to five customers may leave almost no public trace. Those roles were still part of the national capability. Their work kept customers’ systems running.",
+      "markdown": "Support records are also one reason the commercial workforce is difficult to reconstruct. A founder appears in company histories and a presenter appears in a conference programme. The person who installed a workstation, recovered a corrupted coverage, rewrote a conversion routine or explained the same projection problem to five customers may leave almost no public trace. Those roles were still part of the national capability. Their work kept customers’ systems running.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

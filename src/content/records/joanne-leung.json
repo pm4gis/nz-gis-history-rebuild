@@ -1,0 +1,31 @@
+{
+  "id": "person:joanne-leung",
+  "slug": "joanne-leung",
+  "name": "Joanne Leung",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/joanne-leung/",
+  "story": [
+    "Joanne Leung co-authored the 2018 paper on New Zealand’s transport data and research strategy."
+  ],
+  "sources": [
+    {
+      "label": "Transport data and research strategy paper, 2018",
+      "url": "https://australasiantransportresearchforum.org.au/wp-content/uploads/2022/03/ATRF2018_paper_56.pdf"
+    }
+  ],
+  "aliases": [
+    "Joanne Leung"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Transport data and research strategy paper, 2018",
+        "url": "https://australasiantransportresearchforum.org.au/wp-content/uploads/2022/03/ATRF2018_paper_56.pdf"
+      }
+    ]
+  ]
+}

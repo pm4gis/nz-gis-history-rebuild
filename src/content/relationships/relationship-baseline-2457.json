@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2457",
+  "a": "person:rosey-harris",
+  "b": "entity:new-zealand-cartographic-society",
+  "label": "Associated with",
+  "basis": "Documented association in the 7 October 2026 entity-gap expansion research.",
+  "passageIds": [],
+  "sources": []
+}

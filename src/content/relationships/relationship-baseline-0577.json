@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0577",
+  "a": "person:mick-park",
+  "b": "chapter:23",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-23-adbd4f0f56"
+  ],
+  "sources": []
+}

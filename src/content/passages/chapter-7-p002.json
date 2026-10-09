@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-7-dbfff42fef",
+  "slug": "inventory-and-judgement-dbfff42fef",
+  "articleId": "article:chapter-7",
+  "title": "Inventory and judgement",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The physical inventory was only one part of the system. Land Use Capability, usually shortened to LUC, added an interpreted assessment of what the land could sustain over the long term. The classification took account of the inventory factors together with climate, the effects of past land use and the potential for erosion. It was designed for productive land use and soil conservation rather than for land valuation or statutory zoning.",
+      "markdown": "The physical inventory was only one part of the system. Land Use Capability, usually shortened to LUC, added an interpreted assessment of what the land could sustain over the long term. The classification took account of the inventory factors together with climate, the effects of past land use and the potential for erosion. It was designed for productive land use and soil conservation rather than for land valuation or statutory zoning.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand had adapted the LUC approach during the 1950s from a United States soil-conservation system. The national classification used eight broad classes. Limitations increased and versatility decreased from Class 1 to Class 8. Classes 1 to 4 were suitable for arable cropping to varying degrees as well as pastoral, horticultural or forestry uses, while Classes 5 to 7 were not suited to arable cropping but could support pasture or forestry where the physical limitations could be managed. Class 8 was not considered suitable for sustained grazing or production forestry and was associated with catchment protection, conservation or similar non-production uses.",
+      "markdown": "New Zealand had adapted the LUC approach during the 1950s from a United States soil-conservation system. The national classification used eight broad classes. Limitations increased and versatility decreased from Class 1 to Class 8. Classes 1 to 4 were suitable for arable cropping to varying degrees as well as pastoral, horticultural or forestry uses, while Classes 5 to 7 were not suited to arable cropping but could support pasture or forestry where the physical limitations could be managed. Class 8 was not considered suitable for sustained grazing or production forestry and was associated with catchment protection, conservation or similar non-production uses.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The class number summarised land capability; other attributes explained the limitations. LUC subclasses identified the dominant type of limitation: erosion, wetness, soil or root-zone limitations, or climate. More detailed LUC units then distinguished areas that would respond similarly to management and conservation treatment. The full code therefore combined a broad ranking with information about the kind of physical problem and the local land type.",
+      "markdown": "The class number summarised land capability; other attributes explained the limitations. LUC subclasses identified the dominant type of limitation: erosion, wetness, soil or root-zone limitations, or climate. More detailed LUC units then distinguished areas that would respond similarly to management and conservation treatment. The full code therefore combined a broad ranking with information about the kind of physical problem and the local land type.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This structure allowed two areas to share a class while requiring different management. Steep hill country subject to erosion could have a different limitation from low-lying land affected by wetness, even if both fell within the same broad capability class. The extended legends supplied the detail behind the code. Users were expected to read the map and the legend together rather than treat a single number as a complete description of the land.",
+      "markdown": "This structure allowed two areas to share a class while requiring different management. Steep hill country subject to erosion could have a different limitation from low-lying land affected by wetness, even if both fell within the same broad capability class. The extended legends supplied the detail behind the code. Users were expected to read the map and the legend together rather than treat a single number as a complete description of the land.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

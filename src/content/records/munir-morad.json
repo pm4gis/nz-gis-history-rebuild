@@ -1,0 +1,42 @@
+{
+  "id": "person:munir-morad",
+  "slug": "munir-morad",
+  "name": "Munir Morad",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/munir-morad/",
+  "story": [
+    "Munir Morad studied geography and completed a doctorate in London before taking a junior lectureship at Trinity College in Carmarthen, Wales. In his career interview he described teaching and research as the two interests confirmed by that appointment. He later became professor of environmental planning and head of the Department of Urban Environment and Leisure Studies at London South Bank University, combining research leadership with responsibility for staff, students and departmental resources.",
+    "In the preface, Duane Wilkins recalls that Munir Morad introduced him to KeyCad at Waikato University in early 1997. This encounter marked the beginning of Wilkins's own GIS career."
+  ],
+  "sources": [
+    {
+      "label": "Munir Morad · career/profile reference",
+      "url": "https://icould.com/stories/professor-munir-morad/"
+    },
+    {
+      "label": "Preface · Preface",
+      "url": "/preface/"
+    }
+  ],
+  "aliases": [
+    "Munir Morad"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Munir Morad · career/profile reference",
+        "url": "https://icould.com/stories/professor-munir-morad/"
+      }
+    ],
+    [
+      {
+        "label": "Preface · Preface",
+        "url": "/preface/"
+      }
+    ]
+  ]
+}

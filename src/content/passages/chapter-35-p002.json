@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-35-5ab89427eb",
+  "slug": "from-viewer-to-task-5ab89427eb",
+  "articleId": "article:chapter-35",
+  "title": "From viewer to task",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The first generation of New Zealand web GIS had already reduced the need for installed specialist software. PHEW!, Census WebMap, council viewers, DOCgis and other early web systems let people reach maps through browsers. That was a substantial change, but many of those applications still behaved like GIS viewers. They were designed around the map and the layers available through it. The user generally began by deciding what to display, where to navigate and what to inspect.",
+      "markdown": "The first generation of New Zealand web GIS had already reduced the need for installed specialist software. PHEW!, Census WebMap, council viewers, DOCgis and other early web systems let people reach maps through browsers. That was a substantial change, but many of those applications still behaved like GIS viewers. They were designed around the map and the layers available through it. The user generally began by deciding what to display, where to navigate and what to inspect.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A task-specific application reverses that emphasis. It begins with a defined task such as reviewing crime reported in an area, finding land-resource information for a place, recording completion of a safety check or documenting a support need at a location. The interface can then hide functions that do not contribute to that task. A user may never need to know which feature service supplies the map, which fields are stored in the database or which spatial operation is being performed. The application narrows the experience deliberately.",
+      "markdown": "A task-specific application reverses that emphasis. It begins with a defined task such as reviewing crime reported in an area, finding land-resource information for a place, recording completion of a safety check or documenting a support need at a location. The interface can then hide functions that do not contribute to that task. A user may never need to know which feature service supplies the map, which fields are stored in the database or which spatial operation is being performed. The application narrows the experience deliberately.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That narrowing can widen the audience. A general GIS is powerful because it can do many things, but that also makes it demanding. A person using it has to understand enough about both the software and the data to choose sensible operations. A purpose-built application can remove choices that are irrelevant to a particular user. The result may be less flexible, but it can also be faster to learn and much harder to misuse accidentally.",
+      "markdown": "That narrowing can widen the audience. A general GIS is powerful because it can do many things, but that also makes it demanding. A person using it has to understand enough about both the software and the data to choose sensible operations. A purpose-built application can remove choices that are irrelevant to a particular user. The result may be less flexible, but it can also be faster to learn and much harder to misuse accidentally.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This changed the work of GIS practitioners. Requirements had to be understood before the interface was built. Designers had to establish what the user actually needed to decide, which terms belonged to the user’s ordinary work, which locations or categories were visible and which edits were allowed. A GIS analyst could no longer assume that exposing more layers or tools was automatically helpful. Application design required choosing what not to show.",
+      "markdown": "This changed the work of GIS practitioners. Requirements had to be understood before the interface was built. Designers had to establish what the user actually needed to decide, which terms belonged to the user’s ordinary work, which locations or categories were visible and which edits were allowed. A GIS analyst could no longer assume that exposing more layers or tools was automatically helpful. Application design required choosing what not to show.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

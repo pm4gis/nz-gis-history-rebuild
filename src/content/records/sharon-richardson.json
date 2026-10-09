@@ -1,0 +1,31 @@
+{
+  "id": "person:sharon-richardson",
+  "slug": "sharon-richardson",
+  "name": "Sharon Richardson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sharon-richardson/",
+  "story": [
+    "Sharon Richardson is named in Critchlow’s Census-mapping product material."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 16 · Census geography",
+      "url": "/stories/census-geography/"
+    }
+  ],
+  "aliases": [
+    "Sharon Richardson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 16 · Census geography",
+        "url": "/stories/census-geography/"
+      }
+    ]
+  ]
+}

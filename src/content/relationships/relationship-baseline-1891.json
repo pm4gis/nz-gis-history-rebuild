@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1891",
+  "a": "person:darren-walton",
+  "b": "chapter:28",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-28-46b1a61852"
+  ],
+  "sources": []
+}

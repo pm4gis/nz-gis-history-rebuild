@@ -1,0 +1,56 @@
+{
+  "id": "person:mike-peters",
+  "slug": "mike-peters",
+  "name": "Mike Peters",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mike-peters/",
+  "story": [
+    "Mike Peters founded the New Zealand Ecological Restoration Network and designed its Pipi information system. His later technical history describes adding GIS to Pipi 4 from 2005, with Parker Jones and Eagle Technology helping secure an Esri Conservation GIS grant. He recalls using ArcIMS and ArcSDE to host customised maps for community conservation projects.",
+    "Mike Peters later recalled that the New Zealand Ecological Restoration Network's Pipi 4 system, developed from 2005, gained GIS capability with help from Parker Jones at Eagle Technology and an Esri Conservation GIS grant. Peters said a live Pipi demonstration at a Wellington NZ Esri User Conference was followed by roughly NZ$600,000 of donated Esri software, including ArcIMS and ArcSDE, arriving in boxes on a pallet. Pipi then hosted customised web maps for conservation projects ranging from small sites to catchment-scale work. Community conservation groups were developing web GIS before later support networks were established.",
+    "The Royal New Zealand Institute of Horticulture’s 2003 Greening the City conference programme names Mike Peters with the New Zealand Ecological Restoration Network. It lists his presentation on community involvement in urban biodiversity restoration and a website and database demonstration with Ryan Young. This is contemporary evidence of his NZERN information work before the later Pipi 4 GIS development. It does not establish the date or value of the later Esri grant."
+  ],
+  "sources": [
+    {
+      "label": "Mike Peters, Pipi 4 / NZERN GIS history and NZ Esri User Conference recollection"
+    },
+    {
+      "label": "Chapter 26 · Conservation and environment",
+      "url": "/stories/conservation-and-environment/"
+    },
+    {
+      "label": "Chapter 26 · Conservation GIS beyond government",
+      "url": "/stories/conservation-and-environment/"
+    },
+    {
+      "label": "Royal New Zealand Institute of Horticulture, Greening the City conference programme, 2003",
+      "url": "https://www.rnzih.org.nz/pages/2003ConferenceProgramme.htm"
+    }
+  ],
+  "aliases": [
+    "Mike Peters"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 26 · Conservation and environment",
+        "url": "/stories/conservation-and-environment/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 26 · Conservation GIS beyond government",
+        "url": "/stories/conservation-and-environment/"
+      }
+    ],
+    [
+      {
+        "label": "Royal New Zealand Institute of Horticulture, Greening the City conference programme, 2003",
+        "url": "https://www.rnzih.org.nz/pages/2003ConferenceProgramme.htm"
+      }
+    ]
+  ]
+}

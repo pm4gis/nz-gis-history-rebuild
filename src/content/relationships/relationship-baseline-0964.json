@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0964",
+  "a": "person:greg-bennett",
+  "b": "entity:locus",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

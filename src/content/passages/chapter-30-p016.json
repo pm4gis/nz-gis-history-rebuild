@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-30-aba6ea67c2",
+  "slug": "the-audience-is-about-to-change-aba6ea67c2",
+  "articleId": "article:chapter-30",
+  "title": "The audience is about to change",
+  "order": 15,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the middle of the 2000s, browser GIS was no longer an isolated experiment inside New Zealand organisations. The difficult institutional questions had already appeared: where authoritative data should live, how services would be maintained, what information could be published, how slow networks would be handled, what a non-specialist user needed, and how public viewing differed from data reuse. These questions had been confronted before mass-market web mapping became familiar.",
+      "markdown": "By the middle of the 2000s, browser GIS was no longer an isolated experiment inside New Zealand organisations. The difficult institutional questions had already appeared: where authoritative data should live, how services would be maintained, what information could be published, how slow networks would be handled, what a non-specialist user needed, and how public viewing differed from data reuse. These questions had been confronted before mass-market web mapping became familiar.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Then the wider web began to change expectations. In September 2006 Google announced geocoding support for Australia and New Zealand, allowing New Zealand street addresses to be converted to coordinates for use in Google Maps and web applications. By then the public was beginning to encounter maps that panned smoothly, searched addresses and appeared as ordinary parts of consumer websites. Institutional web GIS had prepared New Zealand organisations for browser delivery, but consumer mapping was about to make the audience much larger and much less patient with awkward interfaces.",
+      "markdown": "Then the wider web began to change expectations. In September 2006 Google announced geocoding support for Australia and New Zealand, allowing New Zealand street addresses to be converted to coordinates for use in Google Maps and web applications. By then the public was beginning to encounter maps that panned smoothly, searched addresses and appeared as ordinary parts of consumer websites. Institutional web GIS had prepared New Zealand organisations for browser delivery, but consumer mapping was about to make the audience much larger and much less patient with awkward interfaces.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The next stage widened access to existing web-mapping functions. It changed the standard against which web maps were judged. The early systems described here had already separated geographic information from the specialist workstation and placed it behind ordinary browsers. Google Maps and Google Earth would make that experience commonplace.",
+      "markdown": "The next stage widened access to existing web-mapping functions. It changed the standard against which web maps were judged. The early systems described here had already separated geographic information from the specialist workstation and placed it behind ordinary browsers. Google Maps and Google Earth would make that experience commonplace.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The first web maps therefore sit between two eras. They were built from the databases, GIS software and institutional systems of the 1990s, but they pointed towards a world in which location would be expected everywhere. Their interfaces have often vanished, and some now look crude in surviving documentation, yet the organisational change they introduced has endured. GIS became more centralised in architecture and more distributed in use, and the map became an interface to a service rather than the end product of the system.",
+      "markdown": "The first web maps therefore sit between two eras. They were built from the databases, GIS software and institutional systems of the 1990s, but they pointed towards a world in which location would be expected everywhere. Their interfaces have often vanished, and some now look crude in surviving documentation, yet the organisational change they introduced has endured. GIS became more centralised in architecture and more distributed in use, and the map became an interface to a service rather than the end product of the system.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

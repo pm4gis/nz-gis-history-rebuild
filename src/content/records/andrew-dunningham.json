@@ -1,0 +1,42 @@
+{
+  "id": "person:andrew-dunningham",
+  "slug": "andrew-dunningham",
+  "name": "Andrew Dunningham",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/andrew-dunningham/",
+  "story": [
+    "Andrew Dunningham and S. Thompson published “Use of geographic information systems in New Zealand forestry applications” in the Commonwealth Forestry Review. Their paper described the need within Ministry of Forestry service and research work for efficient storage, retrieval, transformation and display of spatial information. The examples used TERRASOFT, a GIS running on a personal computer.",
+    "A 1998 paper by Forest Research scientists Barbara Höck, Tim Payn and Andrew Dunningham shows what this looked like after the institute became a Crown Research Institute. Their work combined remote sensing, permanent sample plots, foliage measurements, soil-map units, GIS and geostatistics. One trial treated satellite pixels as 25-metre ground cells and tested them against measured forest data; another loaded growth and foliage plots into GIS and overlaid them with soil units while the team worked on a better link between MARVL and GIS. Forestry scientists used GIS to compare and analyse their information."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 8 · A PC GIS in 1989",
+      "url": "/stories/forestry-finds-gis/"
+    },
+    {
+      "label": "Chapter 8 · Routine forestry use",
+      "url": "/stories/forestry-finds-gis/"
+    }
+  ],
+  "aliases": [
+    "Andrew Dunningham"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 8 · A PC GIS in 1989",
+        "url": "/stories/forestry-finds-gis/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 8 · Routine forestry use",
+        "url": "/stories/forestry-finds-gis/"
+      }
+    ]
+  ]
+}

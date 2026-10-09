@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0635",
+  "a": "person:w-i-reilly",
+  "b": "chapter:2",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-2-2ab91fbc4f"
+  ],
+  "sources": []
+}

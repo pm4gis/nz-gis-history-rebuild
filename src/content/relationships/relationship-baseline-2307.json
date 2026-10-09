@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2307",
+  "a": "person:kate-downes",
+  "b": "chapter:12",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

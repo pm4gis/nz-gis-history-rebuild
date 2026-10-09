@@ -1,0 +1,46 @@
+{
+  "id": "person:anselm-haanen",
+  "slug": "anselm-haanen",
+  "name": "Anselm Haanen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/anselm-haanen/",
+  "story": [
+    "Contemporary Landonline papers by Tony Bevin, Anselm Haanen and Neil Sutherland describe a system designed around digital submission, automated validation and closer integration of geodetic, cadastral and title information. The surveyor was no longer only submitting a document for LINZ staff to interpret. The surveyor was becoming a direct producer of structured national data.",
+    "Trent Gulliver and Anselm Haanen presented Developing a Three-Dimensional Digital Cadastral System for New Zealand at the FIG Congress in 2014."
+  ],
+  "sources": [
+    {
+      "label": "Anselm Haanen - Land Information New Zealand | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/anselm-haanen-35b63b9"
+    },
+    {
+      "label": "Chapter 14 · The survey becomes data",
+      "url": "/stories/landonline/"
+    },
+    {
+      "label": "Chapter 39 · A cadastre with volume",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Anselm Haanen"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 14 · The survey becomes data",
+        "url": "/stories/landonline/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 39 · A cadastre with volume",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

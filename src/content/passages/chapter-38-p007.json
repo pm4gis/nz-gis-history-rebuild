@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-38-15f5186a6e",
+  "slug": "wetlands-from-low-altitude-15f5186a6e",
+  "articleId": "article:chapter-38",
+  "title": "Wetlands from low altitude",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38",
+    "person:grant-lawrence"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Environmental researchers also used these methods. In 2015 Grant Lawrence's Auckland University of Technology thesis used low-altitude unmanned aerial imagery at Whatipu Scientific Reserve as part of a project classifying coastal wetland vegetation and investigating change. The study combined high-resolution satellite imagery with UAS imagery whose ground detail was about six centimetres. The small aircraft supplied local observations that could complement rather than replace the broader satellite view.",
+      "markdown": "Environmental researchers also used these methods. In 2015 Grant Lawrence's Auckland University of Technology thesis used low-altitude unmanned aerial imagery at Whatipu Scientific Reserve as part of a project classifying coastal wetland vegetation and investigating change. The study combined high-resolution satellite imagery with UAS imagery whose ground detail was about six centimetres. The small aircraft supplied local observations that could complement rather than replace the broader satellite view.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This difference of scale mirrors the relationship between UAVs and the other sensors covered in the previous chapters. Satellite systems repeatedly observe large areas and provide multispectral consistency. Crewed aerial photography supplies highly detailed regional imagery. LiDAR measures dense three-dimensional points with characteristics particularly useful for terrain. UAVs make it possible to acquire very detailed local imagery at a time chosen by the project. The useful method depends on the question rather than a simple ranking of which technology is newest.",
+      "markdown": "This difference of scale mirrors the relationship between UAVs and the other sensors covered in the previous chapters. Satellite systems repeatedly observe large areas and provide multispectral consistency. Crewed aerial photography supplies highly detailed regional imagery. LiDAR measures dense three-dimensional points with characteristics particularly useful for terrain. UAVs make it possible to acquire very detailed local imagery at a time chosen by the project. The useful method depends on the question rather than a simple ranking of which technology is newest.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Small aircraft could also carry sensors other than normal visible-light cameras. By the later 2010s New Zealand research included multispectral UAV imagery in horticulture and other environmental work. Those applications also sit within the wider earth-observation lineage, but the UAV contribution is the local scale and control over timing. The same caution still applies to vegetation indices and spectral products. A colourful index is not automatically a direct measurement of plant health or productivity.",
+      "markdown": "Small aircraft could also carry sensors other than normal visible-light cameras. By the later 2010s New Zealand research included multispectral UAV imagery in horticulture and other environmental work. Those applications also sit within the wider earth-observation lineage, but the UAV contribution is the local scale and control over timing. The same caution still applies to vegetation indices and spectral products. A colourful index is not automatically a direct measurement of plant health or productivity.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

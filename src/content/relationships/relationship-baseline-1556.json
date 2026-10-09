@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1556",
+  "a": "person:duane-wilkins",
+  "b": "chapter:26",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-26-70d5c1dde2"
+  ],
+  "sources": []
+}

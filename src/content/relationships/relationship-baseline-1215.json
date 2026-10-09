@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1215",
+  "a": "system:mapinfo-local-government",
+  "b": "person:jolanda-simon",
+  "label": "Named in the system account",
+  "basis": "Existing technology/project account",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-15-e05655154a",
+  "slug": "maintaining-topographic-data-e05655154a",
+  "articleId": "article:chapter-15",
+  "title": "Maintaining topographic data",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:15"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A printed topographic map makes geography look as if it naturally belongs to a sheet. Roads end at a neat border, contours disappear into the margin, place names are positioned for the reader, and the whole landscape is arranged at one chosen scale. For most of the twentieth century that was also close to the way national topographic production was organised. Survey, aerial photography, photogrammetry, field revision and cartographic compilation all fed the preparation and revision of individual map sheets. By the end of the 1980s, however, New Zealand’s national mapping organisation was beginning to maintain some of that geography as structured digital information that could continue across sheet edges and be used for more than one finished map.",
+      "markdown": "A printed topographic map makes geography look as if it naturally belongs to a sheet. Roads end at a neat border, contours disappear into the margin, place names are positioned for the reader, and the whole landscape is arranged at one chosen scale. For most of the twentieth century that was also close to the way national topographic production was organised. Survey, aerial photography, photogrammetry, field revision and cartographic compilation all fed the preparation and revision of individual map sheets. By the end of the 1980s, however, New Zealand’s national mapping organisation was beginning to maintain some of that geography as structured digital information that could continue across sheet edges and be used for more than one finished map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The shift had a long prehistory. The first NZMS260 1:50,000 metric sheet, T12 Thames, appeared in 1977 on the New Zealand Map Grid, replacing the older one-inch NZMS1 series over time. Chapter 3 followed the parallel move into computer-assisted mapping, analytical photogrammetry and digital coordinate capture. Those developments made digital production possible, but they did not immediately turn the national topographic series into a database. A map could be plotted by computer while the authoritative production record still consisted mainly of cartographic drawings and sheet-based source material.",
+      "markdown": "The shift had a long prehistory. The first NZMS260 1:50,000 metric sheet, T12 Thames, appeared in 1977 on the New Zealand Map Grid, replacing the older one-inch NZMS1 series over time. Chapter 3 followed the parallel move into computer-assisted mapping, analytical photogrammetry and digital coordinate capture. Those developments made digital production possible, but they did not immediately turn the national topographic series into a database. A map could be plotted by computer while the authoritative production record still consisted mainly of cartographic drawings and sheet-based source material.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change examined here was more fundamental. A road could become a database feature with geometry and attributes rather than only a line drawn on a particular sheet. The same feature could then be revised once and used in several outputs. A river did not need to be stored twice because it crossed a sheet boundary. Contours, vegetation, buildings and place names could be maintained as information in their own right, while the map became a cartographic view made from that information. That separation between geographic data and map portrayal became the organising idea behind the modern national topographic system.",
+      "markdown": "The change examined here was more fundamental. A road could become a database feature with geometry and attributes rather than only a line drawn on a particular sheet. The same feature could then be revised once and used in several outputs. A river did not need to be stored twice because it crossed a sheet boundary. Contours, vegetation, buildings and place names could be maintained as information in their own right, while the map became a cartographic view made from that information. That separation between geographic data and map portrayal became the organising idea behind the modern national topographic system.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

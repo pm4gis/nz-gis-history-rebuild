@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1056",
+  "a": "person:kurt-janssen",
+  "b": "entity:orbica",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "person:david-aalbers",
+  "slug": "david-aalbers",
+  "name": "David Aalbers",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-aalbers/",
+  "story": [
+    "David Aalbers is a software developer, architect and technical lead whose work has included geospatial products. After more than a decade in the ArcGIS ecosystem, he described moving into a new development role in December 2024. His career therefore connects specialist GIS application development with broader software engineering.",
+    "David Aalbers joined GBS in 2011 and contributed to work for its customers.",
+    "GBS’s company history describes Lisa Read’s work on development and processes, Shane Pienaar’s technical direction, and David Aalbers and Heath Rongo joining in 2011 and 2012."
+  ],
+  "sources": [
+    {
+      "label": "GBS retrospective, 2022",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    },
+    {
+      "label": "David Aalbers - 2degrees | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/d-aalbers"
+    },
+    {
+      "label": "Chapter 12 · Company staff",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "David Aalbers"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "David Aalbers - 2degrees | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/d-aalbers"
+      }
+    ],
+    [
+      {
+        "label": "GBS retrospective, 2022",
+        "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Company staff",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

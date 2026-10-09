@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1759",
+  "a": "person:richard-lovell",
+  "b": "chapter:23",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-23-0ac104674a"
+  ],
+  "sources": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "person:kurt-janssen",
+  "slug": "kurt-janssen",
+  "name": "Kurt Janssen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kurt-janssen/",
+  "story": [
+    "Kurt Janssen's background includes geography and geology study at the University of Canterbury from 2000 to 2004. His career combines spatial technology, business development and work in infrastructure, with Orion New Zealand listed in his professional profile. The founding and development of Orbica in the book forms part of that wider career.",
+    "Kurt Janssen founded Orbica in 2017. The company’s legal adviser records the founding date in its August 2022 account of a $2.8 million seed investment led by Pacific Channel, with Ngāi Tahu’s New Economy Fund and Enterprise Angels participating. The business combined geospatial work with artificial intelligence.",
+    "A later professional profile records Kurt Janssen as an NZEUG committee member from August 2010 and chair from October 2012 to August 2016. January 2013 GISList messages identify him as NZEUG president, when he told members that the mailing list would be disabled on 8 February and encouraged them towards searchable web forums and RSS feeds. The archive records the address and end of GISList as well as a clear change in how New Zealand GIS practitioners kept in touch."
+  ],
+  "sources": [
+    {
+      "label": "Kindrik Partners, Orbica’s $2.8 million seed round, 18 August 2022",
+      "url": "https://kindrik.co.nz/blogs/kindrik-partners-advises-orbica-on-its-2-8m-seed-round/"
+    },
+    {
+      "label": "Kurt Janssen - Orion NZ Ltd | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/kwjanssen"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Kurt Janssen"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Kurt Janssen - Orion NZ Ltd | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/kwjanssen"
+      }
+    ],
+    [
+      {
+        "label": "Kindrik Partners, Orbica’s $2.8 million seed round, 18 August 2022",
+        "url": "https://kindrik.co.nz/blogs/kindrik-partners-advises-orbica-on-its-2-8m-seed-round/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

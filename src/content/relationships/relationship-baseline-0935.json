@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0935",
+  "a": "person:simon-hope",
+  "b": "entity:geographic-business-solutions",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

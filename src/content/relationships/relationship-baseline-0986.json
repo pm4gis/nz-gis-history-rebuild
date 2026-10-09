@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0986",
+  "a": "person:aamir-bonamis",
+  "b": "entity:new-zealand-police",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

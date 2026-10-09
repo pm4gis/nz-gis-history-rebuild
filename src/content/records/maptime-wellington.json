@@ -1,0 +1,25 @@
+{
+  "id": "entity:maptime-wellington",
+  "slug": "maptime-wellington",
+  "name": "Maptime Wellington",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/maptime-wellington/",
+  "story": [
+    "Maptime Wellington is an informal GIS and cartography meetup listed in LINZ’s directory of New Zealand geospatial groups.",
+    "The local group sits alongside national professional associations and software user groups, providing a place for people in Wellington to explore mapping topics and exchange practical skills."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "Maptime Wellington"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1573",
+  "a": "person:ingrid-mcclymont",
+  "b": "chapter:40",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-40-6cefa96e49",
+    "passage:chapter-40-b5104d43cf"
+  ],
+  "sources": []
+}

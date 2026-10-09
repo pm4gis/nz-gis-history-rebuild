@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-41-90b4e0e58a",
+  "slug": "from-standards-to-adapters-90b4e0e58a",
+  "articleId": "article:chapter-41",
+  "title": "From standards to adapters",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Standards remained part of the service ecosystem. OGC interfaces, common coordinate reference systems, stable identifiers, GeoJSON-style geometry, catalogue schemas and consistent metadata all made it easier for one system to consume another's information. Hosted platforms reduced how much of that complexity an ordinary publisher had to handle directly. A platform could generate a service endpoint, expose several formats and translate item descriptions into fields another catalogue could harvest. Much of the standards machinery was being embedded in products and connectors instead of presented to every data custodian as a manual compliance exercise.",
+      "markdown": "Standards remained part of the service ecosystem. OGC interfaces, common coordinate reference systems, stable identifiers, GeoJSON-style geometry, catalogue schemas and consistent metadata all made it easier for one system to consume another's information. Hosted platforms reduced how much of that complexity an ordinary publisher had to handle directly. A platform could generate a service endpoint, expose several formats and translate item descriptions into fields another catalogue could harvest. Much of the standards machinery was being embedded in products and connectors instead of presented to every data custodian as a manual compliance exercise.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Data.govt.nz offered different catalogue arrangements in 2016 to suit agencies’ technical capacity. Agencies with their own catalogues could expose CSW, CKAN or data.json feeds and allow the national catalogue to harvest them. Agencies without that capability could use the central catalogue and hosting service instead. The model explicitly accepted uneven organisational capacity. That was a better fit for a public sector ranging from large technical agencies to small organisations with thinly staffed spatial functions.",
+      "markdown": "Data.govt.nz offered different catalogue arrangements in 2016 to suit agencies’ technical capacity. Agencies with their own catalogues could expose CSW, CKAN or data.json feeds and allow the national catalogue to harvest them. Agencies without that capability could use the central catalogue and hosting service instead. The model explicitly accepted uneven organisational capacity. That was a better fit for a public sector ranging from large technical agencies to small organisations with thinly staffed spatial functions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "An agency already managing spatial items in ArcGIS Online could maintain titles, descriptions, licences and other metadata there, then allow harvesting into data.govt.nz. The national catalogue could avoid duplicate entry and the agency could retain its working platform. The adapter between systems carried part of the interoperability burden that earlier standards programmes had often left with individual staff.",
+      "markdown": "An agency already managing spatial items in ArcGIS Online could maintain titles, descriptions, licences and other metadata there, then allow harvesting into data.govt.nz. The national catalogue could avoid duplicate entry and the agency could retain its working platform. The adapter between systems carried part of the interoperability burden that earlier standards programmes had often left with individual staff.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

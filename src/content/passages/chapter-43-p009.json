@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-43-57333fc6ed",
+  "slug": "maps-become-builds-57333fc6ed",
+  "articleId": "article:chapter-43",
+  "title": "Maps become builds",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "National topographic production used repeatable build processes. When LINZ released Topo50 nationally in September 2009, the new maps were generated from a maintained national topographic database rather than compiled as isolated sheet drawings. A contemporary technical account describes cartographic rules generating most of the portrayal automatically, with sheet-specific information assembled from controlled definition files. Once data and rules were ready, production files could be generated in roughly ten to fifteen minutes.",
+      "markdown": "National topographic production used repeatable build processes. When LINZ released Topo50 nationally in September 2009, the new maps were generated from a maintained national topographic database rather than compiled as isolated sheet drawings. A contemporary technical account describes cartographic rules generating most of the portrayal automatically, with sheet-specific information assembled from controlled definition files. Once data and rules were ready, production files could be generated in roughly ten to fifteen minutes.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Otago",
+      "caption": "Otago. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "The time figure needs to be understood properly. The fifteen-minute target covered automated processing after source data arrived; nationwide observation, verification and editing still took longer. It meant that accepted database content could be turned into cartographic products far faster than rebuilding a sheet manually. Five cartographers still worked through text conflicts and other exceptions during the initial Topo50 generation. The rule system removed repeated production labour while making the difficult exceptions more visible. Automation changed where cartographic judgement was applied.",
+      "markdown": "The time figure needs to be understood properly. The fifteen-minute target covered automated processing after source data arrived; nationwide observation, verification and editing still took longer. It meant that accepted database content could be turned into cartographic products far faster than rebuilding a sheet manually. Five cartographers still worked through text conflicts and other exceptions during the initial Topo50 generation. The rule system removed repeated production labour while making the difficult exceptions more visible. Automation changed where cartographic judgement was applied.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That pattern continued into the next generation of topographic production. LINZ began the Future Topographic Maps programme in November 2024 to replace ageing technology. Later programme documentation describes QGIS being used for editing and map layout and Kart being used for spatial version control. The national topographic programme managed geographic data, configuration and changes as inputs to a repeatable build process.",
+      "markdown": "That pattern continued into the next generation of topographic production. LINZ began the Future Topographic Maps programme in November 2024 to replace ageing technology. Later programme documentation describes QGIS being used for editing and map layout and Kart being used for spatial version control. The national topographic programme managed geographic data, configuration and changes as inputs to a repeatable build process.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

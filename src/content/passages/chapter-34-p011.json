@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-34-d77bfeff5e",
+  "slug": "the-phone-becomes-field-equipment-d77bfeff5e",
+  "articleId": "article:chapter-34",
+  "title": "The phone becomes field equipment",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "technology-stack"
+  ],
+  "recordIds": [
+    "chapter:34"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the late 2010s a field application no longer needed to look much like conventional GIS. DOC’s Helicopter Boarding Pass provides a sharp example. Following serious concern about helicopter risk, the department needed a pre-flight checklist that could be changed quickly and used where helicopter operations actually occurred. A 2019 New Zealand Esri User Conference presentation described the decision to use Survey123 because a checklist could be created and amended rapidly, while also capturing basic metadata such as location, user and date.",
+      "markdown": "By the late 2010s a field application no longer needed to look much like conventional GIS. DOC’s Helicopter Boarding Pass provides a sharp example. Following serious concern about helicopter risk, the department needed a pre-flight checklist that could be changed quickly and used where helicopter operations actually occurred. A 2019 New Zealand Esri User Conference presentation described the decision to use Survey123 because a checklist could be created and amended rapidly, while also capturing basic metadata such as location, user and date.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2020 annual report the Boarding Pass was described as a compulsory paperless pre-flight checklist and the final check of critical safety controls before take-off. The report reproduced smartphone screens from the application. The mapping component was no longer the visible centre of the workflow. The geographic capability sat behind a task-specific form. That is a different stage of GIS adoption from giving a field worker a portable version of a desktop map.",
+      "markdown": "By the 2020 annual report the Boarding Pass was described as a compulsory paperless pre-flight checklist and the final check of critical safety controls before take-off. The report reproduced smartphone screens from the application. The mapping component was no longer the visible centre of the workflow. The geographic capability sat behind a task-specific form. That is a different stage of GIS adoption from giving a field worker a portable version of a desktop map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOC’s field applications developed through both central infrastructure and operational teams. The 2003 enterprise architecture supplied one layer of capability, but it does not explain every useful field application that appeared later. Practical progress came when project and operational teams could take available platforms and configure them for a real problem. ",
+      "markdown": "DOC’s field applications developed through both central infrastructure and operational teams. The 2003 enterprise architecture supplied one layer of capability, but it does not explain every useful field application that appeared later. Practical progress came when project and operational teams could take available platforms and configure them for a real problem. ",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

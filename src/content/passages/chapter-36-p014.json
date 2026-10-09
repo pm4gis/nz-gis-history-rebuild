@@ -1,0 +1,29 @@
+{
+  "id": "passage:chapter-36-7ff6d0e295",
+  "slug": "repeated-observation-becomes-ordinary-7ff6d0e295",
+  "articleId": "article:chapter-36",
+  "title": "Repeated observation becomes ordinary",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "imagery"
+  ],
+  "recordIds": [
+    "chapter:36"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The most durable contribution of satellite earth observation is repetition. Aerial photography remains indispensable when a project needs very fine detail, while LiDAR and drones provide other ways to measure the surface. Satellites contribute a different rhythm. The same country is observed again and again, allowing analysts to look for change in land cover, forest extent, vegetation condition, coastal environments and other broad surface patterns. The archive keeps growing even when no particular local project is asking a question at that moment.",
+      "markdown": "The most durable contribution of satellite earth observation is repetition. Aerial photography remains indispensable when a project needs very fine detail, while LiDAR and drones provide other ways to measure the surface. Satellites contribute a different rhythm. The same country is observed again and again, allowing analysts to look for change in land cover, forest extent, vegetation condition, coastal environments and other broad surface patterns. The archive keeps growing even when no particular local project is asking a question at that moment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That repeated record changed the questions GIS could ask. Instead of treating imagery only as a current backdrop, analysts could compare years, seasons and events. National reporting systems such as LCDB and LUCAS formalised that idea by converting repeated observations into maintained datasets with defined classes and dates. Research projects extended it through multispectral analysis, machine learning and sensor fusion. National services then made both rawer imagery products and derived information easier to discover. GIS users could analyse repeated observations as a time series.",
+      "markdown": "That repeated record changed the questions GIS could ask. Instead of treating imagery only as a current backdrop, analysts could compare years, seasons and events. National reporting systems such as LCDB and LUCAS formalised that idea by converting repeated observations into maintained datasets with defined classes and dates. Research projects extended it through multispectral analysis, machine learning and sensor fusion. National services then made both rawer imagery products and derived information easier to discover. GIS users could analyse repeated observations as a time series.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-6-1d1245dd9d",
+  "slug": "the-consulting-strand-1d1245dd9d",
+  "articleId": "article:chapter-6",
+  "title": "The consulting strand",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:6",
+    "entity:explorer-graphics-northsouth-gis",
+    "person:beryl-pimblott"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Explorer Graphics’ establishment in 1987 belongs in this broader service environment. David and Beryl Pimblott created a company whose later work covered GIS implementation, consulting and local-government applications. The firm supplied specialist GIS services before the end of the decade.",
+      "markdown": "Explorer Graphics’ establishment in 1987 belongs in this broader service environment. David and Beryl Pimblott created a company whose later work covered GIS implementation, consulting and local-government applications. The firm supplied specialist GIS services before the end of the decade.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Consulting reduced the need for every organisation to assemble all skills internally before starting. A customer could purchase help with software selection, database design, conversion, application development or training. This was particularly relevant for organisations that had useful geographic records but little experience turning them into a structured digital system.",
+      "markdown": "Consulting reduced the need for every organisation to assemble all skills internally before starting. A customer could purchase help with software selection, database design, conversion, application development or training. This was particularly relevant for organisations that had useful geographic records but little experience turning them into a structured digital system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The model also encouraged movement of methods between sectors. A consultant who had worked with one council, science agency or mapping organisation could carry technical approaches into another project. Vendor distributors performed a similar role through training and support. Universities added another route by sending graduates into organisations already using or considering GIS.",
+      "markdown": "The model also encouraged movement of methods between sectors. A consultant who had worked with one council, science agency or mapping organisation could carry technical approaches into another project. Vendor distributors performed a similar role through training and support. Universities added another route by sending graduates into organisations already using or considering GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the end of the decade, a small ecosystem therefore existed around the systems themselves. Government agencies produced and maintained national data. Universities taught GIS and remote sensing. Suppliers provided commercial software. Consultancies assisted implementation. Practitioners had begun meeting across institutional boundaries.",
+      "markdown": "By the end of the decade, a small ecosystem therefore existed around the systems themselves. Government agencies produced and maintained national data. Universities taught GIS and remote sensing. Suppliers provided commercial software. Consultancies assisted implementation. Practitioners had begun meeting across institutional boundaries.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

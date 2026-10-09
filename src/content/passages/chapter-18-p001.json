@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-18-6482c1e00e",
+  "slug": "a-receiver-on-the-trig-6482c1e00e",
+  "articleId": "article:chapter-18",
+  "title": "A receiver on the trig",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18",
+    "entity:department-of-conservation",
+    "entity:traverse-seamless",
+    "entity:university-of-otago",
+    "person:bruce-mclennan",
+    "person:albert-chong",
+    "person:martin-purvis",
+    "person:peter-hunt"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "At Taiaroa Head in 1994, a GPS survey for a wildlife-management project began with one receiver staying put. It was set over a known trig station on the summit of the headland and left to track the satellites. A second survey-quality receiver was moved to points whose positions had to be established, occupying each for a few minutes. The observations were then processed to determine the vectors from the known station to the new points. Those points became reference sites for later real-time kinematic work and, ultimately, for a spatial information system being developed around the northern royal albatross colony.",
+      "markdown": "At Taiaroa Head in 1994, a GPS survey for a wildlife-management project began with one receiver staying put. It was set over a known trig station on the summit of the headland and left to track the satellites. A second survey-quality receiver was moved to points whose positions had to be established, occupying each for a few minutes. The observations were then processed to determine the vectors from the known station to the new points. Those points became reference sites for later real-time kinematic work and, ultimately, for a spatial information system being developed around the northern royal albatross colony.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The work was part of research led through the University of Otago rather than a national survey programme. Bruce McLennan, Albert Chong and Martin Purvis described the GPS acquisition at the 1994 Spatial Information Research Centre colloquium, and McLennan’s later thesis preserved more of the method. Trimble Navigation New Zealand supplied receivers and peripherals. Peter Hunt carried out photogrammetric interpretation and produced maps used in the spatial database, while graduate students assisted with GPS post-processing and Department of Conservation staff supported the field work. The project joined surveying, wildlife management, photogrammetry and GIS in a way that would become increasingly ordinary over the next decade.",
+      "markdown": "The work was part of research led through the University of Otago rather than a national survey programme. Bruce McLennan, Albert Chong and Martin Purvis described the GPS acquisition at the 1994 Spatial Information Research Centre colloquium, and McLennan’s later thesis preserved more of the method. Trimble Navigation New Zealand supplied receivers and peripherals. Peter Hunt carried out photogrammetric interpretation and produced maps used in the spatial database, while graduate students assisted with GPS post-processing and Department of Conservation staff supported the field work. The project joined surveying, wildlife management, photogrammetry and GIS in a way that would become increasingly ordinary over the next decade.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Taiaroa Head team used a fast-static method. The fixed receiver and the moving receiver observed the same satellite signals, including code and carrier-phase measurements on the L1 and L2 frequencies. Specialist processing resolved the relative positions. A coordinate reached the database through observation, processing, checking and data-entry workflows. Getting it involved equipment, a known reference point, field procedure, data transfer and processing expertise.",
+      "markdown": "The Taiaroa Head team used a fast-static method. The fixed receiver and the moving receiver observed the same satellite signals, including code and carrier-phase measurements on the L1 and L2 frequencies. Specialist processing resolved the relative positions. A coordinate reached the database through observation, processing, checking and data-entry workflows. Getting it involved equipment, a known reference point, field procedure, data transfer and processing expertise.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That combination changed an old part of mapping work. For much of New Zealand’s survey and GIS history, the position of a new feature was derived through an existing framework: a survey mark, a traverse, an aerial photograph, a cadastral plan, a topographic sheet, an address or a known point on a map. GPS introduced another route. Increasingly, the person standing beside the thing being mapped could measure its position directly from satellite signals and then carry that coordinate into the database.",
+      "markdown": "That combination changed an old part of mapping work. For much of New Zealand’s survey and GIS history, the position of a new feature was derived through an existing framework: a survey mark, a traverse, an aerial photograph, a cadastral plan, a topographic sheet, an address or a known point on a map. GPS introduced another route. Increasingly, the person standing beside the thing being mapped could measure its position directly from satellite signals and then carry that coordinate into the database.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chapter:42",
+  "articleId": "article:chapter-42",
+  "slug": "the-real-time-map",
+  "name": "Disaster response and live mapping",
+  "kind": "Story",
+  "category": "Shared systems",
+  "url": "/stories/the-real-time-map/",
+  "description": "For much of GIS history, a map could be out of date without anyone noticing for a while. A road changed, a subdivision appeared, a river shifted or a new building was added, and the database caught up later. Emergency mapping makes “nearly current” a much less comfortable phrase. When the ground has just moved, a river has left its channel or a road has disappeared under a landslide, yesterday's perfectly maintained ",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": []
+}

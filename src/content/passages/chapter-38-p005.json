@@ -1,0 +1,44 @@
+{
+  "id": "passage:chapter-38-fb6060a98b",
+  "slug": "control-on-the-ground-fb6060a98b",
+  "articleId": "article:chapter-38",
+  "title": "Control on the ground",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38",
+    "person:martin-brook",
+    "person:jon-tunnicliffe",
+    "person:nick-richards",
+    "person:d-j-bevan",
+    "person:w-m-prebble"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 2017 New Zealand Geotechnical Society paper by D. J. Bevan, Martin Brook, Jon Tunnicliffe, Nick Richards and W. M. Prebble provides a clear professional example. The team mapped the Kepa Road landslide in Auckland and the Ohuka landslide south of Port Waikato using a DJI Inspire 1 fitted with a Zenmuse X3 camera. Roughly 200 to 300 overlapping photographs were collected at each site. Up to 20 ground-control points, including targets and identifiable features, were positioned using real-time kinematic GPS.",
+      "markdown": "The 2017 New Zealand Geotechnical Society paper by D. J. Bevan, Martin Brook, Jon Tunnicliffe, Nick Richards and W. M. Prebble provides a clear professional example. The team mapped the Kepa Road landslide in Auckland and the Ohuka landslide south of Port Waikato using a DJI Inspire 1 fitted with a Zenmuse X3 camera. Roughly 200 to 300 overlapping photographs were collected at each site. Up to 20 ground-control points, including targets and identifiable features, were positioned using real-time kinematic GPS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The images were processed in Agisoft PhotoScan 1.2.6. Blurred images were removed before modelling, camera positions were loaded from image metadata, and the project was aligned within NZTM2000. The workflow produced full-colour orthophotos, digital elevation models and three-dimensional models of the landslide surfaces. The paper presented the method as a practical way to collect high-resolution topographic information in places where other survey methods could be expensive or difficult to deploy.",
+      "markdown": "The images were processed in Agisoft PhotoScan 1.2.6. Blurred images were removed before modelling, camera positions were loaded from image metadata, and the project was aligned within NZTM2000. The workflow produced full-colour orthophotos, digital elevation models and three-dimensional models of the landslide surfaces. The paper presented the method as a practical way to collect high-resolution topographic information in places where other survey methods could be expensive or difficult to deploy.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Ground control is an important part of that story because it separates an impressive image from a controlled spatial product. A consumer camera and onboard GNSS can provide approximate positions, but survey-quality claims require evidence about how the model was tied to the coordinate system and how well it performed against independent measurements. Ground sample distance describes the size represented by an image pixel at the surface. It does not, by itself, say where that pixel is located to the same accuracy.",
+      "markdown": "Ground control is an important part of that story because it separates an impressive image from a controlled spatial product. A consumer camera and onboard GNSS can provide approximate positions, but survey-quality claims require evidence about how the model was tied to the coordinate system and how well it performed against independent measurements. Ground sample distance describes the size represented by an image pixel at the surface. It does not, by itself, say where that pixel is located to the same accuracy.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later UAVs with RTK or PPK positioning improved the location of camera exposures and could reduce the amount of ground control required in some workflows. They did not abolish the need for quality assurance. Camera calibration, flight geometry, surface texture, coordinate transformations and processing choices still influence the result. A project can have very small pixels and still contain systematic positional error.",
+      "markdown": "Later UAVs with RTK or PPK positioning improved the location of camera exposures and could reduce the amount of ground control required in some workflows. They did not abolish the need for quality assurance. Camera calibration, flight geometry, surface texture, coordinate transformations and processing choices still influence the result. A project can have very small pixels and still contain systematic positional error.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

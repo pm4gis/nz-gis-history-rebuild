@@ -1,0 +1,30 @@
+{
+  "id": "entity:mapdata-sciences",
+  "slug": "mapdata-sciences",
+  "name": "MapData Sciences",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/mapdata-sciences/",
+  "website": null,
+  "story": [
+    "MapData Sciences supplied commercial Census-mapping products by 2001–02. The business offered prepared demographic and spatial products and hosted web mapping. Paul Moss was associated with its Census products.",
+    "A September 2007 reseller announcement records MapData Sciences’ appointment to supply Microsoft’s Virtual Earth and MapPoint Web Services in Australia and New Zealand. It places the company’s commercial Census and mapping-data work alongside web-service distribution as online mapping expanded. The announcement supports that particular reseller role; it does not establish a complete ownership history."
+  ],
+  "sources": [
+    {
+      "label": "Statistics New Zealand, 2001 Census products and March 2002 mapping information",
+      "url": "https://statsnz.contentdm.oclc.org/digital/api/collection/p20045coll19/id/436/download"
+    },
+    {
+      "label": "MapData Sciences reseller announcement, Geospatial World, 26 September 2007",
+      "url": "https://geospatialworld.net/news/mapdata-sciences-appointed-reseller-of-microsoft-mapping-products/"
+    }
+  ],
+  "aliases": [
+    "MapData Sciences"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

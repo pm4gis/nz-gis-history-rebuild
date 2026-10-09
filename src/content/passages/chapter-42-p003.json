@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-42-1763ac09cc",
+  "slug": "a-common-picture-is-harder-1763ac09cc",
+  "articleId": "article:chapter-42",
+  "title": "A common picture is harder",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A sensor map answers a comparatively bounded question. Emergency response rarely does. A coordination centre may need to know where an earthquake or flood occurred, which roads remain open, which communities are isolated, where welfare centres are operating, what buildings have been assessed, which electricity assets are damaged, where imagery has been captured and what information is still unverified. Those layers may come from different organisations, use different update cycles and carry different access restrictions.",
+      "markdown": "A sensor map answers a comparatively bounded question. Emergency response rarely does. A coordination centre may need to know where an earthquake or flood occurred, which roads remain open, which communities are isolated, where welfare centres are operating, what buildings have been assessed, which electricity assets are damaged, where imagery has been captured and what information is still unverified. Those layers may come from different organisations, use different update cycles and carry different access restrictions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The phrase common operating picture describes the attempt to bring enough of that information together to support a shared understanding of the event. It does not necessarily mean one map, one screen or one national system. A regional emergency management group may need a different operating picture from a national coordination centre. A utility may need network status that cannot be published publicly, while a public map needs a simplified view that people can understand safely. The common part is therefore as much about agreed sources, responsibilities and current status as it is about software.",
+      "markdown": "The phrase common operating picture describes the attempt to bring enough of that information together to support a shared understanding of the event. It does not necessarily mean one map, one screen or one national system. A regional emergency management group may need a different operating picture from a national coordination centre. A utility may need network status that cannot be published publicly, while a public map needs a simplified view that people can understand safely. The common part is therefore as much about agreed sources, responsibilities and current status as it is about software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The enterprise and service histories from the previous chapters become practical in this operational setting. Authoritative data has to be discoverable. Services need to be reachable. Identities and permissions need to work. Someone has to know whether the road-status layer is current, whether the building-assessment layer is preliminary and who is responsible for correcting an error. In calm conditions these can look like governance details. During an emergency they decide whether several agencies are looking at approximately the same situation or several different versions of it.",
+      "markdown": "The enterprise and service histories from the previous chapters become practical in this operational setting. Authoritative data has to be discoverable. Services need to be reachable. Identities and permissions need to work. Someone has to know whether the road-status layer is current, whether the building-assessment layer is preliminary and who is responsible for correcting an error. In calm conditions these can look like governance details. During an emergency they decide whether several agencies are looking at approximately the same situation or several different versions of it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

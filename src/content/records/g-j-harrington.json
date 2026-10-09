@@ -1,0 +1,62 @@
+{
+  "id": "person:g-j-harrington",
+  "slug": "g-j-harrington",
+  "name": "Graham J. Harrington",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/g-j-harrington/",
+  "story": [
+    "G. J. Harrington published Contouring by Computer from Stadia Field Data through the New Zealand Agricultural Engineering Institute in 1976. A 1982 Lincoln College handbook credited to Graham James Harrington describes CONTOUR, a program for turning irregular stadia survey readings into contours, with a FORTRAN listing available from the author.",
+    "In 1976 G. J. Harrington of the New Zealand Agricultural Engineering Institute published Contouring by Computer from Stadia Field Data. The program converted surveyed positions and elevations into contour information by interpolating between irregularly distributed field observations. Computer-generated contours are now routine, but the 1976 work records part of the shift from manual interpolation to software-based terrain processing in New Zealand.",
+    "The Hocken Collections bibliography identifies the author of the 1976 Contouring by Computer from Stadia Field Data report as Graham J. Harrington. This matches the title, year and institute in the historical account, allowing his first name to be expanded from G. The bibliography gives his middle name only as an initial."
+  ],
+  "sources": [
+    {
+      "label": "G. J. Harrington, Contouring by Computer from Stadia Field Data, NZ Agricultural Engineering Institute",
+      "url": "https://eurekamag.com/research/105/798/105798884.php"
+    },
+    {
+      "label": "Graham James Harrington, Contour handbook, Lincoln College, 1982; Lincoln University record in FAO AGRIS",
+      "url": "https://agris.fao.org/search/en/providers/125257/records/676599586784547a43e36712"
+    },
+    {
+      "label": "Chapter 3 · Routes and terrain",
+      "url": "/stories/drawing-maps-by-machine/"
+    },
+    {
+      "label": "Friends of the Hocken Collections, Bulletin 9, September 1994, Methods, 20th Century bibliography, p.3",
+      "url": "https://www.otago.ac.nz/library/pdf/hoc_fr_bulletins/9_bulletin.pdf"
+    }
+  ],
+  "aliases": [
+    "Graham J. Harrington",
+    "G. J. Harrington"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "G. J. Harrington, Contouring by Computer from Stadia Field Data, NZ Agricultural Engineering Institute",
+        "url": "https://eurekamag.com/research/105/798/105798884.php"
+      },
+      {
+        "label": "Graham James Harrington, Contour handbook, Lincoln College, 1982; Lincoln University record in FAO AGRIS",
+        "url": "https://agris.fao.org/search/en/providers/125257/records/676599586784547a43e36712"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 3 · Routes and terrain",
+        "url": "/stories/drawing-maps-by-machine/"
+      }
+    ],
+    [
+      {
+        "label": "Friends of the Hocken Collections, Bulletin 9, September 1994, Methods, 20th Century bibliography, p.3",
+        "url": "https://www.otago.ac.nz/library/pdf/hoc_fr_bulletins/9_bulletin.pdf"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chapter:19",
+  "articleId": "article:chapter-19",
+  "slug": "rebuilding-the-coordinate-framework",
+  "name": "The national coordinate system",
+  "kind": "Story",
+  "category": "National datasets",
+  "url": "/stories/rebuilding-the-coordinate-framework/",
+  "description": "By the early 1990s, New Zealand surveyors could determine positions from satellites with increasing precision, but the national coordinate framework had been built for a different era. The New Zealand Geodetic Datum 1949 had provided the basis for surveying and mapping for decades, while the New Zealand Map Grid carried national topographic mapping into metric production. Neither had been designed around a global geo",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1378",
+  "a": "entity:new-zealand-aerial-mapping",
+  "b": "chapter:8",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-8-518a61ae87",
+    "passage:chapter-8-5f74d8d0d8"
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0914",
+  "a": "person:scott-campbell",
+  "b": "entity:eagle-technology",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

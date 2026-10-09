@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-30-b4e8371569",
+  "slug": "browser-limitations-b4e8371569",
+  "articleId": "article:chapter-30",
+  "title": "Browser limitations",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The first web maps were powerful because they were limited. A council resident did not need to edit parcels or run network analysis. A public-health user did not need access to individual disease records. A conservation manager did not need every ArcGIS tool simply to inspect a national layer. A Police operational user did not need the full analytical environment used by an intelligence specialist. Applications could be designed around these narrower needs.",
+      "markdown": "The first web maps were powerful because they were limited. A council resident did not need to edit parcels or run network analysis. A public-health user did not need access to individual disease records. A conservation manager did not need every ArcGIS tool simply to inspect a national layer. A Police operational user did not need the full analytical environment used by an intelligence specialist. Applications could be designed around these narrower needs.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Those limits also protected the organisation. A controlled browser interface reduced the risk of accidental editing, constrained access to sensitive information and standardised how common queries were performed. It could also simplify training. A user learned the application’s tasks rather than a general GIS package with hundreds of commands. This was one reason web GIS spread so readily inside organisations once server infrastructure was available.",
+      "markdown": "Those limits also protected the organisation. A controlled browser interface reduced the risk of accidental editing, constrained access to sensitive information and standardised how common queries were performed. It could also simplify training. A user learned the application’s tasks rather than a general GIS package with hundreds of commands. This was one reason web GIS spread so readily inside organisations once server infrastructure was available.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The cost was flexibility. If the application did not contain a required query, layer or analytical function, the ordinary user could not improvise. Specialist staff were still needed to answer unusual questions, maintain the datasets and change the application. Browser GIS therefore did not flatten the profession. It created a layered relationship between system builders, analysts and a much larger population of consumers.",
+      "markdown": "The cost was flexibility. If the application did not contain a required query, layer or analytical function, the ordinary user could not improvise. Specialist staff were still needed to answer unusual questions, maintain the datasets and change the application. Browser GIS therefore did not flatten the profession. It created a layered relationship between system builders, analysts and a much larger population of consumers.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Performance was another constraint. Early services had to work across comparatively slow networks, modest desktop computers and browsers that were less standardised than later ones. Server-generated map images reduced demands on the client but could require a round trip for each pan, zoom or query. Interfaces were often functional rather than elegant. These applications helped organisations provide mapping services to staff and the public.",
+      "markdown": "Performance was another constraint. Early services had to work across comparatively slow networks, modest desktop computers and browsers that were less standardised than later ones. Server-generated map images reduced demands on the client but could require a round trip for each pan, zoom or query. Interfaces were often functional rather than elegant. These applications helped organisations provide mapping services to staff and the public.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

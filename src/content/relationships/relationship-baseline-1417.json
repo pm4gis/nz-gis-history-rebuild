@@ -1,0 +1,15 @@
+{
+  "id": "relationship:baseline-1417",
+  "a": "entity:stats-nz",
+  "b": "chapter:17",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-17-4062a38f8b",
+    "passage:chapter-17-2f6d44e0ff",
+    "passage:chapter-17-309bcb1392",
+    "passage:chapter-17-a3670e1c5c",
+    "passage:chapter-17-4b7e92a74e"
+  ],
+  "sources": []
+}

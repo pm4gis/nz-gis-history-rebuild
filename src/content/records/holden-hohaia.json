@@ -1,0 +1,42 @@
+{
+  "id": "person:holden-hohaia",
+  "slug": "holden-hohaia",
+  "name": "Holden Hohaia",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/holden-hohaia/",
+  "story": [
+    "LINZ’s 2026 Geospatial Capability Committee material lists Holden Hohaia in Māori perspective representative; Geospatial Capability Committee..",
+    "LINZ’s Ngā Poutama Matawhenua record names Holden Hohaia: Ngāti Maru; QGIS/census/environmental-data Ngā Poutama presenter."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    },
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ],
+  "aliases": [
+    "Holden Hohaia"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Ngā Poutama Matawhenua",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+      }
+    ]
+  ]
+}

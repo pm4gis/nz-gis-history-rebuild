@@ -1,0 +1,44 @@
+{
+  "id": "person:p-g-luckman",
+  "slug": "p-g-luckman",
+  "name": "P. G. Luckman",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/p-g-luckman/",
+  "story": [
+    "P. G. Luckman, R. G. Gibb and M. R. Jessen wrote on combining expert systems and GIS for land classification.",
+    "At the first national multidisciplinary GIS conference in Wellington in June 1989, P. G. Luckman, R. G. Gibb and M. R. Jessen presented work integrating expert systems and GIS for land classification and assessment. A peer-reviewed follow-up appeared in the New Zealand Geographer in 1990. Those rule-based systems encoded geographic classification through computational reasoning before modern machine-learning methods."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 6 · A shared name",
+      "url": "/stories/when-gis-became-gis/"
+    },
+    {
+      "label": "Chapter 44 · AI before the boom",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "P. G. Luckman"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 6 · A shared name",
+        "url": "/stories/when-gis-became-gis/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · AI before the boom",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

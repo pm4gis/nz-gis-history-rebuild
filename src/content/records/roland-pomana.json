@@ -1,0 +1,61 @@
+{
+  "id": "person:roland-pomana",
+  "slug": "roland-pomana",
+  "name": "Roland Pomana",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/roland-pomana/",
+  "story": [
+    "Roland Pomana was a DOC business analyst based in Gisborne in December 2013, working with conservation communities and Ngā Whenua Rāhui. The 2017 Esri conference programme names him as facilitator of the community meeting and user-group AGM. Other retained conference records identify him as NZEUG chair during the 2017 and 2019 cycles.",
+    "In 2017 Eagle's conference prospectus named Roland Pomana as chairman of the NZEUG committee and described the non-profit group as serving more than 450 members. The conference programme set aside a community meeting for the user-group AGM, facilitated by Pomana. Volunteers maintained the group and its activities alongside their GIS jobs.",
+    "LINZ’s Ngā Poutama Matawhenua record names Roland Pomana: Journey GIS; Ngā Poutama presenter/conversation participant."
+  ],
+  "sources": [
+    {
+      "label": "Department of Conservation, Jobs at DOC: Roland Pomana, Business Analyst, 27 December 2013",
+      "url": "https://blog.doc.govt.nz/2013/12/27/doc-jobs-roland-pomana/"
+    },
+    {
+      "label": "Eagle Technology, NZEUC 2017 draft programme, last updated 6 July 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    },
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ],
+  "aliases": [
+    "Roland Pomana"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Department of Conservation, Jobs at DOC: Roland Pomana, Business Analyst, 27 December 2013",
+        "url": "https://blog.doc.govt.nz/2013/12/27/doc-jobs-roland-pomana/"
+      },
+      {
+        "label": "Eagle Technology, NZEUC 2017 draft programme, last updated 6 July 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Ngā Poutama Matawhenua",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+      }
+    ]
+  ]
+}

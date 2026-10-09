@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-0472",
+  "a": "person:scott-campbell",
+  "b": "chapter:12",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-12-6f2ca241b9",
+    "passage:chapter-12-eb1fae3cf8"
+  ],
+  "sources": []
+}

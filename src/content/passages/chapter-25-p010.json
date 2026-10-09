@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-25-a9c43e94e1",
+  "slug": "watercare-joins-map-and-maintenance-a9c43e94e1",
+  "articleId": "article:chapter-25",
+  "title": "Watercare joins map and maintenance",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Watercare provides a comparable case from a network whose physical behaviour is different. The 2009 study Spatial Information in the New Zealand Economy described Watercare as using GIS to integrate asset information, including non-spatial data. Staff had access to a spatial portal on their desktops, while maintenance crews used GIS on handheld computers that synchronised periodically with the network. The organisation maintained six GIS staff at the time of the study.",
+      "markdown": "Watercare provides a comparable case from a network whose physical behaviour is different. The 2009 study Spatial Information in the New Zealand Economy described Watercare as using GIS to integrate asset information, including non-spatial data. Staff had access to a spatial portal on their desktops, while maintenance crews used GIS on handheld computers that synchronised periodically with the network. The organisation maintained six GIS staff at the time of the study.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The field users carried more than a map. Job sheets and location information were available on the handheld devices, and crews could record work. The system also held photographs of assets such as valves inside manholes or sumps. A valve could therefore be represented by location, identifier, maintenance task and a photograph that helped staff recognise what they would find on site.",
+      "markdown": "The field users carried more than a map. Job sheets and location information were available on the handheld devices, and crews could record work. The system also held photographs of assets such as valves inside manholes or sumps. A valve could therefore be represented by location, identifier, maintenance task and a photograph that helped staff recognise what they would find on site.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Watercare reported different benefits in the office and field. Office users avoided searching across several separate systems for asset information. Field crews saved time locating assets and reduced the need to have surveyors establish positions for routine work, while surveyors remained necessary where legal issues such as rights of way required higher certainty. The GIS sat between engineering records and work activity rather than replacing either.",
+      "markdown": "Watercare reported different benefits in the office and field. Office users avoided searching across several separate systems for asset information. Field crews saved time locating assets and reduced the need to have surveyors establish positions for routine work, while surveyors remained necessary where legal issues such as rights of way required higher certainty. The GIS sat between engineering records and work activity rather than replacing either.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By that date the operational model was mature enough to document: a maintained network, a spatial portal for general users, handheld access for crews and a specialist GIS team maintaining the information behind both. Water and wastewater GIS had become part of asset management in much the same way electricity GIS had, even though the engineering rules differed.",
+      "markdown": "By that date the operational model was mature enough to document: a maintained network, a spatial portal for general users, handheld access for crews and a specialist GIS team maintaining the information behind both. Water and wastewater GIS had become part of asset management in much the same way electricity GIS had, even though the engineering rules differed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

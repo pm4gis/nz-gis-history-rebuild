@@ -1,0 +1,26 @@
+{
+  "id": "1998-geographx-established",
+  "dateDisplay": "1998",
+  "startDate": "1998",
+  "datePrecision": "year",
+  "year": 1998,
+  "label": "Geographx is established as a map-design studio",
+  "summary": "Roger Smith established Geographx to produce custom cartographic work and maps for New Zealand and overseas clients.",
+  "url": "/stories/from-flat-maps-to-3d/#terrain-becomes-data-44fef5297f",
+  "passageIds": [
+    "passage:chapter-39-44fef5297f"
+  ],
+  "recordIds": [
+    "entity:geographx",
+    "chapter:39",
+    "entity:tasman-district-council",
+    "entity:fox-and-associates"
+  ],
+  "themeIds": [],
+  "categories": [
+    "business",
+    "cartography",
+    "map-design"
+  ],
+  "sources": []
+}

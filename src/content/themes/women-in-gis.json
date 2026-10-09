@@ -1,0 +1,77 @@
+{
+  "id": "women-in-gis",
+  "slug": "women-in-gis",
+  "title": "Women in GIS",
+  "description": "Follow women’s documented contributions to New Zealand’s mapping and geospatial work. The earlier calculation, scientific and cartographic roles helped create the records and methods GIS inherited. The path continues through agency systems, company-building, Māori-focused research, national data services, environmental and transport analysis, workforce studies and professional networks. The profiles distinguish documented roles and dates from questions still open.",
+  "color": "#8bb17a",
+  "passageIds": [
+    "passage:chapter-1-a364eef899",
+    "passage:chapter-6-864f71f48e",
+    "passage:chapter-12-b51b8936ec",
+    "passage:chapter-12-eb1fae3cf8",
+    "passage:chapter-29-71ae35ecbd",
+    "passage:chapter-29-9cd7ad9755",
+    "passage:chapter-33-51393f242c",
+    "passage:chapter-35-71de0c0d83",
+    "passage:chapter-44-ebb70c2c9a",
+    "passage:chapter-10-3248d864d9",
+    "passage:chapter-11-224cf9ea6b"
+  ],
+  "stops": [
+    {
+      "passageId": "passage:chapter-1-a364eef899",
+      "title": "The people behind the sheets",
+      "url": "/stories/what-the-computer-inherited/#the-people-behind-the-sheets"
+    },
+    {
+      "passageId": "passage:chapter-6-864f71f48e",
+      "title": "North Taranaki, 1986",
+      "url": "/stories/when-gis-became-gis/#north-taranaki-1986"
+    },
+    {
+      "passageId": "passage:chapter-12-b51b8936ec",
+      "title": "A consultancy appears",
+      "url": "/stories/an-industry-and-community-form/#a-consultancy-appears"
+    },
+    {
+      "passageId": "passage:chapter-12-eb1fae3cf8",
+      "title": "Esri and Eagle in New Zealand",
+      "url": "/stories/an-industry-and-community-form/#esri-and-eagle-in-new-zealand"
+    },
+    {
+      "passageId": "passage:chapter-29-71ae35ecbd",
+      "title": "New professional networks",
+      "url": "/stories/becoming-a-gis-professional/#new-professional-networks"
+    },
+    {
+      "passageId": "passage:chapter-29-9cd7ad9755",
+      "title": "The skills shortage becomes visible",
+      "url": "/stories/becoming-a-gis-professional/#the-skills-shortage-becomes-visible"
+    },
+    {
+      "passageId": "passage:chapter-33-51393f242c",
+      "title": "The LINZ Data Service",
+      "url": "/stories/open-data-changes-access/#the-linz-data-service"
+    },
+    {
+      "passageId": "passage:chapter-35-71de0c0d83",
+      "title": "The map becomes an application",
+      "url": "/stories/the-map-becomes-an-application/#the-map-becomes-an-application"
+    },
+    {
+      "passageId": "passage:chapter-44-ebb70c2c9a",
+      "title": "Reading maps with AI",
+      "url": "/stories/gis-at-the-end-of-2025/#maps-become-machine-readable-evidence"
+    },
+    {
+      "passageId": "passage:chapter-10-3248d864d9",
+      "title": "Conservation databases, 1990",
+      "url": "/stories/gis-inside-government/#conservation-databases-1990"
+    },
+    {
+      "passageId": "passage:chapter-11-224cf9ea6b",
+      "title": "Cyclone Bola erosion research, 1995",
+      "url": "/stories/universities-build-a-field/#hendriksen-cyclone-bola-1995"
+    }
+  ]
+}

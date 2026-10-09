@@ -1,0 +1,31 @@
+{
+  "id": "person:jimmy-millar",
+  "slug": "jimmy-millar",
+  "name": "Jimmy Millar",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jimmy-millar/",
+  "story": [
+    "Jimmy Millar of Hastings District Council co-presented the GIS response to the Havelock North water-contamination incident at the 2017 New Zealand Esri User Conference. The record names one of the council practitioners involved in applying GIS during the public-health response."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Jimmy Millar"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

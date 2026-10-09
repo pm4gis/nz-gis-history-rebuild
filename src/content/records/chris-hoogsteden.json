@@ -1,0 +1,31 @@
+{
+  "id": "person:chris-hoogsteden",
+  "slug": "chris-hoogsteden",
+  "name": "Chris Hoogsteden",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/chris-hoogsteden/",
+  "story": [
+    "Chris Hoogsteden and Derry Gordon's 1991 discussion of the national surveying and mapping agency in a GIS world reflects that broader shift from map producer towards custodian and supplier of spatial information. The national topographic database, later digital series and Topo50 became part of departmental spatial production."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 10 · Topographic databases",
+      "url": "/stories/gis-inside-government/"
+    }
+  ],
+  "aliases": [
+    "Chris Hoogsteden"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 10 · Topographic databases",
+        "url": "/stories/gis-inside-government/"
+      }
+    ]
+  ]
+}

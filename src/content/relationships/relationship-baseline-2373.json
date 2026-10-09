@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2373",
+  "a": "person:matt-grose",
+  "b": "entity:nga-poutama-matawhenua",
+  "label": "Named participant or presenter",
+  "basis": "LINZ Ngā Poutama Matawhenua programme record",
+  "passageIds": [],
+  "sources": []
+}

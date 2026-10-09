@@ -1,0 +1,54 @@
+{
+  "id": "person:nic-donnelly",
+  "slug": "nic-donnelly",
+  "name": "Nic Donnelly",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/nic-donnelly/",
+  "story": [
+    "Nic Donnelly worked in LINZ’s National Geodetic Office and appears in public education, geodetic and earthquake-response records on New Zealand’s reference frame. LINZ’s schools material identifies him as a geodetic surveyor, and later technical records document work measuring and analysing land movement after the Canterbury and Kaikōura earthquakes.",
+    "LINZ names Nic Donnelly in its geospatial virtual field-trip record: Geodetic Surveyor, LINZ, 2012 VFT."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    },
+    {
+      "label": "LEARNZ, Nic Donnelly geodetic work",
+      "url": "https://www.learnz.org.nz/node/1978"
+    },
+    {
+      "label": "LINZ, geodetic workshops",
+      "url": "https://www.linz.govt.nz/guidance/geodetic-system/geodetic-standards-specifications-and-resources/geodetic-publications-and-presentations/geodetic-workshops"
+    }
+  ],
+  "aliases": [
+    "Nic Donnelly"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      },
+      {
+        "label": "LEARNZ, Nic Donnelly geodetic work",
+        "url": "https://www.learnz.org.nz/node/1978"
+      },
+      {
+        "label": "LINZ, geodetic workshops",
+        "url": "https://www.linz.govt.nz/guidance/geodetic-system/geodetic-standards-specifications-and-resources/geodetic-publications-and-presentations/geodetic-workshops"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

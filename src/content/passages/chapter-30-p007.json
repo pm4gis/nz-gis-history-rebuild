@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-30-01d6cbfd7e",
+  "slug": "public-access-without-open-data-01d6cbfd7e",
+  "articleId": "article:chapter-30",
+  "title": "Public access without open data",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "That separation between viewing and reuse appeared elsewhere. A council could display parcels, rates information or aerial photography while still restricting bulk access to some underlying datasets. A public-health site could show aggregated disease patterns without exposing individual records. An internal government portal could make operational layers available to staff while keeping them off the public Internet. Web GIS allowed organisations to widen access selectively.",
+      "markdown": "That separation between viewing and reuse appeared elsewhere. A council could display parcels, rates information or aerial photography while still restricting bulk access to some underlying datasets. A public-health site could show aggregated disease patterns without exposing individual records. An internal government portal could make operational layers available to staff while keeping them off the public Internet. Web GIS allowed organisations to widen access selectively.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This selectivity was also part of information governance. Once maps moved beyond specialist staff, organisations had to decide which attributes could be shown, what scale of information was appropriate, how frequently the data should be refreshed and what disclaimers were required. Public users also needed an interface that reduced the chance of misreading technical information as a definitive legal or operational record.",
+      "markdown": "This selectivity was also part of information governance. Once maps moved beyond specialist staff, organisations had to decide which attributes could be shown, what scale of information was appropriate, how frequently the data should be refreshed and what disclaimers were required. Public users also needed an interface that reduced the chance of misreading technical information as a definitive legal or operational record.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The browser created a new publishing responsibility for GIS teams. A desktop analyst could be assumed to understand some of a dataset’s limits; a member of the public could not. Help pages, explanatory notes and warnings became part of the spatial service. Dunedin WebMap’s help pages explained cadastral limitations, rating relationships, aerial-photo alignment and why some information appeared only at particular scales.",
+      "markdown": "The browser created a new publishing responsibility for GIS teams. A desktop analyst could be assumed to understand some of a dataset’s limits; a member of the public could not. Help pages, explanatory notes and warnings became part of the spatial service. Dunedin WebMap’s help pages explained cadastral limitations, rating relationships, aerial-photo alignment and why some information appeared only at particular scales.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same pattern would become normal in later public data portals, but in the early 2000s it was still being worked out application by application. The first web maps were teaching organisations how to become publishers of interactive geographic information.",
+      "markdown": "The same pattern would become normal in later public data portals, but in the early 2000s it was still being worked out application by application. The first web maps were teaching organisations how to become publishers of interactive geographic information.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

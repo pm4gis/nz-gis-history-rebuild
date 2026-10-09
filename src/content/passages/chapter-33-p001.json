@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-33-8d2a393282",
+  "slug": "viewing-and-reuse-8d2a393282",
+  "articleId": "article:chapter-33",
+  "title": "Viewing and reuse",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the early 2000s New Zealanders could already see a surprising amount of geographic information on the web. Statistics New Zealand had a free Census WebMap by March 2002. Councils were putting property and planning information into browser viewers. Government agencies were learning that a useful map no longer had to sit on a specialist workstation. Yet being able to look at a map was not the same as being able to take the data away and use it in another GIS. Open-data policy later addressed permission to obtain and reuse the underlying datasets.",
+      "markdown": "By the early 2000s New Zealanders could already see a surprising amount of geographic information on the web. Statistics New Zealand had a free Census WebMap by March 2002. Councils were putting property and planning information into browser viewers. Government agencies were learning that a useful map no longer had to sit on a specialist workstation. Yet being able to look at a map was not the same as being able to take the data away and use it in another GIS. Open-data policy later addressed permission to obtain and reuse the underlying datasets.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "March 2002 Statistics New Zealand product material records the available products and their access conditions. A public user could view census geography through a free WebMap, but the reusable GIS products underneath it still carried prices. The complete Meshblock Database was listed at NZ$1,200 plus GST, with multi-organisation use at NZ$5,000 plus GST. The browser had opened a window onto the information, but the underlying data were still being treated as a product supplied under particular commercial and licensing terms.",
+      "markdown": "March 2002 Statistics New Zealand product material records the available products and their access conditions. A public user could view census geography through a free WebMap, but the reusable GIS products underneath it still carried prices. The complete Meshblock Database was listed at NZ$1,200 plus GST, with multi-organisation use at NZ$5,000 plus GST. The browser had opened a window onto the information, but the underlying data were still being treated as a product supplied under particular commercial and licensing terms.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For a GIS practitioner, that difference was practical rather than philosophical. A web map could help answer a question on screen. It could show where a meshblock was, what a council parcel looked like or how a statistical pattern was distributed. But if the job required combining the same geography with local data, running analysis, producing a new map series or building an application, the organisation needed the actual data and permission to use them. That usually meant finding the supplier, understanding the product, paying the required charge and working within the licence.",
+      "markdown": "For a GIS practitioner, that difference was practical rather than philosophical. A web map could help answer a question on screen. It could show where a meshblock was, what a council parcel looked like or how a statistical pattern was distributed. But if the job required combining the same geography with local data, running analysis, producing a new map series or building an application, the organisation needed the actual data and permission to use them. That usually meant finding the supplier, understanding the product, paying the required charge and working within the licence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Access to New Zealand spatial data changed through successive releases and licensing decisions. Some prices collapsed before licences became standardised. Some data could be viewed freely before they could be downloaded. Some datasets were distributed cheaply while reuse remained controlled. By the early 2010s, important national datasets were increasingly shared across organisations.",
+      "markdown": "Access to New Zealand spatial data changed through successive releases and licensing decisions. Some prices collapsed before licences became standardised. Some data could be viewed freely before they could be downloaded. Some datasets were distributed cheaply while reuse remained controlled. By the early 2010s, important national datasets were increasingly shared across organisations.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

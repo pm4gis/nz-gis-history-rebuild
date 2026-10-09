@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-0632",
+  "a": "person:steve-critchlow",
+  "b": "chapter:12",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-12-b4162ebd37",
+    "passage:chapter-12-0a270cec64"
+  ],
+  "sources": []
+}

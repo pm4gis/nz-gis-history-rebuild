@@ -1,0 +1,26 @@
+{
+  "id": "passage:chapter-23-43f9920eb4",
+  "slug": "council-maps-become-a-public-data-source-43f9920eb4",
+  "articleId": "article:chapter-23",
+  "title": "Council maps become a public data source",
+  "order": 17,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A 2026 Ngā Poutama Matawhenua session used Bay of Plenty Regional Council’s BayMaps as a case study in finding and reusing local-government GIS information. The session treated council viewers and datasets as working inputs for iwi, hapū and community projects rather than as finished maps to be viewed passively. LINZ’s career profiles reinforce the same transition from inside the council: Amit Kokje described geospatial platform and support work at Auckland Council, Rebecca McMorran combined transport analysis with GIS at Wellington City Council, and Jana Kaeppler described web mapping, cemetery information, 3D work and core data management at Mackenzie District Council. These examples provide named practitioner links without turning the chapter into a staff directory.",
+      "markdown": "A 2026 Ngā Poutama Matawhenua session used Bay of Plenty Regional Council’s BayMaps as a case study in finding and reusing local-government GIS information. The session treated council viewers and datasets as working inputs for iwi, hapū and community projects rather than as finished maps to be viewed passively. LINZ’s career profiles reinforce the same transition from inside the council: Amit Kokje described geospatial platform and support work at Auckland Council, Rebecca McMorran combined transport analysis with GIS at Wellington City Council, and Jana Kaeppler described web mapping, cemetery information, 3D work and core data management at Mackenzie District Council. These examples provide named practitioner links without turning the chapter into a staff directory.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

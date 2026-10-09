@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1053",
+  "a": "person:m-s-colley",
+  "b": "entity:university-of-canterbury",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-19-e2551fe26f",
+  "slug": "a-global-position-in-a-local-system-e2551fe26f",
+  "articleId": "article:chapter-19",
+  "title": "A global position in a local system",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the early 1990s, New Zealand surveyors could determine positions from satellites with increasing precision, but the national coordinate framework had been built for a different era. The New Zealand Geodetic Datum 1949 had provided the basis for surveying and mapping for decades, while the New Zealand Map Grid carried national topographic mapping into metric production. Neither had been designed around a global geocentric reference system. GPS observations arrived naturally connected to international reference frames whose origin was at the centre of the Earth.",
+      "markdown": "By the early 1990s, New Zealand surveyors could determine positions from satellites with increasing precision, but the national coordinate framework had been built for a different era. The New Zealand Geodetic Datum 1949 had provided the basis for surveying and mapping for decades, while the New Zealand Map Grid carried national topographic mapping into metric production. Neither had been designed around a global geocentric reference system. GPS observations arrived naturally connected to international reference frames whose origin was at the centre of the Earth.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change affected how coordinates were related to the Earth. New Zealand lies across the boundary between the Australian and Pacific plates, and positions measured in an international reference frame change as the crust moves. The motion is large enough to become visible in precision surveying over a relatively short period. A local datum that treated its control network as fixed could continue to support ordinary mapping, but increasingly accurate GPS observations would expose distortions accumulated through tectonic movement and the history of the older survey network.",
+      "markdown": "The change affected how coordinates were related to the Earth. New Zealand lies across the boundary between the Australian and Pacific plates, and positions measured in an international reference frame change as the crust moves. The motion is large enough to become visible in precision surveying over a relatively short period. A local datum that treated its control network as fixed could continue to support ordinary mapping, but increasingly accurate GPS observations would expose distortions accumulated through tectonic movement and the history of the older survey network.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NZGD49 had served national surveying and mapping for decades. It had been built from the survey technology, observations and national requirements available in the middle of the twentieth century and supported the cadastral and mapping systems described earlier in this book. The problem in the 1990s was that a datum designed around terrestrial control had to coexist with a positioning technology tied directly to global reference frames. New Zealand also needed a framework that could recognise that the ground itself was moving.",
+      "markdown": "NZGD49 had served national surveying and mapping for decades. It had been built from the survey technology, observations and national requirements available in the middle of the twentieth century and supported the cadastral and mapping systems described earlier in this book. The problem in the 1990s was that a datum designed around terrestrial control had to coexist with a positioning technology tied directly to global reference frames. New Zealand also needed a framework that could recognise that the ground itself was moving.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The replacement programme therefore began with measurement. Before a new national datum could be declared, surveyors and geodesists had to observe a network that tied New Zealand into the international system and provided enough repeated data to estimate how positions were changing.",
+      "markdown": "The replacement programme therefore began with measurement. Before a new national datum could be declared, surveyors and geodesists had to observe a network that tied New Zealand into the international system and provided enough repeated data to estimate how positions were changing.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

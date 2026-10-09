@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-26-33980460b0",
+  "slug": "environmental-gis-at-property-scale-33980460b0",
+  "articleId": "article:chapter-26",
+  "title": "Environmental GIS at property scale",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The riparian programme differed from a general council property viewer because the map was part of an intervention. A line along a stream could represent proposed fencing. A polygon or annotation could represent a planting recommendation. Later field visits changed the record from proposed work to implemented work. The data therefore tracked a management process over time.",
+      "markdown": "The riparian programme differed from a general council property viewer because the map was part of an intervention. A line along a stream could represent proposed fencing. A polygon or annotation could represent a planting recommendation. Later field visits changed the record from proposed work to implemented work. The data therefore tracked a management process over time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That created an environmental record capable of being aggregated without losing the property detail from which it came. The council could count kilometres fenced or areas planted, examine progress within a catchment and identify properties where work remained. The map was no longer just an illustration in a farm plan. It was also a structured record used to manage a regional programme.",
+      "markdown": "That created an environmental record capable of being aggregated without losing the property detail from which it came. The council could count kilometres fenced or areas planted, examine progress within a catchment and identify properties where work remained. The map was no longer just an illustration in a farm plan. It was also a structured record used to manage a regional programme.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Environmental programmes required repeated observations, plan updates and progress reporting. Monitoring sites are revisited, consents are renewed, plans are updated, river conditions are measured and land-management programmes return to the same properties. A GIS that preserves the previous record reduces the need to reconstruct geography each time the programme comes around again.",
+      "markdown": "Environmental programmes required repeated observations, plan updates and progress reporting. Monitoring sites are revisited, consents are renewed, plans are updated, river conditions are measured and land-management programmes return to the same properties. A GIS that preserves the previous record reduces the need to reconstruct geography each time the programme comes around again.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "It also creates a history of change. That can be useful scientifically and administratively, but only if dates and status are retained. A current riparian layer that overwrites all previous states may be adequate for today’s work but poor for evaluating how the programme developed. Environmental GIS therefore benefits from the same version and provenance disciplines encountered elsewhere in the book, even when the subject is a streambank rather than a cadastral parcel or electricity network.",
+      "markdown": "It also creates a history of change. That can be useful scientifically and administratively, but only if dates and status are retained. A current riparian layer that overwrites all previous states may be adequate for today’s work but poor for evaluating how the programme developed. Environmental GIS therefore benefits from the same version and provenance disciplines encountered elsewhere in the book, even when the subject is a streambank rather than a cadastral parcel or electricity network.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

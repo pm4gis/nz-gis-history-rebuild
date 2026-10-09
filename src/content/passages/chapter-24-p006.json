@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-24-5f49908484",
+  "slug": "regulation-is-geometry-5f49908484",
+  "articleId": "article:chapter-24",
+  "title": "Regulation is geometry",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:24"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Minerals and petroleum administration provides a different government case because geography is written directly into the legal object being administered. A permit applies to an area. The boundary therefore has to be described precisely enough for applicants, regulators and other users to identify where the rights apply. By the 2000s the regulatory framework was explicitly describing those areas through maps, coordinates and official reference systems.",
+      "markdown": "Minerals and petroleum administration provides a different government case because geography is written directly into the legal object being administered. A permit applies to an area. The boundary therefore has to be described precisely enough for applicants, regulators and other users to identify where the rights apply. By the 2000s the regulatory framework was explicitly describing those areas through maps, coordinates and official reference systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Crown Minerals (Minerals Other than Petroleum) Regulations 2007 set requirements for permit maps and the description of permit areas. Boundaries could be defined using coordinates, land parcels, bearings and distances, geographic features, coastlines and other specified references. The petroleum regulations similarly required mapped permit areas and information about the datum and projection used. The permit was an administrative record whose legal extent depended on spatial definition.",
+      "markdown": "The Crown Minerals (Minerals Other than Petroleum) Regulations 2007 set requirements for permit maps and the description of permit areas. Boundaries could be defined using coordinates, land parcels, bearings and distances, geographic features, coastlines and other specified references. The petroleum regulations similarly required mapped permit areas and information about the datum and projection used. The permit was an administrative record whose legal extent depended on spatial definition.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Permit officers could use the system without becoming GIS specialists. The permit system had to preserve geometry accurately enough to support regulatory work. Applications had to be checked against existing rights and the geography of the area concerned. Changes, relinquishments and new permits altered the permit pattern over time. A spatial database was a natural way to maintain that changing set of areas alongside permit identifiers and status information.",
+      "markdown": "Permit officers could use the system without becoming GIS specialists. The permit system had to preserve geometry accurately enough to support regulatory work. Applications had to be checked against existing rights and the geography of the area concerned. Changes, relinquishments and new permits altered the permit pattern over time. A spatial database was a natural way to maintain that changing set of areas alongside permit identifiers and status information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later New Zealand Petroleum and Minerals services make that connection visible. Permit-register information is linked with GIS databases and web maps, and users can view permit areas, print maps, download spatial files and use web services. Current mapping guidance accepts digital geographic formats and specifies the national datum and projection used for submitted data. These services developed after 2007, extending the earlier regulatory mapping requirements.",
+      "markdown": "Later New Zealand Petroleum and Minerals services make that connection visible. Permit-register information is linked with GIS databases and web maps, and users can view permit areas, print maps, download spatial files and use web services. Current mapping guidance accepts digital geographic formats and specifies the national datum and projection used for submitted data. These services developed after 2007, extending the earlier regulatory mapping requirements.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Crown Minerals case differs from Treasury and Varroa because the geometry forms part of the regulated object itself. An incorrectly placed permit boundary can affect whether an area is available for application and how rights overlap. Coordinate reference information, source geometry and area definitions therefore become part of administrative quality control.",
+      "markdown": "The Crown Minerals case differs from Treasury and Varroa because the geometry forms part of the regulated object itself. An incorrectly placed permit boundary can affect whether an area is available for application and how rights overlap. Coordinate reference information, source geometry and area definitions therefore become part of administrative quality control.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The system also depends on data maintained elsewhere. Coastlines, cadastral information, coordinate frameworks and place references originate in other national systems. Geological information may inform exploration without defining the legal permit itself. The regulatory database sits among these sources and has to distinguish the permit geometry it controls from reference data supplied by other organisations.",
+      "markdown": "The system also depends on data maintained elsewhere. Coastlines, cadastral information, coordinate frameworks and place references originate in other national systems. Geological information may inform exploration without defining the legal permit itself. The regulatory database sits among these sources and has to distinguish the permit geometry it controls from reference data supplied by other organisations.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

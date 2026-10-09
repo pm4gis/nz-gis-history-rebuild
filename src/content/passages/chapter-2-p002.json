@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-2-57e353c855",
+  "slug": "the-first-government-machines-57e353c855",
+  "articleId": "article:chapter-2",
+  "title": "The first government machines",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:2"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand’s tidy “first computer” story is less tidy than later summaries sometimes imply. Computing-history research gives a credible case that an ICT 1201 used by the Department of Education preceded Treasury’s better-known IBM 650 by a few months. Official Public Service history gave the Treasury machine a prominent first-Public-Service role. The IBM 650 was installed in late 1960 and formally inaugurated in March 1961, which makes 1960-61 a safer boundary for the arrival of stored-program electronic computing in central government than a single trophy date.",
+      "markdown": "New Zealand’s tidy “first computer” story is less tidy than later summaries sometimes imply. Computing-history research gives a credible case that an ICT 1201 used by the Department of Education preceded Treasury’s better-known IBM 650 by a few months. Official Public Service history gave the Treasury machine a prominent first-Public-Service role. The IBM 650 was installed in late 1960 and formally inaugurated in March 1961, which makes 1960-61 a safer boundary for the arrival of stored-program electronic computing in central government than a single trophy date.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The machines bore little resemblance to the later desktop computers on which GIS became familiar. The IBM 650 used a magnetic drum for memory and relied heavily on punched-card input and output. Programs and data were prepared before a job ran, rather than explored interactively on a screen. An operator did not drag a map, inspect a layer or click a coordinate. The computer received a carefully structured numerical problem and returned results that staff then had to interpret and use elsewhere.",
+      "markdown": "The machines bore little resemblance to the later desktop computers on which GIS became familiar. The IBM 650 used a magnetic drum for memory and relied heavily on punched-card input and output. Programs and data were prepared before a job ran, rather than explored interactively on a screen. An operator did not drag a map, inspect a layer or click a coordinate. The computer received a carefully structured numerical problem and returned results that staff then had to interpret and use elsewhere.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Shared capacity was normal. A government agency did not necessarily own the machine doing its calculation, and the machine itself could spend the day moving between finance, statistics, science and engineering jobs. That operating model influenced early spatial computing. Survey and engineering staff had to reformulate their work so it could be expressed as inputs, calculations and outputs suitable for batch processing. The practical innovation was often as much in preparing and checking the data as in the arithmetic performed by the machine.",
+      "markdown": "Shared capacity was normal. A government agency did not necessarily own the machine doing its calculation, and the machine itself could spend the day moving between finance, statistics, science and engineering jobs. That operating model influenced early spatial computing. Survey and engineering staff had to reformulate their work so it could be expressed as inputs, calculations and outputs suitable for batch processing. The practical innovation was often as much in preparing and checking the data as in the arithmetic performed by the machine.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

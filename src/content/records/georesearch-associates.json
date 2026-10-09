@@ -1,0 +1,27 @@
+{
+  "id": "entity:georesearch-associates",
+  "slug": "georesearch-associates",
+  "name": "GeoResearch Associates",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/georesearch-associates/",
+  "website": null,
+  "story": [
+    "Robin Falconer operated GeoResearch Associates from 1980 to 1994, according to his 2014 account. The environmental and oceanographic consultancy used GIS alongside survey and scientific investigation, including early-1990s deepwater bathymetry. Falconer also participated in the early Esri user community."
+  ],
+  "sources": [
+    {
+      "label": "Robin Falconer, evidence filed with the Environmental Protection Authority, project history",
+      "url": "https://www.epa.govt.nz/assets/FileAPI/proposal/EEZ000006/Evidence/EEZ000006-03AppEvidence-Falconer-Robin-Project-history.pdf"
+    }
+  ],
+  "aliases": [
+    "GeoResearch Associates"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

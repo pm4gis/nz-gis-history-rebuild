@@ -1,0 +1,33 @@
+{
+  "id": "entity:explorer-graphics-northsouth-gis",
+  "slug": "explorer-graphics-northsouth-gis",
+  "name": "Explorer Graphics / NorthSouth GIS",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/explorer-graphics-northsouth-gis/",
+  "website": null,
+  "story": [
+    "David and Beryl Pimblott founded Explorer Graphics in 1987. The business developed GIS consultancy, applications and public web mapping, joining a NorthSouth GIS collaboration in 2005. The New Zealand business adopted the NorthSouth GIS name in 2011 and was acquired by AAM in 2014. Its history follows the movement from specialist local consulting to web services and a wider international business, with staff and customer relationships continuing through changes of name and ownership.",
+    "CERA’s 2016 spatial-data infrastructure whitepaper records LINZ’s initial funding of a cloud-hosted GIS supplied by NorthSouth GIS for Canterbury earthquake recovery. This was a specific New Zealand service-delivery role within the company’s international consulting history. The company’s retrospective dates the end of operation under the NorthSouth GIS NZ name to 2016, following AAM’s acquisition."
+  ],
+  "sources": [
+    {
+      "label": "NorthSouth GIS, History",
+      "url": "https://www.northsouthgis.com/about-nsg/history"
+    },
+    {
+      "label": "Stephen Ferriss and Martin Erasmuson, CERA Spatial Data Infrastructure whitepaper, March 2016",
+      "url": "https://www.dpmc.govt.nz/sites/default/files/2024-04/the_cera_spatial_data_infrastructure_whitepaper_0.pdf"
+    }
+  ],
+  "aliases": [
+    "Explorer Graphics",
+    "NorthSouth GIS"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

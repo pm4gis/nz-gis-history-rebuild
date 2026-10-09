@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1919",
+  "a": "person:james-brasington",
+  "b": "chapter:39",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-39-ca1f5dae42"
+  ],
+  "sources": []
+}

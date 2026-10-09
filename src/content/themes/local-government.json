@@ -1,0 +1,47 @@
+{
+  "id": "local-government",
+  "slug": "local-government",
+  "title": "Local government GIS",
+  "description": "Follow council adoption from specialist systems to corporate and public-facing GIS.",
+  "color": "#b69bc9",
+  "passageIds": [
+    "passage:chapter-6-864f71f48e",
+    "passage:chapter-23-2085360bd2",
+    "passage:chapter-23-8cc0b38217",
+    "passage:chapter-23-359577828b",
+    "passage:chapter-23-c108b6d8a2",
+    "passage:chapter-30-46e20e67ed"
+  ],
+  "stops": [
+    {
+      "passageId": "passage:chapter-6-864f71f48e",
+      "title": "North Taranaki, 1986",
+      "url": "/stories/when-gis-became-gis/#north-taranaki-1986"
+    },
+    {
+      "passageId": "passage:chapter-23-2085360bd2",
+      "title": "Adoption accelerates",
+      "url": "/stories/councils-build-corporate-gis/#adoption-accelerates"
+    },
+    {
+      "passageId": "passage:chapter-23-8cc0b38217",
+      "title": "A corporate system",
+      "url": "/stories/councils-build-corporate-gis/#a-corporate-system"
+    },
+    {
+      "passageId": "passage:chapter-23-359577828b",
+      "title": "Auckland works across boundaries",
+      "url": "/stories/councils-build-corporate-gis/#auckland-works-across-boundaries"
+    },
+    {
+      "passageId": "passage:chapter-23-c108b6d8a2",
+      "title": "Upper Hutt opens the door",
+      "url": "/stories/councils-build-corporate-gis/#upper-hutt-opens-the-door"
+    },
+    {
+      "passageId": "passage:chapter-30-46e20e67ed",
+      "title": "WebMap inside the council",
+      "url": "/stories/the-first-web-maps/#webmap-inside-the-council"
+    }
+  ]
+}

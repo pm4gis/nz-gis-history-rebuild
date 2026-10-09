@@ -1,0 +1,35 @@
+{
+  "id": "entity:horizons-regional-council-manawatu-wanganui-regional-council",
+  "slug": "horizons-regional-council-manawatu-wanganui-regional-council",
+  "name": "Horizons Regional Council / Manawatū-Wanganui Regional Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/horizons-regional-council-manawatu-wanganui-regional-council/",
+  "website": "https://www.horizons.govt.nz",
+  "story": [
+    "After the February 2004 floods, Horizons’ Flood Plain Mapping Project used LiDAR, digital elevation models and hydraulic modelling to map flood hazards. A 2005 LiDAR survey supplied terrain data later reused in environmental, infrastructure and hazard work."
+  ],
+  "sources": [
+    {
+      "label": "Archives Central, Horizons Regional Council reports and project records relating to the 2004 flood and subsequent floodplain mapping/LiDAR",
+      "url": "https://archivescentral.org.nz/horizons-regional-council/recordset/horizons-regional-council-reports-no-numbering?order=field_has_beginning_date&page=0&sort=asc"
+    },
+    {
+      "label": "Archives Central, Flood Plain Hazard Assessment Hydraulic Modelling and Mapping - Mangaone Stream and Taonui Basin and Manawatu Breach, HRC 00460:2:54",
+      "url": "https://archivescentral.org.nz/horizons-regional-council/record/flood-plain-hazard-assessment-hydraulic-modelling-and-mapping"
+    },
+    {
+      "label": "Andrew Steffert, Horizons Regional Council Flood Plain Mapping Project and LiDAR Overview, 8th ICA Mountain Cartography Workshop",
+      "url": "https://mountaincartography.icaci.org/publications/papers/papers_taurewa_12/papers/mcw2012_sec5_ch18_p119-120_steffert.pdf"
+    }
+  ],
+  "aliases": [
+    "Horizons Regional Council",
+    "Manawatū-Wanganui Regional Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

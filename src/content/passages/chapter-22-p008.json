@@ -1,0 +1,49 @@
+{
+  "id": "passage:chapter-22-38b6be3006",
+  "slug": "desktop-costs-38b6be3006",
+  "articleId": "article:chapter-22",
+  "title": "Desktop costs",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22",
+    "entity:critchlow",
+    "entity:eagle-technology",
+    "entity:bay-of-plenty-regional-council",
+    "person:stuart-halliday"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Desktop GIS lowered costs relative to many earlier specialist systems, but the software still required a budget. A New Zealand study completed in 2004 recorded a single-use ArcView licence at about NZ$3,750 plus GST, with annual maintenance of about NZ$1,200. A concurrent-use licence was recorded at NZ$8,750 plus GST with annual maintenance around NZ$1,800. These figures were observations gathered by the study in November 2004 rather than a universal national tariff.",
+      "markdown": "Desktop GIS lowered costs relative to many earlier specialist systems, but the software still required a budget. A New Zealand study completed in 2004 recorded a single-use ArcView licence at about NZ$3,750 plus GST, with annual maintenance of about NZ$1,200. A concurrent-use licence was recorded at NZ$8,750 plus GST with annual maintenance around NZ$1,800. These figures were observations gathered by the study in November 2004 rather than a universal national tariff.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Training added another cost. The same study recorded introductory two-day vendor courses in the range of roughly a thousand dollars or more. An organisation buying one licence therefore also had to consider support, upgrades and the time required for staff to learn the software. The barrier was lower than purchasing a specialist workstation environment, but it had not disappeared.",
+      "markdown": "Training added another cost. The same study recorded introductory two-day vendor courses in the range of roughly a thousand dollars or more. An organisation buying one licence therefore also had to consider support, upgrades and the time required for staff to learn the software. The barrier was lower than purchasing a specialist workstation environment, but it had not disappeared.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The New Zealand supplier network helped organisations cross that barrier. Eagle Technology supported Esri products. Critchlow Associates supplied MapInfo, data and related services. Intergraph Corporation New Zealand supported GeoMedia and the company’s wider product line. These firms provided local training, technical support and implementation assistance as well as software licences.",
+      "markdown": "The New Zealand supplier network helped organisations cross that barrier. Eagle Technology supported Esri products. Critchlow Associates supplied MapInfo, data and related services. Intergraph Corporation New Zealand supported GeoMedia and the company’s wider product line. These firms provided local training, technical support and implementation assistance as well as software licences.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2004 the same study found different patterns across its sample rather than one dominant desktop. Regional councils leaned toward ArcGIS, district councils were more mixed, and Māori organisations in the sample tended toward MapInfo. Environment Waikato was reported as using all three of the main desktop families when required. The finding is a snapshot of the study population, but it captures a market in which GIS users could choose among several established desktop environments.",
+      "markdown": "By 2004 the same study found different patterns across its sample rather than one dominant desktop. Regional councils leaned toward ArcGIS, district councils were more mixed, and Māori organisations in the sample tended toward MapInfo. Environment Waikato was reported as using all three of the main desktop families when required. The finding is a snapshot of the study population, but it captures a market in which GIS users could choose among several established desktop environments.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Bay of Plenty gives the same period a more personal shape. Stuart Halliday later recorded that he became GIS Team Leader at the Bay of Plenty Regional Council in November 1992 and stayed until July 2003, establishing and implementing the council GIS, writing strategy, supervising three staff and integrating spatial and textual databases. A 2003 national report on New Zealand cartography, to which Halliday contributed, shows that the council did not treat every map-making task as GIS work. In 1998 it created a separate cartography section after deciding that GIS analysis and specialist map production required different skills. CorelDraw, Illustrator and Freehand remained part of the cartographic toolset, supplemented by GIS, CAD and remote-sensing software. Council mapping brought together several specialist systems and working practices.",
+      "markdown": "The Bay of Plenty gives the same period a more personal shape. Stuart Halliday later recorded that he became GIS Team Leader at the Bay of Plenty Regional Council in November 1992 and stayed until July 2003, establishing and implementing the council GIS, writing strategy, supervising three staff and integrating spatial and textual databases. A 2003 national report on New Zealand cartography, to which Halliday contributed, shows that the council did not treat every map-making task as GIS work. In 1998 it created a separate cartography section after deciding that GIS analysis and specialist map production required different skills. CorelDraw, Illustrator and Freehand remained part of the cartographic toolset, supplemented by GIS, CAD and remote-sensing software. Council mapping brought together several specialist systems and working practices.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

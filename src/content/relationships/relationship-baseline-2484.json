@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2484",
+  "a": "entity:geospatial-special-interest-group-lgga",
+  "b": "chapter:21",
+  "label": "Discussed in chapter",
+  "basis": "LGGA/Geospatial SIG work on imagery, national datasets, local-government collaboration and open spatial data.",
+  "passageIds": [],
+  "sources": []
+}

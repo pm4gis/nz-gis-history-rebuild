@@ -1,0 +1,52 @@
+{
+  "id": "person:r-d-williams",
+  "slug": "r-d-williams",
+  "name": "R. D. Williams",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/r-d-williams/",
+  "story": [
+    "R. D. Williams wrote the LADEDA Plotting Handbook, published by the Hydrology Centre in May 1982. With P. R. van Berkel, Williams then described LADEDA as a geographic information system in a 1985 New Zealand Geographer paper. These publications document technical writing and system development within the government land-resource programme.",
+    "P. R. van Berkel and R. D. Williams published “Introduction to LADEDA: a Geographic Information System” in the New Zealand Geographer. The authors used the term GIS in 1985. That year the University of Auckland Geography Department was teaching a senior undergraduate GIS course, while DSIR’s Science Mapping Unit was beginning to use an Intergraph GIS."
+  ],
+  "sources": [
+    {
+      "label": "P. R. van Berkel and R. D. Williams, Introduction to LADEDA — a Geographic Information System, New Zealand Geographer 41(2)",
+      "url": "https://doi.org/10.1111/j.1745-7939.1985.tb01076.x"
+    },
+    {
+      "label": "Hydrology Centre publication list, LADEDA Plotting Handbook, R. D. Williams, May 1982",
+      "url": "https://webstatic.niwa.co.nz/library/pHCC2.pdf"
+    },
+    {
+      "label": "Chapter 6 · A shared name",
+      "url": "/stories/when-gis-became-gis/"
+    }
+  ],
+  "aliases": [
+    "R. D. Williams"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "P. R. van Berkel and R. D. Williams, Introduction to LADEDA — a Geographic Information System, New Zealand Geographer 41(2)",
+        "url": "https://doi.org/10.1111/j.1745-7939.1985.tb01076.x"
+      },
+      {
+        "label": "Hydrology Centre publication list, LADEDA Plotting Handbook, R. D. Williams, May 1982",
+        "url": "https://webstatic.niwa.co.nz/library/pHCC2.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 6 · A shared name",
+        "url": "/stories/when-gis-became-gis/"
+      }
+    ]
+  ]
+}

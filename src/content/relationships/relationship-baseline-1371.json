@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1371",
+  "a": "entity:ministry-of-works-and-development",
+  "b": "chapter:10",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-10-54f7941b19",
+    "passage:chapter-10-69b7186ba7"
+  ],
+  "sources": []
+}

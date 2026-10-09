@@ -1,0 +1,38 @@
+{
+  "id": "entity:grow-gis-nz",
+  "slug": "grow-gis-nz",
+  "name": "Grow GIS NZ",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/grow-gis-nz/",
+  "website": "https://www.facebook.com/growgisnz/",
+  "story": [
+    "Grow GIS NZ is the public-facing social-media channel associated with LINZ’s Geospatial Capability Committee. Its Facebook page shares geospatial capability events, courses, people and places. The channel complements committee work on education, careers, workforce participation and national geospatial capability.",
+    "LINZ also uses the GeoBites series for short online demonstrations of technical topics, New Zealand data and workflows. Together, these channels make professional resources easier to find beyond conferences and formal networks.",
+    "Together, the social-media channel and GeoBites make committee information, technical demonstrations and professional resources easier to find beyond conferences and formal networks."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    },
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "Grow GIS NZ Facebook page",
+      "url": "https://www.facebook.com/growgisnz/"
+    }
+  ],
+  "aliases": [
+    "Grow GIS NZ",
+    "GrowGISNZ"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

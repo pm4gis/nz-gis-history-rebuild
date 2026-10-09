@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-22-a8adb73340",
+  "slug": "the-copy-problem-a8adb73340",
+  "articleId": "article:chapter-22",
+  "title": "The copy problem",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Desktop GIS made spatial data easier to use and easier to duplicate. A central team could export a road network, census boundary layer or parcel dataset and place it on a network share. Staff could copy the file to their own project directories, rename it and pass it to somebody else. Within a short time an organisation could hold several versions of what everyone still called the same dataset.",
+      "markdown": "Desktop GIS made spatial data easier to use and easier to duplicate. A central team could export a road network, census boundary layer or parcel dataset and place it on a network share. Staff could copy the file to their own project directories, rename it and pass it to somebody else. Within a short time an organisation could hold several versions of what everyone still called the same dataset.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Maps could make differences in data quality difficult to see. A two-year-old road file could still draw perfectly. Parcel polygons did not announce that a subdivision had occurred after the export. Statistical boundaries could load beside newer census data even when their vintages no longer matched. The visual success of the overlay could give users confidence before they had checked dates, lineage or coordinate information.",
+      "markdown": "Maps could make differences in data quality difficult to see. A two-year-old road file could still draw perfectly. Parcel polygons did not announce that a subdivision had occurred after the export. Statistical boundaries could load beside newer census data even when their vintages no longer matched. The visual success of the overlay could give users confidence before they had checked dates, lineage or coordinate information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Desktop software therefore increased the work around version management and metadata. Organisations needed conventions for storing master datasets, identifying extracts and replacing old copies. Some teams built standard network locations or shared libraries. Others depended on users knowing which file was current. Chapter 21 described the national policy response around metadata and stewardship; on the desktop the same issue appeared as a folder full of plausible-looking files.",
+      "markdown": "Desktop software therefore increased the work around version management and metadata. Organisations needed conventions for storing master datasets, identifying extracts and replacing old copies. Some teams built standard network locations or shared libraries. Others depended on users knowing which file was current. Chapter 21 described the national policy response around metadata and stewardship; on the desktop the same issue appeared as a folder full of plausible-looking files.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Central databases later reduced some of that duplication by allowing multiple clients to connect to the same maintained source. During the desktop expansion, however, the copied file was one of the normal units of GIS work. It was portable, fast and easy to archive with a project. It was also disconnected from whatever happened next in the system that created it.",
+      "markdown": "Central databases later reduced some of that duplication by allowing multiple clients to connect to the same maintained source. During the desktop expansion, however, the copied file was one of the normal units of GIS work. It was portable, fast and easy to archive with a project. It was also disconnected from whatever happened next in the system that created it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

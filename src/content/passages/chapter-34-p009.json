@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-34-446cff88e4",
+  "slug": "synchronising-back-to-the-office-446cff88e4",
+  "articleId": "article:chapter-34",
+  "title": "Synchronising back to the office",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The history of mobile GIS can also be read as a history of the return journey. Vector’s 2002 iPAQs returned their edits through an office cradle. Other early projects copied files, imported tables or reconciled field datasets manually. Later systems synchronised over mobile networks or Wi-Fi whenever a connection became available. The physical trip back to the office stopped being the necessary boundary between observation and database update.",
+      "markdown": "The history of mobile GIS can also be read as a history of the return journey. Vector’s 2002 iPAQs returned their edits through an office cradle. Other early projects copied files, imported tables or reconciled field datasets manually. Later systems synchronised over mobile networks or Wi-Fi whenever a connection became available. The physical trip back to the office stopped being the necessary boundary between observation and database update.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Faster return created its own risks. An organisation could no longer rely on an experienced GIS operator to inspect every field sheet during manual entry. Validation increasingly had to be designed into the workflow. Some edits could be accepted directly. Others needed review. User permissions, edit history and stable identifiers became part of routine mobile configuration. The shorter the path from field observation to corporate database, the more deliberate the controls around that path needed to be.",
+      "markdown": "Faster return created its own risks. An organisation could no longer rely on an experienced GIS operator to inspect every field sheet during manual entry. Validation increasingly had to be designed into the workflow. Some edits could be accepted directly. Others needed review. User permissions, edit history and stable identifiers became part of routine mobile configuration. The shorter the path from field observation to corporate database, the more deliberate the controls around that path needed to be.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This changed what counted as GIS work. GIS specialists built domains, designed forms, set permissions, prepared offline map areas and managed synchronisation. The map was still there, but much of the expertise had moved behind the interface. Mobile GIS widened the user base partly by hiding complexity from the person doing the field job.",
+      "markdown": "This changed what counted as GIS work. GIS specialists built domains, designed forms, set permissions, prepared offline map areas and managed synchronisation. The map was still there, but much of the expertise had moved behind the interface. Mobile GIS widened the user base partly by hiding complexity from the person doing the field job.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

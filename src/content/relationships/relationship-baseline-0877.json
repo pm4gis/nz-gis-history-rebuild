@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0877",
+  "a": "person:david-medyckyj-scott",
+  "b": "chapter:30",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-30-1ac44c5733"
+  ],
+  "sources": []
+}

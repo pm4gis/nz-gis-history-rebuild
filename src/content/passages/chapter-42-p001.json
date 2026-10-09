@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-42-c6096c1cb2",
+  "slug": "when-the-map-starts-moving-c6096c1cb2",
+  "articleId": "article:chapter-42",
+  "title": "When the map starts moving",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For much of GIS history, a map could be out of date without anyone noticing for a while. A road changed, a subdivision appeared, a river shifted or a new building was added, and the database caught up later. Emergency mapping makes “nearly current” a much less comfortable phrase. When the ground has just moved, a river has left its channel or a road has disappeared under a landslide, yesterday's perfectly maintained layer may describe a world that no longer exists. The problem is no longer simply how accurately an organisation has mapped New Zealand, but how quickly it can recognise that New Zealand has changed and distribute a useful new picture.",
+      "markdown": "For much of GIS history, a map could be out of date without anyone noticing for a while. A road changed, a subdivision appeared, a river shifted or a new building was added, and the database caught up later. Emergency mapping makes “nearly current” a much less comfortable phrase. When the ground has just moved, a river has left its channel or a road has disappeared under a landslide, yesterday's perfectly maintained layer may describe a world that no longer exists. The problem is no longer simply how accurately an organisation has mapped New Zealand, but how quickly it can recognise that New Zealand has changed and distribute a useful new picture.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That sounds like a technical problem, but the difficult parts are often organisational. Information has to arrive, be understood, checked, combined and published. Several agencies may hold different pieces of the same situation, while staff in an emergency coordination centre, field team or infrastructure company need answers to different questions. A live interface does not solve this by itself. It can simply display several incompatible uncertainties in a more attractive browser window.",
+      "markdown": "That sounds like a technical problem, but the difficult parts are often organisational. Information has to arrive, be understood, checked, combined and published. Several agencies may hold different pieces of the same situation, while staff in an emergency coordination centre, field team or infrastructure company need answers to different questions. A live interface does not solve this by itself. It can simply display several incompatible uncertainties in a more attractive browser window.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2010s and early 2020s New Zealand had most of the technical pieces needed for rapidly updated mapping: sensor networks, enterprise databases, web services, cloud-hosted platforms, APIs, smartphones, field forms, satellite imagery, aerial survey, LiDAR and UAVs. Chapters 34 to 41 followed those pieces separately. Major emergencies show what happens when they have to work together at speed. They also reveal the less fashionable part of the story, because earthquakes and storms damage the communications and electricity that connected GIS increasingly assumes will be available.",
+      "markdown": "By the 2010s and early 2020s New Zealand had most of the technical pieces needed for rapidly updated mapping: sensor networks, enterprise databases, web services, cloud-hosted platforms, APIs, smartphones, field forms, satellite imagery, aerial survey, LiDAR and UAVs. Chapters 34 to 41 followed those pieces separately. Major emergencies show what happens when they have to work together at speed. They also reveal the less fashionable part of the story, because earthquakes and storms damage the communications and electricity that connected GIS increasingly assumes will be available.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

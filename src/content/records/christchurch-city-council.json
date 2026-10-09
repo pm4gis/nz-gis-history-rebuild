@@ -1,0 +1,60 @@
+{
+  "id": "entity:christchurch-city-council",
+  "slug": "christchurch-city-council",
+  "name": "Christchurch City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/christchurch-city-council/",
+  "website": "https://www.ccc.govt.nz",
+  "story": [
+    "By 2000, Christchurch City Council’s GeoData Services team supplied and collated geographic information for council departments, including asset management. The team reorganised engineering-plan conversion and worked on valuation links to the cadastre and national emergency-services data modelling. Council-developed software received an Intergraph award in 2004."
+  ],
+  "sources": [
+    {
+      "label": "Jeffrey J. Myles, The application of geographical information systems in the planning and design of sustainable neighbourhood development, Lincoln University master's dissertation",
+      "url": "https://hdl.handle.net/10182/4425"
+    },
+    {
+      "label": "Christchurch City Council, 2002 Corporate Plan / Financial Plan, GeoData Services and Environmental Services budget lines",
+      "url": "https://archived.ccc.govt.nz/Council/CorporatePlan/2001/Volume2/VolumeII.pdf"
+    },
+    {
+      "label": "Christchurch City Council, Greater Christchurch Urban Development Strategy / Growth Model report, valuation and cadastral data linkage",
+      "url": "https://archived.ccc.govt.nz/LTCCP/2006-16/GrowthModelReport27March2006.pdf"
+    },
+    {
+      "label": "LINZ OCGI ESA Data Improvement Programme, ESA Data Specification v1.9.7, Appendix H contributors",
+      "url": "https://www.linz.govt.nz/sites/default/files/esa-dataset-specification-v1-9-7.pdf"
+    },
+    {
+      "label": "Richard Pascoe and Richard Murcott, Standardising a core data set for Crown emergency services and administration in NZ, ESA project presentation",
+      "url": "https://committee.iso.org/files/live/users/fh/aj/aj/tc211contributor%40iso.org/files/Presentations/2001-10%20Adelaide/New_Zealand.pdf"
+    },
+    {
+      "label": "Christchurch City Council Annual Report 2004, Intergraph software-award caption",
+      "url": "https://archived.ccc.govt.nz/AnnualReport/2004/CCCAnnualReport2004.pdf"
+    },
+    {
+      "label": "Christchurch City Council City Services Committee, Waste Management financial summary, Liquid Waste reticulation note",
+      "url": "https://archived.ccc.govt.nz/council/agendas/2000/October/CityServices31October/WasteManagement.pdf"
+    },
+    {
+      "label": "Christchurch City Council GeoData Services, Land Subject to Minimum Floor Level Rules - Heathcote map",
+      "url": "https://archived.ccc.govt.nz/council/agendas/2000/November/ResourceManagement/Clause8SuppAttachment.pdf"
+    },
+    {
+      "label": "Christchurch City Council GeoData Services, Proposed Variation 65 - Rule Change development-plan map",
+      "url": "https://archived.ccc.govt.nz/Council/Proceedings/2002/August/RegulatoryConsents/Clause2Attachment.pdf"
+    }
+  ],
+  "aliases": [
+    "Christchurch City Council"
+  ],
+  "themeIds": [
+    "local-government"
+  ],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

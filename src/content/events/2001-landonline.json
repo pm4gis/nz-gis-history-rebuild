@@ -1,0 +1,26 @@
+{
+  "id": "2001-landonline",
+  "dateDisplay": "2001 to 2002",
+  "startDate": "2001",
+  "endDate": "2002",
+  "datePrecision": "year-range",
+  "year": 2001,
+  "label": "Landonline launches and DCDB data migrates",
+  "summary": "Survey and title workflows moved into an integrated national digital system.",
+  "url": "/stories/landonline/#a-national-utility-226b4cfcfc",
+  "passageIds": [
+    "passage:chapter-14-226b4cfcfc"
+  ],
+  "recordIds": [
+    "chapter:14"
+  ],
+  "themeIds": [
+    "cadastre"
+  ],
+  "categories": [
+    "cadastral",
+    "government",
+    "landonline"
+  ],
+  "sources": []
+}

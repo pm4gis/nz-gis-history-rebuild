@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1537",
+  "a": "entity:waikato-regional-council",
+  "b": "chapter:42",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-42-f46a66f084",
+    "passage:chapter-42-42415b8257"
+  ],
+  "sources": []
+}

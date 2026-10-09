@@ -1,0 +1,35 @@
+{
+  "id": "entity:terralink",
+  "slug": "terralink",
+  "name": "Terralink",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/terralink/",
+  "website": null,
+  "story": [
+    "Terralink emerged from DOSLI’s commercial functions in 1996, supplying mapping, spatial data and property information. Its subsequent private-sector history connected national mapping work with commercial information services. In November 2013 the Commerce Commission cleared PropertyIQ to acquire Terralink. The decision records the importance of geographic and property information to the market and provides a dated reference point for changes in ownership."
+  ],
+  "sources": [
+    {
+      "label": "LINZ institutional history / whakapapa",
+      "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+    },
+    {
+      "label": "New Zealand Government, 'Receiver appointed to Terralink'",
+      "url": "https://www.beehive.govt.nz/release/receiver-appointed-terralink"
+    },
+    {
+      "label": "Commerce Commission, PropertyIQ granted clearance to acquire Terralink",
+      "url": "https://www.comcom.govt.nz/news-and-media/news-and-events/2013/propertyiq-granted-clearance-to-acquire-terralink/"
+    }
+  ],
+  "aliases": [
+    "Terralink"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-27-4122c498e8",
+  "slug": "from-public-maps-to-controlled-operational-data-4122c498e8",
+  "articleId": "article:chapter-27",
+  "title": "From public maps to controlled operational data",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27",
+    "person:duane-wilkins"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the time COVID-19 reached New Zealand, web mapping, mobile forms, hosted feature layers and dashboards were ordinary technologies. The geographic problem had also changed. Rather than publishing disease rates for public inspection, some response systems needed to collect and share place-based information while sharply limiting who could see individual records.",
+      "markdown": "By the time COVID-19 reached New Zealand, web mapping, mobile forms, hosted feature layers and dashboards were ordinary technologies. The geographic problem had also changed. Rather than publishing disease rates for public inspection, some response systems needed to collect and share place-based information while sharply limiting who could see individual records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "During the first national lockdown, the Caring for Communities workstream was established within the national response to focus on people, whānau and communities at greater risk of adverse health, social or economic outcomes. Government updates described the work as supporting access to services and developing regional leadership structures that connected local government, iwi, Pasifika and other communities with central-government leaders. The system needed information about needs and services that varied from place to place, but the underlying records could be sensitive.",
+      "markdown": "During the first national lockdown, the Caring for Communities workstream was established within the national response to focus on people, whānau and communities at greater risk of adverse health, social or economic outcomes. Government updates described the work as supporting access to services and developing regional leadership structures that connected local government, iwi, Pasifika and other communities with central-government leaders. The system needed information about needs and services that varied from place to place, but the underlying records could be sensitive.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The official response account credits Duane Wilkins with developing a support website and map-based tools for Māori and Pacific communities and NGOs. The Manaaki design described below explains how the tools connected field reporting with shared GIS services.",
+      "markdown": "The official response account credits Duane Wilkins with developing a support website and map-based tools for Māori and Pacific communities and NGOs. The Manaaki design described below explains how the tools connected field reporting with shared GIS services.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:jason-timmins",
+  "slug": "jason-timmins",
+  "name": "Jason Timmins",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jason-timmins/",
+  "story": [
+    "Jason Timmins completed a master's degree in GIS in the United Kingdom before moving to New Zealand. He joined Motu as a research analyst in 1999, using GIS to investigate New Zealand's economic geography, and remained until October 2005. His subsequent career included research, evaluation and management in government departments. In Motu's interview he also described insights management at the Education Review Office and teaching in Massey's data-analytics master's programme.",
+    "In June 2000 the Treasury published a working paper by Suzi Kerr and Jason Timmins titled Economic Geography & Spatial Statistics: Theory and Empirics of New Zealand Regions. It examined regional economic characteristics and explicitly used GIS as part of the analytical method. Critchlow Associates supplied Census96 data and ArcView software. The material included geographic boundaries and demographic, household, labour-force and socioeconomic information organised at meshblock, area-unit, territorial-authority and regional-council levels."
+  ],
+  "sources": [
+    {
+      "label": "Jason Timmins · career/profile reference",
+      "url": "https://www.motu.nz/about-us/people/jason-timmins"
+    },
+    {
+      "label": "Chapter 24 · Treasury maps the economy",
+      "url": "/stories/government-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Jason Timmins"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Jason Timmins · career/profile reference",
+        "url": "https://www.motu.nz/about-us/people/jason-timmins"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 24 · Treasury maps the economy",
+        "url": "/stories/government-goes-spatial/"
+      }
+    ]
+  ]
+}

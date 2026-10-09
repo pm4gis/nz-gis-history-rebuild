@@ -1,0 +1,34 @@
+{
+  "id": "article:chapter-15",
+  "slug": "topography-goes-digital",
+  "title": "Digital topography",
+  "url": "/stories/topography-goes-digital/",
+  "summary": "A printed topographic map makes geography look as if it naturally belongs to a sheet. Roads end at a neat border, contours disappear into the margin, place names are positioned for the reader, and the whole landscape is arranged a",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 15,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch15-note-01",
+      "text": "1. National 1:250,000 database. The period New Zealand Cartographic Journal account documents a national 1:250,000 digital topographic database by 1989. The later 1999 technical retrospective by directly involved practitioners documents the circa-1987 business-case approval, approximately eighteen-month conversion programme, scanning/vectorisation and VISION environment. This documents the programme history; an absolute national first is not established."
+    },
+    {
+      "id": "ch15-note-02",
+      "text": "2. Detailed 1:50,000 conversion. The 1999 technical account documents the initially demand-led conversion, later national programmes, and the Mapsetter/VTRAK contour-conversion environment from 1993. Country reporting from 1991 provides corroboration."
+    },
+    {
+      "id": "ch15-note-03",
+      "text": "3. LINZ and Terralink. The documented 1996 DOSLI split and the 1998 Balclutha 1:50,000 sheet, which records Terralink cartography and LINZ publication, document the purchaser-provider production arrangement."
+    },
+    {
+      "id": "ch15-note-04",
+      "text": "4. Online topography. LINZ annual reporting and institutional history document NZTopoOnline being operational by 2007–08. The exact first-public launch date remains unverified."
+    },
+    {
+      "id": "ch15-note-05",
+      "text": "5. Datum, projection and Topo50. Period LINZ geodetic material documents adoption of NZTM2000 for national mapping in 2001. Official launch material and contemporary technical reporting document national release of Topo50 and Topo250 on 23 September 2009, including 451 Topo50 and 31 Topo250 sheets. The LINZ 2009/10 annual report documents the combined 482-map programme and contemporary sources for free TIFF/GeoTIFF availability. Keep datum history in Chapter 19 and production automation in Chapter 43."
+    }
+  ]
+}

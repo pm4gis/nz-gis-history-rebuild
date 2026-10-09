@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1862",
+  "a": "person:michael-anderson",
+  "b": "chapter:23",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-23-2085360bd2"
+  ],
+  "sources": []
+}

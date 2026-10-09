@@ -1,0 +1,57 @@
+{
+  "id": "entity:gns-science",
+  "slug": "gns-science",
+  "name": "GNS Science",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/gns-science/",
+  "website": null,
+  "story": [
+    "GNS Science’s geological mapping developed through QMAP and later seamless digital datasets. GIS linked mapped geology to descriptions, observations and compilation decisions. Steve Edbrooke and Jane Forsyth appear among the national geological-map contributors in the research, making the people behind the published layers more visible.",
+    "QMAP combined earlier published and unpublished geological mapping with targeted fieldwork. Its 21 revised regional sheets were published during 1996–2012, each with an explanatory text covering the area’s geological history, resources and hazards. GIS held more than the printed colours: geological-unit polygons and fault lines carried attributes such as rock type, age, location accuracy and movement. The sheets and their digital datasets were related products with different uses.",
+    "In 2014, GNS Science joined the individual QMAP datasets into a seamless national 1:250,000 dataset. A second edition in 2018 adopted GeoSciML-Lite structure and geoscience vocabularies. The 2020 third edition incorporated new regional mapping, aligned active-fault geometry with the New Zealand Active Fault Database and improved North Island topology.",
+    "The Regional Geological Map Archive and Database was recognised as nationally significant in 1992, with GNS Science as custodian. Funding in 2009 supported a digital image catalogue to improve access while reducing handling of original maps. Its older field sheets and unpublished interpretations complement the later digital map collection, preserving the observations behind successive GIS compilations."
+  ],
+  "sources": [
+    {
+      "label": "GNS/Earth Sciences NZ 1:250 000 Geological Map and QMAP history",
+      "url": "https://www.gns.cri.nz/data-and-resources/1250-000-geological-map/"
+    },
+    {
+      "label": "GNS Science, Regional Geological Map Archive and Database",
+      "url": "https://www.gns.cri.nz/data-and-resources/regional-geological-map-archive-and-database/"
+    }
+  ],
+  "aliases": [
+    "GNS Science"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [
+    [
+      {
+        "label": "GNS/Earth Sciences NZ 1:250 000 Geological Map and QMAP history",
+        "url": "https://www.gns.cri.nz/data-and-resources/1250-000-geological-map/"
+      }
+    ],
+    [
+      {
+        "label": "GNS Science, 1:250 000 Geological Map: compilation and edition history",
+        "url": "https://www.gns.cri.nz/data-and-resources/1250-000-geological-map/"
+      }
+    ],
+    [
+      {
+        "label": "GNS Science, 1:250 000 Geological Map: compilation and edition history",
+        "url": "https://www.gns.cri.nz/data-and-resources/1250-000-geological-map/"
+      }
+    ],
+    [
+      {
+        "label": "GNS Science, Regional Geological Map Archive and Database",
+        "url": "https://www.gns.cri.nz/data-and-resources/regional-geological-map-archive-and-database/"
+      }
+    ]
+  ],
+  "biographyParagraphSources": []
+}

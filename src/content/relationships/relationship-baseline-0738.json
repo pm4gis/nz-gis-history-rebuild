@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0738",
+  "a": "person:sarah-mehrtens",
+  "b": "chapter:21",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-21-60a9e07f1c"
+  ],
+  "sources": []
+}

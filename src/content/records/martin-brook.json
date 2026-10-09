@@ -1,0 +1,46 @@
+{
+  "id": "person:martin-brook",
+  "slug": "martin-brook",
+  "name": "Martin Brook",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/martin-brook/",
+  "story": [
+    "The 2017 New Zealand Geotechnical Society paper by D. J. Bevan, Martin Brook, Jon Tunnicliffe, Nick Richards and W. M. Prebble provides a clear professional example. The team mapped the Kepa Road landslide in Auckland and the Ohuka landslide south of Port Waikato using a DJI Inspire 1 fitted with a Zenmuse X3 camera. Roughly 200 to 300 overlapping photographs were collected at each site. Up to 20 ground-control points, including targets and identifiable features, were positioned using real-time kinematic GPS.",
+    "A 2019 paper by Martin Brook and Jesse Merkle described UAV/SfM photogrammetry for monitoring active landslides in the Auckland region. High-resolution photomosaics and terrain models could be used to assess deformation and to compare surfaces through time or against LiDAR. A related University of Auckland project funded through EQC, later the Natural Hazards Commission, extended the work into ten monitoring investigations and reported in 2020."
+  ],
+  "sources": [
+    {
+      "label": "Martin Brook - The University of Auckland | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/martin-brook-geo"
+    },
+    {
+      "label": "Chapter 38 · Control on the ground",
+      "url": "/stories/mapping-from-a-drone/"
+    },
+    {
+      "label": "Chapter 38 · Mapping unstable ground",
+      "url": "/stories/mapping-from-a-drone/"
+    }
+  ],
+  "aliases": [
+    "Martin Brook"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 38 · Control on the ground",
+        "url": "/stories/mapping-from-a-drone/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 38 · Mapping unstable ground",
+        "url": "/stories/mapping-from-a-drone/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:brian-mclay",
+  "slug": "brian-mclay",
+  "name": "Brian McLay",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/brian-mclay/",
+  "story": [
+    "Brian McLay's paper, \"LIS/GIS/LINZ The View From A Different Perspective\", addressed the land-information debate while the older LINZ advisory usage was still current."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 10 · Land information becomes policy",
+      "url": "/stories/gis-inside-government/"
+    }
+  ],
+  "aliases": [
+    "Brian McLay"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 10 · Land information becomes policy",
+        "url": "/stories/gis-inside-government/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "article:chapter-18",
+  "slug": "gps-changes-where-here-is",
+  "title": "GPS in practice",
+  "url": "/stories/gps-changes-where-here-is/",
+  "summary": "At Taiaroa Head in 1994, a GPS survey for a wildlife-management project began with one receiver staying put. It was set over a known trig station on the summit of the headland and left to track the satellites. A second survey-qual",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 18,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch18-note-01",
+      "text": "1. Transit precursor. F. J. Davey's 1976 DSIR Geophysics Division work in Fiordland documents satellite positioning with the US Navy Navigation Satellite System/Transit and the documented comparison with NZGD49. This prevents the GPS narrative being presented as the beginning of all satellite positioning."
+    },
+    {
+      "id": "ch18-note-02",
+      "text": "2. 1986 GPS claim. Te Ara identifies a 1986 Fiordland survey as New Zealand's first GPS survey. The original survey record remains unrecovered, so publication wording must attribute the claim or describe 1986 as the earliest identified GPS survey rather than a proven absolute first."
+    },
+    {
+      "id": "ch18-note-03",
+      "text": "3. 1989 DOSLI photograph. Jon Hargest's Evening Post photograph held by the Alexander Turnbull Library shows the specialist physical character of late-1980s GPS equipment. The receiver model is unverified."
+    },
+    {
+      "id": "ch18-note-04",
+      "text": "4. Taiaroa Head. The 1994 SIRC paper by Bruce McLennan, Albert Chong and Martin Purvis and McLennan's later thesis documents the fast-static GPS workflow, known trig station, moving receiver, L1/L2 code and carrier-phase observations, post-processing and later RTK-related work. Retain Peter Hunt and Department of Conservation support only in the roles supported by those sources."
+    },
+    {
+      "id": "ch18-note-05",
+      "text": "5. Precision farming. Ian Yule's 1999 New Zealand Grassland Association paper documents New Zealand DGPS use, correction-service options and period costs, including Satlink at NZ$3,600 per year, satellite corrections at about NZ$4,000 per year and NZ$8,000 for the receiver in the worked example."
+    },
+    {
+      "id": "ch18-note-06",
+      "text": "6. Selective Availability. Official GPS.gov/United States government material documents removal of Selective Availability on 1 May 2000 and the improvement in ordinary civilian autonomous positioning. Professional differential and carrier-phase surveying before that date was not restricted to about 100 metres."
+    },
+    {
+      "id": "ch18-note-07",
+      "text": "7. Vector mobile GIS. The 15 April 2002 New Zealand Herald report and the documented August 2003 follow-up document development from August 2001, deployment of 40 Compaq iPAQs and six Panasonic Toughbooks, ArcPad/Smallworld translation, Navman GPS, initial cradle synchronisation and later Bluetooth/GPRS connectivity. Retain Vector as the earliest firmly dated sustained production-mobile GIS deployment in the project corpus, not as a proven national first."
+    }
+  ]
+}

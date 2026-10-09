@@ -1,0 +1,37 @@
+{
+  "id": "system:downer-grail",
+  "slug": "downer-grail",
+  "name": "Downer GRAIL",
+  "kind": "Project",
+  "category": "Systems and projects",
+  "url": "/systems/downer-grail/",
+  "story": [
+    "Downer began discussions with Eagle Technology in 2011 about introducing GIS into its telecommunications design and delivery work. Eagle’s customer account names Graeme Henderson as the account manager who recommended an ArcGIS configuration and records Ryan MacVeigh on the Downer side. It describes GRAIL as Downer’s first GIS system. The implementation brought spatial tools into an existing contracting business with its own design records, delivery teams and operational responsibilities.",
+    "The system supported the move from paper and basic approaches towards shared geographic information for contract work. Downer’s in-house GIS and technical staff used the ArcGIS suite, and a later Enterprise Licence Agreement widened access to the platform. The account identifies when the project began and who took part, but gives limited detail about individual datasets. Its statements about efficiencies remain the customer and vendor’s assessment of the work.",
+    "The account concerns Downer; GIS adoption elsewhere in the contracting sector requires separate evidence."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+    }
+  ],
+  "aliases": [
+    "GRAIL",
+    "Downer GIS"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "Design and delivery",
+      "paragraphs": [
+        "Downer began discussions with Eagle Technology in 2011 about introducing GIS into its telecommunications design and delivery work. Eagle’s customer account names Graeme Henderson as the account manager who recommended an ArcGIS configuration and records Ryan MacVeigh on the Downer side. It describes GRAIL as Downer’s first GIS system. The implementation brought spatial tools into an existing contracting business with its own design records, delivery teams and operational responsibilities.",
+        "The system supported the move from paper and basic approaches towards shared geographic information for contract work. Downer’s in-house GIS and technical staff used the ArcGIS suite, and a later Enterprise Licence Agreement widened access to the platform. The account identifies when the project began and who took part, but gives limited detail about individual datasets. Its statements about efficiencies remain the customer and vendor’s assessment of the work.",
+        "The account concerns Downer; GIS adoption elsewhere in the contracting sector requires separate evidence."
+      ]
+    }
+  ]
+}

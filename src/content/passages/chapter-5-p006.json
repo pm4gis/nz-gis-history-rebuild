@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-5-d481958571",
+  "slug": "inventory-boundaries-d481958571",
+  "articleId": "article:chapter-5",
+  "title": "Inventory boundaries",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A land-resource polygon had a different meaning from the cadastral geometry discussed in Chapter 3. A property boundary represents a legal relationship established through survey and title processes. An NZLRI boundary divided areas according to mapped combinations of geology, soil, slope, erosion and vegetation. The boundary followed visible terrain or interpreted resource conditions; the transition on the ground could extend across an area.",
+      "markdown": "A land-resource polygon had a different meaning from the cadastral geometry discussed in Chapter 3. A property boundary represents a legal relationship established through survey and title processes. An NZLRI boundary divided areas according to mapped combinations of geology, soil, slope, erosion and vegetation. The boundary followed visible terrain or interpreted resource conditions; the transition on the ground could extend across an area.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital storage preserved the distinction between interpreted land units and surveyed boundaries. Once displayed on a computer, both cadastral and land-resource boundaries could appear as clean vector lines, and both could be enlarged far beyond the scale at which they were originally compiled. The visual similarity could hide differences in origin and intended use. The NZLRI data remained thematic resource mapping even after it had become a national GIS database.",
+      "markdown": "Digital storage preserved the distinction between interpreted land units and surveyed boundaries. Once displayed on a computer, both cadastral and land-resource boundaries could appear as clean vector lines, and both could be enlarged far beyond the scale at which they were originally compiled. The visual similarity could hide differences in origin and intended use. The NZLRI data remained thematic resource mapping even after it had become a national GIS database.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The original scale also affected geometry. First-edition mapping was produced at 1:63,360, the one-inch-to-one-mile scale inherited from the pre-metric mapping environment. A line compiled at that scale was suitable for regional land-resource interpretation but was not a substitute for large-scale site survey. Later digital conversion allowed the geometry to be revised and transferred into a new map framework, but it did not turn the underlying classification into property-level data.",
+      "markdown": "The original scale also affected geometry. First-edition mapping was produced at 1:63,360, the one-inch-to-one-mile scale inherited from the pre-metric mapping environment. A line compiled at that scale was suitable for regional land-resource interpretation but was not a substitute for large-scale site survey. Later digital conversion allowed the geometry to be revised and transferred into a new map framework, but it did not turn the underlying classification into property-level data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The difference became especially visible during the national conversion programme of the late 1980s. Changing the database to match the newer 1:50,000 national mapping framework required staff to revisit where the polygon lines sat in relation to updated topographic and photographic information. The job involved much more than multiplying coordinates by a scale factor.",
+      "markdown": "The difference became especially visible during the national conversion programme of the late 1980s. Changing the database to match the newer 1:50,000 national mapping framework required staff to revisit where the polygon lines sat in relation to updated topographic and photographic information. The job involved much more than multiplying coordinates by a scale factor.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

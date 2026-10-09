@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-34-16676655da",
+  "slug": "from-mobile-gis-to-field-application-16676655da",
+  "articleId": "article:chapter-34",
+  "title": "From mobile GIS to field application",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2020s the old phrase “mobile GIS” covered several different things. It could still mean a specialist rugged device with high-accuracy GNSS and offline spatial layers. It could mean a tablet used to edit an asset database. It could mean a phone running a structured safety form with location captured quietly in the background. It could mean a community monitoring application designed so people with no GIS training could collect information that still fitted a controlled data model.",
+      "markdown": "By the 2020s the old phrase “mobile GIS” covered several different things. It could still mean a specialist rugged device with high-accuracy GNSS and offline spatial layers. It could mean a tablet used to edit an asset database. It could mean a phone running a structured safety form with location captured quietly in the background. It could mean a community monitoring application designed so people with no GIS training could collect information that still fitted a controlled data model.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The common thread was no longer the device. It was the movement of spatial information into the task. Maps, coordinates, attributes, forms and photographs had become available where the work occurred, and the return path to the organisational system had shortened. The GIS specialist did not disappear; specialist effort moved behind the interface. Data models, permissions, validation, offline behaviour, basemaps and integration increasingly had to be designed so someone else could use geographic capability without operating a full GIS.",
+      "markdown": "The common thread was no longer the device. It was the movement of spatial information into the task. Maps, coordinates, attributes, forms and photographs had become available where the work occurred, and the return path to the organisational system had shortened. The GIS specialist did not disappear; specialist effort moved behind the interface. Data models, permissions, validation, offline behaviour, basemaps and integration increasingly had to be designed so someone else could use geographic capability without operating a full GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Once the field worker could be given a purpose-built interface for one job, there was no reason every office user needed to see a traditional GIS interface either. The same principle could be applied to dashboards, portals, inspection systems, public tools and specialised analytical applications. The map was becoming one component inside software built around a task, with the user’s job increasingly shaping the application around it.",
+      "markdown": "Once the field worker could be given a purpose-built interface for one job, there was no reason every office user needed to see a traditional GIS interface either. The same principle could be applied to dashboards, portals, inspection systems, public tools and specialised analytical applications. The map was becoming one component inside software built around a task, with the user’s job increasingly shaping the application around it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:joshua-gore",
+  "slug": "joshua-gore",
+  "name": "Joshua Gore",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/joshua-gore/",
+  "story": [
+    "Joshua Gore worked as a GIS Developer on Eagle Technology’s LocalMaps product. A graduate profile describes troubleshooting, product development, Esri integration and web GIS work, placing him in the development layer behind a locally produced council-facing mapping application."
+  ],
+  "sources": [
+    {
+      "label": "Prosple, Eagle Technology graduate story: Joshua Gore",
+      "url": "https://prosple.com/graduate-employers/eagle-technology/graduate-stories/joshua-gore"
+    }
+  ],
+  "aliases": [
+    "Joshua Gore"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Prosple, Eagle Technology graduate story: Joshua Gore",
+        "url": "https://prosple.com/graduate-employers/eagle-technology/graduate-stories/joshua-gore"
+      }
+    ]
+  ]
+}

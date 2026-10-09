@@ -1,0 +1,31 @@
+{
+  "id": "person:jono-entwistle",
+  "slug": "jono-entwistle",
+  "name": "Jono Entwistle",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jono-entwistle/",
+  "story": [
+    "Interpret Geospatial Solutions commissioned Jono Entwistle to make a rap video for its launch at the August 2013 Esri conference in Auckland. Entwistle later recalled that the four-day production was shown to about 300 delegates. An Eagle conference graphic from that year listed “Geek availability!” among the factors organisations ought to consider when choosing systems and warned against a “Titanic Fail” caused by ignoring hidden costs. The vendor marketing used jokes drawn from the community’s technical language. In 2014 Eagle added a “We are GIS” wall of fame, explicitly intended to make practitioners recognisable to one another across organisational and geographic boundaries."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 12 · Recurring conferences",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Jono Entwistle"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Recurring conferences",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

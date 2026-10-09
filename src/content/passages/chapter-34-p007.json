@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-34-57d2e0dc40",
+  "slug": "forms-replace-notebooks-57d2e0dc40",
+  "articleId": "article:chapter-34",
+  "title": "Forms replace notebooks",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The map attracts attention, but structured forms were often the more consequential change. A paper notebook is flexible because a person can write almost anything in it. That flexibility creates work later when an organisation wants to compare hundreds or thousands of observations. Mobile forms could restrict values, require essential fields, present pick lists, calculate derived values and keep the observation attached to the correct mapped feature. The field worker was no longer collecting notes for someone else to interpret. They were contributing directly to the database structure.",
+      "markdown": "The map attracts attention, but structured forms were often the more consequential change. A paper notebook is flexible because a person can write almost anything in it. That flexibility creates work later when an organisation wants to compare hundreds or thousands of observations. Mobile forms could restrict values, require essential fields, present pick lists, calculate derived values and keep the observation attached to the correct mapped feature. The field worker was no longer collecting notes for someone else to interpret. They were contributing directly to the database structure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Data quality still depended on the form design. A badly designed digital form can collect bad information with impressive efficiency. Ambiguous categories, poorly chosen mandatory fields, confusing asset types or selection of the wrong feature can send mistakes into the corporate system already formatted and apparently tidy. Mobile GIS therefore increased the value of careful schema design. Specialists increasingly designed the forms and rules used by other staff to capture information.",
+      "markdown": "Data quality still depended on the form design. A badly designed digital form can collect bad information with impressive efficiency. Ambiguous categories, poorly chosen mandatory fields, confusing asset types or selection of the wrong feature can send mistakes into the corporate system already formatted and apparently tidy. Mobile GIS therefore increased the value of careful schema design. Specialists increasingly designed the forms and rules used by other staff to capture information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The DOC 2003 technical material is useful again here because it treated GPS standardisation, datum handling, upload procedures and verification as organisational problems rather than as accessories to the handheld. A national database could not absorb arbitrary coordinates and field files without rules. The same principle became more visible as mobile applications spread to larger numbers of staff. The easier it became to collect data, the more important it became to control what the fields meant.",
+      "markdown": "The DOC 2003 technical material is useful again here because it treated GPS standardisation, datum handling, upload procedures and verification as organisational problems rather than as accessories to the handheld. A national database could not absorb arbitrary coordinates and field files without rules. The same principle became more visible as mobile applications spread to larger numbers of staff. The easier it became to collect data, the more important it became to control what the fields meant.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

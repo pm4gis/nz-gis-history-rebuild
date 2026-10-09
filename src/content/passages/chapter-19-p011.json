@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-19-6818fb7e0a",
+  "slug": "january-2018-6818fb7e0a",
+  "articleId": "article:chapter-19",
+  "title": "January 2018",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "On 14 January 2018 LINZ released a new version of NZGD2000 and updated Landonline coordinates across the principal Kaikōura-affected area. The deformation model included patches for the 2016 earthquake and subsequent post-seismic deformation. Approximately 72,700 parcels in the Landonline survey and title database were updated as part of the change.",
+      "markdown": "On 14 January 2018 LINZ released a new version of NZGD2000 and updated Landonline coordinates across the principal Kaikōura-affected area. The deformation model included patches for the 2016 earthquake and subsequent post-seismic deformation. Approximately 72,700 parcels in the Landonline survey and title database were updated as part of the change.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The horizontal changes were deliberately confined rather than applying every component of observed ground movement directly to stored coordinates across a much larger area. LINZ used a combination of reverse and forward patches within the deformation model. The approach limited disruption to existing GIS databases while still allowing new observations to be related to the revised datum correctly.",
+      "markdown": "The horizontal changes were deliberately confined rather than applying every component of observed ground movement directly to stored coordinates across a much larger area. LINZ used a combination of reverse and forward patches within the deformation model. The approach limited disruption to existing GIS databases while still allowing new observations to be related to the revised datum correctly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LINZ also supplied NTv2 grids so GIS custodians could update their own coordinates and keep external datasets aligned with the revised NZGD2000 environment. The change therefore propagated beyond the geodetic database and Landonline. Any organisation maintaining high-accuracy spatial information in the affected area had to decide whether its coordinates needed updating and how the new transformation should be applied.",
+      "markdown": "LINZ also supplied NTv2 grids so GIS custodians could update their own coordinates and keep external datasets aligned with the revised NZGD2000 environment. The change therefore propagated beyond the geodetic database and Landonline. Any organisation maintaining high-accuracy spatial information in the affected area had to decide whether its coordinates needed updating and how the new transformation should be applied.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The update also included heights where movement was large enough to require it. Horizontal and vertical effects did not share identical adjustment areas because the physical deformation and the way it was represented in the reference framework were different. Coordinate maintenance after Kaikōura was therefore not one uniform offset applied to every point.",
+      "markdown": "The update also included heights where movement was large enough to require it. Horizontal and vertical effects did not share identical adjustment areas because the physical deformation and the way it was represented in the reference framework were different. Coordinate maintenance after Kaikōura was therefore not one uniform offset applied to every point.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

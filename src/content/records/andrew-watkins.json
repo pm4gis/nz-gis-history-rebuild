@@ -1,0 +1,31 @@
+{
+  "id": "person:andrew-watkins",
+  "slug": "andrew-watkins",
+  "name": "Andrew Watkins",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/andrew-watkins/",
+  "story": [
+    "Technical correspondence described GeoServer and OpenLayers use by 2009, and Andrew Watkins’s work with GeoNetwork in 2010."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 9 · Catchment monitoring",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Andrew Watkins"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 9 · Catchment monitoring",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

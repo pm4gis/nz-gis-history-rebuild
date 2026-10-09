@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1209",
+  "a": "system:nzta-enterprise",
+  "b": "chapter:42",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

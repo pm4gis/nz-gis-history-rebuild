@@ -5,16 +5,11 @@
   "kind": "Business",
   "category": "Companies",
   "url": "/entities/aam-aamhatch/",
+  "website": null,
   "story": [
     "AAMHatch produced Wellington’s textured 3D city model in 2009, combining aerial imagery with a three-dimensional representation of the built environment. AAM’s New Zealand work also included airborne imagery and LiDAR surveys, bringing photogrammetry and elevation data into local planning and infrastructure projects.",
     "In 2014, AAM acquired NorthSouth GIS NZ, a business that had grown from Explorer Graphics and delivered GIS consulting and application work. The acquisition joined a New Zealand consultancy lineage with a wider Australian geospatial services company."
   ],
-  "themeIds": ["theme:3d-mapping", "theme:gis-businesses"],
-  "aliases": [
-    "AAM",
-    "AAMHatch"
-  ],
-  "status": "GIS account available",
   "sources": [
     {
       "label": "GIM International, Textured 3D City Model for Wellington",
@@ -25,5 +20,12 @@
       "url": "https://www.northsouthgis.com/about-nsg/history"
     }
   ],
-  "description": "Geospatial services company linked to Wellington’s 3D city model and the acquisition of NorthSouth GIS NZ."
+  "aliases": [
+    "AAM",
+    "AAMHatch"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
 }

@@ -1,0 +1,50 @@
+{
+  "id": "passage:chapter-12-5a9922acb6",
+  "slug": "recurring-conferences-5a9922acb6",
+  "articleId": "article:chapter-12",
+  "title": "Recurring conferences",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12",
+    "entity:eagle-technology",
+    "person:karl-majorhazi",
+    "person:jeff-needham",
+    "person:chris-weir",
+    "person:jono-entwistle"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand Esri conferences met in several centres. The official history begins with New Plymouth in 1996, records Wairakei through several later meetings, and by 2002 places the conference at Westpac Stadium before later Wellington events at Te Papa and central-city venues. The locations changed, but the recurring form was more important than the venue. Practitioners had a regular reason to prepare project material, compare methods and meet people outside their own organisation.",
+      "markdown": "New Zealand Esri conferences met in several centres. The official history begins with New Plymouth in 1996, records Wairakei through several later meetings, and by 2002 places the conference at Westpac Stadium before later Wellington events at Te Papa and central-city venues. The locations changed, but the recurring form was more important than the venue. Practitioners had a regular reason to prepare project material, compare methods and meet people outside their own organisation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The conference series also sat in a deliberately untidy relationship with commercial interests. Eagle was the national Esri distributor and a major collaborator in the events. Esri supplied technology, speakers and the wider international product context. The user group remained a distinct practitioner organisation. That arrangement gave customers direct access to vendor and distributor expertise while also providing a forum in which users could talk to one another. The most accurate reading is a practitioner conference working in close relationship with distributor and vendor, neither a purely independent professional meeting nor a vendor roadshow. It functioned because those interests overlapped without being identical.",
+      "markdown": "The conference series also sat in a deliberately untidy relationship with commercial interests. Eagle was the national Esri distributor and a major collaborator in the events. Esri supplied technology, speakers and the wider international product context. The user group remained a distinct practitioner organisation. That arrangement gave customers direct access to vendor and distributor expertise while also providing a forum in which users could talk to one another. The most accurate reading is a practitioner conference working in close relationship with distributor and vendor, neither a purely independent professional meeting nor a vendor roadshow. It functioned because those interests overlapped without being identical.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2011 the boundaries between these communities were tested more directly. The Surveying and Spatial Sciences Conference, held in Wellington from 21 to 25 November, was jointly run by the New Zealand Institute of Surveyors and the Surveying and Spatial Sciences Institute and promoted as an unprecedented all-of-industry event. Esri and Eagle Technology were among the organisations involved, while Karl Majorhazi and Jeff Needham served as conference convenors. The final programme placed all plenaries and keynotes in the Michael Fowler Auditorium. ArcGIS workshops and conference streams used rooms across the Wellington Convention Centre. The ESRI User Group AGM occupied Renouf 1 on Thursday afternoon, alongside the NZIS AGM, MapInfo User Group AGM and SSSI meeting. His recollection is that the mixture did not work especially well from the perspective of the normal Esri user-conference culture, while later organiser testimonials describe a successful joint venture achieved despite considerable organisational complexity. Chris Weir, who served as conference treasurer and on the organising committee, later put attendance at 680. Both accounts can be true: a conference can be successfully delivered at scale and still feel awkward to a specialist community accustomed to a different kind of gathering. In 2012 the Esri lineage was explicit again when the Auckland Esri Asia Pacific User Conference incorporated the sixteenth annual New Zealand Esri User Group conference.",
+      "markdown": "In 2011 the boundaries between these communities were tested more directly. The Surveying and Spatial Sciences Conference, held in Wellington from 21 to 25 November, was jointly run by the New Zealand Institute of Surveyors and the Surveying and Spatial Sciences Institute and promoted as an unprecedented all-of-industry event. Esri and Eagle Technology were among the organisations involved, while Karl Majorhazi and Jeff Needham served as conference convenors. The final programme placed all plenaries and keynotes in the Michael Fowler Auditorium. ArcGIS workshops and conference streams used rooms across the Wellington Convention Centre. The ESRI User Group AGM occupied Renouf 1 on Thursday afternoon, alongside the NZIS AGM, MapInfo User Group AGM and SSSI meeting. His recollection is that the mixture did not work especially well from the perspective of the normal Esri user-conference culture, while later organiser testimonials describe a successful joint venture achieved despite considerable organisational complexity. Chris Weir, who served as conference treasurer and on the organising committee, later put attendance at 680. Both accounts can be true: a conference can be successfully delivered at scale and still feel awkward to a specialist community accustomed to a different kind of gathering. In 2012 the Esri lineage was explicit again when the Auckland Esri Asia Pacific User Conference incorporated the sixteenth annual New Zealand Esri User Group conference.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2013 the distinct user-conference culture was visible again. At SKYCITY Auckland that August, Christchurch-based Interpret Geospatial Solutions used the conference to launch itself as a stand-alone consultancy. Instead of relying only on a conventional corporate introduction, it commissioned a rap video; its creator, Jono Entwistle, later recalled that the four-day production was shown to about 300 delegates. An Eagle conference graphic from the same year listed “Geek availability!” among the factors organisations ought to consider when choosing systems and warned against a “Titanic Fail” caused by ignoring hidden costs. The vendor marketing used jokes drawn from the community’s technical language. In 2014 Eagle added a “We are GIS” wall of fame, explicitly intended to make practitioners recognisable to one another across organisational and geographic boundaries. The conference was functioning as both a technical event and a recurring social network. By 2016 a practitioner was describing the themed conference dinner as a traditional part of the event, with Casino Royale that year's theme. The 2017 programme followed with a Winter Wonderland dinner. The costumes became part of the conference’s social programme.",
+      "markdown": "By 2013 the distinct user-conference culture was visible again. At SKYCITY Auckland that August, Christchurch-based Interpret Geospatial Solutions used the conference to launch itself as a stand-alone consultancy. Instead of relying only on a conventional corporate introduction, it commissioned a rap video; its creator, Jono Entwistle, later recalled that the four-day production was shown to about 300 delegates. An Eagle conference graphic from the same year listed “Geek availability!” among the factors organisations ought to consider when choosing systems and warned against a “Titanic Fail” caused by ignoring hidden costs. The vendor marketing used jokes drawn from the community’s technical language. In 2014 Eagle added a “We are GIS” wall of fame, explicitly intended to make practitioners recognisable to one another across organisational and geographic boundaries. The conference was functioning as both a technical event and a recurring social network. By 2016 a practitioner was describing the themed conference dinner as a traditional part of the event, with Casino Royale that year's theme. The 2017 programme followed with a Winter Wonderland dinner. The costumes became part of the conference’s social programme.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Contemporary reporting called the 2005 Wellington event the tenth annual conference and the 2006 meeting the eleventh. Those numbers support a mid-1990s start to the annual series. The official history leaves 2007 blank, and conference activity for that year remains unconfirmed. Professional communities, like software systems, tend to look cleaner in retrospect than they were while running.",
+      "markdown": "By 2005, contemporary reporting called the Wellington event the tenth annual conference. The 2006 meeting was identified as the eleventh. The conference numbering corroborates the mid-1990s origin of the annual series; the surviving archive does not resolve every year. The unexplained 2007 blank in the later official history is a reminder that anniversary arithmetic is not a substitute for a programme, minute or dated event record. Professional communities, like software systems, tend to look cleaner in retrospect than they were while running.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

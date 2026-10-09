@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-10-54f7941b19",
+  "slug": "from-projects-to-departments-54f7941b19",
+  "articleId": "article:chapter-10",
+  "title": "From projects to departments",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:10",
+    "entity:department-of-lands-and-survey",
+    "entity:department-of-survey-and-land-information-dosli",
+    "entity:ministry-of-works-and-development"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the middle of the 1980s, geographic computing inside the New Zealand state was no longer confined to one experimental programme or one specialist scientific group. The Ministry of Works and Development had been maintaining and analysing land-resource information through the NZLRI and LADEDA lineage. Lands and Survey had experience with computer-assisted cadastral mapping, photogrammetry and automated cartographic work. DSIR units were processing satellite imagery and beginning to use commercial GIS. These systems had different purposes, data models and technical histories, but they had created a pool of staff who understood that maps could be maintained as digital information rather than produced only as finished sheets.",
+      "markdown": "By the middle of the 1980s, geographic computing inside the New Zealand state was no longer confined to one experimental programme or one specialist scientific group. The Ministry of Works and Development had been maintaining and analysing land-resource information through the NZLRI and LADEDA lineage. Lands and Survey had experience with computer-assisted cadastral mapping, photogrammetry and automated cartographic work. DSIR units were processing satellite imagery and beginning to use commercial GIS. These systems had different purposes, data models and technical histories, but they had created a pool of staff who understood that maps could be maintained as digital information rather than produced only as finished sheets.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Departmental use created a different set of requirements. A system had to survive beyond the project that created it, accept new data, support corrections, produce dependable output and fit within government computing arrangements. It needed operators as well as designers, maintenance budgets as well as purchase budgets, and rules for what counted as an acceptable record. By the end of the decade, some government spatial systems were becoming national production environments with continuing obligations. The work remained specialised and expensive, but it was becoming routine departmental production.",
+      "markdown": "Departmental use created a different set of requirements. A system had to survive beyond the project that created it, accept new data, support corrections, produce dependable output and fit within government computing arrangements. It needed operators as well as designers, maintenance budgets as well as purchase budgets, and rules for what counted as an acceptable record. By the end of the decade, some government spatial systems were becoming national production environments with continuing obligations. The work remained specialised and expensive, but it was becoming routine departmental production.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lands and Survey sat near the centre of that transition because it was responsible for national cadastral and topographic mapping and held large analogue record collections that required conversion and integration alongside any software purchase. In 1987 the Department of Lands and Survey became the Department of Survey and Land Information, or DOSLI. The change of name coincided with a period in which digital land information was becoming a larger part of the department's production work. New GIS systems were introduced alongside earlier mapping systems. DOSLI was operating several digital production lines at once, each developed around a particular body of records and a particular government requirement.",
+      "markdown": "Lands and Survey sat near the centre of that transition because it was responsible for national cadastral and topographic mapping and held large analogue record collections that required conversion and integration alongside any software purchase. In 1987 the Department of Lands and Survey became the Department of Survey and Land Information, or DOSLI. The change of name coincided with a period in which digital land information was becoming a larger part of the department's production work. New GIS systems were introduced alongside earlier mapping systems. DOSLI was operating several digital production lines at once, each developed around a particular body of records and a particular government requirement.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "entity:nelson-city-council",
+  "slug": "nelson-city-council",
+  "name": "Nelson City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/nelson-city-council/",
+  "website": "https://www.nelsoncitycouncil.co.nz",
+  "story": [
+    "Nelson City Council implemented corporate and asset GIS in 1993–94. Staff supplemented the initial photogrammetric capture with research through engineering plans and field books, flagged accuracy limitations and updated the records from as-built plans."
+  ],
+  "sources": [
+    {
+      "label": "Nelson City Council, Water Supply Asset Management Plan 2018-2028, historical GIS data-management section",
+      "url": "https://www.nelsoncity.co.nz/assets/Our-council/Downloads/asset-managment-plans/2019/2018-28-Water-Supply-Asset-Management-Plan-27Nov2018.pdf"
+    },
+    {
+      "label": "Nelson City Council, Maps and GIS Information",
+      "url": "https://www.nelson.govt.nz/2services/6mapsgis"
+    }
+  ],
+  "aliases": [
+    "Nelson City Council"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

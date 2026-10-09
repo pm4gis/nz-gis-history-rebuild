@@ -1,0 +1,39 @@
+{
+  "id": "person:ted-taylor",
+  "slug": "ted-taylor",
+  "name": "Ted Taylor",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ted-taylor/",
+  "story": [
+    "Ted Taylor appears in Eagle Technology case studies as a GIS account manager working with customer applications rather than only software sales. He is quoted on the Lucas Associates interactive native-plant application and on GIS-in-schools activity associated with Sustainable Coastlines."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, Lucas Associates launches interactive native plant guide",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/lucas-associates-launches-interactive-native-plant-guide"
+    },
+    {
+      "label": "Eagle Technology, GIS in schools / Sustainable Coastlines case material",
+      "url": "https://www.eagle.co.nz/node/317"
+    }
+  ],
+  "aliases": [
+    "Ted Taylor"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Eagle Technology, Lucas Associates launches interactive native plant guide",
+        "url": "https://www.eagle.co.nz/gis-solutions/case-studies/lucas-associates-launches-interactive-native-plant-guide"
+      },
+      {
+        "label": "Eagle Technology, GIS in schools / Sustainable Coastlines case material",
+        "url": "https://www.eagle.co.nz/node/317"
+      }
+    ]
+  ]
+}

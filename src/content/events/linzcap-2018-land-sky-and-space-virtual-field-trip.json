@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2018-land-sky-and-space-virtual-field-trip",
+  "dateDisplay": "2018",
+  "startDate": "2018-01-01",
+  "datePrecision": "year",
+  "year": 2018,
+  "label": "Land, Sky and Space virtual field trip",
+  "summary": "The programme covered SBAS, autonomous transport, aviation, satellite ground stations, forestry, drones, wilding pines and surveying.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

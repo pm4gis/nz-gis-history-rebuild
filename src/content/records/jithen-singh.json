@@ -1,0 +1,48 @@
+{
+  "id": "person:jithen-singh",
+  "slug": "jithen-singh",
+  "name": "Jithen Singh",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jithen-singh/",
+  "story": [
+    "Jithen Singh is documented in Eagle technical work around ArcGIS Server, REST services and system design from 2008–10. During the September 2010 Canterbury earthquake response he reported live crowd-sourced information being incorporated into a Common Operating Picture. From 2021 he worked with NZTA on its ArcGIS Enterprise on Kubernetes proof of concept and deployment.",
+    "Parker Jones and David Pimblott belong to the earlier commercial story; later public records connect Graeme Henderson, Scott Campbell, Jithen Singh, Trevor Hart and Nathan Heazlewood with enterprise projects, technology leadership and professional services."
+  ],
+  "sources": [
+    {
+      "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+    },
+    {
+      "label": "GISList crowd-sourced Christchurch mapping thread"
+    },
+    {
+      "label": "Chapter 12 · Esri and Eagle in New Zealand",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Jithen Singh"
+  ],
+  "themeIds": [
+    "women-in-gis",
+    "technology-stack"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+        "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Esri and Eagle in New Zealand",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

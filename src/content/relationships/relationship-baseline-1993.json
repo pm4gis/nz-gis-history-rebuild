@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1993",
+  "a": "person:t-jackman",
+  "b": "chapter:6",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [],
+  "sources": []
+}

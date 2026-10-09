@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-42-074b2d23dc",
+  "slug": "paper-still-works-074b2d23dc",
+  "articleId": "article:chapter-42",
+  "title": "Paper still works",
+  "order": 16,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Teams continued to use static maps and reports alongside interactive tools. Research for this project records that power and communications failures during Gabrielle made offline desktop work and printed maps essential in some workflows. A printed map has obvious limitations: it cannot update itself, cannot be queried and begins ageing as soon as the printer stops. Those weaknesses become acceptable when its main advantage is that it still works with no network, no login and no battery.",
+      "markdown": "Teams continued to use static maps and reports alongside interactive tools. Research for this project records that power and communications failures during Gabrielle made offline desktop work and printed maps essential in some workflows. A printed map has obvious limitations: it cannot update itself, cannot be queried and begins ageing as soon as the printer stops. Those weaknesses become acceptable when its main advantage is that it still works with no network, no login and no battery.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Static outputs are also useful for coordination because they freeze a known state. A live dashboard can change while a meeting is discussing it. An exported or printed map can be marked, handed around and retained as a record of what was believed at a particular time. Paper therefore remains one component in a resilient information system that recognises different operational conditions.",
+      "markdown": "Static outputs are also useful for coordination because they freeze a known state. A live dashboard can change while a meeting is discussing it. An exported or printed map can be marked, handed around and retained as a record of what was believed at a particular time. Paper therefore remains one component in a resilient information system that recognises different operational conditions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The historical progression is therefore less tidy than a technology diagram. New Zealand emergency mapping moved from manually assembled products towards sensor feeds, services, dashboards and mobile forms, but the old formats remained available when the new infrastructure lost one of its assumptions. By 2023, response teams selected the tools that could keep geographic information moving under the conditions they faced.",
+      "markdown": "The historical progression is therefore less tidy than a technology diagram. New Zealand emergency mapping moved from manually assembled products towards sensor feeds, services, dashboards and mobile forms, but the old formats remained available when the new infrastructure lost one of its assumptions. By 2023, response teams selected the tools that could keep geographic information moving under the conditions they faced.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "passage:chapter-38-2679557b1c",
+  "slug": "a-bridge-into-3d-2679557b1c",
+  "articleId": "article:chapter-38",
+  "title": "A bridge into 3D",
+  "order": 15,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "UAV photogrammetry also pushed GIS further away from the assumption that geographic information would be primarily flat. The camera produced photographs, but the processing increasingly produced dense clouds, surfaces and textured three-dimensional models. Engineers and earth scientists could rotate a landslide, inspect a crater from different angles, measure a volume or compare two reconstructed surfaces. Those outputs overlapped with LiDAR and other 3D technologies even though their acquisition methods differed.",
+      "markdown": "UAV photogrammetry also pushed GIS further away from the assumption that geographic information would be primarily flat. The camera produced photographs, but the processing increasingly produced dense clouds, surfaces and textured three-dimensional models. Engineers and earth scientists could rotate a landslide, inspect a crater from different angles, measure a volume or compare two reconstructed surfaces. Those outputs overlapped with LiDAR and other 3D technologies even though their acquisition methods differed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the end of 2025, point clouds and three-dimensional models had become familiar enough that attention was shifting from how they were captured to how organisations used them as general spatial information. Terrain, buildings, infrastructure and other objects could increasingly be combined in explicitly three-dimensional GIS environments, carrying the map beyond a flat representation of place.",
+      "markdown": "By the end of 2025, point clouds and three-dimensional models had become familiar enough that attention was shifting from how they were captured to how organisations used them as general spatial information. Terrain, buildings, infrastructure and other objects could increasingly be combined in explicitly three-dimensional GIS environments, carrying the map beyond a flat representation of place.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

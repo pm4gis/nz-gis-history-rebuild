@@ -1,0 +1,24 @@
+{
+  "id": "2010-nzgoal",
+  "dateDisplay": "2010",
+  "startDate": "2010",
+  "datePrecision": "year",
+  "year": 2010,
+  "label": "NZGOAL establishes broad government open-licensing direction",
+  "summary": "Open licensing became a policy foundation for later reuse of public spatial information.",
+  "url": "/stories/open-data-changes-access/#a-licence-for-reuse-8efa04925a",
+  "passageIds": [
+    "passage:chapter-33-8efa04925a"
+  ],
+  "recordIds": [
+    "chapter:33"
+  ],
+  "themeIds": [
+    "open-practice"
+  ],
+  "categories": [
+    "open-data",
+    "government"
+  ],
+  "sources": []
+}

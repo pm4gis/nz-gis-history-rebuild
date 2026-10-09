@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0930",
+  "a": "person:david-pimblott",
+  "b": "entity:explorer-graphics-northsouth-gis",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-16-ad5140789b",
+  "slug": "the-census-that-moved-two-years-ad5140789b",
+  "articleId": "article:chapter-16",
+  "title": "The census that moved two years",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16",
+    "entity:stats-nz",
+    "person:maurice-williamson"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The dependence on timing became visible again after the 22 February 2011 Christchurch earthquake. Census day was due on 8 March, only fifteen days later. Statistics New Zealand’s Christchurch operations had been badly disrupted and population movements after the earthquake would have distorted the count, so the census was cancelled. Forms had already been printed and delivered to about half a million houses, and the direct cost was later put at about NZ$65 million.",
+      "markdown": "The dependence on timing became visible again after the 22 February 2011 Christchurch earthquake. Census day was due on 8 March, only fifteen days later. Statistics New Zealand’s Christchurch operations had been badly disrupted and population movements after the earthquake would have distorted the count, so the census was cancelled. Forms had already been printed and delivered to about half a million houses, and the direct cost was later put at about NZ$65 million.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The replacement census was held on 5 March 2013. Agencies using census geography therefore spent two additional years relying on 2006 population data while communities, especially in Canterbury, were changing quickly. It was the third interruption to the regular census series, after the Depression-era cancellation in 1931 and the wartime cancellation in 1941. Population counts and geographic boundaries therefore had to be matched by date.",
+      "markdown": "The replacement census was held on 5 March 2013. Agencies using census geography therefore spent two additional years relying on 2006 population data while communities, especially in Canterbury, were changing quickly. It was the third interruption to the regular census series, after the Depression-era cancellation in 1931 and the wartime cancellation in 1941. Population counts and geographic boundaries therefore had to be matched by date.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "On 4 December 2013 Statistics New Zealand also launched StatsMaps alongside a major release of 2013 Census results. Statistics Minister Maurice Williamson described the new tool as a geographic visualisation of population and dwelling information that let users compare regions and view change. It continued the move from supplying census geography as specialist files towards presenting statistical geography through a public mapping application.",
+      "markdown": "On 4 December 2013 Statistics New Zealand also launched StatsMaps alongside a major release of 2013 Census results. Statistics Minister Maurice Williamson described the new tool as a geographic visualisation of population and dwelling information that let users compare regions and view change. It continued the move from supplying census geography as specialist files towards presenting statistical geography through a public mapping application.",
+      "sources": [
+        {
+          "label": "Beehive, Release of census information welcomed, 4 December 2013",
+          "url": "https://www.beehive.govt.nz/release/release-census-information-welcomed"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

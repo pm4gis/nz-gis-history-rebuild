@@ -1,0 +1,35 @@
+{
+  "id": "person:aamir-bonamis",
+  "slug": "aamir-bonamis",
+  "name": "Aamir Bonamis",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/aamir-bonamis/",
+  "story": [
+    "Aamir Bonamis worked on New Zealand Police’s ArcGIS Enterprise implementation in 2021 and co-presented the Police Geospatial Team’s FME case study in 2023. The presentation covered automated Calls for Service workflows, combining call data with crime-harm and location information, dashboards, and hourly updates during Cyclone Gabrielle."
+  ],
+  "sources": [
+    {
+      "label": "Police FME conference presentation, 8 June 2023",
+      "url": "https://locusglobal.com/wp-content/uploads/2023/06/FMEConference_PolicePresentation_FinalV2.pdf"
+    },
+    {
+      "label": "Aamir Bonamis - Health New Zealand | Te Whatu Ora | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/aamir-bonamis-a3890634"
+    }
+  ],
+  "aliases": [
+    "Aamir Bonamis"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Police FME conference presentation, 8 June 2023",
+        "url": "https://locusglobal.com/wp-content/uploads/2023/06/FMEConference_PolicePresentation_FinalV2.pdf"
+      }
+    ]
+  ]
+}

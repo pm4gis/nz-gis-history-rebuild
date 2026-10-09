@@ -1,0 +1,32 @@
+{
+  "id": "passage:chapter-9-9e3246d100",
+  "slug": "mackenzie-ecological-gis-1989-9e3246d100",
+  "articleId": "article:chapter-9",
+  "title": "Mackenzie ecological GIS, 1989",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9",
+    "person:peter-espie",
+    "person:graeme-hall"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Peter Espie and Graeme Hall described an ecological GIS for the Mackenzie Basin in 1989. Their work brought vegetation, fauna, landform, soil and other information from the Protected Natural Areas survey into a microcomputer GIS. Users could classify the records by an ecological attribute or examine combinations such as vegetation type and landform. Results could be mapped in two or three dimensions.",
+      "sources": [
+        {
+          "label": "Peter Espie and Graeme Hall, Management applications using the Mackenzie PNA database, New Zealand Journal of Ecology 12, 1989, p.128",
+          "url": "https://newzealandecology.org/nzje/1825"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The database gave managers a way to use the survey information after the initial recommendations for protection had been made. The field observations and ecological classifications supplied the content; GIS provided storage, retrieval and analysis. Espie and Hall’s published conference abstract identifies their Forestry Research Centre affiliation. It describes the system’s capabilities while leaving the software package unnamed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

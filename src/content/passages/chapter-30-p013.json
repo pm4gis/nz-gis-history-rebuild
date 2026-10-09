@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-30-c43cdc353a",
+  "slug": "mapping-services-c43cdc353a",
+  "articleId": "article:chapter-30",
+  "title": "Mapping services",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 2003 and 2004, the underlying pattern was visible across several sectors. Police used browser delivery to reduce distributed workstation maintenance and expand internal access. PHEW! made national public-health information available through maps, tables and statistics. Statistics New Zealand provided a free browser window onto Census geography while separately managing reusable data products. Councils were using Webmaps both as corporate information tools and as public self-service. DOC was treating browser mapping as part of a national enterprise architecture.",
+      "markdown": "By 2003 and 2004, the underlying pattern was visible across several sectors. Police used browser delivery to reduce distributed workstation maintenance and expand internal access. PHEW! made national public-health information available through maps, tables and statistics. Statistics New Zealand provided a free browser window onto Census geography while separately managing reusable data products. Councils were using Webmaps both as corporate information tools and as public self-service. DOC was treating browser mapping as part of a national enterprise architecture.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The organisation maintained data and processing behind the interface. Users requested a map, search result or answer tied to a place.",
+      "markdown": "The organisation maintained data and processing behind the interface. Users requested a map, search result or answer tied to a place.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This changed what counted as a GIS user. The browser user might never digitise a polygon, choose a projection, design a map layout or administer a database. They might not even know the organisation considered the application part of its GIS. They simply needed property information, disease statistics, an operational location or a conservation layer. Geographic information was becoming useful to people who did not need to join the GIS profession described in the previous chapter.",
+      "markdown": "This changed what counted as a GIS user. The browser user might never digitise a polygon, choose a projection, design a map layout or administer a database. They might not even know the organisation considered the application part of its GIS. They simply needed property information, disease statistics, an operational location or a conservation layer. Geographic information was becoming useful to people who did not need to join the GIS profession described in the previous chapter.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The shift also made the map less self-contained. A browser map was temporary, generated from maintained systems and capable of changing as the underlying records changed. It was no longer the final authoritative object in the same way as a printed map sheet. Increasingly, the authoritative investment sat behind the screen in databases, identifiers, update processes and services.",
+      "markdown": "The shift also made the map less self-contained. A browser map was temporary, generated from maintained systems and capable of changing as the underlying records changed. It was no longer the final authoritative object in the same way as a printed map sheet. Increasingly, the authoritative investment sat behind the screen in databases, identifiers, update processes and services.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-14-58cb45d19f",
+  "slug": "converting-the-archive-58cb45d19f",
+  "articleId": "article:chapter-14",
+  "title": "Converting the archive",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:14",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The record conversion behind that moment was more complicated than scanning. Survey plans could be imaged so the original evidence remained visible, but Landonline also needed structured data that software could query and validate. Titles had to become electronic registers rather than pictures of certificates. DCDB geometry had to be transformed into the new cadastral structures. Survey conversion used bearings, distances and other observations from the cadastral record to improve the position of a large proportion of parcels beyond the quality inherited from record maps.",
+      "markdown": "The record conversion behind that moment was more complicated than scanning. Survey plans could be imaged so the original evidence remained visible, but Landonline also needed structured data that software could query and validate. Titles had to become electronic registers rather than pictures of certificates. DCDB geometry had to be transformed into the new cadastral structures. Survey conversion used bearings, distances and other observations from the cadastral record to improve the position of a large proportion of parcels beyond the quality inherited from record maps.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The programme therefore made deliberate choices about what should become data and what should remain an image linked to data. A survey plan contains much more than a set of parcel lines. It may include observations, marks, annotations, diagrams and evidence whose significance cannot be reduced safely to a single vector layer. Imaging preserved that documentary record while structured survey observations and parcel relationships could be captured separately where the new system needed them. This created a hybrid electronic archive in a useful sense: searchable structured records connected to source documents rather than an attempt to translate every historic mark into database fields.",
+      "markdown": "The programme therefore made deliberate choices about what should become data and what should remain an image linked to data. A survey plan contains much more than a set of parcel lines. It may include observations, marks, annotations, diagrams and evidence whose significance cannot be reduced safely to a single vector layer. Imaging preserved that documentary record while structured survey observations and parcel relationships could be captured separately where the new system needed them. This created a hybrid electronic archive in a useful sense: searchable structured records connected to source documents rather than an attempt to translate every historic mark into database fields.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Contemporary technical papers describe survey conversion as a major effort in its own right. By the early 2000s a large share of parcel survey information in intensively surveyed areas was being captured from survey records so that the digital cadastre could be strengthened. The work treated cadastral position as an adjustment problem rather than a drawing exercise. Bearings, distances and observations could be combined, tested and adjusted so that the new coordinates reflected survey evidence more closely than the old map-derived DCDB linework.",
+      "markdown": "Contemporary technical papers describe survey conversion as a major effort in its own right. By the early 2000s a large share of parcel survey information in intensively surveyed areas was being captured from survey records so that the digital cadastre could be strengthened. The work treated cadastral position as an adjustment problem rather than a drawing exercise. Bearings, distances and observations could be combined, tested and adjusted so that the new coordinates reflected survey evidence more closely than the old map-derived DCDB linework.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The historical labour behind this remains less visible than the programme name. LINZ survey and title specialists defined rules and checked converted records. Data-capture staff, contractors and technicians scanned, indexed, keyed and reconciled material. Database and systems staff kept conversions moving between environments. Surveyors and conveyancing practitioners tested how the records behaved in real work.",
+      "markdown": "The historical labour behind this remains less visible than the programme name. LINZ survey and title specialists defined rules and checked converted records. Data-capture staff, contractors and technicians scanned, indexed, keyed and reconciled material. Database and systems staff kept conversions moving between environments. Surveyors and conveyancing practitioners tested how the records behaved in real work.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

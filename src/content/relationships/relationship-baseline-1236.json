@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1236",
+  "a": "system:guild-on-the-web",
+  "b": "person:r-g-gibb",
+  "label": "Named in the system account",
+  "basis": "Existing technology/project account",
+  "passageIds": [],
+  "sources": []
+}

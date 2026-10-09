@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1238",
+  "a": "system:guild-on-the-web",
+  "b": "chapter:30",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

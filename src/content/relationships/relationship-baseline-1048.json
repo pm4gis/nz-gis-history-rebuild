@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1048",
+  "a": "person:belinda-smith-lyttle",
+  "b": "entity:gns-science",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

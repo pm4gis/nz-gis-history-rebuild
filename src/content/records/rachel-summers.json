@@ -1,0 +1,64 @@
+{
+  "id": "person:rachel-summers",
+  "slug": "rachel-summers",
+  "name": "Rachel Summers",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rachel-summers/",
+  "story": [
+    "Rachel Summers co-authored a 2025 Transactions in GIS paper with John Lowry and Linda Rowan examining students’ teamwork experiences in a GIScience project-based learning activity. Her author affiliation was Massey University’s School of People, Environment and Planning. Earlier project-held NZEUG records list her on the 2008 committee and in the 2010 AGM’s governance record. A 2026 industry report also credits her with analysing anonymous responses to the 2025 Geospatial Industry Profile Survey with committee input; this is a separate contribution from her 2025 GIScience education paper.",
+    "In a 2026 NZEUG committee profile, long-time GIS educator Rachel Summers recalled being at what she described as the first NZEUG meeting in Dunedin in 1994 and said she had remained involved with the committee on and off since then. The group’s history gives 1992 as its formation date; later conference accounts describe a meeting in 1995 and the start of the numbered annual sequence in 1996. They may describe different stages: formation, an early user-group meeting, and the emergence of the national conference."
+  ],
+  "sources": [
+    {
+      "label": "Lowry, Rowan and Summers, Thematic Analysis of Teamwork Experiences in a GIScience Project-Based Learning Activity, Transactions in GIS, 2025",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.70086"
+    },
+    {
+      "label": "NZEUG, December 2008 newsletter",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Spatial Source, “NZ geospatial industry survey report released”, 23 March 2026",
+      "url": "https://www.spatialsource.com.au/nz-geospatial-industry-survey-report-released/"
+    },
+    {
+      "label": "Rachel Summers - Self-employed | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/rachel-summers-a504461b"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Rachel Summers"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Lowry, Rowan and Summers, Thematic Analysis of Teamwork Experiences in a GIScience Project-Based Learning Activity, Transactions in GIS, 2025",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.70086"
+      },
+      {
+        "label": "NZEUG, December 2008 newsletter",
+        "url": "/stories/an-industry-and-community-form/"
+      },
+      {
+        "label": "Spatial Source, “NZ geospatial industry survey report released”, 23 March 2026",
+        "url": "https://www.spatialsource.com.au/nz-geospatial-industry-survey-report-released/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

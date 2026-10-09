@@ -1,0 +1,31 @@
+{
+  "id": "person:amit-kokje",
+  "slug": "amit-kokje",
+  "name": "Amit Kokje",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/amit-kokje/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Amit Kokje: Senior Specialist (Geospatial Platform and Support), Auckland Council; previously Auckland Transport and Tauranga City Council."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Amit Kokje"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

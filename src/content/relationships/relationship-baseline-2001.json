@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2001",
+  "a": "entity:asurequality",
+  "b": "chapter:34",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

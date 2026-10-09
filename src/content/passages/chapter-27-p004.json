@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-27-492f2312f2",
+  "slug": "a-national-surveillance-environment-492f2312f2",
+  "articleId": "article:chapter-27",
+  "title": "A national surveillance environment",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By January 2001 the Waikato work sat inside a broader national push. A contemporary United States CDC public-health GIS bulletin reported that EpiSurv had been distributed to all New Zealand Public Health Units. The system recorded notifiable diseases and incorporated address geocoding. The bulletin also reported that the State had financed one copy of a leading desktop GIS package and digitised topographic maps for each Public Health Unit.",
+      "markdown": "By January 2001 the Waikato work sat inside a broader national push. A contemporary United States CDC public-health GIS bulletin reported that EpiSurv had been distributed to all New Zealand Public Health Units. The system recorded notifiable diseases and incorporated address geocoding. The bulletin also reported that the State had financed one copy of a leading desktop GIS package and digitised topographic maps for each Public Health Unit.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That arrangement joined several components that had previously been separate. EpiSurv held the surveillance records. Address matching turned an address into coordinates. Desktop GIS gave local staff a way to work with those coordinates, while digital topographic mapping provided geographic context. The same surveillance information could also move into a national web presentation. Health GIS was therefore becoming an information chain rather than a collection of isolated maps.",
+      "markdown": "That arrangement joined several components that had previously been separate. EpiSurv held the surveillance records. Address matching turned an address into coordinates. Desktop GIS gave local staff a way to work with those coordinates, while digital topographic mapping provided geographic context. The same surveillance information could also move into a national web presentation. Health GIS was therefore becoming an information chain rather than a collection of isolated maps.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Public Health Units developed their spatial capabilities at different rates. Staff experience, local data quality and the kinds of health problems faced in each region varied. Hardware and software still required support, and a GIS licence did not resolve weak addresses or sparse population data. What had changed was the baseline. By 2001 public-health services around the country could be expected to have access to digital surveillance data, geocoding and at least a basic GIS environment.",
+      "markdown": "Public Health Units developed their spatial capabilities at different rates. Staff experience, local data quality and the kinds of health problems faced in each region varied. Hardware and software still required support, and a GIS licence did not resolve weak addresses or sparse population data. What had changed was the baseline. By 2001 public-health services around the country could be expected to have access to digital surveillance data, geocoding and at least a basic GIS environment.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

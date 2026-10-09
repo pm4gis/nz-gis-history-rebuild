@@ -1,0 +1,24 @@
+{
+  "id": "1949-nzgd49",
+  "dateDisplay": "1949",
+  "startDate": "1949",
+  "datePrecision": "year",
+  "year": 1949,
+  "label": "NZGD49 establishes a national geodetic datum",
+  "summary": "Decades of triangulation and adjustment culminated in the New Zealand Geodetic Datum 1949.",
+  "url": "/stories/what-the-computer-inherited/#coordinates-before-computers-6c2c3ccbe6",
+  "passageIds": [
+    "passage:chapter-1-6c2c3ccbe6"
+  ],
+  "recordIds": [
+    "chapter:1",
+    "entity:traverse-seamless",
+    "person:rachel-gillanders"
+  ],
+  "themeIds": [],
+  "categories": [
+    "geodesy",
+    "survey"
+  ],
+  "sources": []
+}

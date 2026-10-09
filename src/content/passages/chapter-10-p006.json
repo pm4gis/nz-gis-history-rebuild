@@ -1,0 +1,31 @@
+{
+  "id": "passage:chapter-10-3248d864d9",
+  "slug": "conservation-databases-1990-3248d864d9",
+  "articleId": "article:chapter-10",
+  "title": "Conservation databases, 1990",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:10",
+    "person:mary-mcewen",
+    "person:helen-adcock",
+    "person:geoff-patterson",
+    "person:malcolm-harrison"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Helen Adcock demonstrated DOC’s WERI wetlands database at its March 1990 National Database Workshop. Conservancies would update their own records and return copies for the national dataset. Malcolm Harrison designed the SITE data model, and Geoff Patterson wrote its program. Adcock and Mary McEwen compiled the workshop report. This work established ways to collect, organise and maintain conservation information across offices. WERI and SITE were databases and applications with defined purposes; their development belongs alongside the agency’s GIS work.",
+      "sources": [
+        {
+          "label": "Helen M. Adcock and W. Mary McEwen, DOC National Database Workshop report, October 1990, printed pp.27–28",
+          "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/SRIR88.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

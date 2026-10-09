@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1654",
+  "a": "person:graeme-blick",
+  "b": "chapter:33",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-33-51393f242c"
+  ],
+  "sources": []
+}

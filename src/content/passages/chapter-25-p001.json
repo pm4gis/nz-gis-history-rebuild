@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-25-aa605f56a3",
+  "slug": "network-connections-aa605f56a3",
+  "articleId": "article:chapter-25",
+  "title": "Network connections",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "An electricity cable, telephone circuit, water main or gas pipe can be drawn perfectly on a map and still be a poor network record. Operators need to know where it is, but they also need to know what it connects to, which equipment sits at either end, what happens at branches and switches, and which customers or downstream assets depend on the path. A line that ends a few centimetres short of the correct node on screen may look harmless while breaking the digital connection that allows a system to trace the network. Utility GIS therefore developed around a different problem from ordinary thematic mapping. Geometry had to carry the structure of the physical system as well as its position.",
+      "markdown": "An electricity cable, telephone circuit, water main or gas pipe can be drawn perfectly on a map and still be a poor network record. Operators need to know where it is, but they also need to know what it connects to, which equipment sits at either end, what happens at branches and switches, and which customers or downstream assets depend on the path. A line that ends a few centimetres short of the correct node on screen may look harmless while breaking the digital connection that allows a system to trace the network. Utility GIS therefore developed around a different problem from ordinary thematic mapping. Geometry had to carry the structure of the physical system as well as its position.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand network operators entered the 1990s with large stores of geographic information, much of it on paper. Electricity plans showed cables, poles, substations and transformers. Telecommunications records documented ducts, cables and connections. Water and gas operators maintained plans of mains, valves and associated plant. These records had been produced for engineering and maintenance work rather than for GIS, and they were rarely waiting in one consistent digital form for somebody to import.",
+      "markdown": "New Zealand network operators entered the 1990s with large stores of geographic information, much of it on paper. Electricity plans showed cables, poles, substations and transformers. Telecommunications records documented ducts, cables and connections. Water and gas operators maintained plans of mains, valves and associated plant. These records had been produced for engineering and maintenance work rather than for GIS, and they were rarely waiting in one consistent digital form for somebody to import.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Turning them into a network database involved more than tracing lines. Paper plans had to be reconciled with textual asset registers, field knowledge and newer as-built information. Assets needed stable identifiers. Junctions and branches had to be represented consistently. Where records disagreed, somebody had to decide which source to trust or send staff into the field to check. The conversion workforce included GIS staff, engineers, technicians, data-entry and quality-assurance staff, contractors and field crews, many of whom are not individually named in public records.",
+      "markdown": "Turning them into a network database involved more than tracing lines. Paper plans had to be reconciled with textual asset registers, field knowledge and newer as-built information. Assets needed stable identifiers. Junctions and branches had to be represented consistently. Where records disagreed, somebody had to decide which source to trust or send staff into the field to check. The conversion workforce included GIS staff, engineers, technicians, data-entry and quality-assurance staff, contractors and field crews, many of whom are not individually named in public records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Once converted, the data acquired a maintenance obligation. New subdivisions added network. Old equipment was removed or replaced. Cables were rerouted, valves changed, transformers upgraded and connections altered. A digital network that was not updated could become more dangerous than an obviously old paper plan because the screen gave every line the same clean appearance. Utility GIS therefore tied mapping to asset management from the start.",
+      "markdown": "Once converted, the data acquired a maintenance obligation. New subdivisions added network. Old equipment was removed or replaced. Cables were rerouted, valves changed, transformers upgraded and connections altered. A digital network that was not updated could become more dangerous than an obviously old paper plan because the screen gave every line the same clean appearance. Utility GIS therefore tied mapping to asset management from the start.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

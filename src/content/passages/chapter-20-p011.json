@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-20-f4863ce856",
+  "slug": "interpreting-imagery-f4863ce856",
+  "articleId": "article:chapter-20",
+  "title": "Interpreting imagery",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Orthophotography is unusually persuasive because it looks less abstract than a vector map. Roads, houses, rivers and paddocks are visible rather than represented by symbols. That appearance can encourage a user to forget that the image is still a dataset with a capture date, processing history and measurement limits. It records reflected light from a particular flight under particular conditions, not the permanent state of the landscape.",
+      "markdown": "Orthophotography is unusually persuasive because it looks less abstract than a vector map. Roads, houses, rivers and paddocks are visible rather than represented by symbols. That appearance can encourage a user to forget that the image is still a dataset with a capture date, processing history and measurement limits. It records reflected light from a particular flight under particular conditions, not the permanent state of the landscape.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The image can also contain more detail than the user needs. Very fine urban photography may show cars, garden structures and shadows that are irrelevant to regional planning but expensive to store and process. A coarser current image can be preferable to an older finer one when the task is detecting broad recent change. Imagery programmes therefore balance resolution against extent, currency, consistency and cost.",
+      "markdown": "The image can also contain more detail than the user needs. Very fine urban photography may show cars, garden structures and shadows that are irrelevant to regional planning but expensive to store and process. A coarser current image can be preferable to an older finer one when the task is detecting broad recent change. Imagery programmes therefore balance resolution against extent, currency, consistency and cost.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The relationship to other spatial data remains central. An orthophoto can show where a fence appears to stand, while a cadastral dataset records a legal boundary derived from survey and title processes. It can show a road surface while an asset database records the maintained road centreline and attributes. It can show vegetation while an ecological layer records a classification that may require field evidence unavailable from the image alone.",
+      "markdown": "The relationship to other spatial data remains central. An orthophoto can show where a fence appears to stand, while a cadastral dataset records a legal boundary derived from survey and title processes. It can show a road surface while an asset database records the maintained road centreline and attributes. It can show vegetation while an ecological layer records a classification that may require field evidence unavailable from the image alone.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS made these datasets easy to place together. Imagery supplied visible context, vector layers supplied selected structures and attributes, and other raster products supplied elevation or spectral measurements. Used alongside mapping and survey information, orthophotos gave different users a common view of the ground against which to read their own records.",
+      "markdown": "GIS made these datasets easy to place together. Imagery supplied visible context, vector layers supplied selected structures and attributes, and other raster products supplied elevation or spectral measurements. Used alongside mapping and survey information, orthophotos gave different users a common view of the ground against which to read their own records.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

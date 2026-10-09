@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1219",
+  "a": "system:mapinfo-local-government",
+  "b": "system:enterprise-gis",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

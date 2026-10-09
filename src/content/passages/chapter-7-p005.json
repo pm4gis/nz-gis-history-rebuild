@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-7-95e54ded0c",
+  "slug": "a-national-language-for-land-95e54ded0c",
+  "articleId": "article:chapter-7",
+  "title": "A national language for land",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7",
+    "entity:traverse-seamless"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The NZLRI gave government agencies and catchment organisations a common way to describe land across large areas. A code for rock, soil, slope, erosion and vegetation could be recorded in the same structured form from Northland to Southland, while the LUC system provided a related assessment of capability. Regional extended legends allowed the classification to be adapted to local combinations of geology, climate and landform rather than forcing every landscape into identical detailed units.",
+      "markdown": "The NZLRI gave government agencies and catchment organisations a common way to describe land across large areas. A code for rock, soil, slope, erosion and vegetation could be recorded in the same structured form from Northland to Southland, while the LUC system provided a related assessment of capability. Regional extended legends allowed the classification to be adapted to local combinations of geology, climate and landform rather than forcing every landscape into identical detailed units.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That regional structure later created work when users wanted national consistency. Below the broad class and subclass levels, the original LUC units formed regional classifications rather than one seamless national scheme. Different regions had their own units and extended legends. Correlation between them required expert interpretation, because a locally defined unit reflected the conditions and mapping history of that region.",
+      "markdown": "That regional structure later created work when users wanted national consistency. Below the broad class and subclass levels, the original LUC units formed regional classifications rather than one seamless national scheme. Different regions had their own units and extended legends. Correlation between them required expert interpretation, because a locally defined unit reflected the conditions and mapping history of that region.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The national inventory was still useful precisely because the broad structure remained recognisable. Users could distinguish highly versatile land from land with severe erosion, soil, wetness or climate limitations and then move into the regional legend for detail. The system supported comparison between regions whose land units differed despite sharing a broad class number.",
+      "markdown": "The national inventory was still useful precisely because the broad structure remained recognisable. Users could distinguish highly versatile land from land with severe erosion, soil, wetness or climate limitations and then move into the regional legend for detail. The system supported comparison between regions whose land units differed despite sharing a broad class number.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The mapping also supplied a base for later derived information. Pastoral or forestry potential, land-use recommendations and other interpretations could be related back to the same physical inventory. Once the polygons had been digitised, those relationships could be stored and selected systematically. The computer made retrieval easier, but the analytical value still came from the classification work attached to each polygon.",
+      "markdown": "The mapping also supplied a base for later derived information. Pastoral or forestry potential, land-use recommendations and other interpretations could be related back to the same physical inventory. Once the polygons had been digitised, those relationships could be stored and selected systematically. The computer made retrieval easier, but the analytical value still came from the classification work attached to each polygon.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

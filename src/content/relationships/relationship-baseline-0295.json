@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0295",
+  "a": "person:carl-johnson",
+  "b": "chapter:20",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-20-0efc7747ca"
+  ],
+  "sources": []
+}

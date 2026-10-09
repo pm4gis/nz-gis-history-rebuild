@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-41-c171f6118a",
+  "slug": "a-maintained-endpoint-c171f6118a",
+  "articleId": "article:chapter-41",
+  "title": "A maintained endpoint",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Central Record of State Land also supplied maintained information through services. LINZ began developing CRoSL in 2019 and released the full tool in late 2020. LINZ describes the dataset as being updated weekly and made available through a web viewer, downloadable data and a REST API. One maintained record could therefore serve a person exploring the map, an analyst wanting a local copy and software needing a direct service connection.",
+      "markdown": "The Central Record of State Land also supplied maintained information through services. LINZ began developing CRoSL in 2019 and released the full tool in late 2020. LINZ describes the dataset as being updated weekly and made available through a web viewer, downloadable data and a REST API. One maintained record could therefore serve a person exploring the map, an analyst wanting a local copy and software needing a direct service connection.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Users could obtain files or connect to data through APIs. Downloads did not disappear when services became available. They remained useful for offline work, reproducibility, large analysis jobs and situations where the consumer needed control over a fixed snapshot. Services were useful when currency and direct integration were more valuable. Mature distribution increasingly offered several routes to the same maintained information.",
+      "markdown": "Users could obtain files or connect to data through APIs. Downloads did not disappear when services became available. They remained useful for offline work, reproducibility, large analysis jobs and situations where the consumer needed control over a fixed snapshot. Services were useful when currency and direct integration were more valuable. Mature distribution increasingly offered several routes to the same maintained information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same choice could appear inside one organisation. An authoritative database might remain on premises while selected layers were replicated to a hosted platform. Sensitive editing might stay internal while public data was exposed through a cloud service. A mobile application could cache data for offline use and synchronise later. By the early 2020s, organisations were maintaining hybrid architectures to meet their requirements. ",
+      "markdown": "The same choice could appear inside one organisation. An authoritative database might remain on premises while selected layers were replicated to a hosted platform. Sensitive editing might stay internal while public data was exposed through a cloud service. A mobile application could cache data for offline use and synchronise later. By the early 2020s, organisations were maintaining hybrid architectures to meet their requirements. ",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

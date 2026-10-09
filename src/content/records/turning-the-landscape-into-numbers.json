@@ -1,0 +1,16 @@
+{
+  "id": "chapter:4",
+  "articleId": "article:chapter-4",
+  "slug": "turning-the-landscape-into-numbers",
+  "name": "Early remote sensing",
+  "kind": "Story",
+  "category": "Early computing",
+  "url": "/stories/turning-the-landscape-into-numbers/",
+  "description": "In October 1975, the Department of Scientific and Industrial Research’s Physics and Engineering Laboratory in Lower Hutt received a Landsat II scene of New Zealand for the organised national investigation programme. Dr M. C. Probine was the principal investigator, with the Remote Sensing Section handling much of the technical work. The programme reports treat this as the start of the formal Landsat II investigation, ",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "imagery"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:sean-audain",
+  "slug": "sean-audain",
+  "name": "Sean Audain",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sean-audain/",
+  "story": [
+    "Sean Audain of Wellington City Council presented “Geospatial in a Smart City” at the 2017 New Zealand Esri User Conference. His presentation provides a named connection between council GIS, urban data and the smart-city programmes that were broadening the use of spatial platforms beyond specialist GIS teams."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Sean Audain"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

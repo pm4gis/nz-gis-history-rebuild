@@ -1,0 +1,48 @@
+{
+  "id": "passage:chapter-26-ffa86e9260",
+  "slug": "sensitive-conservation-data-ffa86e9260",
+  "articleId": "article:chapter-26",
+  "title": "Sensitive conservation data",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26",
+    "person:garth-harmsworth",
+    "person:dean-walker",
+    "person:mick-park"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Conservation GIS also carried access restrictions that were less visible in ordinary mapping projects. A threatened plant or nesting site can become more vulnerable if a precise location is published indiscriminately. Archaeological records may need access controls or generalisation. Operational information about pest control, fire response or infrastructure can also have reasons for restricted circulation.",
+      "markdown": "Conservation GIS also carried access restrictions that were less visible in ordinary mapping projects. A threatened plant or nesting site can become more vulnerable if a precise location is published indiscriminately. Archaeological records may need access controls or generalisation. Operational information about pest control, fire response or infrastructure can also have reasons for restricted circulation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A national enterprise system made these decisions harder to avoid. When information was stored on a specialist’s computer or in a local filing system, access was limited by inconvenience. Once the same record could be served through a browser to staff across the country, permissions had to be deliberate. Some users needed precise locations, while others needed only a general indication that a sensitive feature was present.",
+      "markdown": "A national enterprise system made these decisions harder to avoid. When information was stored on a specialist’s computer or in a local filing system, access was limited by inconvenience. Once the same record could be served through a browser to staff across the country, permissions had to be deliberate. Some users needed precise locations, while others needed only a general indication that a sensitive feature was present.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Māori authority over cultural information raised additional questions of governance. Cultural locations may involve collective rights, tikanga and decisions about who has authority to share knowledge. Environmental sensitivity can overlap with those concerns, but threatened-species protection, archaeological restrictions and Māori data governance have different sources of authority. A mature GIS environment had to handle those differences rather than assume that every location should become open simply because it was digital.",
+      "markdown": "Māori authority over cultural information raised additional questions of governance. Cultural locations may involve collective rights, tikanga and decisions about who has authority to share knowledge. Environmental sensitivity can overlap with those concerns, but threatened-species protection, archaeological restrictions and Māori data governance have different sources of authority. A mature GIS environment had to handle those differences rather than assume that every location should become open simply because it was digital.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Historical conservation maps can contain species locations, archaeological sites and other information held under controlled access. Publication and reuse of those records depend on the permissions attached to the data. An account of a protected information system can describe its functions while respecting those restrictions.",
+      "markdown": "Historical conservation maps can contain species locations, archaeological sites and other information held under controlled access. Publication and reuse of those records depend on the permissions attached to the data. An account of a protected information system can describe its functions while respecting those restrictions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Iwi resource-management work developed its own approaches to holding and using geographic information. Garth Harmsworth, Mick Park and Dean Walker documented a Motueka case in 2005, with Park and Walker affiliated to the Motueka Iwi Resource Management Advisory Komiti at Te Awhina Marae. Their account placed iwi and hapū information needs, capability and control alongside the technical work of building a GIS. Maps could support environmental decisions while access to culturally sensitive information remained governed by the people responsible for it.",
+      "markdown": "Iwi resource-management work developed its own approaches to holding and using geographic information. Garth Harmsworth, Mick Park and Dean Walker documented a Motueka case in 2005, with Park and Walker affiliated to the Motueka Iwi Resource Management Advisory Komiti at Te Awhina Marae. Their account placed iwi and hapū information needs, capability and control alongside the technical work of building a GIS. Maps could support environmental decisions while access to culturally sensitive information remained governed by the people responsible for it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

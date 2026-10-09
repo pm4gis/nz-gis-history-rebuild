@@ -1,0 +1,54 @@
+{
+  "id": "passage:chapter-29-9cd7ad9755",
+  "slug": "the-skills-shortage-becomes-visible-9cd7ad9755",
+  "articleId": "article:chapter-29",
+  "title": "The skills shortage becomes visible",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:29",
+    "person:mairead-de-roiste"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In 2014, Mairéad de Róiste published a national study of the GIS workforce. Filling the gap: The geospatial skills shortage in New Zealand reported on a survey of 157 organisations across government, academia and the private sector. The study found a New Zealand shortage comparable in broad form with shortages already being discussed overseas. By then organisations clearly valued geospatial work; the harder question was whether enough people could perform it at the level employers required.",
+      "markdown": "In 2014, Mairéad de Róiste published a national study of the GIS workforce. Filling the gap: The geospatial skills shortage in New Zealand reported on a survey of 157 organisations across government, academia and the private sector. The study found a New Zealand shortage comparable in broad form with shortages already being discussed overseas. By then organisations clearly valued geospatial work; the harder question was whether enough people could perform it at the level employers required.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The paper identified several connected challenges. New Zealand needed more students entering the field, but increasing graduate numbers alone would not solve the problem. New entrants needed opportunities to gain experience, existing practitioners needed ways to extend their skills, and employers and the wider economy needed a clearer understanding of what geospatial capability could contribute. Employers faced recruitment, training and retention problems.",
+      "markdown": "The paper identified several connected challenges. New Zealand needed more students entering the field, but increasing graduate numbers alone would not solve the problem. New entrants needed opportunities to gain experience, existing practitioners needed ways to extend their skills, and employers and the wider economy needed a clearer understanding of what geospatial capability could contribute. Employers faced recruitment, training and retention problems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Experience was particularly awkward because GIS work had become organisationally entangled. A new graduate might know spatial analysis and desktop tools yet still need to learn enterprise databases, data governance, user requirements, web systems, project delivery or the operating context of a council, utility or government agency. Employers asking for experienced staff were often asking for this combination rather than a single technical skill. That helps explain why formal education and labour demand could both grow while shortages persisted.",
+      "markdown": "Experience was particularly awkward because GIS work had become organisationally entangled. A new graduate might know spatial analysis and desktop tools yet still need to learn enterprise databases, data governance, user requirements, web systems, project delivery or the operating context of a council, utility or government agency. Employers asking for experienced staff were often asking for this combination rather than a single technical skill. That helps explain why formal education and labour demand could both grow while shortages persisted.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The study also captured a terminology problem. The geospatial workforce extended beyond people whose title contained GIS. Surveying, remote sensing, location-based services, software development and spatial-data management overlapped with the same capability base. Counting only GIS analyst vacancies would therefore understate the market. The field was becoming harder to define precisely at the same time that organisations were finding it harder to recruit.",
+      "markdown": "The study also captured a terminology problem. The geospatial workforce extended beyond people whose title contained GIS. Surveying, remote sensing, location-based services, software development and spatial-data management overlapped with the same capability base. Counting only GIS analyst vacancies would therefore understate the market. The field was becoming harder to define precisely at the same time that organisations were finding it harder to recruit.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The shortage also exposed the difference between entry-level knowledge and production capability. Organisations could teach a new employee their local layer names or preferred symbology fairly quickly. It took longer to develop judgement about when a spatial join was unsafe, how to structure a maintainable database, how to estimate a data-conversion task or when a map was hiding uncertainty rather than clarifying it. Much of the value attached to experienced staff lay in these decisions, which were difficult to represent in a vacancy advertisement as a list of software products.",
+      "markdown": "The shortage also exposed the difference between entry-level knowledge and production capability. Organisations could teach a new employee their local layer names or preferred symbology fairly quickly. It took longer to develop judgement about when a spatial join was unsafe, how to structure a maintainable database, how to estimate a data-conversion task or when a map was hiding uncertainty rather than clarifying it. Much of the value attached to experienced staff lay in these decisions, which were difficult to represent in a vacancy advertisement as a list of software products.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The national response was necessarily distributed. Universities could increase teaching and revise programmes, employers could provide internships and supervised experience, industry bodies could promote careers, and user groups could keep current practitioners connected with changing technology. None of these mechanisms could close the gap alone. The workforce problem was another sign that GIS had become infrastructure: organisations were depending on skills that could no longer be supplied by a handful of enthusiasts who happened to know the software.",
+      "markdown": "The national response was necessarily distributed. Universities could increase teaching and revise programmes, employers could provide internships and supervised experience, industry bodies could promote careers, and user groups could keep current practitioners connected with changing technology. None of these mechanisms could close the gap alone. The workforce problem was another sign that GIS had become infrastructure: organisations were depending on skills that could no longer be supplied by a handful of enthusiasts who happened to know the software.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

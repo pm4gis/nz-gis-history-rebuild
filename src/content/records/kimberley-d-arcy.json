@@ -1,0 +1,31 @@
+{
+  "id": "person:kimberley-d-arcy",
+  "slug": "kimberley-d-arcy",
+  "name": "Kimberley D’Arcy",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kimberley-d-arcy/",
+  "story": [
+    "LINZ and the Geospatial Capability Committee included Kimberley D’Arcy in the Leaving School geospatial career-profile series: GIS Analyst, Wellington City Council, July 2025."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Kimberley D’Arcy"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

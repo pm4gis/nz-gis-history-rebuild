@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0407",
+  "a": "person:leo-white",
+  "b": "chapter:20",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

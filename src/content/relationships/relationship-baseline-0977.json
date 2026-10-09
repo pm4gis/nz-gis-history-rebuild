@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0977",
+  "a": "person:kilmeny-stephens",
+  "b": "entity:new-zealand-esri-users-group",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

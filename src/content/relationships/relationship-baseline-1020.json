@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1020",
+  "a": "person:rachel-butler",
+  "b": "entity:maritime-new-zealand",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

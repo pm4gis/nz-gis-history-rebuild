@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-31-54386442a8",
+  "slug": "a-wider-mapping-public-54386442a8",
+  "articleId": "article:chapter-31",
+  "title": "A wider mapping public",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Other web services also widened the audience after 2005. OpenStreetMap activity was established in New Zealand by 2007, and in March 2008 LINZ formally permitted its data to be incorporated, modified and derived in OpenStreetMap with attribution. The two models were very different. Google offered a global commercial service and developer platform. OpenStreetMap built a map from community contribution and reusable geographic data. Digital mapping spread into tourism, search, consumer websites and other services beyond specialist GIS organisations.",
+      "markdown": "Other web services also widened the audience after 2005. OpenStreetMap activity was established in New Zealand by 2007, and in March 2008 LINZ formally permitted its data to be incorporated, modified and derived in OpenStreetMap with attribution. The two models were very different. Google offered a global commercial service and developer platform. OpenStreetMap built a map from community contribution and reusable geographic data. Digital mapping spread into tourism, search, consumer websites and other services beyond specialist GIS organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Interactive mapping became familiar to a wider public. People who would never call themselves GIS users began making geographic decisions through digital maps every day. They searched before driving somewhere unfamiliar. They inspected an aerial view before visiting a property. They shared placemarks, looked for businesses and used maps inside websites that were not primarily about mapping. Geography became an interface to ordinary tasks.",
+      "markdown": "Interactive mapping became familiar to a wider public. People who would never call themselves GIS users began making geographic decisions through digital maps every day. They searched before driving somewhere unfamiliar. They inspected an aerial view before visiting a property. They shared placemarks, looked for businesses and used maps inside websites that were not primarily about mapping. Geography became an interface to ordinary tasks.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That wider audience also became less tolerant of the distinction between “mapping software” and the rest of the web. A map was expected to search, move and respond like other digital interfaces. It could sit inside tourism, retail, news, community information or government services without announcing itself as GIS. More people used interactive maps through interfaces that concealed the underlying GIS software.",
+      "markdown": "That wider audience also became less tolerant of the distinction between “mapping software” and the rest of the web. A map was expected to search, move and respond like other digital interfaces. It could sit inside tourism, retail, news, community information or government services without announcing itself as GIS. More people used interactive maps through interfaces that concealed the underlying GIS software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the early 2010s, this expectation was firmly established. Google was adding location prompts and inviting users to help improve map information, while organisations across New Zealand were publishing data and applications into a web environment in which interactive maps were already familiar. Attention increasingly shifted to who could obtain the underlying data, which software could be used to work with it, and how applications could consume spatial services directly.",
+      "markdown": "By the early 2010s, this expectation was firmly established. Google was adding location prompts and inviting users to help improve map information, while organisations across New Zealand were publishing data and applications into a web environment in which interactive maps were already familiar. Attention increasingly shifted to who could obtain the underlying data, which software could be used to work with it, and how applications could consume spatial services directly.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

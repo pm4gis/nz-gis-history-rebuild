@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-16-11e24f30e5",
+  "slug": "interoperable-census-files-11e24f30e5",
+  "articleId": "article:chapter-16",
+  "title": "Interoperable census files",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Boundary distribution continued to change. On 7 July 2007 the Government announced that Statistics New Zealand’s Digital Boundaries and standard StreetLink files would be available without charge. The announcement recorded that the standard five-year census boundary pattern had previously cost $3,300 plus GST, while the annual detailed boundary file had cost $25,212 plus GST. Removing those charges shifted the authoritative geometry itself from a specialist paid product towards general-purpose infrastructure, although the wider open-government-data framework would develop further in later years.",
+      "markdown": "Boundary distribution continued to change. On 7 July 2007 the Government announced that Statistics New Zealand’s Digital Boundaries and standard StreetLink files would be available without charge. The announcement recorded that the standard five-year census boundary pattern had previously cost $3,300 plus GST, while the annual detailed boundary file had cost $25,212 plus GST. Removing those charges shifted the authoritative geometry itself from a specialist paid product towards general-purpose infrastructure, although the wider open-government-data framework would develop further in later years.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The technical form of distribution also became more practical. By October 2007 Statistics New Zealand’s online boundary directories included census-based files in Esri shapefile and MapInfo formats, both widely used in New Zealand desktop GIS of the period. The 2006 national Level 2 files were available in both New Zealand Map Grid and New Zealand Transverse Mercator versions. That dual-coordinate environment reflected the national transition from NZMG and NZGD49 to NZTM2000 and NZGD2000 rather than forcing every organisation to change its GIS at the same moment.",
+      "markdown": "The technical form of distribution also became more practical. By October 2007 Statistics New Zealand’s online boundary directories included census-based files in Esri shapefile and MapInfo formats, both widely used in New Zealand desktop GIS of the period. The 2006 national Level 2 files were available in both New Zealand Map Grid and New Zealand Transverse Mercator versions. That dual-coordinate environment reflected the national transition from NZMG and NZGD49 to NZTM2000 and NZGD2000 rather than forcing every organisation to change its GIS at the same moment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplying the same authoritative geography in commonly used formats and coordinate systems reduced the conversion work at the receiving end. A council, health service, university or consultancy could load the boundary file into its existing desktop software and join census attributes using the official geographic identifiers. Format support was a practical form of interoperability. It was less glamorous than a new GIS package, but it often determined whether a dataset could move easily from its custodian into everyday analytical work.",
+      "markdown": "Supplying the same authoritative geography in commonly used formats and coordinate systems reduced the conversion work at the receiving end. A council, health service, university or consultancy could load the boundary file into its existing desktop software and join census attributes using the official geographic identifiers. Format support was a practical form of interoperability. It was less glamorous than a new GIS package, but it often determined whether a dataset could move easily from its custodian into everyday analytical work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By this stage statistical geography had travelled a long way from the coloured census maps of the nineteenth century. The purpose remained recognisable: divide the country into workable population areas, connect counts to those areas and relate them to larger geographic structures. The machinery had changed from field maps and draughting rooms to maintained polygon databases, concordance tables, address coding and downloadable GIS files. The digital meshblock did not replace the older need for geographic judgement. It made that judgement reusable across many systems and many users.",
+      "markdown": "By this stage statistical geography had travelled a long way from the coloured census maps of the nineteenth century. The purpose remained recognisable: divide the country into workable population areas, connect counts to those areas and relate them to larger geographic structures. The machinery had changed from field maps and draughting rooms to maintained polygon databases, concordance tables, address coding and downloadable GIS files. The digital meshblock did not replace the older need for geographic judgement. It made that judgement reusable across many systems and many users.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

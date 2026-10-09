@@ -1,0 +1,26 @@
+{
+  "id": "2006-niwa-postgis",
+  "dateDisplay": "2006-10-30",
+  "startDate": "2006-10-30",
+  "datePrecision": "day",
+  "year": 2006,
+  "label": "NIWA documents production PostGIS use",
+  "summary": "Brent Wood described PostGIS managing very large spatial datasets across multiple NIWA systems, showing open-source database software as working infrastructure.",
+  "url": "/stories/open-source-changes-the-tools/#open-source-underneath-the-map-069a12d50e",
+  "passageIds": [
+    "passage:chapter-32-069a12d50e"
+  ],
+  "recordIds": [
+    "person:brent-wood",
+    "chapter:32"
+  ],
+  "themeIds": [
+    "open-practice"
+  ],
+  "categories": [
+    "open-source",
+    "database",
+    "science"
+  ],
+  "sources": []
+}

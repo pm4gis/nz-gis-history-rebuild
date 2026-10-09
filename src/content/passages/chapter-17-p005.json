@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-17-309bcb1392",
+  "slug": "roads-for-response-309bcb1392",
+  "articleId": "article:chapter-17",
+  "title": "Roads for response",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Road geometry helped crews navigate to the location identified by an address. The same road can be long, interrupted, renamed or locally ambiguous. A digital road network provides the structure within which address locations and place names can be interpreted. For emergency services it also supplies the basis for route finding, checking intersections and distinguishing similarly named roads in different districts. The road layer therefore became more than a cartographic backdrop to address points.",
+      "markdown": "Road geometry helped crews navigate to the location identified by an address. The same road can be long, interrupted, renamed or locally ambiguous. A digital road network provides the structure within which address locations and place names can be interpreted. For emergency services it also supplies the basis for route finding, checking intersections and distinguishing similarly named roads in different districts. The road layer therefore became more than a cartographic backdrop to address points.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Maintaining the road information posed the same institutional problem as addresses. Councils knew about local road creation and naming. National land-information systems needed a consistent road record. Emergency services needed rapid updates when a new subdivision or changed road name entered everyday use. The later AIMS environment made this relationship more explicit by managing national address information alongside improved national road data. By 2016 LINZ was publicly describing a new roads database that could accept geometries from council-supplied spatial files, check road-name conflicts and align road geometry with the direction of addressing.",
+      "markdown": "Maintaining the road information posed the same institutional problem as addresses. Councils knew about local road creation and naming. National land-information systems needed a consistent road record. Emergency services needed rapid updates when a new subdivision or changed road name entered everyday use. The later AIMS environment made this relationship more explicit by managing national address information alongside improved national road data. By 2016 LINZ was publicly describing a new roads database that could accept geometries from council-supplied spatial files, check road-name conflicts and align road geometry with the direction of addressing.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The later system brought these elements together. Earlier DCDB-related standards, electoral street records, Statistics New Zealand products and emergency-service work all contributed to the lineage. AIMS represented a more mature centralised management environment, not the moment when roads or addresses suddenly became digital.",
+      "markdown": "The later system brought these elements together. Earlier DCDB-related standards, electoral street records, Statistics New Zealand products and emergency-service work all contributed to the lineage. AIMS represented a more mature centralised management environment, not the moment when roads or addresses suddenly became digital.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

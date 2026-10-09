@@ -1,0 +1,36 @@
+{
+  "id": "person:aaria-dobson-waitere",
+  "slug": "aaria-dobson-waitere",
+  "name": "Aaria Dobson-Waitere",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/aaria-dobson-waitere/",
+  "website": null,
+  "story": [
+    "Aaria Dobson-Waitere developed GIS skills through conservation and mana whenua work in Te Whanganui-a-Tara. In 2017 she was the only New Zealand recipient among 15 Society for Conservation GIS scholarship recipients, travelling to California for specialist GIS training and the Esri and SCGIS conferences.",
+    "Her GIS work for Taranaki Whānui included collating maps and spatial data for Matiu Island and other sites of significance, and using GIS to record and communicate cultural, environmental and resource interests. She returned to SCGIS as a Train-the-Trainer participant and presented work on indigenous knowledge, freshwater monitoring and the use of mapping to support kaitiakitanga."
+  ],
+  "sources": [
+    {
+      "label": "Te Herenga Waka—Victoria University of Wellington, Learning the lay of the land, 1 June 2017",
+      "url": "https://www.wgtn.ac.nz/science/about/news/news-archives/2017-news/learning-the-lay-of-the-land"
+    },
+    {
+      "label": "Esri Community / Society for Conservation GIS, Aaria Dobson-Waitere, New Zealand",
+      "url": "https://community.esri.com/t5/conservation-gis/aaria-dobson-waitere-new-zealand/ta-p/915856"
+    },
+    {
+      "label": "New Zealand Journal of Ecology, The reconnection between mana whenua and urban freshwaters, 2019",
+      "url": "https://newzealandecology.org/nzje/3390"
+    }
+  ],
+  "aliases": [
+    "Aaria Dobson-Waitere",
+    "Aaria Ripeka Dobson-Waitere"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

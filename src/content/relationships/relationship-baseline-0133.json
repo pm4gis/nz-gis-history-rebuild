@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0133",
+  "a": "entity:maori-land-court",
+  "b": "chapter:13",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

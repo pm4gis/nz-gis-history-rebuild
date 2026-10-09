@@ -1,0 +1,31 @@
+{
+  "id": "person:bruce-adlam",
+  "slug": "bruce-adlam",
+  "name": "Bruce Adlam",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/bruce-adlam/",
+  "story": [
+    "ESR's Bruce Adlam presented EpiSurv7 to the Pacific Public Health Surveillance Network coordinating body in March 2007. GIS had moved from being something analysts did to extracts from the disease database to being an explicit capability of the national surveillance application itself."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 27 · PHEW! puts surveillance in a browser",
+      "url": "/stories/health-population-and-place/"
+    }
+  ],
+  "aliases": [
+    "Bruce Adlam"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 27 · PHEW! puts surveillance in a browser",
+        "url": "/stories/health-population-and-place/"
+      }
+    ]
+  ]
+}

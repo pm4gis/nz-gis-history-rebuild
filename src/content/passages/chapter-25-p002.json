@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-25-0cb18819c8",
+  "slug": "paper-plans-become-a-register-0cb18819c8",
+  "articleId": "article:chapter-25",
+  "title": "Paper plans become a register",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Vector converted paper network records into GIS. Its 1999/2000 Asset Management Plan says GIS implementation began in the early 1990s and involved extensive conversion from existing paper records together with field data capture. The programme included data conversion, system development and changes to working methods. It was a long conversion process in which the company assembled a usable digital representation of its electricity network before later moving that information into a new platform. Years of network history had first to be found on paper, interpreted, entered and checked. Buying the software was the part that came with an invoice; converting the network was the part that became the work.",
+      "markdown": "Vector converted paper network records into GIS. Its 1999/2000 Asset Management Plan says GIS implementation began in the early 1990s and involved extensive conversion from existing paper records together with field data capture. The programme included data conversion, system development and changes to working methods. It was a long conversion process in which the company assembled a usable digital representation of its electricity network before later moving that information into a new platform. Years of network history had first to be found on paper, interpreted, entered and checked. Buying the software was the part that came with an invoice; converting the network was the part that became the work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same plan described the GIS as a comprehensive register of Vector’s network assets, represented both geographically and in text. That wording is more precise than calling it an electronic map. A pole, cable or transformer existed in the system as an asset with attributes as well as a shape or point on screen. The geographic record could be connected to information about the equipment itself, and the asset could be referred to consistently in planning, maintenance and analysis.",
+      "markdown": "The same plan described the GIS as a comprehensive register of Vector’s network assets, represented both geographically and in text. That wording is more precise than calling it an electronic map. A pole, cable or transformer existed in the system as an asset with attributes as well as a shape or point on screen. The geographic record could be connected to information about the equipment itself, and the asset could be referred to consistently in planning, maintenance and analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Staff retained source plans for reference after digitising features. They determined what could be captured and how reliable the initial geometry was. Field capture was used alongside conversion because records on paper did not always correspond neatly with what was in the ground or on the street. A network assembled over decades had been modified by maintenance, development and emergency work, and not every change had travelled through every record system with equal speed.",
+      "markdown": "Staff retained source plans for reference after digitising features. They determined what could be captured and how reliable the initial geometry was. Field capture was used alongside conversion because records on paper did not always correspond neatly with what was in the ground or on the street. A network assembled over decades had been modified by maintenance, development and emergency work, and not every change had travelled through every record system with equal speed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The early conversion therefore created both a database and a quality programme. Every feature entered into the GIS had to be assigned to the correct type, location and relationship. Missing or uncertain assets remained a data problem after digitising. Later Vector plans continued to refer to improving data quality, showing that conversion became an ongoing maintenance task rather than a once-only clean-up completed when the first network appeared on screen.",
+      "markdown": "The early conversion therefore created both a database and a quality programme. Every feature entered into the GIS had to be assigned to the correct type, location and relationship. Missing or uncertain assets remained a data problem after digitising. Later Vector plans continued to refer to improving data quality, showing that conversion became an ongoing maintenance task rather than a once-only clean-up completed when the first network appeared on screen.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

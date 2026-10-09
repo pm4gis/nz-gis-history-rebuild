@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1240",
+  "a": "system:guild-on-the-web",
+  "b": "system:our-environment",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:cindy-munns",
+  "slug": "cindy-munns",
+  "name": "Cindy Munns",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/cindy-munns/",
+  "story": [
+    "Cindy Munns’s 1999 international conference paper examined object-relational databases and spatial data. One of the paper's working examples was Land Information New Zealand's Core Records System. Its goal was described as unifying government land-related activities and replacing several systems with one integrated environment for automated land transactions. The system would contain both survey and title transactions, support remote land validation and move millions of plan and title images into digital form."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 40 · LINZ builds a spatial database",
+      "url": "/stories/enterprise-gis/"
+    }
+  ],
+  "aliases": [
+    "Cindy Munns"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 40 · LINZ builds a spatial database",
+        "url": "/stories/enterprise-gis/"
+      }
+    ]
+  ]
+}

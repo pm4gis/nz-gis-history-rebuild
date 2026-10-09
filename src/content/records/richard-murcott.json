@@ -1,0 +1,71 @@
+{
+  "id": "person:richard-murcott",
+  "slug": "richard-murcott",
+  "name": "Richard Murcott",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/richard-murcott/",
+  "story": [
+    "Richard Murcott’s geospatial work began with cadastral surveying and the national Digital Cadastral Database. He later worked across topographic and hydrographic information, emergency-services data and metadata standards. His professional biography records work on the e-Government Interoperability Framework and advice on the New Zealand Geospatial Strategy.",
+    "At LINZ, Murcott coordinated the Emergency Services and Administration core-data specification. He and Richard Pascoe presented its standards-based modelling to ISO/TC 211 in Adelaide in October 2001. LINZ’s April 2004 specification names Murcott as project coordinator, alongside data modellers Janet Bateson and Bryan Clarke and advisers Pascoe and Neil Pullar.",
+    "As Geospatial Standards Leader in the New Zealand Geospatial Office, he worked on the national address model and its relationship to ISO’s addressing work. His professional biography also records participation in international hydrographic committees and New Zealand’s geospatial standards community. These contributions helped agencies describe location information consistently and exchange it through shared specifications."
+  ],
+  "sources": [
+    {
+      "label": "OpenWork, Richard Murcott professional biography: surveying, DCDB and geospatial standards",
+      "url": "https://www.openwork.nz/copy-of-about"
+    },
+    {
+      "label": "ISO/TC 211, Adelaide standards-in-action presentation archive, October 2001: Richard Pascoe and Richard Murcott",
+      "url": "https://committee.iso.org/sites/tc211/home/standards-in-action/presentation-archive/2001-10-adelaide.html"
+    },
+    {
+      "label": "LINZ, Emergency Services and Administration Core Data Specification, April 2004, Appendix H: Richard Murcott, project coordinator",
+      "url": "https://www.linz.govt.nz/sites/default/files/esa-dataset-specification-v1-9-7.pdf"
+    },
+    {
+      "label": "Vicinity Solutions, New Zealand Geospatial Office address-model case study: Richard Murcott, Geospatial Standards Leader",
+      "url": "https://vicgis.com/projects/nz-geospatial-office.html"
+    }
+  ],
+  "aliases": [
+    "Richard Murcott"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "OpenWork, Richard Murcott professional biography: surveying, DCDB and geospatial standards",
+        "url": "https://www.openwork.nz/copy-of-about"
+      }
+    ],
+    [
+      {
+        "label": "ISO/TC 211, Adelaide standards-in-action presentation archive, October 2001: Richard Pascoe and Richard Murcott",
+        "url": "https://committee.iso.org/sites/tc211/home/standards-in-action/presentation-archive/2001-10-adelaide.html"
+      },
+      {
+        "label": "LINZ, Emergency Services and Administration Core Data Specification, April 2004, Appendix H: Richard Murcott, project coordinator",
+        "url": "https://www.linz.govt.nz/sites/default/files/esa-dataset-specification-v1-9-7.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Vicinity Solutions, New Zealand Geospatial Office address-model case study: Richard Murcott, Geospatial Standards Leader",
+        "url": "https://vicgis.com/projects/nz-geospatial-office.html"
+      },
+      {
+        "label": "OpenWork, Richard Murcott professional biography: surveying, DCDB and geospatial standards",
+        "url": "https://www.openwork.nz/copy-of-about"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Richard Murcott’s standards work",
+      "url": "/stories/the-spatial-infrastructure-idea/"
+    }
+  ]
+}

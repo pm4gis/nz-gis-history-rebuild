@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0941",
+  "a": "person:robin-falconer",
+  "b": "entity:georesearch-associates",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

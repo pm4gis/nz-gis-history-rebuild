@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1136",
+  "a": "system:esri-arcgis",
+  "b": "chapter:12",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

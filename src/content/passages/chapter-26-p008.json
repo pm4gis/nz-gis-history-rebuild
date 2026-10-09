@@ -1,0 +1,63 @@
+{
+  "id": "passage:chapter-26-be7df4d5ec",
+  "slug": "maintaining-conservation-information-be7df4d5ec",
+  "articleId": "article:chapter-26",
+  "title": "Maintaining conservation information",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Once a national GIS existed, data maintenance became continuing work. Protected-area boundaries changed through acquisitions, disposals, classifications and settlement processes. Tracks and facilities were built, closed, relocated or renamed. Pest-control operations and fire histories changed from year to year. Biological observations accumulated, but older records did not necessarily lose value simply because a newer survey existed.",
+      "markdown": "Once a national GIS existed, data maintenance became continuing work. Protected-area boundaries changed through acquisitions, disposals, classifications and settlement processes. Tracks and facilities were built, closed, relocated or renamed. Pest-control operations and fire histories changed from year to year. Biological observations accumulated, but older records did not necessarily lose value simply because a newer survey existed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The department therefore needed different maintenance rules for different datasets. A legal boundary required a controlled source and date. An asset record needed an identifier that remained consistent across mapping and operational systems. A species observation needed provenance, observation date and often a measure of uncertainty. A pest-control polygon needed enough context to distinguish a planned operation from one that had been completed.",
+      "markdown": "The department therefore needed different maintenance rules for different datasets. A legal boundary required a controlled source and date. An asset record needed an identifier that remained consistent across mapping and operational systems. A species observation needed provenance, observation date and often a measure of uncertainty. A pest-control polygon needed enough context to distinguish a planned operation from one that had been completed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These distinctions limited how far a generic enterprise model could simplify conservation information. Putting layers into one geodatabase did not make them equivalent. The work still depended on subject specialists, field staff and information managers who understood what each feature represented and how it should be updated. GIS provided the shared geographic structure, while the authority for an individual record remained with the business process or scientific programme that created it.",
+      "markdown": "These distinctions limited how far a generic enterprise model could simplify conservation information. Putting layers into one geodatabase did not make them equivalent. The work still depended on subject specialists, field staff and information managers who understood what each feature represented and how it should be updated. GIS provided the shared geographic structure, while the authority for an individual record remained with the business process or scientific programme that created it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2015 the internal DOCgis environment was still supporting a broad set of ordinary tasks. A staff presentation from that year includes Treaty settlement material, Te Araroa, asset and boundary display, locating places such as Catchpool Valley and use of functional-location identifiers. One slide poses a practical request for a map of Wairau Lagoon for a meeting in thirty minutes. Staff used GIS for routine conservation tasks.",
+      "markdown": "By 2015 the internal DOCgis environment was still supporting a broad set of ordinary tasks. A staff presentation from that year includes Treaty settlement material, Te Araroa, asset and boundary display, locating places such as Catchpool Valley and use of functional-location identifiers. One slide poses a practical request for a map of Wairau Lagoon for a meeting in thirty minutes. Staff used GIS for routine conservation tasks.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOC described the organisation-wide role of GIS publicly on 24 August 2009. Its conservation blog estimated that almost 90 per cent of the information collected by the department had a geospatial aspect, and explained how specialists in conservancy offices contributed local information to a national system. Readers were directed to interactive DOCgis maps. A DOCgis print dated 12 February 2013, later included in New Zealand Conservation Authority public papers, shows the system continuing to support biodiversity, assets, permissions, conservation units and other operational information. These records place DOCgis within the department’s continuing work a decade after the early releases.",
+      "sources": [
+        {
+          "label": "Department of Conservation, 'GIS? What’s GIS?' conservation blog",
+          "url": "https://blog.doc.govt.nz/2009/08/24/gis-whats-gis/"
+        },
+        {
+          "label": "New Zealand Conservation Authority public papers, June 2015, reproduced DOCgis map print",
+          "url": "https://ftp.doc.govt.nz/public/folder/mlawv0pcMkWvExCkUCOkvg/nzca/public-papers/2015/2015-06-nzca-public-papers-june-2015.pdf"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2017 user conference named more of the field-facing conservation workforce. Alysia Barnes of the Ministry for Primary Industries presented Survey123 for kauri-dieback monitoring, and William Bannister co-presented DOC’s Port Hills fire response. Both cases put mobile and operational GIS into named biosecurity and incident-response work.",
+      "sources": [
+        {
+          "label": "New Zealand Esri User Conference programme, 2017",
+          "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

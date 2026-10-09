@@ -1,0 +1,54 @@
+{
+  "id": "person:kim-ollivier",
+  "slug": "kim-ollivier",
+  "name": "Kim Ollivier",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kim-ollivier/",
+  "story": [
+    "Kim Ollivier’s professional background combined civil engineering and local-authority technical and management work with GIS consulting. Eagle’s partner directory describes Ollivier & Company’s Esri work for local and regional government. NIWA credits a tool he developed for the Ministry for Primary Industries as the inspiration for its Structured Conservation Planning QGIS plugin, supporting collaborative assessment of marine protected-area proposals in the Ross Sea.",
+    "GBS's own retrospective remembers a wider circle around that period including Kim Ollivier, David Pimblott, Mike Oberdries, Simon Jellie and Steve Critchlow. Practitioners met repeatedly as customers, consultants, competitors, conference speakers and collaborators."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology partner directory, Ollivier & Company",
+      "url": "https://www.eagle.co.nz/node/76"
+    },
+    {
+      "label": "NIWA, QGIS: Structured Conservation Planning plugin",
+      "url": "https://niwa.co.nz/environmental-information/qgis"
+    },
+    {
+      "label": "Kim Ollivier - Ollivier & Co | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/kim-ollivier-b89a663"
+    },
+    {
+      "label": "Chapter 12 · Company staff",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Kim Ollivier"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Eagle Technology partner directory, Ollivier & Company",
+        "url": "https://www.eagle.co.nz/node/76"
+      },
+      {
+        "label": "NIWA, QGIS: Structured Conservation Planning plugin",
+        "url": "https://niwa.co.nz/environmental-information/qgis"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Company staff",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

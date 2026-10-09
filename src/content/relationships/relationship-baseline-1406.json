@@ -1,0 +1,14 @@
+{
+  "id": "relationship:baseline-1406",
+  "a": "entity:smallworld-ge-smallworld",
+  "b": "chapter:12",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-12-a7de508d68",
+    "passage:chapter-12-44546cee53",
+    "passage:chapter-12-75032ec60f",
+    "passage:chapter-12-eb1fae3cf8"
+  ],
+  "sources": []
+}

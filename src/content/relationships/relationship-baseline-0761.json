@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0761",
+  "a": "person:robert-davey",
+  "b": "chapter:25",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-25-b239127218"
+  ],
+  "sources": []
+}

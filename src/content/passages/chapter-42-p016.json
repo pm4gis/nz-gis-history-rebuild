@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-42-0573ede669",
+  "slug": "emergency-mapping-products-0573ede669",
+  "articleId": "article:chapter-42",
+  "title": "Emergency mapping products",
+  "order": 15,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The national geospatial sub-function produced more than 100 dashboards, web applications and datasets for different response tasks. These products addressed many separate information needs. Road access, welfare, damage, power, communications, imagery, landslides, field activity and public information can each require different combinations of source data, audience, security and update frequency. A single all-purpose map would become unreadable long before it became useful.",
+      "markdown": "The national geospatial sub-function produced more than 100 dashboards, web applications and datasets for different response tasks. These products addressed many separate information needs. Road access, welfare, damage, power, communications, imagery, landslides, field activity and public information can each require different combinations of source data, audience, security and update frequency. A single all-purpose map would become unreadable long before it became useful.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The scale also explains the need for surge staffing. Building and maintaining many products during an event requires more than cartography. Analysts need to clean and join data. Platform administrators manage permissions and hosted services. Imagery staff process new acquisitions. Liaison staff locate datasets and understand what operational teams are asking for. Someone has to maintain the product after the exciting first publication, which is usually when the less glamorous work begins.",
+      "markdown": "The scale also explains the need for surge staffing. Building and maintaining many products during an event requires more than cartography. Analysts need to clean and join data. Platform administrators manage permissions and hosted services. Imagery staff process new acquisitions. Liaison staff locate datasets and understand what operational teams are asking for. Someone has to maintain the product after the exciting first publication, which is usually when the less glamorous work begins.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Gabrielle response therefore resembles the enterprise and application histories from Chapters 35 and 40, but compressed into emergency time. Systems that might normally evolve over months had to be configured or adapted in days. Existing services, templates, user communities and professional relationships reduced that burden. The geospatial response could surge because much of the technical and institutional groundwork already existed before the cyclone arrived.",
+      "markdown": "The Gabrielle response therefore resembles the enterprise and application histories from Chapters 35 and 40, but compressed into emergency time. Systems that might normally evolve over months had to be configured or adapted in days. Existing services, templates, user communities and professional relationships reduced that burden. The geospatial response could surge because much of the technical and institutional groundwork already existed before the cyclone arrived.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

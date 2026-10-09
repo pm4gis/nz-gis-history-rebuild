@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-6-1b035688c6",
+  "slug": "specialist-hardware-1b035688c6",
+  "articleId": "article:chapter-6",
+  "title": "Specialist hardware",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:6"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The physical setting of GIS also distinguished the 1980s from later desktop use. Workstations and graphics hardware were expensive enough to be shared resources. Digitising tables occupied real floor space, large monitors and plotters required specialist support, and storage remained limited by later standards. A GIS installation could therefore be a room, a laboratory or a dedicated unit as much as a software licence.",
+      "markdown": "The physical setting of GIS also distinguished the 1980s from later desktop use. Workstations and graphics hardware were expensive enough to be shared resources. Digitising tables occupied real floor space, large monitors and plotters required specialist support, and storage remained limited by later standards. A GIS installation could therefore be a room, a laboratory or a dedicated unit as much as a software licence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This influenced access inside organisations. A planner or scientist might request work from a specialist GIS or mapping unit rather than operate the system directly. Analysts who used the software regularly accumulated technical knowledge about command syntax, data structures and plotting that ordinary information users did not need. The system could support many organisational functions while remaining physically controlled by a small team.",
+      "markdown": "This influenced access inside organisations. A planner or scientist might request work from a specialist GIS or mapping unit rather than operate the system directly. Analysts who used the software regularly accumulated technical knowledge about command syntax, data structures and plotting that ordinary information users did not need. The system could support many organisational functions while remaining physically controlled by a small team.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The arrangement affected turnaround times. A map request might require data preparation, a batch or interactive processing step, plotting and manual checking before the result reached the requester. The computer reduced some kinds of repetitive work but introduced queues around scarce equipment and skilled operators. GIS was faster than older methods for many tasks without being instantaneous.",
+      "markdown": "The arrangement affected turnaround times. A map request might require data preparation, a batch or interactive processing step, plotting and manual checking before the result reached the requester. The computer reduced some kinds of repetitive work but introduced queues around scarce equipment and skilled operators. GIS was faster than older methods for many tasks without being instantaneous.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Training therefore covered both geographic ideas and machine-specific practice. Users needed to understand the software commands, storage conventions and ways of recovering from failed jobs. Commercial support became valuable because a local organisation no longer had to solve every system problem from first principles. The support relationship could include installation, troubleshooting, training, data conversion and advice on workflows.",
+      "markdown": "Training therefore covered both geographic ideas and machine-specific practice. Users needed to understand the software commands, storage conventions and ways of recovering from failed jobs. Commercial support became valuable because a local organisation no longer had to solve every system problem from first principles. The support relationship could include installation, troubleshooting, training, data conversion and advice on workflows.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

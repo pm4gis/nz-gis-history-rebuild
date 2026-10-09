@@ -1,0 +1,26 @@
+{
+  "id": "1926-waimakariri-air-survey",
+  "dateDisplay": "1926-03-27",
+  "startDate": "1926-03-27",
+  "datePrecision": "day",
+  "year": 1926,
+  "label": "Aerial survey of the Waimakariri River",
+  "summary": "The New Zealand Permanent Air Force carried out an operational aerial survey of the Waimakariri River, an early step towards systematic aerial mapping.",
+  "url": "/stories/what-the-computer-inherited/#the-country-from-the-air-db246fba61",
+  "passageIds": [
+    "passage:chapter-1-db246fba61"
+  ],
+  "recordIds": [
+    "chapter:1",
+    "entity:new-zealand-aerial-mapping",
+    "person:henry-piet-drury-van-asch"
+  ],
+  "themeIds": [
+    "imagery"
+  ],
+  "categories": [
+    "imagery",
+    "survey"
+  ],
+  "sources": []
+}

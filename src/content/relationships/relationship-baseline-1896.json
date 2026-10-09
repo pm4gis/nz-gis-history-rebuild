@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1896",
+  "a": "person:brent-wood",
+  "b": "chapter:9",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-9-7b174cd504"
+  ],
+  "sources": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "person:karl-majorhazi",
+  "slug": "karl-majorhazi",
+  "name": "Karl Majorhazi",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/karl-majorhazi/",
+  "story": [
+    "Karl Majorhazi's professional interests include cartography, GIS, training, workshops and professional development. His published articles address the design of maps using New Zealand statistical data and environmental reporting. His career profile records study at Massey University and an association with the Office of Treaty Settlements and Takutai Moana.",
+    "SCGIS lists Karl Majorhazi as a chapter official supporting the New Zealand and Fiji conservation GIS network.",
+    "The 2011 Surveying and Spatial Sciences Conference involved Esri and Eagle Technology, while Karl Majorhazi and Jeff Needham served as conference convenors. The final programme placed all plenaries and keynotes in the Michael Fowler Auditorium. ArcGIS workshops and conference streams used rooms across the Wellington Convention Centre. The ESRI User Group AGM occupied Renouf 1 on Thursday afternoon, alongside the NZIS AGM, MapInfo User Group AGM and SSSI meeting.",
+    "LINZ’s Ngā Poutama Matawhenua record names Karl Majorhazi: Te Tari Whakatau; Kōrero Takutai demonstration."
+  ],
+  "sources": [
+    {
+      "label": "SCGIS New Zealand and Fiji chapter",
+      "url": "https://www.scgis.org/new-zealand-and-fiji"
+    },
+    {
+      "label": "Karl Majorhazi - Te Tari Whakatau : The Office of Treaty Settlements and Takutai Moana | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/karl-majorhazi-8269217"
+    },
+    {
+      "label": "Chapter 12 · Recurring conferences",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ],
+  "aliases": [
+    "Karl Majorhazi"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Karl Majorhazi - Te Tari Whakatau : The Office of Treaty Settlements and Takutai Moana | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/karl-majorhazi-8269217"
+      }
+    ],
+    [
+      {
+        "label": "SCGIS New Zealand and Fiji chapter",
+        "url": "https://www.scgis.org/new-zealand-and-fiji"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Recurring conferences",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Ngā Poutama Matawhenua",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+      }
+    ]
+  ]
+}

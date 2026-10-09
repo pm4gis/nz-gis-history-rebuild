@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1697",
+  "a": "person:dean-walker",
+  "b": "chapter:23",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-23-adbd4f0f56"
+  ],
+  "sources": []
+}

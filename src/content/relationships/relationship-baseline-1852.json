@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1852",
+  "a": "person:john-beavan",
+  "b": "chapter:19",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-19-d8aa821386",
+    "passage:chapter-19-7ec6ff6340"
+  ],
+  "sources": []
+}

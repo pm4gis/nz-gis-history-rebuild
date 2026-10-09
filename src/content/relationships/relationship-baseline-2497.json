@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-2497",
+  "a": "person:marian-hobbs",
+  "b": "chapter:9",
+  "label": "Discussed in chapter",
+  "basis": "Reconciled from existing chapter metadata in the 7 October 2026 entity-gap cleanup.",
+  "passageIds": [
+    "passage:chapter-9-a97d1cda42"
+  ],
+  "sources": []
+}

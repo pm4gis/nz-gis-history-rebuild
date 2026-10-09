@@ -1,0 +1,23 @@
+{
+  "id": "1966-computing-survey-mapping",
+  "dateDisplay": "1966",
+  "startDate": "1966",
+  "datePrecision": "year",
+  "year": 1966,
+  "label": "Electronic computation documented in surveying and mapping",
+  "summary": "A contemporary New Zealand mapping reference records electronic computers being used for involved mathematical surveying and mapping calculations.",
+  "url": "/stories/coordinates-enter-the-computer/#surveying-and-mapping-by-1966-8de87e20d6",
+  "passageIds": [
+    "passage:chapter-2-8de87e20d6"
+  ],
+  "recordIds": [
+    "chapter:2",
+    "person:r-g-dick"
+  ],
+  "themeIds": [],
+  "categories": [
+    "computing",
+    "survey"
+  ],
+  "sources": []
+}

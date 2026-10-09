@@ -1,0 +1,23 @@
+{
+  "id": "1984-analytical-stereoplotter",
+  "dateDisplay": "1984",
+  "startDate": "1984",
+  "datePrecision": "year",
+  "year": 1984,
+  "label": "NZAM buys a Wild BC1 analytical stereoplotter",
+  "summary": "The Wild Aviolyt BC1 moved NZAM’s photogrammetric work from analogue stereo plotting towards computer-supported analytical production.",
+  "url": "/stories/drawing-maps-by-machine/#analytical-photogrammetry-712fd9e97d",
+  "passageIds": [
+    "passage:chapter-3-712fd9e97d"
+  ],
+  "recordIds": [
+    "chapter:3",
+    "entity:new-zealand-aerial-mapping"
+  ],
+  "themeIds": [],
+  "categories": [
+    "photogrammetry",
+    "imagery"
+  ],
+  "sources": []
+}

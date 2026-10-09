@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1662",
+  "a": "person:tony-elson",
+  "b": "chapter:32",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-32-3460d584f6"
+  ],
+  "sources": []
+}

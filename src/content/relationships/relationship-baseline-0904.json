@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0904",
+  "a": "person:madge-pirrit",
+  "b": "entity:department-of-lands-and-survey",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

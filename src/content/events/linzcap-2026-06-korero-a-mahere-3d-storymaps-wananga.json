@@ -1,0 +1,26 @@
+{
+  "id": "linzcap-2026-06-korero-a-mahere-3d-storymaps-wananga",
+  "dateDisplay": "2026-06",
+  "startDate": "2026-06-01",
+  "datePrecision": "month",
+  "year": 2026,
+  "label": "Kōrero ā-Mahere 3D StoryMaps wānanga",
+  "summary": "The Ngā Poutama session demonstrated maps, photos, data and kōrero in 3D StoryMaps for kaupapa Māori mapping.",
+  "url": "/stories/from-flat-maps-to-3d/#3d-storytelling-for-whenua-dd9961d631",
+  "passageIds": [
+    "passage:chapter-39-dd9961d631"
+  ],
+  "recordIds": [
+    "chapter:39"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:sohail-afzal-choudhry",
+  "slug": "sohail-afzal-choudhry",
+  "name": "Sohail Afzal Choudhry",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sohail-afzal-choudhry/",
+  "story": [
+    "Sohail Afzal Choudhry’s 1998 University of Waikato doctoral research on the Kaimai hydropower project catchment provides a detailed New Zealand example. The work combined surface hydrological modelling with GIS and spatial time-series databases. ARC/INFO and ArcView were used alongside object-oriented programming and dynamic segmentation techniques. The research integrated catchment mapping, modelling and spatial time-series data within the same workflow."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 9 · Catchment monitoring",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Sohail Afzal Choudhry"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 9 · Catchment monitoring",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

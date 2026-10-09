@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2461",
+  "a": "person:tony-moore",
+  "b": "entity:university-of-otago",
+  "label": "Associated with",
+  "basis": "Documented association in the 7 October 2026 entity-gap expansion research.",
+  "passageIds": [],
+  "sources": []
+}

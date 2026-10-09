@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-1-17cfc8bb49",
+  "slug": "the-mapping-inheritance-17cfc8bb49",
+  "articleId": "article:chapter-1",
+  "title": "The mapping inheritance",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:1"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the late 1950s, New Zealand therefore possessed most of the institutional ingredients that digital mapping would later require. It had a maintained cadastral framework, national geodetic control, standard topographic series, mapped statistical areas, systematic aerial photography, photogrammetric measurement, thematic resource mapping and organisations accustomed to exchanging geographic products. It also had filing systems, identifiers, classifications and production routines that allowed those records to remain useful over time.",
+      "markdown": "By the late 1950s, New Zealand therefore possessed most of the institutional ingredients that digital mapping would later require. It had a maintained cadastral framework, national geodetic control, standard topographic series, mapped statistical areas, systematic aerial photography, photogrammetric measurement, thematic resource mapping and organisations accustomed to exchanging geographic products. It also had filing systems, identifiers, classifications and production routines that allowed those records to remain useful over time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Most of that geography remained on paper. The parcel was still principally encountered through plans and record maps. The census unit was drawn and coloured on paper. Aerial information lived on film and in photogrammetric instruments. Topographic detail was compiled into sheets. Coordinates were numerical, but calculating them and storing the map built from them were still largely separate activities.",
+      "markdown": "Most of that geography remained on paper. The parcel was still principally encountered through plans and record maps. The census unit was drawn and coloured on paper. Aerial information lived on film and in photogrammetric instruments. Topographic detail was compiled into sheets. Coordinates were numerical, but calculating them and storing the map built from them were still largely separate activities.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Early electronic computing handled survey arithmetic. A machine did not need to understand a parcel or a river to reduce observations, adjust networks, transform coordinates or solve engineering calculations. Geography entered the computer as numbers long before the whole map followed.",
+      "markdown": "Early electronic computing handled survey arithmetic. A machine did not need to understand a parcel or a river to reduce observations, adjust networks, transform coordinates or solve engineering calculations. Geography entered the computer as numbers long before the whole map followed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

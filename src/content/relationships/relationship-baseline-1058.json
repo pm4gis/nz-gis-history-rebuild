@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1058",
+  "a": "person:darrel-hall",
+  "b": "entity:hawke-s-bay-regional-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

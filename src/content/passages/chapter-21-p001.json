@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-21-9d58529552",
+  "slug": "different-systems-same-country-9d58529552",
+  "articleId": "article:chapter-21",
+  "title": "Different systems, same country",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21",
+    "entity:department-of-survey-and-land-information-dosli",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 1990s New Zealand had plenty of digital geography without having anything resembling one national GIS. DOSLI and later LINZ maintained cadastral, geodetic and topographic information. Statistics New Zealand maintained census geography. Councils held property, roads, utilities and planning data. Research organisations managed geology, soils, land cover and environmental records. The datasets were increasingly useful outside the organisations that created them, but moving them between systems could expose differences in coordinates, formats, classifications, update cycles and documentation.",
+      "markdown": "By the 1990s New Zealand had plenty of digital geography without having anything resembling one national GIS. DOSLI and later LINZ maintained cadastral, geodetic and topographic information. Statistics New Zealand maintained census geography. Councils held property, roads, utilities and planning data. Research organisations managed geology, soils, land cover and environmental records. The datasets were increasingly useful outside the organisations that created them, but moving them between systems could expose differences in coordinates, formats, classifications, update cycles and documentation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A file could arrive successfully and still be difficult to use. Its coordinate system might be unclear. A field named ROAD_CLASS could use categories unlike those in another road database. A boundary might have been compiled at regional scale while the user assumed it was suitable for detailed property work. Even when the geometry loaded correctly, the receiving organisation needed to know who created the data, when it was updated, what its attributes meant and who would maintain the next version.",
+      "markdown": "A file could arrive successfully and still be difficult to use. Its coordinate system might be unclear. A field named ROAD_CLASS could use categories unlike those in another road database. A boundary might have been compiled at regional scale while the user assumed it was suitable for detailed property work. Even when the geometry loaded correctly, the receiving organisation needed to know who created the data, when it was updated, what its attributes meant and who would maintain the next version.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Agencies had encountered these information-sharing problems before GIS. Paper maps had always carried scale, edition, projection, source and compilation information, while survey and mapping organisations maintained standards for their own products. Digital exchange made the problems easier to spread. A paper map separated from its legend was obviously incomplete. A shapefile or other digital dataset could look entirely convincing on screen after its documentation had been lost.",
+      "markdown": "Agencies had encountered these information-sharing problems before GIS. Paper maps had always carried scale, edition, projection, source and compilation information, while survey and mapping organisations maintained standards for their own products. Digital exchange made the problems easier to spread. A paper map separated from its legend was obviously incomplete. A shapefile or other digital dataset could look entirely convincing on screen after its documentation had been lost.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the end of the twentieth century, New Zealand faced an institutional problem alongside the technical one. Other organisations needed to find, interpret and combine the country’s digital spatial data without reconstructing each dataset’s history. Shared standards, documentation and access arrangements could connect systems maintained by different organisations.",
+      "markdown": "By the end of the twentieth century, New Zealand faced an institutional problem alongside the technical one. Other organisations needed to find, interpret and combine the country’s digital spatial data without reconstructing each dataset’s history. Shared standards, documentation and access arrangements could connect systems maintained by different organisations.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

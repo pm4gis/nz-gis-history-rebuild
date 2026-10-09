@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-44-84462ade72",
+  "slug": "ai-before-the-boom-84462ade72",
+  "articleId": "article:chapter-44",
+  "title": "AI before the boom",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:44",
+    "entity:massey-university",
+    "entity:vector",
+    "person:michael-joy",
+    "person:brendon-woodford",
+    "person:p-j-sallis",
+    "person:f-barrow",
+    "person:m-r-jessen",
+    "person:p-g-luckman",
+    "person:r-g-gibb"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand GIS researchers had used artificial-intelligence methods for decades before conversational AI became popular in the 2020s. At the first national multidisciplinary GIS conference in Wellington in June 1989, P. G. Luckman, R. G. Gibb and M. R. Jessen presented work integrating expert systems and GIS for land classification and assessment. A peer-reviewed follow-up appeared in the New Zealand Geographer in 1990. Those rule-based systems encoded geographic classification through computational reasoning before modern machine-learning methods.",
+      "markdown": "New Zealand GIS researchers had used artificial-intelligence methods for decades before conversational AI became popular in the 2020s. At the first national multidisciplinary GIS conference in Wellington in June 1989, P. G. Luckman, R. G. Gibb and M. R. Jessen presented work integrating expert systems and GIS for land classification and assessment. A peer-reviewed follow-up appeared in the New Zealand Geographer in 1990. Those rule-based systems encoded geographic classification through computational reasoning before modern machine-learning methods.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Other lines followed. In 1990 P. J. Sallis presented a natural-language interface to a GIS database at the second annual Spatial Information Research Centre colloquium in Dunedin. By 1995 Sallis and F. Barrow were applying natural-language processing and GIS ideas to a railway safety-audit reporting system. In the 2000s New Zealand research included neural networks, fuzzy neural networks, support-vector methods and spatial data mining. Michael Joy's 2003 doctoral research at Massey University used GIS and neural-network predictive modelling for river biological assessment, while Brendon Woodford's SIRC work in 2005 and 2008 examined machine learning and rule extraction from spatial data.",
+      "markdown": "Other lines followed. In 1990 P. J. Sallis presented a natural-language interface to a GIS database at the second annual Spatial Information Research Centre colloquium in Dunedin. By 1995 Sallis and F. Barrow were applying natural-language processing and GIS ideas to a railway safety-audit reporting system. In the 2000s New Zealand research included neural networks, fuzzy neural networks, support-vector methods and spatial data mining. Michael Joy's 2003 doctoral research at Massey University used GIS and neural-network predictive modelling for river biological assessment, while Brendon Woodford's SIRC work in 2005 and 2008 examined machine learning and rule extraction from spatial data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The projects developed in separate research and operational settings. They came from different institutions, problems and technical traditions, and many were research rather than operational systems. New Zealand geospatial researchers had spent decades experimenting with ways to automate classification, prediction, language interpretation and decision support before large language models made artificial intelligence a daily topic in ordinary offices.",
+      "markdown": "The projects developed in separate research and operational settings. They came from different institutions, problems and technical traditions, and many were research rather than operational systems. New Zealand geospatial researchers had spent decades experimenting with ways to automate classification, prediction, language interpretation and decision support before large language models made artificial intelligence a daily topic in ordinary offices.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

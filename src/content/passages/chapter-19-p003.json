@@ -1,0 +1,44 @@
+{
+  "id": "passage:chapter-19-d8aa821386",
+  "slug": "designing-nzgd2000-d8aa821386",
+  "articleId": "article:chapter-19",
+  "title": "Designing NZGD2000",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19",
+    "person:graeme-blick",
+    "person:peter-morgan",
+    "person:don-grant",
+    "person:merrin-pearse",
+    "person:john-beavan"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "LINZ introduced the New Zealand Geodetic Datum 2000 in 1998. It used the Geodetic Reference System 1980 ellipsoid and was aligned to ITRF96 at the reference date of 1 January 2000, or epoch 2000.0. Its origin was geocentric rather than defined through a local fitting of the ellipsoid to New Zealand. GPS observations could therefore be related much more directly to the national datum than they had been under NZGD49.",
+      "markdown": "LINZ introduced the New Zealand Geodetic Datum 2000 in 1998. It used the Geodetic Reference System 1980 ellipsoid and was aligned to ITRF96 at the reference date of 1 January 2000, or epoch 2000.0. Its origin was geocentric rather than defined through a local fitting of the ellipsoid to New Zealand. GPS observations could therefore be related much more directly to the national datum than they had been under NZGD49.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Graeme Blick and Don Grant were among the LINZ geodesists documenting the change as it developed. Merrin Pearse worked on the realisation of the new datum, while John Beavan at the Institute of Geological and Nuclear Sciences contributed to the deformation modelling. The published development papers also record Peter Morgan’s processing work on the first-order network. These named contributors sat within a wider programme involving LINZ, GNS and the survey community rather than forming a small group that created the system in isolation.",
+      "markdown": "Graeme Blick and Don Grant were among the LINZ geodesists documenting the change as it developed. Merrin Pearse worked on the realisation of the new datum, while John Beavan at the Institute of Geological and Nuclear Sciences contributed to the deformation modelling. The published development papers also record Peter Morgan’s processing work on the first-order network. These named contributors sat within a wider programme involving LINZ, GNS and the survey community rather than forming a small group that created the system in isolation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The datum also differed from NZGD49 in the way it treated movement. The design incorporated a deformation model used to relate observations made at different times to the reference epoch. LINZ described NZGD2000 as semi-dynamic. Official coordinates could remain expressed at epoch 2000.0 even though the marks and the ground on which they sat continued to move.",
+      "markdown": "The datum also differed from NZGD49 in the way it treated movement. The design incorporated a deformation model used to relate observations made at different times to the reference epoch. LINZ described NZGD2000 as semi-dynamic. Official coordinates could remain expressed at epoch 2000.0 even though the marks and the ground on which they sat continued to move.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical terms, an observation made years after 2000 could be adjusted using the deformation model to calculate the coordinate that represented the point in the datum’s reference frame. The coordinate stored in a database could therefore appear stable while the system retained a model of ongoing horizontal motion behind it. New Zealand had not adopted a fully dynamic system in which every official mark coordinate continuously changed with time. It had built time into the process used to relate observations to the official coordinate.",
+      "markdown": "In practical terms, an observation made years after 2000 could be adjusted using the deformation model to calculate the coordinate that represented the point in the datum’s reference frame. The coordinate stored in a database could therefore appear stable while the system retained a model of ongoing horizontal motion behind it. New Zealand had not adopted a fully dynamic system in which every official mark coordinate continuously changed with time. It had built time into the process used to relate observations to the official coordinate.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

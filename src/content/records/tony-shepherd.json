@@ -1,0 +1,50 @@
+{
+  "id": "person:tony-shepherd",
+  "slug": "tony-shepherd",
+  "name": "Tony Shepherd",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/tony-shepherd/",
+  "story": [
+    "MapInfo-L correspondence records Tony Shepherd as GIS / IT Support at Gore District Council in 1999 and IT/GIS Manager in 2000. His messages describe MapInfo Professional 5.5, MapBasic coding, Windows NT 4.0 and HP DesignJet 750C plotting.",
+    "Gore District Council’s MapInfo-L correspondence identifies Tony Shepherd as GIS / IT Support in 1999 and IT/GIS Manager in 2000. He described MapInfo Professional 5.5, substantial MapBasic coding, Windows NT 4.0 and plotting to an HP DesignJet 750C. A separate council cemetery plan, drawn in 2000, modified in 2001 and current to November 2002, states that it was produced on the council’s CAD/GIS system using AutoCAD 2000 and MapInfo Professional 5.5, with cadastral information derived from the LINZ Digital Cadastral Database. Together the records show routine council map production supported by code, plotting and cadastral data."
+  ],
+  "sources": [
+    {
+      "label": "Tony Shepherd, MapInfo-L correspondence, 11 August 1999",
+      "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40csn.net&o=newest&q=date%3A19990811"
+    },
+    {
+      "label": "Tony Shepherd, MapInfo-L technical correspondence, 21–26 August 2000",
+      "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40csn.net&o=newest&q=date%3A20000821"
+    },
+    {
+      "label": "Chapter 23 · The people behind the database",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Tony Shepherd"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Tony Shepherd, MapInfo-L correspondence, 11 August 1999",
+        "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40csn.net&o=newest&q=date%3A19990811"
+      },
+      {
+        "label": "Tony Shepherd, MapInfo-L technical correspondence, 21–26 August 2000",
+        "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40csn.net&o=newest&q=date%3A20000821"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · The people behind the database",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

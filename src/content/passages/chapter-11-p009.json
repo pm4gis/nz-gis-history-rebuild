@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-11-3f3b5beb1c",
+  "slug": "researching-adoption-3f3b5beb1c",
+  "articleId": "article:chapter-11",
+  "title": "Researching adoption",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11",
+    "person:george-benwell",
+    "person:andrew-marr"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "George Benwell appears repeatedly in the early Otago record, particularly where GIS met organisational and environmental questions. His work with other researchers turned the adoption of GIS into a subject for empirical study. The rapid spread of GIS during the early 1990s produced claims about benefits that researchers tested against organisational experience. Universities could compare users, examine implementation patterns and ask why some systems became embedded while others remained specialist tools.",
+      "markdown": "George Benwell appears repeatedly in the early Otago record, particularly where GIS met organisational and environmental questions. His work with other researchers turned the adoption of GIS into a subject for empirical study. The rapid spread of GIS during the early 1990s produced claims about benefits that researchers tested against organisational experience. Universities could compare users, examine implementation patterns and ask why some systems became embedded while others remained specialist tools.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The local-government work developed through several stages. A 1992 SIRC paper surveyed GIS usage among local authorities in New Zealand and Victoria. A 1994 paper compared the New Zealand situation in July 1993 with February 1992. Andrew Marr and George Benwell then extended the work through a 1995 study of local-government GIS since 1989. Marr's 1996 MSc thesis, Geographic Information Systems Maturity in New Zealand Local Government, provided a 126-page research treatment of the subject.",
+      "markdown": "The local-government work developed through several stages. A 1992 SIRC paper surveyed GIS usage among local authorities in New Zealand and Victoria. A 1994 paper compared the New Zealand situation in July 1993 with February 1992. Andrew Marr and George Benwell then extended the work through a 1995 study of local-government GIS since 1989. Marr's 1996 MSc thesis, Geographic Information Systems Maturity in New Zealand Local Government, provided a 126-page research treatment of the subject.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Practitioners installed systems, researchers surveyed the results, and findings returned to the profession through SIRC and other forums. Postgraduate work developed concepts such as GIS maturity and organisational integration from these exchanges. Chapter 23 follows the local-government experience in more detail.",
+      "markdown": "Practitioners installed systems, researchers surveyed the results, and findings returned to the profession through SIRC and other forums. Postgraduate work developed concepts such as GIS maturity and organisational integration from these exchanges. Chapter 23 follows the local-government experience in more detail.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That connection also helped produce practitioners who understood GIS as an information-system problem. Students encountering the field through postgraduate work saw data quality, organisational structure, maintenance and user requirements alongside spatial analysis. A thesis on maturity or a project on hazards information required engagement with organisations outside the university. The line between education and professional practice was therefore permeable well before formal geospatial degree programmes became common.",
+      "markdown": "That connection also helped produce practitioners who understood GIS as an information-system problem. Students encountering the field through postgraduate work saw data quality, organisational structure, maintenance and user requirements alongside spatial analysis. A thesis on maturity or a project on hazards information required engagement with organisations outside the university. The line between education and professional practice was therefore permeable well before formal geospatial degree programmes became common.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

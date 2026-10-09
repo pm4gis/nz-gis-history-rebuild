@@ -1,0 +1,47 @@
+{
+  "id": "person:logan-ashmore",
+  "slug": "logan-ashmore",
+  "name": "Logan Ashmore",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/logan-ashmore/",
+  "story": [
+    "Logan Ashmore presented machine-learning subdivision-susceptibility modelling for Vision Consulting Engineers at the 2019 New Zealand Esri User Conference. Eagle’s 2020 virtual user conference later recorded him with Far North District Council planner Rachael Pull presenting the GIS foundations for the council’s open-space programme and reserves audit."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    },
+    {
+      "label": "Eagle Technology, 2020 Virtual User Conference Series",
+      "url": "https://www.eagle.co.nz/2020-virtual-user-conference-series"
+    },
+    {
+      "label": "Far North District Council, Regional Liquefaction Vulnerability Assessment",
+      "url": "https://www.fndc.govt.nz/__data/assets/pdf_file/0017/28403/regional-liquefaction-vulnerability-assessment-far-north-district.pdf"
+    }
+  ],
+  "aliases": [
+    "Logan Ashmore"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      },
+      {
+        "label": "Eagle Technology, 2020 Virtual User Conference Series",
+        "url": "https://www.eagle.co.nz/2020-virtual-user-conference-series"
+      },
+      {
+        "label": "Far North District Council, Regional Liquefaction Vulnerability Assessment",
+        "url": "https://www.fndc.govt.nz/__data/assets/pdf_file/0017/28403/regional-liquefaction-vulnerability-assessment-far-north-district.pdf"
+      }
+    ]
+  ]
+}

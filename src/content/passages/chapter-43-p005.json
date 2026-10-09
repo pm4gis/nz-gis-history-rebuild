@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-43-6f0663d09c",
+  "slug": "the-database-does-some-of-the-work-6f0663d09c",
+  "articleId": "article:chapter-43",
+  "title": "The database does some of the work",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Spatial databases moved another category of repeated work away from the desktop. A practitioner could download a dataset, select records and calculate a result every time it was needed, or the organisation could maintain a query, view or database process that derived the result close to the source. NIWA was using PostGIS at substantial scale by 2006, and by the end of that decade its technical discussions described very large point datasets and web mapping built around database and server components. Spatial processing could increasingly be maintained and rerun close to the data rather than rebuilt on the desktop for each use.",
+      "markdown": "Spatial databases moved another category of repeated work away from the desktop. A practitioner could download a dataset, select records and calculate a result every time it was needed, or the organisation could maintain a query, view or database process that derived the result close to the source. NIWA was using PostGIS at substantial scale by 2006, and by the end of that decade its technical discussions described very large point datasets and web mapping built around database and server components. Spatial processing could increasingly be maintained and rerun close to the data rather than rebuilt on the desktop for each use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The DAS database rebuild makes that visible. Wood’s 2022 presentation describes an older PostgreSQL and PostGIS design holding about 600 million one-minute readings, with yearly partitions maintained manually. The rebuilt system stored about 40 billion one-second readings using PostgreSQL with PostGIS, TimescaleDB and hstore, with automated weekly partitioning. Queries could derive vessel tracks directly from stored coordinates using spatial SQL. A task that once might have required exporting records and constructing geometry elsewhere could be expressed as a maintained database operation.",
+      "markdown": "The DAS database rebuild makes that visible. Wood’s 2022 presentation describes an older PostgreSQL and PostGIS design holding about 600 million one-minute readings, with yearly partitions maintained manually. The rebuilt system stored about 40 billion one-second readings using PostgreSQL with PostGIS, TimescaleDB and hstore, with automated weekly partitioning. Queries could derive vessel tracks directly from stored coordinates using spatial SQL. A task that once might have required exporting records and constructing geometry elsewhere could be expressed as a maintained database operation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This kind of automation rarely looks impressive on a wall. A database view does not have the visual impact of a new national map, yet it can remove thousands of repeated handling steps over its life. It also creates dependencies that are easy to forget when everything is running properly. Field names, source structures, database extensions and credentials become part of the workflow. When one changes, the process may fail immediately or, more dangerously, continue running and produce something plausible but wrong.",
+      "markdown": "This kind of automation rarely looks impressive on a wall. A database view does not have the visual impact of a new national map, yet it can remove thousands of repeated handling steps over its life. It also creates dependencies that are easy to forget when everything is running properly. Field names, source structures, database extensions and credentials become part of the workflow. When one changes, the process may fail immediately or, more dangerously, continue running and produce something plausible but wrong.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

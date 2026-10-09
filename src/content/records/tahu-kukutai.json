@@ -1,0 +1,53 @@
+{
+  "id": "person:tahu-kukutai",
+  "slug": "tahu-kukutai",
+  "name": "Tahu Kukutai",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/tahu-kukutai/",
+  "story": [
+    "Tahu Kukutai is a demographer whose research examines Māori and Indigenous population change, identity, official statistics and classification. She worked as a journalist before undertaking study in history, demography and sociology at Waikato and Stanford universities. Her work includes research for iwi, Māori communities and government agencies, and founding roles in Te Mana Raraunga and the Global Indigenous Data Alliance.",
+    "As a founding contributor to Te Mana Raraunga, Tahu Kukutai brings Māori data sovereignty into discussion of access, governance and benefit.",
+    "Te Mana Raraunga formed in 2015, with Tahu Kukutai and Maui Hudson among the founding contributors identified in the research. Its charter brought Māori authority, governance and benefit into discussion of data access. These questions applied to geographic information about land, environments and communities as well as other forms of data."
+  ],
+  "sources": [
+    {
+      "label": "Te Mana Raraunga organisational record",
+      "url": "https://www.temanararaunga.maori.nz/"
+    },
+    {
+      "label": "Professor Tahu Kukutai | Ngā Pae o te Māramatanga · career/profile reference",
+      "url": "https://www.maramatanga.ac.nz/person/professor-tahu-kukutai"
+    },
+    {
+      "label": "Chapter 33 · Controlled information",
+      "url": "/stories/open-data-changes-access/"
+    }
+  ],
+  "aliases": [
+    "Tahu Kukutai"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Professor Tahu Kukutai | Ngā Pae o te Māramatanga · career/profile reference",
+        "url": "https://www.maramatanga.ac.nz/person/professor-tahu-kukutai"
+      }
+    ],
+    [
+      {
+        "label": "Te Mana Raraunga organisational record",
+        "url": "https://www.temanararaunga.maori.nz/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 33 · Controlled information",
+        "url": "/stories/open-data-changes-access/"
+      }
+    ]
+  ]
+}

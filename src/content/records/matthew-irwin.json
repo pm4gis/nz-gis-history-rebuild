@@ -1,0 +1,31 @@
+{
+  "id": "person:matthew-irwin",
+  "slug": "matthew-irwin",
+  "name": "Matthew Irwin",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/matthew-irwin/",
+  "story": [
+    "Matthew Irwin is a Massey University geospatial educator specialising in GIS and remote-sensing software, ArcGIS Server, GPS and UAV technologies. His teaching and technical work connect university training with the practical software, positioning and imagery skills used in professional GIS."
+  ],
+  "sources": [
+    {
+      "label": "Massey University, Matthew Irwin staff profile",
+      "url": "https://www.massey.ac.nz/massey/expertise/profile.cfm?stref=909830"
+    }
+  ],
+  "aliases": [
+    "Matthew Irwin"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Massey University, Matthew Irwin staff profile",
+        "url": "https://www.massey.ac.nz/massey/expertise/profile.cfm?stref=909830"
+      }
+    ]
+  ]
+}

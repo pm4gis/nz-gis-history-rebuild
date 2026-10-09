@@ -1,0 +1,16 @@
+{
+  "id": "chapter:22",
+  "articleId": "article:chapter-22",
+  "slug": "gis-comes-to-the-desktop",
+  "name": "Desktop GIS",
+  "kind": "Story",
+  "category": "GIS in practice",
+  "url": "/stories/gis-comes-to-the-desktop/",
+  "description": "In the late 1980s a New Zealand organisation that used GIS could still have a fairly literal GIS room. A GIS installation could be somewhere you walked into, because the room contained a fair portion of the system. The more capable environments were built around minicomputers or Unix workstations, graphics screens, specialist storage, digitisers and plotters. ARC/INFO, Intergraph and other commercial systems could ma",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "technology-stack"
+  ]
+}

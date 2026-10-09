@@ -1,0 +1,44 @@
+{
+  "id": "person:p-r-van-berkel",
+  "slug": "p-r-van-berkel",
+  "name": "P. R. van Berkel",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/p-r-van-berkel/",
+  "story": [
+    "P. R. van Berkel co-authored Introduction to LADEDA: a Geographic Information System with R. D. Williams in 1985. The New Zealand Geographer article documents a purpose-built land-resource analysis system and uses GIS in its contemporary title. Van Berkel’s work belongs to the Ministry of Works and Development land-resource computing programme.",
+    "P. R. van Berkel and R. D. Williams developed LADEDA. Williams produced its Plotting Handbook in May 1982 as Hydrology Centre Publication No. 1. Van Berkel and Williams presented LADEDA in their 1985 New Zealand Geographer paper, “Introduction to LADEDA: a Geographic Information System”."
+  ],
+  "sources": [
+    {
+      "label": "P. R. van Berkel and R. D. Williams, Introduction to LADEDA — a Geographic Information System, New Zealand Geographer 41(2)",
+      "url": "https://doi.org/10.1111/j.1745-7939.1985.tb01076.x"
+    },
+    {
+      "label": "Chapter 5 · LADEDA",
+      "url": "/stories/from-map-sheets-to-spatial-data/"
+    }
+  ],
+  "aliases": [
+    "P. R. van Berkel"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "P. R. van Berkel and R. D. Williams, Introduction to LADEDA — a Geographic Information System, New Zealand Geographer 41(2)",
+        "url": "https://doi.org/10.1111/j.1745-7939.1985.tb01076.x"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 5 · LADEDA",
+        "url": "/stories/from-map-sheets-to-spatial-data/"
+      }
+    ]
+  ]
+}

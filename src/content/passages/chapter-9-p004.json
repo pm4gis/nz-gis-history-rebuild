@@ -1,0 +1,120 @@
+{
+  "id": "passage:chapter-9-f5818ca326",
+  "slug": "the-cri-reorganisation-f5818ca326",
+  "articleId": "article:chapter-9",
+  "title": "The CRI reorganisation",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9",
+    "entity:gns-science",
+    "entity:scion-forest-research",
+    "entity:university-of-canterbury",
+    "entity:university-of-waikato",
+    "person:gavin-kenny",
+    "person:richard-warrick",
+    "person:bruce-mclennan",
+    "person:john-dymond",
+    "person:george-perry",
+    "person:ashley-sparrow",
+    "person:ian-owens",
+    "person:david-rowe",
+    "person:ude-shankar",
+    "person:don-robertson",
+    "person:leonard-brown",
+    "person:mary-de-winton",
+    "person:d-u-pfeiffer",
+    "person:j-s-mckenzie",
+    "person:r-s-morris"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The institutional setting changed again in 1992 when DSIR was disestablished and scientific work was redistributed across ten new Crown Research Institutes, drawing also on MAF Technology, the Forest Research Institute, part of the Meteorological Service and the Health Service Laboratories. The reorganisation had already begun inside DSIR: on 1 April 1990 the Science Mapping Unit, Ecology Division, Botany Division and Division of Land and Soil Sciences were merged as DSIR Land Resources. When the CRIs began on 1 July 1992, Land Resources did not pass intact into one successor. Its functions were split between Landcare Research and the Institute of Geological and Nuclear Sciences, later GNS Science, while Landcare also absorbed other groups including the Physics and Engineering Laboratory's Remote Sensing Group. The change moved people, maps, laboratory records, databases, software and technical knowledge into different organisations. Atmospheric, freshwater and marine research went into NIWA, forestry into the New Zealand Forest Research Institute, and agricultural and horticultural work across AgResearch, Crop & Food Research and HortResearch. ESR inherited national environmental and health-science functions. Not every CRI developed a major GIS strand, and the short-lived Institute for Social Research and Development, which closed in 1995, has produced no source-secure GIS story in the bounded research completed for this book.",
+      "markdown": "The institutional setting changed again in 1992 when DSIR was disestablished and scientific work was redistributed across ten new Crown Research Institutes, drawing also on MAF Technology, the Forest Research Institute, part of the Meteorological Service and the Health Service Laboratories. The reorganisation had already begun inside DSIR: on 1 April 1990 the Science Mapping Unit, Ecology Division, Botany Division and Division of Land and Soil Sciences were merged as DSIR Land Resources. When the CRIs began on 1 July 1992, Land Resources did not pass intact into one successor. Its functions were split between Landcare Research and the Institute of Geological and Nuclear Sciences, later GNS Science, while Landcare also absorbed other groups including the Physics and Engineering Laboratory's Remote Sensing Group. The change moved people, maps, laboratory records, databases, software and technical knowledge into different organisations. Atmospheric, freshwater and marine research went into NIWA, forestry into the New Zealand Forest Research Institute, and agricultural and horticultural work across AgResearch, Crop & Food Research and HortResearch. ESR inherited national environmental and health-science functions. Not every CRI developed a major GIS strand, and the short-lived Institute for Social Research and Development, which closed in 1995, has produced no source-secure GIS story in the bounded research completed for this book.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For spatial science, the transfer raised practical questions about custody. A database could survive an organisational restructuring only if the files, documentation, software and staff knowledge moved with it or were deliberately reconstructed. Chapter 8 recorded a forestry case in which a digital inventory disappeared while a paper printout survived. The scientific institutes inherited many datasets that had been built over decades, so continuity depended as much on information management as on new GIS software.",
+      "markdown": "For spatial science, the transfer raised practical questions about custody. A database could survive an organisational restructuring only if the files, documentation, software and staff knowledge moved with it or were deliberately reconstructed. Chapter 8 recorded a forestry case in which a digital inventory disappeared while a paper printout survived. The scientific institutes inherited many datasets that had been built over decades, so continuity depended as much on information management as on new GIS software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Regional Geological Map Archive and Database provides one documented example of deliberate continuity. It was recognised as a nationally significant database during the formation of the Crown Research Institutes. The archive linked the new institution to generations of geological mapping rather than treating the 1990s as a blank start. Field sheets, published maps and geological interpretations remained part of the evidence base from which new digital mapping could be produced.",
+      "markdown": "The Regional Geological Map Archive and Database provides one documented example of deliberate continuity. It was recognised as a nationally significant database during the formation of the Crown Research Institutes. The archive linked the new institution to generations of geological mapping rather than treating the 1990s as a blank start. Field sheets, published maps and geological interpretations remained part of the evidence base from which new digital mapping could be produced.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Landcare Research inherited a different kind of continuity problem in the National Soils Database. The soil records had been entered into Datatrieve on a MicroVAX II from 1980. In 1993, just after the CRI restructuring, FRST funded their transfer to Borland Paradox on Windows. In 2000 the database moved again, this time to Microsoft SQL Server with access through Soil Explorer. Maintaining the data through successive software changes required continuing work. A national point database representing about 1,500 soil profiles survived institutional and computing changes because the data were repeatedly moved into maintainable systems rather than being left behind with the machine that first held them.",
+      "markdown": "Landcare Research inherited a different kind of continuity problem in the National Soils Database. The soil records had been entered into Datatrieve on a MicroVAX II from 1980. In 1993, just after the CRI restructuring, FRST funded their transfer to Borland Paradox on Windows. In 2000 the database moved again, this time to Microsoft SQL Server with access through Soil Explorer. Maintaining the data through successive software changes required continuing work. A national point database representing about 1,500 soil profiles survived institutional and computing changes because the data were repeatedly moved into maintainable systems rather than being left behind with the machine that first held them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The new institutes used spatial computing for different research tasks. CLIMPACTS, developed from 1993 with Richard Warrick and Gavin Kenny among its researchers, brought NIWA, AgResearch, Crop & Food Research, HortResearch, Landcare Research and university researchers into a common climate-impact assessment programme. Its national and regional work combined climate information with sector models to examine spatial changes in agricultural and horticultural suitability. That was a different model from QMAP or a corporate GIS: specialist science remained distributed across organisations, while a shared spatial framework allowed the components to be analysed together.",
+      "markdown": "The new institutes used spatial computing for different research tasks. CLIMPACTS, developed from 1993 with Richard Warrick and Gavin Kenny among its researchers, brought NIWA, AgResearch, Crop & Food Research, HortResearch, Landcare Research and university researchers into a common climate-impact assessment programme. Its national and regional work combined climate information with sector models to examine spatial changes in agricultural and horticultural suitability. That was a different model from QMAP or a corporate GIS: specialist science remained distributed across organisations, while a shared spatial framework allowed the components to be analysed together.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Smaller projects compared older information with new imagery and field observations. In Gisborne, John Dymond, M. J. Page and L. J. Brown used Landsat TM imagery to prepare 1:100,000 vegetation mapping during debate over a forestry incentive scheme. The classification was compared with vegetation information already held in GIS, much of it roughly twenty years old, and the largest discrepancies were taken back into the field. Some represented real landscape change and some were classification error. After field correction the reported overall accuracy rose from 84 to 90 per cent. Remote sensing had not removed the need to look out the window, and in this case the old GIS data were useful partly because they were old.",
+      "markdown": "Smaller projects compared older information with new imagery and field observations. In Gisborne, John Dymond, M. J. Page and L. J. Brown used Landsat TM imagery to prepare 1:100,000 vegetation mapping during debate over a forestry incentive scheme. The classification was compared with vegetation information already held in GIS, much of it roughly twenty years old, and the largest discrepancies were taken back into the field. Some represented real landscape change and some were classification error. After field correction the reported overall accuracy rose from 84 to 90 per cent. Remote sensing had not removed the need to look out the window, and in this case the old GIS data were useful partly because they were old.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Fire modelling supplied a more dramatic test. George Perry's 1996 University of Canterbury work joined Arc/Info to the Rothermel fire-spread model in a system called PYROCART, then tested it against a fire that had already burnt about 580 hectares of the Cass Basin on 27 and 28 May 1995. Differential GPS, aerial photography, terrain and vegetation information helped reconstruct the landscape through which the fire had moved. Perry, Ashley Sparrow and Ian Owens later reported overall predictive accuracy of about 80 per cent, with high-wind conditions among the places where the model struggled. The research demonstrated useful predictive power but also concluded that the data preparation and parameterisation were too demanding for use at the fire front. Researchers could use GIS to analyse the fire afterwards, while assembling the same information during an active fire remained difficult.",
+      "markdown": "Fire modelling supplied a more dramatic test. George Perry's 1996 University of Canterbury work joined Arc/Info to the Rothermel fire-spread model in a system called PYROCART, then tested it against a fire that had already burnt about 580 hectares of the Cass Basin on 27 and 28 May 1995. Differential GPS, aerial photography, terrain and vegetation information helped reconstruct the landscape through which the fire had moved. Perry, Ashley Sparrow and Ian Owens later reported overall predictive accuracy of about 80 per cent, with high-wind conditions among the places where the model struggled. The research demonstrated useful predictive power but also concluded that the data preparation and parameterisation were too demanding for use at the fire front. Researchers could use GIS to analyse the fire afterwards, while assembling the same information during an active fire remained difficult.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Veterinary epidemiology used spatial modelling for a different kind of moving hazard. At the 1998 SIRC colloquium, J. S. McKenzie, D. U. Pfeiffer and R. S. Morris described ArcView 3.0a and Spatial Analyst models for tuberculosis risk in possums and cattle. One model combined vegetation and slope information on a 20-metre grid, while another related farm geography to disease risk. The results were incorporated into the EpiMAN(TB) decision-support system so control effort could be directed spatially. The analysis examined factors associated with the disease distribution. The map was becoming part of the argument about where limited control resources should go next.",
+      "markdown": "Veterinary epidemiology used spatial modelling for a different kind of moving hazard. At the 1998 SIRC colloquium, J. S. McKenzie, D. U. Pfeiffer and R. S. Morris described ArcView 3.0a and Spatial Analyst models for tuberculosis risk in possums and cattle. One model combined vegetation and slope information on a 20-metre grid, while another related farm geography to disease risk. The results were incorporated into the EpiMAN(TB) decision-support system so control effort could be directed spatially. The analysis examined factors associated with the disease distribution. The map was becoming part of the argument about where limited control resources should go next.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Freshwater research provided another example in 2002. David Rowe, Ude Shankar and M. James used ArcInfo to build a three-dimensional model of Lake Taupō's shallow littoral zone from roughly 300 shoreline transects, aerial photography, direct observations, echosounding and differential GPS. They were interested in a practical management question: how would different permitted lake levels alter the clean-sand habitat used by smelt for spawning at depths between about half a metre and two and a half metres? Five lake levels could be tested against the model rather than treated as an abstract change in water elevation. The GIS connected a management setting at the lake surface to fish habitat around kilometres of shoreline.",
+      "markdown": "Freshwater research provided another example in 2002. David Rowe, Ude Shankar and M. James used ArcInfo to build a three-dimensional model of Lake Taupō's shallow littoral zone from roughly 300 shoreline transects, aerial photography, direct observations, echosounding and differential GPS. They were interested in a practical management question: how would different permitted lake levels alter the clean-sand habitat used by smelt for spawning at depths between about half a metre and two and a half metres? Five lake levels could be tested against the model rather than treated as an abstract change in water elevation. The GIS connected a management setting at the lake surface to fish habitat around kilometres of shoreline.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2004 NIWA was bringing several long-running freshwater datasets into a shared system. Don Robertson and Mary de Winton described the Freshwater Biodata Information System, FBIS, as a web-based service joining records for fish, invertebrates, submerged macrophytes and other freshwater biota, some extending back decades. Users could search by organism, sampling attributes or location, and select sites on a web map. Their article includes a screen image showing how readers accessed those records at the time.",
+      "markdown": "By 2004 NIWA was bringing several long-running freshwater datasets into a shared system. Don Robertson and Mary de Winton described the Freshwater Biodata Information System, FBIS, as a web-based service joining records for fish, invertebrates, submerged macrophytes and other freshwater biota, some extending back decades. Users could search by organism, sampling attributes or location, and select sites on a web map. Their article includes a screen image showing how readers accessed those records at the time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "AgResearch shows a third pattern. At SIRC in December 2007, Bruce McLennan described GIS uptake inside the institute as piecemeal: individual researchers had built useful project-level capability, but access to software, core datasets and support was uneven across its four campuses. AgResearch was therefore preparing a company-wide geographic information service intended to provide common software access, core data, specialist support and in-house training. The CRI began organising GIS as a shared service for its research teams.",
+      "markdown": "AgResearch shows a third pattern. At SIRC in December 2007, Bruce McLennan described GIS uptake inside the institute as piecemeal: individual researchers had built useful project-level capability, but access to software, core datasets and support was uneven across its four campuses. AgResearch was therefore preparing a company-wide geographic information service intended to provide common software access, core data, specialist support and in-house training. The CRI began organising GIS as a shared service for its research teams.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same transition created an opportunity to redesign how national science mapping was organised. Instead of keeping each new geological sheet largely as an isolated cartographic product, GIS allowed the mapped units and structures to be managed as data that could be checked, updated and carried into later products. The organisation still needed field geology and cartographic judgement. The difference was that more of the interpretation could persist in a reusable digital form between editions and between map sheets.",
+      "markdown": "The same transition created an opportunity to redesign how national science mapping was organised. Instead of keeping each new geological sheet largely as an isolated cartographic product, GIS allowed the mapped units and structures to be managed as data that could be checked, updated and carried into later products. The organisation still needed field geology and cartographic judgement. The difference was that more of the interpretation could persist in a reusable digital form between editions and between map sheets.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "CLIMPACTS linked assessments at national, regional and site scales. NIWA supplied climate expertise, while agricultural, horticultural and land-resource researchers contributed models suited to their own sectors. The University of Waikato participated alongside NIWA, AgResearch, Crop & Food Research, HortResearch and Landcare Research. A common assessment framework allowed researchers to examine how a climate scenario could affect different land uses in different places. The work depended on the relationships between the component models and their spatial inputs, as well as the maps used to present the results.",
+      "sources": [
+        {
+          "label": "R.A. Warrick, G.J. Kenny, J.J. Harman et al., The effects of climate change and variation in New Zealand: An assessment using the CLIMPACTS system",
+          "url": "https://hdl.handle.net/10289/897"
+        },
+        {
+          "label": "Chris Hunt, Andrew Manderson, Dave Wheeler and M.S. Srinivasan, Getting Spatial with Nutrients in New Zealand Pastoral Agriculture",
+          "url": "https://flrc.massey.ac.nz/workshops/07/2007%20Abstracts.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

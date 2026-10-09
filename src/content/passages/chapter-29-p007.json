@@ -1,0 +1,193 @@
+{
+  "id": "passage:chapter-29-71ae35ecbd",
+  "slug": "new-professional-networks-71ae35ecbd",
+  "articleId": "article:chapter-29",
+  "title": "New professional networks",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:29",
+    "entity:geospatial-capability-committee",
+    "entity:siba-new-zealand-locationtech",
+    "entity:grow-gis-nz",
+    "entity:new-zealand-gis-geeks",
+    "entity:maori-gis-facebook-group",
+    "entity:nga-poutama-matawhenua",
+    "entity:te-kahui-manu-hokai-maori-gis-association",
+    "entity:journey-gis",
+    "person:bonita-gestro",
+    "person:duane-wilkins",
+    "person:elaine-mcalister",
+    "person:geoff-omalley",
+    "person:nathan-heazlewood",
+    "person:kat-salm",
+    "person:charlotte-dawson",
+    "person:kirsty-mackie",
+    "person:claire-buxton",
+    "person:catriona-oneill",
+    "person:olivia-martin",
+    "person:rosey-harris",
+    "person:amy-tay",
+    "person:georgia-goodsell",
+    "person:devon-allen",
+    "person:malindi-reihana-ruka",
+    "person:galia-barhava-monteith",
+    "person:bridgit-sissons",
+    "person:josie-hawkey",
+    "person:louise-upston"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New professional networks in the 2010s addressed participation and career support. SIBA New Zealand was established in 2009 as an industry body and later became LocationTech within the NZTech structure in 2020. Women in Spatial and Survey records its network being re-formed in 2011. Emerging Spatial Professionals grew from a much smaller moment in 2015. Nathan Heazlewood later recalled an elevator conversation with recent GIS graduate Josie Hawkey, who described how difficult some graduates were finding it to secure their first industry role. That conversation prompted a volunteer network run by emerging practitioners themselves; its first meeting was held during NZEUC 2015, and by early 2017 Heazlewood reported more than 400 members.",
+      "markdown": "New professional networks in the 2010s addressed participation and career support. SIBA New Zealand was established in 2009 as an industry body and later became LocationTech within the NZTech structure in 2020. Women in Spatial and Survey records its network being re-formed in 2011. Emerging Spatial Professionals grew from a much smaller moment in 2015. Nathan Heazlewood later recalled an elevator conversation with recent GIS graduate Josie Hawkey, who described how difficult some graduates were finding it to secure their first industry role. That conversation prompted a volunteer network run by emerging practitioners themselves; its first meeting was held during NZEUC 2015, and by early 2017 Heazlewood reported more than 400 members.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Informal networks remained equally important. The NZ GIS Geeks Facebook group was publicly active by 2015. Practitioners used it to share questions, links, events, jokes and examples of their work. A separate Māori GIS Facebook group provided a practitioner space for technical questions, events, maps and peer support by early 2017. It was later deleted after the group was hacked.",
+      "markdown": "Informal networks remained equally important. The NZ GIS Geeks Facebook group was publicly active by 2015. Practitioners used it to share questions, links, events, jokes and examples of their work. A separate Māori GIS Facebook group provided a practitioner space for technical questions, events, maps and peer support by early 2017. It was later deleted after the group was hacked.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "National capability became an explicit concern as well. By 2017, the Geospatial Capability Committee was working on career recognition, education, participation, skills and workforce diversity. LINZ lists Geoff O’Malley as the committee’s chair. Its public Grow GIS NZ Facebook page shared geospatial capability events, courses, people and places; GeoBites added short online demonstrations focused on New Zealand data and workflows. Geospatial Emergency Management Aotearoa also formed in 2017, connecting practitioners who may work in different organisations but need common approaches during emergency response.",
+      "markdown": "National capability became an explicit concern as well. By 2017, the Geospatial Capability Committee was working on career recognition, education, participation, skills and workforce diversity. LINZ lists Geoff O’Malley as the committee’s chair. Its public Grow GIS NZ Facebook page shared geospatial capability events, courses, people and places; GeoBites added short online demonstrations focused on New Zealand data and workflows. Geospatial Emergency Management Aotearoa also formed in 2017, connecting practitioners who may work in different organisations but need common approaches during emergency response.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Women in Spatial and Survey says its network re-formed in 2011 to connect women across Aotearoa’s spatial and surveying community. Its current statement says the remit has since widened to diversity and inclusion, and welcomes anyone who supports that aim. The group describes its events as a place for networking, celebration, discussion and progress for women and minority communities. Its archive records informal breakfasts, lunchtime talks and evening events roughly every two months, with time to share issues and job opportunities. The earlier lineage implied by “re-formed” is not dated in the sources reviewed. A 2015 breakfast drew 47 attendees to hear Galia Barhava-Monteith of Professionelle discuss career barriers, mentoring and informal networks; the event report presents her advice, not a survey of the spatial workforce.",
+      "markdown": "Women in Spatial and Survey says its network re-formed in 2011 to connect women across Aotearoa’s spatial and surveying community. Its current statement says the remit has since widened to diversity and inclusion, and welcomes anyone who supports that aim. The group describes its events as a place for networking, celebration, discussion and progress for women and minority communities. Its archive records informal breakfasts, lunchtime talks and evening events roughly every two months, with time to share issues and job opportunities. The earlier lineage implied by “re-formed” is not dated in the sources reviewed. A 2015 breakfast drew 47 attendees to hear Galia Barhava-Monteith of Professionelle discuss career barriers, mentoring and informal networks; the event report presents her advice, not a survey of the spatial workforce.",
+      "sources": [
+        {
+          "label": "Women in Spatial + Survey, homepage",
+          "url": "https://womeninspatial.wordpress.com/"
+        },
+        {
+          "label": "Women in Spatial + Survey, group archive and history",
+          "url": "https://womeninspatial.wordpress.com/author/womeninspatial/"
+        },
+        {
+          "label": "Women in Spatial, “What Stops Women Rising to the Top?”, 12 September 2015",
+          "url": "https://womeninspatial.wordpress.com/2015/09/12/galia-barhava-monteith-what-stops-women-rising-to-the-top/"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The 5 July 2018 WIS mid-winter event at Transpower drew almost 60 people to lightning talks across several kinds of spatial work. Claire Buxton of Calibre used land-administration examples to distinguish public availability from physical access and argued for fit-for-purpose, community-grounded practice. Catriona O’Neill presented an update on the NZTA Geospatial team’s work in mapping and analysis, keeping information current, procuring data, advising contracts and projects, and providing MapHub self-service. Bonita Gestro described volunteer conservation GIS; Olivia Martin described action plans and building-loss mapping from an earlier Canadian wildfire response. The event also announced a WIS survey with Victoria University of Wellington and presented the group’s first conference sponsorship to Rosey Harris for GeoCart’18. Harris’s later account describes the conference as an entry into the wider GIS community. These are examples from one programme, not a complete account of the group’s members or the speakers’ whole careers.",
+      "markdown": "The 5 July 2018 WIS mid-winter event at Transpower drew almost 60 people to lightning talks across several kinds of spatial work. Claire Buxton of Calibre used land-administration examples to distinguish public availability from physical access and argued for fit-for-purpose, community-grounded practice. Catriona O’Neill presented an update on the NZTA Geospatial team’s work in mapping and analysis, keeping information current, procuring data, advising contracts and projects, and providing MapHub self-service. Bonita Gestro described volunteer conservation GIS; Olivia Martin described action plans and building-loss mapping from an earlier Canadian wildfire response. The event also announced a WIS survey with Victoria University of Wellington and presented the group’s first conference sponsorship to Rosey Harris for GeoCart’18. Harris’s later account describes the conference as an entry into the wider GIS community. These are examples from one programme, not a complete account of the group’s members or the speakers’ whole careers.",
+      "sources": [
+        {
+          "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+          "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+        },
+        {
+          "label": "Women in Spatial, “Rosey Harris on GeoCart’18”, 30 August 2019",
+          "url": "https://womeninspatial.wordpress.com/2019/08/30/rosey-harris-on-geocart18/"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The New Zealand Spatial Excellence Awards created another public record of the profession. The inaugural awards were held in November 2014 as a joint undertaking between the spatial profession, business and government. Land Information Minister Louise Upston described the awards as recognising high achievers and contributors across the sector. The People & Community award went to LINZ for its 2014 Geospatial Virtual Field Trip for Schools, the final project in a three-year series showing students how geospatial information was being used in the Canterbury rebuild.",
+      "markdown": "The New Zealand Spatial Excellence Awards created another public record of the profession. The inaugural awards were held in November 2014 as a joint undertaking between the spatial profession, business and government. Land Information Minister Louise Upston described the awards as recognising high achievers and contributors across the sector. The People & Community award went to LINZ for its 2014 Geospatial Virtual Field Trip for Schools, the final project in a three-year series showing students how geospatial information was being used in the Canterbury rebuild.",
+      "sources": [
+        {
+          "label": "Beehive, Awards put spotlight on location innovation, 29 November 2014",
+          "url": "https://www.beehive.govt.nz/release/awards-put-spotlight-location-innovation"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2018 awards provide a broader snapshot of people and organisations then visible in the profession. Ethos Environmental received the Supreme and Environment & Sustainability awards; Orbica won Export & Innovation and Technical Excellence; the University of Auckland won People & Community; and Christchurch City Council won Spatial Enablement. Individual awards went to Robert Odolinski for Education & Professional Development, Elaine McAlister as Professional of the Year, Julian Thom as Student of the Year, Kat Salm for Women’s Leadership, Claire Buxton as Young Professional of the Year and People’s Choice, Andrew Douglas-Clifford for the New Zealand Cartographic Society Award, and Geoff O’Malley for Outstanding Contribution to Spatial.",
+      "markdown": "The 2018 awards provide a broader snapshot of people and organisations then visible in the profession. Ethos Environmental received the Supreme and Environment & Sustainability awards; Orbica won Export & Innovation and Technical Excellence; the University of Auckland won People & Community; and Christchurch City Council won Spatial Enablement. Individual awards went to Robert Odolinski for Education & Professional Development, Elaine McAlister as Professional of the Year, Julian Thom as Student of the Year, Kat Salm for Women’s Leadership, Claire Buxton as Young Professional of the Year and People’s Choice, Andrew Douglas-Clifford for the New Zealand Cartographic Society Award, and Geoff O’Malley for Outstanding Contribution to Spatial.",
+      "sources": [
+        {
+          "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+          "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The group’s inclusion work also brought industry-specific discussion into its events. On 24 October 2018, Bridgit Sissons spoke to 50 WIS members about the Diversity Agenda; a workshop then asked what barriers were specific to the spatial industry, and the group reported that some members took the discussion back to their workplaces. Committee biographies connect the network to different career stages: Amy Tay’s transport and infrastructure consulting, FME and 3D modelling; Georgia Goodsell’s spatial-intelligence work and support for new entrants; Devon Allen’s cadastral and engineering surveying; and student representative Malindi Reihana-Ruka’s interest in working with her community and encouraging other women into the field. The biographies are not date-stamped, so they do not establish current employment or study status. A 2024 recap records lightning talks on tactile mapping, surveying, GIS in schools and data collection.",
+      "markdown": "The group’s inclusion work also brought industry-specific discussion into its events. On 24 October 2018, Bridgit Sissons spoke to 50 WIS members about the Diversity Agenda; a workshop then asked what barriers were specific to the spatial industry, and the group reported that some members took the discussion back to their workplaces. Committee biographies connect the network to different career stages: Amy Tay’s transport and infrastructure consulting, FME and 3D modelling; Georgia Goodsell’s spatial-intelligence work and support for new entrants; Devon Allen’s cadastral and engineering surveying; and student representative Malindi Reihana-Ruka’s interest in working with her community and encouraging other women into the field. The biographies are not date-stamped, so they do not establish current employment or study status. A 2024 recap records lightning talks on tactile mapping, surveying, GIS in schools and data collection.",
+      "sources": [
+        {
+          "label": "Women in Spatial, “The Diversity Agenda”, 16 November 2018",
+          "url": "https://womeninspatial.wordpress.com/2018/11/16/the-diversity-agenda/"
+        },
+        {
+          "label": "Women in Spatial + Survey, “The Committee”",
+          "url": "https://womeninspatial.wordpress.com/the-committee/"
+        },
+        {
+          "label": "Women in Spatial + Survey, “Mid-Winter Lightning Talks”, 25 August 2024",
+          "url": "https://womeninspatial.wordpress.com/2024/08/25/mid-winter-lightning-talks/"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Women in Spatial and Survey became visible through the people in its network as well as its 2011 re-formation. In 2019 the Geospatial Research Institute hosted Dr Kat Salm to present findings from a survey of women in the New Zealand spatial industry; the institute also recorded her 2018 New Zealand Spatial Excellence Award for Women’s Leadership and a 2019 Asia-Pacific Spatial Excellence Award. The network’s committee biographies show other routes through the work. Charlotte Dawson moved between GIS analysis, cartography and Geographic Board research before joining Stantec as New Zealand GIS Team Leader in 2020 and chairing WIS+S in 2021. Kirsty Mackie used GIS and remote sensing for geomorphometric analysis, then carried those skills into photogrammetry and reality-capture practice; she became WIS+S chair in 2023. These are documented examples of research, technical practice and community leadership, not a workforce census.",
+      "markdown": "Women in Spatial and Survey became visible through the people in its network as well as its 2011 re-formation. In 2019 the Geospatial Research Institute hosted Dr Kat Salm to present findings from a survey of women in the New Zealand spatial industry; the institute also recorded her 2018 New Zealand Spatial Excellence Award for Women’s Leadership and a 2019 Asia-Pacific Spatial Excellence Award. The network’s committee biographies show other routes through the work. Charlotte Dawson moved between GIS analysis, cartography and Geographic Board research before joining Stantec as New Zealand GIS Team Leader in 2020 and chairing WIS+S in 2021. Kirsty Mackie used GIS and remote sensing for geomorphometric analysis, then carried those skills into photogrammetry and reality-capture practice; she became WIS+S chair in 2023. These are documented examples of research, technical practice and community leadership, not a workforce census.",
+      "sources": [
+        {
+          "label": "Geospatial Research Institute Toi Hangarau, seminar with Kat Salm, 25 October 2019",
+          "url": "https://geospatial.ac.nz/seminar-25-october-2019-women-in-spatial-and-frontiersi/"
+        },
+        {
+          "label": "Women in Spatial + Survey, The Committee",
+          "url": "https://womeninspatial.wordpress.com/the-committee/"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Professional exchange also overlapped with Māori capability work. LINZ, Te Kāhui Manu Hōkai Māori GIS Association and GIS Journey Limited supported Ngā Poutama Matawhenua, a practical online mapping wānanga series. LINZ’s annual report records fortnightly sessions from October 2020 for iwi, Māori trusts and other participants, and names Duane Wilkins as a GIS wānanga facilitator in Whangārei. LINZ lists Wilkins as a geospatial consultant for the series.",
+      "markdown": "Professional exchange also overlapped with Māori capability work. LINZ, Te Kāhui Manu Hōkai Māori GIS Association and GIS Journey Limited supported Ngā Poutama Matawhenua, a practical online mapping wānanga series. LINZ’s annual report records fortnightly sessions from October 2020 for iwi, Māori trusts and other participants, and names Duane Wilkins as a GIS wānanga facilitator in Whangārei. LINZ lists Wilkins as a geospatial consultant for the series.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The pandemic briefly changed the mechanics of professional exchange. From 31 March to 5 May 2020, a planned regional Esri conference programme was replaced by a nine-part virtual user-conference series. The format was different, but the underlying function was familiar: practitioners presented local work, technical specialists explained platform changes and users compared problems across organisations. A community built through meeting rooms and hotel conference centres could move online because the relationships already existed.",
+      "markdown": "The pandemic briefly changed the mechanics of professional exchange. From 31 March to 5 May 2020, a planned regional Esri conference programme was replaced by a nine-part virtual user-conference series. The format was different, but the underlying function was familiar: practitioners presented local work, technical specialists explained platform changes and users compared problems across organisations. A community built through meeting rooms and hotel conference centres could move online because the relationships already existed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Emergency management produced one of the clearest practitioner-led networks. Waikato Regional Council GIS analyst Derek Phyn helped develop NZGIS4EM, a community intended to improve geospatial capability and readiness across emergency management. NEMA later recognised that work with a Silver Ministerial Award, while Phyn’s 2018 ISCRAM paper documented how the network had formed and what it was trying to solve.",
+      "sources": [
+        {
+          "label": "NEMA, Emergency Management Awards recipients",
+          "url": "https://www.civildefence.govt.nz/guidance-training/guidelines/information-series/emergency-management-awards/award-recipients"
+        },
+        {
+          "label": "Derek Phyn, New Zealand GIS for Emergency Management, ISCRAM 2018",
+          "url": "https://idl.iscram.org/files/derekphyn/2018/1646_DerekPhyn2018.pdf"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Professional organisation in the geospatial field was never confined to one body. The New Zealand Cartographic Society, founded in 1971, carried cartography into the digital and GIS era; Survey and Spatial New Zealand broadened the older New Zealand Institute of Surveyors lineage to include the spatial/GIS profession; and WaiGIS, established in 2007, provided a regional network for Waikato practitioners. These groups overlapped with software user groups, university networks and later online communities rather than replacing them.",
+      "sources": [
+        {
+          "label": "New Zealand Cartographic Society, About NZCS",
+          "url": "https://cartography.org.nz/about/nzcs"
+        },
+        {
+          "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

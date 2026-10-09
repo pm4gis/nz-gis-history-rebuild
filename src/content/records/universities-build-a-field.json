@@ -1,0 +1,17 @@
+{
+  "id": "chapter:11",
+  "articleId": "article:chapter-11",
+  "slug": "universities-build-a-field",
+  "name": "University teaching and research",
+  "kind": "Story",
+  "category": "Early GIS",
+  "url": "/stories/universities-build-a-field/",
+  "description": "In 1985, when the University of Auckland was already teaching GIS to senior undergraduates in Geography, there was no settled New Zealand pathway for becoming a GIS practitioner. The software was specialised, useful digital data were comparatively scarce, and access to suitable computing could determine what could be taught in practice. Students were learning a field while the field was still sorting out much of its ",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "profession",
+    "women-in-gis"
+  ]
+}

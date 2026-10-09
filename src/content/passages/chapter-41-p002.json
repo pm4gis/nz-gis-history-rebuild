@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-41-1aee9b50bf",
+  "slug": "a-new-zealand-spatial-marketplace-1aee9b50bf",
+  "articleId": "article:chapter-41",
+  "title": "A New Zealand spatial marketplace",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41",
+    "entity:koordinates"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Koordinates provided an early local example of a different distribution model. The company was legally registered in September 2005, but contemporary reporting dates the recognisable online platform from 2007, with a private beta released in November 2007 and a public beta in April 2008. The New Zealand Herald described it as an online marketplace for high-quality map data aimed at professional users such as GIS analysts, surveyors, architects and engineers. Koordinates replaced some of the familiar distribution routine of phone calls, email, physical media and one-off delivery with a site through which datasets could be found, purchased or shared.",
+      "markdown": "Koordinates provided an early local example of a different distribution model. The company was legally registered in September 2005, but contemporary reporting dates the recognisable online platform from 2007, with a private beta released in November 2007 and a public beta in April 2008. The New Zealand Herald described it as an online marketplace for high-quality map data aimed at professional users such as GIS analysts, surveyors, architects and engineers. Koordinates replaced some of the familiar distribution routine of phone calls, email, physical media and one-off delivery with a site through which datasets could be found, purchased or shared.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The service preceded later open-data releases. Some of the original proposition concerned commercial data and paid distribution, and Chapter 33 describes the changes in licensing and Crown pricing that made more data freely reusable. A data custodian did not necessarily need to build and maintain its own complete public distribution website. Data could sit on a common hosted platform with search, metadata, preview, export and later service interfaces supplied as part of the platform.",
+      "markdown": "The service preceded later open-data releases. Some of the original proposition concerned commercial data and paid distribution, and Chapter 33 describes the changes in licensing and Crown pricing that made more data freely reusable. A data custodian did not necessarily need to build and maintain its own complete public distribution website. Data could sit on a common hosted platform with search, metadata, preview, export and later service interfaces supplied as part of the platform.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That arrangement also shifted responsibility. The data owner still had to decide what to publish, describe the dataset, maintain its content and set appropriate access conditions. The platform provider dealt with more of the delivery environment. That division became increasingly attractive as the number and size of public datasets grew, especially for organisations that wanted reliable distribution without becoming specialist web-hosting businesses on the side. The humble spatial download site was beginning to behave more like infrastructure.",
+      "markdown": "That arrangement also shifted responsibility. The data owner still had to decide what to publish, describe the dataset, maintain its content and set appropriate access conditions. The platform provider dealt with more of the delivery environment. That division became increasingly attractive as the number and size of public datasets grew, especially for organisations that wanted reliable distribution without becoming specialist web-hosting businesses on the side. The humble spatial download site was beginning to behave more like infrastructure.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

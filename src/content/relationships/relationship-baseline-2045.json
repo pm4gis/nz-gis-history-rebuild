@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2045",
+  "a": "entity:northland-regional-council",
+  "b": "chapter:26",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

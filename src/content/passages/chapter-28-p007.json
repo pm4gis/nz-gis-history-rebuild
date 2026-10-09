@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-28-a74e7647c8",
+  "slug": "incident-geography-and-emergency-response-a74e7647c8",
+  "articleId": "article:chapter-28",
+  "title": "Incident geography and emergency response",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28",
+    "entity:new-zealand-fire-service",
+    "entity:orbica"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Fire and emergency organisations also needed records tied reliably to location, but faced different operational questions. A fire service needed to know where incidents had occurred, how demand varied and whether stations and appliances were positioned to meet response targets. Incident reporting, dispatch, addresses and resource planning all touched geography without being the same system.",
+      "markdown": "Fire and emergency organisations also needed records tied reliably to location, but faced different operational questions. A fire service needed to know where incidents had occurred, how demand varied and whether stations and appliances were positioned to meet response targets. Incident reporting, dispatch, addresses and resource planning all touched geography without being the same system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The New Zealand Fire Service Commission’s 2000/01 annual report records implementation of FIRS 2000, the Fire Incident Reporting System. It provided online network input for emergency incident information and current reporting, with the stated aim of improving the speed and usability of incident data. That is an important information-system milestone, but the annual report does not describe FIRS 2000 itself as GIS. A later ability to export incident records with coordinates belongs to the later system history and leaves the earlier database’s role unchanged.",
+      "markdown": "The New Zealand Fire Service Commission’s 2000/01 annual report records implementation of FIRS 2000, the Fire Incident Reporting System. It provided online network input for emergency incident information and current reporting, with the stated aim of improving the speed and usability of incident data. That is an important information-system milestone, but the annual report does not describe FIRS 2000 itself as GIS. A later ability to export incident records with coordinates belongs to the later system history and leaves the earlier database’s role unchanged.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same annual report does, however, document a clearly spatial planning workflow. The Fire Service had developed a resource-allocation model to provide a consistent basis for long-term resourcing decisions in metropolitan and major provincial centres. Its aim was to locate fire stations according to fire risk while supporting a target that 90 per cent of incidents should be reached within five minutes of firefighters leaving the station. Location was being used to test the shape of the response network itself.",
+      "markdown": "The same annual report does, however, document a clearly spatial planning workflow. The Fire Service had developed a resource-allocation model to provide a consistent basis for long-term resourcing decisions in metropolitan and major provincial centres. Its aim was to locate fire stations according to fire risk while supporting a target that 90 per cent of incidents should be reached within five minutes of firefighters leaving the station. Location was being used to test the shape of the response network itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2020, NZTA had partnered with Catalyst and Orbica to rebuild the Crash Analysis System. The web-based system maps Police-reported crashes dating from 1980 and combines geospatial queries with reports for road planning, policing and policy work; Catalyst reported more than 1,000 authorised users.",
+      "markdown": "By 2020, NZTA had partnered with Catalyst and Orbica to rebuild the Crash Analysis System. The web-based system maps Police-reported crashes dating from 1980 and combines geospatial queries with reports for road planning, policing and policy work; Catalyst reported more than 1,000 authorised users.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

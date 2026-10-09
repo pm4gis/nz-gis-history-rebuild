@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1462",
+  "a": "entity:waimate-district-council",
+  "b": "chapter:41",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-41-c5ee4518cc"
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:andrew-smith",
+  "slug": "andrew-smith",
+  "name": "Andrew Smith",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/andrew-smith/",
+  "story": [
+    "Andrew Smith is acknowledged for the Wellington Regional Council wildfire study and digital data supplied to a Chilton Saint James School vegetation-fire project. The February 2001 Fire Service report documents council GIS data being reused in school fieldwork and fire-hazard analysis."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Fire Service Commission Research Report No.10, A Pilot Study to Identify Strategies to Assess Vegetation Fire Hazards, Chilton Saint James School",
+      "url": "https://www.fireandemergency.nz/assets/Documents/Research-and-reports/Report-10-Pilot-Study-to-Identify-Strategies-to-Assess-Vegetation-Fire-Hazards.pdf"
+    }
+  ],
+  "aliases": [
+    "Andrew Smith"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Fire Service Commission Research Report No.10, A Pilot Study to Identify Strategies to Assess Vegetation Fire Hazards, Chilton Saint James School",
+        "url": "https://www.fireandemergency.nz/assets/Documents/Research-and-reports/Report-10-Pilot-Study-to-Identify-Strategies-to-Assess-Vegetation-Fire-Hazards.pdf"
+      }
+    ]
+  ]
+}

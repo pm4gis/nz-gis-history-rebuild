@@ -1,0 +1,35 @@
+{
+  "id": "person:david-herries",
+  "slug": "david-herries",
+  "name": "David Herries",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-herries/",
+  "story": [
+    "David Herries wrote a 2014 guide to using GeoMaster and ArcMap to update forest stand gaps from imagery and GPS observations."
+  ],
+  "sources": [
+    {
+      "label": "Interpine technical guide, 2014",
+      "url": "https://interpine.nz/mapping-out-forest-stand-gaps-in-geomaster-and-arcmap/"
+    },
+    {
+      "label": "David Herries - Rotorua, Bay of Plenty, New Zealand | Professional Profile | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/davidherries"
+    }
+  ],
+  "aliases": [
+    "David Herries"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Interpine technical guide, 2014",
+        "url": "https://interpine.nz/mapping-out-forest-stand-gaps-in-geomaster-and-arcmap/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "passage:chapter-33-c8fefdff5a",
+  "slug": "national-topography-becomes-downloadable-c8fefdff5a",
+  "articleId": "article:chapter-33",
+  "title": "National topography becomes downloadable",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "On 23 September 2009 LINZ launched the Topo50 map series. The new series replaced the older NZMS260 system, moved national 1:50,000 mapping onto NZGD2000 and NZTM2000 and aligned official topographic mapping more closely with modern GPS use. The series also changed how users obtained and reused national topographic information.",
+      "markdown": "On 23 September 2009 LINZ launched the Topo50 map series. The new series replaced the older NZMS260 system, moved national 1:50,000 mapping onto NZGD2000 and NZTM2000 and aligned official topographic mapping more closely with modern GPS use. The series also changed how users obtained and reused national topographic information.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Ruatoria",
+      "caption": "Ruatoria. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "At the launch, the Minister for Land Information stated that technology now allowed LINZ to deliver topographic data free of charge to third parties and members of the public in electronic form. The same national mapping organisation that had once charged very large sums for digital topographic databases was now presenting free electronic distribution as part of the normal launch of a new national map series.",
+      "markdown": "At the launch, the Minister for Land Information stated that technology now allowed LINZ to deliver topographic data free of charge to third parties and members of the public in electronic form. The same national mapping organisation that had once charged very large sums for digital topographic databases was now presenting free electronic distribution as part of the normal launch of a new national map series.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital topographic data already existed: New Zealand had been building and maintaining national mapping databases for decades. The significant shift lay in the relationship between custodian and user. Electronic data could now circulate widely as reusable infrastructure rather than remain a scarce specialist product whose price recovered a large share of production cost.",
+      "markdown": "Digital topographic data already existed: New Zealand had been building and maintaining national mapping databases for decades. The significant shift lay in the relationship between custodian and user. Electronic data could now circulate widely as reusable infrastructure rather than remain a scarce specialist product whose price recovered a large share of production cost.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The timing coincided with changing public expectations. By 2009 ordinary users were already familiar with Google Maps and Google Earth. Government and council browser mapping had been established for years. The expectation that maps should be easy to find online was no longer unusual. Making the underlying national topographic data freely available extended that expectation from viewing into production and analysis.",
+      "markdown": "The timing coincided with changing public expectations. By 2009 ordinary users were already familiar with Google Maps and Google Earth. Government and council browser mapping had been established for years. The expectation that maps should be easy to find online was no longer unusual. Making the underlying national topographic data freely available extended that expectation from viewing into production and analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Free digital Topo50 also created a cleaner connection between official mapping and downstream innovation. Tramping applications, emergency systems, planning tools, research projects and commercial products could use the same national topographic foundation without beginning with the older transaction costs. The paper map remained useful and continued to be sold. Open digital access added another mode rather than erasing the old one.",
+      "markdown": "Free digital Topo50 also created a cleaner connection between official mapping and downstream innovation. Tramping applications, emergency systems, planning tools, research projects and commercial products could use the same national topographic foundation without beginning with the older transaction costs. The paper map remained useful and continued to be sold. Open digital access added another mode rather than erasing the old one.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The release also illustrates a broader change in what a map series was becoming. Topo50 was still a recognisable national sheet series, but the same underlying information could circulate as digital images and data outside the printed-sheet workflow. A user could treat the official map as a product, the underlying topographic database as a dataset, or both. That separation between cartographic product and reusable geographic content became increasingly important in the years that followed.",
+      "markdown": "The release also illustrates a broader change in what a map series was becoming. Topo50 was still a recognisable national sheet series, but the same underlying information could circulate as digital images and data outside the printed-sheet workflow. A user could treat the official map as a product, the underlying topographic database as a dataset, or both. That separation between cartographic product and reusable geographic content became increasingly important in the years that followed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

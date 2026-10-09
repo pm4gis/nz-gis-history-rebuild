@@ -1,0 +1,33 @@
+{
+  "id": "person:malcolm-harrison",
+  "slug": "malcolm-harrison",
+  "name": "Malcolm Harrison",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/malcolm-harrison/",
+  "story": [
+    "Malcolm Harrison designed the SITE data model, and Geoff Patterson wrote its program."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 10 · Conservation databases, 1990",
+      "url": "/stories/gis-inside-government/"
+    }
+  ],
+  "aliases": [
+    "Malcolm Harrison"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 10 · Conservation databases, 1990",
+        "url": "/stories/gis-inside-government/"
+      }
+    ]
+  ]
+}

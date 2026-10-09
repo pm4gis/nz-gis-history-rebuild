@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-28-7b9af32627",
+  "slug": "maps-in-wellington-7b9af32627",
+  "articleId": "article:chapter-28",
+  "title": "MAPS in Wellington",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By November 1999 the Map-based Analytical Policing System, MAPS, was operating in Wellington. Contemporary government material described the system as having proved useful there and said a nationwide expansion was proposed during 2000. The proposal set out a planned national rollout. The more detailed practitioner history later records a separate step in the sequence, with the general browser-based MAPS release dated to late 2000.",
+      "markdown": "By November 1999 the Map-based Analytical Policing System, MAPS, was operating in Wellington. Contemporary government material described the system as having proved useful there and said a nationwide expansion was proposed during 2000. The proposal set out a planned national rollout. The more detailed practitioner history later records a separate step in the sequence, with the general browser-based MAPS release dated to late 2000.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Police was using the MAPS name or system lineage in Wellington by November 1999. The first browser version followed in late 2000, after Police chose to replace locally installed clients. These milestones mark successive stages from specialist analyst workstations to browser access.",
+      "markdown": "Police was using the MAPS name or system lineage in Wellington by November 1999. The first browser version followed in late 2000, after Police chose to replace locally installed clients. These milestones mark successive stages from specialist analyst workstations to browser access.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Office of the Auditor-General’s 2001 report on dwelling burglary describes how Police used MAPS. It describes MAPS as a more sophisticated system being tested in Lower Hutt during the audit and records its ability to analyse incidents across several dimensions. Location, time of day, similar methods of offending and repeated involvement of particular victims or victim types could be examined together.",
+      "markdown": "The Office of the Auditor-General’s 2001 report on dwelling burglary describes how Police used MAPS. It describes MAPS as a more sophisticated system being tested in Lower Hutt during the audit and records its ability to analyse incidents across several dimensions. Location, time of day, similar methods of offending and repeated involvement of particular victims or victim types could be examined together.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

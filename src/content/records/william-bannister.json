@@ -1,0 +1,31 @@
+{
+  "id": "person:william-bannister",
+  "slug": "william-bannister",
+  "name": "William Bannister",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/william-bannister/",
+  "story": [
+    "William Bannister of the Department of Conservation co-presented DOC’s response to the 2017 Port Hills fire at the New Zealand Esri User Conference. The presentation provides another named example of conservation GIS staff moving into emergency-response mapping when an incident crossed normal organisational boundaries."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "William Bannister"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

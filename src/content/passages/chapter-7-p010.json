@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-7-6ccf3b9838",
+  "slug": "changing-the-base-map-6ccf3b9838",
+  "articleId": "article:chapter-7",
+  "title": "Changing the base map",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Between 1987 and 1990 the NZLRI mapping was converted from the old 1:63,360 framework to 1:50,000. Chapter 5 followed the production work: polygon boundaries were checked against aerial photography and newer topographic information, including coastlines, lakes, trig points and geographic control. The conversion did more than rescale a printed map. It placed the land-resource geometry into the metric national mapping framework being used more widely across government and GIS.",
+      "markdown": "Between 1987 and 1990 the NZLRI mapping was converted from the old 1:63,360 framework to 1:50,000. Chapter 5 followed the production work: polygon boundaries were checked against aerial photography and newer topographic information, including coastlines, lakes, trig points and geographic control. The conversion did more than rescale a printed map. It placed the land-resource geometry into the metric national mapping framework being used more widely across government and GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For later users, this made comparison with the NZMS260 topographic series and other 1:50,000 datasets easier. Boundaries that had been compiled against older base information could be adjusted where newer photography or mapping showed a mismatch. The thematic interpretation was retained unless the land-resource evidence itself justified a change.",
+      "markdown": "For later users, this made comparison with the NZMS260 topographic series and other 1:50,000 datasets easier. Boundaries that had been compiled against older base information could be adjusted where newer photography or mapping showed a mismatch. The thematic interpretation was retained unless the land-resource evidence itself justified a change.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Several regions were also remapped as second editions, including Northland, Wellington, Marlborough and Gisborne-East Coast, with some work extending into the 1990s. These revisions used newer resource information and more detailed 1:50,000 mapping where available. The national dataset therefore became a mixture of first- and second-edition work rather than one survey frozen permanently in 1979.",
+      "markdown": "Several regions were also remapped as second editions, including Northland, Wellington, Marlborough and Gisborne-East Coast, with some work extending into the 1990s. These revisions used newer resource information and more detailed 1:50,000 mapping where available. The national dataset therefore became a mixture of first- and second-edition work rather than one survey frozen permanently in 1979.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This mixed history is visible in later use. Some regions contain newer field interpretation and revised legends than others. A national GIS layer can make those differences difficult to see because all polygons use the same display technology. The metadata and regional documentation remain necessary for understanding when and how a particular area was mapped.",
+      "markdown": "This mixed history is visible in later use. Some regions contain newer field interpretation and revised legends than others. A national GIS layer can make those differences difficult to see because all polygons use the same display technology. The metadata and regional documentation remain necessary for understanding when and how a particular area was mapped.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

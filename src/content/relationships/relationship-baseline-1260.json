@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1260",
+  "a": "entity:aranz-geo-seequent",
+  "b": "chapter:44",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-44-fc971b58aa"
+  ],
+  "sources": []
+}

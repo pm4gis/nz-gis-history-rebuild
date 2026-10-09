@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1937",
+  "a": "person:shaun-russell",
+  "b": "chapter:44",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-44-9989c07d1e"
+  ],
+  "sources": []
+}

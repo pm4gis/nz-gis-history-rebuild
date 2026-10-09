@@ -1,0 +1,40 @@
+{
+  "id": "article:chapter-38",
+  "slug": "mapping-from-a-drone",
+  "title": "Drone mapping",
+  "url": "/stories/mapping-from-a-drone/",
+  "summary": "The August 2012 Te Maari eruption left hundreds of ballistic impact craters across part of the Tongariro landscape. New Zealand Aerial Mapping flew LiDAR and aerial imagery over the area in November that year, producing a broad re",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 38,
+  "themeIds": [
+    "imagery"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch38-note-01",
+      "text": "1. Civil Aviation Authority archived Parts 101 and 102, Master Research Register P9C-S22, support the modern RPAS regulatory milestone: Part 101 amendment 6 and the original Part 102 took effect on 1 August 2015. This is a regulatory date, not evidence of the first New Zealand drone-mapping operation."
+    },
+    {
+      "id": "ch38-note-02",
+      "text": "2. University of Canterbury research around Te Maari provides a strongly evidenced early scientific UAV/structure-from-motion case in the project corpus. The field UAV work occurred roughly four years after the 2012 eruption, with the thesis completed in 2017. It must not be rewritten as a 2012 drone survey merely because the landscape event occurred then."
+    },
+    {
+      "id": "ch38-note-03",
+      "text": "3. The chapter distinguishes image capture from photogrammetric reconstruction. A UAV may collect photographs; structure-from-motion and photogrammetric processing derive camera geometry, dense point clouds, orthomosaics and surface models. Those outputs can resemble LiDAR products while being measured differently."
+    },
+    {
+      "id": "ch38-note-04",
+      "text": "4. Drone-borne visible imagery, multispectral sensors and LiDAR are not interchangeable. A drone platform may carry different sensors, but the chapter must identify the actual sensor and processing method used by a cited project."
+    },
+    {
+      "id": "ch38-note-05",
+      "text": "5. Regulatory change, falling hardware costs, better cameras, GNSS, improved photogrammetry and computing all contributed to professional uptake. No single factor is treated as the date on which drone mapping became ordinary across New Zealand."
+    },
+    {
+      "id": "ch38-note-06",
+      "text": "6. Disaster use may be mentioned as a technical application, but major emergency and recovery narratives remain in Chapter 42."
+    }
+  ]
+}

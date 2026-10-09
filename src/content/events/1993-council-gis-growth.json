@@ -1,0 +1,31 @@
+{
+  "id": "1993-council-gis-growth",
+  "dateDisplay": "1993 to 1996",
+  "startDate": "1993",
+  "endDate": "1996",
+  "datePrecision": "year-range",
+  "year": 1993,
+  "label": "Local-government GIS implementation accelerates",
+  "summary": "Sector research records rapid growth in local-government GIS implementation through the mid-1990s.",
+  "url": "/stories/councils-build-corporate-gis/#adoption-accelerates-2085360bd2",
+  "passageIds": [
+    "passage:chapter-23-2085360bd2"
+  ],
+  "recordIds": [
+    "chapter:23",
+    "entity:university-of-otago",
+    "person:george-benwell",
+    "person:andrew-marr",
+    "person:michael-anderson",
+    "person:e-todd",
+    "person:k-g-fraser"
+  ],
+  "themeIds": [
+    "local-government"
+  ],
+  "categories": [
+    "local-government",
+    "enterprise"
+  ],
+  "sources": []
+}

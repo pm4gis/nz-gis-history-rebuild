@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-22-d000c583b1",
+  "slug": "desktop-limitations-d000c583b1",
+  "articleId": "article:chapter-22",
+  "title": "Desktop limitations",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A desktop machine could run GIS without being able to handle every GIS task comfortably. Large raster mosaics consumed disk space and memory. National vector layers could be slow to draw or analyse. Complex overlays and topology processing could take long enough that specialist workstations or central processing environments remained preferable. Printing large, high-quality maps still required access to suitable plotters and printers.",
+      "markdown": "A desktop machine could run GIS without being able to handle every GIS task comfortably. Large raster mosaics consumed disk space and memory. National vector layers could be slow to draw or analyse. Complex overlays and topology processing could take long enough that specialist workstations or central processing environments remained preferable. Printing large, high-quality maps still required access to suitable plotters and printers.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Network speed created another constraint. Loading large datasets from a shared drive could be slower than keeping local copies, which encouraged the version problem described earlier. A user might subset a national dataset simply to make it workable on a particular machine. Imagery often had to be tiled, compressed or reduced in resolution. The computer on the desk had made GIS available, not unlimited.",
+      "markdown": "Network speed created another constraint. Loading large datasets from a shared drive could be slower than keeping local copies, which encouraged the version problem described earlier. A user might subset a national dataset simply to make it workable on a particular machine. Imagery often had to be tiled, compressed or reduced in resolution. The computer on the desk had made GIS available, not unlimited.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Coordinate systems could also catch less experienced users. Desktop software increasingly automated projection handling, but older datasets were not always labelled correctly and conversion tools could be applied incorrectly. Two layers that appeared near one another on screen could still be based on different datums or source accuracies. Chapter 19 covered the national coordinate transition; desktop GIS put responsibility for recognising those differences into the hands of many more users.",
+      "markdown": "Coordinate systems could also catch less experienced users. Desktop software increasingly automated projection handling, but older datasets were not always labelled correctly and conversion tools could be applied incorrectly. Two layers that appeared near one another on screen could still be based on different datums or source accuracies. Chapter 19 covered the national coordinate transition; desktop GIS put responsibility for recognising those differences into the hands of many more users.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Some organisations therefore retained a mixed architecture for years. Specialist staff managed data and complex processing while desktop users worked with prepared layers. Later enterprise databases and web services would formalise that relationship. During the 1990s and early 2000s it was often held together by network drives, export routines, local conventions and people who knew where the current data lived.",
+      "markdown": "Some organisations therefore retained a mixed architecture for years. Specialist staff managed data and complex processing while desktop users worked with prepared layers. Later enterprise databases and web services would formalise that relationship. During the 1990s and early 2000s it was often held together by network drives, export routines, local conventions and people who knew where the current data lived.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

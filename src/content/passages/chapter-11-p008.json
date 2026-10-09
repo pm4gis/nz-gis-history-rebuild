@@ -1,0 +1,43 @@
+{
+  "id": "passage:chapter-11-3d20aefbb6",
+  "slug": "surveying-and-the-spatial-disciplines-3d20aefbb6",
+  "articleId": "article:chapter-11",
+  "title": "Surveying and the spatial disciplines",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Several university disciplines adopted GIS. Otago's surveying tradition already dealt with coordinate systems, measurement, photogrammetry and the legal and technical organisation of land information. Canterbury's computer scientists were examining exchange formats and interfaces while geographers worked with GIS and remote sensing. Environmental and geological researchers brought problems defined by terrain, hazards and natural resources. Planning supplied questions about land use, administration and access to information. The emerging field was held together by geographic data rather than by one departmental lineage.",
+      "markdown": "Several university disciplines adopted GIS. Otago's surveying tradition already dealt with coordinate systems, measurement, photogrammetry and the legal and technical organisation of land information. Canterbury's computer scientists were examining exchange formats and interfaces while geographers worked with GIS and remote sensing. Environmental and geological researchers brought problems defined by terrain, hazards and natural resources. Planning supplied questions about land use, administration and access to information. The emerging field was held together by geographic data rather than by one departmental lineage.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Surveying and GIS research overlapped at Otago. SIRC papers involved spatial measurement, GPS, hazards, databases and information systems, and the university's research community crossed departmental boundaries. SIRC’s remit covered spatial information across software packages and academic disciplines.",
+      "markdown": "Surveying and GIS research overlapped at Otago. SIRC papers involved spatial measurement, GPS, hazards, databases and information systems, and the university's research community crossed departmental boundaries. SIRC’s remit covered spatial information across software packages and academic disciplines.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This multidisciplinary setting also affected what counted as research. A computer scientist could treat GIS as an interface and data-structure problem. A geographer could examine terrain or local-government adoption. A surveyor could focus on positioning and measured spatial data. A planner could ask how information should be used in decisions. Those questions shared enough concepts and tools to create a field while remaining different enough that no single department could easily own it.",
+      "markdown": "This multidisciplinary setting also affected what counted as research. A computer scientist could treat GIS as an interface and data-structure problem. A geographer could examine terrain or local-government adoption. A surveyor could focus on positioning and measured spatial data. A planner could ask how information should be used in decisions. Those questions shared enough concepts and tools to create a field while remaining different enough that no single department could easily own it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Otago introduced a Bachelor of Science in Land and Spatial Information Studies in the late 1980s. Its School of Surveying history records the degree alongside measurement science and land planning programmes. Spatial information was becoming a distinct subject of university study during the same years that agencies and councils were expanding their systems.",
+      "sources": [
+        {
+          "label": "University of Otago, History of the School of Surveying: Land and Spatial Information Studies degree",
+          "url": "https://www.otago.ac.nz/surveying/about/history"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

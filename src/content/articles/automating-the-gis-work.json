@@ -1,0 +1,44 @@
+{
+  "id": "article:chapter-43",
+  "slug": "automating-the-gis-work",
+  "title": "GIS automation",
+  "url": "/stories/automating-the-gis-work/",
+  "summary": "GIS has always involved repetition. A dataset arrives, its coordinate system is checked, unwanted records are removed, fields are joined, geometry is processed, a map is produced, and the result is exported. Early practitioners co",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 43,
+  "themeIds": [
+    "technology-stack"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch43-note-01",
+      "text": "1. ArcView Avenue automated repeated map-production operations in the Waikato notified-disease work and the paper reports maps at the most detailed regional scale being produced in less than a minute. The chapter does not claim this was New Zealand’s first GIS scripting project."
+    },
+    {
+      "id": "ch43-note-02",
+      "text": "2. Brent Wood’s 2022 NIWA technical retrospective supports the DASmap and database examples. Integrated Mapping in Christchurch, associated with John McCombs, developed DASmap in the early or mid-2000s using MapServer and Python MapScript. The later database comparison includes approximately 600 million earlier readings and roughly 40 billion later readings, automated weekly partitioning and spatial-SQL vessel-track processing. These remain retrospective source-specific figures rather than a continuous national chronology."
+    },
+    {
+      "id": "ch43-note-03",
+      "text": "3. Esri’s 2016 Auckland Council implementation account supports the ArcGIS/FME consolidation figures: 8,470 inherited geographic datasets reduced to 2,056 and 697 district-plan datasets replaced by 25. It is a vendor implementation source and does not establish that FME made the governance decisions or that every migration action was unattended."
+    },
+    {
+      "id": "ch43-note-04",
+      "text": "4. The later Safe Software KiwiRail case study documents a 2023 Cyclone Gabrielle photograph-processing chain including JPG/HEIC handling, EXIF extraction, resizing, coordinate/date transformation, metadata checking and upload through the Esri REST API. Because the case study was published after the cutoff, it is used only retrospectively to document the 2023 workflow. Chapter 42 discusses the disaster narrative."
+    },
+    {
+      "id": "ch43-note-05",
+      "text": "5. The 2009 Topo50 technical evidence supports automated portrayal rules and rapid generation of production files once maintained source data and rules were ready, while five cartographers continued to resolve text conflicts and exceptions. Later Future Topographic Maps documentation is used only to document the direction of a programme that began in November 2024, including QGIS and Kart spatial version-control work. It is not treated as proof of a completed replacement production environment by the end of 2025."
+    },
+    {
+      "id": "ch43-note-06",
+      "text": "6. Ministry for the Environment material on the LUCAS 2020 Land Use Map supports Sentinel-2 imagery, automated or deep-learning-assisted processes and continued manual interpretation and quality assurance. The chapter uses this as the bridge from deterministic automation to machine learning without treating model output as ground truth."
+    },
+    {
+      "id": "ch43-note-07",
+      "text": "The Auckland Council and NZTA case records illustrate automation around enterprise GIS services, migration, dashboards and field workflows; the section describes the operating model rather than a single tool."
+    }
+  ]
+}

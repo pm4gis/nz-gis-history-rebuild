@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1962",
+  "a": "person:p-j-sallis",
+  "b": "chapter:11",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-11-6b17dc2b4d"
+  ],
+  "sources": []
+}

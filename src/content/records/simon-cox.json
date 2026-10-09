@@ -1,0 +1,42 @@
+{
+  "id": "person:simon-cox",
+  "slug": "simon-cox",
+  "name": "Simon Cox",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/simon-cox/",
+  "story": [
+    "Simon Cox completed his geology doctorate at Otago in 1993. His research has covered geological mapping, structural geology, tectonics and groundwater, with work in the South Island and Antarctica. He received the McKay Hammer in 2010 and a ScienceNZ lifetime-achievement award in 2021. His work includes digital geological mapping and research into earthquake effects on groundwater and natural hazards.",
+    "Simon Cox and Mark Rattenbury documented gold-prospectivity analysis in 2006 using the QMAP dataset for modelling. Their work used GIS and weights-of-evidence methods to combine geological information with other indicators associated with mineralisation. The national geological dataset was therefore being treated as an analytical layer rather than only as a collection of finished sheets."
+  ],
+  "sources": [
+    {
+      "label": "Dr Simon Cox - Earth Sciences New Zealand | GNS Science | Te Pῡ Ao · career/profile reference",
+      "url": "https://www.gns.cri.nz/about-us/our-people/meet-our-principal-scientists/dr-simon-cox/"
+    },
+    {
+      "label": "Chapter 9 · A map that can be queried again",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Simon Cox"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Dr Simon Cox - Earth Sciences New Zealand | GNS Science | Te Pῡ Ao · career/profile reference",
+        "url": "https://www.gns.cri.nz/about-us/our-people/meet-our-principal-scientists/dr-simon-cox/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · A map that can be queried again",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

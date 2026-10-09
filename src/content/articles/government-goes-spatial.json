@@ -1,0 +1,30 @@
+{
+  "id": "article:chapter-24",
+  "slug": "government-goes-spatial",
+  "title": "GIS across government",
+  "url": "/stories/government-goes-spatial/",
+  "summary": "By the late 1990s, a government task could use GIS without becoming a GIS project. The specialised systems described in Chapter 10 had established that departments could maintain national spatial databases and digital mapping envi",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 24,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch24-note-01",
+      "text": "1. Treasury Working Paper 00/11 by Suzi Kerr and Jason Timmins supports the 2000 regional socioeconomic analysis, ArcView/Census96 supply by Critchlow Associates and the statistical-geography levels used. It is a securely documented mainstream policy-analysis example, not a claim of Treasury’s first GIS use."
+    },
+    {
+      "id": "ch24-note-02",
+      "text": "2. Contemporary Ministry of Agriculture and Forestry material supports the Varroa destructor response chronology: confirmation in South Auckland on 11 April 2000, the exotic-disease response, additional funding on 1 May, and late-May reporting of 2,120 apiaries and 40,461 hives visited. The same reporting states that apiary maps were being upgraded, standardised on 1:250,000 terrain mapping and digitised for GIS. The chapter does not claim GIS ran the response from the first day."
+    },
+    {
+      "id": "ch24-note-03",
+      "text": "3. NABIS is supported by the 2009 Spatial Information in the New Zealand Economy report and mid-2000s operational documentation. The project evidence places Ministry of Fisheries development in 2001 and documents an operational web GIS by 2005 for fisheries and biodiversity planning, monitoring and policy work. The 2009 report records three FTE managing/developing NABIS and a May 2008 user survey of approximately 2,000 users. Productivity estimates are attributed to the respondents who supplied them and are not generalised across government."
+    },
+    {
+      "id": "ch24-note-04",
+      "text": "4. Crown Minerals spatial administration is supported by the 2007 minerals and petroleum regulations requiring permit areas to be described and mapped using coordinates, parcels, bearings/distances, geographic boundaries or other specified references, with projection/datum information where applicable. Later New Zealand Petroleum and Minerals material supports the endpoint of permit registers linked to GIS databases, public webmaps and spatial data/services. No exact first internal GIS date is claimed."
+    }
+  ]
+}

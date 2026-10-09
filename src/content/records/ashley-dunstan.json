@@ -1,0 +1,31 @@
+{
+  "id": "person:ashley-dunstan",
+  "slug": "ashley-dunstan",
+  "name": "Ashley Dunstan",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ashley-dunstan/",
+  "story": [
+    "Ashley Dunstan of Hastings District Council co-presented the GIS response to the Havelock North water-contamination incident at the 2017 New Zealand Esri User Conference. The presentation records council GIS being used during a major public-health emergency rather than only for routine asset and planning work."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Ashley Dunstan"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

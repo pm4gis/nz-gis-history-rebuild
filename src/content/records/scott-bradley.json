@@ -1,0 +1,31 @@
+{
+  "id": "person:scott-bradley",
+  "slug": "scott-bradley",
+  "name": "Scott Bradley",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/scott-bradley/",
+  "story": [
+    "Scott Bradley co-presented a two-part ArcGIS Enterprise session with Sam Williamson at the 2018 New Zealand Esri User Conference. The programme records this technical contribution as part of the conference’s professional learning on enterprise GIS."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    }
+  ],
+  "aliases": [
+    "Scott Bradley"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ]
+  ]
+}

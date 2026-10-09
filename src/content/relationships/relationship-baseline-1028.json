@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1028",
+  "a": "person:trevor-hart",
+  "b": "entity:ope",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

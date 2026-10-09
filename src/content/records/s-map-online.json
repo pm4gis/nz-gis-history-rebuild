@@ -1,0 +1,39 @@
+{
+  "id": "system:s-map-online",
+  "slug": "s-map-online",
+  "name": "S-map Online",
+  "kind": "Project",
+  "category": "Systems and projects",
+  "url": "/systems/s-map-online/",
+  "story": [
+    "Landcare Research launched S-map Online on 29 August 2011. Users could query mapped soil properties, download soil factsheets and create maps through a browser. It delivered information from the developing S-map soil database wherever survey coverage was available.",
+    "The Informatics team developed the application alongside Our Environment. David Medyckyj-Scott was its team manager at launch. The services used locally developed national basemaps derived from LINZ topographic data and open-source software. The online service widened access to soil information for land managers, advisers, researchers and the public."
+  ],
+  "sources": [
+    {
+      "label": "Landcare Research press release, National soils data now available online, 29 August 2011",
+      "url": "https://www.scoop.co.nz/stories/SC1108/S00076/national-soils-data-now-available-online.htm"
+    },
+    {
+      "label": "Landcare Research, Soil Horizons 20, September 2011, printed pp.4–5: LRIS Portal and S-map Online",
+      "url": "https://www.landcareresearch.co.nz/assets/Publications/Soil-Horizons/Soil_Horizons_20.pdf"
+    }
+  ],
+  "aliases": [
+    "S-Map Online",
+    "Smap Online"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "Development and use",
+      "paragraphs": [
+        "Landcare Research launched S-map Online on 29 August 2011. Users could query mapped soil properties, download soil factsheets and create maps through a browser. It delivered information from the developing S-map soil database wherever survey coverage was available.",
+        "The Informatics team developed the application alongside Our Environment. David Medyckyj-Scott was its team manager at launch. The services used locally developed national basemaps derived from LINZ topographic data and open-source software. The online service widened access to soil information for land managers, advisers, researchers and the public."
+      ]
+    }
+  ]
+}

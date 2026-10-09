@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-31-fe3c526a67",
+  "slug": "a-globe-on-the-desktop-fe3c526a67",
+  "articleId": "article:chapter-31",
+  "title": "A globe on the desktop",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31",
+    "entity:traverse-seamless"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Google Earth launched internationally on 28 June 2005. Its basic proposition was immediately different from the task-specific browser maps that preceded it. A user could fly from a view of the planet to a chosen place, tilt the terrain, move continuously across the landscape and examine imagery without first knowing which agency held the relevant map. The interface invited exploration. It did not ask the user to understand layers, projections, map scales or the administrative structure behind the data before getting started. For a generation accustomed to opening GIS by choosing a project, workspace or layer, simply typing a place and flying there felt almost indecently easy.",
+      "markdown": "Google Earth launched internationally on 28 June 2005. Its basic proposition was immediately different from the task-specific browser maps that preceded it. A user could fly from a view of the planet to a chosen place, tilt the terrain, move continuously across the landscape and examine imagery without first knowing which agency held the relevant map. The interface invited exploration. It did not ask the user to understand layers, projections, map scales or the administrative structure behind the data before getting started. For a generation accustomed to opening GIS by choosing a project, workspace or layer, simply typing a place and flying there felt almost indecently easy.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For New Zealand users, this changed the experience of looking at the country from above. Aerial photographs and satellite imagery had long been important professional mapping inputs, but access was normally controlled by the organisation that acquired, purchased or managed them. Google Earth put an image-rich view of the landscape in front of anyone with a suitable computer and internet connection. Mountains, coasts, roads, farms and urban areas became things people could explore directly, at home or at work, even if they had never opened a GIS package.",
+      "markdown": "For New Zealand users, this changed the experience of looking at the country from above. Aerial photographs and satellite imagery had long been important professional mapping inputs, but access was normally controlled by the organisation that acquired, purchased or managed them. Google Earth put an image-rich view of the landscape in front of anyone with a suitable computer and internet connection. Mountains, coasts, roads, farms and urban areas became things people could explore directly, at home or at work, even if they had never opened a GIS package.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The imagery also created new assumptions that GIS practitioners would spend years correcting. What appeared in Google Earth was not one seamless, current satellite photograph of New Zealand. Imagery came from different sources, dates and resolutions, and neighbouring areas could have been captured under very different conditions. The interface made the world feel continuous even when the underlying imagery was a patchwork. Users needed acquisition dates and source information to assess the imagery displayed by the digital globe.",
+      "markdown": "The imagery also created new assumptions that GIS practitioners would spend years correcting. What appeared in Google Earth was not one seamless, current satellite photograph of New Zealand. Imagery came from different sources, dates and resolutions, and neighbouring areas could have been captured under very different conditions. The interface made the world feel continuous even when the underlying imagery was a patchwork. Users needed acquisition dates and source information to assess the imagery displayed by the digital globe.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The consumer effect was nevertheless substantial. People could now arrive at a meeting having already looked at a site from above. They could send a placemark rather than describe a location in prose. They could explore a route, a valley, a coastline or a proposed development before asking a GIS team for anything. The professional map was no longer always the first spatial representation in the room.",
+      "markdown": "The consumer effect was nevertheless substantial. People could now arrive at a meeting having already looked at a site from above. They could send a placemark rather than describe a location in prose. They could explore a route, a valley, a coastline or a proposed development before asking a GIS team for anything. The professional map was no longer always the first spatial representation in the room.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

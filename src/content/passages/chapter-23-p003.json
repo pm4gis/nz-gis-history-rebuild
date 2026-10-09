@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-23-e6274a0794",
+  "slug": "regional-land-resource-data-1993-1994-e6274a0794",
+  "articleId": "article:chapter-23",
+  "title": "Regional land-resource data, 1993–1994",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "entity:bay-of-plenty-regional-council",
+    "person:garth-harmsworth",
+    "person:mike-page",
+    "person:malcolm-mcleod"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Regional GIS depended on work to prepare the information held in it. Garth Harmsworth and Mike Page’s 1993 report correlated land-use-capability units into a single classification for the Bay of Plenty Regional Council area and supplied information for a GIS database. In 1994, Harmsworth and Malcolm McLeod documented Gisborne–East Cape land-resource data for GIS, including rock, landform, land-system and soil information.",
+      "sources": [
+        {
+          "label": "Manaaki Whenua ICM, Garth Harmsworth bibliography: 1993 Bay of Plenty and 1994 Gisborne–East Cape GIS data reports",
+          "url": "https://icm.landcareresearch.co.nz/about/people/garth_harmsworth.asp"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These reports show the regional data work behind the software installations. Scientists had to reconcile classifications and document fields so the records could be used consistently. Council GIS development therefore included both the systems operated within councils and the geographic information prepared with research organisations. The land-resource work connected regional planning needs with the national inventory discussed in Chapters 5 and 7.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

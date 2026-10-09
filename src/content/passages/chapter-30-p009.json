@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-30-46e20e67ed",
+  "slug": "webmap-inside-the-council-46e20e67ed",
+  "articleId": "article:chapter-30",
+  "title": "WebMap inside the council",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "local-government"
+  ],
+  "recordIds": [
+    "chapter:30",
+    "entity:christchurch-city-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Browser GIS was also spreading internally before every service became public. Christchurch City Council’s 2001/02 planning material linked GIS and Webmap development with property and environmental information inside a wider electronic-information programme. By February 2003 the council reported that the corporate Webmap rollout had been completed, user numbers were up 35 per cent from June 2002, and the number of available datasets had grown from fifty-five to sixty-nine.",
+      "markdown": "Browser GIS was also spreading internally before every service became public. Christchurch City Council’s 2001/02 planning material linked GIS and Webmap development with property and environmental information inside a wider electronic-information programme. By February 2003 the council reported that the corporate Webmap rollout had been completed, user numbers were up 35 per cent from June 2002, and the number of available datasets had grown from fifty-five to sixty-nine.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Those figures describe a different audience from Upper Hutt. Christchurch’s Webmap was primarily an organisational distribution mechanism. Staff who did not need full desktop GIS could still reach common property, environmental and spatial information through the corporate environment. The web browser allowed the council to make its spatial investment useful to many more employees than the specialist GIS team alone.",
+      "markdown": "Those figures describe a different audience from Upper Hutt. Christchurch’s Webmap was primarily an organisational distribution mechanism. Staff who did not need full desktop GIS could still reach common property, environmental and spatial information through the corporate environment. The web browser allowed the council to make its spatial investment useful to many more employees than the specialist GIS team alone.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also changed where the work of GIS specialists was concentrated. Instead of producing every map request directly, the team increasingly maintained authoritative datasets, symbology, database connections, map services and application behaviour. The number of visible GIS operators could remain small while the number of people consuming their work increased sharply. Users could work through a simple interface while GIS handled the data and processing behind it.",
+      "markdown": "This also changed where the work of GIS specialists was concentrated. Instead of producing every map request directly, the team increasingly maintained authoritative datasets, symbology, database connections, map services and application behaviour. The number of visible GIS operators could remain small while the number of people consuming their work increased sharply. Users could work through a simple interface while GIS handled the data and processing behind it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Other organisations followed a similar approach. National organisations faced the same problem at a larger geographic scale. If centralised spatial information was going to support remote offices, the delivery model had to work on ordinary computers and imperfect networks.",
+      "markdown": "Other organisations followed a similar approach. National organisations faced the same problem at a larger geographic scale. If centralised spatial information was going to support remote offices, the delivery model had to work on ordinary computers and imperfect networks.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

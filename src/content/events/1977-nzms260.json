@@ -1,0 +1,23 @@
+{
+  "id": "1977-nzms260",
+  "dateDisplay": "1977",
+  "startDate": "1977",
+  "datePrecision": "year",
+  "year": 1977,
+  "label": "First NZMS260 1:50,000 sheet published",
+  "summary": "The metric NZMS260 series began with T12 Thames.",
+  "url": "/stories/drawing-maps-by-machine/#metric-conversion-92c45d797e",
+  "passageIds": [
+    "passage:chapter-3-92c45d797e"
+  ],
+  "recordIds": [
+    "chapter:3",
+    "person:w-i-reilly"
+  ],
+  "themeIds": [],
+  "categories": [
+    "topography",
+    "cartography"
+  ],
+  "sources": []
+}

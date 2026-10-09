@@ -1,0 +1,53 @@
+{
+  "id": "person:neville-churcher",
+  "slug": "neville-churcher",
+  "name": "Neville Churcher",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/neville-churcher/",
+  "story": [
+    "Neville Churcher's academic work combines software engineering and databases with collaborative computing. His University of Canterbury profile lists research interests in software visualisation, groupware, software metrics and databases. These interests help explain the GroupARC work in the book, which treated GIS as something people could operate together rather than only as an individual desktop tool.",
+    "Neville Churcher and Clare Churcher developed GroupARC to explore collaborative GIS. Their paper described an application in which several participants could browse and annotate the same Arc/Info data, rather than work independently through a shared database. Neville’s author affiliation was the University of Canterbury’s Department of Computer Science; Clare’s was Lincoln University’s Centre for Computing and Biometrics.",
+    "Pascoe and Neville Churcher then presented “Sharing geographical data” at the second SIRC colloquium in 1990 and developed the work in the New Zealand Journal of Computing the following year. By 1992 Canterbury computer scientists were presenting GIS as a set of problems of direct interest to computer science."
+  ],
+  "sources": [
+    {
+      "label": "Neville Churcher and Clare Churcher, GroupARC: A Collaborative Approach to GIS",
+      "url": "https://ir.canterbury.ac.nz/bitstreams/0044c39c-e4cd-4435-a1ab-0db8d67c24f5/download"
+    },
+    {
+      "label": "Neville Churcher | About | Te Whare Wānanga o Waitaha - University of Canterbury · career/profile reference",
+      "url": "https://profiles.canterbury.ac.nz/neville-churcher"
+    },
+    {
+      "label": "Chapter 11 · Building a workstation laboratory",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ],
+  "aliases": [
+    "Neville Churcher"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Neville Churcher | About | Te Whare Wānanga o Waitaha - University of Canterbury · career/profile reference",
+        "url": "https://profiles.canterbury.ac.nz/neville-churcher"
+      }
+    ],
+    [
+      {
+        "label": "Neville Churcher and Clare Churcher, GroupARC: A Collaborative Approach to GIS",
+        "url": "https://ir.canterbury.ac.nz/bitstreams/0044c39c-e4cd-4435-a1ab-0db8d67c24f5/download"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 11 · Building a workstation laboratory",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1054",
+  "a": "person:bruce-harold",
+  "b": "entity:eagle-technology",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

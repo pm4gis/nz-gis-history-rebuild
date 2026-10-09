@@ -1,0 +1,76 @@
+{
+  "id": "passage:chapter-29-aa58591027",
+  "slug": "recurring-forums-aa58591027",
+  "articleId": "article:chapter-29",
+  "title": "Recurring forums",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:29",
+    "entity:university-of-otago",
+    "entity:masterton-district-council",
+    "person:jason-kerehi",
+    "person:joseph-potangaroa",
+    "person:tim-watson",
+    "person:chris-weir"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A recognisable GIS community was already taking shape by 1989. From 26 to 28 June that year, Wellington hosted the First National Multi-Disciplinary GIS Conference under the title Getting it all together with GIS. The documented papers ranged across remote sensing, expert systems, land classification and copyright. The conference brought together practices already in use: New Zealand organisations had already been using computer mapping, digital land information, cadastral systems and remote sensing for years.",
+      "markdown": "A recognisable GIS community was already taking shape by 1989. From 26 to 28 June that year, Wellington hosted the First National Multi-Disciplinary GIS Conference under the title Getting it all together with GIS. The documented papers ranged across remote sensing, expert systems, land classification and copyright. The conference brought together practices already in use: New Zealand organisations had already been using computer mapping, digital land information, cadastral systems and remote sensing for years.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later that year the University of Otago’s Spatial Information Research Centre held its inaugural colloquium. The series became a recurring meeting place for research and practice through the 1990s and 2000s, while other forums covered remote sensing, cartography, local government and sector-specific work. The detail of those early conferences belongs with the university and industry formation histories in Chapters 11 and 12. Their professional effect was cumulative. Practitioners could return each year with systems that had moved from proposal to production, compare methods across organisations and build relationships that survived changes of employer and software.",
+      "markdown": "Later that year the University of Otago’s Spatial Information Research Centre held its inaugural colloquium. The series became a recurring meeting place for research and practice through the 1990s and 2000s, while other forums covered remote sensing, cartography, local government and sector-specific work. The detail of those early conferences belongs with the university and industry formation histories in Chapters 11 and 12. Their professional effect was cumulative. Practitioners could return each year with systems that had moved from proposal to production, compare methods across organisations and build relationships that survived changes of employer and software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The community was never confined to one institutional circuit. AURISA provided an Australasian setting for New Zealand work, GeoCart kept cartographic communication visible, and 1995 Māori scientific and economic conferences included documented discussion of GIS and computer mapping as planning and business tools for iwi and hapū. These records do not mark the beginning of Māori geographic knowledge or a single Māori GIS movement. They show digital spatial practice entering several professional and community settings at once.",
+      "markdown": "The community was never confined to one institutional circuit. AURISA provided an Australasian setting for New Zealand work, GeoCart kept cartographic communication visible, and 1995 Māori scientific and economic conferences included documented discussion of GIS and computer mapping as planning and business tools for iwi and hapū. These records do not mark the beginning of Māori geographic knowledge or a single Māori GIS movement. They show digital spatial practice entering several professional and community settings at once.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2005 Greater Wellington paper puts names and purchasing decisions into that story. Māori Policy Advisor Jason Kerehi and Rangitāne researcher Joseph Potangaroa planned a GIS for Ngāti Hāmua wāhi tapu and other cultural sites so the iwi could organise its research and respond more effectively to resource-consent and land-use pressures. Greater Wellington Technical Services Officer Tim Watson assessed the hardware and software. Although ArcView 8.1 was available, he recommended ArcView 3.2 because it did what the project needed, was well tested, carried a one-off cost and kept the iwi technically compatible with Greater Wellington and Masterton District Council. The kit around it was equally of its time: digital camera, scanner, memory stick and GPS. Rangitāne researchers controlled the site work and linked photographs, interviews and documentary evidence to the GIS, while elders raised ownership and security concerns. Price, support, compatibility, control and the task itself influenced software choice.",
+      "markdown": "A 2005 Greater Wellington paper puts names and purchasing decisions into that story. Māori Policy Advisor Jason Kerehi and Rangitāne researcher Joseph Potangaroa planned a GIS for Ngāti Hāmua wāhi tapu and other cultural sites so the iwi could organise its research and respond more effectively to resource-consent and land-use pressures. Greater Wellington Technical Services Officer Tim Watson assessed the hardware and software. Although ArcView 8.1 was available, he recommended ArcView 3.2 because it did what the project needed, was well tested, carried a one-off cost and kept the iwi technically compatible with Greater Wellington and Masterton District Council. The kit around it was equally of its time: digital camera, scanner, memory stick and GPS. Rangitāne researchers controlled the site work and linked photographs, interviews and documentary evidence to the GIS, while elders raised ownership and security concerns. Price, support, compatibility, control and the task itself influenced software choice.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Surveying and Spatial Sciences Conference ran in Wellington from 21 to 25 November 2011. Its final programme placed plenaries and keynotes in the Michael Fowler Auditorium, while ArcGIS workshops and other streams used the wider conference venue. The Esri User Group AGM met in Renouf 1 alongside separate meetings for the New Zealand Institute of Surveyors, MapInfo User Group and Surveying and Spatial Sciences Institute. Chris Weir later reported attendance of 680. Those accounts describe different assessments of the same event. The named New Zealand Esri Users Conference series is visible again in 2012.",
+      "sources": [
+        {
+          "label": "UN-SPIDER, Surveying & Spatial Sciences Conference 2011 event record",
+          "url": "https://www.un-spider.org/news-and-events/events/surveying-spatial-sciences-conference-2011"
+        },
+        {
+          "label": "Surveying and Spatial Sciences Conference 2011 proceedings, committee and sponsor front matter",
+          "url": "https://research.usq.edu.au/download/e0c2afd3a3de6cc7260a4e6ea17029ae5e93c548caea3d10696f2db08372791b/13842034/SSSC_2011_wellington_Proceedings-compact.pdf"
+        },
+        {
+          "label": "Esri, ArcNews Fall 2012, Auckland Asia Pacific User Conference announcement",
+          "url": "https://www.esri.com/news/arcnews/fall12articles/files/arcnews34-3/arcnews-fall12.pdf"
+        },
+        {
+          "label": "Karl Majorhazi LinkedIn profile, recommendations concerning Surveying and Spatial Sciences Conference 2011",
+          "url": "https://nz.linkedin.com/in/karl-majorhazi-8269217"
+        },
+        {
+          "label": "Asia Pacific Spatial Excellence Awards 2017, 365 Professional of the Year Award (New Zealand): Christopher Weir"
+        },
+        {
+          "label": "Surveying & Spatial Sciences Conference 2011, final programme, last updated 17 November 2011"
+        },
+        {
+          "label": "Surveying & Spatial Sciences Conference 2011, Concurrent Stream session chairs"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

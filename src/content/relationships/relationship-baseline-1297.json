@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1297",
+  "a": "entity:department-of-lands-and-survey",
+  "b": "chapter:10",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-10-54f7941b19"
+  ],
+  "sources": []
+}

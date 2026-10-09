@@ -1,0 +1,32 @@
+{
+  "id": "person:hayley-hume-merry",
+  "slug": "hayley-hume-merry",
+  "name": "Hayley Hume-Merry",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/hayley-hume-merry/",
+  "story": [
+    "Boffa Miskell credits GIS Specialist Hayley Hume-Merry with geospatial design for Wellington City Council’s pre-1930 character-area review. The work combined desktop capture, iPad field verification and ArcGIS dashboards, showing GIS embedded in a planning and field-verification workflow."
+  ],
+  "sources": [
+    {
+      "label": "Boffa Miskell, Engagement innovations win awards",
+      "url": "https://www.boffamiskell.co.nz/news-insights/engagement-innovations-win-awards"
+    }
+  ],
+  "aliases": [
+    "Hayley Hume-Merry",
+    "Hayley H-M"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Boffa Miskell, Engagement innovations win awards",
+        "url": "https://www.boffamiskell.co.nz/news-insights/engagement-innovations-win-awards"
+      }
+    ]
+  ]
+}

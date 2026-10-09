@@ -1,0 +1,33 @@
+{
+  "id": "1987-explorer-graphics",
+  "dateDisplay": "1987",
+  "startDate": "1987",
+  "datePrecision": "year",
+  "year": 1987,
+  "label": "Explorer Graphics founded",
+  "summary": "David and Beryl Pimblott founded Explorer Graphics as a specialist GIS consultancy in the emerging commercial market.",
+  "url": "/stories/an-industry-and-community-form/#a-consultancy-appears-b51b8936ec",
+  "passageIds": [
+    "passage:chapter-12-b51b8936ec"
+  ],
+  "recordIds": [
+    "entity:explorer-graphics-northsouth-gis",
+    "person:beryl-pimblott",
+    "chapter:12",
+    "entity:abley",
+    "entity:geographic-business-solutions",
+    "entity:splice-group",
+    "entity:terralink",
+    "person:steve-abley",
+    "person:harley-prowse",
+    "person:tony-elson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "industry",
+    "software"
+  ],
+  "sources": []
+}

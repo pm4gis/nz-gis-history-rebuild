@@ -1,0 +1,36 @@
+{
+  "id": "article:chapter-34",
+  "slug": "mapping-leaves-the-office",
+  "title": "GIS in the field",
+  "url": "/stories/mapping-leaves-the-office/",
+  "summary": "For most of the history of GIS, the computer stayed inside. The field worker went outside. That division shaped how information moved. Someone might leave the office with a paper map, printed aerial photograph, notebook, inspectio",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 34,
+  "themeIds": [
+    "technology-stack"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch34-note-01",
+      "text": "1. Earlier utility field-computing evidence from Chapter 25 provides the pre-smartphone operational baseline. Vector's 2002 project used Compaq iPAQs with Esri ArcPad and Panasonic Toughbooks with Smallworld, with project-specific reported cost and savings. Chapter 34 uses it as evidence of mobile GIS practice, not as a national first."
+    },
+    {
+      "id": "ch34-note-02",
+      "text": "2. LINZ Survey Quarterly and annual-report material support the modern real-time positioning environment: streaming PositioNZ trials from 2006 and the real-time network upgrade completed in February 2011. These sources support mobile positioning infrastructure, while the original GPS/GNSS adoption history remains in Chapter 18."
+    },
+    {
+      "id": "ch34-note-03",
+      "text": "3. Eagle Technology's 2019 New Zealand Esri User Conference programme records Katie Milne, Department of Conservation, presenting Helicopter Boarding Pass – Survey123 for safety in the field. The cited material supports the rapid Survey123 checklist design, location/user/date metadata and operational field-safety purpose."
+    },
+    {
+      "id": "ch34-note-04",
+      "text": "4. Department of Conservation Annual Report 2020 supports Helicopter Boarding Pass as a compulsory paperless pre-flight checklist and final critical-control check, with contemporary smartphone screenshots. The evidence supports operational status but does not justify attributing the project to national GIS management or any unrecorded individual."
+    },
+    {
+      "id": "ch34-note-05",
+      "text": "5. The chapter distinguishes dedicated GPS receivers, rugged mobile computers, PDAs, smartphones and tablets rather than treating them as one device lineage. It also distinguishes positioning from a mobile GIS workflow that captures, validates and synchronises structured spatial information."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:ian-owens",
+  "slug": "ian-owens",
+  "name": "Ian Owens",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ian-owens/",
+  "story": [
+    "George Perry, Ashley Sparrow and Ian Owens later reported overall predictive accuracy of about 80 per cent, with high-wind conditions among the places where the model struggled. The research demonstrated useful predictive power but also concluded that the data preparation and parameterisation were too demanding for use at the fire front. Researchers could use GIS to analyse the fire afterwards, while assembling the same information during an active fire remained difficult."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 9 · The CRI reorganisation",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Ian Owens"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 9 · The CRI reorganisation",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

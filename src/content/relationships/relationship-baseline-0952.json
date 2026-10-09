@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0952",
+  "a": "person:john-mccombs",
+  "b": "entity:integrated-mapping",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

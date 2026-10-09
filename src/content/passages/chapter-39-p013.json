@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-39-046b164bc4",
+  "slug": "the-cost-of-the-third-dimension-046b164bc4",
+  "articleId": "article:chapter-39",
+  "title": "The cost of the third dimension",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Three-dimensional information creates practical costs that flat maps often avoid. Point clouds can be enormous. Detailed BIM models contain thousands of components. City models may combine terrain, imagery, buildings and underground infrastructure at several levels of detail. Moving all of that through ordinary networks and software can quickly reveal which parts of a workflow were designed when a shapefile and an orthophoto seemed large.",
+      "markdown": "Three-dimensional information creates practical costs that flat maps often avoid. Point clouds can be enormous. Detailed BIM models contain thousands of components. City models may combine terrain, imagery, buildings and underground infrastructure at several levels of detail. Moving all of that through ordinary networks and software can quickly reveal which parts of a workflow were designed when a shapefile and an orthophoto seemed large.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The data also change more often than the geometry implies. A building is altered, a pipe is replaced, a road level changes or a survey is superseded. An unmaintained 3D model can become misleading because visual detail encourages users to assume currency. A simple two-dimensional layer with a clear update date may be more trustworthy than a beautiful model whose provenance is unclear.",
+      "markdown": "The data also change more often than the geometry implies. A building is altered, a pipe is replaced, a road level changes or a survey is superseded. An unmaintained 3D model can become misleading because visual detail encourages users to assume currency. A simple two-dimensional layer with a clear update date may be more trustworthy than a beautiful model whose provenance is unclear.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Coordinates become harder as well. Horizontal location may use NZTM2000 while height depends on a vertical datum and the source survey. Engineering models can use local project coordinates. BIM may start from a building origin rather than national coordinates. Bringing these systems together requires transformations, agreed origins and a clear understanding of which heights are being compared.",
+      "markdown": "Coordinates become harder as well. Horizontal location may use NZTM2000 while height depends on a vertical datum and the source survey. Engineering models can use local project coordinates. BIM may start from a building origin rather than national coordinates. Bringing these systems together requires transformations, agreed origins and a clear understanding of which heights are being compared.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The greater complexity also creates versioning and authority problems. A survey surface, design model and as-built model may all be valid for different purposes. The different models need comparison and reconciliation; the newest timestamp alone is insufficient. Mature 3D information management requires the same disciplines that earlier GIS required: provenance, identifiers, custodianship, metadata and clear responsibility for updates.",
+      "markdown": "The greater complexity also creates versioning and authority problems. A survey surface, design model and as-built model may all be valid for different purposes. The different models need comparison and reconciliation; the newest timestamp alone is insufficient. Mature 3D information management requires the same disciplines that earlier GIS required: provenance, identifiers, custodianship, metadata and clear responsibility for updates.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

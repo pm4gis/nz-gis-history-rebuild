@@ -1,0 +1,24 @@
+{
+  "id": "2014-aerial-film-digitisation",
+  "dateDisplay": "2014 to 2023",
+  "startDate": "2014",
+  "endDate": "2023",
+  "datePrecision": "year-range",
+  "year": 2014,
+  "label": "Crown aerial-film archive digitised",
+  "summary": "Nearly 700,000 analogue negatives were converted into a reusable digital image resource over a long national programme.",
+  "url": "/stories/imagery-becomes-infrastructure/#an-archive-becomes-digital-e8db92ea8d",
+  "passageIds": [
+    "passage:chapter-20-e8db92ea8d"
+  ],
+  "recordIds": [
+    "chapter:20"
+  ],
+  "themeIds": [],
+  "categories": [
+    "imagery",
+    "archive",
+    "digitisation"
+  ],
+  "sources": []
+}

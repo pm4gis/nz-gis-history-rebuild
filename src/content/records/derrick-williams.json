@@ -1,0 +1,31 @@
+{
+  "id": "person:derrick-williams",
+  "slug": "derrick-williams",
+  "name": "Derrick Williams",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/derrick-williams/",
+  "story": [
+    "John Thyne, Byron Cochrane and Richard Wells had stood down; Derrick Williams, Andrew Shakes, Nenad Petrovic and Kurt Janssen were nominated and elected unopposed, while Marie Slako, Tony Standen, Rachel Summers and Richard Sisterson were reconfirmed. The November 2010 minutes use the name “New Zealand ESRI Users Group inc.”"
+  ],
+  "sources": [
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Derrick Williams"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

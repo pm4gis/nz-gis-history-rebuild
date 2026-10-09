@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-26-ec8abf5e30",
+  "slug": "docgis-becomes-a-national-system-ec8abf5e30",
+  "articleId": "article:chapter-26",
+  "title": "DOCgis becomes a national system",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "DOC built a national enterprise GIS for an organisation of roughly 2,000 staff distributed around New Zealand. It combined Microsoft SQL Server, a national geodatabase, ArcSDE, ArcGIS desktop tools and ArcIMS web applications. Spatial datasets sat alongside business records, linked through coordinates and identifiers, and national layers were served through several client types.",
+      "markdown": "DOC built a national enterprise GIS for an organisation of roughly 2,000 staff distributed around New Zealand. It combined Microsoft SQL Server, a national geodatabase, ArcSDE, ArcGIS desktop tools and ArcIMS web applications. Spatial datasets sat alongside business records, linked through coordinates and identifiers, and national layers were served through several client types.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The design separated specialist production from general access. Trained GIS users could work with desktop tools and maintain data. Other staff could reach approved information through browser applications. This avoided the cost and support burden of installing full desktop GIS for everyone who occasionally needed a map or location query. It also reduced the number of uncontrolled copies created simply because somebody in another office needed access to the same layer.",
+      "markdown": "The design separated specialist production from general access. Trained GIS users could work with desktop tools and maintain data. Other staff could reach approved information through browser applications. This avoided the cost and support burden of installing full desktop GIS for everyone who occasionally needed a map or location query. It also reduced the number of uncontrolled copies created simply because somebody in another office needed access to the same layer.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOC’s release timeline lists DOCgis HTML Version 1.0, Version 2.0 in June 2003 and a Java client planned for August. Release II gave staff in distributed offices, including sites with older computers and slow connections, access to centrally maintained information without a full GIS workstation.",
+      "markdown": "DOC’s release timeline lists DOCgis HTML Version 1.0, Version 2.0 in June 2003 and a Java client planned for August. Release II gave staff in distributed offices, including sites with older computers and slow connections, access to centrally maintained information without a full GIS workstation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Conservancy Information Management Units supplied local GIS capability and support, while national teams maintained enterprise components. Different staff had different skill levels and responsibilities for spatial information entering the national environment. A system intended for field centres and conservancies could not survive as a Head Office application with no local stewardship.",
+      "markdown": "Conservancy Information Management Units supplied local GIS capability and support, while national teams maintained enterprise components. Different staff had different skill levels and responsibilities for spatial information entering the national environment. A system intended for field centres and conservancies could not survive as a Head Office application with no local stewardship.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

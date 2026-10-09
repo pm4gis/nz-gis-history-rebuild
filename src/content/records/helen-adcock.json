@@ -1,0 +1,50 @@
+{
+  "id": "person:helen-adcock",
+  "slug": "helen-adcock",
+  "name": "Helen Adcock",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/helen-adcock/",
+  "story": [
+    "Helen Adcock demonstrated DOC’s WERI wetlands database in 1990 and co-authored its National Database Workshop report.",
+    "Helen Adcock demonstrated DOC’s WERI wetlands database at its March 1990 National Database Workshop. Conservancies would update their own records and return copies for the national dataset."
+  ],
+  "sources": [
+    {
+      "label": "Helen M. Adcock and W. Mary McEwen, DOC National Database Workshop report, October 1990, printed pp.27–28",
+      "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/SRIR88.pdf"
+    },
+    {
+      "label": "Chapter 10 · Conservation databases, 1990",
+      "url": "/stories/gis-inside-government/"
+    }
+  ],
+  "aliases": [
+    "Helen Adcock"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Helen M. Adcock and W. Mary McEwen, DOC National Database Workshop report, October 1990, printed pp.27–28",
+        "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/SRIR88.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 10 · Conservation databases, 1990",
+        "url": "/stories/gis-inside-government/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Conservation databases, 1990",
+      "url": "/stories/gis-inside-government/"
+    }
+  ]
+}

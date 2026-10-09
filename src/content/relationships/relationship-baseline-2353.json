@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2353",
+  "a": "person:spencer-han",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

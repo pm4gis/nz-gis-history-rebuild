@@ -1,0 +1,48 @@
+{
+  "id": "person:michael-cooper",
+  "slug": "michael-cooper",
+  "name": "Michael Cooper",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/michael-cooper/",
+  "story": [
+    "Michael Cooper, a LUCAS GIS analyst at the Ministry for the Environment, responded to the September 2012 LINZ Data Service change-set announcement by asking about equivalent handling for changed topographic raster tiles. His question records an operational need to keep working datasets current as the data service introduced incremental vector updates.",
+    "Michael Cooper at the Ministry for the Environment immediately asked whether the same approach could eventually be applied to raster tiles. Open access was beginning to include synchronised operational copies as well as downloadable files."
+  ],
+  "sources": [
+    {
+      "label": "LINZ Data Service incremental change-sets GISList thread"
+    },
+    {
+      "label": "Chapter 33 · Open spatial data",
+      "url": "/stories/open-data-changes-access/"
+    },
+    {
+      "label": "Chapter 33 · The LINZ Data Service",
+      "url": "/stories/open-data-changes-access/"
+    }
+  ],
+  "aliases": [
+    "Michael Cooper"
+  ],
+  "themeIds": [
+    "open-practice",
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 33 · Open spatial data",
+        "url": "/stories/open-data-changes-access/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 33 · The LINZ Data Service",
+        "url": "/stories/open-data-changes-access/"
+      }
+    ]
+  ]
+}

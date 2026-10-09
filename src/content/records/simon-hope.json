@@ -1,0 +1,31 @@
+{
+  "id": "person:simon-hope",
+  "slug": "simon-hope",
+  "name": "Simon Hope",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/simon-hope/",
+  "story": [
+    "Simon Hope joined GBS around 2005–06 and contributed an interest in open-source software."
+  ],
+  "sources": [
+    {
+      "label": "GBS retrospective, 2022",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    }
+  ],
+  "aliases": [
+    "Simon Hope"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "GBS retrospective, 2022",
+        "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+      }
+    ]
+  ]
+}

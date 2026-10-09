@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-19-1a47aa28cd",
+  "slug": "from-marks-to-active-control-1a47aa28cd",
+  "articleId": "article:chapter-19",
+  "title": "From marks to active control",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The first realisation of NZGD2000 depended heavily on periodic survey campaigns. By 2001 LINZ and the Institute of Geological and Nuclear Sciences had begun developing PositioNZ, a national active-control network of continuously tracking GPS stations. Instead of returning to the same high-order marks only during a campaign, a permanent receiver could collect observations every day.",
+      "markdown": "The first realisation of NZGD2000 depended heavily on periodic survey campaigns. By 2001 LINZ and the Institute of Geological and Nuclear Sciences had begun developing PositioNZ, a national active-control network of continuously tracking GPS stations. Instead of returning to the same high-order marks only during a campaign, a permanent receiver could collect observations every day.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The early system distributed observations as RINEX files. A 2003 LINZ technical report described fifteen permanent tracking stations in the North Island as the first phase, with hourly one-hour files and daily 24-hour files made available through the LINZ website. The files recorded observations at 30-second intervals and could be processed with a user’s own GPS data. The service was free, which made the national control network directly useful outside LINZ and GNS.",
+      "markdown": "The early system distributed observations as RINEX files. A 2003 LINZ technical report described fifteen permanent tracking stations in the North Island as the first phase, with hourly one-hour files and daily 24-hour files made available through the LINZ website. The files recorded observations at 30-second intervals and could be processed with a user’s own GPS data. The service was free, which made the national control network directly useful outside LINZ and GNS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical marks and local survey control remained necessary for cadastral and engineering work. PositioNZ strengthened that wider network by supplying continuous high-quality observations that could be related to the marks and used to monitor the datum.",
+      "markdown": "Physical marks and local survey control remained necessary for cadastral and engineering work. PositioNZ strengthened that wider network by supplying continuous high-quality observations that could be related to the marks and used to monitor the datum.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The partnership with GNS also joined geodetic and tectonic monitoring. Continuous stations measured position for surveying while also recording crustal deformation useful to earth-science work. The same observations could contribute to understanding plate motion, checking the deformation model and maintaining the national coordinate framework.",
+      "markdown": "The partnership with GNS also joined geodetic and tectonic monitoring. Continuous stations measured position for surveying while also recording crustal deformation useful to earth-science work. The same observations could contribute to understanding plate motion, checking the deformation model and maintaining the national coordinate framework.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

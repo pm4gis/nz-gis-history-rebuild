@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2021-nga-poutama-presented-at-nzeug-regional-conference",
+  "dateDisplay": "2021",
+  "startDate": "2021-01-01",
+  "datePrecision": "year",
+  "year": 2021,
+  "label": "Ngā Poutama presented at NZEUG regional conference",
+  "summary": "Duane Wilkins presented the programme in the 2021 NZ Esri Users Group virtual regional conference series.",
+  "url": "/stories/the-map-becomes-an-application/#practical-maori-web-mapping-23fcc809db",
+  "passageIds": [
+    "passage:chapter-35-23fcc809db"
+  ],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ]
+}

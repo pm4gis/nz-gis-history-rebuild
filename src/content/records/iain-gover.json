@@ -1,0 +1,42 @@
+{
+  "id": "person:iain-gover",
+  "slug": "iain-gover",
+  "name": "Iain Gover",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/iain-gover/",
+  "story": [
+    "Ngāi Tahu’s 2018 Kā Huru Manu account credits Iain Gover with connecting a Māori place-names database to GIS, allowing locations to be mapped and corrected directly during marae hui.",
+    "Iain Gover helped develop a place-name database linked to the mapping system, allowing information to be entered and corrected directly during mapping sessions on marae. The public atlas, launched in November 2017, presented selected information approved by Papatipu Rūnaka from a larger body of collected material."
+  ],
+  "sources": [
+    {
+      "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+      "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+    },
+    {
+      "label": "Chapter 35 · Public applications",
+      "url": "/stories/the-map-becomes-an-application/"
+    }
+  ],
+  "aliases": [
+    "Iain Gover"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+        "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 35 · Public applications",
+        "url": "/stories/the-map-becomes-an-application/"
+      }
+    ]
+  ]
+}

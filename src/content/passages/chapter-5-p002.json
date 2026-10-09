@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-5-e9abb2d6e6",
+  "slug": "from-coloured-units-to-polygons-e9abb2d6e6",
+  "articleId": "article:chapter-5",
+  "title": "From coloured units to polygons",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The first-edition NZLRI contained roughly 85,000 mapped units. In the paper series, the unit was defined by a boundary and a compact code representing the recorded physical characteristics. Digitisation separated those two parts into computer-manageable geometry and descriptive data. The boundary could be stored as coordinates while the coded information about the land unit could be retained as attributes associated with that polygon.",
+      "markdown": "The first-edition NZLRI contained roughly 85,000 mapped units. In the paper series, the unit was defined by a boundary and a compact code representing the recorded physical characteristics. Digitisation separated those two parts into computer-manageable geometry and descriptive data. The boundary could be stored as coordinates while the coded information about the land unit could be retained as attributes associated with that polygon.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was different from simply making a digital picture of the sheet. A scanned map would preserve the appearance of the page but would not automatically give the computer a set of separate land units that could be selected or compared. In the NZLRI database, each map unit could be treated as a distinct geographic record. Software could retrieve polygons meeting specified criteria and produce new tables or plots from the same stored data.",
+      "markdown": "This was different from simply making a digital picture of the sheet. A scanned map would preserve the appearance of the page but would not automatically give the computer a set of separate land units that could be selected or compared. In the NZLRI database, each map unit could be treated as a distinct geographic record. Software could retrieve polygons meeting specified criteria and produce new tables or plots from the same stored data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The polygon remained dependent on the original mapping judgement. If field interpretation or aerial-photo analysis placed a boundary in a particular location, digitising the line did not improve the original evidence. The database preserved the mapped interpretation and made it easier to retrieve, combine and reproduce. It also made inconsistent coding or geometry easier to propagate across many outputs if errors were not found during checking.",
+      "markdown": "The polygon remained dependent on the original mapping judgement. If field interpretation or aerial-photo analysis placed a boundary in a particular location, digitising the line did not improve the original evidence. The database preserved the mapped interpretation and made it easier to retrieve, combine and reproduce. It also made inconsistent coding or geometry easier to propagate across many outputs if errors were not found during checking.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The scale of the conversion created its own production work. Tens of thousands of polygons had to be captured, coded and related correctly to their descriptions. Staff needed consistent identifiers and coding conventions so that a polygon retrieved from the database still referred to the same land characteristics shown on the source mapping. The national database therefore depended on field science, cartographic compilation, digitising, coding and data checking rather than on software alone.",
+      "markdown": "The scale of the conversion created its own production work. Tens of thousands of polygons had to be captured, coded and related correctly to their descriptions. Staff needed consistent identifiers and coding conventions so that a polygon retrieved from the database still referred to the same land characteristics shown on the source mapping. The national database therefore depended on field science, cartographic compilation, digitising, coding and data checking rather than on software alone.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

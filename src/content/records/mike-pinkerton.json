@@ -1,0 +1,35 @@
+{
+  "id": "person:mike-pinkerton",
+  "slug": "mike-pinkerton",
+  "name": "Mike Pinkerton",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mike-pinkerton/",
+  "story": [
+    "Mike Pinkerton's 2010 FIG paper, Terrestrial Laser Scanning for Mainstream Land Surveying, treated laser scanning as a technique moving beyond specialist novelty into ordinary survey practice. The instrument could rapidly collect dense three-dimensional observations of structures and terrain, but the surveying task still required control, registration, checking and a deliverable suited to the client. The scanner increased the quantity of measurement; it did not remove the need to decide what the measurements meant."
+  ],
+  "sources": [
+    {
+      "label": "#aurecongeospatial | Mike Pinkerton · public profile",
+      "url": "https://www.linkedin.com/posts/mike-pinkerton_aurecongeospatial-activity-6508149498110447616-kB1n"
+    },
+    {
+      "label": "Chapter 39 · Point clouds become normal",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Mike Pinkerton"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 39 · Point clouds become normal",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-42-b274c9f004",
+  "slug": "cyclone-gabrielle-b274c9f004",
+  "articleId": "article:chapter-42",
+  "title": "Cyclone Gabrielle",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42",
+    "entity:canterbury-regional-council-environment-canterbury",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Cyclone Gabrielle reached New Zealand on Sunday 12 February 2023. Two days later a national State of Emergency was declared, remaining in place until 14 March. Severe effects were spread across Hawke's Bay, Tairāwhiti, Northland, Auckland, Waikato, Bay of Plenty and Tararua. The geographic scale meant no single regional team had all the staff, systems or information required. By this point, however, New Zealand had a mature community of emergency GIS practitioners and a service environment that allowed people and data to be brought together quickly.",
+      "markdown": "Cyclone Gabrielle reached New Zealand on Sunday 12 February 2023. Two days later a national State of Emergency was declared, remaining in place until 14 March. Severe effects were spread across Hawke's Bay, Tairāwhiti, Northland, Auckland, Waikato, Bay of Plenty and Tararua. The geographic scale meant no single regional team had all the staff, systems or information required. By this point, however, New Zealand had a mature community of emergency GIS practitioners and a service environment that allowed people and data to be brought together quickly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The multi-agency account Cyclone Gabrielle: The Geospatial Story records GEMA helping NEMA coordinate staff who worked remotely and deployed into affected regions. Once the national emergency had been declared, NEMA's geospatial team scaled with surge staff from Waka Kotahi, Canterbury CDEM, Environment Canterbury, Fiji Response, Stats NZ, MPI, DOC, GNS, LINZ, EQC, Taranaki CDEM and Herenga a Nuku. The national geospatial sub-function produced more than 100 products, including dashboards, web applications and datasets. The products served different operational teams and information requirements.",
+      "markdown": "The multi-agency account Cyclone Gabrielle: The Geospatial Story records GEMA helping NEMA coordinate staff who worked remotely and deployed into affected regions. Once the national emergency had been declared, NEMA's geospatial team scaled with surge staff from Waka Kotahi, Canterbury CDEM, Environment Canterbury, Fiji Response, Stats NZ, MPI, DOC, GNS, LINZ, EQC, Taranaki CDEM and Herenga a Nuku. The national geospatial sub-function produced more than 100 products, including dashboards, web applications and datasets. The products served different operational teams and information requirements.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Different audiences required different products. National coordination needed a broad operating picture. Regional teams needed detailed road, welfare, flood and infrastructure information. Field teams needed forms and observations that could be collected under difficult conditions. Agencies such as Police, Fire and Emergency, transport organisations and utilities brought their own operational data. The job of the geospatial function was partly technical and partly diplomatic: find the source, understand what it means, get permission to use it, make it fit the operational question and keep it updated.",
+      "markdown": "Different audiences required different products. National coordination needed a broad operating picture. Regional teams needed detailed road, welfare, flood and infrastructure information. Field teams needed forms and observations that could be collected under difficult conditions. Agencies such as Police, Fire and Emergency, transport organisations and utilities brought their own operational data. The job of the geospatial function was partly technical and partly diplomatic: find the source, understand what it means, get permission to use it, make it fit the operational question and keep it updated.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

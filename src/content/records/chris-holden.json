@@ -1,0 +1,46 @@
+{
+  "id": "person:chris-holden",
+  "slug": "chris-holden",
+  "name": "Chris Holden",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/chris-holden/",
+  "story": [
+    "Chris Holden served as NZEUG’s treasurer at its fifteenth AGM, held at Wellington Town Hall on 10 November 2010. The project-held minutes record that the executive remained unchanged after the election.",
+    "Minutes of the fifteenth Annual General Meeting, held at Wellington Town Hall on 10 November 2010, name Igor Albornett as chair, Tony Standen as deputy chair, Kilmeny Stephens as secretary and Chris Holden as treasurer."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG, 10 November 2010 AGM minutes",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chris Holden - Transpower New Zealand | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/chris-holden-5684441b"
+    },
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Chris Holden"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZEUG, 10 November 2010 AGM minutes",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

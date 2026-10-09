@@ -1,0 +1,24 @@
+{
+  "id": "2021-bentley-acquires-seequent",
+  "dateDisplay": "17 June 2021",
+  "startDate": "2021-06-17",
+  "datePrecision": "day",
+  "year": 2021,
+  "label": "Bentley Systems completes its acquisition of Seequent",
+  "summary": "Seequent retained its name and operated as a standalone business unit within Bentley after the acquisition.",
+  "url": "/stories/gis-at-the-end-of-2025/#embedded-spatial-systems-fc971b58aa",
+  "passageIds": [
+    "passage:chapter-44-fc971b58aa"
+  ],
+  "recordIds": [
+    "entity:aranz-geo-seequent",
+    "chapter:44"
+  ],
+  "themeIds": [],
+  "categories": [
+    "industry",
+    "software",
+    "global-context"
+  ],
+  "sources": []
+}

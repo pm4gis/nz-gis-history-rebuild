@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-40-f3b06480da",
+  "slug": "linz-builds-a-spatial-database-f3b06480da",
+  "articleId": "article:chapter-40",
+  "title": "LINZ builds a spatial database",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "person:cindy-munns"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A revealing early New Zealand example appears in a 1999 international conference paper by Cindy Munns on object-relational databases and spatial data. One of the paper's working examples was Land Information New Zealand's Core Records System. Its goal was described as unifying government land-related activities and replacing several systems with one integrated environment for automated land transactions. The system would contain both survey and title transactions, support remote land validation and move millions of plan and title images into digital form.",
+      "markdown": "A revealing early New Zealand example appears in a 1999 international conference paper by Cindy Munns on object-relational databases and spatial data. One of the paper's working examples was Land Information New Zealand's Core Records System. Its goal was described as unifying government land-related activities and replacing several systems with one integrated environment for automated land transactions. The system would contain both survey and title transactions, support remote land validation and move millions of plan and title images into digital form.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The scale was already substantial. The paper described about 750 gigabytes of data, roughly 400 gigabytes of it geospatial, around fifty developers and an Internet deployment requirement. The database environment used Informix with Esri SDE. Spatial and non-spatial information could be accessed through one database interface, while server-side spatial functions and indexes reduced the amount of information that had to be moved across the network. Common queries were expected to return in less than two seconds.",
+      "markdown": "The scale was already substantial. The paper described about 750 gigabytes of data, roughly 400 gigabytes of it geospatial, around fifty developers and an Internet deployment requirement. The database environment used Informix with Esri SDE. Spatial and non-spatial information could be accessed through one database interface, while server-side spatial functions and indexes reduced the amount of information that had to be moved across the network. Common queries were expected to return in less than two seconds.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The design addressed requirements that would become familiar in enterprise GIS. The database had to serve many users, hold different forms of information, preserve transaction integrity, support security and prepare for access beyond a specialist GIS workstation. Spatial data was becoming part of an integrated land-information system rather than a separate collection of maps.",
+      "markdown": "The design addressed requirements that would become familiar in enterprise GIS. The database had to serve many users, hold different forms of information, preserve transaction integrity, support security and prepare for access beyond a specialist GIS workstation. Spatial data was becoming part of an integrated land-information system rather than a separate collection of maps.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Core Records System combined spatial and administrative information in the architecture supporting Landonline. Enterprise GIS supported organisational operations before the later expansion of web mapping. By the end of the 1990s a national agency was already treating geometry as one class of organisational information to be managed inside a large multi-user database alongside other land records.",
+      "markdown": "The Core Records System combined spatial and administrative information in the architecture supporting Landonline. Enterprise GIS supported organisational operations before the later expansion of web mapping. By the end of the 1990s a national agency was already treating geometry as one class of organisational information to be managed inside a large multi-user database alongside other land records.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

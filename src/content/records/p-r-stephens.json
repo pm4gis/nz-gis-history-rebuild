@@ -1,0 +1,33 @@
+{
+  "id": "person:p-r-stephens",
+  "slug": "p-r-stephens",
+  "name": "P. R. Stephens",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/p-r-stephens/",
+  "story": [
+    "P. R. Stephens, R. G. Gibb and J. R. Dymond wrote on integrating remote sensing and GIS for natural-resource management."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 6 · A shared name",
+      "url": "/stories/when-gis-became-gis/"
+    }
+  ],
+  "aliases": [
+    "P. R. Stephens"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 6 · A shared name",
+        "url": "/stories/when-gis-became-gis/"
+      }
+    ]
+  ]
+}

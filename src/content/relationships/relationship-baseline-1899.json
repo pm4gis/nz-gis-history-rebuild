@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1899",
+  "a": "person:martin-brook",
+  "b": "chapter:38",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-38-fb6060a98b",
+    "passage:chapter-38-56d5b073bb"
+  ],
+  "sources": []
+}

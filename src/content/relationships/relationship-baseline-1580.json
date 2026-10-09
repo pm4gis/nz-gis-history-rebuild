@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1580",
+  "a": "person:jithen-singh",
+  "b": "chapter:12",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-12-6f2ca241b9",
+    "passage:chapter-12-eb1fae3cf8"
+  ],
+  "sources": []
+}

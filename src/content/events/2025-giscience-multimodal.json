@@ -1,0 +1,27 @@
+{
+  "id": "2025-giscience-multimodal",
+  "dateDisplay": "2025-08",
+  "startDate": "2025-08",
+  "datePrecision": "month",
+  "year": 2025,
+  "label": "Multimodal models tested against map-and-text locality descriptions",
+  "summary": "Researchers from Massey and Cardiff tested a model that combined written locality descriptions with map excerpts and evaluated the geographic result.",
+  "url": "/stories/gis-at-the-end-of-2025/#a-model-reads-the-map-ce9de66e2a",
+  "passageIds": [
+    "passage:chapter-44-ce9de66e2a"
+  ],
+  "recordIds": [
+    "chapter:44",
+    "entity:massey-university",
+    "person:kristin-stock",
+    "person:kalana-wijegunarathna",
+    "person:christopher-b-jones"
+  ],
+  "themeIds": [],
+  "categories": [
+    "ai",
+    "research",
+    "language"
+  ],
+  "sources": []
+}

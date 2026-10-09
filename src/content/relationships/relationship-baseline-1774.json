@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1774",
+  "a": "person:helen-adcock",
+  "b": "chapter:10",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-10-3248d864d9"
+  ],
+  "sources": []
+}

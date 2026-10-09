@@ -1,0 +1,81 @@
+{
+  "id": "system:esri-arcgis",
+  "slug": "esri-arcgis",
+  "name": "Esri and ArcGIS",
+  "kind": "Technology",
+  "category": "Systems and projects",
+  "url": "/systems/esri-arcgis/",
+  "story": [
+    "Esri was founded in Redlands, California, in 1969 by Jack and Laura Dangermond. It released ARC/INFO in 1982. New Zealand organisations were already working with computer cartography, land-resource inventories, remote sensing and commercial graphics systems when the software entered the local market. By the later 1980s ARC/INFO was being used in institutional GIS, including the Water and Soil land-resource lineage. Intergraph, ERDAS, MapInfo, Smallworld and locally developed systems formed part of the same technical environment.",
+    "ARC/INFO centred on specialist workstations, command-line operation, coverages and scripting. ArcView widened desktop access during the 1990s. ArcSDE connected spatial data to enterprise databases, while ArcIMS delivered maps and queries through browsers around the turn of the century. ArcGIS Desktop and ArcGIS Server became institutional platforms, followed by ArcGIS Online, Portal for ArcGIS and ArcGIS Enterprise. New Zealand implementations of ArcGIS Enterprise on Kubernetes from 2021 added a cloud-native deployment model to that lineage.",
+    "Eagle distributed the software in New Zealand and provided installation, training and support. Parker Jones’s professional biography describes identifying and supporting software applications including Esri GIS. David Pimblott’s career record places his consulting work in the Eagle lineage during 1983–87 and recalls involvement in Esri and ERDAS distribution and support. Eagle dates its Esri relationship to 1986; that is the company’s published date for the relationship.",
+    "Later implementations placed spatial databases and services behind browsers, mobile applications and operational systems. DOCgis gave conservation staff access to national spatial and business information. Auckland Council’s GFMO programme consolidated inherited systems and data after amalgamation. Downer’s GRAIL introduced GIS into telecommunications design and delivery. NZTA’s Kubernetes platform connected centrally governed information with applications developed across the organisation. The independent New Zealand Esri Users Group supplied a parallel community of user presentations, regional meetings and professional exchange.",
+    "Eagle's 1986 date records its distribution relationship. It does not establish the first New Zealand ARC/INFO production licence or installation, which remain unresolved."
+  ],
+  "sources": [
+    {
+      "label": "Esri, 'History of GIS' and company history",
+      "url": "https://www.esri.com/en-us/what-is-gis/history-of-gis"
+    },
+    {
+      "label": "Geographic Business Solutions, GBS attains Esri Gold Partner Status, carried by Scoop",
+      "url": "https://www.scoop.co.nz/stories/BU1308/S00725/gbs-attains-esri-gold-partner-status.htm"
+    },
+    {
+      "label": "David Pimblott professional profile, Topline",
+      "url": "https://topline.com/people/david-pimblott-46e4e308bb"
+    },
+    {
+      "label": "Royal Society Te Apārangi Wellington Branch, Parker Jones lecture notice, 'Putting the Where into decisions: a 40 year journey...'",
+      "url": "https://www.royalsocietyofnewzealandwellingtonbranch.org/"
+    },
+    {
+      "label": "Department of Conservation, Managing Conservation Enterprise Systems: National Enterprise GIS Implementation for Conservation Management, Esri International User Conference 2003, Paper 1048",
+      "url": "https://proceedings.esri.com/library/userconf/proc03/p1048.pdf"
+    },
+    {
+      "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+      "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+    },
+    {
+      "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+    },
+    {
+      "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+    }
+  ],
+  "aliases": [
+    "ARC/INFO",
+    "ArcInfo",
+    "ArcView",
+    "ArcSDE",
+    "ArcIMS",
+    "ArcGIS Desktop",
+    "ArcGIS Server",
+    "Portal for ArcGIS",
+    "ArcGIS Enterprise"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "Esri software",
+      "paragraphs": [
+        "Esri was founded in Redlands, California, in 1969 by Jack and Laura Dangermond. It released ARC/INFO in 1982. New Zealand organisations were already working with computer cartography, land-resource inventories, remote sensing and commercial graphics systems when the software entered the local market. By the later 1980s ARC/INFO was being used in institutional GIS, including the Water and Soil land-resource lineage. Intergraph, ERDAS, MapInfo, Smallworld and locally developed systems formed part of the same technical environment.",
+        "ARC/INFO centred on specialist workstations, command-line operation, coverages and scripting. ArcView widened desktop access during the 1990s. ArcSDE connected spatial data to enterprise databases, while ArcIMS delivered maps and queries through browsers around the turn of the century. ArcGIS Desktop and ArcGIS Server became institutional platforms, followed by ArcGIS Online, Portal for ArcGIS and ArcGIS Enterprise. New Zealand implementations of ArcGIS Enterprise on Kubernetes from 2021 added a cloud-native deployment model to that lineage."
+      ]
+    },
+    {
+      "title": "New Zealand implementations",
+      "paragraphs": [
+        "Eagle distributed the software in New Zealand and provided installation, training and support. Parker Jones’s professional biography describes identifying and supporting software applications including Esri GIS. David Pimblott’s career record places his consulting work in the Eagle lineage during 1983–87 and recalls involvement in Esri and ERDAS distribution and support. Eagle dates its Esri relationship to 1986; that is the company’s published date for the relationship.",
+        "Later implementations placed spatial databases and services behind browsers, mobile applications and operational systems. DOCgis gave conservation staff access to national spatial and business information. Auckland Council’s GFMO programme consolidated inherited systems and data after amalgamation. Downer’s GRAIL introduced GIS into telecommunications design and delivery. NZTA’s Kubernetes platform connected centrally governed information with applications developed across the organisation. The independent New Zealand Esri Users Group supplied a parallel community of user presentations, regional meetings and professional exchange.",
+        "Eagle's 1986 date records its distribution relationship. It does not establish the first New Zealand ARC/INFO production licence or installation, which remain unresolved."
+      ]
+    }
+  ]
+}

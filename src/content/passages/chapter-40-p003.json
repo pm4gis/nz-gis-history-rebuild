@@ -1,0 +1,59 @@
+{
+  "id": "passage:chapter-40-6cefa96e49",
+  "slug": "from-files-to-shared-data-6cefa96e49",
+  "articleId": "article:chapter-40",
+  "title": "From files to shared data",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:auckland-council",
+    "entity:downer",
+    "person:graeme-henderson",
+    "person:ingrid-mcclymont",
+    "person:nathan-heazlewood",
+    "person:ryan-macveigh"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "File-based GIS served many projects and organisations effectively. ARC/INFO coverages, MapInfo tables, shapefiles and other local formats could be fast, portable and perfectly suitable for particular jobs. Problems appeared when an organisation expected those files to behave like a common record. A copied file does not know that another copy exists. A network folder does not settle who owns the schema. A map layer saved for one project does not automatically become the authoritative source for the next one.",
+      "markdown": "File-based GIS served many projects and organisations effectively. ARC/INFO coverages, MapInfo tables, shapefiles and other local formats could be fast, portable and perfectly suitable for particular jobs. Problems appeared when an organisation expected those files to behave like a common record. A copied file does not know that another copy exists. A network folder does not settle who owns the schema. A map layer saved for one project does not automatically become the authoritative source for the next one.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Shared spatial information increasingly supported several business processes. A council property layer might be used for rates, planning, engineering and public enquiries. A utility asset record might support design, maintenance, outage response and field inspection. A conservation boundary might appear in national planning, operational work and public information. Once several activities depended on the same geography, the organisation had to decide which dataset was authoritative and how changes would reach everyone else.",
+      "markdown": "Shared spatial information increasingly supported several business processes. A council property layer might be used for rates, planning, engineering and public enquiries. A utility asset record might support design, maintenance, outage response and field inspection. A conservation boundary might appear in national planning, operational work and public information. Once several activities depended on the same geography, the organisation had to decide which dataset was authoritative and how changes would reach everyone else.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A shared database changed the model. Many users could query the same features while a smaller group of editors maintained them. Transactions, validation and permissions could replace some of the informal rules that had worked when a few specialists sat near one another. Central storage did not make bad data good, and it did not remove arguments over definitions. It made those arguments harder to ignore because more people were now depending on the answer.",
+      "markdown": "A shared database changed the model. Many users could query the same features while a smaller group of editors maintained them. Transactions, validation and permissions could replace some of the informal rules that had worked when a few specialists sat near one another. Central storage did not make bad data good, and it did not remove arguments over definitions. It made those arguments harder to ignore because more people were now depending on the answer.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Auckland Council’s four-year Geospatial Future Mode of Operation programme followed the amalgamation that took effect on 1 November 2010. Its inherited environment contained different applications, schemas and ways of maintaining geographic information. The 2016 Esri account names council geospatial manager Ingrid McClymont and Eagle project manager Nathan Heazlewood. ArcGIS and FME supported a migration that reduced 8,470 inherited geographic datasets to 2,056 and replaced 697 district-plan datasets with 25. Historic information was retained for traceability. The work also established clearer service levels and closer links with council IT, while GeoMaps and other applications broadened access to the managed data. The recorded reductions describe decisions about authoritative information and its structure as well as the movement of files.",
+      "sources": [
+        {
+          "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+          "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Downer began discussions with Eagle in 2011 about using GIS in its telecommunications design and delivery work. Eagle’s customer account identifies Graeme Henderson as the account manager recommending an ArcGIS configuration and records Ryan MacVeigh on the Downer side. It describes GRAIL as Downer’s first GIS system. A later enterprise licence agreement widened access to the ArcGIS platform. The implementation placed spatial information inside an established contractor’s design and operational work, where the usefulness of a system depended on its fit with delivery teams and their existing records.",
+      "sources": [
+        {
+          "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+          "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

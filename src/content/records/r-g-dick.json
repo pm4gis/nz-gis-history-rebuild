@@ -1,0 +1,31 @@
+{
+  "id": "person:r-g-dick",
+  "slug": "r-g-dick",
+  "name": "R. G. Dick",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/r-g-dick/",
+  "story": [
+    "In the 1966 Encyclopaedia of New Zealand, R. G. Dick described electronic computers being used for involved and highly mathematical surveying and mapping calculations. His account documents electronic computation in those professions at that date."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 2 · Surveying and mapping by 1966",
+      "url": "/stories/coordinates-enter-the-computer/"
+    }
+  ],
+  "aliases": [
+    "R. G. Dick"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 2 · Surveying and mapping by 1966",
+        "url": "/stories/coordinates-enter-the-computer/"
+      }
+    ]
+  ]
+}

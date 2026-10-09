@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-37-8577c437a3",
+  "slug": "the-point-cloud-becomes-a-dataset-8577c437a3",
+  "articleId": "article:chapter-37",
+  "title": "The point cloud becomes a dataset",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37",
+    "entity:vector",
+    "person:hamish-bowman"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Early LiDAR could be awkward for ordinary GIS systems because the source data were large. A point cloud may contain millions or billions of individual observations, far more than a conventional vector layer of roads or parcels. Storing, filtering, classifying and drawing those points required different software habits and often specialist processing. The 2007 SIRC work by M. Hamish Bowman on tools for aggregating and geoprocessing raw spatial data is a useful marker of this problem. LiDAR was already creating data volumes that required purpose-built approaches rather than treating every return like an ordinary GIS point feature.",
+      "markdown": "Early LiDAR could be awkward for ordinary GIS systems because the source data were large. A point cloud may contain millions or billions of individual observations, far more than a conventional vector layer of roads or parcels. Storing, filtering, classifying and drawing those points required different software habits and often specialist processing. The 2007 SIRC work by M. Hamish Bowman on tools for aggregating and geoprocessing raw spatial data is a useful marker of this problem. LiDAR was already creating data volumes that required purpose-built approaches rather than treating every return like an ordinary GIS point feature.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Pauatahanui",
+      "caption": "Pauatahanui. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "For many users the practical answer was to work with derived rasters. A gridded bare-earth model could be shaded, contoured, queried and used in hydraulic or engineering models without loading the whole source point cloud. The 2003 Christchurch material includes two-metre gridded ground data among its products, while later national programmes standardised one-metre elevation and surface models. This is one reason LiDAR could spread into normal GIS practice even before every desktop handled point clouds elegantly. The specialist processing stage produced forms that existing analysis tools understood.",
+      "markdown": "For many users the practical answer was to work with derived rasters. A gridded bare-earth model could be shaded, contoured, queried and used in hydraulic or engineering models without loading the whole source point cloud. The 2003 Christchurch material includes two-metre gridded ground data among its products, while later national programmes standardised one-metre elevation and surface models. This is one reason LiDAR could spread into normal GIS practice even before every desktop handled point clouds elegantly. The specialist processing stage produced forms that existing analysis tools understood.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "As hardware and software improved, the point cloud itself became more accessible. Analysts could examine individual returns, classify them, generate profiles, inspect vegetation or buildings and derive new surfaces rather than relying only on a contractor's original grid. LAS and later compressed LAZ became common exchange formats for point-cloud data. LiDAR produced new elevation models, and GIS gradually learned to treat the underlying three-dimensional measurements as reusable data in their own right.",
+      "markdown": "As hardware and software improved, the point cloud itself became more accessible. Analysts could examine individual returns, classify them, generate profiles, inspect vegetation or buildings and derive new surfaces rather than relying only on a contractor's original grid. LAS and later compressed LAZ became common exchange formats for point-cloud data. LiDAR produced new elevation models, and GIS gradually learned to treat the underlying three-dimensional measurements as reusable data in their own right.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The density of those measurements also increased. Later Canterbury surveys contained far more returns than the 2003 dataset over equivalent areas. That did not make the 2003 survey obsolete. It made comparison possible while also requiring analysts to understand that datasets from different years were not technically identical. A change map can show actual ground movement, differences in vegetation or structures, and differences caused by acquisition or processing. Repeated measurement is powerful precisely because it creates another layer of methodological responsibility.",
+      "markdown": "The density of those measurements also increased. Later Canterbury surveys contained far more returns than the 2003 dataset over equivalent areas. That did not make the 2003 survey obsolete. It made comparison possible while also requiring analysts to understand that datasets from different years were not technically identical. A change map can show actual ground movement, differences in vegetation or structures, and differences caused by acquisition or processing. Repeated measurement is powerful precisely because it creates another layer of methodological responsibility.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

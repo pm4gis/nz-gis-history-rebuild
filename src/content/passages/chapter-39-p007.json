@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-39-901da3e653",
+  "slug": "when-height-changes-the-answer-901da3e653",
+  "articleId": "article:chapter-39",
+  "title": "When height changes the answer",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Three dimensions become worth the effort when the answer changes because two features occupy different heights. This is obvious in drainage, where pipe invert levels and gradients determine flow, but the same principle appears in roads, bridges, tunnels, retaining structures and buildings. In a flat view two features can appear to intersect even though one passes safely above the other. The third coordinate resolves relationships that a plan view can only describe indirectly.",
+      "markdown": "Three dimensions become worth the effort when the answer changes because two features occupy different heights. This is obvious in drainage, where pipe invert levels and gradients determine flow, but the same principle appears in roads, bridges, tunnels, retaining structures and buildings. In a flat view two features can appear to intersect even though one passes safely above the other. The third coordinate resolves relationships that a plan view can only describe indirectly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The analytical consequences extend beyond engineering. A terrain model can support visibility analysis because height determines whether one location can see another. A building model can be used to test shadow or height effects because the vertical form is explicit. A quarry or earthworks surface can be compared with an earlier survey to calculate cut, fill or volume. A subsurface right can be distinguished from the parcel above it because the legal space has vertical limits rather than merely a footprint.",
+      "markdown": "The analytical consequences extend beyond engineering. A terrain model can support visibility analysis because height determines whether one location can see another. A building model can be used to test shadow or height effects because the vertical form is explicit. A quarry or earthworks surface can be compared with an earlier survey to calculate cut, fill or volume. A subsurface right can be distinguished from the parcel above it because the legal space has vertical limits rather than merely a footprint.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Structured 3D information allows users to identify objects, retrieve their attributes and understand their relationships, going beyond what a rendered scene alone can offer. A pipe needs an asset identifier and network relationship as well as a three-dimensional line. A building may need a link to an address, parcel or asset record. Cadastral volumes required legally defined boundaries and heights.",
+      "markdown": "Structured 3D information allows users to identify objects, retrieve their attributes and understand their relationships, going beyond what a rendered scene alone can offer. A pipe needs an asset identifier and network relationship as well as a three-dimensional line. A building may need a link to an address, parcel or asset record. Cadastral volumes required legally defined boundaries and heights.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The difference also affects change through time. If a model is built from objects with persistent identifiers, an organisation can record that one pipe was replaced, one building altered or one survey superseded while retaining the earlier state. If the system stores only a visual mesh, the same change may require rebuilding a large scene without a clear relationship to the records it represents. Three-dimensional GIS therefore inherits the old GIS problem of deciding which objects are authoritative and how their history is preserved.",
+      "markdown": "The difference also affects change through time. If a model is built from objects with persistent identifiers, an organisation can record that one pipe was replaced, one building altered or one survey superseded while retaining the earlier state. If the system stores only a visual mesh, the same change may require rebuilding a large scene without a clear relationship to the records it represents. Three-dimensional GIS therefore inherits the old GIS problem of deciding which objects are authoritative and how their history is preserved.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

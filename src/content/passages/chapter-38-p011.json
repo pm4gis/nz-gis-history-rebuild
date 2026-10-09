@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-38-3af7719683",
+  "slug": "from-capture-to-archive-3af7719683",
+  "articleId": "article:chapter-38",
+  "title": "From capture to archive",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "UAV mapping created a new archival problem because local projects could generate data far faster than earlier aerial programmes. A single flight might produce hundreds or thousands of original photographs, logs, calibration information, ground-control files, project databases, point clouds, surface models, orthomosaics and reports. Saving only the final JPEG or map image destroys much of the evidence needed to reproduce or assess the work later.",
+      "markdown": "UAV mapping created a new archival problem because local projects could generate data far faster than earlier aerial programmes. A single flight might produce hundreds or thousands of original photographs, logs, calibration information, ground-control files, project databases, point clouds, surface models, orthomosaics and reports. Saving only the final JPEG or map image destroys much of the evidence needed to reproduce or assess the work later.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A sensible archive needs to retain enough of the production chain to explain the result. At minimum that includes acquisition date, site, coordinate reference system, control information, key processing details and the authoritative final products. Some projects also need the original imagery and complete processing project, especially where legal, engineering or scientific traceability is important. Storage is cheap compared with reflying an event that cannot be repeated.",
+      "markdown": "A sensible archive needs to retain enough of the production chain to explain the result. At minimum that includes acquisition date, site, coordinate reference system, control information, key processing details and the authoritative final products. Some projects also need the original imagery and complete processing project, especially where legal, engineering or scientific traceability is important. Storage is cheap compared with reflying an event that cannot be repeated.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same issue becomes more obvious in monitoring programmes. If each flight is named differently, control files are separated from imagery or surfaces are overwritten by the next campaign, the apparent convenience of frequent acquisition becomes an information-management liability. The useful time series depends on preserving each observation as a dated, comparable record.",
+      "markdown": "The same issue becomes more obvious in monitoring programmes. If each flight is named differently, control files are separated from imagery or surfaces are overwritten by the next campaign, the apparent convenience of frequent acquisition becomes an information-management liability. The useful time series depends on preserving each observation as a dated, comparable record.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This is another way in which drones followed the wider GIS trajectory. The technology reduced friction at the point of capture and shifted some of the effort downstream. Once detailed spatial data could be created by many project teams, organisations had to decide which products were authoritative, how long to retain them and how other users would know what they were looking at.",
+      "markdown": "This is another way in which drones followed the wider GIS trajectory. The technology reduced friction at the point of capture and shifted some of the effort downstream. Once detailed spatial data could be created by many project teams, organisations had to decide which products were authoritative, how long to retain them and how other users would know what they were looking at.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

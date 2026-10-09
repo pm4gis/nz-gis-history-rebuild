@@ -1,0 +1,23 @@
+{
+  "id": "2013-photomap-codgers-map-boards",
+  "dateDisplay": "26 January 2013",
+  "startDate": "2013-01-26",
+  "datePrecision": "day",
+  "year": 2013,
+  "label": "Council reports Photomap’s Codgers trail-map work",
+  "summary": "Nelson City Council credits Photomap owners Cathy McBride and Mark Holmes with technical map-board design for Codgers Mountain Bike Park.",
+  "url": "/timeline/",
+  "passageIds": [],
+  "recordIds": [
+    "person:cathy-mcbride",
+    "person:mark-holmes",
+    "entity:photomap-nz",
+    "entity:nelson-city-council"
+  ],
+  "themeIds": [],
+  "categories": [
+    "mapping",
+    "local government"
+  ],
+  "sources": []
+}

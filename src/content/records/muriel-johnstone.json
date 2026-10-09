@@ -1,0 +1,42 @@
+{
+  "id": "person:muriel-johnstone",
+  "slug": "muriel-johnstone",
+  "name": "Muriel Johnstone",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/muriel-johnstone/",
+  "story": [
+    "Muriel Johnstone contributed Ōraka Aparima place-name knowledge to Kā Huru Manu, drawing on her grandparents’ teaching and consulting whānau before sharing family material.",
+    "Kā Huru Manu’s early paepae included Trevor Howse, Kelly Davis, Matapura Ellison, Jimmy Russell and David Higgins, while Muriel Johnstone contributed knowledge of the Ōraka Aparima takiwā."
+  ],
+  "sources": [
+    {
+      "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+      "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+    },
+    {
+      "label": "Chapter 35 · Public applications",
+      "url": "/stories/the-map-becomes-an-application/"
+    }
+  ],
+  "aliases": [
+    "Muriel Johnstone"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+        "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 35 · Public applications",
+        "url": "/stories/the-map-becomes-an-application/"
+      }
+    ]
+  ]
+}

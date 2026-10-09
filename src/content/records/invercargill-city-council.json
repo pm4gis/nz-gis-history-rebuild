@@ -1,0 +1,26 @@
+{
+  "id": "entity:invercargill-city-council",
+  "slug": "invercargill-city-council",
+  "name": "Invercargill City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/invercargill-city-council/",
+  "website": "https://www.icc.govt.nz",
+  "story": [
+    "Invercargill City Council participated with Southland Regional Council and southern district councils in Topoclimate South’s 1998–2001 land-resource mapping programme."
+  ],
+  "sources": [
+    {
+      "label": "Manaaki Whenua, A history of New Zealand soil survey, 1990s restructuring and Topoclimate South/growOTAGO sections",
+      "url": "https://soils.landcareresearch.co.nz/topics/soil-survey/history-of-nz-soil-survey"
+    }
+  ],
+  "aliases": [
+    "Invercargill City Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

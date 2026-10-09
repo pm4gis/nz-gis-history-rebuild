@@ -1,0 +1,31 @@
+{
+  "id": "person:katarzyna-sila-nowicka",
+  "slug": "katarzyna-sila-nowicka",
+  "name": "Katarzyna Sila-Nowicka",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/katarzyna-sila-nowicka/",
+  "website": null,
+  "story": [
+    "Katarzyna Sila-Nowicka is an associate professor in Geographic Information Science at the University of Auckland. Her research develops spatiotemporal analytics and modelling for human movement, urban systems, accessibility, environmental exposure and related questions.",
+    "Her work represents the expansion of New Zealand academic GIS into spatial data science and urban analytics. She has also supervised GIS research recognised through the New Zealand Esri Young Scholar programme."
+  ],
+  "sources": [
+    {
+      "label": "University of Auckland, Urban Analytics and City Science people",
+      "url": "https://www.auckland.ac.nz/en/business/our-research/research-beacon/urban-analytics-city-science/our-people.html"
+    },
+    {
+      "label": "Eagle Technology, Esri User Conference Experience 2023",
+      "url": "https://www.eagle.co.nz/blog/esri-user-conference-experience-2023"
+    }
+  ],
+  "aliases": [
+    "Katarzyna Sila-Nowicka"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

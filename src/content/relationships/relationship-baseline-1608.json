@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1608",
+  "a": "person:sam-drummond",
+  "b": "chapter:43",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-43-3a10af3db4"
+  ],
+  "sources": []
+}

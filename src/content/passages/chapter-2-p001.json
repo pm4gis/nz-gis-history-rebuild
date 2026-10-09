@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-2-a1c7942438",
+  "slug": "electronic-calculation-a1c7942438",
+  "articleId": "article:chapter-2",
+  "title": "Electronic calculation",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:2"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The first electronic computers used in New Zealand government work handled calculations and data processing. The map mostly stayed on paper while the numbers went into the machine. Surveying, geodesy and engineering already generated enough calculations to occupy specialised staff and mechanical calculators, with long sequences of checking. Electronic computing could take over some of that work before organisations had a general method for storing roads, parcels or contours as digital geographic features.",
+      "markdown": "The first electronic computers used in New Zealand government work handled calculations and data processing. The map mostly stayed on paper while the numbers went into the machine. Surveying, geodesy and engineering already generated enough calculations to occupy specialised staff and mechanical calculators, with long sequences of checking. Electronic computing could take over some of that work before organisations had a general method for storing roads, parcels or contours as digital geographic features.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A computer could reduce survey observations, solve an adjustment, transform coordinates or compare engineering alternatives without knowing that the numbers represented a road or a trig station. The result might be a coordinate list or a printed table rather than a digital map. Geography entered the computer in pieces, and the numerical pieces arrived before the graphical ones.",
+      "markdown": "A computer could reduce survey observations, solve an adjustment, transform coordinates or compare engineering alternatives without knowing that the numbers represented a road or a trig station. The result might be a coordinate list or a printed table rather than a digital map. Geography entered the computer in pieces, and the numerical pieces arrived before the graphical ones.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Computing changed the jobs of staff who had performed these calculations by hand. Lands and Survey had employed human computers to perform mathematical work long before electronic machines existed. Geodetic networks required repeated trigonometric reduction and adjustment, while engineering projects created similarly demanding calculations around gradients, earthworks and alignment. Electronic computers did not create those tasks. They changed where the arithmetic was performed and how much of it could be repeated economically.",
+      "markdown": "Computing changed the jobs of staff who had performed these calculations by hand. Lands and Survey had employed human computers to perform mathematical work long before electronic machines existed. Geodetic networks required repeated trigonometric reduction and adjustment, while engineering projects created similarly demanding calculations around gradients, earthworks and alignment. Electronic computers did not create those tasks. They changed where the arithmetic was performed and how much of it could be repeated economically.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

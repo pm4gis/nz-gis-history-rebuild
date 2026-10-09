@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1630",
+  "a": "person:mary-mcewen",
+  "b": "chapter:9",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-9-68517bbc35"
+  ],
+  "sources": []
+}

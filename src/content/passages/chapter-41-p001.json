@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-41-6e2233d30a",
+  "slug": "beyond-the-server-room-6e2233d30a",
+  "articleId": "article:chapter-41",
+  "title": "Beyond the server room",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "technology-stack"
+  ],
+  "recordIds": [
+    "chapter:41",
+    "person:jithen-singh",
+    "person:peter-willoughby"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the late 2000s New Zealand GIS was already comfortable with servers. Councils, government departments, utilities and research organisations had spent years moving spatial data into shared databases and publishing maps through internal and public web systems. The next change was quieter: the organisation no longer had to own every piece of the machinery, and geographic information no longer had to arrive as a file. A dataset could be hosted on a shared platform, exposed through a web service, queried through an application programming interface, or harvested into another catalogue without anyone copying it by hand. The server room was becoming less of a geographic requirement.",
+      "markdown": "By the late 2000s New Zealand GIS was already comfortable with servers. Councils, government departments, utilities and research organisations had spent years moving spatial data into shared databases and publishing maps through internal and public web systems. The next change was quieter: the organisation no longer had to own every piece of the machinery, and geographic information no longer had to arrive as a file. A dataset could be hosted on a shared platform, exposed through a web service, queried through an application programming interface, or harvested into another catalogue without anyone copying it by hand. The server room was becoming less of a geographic requirement.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The earlier enterprise model remained important. Most organisations still needed authoritative databases, controlled editing, identities, permissions and staff who knew what their data meant. The boundary around the system expanded. A service running outside an agency data centre could still deliver the agency’s data. A public application could ask another organisation’s endpoint for a layer when it needed it. A catalogue could collect metadata automatically from several providers. Geography was becoming something software could request from the network rather than something a GIS user always downloaded, stored and opened locally.",
+      "markdown": "The earlier enterprise model remained important. Most organisations still needed authoritative databases, controlled editing, identities, permissions and staff who knew what their data meant. The boundary around the system expanded. A service running outside an agency data centre could still deliver the agency’s data. A public application could ask another organisation’s endpoint for a layer when it needed it. A catalogue could collect metadata automatically from several providers. Geography was becoming something software could request from the network rather than something a GIS user always downloaded, stored and opened locally.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The language became slippery. A web map, an Internet-facing server and a hosted cloud platform described different arrangements. Some systems were software as a service, some ran on provider-managed infrastructure, some remained on premises while exposing public endpoints, and many combined several arrangements at once. By 31 December 2025 New Zealand geospatial practice was thoroughly hybrid. The useful history lies in how those combinations changed distribution and reuse.",
+      "markdown": "The language became slippery. A web map, an Internet-facing server and a hosted cloud platform described different arrangements. Some systems were software as a service, some ran on provider-managed infrastructure, some remained on premises while exposing public endpoints, and many combined several arrangements at once. By 31 December 2025 New Zealand geospatial practice was thoroughly hybrid. The useful history lies in how those combinations changed distribution and reuse.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "From 2021 NZTA and Eagle worked on a proof of concept and implementation of ArcGIS Enterprise on Kubernetes. The customer case identifies Peter Willoughby on the NZTA side and Jithen Singh at Eagle. Its hub-and-spoke model placed shared authoritative data and platform governance with a central spatial capability, while business teams developed applications and workflows around those services. The case describes connections with asset management, safety and investment systems, alongside dashboards and field data collection. Kubernetes changed how the platform was deployed and scaled, while service ownership and reliable access continued to depend on the organisation operating it.",
+      "sources": [
+        {
+          "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+          "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

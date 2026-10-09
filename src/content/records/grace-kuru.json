@@ -1,0 +1,31 @@
+{
+  "id": "person:grace-kuru",
+  "slug": "grace-kuru",
+  "name": "Grace Kuru",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/grace-kuru/",
+  "story": [
+    "LINZ and the Geospatial Capability Committee included Grace Kuru in the Leaving School geospatial career-profile series: Graduate GIS Analyst, Abley, October 2023."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Grace Kuru"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

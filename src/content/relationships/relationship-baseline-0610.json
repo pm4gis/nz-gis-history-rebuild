@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0610",
+  "a": "person:jonathan-cocks",
+  "b": "chapter:4",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-4-d5be6e1983"
+  ],
+  "sources": []
+}

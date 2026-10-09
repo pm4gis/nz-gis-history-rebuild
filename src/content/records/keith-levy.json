@@ -1,0 +1,31 @@
+{
+  "id": "person:keith-levy",
+  "slug": "keith-levy",
+  "name": "Keith Levy",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/keith-levy/",
+  "story": [
+    "SCGIS lists Keith Levy as a chapter official supporting the New Zealand and Fiji conservation GIS network."
+  ],
+  "sources": [
+    {
+      "label": "SCGIS New Zealand and Fiji chapter",
+      "url": "https://www.scgis.org/new-zealand-and-fiji"
+    }
+  ],
+  "aliases": [
+    "Keith Levy"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "SCGIS New Zealand and Fiji chapter",
+        "url": "https://www.scgis.org/new-zealand-and-fiji"
+      }
+    ]
+  ]
+}

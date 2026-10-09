@@ -1,0 +1,43 @@
+{
+  "id": "system:south-island-orthophoto-2004",
+  "slug": "south-island-orthophoto-2004",
+  "name": "South Island orthophoto acquisition, 2004",
+  "kind": "Project",
+  "category": "Systems and projects",
+  "url": "/systems/south-island-orthophoto-2004/",
+  "story": [
+    "On 4 March 2004 Terralink announced a South Island aerial-imagery acquisition covering about 42,000 square kilometres. The release describes about 2,500 aerial photographs and approximately 5,500 orthophoto tiles. These figures are the project scale given in the contemporary announcement.",
+    "The named participating councils were Waimakariri, Ashburton, Timaru, Waimate, Waitaki and Mackenzie District Councils, together with Environment Canterbury. The stated uses included local-government GIS, consent processing, land-use work, civil defence and asset management. A shared imagery acquisition gave several authorities a common regional base while leaving their internal GIS arrangements distinct.",
+    "The announcement identifies participating authorities and their intended uses of the imagery. It gives no details of each council’s internal software or GIS practitioners."
+  ],
+  "sources": [
+    {
+      "label": "Terralink International, ‘Terralink starts biggest ever aerial photography task’, 4 March 2004",
+      "url": "https://www.scoop.co.nz/stories/SC0403/S00018.htm"
+    }
+  ],
+  "aliases": [
+    "South Island orthophoto project",
+    "Terralink 2004 aerial imagery",
+    "regional orthophoto acquisition"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "One regional image base",
+      "paragraphs": [
+        "On 4 March 2004 Terralink announced a South Island aerial-imagery acquisition covering about 42,000 square kilometres. The release describes about 2,500 aerial photographs and approximately 5,500 orthophoto tiles. These figures are the project scale given in the contemporary announcement.",
+        "The named participating councils were Waimakariri, Ashburton, Timaru, Waimate, Waitaki and Mackenzie District Councils, together with Environment Canterbury. The stated uses included local-government GIS, consent processing, land-use work, civil defence and asset management. A shared imagery acquisition gave several authorities a common regional base while leaving their internal GIS arrangements distinct."
+      ]
+    },
+    {
+      "title": "Council use",
+      "paragraphs": [
+        "The announcement identifies participating authorities and their intended uses of the imagery. It gives no details of each council’s internal software or GIS practitioners."
+      ]
+    }
+  ]
+}

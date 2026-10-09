@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-26-50c5425ebf",
+  "slug": "environmental-information-as-infrastructure-50c5425ebf",
+  "articleId": "article:chapter-26",
+  "title": "Environmental information as infrastructure",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2010s conservation and environmental GIS in New Zealand covered a wide span of work. DOC maintained national spatial and business information for staff distributed around the country. Regional councils used GIS to manage property-level environmental programmes and monitor their progress across catchments. National datasets such as LCDB supplied repeatable environmental context. Research organisations maintained other scientific layers, while community groups increasingly used the same shared data and software environment for local conservation projects.",
+      "markdown": "By the 2010s conservation and environmental GIS in New Zealand covered a wide span of work. DOC maintained national spatial and business information for staff distributed around the country. Regional councils used GIS to manage property-level environmental programmes and monitor their progress across catchments. National datasets such as LCDB supplied repeatable environmental context. Research organisations maintained other scientific layers, while community groups increasingly used the same shared data and software environment for local conservation projects.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Agencies continued maintaining separate environmental GIS systems. DOC, councils, research institutes and community organisations had different responsibilities and different data. They did, however, increasingly depend on common reference systems, national base data, maintained identifiers and ways to exchange spatial information. A conservation officer could use agency data, national land cover and reference layers held by other organisations in the same task.",
+      "markdown": "Agencies continued maintaining separate environmental GIS systems. DOC, councils, research institutes and community organisations had different responsibilities and different data. They did, however, increasingly depend on common reference systems, national base data, maintained identifiers and ways to exchange spatial information. A conservation officer could use agency data, national land cover and reference layers held by other organisations in the same task.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By this point, environmental records were expected to persist from one decision cycle to the next. A riparian plan could be revisited. A land-cover classification could be compared with a later epoch. A protected-area or asset record could be updated rather than redrawn from a paper map. A browser user in a remote office could reach data maintained somewhere else in the organisation. GIS became part of the record-keeping system for conservation work.",
+      "markdown": "By this point, environmental records were expected to persist from one decision cycle to the next. A riparian plan could be revisited. A land-cover classification could be compared with a later epoch. A protected-area or asset record could be updated rather than redrawn from a paper map. A browser user in a remote office could reach data maintained somewhere else in the organisation. GIS became part of the record-keeping system for conservation work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That record still depended on people. Field staff collected observations, land-management officers worked with landowners, scientists defined classifications, database and GIS staff maintained national layers, and local users reported corrections when the screen disagreed with the landscape. Enterprise architecture made the information easier to distribute, but it did not remove the labour required to keep it credible.",
+      "markdown": "That record still depended on people. Field staff collected observations, land-management officers worked with landowners, scientists defined classifications, database and GIS staff maintained national layers, and local users reported corrections when the screen disagreed with the landscape. Enterprise architecture made the information easier to distribute, but it did not remove the labour required to keep it credible.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Population and health work used many of the same geographic techniques, but the data behaved differently. Disease events, population denominators, service access and community vulnerability brought privacy, statistical geography and uncertain addresses into the GIS. By the early 2000s New Zealand public-health organisations were already combining those problems with automated mapping, national surveillance and web delivery.",
+      "markdown": "Population and health work used many of the same geographic techniques, but the data behaved differently. Disease events, population denominators, service access and community vulnerability brought privacy, statistical geography and uncertain addresses into the GIS. By the early 2000s New Zealand public-health organisations were already combining those problems with automated mapping, national surveillance and web delivery.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

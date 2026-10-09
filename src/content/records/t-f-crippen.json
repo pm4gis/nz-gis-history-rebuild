@@ -1,0 +1,31 @@
+{
+  "id": "person:t-f-crippen",
+  "slug": "t-f-crippen",
+  "name": "T. F. Crippen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/t-f-crippen/",
+  "story": [
+    "The technical report on the second-edition Gisborne-East Coast land-resource inventory credits M. R. Jessen, T. F. Crippen, M. J. Page, W. C. Rijkse, G. R. Harmsworth and M. McLeod as authors."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23 · The parcel becomes a key",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "T. F. Crippen"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · The parcel becomes a key",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

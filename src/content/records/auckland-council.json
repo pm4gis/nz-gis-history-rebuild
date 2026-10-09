@@ -1,0 +1,27 @@
+{
+  "id": "entity:auckland-council",
+  "slug": "auckland-council",
+  "name": "Auckland Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/auckland-council/",
+  "website": "https://www.aucklandcouncil.govt.nz",
+  "story": [
+    "Auckland Council began operating on 1 November 2010. Its four-year Geospatial Future Mode of Operation programme consolidated systems and data inherited from the former councils. Ingrid McClymont and Paul Donald appear in the council account, with Nathan Heazlewood as Eagle project manager. ArcGIS and FME supported data migration, and GeoMaps widened access to centrally maintained information.",
+    "The documented GFMO technology mix included ArcGIS, FME, a central geodatabase, Portal and GeoMaps. The account records consolidation from 8,470 geographic datasets to 2,056 and from 697 district-plan datasets to 25. These figures describe migration and deduplication, not a claim that fewer datasets are inherently better."
+  ],
+  "sources": [
+    {
+      "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+      "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+    }
+  ],
+  "aliases": [
+    "Auckland Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

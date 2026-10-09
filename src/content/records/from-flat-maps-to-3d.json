@@ -1,0 +1,14 @@
+{
+  "id": "chapter:39",
+  "articleId": "article:chapter-39",
+  "slug": "from-flat-maps-to-3d",
+  "name": "Mapping in 3D",
+  "kind": "Story",
+  "category": "Capturing the landscape",
+  "url": "/stories/from-flat-maps-to-3d/",
+  "description": "For much of GIS history, height was present without making GIS fully three-dimensional. Contours carried elevation across topographic maps. Digital elevation models stored a height value across a surface. Surveyors measured levels, photogrammetrists reconstructed terrain and engineers worked with sections and profiles. Even when a GIS displayed terrain in perspective, much of the information around it still behaved a",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0573",
+  "a": "person:joseph-potangaroa",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-29-aa58591027"
+  ],
+  "sources": []
+}

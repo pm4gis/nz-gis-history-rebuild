@@ -1,0 +1,43 @@
+{
+  "id": "entity:koordinates",
+  "slug": "koordinates",
+  "name": "Koordinates",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/koordinates/",
+  "website": null,
+  "story": [
+    "Koordinates helped shift spatial-data distribution from discs, phone calls and emailed files to an online marketplace and data services. Contemporary reporting identifies Ed Corkery and Rob Coup with the business in its recognisable 2007 form, followed by public beta availability in 2008. Later work with government publishers connected that commercial platform to national open-data services. Its history separates incorporation, product development and public release, which happened at different times.",
+    "On 4 March 2020, Rob Coup announced Sno, an open-source Koordinates project that applied Git-style distributed versioning to geospatial and tabular data. The initial release supported collaboration through standard repositories and command-line tools. The announcement described future desktop-to-cloud synchronisation as planned work and stated that Sno was not yet connected to Koordinates Data Management. IAG Firemark’s portfolio records an investment in the company in 2022.",
+    "The LRIS Portal, launched in August 2010 with Landcare Research, became an early institutional use of the Koordinates platform. David Medyckyj-Scott recalls it as the first Koordinates instance outside the company’s own service. This account links the platform’s commercial development with the public distribution of New Zealand environmental datasets."
+  ],
+  "sources": [
+    {
+      "label": "NZ Herald, Top ten start-ups of 2008: Koordinates",
+      "url": "https://www.nzherald.co.nz/technology/top-ten-start-ups-of-2008/3JICGCE5RBH6ERIODMZAHJWHTQ/"
+    },
+    {
+      "label": "Koordinates, Open data and the Stats NZ Datarama",
+      "url": "https://koordinates.com/news/open-data-and-the-stats-nz-datarama"
+    },
+    {
+      "label": "Rob Coup, Sno, our new open source tool for distributed data versioning, Koordinates, 4 March 2020",
+      "url": "https://koordinates.com/news/sno-our-new-open-source-tool-for-distributed-data-versioning"
+    },
+    {
+      "label": "IAG Firemark Ventures, Koordinates investment portfolio",
+      "url": "https://iagfiremarkventures.com/portfolio/"
+    },
+    {
+      "label": "Landcare Research, Soil Horizons 20, September 2011, printed pp.4–5: LRIS Portal and S-map Online",
+      "url": "https://www.landcareresearch.co.nz/assets/Publications/Soil-Horizons/Soil_Horizons_20.pdf"
+    }
+  ],
+  "aliases": [
+    "Koordinates"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

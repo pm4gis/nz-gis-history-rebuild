@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1090",
+  "a": "person:simon-jellie",
+  "b": "entity:critchlow",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

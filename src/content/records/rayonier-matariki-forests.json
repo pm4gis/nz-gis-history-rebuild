@@ -1,0 +1,26 @@
+{
+  "id": "entity:rayonier-matariki-forests",
+  "slug": "rayonier-matariki-forests",
+  "name": "Rayonier Matariki Forests",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/rayonier-matariki-forests/",
+  "website": null,
+  "story": [
+    "Rayonier Matariki Forests used GIS and satellite imagery in plantation-forestry management. Amanda MacDonald-Creevey’s 2018 technical presentation documents the application of Sentinel-2 data in forestry."
+  ],
+  "sources": [
+    {
+      "label": "Amanda MacDonald-Creevey, Application of Sentinel-2 Satellite Data in Forestry",
+      "url": "https://www.eagle.co.nz/sites/default/files/Amanda%20MacDonald-Creevey%20-%20Application%20of%20Sentinel-2%20Satellite%20Data%20in%20Forestry_R.pdf"
+    }
+  ],
+  "aliases": [
+    "Rayonier Matariki Forests"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

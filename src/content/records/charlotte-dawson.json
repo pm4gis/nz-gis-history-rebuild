@@ -1,0 +1,37 @@
+{
+  "id": "person:charlotte-dawson",
+  "slug": "charlotte-dawson",
+  "name": "Charlotte Dawson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/charlotte-dawson/",
+  "story": [
+    "Women in Spatial + Survey’s committee biography records Charlotte Dawson’s work as a GIS analyst and cartographer, followed by research for the Geographic Board. She joined Stantec as New Zealand GIS Team Leader in 2020 and chaired the WIS+S committee in 2021. Her record connects technical practice, public-sector research and professional community leadership."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial + Survey, The Committee",
+      "url": "https://womeninspatial.wordpress.com/the-committee/"
+    },
+    {
+      "label": "Charlotte Dawson - NZ Transport Agency Waka Kotahi | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/charlotte-dawson-nz"
+    }
+  ],
+  "aliases": [
+    "Charlotte Dawson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Women in Spatial + Survey, The Committee",
+        "url": "https://womeninspatial.wordpress.com/the-committee/"
+      }
+    ]
+  ]
+}

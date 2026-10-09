@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-27-3a9d0a44c2",
+  "slug": "a-health-geoinformatics-community-3a9d0a44c2",
+  "articleId": "article:chapter-27",
+  "title": "A health-geoinformatics community",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27",
+    "person:chris-skelly",
+    "person:jan-rigby",
+    "person:peter-whigham"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The same period produced a more explicit professional identity around health and geography. GeoHealth 2002 was held in Wellington in December, with the Ministry of Health Public Health Intelligence group as lead sponsor. Contemporary CDC material identifies Chris Skelly, then Senior Advisor, Health GeoInformatics, and Jan Rigby as organisers. The proceedings were edited by Rigby, Skelly and Peter Whigham and were issued alongside the 2002 Spatial Information Research Centre colloquium.",
+      "markdown": "The same period produced a more explicit professional identity around health and geography. GeoHealth 2002 was held in Wellington in December, with the Ministry of Health Public Health Intelligence group as lead sponsor. Contemporary CDC material identifies Chris Skelly, then Senior Advisor, Health GeoInformatics, and Jan Rigby as organisers. The proceedings were edited by Rigby, Skelly and Peter Whigham and were issued alongside the 2002 Spatial Information Research Centre colloquium.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The programme brought together public-health practitioners, GIS researchers and international specialists. Disease mapping, environmental exposure, accessibility, spatial statistics and health-service analysis were no longer isolated papers scattered through unrelated meetings. New Zealand had enough operational work and research to support a conference organised specifically around geographic information and health decision-making. The later continuation of GeoHealth reinforced that emerging community.",
+      "markdown": "The programme brought together public-health practitioners, GIS researchers and international specialists. Disease mapping, environmental exposure, accessibility, spatial statistics and health-service analysis were no longer isolated papers scattered through unrelated meetings. New Zealand had enough operational work and research to support a conference organised specifically around geographic information and health decision-making. The later continuation of GeoHealth reinforced that emerging community.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The conference brought together practitioners working with systems already in use. EpiSurv, PHEW!, local analytical work, national accessibility modelling and the Public Health Observatory had created a body of practitioners who were dealing with the same technical and policy questions from different parts of the health system. The professional network grew around working infrastructure rather than preceding it.",
+      "markdown": "The conference brought together practitioners working with systems already in use. EpiSurv, PHEW!, local analytical work, national accessibility modelling and the Public Health Observatory had created a body of practitioners who were dealing with the same technical and policy questions from different parts of the health system. The professional network grew around working infrastructure rather than preceding it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

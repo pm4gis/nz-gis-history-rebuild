@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1753",
+  "a": "person:stuart-halliday",
+  "b": "chapter:22",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-22-38b6be3006"
+  ],
+  "sources": []
+}

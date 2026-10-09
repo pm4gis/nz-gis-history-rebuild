@@ -1,0 +1,31 @@
+{
+  "id": "person:ryan-elly",
+  "slug": "ryan-elly",
+  "name": "Ryan Elly",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ryan-elly/",
+  "story": [
+    "Ryan Elly’s 2016 ALGIM conference biography records work at Environment Canterbury from 1997, first in GIS analysis and later in software development. It describes his specialism in connecting systems with GIS and his technical-lead contribution to the GIS Council Consortium’s Esri viewers."
+  ],
+  "sources": [
+    {
+      "label": "ALGIM Annual Conference 2016, Ryan Elly speaker biography",
+      "url": "https://na.eventscloud.com/ehome/algimconf16/475194/"
+    }
+  ],
+  "aliases": [
+    "Ryan Elly"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "ALGIM Annual Conference 2016, Ryan Elly speaker biography",
+        "url": "https://na.eventscloud.com/ehome/algimconf16/475194/"
+      }
+    ]
+  ]
+}

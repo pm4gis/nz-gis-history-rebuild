@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-11-88b95dd914",
+  "slug": "teaching-a-moving-target-88b95dd914",
+  "articleId": "article:chapter-11",
+  "title": "Teaching a moving target",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11",
+    "entity:university-of-auckland",
+    "person:david-hawke"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In 1985, when the University of Auckland was already teaching GIS to senior undergraduates in Geography, there was no settled New Zealand pathway for becoming a GIS practitioner. The software was specialised, useful digital data were comparatively scarce, and access to suitable computing could determine what could be taught in practice. Students were learning a field while the field was still sorting out much of its own toolkit. GIS also sat awkwardly between established subjects. It involved cartography and geography, but also databases, computer graphics, image processing, statistics and the mathematics needed to make different geographic datasets line up. A university course therefore had to teach more than a new way to draw maps. It had to decide what students needed to understand about geographic information itself.",
+      "markdown": "In 1985, when the University of Auckland was already teaching GIS to senior undergraduates in Geography, there was no settled New Zealand pathway for becoming a GIS practitioner. The software was specialised, useful digital data were comparatively scarce, and access to suitable computing could determine what could be taught in practice. Students were learning a field while the field was still sorting out much of its own toolkit. GIS also sat awkwardly between established subjects. It involved cartography and geography, but also databases, computer graphics, image processing, statistics and the mathematics needed to make different geographic datasets line up. A university course therefore had to teach more than a new way to draw maps. It had to decide what students needed to understand about geographic information itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "David V. Hawke described the Auckland course in a later account. His 1992 paper on gistt, a geographic information systems teaching tool, records senior undergraduate GIS teaching from 1985. The official University of Auckland Calendar for 1986 makes the subject visible in the curriculum as Geography 20.314, “Geographic Information Systems and Image Processing”. Its description included GIS principles and the computer analysis and presentation of cartographic and remotely sensed data. The combination is characteristic of the period: GIS and image processing were close neighbours because both required students to work directly with digital representations of geography before either had become routine desktop software.",
+      "markdown": "David V. Hawke described the Auckland course in a later account. His 1992 paper on gistt, a geographic information systems teaching tool, records senior undergraduate GIS teaching from 1985. The official University of Auckland Calendar for 1986 makes the subject visible in the curriculum as Geography 20.314, “Geographic Information Systems and Image Processing”. Its description included GIS principles and the computer analysis and presentation of cartographic and remotely sensed data. The combination is characteristic of the period: GIS and image processing were close neighbours because both required students to work directly with digital representations of geography before either had become routine desktop software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The teaching environment was mixed rather than vendor-pure. Hawke's account records the use of both public-domain and commercial software. That arrangement gave students access to GIS concepts without assuming that one package defined the field, but it also meant teaching across interfaces, data structures and limitations that were not standardised. The later gistt work grew from that educational setting. Hawke developed a teaching tool suited to the course’s practical exercises.",
+      "markdown": "The teaching environment was mixed rather than vendor-pure. Hawke's account records the use of both public-domain and commercial software. That arrangement gave students access to GIS concepts without assuming that one package defined the field, but it also meant teaching across interfaces, data structures and limitations that were not standardised. The later gistt work grew from that educational setting. Hawke developed a teaching tool suited to the course’s practical exercises.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Auckland’s teaching connected with other academic and professional GIS work. Hawke presented “Terrain modelling and GIS” at the inaugural Spatial Information Research Centre colloquium at Otago in 1989 and a paper on the influence of data complexity on GIS performance at AURISA in Wellington in 1991. Teaching, terrain modelling and computational performance were appearing in the same academic career. The subject was already moving between classroom questions and research questions about what GIS could process efficiently.",
+      "markdown": "Auckland’s teaching connected with other academic and professional GIS work. Hawke presented “Terrain modelling and GIS” at the inaugural Spatial Information Research Centre colloquium at Otago in 1989 and a paper on the influence of data complexity on GIS performance at AURISA in Wellington in 1991. Teaching, terrain modelling and computational performance were appearing in the same academic career. The subject was already moving between classroom questions and research questions about what GIS could process efficiently.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Auckland offered senior undergraduate GIS teaching in 1985, several years before the expansion of organisational GIS in the early 1990s.",
+      "markdown": "Auckland offered senior undergraduate GIS teaching in 1985, several years before the expansion of organisational GIS in the early 1990s.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

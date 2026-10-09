@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1595",
+  "a": "person:mike-king",
+  "b": "chapter:8",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-8-2911dbd2b5"
+  ],
+  "sources": []
+}

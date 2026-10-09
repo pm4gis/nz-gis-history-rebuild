@@ -1,0 +1,13 @@
+{
+  "id": "relationship:baseline-0024",
+  "a": "entity:critchlow",
+  "b": "chapter:22",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-22-0a91fb37f4",
+    "passage:chapter-22-5fd83bd561",
+    "passage:chapter-22-38b6be3006"
+  ],
+  "sources": []
+}

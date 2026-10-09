@@ -1,0 +1,44 @@
+{
+  "id": "passage:chapter-5-bd520402bb",
+  "slug": "ladeda-bd520402bb",
+  "articleId": "article:chapter-5",
+  "title": "LADEDA",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5",
+    "entity:department-of-conservation",
+    "entity:ministry-of-works-and-development",
+    "entity:vector",
+    "person:p-r-van-berkel",
+    "person:r-d-williams"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Ministry of Works and Development’s Water and Soil Division developed its own computer system to process the growing inventory. The system was called LADEDA, an abbreviation recorded in project research as LAnd DEpendent DAta. It was built for the NZLRI and later generalised to handle other geographic data. By the early 1980s the database and software formed a working environment for retrieving, processing and plotting land-resource information.",
+      "markdown": "The Ministry of Works and Development’s Water and Soil Division developed its own computer system to process the growing inventory. The system was called LADEDA, an abbreviation recorded in project research as LAnd DEpendent DAta. It was built for the NZLRI and later generalised to handle other geographic data. By the early 1980s the database and software formed a working environment for retrieving, processing and plotting land-resource information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "P. R. van Berkel and R. D. Williams developed LADEDA. Williams produced its Plotting Handbook in May 1982 as Hydrology Centre Publication No. 1. Van Berkel and Williams presented LADEDA in their 1985 New Zealand Geographer paper, “Introduction to LADEDA: a Geographic Information System”.",
+      "markdown": "P. R. van Berkel and R. D. Williams developed LADEDA. Williams produced its Plotting Handbook in May 1982 as Hydrology Centre Publication No. 1. Van Berkel and Williams presented LADEDA in their 1985 New Zealand Geographer paper, “Introduction to LADEDA: a Geographic Information System”.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Water and Soil staff built LADEDA for their own computing environment and the inventory’s analysis tasks. A 1990 Department of Conservation report explains that the mapped NZLRI dataset had been stored in a GIS because manual analysis was difficult. It identifies LADEDA as the initial software, confirms that the team developed it and records the move to commercial GIS in 1988.",
+      "markdown": "Water and Soil staff built LADEDA for their own computing environment and the inventory’s analysis tasks. A 1990 Department of Conservation report explains that the mapped NZLRI dataset had been stored in a GIS because manual analysis was difficult. It identifies LADEDA as the initial software, confirms that the team developed it and records the move to commercial GIS in 1988.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Mapping had begun in 1973, digital capture ran from 1977 to 1980, national first-edition coverage was finished in 1979, and database documentation appeared at the beginning of the 1980s. A plotting handbook existed by 1982 and a refereed paper explicitly described LADEDA as GIS in 1985. By the beginning of the 1980s, staff were using a purpose-built vector GIS.",
+      "markdown": "Mapping had begun in 1973, digital capture ran from 1977 to 1980, national first-edition coverage was finished in 1979, and database documentation appeared at the beginning of the 1980s. A plotting handbook existed by 1982 and a refereed paper explicitly described LADEDA as GIS in 1985. By the beginning of the 1980s, staff were using a purpose-built vector GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

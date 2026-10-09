@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1252",
+  "a": "system:discrete-global-grid-systems",
+  "b": "person:r-g-gibb",
+  "label": "Named in the system account",
+  "basis": "Existing technology/project account",
+  "passageIds": [],
+  "sources": []
+}

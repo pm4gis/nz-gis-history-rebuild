@@ -1,0 +1,42 @@
+{
+  "id": "person:claire-thurlow",
+  "slug": "claire-thurlow",
+  "name": "Claire Thurlow",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/claire-thurlow/",
+  "story": [
+    "Claire Thurlow combines GIS practice with professional education at Eagle Technology, where she leads geospatial training programmes. She studied at Victoria University of Wellington from 1996 to 1999. Her qualifications include successive Esri desktop certifications and ArcGIS Pro Professional certification issued in May 2025.",
+    "Claire Thurlow facilitated technology and youth/community sessions in 2019."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    },
+    {
+      "label": "Claire Thurlow - Eagle Technology | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/claire-thurlow-nz"
+    }
+  ],
+  "aliases": [
+    "Claire Thurlow"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Claire Thurlow - Eagle Technology | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/claire-thurlow-nz"
+      }
+    ],
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      }
+    ]
+  ]
+}

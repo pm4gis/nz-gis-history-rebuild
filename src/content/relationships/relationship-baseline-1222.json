@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1222",
+  "a": "system:south-island-orthophoto-2004",
+  "b": "entity:ashburton-district-council",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

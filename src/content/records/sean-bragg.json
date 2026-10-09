@@ -1,0 +1,31 @@
+{
+  "id": "person:sean-bragg",
+  "slug": "sean-bragg",
+  "name": "Sean Bragg",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sean-bragg/",
+  "story": [
+    "LINZ and the Geospatial Capability Committee included Sean Bragg in the Leaving School geospatial career-profile series: Geospatial Analyst, Ngāi Tahu Holdings Ltd, October 2022."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Sean Bragg"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2025-giscience-historical-maps",
+  "dateDisplay": "2025-08",
+  "startDate": "2025-08",
+  "datePrecision": "month",
+  "year": 2025,
+  "label": "Researchers test historical-map georeferencing at national scale",
+  "summary": "Victoria University of Wellington researchers presented a method matching line intersections in historical maps with contemporary cadastral data.",
+  "url": "/stories/gis-at-the-end-of-2025/#reading-maps-with-ai-ebb70c2c9a",
+  "passageIds": [
+    "passage:chapter-44-ebb70c2c9a"
+  ],
+  "recordIds": [
+    "chapter:44",
+    "person:rere-no-a-rangi-pope",
+    "person:marcus-frean"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "ai",
+    "research",
+    "historical-maps"
+  ],
+  "sources": []
+}

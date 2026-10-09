@@ -1,0 +1,48 @@
+{
+  "id": "person:hauiti-hakopa",
+  "slug": "hauiti-hakopa",
+  "name": "Hauiti Hākopa",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/hauiti-hakopa/",
+  "story": [
+    "Hauiti Hākopa’s research uses GIS to work with ancestral landscapes, cultural sites, oral narratives and whakapapa.",
+    "Hauiti Hākopa’s research connects GIS with ancestral landscapes, cultural sites, oral narratives and whakapapa. Ngā Pae o te Māramatanga’s account describes the use of mapping technology to support collecting and working with that information. This places the technology within a research practice shaped by the knowledge and relationships associated with the places."
+  ],
+  "sources": [
+    {
+      "label": "Ngā Pae o te Māramatanga research profile",
+      "url": "https://www.maramatanga.ac.nz/person/dr-hauiti-h-kopa"
+    },
+    {
+      "label": "hauiti hakopa - University of Otago | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/hauiti-hakopa-24retoa"
+    },
+    {
+      "label": "Chapter 35 · The map becomes an application",
+      "url": "/stories/the-map-becomes-an-application/"
+    }
+  ],
+  "aliases": [
+    "Hauiti Hākopa"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Ngā Pae o te Māramatanga research profile",
+        "url": "https://www.maramatanga.ac.nz/person/dr-hauiti-h-kopa"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 35 · The map becomes an application",
+        "url": "/stories/the-map-becomes-an-application/"
+      }
+    ]
+  ]
+}

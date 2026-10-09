@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2230",
+  "a": "person:rory-mcpherson",
+  "b": "entity:wellington-water",
+  "label": "Associated with",
+  "basis": "Documented association in the people-expansion research; role and period are described in the linked profile sources.",
+  "passageIds": [],
+  "sources": []
+}

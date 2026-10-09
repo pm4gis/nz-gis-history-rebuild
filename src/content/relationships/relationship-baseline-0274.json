@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0274",
+  "a": "entity:wairarapa-engineering-lifelines-association",
+  "b": "chapter:25",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-25-ab139e9991"
+  ],
+  "sources": []
+}

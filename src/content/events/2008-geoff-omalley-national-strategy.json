@@ -1,0 +1,26 @@
+{
+  "id": "2008-geoff-omalley-national-strategy",
+  "dateDisplay": "2008",
+  "startDate": "2008",
+  "datePrecision": "year",
+  "year": 2008,
+  "label": "Geoff O’Malley presents the national geospatial strategy",
+  "summary": "As a Senior Analyst with the New Zealand Geospatial Office, Geoff O’Malley presented the national geospatial strategy and its implications for lifeline utilities, including data access, interoperability and sharing.",
+  "url": "/stories/the-spatial-infrastructure-idea/#from-discussion-to-strategy-5ee12aa3cc",
+  "passageIds": [
+    "passage:chapter-21-5ee12aa3cc"
+  ],
+  "recordIds": [
+    "person:geoff-omalley",
+    "entity:land-information-new-zealand-linz",
+    "chapter:21",
+    "person:david-parker"
+  ],
+  "themeIds": [],
+  "categories": [
+    "strategy",
+    "geospatial-capability",
+    "lifelines"
+  ],
+  "sources": []
+}

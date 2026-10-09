@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2154",
+  "a": "person:jeremy-severinsen",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

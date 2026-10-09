@@ -1,0 +1,44 @@
+{
+  "id": "1996-auckland-engineering-lifelines-project",
+  "dateDisplay": "1996",
+  "startDate": "1996",
+  "datePrecision": "year",
+  "year": 1996,
+  "label": "Auckland Engineering Lifelines Project begins",
+  "summary": "ARC initiated a multi-organisation programme. Assessment work and reports followed.",
+  "url": "/stories/mapping-the-networks/#auckland-lifelines-established-in-1996-ff9371440e",
+  "passageIds": [
+    "passage:chapter-25-ff9371440e"
+  ],
+  "recordIds": [
+    "entity:auckland-regional-council",
+    "chapter:25",
+    "entity:vector",
+    "person:michele-daly",
+    "person:david-johnston"
+  ],
+  "themeIds": [],
+  "categories": [
+    "GIS",
+    "utilities",
+    "research"
+  ],
+  "sources": [
+    {
+      "label": "Michele Daly and David Johnston, The genesis of volcanic risk assessment for the Auckland engineering lifelines project: 1996–2000, 2015",
+      "url": "https://link.springer.com/article/10.1186/s13617-015-0027-9"
+    },
+    {
+      "label": "Vector, Asset Management Plan 1999/2000 and 2000/2001, printed pp.10 and 65",
+      "url": "https://blob-static.vector.co.nz/blob/vector/media/vector-regulatory-disclosures/vector-electricity-amp-1999.pdf"
+    },
+    {
+      "label": "Michele Daly and David Johnston, The genesis of volcanic risk assessment for the Auckland engineering lifelines project: 1996–2000, 2015",
+      "url": "https://link.springer.com/article/10.1186/s13617-015-0027-9"
+    },
+    {
+      "label": "Vector, Asset Management Plan 1999/2000 and 2000/2001, printed pp.10 and 65",
+      "url": "https://blob-static.vector.co.nz/blob/vector/media/vector-regulatory-disclosures/vector-electricity-amp-1999.pdf"
+    }
+  ]
+}

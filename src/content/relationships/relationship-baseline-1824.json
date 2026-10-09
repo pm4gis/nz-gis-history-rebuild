@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1824",
+  "a": "person:chris-weir",
+  "b": "chapter:29",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-29-aa58591027"
+  ],
+  "sources": []
+}

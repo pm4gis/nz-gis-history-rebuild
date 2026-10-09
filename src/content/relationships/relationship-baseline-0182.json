@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0182",
+  "a": "entity:stats-nz",
+  "b": "chapter:42",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-42-b274c9f004"
+  ],
+  "sources": []
+}

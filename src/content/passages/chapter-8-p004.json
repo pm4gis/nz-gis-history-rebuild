@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-8-deed76e801",
+  "slug": "stands-and-roads-deed76e801",
+  "articleId": "article:chapter-8",
+  "title": "Stands and roads",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:8"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Forest management organised work into units tied to management decisions. A stand boundary might enclose trees planted at roughly the same time and managed under a common regime. Compartment and estate boundaries provide other levels of organisation. Roads, landings, streams and terrain cut across that structure and affect how the trees can actually be reached, managed and harvested.",
+      "markdown": "Forest management organised work into units tied to management decisions. A stand boundary might enclose trees planted at roughly the same time and managed under a common regime. Compartment and estate boundaries provide other levels of organisation. Roads, landings, streams and terrain cut across that structure and affect how the trees can actually be reached, managed and harvested.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A GIS could keep those features in the same coordinate framework while retaining different attributes for each. The stand layer could carry planting and treatment information. Roads could be classified by status or capability. Terrain data could support slope or visibility analysis. Harvest plans could select the stands due for treatment and examine the access required to reach them.",
+      "markdown": "A GIS could keep those features in the same coordinate framework while retaining different attributes for each. The stand layer could carry planting and treatment information. Roads could be classified by status or capability. Terrain data could support slope or visibility analysis. Harvest plans could select the stands due for treatment and examine the access required to reach them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Area calculation was an everyday benefit. A stand drawn on paper could be measured manually, but every boundary revision required another calculation. In GIS, editing the polygon changed the area available to later queries and reports. That did not guarantee the boundary was right. It reduced the repeated arithmetic once the geometry had been checked.",
+      "markdown": "Area calculation was an everyday benefit. A stand drawn on paper could be measured manually, but every boundary revision required another calculation. In GIS, editing the polygon changed the area available to later queries and reports. That did not guarantee the boundary was right. It reduced the repeated arithmetic once the geometry had been checked.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same applied to harvesting. A schedule based only on age and volume could identify which stands were ready, but the operational problem also involved access, slope, neighbouring stands, streams and sometimes landscape effects. Dunningham and Thompson’s viewshed work records an early New Zealand attempt to include some of those surrounding conditions in the same spatial system used for forest management.",
+      "markdown": "The same applied to harvesting. A schedule based only on age and volume could identify which stands were ready, but the operational problem also involved access, slope, neighbouring stands, streams and sometimes landscape effects. Dunningham and Thompson’s viewshed work records an early New Zealand attempt to include some of those surrounding conditions in the same spatial system used for forest management.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

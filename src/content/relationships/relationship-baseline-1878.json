@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1878",
+  "a": "person:jason-timmins",
+  "b": "chapter:22",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [],
+  "sources": []
+}

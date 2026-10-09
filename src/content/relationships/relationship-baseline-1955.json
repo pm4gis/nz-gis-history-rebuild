@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1955",
+  "a": "person:john-p-wilson",
+  "b": "chapter:11",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-11-1e2dba36e8"
+  ],
+  "sources": []
+}

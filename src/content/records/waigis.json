@@ -1,0 +1,28 @@
+{
+  "id": "entity:waigis",
+  "slug": "waigis",
+  "name": "WaiGIS",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/waigis/",
+  "story": [
+    "WaiGIS is a Waikato-based GIS group established in 2007 and listed by LINZ among New Zealand’s geospatial networks.",
+    "Its regional focus gives practitioners and others interested in GIS a local community alongside national professional bodies and software user groups.",
+    "The group is an example of the regional networks through which practitioners could exchange local knowledge, data and technical experience without requiring a national conference or a single software platform."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "WaiGIS",
+    "WaiGIS Group"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

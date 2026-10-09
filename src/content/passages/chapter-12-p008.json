@@ -1,0 +1,113 @@
+{
+  "id": "passage:chapter-12-eb1fae3cf8",
+  "slug": "esri-and-eagle-in-new-zealand-eb1fae3cf8",
+  "articleId": "article:chapter-12",
+  "title": "Esri and Eagle in New Zealand",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:12",
+    "entity:eagle-technology",
+    "entity:new-zealand-esri-users-group",
+    "entity:smallworld-ge-smallworld",
+    "person:david-pimblott",
+    "person:graeme-henderson",
+    "person:jithen-singh",
+    "person:nathan-heazlewood",
+    "person:parker-jones",
+    "person:scott-campbell",
+    "person:trevor-hart"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Eagle’s GIS business emerged from a longer computing lineage. International Data Limited was incorporated in 1969. A separate IDL Utilities entity became Prime Computer of N Z Limited in 1980, while Eagle Technology Group was established in 1984 to manage wider business interests. These were related entities, not successive names for one company.",
+      "markdown": "Eagle’s GIS business emerged from a longer computing lineage. International Data Limited was incorporated in 1969. A separate IDL Utilities entity became Prime Computer of N Z Limited in 1980, while Eagle Technology Group was established in 1984 to manage wider business interests. These were related entities, not successive names for one company.",
+      "sources": [
+        {
+          "label": "NZ Hi-Tech Awards, Trevor Eagle Flying Kiwi profile",
+          "url": "https://www.hitech.org.nz/awards/flying-kiwi/trevor-eagle/"
+        },
+        {
+          "label": "Registry-derived record for historic International Data Limited, company no. 76949",
+          "url": "https://www.nzlbusiness.com/company/struck-off/Merrett-Financial-Systems-Limited"
+        },
+        {
+          "label": "Registry-derived record for historic IDL Utilities / Prime Computer of N Z Limited",
+          "url": "https://www.nzlbusiness.com/company/registered/It-Qualifications-Limited"
+        },
+        {
+          "label": "Eagle Technology corporate material and 2013 GBS Gold Partner release",
+          "url": "https://www.eagle.co.nz/"
+        },
+        {
+          "label": "Geographic Business Solutions, GBS attains Esri Gold Partner Status, carried by Scoop",
+          "url": "https://www.scoop.co.nz/stories/BU1308/S00725/gbs-attains-esri-gold-partner-status.htm"
+        },
+        {
+          "label": "Esri, 'History of GIS' and company history",
+          "url": "https://www.esri.com/en-us/what-is-gis/history-of-gis"
+        },
+        {
+          "label": "David Pimblott professional profile, Topline",
+          "url": "https://topline.com/people/david-pimblott-46e4e308bb"
+        },
+        {
+          "label": "Royal Society Te Apārangi Wellington Branch, Parker Jones lecture notice, 'Putting the Where into decisions: a 40 year journey...'",
+          "url": "https://www.royalsocietyofnewzealandwellingtonbranch.org/"
+        },
+        {
+          "label": "Minister for Land Information Mark Mitchell, 'New Zealand ESRI User Conference'",
+          "url": "https://www.beehive.govt.nz/speech/new-zealand-esri-user-conference"
+        },
+        {
+          "label": "Eagle Technology, 'Eagle Technology Appoints New CEO, Graeme Henderson'",
+          "url": "https://www.eagle.co.nz/news"
+        },
+        {
+          "label": "New Zealand ESRI Users Group, 2010 Annual General Meeting Minutes"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Eagle’s local GIS work went beyond software sales. The company provided implementation, data conversion, training, hardware and technical support, helping customers adapt imported products to their systems and data.",
+      "markdown": "Eagle’s local GIS work went beyond software sales. The company provided implementation, data conversion, training, hardware and technical support, helping customers adapt imported products to their systems and data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Over time, Eagle’s work moved from desktop GIS and web mapping to server GIS, enterprise architecture, managed services, integration and cloud platforms. Parker Jones and David Pimblott belong to the earlier commercial story; later public records connect Graeme Henderson, Scott Campbell, Jithen Singh, Trevor Hart and Nathan Heazlewood with enterprise projects, technology leadership and professional services.",
+      "markdown": "Over time, Eagle’s work moved from desktop GIS and web mapping to server GIS, enterprise architecture, managed services, integration and cloud platforms. Parker Jones and David Pimblott belong to the earlier commercial story; later public records connect Graeme Henderson, Scott Campbell, Jithen Singh, Trevor Hart and Nathan Heazlewood with enterprise projects, technology leadership and professional services.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Eagle’s history is related to, but structurally separate from, the New Zealand Esri Users Group. A distributor could support conferences and user activity without owning the independent professional community.",
+      "markdown": "Eagle’s history is related to, but structurally separate from, the New Zealand Esri Users Group. A distributor could support conferences and user activity without owning the independent professional community.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Esri was founded in California in 1969. ARC/INFO, released in 1982, became one of the major commercial GIS platforms of the 1980s and 1990s. In New Zealand, ARC/INFO entered an existing technical landscape that already included purpose-built government systems, Intergraph, later MapInfo and Smallworld, and other specialist and bespoke systems.",
+      "markdown": "Esri was founded in California in 1969. ARC/INFO, released in 1982, became one of the major commercial GIS platforms of the 1980s and 1990s. In New Zealand, ARC/INFO entered an existing technical landscape that already included purpose-built government systems, Intergraph, later MapInfo and Smallworld, and other specialist and bespoke systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The New Zealand lineage runs from ARC/INFO through ArcView, ArcSDE and ArcIMS to ArcGIS Desktop and Server, Portal for ArcGIS and ArcGIS Enterprise. Those product generations changed how organisations stored data, served maps, integrated business systems and widened access beyond specialist workstations. Eagle Technology became the long-running local distribution and support channel, while individual customers adopted different combinations at different times.",
+      "markdown": "The New Zealand lineage runs from ARC/INFO through ArcView, ArcSDE and ArcIMS to ArcGIS Desktop and Server, Portal for ArcGIS and ArcGIS Enterprise. Those product generations changed how organisations stored data, served maps, integrated business systems and widened access beyond specialist workstations. Eagle Technology became the long-running local distribution and support channel, while individual customers adopted different combinations at different times.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The user group developed its own governance, conference sequence and practitioner community.",
+      "markdown": "The user group developed its own governance, conference sequence and practitioner community.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "1996-linz-terralink",
+  "dateDisplay": "1996-07-01",
+  "startDate": "1996-07-01",
+  "datePrecision": "day",
+  "year": 1996,
+  "label": "DOSLI splits into LINZ and Terralink",
+  "summary": "The 1996 restructuring separated regulatory and stewardship functions from commercial spatial production.",
+  "url": "/stories/the-cadastre-becomes-data/#a-department-is-split-52e69de113",
+  "passageIds": [
+    "passage:chapter-13-52e69de113"
+  ],
+  "recordIds": [
+    "entity:department-of-survey-and-land-information-dosli",
+    "entity:terralink",
+    "chapter:13"
+  ],
+  "themeIds": [],
+  "categories": [
+    "government",
+    "industry"
+  ],
+  "sources": []
+}

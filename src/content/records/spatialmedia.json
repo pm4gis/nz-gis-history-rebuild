@@ -1,0 +1,24 @@
+{
+  "id": "entity:spatialmedia",
+  "slug": "spatialmedia",
+  "name": "Spatialmedia",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/spatialmedia/",
+  "website": null,
+  "story": [
+    "Peter Fraser used the Spatialmedia affiliation in practitioner correspondence from 2008–12. He participated in technical support discussions and exchanges about the GIS profession and its user community."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG GISList discussion, The future of the NZ ESRI User Group Conference, including council and Hawke's Bay regional responses"
+    }
+  ],
+  "aliases": [
+    "Spatialmedia"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

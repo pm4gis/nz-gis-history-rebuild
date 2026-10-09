@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2111",
+  "a": "person:marcus-girvan",
+  "b": "chapter:38",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

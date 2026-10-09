@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-4-191c7a5478",
+  "slug": "rilis-191c7a5478",
+  "articleId": "article:chapter-4",
+  "title": "RILIS",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:4",
+    "person:i-l-thomas",
+    "person:p-j-ellis"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "As the image collection grew, PEL also needed a way to find the right scene. I. L. Thomas and P. J. Ellis documented the Remote-sensing Image Library Information System, RILIS, in an April 1976 user guide. RILIS ran in Time Shared BASIC on the HP 2100. It stored information about available imagery and allowed users to search the collection using geographic and other identifying information. The system dealt with the catalogue rather than performing the image analysis itself.",
+      "markdown": "As the image collection grew, PEL also needed a way to find the right scene. I. L. Thomas and P. J. Ellis documented the Remote-sensing Image Library Information System, RILIS, in an April 1976 user guide. RILIS ran in Time Shared BASIC on the HP 2100. It stored information about available imagery and allowed users to search the collection using geographic and other identifying information. The system dealt with the catalogue rather than performing the image analysis itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "RILIS is an early example of a problem that later became routine in spatial-data management. A growing archive required metadata describing location, date, sensor and other characteristics. Without that information, researchers could have a shelf of useful tapes and still spend considerable time working out which one covered the area they needed. RILIS gave the Remote Sensing Section a computerised index to the imagery it was receiving and processing. The underlying image archive and the information used to discover it were maintained as separate but related resources.",
+      "markdown": "RILIS is an early example of a problem that later became routine in spatial-data management. A growing archive required metadata describing location, date, sensor and other characteristics. Without that information, researchers could have a shelf of useful tapes and still spend considerable time working out which one covered the area they needed. RILIS gave the Remote Sensing Section a computerised index to the imagery it was receiving and processing. The underlying image archive and the information used to discover it were maintained as separate but related resources.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The distinction between source data and metadata also applied to processed products. A single Landsat scene could generate corrected subsets, enhanced images, colour composites and classifications. Each derivative needed enough documentation for later users to know what had been done to it. By 1976 PEL was already managing both the image data and the descriptive information required to locate and interpret it. Later national spatial-data catalogues would operate at much larger scale, but the administrative problem was already present.",
+      "markdown": "The distinction between source data and metadata also applied to processed products. A single Landsat scene could generate corrected subsets, enhanced images, colour composites and classifications. Each derivative needed enough documentation for later users to know what had been done to it. By 1976 PEL was already managing both the image data and the descriptive information required to locate and interpret it. Later national spatial-data catalogues would operate at much larger scale, but the administrative problem was already present.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

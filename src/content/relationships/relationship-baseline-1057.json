@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1057",
+  "a": "person:martin-erasmuson",
+  "b": "entity:new-zealand-esri-users-group",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

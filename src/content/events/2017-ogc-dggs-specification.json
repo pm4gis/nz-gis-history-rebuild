@@ -1,0 +1,50 @@
+{
+  "id": "2017-ogc-dggs-specification",
+  "dateDisplay": "1 August 2017",
+  "startDate": "2017-08-01",
+  "datePrecision": "day",
+  "year": 2017,
+  "label": "OGC DGGS specification published",
+  "summary": "OGC published its first Topic 21 DGGS specification, with contributions from Robert Gibb and other international participants.",
+  "url": "/stories/the-spatial-infrastructure-idea/#discrete-global-grids-594efcfa4a",
+  "passageIds": [
+    "passage:chapter-21-594efcfa4a"
+  ],
+  "recordIds": [
+    "system:discrete-global-grid-systems",
+    "person:r-g-gibb",
+    "entity:manaaki-whenua-landcare-research",
+    "chapter:21",
+    "entity:vector"
+  ],
+  "themeIds": [],
+  "categories": [
+    "standards"
+  ],
+  "sources": [
+    {
+      "label": "Gibb, Raichev and Speth, The rHEALPix Discrete Global Grid System, Landcare Research DataStore, deposited 2016, DOI 10.7931/J2D21VHM",
+      "url": "https://datastore.landcareresearch.co.nz/dataset/rhealpix-discrete-global-grid-system"
+    },
+    {
+      "label": "OGC Abstract Specification Topic 21, Discrete Global Grid Systems, version 1.0, 1 August 2017",
+      "url": "https://portal.ogc.org/files/15-104r5.pdf"
+    },
+    {
+      "label": "Robert Gibb (editor), OGC Topic 21, DGGS Part 1, version 2.0, 23 September 2021, 20-040r3",
+      "url": "https://docs.ogc.org/as/20-040r3/20-040r3.html"
+    },
+    {
+      "label": "ISO/TC 211, ISO 19170-1:2021: DGGS core reference system, operations and equal-area Earth reference system",
+      "url": "https://committee.iso.org/sites/tc211/home/projects-old/projects---complete-list-old/iso-19170-1.html"
+    },
+    {
+      "label": "Richard Law, Land-use mapping with a Discrete Global Grid System, FOSS4G SotM Oceania, 17 October 2023: H3 implementation",
+      "url": "https://talks.osgeo.org/foss4g-sotm-oceania-2023/talk/EYAJ7H/"
+    },
+    {
+      "label": "Richard M. Law and James Ardo, Using a discrete global grid system for a scalable, interoperable, and reproducible system of land-use mapping, Big Earth Data 9(1), 2025, DOI 10.1080/20964471.2024.2429847",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/20964471.2024.2429847"
+    }
+  ]
+}

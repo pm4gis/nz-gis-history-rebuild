@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-32-f0e3d559ab",
+  "slug": "code-goes-both-ways-f0e3d559ab",
+  "articleId": "article:chapter-32",
+  "title": "Code goes both ways",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The wider project record contains other examples of New Zealand practitioners contributing to open geospatial software and related technical communities. GRASS GIS records, QGIS development and plugin work, mailing lists and later OSGeo activity show local participation extending well beyond downloading packages. Some practitioners wrote modules or code, others tested software, maintained documentation, developed plugins or helped other users solve problems. These activities were less visible than buying a major enterprise system, but they were part of how capability spread.",
+      "markdown": "The wider project record contains other examples of New Zealand practitioners contributing to open geospatial software and related technical communities. GRASS GIS records, QGIS development and plugin work, mailing lists and later OSGeo activity show local participation extending well beyond downloading packages. Some practitioners wrote modules or code, others tested software, maintained documentation, developed plugins or helped other users solve problems. These activities were less visible than buying a major enterprise system, but they were part of how capability spread.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The community around the software also changed support arrangements. A conventional vendor relationship offered a recognisable path for licences, account management, training and technical support. Open-source users could draw on project documentation, developer communities, mailing lists, local consultancies and specialist staff. In practice, many organisations combined these models. They bought commercial support for open software or relied on consultants even though the program itself could be downloaded freely.",
+      "markdown": "The community around the software also changed support arrangements. A conventional vendor relationship offered a recognisable path for licences, account management, training and technical support. Open-source users could draw on project documentation, developer communities, mailing lists, local consultancies and specialist staff. In practice, many organisations combined these models. They bought commercial support for open software or relied on consultants even though the program itself could be downloaded freely.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cost therefore needs to be read as a whole-system question. Open-source software could remove a purchase price or per-seat licence from part of a system, which mattered for small teams, education, research and organisations needing many users. It also gave developers direct access to code and more freedom to automate deployment. Servers, staff, training, migration, security, testing and maintenance still carried real costs. The licence line could shrink while the capability and support lines grew.",
+      "markdown": "Cost therefore needs to be read as a whole-system question. Open-source software could remove a purchase price or per-seat licence from part of a system, which mattered for small teams, education, research and organisations needing many users. It also gave developers direct access to code and more freedom to automate deployment. Servers, staff, training, migration, security, testing and maintenance still carried real costs. The licence line could shrink while the capability and support lines grew.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The more enduring change was technical choice. A GIS team could select desktop, database, server and web-interface components separately, connect them through standards and replace them at different times. That made some architectures more flexible while increasing dependence on local technical knowledge. A system assembled from several excellent parts still needed somebody who understood the whole thing.",
+      "markdown": "The more enduring change was technical choice. A GIS team could select desktop, database, server and web-interface components separately, connect them through standards and replace them at different times. That made some architectures more flexible while increasing dependence on local technical knowledge. A system assembled from several excellent parts still needed somebody who understood the whole thing.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chapter:18",
+  "articleId": "article:chapter-18",
+  "slug": "gps-changes-where-here-is",
+  "name": "GPS in practice",
+  "kind": "Story",
+  "category": "National datasets",
+  "url": "/stories/gps-changes-where-here-is/",
+  "description": "At Taiaroa Head in 1994, a GPS survey for a wildlife-management project began with one receiver staying put. It was set over a known trig station on the summit of the headland and left to track the satellites. A second survey-quality receiver was moved to points whose positions had to be established, occupying each for a few minutes. The observations were then processed to determine the vectors from the known station",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": []
+}

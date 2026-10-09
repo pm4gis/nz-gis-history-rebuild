@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1902",
+  "a": "person:leonard-brown",
+  "b": "chapter:36",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-36-a1ca3ceb6c"
+  ],
+  "sources": []
+}

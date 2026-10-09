@@ -1,0 +1,97 @@
+{
+  "id": "passage:preface-introduction",
+  "slug": "preface",
+  "articleId": "article:preface",
+  "title": "Preface",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Writing this book began as a way of using AI for deep research, with thousands upon thousands of searches over several months, to try to reconstruct those earlier years. I wanted to understand how the work I’d experienced fitted into the longer history of GIS in New Zealand. In my mind, it became a large map of people, projects, themes, organisations and technologies, with connections running across the past thirty years and back into the decades before I joined the profession. A name would lead to a project, a project to an organisation, and an old piece of software to somebody who had spent a substantial part of their working life persuading it to do something useful. Following those connections helped turn a collection of memories into a history.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "My own journey into GIS began in early 1997 at Waikato University, where Munir Morad introduced me to KeyCad. By the following summer, during my first project at Waikato District Council, with encouragement from Lex Chalmers, I practically memorised the ArcView 3.2 user manual while investigating land fragmentation and soil degradation in Tamahere, south of Hamilton. Under the guidance of Lars Brabyn, I completed my master’s degree and stepped into my first professional position in 2000 as one of the inaugural GIS analysts in the New Zealand public health sector at the Waikato District Health Board.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Since then, I’ve worked in GIS across different organisations, countries and circumstances. The work has taken me through conservation, supporting claimants to prepare, present and negotiate historical Treaty breaches and land grievances, policing, statistics and project management, as well as to Iraq and Afghanistan to help implement GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Along the way, I’ve changed workplaces, worked with different teams and watched the technology change around us. Some systems lasted for years. Others disappeared, along with the companies that supported them. People moved between organisations, taking their experience with them, and often became the familiar face at the next conference.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The New Zealand Esri Users Group has been a recurring part of our shared history and my own working life. Conferences and user meetings gave people somewhere to compare experiences, ask questions and find out how others had solved similar problems. They became my annual opportunity to see what people were working on beyond my own workplace. GIS users in a council, forestry company, university or government department might be dealing with the same difficulties, and those exchanges exposed me to other ways of thinking. Presentations I kept described some of that work. I usually contributed at least one to justify attending, and often a video for the opening of the conference. Much more was exchanged in conversations, demonstrations and the questions people asked once the formal sessions had finished.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Implementing GIS in Iraq and Afghanistan gave me another perspective. The software was exactly the same, although logistical problems meant we sometimes worked with pirated copies. The working conditions, organisations and available information were very different. Getting a system into use involved equipment, licences, data, training and the practical circumstances of the people expected to maintain it. Sometimes it also meant fitting out the office with floor tiles. Those experiences made me think more carefully about the assumptions we carried into projects at home. A technical solution had to fit the workplace and its future capability, and a useful map depended on someone being able to obtain, understand and update the information behind it. Requests often reflected what someone imagined GIS would produce. Their actual needs became clearer once the work began. Someone might ask for a map and end up needing an app.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Data access changed enormously during this period. Information that once required a purchase, a formal request or an arrangement with another organisation became available through downloads, web services and online portals. In my early public-health work, purchasing census and demographic data competed for funding with replacement parts for X-ray machines dating from the early 1970s.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The internet changed how we obtained data, shared results and delivered applications. GIS moved from specialist workstations into browsers and phones, reaching people who would never have described themselves as GIS users. Increasingly, people could use the information through a service without downloading and maintaining their own copy.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Universities helped develop the methods, trained successive generations of practitioners and gave people room to investigate questions beyond the immediate demands of a project. Commercial firms, public agencies, researchers and user communities all contributed, sometimes together and sometimes along quite separate paths. Changes to postgraduate study support also made that route harder for some students. Many now carry greater debt to obtain the qualifications and experience I gained in the late 1990s.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Careers changed with technology. The skills needed to digitise a map, manage a spatial database, run an enterprise platform or build a web application overlapped, but each brought different expectations. Companies were established, acquired, renamed or closed. Software that had seemed central to the profession became an occasional reference in a dusty report or an ArcUser magazine nobody wanted to throw away because it looked so colourful.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New tools made some tasks easier and created work that had barely existed a few years earlier. In my experience, roles for senior GIS specialists and managers became increasingly difficult to find. With budgets increasingly constrained and a change of workplace becoming necessary, I moved out of the GIS industry in 2022. By the end of 2025, artificial intelligence was becoming another part of the discussion, with uses extending across coding, analysis, imagery and the ways people asked questions of their data. This year, Google Earth Desktop, one of the applications that made it easier to explain what I do to friends and family, has reached the end of its life and will no longer be available to download from mid-2027.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This book was researched with extensive use of AI Deep Research queries and incorporates my own thoughts, experiences and memories. AI helped organise material, suggest connections and identify avenues for further investigation. Published sources, records and accounts from people involved provided the evidence for the history. My memories, old photographs and files helped identify things to look for, although remembering an event and establishing its date or details are different tasks. I’ve tried to keep that distinction clear throughout. It started as a book project, but I later decided to turn it into a website because I didn’t have the personal time to format the content as a book.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "I chose the end of 2025 as the stopping point because history needed a boundary.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Research continued while I was writing, with further reports and leads arriving daily, sometimes hourly. There will still be missing people, projects and experiences, particularly where few records are available or the work was familiar only within one organisation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "If you have a correction, an image, a document or a recollection that would help fill those gaps, use Contribute or comment in the top toolbar. The form carries the page address with it, so your material can be linked to the relevant passage. An old conference programme, a photograph of a workplace or a recollection of how a system was introduced may provide the detail that a published site leaves out.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "I hope you find something here that adds to your understanding of how we got to where we are now.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Duane Wilkins\nLower Hutt\nSeptember 2026",
+      "sources": []
+    }
+  ]
+}

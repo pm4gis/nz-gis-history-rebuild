@@ -1,0 +1,30 @@
+{
+  "id": "entity:wairarapa-engineering-lifelines-association",
+  "slug": "wairarapa-engineering-lifelines-association",
+  "name": "Wairarapa Engineering Lifelines Association",
+  "kind": "Organisation",
+  "category": "Professional and research organisations",
+  "url": "/entities/wairarapa-engineering-lifelines-association/",
+  "website": null,
+  "story": [
+    "The Wairarapa Engineering Lifelines Association formed on 21 June 1996. Later project documentation describes GIS support from the regional council.",
+    "The founding meeting brought together the three Wairarapa local authorities, Wairarapa Electricity, transport and emergency services, Wellington Regional Council and other lifeline operators. Its risk work examined how natural hazards could disrupt infrastructure and how mitigation could reduce that risk; Wellington Regional Council’s Wairarapa office supplied GIS support to the project."
+  ],
+  "sources": [
+    {
+      "label": "Wairarapa Engineering Lifelines Association, Risk to lifelines from natural hazards, Chapter 1: project background",
+      "url": "https://www.civildefence.govt.nz/assets/Uploads/documents/lifelines/wela-risk-to-lifelines-from-natural-hazards-chapter-1.pdf"
+    },
+    {
+      "label": "Wellington Region Emergency Management Office, Lifeline Utilities",
+      "url": "https://www.getprepared.nz/about-wremo/lifeline-utilities"
+    }
+  ],
+  "aliases": [
+    "Wairarapa Engineering Lifelines Association"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

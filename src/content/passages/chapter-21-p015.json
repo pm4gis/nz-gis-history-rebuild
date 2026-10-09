@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-21-6d5fdad9a2",
+  "slug": "routine-data-exchange-6d5fdad9a2",
+  "articleId": "article:chapter-21",
+  "title": "Routine data exchange",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Despite those gaps, several parts of the spatial-infrastructure idea were becoming normal by the early 2010s. NZGD2000 and PositioNZ supplied a maintained national reference framework. Councils and government agencies were coordinating aerial imagery specifications and procurement. Metadata had an endorsed government profile. LINZ and other agencies were publishing national data online. Fundamental-data work was assigning longer-term responsibilities to stewards and custodians.",
+      "markdown": "Despite those gaps, several parts of the spatial-infrastructure idea were becoming normal by the early 2010s. NZGD2000 and PositioNZ supplied a maintained national reference framework. Councils and government agencies were coordinating aerial imagery specifications and procurement. Metadata had an endorsed government profile. LINZ and other agencies were publishing national data online. Fundamental-data work was assigning longer-term responsibilities to stewards and custodians.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change can be seen in the information practitioners increasingly needed about a dataset: its source, custodian, standard, update date, whether it could be accessed as a service rather than copied, whether a national version existed, and whether its identifiers could connect to another system. Those concerns belong as much to data management and institutional design as to GIS software.",
+      "markdown": "The change can be seen in the information practitioners increasingly needed about a dataset: its source, custodian, standard, update date, whether it could be accessed as a service rather than copied, whether a national version existed, and whether its identifiers could connect to another system. Those concerns belong as much to data management and institutional design as to GIS software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also broadened responsibility for geographic information beyond dedicated GIS teams. Enterprise architects, information managers, policy staff, data custodians, standards specialists and web-service developers became part of spatial-data delivery. GIS practitioners still produced and analysed geographic information, but the infrastructure supporting that work increasingly sat inside wider information-management systems.",
+      "markdown": "This also broadened responsibility for geographic information beyond dedicated GIS teams. Enterprise architects, information managers, policy staff, data custodians, standards specialists and web-service developers became part of spatial-data delivery. GIS practitioners still produced and analysed geographic information, but the infrastructure supporting that work increasingly sat inside wider information-management systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand never needed every organisation to use the same GIS package for this to happen. The infrastructure project assumed difference. A council could use one platform, LINZ another and a research institute a third, provided enough agreement existed around reference systems, metadata, data definitions, standards and access for information to move between them.",
+      "markdown": "New Zealand never needed every organisation to use the same GIS package for this to happen. The infrastructure project assumed difference. A council could use one platform, LINZ another and a research institute a third, provided enough agreement existed around reference systems, metadata, data definitions, standards and access for information to move between them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The next change operated at the other end of the system. While government was working on national coordination, GIS itself was becoming easier to put on an ordinary office computer. Desktop software reduced the hardware and institutional barriers that had kept much spatial analysis in specialist units. The growing supply of reusable digital data then had a much larger potential audience. Chapter 22 follows that move onto the desktop.",
+      "markdown": "The next change operated at the other end of the system. While government was working on national coordination, GIS itself was becoming easier to put on an ordinary office computer. Desktop software reduced the hardware and institutional barriers that had kept much spatial analysis in specialist units. The growing supply of reusable digital data then had a much larger potential audience. Chapter 22 follows that move onto the desktop.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

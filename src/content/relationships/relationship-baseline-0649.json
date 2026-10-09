@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0649",
+  "a": "person:geoff-howard",
+  "b": "chapter:10",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-10-d4532463e0"
+  ],
+  "sources": []
+}

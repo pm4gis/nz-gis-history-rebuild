@@ -1,0 +1,37 @@
+{
+  "id": "person:william-mackaness",
+  "slug": "william-mackaness",
+  "name": "William Mackaness",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/william-mackaness/",
+  "story": [
+    "William Mackaness presented “Introducing GIS Into Organisations”, while David Hawke presented terrain modelling."
+  ],
+  "sources": [
+    {
+      "label": "William Mackaness - University of Edinburgh · public profile",
+      "url": "https://edinburgh.academia.edu/WilliamMackaness"
+    },
+    {
+      "label": "Chapter 11 · A recurring research forum",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ],
+  "aliases": [
+    "William Mackaness"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 11 · A recurring research forum",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ]
+  ]
+}

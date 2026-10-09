@@ -1,0 +1,46 @@
+{
+  "id": "person:chris-skelly",
+  "slug": "chris-skelly",
+  "name": "Chris Skelly",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/chris-skelly/",
+  "story": [
+    "Chris Skelly, of the Ministry of Health’s Public Health Intelligence Group, co-authored the 2002 study of population access to New Zealand public hospitals with Lars Brabyn. Skelly organised the collection of hospital information, while Brabyn conducted the GIS analysis. Both contributed to designing the research and writing the paper.",
+    "In 2002 Chris Skelly and colleagues published a study of campylobacteriosis notifications from 1993 to 1997 that examined uncertainty in rural geocoding. They calculated minimum and maximum notification rates according to whether cases with uncertain locations were assigned to rural or urban areas. The estimated maximum rural rates were four times the estimated minimum rural rates, while the equivalent urban estimates changed much less."
+  ],
+  "sources": [
+    {
+      "label": "Lars Brabyn and Chris Skelly, Modeling population access to New Zealand public hospitals, 2002",
+      "url": "https://link.springer.com/article/10.1186/1476-072X-1-3"
+    },
+    {
+      "label": "Chris Skelly - Public Sector Organisation | LinkedIn · public profile",
+      "url": "https://uk.linkedin.com/in/wchrisskelly"
+    },
+    {
+      "label": "Chapter 27 · Geocoding uncertainty",
+      "url": "/stories/health-population-and-place/"
+    }
+  ],
+  "aliases": [
+    "Chris Skelly"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Lars Brabyn and Chris Skelly, Modeling population access to New Zealand public hospitals, 2002",
+        "url": "https://link.springer.com/article/10.1186/1476-072X-1-3"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 27 · Geocoding uncertainty",
+        "url": "/stories/health-population-and-place/"
+      }
+    ]
+  ]
+}

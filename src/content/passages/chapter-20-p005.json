@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-20-804f2b19d0",
+  "slug": "a-shared-south-island-image-base-804f2b19d0",
+  "articleId": "article:chapter-20",
+  "title": "A shared South Island image base",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20",
+    "entity:canterbury-regional-council-environment-canterbury",
+    "entity:terralink"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "On 4 March 2004 Terralink announced a South Island aerial-imagery acquisition covering about 42,000 square kilometres. The release describes about 2,500 aerial photographs and approximately 5,500 orthophoto tiles. These figures are the project scale given in the contemporary announcement.",
+      "markdown": "On 4 March 2004 Terralink announced a South Island aerial-imagery acquisition covering about 42,000 square kilometres. The release describes about 2,500 aerial photographs and approximately 5,500 orthophoto tiles. These figures are the project scale given in the contemporary announcement.",
+      "sources": [
+        {
+          "label": "Terralink International, ‘Terralink starts biggest ever aerial photography task’, 4 March 2004",
+          "url": "https://www.scoop.co.nz/stories/SC0403/S00018.htm"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The named participating councils were Waimakariri, Ashburton, Timaru, Waimate, Waitaki and Mackenzie District Councils, together with Environment Canterbury. The stated uses included local-government GIS, consent processing, land-use work, civil defence and asset management. A shared imagery acquisition gave several authorities a common regional base while leaving their internal GIS arrangements distinct.",
+      "markdown": "The named participating councils were Waimakariri, Ashburton, Timaru, Waimate, Waitaki and Mackenzie District Councils, together with Environment Canterbury. The stated uses included local-government GIS, consent processing, land-use work, civil defence and asset management. A shared imagery acquisition gave several authorities a common regional base while leaving their internal GIS arrangements distinct.",
+      "sources": [
+        {
+          "label": "Terralink International, ‘Terralink starts biggest ever aerial photography task’, 4 March 2004",
+          "url": "https://www.scoop.co.nz/stories/SC0403/S00018.htm"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1797",
+  "a": "person:bob-cathcart",
+  "b": "chapter:7",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-7-6c61371599"
+  ],
+  "sources": []
+}

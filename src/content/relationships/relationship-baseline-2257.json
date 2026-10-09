@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2257",
+  "a": "person:keri-niven",
+  "b": "entity:aurecon",
+  "label": "Associated with",
+  "basis": "Documented association in the people-expansion research; role and period are described in the linked profile sources.",
+  "passageIds": [],
+  "sources": []
+}

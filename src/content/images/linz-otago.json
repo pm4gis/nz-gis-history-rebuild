@@ -1,0 +1,13 @@
+{
+  "id": "image:linz-otago",
+  "slug": "linz-otago",
+  "title": "Otago",
+  "assetPath": "/assets/images/figure-20.jpg",
+  "sourceUrl": "https://data.linz.govt.nz/",
+  "sourceName": "LINZ Data Service",
+  "credit": "LINZ (2021)",
+  "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "altText": "Aerial image of Otago. The original image labels coordinates 169.30483°E, 44.3903°S.",
+  "caption": "Otago. Imagery CC4.0 LINZ 2021."
+}

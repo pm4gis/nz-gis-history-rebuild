@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-23-9ef0acf90d",
+  "slug": "maps-from-all-over-council-9ef0acf90d",
+  "articleId": "article:chapter-23",
+  "title": "Maps from all over council",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "entity:palmerston-north-city-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The archival record from Palmerston North gives a more ordinary view of how widely mapping had spread. Archives Central holds a Palmerston North City Council map series covering approximately 1990 to 2005. Its description says maps were made by all units of council for current and future planning and specifically names City Corporate, Future Planning, GIS and Civil Defence among the sources.",
+      "markdown": "The archival record from Palmerston North gives a more ordinary view of how widely mapping had spread. Archives Central holds a Palmerston North City Council map series covering approximately 1990 to 2005. Its description says maps were made by all units of council for current and future planning and specifically names City Corporate, Future Planning, GIS and Civil Defence among the sources.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The individual records include base maps, district-planning maps, demographic material, ecological assessment, civil-defence maps and items explicitly catalogued as GIS maps. The council produced maps for several departments and functions.",
+      "markdown": "The individual records include base maps, district-planning maps, demographic material, ecological assessment, civil-defence maps and items explicitly catalogued as GIS maps. The council produced maps for several departments and functions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate GIS also produced paper sheets. Councillors, field staff, planners, engineers and the public continued to use printed maps even as the databases became digital. A corporate system changed how the information was maintained and reused. It did not make every output electronic overnight.",
+      "markdown": "Corporate GIS also produced paper sheets. Councillors, field staff, planners, engineers and the public continued to use printed maps even as the databases became digital. A corporate system changed how the information was maintained and reused. It did not make every output electronic overnight.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the early 2000s this was common enough that the map itself was no longer the best measure of GIS maturity. The more revealing questions concerned who could use the data, how many business functions depended on it, whether the same information fed several outputs and whether changes were maintained centrally. Those were the kinds of variables Marr and Benwell had begun measuring in the previous decade.",
+      "markdown": "By the early 2000s this was common enough that the map itself was no longer the best measure of GIS maturity. The more revealing questions concerned who could use the data, how many business functions depended on it, whether the same information fed several outputs and whether changes were maintained centrally. Those were the kinds of variables Marr and Benwell had begun measuring in the previous decade.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

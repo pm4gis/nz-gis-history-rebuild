@@ -1,0 +1,48 @@
+{
+  "id": "person:bill-thoen",
+  "slug": "bill-thoen",
+  "name": "Bill Thoen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/bill-thoen/",
+  "story": [
+    "In the northern autumn of 1994, John McCombs and Colorado GIS practitioner Bill Thoen established MapInfo-L on Colorado SuperNet as a free international forum. Thoen later recalled that McCombs maintained and distributed the early monthly message logs.",
+    "Bill Thoen later recorded establishing the international MapInfo-L mailing list with Christchurch MapInfo reseller John McCombs in 1994, and near-contemporary sources independently identify McCombs's MapInfo FAQ and New Zealand GIS mailing-list support. MapInfo expanded access to desktop mapping and analysis. A practitioner facing a projection, conversion or software problem could seek help between conferences and across national boundaries."
+  ],
+  "sources": [
+    {
+      "label": "Bill Thoen - GISnet | LinkedIn · public profile",
+      "url": "https://www.linkedin.com/in/bill-thoen-50b8969"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 29 · User groups become infrastructure",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Bill Thoen"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · User groups become infrastructure",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

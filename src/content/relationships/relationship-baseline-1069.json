@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1069",
+  "a": "person:jason-kerehi",
+  "b": "entity:wellington-regional-council-greater-wellington-regional-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

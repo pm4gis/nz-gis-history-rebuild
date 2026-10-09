@@ -1,0 +1,34 @@
+{
+  "id": "2003-abley-consultancy",
+  "dateDisplay": "2003",
+  "startDate": "2003",
+  "datePrecision": "year",
+  "year": 2003,
+  "label": "Abley begins its transport consultancy",
+  "summary": "Abley’s published history distinguishes its 1996 pedestrian-crossings project from the transport consultancy established in 2003.",
+  "url": "/stories/an-industry-and-community-form/#a-consultancy-appears-b51b8936ec",
+  "passageIds": [
+    "passage:chapter-12-b51b8936ec"
+  ],
+  "recordIds": [
+    "entity:abley",
+    "chapter:12",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:geographic-business-solutions",
+    "entity:splice-group",
+    "entity:terralink",
+    "person:steve-abley",
+    "person:beryl-pimblott",
+    "person:harley-prowse",
+    "person:tony-elson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "industry",
+    "transport",
+    "gis"
+  ],
+  "sources": []
+}

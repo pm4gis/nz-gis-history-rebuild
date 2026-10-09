@@ -1,0 +1,35 @@
+{
+  "id": "entity:emerging-spatial-professionals-nz",
+  "slug": "emerging-spatial-professionals-nz",
+  "name": "Emerging Spatial Professionals NZ",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/emerging-spatial-professionals-nz/",
+  "website": null,
+  "story": [
+    "The emerging-professionals network developed around 2015. It organised networking, career events and professional support for people entering spatial work.",
+    "The group also contributed to national workforce research: Emerging Spatial Professionals was one of six organisations represented on the GISS Committee behind the 2023 Geospatial Industry Profile Survey. This connects early-career practitioners with wider evidence about skills and employment in the sector.",
+    "Emerging Spatial Professionals NZ is a volunteer-run professional networking group for people beginning careers in the spatial industry. LINZ describes its activities as including career talks, meetups and mini-conferences, while OSGeo Oceania records a 2026 careers evening at the University of Auckland that brought students, recent graduates and experienced practitioners together."
+  ],
+  "sources": [
+    {
+      "label": "Emerging Spatial Professionals history",
+      "url": "https://www.linkedin.com/pulse/early-gis-careers-nzesp-update-nathan-heazlewood"
+    },
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    },
+    {
+      "label": "OSGeo Oceania, Emerging Spatial Professionals New Zealand careers evening, 17 August 2026",
+      "url": "https://osgeo-oceania.org/news/"
+    }
+  ],
+  "aliases": [
+    "Emerging Spatial Professionals NZ"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

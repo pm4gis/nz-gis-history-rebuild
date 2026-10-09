@@ -1,0 +1,44 @@
+{
+  "id": "person:mary-sutherland",
+  "slug": "mary-sutherland",
+  "name": "Mary Sutherland",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mary-sutherland/",
+  "story": [
+    "Mary Sutherland was the first woman in the United Kingdom to complete a forestry BSc and became New Zealand's first forestry assistant in 1923. Her work included botanical research, including a 1934 paper on pines. After working at the Dominion Museum, she became the Department of Agriculture's farm forestry officer in 1946, planning plantations, inspecting sites and writing about trees on farms.",
+    "Mary Sutherland was a professionally qualified forester whose 1923–32 work included technical calculation and laboratory duties while accommodation rules limited field deployment."
+  ],
+  "sources": [
+    {
+      "label": "Dictionary of New Zealand Biography / Te Ara, Mary Sutherland",
+      "url": "https://teara.govt.nz/en/biographies/4s58/sutherland-mary/print"
+    },
+    {
+      "label": "Mary Sutherland · career/profile reference",
+      "url": "https://www.royalsociety.org.nz/150th-anniversary/150-women-in-150-words/1918-1967/mary-sutherland"
+    }
+  ],
+  "aliases": [
+    "Mary Sutherland"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Mary Sutherland · career/profile reference",
+        "url": "https://www.royalsociety.org.nz/150th-anniversary/150-women-in-150-words/1918-1967/mary-sutherland"
+      }
+    ],
+    [
+      {
+        "label": "Dictionary of New Zealand Biography / Te Ara, Mary Sutherland",
+        "url": "https://teara.govt.nz/en/biographies/4s58/sutherland-mary/print"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "entity:te-kahui-manu-hokai-maori-gis-association",
+  "slug": "te-kahui-manu-hokai-maori-gis-association",
+  "name": "Te Kāhui Manu Hōkai Māori GIS Association",
+  "kind": "Organisation",
+  "category": "Iwi and Māori organisations",
+  "url": "/entities/te-kahui-manu-hokai-maori-gis-association/",
+  "website": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks",
+  "story": [
+    "Te Kāhui Manu Hōkai is the Māori GIS Association, a professional and community network supporting Māori participation in geographic information work. LINZ identifies it among New Zealand’s geospatial communities and records its collaboration on practical mapping wānanga.",
+    "From October 2020, Te Kāhui Manu Hōkai worked with LINZ on Ngā Poutama Matawhenua sessions, with support from GIS Journey Limited. The programme links practical GIS learning to iwi, Māori trusts and environmental groups.",
+    "The association’s collaboration brought Māori-led expertise into a programme supported by LINZ and GIS Journey, with regular wānanga shaped around the mapping needs of participating groups."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    },
+    {
+      "label": "LINZ Annual Report 2020/21",
+      "url": "https://www.linz.govt.nz/sites/default/files/corp/toitu-te-whenua_annual-report-20-21-a11y-web_20211201.pdf"
+    }
+  ],
+  "aliases": [
+    "Te Kāhui Manu Hōkai Māori GIS Association",
+    "Te Kāhui Manu Hōkai",
+    "Māori GIS Association"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

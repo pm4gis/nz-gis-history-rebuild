@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-21-bfb7b389e7",
+  "slug": "from-coordination-to-sdi-bfb7b389e7",
+  "articleId": "article:chapter-21",
+  "title": "From coordination to SDI",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 2009 the spatial-infrastructure concept was also being tied to economic policy. The report Spatial Information in the New Zealand Economy described modern SDIs as combinations of open standards, distributed data maintained at source, government coordination and user-driven development. It drew on Open Geospatial Consortium interface standards and ISO geographic-information standards as examples of the mechanisms through which distributed systems could communicate.",
+      "markdown": "By 2009 the spatial-infrastructure concept was also being tied to economic policy. The report Spatial Information in the New Zealand Economy described modern SDIs as combinations of open standards, distributed data maintained at source, government coordination and user-driven development. It drew on Open Geospatial Consortium interface standards and ISO geographic-information standards as examples of the mechanisms through which distributed systems could communicate.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The language could become technical quickly: WMS for map images, WFS for feature data, catalogue services for discovery, GML for structured geographic exchange and ISO standards for metadata and feature definitions. New Zealand did not need every GIS user to understand all of these specifications. It needed public systems to use compatible approaches often enough that data could cross organisational boundaries without a custom conversion project each time.",
+      "markdown": "The language could become technical quickly: WMS for map images, WFS for feature data, catalogue services for discovery, GML for structured geographic exchange and ISO standards for metadata and feature definitions. New Zealand did not need every GIS user to understand all of these specifications. It needed public systems to use compatible approaches often enough that data could cross organisational boundaries without a custom conversion project each time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In December 2010 Cabinet agreed that LINZ should lead further work on the design and implementation of a national spatial data infrastructure. LINZ’s 2010/11 annual report described the SDI as a way of connecting geospatial information with users. This was a further implementation decision, not a declaration that the infrastructure had been completed.",
+      "markdown": "In December 2010 Cabinet agreed that LINZ should lead further work on the design and implementation of a national spatial data infrastructure. LINZ’s 2010/11 annual report described the SDI as a way of connecting geospatial information with users. This was a further implementation decision, not a declaration that the infrastructure had been completed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same annual report provides a useful practical example from Auckland. LINZ worked with the Auckland Policy Office on a spatial viewer for planning the new Auckland city structure. Ten central-government agencies and others were able to share and reuse more than 480 data layers. The viewer itself was an application, but the work depended on the infrastructure problem underneath it: data created by many organisations had to be brought together for a common planning task.",
+      "markdown": "The same annual report provides a useful practical example from Auckland. LINZ worked with the Auckland Policy Office on a spatial viewer for planning the new Auckland city structure. Ten central-government agencies and others were able to share and reuse more than 480 data layers. The viewer itself was an application, but the work depended on the infrastructure problem underneath it: data created by many organisations had to be brought together for a common planning task.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

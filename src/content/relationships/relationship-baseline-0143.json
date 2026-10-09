@@ -1,0 +1,13 @@
+{
+  "id": "relationship:baseline-0143",
+  "a": "entity:new-zealand-esri-users-group",
+  "b": "chapter:12",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-12-eb1fae3cf8",
+    "passage:chapter-12-db33362cb9",
+    "passage:chapter-12-b0f15360d7"
+  ],
+  "sources": []
+}

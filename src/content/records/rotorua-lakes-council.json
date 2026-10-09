@@ -1,0 +1,25 @@
+{
+  "id": "entity:rotorua-lakes-council",
+  "slug": "rotorua-lakes-council",
+  "name": "Rotorua Lakes Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/rotorua-lakes-council/",
+  "website": "https://www.rotorualakescouncil.nz",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Rotorua Lakes Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

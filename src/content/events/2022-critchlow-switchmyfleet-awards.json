@@ -1,0 +1,27 @@
+{
+  "id": "2022-critchlow-switchmyfleet-awards",
+  "dateDisplay": "2022-02-10",
+  "startDate": "2022-02-10",
+  "datePrecision": "day",
+  "year": 2022,
+  "label": "SwitchMyFleet wins the New Zealand Technical Excellence award",
+  "summary": "Critchlow’s SwitchMyFleet received the 2021 Spatial Excellence Award for Technical Excellence; the ceremony took place in February 2022.",
+  "url": "/stories/an-industry-and-community-form/#a-mixed-software-market-75032ec60f",
+  "passageIds": [
+    "passage:chapter-12-75032ec60f"
+  ],
+  "recordIds": [
+    "entity:critchlow",
+    "chapter:12",
+    "entity:custom-software-quickmap",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "themeIds": [],
+  "categories": [
+    "business",
+    "award",
+    "route-optimisation"
+  ],
+  "sources": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0645",
+  "a": "person:rere-no-a-rangi-pope",
+  "b": "chapter:44",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-44-ebb70c2c9a"
+  ],
+  "sources": []
+}

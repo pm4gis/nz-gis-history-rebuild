@@ -1,0 +1,35 @@
+{
+  "id": "person:merrin-pearse",
+  "slug": "merrin-pearse",
+  "name": "Merrin Pearse",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/merrin-pearse/",
+  "story": [
+    "Merrin Pearse worked on the realisation of NZGD2000, while John Beavan at the Institute of Geological and Nuclear Sciences contributed to the deformation modelling."
+  ],
+  "sources": [
+    {
+      "label": "Merrin Pearse - Coordinate4u | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/merrinpearse"
+    },
+    {
+      "label": "Chapter 19 · Designing NZGD2000",
+      "url": "/stories/rebuilding-the-coordinate-framework/"
+    }
+  ],
+  "aliases": [
+    "Merrin Pearse"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 19 · Designing NZGD2000",
+        "url": "/stories/rebuilding-the-coordinate-framework/"
+      }
+    ]
+  ]
+}

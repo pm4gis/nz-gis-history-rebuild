@@ -1,0 +1,37 @@
+{
+  "id": "2017-ogc-palmerston-north",
+  "dateDisplay": "4–8 December 2017",
+  "startDate": "2017-12-04",
+  "endDate": "2017-12-08",
+  "datePrecision": "day",
+  "year": 2017,
+  "label": "OGC committee meeting in Palmerston North",
+  "summary": "Manaaki Whenua hosted the 105th Technical and Planning Committee meeting, with open summits on environmental-data interoperability and agritech.",
+  "url": "/stories/the-spatial-infrastructure-idea/#ogc-in-palmerston-north-71400a2800",
+  "passageIds": [
+    "passage:chapter-21-71400a2800"
+  ],
+  "recordIds": [
+    "entity:manaaki-whenua-landcare-research",
+    "chapter:21",
+    "person:david-medyckyj-scott"
+  ],
+  "themeIds": [],
+  "categories": [
+    "standards"
+  ],
+  "sources": [
+    {
+      "label": "James Barringer, Manaaki Whenua contribution to Cartographic Activities in New Zealand 2015–2019, printed pp.30–31: OGC meeting and summits",
+      "url": "https://icaci.org/files/documents/national_reports/2015-2019/newzealand-2019_lq.pdf"
+    },
+    {
+      "label": "OGC historical events directory: 105th Member Meeting, Palmerston North, New Zealand, 2017",
+      "url": "https://portal.ogc.org/meet/ogcmeet/events/"
+    },
+    {
+      "label": "James Barringer, Manaaki Whenua contribution to Cartographic Activities in New Zealand 2015–2019, printed pp.30–31: OGC meeting and summits",
+      "url": "https://icaci.org/files/documents/national_reports/2015-2019/newzealand-2019_lq.pdf"
+    }
+  ]
+}

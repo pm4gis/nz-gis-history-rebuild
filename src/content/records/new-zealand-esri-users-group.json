@@ -1,0 +1,37 @@
+{
+  "id": "entity:new-zealand-esri-users-group",
+  "slug": "new-zealand-esri-users-group",
+  "name": "New Zealand Esri Users Group",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/new-zealand-esri-users-group/",
+  "website": null,
+  "story": [
+    "The user group provided a national community around Esri GIS, with annual conferences, regional activity and volunteer governance. Its own history dates its foundation to 1992; other recovered accounts describe early meetings and the developing conference sequence. Official 2010 AGM minutes name Igor Albornett, Tony Standen, Kilmeny Stephens and Chris Holden as the executive. The history also follows the regional meetings and electronic exchanges through which members supported one another between conferences.",
+    "The group's governance and practitioner activity are independent of Esri and Eagle. Distributor support for conferences or user activity did not give either company ownership of the professional community.",
+    "The group also contributed to national workforce research: the 2023 GIS Survey Committee included the New Zealand Esri Users Group among the organisations that developed the Geospatial Industry Profile Survey. This links the practitioner community to an industry-wide evidence base."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand ESRI Users Group, 2010 Annual General Meeting Minutes"
+    },
+    {
+      "label": "Eagle Technology, 2017 New Zealand Esri User Conference Sponsorship and Exhibitor Prospectus",
+      "url": "https://www.eagle.co.nz/sites/default/files/2017_Sponsor_Brochure_0.pdf"
+    },
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "New Zealand Esri Users Group"
+  ],
+  "themeIds": [
+    "women-in-gis",
+    "profession"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

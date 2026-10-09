@@ -1,0 +1,36 @@
+{
+  "id": "entity:dunedin-city-council",
+  "slug": "dunedin-city-council",
+  "name": "Dunedin City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/dunedin-city-council/",
+  "website": "https://www.dunedin.govt.nz",
+  "story": [
+    "Dunedin City Council’s City Consultants GIS analysts prepared mapping for the 1998 Lifelines Project. By August 2005, its public ArcIMS WebMap linked property maps to rating information. These projects served infrastructure assessment and public property enquiries respectively."
+  ],
+  "sources": [
+    {
+      "label": "Dunedin City Lifelines Project Report",
+      "url": "https://www.dunedin.govt.nz/__data/assets/pdf_file/0006/1234896/dunedin-city-lifelines-project-report-december-1998.pdf"
+    },
+    {
+      "label": "Dunedin City Council WebMap User Help",
+      "url": "https://www.dunedin.govt.nz/WebMap/webmaphelp.htm"
+    },
+    {
+      "label": "City of Dunedin WebMap printout retained with property records",
+      "url": "https://psuiteapp.s3-ap-southeast-2.amazonaws.com/tallpoppy.propertysuite.co.nz/admin_docs/property/28920/images/715869.pdf"
+    }
+  ],
+  "aliases": [
+    "Dunedin City Council"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

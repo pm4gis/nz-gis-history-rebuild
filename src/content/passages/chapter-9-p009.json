@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-9-6f573a5416",
+  "slug": "hazards-on-the-same-map-6f573a5416",
+  "articleId": "article:chapter-9",
+  "title": "Hazards on the same map",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9",
+    "entity:university-of-otago"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Geological science also moved toward systems intended for use outside the research institution. In 1993 researchers from the University of Otago, the Institute of Geological and Nuclear Sciences and local-authority interests proposed the Dunedin Pilot Hazards Information System. The following year a trial used Arc/Info to bring natural-hazard, topographic and cadastral information into one spatial environment. The project belonged partly to science and partly to the emerging information requirements of councils.",
+      "markdown": "Geological science also moved toward systems intended for use outside the research institution. In 1993 researchers from the University of Otago, the Institute of Geological and Nuclear Sciences and local-authority interests proposed the Dunedin Pilot Hazards Information System. The following year a trial used Arc/Info to bring natural-hazard, topographic and cadastral information into one spatial environment. The project belonged partly to science and partly to the emerging information requirements of councils.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The system allowed geological and hazard evidence to be related to the places where planning and building decisions were being made. A hazard zone could be viewed with property or topographic information rather than remaining inside a specialist report. The scientific interpretation still required geologists and other specialists, while GIS provided a way to organise and distribute the spatial result. Later chapters take up hazards and operational emergency mapping in much greater depth, so the Dunedin pilot is best read here as an example of scientific GIS crossing into administrative use.",
+      "markdown": "The system allowed geological and hazard evidence to be related to the places where planning and building decisions were being made. A hazard zone could be viewed with property or topographic information rather than remaining inside a specialist report. The scientific interpretation still required geologists and other specialists, while GIS provided a way to organise and distribute the spatial result. Later chapters take up hazards and operational emergency mapping in much greater depth, so the Dunedin pilot is best read here as an example of scientific GIS crossing into administrative use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This kind of transfer altered the audience for scientific maps. A geological map made primarily for geologists could contain conventions understood by trained readers. A hazards information system had to connect technical interpretation with people making land-use or building decisions. GIS made that connection easier technically while increasing the need for clear metadata, classification and explanation of uncertainty.",
+      "markdown": "This kind of transfer altered the audience for scientific maps. A geological map made primarily for geologists could contain conventions understood by trained readers. A hazards information system had to connect technical interpretation with people making land-use or building decisions. GIS made that connection easier technically while increasing the need for clear metadata, classification and explanation of uncertainty.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

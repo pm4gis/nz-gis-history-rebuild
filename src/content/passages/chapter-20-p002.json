@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-20-bfa2694dc2",
+  "slug": "from-project-image-to-gis-layer-bfa2694dc2",
+  "articleId": "article:chapter-20",
+  "title": "From project image to GIS layer",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "An orthophoto produced for one engineering scheme could be valuable without becoming general infrastructure. Its coverage might be limited to the project area, the flying date chosen for one purpose and the product delivered as a set of sheets or files used by a small technical group. Reuse was possible, but it depended on somebody knowing the imagery existed, being able to retrieve it and having compatible equipment and coordinate information.",
+      "markdown": "An orthophoto produced for one engineering scheme could be valuable without becoming general infrastructure. Its coverage might be limited to the project area, the flying date chosen for one purpose and the product delivered as a set of sheets or files used by a small technical group. Reuse was possible, but it depended on somebody knowing the imagery existed, being able to retrieve it and having compatible equipment and coordinate information.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Taranaki",
+      "caption": "Taranaki. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS changed the demand placed on the imagery. Once councils and government agencies had digital property, road, planning, utility and environmental layers, a geometrically corrected photograph became useful to many teams at once. The same coverage could provide visible context beneath parcel boundaries, zoning, stormwater assets, road centrelines, vegetation, waterways and proposed developments. Staff no longer needed to commission new photography each time a different department wanted to see the ground behind its data.",
+      "markdown": "GIS changed the demand placed on the imagery. Once councils and government agencies had digital property, road, planning, utility and environmental layers, a geometrically corrected photograph became useful to many teams at once. The same coverage could provide visible context beneath parcel boundaries, zoning, stormwater assets, road centrelines, vegetation, waterways and proposed developments. Staff no longer needed to commission new photography each time a different department wanted to see the ground behind its data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The image also offered a way of checking other records. A road shown in the database could be compared with the visible carriageway. Buildings could be seen against parcel and address information. A river that had shifted since an older survey might be obvious on recent photography even if the vector line had not yet been revised. The imagery did not automatically determine which dataset was legally or technically authoritative, but it made discrepancies easier to find.",
+      "markdown": "The image also offered a way of checking other records. A road shown in the database could be compared with the visible carriageway. Buildings could be seen against parcel and address information. A river that had shifted since an older survey might be obvious on recent photography even if the vector line had not yet been revised. The imagery did not automatically determine which dataset was legally or technically authoritative, but it made discrepancies easier to find.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Wider GIS use required imagery with consistent geometry, coverage and delivery arrangements. Users needed to know when it had been flown, how accurately it had been rectified, which coordinate system it used, whether all of the region had been captured and how adjacent photographs had been joined. A visually attractive image without this information could still be awkward to use as a shared GIS layer.",
+      "markdown": "Wider GIS use required imagery with consistent geometry, coverage and delivery arrangements. Users needed to know when it had been flown, how accurately it had been rectified, which coordinate system it used, whether all of the region had been captured and how adjacent photographs had been joined. A visually attractive image without this information could still be awkward to use as a shared GIS layer.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

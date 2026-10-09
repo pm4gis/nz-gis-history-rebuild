@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1109",
+  "a": "person:duane-wilkins",
+  "b": "entity:new-zealand-police",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

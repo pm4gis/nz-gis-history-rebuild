@@ -1,0 +1,21 @@
+{
+  "id": "entity:scion-forest-research",
+  "slug": "scion-forest-research",
+  "name": "Scion / Forest Research",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/scion-forest-research/",
+  "website": null,
+  "story": [
+    "Forestry research linked growth models, inventory and geographic information. The Forest Research and later Scion lineage contributed methods and systems used by forest managers and commercial service providers. GIS helped connect models with the actual stands, terrain and conditions to which a management decision applied."
+  ],
+  "sources": [],
+  "aliases": [
+    "Scion",
+    "Forest Research"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

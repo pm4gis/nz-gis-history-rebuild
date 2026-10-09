@@ -1,0 +1,29 @@
+{
+  "id": "1989-mackenzie-ecological-gis",
+  "dateDisplay": "1989",
+  "startDate": "1989",
+  "datePrecision": "year",
+  "year": 1989,
+  "label": "Mackenzie ecological GIS described",
+  "summary": "Espie and Hall described a microcomputer GIS for Protected Natural Areas survey information.",
+  "url": "/stories/science-goes-spatial/#mackenzie-ecological-gis-1989-9e3246d100",
+  "passageIds": [
+    "passage:chapter-9-9e3246d100"
+  ],
+  "recordIds": [
+    "person:peter-espie",
+    "person:graeme-hall",
+    "chapter:9"
+  ],
+  "themeIds": [],
+  "categories": [
+    "GIS",
+    "research"
+  ],
+  "sources": [
+    {
+      "label": "Peter Espie and Graeme Hall, Management applications using the Mackenzie PNA database, New Zealand Journal of Ecology 12, 1989, p.128",
+      "url": "https://newzealandecology.org/nzje/1825"
+    }
+  ]
+}

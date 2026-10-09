@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-43-94f9a79d1f",
+  "slug": "teaching-the-desktop-the-sequence-94f9a79d1f",
+  "articleId": "article:chapter-43",
+  "title": "Teaching the desktop the sequence",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 2001 Waikato public-health study described in Chapter 27 reported ArcView Avenue being used to automate map-production steps that would otherwise have required repeated selecting, calculation and map construction. Health-event maps for the Waikato Health Region could be produced in less than a minute at the most detailed scale used in the study.",
+      "markdown": "The 2001 Waikato public-health study described in Chapter 27 reported ArcView Avenue being used to automate map-production steps that would otherwise have required repeated selecting, calculation and map construction. Health-event maps for the Waikato Health Region could be produced in less than a minute at the most detailed scale used in the study.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The speed changed how the system could be used. A disease, time period or geographic scale could be changed and the process rerun without rebuilding the analysis from the beginning. That made mapping more useful for surveillance rather than only for occasional presentation. The underlying workflow still depended on geocoding quality, Census population data, privacy controls and decisions about which records were reliable enough to include. The script automated operations. It did not decide whether a doubtful address belonged in the analysis.",
+      "markdown": "The speed changed how the system could be used. A disease, time period or geographic scale could be changed and the process rerun without rebuilding the analysis from the beginning. That made mapping more useful for surveillance rather than only for occasional presentation. The underlying workflow still depended on geocoding quality, Census population data, privacy controls and decisions about which records were reliable enough to include. The script automated operations. It did not decide whether a doubtful address belonged in the analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Avenue was only one scripting environment in a period when GIS products increasingly included ways to record commands, write macros or extend the desktop. ARC/INFO had AML, MapInfo had MapBasic, ArcView had Avenue, and later desktop environments added graphical processing models and general-purpose scripting. New Zealand practitioners automated GIS work using several languages and software environments. An analyst carrying out the same twenty operations every week had a practical reason to encode the sequence, whatever language or tool was available.",
+      "markdown": "Avenue was only one scripting environment in a period when GIS products increasingly included ways to record commands, write macros or extend the desktop. ARC/INFO had AML, MapInfo had MapBasic, ArcView had Avenue, and later desktop environments added graphical processing models and general-purpose scripting. New Zealand practitioners automated GIS work using several languages and software environments. An analyst carrying out the same twenty operations every week had a practical reason to encode the sequence, whatever language or tool was available.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

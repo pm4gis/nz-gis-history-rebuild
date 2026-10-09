@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0726",
+  "a": "person:albert-chong",
+  "b": "chapter:18",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-18-6482c1e00e"
+  ],
+  "sources": []
+}

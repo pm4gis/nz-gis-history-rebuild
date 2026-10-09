@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-4-0f88b9975a",
+  "slug": "snow-forests-and-large-areas-0f88b9975a",
+  "articleId": "article:chapter-4",
+  "title": "Snow, forests and large areas",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:4"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Snow studies demonstrate why relatively coarse satellite imagery could be useful. A field measurement provided detailed information at one location, while an aircraft survey could cover a larger area when a flight was available. Landsat repeatedly covered broad areas using the same sensor system. Researchers could register successive scenes and compare the mapped extent of snow across a catchment or mountain region.",
+      "markdown": "Snow studies demonstrate why relatively coarse satellite imagery could be useful. A field measurement provided detailed information at one location, while an aircraft survey could cover a larger area when a flight was available. Landsat repeatedly covered broad areas using the same sensor system. Researchers could register successive scenes and compare the mapped extent of snow across a catchment or mountain region.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same scale suited some forestry and land-cover work. Landsat did not provide the detail of low-altitude aerial photography, but it covered large areas consistently and could be processed using the same numerical methods from one scene to the next. Resolution had to match the question being asked. A regional vegetation pattern or snow-covered catchment did not require individual trees or small property features to be visible.",
+      "markdown": "The same scale suited some forestry and land-cover work. Landsat did not provide the detail of low-altitude aerial photography, but it covered large areas consistently and could be processed using the same numerical methods from one scene to the next. Resolution had to match the question being asked. A regional vegetation pattern or snow-covered catchment did not require individual trees or small property features to be visible.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Repeated acquisition also produced an archive rather than a single survey. Later scenes could be compared with earlier ones, provided the geometry and processing were controlled well enough. That gave researchers a way to examine change using observations collected by the same broad sensing system. The archive increased steadily as more scenes were acquired, which also increased the need for cataloguing, storage and consistent processing records.",
+      "markdown": "Repeated acquisition also produced an archive rather than a single survey. Later scenes could be compared with earlier ones, provided the geometry and processing were controlled well enough. That gave researchers a way to examine change using observations collected by the same broad sensing system. The archive increased steadily as more scenes were acquired, which also increased the need for cataloguing, storage and consistent processing records.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

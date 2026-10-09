@@ -1,0 +1,17 @@
+{
+  "id": "chapter:33",
+  "articleId": "article:chapter-33",
+  "slug": "open-data-changes-access",
+  "name": "Open spatial data",
+  "kind": "Story",
+  "category": "Web mapping",
+  "url": "/stories/open-data-changes-access/",
+  "description": "By the early 2000s New Zealanders could already see a surprising amount of geographic information on the web. Statistics New Zealand had a free Census WebMap by March 2002. Councils were putting property and planning information into browser viewers. Government agencies were learning that a useful map no longer had to sit on a specialist workstation. Yet being able to look at a map was not the same as being able to t",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "open-practice",
+    "women-in-gis"
+  ]
+}

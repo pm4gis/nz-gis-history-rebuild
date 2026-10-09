@@ -1,0 +1,29 @@
+{
+  "id": "entity:canterbury-earthquake-recovery-authority-cera",
+  "slug": "canterbury-earthquake-recovery-authority-cera",
+  "name": "Canterbury Earthquake Recovery Authority (CERA)",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/canterbury-earthquake-recovery-authority-cera/",
+  "website": null,
+  "story": [
+    "CERA’s spatial-data infrastructure supported a recovery programme involving many agencies and rapidly changing information. Stephen Ferriss and Martin Erasmuson’s March 2016 whitepaper records its governance and cloud architecture. Public lookup services and secure information-sharing addressed different needs, while the organisation also had to plan how its systems and records would continue after CERA closed."
+  ],
+  "sources": [
+    {
+      "label": "Ferriss, S. and Erasmuson, M., The Canterbury Earthquake Recovery Authority Spatial Data Infrastructure",
+      "url": "https://www.dpmc.govt.nz/sites/default/files/2024-04/the_cera_spatial_data_infrastructure_whitepaper_0.pdf"
+    },
+    {
+      "label": "CERA media release, Landcheck site notches up ten million hits",
+      "url": "https://www.dpmc.govt.nz/sites/default/files/2024-04/landcheck-site-notches-up-ten-million-hits-16-september-2011.pdf"
+    }
+  ],
+  "aliases": [
+    "Canterbury Earthquake Recovery Authority (CERA)"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

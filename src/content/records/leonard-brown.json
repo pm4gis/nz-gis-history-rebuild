@@ -1,0 +1,44 @@
+{
+  "id": "person:leonard-brown",
+  "slug": "leonard-brown",
+  "name": "Leonard Brown",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/leonard-brown/",
+  "story": [
+    "In Gisborne, John Dymond, M. J. Page and L. J. Brown used Landsat TM imagery to prepare 1:100,000 vegetation mapping during debate over a forestry incentive scheme. The classification was compared with vegetation information already held in GIS, much of it roughly twenty years old, and the largest discrepancies were taken back into the field. Some represented real landscape change and some were classification error. After field correction the reported overall accuracy rose from 84 to 90 per cent.",
+    "Leonard Brown’s 1995 Massey University doctoral work combined remote sensing, digital image processing and GIS to investigate resource-management questions in Westland, including alluvial gold mining and indigenous forest. Other mid-1990s Massey work used digital image analysis and GIS to examine land-use change on the Hautere Plains. These projects were no longer demonstrations that a satellite could see New Zealand. They treated imagery as evidence that could be analysed with other geographic information to answer a specific land-management question."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 9 · The CRI reorganisation",
+      "url": "/stories/science-goes-spatial/"
+    },
+    {
+      "label": "Chapter 36 · From experiment to working method",
+      "url": "/stories/earth-observation-becomes-routine/"
+    }
+  ],
+  "aliases": [
+    "Leonard Brown",
+    "L. J. Brown",
+    "Leonard John Brown"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 9 · The CRI reorganisation",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 36 · From experiment to working method",
+        "url": "/stories/earth-observation-becomes-routine/"
+      }
+    ]
+  ]
+}

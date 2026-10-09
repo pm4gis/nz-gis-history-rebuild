@@ -1,0 +1,42 @@
+{
+  "id": "person:stephen-ferriss",
+  "slug": "stephen-ferriss",
+  "name": "Stephen Ferriss",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/stephen-ferriss/",
+  "story": [
+    "Stephen Ferriss was CERA’s Data and GIS Manager during the earthquake recovery. The 2016 whitepaper he co-authored with Martin Erasmuson describes the authority’s spatial-data infrastructure, partnerships with data custodians and rapidly delivered public map services. Its author biography records his oversight of the SDI and support for the wider stakeholder community, drawing on surveying and public- and private-sector GIS experience.",
+    "Stephen Ferriss and Martin Erasmuson documented the CERA spatial data infrastructure in a March 2016 business whitepaper. Ferriss was CERA’s Data and GIS Manager and had overseen the infrastructure’s continuing development and support for the wider stakeholder community. Their account explains the work of connecting organisations, establishing access and maintaining services during recovery. It identifies the management and information-sharing work behind the datasets and viewers used across Canterbury."
+  ],
+  "sources": [
+    {
+      "label": "Stephen Ferriss and Martin Erasmuson, CERA Spatial Data Infrastructure whitepaper, March 2016",
+      "url": "https://www.dpmc.govt.nz/sites/default/files/2024-04/the_cera_spatial_data_infrastructure_whitepaper_0.pdf"
+    },
+    {
+      "label": "Chapter 42 · Canterbury exposes the gaps",
+      "url": "/stories/the-real-time-map/"
+    }
+  ],
+  "aliases": [
+    "Stephen Ferriss"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Stephen Ferriss and Martin Erasmuson, CERA Spatial Data Infrastructure whitepaper, March 2016",
+        "url": "https://www.dpmc.govt.nz/sites/default/files/2024-04/the_cera_spatial_data_infrastructure_whitepaper_0.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 42 · Canterbury exposes the gaps",
+        "url": "/stories/the-real-time-map/"
+      }
+    ]
+  ]
+}

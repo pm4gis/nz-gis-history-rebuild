@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-5-8870229b0c",
+  "slug": "the-mainframe-database-8870229b0c",
+  "articleId": "article:chapter-5",
+  "title": "The mainframe database",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the early 1980s NZLRI data were held on an IBM 3033 at the Vogel Computer Centre in Wellington. The stored boundaries used New Zealand Map Grid coordinates, allowing the land units to be managed as national spatial data rather than as unrelated local drawings. The associated resource descriptions could be extracted into tables, while selected geographic information could be sent to plotting routines. LADEDA provided the retrieval and processing layer between the stored records and the maps or reports produced from them.",
+      "markdown": "By the early 1980s NZLRI data were held on an IBM 3033 at the Vogel Computer Centre in Wellington. The stored boundaries used New Zealand Map Grid coordinates, allowing the land units to be managed as national spatial data rather than as unrelated local drawings. The associated resource descriptions could be extracted into tables, while selected geographic information could be sent to plotting routines. LADEDA provided the retrieval and processing layer between the stored records and the maps or reports produced from them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The working environment was far removed from later desktop GIS. Users did not have a national dataset continuously visible in a modern graphical interface with instant pan and zoom. Mainframe processing, file preparation and plotting imposed more structured workflows. The existence of the 1982 plotting handbook indicates that producing mapped output had enough commands, conventions and operational detail to require dedicated user documentation.",
+      "markdown": "The working environment was far removed from later desktop GIS. Users did not have a national dataset continuously visible in a modern graphical interface with instant pan and zoom. Mainframe processing, file preparation and plotting imposed more structured workflows. The existence of the 1982 plotting handbook indicates that producing mapped output had enough commands, conventions and operational detail to require dedicated user documentation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The separation between database and output was already clear. A paper NZLRI sheet showed one cartographic presentation of the inventory. The digital system could extract a subset from the stored polygons and descriptions and produce a different plot for a particular land-resource question. A user interested in erosion, slope or another coded characteristic did not need a new national field survey or a fresh round of manual tracing before every map could be produced.",
+      "markdown": "The separation between database and output was already clear. A paper NZLRI sheet showed one cartographic presentation of the inventory. The digital system could extract a subset from the stored polygons and descriptions and produce a different plot for a particular land-resource question. A user interested in erosion, slope or another coded characteristic did not need a new national field survey or a fresh round of manual tracing before every map could be produced.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That capability depended on standardised coding. The compact NZLRI descriptions had to be consistent enough for a computer to retrieve comparable records from different parts of the country. A spelling variation or informal local notation that a human reader might understand could become a retrieval problem in a database. The work of designing and maintaining the codes therefore sat alongside the geometry and plotting software.",
+      "markdown": "That capability depended on standardised coding. The compact NZLRI descriptions had to be consistent enough for a computer to retrieve comparable records from different parts of the country. A spelling variation or informal local notation that a human reader might understand could become a retrieval problem in a database. The work of designing and maintaining the codes therefore sat alongside the geometry and plotting software.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

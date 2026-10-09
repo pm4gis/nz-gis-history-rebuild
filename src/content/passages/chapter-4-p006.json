@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-4-9f0c8aa526",
+  "slug": "classification-9f0c8aa526",
+  "articleId": "article:chapter-4",
+  "title": "Classification",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:4"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Cluster analysis was one of the methods used to group pixels with similar spectral characteristics. Other processing combined or compared bands to make particular land-cover differences easier to see. A classified output could then be plotted as a thematic map rather than as a conventional photographic image. The boundaries were generated from the numerical data and the classification method, although analysts still had to decide how the resulting groups should be interpreted and labelled.",
+      "markdown": "Cluster analysis was one of the methods used to group pixels with similar spectral characteristics. Other processing combined or compared bands to make particular land-cover differences easier to see. A classified output could then be plotted as a thematic map rather than as a conventional photographic image. The boundaries were generated from the numerical data and the classification method, although analysts still had to decide how the resulting groups should be interpreted and labelled.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This created a different production sequence from conventional thematic cartography. In a traditional mapping project, an interpreter might identify categories from field observations, photographs and other records, then draw or compile the boundaries. In digital image classification, the computer could help derive candidate groups across a large raster before the final categories were assigned. The method worked well where spectral differences corresponded closely with the classes of interest and less well where several land covers had similar responses. The resulting map still depended on classification rules and checking against known conditions.",
+      "markdown": "This created a different production sequence from conventional thematic cartography. In a traditional mapping project, an interpreter might identify categories from field observations, photographs and other records, then draw or compile the boundaries. In digital image classification, the computer could help derive candidate groups across a large raster before the final categories were assigned. The method worked well where spectral differences corresponded closely with the classes of interest and less well where several land covers had similar responses. The resulting map still depended on classification rules and checking against known conditions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "PEL researchers applied these methods to several sectors. Forestry work used Landsat to examine vegetation and forest patterns. Agricultural studies investigated crop and land-cover discrimination. Snow and hydrology research used repeated imagery to measure broad changes in snow extent, while land-resource work explored ways of combining remote observations with existing mapping. By the final Landsat II programme report, PEL had received dozens of New Zealand scenes and had built a substantial processing and distribution operation around them.",
+      "markdown": "PEL researchers applied these methods to several sectors. Forestry work used Landsat to examine vegetation and forest patterns. Agricultural studies investigated crop and land-cover discrimination. Snow and hydrology research used repeated imagery to measure broad changes in snow extent, while land-resource work explored ways of combining remote observations with existing mapping. By the final Landsat II programme report, PEL had received dozens of New Zealand scenes and had built a substantial processing and distribution operation around them.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

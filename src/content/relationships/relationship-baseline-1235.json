@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1235",
+  "a": "system:guild-on-the-web",
+  "b": "entity:manaaki-whenua-landcare-research",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

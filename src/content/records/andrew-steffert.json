@@ -1,0 +1,37 @@
+{
+  "id": "person:andrew-steffert",
+  "slug": "andrew-steffert",
+  "name": "Andrew Steffert",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/andrew-steffert/",
+  "story": [
+    "Andrew Steffert described Horizons’ floodplain mapping and LiDAR programme, including its development after the 2004 floods.",
+    "Andrew Steffert’s 2012 account explains the development of the Horizons Flood Plain Mapping Project following the February 2004 floods. The first LiDAR survey covered about 1,200 square kilometres in 2005, with later work extending the coverage."
+  ],
+  "sources": [
+    {
+      "label": "Andrew Steffert - Horizons Regional Council | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/andrew-steffert-775a0742"
+    },
+    {
+      "label": "Chapter 37 · Christchurch, July 2003",
+      "url": "/stories/lidar-remakes-the-landscape/"
+    }
+  ],
+  "aliases": [
+    "Andrew Steffert"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [],
+    [
+      {
+        "label": "Chapter 37 · Christchurch, July 2003",
+        "url": "/stories/lidar-remakes-the-landscape/"
+      }
+    ]
+  ]
+}

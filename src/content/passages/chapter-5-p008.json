@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-5-88a9400584",
+  "slug": "working-with-a-maintained-database-88a9400584",
+  "articleId": "article:chapter-5",
+  "title": "Working with a maintained database",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The NZLRI database also changed the sequence of work after the first map had been compiled. In a paper-only system, a revised interpretation could require changes to individual sheets, legends and derived maps. In the digital system, the maintained polygon and its coded description could be edited once and then used in later retrievals and plots. That made data maintenance part of ordinary production rather than a separate task performed only when a new printed edition was prepared.",
+      "markdown": "The NZLRI database also changed the sequence of work after the first map had been compiled. In a paper-only system, a revised interpretation could require changes to individual sheets, legends and derived maps. In the digital system, the maintained polygon and its coded description could be edited once and then used in later retrievals and plots. That made data maintenance part of ordinary production rather than a separate task performed only when a new printed edition was prepared.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same structure allowed one national dataset to support several outputs. A standard NZLRI sheet displayed a broad set of land-resource information, but the database could also be used to select only units meeting chosen criteria. A table could summarise the selected records while a plot showed where they occurred. The database did not need a separate geometry file for every subject because the same map units could be reused with different selections of their recorded attributes.",
+      "markdown": "The same structure allowed one national dataset to support several outputs. A standard NZLRI sheet displayed a broad set of land-resource information, but the database could also be used to select only units meeting chosen criteria. A table could summarise the selected records while a plot showed where they occurred. The database did not need a separate geometry file for every subject because the same map units could be reused with different selections of their recorded attributes.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This placed more weight on database discipline. A polygon had to remain linked to the correct resource description after editing, conversion or replotting. Codes had to retain the same meaning across regions and over time. New or revised information had to be inserted without breaking the relationships already used by other outputs. Work that had once been hidden inside cartographic compilation became explicit database maintenance.",
+      "markdown": "This placed more weight on database discipline. A polygon had to remain linked to the correct resource description after editing, conversion or replotting. Codes had to retain the same meaning across regions and over time. New or revised information had to be inserted without breaking the relationships already used by other outputs. Work that had once been hidden inside cartographic compilation became explicit database maintenance.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1982 LADEDA Plotting Handbook explained how to produce hard-copy maps from stored geographic information. Users could generate different plots from the same database, separating the maintained inventory from its printed presentation. Later GIS continued that approach.",
+      "markdown": "The 1982 LADEDA Plotting Handbook explained how to produce hard-copy maps from stored geographic information. Users could generate different plots from the same database, separating the maintained inventory from its printed presentation. Later GIS continued that approach.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The organisation of the NZLRI also made revision possible without abandoning the original national framework. New field observations or improved mapping could be incorporated into the maintained data while the broader coding system continued to provide national consistency. That did not make updates cheap. Every alteration still required scientific judgement, geometry checking and database control, and a change in one part of the inventory could affect later plots and analyses derived from it.",
+      "markdown": "The organisation of the NZLRI also made revision possible without abandoning the original national framework. New field observations or improved mapping could be incorporated into the maintained data while the broader coding system continued to provide national consistency. That did not make updates cheap. Every alteration still required scientific judgement, geometry checking and database control, and a change in one part of the inventory could affect later plots and analyses derived from it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The database therefore accumulated institutional memory. A map sheet recorded the result of a particular compilation, while the database held a structure that could continue to be queried and revised. Keeping that structure usable depended on documentation as well as software. Plotting manuals, data dictionaries, coding conventions and staff knowledge became part of the system even though they were less visible than the maps produced from it.",
+      "markdown": "The database therefore accumulated institutional memory. A map sheet recorded the result of a particular compilation, while the database held a structure that could continue to be queried and revised. Keeping that structure usable depended on documentation as well as software. Plotting manuals, data dictionaries, coding conventions and staff knowledge became part of the system even though they were less visible than the maps produced from it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

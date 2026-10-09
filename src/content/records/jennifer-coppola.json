@@ -1,0 +1,57 @@
+{
+  "id": "person:jennifer-coppola",
+  "slug": "jennifer-coppola",
+  "name": "Jennifer Coppola",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jennifer-coppola/",
+  "story": [
+    "Jennifer Coppola’s LINZ career profile records work as a Nautical Cartographer and later Hydrographic Surveyor. She described nautical chart production as specialised GIS and later undertook postgraduate geospatial study. Her record connects chart production, surveying and formal GIS education.",
+    "LINZ names Jennifer Coppola in its geospatial virtual field-trip record: Nautical Cartographer, LINZ, 2016 VFT.",
+    "A LINZ geospatial student or graduate profile records Jennifer Coppola: LINZ Hydrographic Surveyor; formerly Nautical Cartographer; Massey geospatial study."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Jennifer Coppola GIS student and graduate profile",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles/jennifer-coppola"
+    },
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    },
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Jennifer Coppola"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Jennifer Coppola GIS student and graduate profile",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles/jennifer-coppola"
+      },
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

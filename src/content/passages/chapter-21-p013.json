@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-21-1ed6dcfdbb",
+  "slug": "a-national-system-checks-itself-1ed6dcfdbb",
+  "articleId": "article:chapter-21",
+  "title": "A national system checks itself",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 2012 the government had a strategy, governance arrangements, standards work, metadata policy, data-distribution initiatives and Cabinet direction to establish an SDI. The New Zealand Geospatial Office then assessed how far the national system had actually developed. Its December 2012 State of Play report used a September 2012 baseline and adapted a European benchmarking method for New Zealand.",
+      "markdown": "By 2012 the government had a strategy, governance arrangements, standards work, metadata policy, data-distribution initiatives and Cabinet direction to establish an SDI. The New Zealand Geospatial Office then assessed how far the national system had actually developed. Its December 2012 State of Play report used a September 2012 baseline and adapted a European benchmarking method for New Zealand.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The assessment covered organisation, legal and funding arrangements, data, metadata, access and services, standards and cross-government coordination. It treated an SDI as a combination of technologies, policies, institutional arrangements, skills and information rather than as a particular portal or software product. That definition was consistent with the distributed model the strategy had been trying to establish.",
+      "markdown": "The assessment covered organisation, legal and funding arrangements, data, metadata, access and services, standards and cross-government coordination. It treated an SDI as a combination of technologies, policies, institutional arrangements, skills and information rather than as a particular portal or software product. That definition was consistent with the distributed model the strategy had been trying to establish.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The assessment scored forty-one criteria: twelve in agreement, eleven partially in agreement, seventeen outside agreement and one unknown. Organisational arrangements were comparatively strong. Data, metadata, standards and cross-government coordination still contained substantial gaps, and the report noted the absence of dedicated long-term funding for national SDI development.",
+      "markdown": "The assessment scored forty-one criteria: twelve in agreement, eleven partially in agreement, seventeen outside agreement and one unknown. Organisational arrangements were comparatively strong. Data, metadata, standards and cross-government coordination still contained substantial gaps, and the report noted the absence of dedicated long-term funding for national SDI development.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The report also distinguished having components from having a completed infrastructure. LINZ Data Service and Crown research institute portals were already supplying some national data. Governance structures existed, and public and private-sector participants were involved. Work on formal stewardship roles was under way. Other national datasets, metadata, services and coordination arrangements remained partial or inconsistent.",
+      "markdown": "The report also distinguished having components from having a completed infrastructure. LINZ Data Service and Crown research institute portals were already supplying some national data. Governance structures existed, and public and private-sector participants were involved. Work on formal stewardship roles was under way. Other national datasets, metadata, services and coordination arrangements remained partial or inconsistent.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

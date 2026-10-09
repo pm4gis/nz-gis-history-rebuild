@@ -1,0 +1,55 @@
+{
+  "id": "person:brent-wood",
+  "slug": "brent-wood",
+  "name": "Brent Wood",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/brent-wood/",
+  "story": [
+    "Brent Wood began at the Ministry of Fisheries in 1976 as a coastal fisheries technician. By the early 1980s he was writing programs to validate, manage and analyse research data. He subsequently worked in database administration and GIS before the ministry's fisheries research team joined NIWA in 1995. His later work has included marine biology databases, interactive data capture, spatial analysis, metadata and improving access to scientific datasets.",
+    "In October 2006 NIWA's Brent Wood described PostGIS running behind about half a dozen systems, with some datasets containing hundreds of millions of features. In December 2008 he described PostGIS, Apache and UMN MapServer as a standards-based web-mapping environment supporting WMS and WFS for maritime, fisheries, ecological and oceanographic work.",
+    "On 30 October 2006, Brent Wood described using PostGIS to manage spatial datasets containing up to hundreds of millions of features across about half a dozen systems. He also noted that he had recently used PostGIS during two weeks at sea. The message discussed an ordinary technical problem: NIWA was using an open-source spatial database in its operational work."
+  ],
+  "sources": [
+    {
+      "label": "Brent Wood · career/profile reference",
+      "url": "https://niwa.co.nz/people/brent-wood"
+    },
+    {
+      "label": "Chapter 9 · Catchment monitoring",
+      "url": "/stories/science-goes-spatial/"
+    },
+    {
+      "label": "Chapter 32 · Open source underneath the map",
+      "url": "/stories/open-source-changes-the-tools/"
+    }
+  ],
+  "aliases": [
+    "Brent Wood"
+  ],
+  "themeIds": [
+    "open-practice"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Brent Wood · career/profile reference",
+        "url": "https://niwa.co.nz/people/brent-wood"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · Catchment monitoring",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 32 · Open source underneath the map",
+        "url": "/stories/open-source-changes-the-tools/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2020-critchlow-switchmyfleet-funded",
+  "dateDisplay": "2020",
+  "startDate": "2020",
+  "datePrecision": "year",
+  "year": 2020,
+  "label": "Government co-funding supports Critchlow’s SwitchMyFleet",
+  "summary": "Critchlow developed a free fleet-transition tool using New Zealand road and address data with route optimisation to compare commercial vehicle options.",
+  "url": "/stories/an-industry-and-community-form/#a-mixed-software-market-75032ec60f",
+  "passageIds": [
+    "passage:chapter-12-75032ec60f"
+  ],
+  "recordIds": [
+    "entity:critchlow",
+    "chapter:12",
+    "entity:custom-software-quickmap",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "themeIds": [],
+  "categories": [
+    "business",
+    "route-optimisation",
+    "electric-vehicles"
+  ],
+  "sources": []
+}

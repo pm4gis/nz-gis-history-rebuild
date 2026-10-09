@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-40-a616353d0b",
+  "slug": "one-service-many-applications-a616353d0b",
+  "articleId": "article:chapter-40",
+  "title": "One service, many applications",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "As enterprise GIS matured, services became an important way to separate the authoritative source from the applications that consumed it. A desktop GIS no longer needed its own copy of every layer. A browser map could request a rendered map from a server. A field application could query or edit selected features. A dashboard or property application could use the same source while presenting it in a completely different interface.",
+      "markdown": "As enterprise GIS matured, services became an important way to separate the authoritative source from the applications that consumed it. A desktop GIS no longer needed its own copy of every layer. A browser map could request a rendered map from a server. A field application could query or edit selected features. A dashboard or property application could use the same source while presenting it in a completely different interface.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This separation made Chapter 35's task-specific applications possible at scale. An application designer could focus on what the user needed to accomplish because the map and data services already existed behind the interface. The user might never know whether a property boundary came from an enterprise geodatabase, a specialist land system or a federated service. Mature GIS services allowed staff to use spatial information through their ordinary applications.",
+      "markdown": "This separation made Chapter 35's task-specific applications possible at scale. An application designer could focus on what the user needed to accomplish because the map and data services already existed behind the interface. The user might never know whether a property boundary came from an enterprise geodatabase, a specialist land system or a federated service. Mature GIS services allowed staff to use spatial information through their ordinary applications.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Reuse also concentrated risk. One badly configured service could affect many applications. A schema change that looked harmless to the data custodian might break a field form, a reporting process and a public viewer at once. Enterprise GIS therefore created dependencies that small standalone systems did not have. Technical elegance was no substitute for knowing who depended on what.",
+      "markdown": "Reuse also concentrated risk. One badly configured service could affect many applications. A schema change that looked harmless to the data custodian might break a field form, a reporting process and a public viewer at once. Enterprise GIS therefore created dependencies that small standalone systems did not have. Technical elegance was no substitute for knowing who depended on what.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

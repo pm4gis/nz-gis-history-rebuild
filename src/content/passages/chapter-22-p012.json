@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-22-bdb78737ed",
+  "slug": "from-desktop-to-corporate-system-bdb78737ed",
+  "articleId": "article:chapter-22",
+  "title": "From desktop to corporate system",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Putting GIS on more desks created a new organisational problem. If property staff, planners, engineers, environmental teams and asset managers were all using spatial information, keeping each unit in a separate desktop environment became inefficient. Councils in particular held many datasets tied to the same parcels, roads and assets. The next stage was to connect those uses around maintained corporate data rather than treat each desktop as its own GIS.",
+      "markdown": "Putting GIS on more desks created a new organisational problem. If property staff, planners, engineers, environmental teams and asset managers were all using spatial information, keeping each unit in a separate desktop environment became inefficient. Councils in particular held many datasets tied to the same parcels, roads and assets. The next stage was to connect those uses around maintained corporate data rather than treat each desktop as its own GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That transition had already begun while desktop GIS was spreading. By the mid-1990s local-government adoption was accelerating, driven by planning, property, infrastructure and asset-management requirements. The PC made software accessible to more staff, but councils still needed common identifiers, authoritative databases, update procedures and systems that could serve several departments at once.",
+      "markdown": "That transition had already begun while desktop GIS was spreading. By the mid-1990s local-government adoption was accelerating, driven by planning, property, infrastructure and asset-management requirements. The PC made software accessible to more staff, but councils still needed common identifiers, authoritative databases, update procedures and systems that could serve several departments at once.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That organisational build-out was particularly visible in local government. Councils were no longer deciding only which desktop package to buy. They were linking property, rating, planning, roads, utilities, environmental information and later public access around maintained spatial databases used across the organisation.",
+      "markdown": "That organisational build-out was particularly visible in local government. Councils were no longer deciding only which desktop package to buy. They were linking property, rating, planning, roads, utilities, environmental information and later public access around maintained spatial databases used across the organisation.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

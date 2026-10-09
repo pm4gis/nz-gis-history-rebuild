@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1906",
+  "a": "person:hamish-bowman",
+  "b": "chapter:37",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-37-8577c437a3"
+  ],
+  "sources": []
+}

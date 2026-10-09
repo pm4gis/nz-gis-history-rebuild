@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1726",
+  "a": "person:james-maguire",
+  "b": "chapter:30",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-30-b284cddde9"
+  ],
+  "sources": []
+}

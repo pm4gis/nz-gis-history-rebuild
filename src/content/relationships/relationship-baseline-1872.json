@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1872",
+  "a": "person:leeanne-hooper",
+  "b": "chapter:23",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-23-043968e0e8"
+  ],
+  "sources": []
+}

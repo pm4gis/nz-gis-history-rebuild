@@ -1,0 +1,31 @@
+{
+  "id": "person:jimmy-russell",
+  "slug": "jimmy-russell",
+  "name": "Jimmy Russell",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jimmy-russell/",
+  "story": [
+    "Jimmy Russell contributed place-name knowledge to Kā Huru Manu’s initial paepae, alongside Trevor Howse, Kelly Davis, Matapura Ellison and David Higgins."
+  ],
+  "sources": [
+    {
+      "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+      "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+    }
+  ],
+  "aliases": [
+    "Jimmy Russell"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+        "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+      }
+    ]
+  ]
+}

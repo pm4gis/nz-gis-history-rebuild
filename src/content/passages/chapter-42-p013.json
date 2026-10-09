@@ -1,0 +1,62 @@
+{
+  "id": "passage:chapter-42-f46a66f084",
+  "slug": "a-geospatial-surge-f46a66f084",
+  "articleId": "article:chapter-42",
+  "title": "A geospatial surge",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42",
+    "entity:vector",
+    "entity:gisborne-district-council",
+    "entity:waikato-regional-council",
+    "person:jithen-singh",
+    "person:peter-willoughby"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Tairāwhiti developed a regional approach. The StoryMap records that Tairāwhiti Emergency Management and Gisborne District Council's GIS team deployed GIS tools and applications to support 3,600 welfare assessments, 310 building assessments and monitoring of more than 90 active road closures. Those are not abstract layers. Each number represents a stream of observations that had to be captured, located, stored, summarised and made available to people coordinating work across the region.",
+      "markdown": "Tairāwhiti developed a regional approach. The StoryMap records that Tairāwhiti Emergency Management and Gisborne District Council's GIS team deployed GIS tools and applications to support 3,600 welfare assessments, 310 building assessments and monitoring of more than 90 active road closures. Those are not abstract layers. Each number represents a stream of observations that had to be captured, located, stored, summarised and made available to people coordinating work across the region.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Waikato Regional Council's GIS contribution shows a different mix of tasks. Its staff supported situational-awareness viewing, sourced and mapped road-impact intelligence, mapped significant incidents, supported civil-defence-centre and public-information dashboards, supported the flood room, procured and processed orthophotography of maximum flood extents, handled rapid oblique imagery, assisted with landslide-risk modelling and facilitated sharing of geospatial data. The list is long because the event produced many separate information problems. No single application could solve all of them.",
+      "markdown": "Waikato Regional Council's GIS contribution shows a different mix of tasks. Its staff supported situational-awareness viewing, sourced and mapped road-impact intelligence, mapped significant incidents, supported civil-defence-centre and public-information dashboards, supported the flood room, procured and processed orthophotography of maximum flood extents, handled rapid oblique imagery, assisted with landslide-risk modelling and facilitated sharing of geospatial data. The list is long because the event produced many separate information problems. No single application could solve all of them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Fire and Emergency New Zealand developed a web-based common operating picture using ArcGIS Online. The operational account says it combined Fire and Emergency assessment information with data contributed by other public and private organisations, including Vector power information, Police missing-person information and Hawke's Bay road-network outages. Connected spatial services had to operate under disaster-response conditions. The platform could assemble several maintained sources quickly, but staff still had to decide which layers were appropriate and how to present them to different users.",
+      "markdown": "Fire and Emergency New Zealand developed a web-based common operating picture using ArcGIS Online. The operational account says it combined Fire and Emergency assessment information with data contributed by other public and private organisations, including Vector power information, Police missing-person information and Hawke's Bay road-network outages. Connected spatial services had to operate under disaster-response conditions. The platform could assemble several maintained sources quickly, but staff still had to decide which layers were appropriate and how to present them to different users.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NZTA’s newer enterprise platform was used during the Cyclone Gabrielle response in February 2023. The NZTA and Esri case describes centralised field survey and situational-awareness workflows supported by ArcGIS Enterprise on Kubernetes. Peter Willoughby’s platform work and Jithen Singh’s contribution from Eagle belong to the preparation behind that operational use. The response brought field observations, shared transport information and applications together when damage and access conditions were changing rapidly.",
+      "sources": [
+        {
+          "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+          "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The response capability also depended on people and networks assembled before an event. Jeremy Gulson’s SCIRT role placed geospatial expertise inside the Canterbury rebuild, while Derek Phyn’s NZGIS4EM work created a national practitioner network focused on emergency-management readiness. Those records show disaster GIS developing through sustained organisational and community work between major events.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial for Schools archive",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+        },
+        {
+          "label": "Derek Phyn, New Zealand GIS for Emergency Management, ISCRAM 2018",
+          "url": "https://idl.iscram.org/files/derekphyn/2018/1646_DerekPhyn2018.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

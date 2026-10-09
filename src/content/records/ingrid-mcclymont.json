@@ -1,0 +1,46 @@
+{
+  "id": "person:ingrid-mcclymont",
+  "slug": "ingrid-mcclymont",
+  "name": "Ingrid McClymont",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ingrid-mcclymont/",
+  "story": [
+    "Ingrid McClymont is documented as Auckland Council’s geospatial manager during the GFMO period. The 2016 case study records GIS supporting a wide range of council functions, including property information, civil defence, resource planning and building consents.",
+    "The 2016 Esri account names council geospatial manager Ingrid McClymont and Eagle project manager Nathan Heazlewood. ArcGIS and FME supported a migration that reduced 8,470 inherited geographic datasets to 2,056 and replaced 697 district-plan datasets with 25. Historic information was retained for traceability. The work also established clearer service levels and closer links with council IT, while GeoMaps and other applications broadened access to the managed data."
+  ],
+  "sources": [
+    {
+      "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+      "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+    },
+    {
+      "label": "Ingrid McClymont - Auckland Council | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/ingrid-mcclymont"
+    },
+    {
+      "label": "Chapter 40 · From files to shared data",
+      "url": "/stories/enterprise-gis/"
+    }
+  ],
+  "aliases": [
+    "Ingrid McClymont"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+        "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 40 · From files to shared data",
+        "url": "/stories/enterprise-gis/"
+      }
+    ]
+  ]
+}

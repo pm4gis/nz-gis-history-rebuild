@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1245",
+  "a": "system:s-map-online",
+  "b": "system:our-environment",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

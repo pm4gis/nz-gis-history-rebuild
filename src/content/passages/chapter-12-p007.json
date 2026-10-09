@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-12-75032ec60f",
+  "slug": "a-mixed-software-market-75032ec60f",
+  "articleId": "article:chapter-12",
+  "title": "A mixed software market",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12",
+    "entity:custom-software-quickmap",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The commercial market never settled into a tidy sequence in which one platform replaced another. Intergraph remained strong in engineering, infrastructure, graphics and land-information settings. ARC/INFO became a major general-purpose institutional environment and later Esri desktop products widened access. ERDAS remained important for image processing. MapInfo occupied a strong PC desktop and business-geography niche. Smallworld developed around network industries where connectivity and asset behaviour were central to the problem. Local products and specialist applications then added further variation.",
+      "markdown": "The commercial market never settled into a tidy sequence in which one platform replaced another. Intergraph remained strong in engineering, infrastructure, graphics and land-information settings. ARC/INFO became a major general-purpose institutional environment and later Esri desktop products widened access. ERDAS remained important for image processing. MapInfo occupied a strong PC desktop and business-geography niche. Smallworld developed around network industries where connectivity and asset behaviour were central to the problem. Local products and specialist applications then added further variation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A Smallworld retrospective dates its Australasian operations to 1993, and New Zealand company records begin in June 1995. Vector migrated its electricity-network information to Smallworld in 1998–99. The work addressed utility needs for topology, asset relationships and network logic, distinct from thematic mapping or area-based analysis.",
+      "markdown": "A Smallworld retrospective dates its Australasian operations to 1993, and New Zealand company records begin in June 1995. Vector migrated its electricity-network information to Smallworld in 1998–99. The work addressed utility needs for topology, asset relationships and network logic, distinct from thematic mapping or area-based analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand-developed products also appeared. Custom Software was established in Wellington in 1996 and later produced QuickMap, a Windows desktop product that combined mapping with cadastral, title, ownership, geographic and aerial information. A 2002 institutional product record describes the later product in more detail. Its 1996 company origin still marks a useful boundary. The local industry was beginning to create packaged spatial products rather than only distribute or customise imported software.",
+      "markdown": "New Zealand-developed products also appeared. Custom Software was established in Wellington in 1996 and later produced QuickMap, a Windows desktop product that combined mapping with cadastral, title, ownership, geographic and aerial information. A 2002 institutional product record describes the later product in more detail. Its 1996 company origin still marks a useful boundary. The local industry was beginning to create packaged spatial products rather than only distribute or customise imported software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Compatibility increasingly influenced customer decisions. A platform used by neighbouring councils, a national agency or a major data supplier created a pool of skills and formats around it. Yet the existence of several strong products made data exchange unavoidable. Consultants and distributors became translators between software families as well as implementers within them. Proprietary formats and heavily customised applications could make migration expensive, which gave technical support and data-conversion knowledge a long afterlife. The market was competitive, but customers often lived with several technologies at once.",
+      "markdown": "Compatibility increasingly influenced customer decisions. A platform used by neighbouring councils, a national agency or a major data supplier created a pool of skills and formats around it. Yet the existence of several strong products made data exchange unavoidable. Consultants and distributors became translators between software families as well as implementers within them. Proprietary formats and heavily customised applications could make migration expensive, which gave technical support and data-conversion knowledge a long afterlife. The market was competitive, but customers often lived with several technologies at once.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

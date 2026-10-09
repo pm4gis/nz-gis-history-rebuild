@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-11-02df025000",
+  "slug": "postgraduate-research-02df025000",
+  "articleId": "article:chapter-11",
+  "title": "Postgraduate research",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Theses are particularly useful in the history of a young technical field because they preserve work that may never become a journal article. They can record data structures, software limitations, implementation choices and failed approaches in more detail than a short paper. Colley's 1979 Canterbury thesis, discussed in Chapter 3, is an earlier example. By the 1990s, theses and postgraduate projects were appearing within an established GIS research community.",
+      "markdown": "Theses are particularly useful in the history of a young technical field because they preserve work that may never become a journal article. They can record data structures, software limitations, implementation choices and failed approaches in more detail than a short paper. Colley's 1979 Canterbury thesis, discussed in Chapter 3, is an earlier example. By the 1990s, theses and postgraduate projects were appearing within an established GIS research community.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Payne's 1991 Otago thesis and Marr's 1996 MSc illustrate how wide that environment had become. One addressed equitable use of spatial information in Treaty claims; the other studied GIS maturity in local government. Neither can be reduced to learning a package. Both treated spatial information as part of larger institutional relationships. Other university work during the period connected GIS with hazards, environmental management, wildlife, terrain modelling and data exchange.",
+      "markdown": "Payne's 1991 Otago thesis and Marr's 1996 MSc illustrate how wide that environment had become. One addressed equitable use of spatial information in Treaty claims; the other studied GIS maturity in local government. Neither can be reduced to learning a package. Both treated spatial information as part of larger institutional relationships. Other university work during the period connected GIS with hazards, environmental management, wildlife, terrain modelling and data exchange.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The postgraduate system also moved knowledge between organisations. Research problems came from councils, science agencies, government records and field projects. Students and staff presented results at SIRC, AURISA and specialist meetings. Graduates then entered a labour market in which councils, government departments, consultancies and science organisations were expanding GIS capability. The universities did not create that demand, but they increasingly supplied people able to work with geographic databases as well as maps.",
+      "markdown": "The postgraduate system also moved knowledge between organisations. Research problems came from councils, science agencies, government records and field projects. Students and staff presented results at SIRC, AURISA and specialist meetings. Graduates then entered a labour market in which councils, government departments, consultancies and science organisations were expanding GIS capability. The universities did not create that demand, but they increasingly supplied people able to work with geographic databases as well as maps.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Technical staff maintained the teaching environment. Workstation laboratories needed machines configured, accounts managed, software installed, data copied, plots produced and practical sessions supported. Course demonstrators and technical staff often appear poorly, if at all, in journal papers and conference proceedings.",
+      "markdown": "Technical staff maintained the teaching environment. Workstation laboratories needed machines configured, accounts managed, software installed, data copied, plots produced and practical sessions supported. Course demonstrators and technical staff often appear poorly, if at all, in journal papers and conference proceedings.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "entity:south-taranaki-district-council",
+  "slug": "south-taranaki-district-council",
+  "name": "South Taranaki District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/south-taranaki-district-council/",
+  "website": "https://www.southtaranaki.com",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "South Taranaki District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

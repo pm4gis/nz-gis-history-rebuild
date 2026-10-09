@@ -1,0 +1,31 @@
+{
+  "id": "person:vaughan-r-j-payne",
+  "slug": "vaughan-r-j-payne",
+  "name": "Vaughan R. J. Payne",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/vaughan-r-j-payne/",
+  "story": [
+    "Vaughan R. J. Payne’s 1991 University of Otago MA thesis was titled Urupare Torohiko: Planning for the Equitable Use of Spatial Information in the Resolution of Treaty Claims. Payne examined equitable access to spatial information in Treaty claims."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 11 · From software to spatial information",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ],
+  "aliases": [
+    "Vaughan R. J. Payne"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 11 · From software to spatial information",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ]
+  ]
+}

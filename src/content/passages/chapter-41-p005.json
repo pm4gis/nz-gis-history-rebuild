@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-41-9f30dd2b7c",
+  "slug": "from-sdi-blueprint-to-service-ecosystem-9f30dd2b7c",
+  "articleId": "article:chapter-41",
+  "title": "From SDI blueprint to service ecosystem",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41",
+    "entity:koordinates"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Spatial Data Infrastructure developed through catalogues, services and connections between custodians. New Zealand's SDI work had emphasised common metadata, catalogues, standards, distributed custodians and interoperable services. Chapter 40 documented the metadata-standard problem directly: the 2007 Wildfire Threat Analysis review found that the chosen New Zealand standard lacked usable read-and-write tooling, leading to a Word-template workaround and the rewriting of existing metadata.",
+      "markdown": "Spatial Data Infrastructure developed through catalogues, services and connections between custodians. New Zealand's SDI work had emphasised common metadata, catalogues, standards, distributed custodians and interoperable services. Chapter 40 documented the metadata-standard problem directly: the 2007 Wildfire Threat Analysis review found that the chosen New Zealand standard lacked usable read-and-write tooling, leading to a Word-template workaround and the rewriting of existing metadata.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The standards lineage continued. Government later endorsed the ANZLIC Metadata Profile, ISO standards evolved, and consistent descriptions still supported discovery. The implementation model became more pragmatic. In 2016 data.govt.nz reported that most agencies lacked the capacity to run their own catalogue or hosting infrastructure. Its beta catalogue therefore supported central hosting as well as metadata harvesting from CSW, CKAN and data.json sources, including ArcGIS-based catalogues, using a DCAT-based schema mapped to ANZLIC.",
+      "markdown": "The standards lineage continued. Government later endorsed the ANZLIC Metadata Profile, ISO standards evolved, and consistent descriptions still supported discovery. The implementation model became more pragmatic. In 2016 data.govt.nz reported that most agencies lacked the capacity to run their own catalogue or hosting infrastructure. Its beta catalogue therefore supported central hosting as well as metadata harvesting from CSW, CKAN and data.json sources, including ArcGIS-based catalogues, using a DCAT-based schema mapped to ANZLIC.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This pursued the same objectives through adapters and shared services rather than requiring every agency to implement the complete standards stack in the same way. Later data.govt.nz guidance described automated harvesting from ArcGIS Online, allowing information maintained in an ArcGIS item to flow into the national catalogue. Formal standards still sat underneath parts of the process, while ordinary publishers could work through platform fields, templates and automated connectors rather than hand-building ISO metadata records.",
+      "markdown": "This pursued the same objectives through adapters and shared services rather than requiring every agency to implement the complete standards stack in the same way. Later data.govt.nz guidance described automated harvesting from ArcGIS Online, allowing information maintained in an ArcGIS item to flow into the national catalogue. Formal standards still sat underneath parts of the process, while ordinary publishers could work through platform fields, templates and automated connectors rather than hand-building ISO metadata records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The national SDI therefore developed as a distributed environment. Discovery, standard descriptions, maintained services and access to authoritative data were delivered through several hosted platforms and service interfaces rather than one operational national platform. ArcGIS Online, Koordinates, OGC services, catalogue adapters and REST interfaces each covered part of the problem.",
+      "markdown": "The national SDI therefore developed as a distributed environment. Discovery, standard descriptions, maintained services and access to authoritative data were delivered through several hosted platforms and service interfaces rather than one operational national platform. ArcGIS Online, Koordinates, OGC services, catalogue adapters and REST interfaces each covered part of the problem.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

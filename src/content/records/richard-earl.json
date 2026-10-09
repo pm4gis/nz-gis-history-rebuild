@@ -1,0 +1,44 @@
+{
+  "id": "person:richard-earl",
+  "slug": "richard-earl",
+  "name": "Richard Earl",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/richard-earl/",
+  "story": [
+    "In a 2011 DOC interview, Richard Earl described his work as a Research and Development Spatial Analyst supporting decisions about conservation priorities. He built and integrated geographical information, analysed spatial data and produced maps and tables for staff. His account also described occasional fieldwork, including bird counts, trap checks and radio tracking, linking the office analysis to how the underlying information was collected.",
+    "In September 2010 Richard Earl, a spatial analyst in DOC’s Southern Science Office, opened an ArcGIS 10 problem with “Angry, of Christchurch, writes” after a buffer operation that had worked in earlier ArcMap and ArcView versions began returning an empty-output warning. Before the message had even finished circulating he traced one problem to a runaway Desktop Indexing Service process, killed it and reported that ArcMap worked again."
+  ],
+  "sources": [
+    {
+      "label": "Department of Conservation, Research and Development Spatial Analyst Richard Earl, 17 October 2011",
+      "url": "https://blog.doc.govt.nz/2011/10/17/richardearl/"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Richard Earl"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Department of Conservation, Research and Development Spatial Analyst Richard Earl, 17 October 2011",
+        "url": "https://blog.doc.govt.nz/2011/10/17/richardearl/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

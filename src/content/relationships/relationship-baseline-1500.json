@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1500",
+  "a": "entity:university-of-waikato",
+  "b": "chapter:18",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-18-af4c925404"
+  ],
+  "sources": []
+}

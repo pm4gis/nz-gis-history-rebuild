@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-38-4ff3c3bb10",
+  "slug": "the-rules-catch-up-4ff3c3bb10",
+  "articleId": "article:chapter-38",
+  "title": "The rules catch up",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Professional mapping also required the aviation system to catch up with a rapidly expanding class of small aircraft. On 1 August 2015, a modernised Part 101 and the original Part 102 remotely piloted aircraft framework took effect in New Zealand. Part 101 provided the operating rules for activities that met its conditions. Part 102 created a certification framework for operations that could not be conducted within those Part 101 conditions.",
+      "markdown": "Professional mapping also required the aviation system to catch up with a rapidly expanding class of small aircraft. On 1 August 2015, a modernised Part 101 and the original Part 102 remotely piloted aircraft framework took effect in New Zealand. Part 101 provided the operating rules for activities that met its conditions. Part 102 created a certification framework for operations that could not be conducted within those Part 101 conditions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Aviation rules governed how UAV operators could carry out the work. A surveyor, university, engineering consultant or council using a remotely piloted aircraft was operating an aircraft as well as collecting spatial data. Flight planning therefore involved airspace, people, property, consent, weather and safety alongside overlap, camera angle and ground control.",
+      "markdown": "Aviation rules governed how UAV operators could carry out the work. A surveyor, university, engineering consultant or council using a remotely piloted aircraft was operating an aircraft as well as collecting spatial data. Flight planning therefore involved airspace, people, property, consent, weather and safety alongside overlap, camera angle and ground control.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That regulatory setting is one reason UAV mapping matured into a professional activity rather than remaining a hobbyist extension of photography. Organisations needed procedures, competent operators and documented operating limits. The mapping workflow had to fit inside an aviation workflow. A perfect orthomosaic produced from an unlawful or unsafe flight would be a poor professional result.",
+      "markdown": "That regulatory setting is one reason UAV mapping matured into a professional activity rather than remaining a hobbyist extension of photography. Organisations needed procedures, competent operators and documented operating limits. The mapping workflow had to fit inside an aviation workflow. A perfect orthomosaic produced from an unlawful or unsafe flight would be a poor professional result.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Privacy and public acceptance sat beside aviation safety. A low-flying camera over a small property can feel more intrusive than a satellite passing hundreds of kilometres overhead or an aircraft conducting a regional imagery programme. Professional projects therefore had to consider access, communication and what the camera might record beyond the immediate mapping target. These concerns formed part of using UAV technology responsibly.",
+      "markdown": "Privacy and public acceptance sat beside aviation safety. A low-flying camera over a small property can feel more intrusive than a satellite passing hundreds of kilometres overhead or an aircraft conducting a regional imagery programme. Professional projects therefore had to consider access, communication and what the camera might record beyond the immediate mapping target. These concerns formed part of using UAV technology responsibly.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

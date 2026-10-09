@@ -1,0 +1,45 @@
+{
+  "id": "person:iain-campion",
+  "slug": "iain-campion",
+  "name": "Iain Campion",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/iain-campion/",
+  "story": [
+    "Iain Campion was Environment Canterbury’s Information Systems team leader during the September 2010 earthquake response. In Eagle’s case study he described internal, secure external and public GIS sites operating within 24 hours, and GISmo being updated from hazardous-site inspections. On 26 February 2011 he used GISList to seek Esri-skilled volunteers for possible mapping shifts in the Christchurch emergency operations centre.",
+    "On 26 February 2011, four days after the February earthquake, Environment Canterbury's Iain Campion used GISList to seek people with Esri skills who might be able to work eight-hour mapping shifts in the Christchurch emergency operations centre at the Art Gallery. The request went out before the staffing requirement had even been formally confirmed. In the following weeks the same list moved from finding people to finding usable data."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, Crisis Mapping in an Emergency: The Canterbury Experience",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/environment-canterbury"
+    },
+    {
+      "label": "GISList Christchurch earthquake emergency-mapping and data-sharing threads"
+    },
+    {
+      "label": "Chapter 42 · Canterbury exposes the gaps",
+      "url": "/stories/the-real-time-map/"
+    }
+  ],
+  "aliases": [
+    "Iain Campion"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Eagle Technology, Crisis Mapping in an Emergency: The Canterbury Experience",
+        "url": "https://www.eagle.co.nz/gis-solutions/case-studies/environment-canterbury"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 42 · Canterbury exposes the gaps",
+        "url": "/stories/the-real-time-map/"
+      }
+    ]
+  ]
+}

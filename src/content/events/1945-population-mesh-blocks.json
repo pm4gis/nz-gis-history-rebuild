@@ -1,0 +1,25 @@
+{
+  "id": "1945-population-mesh-blocks",
+  "dateDisplay": "1945 to 1946",
+  "startDate": "1945",
+  "endDate": "1946",
+  "datePrecision": "year-range",
+  "year": 1945,
+  "label": "Population mesh blocks appear in census mapping",
+  "summary": "Lands and Survey annual reporting used the term population mesh blocks for analogue census-mapping units.",
+  "url": "/stories/what-the-computer-inherited/#counting-by-place-e557a7129d",
+  "passageIds": [
+    "passage:chapter-1-e557a7129d"
+  ],
+  "recordIds": [
+    "chapter:1",
+    "entity:stats-nz",
+    "person:malcolm-fraser"
+  ],
+  "themeIds": [],
+  "categories": [
+    "census",
+    "government"
+  ],
+  "sources": []
+}

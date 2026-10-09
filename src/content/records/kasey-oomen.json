@@ -1,0 +1,42 @@
+{
+  "id": "person:kasey-oomen",
+  "slug": "kasey-oomen",
+  "name": "Kasey Oomen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kasey-oomen/",
+  "story": [
+    "LINZ and the Geospatial Capability Committee included Kasey Oomen in the Leaving School geospatial career-profile series: Resilience Advisor, LINZ, October 2020.",
+    "A LINZ geospatial student or graduate profile records Kasey Oomen: LINZ Resilience Advisor; GIS study linked to CIMS and resilience work."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    },
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Kasey Oomen"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

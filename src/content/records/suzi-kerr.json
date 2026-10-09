@@ -1,0 +1,31 @@
+{
+  "id": "person:suzi-kerr",
+  "slug": "suzi-kerr",
+  "name": "Suzi Kerr",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/suzi-kerr/",
+  "story": [
+    "In June 2000 the Treasury published a working paper by Suzi Kerr and Jason Timmins titled Economic Geography & Spatial Statistics: Theory and Empirics of New Zealand Regions. It examined regional economic characteristics and explicitly used GIS as part of the analytical method. Critchlow Associates supplied Census96 data and ArcView software. The material included geographic boundaries and demographic, household, labour-force and socioeconomic information organised at meshblock, area-unit, territorial-authority and regional-council levels."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 24 · Treasury maps the economy",
+      "url": "/stories/government-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Suzi Kerr"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 24 · Treasury maps the economy",
+        "url": "/stories/government-goes-spatial/"
+      }
+    ]
+  ]
+}

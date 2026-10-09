@@ -1,0 +1,42 @@
+{
+  "id": "person:sam-carrick",
+  "slug": "sam-carrick",
+  "name": "Sam Carrick",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sam-carrick/",
+  "story": [
+    "Sam Carrick initially studied landscape architecture at Lincoln before returning to study soil science in the mid-1990s. His early work included regional lowland soil surveys in Southland and Otago. He completed a doctorate in soil-water physics at Lincoln and returned to Landcare Research in 2009. His professional work combines pedology and soil physics across collaborative research projects.",
+    "Ian Lynn and Sam Carrick are among the research contributors identified in the technical histories of growOTAGO, published in 2004. Integrated Mapping developed the website and CD presentation. The combination made regional land-resource information usable beyond the offices that had assembled it: farmers and advisers could compare soil and climate conditions when considering an existing activity or a possible new one."
+  ],
+  "sources": [
+    {
+      "label": "Sam Carrick | NZSSS Council Member | The New Zealand Society of Soil Science · career/profile reference",
+      "url": "https://www.soilscience.org.nz/council/sam-carrick"
+    },
+    {
+      "label": "Chapter 23 · A new local government",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Sam Carrick"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Sam Carrick | NZSSS Council Member | The New Zealand Society of Soil Science · career/profile reference",
+        "url": "https://www.soilscience.org.nz/council/sam-carrick"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · A new local government",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

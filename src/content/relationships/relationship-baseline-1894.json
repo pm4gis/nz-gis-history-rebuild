@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1894",
+  "a": "person:josie-hawkey",
+  "b": "chapter:29",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-29-71ae35ecbd"
+  ],
+  "sources": []
+}

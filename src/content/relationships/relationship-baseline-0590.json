@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-0590",
+  "a": "person:simon-nitz",
+  "b": "chapter:23",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-23-bef81bd90d",
+    "passage:chapter-23-3756b33c09"
+  ],
+  "sources": []
+}

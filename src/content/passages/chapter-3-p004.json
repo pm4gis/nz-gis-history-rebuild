@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-3-746e5f4bfc",
+  "slug": "stored-geometry-746e5f4bfc",
+  "articleId": "article:chapter-3",
+  "title": "Stored geometry",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:3"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Conventional cartographic production could create an accurate and well-drawn new sheet without preserving the features as independently reusable digital objects. MAPPAK separated data capture from final plotting. A line could be stored once, edited later and used in another output. Descriptive information could also be stored with the graphical data rather than remaining only as text drawn on the sheet.",
+      "markdown": "Conventional cartographic production could create an accurate and well-drawn new sheet without preserving the features as independently reusable digital objects. MAPPAK separated data capture from final plotting. A line could be stored once, edited later and used in another output. Descriptive information could also be stored with the graphical data rather than remaining only as text drawn on the sheet.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This altered the role of the map sheet inside the production process. Paper sheets were still used as source material and remained the main form of distribution, but the computer file could hold geometry independently of one printed sheet. A road or boundary crossing a sheet edge did not have to stop at that edge in the stored data. The production system still used sheet structures, but the geometry itself could be maintained separately from the physical limits of the paper.",
+      "markdown": "This altered the role of the map sheet inside the production process. Paper sheets were still used as source material and remained the main form of distribution, but the computer file could hold geometry independently of one printed sheet. A road or boundary crossing a sheet edge did not have to stop at that edge in the stored data. The production system still used sheet structures, but the geometry itself could be maintained separately from the physical limits of the paper.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Colley also designed structures for graphical and descriptive information that anticipated broader land-information processing. The thesis discussed ways of interrogating and manipulating stored data. MAPPAK can be described securely as an operational computer-assisted cadastral mapping system with land-information-system characteristics. An absolute claim that it was New Zealand’s first GIS remains unsupported.",
+      "markdown": "Colley also designed structures for graphical and descriptive information that anticipated broader land-information processing. The thesis discussed ways of interrogating and manipulating stored data. MAPPAK can be described securely as an operational computer-assisted cadastral mapping system with land-information-system characteristics. An absolute claim that it was New Zealand’s first GIS remains unsupported.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "MAPPAK addressed cadastral conversion and digital storage before the later Digital Cadastral Database (DCDB). The two programmes tackled related problems but remained distinct.",
+      "markdown": "MAPPAK addressed cadastral conversion and digital storage before the later Digital Cadastral Database (DCDB). The two programmes tackled related problems but remained distinct.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

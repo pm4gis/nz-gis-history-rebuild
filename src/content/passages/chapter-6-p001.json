@@ -1,0 +1,50 @@
+{
+  "id": "passage:chapter-6-bc94bd66ec",
+  "slug": "a-shared-name-bc94bd66ec",
+  "articleId": "article:chapter-6",
+  "title": "A shared name",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "profession"
+  ],
+  "recordIds": [
+    "chapter:6",
+    "entity:university-of-auckland",
+    "person:p-r-van-berkel",
+    "person:r-d-williams",
+    "person:clive-elliott",
+    "person:john-dymond",
+    "person:m-r-jessen",
+    "person:p-g-luckman",
+    "person:p-r-stephens",
+    "person:r-g-gibb"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "On 26 June 1989 a national conference opened in Wellington under the title Getting it all together with GIS. The published proceedings described it as the First National Multi-Disciplinary GIS Conference and ran to 116 pages. The title had a useful honesty: by then there was already plenty to get together. New Zealand organisations had spent more than a decade digitising maps, processing satellite imagery, storing land-resource polygons, calculating terrain and building computer-assisted mapping systems. What had changed during the 1980s was the growing use of one term for work that had previously belonged to separate technical communities.",
+      "markdown": "On 26 June 1989 a national conference opened in Wellington under the title Getting it all together with GIS. The published proceedings described it as the First National Multi-Disciplinary GIS Conference and ran to 116 pages. The title had a useful honesty: by then there was already plenty to get together. New Zealand organisations had spent more than a decade digitising maps, processing satellite imagery, storing land-resource polygons, calculating terrain and building computer-assisted mapping systems. What had changed during the 1980s was the growing use of one term for work that had previously belonged to separate technical communities.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Conference proceedings showed GIS appearing in several fields. P. R. Stephens, R. G. Gibb and J. R. Dymond wrote on integrating remote sensing and GIS for natural-resource management. P. G. Luckman, R. G. Gibb and M. R. Jessen wrote on combining expert systems and GIS for land classification. Clive Elliott wrote on copyright and intellectual property. Science, image processing, computational classification and information law were appearing at the same meetings under one emerging field name.",
+      "markdown": "Conference proceedings showed GIS appearing in several fields. P. R. Stephens, R. G. Gibb and J. R. Dymond wrote on integrating remote sensing and GIS for natural-resource management. P. G. Luckman, R. G. Gibb and M. R. Jessen wrote on combining expert systems and GIS for land classification. Clive Elliott wrote on copyright and intellectual property. Science, image processing, computational classification and information law were appearing at the same meetings under one emerging field name.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital geography was already being developed in New Zealand when the conference took place. MAPPAK had been used for cadastral compilation by 1979. DSIR researchers had been processing Landsat data since the mid-1970s. The NZLRI had been digitised from 1977 to 1980 and processed through LADEDA. The change visible in the 1980s was that these kinds of systems were no longer isolated examples that later historians needed to group together retrospectively. Contemporary practitioners were increasingly using the GIS label themselves.",
+      "markdown": "Digital geography was already being developed in New Zealand when the conference took place. MAPPAK had been used for cadastral compilation by 1979. DSIR researchers had been processing Landsat data since the mid-1970s. The NZLRI had been digitised from 1977 to 1980 and processed through LADEDA. The change visible in the 1980s was that these kinds of systems were no longer isolated examples that later historians needed to group together retrospectively. Contemporary practitioners were increasingly using the GIS label themselves.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That shift can be seen clearly in 1985. P. R. van Berkel and R. D. Williams published “Introduction to LADEDA: a Geographic Information System” in the New Zealand Geographer. The title did not need a later historian to promote LADEDA into GIS after the event. The people documenting the system were already using the term. In the same year the University of Auckland Geography Department was teaching a senior undergraduate GIS course, while DSIR’s Science Mapping Unit was beginning to use an Intergraph GIS. The term was starting to describe a field rather than one particular machine.",
+      "markdown": "That shift can be seen clearly in 1985. P. R. van Berkel and R. D. Williams published “Introduction to LADEDA: a Geographic Information System” in the New Zealand Geographer. The title did not need a later historian to promote LADEDA into GIS after the event. The people documenting the system were already using the term. In the same year the University of Auckland Geography Department was teaching a senior undergraduate GIS course, while DSIR’s Science Mapping Unit was beginning to use an Intergraph GIS. The term was starting to describe a field rather than one particular machine.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

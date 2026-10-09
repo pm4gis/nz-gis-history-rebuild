@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2194",
+  "a": "person:anya-duxfield",
+  "b": "chapter:30",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

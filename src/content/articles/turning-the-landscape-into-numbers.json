@@ -1,0 +1,32 @@
+{
+  "id": "article:chapter-4",
+  "slug": "turning-the-landscape-into-numbers",
+  "title": "Early remote sensing",
+  "url": "/stories/turning-the-landscape-into-numbers/",
+  "summary": "In October 1975, the Department of Scientific and Industrial Research’s Physics and Engineering Laboratory in Lower Hutt received a Landsat II scene of New Zealand for the organised national investigation programme. Dr M. C. Probi",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 4,
+  "themeIds": [
+    "imagery"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch04-note-01",
+      "text": "1. The principal Landsat source is the DSIR Physics and Engineering Laboratory final report for Landsat II Investigation Programme No. 28230, available through NASA NTRS as 19770026620, together with associated PEL documentation. The organised New Zealand Landsat II programme began in 1975; a Canterbury Landsat-1 scene dated 7 December 1973 prevents the chapter from treating October 1975 as the first New Zealand Landsat image."
+    },
+    {
+      "id": "ch04-note-02",
+      "text": "2. The PEL evidence supports the use of IBM 370/168, HP 2100 and Varian computing environments, PL/I and specialist image-processing routines only to the extent documented in the technical reports. The chapter does not infer a single integrated modern remote-sensing workstation from those separate systems."
+    },
+    {
+      "id": "ch04-note-03",
+      "text": "3. The 1976 RILIS material supports early New Zealand interactive raster/image work and the use of time-shared BASIC where documented. The source trail is held in the Chapter 4 development packet and Master Research Register."
+    },
+    {
+      "id": "ch04-note-04",
+      "text": "4. Ground-truth and classification examples, including the Darfield work, are documented in the relevant PEL/Landsat project publications rather than to later summaries alone. These sources support supervised interpretation and classification, not autonomous modern machine learning."
+    }
+  ]
+}

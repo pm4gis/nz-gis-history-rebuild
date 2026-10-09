@@ -1,0 +1,63 @@
+{
+  "id": "person:graeme-henderson",
+  "slug": "graeme-henderson",
+  "name": "Graeme Henderson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/graeme-henderson/",
+  "story": [
+    "Graeme Henderson's geospatial career includes work at Eagle Technology in Wellington. He studied at the University of Stirling from 1999 to 2003. His customer work described in the history places him among the practitioners who helped translate GIS software into operational systems for infrastructure organisations.",
+    "Graeme Henderson is documented in Eagle customer work by 2011, when he worked with Downer on the ArcGIS configuration for GRAIL, described in the case study as Downer’s first GIS system. Eagle appointed him Chief Executive Officer on 15 December 2025 after more than ten years of leadership experience at the company. The exact start date of his Eagle employment remains unresolved from public records.",
+    "Parker Jones and David Pimblott belong to the earlier commercial story; later public records connect Graeme Henderson, Scott Campbell, Jithen Singh, Trevor Hart and Nathan Heazlewood with enterprise projects, technology leadership and professional services."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+    },
+    {
+      "label": "Eagle Technology, 'Eagle Technology Appoints New CEO, Graeme Henderson'",
+      "url": "https://www.eagle.co.nz/news"
+    },
+    {
+      "label": "Graeme Henderson - Eagle Technology | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/graeme-henderson-0a20556"
+    },
+    {
+      "label": "Chapter 12 · Esri and Eagle in New Zealand",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Graeme Henderson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Graeme Henderson - Eagle Technology | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/graeme-henderson-0a20556"
+      }
+    ],
+    [
+      {
+        "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+        "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+      },
+      {
+        "label": "Eagle Technology, 'Eagle Technology Appoints New CEO, Graeme Henderson'",
+        "url": "https://www.eagle.co.nz/news"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Esri and Eagle in New Zealand",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

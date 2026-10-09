@@ -1,0 +1,48 @@
+{
+  "id": "passage:chapter-6-0cce6a3869",
+  "slug": "a-local-market-0cce6a3869",
+  "articleId": "article:chapter-6",
+  "title": "A local market",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:6",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:vector",
+    "person:beryl-pimblott"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A software package was only part of a working GIS. Organisations also needed hardware, installation, training, data conversion, troubleshooting and someone to explain why a file from another system did not quite behave as expected. During the 1980s a small New Zealand market began forming around those services.",
+      "markdown": "A software package was only part of a working GIS. Organisations also needed hardware, installation, training, data conversion, troubleshooting and someone to explain why a file from another system did not quite behave as expected. During the 1980s a small New Zealand market began forming around those services.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later practitioner and company histories place an Esri and ERDAS distribution relationship in New Zealand during the mid-1980s. By the later 1980s, Water and Soil and university teaching programmes were using ARC/INFO.",
+      "markdown": "Later practitioner and company histories place an Esri and ERDAS distribution relationship in New Zealand during the mid-1980s. By the later 1980s, Water and Soil and university teaching programmes were using ARC/INFO.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Explorer Graphics was founded by David and Beryl Pimblott in 1987 and became an early specialist GIS and computer-mapping consultancy. Its later history spans workstation GIS, local-government work and eventually public web mapping. By the late 1980s, organisations could purchase GIS services from specialist firms.",
+      "markdown": "Explorer Graphics was founded by David and Beryl Pimblott in 1987 and became an early specialist GIS and computer-mapping consultancy. Its later history spans workstation GIS, local-government work and eventually public web mapping. By the late 1980s, organisations could purchase GIS services from specialist firms.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Intergraph followed a different commercial lineage, with strong links to graphics, engineering and mapping. Esri’s ARC/INFO became increasingly visible in vector GIS. ERDAS connected GIS teaching and remote-sensing analysis. The market was already plural before the large expansion of GIS during the 1990s.",
+      "markdown": "Intergraph followed a different commercial lineage, with strong links to graphics, engineering and mapping. Esri’s ARC/INFO became increasingly visible in vector GIS. ERDAS connected GIS teaching and remote-sensing analysis. The market was already plural before the large expansion of GIS during the 1990s.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This variety is easy to flatten when later market share is projected backwards. New Zealand did not move from no GIS to one dominant platform. Organisations used bespoke software, Intergraph environments, ARC/INFO, remote-sensing packages, CAD systems and other specialist tools in overlapping combinations. The shared term GIS grew across a mixed technical landscape.",
+      "markdown": "This variety is easy to flatten when later market share is projected backwards. New Zealand did not move from no GIS to one dominant platform. Organisations used bespoke software, Intergraph environments, ARC/INFO, remote-sensing packages, CAD systems and other specialist tools in overlapping combinations. The shared term GIS grew across a mixed technical landscape.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

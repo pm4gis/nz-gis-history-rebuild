@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0950",
+  "a": "person:peter-f-eastwood",
+  "b": "entity:hawkes-bay-region-gis-forum",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

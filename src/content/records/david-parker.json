@@ -1,0 +1,31 @@
+{
+  "id": "person:david-parker",
+  "slug": "david-parker",
+  "name": "David Parker",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-parker/",
+  "story": [
+    "The published document, A New Zealand Geospatial Strategy: Understanding our Geographic Information Landscape, appeared in January 2007 under Minister for Land Information David Parker. Its acknowledgements list a broad group of central-government departments, local-government interests, research organisations and emergency services involved in its development."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 21 · From discussion to strategy",
+      "url": "/stories/the-spatial-infrastructure-idea/"
+    }
+  ],
+  "aliases": [
+    "David Parker"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 21 · From discussion to strategy",
+        "url": "/stories/the-spatial-infrastructure-idea/"
+      }
+    ]
+  ]
+}

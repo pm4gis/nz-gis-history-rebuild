@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-32-88a94fa5e3",
+  "slug": "the-real-cost-of-free-88a94fa5e3",
+  "articleId": "article:chapter-32",
+  "title": "The real cost of free",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "During the 2010s, the binding constraint for some public-sector teams was specialist capability rather than the software purchase. A production PostGIS, GeoServer, MapServer or QGIS environment still needed people who could design, secure, integrate, test, monitor and support it. Spatial developers were a substantial staffing commitment, and a tight FTE ceiling could make that commitment harder to carry than a subscription or enterprise licence. The apparent saving therefore depended heavily on which skills already existed inside the organisation and which had to be recruited or contracted.",
+      "markdown": "During the 2010s, the binding constraint for some public-sector teams was specialist capability rather than the software purchase. A production PostGIS, GeoServer, MapServer or QGIS environment still needed people who could design, secure, integrate, test, monitor and support it. Spatial developers were a substantial staffing commitment, and a tight FTE ceiling could make that commitment harder to carry than a subscription or enterprise licence. The apparent saving therefore depended heavily on which skills already existed inside the organisation and which had to be recruited or contracted.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Simple return-on-investment comparisons were awkward. Commercial licensing produced a visible recurring invoice. Open-source costs were distributed across developer time, infrastructure, integration, training and maintenance, while benefits appeared as avoided licence fees, flexibility and control. A bespoke application delivered the functions a team had actually built and tested; every additional dashboard, field workflow, public viewer or automation added another component that someone had to maintain through browser changes, security patches, library upgrades and staff turnover.",
+      "markdown": "Simple return-on-investment comparisons were awkward. Commercial licensing produced a visible recurring invoice. Open-source costs were distributed across developer time, infrastructure, integration, training and maintenance, while benefits appeared as avoided licence fees, flexibility and control. A bespoke application delivered the functions a team had actually built and tested; every additional dashboard, field workflow, public viewer or automation added another component that someone had to maintain through browser changes, security patches, library upgrades and staff turnover.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Integrated commercial suites changed the calculation because they supplied many application types within one supported environment. By the later 2010s the ArcGIS family could combine desktop editing, enterprise services, hosted feature layers, field capture, configurable web applications, dashboards, identity, sharing and automation. Open components could reproduce many of those functions, sometimes very effectively, but an organisation had to assemble the combination itself or pay a specialist supplier to do so. Few alternatives offered the same breadth as one supported product family, which made the comparison very different from choosing between two desktop GIS programs.",
+      "markdown": "Integrated commercial suites changed the calculation because they supplied many application types within one supported environment. By the later 2010s the ArcGIS family could combine desktop editing, enterprise services, hosted feature layers, field capture, configurable web applications, dashboards, identity, sharing and automation. Open components could reproduce many of those functions, sometimes very effectively, but an organisation had to assemble the combination itself or pay a specialist supplier to do so. Few alternatives offered the same breadth as one supported product family, which made the comparison very different from choosing between two desktop GIS programs.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The proprietary route concentrated a different risk. Enterprise and hosted licensing could spread platform access across many users and application types, making additional use cheaper at the margin for organisations already committed to the environment. Renewal also concentrated leverage with the supplier. Once databases, applications, identities, field workflows, automation and staff skills depended on one platform, an enterprise agreement became difficult to unwind quickly. Licence cost therefore sat beside a much larger switching cost, and renewal negotiations could expose how dependent the organisation had become on the vendor.",
+      "markdown": "The proprietary route concentrated a different risk. Enterprise and hosted licensing could spread platform access across many users and application types, making additional use cheaper at the margin for organisations already committed to the environment. Renewal also concentrated leverage with the supplier. Once databases, applications, identities, field workflows, automation and staff skills depended on one platform, an enterprise agreement became difficult to unwind quickly. Licence cost therefore sat beside a much larger switching cost, and renewal negotiations could expose how dependent the organisation had become on the vendor.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

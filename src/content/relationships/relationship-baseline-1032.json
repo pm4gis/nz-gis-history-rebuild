@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1032",
+  "a": "person:peter-willoughby",
+  "b": "entity:nz-transport-agency-waka-kotahi",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

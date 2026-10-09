@@ -1,0 +1,22 @@
+{
+  "id": "2000-gps-sa",
+  "dateDisplay": "2000-05-01",
+  "startDate": "2000-05-01",
+  "datePrecision": "day",
+  "year": 2000,
+  "label": "Selective Availability switched off",
+  "summary": "Removal of GPS Selective Availability substantially improved civilian positioning and changed ordinary field use.",
+  "url": "/stories/gps-changes-where-here-is/#the-signal-gets-better-35ef672bb3",
+  "passageIds": [
+    "passage:chapter-18-35ef672bb3"
+  ],
+  "recordIds": [
+    "chapter:18"
+  ],
+  "themeIds": [],
+  "categories": [
+    "gps",
+    "field"
+  ],
+  "sources": []
+}

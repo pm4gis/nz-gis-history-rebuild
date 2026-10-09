@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-25-ce54959f64",
+  "slug": "the-field-moves-closer-ce54959f64",
+  "articleId": "article:chapter-25",
+  "title": "The field moves closer",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Vector’s 2002 mobile project briefly shows what happened when the corporate network record was pushed out of the office. The company introduced forty Compaq iPAQs and six Panasonic Toughbook notebooks for field crews. The reported hardware and software cost was about NZ$200,000, with expected annual operational savings of roughly NZ$500,000. The figures belong to the specific project and should not be treated as general utility-GIS economics.",
+      "markdown": "Vector’s 2002 mobile project briefly shows what happened when the corporate network record was pushed out of the office. The company introduced forty Compaq iPAQs and six Panasonic Toughbook notebooks for field crews. The reported hardware and software cost was about NZ$200,000, with expected annual operational savings of roughly NZ$500,000. The figures belong to the specific project and should not be treated as general utility-GIS economics.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The equipment used two GIS families. Toughbooks ran the Smallworld environment used in the office, while the iPAQs ran Esri ArcPad. Vector wrote software to translate and synchronise information between ArcPad and Smallworld when the devices were returned to their cradles. The handheld users could record faults and inspections, while the rugged notebooks supported more detailed graphical updates such as new cable information.",
+      "markdown": "The equipment used two GIS families. Toughbooks ran the Smallworld environment used in the office, while the iPAQs ran Esri ArcPad. Vector wrote software to translate and synchronise information between ArcPad and Smallworld when the devices were returned to their cradles. The handheld users could record faults and inspections, while the rugged notebooks supported more detailed graphical updates such as new cable information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GPS attachments gave the iPAQs a field position, while the corporate asset model supplied the features staff needed to find and update. The project reduced paper forms and duplicate data entry and gave crews access to plans without returning to the office. Mobile bandwidth was still too limited for the quantity of data Vector wanted to send, so the first design relied heavily on synchronisation rather than constant connection.",
+      "markdown": "GPS attachments gave the iPAQs a field position, while the corporate asset model supplied the features staff needed to find and update. The project reduced paper forms and duplicate data entry and gave crews access to plans without returning to the office. Mobile bandwidth was still too limited for the quantity of data Vector wanted to send, so the first design relied heavily on synchronisation rather than constant connection.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapter 34 follows the wider development of mobile GIS. At Vector, crews could take network information into the field and return observations to the system that supplied the office map.",
+      "markdown": "Chapter 34 follows the wider development of mobile GIS. At Vector, crews could take network information into the field and return observations to the system that supplied the office map.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

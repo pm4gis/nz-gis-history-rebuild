@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0916",
+  "a": "person:grant-carroll",
+  "b": "entity:eagle-technology",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1741",
+  "a": "person:mike-peters",
+  "b": "chapter:26",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-26-611e7efe0e"
+  ],
+  "sources": []
+}

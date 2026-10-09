@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-19-0f82155d83",
+  "slug": "patches-rather-than-replacement-0f82155d83",
+  "articleId": "article:chapter-19",
+  "title": "Patches rather than replacement",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Fiordland work demonstrated how the semi-dynamic framework could be altered without abandoning the datum after every earthquake. The national model could retain broad plate-motion behaviour while a localised patch represented a deformation event affecting part of the country. Observations made after the earthquake could then be related more consistently to epoch 2000.0 coordinates.",
+      "markdown": "The Fiordland work demonstrated how the semi-dynamic framework could be altered without abandoning the datum after every earthquake. The national model could retain broad plate-motion behaviour while a localised patch represented a deformation event affecting part of the country. Observations made after the earthquake could then be related more consistently to epoch 2000.0 coordinates.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The approach also avoided treating every movement in the same way. Some applications could continue using existing coordinates where ground movement was smaller than the accuracy of the data. High-accuracy surveying and engineering could require post-earthquake coordinates or direct connection to updated control. GIS datasets captured at metre-level accuracy did not necessarily need centimetre-level earthquake corrections.",
+      "markdown": "The approach also avoided treating every movement in the same way. Some applications could continue using existing coordinates where ground movement was smaller than the accuracy of the data. High-accuracy surveying and engineering could require post-earthquake coordinates or direct connection to updated control. GIS datasets captured at metre-level accuracy did not necessarily need centimetre-level earthquake corrections.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand’s coordinate framework was therefore becoming more explicitly dependent on the intended use of the data. The datum provided the national reference, but the practical response to movement varied with survey order, source accuracy and application. That distinction would become much more visible after Kaikōura.",
+      "markdown": "New Zealand’s coordinate framework was therefore becoming more explicitly dependent on the intended use of the data. The datum provided the national reference, but the practical response to movement varied with survey order, source accuracy and application. That distinction would become much more visible after Kaikōura.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

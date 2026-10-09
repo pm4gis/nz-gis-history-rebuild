@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2314",
+  "a": "person:carolina-faka-osi-manu",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

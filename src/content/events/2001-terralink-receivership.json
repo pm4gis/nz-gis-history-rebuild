@@ -1,0 +1,24 @@
+{
+  "id": "2001-terralink-receivership",
+  "dateDisplay": "2001-01-15",
+  "startDate": "2001-01-15",
+  "datePrecision": "day",
+  "year": 2001,
+  "label": "Terralink enters receivership",
+  "summary": "Terralink entered receivership following losses associated with its Landonline subcontract. The losses exposed problems in estimating the project’s cost and duration.",
+  "url": "/stories/landonline/#a-contract-goes-wrong-279983c56b",
+  "passageIds": [
+    "passage:chapter-14-279983c56b"
+  ],
+  "recordIds": [
+    "entity:terralink",
+    "chapter:14",
+    "entity:department-of-survey-and-land-information-dosli"
+  ],
+  "themeIds": [],
+  "categories": [
+    "industry",
+    "landonline"
+  ],
+  "sources": []
+}

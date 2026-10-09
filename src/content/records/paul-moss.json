@@ -1,0 +1,31 @@
+{
+  "id": "person:paul-moss",
+  "slug": "paul-moss",
+  "name": "Paul Moss",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/paul-moss/",
+  "story": [
+    "Paul Moss is named in MapData Sciences’ Census-mapping product material."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 16 · Census geography",
+      "url": "/stories/census-geography/"
+    }
+  ],
+  "aliases": [
+    "Paul Moss"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 16 · Census geography",
+        "url": "/stories/census-geography/"
+      }
+    ]
+  ]
+}

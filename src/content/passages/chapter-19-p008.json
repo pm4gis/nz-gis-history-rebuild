@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-19-7ec6ff6340",
+  "slug": "real-time-7ec6ff6340",
+  "articleId": "article:chapter-19",
+  "title": "Real time",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19",
+    "person:john-beavan",
+    "person:rachelle-winefield",
+    "person:chris-crook"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "LINZ began trialling one-second real-time streaming from PositioNZ stations in 2006. The early trials were limited to a small user group and did not promise continuous service. By 2010, twenty stations were reported as streaming real-time data, while communications from remote sites remained a practical constraint. Some stations depended on long radio links or locations with limited broadband access.",
+      "markdown": "LINZ began trialling one-second real-time streaming from PositioNZ stations in 2006. The early trials were limited to a small user group and did not promise continuous service. By 2010, twenty stations were reported as streaming real-time data, while communications from remote sites remained a practical constraint. Some stations depended on long radio links or locations with limited broadband access.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The network was subsequently upgraded for wider real-time use. LINZ and GNS completed the upgrade in February 2011, according to the LINZ 2010/11 annual report. Communications were improved and the network was moving from GPS-only equipment toward multi-constellation GNSS capability. The real-time service allowed compatible equipment to receive live corrections from national reference stations rather than relying only on later post-processing.",
+      "markdown": "The network was subsequently upgraded for wider real-time use. LINZ and GNS completed the upgrade in February 2011, according to the LINZ 2010/11 annual report. Communications were improved and the network was moving from GPS-only equipment toward multi-constellation GNSS capability. The real-time service allowed compatible equipment to receive live corrections from national reference stations rather than relying only on later post-processing.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The infrastructure changed what national geodetic control could deliver. An earlier surveyor connected to the national framework through a chain of physical marks and observations. A later user could also connect to continuously observed stations through archived RINEX or live data streams. The reference system remained national, but access to it increasingly occurred through network services as well as monuments in the ground.",
+      "markdown": "The infrastructure changed what national geodetic control could deliver. An earlier surveyor connected to the national framework through a chain of physical marks and observations. A later user could also connect to continuously observed stations through archived RINEX or live data streams. The reference system remained national, but access to it increasingly occurred through network services as well as monuments in the ground.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2009 Fiordland earthquake exposed another use for that network. A magnitude 7.7 earthquake on 15 July produced measurable shifts, including movements large enough to exceed datum accuracy standards in parts of the country. LINZ geodetic staff and GNS scientists developed a localised deformation patch that could be added to the national model. Rachelle Winefield, Chris Crook and John Beavan later documented the work and the method used to incorporate earthquake deformation into LINZ processing.",
+      "markdown": "The 2009 Fiordland earthquake exposed another use for that network. A magnitude 7.7 earthquake on 15 July produced measurable shifts, including movements large enough to exceed datum accuracy standards in parts of the country. LINZ geodetic staff and GNS scientists developed a localised deformation patch that could be added to the national model. Rachelle Winefield, Chris Crook and John Beavan later documented the work and the method used to incorporate earthquake deformation into LINZ processing.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

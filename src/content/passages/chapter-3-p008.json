@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-3-4a3e345ab0",
+  "slug": "several-separate-systems-4a3e345ab0",
+  "articleId": "article:chapter-3",
+  "title": "Several separate systems",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:3"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "MAPPAK, Ministry of Works route analysis, computer contouring and digital photogrammetric production developed for different operational reasons. Lands and Survey needed to convert and maintain mapping. Engineers needed to compare alignments and terrain options. Agricultural engineers needed terrain representation from survey observations. Photogrammetric organisations needed efficient ways to convert image measurements into mapping and, increasingly, digital data.",
+      "markdown": "MAPPAK, Ministry of Works route analysis, computer contouring and digital photogrammetric production developed for different operational reasons. Lands and Survey needed to convert and maintain mapping. Engineers needed to compare alignments and terrain options. Agricultural engineers needed terrain representation from survey observations. Photogrammetric organisations needed efficient ways to convert image measurements into mapping and, increasingly, digital data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Other digital-geographic systems were developing at the same time. DSIR researchers were processing Landsat imagery as raster data from the mid-1970s, while land-resource teams were digitising mapped environmental units and associated descriptions into the NZLRI and LADEDA environment. Those systems belong principally in the next two chapters. Their chronology overlaps MAPPAK and the photogrammetric work rather than following them in a simple sequence.",
+      "markdown": "Other digital-geographic systems were developing at the same time. DSIR researchers were processing Landsat imagery as raster data from the mid-1970s, while land-resource teams were digitising mapped environmental units and associated descriptions into the NZLRI and LADEDA environment. Those systems belong principally in the next two chapters. Their chronology overlaps MAPPAK and the photogrammetric work rather than following them in a simple sequence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The terminology remained mixed. Automated cartography, computer mapping, land information, remote sensing, digital mapping, graphics systems and geographic information systems were not interchangeable labels. A system could use geographic coordinates without being a GIS, and a mapping program could produce digital output without maintaining a reusable spatial database. During the 1980s these previously separate technical traditions increasingly used compatible computers, digital data and commercial software.",
+      "markdown": "The terminology remained mixed. Automated cartography, computer mapping, land information, remote sensing, digital mapping, graphics systems and geographic information systems were not interchangeable labels. A system could use geographic coordinates without being a GIS, and a mapping program could produce digital output without maintaining a reusable spatial database. During the 1980s these previously separate technical traditions increasingly used compatible computers, digital data and commercial software.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Paper remained part of the production system throughout this period. Source maps were digitised, computer-held geometry was plotted back to paper, and analogue photogrammetric instruments worked beside newer analytical equipment. Digital storage changed what could be retained and reused between jobs, but it did not produce an immediate paperless mapping office. Organisations added digital components where they solved particular production problems and retained older equipment where it still worked.",
+      "markdown": "Paper remained part of the production system throughout this period. Source maps were digitised, computer-held geometry was plotted back to paper, and analogue photogrammetric instruments worked beside newer analytical equipment. Digital storage changed what could be retained and reused between jobs, but it did not produce an immediate paperless mapping office. Organisations added digital components where they solved particular production problems and retained older equipment where it still worked.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the end of the 1980s, New Zealand mapping organisations routinely produced and maintained new forms of digital geographic information. Cadastral lines could be stored and edited as coordinates, terrain could be generated through software, orthophotos depended on computer-assisted geometric correction, and photogrammetric measurements could feed directly into CAD and GIS environments. Commercial GIS products entered this environment during the same decade, alongside locally developed and specialist systems. Raster processing and land-resource databases were developing in parallel.",
+      "markdown": "By the end of the 1980s, New Zealand mapping organisations routinely produced and maintained new forms of digital geographic information. Cadastral lines could be stored and edited as coordinates, terrain could be generated through software, orthophotos depended on computer-assisted geometric correction, and photogrammetric measurements could feed directly into CAD and GIS environments. Commercial GIS products entered this environment during the same decade, alongside locally developed and specialist systems. Raster processing and land-resource databases were developing in parallel.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:j-w-shirley",
+  "slug": "j-w-shirley",
+  "name": "J. W. Shirley",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/j-w-shirley/",
+  "story": [
+    "Barbara Höck and Tim Payn, working with J. W. Shirley of Forestry Corporation, had 1,643 forest compartment boundaries in digital form and imported them into ARC/INFO. The compartment identifiers linked 744 known site-index values to the spatial data, while the GIS supplied compartment-centre coordinates to a geostatistical analysis and received the estimated values back for mapping. The job shows a step beyond computerised forest inventory: the forest's management units had become spatial objects that could connect inventory records, statistical estimation and map production."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 8 · Routine forestry use",
+      "url": "/stories/forestry-finds-gis/"
+    }
+  ],
+  "aliases": [
+    "J. W. Shirley"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 8 · Routine forestry use",
+        "url": "/stories/forestry-finds-gis/"
+      }
+    ]
+  ]
+}

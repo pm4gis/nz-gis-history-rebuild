@@ -1,0 +1,135 @@
+{
+  "id": "entity:department-of-survey-and-land-information-dosli",
+  "slug": "department-of-survey-and-land-information-dosli",
+  "name": "Department of Survey and Land Information (DOSLI)",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/department-of-survey-and-land-information-dosli/",
+  "website": null,
+  "story": [
+    "DOSLI operated from 1987 to 1996 during a substantial part of the digital land-information transition. Its work included cadastral and topographic data, survey and mapping. The later division into LINZ and Terralink separated regulatory and public functions from commercial services, with data, systems and staff continuing across the change.",
+    "DOSLI was established in April 1987 when Lands and Survey was restructured. It provided government civil and military surveying, mapping and land-information services; land development and conservation management went to other organisations. In 1995 the Land Titles Office moved from the Department of Justice to DOSLI. On 1 July 1996 DOSLI’s functions were divided between LINZ and Terralink.",
+    "A contemporary account makes the cadastral programme more specific. Allan Wilson, writing from DOSLI’s Cadastral Services in April 1990, described the Digital Cadastral Database under development and its intended role as a common geographic framework. The stated benefits extended beyond departmental mapping to public services, land-management decisions and private-sector analysis. That was an ambition for a maintained national dataset and its users, rather than simply the purchase of GIS software.",
+    "The resulting data also had a long afterlife. LINZ’s legacy-system documentation traces DCDB geometry back to cadastral record maps digitised from the mid-1980s and records its later conversion into Landonline. District maintenance continued into 2000–02. DOSLI’s closure in 1996 and the replacement of its digital cadastral system were separate events."
+  ],
+  "sources": [
+    {
+      "label": "Land Information New Zealand, Our whakapapa",
+      "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+    },
+    {
+      "label": "LINZ institutional history / whakapapa",
+      "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+    },
+    {
+      "label": "Allan Wilson, GIS Technology Used to Establish a Digital Cadastral Database, New Zealand Geographer 46(1), April 1990, pp.33–36",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1745-7939.1990.tb01945.x"
+    },
+    {
+      "label": "LINZ, Historic property databases: DCDB lineage and district maintenance cutovers, 2000–02",
+      "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/property-ownership-and-boundary-data/historic-property-databases"
+    }
+  ],
+  "aliases": [
+    "Department of Survey and Land Information (DOSLI)",
+    "DOSLI"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [
+    [
+      {
+        "label": "Land Information New Zealand, Our whakapapa",
+        "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+      },
+      {
+        "label": "LINZ institutional history / whakapapa",
+        "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Our whakapapa: April 1987 restructuring, 1995 title transfer and 1 July 1996 division",
+        "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+      }
+    ],
+    [
+      {
+        "label": "Allan Wilson, GIS Technology Used to Establish a Digital Cadastral Database, New Zealand Geographer 46(1), April 1990, pp.33–36",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1745-7939.1990.tb01945.x"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Historic property databases: DCDB lineage and district maintenance cutovers, 2000–02",
+        "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/property-ownership-and-boundary-data/historic-property-databases"
+      }
+    ]
+  ],
+  "biographyParagraphSources": [],
+  "photoGallery": {
+    "title": "DOSLI in photographs",
+    "intro": "Nathan Heazlewood supplied seven photographs from the same period and a later LINZ newsletter clipping. One print is labelled “Cartographic Directorate 1995”. The clipping, dated May 1999, names the people in its own inset team photograph; it does not identify the people in the separate prints.",
+    "credit": "Seven photographs and a Landlink clipping provided by Nathan Heazlewood.",
+    "items": [
+      {
+        "alt": "Two staff members work at a large-format mapping machine in a production room.",
+        "caption": "Staff working with large-format mapping equipment. The photograph carries no equipment model or date."
+      },
+      {
+        "alt": "A person leans over a large map and marks it at a drafting table.",
+        "caption": "A map is marked up by hand at a drafting table. The person and date are unidentified."
+      },
+      {
+        "alt": "Two people stand beside a large-format map of New Zealand.",
+        "caption": "Two people pose beside a large-format map of New Zealand. The print does not name them."
+      },
+      {
+        "alt": "Departmental brochures on computer mapping, photogrammetry, geodetic surveying and cartography.",
+        "caption": "Departmental brochures cover computer mapping, photogrammetry, geodetic surveying and cartography. Publication dates are not visible."
+      },
+      {
+        "alt": "A group photograph labelled Cartographic Directorate 1995.",
+        "caption": "Group photograph labelled “Cartographic Directorate 1995”. Individual names are not recorded on the print."
+      },
+      {
+        "alt": "An unidentified man posed for a formal portrait in an office.",
+        "caption": "An uncaptioned portrait. The sitter’s name and the photograph’s date have not been established."
+      },
+      {
+        "alt": "A building with signs reading Infomap and Department of Survey and Land Information.",
+        "caption": "Building signage reads “Infomap” and “Department of Survey and Land Information”. The address and date are unconfirmed."
+      },
+      {
+        "alt": "Scanned page of LINZ’s Landlink newsletter from May 1999, with an article and group photograph about the digital topographic database.",
+        "caption": "Page 1 of Landlink, Issue 8 (May 1999), “LINZ first in mapping”. The article says the pictured team received plaques for contributions to establishing the New Zealand Topographic Digital Database and dates the four-year project to 1995 with LINZ’s predecessor DOSLI. The names below follow the caption for this inset photo.",
+        "people": [
+          {
+            "label": "Back row, from left",
+            "ids": [
+              "person:nathan-heazlewood",
+              "person:robin-pickering",
+              "person:dave-mole",
+              "person:rob-parkin"
+            ]
+          },
+          {
+            "label": "Middle row",
+            "ids": [
+              "person:paul-lundberg",
+              "person:geoff-howard"
+            ]
+          },
+          {
+            "label": "Front row, from left",
+            "ids": [
+              "person:joyce-baillie",
+              "person:fran-mcnamara",
+              "person:lorraine-crocker"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

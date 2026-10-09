@@ -1,0 +1,76 @@
+{
+  "id": "passage:chapter-28-d2141c3d3a",
+  "slug": "five-minutes-from-the-station-d2141c3d3a",
+  "articleId": "article:chapter-28",
+  "title": "Five minutes from the station",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28",
+    "entity:hastings-district-council",
+    "entity:hutt-city-council",
+    "entity:scion-forest-research",
+    "entity:wellington-regional-council-greater-wellington-regional-council",
+    "person:andrew-smith",
+    "person:b-robertson",
+    "person:greg-drummond"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The model used TransCAD, a geographic transportation and network-analysis package, together with the New Zealand deprivation index as an indicator of residential fire risk. It also incorporated commercial fire risk and projected community development and growth. The annual report describes the input factors as nationally consistent and independently verifiable so the model could be applied across centres on a common basis. The analysis supported operational decisions. It was a spatial allocation problem with a response-time objective.",
+      "markdown": "The model used TransCAD, a geographic transportation and network-analysis package, together with the New Zealand deprivation index as an indicator of residential fire risk. It also incorporated commercial fire risk and projected community development and growth. The annual report describes the input factors as nationally consistent and independently verifiable so the model could be applied across centres on a common basis. The analysis supported operational decisions. It was a spatial allocation problem with a response-time objective.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A station location that looked sensible on a city map could perform poorly once the road network, population risk and growth were considered. Moving a station changed the area that could be reached within the target time. Adding future development changed expected demand. Combining risk measures with network travel therefore allowed the Fire Service to compare alternative station configurations against a nationally stated operational objective.",
+      "markdown": "A station location that looked sensible on a city map could perform poorly once the road network, population risk and growth were considered. Moving a station changed the area that could be reached within the target time. Adding future development changed expected demand. Combining risk measures with network travel therefore allowed the Fire Service to compare alternative station configurations against a nationally stated operational objective.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Emergency GIS included routine preparation and resource planning as well as incident mapping. Much of the geographic work happens before an emergency. Stations, response areas, addresses, road networks and risk surfaces are maintained and analysed during ordinary operations so that the organisation is better placed when an incident occurs. The Civil Defence Emergency Management Act and National CDEM Strategy from 2002 later formalised a modern institutional setting for emergency management, but they did not create this use of spatial analysis and should not be treated as the cause of GIS adoption.",
+      "markdown": "Emergency GIS included routine preparation and resource planning as well as incident mapping. Much of the geographic work happens before an emergency. Stations, response areas, addresses, road networks and risk surfaces are maintained and analysed during ordinary operations so that the organisation is better placed when an incident occurs. The Civil Defence Emergency Management Act and National CDEM Strategy from 2002 later formalised a modern institutional setting for emergency management, but they did not create this use of spatial analysis and should not be treated as the cause of GIS adoption.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Councils also developed emergency applications for modelling and prediction. A 2009 Scion review records a Hastings District Council system called Firesim, developed by 1999 as an application of GenaMap. Staff could place an ignition point on a topographic map and display predicted elliptical fire perimeters derived from weather inputs and New Zealand Fire Danger Rating System values. The application also reported rate of spread, perimeter growth, head-fire intensity and likely suppression resources. It was intended for tactical wildfire planning but was also promoted for strategic planning, post-fire debriefs and training. The review points back to two 1999 council sources, including a paper by B. Robertson in the Resource Management Division's Office of Emergency Management. Hastings used GenaMap for fire prediction and council spatial data.",
+      "markdown": "Councils also developed emergency applications for modelling and prediction. A 2009 Scion review records a Hastings District Council system called Firesim, developed by 1999 as an application of GenaMap. Staff could place an ignition point on a topographic map and display predicted elliptical fire perimeters derived from weather inputs and New Zealand Fire Danger Rating System values. The application also reported rate of spread, perimeter growth, head-fire intensity and likely suppression resources. It was intended for tactical wildfire planning but was also promoted for strategic planning, post-fire debriefs and training. The review points back to two 1999 council sources, including a paper by B. Robertson in the Resource Management Division's Office of Emergency Management. Hastings used GenaMap for fire prediction and council spatial data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Hutt Valley provides a smaller example of council GIS escaping its normal office. A 2001 Fire Service research report records that a Chilton Saint James school GIS team reused Wellington Regional Council's wildfire study and digital layers for a vegetation-fire project on the eastern Hutt hills. The regional council supplied land-cover, slope, solar-radiation and wildfire-risk data; Andrew Smith is named for the wildfire study and digital data. Hutt City Council's Land Information section supplied aerial photographs, while Greg Drummond of Hutt City Council is acknowledged as the GIS in School mentor. The students added GPS fieldwork and their own analysis. The public application served different users and tasks from the council’s internal emergency systems. It was council data, a regional risk model and practitioner time being reused as a local learning and fire-risk experiment.",
+      "markdown": "The Hutt Valley provides a smaller example of council GIS escaping its normal office. A 2001 Fire Service research report records that a Chilton Saint James school GIS team reused Wellington Regional Council's wildfire study and digital layers for a vegetation-fire project on the eastern Hutt hills. The regional council supplied land-cover, slope, solar-radiation and wildfire-risk data; Andrew Smith is named for the wildfire study and digital data. Hutt City Council's Land Information section supplied aerial photographs, while Greg Drummond of Hutt City Council is acknowledged as the GIS in School mentor. The students added GPS fieldwork and their own analysis. The public application served different users and tasks from the council’s internal emergency systems. It was council data, a regional risk model and practitioner time being reused as a local learning and fire-risk experiment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Shared location references mattered for both Police and Fire work. Incident recording and dispatch depended on a reliable location that each organisation’s systems could recognise.",
+      "markdown": "Shared location references mattered for both Police and Fire work. Incident recording and dispatch depended on a reliable location that each organisation’s systems could recognise.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Emergency-services address work in the early 2000s brought Police, the Fire Service and LINZ into a shared specification for roads, addresses and place names. National address information supported consistent incident recording and dispatch. A dispatch centre, intelligence system and fire-resource model cannot reliably join information if the same road, locality or property is represented differently in each source.",
+      "markdown": "Emergency-services address work in the early 2000s brought Police, the Fire Service and LINZ into a shared specification for roads, addresses and place names. National address information supported consistent incident recording and dispatch. A dispatch centre, intelligence system and fire-resource model cannot reliably join information if the same road, locality or property is represented differently in each source.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same principle applied when emergency management became more formally organised under the Civil Defence Emergency Management Act 2002 and the first National CDEM Strategy. Those documents established responsibilities, planning expectations and national-local coordination. Emergency GIS had developed through earlier systems and responses. Spatial information was already present in public-safety work, and later CDEM organisations inherited council hazard layers, roads, facilities and other maintained datasets from systems developed for everyday business. The major disaster chapters later in the book will show what happened when those routine datasets had to be shared and updated under severe time pressure.",
+      "markdown": "The same principle applied when emergency management became more formally organised under the Civil Defence Emergency Management Act 2002 and the first National CDEM Strategy. Those documents established responsibilities, planning expectations and national-local coordination. Emergency GIS had developed through earlier systems and responses. Spatial information was already present in public-safety work, and later CDEM organisations inherited council hazard layers, roads, facilities and other maintained datasets from systems developed for everyday business. The major disaster chapters later in the book will show what happened when those routine datasets had to be shared and updated under severe time pressure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Routine operational geography remained a large part of the work. Most days do not involve an earthquake or cyclone. Police still need to understand where repeated demand is occurring, Fire still needs stations and travel-time coverage, and emergency planners still need to know where roads, communities and facilities are. The spectacular map made during a disaster depends on years of quieter work that is rarely photographed: maintaining reference data, fixing addresses, training analysts, supporting servers and agreeing which version of a boundary or road network is authoritative.",
+      "markdown": "Routine operational geography remained a large part of the work. Most days do not involve an earthquake or cyclone. Police still need to understand where repeated demand is occurring, Fire still needs stations and travel-time coverage, and emergency planners still need to know where roads, communities and facilities are. The spectacular map made during a disaster depends on years of quieter work that is rarely photographed: maintaining reference data, fixing addresses, training analysts, supporting servers and agreeing which version of a boundary or road network is authoritative.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "article:chapter-12",
+  "slug": "an-industry-and-community-form",
+  "title": "Companies and user groups",
+  "url": "/stories/an-industry-and-community-form/",
+  "summary": "By the early 1990s, buying GIS software was only the opening bid. The demonstration was often the easy part. An organisation still needed computers capable of running it, data in a usable format, someone who understood the install",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 12,
+  "themeIds": [
+    "women-in-gis",
+    "profession"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch12-note-01",
+      "text": "1. Eagle Technology corporate histories and company records support the longer International Data/Eagle computing genealogy and Eagle's corporate date of 1986 for the Esri distributorship. The original distribution agreement has not been recovered, so the date is not converted into a claim for New Zealand's first ARC/INFO licence or first Esri installation."
+    },
+    {
+      "id": "ch12-note-02",
+      "text": "2. Practitioner and company histories support Parker Jones and David Pimblott in the later-1980s distribution/implementation record where specifically documented. Such retrospective evidence is used for roles and lineage, not to create uncorroborated national firsts."
+    },
+    {
+      "id": "ch12-note-03",
+      "text": "3. The University of Canterbury Chronicle, 25 August 1987, establishes Intergraph Corporation (NZ) Ltd as a New Zealand corporate presence by that date. The cited agreement was CAD/CIM and does not establish the first Intergraph GIS customer."
+    },
+    {
+      "id": "ch12-note-04",
+      "text": "4. Explorer Graphics' 1987 foundation by David and Beryl Pimblott is supported by the surviving company lineage. Later NorthSouth GIS and AAM developments are used only as brief retrospective continuity and do not replace period evidence for the company's early work."
+    },
+    {
+      "id": "ch12-note-05",
+      "text": "5. The August 1995 New Zealand Forestry MapInfo article provides contemporary evidence for Critchlow Associates as the Wellington-based MapInfo master agent and for operational MapInfo use in the East Coast forestry-grant programme. Steve Critchlow's 1991 company-foundation date should remain tied to company/legal records."
+    },
+    {
+      "id": "ch12-note-06",
+      "text": "6. Historical DCDB documentation lists licensed data distributors including Terralink, New Zealand Aerial Mapping, Eagle Technology, MapInfo Australia, Critchlow Associates and Map Data Sciences. Chapter 12 uses the list to demonstrate a commercial data-conversion and distribution market; Chapter 13 discusses the cadastral database itself."
+    },
+    {
+      "id": "ch12-note-07",
+      "text": "7. The New Zealand Esri Users Group's own history dates its organisational foundation to 1992. The original founding minutes have not been recovered. Its official conference history lists annual events from 1996 through 2006, with contemporary evidence identifying the 2005 Wellington event as the tenth annual conference and the 2006 event as the eleventh. The later history leaves 2007 blank, and the manuscript leaves it blank rather than inventing an event."
+    },
+    {
+      "id": "ch12-note-08",
+      "text": "8. Smallworld retrospective and New Zealand company-registration material supports an Australasian presence from the early 1990s and a New Zealand legal entity from June 1995. Vector's 1998-99 Smallworld migration is a later production case, not proof of the first New Zealand Smallworld customer."
+    },
+    {
+      "id": "ch12-note-09",
+      "text": "Company and practitioner records support the connected IDL, Prime and Eagle lineage, Eagle's published 1986 Esri relationship date, and the later New Zealand product and user-community histories. The original distributor agreement and first local ARC/INFO production licence remain unresolved."
+    }
+  ]
+}

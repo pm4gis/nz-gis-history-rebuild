@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0730",
+  "a": "person:ian-yule",
+  "b": "chapter:18",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-18-97d1feb386"
+  ],
+  "sources": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "entity:palmerston-north-city-council",
+  "slug": "palmerston-north-city-council",
+  "name": "Palmerston North City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/palmerston-north-city-council/",
+  "website": "https://www.pncc.govt.nz",
+  "story": [
+    "Archives Central’s PNCC 00086 record set contains council map records from about 1990 to 2005 across City Corporate, Future Planning, GIS and Civil Defence. The catalogue shows mapping work distributed across several council divisions."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23, “Maps from all over council” and its source note",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Palmerston North City Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2414",
+  "a": "entity:beca",
+  "b": "chapter:39",
+  "label": "Discussed in chapter",
+  "basis": "Verified connection established in the 7 October 2026 entity-gap expansion.",
+  "passageIds": [],
+  "sources": []
+}

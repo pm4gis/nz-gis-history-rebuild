@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-10-3d743f9d24",
+  "slug": "land-information-becomes-policy-3d743f9d24",
+  "articleId": "article:chapter-10",
+  "title": "Land information becomes policy",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:10",
+    "person:brian-mclay",
+    "person:stephen-walsh",
+    "person:russel-mcquoid"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Professional discussion widened during the same period. The first National Multi-Disciplinary GIS Conference in Wellington in June 1989 brought together people working with land resources, remote sensing, databases, software, law and mapping. Government-related discussion included intellectual property, land information and resource management as well as technical systems. These subjects crossed departmental and professional boundaries.",
+      "markdown": "Professional discussion widened during the same period. The first National Multi-Disciplinary GIS Conference in Wellington in June 1989 brought together people working with land resources, remote sensing, databases, software, law and mapping. Government-related discussion included intellectual property, land information and resource management as well as technical systems. These subjects crossed departmental and professional boundaries.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1991 AURISA conference in Wellington makes the policy shift more explicit. Brian McLay's paper, \"LIS/GIS/LINZ The View From A Different Perspective\", addressed the land-information debate while the older LINZ advisory usage was still current. Stephen Walsh and Russel McQuoid examined the resource-management process and its implications for land-information systems. Other papers addressed the institutional position of the national surveying and mapping agency and the future of the national topographic database. By then, GIS and land-information systems were being discussed as parts of public administration as well as mapping technology.",
+      "markdown": "The 1991 AURISA conference in Wellington makes the policy shift more explicit. Brian McLay's paper, \"LIS/GIS/LINZ The View From A Different Perspective\", addressed the land-information debate while the older LINZ advisory usage was still current. Stephen Walsh and Russel McQuoid examined the resource-management process and its implications for land-information systems. Other papers addressed the institutional position of the national surveying and mapping agency and the future of the national topographic database. By then, GIS and land-information systems were being discussed as parts of public administration as well as mapping technology.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The systems described here were already developing before the Resource Management Act 1991 and before the later surge of desktop GIS. Around 1989–91, professional and policy material increasingly addressed standards, custody, data access, interdepartmental use and the responsibilities of the national mapping agency alongside the older production questions of digitising and plotting.",
+      "markdown": "The systems described here were already developing before the Resource Management Act 1991 and before the later surge of desktop GIS. Around 1989–91, professional and policy material increasingly addressed standards, custody, data access, interdepartmental use and the responsibilities of the national mapping agency alongside the older production questions of digitising and plotting.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

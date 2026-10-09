@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-5-a0b07eb248",
+  "slug": "a-national-land-inventory-a0b07eb248",
+  "articleId": "article:chapter-5",
+  "title": "A national land inventory",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5",
+    "entity:ministry-of-works-and-development",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In 1973 the Ministry of Works and Development began the first edition of the New Zealand Land Resource Inventory, usually shortened to NZLRI. The programme brought together several kinds of physical land information and mapped them across the country as land-resource units. Each mapped unit represented a particular combination of characteristics rather than a legal parcel or administrative area. The inventory recorded geology, soil, slope, erosion and vegetation, and those descriptions supported the associated land-use-capability classification used for planning and land-management work.",
+      "markdown": "In 1973 the Ministry of Works and Development began the first edition of the New Zealand Land Resource Inventory, usually shortened to NZLRI. The programme brought together several kinds of physical land information and mapped them across the country as land-resource units. Each mapped unit represented a particular combination of characteristics rather than a legal parcel or administrative area. The inventory recorded geology, soil, slope, erosion and vegetation, and those descriptions supported the associated land-use-capability classification used for planning and land-management work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The source material was analogue. Staff worked from aerial photographs, existing geological and soil mapping, topographic information and field observations, then drew boundaries around areas judged to have sufficiently consistent combinations of physical characteristics. A boundary on an NZLRI sheet therefore represented interpretation. It did not claim the legal certainty of a cadastral boundary or the measurement precision of a survey control point. Two neighbouring polygons might differ because the soil, slope, erosion pattern or vegetation changed enough to justify a different inventory code.",
+      "markdown": "The source material was analogue. Staff worked from aerial photographs, existing geological and soil mapping, topographic information and field observations, then drew boundaries around areas judged to have sufficiently consistent combinations of physical characteristics. A boundary on an NZLRI sheet therefore represented interpretation. It did not claim the legal certainty of a cadastral boundary or the measurement precision of a survey control point. Two neighbouring polygons might differ because the soil, slope, erosion pattern or vegetation changed enough to justify a different inventory code.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "National first-edition mapping was completed in 1979. By then the programme had produced a large collection of sheets and coded land-resource descriptions covering New Zealand. The paper map remained the normal way most users encountered the inventory, but the production team had already begun converting the mapped units into computer-readable form. Manaaki Whenua’s later institutional history dates digitisation of the first-edition NZLRI database to 1977–1980.",
+      "markdown": "National first-edition mapping was completed in 1979. By then the programme had produced a large collection of sheets and coded land-resource descriptions covering New Zealand. The paper map remained the normal way most users encountered the inventory, but the production team had already begun converting the mapped units into computer-readable form. Manaaki Whenua’s later institutional history dates digitisation of the first-edition NZLRI database to 1977–1980.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That placed the NZLRI alongside the other digital mapping lineages developing during the same period. Lands and Survey was working on MAPPAK and computer-assisted cadastral compilation. DSIR’s Physics and Engineering Laboratory was processing Landsat data as digital rasters. The NZLRI team was converting thematic land-resource units into vector polygons with descriptive codes attached to them. The systems were built for different organisations and different jobs, but all were shifting geographic work away from a final paper product as the only durable form of the information.",
+      "markdown": "That placed the NZLRI alongside the other digital mapping lineages developing during the same period. Lands and Survey was working on MAPPAK and computer-assisted cadastral compilation. DSIR’s Physics and Engineering Laboratory was processing Landsat data as digital rasters. The NZLRI team was converting thematic land-resource units into vector polygons with descriptive codes attached to them. The systems were built for different organisations and different jobs, but all were shifting geographic work away from a final paper product as the only durable form of the information.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

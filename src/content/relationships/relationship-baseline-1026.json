@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1026",
+  "a": "person:david-pimblott",
+  "b": "entity:eagle-technology",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

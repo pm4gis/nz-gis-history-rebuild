@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0805",
+  "a": "person:chris-scott",
+  "b": "chapter:39",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-39-55f120350b"
+  ],
+  "sources": []
+}

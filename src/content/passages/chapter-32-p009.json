@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-32-aa98df6e0c",
+  "slug": "a-community-large-enough-to-host-the-world-aa98df6e0c",
+  "articleId": "article:chapter-32",
+  "title": "A community large enough to host the world",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "open-practice"
+  ],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The professional community followed a similar trajectory. New Zealand practitioners had participated in mailing lists, open software development, local workshops and regional FOSS4G activity well before the mid-2020s. The first QGIS User Conference was held in Nødebo, Denmark.",
+      "markdown": "The professional community followed a similar trajectory. New Zealand practitioners had participated in mailing lists, open software development, local workshops and regional FOSS4G activity well before the mid-2020s. The first QGIS User Conference was held in Nødebo, Denmark.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "From 17 to 23 November 2025, Tāmaki Makaurau Auckland hosted the global FOSS4G conference. Workshops, conference sessions and community events brought open geospatial users, developers, researchers and decision-makers from New Zealand and overseas into one event. The local community organised and hosted an international gathering for open-source geospatial practitioners.",
+      "markdown": "From 17 to 23 November 2025, Tāmaki Makaurau Auckland hosted the global FOSS4G conference. Workshops, conference sessions and community events brought open geospatial users, developers, researchers and decision-makers from New Zealand and overseas into one event. The local community organised and hosted an international gathering for open-source geospatial practitioners.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The timing is revealing. NIWA’s PostGIS use had been documented in 2006, nearly two decades earlier. During that period open-source geospatial technology had moved through databases, web services, custom applications, desktop GIS, plugins, training, data services and official production environments. Much of that work had been quiet. The 2025 conference simply made the accumulated community more visible.",
+      "markdown": "The timing is revealing. NIWA’s PostGIS use had been documented in 2006, nearly two decades earlier. During that period open-source geospatial technology had moved through databases, web services, custom applications, desktop GIS, plugins, training, data services and official production environments. Much of that work had been quiet. The 2025 conference simply made the accumulated community more visible.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

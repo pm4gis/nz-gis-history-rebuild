@@ -1,0 +1,31 @@
+{
+  "id": "person:john-turnbull-thomson",
+  "slug": "john-turnbull-thomson",
+  "name": "John Turnbull Thomson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/john-turnbull-thomson/",
+  "story": [
+    "In 1856 Reko shared knowledge of the South Island interior with John Turnbull Thomson at Tūtūrau, including a map drawn in dust. Thomson’s subsequent reconnaissance and later published mapping formed a further stage in the record."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 1 · Existing map records",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "John Turnbull Thomson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 1 · Existing map records",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

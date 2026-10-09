@@ -1,0 +1,39 @@
+{
+  "id": "person:robyn-crisford",
+  "slug": "robyn-crisford",
+  "name": "Robyn Crisford",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/robyn-crisford/",
+  "story": [
+    "DOC profiled Robyn Crisford in 2013 as a Geospatial Analyst in North Canterbury supporting mapping, spatial analysis, field staff and GIS training. In 2019 she presented the use of ArcGIS Online across DOC and conservation partnerships including Taranaki Mounga and Project Janszoon."
+  ],
+  "sources": [
+    {
+      "label": "Department of Conservation, Jobs at DOC: Geospatial Analyst Robyn Crisford, 2013",
+      "url": "https://blog.doc.govt.nz/2013/09/27/geospatial-analyst-robyn/"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    }
+  ],
+  "aliases": [
+    "Robyn Crisford"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Department of Conservation, Jobs at DOC: Geospatial Analyst Robyn Crisford, 2013",
+        "url": "https://blog.doc.govt.nz/2013/09/27/geospatial-analyst-robyn/"
+      },
+      {
+        "label": "New Zealand Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      }
+    ]
+  ]
+}

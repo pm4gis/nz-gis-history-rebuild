@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-42-e2a0d99be5",
+  "slug": "kaikoura-moves-the-map-again-e2a0d99be5",
+  "articleId": "article:chapter-42",
+  "title": "Kaikōura moves the map again",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 14 November 2016 Kaikōura earthquake caused widespread fault rupture, landslides, coastal uplift and transport disruption across the upper South Island. LINZ coordinated post-event mapping with transport, science, regional and local-government partners. The 2018 Mapping New Zealand programme included aerial imagery, airborne LiDAR, offshore hydrographic LiDAR, building outlines and resurvey work.",
+      "markdown": "The 14 November 2016 Kaikōura earthquake caused widespread fault rupture, landslides, coastal uplift and transport disruption across the upper South Island. LINZ coordinated post-event mapping with transport, science, regional and local-government partners. The 2018 Mapping New Zealand programme included aerial imagery, airborne LiDAR, offshore hydrographic LiDAR, building outlines and resurvey work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These inputs covered different parts of the response. Aerial imagery recorded surface conditions; airborne LiDAR measured terrain; hydrographic LiDAR and bathymetric work extended mapping into coastal and marine areas; geodetic resurvey measured deformation in the reference frame.",
+      "markdown": "These inputs covered different parts of the response. Aerial imagery recorded surface conditions; airborne LiDAR measured terrain; hydrographic LiDAR and bathymetric work extended mapping into coastal and marine areas; geodetic resurvey measured deformation in the reference frame.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Post-event survey also fed into the January 2018 NZGD2000 update. Chapter 19 covers the coordinate changes and the transformation grids supplied to GIS custodians.",
+      "markdown": "Post-event survey also fed into the January 2018 NZGD2000 update. Chapter 19 covers the coordinate changes and the transformation grids supplied to GIS custodians.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-39-eb1e128f0a",
+  "slug": "from-model-to-digital-twin-eb1e128f0a",
+  "articleId": "article:chapter-39",
+  "title": "From model to digital twin",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39",
+    "person:urva-patel"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the early 2020s the phrase digital twin had become common enough to require restraint. It could describe anything from a static three-dimensional model to a continuously updated operational representation connected to sensors and business systems. Using the term too loosely makes the earlier history disappear, because almost any terrain model or city visualisation can then be rebranded after the fact. New Zealand projects developed through several stages.",
+      "markdown": "By the early 2020s the phrase digital twin had become common enough to require restraint. It could describe anything from a static three-dimensional model to a continuously updated operational representation connected to sensors and business systems. Using the term too loosely makes the earlier history disappear, because almost any terrain model or city visualisation can then be rebranded after the fact. New Zealand projects developed through several stages.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A static 3D model represents geometry at a point in time. A structured 3D GIS or city model adds persistent objects and attributes. An integrated model can link those objects to external datasets, engineering records or services. A stronger digital-twin approach maintains some relationship between the digital representation and the changing real asset, place or system, potentially supporting monitoring, simulation or decision-making.",
+      "markdown": "A static 3D model represents geometry at a point in time. A structured 3D GIS or city model adds persistent objects and attributes. An integrated model can link those objects to external datasets, engineering records or services. A stronger digital-twin approach maintains some relationship between the digital representation and the changing real asset, place or system, potentially supporting monitoring, simulation or decision-making.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand research by the end of 2025 had moved well into this territory without demonstrating universal operational adoption. Urva Patel's 2025 Auckland University of Technology doctorate examined digital twins in relation to New Zealand urban well-being and the Treasury's Living Standards Framework. The research used public social, economic and environmental data, tested open-source platforms including Eclipse Ditto and FIWARE, and evaluated a proof-of-concept approach. A peer-reviewed Cities paper published in October 2025 developed the work into a well-being-oriented framework for urban digital twins.",
+      "markdown": "New Zealand research by the end of 2025 had moved well into this territory without demonstrating universal operational adoption. Urva Patel's 2025 Auckland University of Technology doctorate examined digital twins in relation to New Zealand urban well-being and the Treasury's Living Standards Framework. The research used public social, economic and environmental data, tested open-source platforms including Eclipse Ditto and FIWARE, and evaluated a proof-of-concept approach. A peer-reviewed Cities paper published in October 2025 developed the work into a well-being-oriented framework for urban digital twins.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Researchers examined what a digital twin should represent, how datasets should interoperate and whether an urban model can include social and well-being measures rather than only buildings and pipes. By the end of 2025, New Zealand digital-twin work included research, frameworks, pilots and selected operational systems.",
+      "markdown": "Researchers examined what a digital twin should represent, how datasets should interoperate and whether an urban model can include social and well-being measures rather than only buildings and pipes. By the end of 2025, New Zealand digital-twin work included research, frameworks, pilots and selected operational systems.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "person:daniel-exeter",
+  "slug": "daniel-exeter",
+  "name": "Daniel Exeter",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/daniel-exeter/",
+  "website": null,
+  "story": [
+    "Daniel Exeter is a University of Auckland health geographer and spatial epidemiologist whose research uses Geographic Information Science and large datasets to study inequalities in health and social outcomes. His work includes leadership of the New Zealand Index of Multiple Deprivation and the Older Persons’ Index of Multiple Deprivation.",
+    "The Index of Multiple Deprivation team received the People & Community category at the 2018 New Zealand Spatial Excellence Awards. Exeter’s work is part of the long-running use of GIS to connect population data, deprivation measures and health geography in New Zealand."
+  ],
+  "sources": [
+    {
+      "label": "University of Auckland, inaugural lecture: Professor Daniel Exeter, 2024",
+      "url": "https://www.auckland.ac.nz/en/fmhs/news-events/Events/inaugural-lecture-series/2024/inaugural-lecture-professor-daniel-exeter.html"
+    },
+    {
+      "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+      "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+    }
+  ],
+  "aliases": [
+    "Daniel Exeter",
+    "Dan Exeter"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

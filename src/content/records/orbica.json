@@ -1,0 +1,39 @@
+{
+  "id": "entity:orbica",
+  "slug": "orbica",
+  "name": "Orbica",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/orbica/",
+  "website": null,
+  "story": [
+    "An April 2019 AI Forum case study described Christchurch-based Orbica as a GeoAI business working on construction monitoring for Thyssenkrupp at a site in Saudi Arabia. Orbica combined high-resolution imagery, geospatial analysis and machine-learning models to identify construction features and compare observed progress with schedule. The case study also records an iterative process in which human-corrected outputs fed back into model training.",
+    "Orbica also worked on New Zealand public-sector applications. In 2018, it helped a regional council present its proposed 2018/19 budget and funded projects through an interactive rates website. In 2020, NZTA partnered with Catalyst and Orbica to rebuild the Crash Analysis System, bringing Police crash records dating from 1980 together with maps, queries and reports for road planning, policing and policy work. Catalyst reported that the web-based system was available to more than 1,000 authorised users.",
+    "Orbica’s legal adviser dates the company’s founding by Kurt Janssen to 2017. In August 2022 it announced advising the company on a $2.8 million seed round led by Pacific Channel, with Ngāi Tahu’s New Economy Fund and Enterprise Angels also investing. This gives a documented funding milestone alongside the earlier GeoAI and public-sector projects."
+  ],
+  "sources": [
+    {
+      "label": "AI Forum of New Zealand, GeoAI: Extracting Intelligence from Geospatial Data and Imagery, 2019",
+      "url": "https://aiforum.org.nz/wp-content/uploads/2019/08/Orbica-Case-Study.pdf"
+    },
+    {
+      "label": "Scoop, Rates brought to life: Orbica’s new project, 2018",
+      "url": "https://www.scoop.co.nz/stories/AK1803/S00136/rates-brought-to-life-orbicas-new-project.htm"
+    },
+    {
+      "label": "Catalyst IT, Using geospatial data for safer roads, 2020",
+      "url": "https://www.catalyst.net.nz/stories-and-studies/case-studies/using-geospatial-data-safer-roads"
+    },
+    {
+      "label": "Kindrik Partners, Orbica’s $2.8 million seed round, 18 August 2022",
+      "url": "https://kindrik.co.nz/blogs/kindrik-partners-advises-orbica-on-its-2-8m-seed-round/"
+    }
+  ],
+  "aliases": [
+    "Orbica"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

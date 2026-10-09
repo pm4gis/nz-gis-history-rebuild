@@ -1,0 +1,78 @@
+{
+  "id": "system:enterprise-gis",
+  "slug": "enterprise-gis",
+  "name": "Enterprise GIS",
+  "kind": "Technology",
+  "category": "Systems and projects",
+  "url": "/systems/enterprise-gis/",
+  "story": [
+    "Enterprise GIS combines authoritative shared data, databases, server or hosted services, business-system integration, identity and permissions, support and lifecycle management. Its users can include specialists maintaining the data and staff who reach it through a browser or a field application. A geographic record may also connect to an asset register, consent system, inspection record or financial application. Those relationships require dependable identifiers and agreed responsibility for the information.",
+    "New Zealand organisations moved towards this model through several technical routes. ArcSDE, Oracle Spatial, SQL Server spatial databases, corporate intranets and web mapping supported shared access. Intergraph, MapInfo, Smallworld, open-source databases and custom applications contributed alongside Esri products. The resulting systems varied in size, purpose and architecture. Their common problem was making maintained geographic information available to the people and applications that needed it.",
+    "DOCgis joined a national geodatabase, desktop tools, browser mapping, operational databases and field technology in the early 2000s. Christchurch City Council’s corporate Webmap extended internal browser access, while Dunedin’s ArcIMS WebMap connected property mapping with public rating information. Auckland Council later faced a consolidation problem following amalgamation: thousands of datasets and many inherited applications had to be reconciled into a manageable service. Downer introduced GRAIL within an established contracting business, connecting spatial tools to design and delivery work.",
+    "From 2021 NZTA’s ArcGIS Enterprise on Kubernetes programme used a hub-and-spoke model. A central spatial team maintained shared services and governance while business teams built applications around them. The platform supported field surveys and situational awareness during Cyclone Gabrielle in February 2023. Operating such a platform involves software upgrades, backups, performance, authentication and interfaces with other applications. Database administrators, infrastructure engineers, developers, security staff and business-system owners consequently work alongside spatial specialists.",
+    "New Zealand Police’s ArcGIS Enterprise implementation began in 2021 under a team led by Duane Wilkins, with Sarah Hodgson among its members."
+  ],
+  "sources": [
+    {
+      "label": "Department of Conservation, Managing Conservation Enterprise Systems: National Enterprise GIS Implementation for Conservation Management, Esri International User Conference 2003, Paper 1048",
+      "url": "https://proceedings.esri.com/library/userconf/proc03/p1048.pdf"
+    },
+    {
+      "label": "Department of Conservation, DOCgis Training Guide, Intranet Edition, 2003, Release II"
+    },
+    {
+      "label": "Christchurch City Council, Corporate Plan 2001/02, electronic-information and GIS objectives",
+      "url": "https://archived.ccc.govt.nz/Council/CorporatePlan/2001/Volume2/VolumeII.pdf"
+    },
+    {
+      "label": "Christchurch City Council, Corporate Office status material, February 2003",
+      "url": "https://archived.ccc.govt.nz/Council/Agendas/2003/February/StategyFinanceAP/Clause2AttachmentCorporateOffice.pdf"
+    },
+    {
+      "label": "Dunedin City Council, surviving WebMap help site",
+      "url": "https://www.dunedin.govt.nz/WebMap/webmaphelp.htm"
+    },
+    {
+      "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+      "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+    },
+    {
+      "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+    },
+    {
+      "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+    },
+    {
+      "label": "Author account supplied by Duane Wilkins, Police ArcGIS Enterprise team, 2021"
+    }
+  ],
+  "aliases": [
+    "shared GIS",
+    "corporate GIS",
+    "spatial as a service",
+    "enterprise geodatabase"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "Shared information",
+      "paragraphs": [
+        "Enterprise GIS combines authoritative shared data, databases, server or hosted services, business-system integration, identity and permissions, support and lifecycle management. Its users can include specialists maintaining the data and staff who reach it through a browser or a field application. A geographic record may also connect to an asset register, consent system, inspection record or financial application. Those relationships require dependable identifiers and agreed responsibility for the information.",
+        "New Zealand organisations moved towards this model through several technical routes. ArcSDE, Oracle Spatial, SQL Server spatial databases, corporate intranets and web mapping supported shared access. Intergraph, MapInfo, Smallworld, open-source databases and custom applications contributed alongside Esri products. The resulting systems varied in size, purpose and architecture. Their common problem was making maintained geographic information available to the people and applications that needed it."
+      ]
+    },
+    {
+      "title": "Implementation work",
+      "paragraphs": [
+        "DOCgis joined a national geodatabase, desktop tools, browser mapping, operational databases and field technology in the early 2000s. Christchurch City Council’s corporate Webmap extended internal browser access, while Dunedin’s ArcIMS WebMap connected property mapping with public rating information. Auckland Council later faced a consolidation problem following amalgamation: thousands of datasets and many inherited applications had to be reconciled into a manageable service. Downer introduced GRAIL within an established contracting business, connecting spatial tools to design and delivery work.",
+        "From 2021 NZTA’s ArcGIS Enterprise on Kubernetes programme used a hub-and-spoke model. A central spatial team maintained shared services and governance while business teams built applications around them. The platform supported field surveys and situational awareness during Cyclone Gabrielle in February 2023. Operating such a platform involves software upgrades, backups, performance, authentication and interfaces with other applications. Database administrators, infrastructure engineers, developers, security staff and business-system owners consequently work alongside spatial specialists.",
+        "New Zealand Police’s ArcGIS Enterprise implementation began in 2021 under a team led by Duane Wilkins, with Sarah Hodgson among its members."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-40-4580a42438",
+  "slug": "the-platform-team-4580a42438",
+  "articleId": "article:chapter-40",
+  "title": "The platform team",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:new-zealand-police",
+    "person:duane-wilkins",
+    "person:sarah-hodgson"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Keeping those dependencies working created new kinds of geospatial work. Someone had to administer spatial databases, publish services, monitor performance, manage user access, plan upgrades, restore backups and investigate failures. Someone had to coordinate with infrastructure teams, database administrators, application developers and security staff. The GIS profession was acquiring an operational layer alongside analysis and cartography.",
+      "markdown": "Keeping those dependencies working created new kinds of geospatial work. Someone had to administer spatial databases, publish services, monitor performance, manage user access, plan upgrades, restore backups and investigate failures. Someone had to coordinate with infrastructure teams, database administrators, application developers and security staff. The GIS profession was acquiring an operational layer alongside analysis and cartography.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These responsibilities were rarely organised in exactly the same way. A large agency might separate database administration, server infrastructure and GIS application support. A council might keep several responsibilities inside a small corporate GIS team. A research organisation might combine software development and spatial-data management around projects. The common feature was that GIS availability itself had become work.",
+      "markdown": "These responsibilities were rarely organised in exactly the same way. A large agency might separate database administration, server infrastructure and GIS application support. A council might keep several responsibilities inside a small corporate GIS team. A research organisation might combine software development and spatial-data management around projects. The common feature was that GIS availability itself had become work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This changed professional priorities. A beautiful map can be finished. A platform is never finished in quite the same way. Databases grow, users arrive, operating systems age, certificates expire, software versions change and new applications create new dependencies. Enterprise GIS replaced some one-off production work with a continuing obligation to keep the spatial environment healthy.",
+      "markdown": "This changed professional priorities. A beautiful map can be finished. A platform is never finished in quite the same way. Databases grow, users arrive, operating systems age, certificates expire, software versions change and new applications create new dependencies. Enterprise GIS replaced some one-off production work with a continuing obligation to keep the spatial environment healthy.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand Police’s ArcGIS Enterprise implementation began in 2021 under a team led by Duane Wilkins, with Sarah Hodgson among its members.",
+      "markdown": "New Zealand Police’s ArcGIS Enterprise implementation began in 2021 under a team led by Duane Wilkins, with Sarah Hodgson among its members.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:omid-khazaeian",
+  "slug": "omid-khazaeian",
+  "name": "Omid Khazaeian",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/omid-khazaeian/",
+  "website": null,
+  "story": [
+    "Omid Khazaeian undertook doctoral research in Geographic Information Science at Victoria University of Wellington, applying spatial econometrics and GIS to urban mobility and commuting. His work used New Zealand household travel and other spatial datasets to investigate transport patterns.",
+    "He received the Postgraduate Student Award in the 2021 New Zealand Spatial Excellence Awards. The award citation recognised the use of spatial and survey data with methods drawn from econometrics to analyse mobility."
+  ],
+  "sources": [
+    {
+      "label": "Victoria University of Wellington, Omid Khazaeian student profile",
+      "url": "https://www.wgtn.ac.nz/sgees/study/student-and-alumni-profiles/omid-khazaeian"
+    },
+    {
+      "label": "Spatial Source, 2021 New Zealand Spatial Excellence Awards winners",
+      "url": "https://www.spatialsource.com.au/nz-spatial-excellence-awards-winners-announced/"
+    }
+  ],
+  "aliases": [
+    "Omid Khazaeian"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "passage:chapter-9-a97d1cda42",
+  "slug": "classifying-landscapes-by-computer-a97d1cda42",
+  "articleId": "article:chapter-9",
+  "title": "Classifying landscapes by computer",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9",
+    "person:lars-brabyn",
+    "person:marian-hobbs"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 2000 GIS was also being used to create classifications from national spatial datasets. Lars Brabyn’s work on automatically classifying New Zealand landscapes used GIS to combine environmental variables and produce a national landscape classification. The method shifted some of the work from drawing regions manually toward applying explicit rules or procedures to digital data.",
+      "markdown": "By 2000 GIS was also being used to create classifications from national spatial datasets. Lars Brabyn’s work on automatically classifying New Zealand landscapes used GIS to combine environmental variables and produce a national landscape classification. The method shifted some of the work from drawing regions manually toward applying explicit rules or procedures to digital data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "An automated classification still depended on choices made by the researcher. Variables had to be selected, transformed and weighted or grouped in ways that reflected the purpose of the study. Resolution affected the pattern that emerged. The resulting regions were produced consistently by the procedure, but consistency did not make the classification neutral or permanent.",
+      "markdown": "An automated classification still depended on choices made by the researcher. Variables had to be selected, transformed and weighted or grouped in ways that reflected the purpose of the study. Resolution affected the pattern that emerged. The resulting regions were produced consistently by the procedure, but consistency did not make the classification neutral or permanent.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The difference was repeatability. A manual national classification might depend heavily on an expert drawing boundaries after interpreting several maps. A GIS-based method could record the data and procedures used to produce the classes and then be rerun after a change in method or source data. That made comparison between alternative classifications easier and opened the work to forms of sensitivity testing that were difficult with hand-drawn boundaries.",
+      "markdown": "The difference was repeatability. A manual national classification might depend heavily on an expert drawing boundaries after interpreting several maps. A GIS-based method could record the data and procedures used to produce the classes and then be rerun after a change in method or source data. That made comparison between alternative classifications easier and opened the work to forms of sensitivity testing that were difficult with hand-drawn boundaries.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Automated landscape classification depended on the growing supply of reusable spatial data by the end of the 1990s. National analysis was practical once elevation, land cover, climate and other environmental information could be combined systematically. Scientific GIS drew on data infrastructure being developed across government and research organisations.",
+      "markdown": "Automated landscape classification depended on the growing supply of reusable spatial data by the end of the 1990s. National analysis was practical once elevation, land cover, climate and other environmental information could be combined systematically. Scientific GIS drew on data infrastructure being developed across government and research organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2003 Land Environments of New Zealand (LENZ) brought another national environmental classification into public use. Environment Minister Marian Hobbs launched a full-colour atlas of the system developed by Landcare Research with the Ministry for the Environment. LENZ identified similar environments using 15 climate, landform and soil variables, including temperature, rainfall, solar radiation, soil fertility, drainage and slope. The published resource combined an atlas, technical documentation and digital data layers, making a GIS-based classification available for conservation, resource management, environmental risk, biosecurity and productive land uses.",
+      "markdown": "In 2003 Land Environments of New Zealand (LENZ) brought another national environmental classification into public use. Environment Minister Marian Hobbs launched a full-colour atlas of the system developed by Landcare Research with the Ministry for the Environment. LENZ identified similar environments using 15 climate, landform and soil variables, including temperature, rainfall, solar radiation, soil fertility, drainage and slope. The published resource combined an atlas, technical documentation and digital data layers, making a GIS-based classification available for conservation, resource management, environmental risk, biosecurity and productive land uses.",
+      "sources": [
+        {
+          "label": "Beehive, Award-winning classification system published as full colour atlas, 23 April 2003",
+          "url": "https://www.beehive.govt.nz/release/award-winning-classification-system-published-full-colour-atlas"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

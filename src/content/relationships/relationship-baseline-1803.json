@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1803",
+  "a": "person:mark-rattenbury",
+  "b": "chapter:9",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-9-94bf81a964",
+    "passage:chapter-9-e3288ddbcd"
+  ],
+  "sources": []
+}

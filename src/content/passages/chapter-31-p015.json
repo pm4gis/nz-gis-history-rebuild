@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-31-05b7134f93",
+  "slug": "public-expectations-05b7134f93",
+  "articleId": "article:chapter-31",
+  "title": "Public expectations",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The first browser GIS systems had proved that geographic information could leave the specialist workstation. Google Earth and Google Maps changed what happened once it got out. Instead of encountering interactive mapping only when a particular institution chose to provide it, New Zealanders increasingly encountered mapping as a general-purpose consumer service.",
+      "markdown": "The first browser GIS systems had proved that geographic information could leave the specialist workstation. Google Earth and Google Maps changed what happened once it got out. Instead of encountering interactive mapping only when a particular institution chose to provide it, New Zealanders increasingly encountered mapping as a general-purpose consumer service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That shift altered expectations more than the underlying principles of GIS. Addresses still had to be matched to places. Routes still had to be calculated across networks. Imagery still had capture dates and positional limitations. Authoritative datasets still had to be maintained. The major difference was that many of those complexities were now hidden behind interfaces simple enough for millions of people to use without learning the language of GIS.",
+      "markdown": "That shift altered expectations more than the underlying principles of GIS. Addresses still had to be matched to places. Routes still had to be calculated across networks. Imagery still had capture dates and positional limitations. Authoritative datasets still had to be maintained. The major difference was that many of those complexities were now hidden behind interfaces simple enough for millions of people to use without learning the language of GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For the profession, this was both useful and inconvenient. It created better ways to communicate geography to people outside the field, but it also removed the novelty from basic interactive mapping. A GIS team could no longer assume that a pan-and-zoom map was impressive in itself. The harder work increasingly sat in data quality, integration, analysis, governance and designing services that behaved as well as users now expected.",
+      "markdown": "For the profession, this was both useful and inconvenient. It created better ways to communicate geography to people outside the field, but it also removed the novelty from basic interactive mapping. A GIS team could no longer assume that a pan-and-zoom map was impressive in itself. The harder work increasingly sat in data quality, integration, analysis, governance and designing services that behaved as well as users now expected.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Open-source tools were widening the technical choices available to practitioners, open data was changing the terms on which authoritative geography could be reused, and mobile systems were carrying GIS further into the field. Google’s contribution to that sequence was to make the audience enormous before many organisations had finished adjusting to the browser at all.",
+      "markdown": "Open-source tools were widening the technical choices available to practitioners, open data was changing the terms on which authoritative geography could be reused, and mobile systems were carrying GIS further into the field. Google’s contribution to that sequence was to make the audience enormous before many organisations had finished adjusting to the browser at all.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

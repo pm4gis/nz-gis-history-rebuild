@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-8-6000d187f1",
+  "slug": "mapinfo-on-the-east-coast-6000d187f1",
+  "articleId": "article:chapter-8",
+  "title": "MapInfo on the East Coast",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:8",
+    "entity:critchlow"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the middle of the 1990s desktop GIS was being used directly in Ministry of Forestry operational programmes. An August 1995 New Zealand Forestry article described an East Coast erosion-control forestry grants project based in Gisborne. The programme had begun the previous year and was already monitoring more than 16,000 hectares. MapInfo was used to produce maps, record land use and calculate the hectares associated with grants.",
+      "markdown": "By the middle of the 1990s desktop GIS was being used directly in Ministry of Forestry operational programmes. An August 1995 New Zealand Forestry article described an East Coast erosion-control forestry grants project based in Gisborne. The programme had begun the previous year and was already monitoring more than 16,000 hectares. MapInfo was used to produce maps, record land use and calculate the hectares associated with grants.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was different from the 1989 TERRASOFT research and demonstration cases in scale and administrative setting. The GIS supported a live programme that needed to know where afforestation was occurring and how much land qualified for grant calculations. Mapping and measurement were part of the same administrative workflow. The contemporary report also identified Critchlow Associates as the New Zealand MapInfo master agent, placing commercial desktop GIS support beside government forestry use.",
+      "markdown": "This was different from the 1989 TERRASOFT research and demonstration cases in scale and administrative setting. The GIS supported a live programme that needed to know where afforestation was occurring and how much land qualified for grant calculations. Mapping and measurement were part of the same administrative workflow. The contemporary report also identified Critchlow Associates as the New Zealand MapInfo master agent, placing commercial desktop GIS support beside government forestry use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The East Coast programme connected forestry with erosion control, so it also crossed the boundary between production and environmental management. Trees were being established partly as a response to unstable land rather than solely to create a timber crop. GIS could hold the planting areas, land-use information and programme boundaries needed to manage that work. The forestry application was therefore operational without fitting neatly into one sectoral box.",
+      "markdown": "The East Coast programme connected forestry with erosion control, so it also crossed the boundary between production and environmental management. Trees were being established partly as a response to unstable land rather than solely to create a timber crop. GIS could hold the planting areas, land-use information and programme boundaries needed to manage that work. The forestry application was therefore operational without fitting neatly into one sectoral box.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 1995 a programme office could use a commercial desktop package for mapping and calculations without maintaining its own specialist GIS development environment. The software still required trained staff and reliable data, but its technical setting differed from the earlier workstation systems used by large mapping agencies and research units. Commercial support and training could also be obtained locally.",
+      "markdown": "By 1995 a programme office could use a commercial desktop package for mapping and calculations without maintaining its own specialist GIS development environment. The software still required trained staff and reliable data, but its technical setting differed from the earlier workstation systems used by large mapping agencies and research units. Commercial support and training could also be obtained locally.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

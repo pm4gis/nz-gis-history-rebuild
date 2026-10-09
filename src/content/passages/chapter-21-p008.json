@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-21-9694177344",
+  "slug": "richard-murcott-s-standards-work-9694177344",
+  "articleId": "article:chapter-21",
+  "title": "Richard Murcott’s standards work",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21",
+    "person:richard-pascoe",
+    "person:richard-murcott"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Richard Murcott connected New Zealand’s operational mapping systems with the development of geospatial standards. His career began in cadastral surveying and work on the Digital Cadastral Database. At LINZ he coordinated the Emergency Services and Administration core-data specification, bringing roads, addresses and related location information into a shared model. In October 2001, Murcott and Richard Pascoe presented that work to ISO/TC 211, describing the application of its standards to locating and verifying information for government emergency services.",
+      "markdown": "Richard Murcott connected New Zealand’s operational mapping systems with the development of geospatial standards. His career began in cadastral surveying and work on the Digital Cadastral Database. At LINZ he coordinated the Emergency Services and Administration core-data specification, bringing roads, addresses and related location information into a shared model. In October 2001, Murcott and Richard Pascoe presented that work to ISO/TC 211, describing the application of its standards to locating and verifying information for government emergency services.",
+      "sources": [
+        {
+          "label": "OpenWork, Richard Murcott professional biography: surveying, DCDB and geospatial standards",
+          "url": "https://www.openwork.nz/copy-of-about"
+        },
+        {
+          "label": "LINZ, Emergency Services and Administration Core Data Specification, April 2004, Appendix H: Richard Murcott, project coordinator",
+          "url": "https://www.linz.govt.nz/sites/default/files/esa-dataset-specification-v1-9-7.pdf"
+        },
+        {
+          "label": "ISO/TC 211, Adelaide standards-in-action presentation archive, October 2001: Richard Pascoe and Richard Murcott",
+          "url": "https://committee.iso.org/sites/tc211/home/standards-in-action/presentation-archive/2001-10-adelaide.html"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "His later work included geospatial metadata, the e-Government Interoperability Framework and advice on the New Zealand Geospatial Strategy. As Geospatial Standards Leader in the New Zealand Geospatial Office, he worked on an address model informed by the difficulties exposed during the Canterbury earthquakes. His professional biography also records participation in international hydrographic committees and the organisation of New Zealand’s contribution to ISO/TC 211. These roles involved specifying how data should be described and exchanged across agencies and national boundaries.",
+      "markdown": "His later work included geospatial metadata, the e-Government Interoperability Framework and advice on the New Zealand Geospatial Strategy. As Geospatial Standards Leader in the New Zealand Geospatial Office, he worked on an address model informed by the difficulties exposed during the Canterbury earthquakes. His professional biography also records participation in international hydrographic committees and the organisation of New Zealand’s contribution to ISO/TC 211. These roles involved specifying how data should be described and exchanged across agencies and national boundaries.",
+      "sources": [
+        {
+          "label": "OpenWork, Richard Murcott professional biography: surveying, DCDB and geospatial standards",
+          "url": "https://www.openwork.nz/copy-of-about"
+        },
+        {
+          "label": "Vicinity Solutions, New Zealand Geospatial Office address-model case study: Richard Murcott, Geospatial Standards Leader",
+          "url": "https://vicgis.com/projects/nz-geospatial-office.html"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

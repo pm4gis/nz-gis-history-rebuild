@@ -1,0 +1,33 @@
+{
+  "id": "1989-wellington-lifelines-study",
+  "dateDisplay": "1989",
+  "startDate": "1989",
+  "datePrecision": "year",
+  "year": 1989,
+  "label": "Wellington lifelines study begins",
+  "summary": "CAE’s shared utility study began in 1989 and was completed in 1991.",
+  "url": "/stories/mapping-the-networks/#shared-utility-studies-1989-1996-329014cdad",
+  "passageIds": [
+    "passage:chapter-25-329014cdad"
+  ],
+  "recordIds": [
+    "chapter:25",
+    "person:david-brunsdon"
+  ],
+  "themeIds": [],
+  "categories": [
+    "GIS",
+    "utilities",
+    "research"
+  ],
+  "sources": [
+    {
+      "label": "David R. Brunsdon, Lifelines engineering: a long way in a decade, June 1997, pp.194–200",
+      "url": "https://bulletin.nzsee.org.nz/index.php/bnzsee/article/view/574/551"
+    },
+    {
+      "label": "David R. Brunsdon, Lifelines engineering: a long way in a decade, June 1997, pp.194–200",
+      "url": "https://bulletin.nzsee.org.nz/index.php/bnzsee/article/view/574/551"
+    }
+  ]
+}

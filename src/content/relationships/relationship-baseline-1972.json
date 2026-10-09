@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1972",
+  "a": "person:k-g-fraser",
+  "b": "chapter:23",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-23-2085360bd2"
+  ],
+  "sources": []
+}

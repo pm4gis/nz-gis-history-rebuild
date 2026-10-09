@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-29-4f60b43ad7",
+  "slug": "from-analyst-to-developer-4f60b43ad7",
+  "articleId": "article:chapter-29",
+  "title": "From analyst to developer",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:29"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Job titles became more recognisable as systems became larger. The GIS analyst was the most obvious role, but operational systems needed more than analysis. Organisations needed people to administer spatial databases, manage enterprise software, automate repetitive work, maintain web services, design data models, support field systems and connect GIS with corporate applications. The title on a business card did not always keep pace with the work.",
+      "markdown": "Job titles became more recognisable as systems became larger. The GIS analyst was the most obvious role, but operational systems needed more than analysis. Organisations needed people to administer spatial databases, manage enterprise software, automate repetitive work, maintain web services, design data models, support field systems and connect GIS with corporate applications. The title on a business card did not always keep pace with the work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change can be seen in the technical environment described in earlier chapters. Desktop GIS widened access during the 1990s, but enterprise databases and browser systems created new responsibilities. A council or government agency running a corporate spatial database needed database administration, security, publishing and support. A web map needed server configuration, application development and interface design. A mobile workflow needed synchronisation, forms, hardware support and field-data governance.",
+      "markdown": "The change can be seen in the technical environment described in earlier chapters. Desktop GIS widened access during the 1990s, but enterprise databases and browser systems created new responsibilities. A council or government agency running a corporate spatial database needed database administration, security, publishing and support. A web map needed server configuration, application development and interface design. A mobile workflow needed synchronisation, forms, hardware support and field-data governance.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Commercial practice reflected the same widening. By 2013, a Commerce Commission filing describing the New Zealand geospatial-services market named a broad group of software, data, imagery, consultancy and integration firms. That market included companies selling platforms, firms specialising in datasets and addressing, enterprise consultants, aerial-survey businesses and organisations building location-based applications. GIS teams increasingly included developers, database specialists and analysts.",
+      "markdown": "Commercial practice reflected the same widening. By 2013, a Commerce Commission filing describing the New Zealand geospatial-services market named a broad group of software, data, imagery, consultancy and integration firms. That market included companies selling platforms, firms specialising in datasets and addressing, enterprise consultants, aerial-survey businesses and organisations building location-based applications. GIS teams increasingly included developers, database specialists and analysts.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Open-source practice added another path. By the late 2000s, New Zealand practitioners were publicly documenting operational use of PostGIS, MapServer, GeoServer and OpenLayers, particularly in scientific and web environments. These people might have called themselves developers, database specialists or scientists rather than GIS analysts. The professional boundary expanded because spatial capability increasingly depended on general computing skills as well as cartographic and analytical ones.",
+      "markdown": "Open-source practice added another path. By the late 2000s, New Zealand practitioners were publicly documenting operational use of PostGIS, MapServer, GeoServer and OpenLayers, particularly in scientific and web environments. These people might have called themselves developers, database specialists or scientists rather than GIS analysts. The professional boundary expanded because spatial capability increasingly depended on general computing skills as well as cartographic and analytical ones.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Recruitment reflected this diversity. Employers combined software skills with spatial analysis, sector knowledge, database work, stakeholder contact, data management and application support. A technically strong applicant could still lack the context needed to work with planning rules, utility assets, biodiversity records or intelligence information. Conversely, an experienced domain practitioner could understand the business problem but need to develop stronger spatial or computing skills. GIS careers were built at the intersection of those two forms of knowledge.",
+      "markdown": "Recruitment reflected this diversity. Employers combined software skills with spatial analysis, sector knowledge, database work, stakeholder contact, data management and application support. A technically strong applicant could still lack the context needed to work with planning rules, utility assets, biodiversity records or intelligence information. Conversely, an experienced domain practitioner could understand the business problem but need to develop stronger spatial or computing skills. GIS careers were built at the intersection of those two forms of knowledge.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Consultancies intensified the movement between sectors. A practitioner working for a specialist firm might spend one project on council property data, another on utilities and a third on central-government systems. That exposed people to different data models, organisational cultures and definitions of acceptable accuracy. When those practitioners later moved into client organisations, they carried methods with them. The labour market became one of the mechanisms by which spatial practice standardised without any central professional body directing it.",
+      "markdown": "Consultancies intensified the movement between sectors. A practitioner working for a specialist firm might spend one project on council property data, another on utilities and a third on central-government systems. That exposed people to different data models, organisational cultures and definitions of acceptable accuracy. When those practitioners later moved into client organisations, they carried methods with them. The labour market became one of the mechanisms by which spatial practice standardised without any central professional body directing it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

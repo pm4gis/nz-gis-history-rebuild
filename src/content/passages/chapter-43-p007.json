@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-43-a81d7c1e2d",
+  "slug": "one-process-several-systems-a81d7c1e2d",
+  "articleId": "article:chapter-43",
+  "title": "One process, several systems",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Organisations automated transfers between GIS and their wider business systems. Customer databases, asset registers, sensor stores, document systems and web applications all contained information that had to be reconciled with location. The work was no longer simply to run a buffer or dissolve a layer more quickly. A spatial workflow might need to retrieve records from one system, validate them, translate values, attach geometry, publish a service and leave enough information behind for the next run to know what had already happened. Integration work had become part of ordinary geospatial practice.",
+      "markdown": "Organisations automated transfers between GIS and their wider business systems. Customer databases, asset registers, sensor stores, document systems and web applications all contained information that had to be reconciled with location. The work was no longer simply to run a buffer or dissolve a layer more quickly. A spatial workflow might need to retrieve records from one system, validate them, translate values, attach geometry, publish a service and leave enough information behind for the next run to know what had already happened. Integration work had become part of ordinary geospatial practice.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "KiwiRail’s response to Cyclone Gabrielle in 2023 provides a compact example. Staff in the field captured large numbers of photographs in common phone formats, including JPG and HEIC, and the useful geographic evidence sat partly inside each file’s EXIF metadata. A later technical case study records FME being used to collect the files, extract location and time information, resize images that exceeded attachment limits, transform coordinates and dates, check metadata and send the results to ArcGIS Online through its REST API. The disaster response itself belongs to the preceding chapter. Here, the file handling, metadata extraction, transformation and upload form a semi-automated chain that avoided repeating the same work by hand.",
+      "markdown": "KiwiRail’s response to Cyclone Gabrielle in 2023 provides a compact example. Staff in the field captured large numbers of photographs in common phone formats, including JPG and HEIC, and the useful geographic evidence sat partly inside each file’s EXIF metadata. A later technical case study records FME being used to collect the files, extract location and time information, resize images that exceeded attachment limits, transform coordinates and dates, check metadata and send the results to ArcGIS Online through its REST API. The disaster response itself belongs to the preceding chapter. Here, the file handling, metadata extraction, transformation and upload form a semi-automated chain that avoided repeating the same work by hand.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Organisations also used repeated processing for routine work. A customer-facing map may look like a single application while drawing from a customer relationship system, a spatial database and a publishing environment. Once that arrangement is automated, the map is only the visible end of a chain of transformations. The organisation gains speed but also acquires a new dependency on interfaces between systems. A change to one database or API can break a process whose users never knew that system was involved. Automation therefore pushed GIS teams further into integration architecture even when the public-facing product still looked like a map. Enterprise GIS workflows also supplied data to services, dashboards and field applications; Chapter 40 follows the Auckland and NZTA cases.",
+      "markdown": "Organisations also used repeated processing for routine work. A customer-facing map may look like a single application while drawing from a customer relationship system, a spatial database and a publishing environment. Once that arrangement is automated, the map is only the visible end of a chain of transformations. The organisation gains speed but also acquires a new dependency on interfaces between systems. A change to one database or API can break a process whose users never knew that system was involved. Automation therefore pushed GIS teams further into integration architecture even when the public-facing product still looked like a map. Enterprise GIS workflows also supplied data to services, dashboards and field applications; Chapter 40 follows the Auckland and NZTA cases.",
+      "sources": [
+        {
+          "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+          "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+        },
+        {
+          "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+          "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

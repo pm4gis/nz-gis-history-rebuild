@@ -1,0 +1,42 @@
+{
+  "id": "person:lisa-read",
+  "slug": "lisa-read",
+  "name": "Lisa Read",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/lisa-read/",
+  "story": [
+    "GBS recalls Lisa Read’s development work and later contribution to processes and documentation.",
+    "GBS’s company history describes Lisa Read’s work on development and processes, Shane Pienaar’s technical direction, and David Aalbers and Heath Rongo joining in 2011 and 2012."
+  ],
+  "sources": [
+    {
+      "label": "GBS retrospective, 2022",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    },
+    {
+      "label": "Chapter 12 · Company staff",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Lisa Read"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "GBS retrospective, 2022",
+        "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Company staff",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

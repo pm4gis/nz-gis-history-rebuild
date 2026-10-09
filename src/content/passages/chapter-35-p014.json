@@ -1,0 +1,54 @@
+{
+  "id": "passage:chapter-35-71de0c0d83",
+  "slug": "the-map-becomes-an-application-71de0c0d83",
+  "articleId": "article:chapter-35",
+  "title": "The map becomes an application",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:35",
+    "entity:lincoln-university",
+    "person:hauiti-hakopa",
+    "person:huia-pacey"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Browser GIS and task-specific applications continued alongside other tools. Browser GIS made maps reachable without installed specialist software. Consumer mapping changed what ordinary users expected from digital maps. Open-source tools broadened the professional toolkit. Open data widened access to the information underneath. Mobile GIS carried spatial systems into the field. Task-specific applications then reorganised those capabilities around particular jobs and audiences.",
+      "markdown": "Browser GIS and task-specific applications continued alongside other tools. Browser GIS made maps reachable without installed specialist software. Consumer mapping changed what ordinary users expected from digital maps. Open-source tools broadened the professional toolkit. Open data widened access to the information underneath. Mobile GIS carried spatial systems into the field. Task-specific applications then reorganised those capabilities around particular jobs and audiences.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LRIS showed a subject portal organising complex spatial information for people who came looking for land-resource data. policedata.nz combined geography with reporting, filters and statistics for a public audience. The DOC Boarding Pass showed location disappearing behind a safety workflow. Manaaki used forms, dashboards, maps, permissions and a launch interface as different faces of one underlying spatial environment. None of these examples required the user to become a GIS specialist.",
+      "markdown": "LRIS showed a subject portal organising complex spatial information for people who came looking for land-resource data. policedata.nz combined geography with reporting, filters and statistics for a public audience. The DOC Boarding Pass showed location disappearing behind a safety workflow. Manaaki used forms, dashboards, maps, permissions and a launch interface as different faces of one underlying spatial environment. None of these examples required the user to become a GIS specialist.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Maps remained a central way to present geographic information. They became easier to place inside other things. They could sit beside a chart, inside a form, behind an address search, within a story or as one panel of an operational dashboard. The application decided when the map needed to be visible and when location could work quietly in the background.",
+      "markdown": "Maps remained a central way to present geographic information. They became easier to place inside other things. They could sit beside a chart, inside a form, behind an address search, within a story or as one panel of an operational dashboard. The application decided when the map needed to be visible and when location could work quietly in the background.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Once organisations had applications capable of delivering spatial information to large audiences, attention increasingly turned to how frequently that information could be refreshed and how much of the world could be observed directly rather than mapped from occasional surveys. Repeated satellite imagery, multispectral data and other remotely sensed information were moving from specialist projects into regular operational use.",
+      "markdown": "Once organisations had applications capable of delivering spatial information to large audiences, attention increasingly turned to how frequently that information could be refreshed and how much of the world could be observed directly rather than mapped from occasional surveys. Repeated satellite imagery, multispectral data and other remotely sensed information were moving from specialist projects into regular operational use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Huia Pacey’s 2005 Lincoln University thesis, The Benefits and Barriers to GIS for Māori, examined adoption through a Kaupapa Māori research framework. It considered the circumstances in which the technology could support Māori development and the difficulties communities encountered in gaining that capability. The thesis provides a contemporary account alongside later cultural mapping projects.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Hauiti Hākopa’s research connects GIS with ancestral landscapes, cultural sites, oral narratives and whakapapa. Ngā Pae o te Māramatanga’s account describes the use of mapping technology to support collecting and working with that information. This places the technology within a research practice shaped by the knowledge and relationships associated with the places.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:alysia-barnes",
+  "slug": "alysia-barnes",
+  "name": "Alysia Barnes",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/alysia-barnes/",
+  "story": [
+    "Alysia Barnes of the Ministry for Primary Industries presented the use of Survey123 for monitoring kauri dieback at the 2017 New Zealand Esri User Conference. The case is a named example of mobile forms, location capture and conservation biosecurity being combined in a field workflow."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Alysia Barnes"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

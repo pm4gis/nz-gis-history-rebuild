@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0846",
+  "a": "person:a-c-shailes",
+  "b": "chapter:3",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-3-761de75cc2"
+  ],
+  "sources": []
+}

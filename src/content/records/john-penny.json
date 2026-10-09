@@ -1,0 +1,31 @@
+{
+  "id": "person:john-penny",
+  "slug": "john-penny",
+  "name": "John Penny",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/john-penny/",
+  "story": [
+    "In 1990 Richard Pascoe and John Penny published work on the interchange of data between geographic information systems and on constructing interfaces for geographic-data exchange."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 11 · Building a workstation laboratory",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ],
+  "aliases": [
+    "John Penny"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 11 · Building a workstation laboratory",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ]
+  ]
+}

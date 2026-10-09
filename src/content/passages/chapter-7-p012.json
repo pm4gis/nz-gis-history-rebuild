@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-7-421e06a7e8",
+  "slug": "what-the-line-means-421e06a7e8",
+  "articleId": "article:chapter-7",
+  "title": "What the line means",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "NZLRI polygons recorded interpretations made at the scale and for the purposes of the original survey. The line around a land-resource unit records a professional judgement made from aerial photography, maps, field observations and classification standards at a particular scale and time. Its attributes contain both observed or mapped physical factors and an interpreted capability assessment. The digital database preserves those decisions with great consistency.",
+      "markdown": "NZLRI polygons recorded interpretations made at the scale and for the purposes of the original survey. The line around a land-resource unit records a professional judgement made from aerial photography, maps, field observations and classification standards at a particular scale and time. Its attributes contain both observed or mapped physical factors and an interpreted capability assessment. The digital database preserves those decisions with great consistency.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That consistency is useful. It allows a national analysis to apply the same fields and broad classification logic across large areas. It also allows an old judgement to be repeated very efficiently if the user ignores the survey date, scale or regional legend. The quality of the GIS output remains tied to the quality and suitability of the resource mapping beneath it.",
+      "markdown": "That consistency is useful. It allows a national analysis to apply the same fields and broad classification logic across large areas. It also allows an old judgement to be repeated very efficiently if the user ignores the survey date, scale or regional legend. The quality of the GIS output remains tied to the quality and suitability of the resource mapping beneath it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NZLRI and LUC continued to be used because they provided a national framework that few later projects could afford to recreate from the beginning. Their long life also reflects the cost of replacing nationwide field-based mapping. Building a new layer with finer pixels or newer software is straightforward compared with sending trained people across the country to reinterpret soils, erosion, slope, rock and vegetation consistently.",
+      "markdown": "NZLRI and LUC continued to be used because they provided a national framework that few later projects could afford to recreate from the beginning. Their long life also reflects the cost of replacing nationwide field-based mapping. Building a new layer with finer pixels or newer software is straightforward compared with sending trained people across the country to reinterpret soils, erosion, slope, rock and vegetation consistently.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 1990s New Zealand therefore had something more durable than a set of land-capability sheets. It had a national spatial record assembled from field science, aerial-photo interpretation and classification, carried through early GIS and into later commercial systems. The computer changed how the information could be stored, queried and combined. The land-resource survey determined what the information meant.",
+      "markdown": "By the 1990s New Zealand therefore had something more durable than a set of land-capability sheets. It had a national spatial record assembled from field science, aerial-photo interpretation and classification, carried through early GIS and into later commercial systems. The computer changed how the information could be stored, queried and combined. The land-resource survey determined what the information meant.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Forestry created another large demand for digital spatial information through inventories, stand boundaries, terrain and operational planning. Forestry brought different data, different scales and different business decisions, but it inherited the same basic problem: converting a mapped landscape into information that could be maintained and used repeatedly.",
+      "markdown": "Forestry created another large demand for digital spatial information through inventories, stand boundaries, terrain and operational planning. Forestry brought different data, different scales and different business decisions, but it inherited the same basic problem: converting a mapped landscape into information that could be maintained and used repeatedly.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

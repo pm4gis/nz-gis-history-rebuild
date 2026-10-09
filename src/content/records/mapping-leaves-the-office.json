@@ -1,0 +1,16 @@
+{
+  "id": "chapter:34",
+  "articleId": "article:chapter-34",
+  "slug": "mapping-leaves-the-office",
+  "name": "GIS in the field",
+  "kind": "Story",
+  "category": "Web mapping",
+  "url": "/stories/mapping-leaves-the-office/",
+  "description": "For most of the history of GIS, the computer stayed inside. The field worker went outside. That division shaped how information moved. Someone might leave the office with a paper map, printed aerial photograph, notebook, inspection form and, by the 1990s, a separate GPS receiver. Observations made at a stream, pole, track, culvert or property then had to be matched back to the right feature and entered into the organ",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "technology-stack"
+  ]
+}

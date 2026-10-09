@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2019-matariki-and-navigation-becomes-learnz-programme-high-point",
+  "dateDisplay": "2019",
+  "startDate": "2019-01-01",
+  "datePrecision": "year",
+  "year": 2019,
+  "label": "Matariki and Navigation becomes LEARNZ programme high point",
+  "summary": "LINZ records 10,003 students from 347 classes, the most popular virtual field trip in more than 23 years of the LEARNZ programme.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

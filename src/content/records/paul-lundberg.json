@@ -1,0 +1,41 @@
+{
+  "id": "person:paul-lundberg",
+  "slug": "paul-lundberg",
+  "name": "Paul Lundberg",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/paul-lundberg/",
+  "story": [
+    "A caption in Landlink, Issue 8 (May 1999), names Paul Lundberg as a member of the middle row in a team photograph accompanying “LINZ first in mapping”. The article says the pictured team received plaques for contributions to establishing the New Zealand Topographic Digital Database and dates the four-year project to 1995 with LINZ’s predecessor DOSLI."
+  ],
+  "sources": [
+    {
+      "label": "Landlink, Issue 8 (May 1999), page 1, “LINZ first in mapping” (scan provided by Nathan Heazlewood)",
+      "url": "/assets/images/landlink-1999-topographic-database.jpg"
+    },
+    {
+      "label": "Paul Lundberg - Land Information New Zealand | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/paul-lundberg-a676239b"
+    }
+  ],
+  "aliases": [
+    "Paul Lundberg"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Landlink, Issue 8 (May 1999), page 1, “LINZ first in mapping” (scan provided by Nathan Heazlewood)",
+        "url": "/assets/images/landlink-1999-topographic-database.jpg"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "DOSLI history and photo gallery",
+      "url": "/entities/department-of-survey-and-land-information-dosli/"
+    }
+  ]
+}

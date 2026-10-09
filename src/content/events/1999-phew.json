@@ -1,0 +1,22 @@
+{
+  "id": "1999-phew",
+  "dateDisplay": "1999",
+  "startDate": "1999",
+  "datePrecision": "year",
+  "year": 1999,
+  "label": "PHEW! puts public-health surveillance in a browser",
+  "summary": "The browser became a delivery environment for mapped public-health surveillance rather than requiring desktop GIS at every user location.",
+  "url": "/stories/the-first-web-maps/#phew-in-1999-dbe9d50e38",
+  "passageIds": [
+    "passage:chapter-30-dbe9d50e38"
+  ],
+  "recordIds": [
+    "chapter:30"
+  ],
+  "themeIds": [],
+  "categories": [
+    "health",
+    "web"
+  ],
+  "sources": []
+}

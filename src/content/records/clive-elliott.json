@@ -1,0 +1,33 @@
+{
+  "id": "person:clive-elliott",
+  "slug": "clive-elliott",
+  "name": "Clive Elliott",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/clive-elliott/",
+  "story": [
+    "Clive Elliott wrote on copyright and intellectual property for the 1989 Wellington GIS conference. Science, image processing, computational classification and information law were appearing at the same meetings under one emerging field name."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 6 · A shared name",
+      "url": "/stories/when-gis-became-gis/"
+    }
+  ],
+  "aliases": [
+    "Clive Elliott"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 6 · A shared name",
+        "url": "/stories/when-gis-became-gis/"
+      }
+    ]
+  ]
+}

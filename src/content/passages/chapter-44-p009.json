@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-44-9d4100aa44",
+  "slug": "ai-governance-9d4100aa44",
+  "articleId": "article:chapter-44",
+  "title": "AI governance",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:44"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A highly automated spatial workflow can still be wrong about more than coordinates. It can use information that should not have been exposed, combine datasets under incompatible licences or produce a level of apparent precision that its sources do not support. Earlier chapters have dealt with privacy in health mapping, controlled operational information, Māori geographic knowledge and the distinction between open data and data that remains subject to authority or restriction. AI does not create a separate exemption from those rules. If anything, systems capable of ingesting large volumes of text, imagery and spatial data make provenance and permission harder to ignore.",
+      "markdown": "A highly automated spatial workflow can still be wrong about more than coordinates. It can use information that should not have been exposed, combine datasets under incompatible licences or produce a level of apparent precision that its sources do not support. Earlier chapters have dealt with privacy in health mapping, controlled operational information, Māori geographic knowledge and the distinction between open data and data that remains subject to authority or restriction. AI does not create a separate exemption from those rules. If anything, systems capable of ingesting large volumes of text, imagery and spatial data make provenance and permission harder to ignore.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The issue was visible in the same professional environment in which AI was becoming more prominent. FOSS4G Auckland 2025 included work on Indigenous data sovereignty and geoprivacy, including the MapSafe project and methods for protecting sensitive geographic information while still enabling analysis. MapSafe addresses geoprivacy rather than AI. Its relevance is the coexistence of two trends at the endpoint: tools were becoming more capable of combining and analysing information, while practitioners were also developing stronger technical methods for deciding what could safely be revealed.",
+      "markdown": "The issue was visible in the same professional environment in which AI was becoming more prominent. FOSS4G Auckland 2025 included work on Indigenous data sovereignty and geoprivacy, including the MapSafe project and methods for protecting sensitive geographic information while still enabling analysis. MapSafe addresses geoprivacy rather than AI. Its relevance is the coexistence of two trends at the endpoint: tools were becoming more capable of combining and analysing information, while practitioners were also developing stronger technical methods for deciding what could safely be revealed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This is especially important for Māori spatial information. The book has followed examples in which iwi and hapū use GIS to maintain cultural information, manage access and support their own decision-making. A generative or multimodal model may be technically capable of processing such data, but capability does not establish mandate. Training, indexing or exposing culturally sensitive information can create risks even where the source files were easy to obtain. The governing question remains who has authority over the information and for what purpose it may be used.",
+      "markdown": "This is especially important for Māori spatial information. The book has followed examples in which iwi and hapū use GIS to maintain cultural information, manage access and support their own decision-making. A generative or multimodal model may be technically capable of processing such data, but capability does not establish mandate. Training, indexing or exposing culturally sensitive information can create risks even where the source files were easy to obtain. The governing question remains who has authority over the information and for what purpose it may be used.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same principle applies less dramatically across ordinary organisations. Sensitive infrastructure, personal addresses, environmental records and operational data can all acquire new exposure routes when they are copied into external systems or used in model workflows. A practitioner who once worried about sending a shapefile to the wrong email address now had additional questions about cloud services, model providers, prompts, retained inputs and generated outputs. The technology changed. The requirement to understand where the data went did not.",
+      "markdown": "The same principle applies less dramatically across ordinary organisations. Sensitive infrastructure, personal addresses, environmental records and operational data can all acquire new exposure routes when they are copied into external systems or used in model workflows. A practitioner who once worried about sending a shapefile to the wrong email address now had additional questions about cloud services, model providers, prompts, retained inputs and generated outputs. The technology changed. The requirement to understand where the data went did not.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-15-aebbc3dbf8",
+  "slug": "the-map-reaches-the-browser-aebbc3dbf8",
+  "articleId": "article:chapter-15",
+  "title": "The map reaches the browser",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:15",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Public access depended on distribution arrangements and licensing as well as digital production. For much of the 1990s, organisations wanting vector topographic data still dealt with specialist products, formats, licences and supply arrangements. A database could be national and digital while remaining largely invisible to an ordinary map user. The gradual appearance of topographic information online therefore represents a separate stage from the original database conversion.",
+      "markdown": "Public access depended on distribution arrangements and licensing as well as digital production. For much of the 1990s, organisations wanting vector topographic data still dealt with specialist products, formats, licences and supply arrangements. A database could be national and digital while remaining largely invisible to an ordinary map user. The gradual appearance of topographic information online therefore represents a separate stage from the original database conversion.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2007 and 2008 LINZ was operating NZTopoOnline. Annual-report measures treated accepted critical topographic changes, errors and omissions as information that should appear through the service within working-day targets. Te Ara later described the national digital topographic database as available online through NZTopoOnline by 2008. This was an intermediate model: maintained government data had begun to escape the specialist production environment, but the later combination of free bulk downloads, open licensing, APIs and web services had not yet fully arrived.",
+      "markdown": "By 2007 and 2008 LINZ was operating NZTopoOnline. Annual-report measures treated accepted critical topographic changes, errors and omissions as information that should appear through the service within working-day targets. Te Ara later described the national digital topographic database as available online through NZTopoOnline by 2008. This was an intermediate model: maintained government data had begun to escape the specialist production environment, but the later combination of free bulk downloads, open licensing, APIs and web services had not yet fully arrived.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The technical milestones occurred at different stages: capture, database maintenance, production and publication. First the map information was digitised. Then it became a maintained national database. Then parts of that information were distributed digitally to customers and displayed online. Later it became directly downloadable and, eventually, service-based infrastructure. Those stages overlapped, but they solved different problems.",
+      "markdown": "The technical milestones occurred at different stages: capture, database maintenance, production and publication. First the map information was digitised. Then it became a maintained national database. Then parts of that information were distributed digitally to customers and displayed online. Later it became directly downloadable and, eventually, service-based infrastructure. Those stages overlapped, but they solved different problems.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

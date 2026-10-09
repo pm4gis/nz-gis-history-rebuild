@@ -1,0 +1,38 @@
+{
+  "id": "entity:ollivier-company",
+  "slug": "ollivier-company",
+  "name": "Ollivier & Company",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/ollivier-company/",
+  "website": null,
+  "story": [
+    "Kim Ollivier’s consultancy supplied geospatial consulting and training and participated in early web-data distribution. It was listed among New Zealand geospatial businesses in the 2013 market review.",
+    "Eagle’s partner directory describes Ollivier & Company’s specialism in Esri applications for local and regional government, with principal Kim Ollivier bringing a civil-engineering background. NIWA separately credits Ollivier’s MPI marine-planning tool as the inspiration for its Structured Conservation Planning QGIS plugin. That account documents work spanning client consulting and a method later carried into open-source software."
+  ],
+  "sources": [
+    {
+      "label": "Commerce Commission, PropertyIQ NZ / Terralink International clearance application",
+      "url": "https://www.comcom.govt.nz/__data/assets/pdf_file/0027/76293/PropertyIQ-NZ-and-Terralink-International-clearance-application-15-July-2013.pdf"
+    },
+    {
+      "label": "NZ Herald, Top ten start-ups of 2008: Koordinates",
+      "url": "https://www.nzherald.co.nz/technology/top-ten-start-ups-of-2008/3JICGCE5RBH6ERIODMZAHJWHTQ/"
+    },
+    {
+      "label": "Eagle Technology partner directory, Ollivier & Company",
+      "url": "https://www.eagle.co.nz/node/76"
+    },
+    {
+      "label": "NIWA, QGIS: Structured Conservation Planning plugin",
+      "url": "https://niwa.co.nz/environmental-information/qgis"
+    }
+  ],
+  "aliases": [
+    "Ollivier & Company"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

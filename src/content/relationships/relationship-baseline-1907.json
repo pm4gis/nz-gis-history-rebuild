@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1907",
+  "a": "person:ravitej-pitchika",
+  "b": "chapter:38",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-38-7683399e76"
+  ],
+  "sources": []
+}

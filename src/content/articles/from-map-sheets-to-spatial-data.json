@@ -1,0 +1,34 @@
+{
+  "id": "article:chapter-5",
+  "slug": "from-map-sheets-to-spatial-data",
+  "title": "Digital land inventories",
+  "url": "/stories/from-map-sheets-to-spatial-data/",
+  "summary": "In 1973 the Ministry of Works and Development began the first edition of the New Zealand Land Resource Inventory, usually shortened to NZLRI. The programme brought together several kinds of physical land information and mapped the",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 5,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch05-note-01",
+      "text": "1. The New Zealand Land Resource Inventory chronology is supported by official Water and Soil/NZLRI histories and later Manaaki Whenua documentation. The chapter uses 1973 for the beginning of the national NZLRI programme, 1977 to 1980 for first-edition digitisation and approximately 85,000 mapped units for the first-edition national dataset where the existing source trail supports those figures."
+    },
+    {
+      "id": "ch05-note-02",
+      "text": "2. R. D. Williams, LADEDA Plotting Handbook, Hydrology Centre Publication No. 1, May 1982, is bibliographically secure even though the full handbook scan remains a physical/repository retrieval object. Commands and screens remain unverified while the handbook is unavailable."
+    },
+    {
+      "id": "ch05-note-03",
+      "text": "3. P. R. van Berkel and R. D. Williams, \"Introduction to LADEDA: a Geographic Information System\", New Zealand Geographer, 1985, provides direct contemporary evidence that LADEDA was being called a geographic information system by its own practitioners."
+    },
+    {
+      "id": "ch05-note-04",
+      "text": "4. Department of Conservation Science and Research Internal Report 88, together with the NZLRI section and later institutional histories, supports the historical description of NZLRI coding, LADEDA and the late-1980s move into commercial GIS. The manuscript uses 1988 cautiously for that migration and does not invent an exact cutover project where the evidence is thinner."
+    },
+    {
+      "id": "ch05-note-05",
+      "text": "5. The 1987 to 1990 conversion from the one-inch mapping framework to 1:50,000 and subsequent second-edition work is supported by NZLRI institutional documentation. Chapter 7 uses the resulting data and classification system but does not retell this conversion history."
+    }
+  ]
+}

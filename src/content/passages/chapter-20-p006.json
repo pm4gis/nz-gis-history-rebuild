@@ -1,0 +1,48 @@
+{
+  "id": "passage:chapter-20-0efc7747ca",
+  "slug": "imagery-as-a-base-layer-0efc7747ca",
+  "articleId": "article:chapter-20",
+  "title": "Imagery as a base layer",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20",
+    "entity:horizons-regional-council-manawatu-wanganui-regional-council",
+    "person:carl-johnson",
+    "person:terry-van-kalken"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Orthophotography fitted local government particularly well because so many council records were tied to visible places. Property teams could see buildings, driveways and occupation patterns behind cadastral and rating information. Planning staff could relate zoning and consent work to the developed landscape. Roading, water and parks teams could use the same image as context for their own networks and assets. Environmental staff could compare waterways, vegetation and coastal features with mapped records.",
+      "markdown": "Orthophotography fitted local government particularly well because so many council records were tied to visible places. Property teams could see buildings, driveways and occupation patterns behind cadastral and rating information. Planning staff could relate zoning and consent work to the developed landscape. Roading, water and parks teams could use the same image as context for their own networks and assets. Environmental staff could compare waterways, vegetation and coastal features with mapped records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Each task required users to assess the imagery’s accuracy and suitability. A visible fence did not become a legal boundary because it appeared beside a parcel line. A roof edge did not establish a building survey measurement. Tree canopies could obscure features, shadows could hide detail and terrain correction could still leave residual positional error. Orthophotography worked well as a common visual reference precisely because users could compare it with other datasets rather than treat it as a replacement for them.",
+      "markdown": "Each task required users to assess the imagery’s accuracy and suitability. A visible fence did not become a legal boundary because it appeared beside a parcel line. A roof edge did not establish a building survey measurement. Tree canopies could obscure features, shadows could hide detail and terrain correction could still leave residual positional error. Orthophotography worked well as a common visual reference precisely because users could compare it with other datasets rather than treat it as a replacement for them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The flying date also placed a hard limit on what the image represented. A new subdivision could make a two-year-old urban image look conspicuously stale, while the same age might be acceptable for a rural planning task. A flood, forestry harvest or major earthworks project could make parts of a recent mosaic obsolete within months. Once imagery became a routine background layer, organisations had to decide how often to buy it again.",
+      "markdown": "The flying date also placed a hard limit on what the image represented. A new subdivision could make a two-year-old urban image look conspicuously stale, while the same age might be acceptable for a rural planning task. A flood, forestry harvest or major earthworks project could make parts of a recent mosaic obsolete within months. Once imagery became a routine background layer, organisations had to decide how often to buy it again.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That produced the idea of a refresh cycle. Instead of commissioning photography only when a project demanded it, an organisation or group of organisations could plan repeat acquisition over several years. New imagery replaced the previous edition as the normal working layer while older imagery acquired another use: comparison through time. A sequence of orthophotos could document urban growth, river movement, coastal change, forestry cycles and infrastructure development even when those historical comparisons had not been the original reason for the flights.",
+      "markdown": "That produced the idea of a refresh cycle. Instead of commissioning photography only when a project demanded it, an organisation or group of organisations could plan repeat acquisition over several years. New imagery replaced the previous edition as the normal working layer while older imagery acquired another use: comparison through time. A sequence of orthophotos could document urban growth, river movement, coastal change, forestry cycles and infrastructure development even when those historical comparisons had not been the original reason for the flights.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Horizons Regional Council found the same thing with elevation data after the lower North Island floods of February 2004. A later council technical account says those floods catalysed a Flood Plain Mapping Project in 2005. About 1,200 square kilometres of major floodplain was surveyed with airborne LiDAR that year, producing digital elevation models with a nominal vertical accuracy of ±0.15 metres. Gauging observations, hydrographs, mapped flood extents and photographs were then used to calibrate models for nominal 1-in-50, 1-in-100 and 1-in-200 events. Archives Central adds some names to the modelling stage: Terry van Kalken and Carl Johnson of DHI Water and Environment prepared the 2006-07 final report for Mangaone Stream, the Taonui Basin and Manawatū breach scenarios. The useful afterlife was as important as the original purchase. Horizons later used the same elevation data for landform and soil work, drainage, tsunami and storm-surge analysis, transport corridors, erosion and river-channel migration. A dataset bought because the region had just flooded had become general-purpose terrain infrastructure.",
+      "markdown": "Horizons Regional Council found the same thing with elevation data after the lower North Island floods of February 2004. A later council technical account says those floods catalysed a Flood Plain Mapping Project in 2005. About 1,200 square kilometres of major floodplain was surveyed with airborne LiDAR that year, producing digital elevation models with a nominal vertical accuracy of ±0.15 metres. Gauging observations, hydrographs, mapped flood extents and photographs were then used to calibrate models for nominal 1-in-50, 1-in-100 and 1-in-200 events. Archives Central adds some names to the modelling stage: Terry van Kalken and Carl Johnson of DHI Water and Environment prepared the 2006-07 final report for Mangaone Stream, the Taonui Basin and Manawatū breach scenarios. The useful afterlife was as important as the original purchase. Horizons later used the same elevation data for landform and soil work, drainage, tsunami and storm-surge analysis, transport corridors, erosion and river-channel migration. A dataset bought because the region had just flooded had become general-purpose terrain infrastructure.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

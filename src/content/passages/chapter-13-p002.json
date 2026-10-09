@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-13-93cccd5754",
+  "slug": "records-made-for-different-jobs-93cccd5754",
+  "articleId": "article:chapter-13",
+  "title": "Records made for different jobs",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Before a national digital database, cadastral information already existed in several forms because it had several jobs to do. Survey plans recorded measurements, marks, bearings, distances and the surveyor’s definition of parcel geometry. Cadastral record maps compiled parcels across an area so staff could find and administer them. Title records dealt with ownership and registered interests. Registers, indexes and plan references connected one set of records to another. None of those objects on its own was the cadastre, and their different purposes became important when officials tried to convert them into one electronic environment.",
+      "markdown": "Before a national digital database, cadastral information already existed in several forms because it had several jobs to do. Survey plans recorded measurements, marks, bearings, distances and the surveyor’s definition of parcel geometry. Cadastral record maps compiled parcels across an area so staff could find and administer them. Title records dealt with ownership and registered interests. Registers, indexes and plan references connected one set of records to another. None of those objects on its own was the cadastre, and their different purposes became important when officials tried to convert them into one electronic environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The record map was especially useful for finding where a parcel sat in relation to its neighbours. It was not necessarily constructed to preserve survey-grade coordinates for every boundary corner. In dense areas it could be compiled at a large scale and show considerable detail; in remote areas a much smaller-scale sheet might be sufficient for administration. The map was an index and working record created under the constraints of its time. DCDB inherited that role first, which explains both why it became so useful to GIS users and why later survey conversion had to return to the underlying plans and measurements.",
+      "markdown": "The record map was especially useful for finding where a parcel sat in relation to its neighbours. It was not necessarily constructed to preserve survey-grade coordinates for every boundary corner. In dense areas it could be compiled at a large scale and show considerable detail; in remote areas a much smaller-scale sheet might be sufficient for administration. The map was an index and working record created under the constraints of its time. DCDB inherited that role first, which explains both why it became so useful to GIS users and why later survey conversion had to return to the underlying plans and measurements.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The transition therefore involved more than changing media. Paper records distributed meaning across separate objects and office practices. Staff knew which plan to retrieve, which register to consult and when a line on the record map was only approximate. A database had to make more of those relationships explicit. Identifiers, references and topology had to carry part of the institutional knowledge that previously sat in filing systems and in the heads of experienced survey and cadastral staff.",
+      "markdown": "The transition therefore involved more than changing media. Paper records distributed meaning across separate objects and office practices. Staff knew which plan to retrieve, which register to consult and when a line on the record map was only approximate. A database had to make more of those relationships explicit. Identifiers, references and topology had to carry part of the institutional knowledge that previously sat in filing systems and in the heads of experienced survey and cadastral staff.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2016-kaikoura-earthquake",
+  "dateDisplay": "2016-11",
+  "startDate": "2016-11",
+  "datePrecision": "month",
+  "year": 2016,
+  "label": "Kaikōura earthquake moves the coordinate framework",
+  "summary": "Land movement forced geodetic, cadastral, imagery and LiDAR updates and demonstrated that national coordinate infrastructure must be maintained dynamically.",
+  "url": "/stories/rebuilding-the-coordinate-framework/#kaikoura-moves-the-control-3d87afac04",
+  "passageIds": [
+    "passage:chapter-19-3d87afac04"
+  ],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "themeIds": [],
+  "categories": [
+    "geodesy",
+    "emergency"
+  ],
+  "sources": []
+}

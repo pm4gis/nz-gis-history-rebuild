@@ -1,0 +1,46 @@
+{
+  "id": "person:adrian-patchett",
+  "slug": "adrian-patchett",
+  "name": "Adrian Patchett",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/adrian-patchett/",
+  "story": [
+    "Adrian Patchett’s geospatial record spans iwi cultural mapping and later statistical geography. A 2019 Geospatial Research Institute seminar named Patchett and Sean Bragg presenting Ngāi Tahu’s use of geospatial technology and Kā Huru Manu in planning, cultural-values protection and place-name work. LINZ later lists him as the Stats NZ member of the Geospatial Capability Committee.",
+    "LINZ’s 2026 Geospatial Capability Committee material lists Adrian Patchett in Stats NZ; Geospatial Capability Committee.."
+  ],
+  "sources": [
+    {
+      "label": "Geospatial Research Institute, GRISS seminar: Telling yesterday’s stories with today’s geospatial technology, 2019",
+      "url": "https://geospatial.ac.nz/griss-feb2019/"
+    },
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    }
+  ],
+  "aliases": [
+    "Adrian Patchett"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Geospatial Research Institute, GRISS seminar: Telling yesterday’s stories with today’s geospatial technology, 2019",
+        "url": "https://geospatial.ac.nz/griss-feb2019/"
+      },
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ]
+  ]
+}

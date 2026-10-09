@@ -1,0 +1,59 @@
+{
+  "id": "person:mary-mcewen",
+  "slug": "mary-mcewen",
+  "name": "Mary McEwen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mary-mcewen/",
+  "story": [
+    "Mary McEwen worked at the Biological Resources Centre from October 1983 to April 1987. In a 1989 workshop paper, published by DOC in 1990, she recalled the decision around late 1985 to digitise ecological-region and district boundaries using DSIR’s Intergraph system. Her account connected this work with the proposed Biological Resources Information System (BRIS). She argued that conservation inventories needed clear purposes, maintained data and documented methods alongside the new mapping technology. She also co-authored DOC’s 1990 National Database Workshop report with Helen Adcock.",
+    "Mary McEwen’s 1990 Department of Conservation report records how the Biological Resources Centre was considering digitisation of ecological-region and ecological-district boundaries in late 1985 while DSIR’s Science Mapping Unit was beginning to use an Intergraph GIS. McEwen thought the installation was probably one of the first commercially available GIS systems in New Zealand apart from the specialised NZLRI environment, but she did not claim an absolute national first. A 1986 mock-up for a proposed Biological Resources Information System covering North Taranaki combined graphical and textual material from datasets held in different projections."
+  ],
+  "sources": [
+    {
+      "label": "Mary McEwen, Geographical Information Systems and the Department of Conservation, July 1990, pp. 2–5",
+      "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/srir80.pdf"
+    },
+    {
+      "label": "Helen M. Adcock and W. Mary McEwen, DOC National Database Workshop report, October 1990, printed pp.27–28",
+      "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/SRIR88.pdf"
+    },
+    {
+      "label": "Chapter 6 · North Taranaki, 1986",
+      "url": "/stories/when-gis-became-gis/"
+    }
+  ],
+  "aliases": [
+    "Mary McEwen"
+  ],
+  "themeIds": [
+    "local-government",
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Mary McEwen, Geographical Information Systems and the Department of Conservation, July 1990, pp. 2–5",
+        "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/srir80.pdf"
+      },
+      {
+        "label": "Helen M. Adcock and W. Mary McEwen, DOC National Database Workshop report, October 1990, printed pp.27–28",
+        "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/SRIR88.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 6 · North Taranaki, 1986",
+        "url": "/stories/when-gis-became-gis/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Conservation databases, 1990",
+      "url": "/stories/gis-inside-government/"
+    }
+  ]
+}

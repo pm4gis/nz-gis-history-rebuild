@@ -1,0 +1,37 @@
+{
+  "id": "person:jack-dangermond",
+  "slug": "jack-dangermond",
+  "name": "Jack Dangermond",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jack-dangermond/",
+  "story": [
+    "A contemporary November 2005 report records Jack Dangermond in Wellington to mark the tenth anniversary of the annual New Zealand Esri User Group conference, and Serge Peeters later recorded his 31 October 2006 presentation as part of the 11th Annual conference. The first meeting was held in 1995, followed by the numbered annual conference sequence from 1996."
+  ],
+  "sources": [
+    {
+      "label": "Jack Dangermond, President at Esri · public profile",
+      "url": "https://www.esri.com/about/newsroom/author/jack-dangermond"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Jack Dangermond"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

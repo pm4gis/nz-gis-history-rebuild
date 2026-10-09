@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0543",
+  "a": "person:ed-corkery",
+  "b": "chapter:41",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-41-dff8af74a4"
+  ],
+  "sources": []
+}

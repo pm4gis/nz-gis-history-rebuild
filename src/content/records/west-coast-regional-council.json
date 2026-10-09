@@ -1,0 +1,25 @@
+{
+  "id": "entity:west-coast-regional-council",
+  "slug": "west-coast-regional-council",
+  "name": "West Coast Regional Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/west-coast-regional-council/",
+  "website": "https://www.wcrc.govt.nz",
+  "description": "Named in The parcel becomes a key (Chapter 23). Follow the linked passage for context.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "West Coast Regional Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

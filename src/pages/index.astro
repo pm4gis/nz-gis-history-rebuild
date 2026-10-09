@@ -8,15 +8,16 @@ const [articleEntries, passageEntries, recordEntries, eventEntries, relationship
   getCollection("relationships"), getCollection("themes"), getCollection("images"),
 ]);
 const articles = articleEntries.map((entry) => entry.data).filter((article) => article.status === "published")
-  .sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || b.updatedAt.localeCompare(a.updatedAt));
+  .sort((a, b) => (a.readingOrder ?? Number.MAX_SAFE_INTEGER) - (b.readingOrder ?? Number.MAX_SAFE_INTEGER) || a.title.localeCompare(b.title));
 const featured = articles[0];
+const nextArticle = articles[1];
 const storyPassages = featured ? passageEntries.map((entry) => entry.data).filter((passage) => passage.articleId === featured.id).sort((a, b) => a.order - b.order) : [];
 const image = imageEntries[0]?.data;
 const getPageTitle = (article) => article ? article.title + " — A History of GIS in New Zealand" : "A History of GIS in New Zealand";
 ---
 
 <SiteLayout title={getPageTitle(featured)} description={featured?.summary || "An evolving, linked history of GIS in Aotearoa New Zealand."} pageClass="home-reader">
-  {featured ? <StoryReader article={featured} passages={storyPassages} themes={themeEntries.map((entry) => entry.data)} records={recordEntries.map((entry) => entry.data)} events={eventEntries.map((entry) => entry.data)} relationships={relationshipEntries.map((entry) => entry.data)} /> : <section class="empty-reader"><p class="eyebrow">Reader workspace</p><h1>Stories are being prepared</h1><p>When an article is published, it will appear here. More passages can be added as the story grows.</p></section>}
+  {featured ? <StoryReader article={featured} passages={storyPassages} themes={themeEntries.map((entry) => entry.data)} records={recordEntries.map((entry) => entry.data)} events={eventEntries.map((entry) => entry.data)} relationships={relationshipEntries.map((entry) => entry.data)} images={imageEntries.map((entry) => entry.data)} nextArticle={nextArticle} /> : <section class="empty-reader"><p class="eyebrow">Reader workspace</p><h1>Stories are being prepared</h1><p>When an article is published, it will appear here. More passages can be added as the story grows.</p></section>}
 
   <section class="home-after-reader" aria-label="More to explore">
     <div class="home-after-heading"><div><p class="eyebrow">Keep exploring</p><h2>Follow the threads</h2></div><p>Each person, organisation, project and image opens as its own page.</p></div>
@@ -25,7 +26,7 @@ const getPageTitle = (article) => article ? article.title + " — A History of G
       <a class="explore-card" href="/timeline/"><span class="explore-card-icon" aria-hidden="true">◷</span><span><strong>Browse time</strong><small>See the published milestones</small></span><span aria-hidden="true">↗</span></a>
       <a class="explore-card" href="/network/"><span class="explore-card-icon" aria-hidden="true">⌘</span><span><strong>Open the network</strong><small>Explore the wider set of links</small></span><span aria-hidden="true">↗</span></a>
     </div>
-    {articles.length > 1 && <div class="recent-stories"><h2>Recent story updates</h2><ul>{articles.slice(1).map((article) => <li><a href={article.url}><span>{article.title}</span><small>Updated {article.updatedAt}</small></a></li>)}</ul></div>}
+    {articles.length > 1 && <div class="recent-stories"><h2>Continue the narrative</h2><p>Read the stories in sequence, or follow a person, organisation or theme. The collection can grow without a preset chapter limit.</p><ol>{articles.slice(1).map((article) => <li><a href={article.url}><span>{article.title}</span><small>{article.summary}</small></a></li>)}</ol></div>}
     {image && <a class="image-feature" href={`/images/${image.slug}/`}>
       <img src={image.assetPath} alt={image.altText} width="1800" height="520" loading="lazy" />
       <span class="image-feature-overlay"><span class="eyebrow">From the image archive</span><strong>{image.title}</strong><small>{image.credit} · Image details and source ↗</small></span>

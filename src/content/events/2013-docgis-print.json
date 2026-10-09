@@ -1,0 +1,47 @@
+{
+  "id": "2013-docgis-print",
+  "dateDisplay": "2013-02-12",
+  "startDate": "2013-02-12",
+  "datePrecision": "day",
+  "year": 2013,
+  "label": "DOCgis map print records continuing use",
+  "summary": "A DOCgis map print dated 12 February 2013 was later reproduced in official Conservation Authority public papers.",
+  "url": "/stories/conservation-and-environment/#docgis-after-the-2003-releases-70d5c1dde2",
+  "passageIds": [
+    "passage:chapter-26-70d5c1dde2"
+  ],
+  "recordIds": [
+    "entity:department-of-conservation",
+    "system:docgis",
+    "chapter:26",
+    "entity:eagle-technology",
+    "person:duane-wilkins"
+  ],
+  "themeIds": [],
+  "categories": [
+    "enterprise",
+    "software",
+    "conservation"
+  ],
+  "sources": [
+    {
+      "label": "Department of Conservation Annual Report for the year ended 30 June 2001, Biodiversity Information Platform Project section",
+      "url": "https://www.doc.govt.nz/globalassets/documents/about-doc/role/policies-and-plans/050-annual-report-for-year-ended-30-june-2001.pdf"
+    },
+    {
+      "label": "Department of Conservation, Managing Conservation Enterprise Systems: National Enterprise GIS Implementation for Conservation Management, Esri International User Conference 2003, Paper 1048",
+      "url": "https://proceedings.esri.com/library/userconf/proc03/p1048.pdf"
+    },
+    {
+      "label": "Department of Conservation, DOCgis Training Guide, Intranet Edition, 2003, Release II"
+    },
+    {
+      "label": "Department of Conservation, 'GIS? What’s GIS?' conservation blog",
+      "url": "https://blog.doc.govt.nz/2009/08/24/gis-whats-gis/"
+    },
+    {
+      "label": "New Zealand Conservation Authority public papers, June 2015, reproduced DOCgis map print",
+      "url": "https://ftp.doc.govt.nz/public/folder/mlawv0pcMkWvExCkUCOkvg/nzca/public-papers/2015/2015-06-nzca-public-papers-june-2015.pdf"
+    }
+  ]
+}

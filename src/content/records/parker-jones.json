@@ -1,0 +1,44 @@
+{
+  "id": "person:parker-jones",
+  "slug": "parker-jones",
+  "name": "Parker Jones",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/parker-jones/",
+  "story": [
+    "Parker Jones worked in Prime/Eagle sales and implementation during the later-1980s expansion of Esri GIS in New Zealand. He had a substantial commercial role; the record does not support assigning the introduction of GIS in New Zealand to one person.",
+    "A Royal Society Wellington Branch biography describes Parker Jones’s role in selecting, importing, selling and supporting software, including Esri GIS."
+  ],
+  "sources": [
+    {
+      "label": "Royal Society Te Apārangi Wellington Branch, Parker Jones lecture notice, 'Putting the Where into decisions: a 40 year journey...'",
+      "url": "https://www.royalsocietyofnewzealandwellingtonbranch.org/"
+    },
+    {
+      "label": "Chapter 12 · Local channels",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Parker Jones"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Royal Society Te Apārangi Wellington Branch, Parker Jones lecture notice, 'Putting the Where into decisions: a 40 year journey...'",
+        "url": "https://www.royalsocietyofnewzealandwellingtonbranch.org/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Local channels",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

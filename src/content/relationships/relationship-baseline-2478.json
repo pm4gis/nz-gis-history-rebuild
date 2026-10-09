@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2478",
+  "a": "person:julian-thom",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "Verified connection established in the 7 October 2026 entity-gap cleanup.",
+  "passageIds": [],
+  "sources": []
+}

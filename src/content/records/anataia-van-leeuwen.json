@@ -1,0 +1,31 @@
+{
+  "id": "person:anataia-van-leeuwen",
+  "slug": "anataia-van-leeuwen",
+  "name": "Anataia van Leeuwen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/anataia-van-leeuwen/",
+  "story": [
+    "LINZ and the Geospatial Capability Committee included Anataia van Leeuwen in the Leaving School geospatial career-profile series: Environmental Consultant, Tonkin + Taylor, October 2024."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Anataia van Leeuwen"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2010-canterbury-common-operating-picture",
+  "dateDisplay": "Sep 2010",
+  "startDate": "2010-09",
+  "datePrecision": "month",
+  "year": 2010,
+  "label": "Canterbury response combines live crowd-sourced and authoritative information",
+  "summary": "Jithen Singh reports live crowd-sourced information being added to a Common Operating Picture during the earthquake response.",
+  "url": "/stories/the-real-time-map/#canterbury-common-operating-picture-2010-26067d18a1",
+  "passageIds": [
+    "passage:chapter-42-26067d18a1"
+  ],
+  "recordIds": [
+    "person:jithen-singh",
+    "chapter:42"
+  ],
+  "themeIds": [],
+  "categories": [
+    "emergency",
+    "web",
+    "enterprise"
+  ],
+  "sources": [
+    {
+      "label": "GISList crowd-sourced Christchurch mapping thread"
+    }
+  ]
+}

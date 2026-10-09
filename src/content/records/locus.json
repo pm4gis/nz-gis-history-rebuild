@@ -1,0 +1,29 @@
+{
+  "id": "entity:locus",
+  "slug": "locus",
+  "name": "Locus",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/locus/",
+  "website": null,
+  "story": [
+    "John Arnerich dates Locus to GPS-phone experiments discussed in 2000. The initial work involved Benefon phones; FME became the focus a few years later. Rotorua Lakes and Greg Bennett were early supporters, and Bruce Harold encouraged the work. The business developed data-conversion, integration, training and automation services."
+  ],
+  "sources": [
+    {
+      "label": "John Arnerich, 25 Years of Locus, 27 November 2025",
+      "url": "https://locusglobal.com/blog/blog/2025/11/27/25-years-of-locus/"
+    },
+    {
+      "label": "Locus, We are Locus",
+      "url": "https://locusglobal.com/we-are-locus/"
+    }
+  ],
+  "aliases": [
+    "Locus"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

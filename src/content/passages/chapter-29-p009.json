@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-29-73fe4882ef",
+  "slug": "defining-gis-73fe4882ef",
+  "articleId": "article:chapter-29",
+  "title": "Defining GIS",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:29"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of 2025, New Zealand GIS had become both more visible and harder to isolate. There were established conferences, user groups, specialist networks, industry bodies, university programmes, online communities and recognised career paths. Employers could advertise for geospatial analysts, developers, administrators, consultants, remote-sensing specialists or data engineers and expect applicants to understand that the roles belonged to a related technical world. The community had enough shared language for those different roles to recognise one another.",
+      "markdown": "By the end of 2025, New Zealand GIS had become both more visible and harder to isolate. There were established conferences, user groups, specialist networks, industry bodies, university programmes, online communities and recognised career paths. Employers could advertise for geospatial analysts, developers, administrators, consultants, remote-sensing specialists or data engineers and expect applicants to understand that the roles belonged to a related technical world. The community had enough shared language for those different roles to recognise one another.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The field included several qualifications, job titles and professional affiliations. Its strength came partly from permeability. Surveyors, planners, scientists, software developers, intelligence analysts, environmental practitioners and data specialists could move into spatial work without abandoning their original disciplines. GIS acted as a meeting place between occupations as much as an occupation in its own right.",
+      "markdown": "The field included several qualifications, job titles and professional affiliations. Its strength came partly from permeability. Surveyors, planners, scientists, software developers, intelligence analysts, environmental practitioners and data specialists could move into spatial work without abandoning their original disciplines. GIS acted as a meeting place between occupations as much as an occupation in its own right.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That makes the history of the profession different from the history of a software market. Products changed, companies merged and particular interfaces disappeared, but communities carried knowledge across those changes. Conferences preserved examples of working systems. Mailing lists and social media preserved practical advice. User groups trained people informally, while specialist organisations helped practitioners interpret spatial technology inside health, conservation, emergency management and other domains.",
+      "markdown": "That makes the history of the profession different from the history of a software market. Products changed, companies merged and particular interfaces disappeared, but communities carried knowledge across those changes. Conferences preserved examples of working systems. Mailing lists and social media preserved practical advice. User groups trained people informally, while specialist organisations helped practitioners interpret spatial technology inside health, conservation, emergency management and other domains.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Browser mapping was one of the technologies that most changed who could use the work produced by this professional community. It moved spatial information beyond dedicated GIS installations and into ordinary networked computers and public websites. By the time New Zealand’s first generation of web maps appeared, the country already had a professional ecosystem capable of building, supporting and arguing about them. The audience for GIS was about to become much larger than the profession that had built it.",
+      "markdown": "Browser mapping was one of the technologies that most changed who could use the work produced by this professional community. It moved spatial information beyond dedicated GIS installations and into ordinary networked computers and public websites. By the time New Zealand’s first generation of web maps appeared, the country already had a professional ecosystem capable of building, supporting and arguing about them. The audience for GIS was about to become much larger than the profession that had built it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

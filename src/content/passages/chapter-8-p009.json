@@ -1,0 +1,52 @@
+{
+  "id": "passage:chapter-8-2911dbd2b5",
+  "slug": "keeping-the-map-current-2911dbd2b5",
+  "articleId": "article:chapter-8",
+  "title": "Keeping the map current",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:8",
+    "person:david-herries",
+    "person:donald-king",
+    "person:mike-king"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Forestry exposed the maintenance problem more quickly than many other spatial datasets. A geological boundary might remain serviceable for decades. A plantation map could be wrong within a season if harvesting, road construction or replanting had not been entered. Stand attributes also aged continuously as trees grew and treatments occurred.",
+      "markdown": "Forestry exposed the maintenance problem more quickly than many other spatial datasets. A geological boundary might remain serviceable for decades. A plantation map could be wrong within a season if harvesting, road construction or replanting had not been entered. Stand attributes also aged continuously as trees grew and treatments occurred.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A useful forest GIS therefore required routines for updating both geometry and attributes. New aerial photography could reveal changed boundaries and new roads. Field crews and inventory teams supplied measurements that altered stand records. Harvesting created a new state immediately, and re-establishment started another management cycle. Staff continued to maintain the database after the initial conversion.",
+      "markdown": "A useful forest GIS therefore required routines for updating both geometry and attributes. New aerial photography could reveal changed boundaries and new roads. Field crews and inventory teams supplied measurements that altered stand records. Harvesting created a new state immediately, and re-establishment started another management cycle. Staff continued to maintain the database after the initial conversion.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Errors could also move in both directions between map and management. An incorrect stand boundary affected area and volume estimates. An outdated planting year could place a stand in the wrong harvest schedule. A road shown as available when it was not could distort access planning. The value of the GIS depended less on the sophistication of the display than on whether the underlying records were current enough for the decision being made.",
+      "markdown": "Errors could also move in both directions between map and management. An incorrect stand boundary affected area and volume estimates. An outdated planting year could place a stand in the wrong harvest schedule. A road shown as available when it was not could distort access planning. The value of the GIS depended less on the sophistication of the display than on whether the underlying records were current enough for the decision being made.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A forest company or agency might manage a smaller geographic area than a national topographic or land-resource database while revising its records much more frequently. Harvesting, road construction, silvicultural treatment and replanting continually altered the spatial and descriptive record. Forest GIS therefore operated as an updating system as well as a mapping system.",
+      "markdown": "A forest company or agency might manage a smaller geographic area than a national topographic or land-resource database while revising its records much more frequently. Harvesting, road construction, silvicultural treatment and replanting continually altered the spatial and descriptive record. Forest GIS therefore operated as an updating system as well as a mapping system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Interpine’s technical articles make routine forestry GIS work visible. David Herries’ 2014 GeoMaster and ArcMap guide describes mapping unstocked gaps from imagery or GPS, updating the stand record and preserving the reason for the change.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2001 company account traces the business to Mike King’s forestry contracting and names Donald King as general manager.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

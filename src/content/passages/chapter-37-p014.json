@@ -1,0 +1,26 @@
+{
+  "id": "passage:chapter-37-0ae1ad6a4d",
+  "slug": "lidar-becomes-practitioner-training-0ae1ad6a4d",
+  "articleId": "article:chapter-37",
+  "title": "LiDAR becomes practitioner training",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By February 2021, LiDAR was also the subject of a GrowGISNZ GeoBites training session devoted to finding, accessing and working with New Zealand elevation data. The session sits after the national acquisition and open-data story: its emphasis was no longer whether LiDAR existed, but how ordinary practitioners could discover the available datasets, choose appropriate elevation products and use them in GIS. That shift from specialist acquisition to routine practitioner use is a useful marker in the technology’s New Zealand history.",
+      "markdown": "By February 2021, LiDAR was also the subject of a GrowGISNZ GeoBites training session devoted to finding, accessing and working with New Zealand elevation data. The session sits after the national acquisition and open-data story: its emphasis was no longer whether LiDAR existed, but how ordinary practitioners could discover the available datasets, choose appropriate elevation products and use them in GIS. That shift from specialist acquisition to routine practitioner use is a useful marker in the technology’s New Zealand history.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

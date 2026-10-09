@@ -1,0 +1,36 @@
+{
+  "id": "entity:waikato-regional-council",
+  "slug": "waikato-regional-council",
+  "name": "Waikato Regional Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/waikato-regional-council/",
+  "website": "https://www.waikatoregion.govt.nz",
+  "description": "Named in A geospatial surge (Chapter 42). Follow the linked passage for context.",
+  "story": [
+    "Waikato Regional Council used GIS across environmental management and emergency management. Derek Phyn’s documented work and the NZGIS4EM community place council GIS staff in the development of national geospatial emergency-management practice."
+  ],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    },
+    {
+      "label": "NEMA, Emergency Management Awards recipients",
+      "url": "https://www.civildefence.govt.nz/guidance-training/guidelines/information-series/emergency-management-awards/award-recipients"
+    },
+    {
+      "label": "Derek Phyn, New Zealand GIS for Emergency Management, ISCRAM 2018",
+      "url": "https://idl.iscram.org/files/derekphyn/2018/1646_DerekPhyn2018.pdf"
+    }
+  ],
+  "aliases": [
+    "Waikato Regional Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "coverageEnd": 2025,
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

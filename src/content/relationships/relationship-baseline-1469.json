@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1469",
+  "a": "entity:women-in-spatial-survey",
+  "b": "chapter:29",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [],
+  "sources": []
+}

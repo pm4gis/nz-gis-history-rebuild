@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0912",
+  "a": "person:corallie-eagle",
+  "b": "entity:eagle-technology",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

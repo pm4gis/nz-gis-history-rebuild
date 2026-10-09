@@ -1,0 +1,35 @@
+{
+  "id": "person:mike-nield",
+  "slug": "mike-nield",
+  "name": "Mike Nield",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mike-nield/",
+  "story": [
+    "In a 2011 conference presentation, Taranaki Regional Council manager Mike Nield described the riparian-planning GIS application as a joint development with Explorer Graphics, using Esri technology and delivered as an ArcGIS/ArcView ArcMap extension called the Land Management Application. Land-management officers worked through an LMA toolbar and menu while plan status could also be reported through the corporate intranet GIS."
+  ],
+  "sources": [
+    {
+      "label": "Mike Nield - Taranaki Regional Council | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/mike-nield-48289823"
+    },
+    {
+      "label": "Chapter 26 · A plan for each farm",
+      "url": "/stories/conservation-and-environment/"
+    }
+  ],
+  "aliases": [
+    "Mike Nield"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 26 · A plan for each farm",
+        "url": "/stories/conservation-and-environment/"
+      }
+    ]
+  ]
+}

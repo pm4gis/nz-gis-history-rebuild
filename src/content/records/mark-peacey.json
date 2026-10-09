@@ -1,0 +1,37 @@
+{
+  "id": "person:mark-peacey",
+  "slug": "mark-peacey",
+  "name": "Mark Peacey",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mark-peacey/",
+  "story": [
+    "In October 2012 Mark Peacey announced a replacement NZEUG website with forums for technical problems, jobs, services, maps, news, “hot gossip” and even recommendations for somewhere to have a drink after work."
+  ],
+  "sources": [
+    {
+      "label": "Mark Peacey - HEB Construction | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/markpc-gis"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Mark Peacey"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

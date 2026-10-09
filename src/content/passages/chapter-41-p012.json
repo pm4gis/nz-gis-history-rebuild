@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-41-71aa1fa592",
+  "slug": "hosted-gis-becomes-a-platform-71aa1fa592",
+  "articleId": "article:chapter-41",
+  "title": "Hosted GIS becomes a platform",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2010s hosted GIS platforms were also becoming application environments rather than simple data stores. ArcGIS Online is one prominent New Zealand example and one platform within the wider geospatial environment. Hosted feature layers, identities, permissions, forms, web maps, dashboards and configurable applications could be assembled without an organisation operating each server component directly. Small teams could therefore build a coherent system quickly, while concentrating more capability, cost and dependency in the platform itself.",
+      "markdown": "By the 2010s hosted GIS platforms were also becoming application environments rather than simple data stores. ArcGIS Online is one prominent New Zealand example and one platform within the wider geospatial environment. Hosted feature layers, identities, permissions, forms, web maps, dashboards and configurable applications could be assembled without an organisation operating each server component directly. Small teams could therefore build a coherent system quickly, while concentrating more capability, cost and dependency in the platform itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2020 Manaaki service used Survey123 forms, an ArcGIS Online feature layer, controlled users and permissions, web maps, applications, dashboards and a supporting website. Its operating plan included backup and migration so the service could continue when ownership or hosting arrangements changed.",
+      "markdown": "The 2020 Manaaki service used Survey123 forms, an ArcGIS Online feature layer, controlled users and permissions, web maps, applications, dashboards and a supporting website. Its operating plan included backup and migration so the service could continue when ownership or hosting arrangements changed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Manaaki belongs principally to the health and application chapters, so the community programme only needs its architecture here. A single hosted environment could provide capture, storage, mapping and dashboard functions that previously might have required several locally managed systems. Technical work shifted into configuration, identity, permissions, data design, integration and platform governance.",
+      "markdown": "Manaaki belongs principally to the health and application chapters, so the community programme only needs its architecture here. A single hosted environment could provide capture, storage, mapping and dashboard functions that previously might have required several locally managed systems. Technical work shifted into configuration, identity, permissions, data design, integration and platform governance.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

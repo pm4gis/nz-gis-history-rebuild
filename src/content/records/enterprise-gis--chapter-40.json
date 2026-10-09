@@ -1,0 +1,14 @@
+{
+  "id": "chapter:40",
+  "articleId": "article:chapter-40",
+  "slug": "enterprise-gis",
+  "name": "Enterprise GIS",
+  "kind": "Story",
+  "category": "Shared systems",
+  "url": "/stories/enterprise-gis/",
+  "description": "By the late 1990s New Zealand organisations had already proved that GIS could do useful work. That success created a new problem: GIS multiplied. Councils could maintain property and infrastructure layers, government departments could manage national datasets, utilities could trace networks and assets, and scientists could analyse environmental information. More useful systems meant more users, more data, more copies",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": []
+}

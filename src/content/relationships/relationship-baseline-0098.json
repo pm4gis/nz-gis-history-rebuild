@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0098",
+  "a": "entity:koordinates",
+  "b": "chapter:33",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-33-58d0d98adf"
+  ],
+  "sources": []
+}

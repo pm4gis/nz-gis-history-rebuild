@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2032",
+  "a": "entity:transpower",
+  "b": "chapter:25",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

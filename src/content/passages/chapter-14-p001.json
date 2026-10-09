@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-14-60c6ff7b97",
+  "slug": "from-register-to-transaction-system-60c6ff7b97",
+  "articleId": "article:chapter-14",
+  "title": "From register to transaction system",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "cadastre"
+  ],
+  "recordIds": [
+    "chapter:14"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "When Land Information New Zealand was created in 1996 it inherited two national record systems that had grown up for different purposes. The survey and cadastral side came largely from the Department of Survey and Land Information. The land-title side came from the Department of Justice Land Titles Office. Both were already partly computerised, but much of the legal and survey record still depended on paper, microfilm, office indexes and staff who knew how the pieces fitted together. Landonline brought survey, title and transaction records into one electronic operating environment.",
+      "markdown": "When Land Information New Zealand was created in 1996 it inherited two national record systems that had grown up for different purposes. The survey and cadastral side came largely from the Department of Survey and Land Information. The land-title side came from the Department of Justice Land Titles Office. Both were already partly computerised, but much of the legal and survey record still depended on paper, microfilm, office indexes and staff who knew how the pieces fitted together. Landonline brought survey, title and transaction records into one electronic operating environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The previous chapter ended with a national digital cadastre already in existence. DCDB held a maintained parcel framework and had become useful far beyond the survey office. What it did not do was turn the whole survey and title business into an electronic transaction system. Survey plans, title instruments and supporting records still moved through processes that had been designed around paper. Searches depended heavily on where records were held. The next step therefore involved records, law, professional practice and organisational change as much as spatial data.",
+      "markdown": "The previous chapter ended with a national digital cadastre already in existence. DCDB held a maintained parcel framework and had become useful far beyond the survey office. What it did not do was turn the whole survey and title business into an electronic transaction system. Survey plans, title instruments and supporting records still moved through processes that had been designed around paper. Searches depended heavily on where records were held. The next step therefore involved records, law, professional practice and organisational change as much as spatial data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Government approved development of Landonline in November 1997. Later Auditor-General analysis described the programme as initially divided into two phases. The first would create the electronic record base, automate internal processing and provide remote searching. The second would allow surveyors and conveyancing professionals to lodge work electronically, with the system applying business rules and validation before or during registration. A third phase was added later to finish the move away from paper and make electronic lodgement the normal route for almost all work.",
+      "markdown": "Government approved development of Landonline in November 1997. Later Auditor-General analysis described the programme as initially divided into two phases. The first would create the electronic record base, automate internal processing and provide remote searching. The second would allow surveyors and conveyancing professionals to lodge work electronically, with the system applying business rules and validation before or during registration. A third phase was added later to finish the move away from paper and make electronic lodgement the normal route for almost all work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The programme was large even by the standards of national information systems. The Auditor-General later described the first system phase as about $40 million alongside a historical back-capture programme of roughly $100 million. Contemporary ministers described millions of title documents and more than a million survey plans, together with geodetic records and cadastral data, being converted or linked into the new environment. These figures varied with what each report counted, but their scale is consistent. Landonline required changes to statutory processing and professional practice. The programme rebuilt a national statutory information service while it continued to operate.",
+      "markdown": "The programme was large even by the standards of national information systems. The Auditor-General later described the first system phase as about $40 million alongside a historical back-capture programme of roughly $100 million. Contemporary ministers described millions of title documents and more than a million survey plans, together with geodetic records and cadastral data, being converted or linked into the new environment. These figures varied with what each report counted, but their scale is consistent. Landonline required changes to statutory processing and professional practice. The programme rebuilt a national statutory information service while it continued to operate.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

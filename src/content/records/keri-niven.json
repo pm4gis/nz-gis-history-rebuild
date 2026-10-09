@@ -1,0 +1,31 @@
+{
+  "id": "person:keri-niven",
+  "slug": "keri-niven",
+  "name": "Keri Niven",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/keri-niven/",
+  "story": [
+    "Keri Niven of Aurecon presented work on blurring the boundary between geospatial visualisation and virtual reality at the 2017 New Zealand Esri User Conference. The presentation is a named example of GIS data moving into immersive three-dimensional visualisation for infrastructure and design work."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Keri Niven"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

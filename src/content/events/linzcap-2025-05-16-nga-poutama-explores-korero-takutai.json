@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2025-05-16-nga-poutama-explores-korero-takutai",
+  "dateDisplay": "2025-05-16",
+  "startDate": "2025-05-16",
+  "datePrecision": "day",
+  "year": 2025,
+  "label": "Ngā Poutama explores Kōrero Takutai",
+  "summary": "The wānanga showed coastal geospatial information supporting Takutai Moana research and applications.",
+  "url": "/stories/the-map-becomes-an-application/#practical-maori-web-mapping-23fcc809db",
+  "passageIds": [
+    "passage:chapter-35-23fcc809db"
+  ],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ]
+}

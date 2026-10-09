@@ -1,0 +1,33 @@
+{
+  "id": "article:chapter-3",
+  "slug": "drawing-maps-by-machine",
+  "title": "Computer cartography",
+  "url": "/stories/drawing-maps-by-machine/",
+  "summary": "By the late 1970s, the Department of Lands and Survey was using a computer-assisted system to convert cadastral mapping into digital form. A paper cadastral sheet was fixed to a large digitising table, control points were establis",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 3,
+  "themeIds": [
+    "technology-stack",
+    "imagery"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch03-note-01",
+      "text": "1. M. S. Colley, A computer system for a cadastral mapping application, University of Canterbury MSc thesis, 1979, is the principal MAPPAK source. The project has verified Figure 2-1 on printed p.18/PDF p.22 and the interactive digitising figures on printed p.65/PDF p.69 for visual production. The thesis supports an operational computer-assisted cadastral mapping system, not a national-first GIS claim."
+    },
+    {
+      "id": "ch03-note-02",
+      "text": "2. NZMS 306, edition 1, 1979, provides a period object for the metric conversion problem between 1:63,360 and 1:50,000 national mapping. The National Library record and LINZ provenance are fixed in the visual register."
+    },
+    {
+      "id": "ch03-note-03",
+      "text": "3. New Zealand Aerial Mapping and analytical-photogrammetry evidence, including the Wild Aviolyt BC1 lineage, supports the transition from optical-mechanical stereoplotting towards computer-controlled photogrammetric production. Equipment dates follow the verified chapter sources."
+    },
+    {
+      "id": "ch03-note-04",
+      "text": "4. The chapter's source-and-claims appendix remains the working authority for machine-assisted cartography, metric conversion and terrain-computation claims. Chapter 4 takes over where digital imagery and raster processing become the main subject."
+    }
+  ]
+}

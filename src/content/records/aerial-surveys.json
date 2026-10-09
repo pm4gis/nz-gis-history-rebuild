@@ -1,0 +1,26 @@
+{
+  "id": "entity:aerial-surveys",
+  "slug": "aerial-surveys",
+  "name": "Aerial Surveys",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/aerial-surveys/",
+  "website": null,
+  "story": [
+    "Aerial Surveys’ predecessors included GeoSmart and earlier aerial-photography and mapping businesses. The company produced photogrammetric mapping, digital imagery and later airborne LiDAR, supplying terrain and surface data from repeated aerial surveys.",
+    "Aerial Surveys’ company history dates its introduction of digital 3D photogrammetry using Intergraph ImageStations to 1993, followed by a forward-motion-compensating film camera. This records a change in production methods between conventional aerial photography and digital mapping. The company describes this as a New Zealand first; the claim is attributed to its own account."
+  ],
+  "sources": [
+    {
+      "label": "Aerial Surveys, company history",
+      "url": "https://www.aerialsurveys.co.nz/about"
+    }
+  ],
+  "aliases": [
+    "Aerial Surveys"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

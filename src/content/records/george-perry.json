@@ -1,0 +1,31 @@
+{
+  "id": "person:george-perry",
+  "slug": "george-perry",
+  "name": "George Perry",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/george-perry/",
+  "story": [
+    "George Perry's 1996 University of Canterbury work joined Arc/Info to the Rothermel fire-spread model in a system called PYROCART, then tested it against a fire that had already burnt about 580 hectares of the Cass Basin on 27 and 28 May 1995. Differential GPS, aerial photography, terrain and vegetation information helped reconstruct the landscape through which the fire had moved."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 9 · The CRI reorganisation",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "George Perry"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 9 · The CRI reorganisation",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

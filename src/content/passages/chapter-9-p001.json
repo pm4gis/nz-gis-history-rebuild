@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-9-7021842bb3",
+  "slug": "scientific-map-records-7021842bb3",
+  "articleId": "article:chapter-9",
+  "title": "Scientific map records",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9",
+    "entity:dsir-physics-and-engineering-laboratory",
+    "entity:vector",
+    "person:mervyn-c-probine"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand scientists had been making maps long before GIS arrived. Geologists compiled formations and structures from field observations, samples, aerial photographs and earlier surveys. Ecologists divided the country into regions and districts based on recurring combinations of landform, climate, vegetation and biological patterns. Hydrologists worked with catchments, river networks, rainfall stations and flow records. The map was already part of scientific method because many of the questions being asked depended on where an observation had been made and how it related to surrounding places.",
+      "markdown": "New Zealand scientists had been making maps long before GIS arrived. Geologists compiled formations and structures from field observations, samples, aerial photographs and earlier surveys. Ecologists divided the country into regions and districts based on recurring combinations of landform, climate, vegetation and biological patterns. Hydrologists worked with catchments, river networks, rainfall stations and flow records. The map was already part of scientific method because many of the questions being asked depended on where an observation had been made and how it related to surrounding places.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Computers entered that work in stages. By 1981 the New Zealand Geological Survey had published material on computerised map plotting. Remote sensing had its own digital lineage from the mid-1970s, while land-resource mapping was already being processed as vector data. The scientific problem in the 1980s was therefore not how to invent spatial thinking. Researchers needed to convert existing maps and observations into information that could be revised, combined and reused.",
+      "markdown": "Computers entered that work in stages. By 1981 the New Zealand Geological Survey had published material on computerised map plotting. Remote sensing had its own digital lineage from the mid-1970s, while land-resource mapping was already being processed as vector data. The scientific problem in the 1980s was therefore not how to invent spatial thinking. Researchers needed to convert existing maps and observations into information that could be revised, combined and reused.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Scientific mapping also carried a different kind of uncertainty from cadastral work. A geological contact is an interpretation of where one mapped unit gives way to another, based on available exposure, landform, samples and the geologist’s reading of the evidence. An ecological boundary similarly represents a classification applied to a landscape rather than a surveyed legal line. GIS could store those boundaries with great numerical precision, but the number of decimal places in the coordinates did not increase the certainty of the underlying science.",
+      "markdown": "Scientific mapping also carried a different kind of uncertainty from cadastral work. A geological contact is an interpretation of where one mapped unit gives way to another, based on available exposure, landform, samples and the geologist’s reading of the evidence. An ecological boundary similarly represents a classification applied to a landscape rather than a surveyed legal line. GIS could store those boundaries with great numerical precision, but the number of decimal places in the coordinates did not increase the certainty of the underlying science.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A geological unit, vegetation class, ecological district, catchment and property boundary could all be represented as polygons or lines, even though they came from different methods and scales. GIS made them easier to compare, increasing the need to understand each source. A clean overlay could reveal a useful relationship or place information together whose apparent fit exceeded the accuracy of the original mapping.",
+      "markdown": "A geological unit, vegetation class, ecological district, catchment and property boundary could all be represented as polygons or lines, even though they came from different methods and scales. GIS made them easier to compare, increasing the need to understand each source. A clean overlay could reveal a useful relationship or place information together whose apparent fit exceeded the accuracy of the original mapping.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Mervyn C. Probine coordinated the DSIR Physics and Engineering Laboratory’s Landsat II investigation. The September 1977 final report records the computing and image-processing work behind the programme, connecting satellite observations with the national effort to develop practical digital remote-sensing capability.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

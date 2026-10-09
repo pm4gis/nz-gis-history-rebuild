@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0332",
+  "a": "person:gavin-knight",
+  "b": "chapter:28",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-28-4c81da5a4c"
+  ],
+  "sources": []
+}

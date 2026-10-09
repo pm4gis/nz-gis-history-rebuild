@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-22-0a91fb37f4",
+  "slug": "mapinfo-in-gisborne-0a91fb37f4",
+  "articleId": "article:chapter-22",
+  "title": "MapInfo in Gisborne",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22",
+    "entity:critchlow",
+    "person:randolph-hambling"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A clear New Zealand example appeared in Gisborne in the mid-1990s. The East Coast forestry programme had been established to encourage tree planting on erosion-prone land, with grants linked to the area and location of planting. By August 1995 the Ministry of Forestry was using MapInfo to support the programme. A contemporary New Zealand Forestry article described the software being used to prepare maps, tabulate information for grants, show reserves and planted areas, display general land use and calculate the hectares for which payments were due.",
+      "markdown": "A clear New Zealand example appeared in Gisborne in the mid-1990s. The East Coast forestry programme had been established to encourage tree planting on erosion-prone land, with grants linked to the area and location of planting. By August 1995 the Ministry of Forestry was using MapInfo to support the programme. A contemporary New Zealand Forestry article described the software being used to prepare maps, tabulate information for grants, show reserves and planted areas, display general land use and calculate the hectares for which payments were due.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The programme involved substantial data-conversion work. More than 16,000 hectares were being monitored under MapInfo by the time of the article. Project manager Randolph Hambling described the system in practical terms rather than as a technology demonstration. The work involved landowners, planting areas and payments, so the GIS had to connect mapped polygons with the records used to administer the scheme. Wellington-based Critchlow Associates was identified as the MapInfo master agent.",
+      "markdown": "The programme involved substantial data-conversion work. More than 16,000 hectares were being monitored under MapInfo by the time of the article. Project manager Randolph Hambling described the system in practical terms rather than as a technology demonstration. The work involved landowners, planting areas and payments, so the GIS had to connect mapped polygons with the records used to administer the scheme. Wellington-based Critchlow Associates was identified as the MapInfo master agent.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapter 8 covers the forestry programme itself. The application used desktop GIS in operational government work. The user did not need a national mapping agency’s production environment to draw and measure programme areas, relate them to land use and produce maps for day-to-day administration. The task was bounded enough for a PC-oriented GIS to be useful and substantial enough that the maps were part of programme management rather than presentation.",
+      "markdown": "Chapter 8 covers the forestry programme itself. The application used desktop GIS in operational government work. The user did not need a national mapping agency’s production environment to draw and measure programme areas, relate them to land use and produce maps for day-to-day administration. The task was bounded enough for a PC-oriented GIS to be useful and substantial enough that the maps were part of programme management rather than presentation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Desktop and institutional GIS served different workloads. A project with a defined area, known records and a clear set of questions was well suited to a local application. A national cadastral database with millions of parcels had different requirements. The same decade therefore contained both desktop packages used by small teams and large institutional systems maintained on workstations and servers.",
+      "markdown": "Desktop and institutional GIS served different workloads. A project with a defined area, known records and a clear set of questions was well suited to a local application. A national cadastral database with millions of parcels had different requirements. The same decade therefore contained both desktop packages used by small teams and large institutional systems maintained on workstations and servers.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

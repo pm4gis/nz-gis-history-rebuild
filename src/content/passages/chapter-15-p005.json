@@ -1,0 +1,50 @@
+{
+  "id": "passage:chapter-15-5ff77a83ad",
+  "slug": "people-behind-the-database-5ff77a83ad",
+  "articleId": "article:chapter-15",
+  "title": "People behind the database",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:15",
+    "person:geoff-omalley",
+    "person:graeme-blick",
+    "person:robin-pickering",
+    "person:dave-mole",
+    "person:geoff-howard",
+    "person:fran-mcnamara",
+    "person:peter-woodsford"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The topographic database was built by a mixed workforce. Cartographers brought knowledge of generalisation, symbolisation and map readability. Photogrammetrists extracted terrain and feature information from aerial photography. Survey and geodetic staff maintained the coordinate framework. Database technicians, programmers and systems staff kept the specialist production environment operating, while conversion operators scanned, vectorised, coded and checked inherited linework. Field and agency information still had to be interpreted before it was accepted as a national update.",
+      "markdown": "The topographic database was built by a mixed workforce. Cartographers brought knowledge of generalisation, symbolisation and map readability. Photogrammetrists extracted terrain and feature information from aerial photography. Survey and geodetic staff maintained the coordinate framework. Database technicians, programmers and systems staff kept the specialist production environment operating, while conversion operators scanned, vectorised, coded and checked inherited linework. Field and agency information still had to be interpreted before it was accepted as a national update.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Technical papers associate Geoff Howard, Geoff O’Malley and Robin Pickering with the database’s development and documentation. The 1999 account adds Dave Mole and Peter Woodsford during the move to Laser-Scan technology. Howard, Graeme Blick and Fran McNamara described another production change in 2009. The named specialists worked alongside cartographers, photogrammetrists, conversion operators and database staff who kept the national series running.",
+      "markdown": "Technical papers associate Geoff Howard, Geoff O’Malley and Robin Pickering with the database’s development and documentation. The 1999 account adds Dave Mole and Peter Woodsford during the move to Laser-Scan technology. Howard, Graeme Blick and Fran McNamara described another production change in 2009. The named specialists worked alongside cartographers, photogrammetrists, conversion operators and database staff who kept the national series running.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Topo50 generation required five cartographers to adjust text placement by hand. Experienced staff still checked how map-production rules handled contours, source-sheet differences and labels.",
+      "markdown": "Topo50 generation required five cartographers to adjust text placement by hand. Experienced staff still checked how map-production rules handled contours, source-sheet differences and labels.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The government mapping and charting workforce included specialists whose names rarely appear in system histories. LINZ’s 2013 geospatial education material identifies Richard Freeman as a cartographer and Jennifer Ryan as Manager Chart Production, giving named practitioners behind the continuing transition of official map and chart production into digital workflows.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial for Schools archive",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

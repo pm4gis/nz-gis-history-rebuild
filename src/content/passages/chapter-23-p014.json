@@ -1,0 +1,28 @@
+{
+  "id": "passage:chapter-23-9e1d355230",
+  "slug": "tauranga-expands-internal-mapping-9e1d355230",
+  "articleId": "article:chapter-23",
+  "title": "Tauranga expands internal mapping",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "entity:tauranga-city-council",
+    "person:rex-maranda"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Tauranga City Council’s June 2022 meeting record says Rex Maranda moved from Land Information Officer to the GIS team in 2004. He developed and managed the internal SmartZoom viewer, managed SmartViewer and internal mapping, and supplied GIS support to emergency management.",
+      "markdown": "Tauranga City Council’s June 2022 meeting record says Rex Maranda moved from Land Information Officer to the GIS team in 2004. He developed and managed the internal SmartZoom viewer, managed SmartViewer and internal mapping, and supplied GIS support to emergency management.",
+      "sources": [
+        {
+          "label": "Tauranga City Council meeting minutes, 13 June 2022: Rex Maranda’s 25 years’ service",
+          "url": "https://infocouncil.tauranga.govt.nz/Open/2022/06/CO_20220613_MIN_2429.PDF"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

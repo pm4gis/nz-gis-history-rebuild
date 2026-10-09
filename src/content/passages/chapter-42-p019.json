@@ -1,0 +1,48 @@
+{
+  "id": "passage:chapter-42-ef1ce37f8e",
+  "slug": "resilience-as-a-geospatial-capability-programme-ef1ce37f8e",
+  "articleId": "article:chapter-42",
+  "title": "Resilience as a geospatial capability programme",
+  "order": 18,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "LINZ’s Brown Bag Resilience Series, documented from February 2019 to July 2021, brought hazard science, mapping, risk modelling and policy into a recurring public forum. Sessions covered iwi and hapū management plans, natural-hazard readiness, Kaikōura transport resilience, national flood-risk approaches, community climate adaptation, Project AF8, insurance, the Resilience to Nature’s Challenges programme, wine-industry resilience, RiskScape and property insurance under climate change. Rob Deakin also presented LINZ’s own resilience and climate-change work programme, including improvements to high-value geospatial datasets and support to agencies during emergency response and recovery.",
+      "markdown": "LINZ’s Brown Bag Resilience Series, documented from February 2019 to July 2021, brought hazard science, mapping, risk modelling and policy into a recurring public forum. Sessions covered iwi and hapū management plans, natural-hazard readiness, Kaikōura transport resilience, national flood-risk approaches, community climate adaptation, Project AF8, insurance, the Resilience to Nature’s Challenges programme, wine-industry resilience, RiskScape and property insurance under climate change. Rob Deakin also presented LINZ’s own resilience and climate-change work programme, including improvements to high-value geospatial datasets and support to agencies during emergency response and recovery.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The capability material connects this programme with the practitioner pipeline. Kasey Oomen’s LINZ graduate profile describes GIS study leading into resilience work and exposure to the Coordinated Incident Management System. The LINZ networks directory also includes Geospatial Emergency Management Aotearoa, while later Ngā Poutama sessions used freshwater, climate, coastal and earthquake datasets for community planning. Together these sources show resilience mapping becoming a shared practice spanning technical specialists, emergency managers, researchers and community users.",
+      "markdown": "The capability material connects this programme with the practitioner pipeline. Kasey Oomen’s LINZ graduate profile describes GIS study leading into resilience work and exposure to the Coordinated Incident Management System. The LINZ networks directory also includes Geospatial Emergency Management Aotearoa, while later Ngā Poutama sessions used freshwater, climate, coastal and earthquake datasets for community planning. Together these sources show resilience mapping becoming a shared practice spanning technical specialists, emergency managers, researchers and community users.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The LINZ Brown Bag Resilience Series records presentations by Jacob Pastor Paz, Richard Woods, Rob Deakin, Nick Cradock-Henry, Ilan Noy, Caroline Orchiston, Mat Darling, David Middleton, Richard Smith, Ainslie Ryder, Janet Stephenson, Sophie Bond, Gradon Diprose, Andrew Jackson, David Johnston, Doug Mason, Daniel Headifen, Adam Dennett, Wendy Saunders, Lucy Kaiser. These names are retained as event relationships unless wider GIS evidence supports a fuller person profile.",
+      "markdown": "The LINZ Brown Bag Resilience Series records presentations by Jacob Pastor Paz, Richard Woods, Rob Deakin, Nick Cradock-Henry, Ilan Noy, Caroline Orchiston, Mat Darling, David Middleton, Richard Smith, Ainslie Ryder, Janet Stephenson, Sophie Bond, Gradon Diprose, Andrew Jackson, David Johnston, Doug Mason, Daniel Headifen, Adam Dennett, Wendy Saunders, Lucy Kaiser. These names are retained as event relationships unless wider GIS evidence supports a fuller person profile.",
+      "sources": [
+        {
+          "label": "LINZ, Brown Bag Resilience Series presentations",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/brown-bag-resilience-series-presentations"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

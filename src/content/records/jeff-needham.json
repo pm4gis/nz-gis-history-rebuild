@@ -1,0 +1,35 @@
+{
+  "id": "person:jeff-needham",
+  "slug": "jeff-needham",
+  "name": "Jeff Needham",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jeff-needham/",
+  "story": [
+    "The 2011 Surveying and Spatial Sciences Conference involved Esri and Eagle Technology, while Karl Majorhazi and Jeff Needham served as conference convenors. The final programme placed all plenaries and keynotes in the Michael Fowler Auditorium. ArcGIS workshops and conference streams used rooms across the Wellington Convention Centre. The ESRI User Group AGM occupied Renouf 1 on Thursday afternoon, alongside the NZIS AGM, MapInfo User Group AGM and SSSI meeting."
+  ],
+  "sources": [
+    {
+      "label": "Jeff Needham - Land Information New Zealand | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/jeffneedhamnz"
+    },
+    {
+      "label": "Chapter 12 · Recurring conferences",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Jeff Needham"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Recurring conferences",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1243",
+  "a": "system:s-map-online",
+  "b": "chapter:35",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

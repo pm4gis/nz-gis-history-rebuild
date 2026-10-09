@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1357",
+  "a": "entity:locus",
+  "b": "chapter:40",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-40-b79eaf5f11"
+  ],
+  "sources": []
+}

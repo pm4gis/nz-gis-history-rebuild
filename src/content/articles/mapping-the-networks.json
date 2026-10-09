@@ -1,0 +1,58 @@
+{
+  "id": "article:chapter-25",
+  "slug": "mapping-the-networks",
+  "title": "Utility networks",
+  "url": "/stories/mapping-the-networks/",
+  "summary": "An electricity cable, telephone circuit, water main or gas pipe can be drawn perfectly on a map and still be a poor network record. Operators need to know where it is, but they also need to know what it connects to, which equipmen",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 25,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch25-note-01",
+      "text": "1. Vector’s 1999/2000 Asset Management Plan is the principal early network-GIS source. It records GIS implementation beginning in the early 1990s with extensive conversion from paper network records and field capture, followed by conversion of accumulated geographic and textual asset information and functionality to Smallworld in late 1998 and early 1999. The earlier GIS is not retrospectively labelled Smallworld."
+    },
+    {
+      "id": "ch25-note-02",
+      "text": "2. Contemporary reporting on Vector’s 2002 field project supports the use of Compaq iPAQs with Esri ArcPad and Panasonic Toughbooks with Smallworld, including translation between ArcPad and the corporate environment. The approximately NZ$200,000 project cost and NZ$500,000 annual saving are retained only as project-specific reported estimates. Chapter 34 discusses the wider mobile-GIS history."
+    },
+    {
+      "id": "ch25-note-03",
+      "text": "3. Wellington Electricity’s 2009 Asset Management Plan supports the inherited Vector data migration, intended use of GE Smallworld, common unique asset identifiers connecting GIS with other systems, SAP maintenance information and the planned GIS-SCADA interface. SCADA is kept distinct from GIS."
+    },
+    {
+      "id": "ch25-note-04",
+      "text": "4. The 2009 Spatial Information in the New Zealand Economy study supports Watercare’s use of GIS to integrate spatial and non-spatial asset information, a desktop spatial portal, handheld field GIS and a six-person GIS team. The source does not establish Watercare’s first adoption date."
+    },
+    {
+      "id": "ch25-note-05",
+      "text": "5. GE-era industry evidence identifies Telecom New Zealand as a major Tier One Smallworld communications customer by about 2007. The manuscript deliberately omits an unsupported first production date, predecessor system and conversion chronology."
+    },
+    {
+      "id": "ch25-note-06",
+      "text": "6. Vector’s 2018 Gas Distribution Asset Management Plan supplies the late-2010s endpoint involving GE Smallworld, ArcGIS, SAP, customer systems, SCADA and specialist network modelling. It is not used to backdate that architecture to the 1990s."
+    },
+    {
+      "id": "ch25-note-lifelines-studies-1989-1996-utilities",
+      "text": "Near-contemporary overview. Project commencement is distinct from a dated GIS installation; no software brand is assigned."
+    },
+    {
+      "id": "ch25-note-auckland-lifelines-established-1996-utilities",
+      "text": "1996 is the project start. Reports followed in 1997 and 1999. The retrospective’s “ARC GIS” wording does not securely identify a software version."
+    },
+    {
+      "id": "ch25-note-wairarapa-lifelines-established-1996-utilities",
+      "text": "Retrospective report using 2001 census data. Distinguish founding attendees from later participants and ongoing GIS support."
+    },
+    {
+      "id": "ch25-note-smallworld-at-vector-utilities",
+      "text": "Company biography establishes regional operation, not first New Zealand use."
+    },
+    {
+      "id": "ch25-note-paper-plans-become-a-register-utilities",
+      "text": "Printed p.10 confirms early 1990s paper conversion and the separate 1998–99 Smallworld migration."
+    }
+  ]
+}

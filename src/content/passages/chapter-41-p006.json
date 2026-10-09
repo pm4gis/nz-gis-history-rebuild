@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-41-dff8af74a4",
+  "slug": "applications-call-geography-dff8af74a4",
+  "articleId": "article:chapter-41",
+  "title": "Applications call geography",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41",
+    "entity:koordinates",
+    "entity:ollivier-company",
+    "entity:stats-nz",
+    "entity:vector",
+    "person:ed-corkery",
+    "person:rob-coup"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The next step was to stop treating a service merely as a map to be viewed by a person. In July 2013 the New Zealand Walking Access Commission made its Public Access Areas layer available through Esri feature and map service REST endpoints. In a public data request opened in 2012, a user asked for vector data that could be used away from mobile coverage. The Commission's 2014 response recorded that the endpoints had been available since July 2013 and could be used to access the national public-access layer.",
+      "markdown": "The next step was to stop treating a service merely as a map to be viewed by a person. In July 2013 the New Zealand Walking Access Commission made its Public Access Areas layer available through Esri feature and map service REST endpoints. In a public data request opened in 2012, a user asked for vector data that could be used away from mobile coverage. The Commission's 2014 response recorded that the endpoints had been available since July 2013 and could be used to access the national public-access layer.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That small example captures the change well. A map service could draw the information for a browser, while a feature-oriented endpoint could expose geographic features to software. A developer or another GIS application could work with the maintained service without first asking the Commission to email a current copy. Connectivity still constrained offline work, while the same authoritative layer could now serve more than one interface.",
+      "markdown": "That small example captures the change well. A map service could draw the information for a browser, while a feature-oriented endpoint could expose geographic features to software. A developer or another GIS application could work with the maintained service without first asking the Commission to email a current copy. Connectivity still constrained offline work, while the same authoritative layer could now serve more than one interface.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Founded in its recognisable form in 2007 by Ed Corkery and Rob Coup, Koordinates was moving in the same direction. By March 2017 the company was promoting its Query API alongside government data services on the platform. Its contemporary Datarama material said datasets on Stats NZ Datafinder and other Koordinates-powered sites could be accessed using the Koordinates query API. The platform later exposed vector, raster and set-query interfaces as well as OGC and Esri-compatible services. Data distribution was no longer limited to choosing a download format. Software could ask a location-specific question and receive data in return.",
+      "markdown": "Founded in its recognisable form in 2007 by Ed Corkery and Rob Coup, Koordinates was moving in the same direction. By March 2017 the company was promoting its Query API alongside government data services on the platform. Its contemporary Datarama material said datasets on Stats NZ Datafinder and other Koordinates-powered sites could be accessed using the Koordinates query API. The platform later exposed vector, raster and set-query interfaces as well as OGC and Esri-compatible services. Data distribution was no longer limited to choosing a download format. Software could ask a location-specific question and receive data in return.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Contemporary 2008 coverage described that change in almost physical terms: Koordinates was replacing a distribution process built around DVDs, telephone calls, mail and email with a web platform, and named Ollivier & Company as its first distributor. Independent practitioners and small firms helped connect new platforms to an existing professional market before those platforms became part of national data infrastructure.",
+      "markdown": "Contemporary 2008 coverage described that change in almost physical terms: Koordinates was replacing a distribution process built around DVDs, telephone calls, mail and email with a web platform, and named Ollivier & Company as its first distributor. Independent practitioners and small firms helped connect new platforms to an existing professional market before those platforms became part of national data infrastructure.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

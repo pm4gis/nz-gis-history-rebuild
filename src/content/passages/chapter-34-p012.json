@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-34-a648f49e33",
+  "slug": "more-people-collect-structured-data-a648f49e33",
+  "articleId": "article:chapter-34",
+  "title": "More people collect structured data",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The smartphone and tablet changed the economics of mobile GIS because the organisation no longer had to begin every deployment by buying a specialist data collector for each user. Rugged devices continued where conditions justified them, but capable touchscreens, cameras, GNSS, storage and communications were becoming normal workplace equipment. That widened the group who could participate in spatial data capture. A ranger, technician, inspector, scientist or contractor could use a structured field application without learning a general-purpose desktop GIS package.",
+      "markdown": "The smartphone and tablet changed the economics of mobile GIS because the organisation no longer had to begin every deployment by buying a specialist data collector for each user. Rugged devices continued where conditions justified them, but capable touchscreens, cameras, GNSS, storage and communications were becoming normal workplace equipment. That widened the group who could participate in spatial data capture. A ranger, technician, inspector, scientist or contractor could use a structured field application without learning a general-purpose desktop GIS package.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change also moved GIS closer to ordinary operational software. A user might think they were completing an inspection, safety check or monitoring form rather than “doing GIS”. Location could be captured automatically or selected from a map. The database could sit behind the application. The spatial machinery could disappear from the user's view even as it remained essential to the task. Earlier generations spread GIS by giving more people access to GIS software. Mobile applications spread geographic capability by giving people a tool for their job and allowing the spatial component to sit underneath it.",
+      "markdown": "The change also moved GIS closer to ordinary operational software. A user might think they were completing an inspection, safety check or monitoring form rather than “doing GIS”. Location could be captured automatically or selected from a map. The database could sit behind the application. The spatial machinery could disappear from the user's view even as it remained essential to the task. Earlier generations spread GIS by giving more people access to GIS software. Mobile applications spread geographic capability by giving people a tool for their job and allowing the spatial component to sit underneath it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same logic extended beyond formal organisational work. In April 2023 NIWA described electronic Survey123 forms developed for community-based freshwater monitoring groups. The forms could run on mobile phones, tablets or computers and were part of a national quality-assurance framework covering more than 25 variables relating to water quality, aquatic life, habitat and hydrology. The aim was to make community observations more consistent, capture the information needed to interpret them and document their quality, while retaining the governance around monitoring.",
+      "markdown": "The same logic extended beyond formal organisational work. In April 2023 NIWA described electronic Survey123 forms developed for community-based freshwater monitoring groups. The forms could run on mobile phones, tablets or computers and were part of a national quality-assurance framework covering more than 25 variables relating to water quality, aquatic life, habitat and hydrology. The aim was to make community observations more consistent, capture the information needed to interpret them and document their quality, while retaining the governance around monitoring.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The community-monitoring forms combined wider participation with stronger structure. Opening data collection to more people does not require abandoning standards. In fact it can increase the need for them. A form used by many community groups must make clear what is being measured, how, where and under what conditions. The mobile device makes collection easier. The framework around it makes the result useful.",
+      "markdown": "The community-monitoring forms combined wider participation with stronger structure. Opening data collection to more people does not require abandoning standards. In fact it can increase the need for them. A form used by many community groups must make clear what is being measured, how, where and under what conditions. The mobile device makes collection easier. The framework around it makes the result useful.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

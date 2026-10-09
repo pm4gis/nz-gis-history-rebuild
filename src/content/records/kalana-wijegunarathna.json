@@ -1,0 +1,35 @@
+{
+  "id": "person:kalana-wijegunarathna",
+  "slug": "kalana-wijegunarathna",
+  "name": "Kalana Wijegunarathna",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kalana-wijegunarathna/",
+  "story": [
+    "Kalana Wijegunarathna and Kristin Stock of Massey University, with Christopher B. Jones of Cardiff University, examined whether large multimodal models could combine a written locality description with a map. Natural-history collections contain huge numbers of specimens whose recorded locations are written as ordinary descriptions rather than coordinates. A collector might have written that a specimen came from a certain distance along a road, near a river, south of a settlement or beside a reserve. Converting such descriptions into coordinates has long required both language interpretation and geographic reasoning."
+  ],
+  "sources": [
+    {
+      "label": "Kalana Wijegunarathna - Massey University | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/kalana-wijegunarathna"
+    },
+    {
+      "label": "Chapter 44 · A model reads the map",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Kalana Wijegunarathna"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 44 · A model reads the map",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

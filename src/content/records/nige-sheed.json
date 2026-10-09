@@ -1,0 +1,42 @@
+{
+  "id": "person:nige-sheed",
+  "slug": "nige-sheed",
+  "name": "Nige Sheed",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/nige-sheed/",
+  "story": [
+    "Nige Sheed’s asset-management work began at Timaru District Council. He and Jamie Burmeister established Adapt Solutions in 2007.",
+    "Nige Sheed and Jamie Burmeister established Adapt Solutions in 2007 after working together on a water-billing implementation in Auckland. Sheed’s earlier experience at Timaru District Council involved moving paper asset records into computerised systems. The company brought those practical implementation experiences into asset-management software and services."
+  ],
+  "sources": [
+    {
+      "label": "Adapt founders’ history",
+      "url": "https://adaptsolutions.co.nz/about/"
+    },
+    {
+      "label": "Chapter 40 · Shared organisational systems",
+      "url": "/stories/enterprise-gis/"
+    }
+  ],
+  "aliases": [
+    "Nige Sheed"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Adapt founders’ history",
+        "url": "https://adaptsolutions.co.nz/about/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 40 · Shared organisational systems",
+        "url": "/stories/enterprise-gis/"
+      }
+    ]
+  ]
+}

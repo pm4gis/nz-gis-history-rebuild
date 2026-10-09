@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0490",
+  "a": "person:steven-li",
+  "b": "chapter:40",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-40-3782b862a2"
+  ],
+  "sources": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-36-f54cc1855b",
+  "slug": "a-national-satellite-layer-f54cc1855b",
+  "articleId": "article:chapter-36",
+  "title": "A national satellite layer",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36",
+    "entity:traverse-seamless"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In 2017/18 satellite imagery crossed another institutional boundary. LINZ reported that, for the first time, it had released satellite earth-observation data through the LINZ Data Service. Period presentation material identifies the pilot as a seamless cloud-free 10 metre imagery layer covering mainland New Zealand and offshore islands. It was assembled from Sentinel-2A and Sentinel-2B acquisitions between December 2016 and December 2017 and published as 450 orthorectified RGB GeoTIFF tiles in NZTM.",
+      "markdown": "In 2017/18 satellite imagery crossed another institutional boundary. LINZ reported that, for the first time, it had released satellite earth-observation data through the LINZ Data Service. Period presentation material identifies the pilot as a seamless cloud-free 10 metre imagery layer covering mainland New Zealand and offshore islands. It was assembled from Sentinel-2A and Sentinel-2B acquisitions between December 2016 and December 2017 and published as 450 orthorectified RGB GeoTIFF tiles in NZTM.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The wording needs care. “Cloud-free” described a mosaic assembled from multiple acquisitions rather than a satellite capture of all New Zealand on one miraculous afternoon. The publicly distributed 8-bit RGB version was primarily a visual product, and LINZ documentation noted that original values had been modified for visualisation. Higher-bit RGB and near-infrared imagery could be requested separately. Those details separate a useful national basemap from an analytical multispectral product.",
+      "markdown": "The wording needs care. “Cloud-free” described a mosaic assembled from multiple acquisitions rather than a satellite capture of all New Zealand on one miraculous afternoon. The publicly distributed 8-bit RGB version was primarily a visual product, and LINZ documentation noted that original values had been modified for visualisation. Higher-bit RGB and near-infrared imagery could be requested separately. Those details separate a useful national basemap from an analytical multispectral product.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand organisations had used satellite imagery before LINZ’s later services. New Zealand scientists had been processing Landsat more than forty years earlier. The change is institutional. A national land-information agency was now distributing a satellite-derived national layer through the same public data infrastructure used for topography, cadastre, elevation and aerial imagery. Earth observation had moved close to the centre of ordinary geospatial distribution. The user could encounter a national Sentinel mosaic as another available dataset rather than as the result of a bespoke remote-sensing procurement.",
+      "markdown": "New Zealand organisations had used satellite imagery before LINZ’s later services. New Zealand scientists had been processing Landsat more than forty years earlier. The change is institutional. A national land-information agency was now distributing a satellite-derived national layer through the same public data infrastructure used for topography, cadastre, elevation and aerial imagery. Earth observation had moved close to the centre of ordinary geospatial distribution. The user could encounter a national Sentinel mosaic as another available dataset rather than as the result of a bespoke remote-sensing procurement.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same trajectory is visible in the Ministry for the Environment’s later national satellite-data search service. Its maintained archive now points users across a sequence that includes Landsat 4 imagery from 1990, Landsat 7, SPOT and DMC datasets through the 2000s and early 2010s, Landsat 8, and annual Sentinel-2 national datasets from 2016 onward. Capture and publication dates differed. By the 2020s, national satellite observations from several decades were being organised as an accessible continuing resource.",
+      "markdown": "The same trajectory is visible in the Ministry for the Environment’s later national satellite-data search service. Its maintained archive now points users across a sequence that includes Landsat 4 imagery from 1990, Landsat 7, SPOT and DMC datasets through the 2000s and early 2010s, Landsat 8, and annual Sentinel-2 national datasets from 2016 onward. Capture and publication dates differed. By the 2020s, national satellite observations from several decades were being organised as an accessible continuing resource.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

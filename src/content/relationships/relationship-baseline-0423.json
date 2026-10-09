@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0423",
+  "a": "person:maui-hudson",
+  "b": "chapter:21",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-39-85e350af10",
+  "slug": "sharing-3d-85e350af10",
+  "articleId": "article:chapter-39",
+  "title": "Sharing 3D",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Three-dimensional information also became easier to distribute during the 2010s, although progress varied. Large desktop scenes and specialist engineering models could be difficult to move between organisations, while lighter web viewers and streamed scene services made selected 3D information easier to inspect without the original authoring software. Web delivery allowed a 3D model to reach planners, managers and other users who were not operating specialist modelling systems.",
+      "markdown": "Three-dimensional information also became easier to distribute during the 2010s, although progress varied. Large desktop scenes and specialist engineering models could be difficult to move between organisations, while lighter web viewers and streamed scene services made selected 3D information easier to inspect without the original authoring software. Web delivery allowed a 3D model to reach planners, managers and other users who were not operating specialist modelling systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital Auckland was an early example of that widening audience because the city model was used to communicate planning and construction scenarios rather than only to support technical modelling. SCIRT worked differently, with survey and engineering information moving through a federated delivery environment. Both cases required decisions about how much detail to expose and which source remained authoritative. A simplified shared view could be extremely useful even when the underlying engineering or cadastral record remained elsewhere.",
+      "markdown": "Digital Auckland was an early example of that widening audience because the city model was used to communicate planning and construction scenarios rather than only to support technical modelling. SCIRT worked differently, with survey and engineering information moving through a federated delivery environment. Both cases required decisions about how much detail to expose and which source remained authoritative. A simplified shared view could be extremely useful even when the underlying engineering or cadastral record remained elsewhere.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Levels of detail became a practical issue. A building suitable for a city overview may need only its external form, while a BIM system can contain thousands of internal components. Loading every bolt, duct and fitting into a regional GIS would add complexity without helping most users. Conversely, reducing a detailed model to a simple box can remove exactly the geometry needed for clearance, access or risk analysis.",
+      "markdown": "Levels of detail became a practical issue. A building suitable for a city overview may need only its external form, while a BIM system can contain thousands of internal components. Loading every bolt, duct and fitting into a regional GIS would add complexity without helping most users. Conversely, reducing a detailed model to a simple box can remove exactly the geometry needed for clearance, access or risk analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The exchange problem therefore became selective rather than absolute. Organisations did not need one enormous model containing every fact about every object. They needed reliable ways to link or transform information so the right level of geometry and attributes could reach the right task. That principle provides a direct bridge into enterprise GIS, where shared services and governance become necessary alongside the model itself.",
+      "markdown": "The exchange problem therefore became selective rather than absolute. Organisations did not need one enormous model containing every fact about every object. They needed reliable ways to link or transform information so the right level of geometry and attributes could reach the right task. That principle provides a direct bridge into enterprise GIS, where shared services and governance become necessary alongside the model itself.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

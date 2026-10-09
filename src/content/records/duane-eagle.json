@@ -1,0 +1,31 @@
+{
+  "id": "person:duane-eagle",
+  "slug": "duane-eagle",
+  "name": "Duane Eagle",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/duane-eagle/",
+  "story": [
+    "Duane Eagle worked in the family company and later took a leadership role in Eagle Technology."
+  ],
+  "sources": [
+    {
+      "label": "Eagle company history",
+      "url": "https://www.eagle.co.nz/about/our-history"
+    }
+  ],
+  "aliases": [
+    "Duane Eagle"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Eagle company history",
+        "url": "https://www.eagle.co.nz/about/our-history"
+      }
+    ]
+  ]
+}

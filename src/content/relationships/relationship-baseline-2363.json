@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2363",
+  "a": "person:scott-tansley",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

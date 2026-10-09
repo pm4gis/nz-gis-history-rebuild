@@ -1,0 +1,39 @@
+{
+  "id": "person:janelle-palmer",
+  "slug": "janelle-palmer",
+  "name": "Janelle Palmer",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/janelle-palmer/",
+  "story": [
+    "Janelle Palmer is documented by Northland Regional Council as the GIS specialist developing a web-based afforestation viewer for the Hill Country Erosion Fund programme. The viewer brought erosion, property, waterways and other contextual information together for land-management work. She also presented Northland Regional Council GIS work at the 2018 New Zealand Esri User Conference."
+  ],
+  "sources": [
+    {
+      "label": "Northland Regional Council, Hill Country Erosion Fund final report",
+      "url": "https://www.nrc.govt.nz/media/jpjbr0q4/hill-country-erosion-fund-boost-year-final-report.pdf"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    }
+  ],
+  "aliases": [
+    "Janelle Palmer"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Northland Regional Council, Hill Country Erosion Fund final report",
+        "url": "https://www.nrc.govt.nz/media/jpjbr0q4/hill-country-erosion-fund-boost-year-final-report.pdf"
+      },
+      {
+        "label": "New Zealand Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ]
+  ]
+}

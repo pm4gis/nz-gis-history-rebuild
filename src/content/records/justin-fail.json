@@ -1,0 +1,53 @@
+{
+  "id": "person:justin-fail",
+  "slug": "justin-fail",
+  "name": "Justin Fail",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/justin-fail/",
+  "story": [
+    "Justin Fail established Geovolve in 2020 after a career in GIS services. His professional practice includes information management, project management, business analysis, data reporting and software testing. This broadens the account of his earlier work at GBS and his contribution to geospatial systems used during Canterbury's earthquake recovery.",
+    "Justin Fail joined GBS as its first employee around 2004.",
+    "During the 2011 Canterbury earthquake response, Kim Ollivier pressed for reusable map services rather than links to finished web maps; Jithen Singh pointed users towards Esri REST, WFS and WMS services; Beca's Justin Fail reported work by Christchurch City Council to establish WMS and WFS services; and practitioners circulated aerial imagery and demolition data. The thread captures an untidy but important part of emergency GIS: formal systems were essential, but so were people who knew whom to ask and how to expose the data quickly enough for somebody else to use it."
+  ],
+  "sources": [
+    {
+      "label": "GBS retrospective, 2022",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    },
+    {
+      "label": "Justin Fail - Geovolve NZ | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/justinfail"
+    },
+    {
+      "label": "Chapter 42 · Canterbury exposes the gaps",
+      "url": "/stories/the-real-time-map/"
+    }
+  ],
+  "aliases": [
+    "Justin Fail"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Justin Fail - Geovolve NZ | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/justinfail"
+      }
+    ],
+    [
+      {
+        "label": "GBS retrospective, 2022",
+        "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 42 · Canterbury exposes the gaps",
+        "url": "/stories/the-real-time-map/"
+      }
+    ]
+  ]
+}

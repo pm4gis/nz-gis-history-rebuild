@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0121",
+  "a": "entity:mapdata-sciences",
+  "b": "chapter:30",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-30-50ae27dc46"
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:jolanda-simon",
+  "slug": "jolanda-simon",
+  "name": "Jolanda Simon",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jolanda-simon/",
+  "story": [
+    "An August 2000 MapInfo-L message from Jolanda Simon, Hurunui District Council’s IT Officer, describes a MapInfo 6 Hotlink workflow. From a map layer, 78 mapped objects opened separate MapInfo workspaces. Simon also records a mixed desktop environment running Windows 2000 and Windows 95/98. The correspondence documents operational desktop GIS at Hurunui by that date without establishing when the council first used GIS."
+  ],
+  "sources": [
+    {
+      "label": "Jolanda Simon, ‘Hotlink tool in MI v6’, MapInfo-L technical correspondence, 22 August 2000",
+      "url": "https://www.mail-archive.com/mapinfo-l%40csn.net/msg09071.html"
+    }
+  ],
+  "aliases": [
+    "Jolanda Simon"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Jolanda Simon, ‘Hotlink tool in MI v6’, MapInfo-L technical correspondence, 22 August 2000",
+        "url": "https://www.mail-archive.com/mapinfo-l%40csn.net/msg09071.html"
+      }
+    ]
+  ]
+}

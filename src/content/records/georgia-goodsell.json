@@ -1,0 +1,44 @@
+{
+  "id": "person:georgia-goodsell",
+  "slug": "georgia-goodsell",
+  "name": "Georgia Goodsell",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/georgia-goodsell/",
+  "story": [
+    "A Women in Spatial + Survey committee biography describes Georgia Goodsell’s geography background and work as a Spatial Intelligence Technician at the Ministry for Primary Industries. It also records her volunteer interest in connecting women in spatial work and people new to GIS. The biography is not dated, so it does not establish when the role began or whether it remains current.",
+    "Committee biographies connect the network to different career stages: Amy Tay’s transport and infrastructure consulting, FME and 3D modelling; Georgia Goodsell’s spatial-intelligence work and support for new entrants; Devon Allen’s cadastral and engineering surveying; and student representative Malindi Reihana-Ruka’s interest in working with her community and encouraging other women into the field. The biographies are not date-stamped, so they do not establish current employment or study status. A 2024 recap records lightning talks on tactile mapping, surveying, GIS in schools and data collection."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial + Survey, “The Committee”",
+      "url": "https://womeninspatial.wordpress.com/the-committee/"
+    },
+    {
+      "label": "Chapter 29 · New professional networks",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Georgia Goodsell"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Women in Spatial + Survey, “The Committee”",
+        "url": "https://womeninspatial.wordpress.com/the-committee/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · New professional networks",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

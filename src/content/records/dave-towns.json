@@ -1,0 +1,31 @@
+{
+  "id": "person:dave-towns",
+  "slug": "dave-towns",
+  "name": "Dave Towns",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/dave-towns/",
+  "story": [
+    "Ross Pickard and Dave Towns produced maps published in 1988."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 26 · Species records, 1987–1993",
+      "url": "/stories/conservation-and-environment/"
+    }
+  ],
+  "aliases": [
+    "Dave Towns"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 26 · Species records, 1987–1993",
+        "url": "/stories/conservation-and-environment/"
+      }
+    ]
+  ]
+}

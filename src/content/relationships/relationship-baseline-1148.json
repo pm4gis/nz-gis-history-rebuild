@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1148",
+  "a": "system:enterprise-gis",
+  "b": "entity:downer",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

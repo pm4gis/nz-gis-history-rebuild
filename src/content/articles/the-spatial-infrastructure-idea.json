@@ -1,0 +1,58 @@
+{
+  "id": "article:chapter-21",
+  "slug": "the-spatial-infrastructure-idea",
+  "title": "Spatial data infrastructure",
+  "url": "/stories/the-spatial-infrastructure-idea/",
+  "summary": "By the 1990s New Zealand had plenty of digital geography without having anything resembling one national GIS. DOSLI and later LINZ maintained cadastral, geodetic and topographic information. Statistics New Zealand maintained censu",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 21,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch21-note-01",
+      "text": "1. ANZLIC. ANZLIC institutional history documents establishment of the Australian Land Information Council in January 1986, New Zealand participation from 1987 and full membership in November 1991 when the council became the Australia New Zealand Land Information Council. ANZLIC was a policy and coordination body, not the operator of New Zealand agency GIS systems."
+    },
+    {
+      "id": "ch21-note-02",
+      "text": "2. Early New Zealand coordination. The 2007 New Zealand Geospatial Strategy documents the recorded 1995 government recognition of the value of the spatial-data system and the Officials' Committee for Geospatial Information convened by LINZ from 1996. Preserve the strategy's own account of the committee's limited authority to ensure cross-government work was funded and completed."
+    },
+    {
+      "id": "ch21-note-03",
+      "text": "3. Strategy. The October 2004 government decision and November 2004 discussion document record the strategy process and consultation. Cabinet and LINZ records document Cabinet approval of the New Zealand Geospatial Strategy in October 2006, establishment of the New Zealand Geospatial Office within LINZ in 2006 and publication of A New Zealand Geospatial Strategy: Understanding our Geographic Information Landscape in January 2007. These are separate milestones."
+    },
+    {
+      "id": "ch21-note-04",
+      "text": "4. Metadata and standards. The sources include ANZLIC's 2001 core metadata guidance and Metadata Profile 1.1 published in 2007, based on AS/NZS ISO 19115:2005 with ISO 19139 for XML implementation. LINZ and State Services Commission records document New Zealand government endorsement in July 2010. Endorsement is not evidence of universal agency implementation."
+    },
+    {
+      "id": "ch21-note-05",
+      "text": "5. Standards coordination. Sarah Mehrtens' 25 May 2009 New Zealand Geospatial Office report documents the twenty-person advisory group and recommendation for a standards-coordination function within NZGO rather than a new central standards authority. Treat recommendations separately from later implementation."
+    },
+    {
+      "id": "ch21-note-06",
+      "text": "6. Spatial data infrastructure. Spatial Information in the New Zealand Economy (2009) documents contemporary SDI framing. The December 2010 Cabinet decision and LINZ 2010/11 annual report document further design and implementation of a national SDI. December 2010 marks a design and implementation decision, rather than a completed national infrastructure."
+    },
+    {
+      "id": "ch21-note-07",
+      "text": "7. State of Play. The New Zealand Geospatial Office's December 2012 State of Play report uses a September 2012 baseline. The report scored forty-one criteria: twelve in agreement, eleven partially in agreement, seventeen not in agreement and one unknown. This is direct evidence that several components existed while the national infrastructure remained incomplete."
+    },
+    {
+      "id": "ch21-note-08",
+      "text": "8. NZGO reporting in 2012/13 documents development of the Stewards and Custodians Framework. Later LINZ material from 2014 documents fundamental-data theme groupings; this later list does not establish a fixed classification in 2007."
+    },
+    {
+      "id": "ch21-note-richard-murcott-geospatial-standards",
+      "text": "Sources: OpenWork, Richard Murcott professional biography: surveying, DCDB and geospatial standards (https://www.openwork.nz/copy-of-about); LINZ, Emergency Services and Administration Core Data Specification, April 2004, Appendix H: Richard Murcott, project coordinator (https://www.linz.govt.nz/sites/default/files/esa-dataset-specification-v1-9-7.pdf); ISO/TC 211, Adelaide standards-in-action presentation archive, October 2001: Richard Pascoe and Richard Murcott (https://committee.iso.org/sites/tc211/home/standards-in-action/presentation-archive/2001-10-adelaide.html); Vicinity Solutions, New Zealand Geospatial Office address-model case study: Richard Murcott, Geospatial Standards Leader (https://vicgis.com/projects/nz-geospatial-office.html)."
+    },
+    {
+      "id": "ch21-note-new-zealand-dggs-development",
+      "text": "Sources: Gibb, Raichev and Speth, The rHEALPix Discrete Global Grid System, Landcare Research DataStore, deposited 2016, DOI 10.7931/J2D21VHM (https://datastore.landcareresearch.co.nz/dataset/rhealpix-discrete-global-grid-system); David Medyckyj-Scott, contributor account supplied by Duane Wilkins, 5 October 2026; OGC Abstract Specification Topic 21, Discrete Global Grid Systems, version 1.0, 1 August 2017 (https://portal.ogc.org/files/15-104r5.pdf); Robert Gibb (editor), OGC Topic 21, DGGS Part 1, version 2.0, 23 September 2021, 20-040r3 (https://docs.ogc.org/as/20-040r3/20-040r3.html); ISO/TC 211, ISO 19170-1:2021: DGGS core reference system, operations and equal-area Earth reference system (https://committee.iso.org/sites/tc211/home/projects-old/projects---complete-list-old/iso-19170-1.html); Richard Law, Land-use mapping with a Discrete Global Grid System, FOSS4G SotM Oceania, 17 October 2023: H3 implementation (https://talks.osgeo.org/foss4g-sotm-oceania-2023/talk/EYAJ7H/); Richard M. Law and James Ardo, Using a discrete global grid system for a scalable, interoperable, and reproducible system of land-use mapping, Big Earth Data 9(1), 2025, DOI 10.1080/20964471.2024.2429847 (https://www.tandfonline.com/doi/full/10.1080/20964471.2024.2429847)."
+    },
+    {
+      "id": "ch21-note-ogc-palmerston-north-2017",
+      "text": "Sources: James Barringer, Manaaki Whenua contribution to Cartographic Activities in New Zealand 2015–2019, printed pp.30–31: OGC meeting and summits (https://icaci.org/files/documents/national_reports/2015-2019/newzealand-2019_lq.pdf); OGC historical events directory: 105th Member Meeting, Palmerston North, New Zealand, 2017 (https://portal.ogc.org/meet/ogcmeet/events/); David Medyckyj-Scott, contributor account supplied by Duane Wilkins, 5 October 2026."
+    }
+  ]
+}

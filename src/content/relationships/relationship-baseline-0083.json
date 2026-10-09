@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0083",
+  "a": "entity:hawkes-bay-region-gis-forum",
+  "b": "chapter:23",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

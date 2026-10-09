@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-10-843f9eb18b",
+  "slug": "government-operations-843f9eb18b",
+  "articleId": "article:chapter-10",
+  "title": "Government operations",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:10",
+    "entity:department-of-survey-and-land-information-dosli"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 1991, departments had established digital mapping within several separate systems. DOSLI was converting cadastral records at national scale, maintaining growing digital databases, developing terrain data, indexing aerial photography, supporting digital photogrammetry and automating specialised chart production. Water and Soil had years of operational GIS experience. DSIR and DOC were confronting the management of digital environmental information. Professional forums were debating standards, land-information policy and the changing role of national mapping organisations.",
+      "markdown": "By 1991, departments had established digital mapping within several separate systems. DOSLI was converting cadastral records at national scale, maintaining growing digital databases, developing terrain data, indexing aerial photography, supporting digital photogrammetry and automating specialised chart production. Water and Soil had years of operational GIS experience. DSIR and DOC were confronting the management of digital environmental information. Professional forums were debating standards, land-information policy and the changing role of national mapping organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The work remained labour intensive. Paper maps and photographs had to be interpreted and captured. Digital features needed codes, attributes and topology. Databases needed backup, maintenance and correction. Plotters and printers still produced much of what users carried into offices and the field. The transition to GIS did not remove the production workforce; it changed the material they worked on and added database administration, programming and digital quality control to established surveying, photogrammetric and cartographic skills.",
+      "markdown": "The work remained labour intensive. Paper maps and photographs had to be interpreted and captured. Digital features needed codes, attributes and topology. Databases needed backup, maintenance and correction. Plotters and printers still produced much of what users carried into offices and the field. The transition to GIS did not remove the production workforce; it changed the material they worked on and added database administration, programming and digital quality control to established surveying, photogrammetric and cartographic skills.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 1991, adoption remained uneven, but several systems had become continuing departmental assets. Some remained specialised production environments, while others were beginning to supply digital information to a wider LIS/GIS community. Record conversion was expensive, maintenance continued after conversion, and standards became more necessary as data moved between systems. In several parts of central government, spatial databases and digital mapping systems now required permanent staffing, funding, maintenance and governance.",
+      "markdown": "By 1991, adoption remained uneven, but several systems had become continuing departmental assets. Some remained specialised production environments, while others were beginning to supply digital information to a wider LIS/GIS community. Record conversion was expensive, maintenance continued after conversion, and standards became more necessary as data moved between systems. In several parts of central government, spatial databases and digital mapping systems now required permanent staffing, funding, maintenance and governance.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "During the 1990s, desktop software, cheaper computing and expanding digital datasets brought GIS into more policy, regulatory and operational functions across central government. Chapter 24 follows that wider adoption, building on the departmental databases and production systems established during the 1980s.",
+      "markdown": "During the 1990s, desktop software, cheaper computing and expanding digital datasets brought GIS into more policy, regulatory and operational functions across central government. Chapter 24 follows that wider adoption, building on the departmental databases and production systems established during the 1980s.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

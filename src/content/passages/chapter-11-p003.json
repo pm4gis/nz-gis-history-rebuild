@@ -1,0 +1,52 @@
+{
+  "id": "passage:chapter-11-1e2dba36e8",
+  "slug": "building-a-workstation-laboratory-1e2dba36e8",
+  "articleId": "article:chapter-11",
+  "title": "Building a workstation laboratory",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11",
+    "entity:university-of-canterbury",
+    "entity:vector",
+    "person:neville-churcher",
+    "person:richard-pascoe",
+    "person:john-p-wilson",
+    "person:pip-forer",
+    "person:john-penny"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The University of Canterbury followed a different route. A near-contemporary review by John P. Wilson and Pip Forer records Geography entering GIS teaching in 1987 with a graduate course. In 1989 the department acquired workstation ARC/INFO and ERDAS capability. The acquisition put a general vector GIS and a major raster image-processing system into the same teaching and research environment, allowing students to work with geographic databases and remotely sensed imagery rather than treating the two as unrelated specialities.",
+      "markdown": "The University of Canterbury followed a different route. A near-contemporary review by John P. Wilson and Pip Forer records Geography entering GIS teaching in 1987 with a graduate course. In 1989 the department acquired workstation ARC/INFO and ERDAS capability. The acquisition put a general vector GIS and a major raster image-processing system into the same teaching and research environment, allowing students to work with geographic databases and remotely sensed imagery rather than treating the two as unrelated specialities.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Workstation GIS expanded the exercises possible in a university laboratory. Forer and Wilson’s 1993 Canterbury account describes Geography’s Sun SPARCstations, a Roland eight-colour pen plotter, a Numonics digitiser, inkjet printers, a 24-bit scanner and Magellan Navstar 5000 GPS units. Fifteen Acorn A5000 RISC workstations served as X terminals into the Sun environment, while Geography deliberately avoided PC ARC/INFO. Elsewhere on campus, departments used Atlas-Pro, Tech-Base, GRASS, Intergraph MGE and other PC-based systems; Forer and Wilson described “little standardization of software at the present time”. The Havelock prototype tried to make that mixed environment usable by bringing scanned aerial photography, remotely sensed imagery, vector maps, bibliographic material and analytical tools together through Acorn RISC-OS, Sun OpenWindows and the campus network. It was a collection of specialised machines and packages being persuaded to cooperate, supported by technical staff who kept the software and datasets usable between classes.",
+      "markdown": "Workstation GIS expanded the exercises possible in a university laboratory. Forer and Wilson’s 1993 Canterbury account describes Geography’s Sun SPARCstations, a Roland eight-colour pen plotter, a Numonics digitiser, inkjet printers, a 24-bit scanner and Magellan Navstar 5000 GPS units. Fifteen Acorn A5000 RISC workstations served as X terminals into the Sun environment, while Geography deliberately avoided PC ARC/INFO. Elsewhere on campus, departments used Atlas-Pro, Tech-Base, GRASS, Intergraph MGE and other PC-based systems; Forer and Wilson described “little standardization of software at the present time”. The Havelock prototype tried to make that mixed environment usable by bringing scanned aerial photography, remotely sensed imagery, vector maps, bibliographic material and analytical tools together through Acorn RISC-OS, Sun OpenWindows and the campus network. It was a collection of specialised machines and packages being persuaded to cooperate, supported by technical staff who kept the software and datasets usable between classes.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Canterbury also demonstrates how quickly GIS escaped the boundaries of a geography course. In 1990 Richard Pascoe and John Penny published work on the interchange of data between geographic information systems and on constructing interfaces for geographic-data exchange. Pascoe and Neville Churcher then presented “Sharing geographical data” at the second SIRC colloquium in 1990 and developed the work in the New Zealand Journal of Computing the following year. By 1992 Canterbury computer scientists were presenting GIS as a set of problems of direct interest to computer science.",
+      "markdown": "Canterbury also demonstrates how quickly GIS escaped the boundaries of a geography course. In 1990 Richard Pascoe and John Penny published work on the interchange of data between geographic information systems and on constructing interfaces for geographic-data exchange. Pascoe and Neville Churcher then presented “Sharing geographical data” at the second SIRC colloquium in 1990 and developed the work in the New Zealand Journal of Computing the following year. By 1992 Canterbury computer scientists were presenting GIS as a set of problems of direct interest to computer science.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The papers examined the difficulty of exchanging geographic information between systems with different structures and assumptions. Researchers had to consider geometry, attributes, identifiers and the meaning of the records being transferred. Modern web services and open standards did not yet provide infrastructure for routine exchange. Canterbury researchers were investigating incompatibility as operational GIS users encountered it in practice.",
+      "markdown": "The papers examined the difficulty of exchanging geographic information between systems with different structures and assumptions. Researchers had to consider geometry, attributes, identifiers and the meaning of the records being transferred. Modern web services and open standards did not yet provide infrastructure for routine exchange. Canterbury researchers were investigating incompatibility as operational GIS users encountered it in practice.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Geography could teach spatial analysis, cartography, remote sensing and applications. Computer Science could investigate data structures, interfaces, databases and collaborative software. Surveying and engineering brought other spatial measurement traditions. Courses, research papers and projects brought these disciplines together.",
+      "markdown": "Geography could teach spatial analysis, cartography, remote sensing and applications. Computer Science could investigate data structures, interfaces, databases and collaborative software. Surveying and engineering brought other spatial measurement traditions. Courses, research papers and projects brought these disciplines together.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

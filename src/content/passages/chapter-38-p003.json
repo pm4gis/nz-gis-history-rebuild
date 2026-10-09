@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-38-87961ebf58",
+  "slug": "from-photographs-to-geometry-87961ebf58",
+  "articleId": "article:chapter-38",
+  "title": "From photographs to geometry",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Structure from motion made the new workflow possible for relatively small teams. The basic idea is that the same features appear in many overlapping photographs taken from different positions. Software identifies matching points, estimates the relative location and orientation of the cameras, and reconstructs the three-dimensional arrangement of the visible surface. Multi-view stereo processing can then densify that reconstruction into a much larger cloud of points. The process borrows from photogrammetry and computer vision but became increasingly automated in software that ordinary research and consulting teams could run.",
+      "markdown": "Structure from motion made the new workflow possible for relatively small teams. The basic idea is that the same features appear in many overlapping photographs taken from different positions. Software identifies matching points, estimates the relative location and orientation of the cameras, and reconstructs the three-dimensional arrangement of the visible surface. Multi-view stereo processing can then densify that reconstruction into a much larger cloud of points. The process borrows from photogrammetry and computer vision but became increasingly automated in software that ordinary research and consulting teams could run.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The software calculated three-dimensional geometry from overlapping photographs. A stitched panorama may look continuous while preserving perspective distortions. A photogrammetric model attempts to solve camera geometry and produce spatial measurements. The workflow moves through several different products: original photographs, image metadata, matched features or tie points, camera solutions, sparse and dense point clouds, surface models, orthorectified imagery and later derivatives such as contours, profiles or volumes. Those products should not be treated as interchangeable just because they can all be displayed in a GIS.",
+      "markdown": "The software calculated three-dimensional geometry from overlapping photographs. A stitched panorama may look continuous while preserving perspective distortions. A photogrammetric model attempts to solve camera geometry and produce spatial measurements. The workflow moves through several different products: original photographs, image metadata, matched features or tie points, camera solutions, sparse and dense point clouds, surface models, orthorectified imagery and later derivatives such as contours, profiles or volumes. Those products should not be treated as interchangeable just because they can all be displayed in a GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The orthomosaic became especially useful because it looked familiar. Photographs corrected for camera perspective and terrain displacement could be combined into one georeferenced image layer. Engineers, planners or environmental staff could use that output in much the same way they used conventional orthophotography, but over a site captured for their own project. At suitable flight heights the ground sample distance could be measured in centimetres rather than metres. That level of visual detail was attractive, but it was not the same thing as centimetre positional accuracy.",
+      "markdown": "The orthomosaic became especially useful because it looked familiar. Photographs corrected for camera perspective and terrain displacement could be combined into one georeferenced image layer. Engineers, planners or environmental staff could use that output in much the same way they used conventional orthophotography, but over a site captured for their own project. At suitable flight heights the ground sample distance could be measured in centimetres rather than metres. That level of visual detail was attractive, but it was not the same thing as centimetre positional accuracy.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-20-4e853e3f0f",
+  "slug": "maintaining-imagery-4e853e3f0f",
+  "articleId": "article:chapter-20",
+  "title": "Maintaining imagery",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "imagery"
+  ],
+  "recordIds": [
+    "chapter:20",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the later 2010s, public-sector aerial imagery in New Zealand was being handled as a recurring national and regional resource. Councils and government agencies acquired new surveys, suppliers processed them into corrected mosaics, coordination programmes aligned specifications, and distribution systems published accepted imagery for other users. The aircraft flight remained a specialised operation, but the resulting layer had become ordinary GIS infrastructure.",
+      "markdown": "By the later 2010s, public-sector aerial imagery in New Zealand was being handled as a recurring national and regional resource. Councils and government agencies acquired new surveys, suppliers processed them into corrected mosaics, coordination programmes aligned specifications, and distribution systems published accepted imagery for other users. The aircraft flight remained a specialised operation, but the resulting layer had become ordinary GIS infrastructure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That ordinariness changed expectations. A GIS without recent imagery could feel incomplete even when its vector databases were technically sound. Users expected to zoom from a regional view into individual streets and buildings and to compare the photograph with property, planning and infrastructure information. They also expected to know the year of capture because a background image had become part of operational decision-making rather than decoration.",
+      "markdown": "That ordinariness changed expectations. A GIS without recent imagery could feel incomplete even when its vector databases were technically sound. Users expected to zoom from a regional view into individual streets and buildings and to compare the photograph with property, planning and infrastructure information. They also expected to know the year of capture because a background image had become part of operational decision-making rather than decoration.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Historical imagery acquired value at the same time. New flights created refresh cycles, while older flights became a record of previous conditions. The Crown archive digitisation extended that sequence back into the film era. The same country could increasingly be viewed through several dates of photography, each fitted closely enough to the map framework to support comparison.",
+      "markdown": "Historical imagery acquired value at the same time. New flights created refresh cycles, while older flights became a record of previous conditions. The Crown archive digitisation extended that sequence back into the film era. The same country could increasingly be viewed through several dates of photography, each fitted closely enough to the map framework to support comparison.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Aerial imagery had therefore moved from specialist source material to a maintained shared layer. The result created an organisational problem around this and other reusable national datasets. Once imagery, topography, property, addresses and other spatial information were being exchanged between agencies, New Zealand needed common ways to describe, steward and connect them. That became the spatial-infrastructure project.",
+      "markdown": "Aerial imagery had therefore moved from specialist source material to a maintained shared layer. The result created an organisational problem around this and other reusable national datasets. Once imagery, topography, property, addresses and other spatial information were being exchanged between agencies, New Zealand needed common ways to describe, steward and connect them. That became the spatial-infrastructure project.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

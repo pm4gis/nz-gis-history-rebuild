@@ -1,0 +1,22 @@
+{
+  "id": "2009-topo50",
+  "dateDisplay": "2009-09",
+  "startDate": "2009-09",
+  "datePrecision": "month",
+  "year": 2009,
+  "label": "Topo50 and Topo250 replace the older national series",
+  "summary": "LINZ released the new national map series from maintained digital topographic data and NZTM2000.",
+  "url": "/stories/topography-goes-digital/#the-topo50-release-6ca71b18e1",
+  "passageIds": [
+    "passage:chapter-15-6ca71b18e1"
+  ],
+  "recordIds": [
+    "chapter:15"
+  ],
+  "themeIds": [],
+  "categories": [
+    "topography",
+    "government"
+  ],
+  "sources": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "article:chapter-13",
+  "slug": "the-cadastre-becomes-data",
+  "title": "The digital cadastre",
+  "url": "/stories/the-cadastre-becomes-data/",
+  "summary": "A cadastral line on a computer screen can look wonderfully certain. It is thin, continuous and usually drawn with more geometric neatness than the paper map that preceded it. By the late 1980s New Zealand was building a national d",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 13,
+  "themeIds": [
+    "cadastre"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch13-note-01",
+      "text": "1. LINZ cadastral-reform and historical DCDB documentation support the 1985–1996 conversion span. The 1991 United Nations New Zealand country report gives conversion progress and a December 1990 snapshot of about 1.066 million parcel polygons, approximately 42 per cent of the estimated national total. The sources distinguish 1985 programme preparation from descriptions of formal conversion commencing in 1986."
+    },
+    {
+      "id": "ch13-note-02",
+      "text": "2. DCDB architecture and workflow. Official historical DCDB technical material documents Sun hardware, Unix, VISION*, Oracle, manual digitising, numeric entry, editing, maintenance, enquiry and output. This evidence supports describing DCDB as an integrated maintained cadastral information system. It does not support a claim that MAPPAK became DCDB through a documented technical migration."
+    },
+    {
+      "id": "ch13-note-03",
+      "text": "3. Accuracy and legal status. LINZ cadastral accuracy guidance and reform material document the distinction between topologically complete national parcel representation, map-derived coordinate position and legal or survey evidence. Source-map scales ranged roughly from 1:400 to 1:50,000. Transformation or digitising did not convert compiled record-map geometry into survey-accurate legal boundaries."
+    },
+    {
+      "id": "ch13-note-04",
+      "text": "4. Institutional transition. Official DOSLI/LINZ history documents the 1 July 1996 split between statutory LINZ and commercial Terralink functions. Historical DCDB distribution material documents the licensed distributor model. Company histories are described in Chapter 12."
+    },
+    {
+      "id": "ch13-note-05",
+      "text": "5. Survey Conversion and retirement of DCDB. LINZ accuracy guidance, contemporary cadastral automation papers and official Landonline historical records document Survey Conversion and the district-by-district cessation of DCDB maintenance from Otago on 30 March 2000 through North Auckland on 22 March 2002. This is the bridge to Chapter 14, not a second Landonline narrative."
+    }
+  ]
+}

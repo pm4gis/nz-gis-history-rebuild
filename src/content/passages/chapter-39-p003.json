@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-39-44fef5297f",
+  "slug": "terrain-becomes-data-44fef5297f",
+  "articleId": "article:chapter-39",
+  "title": "Terrain becomes data",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39",
+    "entity:tasman-district-council",
+    "entity:fox-and-associates"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Terrain was one of the first kinds of 3D information to become routine because GIS already had strong reasons to analyse elevation. A digital elevation model could support slope, aspect, drainage, viewsheds, profiles and earthwork calculations without anyone building a photorealistic world. LiDAR and national elevation datasets provided dense measured surfaces, while UAV photogrammetry produced detailed local models. The 3D story develops once those observations enter the information environment and users start asking what they can be combined with.",
+      "markdown": "Terrain was one of the first kinds of 3D information to become routine because GIS already had strong reasons to analyse elevation. A digital elevation model could support slope, aspect, drainage, viewsheds, profiles and earthwork calculations without anyone building a photorealistic world. LiDAR and national elevation datasets provided dense measured surfaces, while UAV photogrammetry produced detailed local models. The 3D story develops once those observations enter the information environment and users start asking what they can be combined with.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A terrain surface becomes more useful when it shares coordinates with roads, parcels, rivers, buildings and infrastructure. The surface may explain where water will flow, how a road cuts across a hillside or whether a proposed structure will be visible from another location. It can also provide the base on which other three-dimensional objects are positioned. These uses give the third dimension a persistent analytical role alongside its visual one.",
+      "markdown": "A terrain surface becomes more useful when it shares coordinates with roads, parcels, rivers, buildings and infrastructure. The surface may explain where water will flow, how a road cuts across a hillside or whether a proposed structure will be visible from another location. It can also provide the base on which other three-dimensional objects are positioned. These uses give the third dimension a persistent analytical role alongside its visual one.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "As elevation data became denser, the form of the data changed as well. Instead of starting with a relatively tidy grid or triangulated surface, practitioners increasingly received millions or billions of measured points. Airborne LiDAR, terrestrial laser scanners and later UAV photogrammetry all contributed to this change. The point cloud became a common intermediate form between measurement and model.",
+      "markdown": "As elevation data became denser, the form of the data changed as well. Instead of starting with a relatively tidy grid or triangulated surface, practitioners increasingly received millions or billions of measured points. Airborne LiDAR, terrestrial laser scanners and later UAV photogrammetry all contributed to this change. The point cloud became a common intermediate form between measurement and model.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2020 Tasman District Council trial by Fox & Associates brought several survey methods together across 30 kilometres of the Waimea and Motueka rivers. The team combined UAV LiDAR, aerial photography, GPS and unmanned-vessel sonar into a three-dimensional point cloud, river-channel terrain models, imagery and conventional cross-sections. The project won the 2021 Spatial Excellence Award for Innovation – Small Business.",
+      "markdown": "A 2020 Tasman District Council trial by Fox & Associates brought several survey methods together across 30 kilometres of the Waimea and Motueka rivers. The team combined UAV LiDAR, aerial photography, GPS and unmanned-vessel sonar into a three-dimensional point cloud, river-channel terrain models, imagery and conventional cross-sections. The project won the 2021 Spatial Excellence Award for Innovation – Small Business.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

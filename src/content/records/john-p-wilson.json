@@ -1,0 +1,42 @@
+{
+  "id": "person:john-p-wilson",
+  "slug": "john-p-wilson",
+  "name": "John P. Wilson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/john-p-wilson/",
+  "story": [
+    "John P. Wilson's academic career has combined geography, spatial science and the development of GIS teaching and research programmes. At Montana State he founded the Geographic Information and Analysis Center in 1989. He subsequently developed the GIS Research Laboratory, graduate programmes and Spatial Sciences Institute at the University of Southern California. His visiting appointments included Canterbury and Waikato, connecting New Zealand teaching with international GIS research.",
+    "A near-contemporary review by John P. Wilson and Pip Forer records the University of Canterbury’s Geography Department entering GIS teaching in 1987 with a graduate course. In 1989 the department acquired workstation ARC/INFO and ERDAS capability. The acquisition put a general vector GIS and a major raster image-processing system into the same teaching and research environment, allowing students to work with geographic databases and remotely sensed imagery rather than treating the two as unrelated specialities."
+  ],
+  "sources": [
+    {
+      "label": "JOHN P. WILSON · career/profile reference",
+      "url": "https://johnwilson.usc.edu/wp-content/uploads/2015/03/wilson_cv_2_15_15.pdf"
+    },
+    {
+      "label": "Chapter 11 · Building a workstation laboratory",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ],
+  "aliases": [
+    "John P. Wilson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "JOHN P. WILSON · career/profile reference",
+        "url": "https://johnwilson.usc.edu/wp-content/uploads/2015/03/wilson_cv_2_15_15.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 11 · Building a workstation laboratory",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ]
+  ]
+}

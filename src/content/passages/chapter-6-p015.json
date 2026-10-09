@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-6-222fc62c3a",
+  "slug": "by-the-end-of-the-1980s-222fc62c3a",
+  "articleId": "article:chapter-6",
+  "title": "By the end of the 1980s",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:6",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 1989 New Zealand had locally developed GIS, commercial GIS installations, national digital spatial datasets, university teaching and specialist consulting. It also had practitioners using the term GIS in refereed papers, government reports and a national conference. The technology remained expensive and concentrated in specialist environments, and much of the national data infrastructure was still being built. The large organisational expansion into councils, utilities and routine desktop work would come mainly in the following decade.",
+      "markdown": "By 1989 New Zealand had locally developed GIS, commercial GIS installations, national digital spatial datasets, university teaching and specialist consulting. It also had practitioners using the term GIS in refereed papers, government reports and a national conference. The technology remained expensive and concentrated in specialist environments, and much of the national data infrastructure was still being built. The large organisational expansion into councils, utilities and routine desktop work would come mainly in the following decade.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS developed through several overlapping programmes. Different components appeared earlier: electronic spatial calculation, automated cartography, raster image processing, vector databases and analytical land-resource systems. The 1980s added a shared professional vocabulary and commercial environment around them.",
+      "markdown": "GIS developed through several overlapping programmes. Different components appeared earlier: electronic spatial calculation, automated cartography, raster image processing, vector databases and analytical land-resource systems. The 1980s added a shared professional vocabulary and commercial environment around them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1989 conference is therefore a useful endpoint rather than an origin. By the time people assembled in Wellington to discuss “getting it all together”, there was already plenty to assemble. The next phase would take GIS from specialist teams and research units into the everyday work of organisations across New Zealand.",
+      "markdown": "The 1989 conference is therefore a useful endpoint rather than an origin. By the time people assembled in Wellington to discuss “getting it all together”, there was already plenty to assemble. The next phase would take GIS from specialist teams and research units into the everyday work of organisations across New Zealand.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0984",
+  "a": "person:gavin-knight",
+  "b": "entity:new-zealand-police",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

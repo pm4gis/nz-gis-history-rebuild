@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0406",
+  "a": "person:lauren-mcartney",
+  "b": "chapter:40",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

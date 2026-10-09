@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2342",
+  "a": "person:nikora-warren-heitia",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

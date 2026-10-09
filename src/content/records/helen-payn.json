@@ -1,0 +1,54 @@
+{
+  "id": "person:helen-payn",
+  "slug": "helen-payn",
+  "name": "Helen Payn",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/helen-payn/",
+  "story": [
+    "Helen Payn appears in LINZ’s 2018 Geospatial for Schools programme as a GIS Intern and in the 2018 New Zealand Esri User Conference presenting a LINZ spatial tool. MPI later listed her as an Emerging Leader finalist in the New Zealand Biosecurity Awards.",
+    "LINZ names Helen Payn in its geospatial virtual field-trip record: GIS Intern, LINZ, 2018 VFT."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "MPI, New Zealand Biosecurity Awards",
+      "url": "https://www.mpi.govt.nz/about-mpi/our-work-at-mpi/mpi-scholarships-and-awards/new-zealand-biosecurity-awards"
+    }
+  ],
+  "aliases": [
+    "Helen Payn"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      },
+      {
+        "label": "New Zealand Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      },
+      {
+        "label": "MPI, New Zealand Biosecurity Awards",
+        "url": "https://www.mpi.govt.nz/about-mpi/our-work-at-mpi/mpi-scholarships-and-awards/new-zealand-biosecurity-awards"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

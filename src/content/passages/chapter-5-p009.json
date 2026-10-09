@@ -1,0 +1,48 @@
+{
+  "id": "passage:chapter-5-5a3f0674fb",
+  "slug": "custom-gis-development-5a3f0674fb",
+  "articleId": "article:chapter-5",
+  "title": "Custom GIS development",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5",
+    "entity:department-of-conservation",
+    "entity:ministry-of-works-and-development",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Water and Soil Division had a large national dataset and analytical requirements before suitable commercial GIS packages were common in New Zealand. Staff wrote LADEDA around that work, developing retrieval, vector processing and plotting for NZLRI data.",
+      "markdown": "The Water and Soil Division had a large national dataset and analytical requirements before suitable commercial GIS packages were common in New Zealand. Staff wrote LADEDA around that work, developing retrieval, vector processing and plotting for NZLRI data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The approach had advantages. The system could be shaped around established inventory codes, national-grid coordinates and the outputs required by the land-resource programme. It did not need to support every data model or every type of user. Staff who understood both the inventory and the computing environment could adjust the software as requirements changed and later generalise it to other geographic data.",
+      "markdown": "The approach had advantages. The system could be shaped around established inventory codes, national-grid coordinates and the outputs required by the land-resource programme. It did not need to support every data model or every type of user. Staff who understood both the inventory and the computing environment could adjust the software as requirements changed and later generalise it to other geographic data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same arrangement carried a maintenance burden. Locally written software required local knowledge to keep it running, modify routines and support users. Hardware changes, operating environments and new requirements could all create work for the team maintaining the code. By the later 1980s commercial GIS products were offering functions that previously had to be developed internally, while also creating their own licence, hardware and training costs.",
+      "markdown": "The same arrangement carried a maintenance burden. Locally written software required local knowledge to keep it running, modify routines and support users. Hardware changes, operating environments and new requirements could all create work for the team maintaining the code. By the later 1980s commercial GIS products were offering functions that previously had to be developed internally, while also creating their own licence, hardware and training costs.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1985 van Berkel and Williams paper captures LADEDA before that transition was complete. Its title uses the term geographic information system without qualification and describes software developed by the Ministry of Works and Development for NZLRI processing and later generalised to other geographic data. By then the system had moved beyond an experimental digitising project. It had a national database, user documentation, plotting procedures and a published technical identity.",
+      "markdown": "The 1985 van Berkel and Williams paper captures LADEDA before that transition was complete. Its title uses the term geographic information system without qualification and describes software developed by the Ministry of Works and Development for NZLRI processing and later generalised to other geographic data. By then the system had moved beyond an experimental digitising project. It had a national database, user documentation, plotting procedures and a published technical identity.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1990 Department of Conservation account provides the later institutional view. It describes NZLRI as a large mapped dataset placed in a GIS because manual analysis was difficult, identifies LADEDA as the first software used, and records that staff developed it themselves. The report then notes the change to commercial GIS software in 1988. The 1982 handbook, 1985 paper and 1990 account describe successive stages of the system’s development and use.",
+      "markdown": "The 1990 Department of Conservation account provides the later institutional view. It describes NZLRI as a large mapped dataset placed in a GIS because manual analysis was difficult, identifies LADEDA as the first software used, and records that staff developed it themselves. The report then notes the change to commercial GIS software in 1988. The 1982 handbook, 1985 paper and 1990 account describe successive stages of the system’s development and use.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

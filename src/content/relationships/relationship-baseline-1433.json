@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1433",
+  "a": "entity:trade-me",
+  "b": "chapter:42",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-42-617f32c44a"
+  ],
+  "sources": []
+}

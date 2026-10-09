@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-9-e3288ddbcd",
+  "slug": "a-map-that-can-be-queried-again-e3288ddbcd",
+  "articleId": "article:chapter-9",
+  "title": "A map that can be queried again",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9",
+    "person:mark-rattenbury",
+    "person:simon-cox"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2000s QMAP data were being used as inputs to analyses that went beyond geological map publication. Simon Cox and Mark Rattenbury documented one example in 2006 using the QMAP dataset for gold-prospectivity modelling. Their work used GIS and weights-of-evidence methods to combine geological information with other indicators associated with mineralisation. The national geological dataset was therefore being treated as an analytical layer rather than only as a collection of finished sheets.",
+      "markdown": "By the 2000s QMAP data were being used as inputs to analyses that went beyond geological map publication. Simon Cox and Mark Rattenbury documented one example in 2006 using the QMAP dataset for gold-prospectivity modelling. Their work used GIS and weights-of-evidence methods to combine geological information with other indicators associated with mineralisation. The national geological dataset was therefore being treated as an analytical layer rather than only as a collection of finished sheets.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That reuse depended on the data being structured consistently enough to query. If geological units were stored only as coloured artwork, an analyst would first have to reconstruct their extent and meaning. In a GIS dataset the geometry and attributes could be selected programmatically or through spatial queries. The same interpreted geology could support a regional map, a national comparison and a mineral-prospectivity model without being digitised again for each job.",
+      "markdown": "That reuse depended on the data being structured consistently enough to query. If geological units were stored only as coloured artwork, an analyst would first have to reconstruct their extent and meaning. In a GIS dataset the geometry and attributes could be selected programmatically or through spatial queries. The same interpreted geology could support a regional map, a national comparison and a mineral-prospectivity model without being digitised again for each job.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The gain also came with constraints. A prospectivity model could identify areas whose mapped characteristics matched a set of criteria, but it did not create new field evidence by itself. The result inherited the strengths and weaknesses of the geology and other input layers. Sparse observations, old mapping or inconsistent classifications could still affect the output even when the model produced a precise-looking surface or ranking.",
+      "markdown": "The gain also came with constraints. A prospectivity model could identify areas whose mapped characteristics matched a set of criteria, but it did not create new field evidence by itself. The result inherited the strengths and weaknesses of the geology and other input layers. Sparse observations, old mapping or inconsistent classifications could still affect the output even when the model produced a precise-looking surface or ranking.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same principle applied across scientific GIS. Digital reuse lowered the effort needed to combine datasets, so source quality and compatibility became more visible parts of research design. A scientist could spend less time redrawing boundaries and more time testing relationships, but only if the data had been documented well enough to understand what each layer represented.",
+      "markdown": "The same principle applied across scientific GIS. Digital reuse lowered the effort needed to combine datasets, so source quality and compatibility became more visible parts of research design. A scientist could spend less time redrawing boundaries and more time testing relationships, but only if the data had been documented well enough to understand what each layer represented.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "person:david-hawke",
+  "slug": "david-hawke",
+  "name": "David Hawke",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-hawke/",
+  "story": [
+    "GBS’s 2022 history recalls Dr David Hawke as a technical leader at GTU and a mentor to Harley Prowse and Tony Elson in the consultancy’s earlier years. The retrospective emphasises his programming range and ability to solve difficult implementation problems. The account of his contribution comes from a company participant.",
+    "David V. Hawke described the Auckland course in a later account. His 1992 paper on gistt, a geographic information systems teaching tool, records senior undergraduate GIS teaching from 1985. The official University of Auckland Calendar for 1986 makes the subject visible in the curriculum as Geography 20.314, “Geographic Information Systems and Image Processing”. Its description included GIS principles and the computer analysis and presentation of cartographic and remotely sensed data."
+  ],
+  "sources": [
+    {
+      "label": "GBS, 20 years of GBS: a short history, 28 September 2022",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    },
+    {
+      "label": "Chapter 11 · Teaching a moving target",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ],
+  "aliases": [
+    "David Hawke",
+    "David V. Hawke"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "GBS, 20 years of GBS: a short history, 28 September 2022",
+        "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 11 · Teaching a moving target",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ]
+  ]
+}

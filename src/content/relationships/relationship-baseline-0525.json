@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0525",
+  "a": "person:lars-brabyn",
+  "b": "chapter:27",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-27-73a6354dbb"
+  ],
+  "sources": []
+}

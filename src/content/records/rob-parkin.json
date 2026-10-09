@@ -1,0 +1,37 @@
+{
+  "id": "person:rob-parkin",
+  "slug": "rob-parkin",
+  "name": "Rob Parkin",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rob-parkin/",
+  "story": [
+    "A caption in Landlink, Issue 8 (May 1999), names Rob Parkin as a member of the back row in a team photograph accompanying “LINZ first in mapping”. The article says the pictured team received plaques for contributions to establishing the New Zealand Topographic Digital Database and dates the four-year project to 1995 with LINZ’s predecessor DOSLI."
+  ],
+  "sources": [
+    {
+      "label": "Landlink, Issue 8 (May 1999), page 1, “LINZ first in mapping” (scan provided by Nathan Heazlewood)",
+      "url": "/assets/images/landlink-1999-topographic-database.jpg"
+    }
+  ],
+  "aliases": [
+    "Rob Parkin"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Landlink, Issue 8 (May 1999), page 1, “LINZ first in mapping” (scan provided by Nathan Heazlewood)",
+        "url": "/assets/images/landlink-1999-topographic-database.jpg"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "DOSLI history and photo gallery",
+      "url": "/entities/department-of-survey-and-land-information-dosli/"
+    }
+  ]
+}

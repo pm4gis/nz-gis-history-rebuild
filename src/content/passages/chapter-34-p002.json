@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-34-e0abd14e18",
+  "slug": "forty-ipaqs-and-six-toughbooks-e0abd14e18",
+  "articleId": "article:chapter-34",
+  "title": "Forty iPAQs and six Toughbooks",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In April 2002 Vector described a mobile GIS system that makes the early workflow unusually concrete. Development had begun the previous August. The electricity network company was introducing 40 Compaq iPAQ handheld computers and six Panasonic Toughbook notebooks for field crews. The Toughbooks ran the same Smallworld GIS used in the office, while the smaller iPAQs ran Esri ArcPad with additional software developed to translate data between ArcPad and Smallworld. Each iPAQ also carried a Navman GPS unit so the worker could establish an approximate position in the field.",
+      "markdown": "In April 2002 Vector described a mobile GIS system that makes the early workflow unusually concrete. Development had begun the previous August. The electricity network company was introducing 40 Compaq iPAQ handheld computers and six Panasonic Toughbook notebooks for field crews. The Toughbooks ran the same Smallworld GIS used in the office, while the smaller iPAQs ran Esri ArcPad with additional software developed to translate data between ArcPad and Smallworld. Each iPAQ also carried a Navman GPS unit so the worker could establish an approximate position in the field.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Staff worked offline between synchronisations. Data moved back to the corporate environment when the handheld was placed in a cradle at the office. Vector had considered wireless access but concluded that the available bandwidth was not adequate for the volume of graphical map data that would have to be sent. Crews could take a controlled part of the corporate GIS outside, use it where the assets were, capture faults or inspection information, and return the result without retyping paper records.",
+      "markdown": "Staff worked offline between synchronisations. Data moved back to the corporate environment when the handheld was placed in a cradle at the office. Vector had considered wireless access but concluded that the available bandwidth was not adequate for the volume of graphical map data that would have to be sent. Crews could take a controlled part of the corporate GIS outside, use it where the assets were, capture faults or inspection information, and return the result without retyping paper records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vector expected the NZ$200,000 project to save about NZ$500,000 a year, mainly by reducing duplicate entry and unnecessary trips back to the office. That figure was an expectation reported at deployment rather than an audited later saving. The workflow logic is clear. A technician looking at a cable, transformer or pole could work against the organisation’s own mapped asset record rather than a detached field sheet. The mapped feature and the field observation were becoming part of the same process. That sounds ordinary now because field applications routinely work this way. In 2002 it was a material reorganisation of how the GIS met the physical network.",
+      "markdown": "Vector expected the NZ$200,000 project to save about NZ$500,000 a year, mainly by reducing duplicate entry and unnecessary trips back to the office. That figure was an expectation reported at deployment rather than an audited later saving. The workflow logic is clear. A technician looking at a cable, transformer or pole could work against the organisation’s own mapped asset record rather than a detached field sheet. The mapped feature and the field observation were becoming part of the same process. That sounds ordinary now because field applications routinely work this way. In 2002 it was a material reorganisation of how the GIS met the physical network.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A later 2003 account showed the system moving again. HP iPAQs were being used with ArcPad, Bluetooth and GPRS, and field staff could reach the corporate asset register more directly. The shift from cradle synchronisation towards connected field work happened quickly, but it did not abolish the earlier design problem. Mobile systems still needed to decide what data travelled, what could be edited, how identifiers were preserved and what happened if the network was unavailable. Connection changed the transfer mechanism. It did not remove the need for information management.",
+      "markdown": "A later 2003 account showed the system moving again. HP iPAQs were being used with ArcPad, Bluetooth and GPRS, and field staff could reach the corporate asset register more directly. The shift from cradle synchronisation towards connected field work happened quickly, but it did not abolish the earlier design problem. Mobile systems still needed to decide what data travelled, what could be edited, how identifiers were preserved and what happened if the network was unavailable. Connection changed the transfer mechanism. It did not remove the need for information management.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

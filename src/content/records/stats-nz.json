@@ -1,0 +1,70 @@
+{
+  "id": "entity:stats-nz",
+  "slug": "stats-nz",
+  "name": "Stats NZ",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/stats-nz/",
+  "website": null,
+  "story": [
+    "Stats NZ maintained census boundaries and meshblocks and linked them with population information. Its products developed from prepared maps and packaged data into online access and services. Comparing statistics over time required staff to maintain boundary definitions and document changes.",
+    "The 2008 digital-boundary metadata separates the organisations’ responsibilities: Statistics New Zealand defined the statistical boundaries, and LINZ maintained the digital boundaries on its behalf. The original meshblock pattern had been digitised in 1991 from urban maps at 1:5,000 and rural maps at 1:50,000. By 2008 users could obtain ESRI shapefile and MapInfo formats, with annual boundary patterns and concordance files to relate earlier patterns to later ones.",
+    "Digital Boundary data became freely available on 1 July 2007, according to that metadata. The release concerned the boundary datasets, with attribution and supply conditions. It did not mean that every statistical product, every licence or every form of census access changed on the same day.",
+    "For the 2018 Census, Statistical Area 1 replaced the meshblock dataset as the standard detailed output, and Statistical Area 2 replaced area units. Meshblocks remained the underlying building blocks. Stats NZ’s March 2020 release supplied SA1 data in spreadsheets and CSV files that could be joined to geographic boundary files for mapping. Comparing censuses consequently required attention to both the statistical data and the definitions and vintages of the areas used to publish them.",
+    "On 4 December 2013 Statistics New Zealand launched StatsMaps with a major release of 2013 Census results. The web mapping application displayed population and dwelling information geographically and let users compare regions and change directly, continuing the shift from specialist boundary products towards public statistical mapping."
+  ],
+  "sources": [
+    {
+      "label": "Stats NZ/Critchlow historic census-mapping and MapInfo product material"
+    },
+    {
+      "label": "Koordinates, Open data and the Stats NZ Datarama",
+      "url": "https://koordinates.com/news/open-data-and-the-stats-nz-datarama"
+    },
+    {
+      "label": "Statistics New Zealand, Metadata for New Zealand Digital Boundaries Dataset, 2008, pp.1–5",
+      "url": "https://www3.stats.govt.nz/digitalboundaries/census/NZ%20Digital%20Boundaries%20Metadata_2008.pdf"
+    },
+    {
+      "label": "Stats NZ, Statistical area 1 dataset for 2018 Census, updated March 2020",
+      "url": "https://www.stats.govt.nz/information-releases/statistical-area-1-dataset-for-2018-census-updated-march-2020/"
+    },
+    {
+      "label": "Beehive, Release of census information welcomed, 4 December 2013",
+      "url": "https://www.beehive.govt.nz/release/release-census-information-welcomed"
+    }
+  ],
+  "aliases": [
+    "Stats NZ",
+    "Statistics New Zealand"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [
+    [
+      {
+        "label": "Koordinates, Open data and the Stats NZ Datarama",
+        "url": "https://koordinates.com/news/open-data-and-the-stats-nz-datarama"
+      }
+    ],
+    [
+      {
+        "label": "Statistics New Zealand, Metadata for New Zealand Digital Boundaries Dataset, 2008, pp.1–5",
+        "url": "https://www3.stats.govt.nz/digitalboundaries/census/NZ%20Digital%20Boundaries%20Metadata_2008.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Statistics New Zealand, Metadata for New Zealand Digital Boundaries Dataset, 2008, pp.1–5",
+        "url": "https://www3.stats.govt.nz/digitalboundaries/census/NZ%20Digital%20Boundaries%20Metadata_2008.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Stats NZ, Statistical area 1 dataset for 2018 Census, updated March 2020",
+        "url": "https://www.stats.govt.nz/information-releases/statistical-area-1-dataset-for-2018-census-updated-march-2020/"
+      }
+    ]
+  ],
+  "biographyParagraphSources": []
+}

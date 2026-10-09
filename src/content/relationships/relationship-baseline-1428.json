@@ -1,0 +1,13 @@
+{
+  "id": "relationship:baseline-1428",
+  "a": "entity:terralink",
+  "b": "chapter:13",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-13-41ad15f707",
+    "passage:chapter-13-52e69de113",
+    "passage:chapter-13-1bfde7f4ed"
+  ],
+  "sources": []
+}

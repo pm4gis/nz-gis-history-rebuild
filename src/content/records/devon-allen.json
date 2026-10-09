@@ -1,0 +1,48 @@
+{
+  "id": "person:devon-allen",
+  "slug": "devon-allen",
+  "name": "Devon Allen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/devon-allen/",
+  "story": [
+    "Women in Spatial + Survey’s committee biography describes Devon Allen’s surveying degree, cadastral and engineering survey work, and resource-consent practice at Cheal in Taupō. It also records her interest in encouraging young surveyors and her participation in early-career professional networks. The biography is undated, so its employment and committee details are treated as a snapshot.",
+    "Committee biographies connect the network to different career stages: Amy Tay’s transport and infrastructure consulting, FME and 3D modelling; Georgia Goodsell’s spatial-intelligence work and support for new entrants; Devon Allen’s cadastral and engineering surveying; and student representative Malindi Reihana-Ruka’s interest in working with her community and encouraging other women into the field. The biographies are not date-stamped, so they do not establish current employment or study status. A 2024 recap records lightning talks on tactile mapping, surveying, GIS in schools and data collection."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial + Survey, “The Committee”",
+      "url": "https://womeninspatial.wordpress.com/the-committee/"
+    },
+    {
+      "label": "Devon Allen - Orogen Ltd | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/devon-allen-"
+    },
+    {
+      "label": "Chapter 29 · New professional networks",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Devon Allen"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Women in Spatial + Survey, “The Committee”",
+        "url": "https://womeninspatial.wordpress.com/the-committee/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · New professional networks",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

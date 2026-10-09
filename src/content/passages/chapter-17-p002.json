@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-17-a972171969",
+  "slug": "roads-and-addresses-a972171969",
+  "articleId": "article:chapter-17",
+  "title": "Roads and addresses",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A road centreline is a spatial representation of a transport route. It can carry a road name, road class, direction and other attributes, and it can support navigation or network analysis. An address identifies a location associated with that road, normally through a number and name and often a suburb, locality or town. A parcel is a cadastral unit. A property used by a council or valuer can combine or divide cadastral parcels according to administrative requirements. A building or unit can introduce still another relationship. One parcel can contain several addresses, one address can serve several units, and a property used for rating does not have to reproduce a legal survey boundary exactly.",
+      "markdown": "A road centreline is a spatial representation of a transport route. It can carry a road name, road class, direction and other attributes, and it can support navigation or network analysis. An address identifies a location associated with that road, normally through a number and name and often a suburb, locality or town. A parcel is a cadastral unit. A property used by a council or valuer can combine or divide cadastral parcels according to administrative requirements. A building or unit can introduce still another relationship. One parcel can contain several addresses, one address can serve several units, and a property used for rating does not have to reproduce a legal survey boundary exactly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital land information separated address records from parcel geometry. The Digital Cadastral Data Base described in Chapter 13 was principally a parcel framework. Historical LINZ documentation describes street-address data being updated from territorial-authority advice, with road names managed through the Authoritative Streets and Places database. The parcel and address systems served related purposes while maintaining different records.",
+      "markdown": "Digital land information separated address records from parcel geometry. The Digital Cadastral Data Base described in Chapter 13 was principally a parcel framework. Historical LINZ documentation describes street-address data being updated from territorial-authority advice, with road names managed through the Authoritative Streets and Places database. The parcel and address systems served related purposes while maintaining different records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For GIS users in the 1990s, these distinctions often appeared as a data-integration problem. A council might have a property or rating identifier, a parcel layer, a street number and a road name in different tables. A health service or business might hold a customer address but no coordinate. A national dataset might provide a road centreline without the local property information needed to decide which driveway or building was intended. Much of the practical work lay in creating relationships among these records and keeping them current when roads were renamed, subdivisions created new addresses or parcels changed.",
+      "markdown": "For GIS users in the 1990s, these distinctions often appeared as a data-integration problem. A council might have a property or rating identifier, a parcel layer, a street number and a road name in different tables. A health service or business might hold a customer address but no coordinate. A national dataset might provide a road centreline without the local property information needed to decide which driveway or building was intended. Much of the practical work lay in creating relationships among these records and keeping them current when roads were renamed, subdivisions created new addresses or parcels changed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

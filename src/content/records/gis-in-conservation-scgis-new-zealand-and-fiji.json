@@ -1,0 +1,31 @@
+{
+  "id": "entity:gis-in-conservation-scgis-new-zealand-and-fiji",
+  "slug": "gis-in-conservation-scgis-new-zealand-and-fiji",
+  "name": "GIS in Conservation / SCGIS New Zealand and Fiji",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/gis-in-conservation-scgis-new-zealand-and-fiji/",
+  "website": null,
+  "story": [
+    "GIS in Conservation was established in 2012, followed by the SCGIS New Zealand and Fiji chapter in 2013. Volunteer practitioners helped conservation groups with data, methods and mapping. The community extended technical support to projects whose staff, time and software access could be very different from those of a national agency.",
+    "LINZ describes the organisation as a not-for-profit supporting volunteer conservation groups and iwi with GIS. The New Zealand and Fiji chapter connects local conservation practitioners with the wider Society for Conservation GIS community while keeping its focus on the practical needs of community projects."
+  ],
+  "sources": [
+    {
+      "label": "Society for Conservation GIS New Zealand and Fiji / LINZ groups directory",
+      "url": "https://www.scgis.org/new-zealand-and-fiji"
+    },
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "GIS in Conservation",
+    "SCGIS New Zealand and Fiji"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

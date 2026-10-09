@@ -1,0 +1,52 @@
+{
+  "id": "person:john-mccombs",
+  "slug": "john-mccombs",
+  "name": "John McCombs",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/john-mccombs/",
+  "story": [
+    "John McCombs of Christchurch’s Integrated Mapping maintained NZ-GIS and a MapInfo FAQ. Bill Thoen’s later account identifies McCombs as his partner in establishing MapInfo-L in 1994 and as the person distributing its early monthly logs. NIWA’s 2022 DAS database presentation also names Integrated Mapping and McCombs in the early-to-mid-2000s development of DASmap using MapServer and Python MapScript.",
+    "Bill Thoen later recorded establishing the international MapInfo-L mailing list with Christchurch MapInfo reseller John McCombs in 1994, and near-contemporary sources independently identify McCombs's MapInfo FAQ and New Zealand GIS mailing-list support. MapInfo expanded access to desktop mapping and analysis. A practitioner facing a projection, conversion or software problem could seek help between conferences and across national boundaries."
+  ],
+  "sources": [
+    {
+      "label": "Bill Thoen, MapInfo-L forum archive recollection on the origins of MapInfo-L",
+      "url": "https://groups.google.com/g/mapinfo-l/c/l2OWByBpMVs"
+    },
+    {
+      "label": "NIWA DAS database upgrade presentation, Integrated Mapping / John McCombs development note",
+      "url": "https://pgrsc.org/wp-content/uploads/2023/07/1-4-2-Brent-Wood-DASdb_OSGEO_2022.pdf"
+    },
+    {
+      "label": "Chapter 29 · User groups become infrastructure",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "John McCombs"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Bill Thoen, MapInfo-L forum archive recollection on the origins of MapInfo-L",
+        "url": "https://groups.google.com/g/mapinfo-l/c/l2OWByBpMVs"
+      },
+      {
+        "label": "NIWA DAS database upgrade presentation, Integrated Mapping / John McCombs development note",
+        "url": "https://pgrsc.org/wp-content/uploads/2023/07/1-4-2-Brent-Wood-DASdb_OSGEO_2022.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · User groups become infrastructure",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

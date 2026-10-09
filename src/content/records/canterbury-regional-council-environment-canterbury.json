@@ -1,0 +1,40 @@
+{
+  "id": "entity:canterbury-regional-council-environment-canterbury",
+  "slug": "canterbury-regional-council-environment-canterbury",
+  "name": "Canterbury Regional Council / Environment Canterbury",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/canterbury-regional-council-environment-canterbury/",
+  "website": "https://www.ecan.govt.nz",
+  "story": [
+    "Environment Canterbury used GIS for regional environmental and transport work. Its datasets included wetlands, bus stops and resource information. Wetland dataset metadata describes work from the 1980s through the 2000s; correspondence in 2003 describes bus-stop and resource datasets.",
+    "Terralink’s 4 March 2004 announcement names Environment Canterbury as a participant in the shared South Island orthophoto acquisition. The stated uses included regional GIS, consent, land-use, civil defence and asset-management work."
+  ],
+  "sources": [
+    {
+      "label": "Jeffrey J. Myles, The application of geographical information systems in the planning and design of sustainable neighbourhood development, Lincoln University master's dissertation",
+      "url": "https://hdl.handle.net/10182/4425"
+    },
+    {
+      "label": "ALGIM Conference 2016 speaker biography, Ryan Elly",
+      "url": "https://na.eventscloud.com/ehome/algimconf16/475194/"
+    },
+    {
+      "label": "Environment Canterbury, Public/Wetlands GIS service metadata",
+      "url": "https://gis.ecan.govt.nz/arcgis/rest/services/Public/Wetlands/MapServer"
+    },
+    {
+      "label": "Terralink International, ‘Terralink starts biggest ever aerial photography task’, 4 March 2004",
+      "url": "https://www.scoop.co.nz/stories/SC0403/S00018.htm"
+    }
+  ],
+  "aliases": [
+    "Canterbury Regional Council",
+    "Environment Canterbury"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

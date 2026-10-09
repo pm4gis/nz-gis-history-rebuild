@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-18-97d1feb386",
+  "slug": "accuracy-had-a-price-97d1feb386",
+  "articleId": "article:chapter-18",
+  "title": "Accuracy had a price",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18",
+    "person:ian-yule"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 1990s GPS could therefore mean several very different things. A geodetic survey might use dual-frequency survey receivers and carrier-phase processing to measure baselines at centimetre or better precision. A mapping project might be satisfied with sub-metre differential positions. A navigation receiver could place a user within tens of metres. All three could be described casually as GPS, which made the acronym rather more precise than the conversation around it.",
+      "markdown": "By the 1990s GPS could therefore mean several very different things. A geodetic survey might use dual-frequency survey receivers and carrier-phase processing to measure baselines at centimetre or better precision. A mapping project might be satisfied with sub-metre differential positions. A navigation receiver could place a user within tens of metres. All three could be described casually as GPS, which made the acronym rather more precise than the conversation around it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Correction methods differed in coverage, equipment requirements and cost. Ian Yule’s 1999 paper on precision farming in New Zealand described sub-metre differential receivers as capable of meeting the needs of precision agriculture, but the correction signal was a significant part of the cost. A user could establish a local base station, use a commercial UHF correction service where coverage existed, or buy corrections delivered through satellite services. Yule described Satlink coverage in Canterbury at NZ$3,600 a year and satellite-delivered correction services through Omnistar and Racal at about NZ$4,000 a year. His worked example allowed NZ$8,000 for the DGPS receiver itself.",
+      "markdown": "Correction methods differed in coverage, equipment requirements and cost. Ian Yule’s 1999 paper on precision farming in New Zealand described sub-metre differential receivers as capable of meeting the needs of precision agriculture, but the correction signal was a significant part of the cost. A user could establish a local base station, use a commercial UHF correction service where coverage existed, or buy corrections delivered through satellite services. Yule described Satlink coverage in Canterbury at NZ$3,600 a year and satellite-delivered correction services through Omnistar and Racal at about NZ$4,000 a year. His worked example allowed NZ$8,000 for the DGPS receiver itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Those figures place the technology in its late-1990s setting. Higher accuracy required suitable equipment and survey methods. It could mean a second receiver, a radio link, a correction subscription, suitable coverage and software able to make use of the results. The same paper linked DGPS to yield mapping, GIS, variable-rate application and machinery guidance. Position allowed observations and actions to be attached to the relevant part of the paddock. The coordinate was becoming part of an agricultural information system rather than an end in itself.",
+      "markdown": "Those figures place the technology in its late-1990s setting. Higher accuracy required suitable equipment and survey methods. It could mean a second receiver, a radio link, a correction subscription, suitable coverage and software able to make use of the results. The same paper linked DGPS to yield mapping, GIS, variable-rate application and machinery guidance. Position allowed observations and actions to be attached to the relevant part of the paddock. The coordinate was becoming part of an agricultural information system rather than an end in itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Yule also described the practical consequences of guidance. In trials with a fertiliser spreader, ordinary judgement left substantial variation in the vehicle’s path, while DGPS guidance markedly improved the proportion of measured positions close to the intended track. The exact tolerances required by farming differed from cadastral or geodetic surveying, but that was the point. Once receivers could deliver the accuracy needed for a particular job at a tolerable cost, GPS could leave the specialist survey network and become part of operational work.",
+      "markdown": "Yule also described the practical consequences of guidance. In trials with a fertiliser spreader, ordinary judgement left substantial variation in the vehicle’s path, while DGPS guidance markedly improved the proportion of measured positions close to the intended track. The exact tolerances required by farming differed from cadastral or geodetic surveying, but that was the point. Once receivers could deliver the accuracy needed for a particular job at a tolerable cost, GPS could leave the specialist survey network and become part of operational work.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

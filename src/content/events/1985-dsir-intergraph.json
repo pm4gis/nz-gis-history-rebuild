@@ -1,0 +1,26 @@
+{
+  "id": "1985-dsir-intergraph",
+  "dateDisplay": "1985",
+  "startDate": "1985",
+  "datePrecision": "year",
+  "year": 1985,
+  "label": "DSIR Science Mapping Unit begins Intergraph GIS use",
+  "summary": "The Science Mapping Unit was using a commercial Intergraph GIS by late 1985, although the exact system configuration remains unresolved.",
+  "url": "/stories/when-gis-became-gis/#commercial-workstations-b5f009e26c",
+  "passageIds": [
+    "passage:chapter-6-b5f009e26c"
+  ],
+  "recordIds": [
+    "entity:dsir-science-mapping-unit",
+    "chapter:6",
+    "entity:university-of-canterbury"
+  ],
+  "themeIds": [
+    "technology-stack"
+  ],
+  "categories": [
+    "science",
+    "software"
+  ],
+  "sources": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "person:subodh-gidh",
+  "slug": "subodh-gidh",
+  "name": "Subodh Gidh",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/subodh-gidh/",
+  "story": [
+    "Subodh Gidh was a GIS specialist in Hamilton City Council’s Information Services team during the September 2008 user-conference debate. He supported a broader programme that exposed staff to other GIS providers, explaining that organisations used multiple applications while employees often had approval to attend only one conference.",
+    "Subodh Gidh, GIS Specialist at Hamilton City Council, argued for a more open format because some organisations already used more than one GIS application and staff often struggled to get approval for even one conference."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG GISList discussion, The future of the NZ ESRI User Group Conference, including council and Hawke's Bay regional responses"
+    },
+    {
+      "label": "Subodh Gidh - Transport for NSW | LinkedIn · public profile",
+      "url": "https://au.linkedin.com/in/subodh-gidh-a165b041"
+    },
+    {
+      "label": "Chapter 12 · Companies and user groups",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Subodh Gidh"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Companies and user groups",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

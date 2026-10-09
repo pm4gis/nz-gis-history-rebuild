@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-40-2ad50c26cf",
+  "slug": "nzta-moves-to-kubernetes-2ad50c26cf",
+  "articleId": "article:chapter-40",
+  "title": "NZTA moves to Kubernetes",
+  "order": 17,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:nz-transport-agency-waka-kotahi",
+    "person:jithen-singh",
+    "person:peter-willoughby"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "From 2021 NZ Transport Agency Waka Kotahi worked with Eagle on a proof of concept and implementation of ArcGIS Enterprise on Kubernetes. The architecture used a hub-and-spoke spatial-as-a-service model intended to provide governed shared services while allowing business areas to build applications around authoritative transport information.",
+      "markdown": "From 2021 NZ Transport Agency Waka Kotahi worked with Eagle on a proof of concept and implementation of ArcGIS Enterprise on Kubernetes. The architecture used a hub-and-spoke spatial-as-a-service model intended to provide governed shared services while allowing business areas to build applications around authoritative transport information.",
+      "sources": [
+        {
+          "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+          "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Peter Willoughby represented the platform side of the programme and Jithen Singh the Eagle public-sector role. The documented environment includes authoritative transport data, integrations, dashboards and field workflows, with the Kubernetes platform providing a cloud-native route to scaling and resilience.",
+      "markdown": "Peter Willoughby represented the platform side of the programme and Jithen Singh the Eagle public-sector role. The documented environment includes authoritative transport data, integrations, dashboards and field workflows, with the Kubernetes platform providing a cloud-native route to scaling and resilience.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cyclone Gabrielle in February 2023 provided an operational test. The case study records use of the platform for field survey and situational awareness. Detailed claims about benefits or performance are attributed to the NZTA/Esri customer case rather than treated as independent measurements.",
+      "markdown": "Cyclone Gabrielle in February 2023 provided an operational test. The case study records use of the platform for field survey and situational awareness. Detailed claims about benefits or performance are attributed to the NZTA/Esri customer case rather than treated as independent measurements.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Read the NZTA enterprise-platform case study.",
+      "markdown": "Read the NZTA enterprise-platform case study.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

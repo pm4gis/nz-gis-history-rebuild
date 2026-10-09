@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-42-e8cf001506",
+  "slug": "checking-rapid-updates-e8cf001506",
+  "articleId": "article:chapter-42",
+  "title": "Checking rapid updates",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Speed creates its own information problem. During an emergency, reports arrive from field teams, call centres, agencies and the public with different degrees of precision. A road may be reported blocked and reopened before the first status is removed from a dashboard. Two people may report the same landslide under different place names. A building assessment may be provisional while an operational user reads it as definitive because the symbol looks reassuringly official.",
+      "markdown": "Speed creates its own information problem. During an emergency, reports arrive from field teams, call centres, agencies and the public with different degrees of precision. A road may be reported blocked and reopened before the first status is removed from a dashboard. Two people may report the same landslide under different place names. A building assessment may be provisional while an operational user reads it as definitive because the symbol looks reassuringly official.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS can make uncertain information look cleaner than it is. A point has exact coordinates even when the original report was approximate. A coloured polygon can imply a sharp boundary where the real condition is gradual or poorly observed. A timestamp helps, but only if users can see it and understand what was updated. Operational mapping therefore requires triage, status fields, source attribution, update responsibility and enough restraint not to publish every incoming observation as fact.",
+      "markdown": "GIS can make uncertain information look cleaner than it is. A point has exact coordinates even when the original report was approximate. A coloured polygon can imply a sharp boundary where the real condition is gradual or poorly observed. A timestamp helps, but only if users can see it and understand what was updated. Operational mapping therefore requires triage, status fields, source attribution, update responsibility and enough restraint not to publish every incoming observation as fact.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This is one reason common operating pictures are organisational products. Someone has to decide what goes in, whose data is authoritative enough for the purpose, what can be shared and how uncertainty is represented. Rapid dashboard updates depended on the collection, checking and distribution of observations. Real-time mapping is useful only when people can tell the difference between current, stale, confirmed and provisional information.",
+      "markdown": "This is one reason common operating pictures are organisational products. Someone has to decide what goes in, whose data is authoritative enough for the purpose, what can be shared and how uncertainty is represented. Rapid dashboard updates depended on the collection, checking and distribution of observations. Real-time mapping is useful only when people can tell the difference between current, stale, confirmed and provisional information.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

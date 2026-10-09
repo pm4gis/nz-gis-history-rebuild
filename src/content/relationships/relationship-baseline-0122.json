@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0122",
+  "a": "entity:maritime-new-zealand",
+  "b": "chapter:24",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

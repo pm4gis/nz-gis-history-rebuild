@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2021-04-11-nga-poutama-web-map-tutorial-published",
+  "dateDisplay": "2021-04-11",
+  "startDate": "2021-04-11",
+  "datePrecision": "day",
+  "year": 2021,
+  "label": "Ngā Poutama web map tutorial published",
+  "summary": "A practical tutorial showed how to create an online map of Māori Land Blocks with custom places, basemaps and contextual layers.",
+  "url": "/stories/the-map-becomes-an-application/#practical-maori-web-mapping-23fcc809db",
+  "passageIds": [
+    "passage:chapter-35-23fcc809db"
+  ],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ]
+}

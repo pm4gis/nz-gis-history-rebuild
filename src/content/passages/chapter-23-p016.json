@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-23-50c82671fb",
+  "slug": "control-and-responsibility-50c82671fb",
+  "articleId": "article:chapter-23",
+  "title": "Control and responsibility",
+  "order": 15,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Wider use created questions about who could change the data. A planner might need to edit a zoning layer while a customer-services user needed only to view it. Engineers could update asset information through controlled workflows while the public saw a selected subset. Corporate GIS therefore required permissions and update responsibilities that were unnecessary when one specialist operator controlled a standalone system.",
+      "markdown": "Wider use created questions about who could change the data. A planner might need to edit a zoning layer while a customer-services user needed only to view it. Engineers could update asset information through controlled workflows while the public saw a selected subset. Corporate GIS therefore required permissions and update responsibilities that were unnecessary when one specialist operator controlled a standalone system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "It also required decisions about which system owned each attribute. The GIS might be authoritative for the geometry of a council-maintained feature while a rating, consent or asset-management system remained authoritative for business attributes. Integration worked best when those responsibilities were explicit. Otherwise the same value could be maintained in two places and drift apart.",
+      "markdown": "It also required decisions about which system owned each attribute. The GIS might be authoritative for the geometry of a council-maintained feature while a rating, consent or asset-management system remained authoritative for business attributes. Integration worked best when those responsibilities were explicit. Otherwise the same value could be maintained in two places and drift apart.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2000s, councils linked GIS to databases for rates, consents, assets and customer services. GIS staff maintained the geometry and the links between records; other staff used the information through the business systems and viewers they used each day.",
+      "markdown": "By the 2000s, councils linked GIS to databases for rates, consents, assets and customer services. GIS staff maintained the geometry and the links between records; other staff used the information through the business systems and viewers they used each day.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Marr and Benwell’s 1996 study described this move towards corporate GIS, with spatial information serving organisation-wide information and decision processes. A decade later, council property viewers and shared regional data programmes put that approach into practice.",
+      "markdown": "Marr and Benwell’s 1996 study described this move towards corporate GIS, with spatial information serving organisation-wide information and decision processes. A decade later, council property viewers and shared regional data programmes put that approach into practice.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

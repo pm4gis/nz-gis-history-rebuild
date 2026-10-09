@@ -1,0 +1,32 @@
+{
+  "id": "1993-doc-biosite",
+  "dateDisplay": "1993",
+  "startDate": "1993",
+  "datePrecision": "year",
+  "year": 1993,
+  "label": "BIOSITE species retrieval system developed",
+  "summary": "Patterson and Cunningham developed nationally available ARDS record retrieval using Oracle.",
+  "url": "/stories/conservation-and-environment/#species-records-1987-1993-0a1a08e6d9",
+  "passageIds": [
+    "passage:chapter-26-0a1a08e6d9"
+  ],
+  "recordIds": [
+    "person:geoff-patterson",
+    "person:duncan-cunningham",
+    "entity:department-of-conservation",
+    "chapter:26",
+    "person:ross-pickard",
+    "person:dave-towns"
+  ],
+  "themeIds": [],
+  "categories": [
+    "GIS",
+    "research"
+  ],
+  "sources": [
+    {
+      "label": "DOC, Amphibian and Reptile Distribution Scheme: database development chronology",
+      "url": "https://www.doc.govt.nz/our-work/reptiles-and-frogs-distribution/atlas/species-sightings-and-data-management/what-is-the-ard-scheme/"
+    }
+  ]
+}

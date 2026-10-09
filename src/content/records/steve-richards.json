@@ -1,0 +1,55 @@
+{
+  "id": "person:steve-richards",
+  "slug": "steve-richards",
+  "name": "Steve Richards",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/steve-richards/",
+  "story": [
+    "Steve Richards is a GIS professional whose work has included timberland and agriculture at Manulife Investment Management in Taupō. His professional profile emphasises using GIS to help organisations make practical use of their information. His NZEUG committee service places that industry experience within the user community's volunteer networks.",
+    "NZEUG’s December 2008 newsletter records that Steve Richards had stood down from the committee at that year’s AGM.",
+    "In 2008 Steve Richards of Poseidon Consulting had posted “A handy wee thing”, a small Python program written because sending a whole batch of MapBook PDFs to an OKI C8600 consumed too much memory. His solution was gloriously practical: send the PDFs one at a time with a 30-second pause. These exchanges say more about the value of the list than the generic word network. It was where practitioners asked awkward everyday questions and quite often got several usable answers before the manual had finished loading."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG, December 2008 newsletter",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Steve Richards - Manulife Investment Management, Timberland and Agriculture | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/sgrichards"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Steve Richards"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Steve Richards - Manulife Investment Management, Timberland and Agriculture | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/sgrichards"
+      }
+    ],
+    [
+      {
+        "label": "NZEUG, December 2008 newsletter",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

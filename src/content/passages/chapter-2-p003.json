@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-2-0b893079e1",
+  "slug": "cards-and-coordinate-lists-0b893079e1",
+  "articleId": "article:chapter-2",
+  "title": "Cards and coordinate lists",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:2"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Punched cards made that preparation visible. Each card stored a limited set of characters or numbers through holes in fixed positions. A stack could represent observations, coordinates, identifiers or program instructions, provided everybody agreed what each field meant and kept the cards in the right order. Damaged, missing or mis-sorted cards could stop a job or quietly corrupt its results.",
+      "markdown": "Punched cards made that preparation visible. Each card stored a limited set of characters or numbers through holes in fixed positions. A stack could represent observations, coordinates, identifiers or program instructions, provided everybody agreed what each field meant and kept the cards in the right order. Damaged, missing or mis-sorted cards could stop a job or quietly corrupt its results.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For survey work, the attraction was straightforward. Observations that had once been copied into calculation books could be encoded, processed and checked through repeatable routines. Coordinate values could be output in consistent formats and reused in later calculations. The process was still labour intensive, because cards had to be punched and verified, programs had to be prepared, and suspicious results had to be traced back through the input. Automation reduced one kind of manual effort while creating a new need for disciplined data preparation.",
+      "markdown": "For survey work, the attraction was straightforward. Observations that had once been copied into calculation books could be encoded, processed and checked through repeatable routines. Coordinate values could be output in consistent formats and reused in later calculations. The process was still labour intensive, because cards had to be punched and verified, programs had to be prepared, and suspicious results had to be traced back through the input. Automation reduced one kind of manual effort while creating a new need for disciplined data preparation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The coordinate list is an important transitional object. It is digital geography in a narrow sense because positions are represented numerically and can be stored or processed electronically. It is not yet a spatial database. The computer does not necessarily know which coordinate belongs to a road, which points form a parcel, which lines touch, or which descriptive record should be linked to which geometry. Later spatial databases stored these relationships explicitly.",
+      "markdown": "The coordinate list is an important transitional object. It is digital geography in a narrow sense because positions are represented numerically and can be stored or processed electronically. It is not yet a spatial database. The computer does not necessarily know which coordinate belongs to a road, which points form a parcel, which lines touch, or which descriptive record should be linked to which geometry. Later spatial databases stored these relationships explicitly.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

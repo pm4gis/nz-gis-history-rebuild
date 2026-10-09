@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1938",
+  "a": "person:phil-clunies-ross",
+  "b": "chapter:44",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-44-77e4d81263"
+  ],
+  "sources": []
+}

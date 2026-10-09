@@ -1,0 +1,31 @@
+{
+  "id": "person:seamus-evanson",
+  "slug": "seamus-evanson",
+  "name": "Seamus Evanson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/seamus-evanson/",
+  "story": [
+    "LINZ and the Geospatial Capability Committee included Seamus Evanson in the Leaving School geospatial career-profile series: Geospatial Analyst, NZ Police, May 2026."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Seamus Evanson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

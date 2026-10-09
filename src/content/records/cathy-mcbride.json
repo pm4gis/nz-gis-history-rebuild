@@ -1,0 +1,34 @@
+{
+  "id": "person:cathy-mcbride",
+  "slug": "cathy-mcbride",
+  "name": "Cathy McBride",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/cathy-mcbride/",
+  "story": [
+    "Cathy McBride co-owned Photomap in Nelson with Mark Holmes. They carried out the technical design of map boards for Codgers Mountain Bike Park, working with the Nelson Mountain Bike Club’s trail information and council GIS data. Nelson City Council described their contribution in January 2013 and used the information for a park brochure."
+  ],
+  "sources": [
+    {
+      "label": "Photomap NZ, GISList correspondence: Arcview 3.2 and 64 bit?, 12 December 2011"
+    },
+    {
+      "label": "Nelson City Council, Live Nelson, issue 343, 26 January 2013, p.5: New maps highlight Codgers Mountain Bike Park",
+      "url": "https://img.scoop.co.nz/media/pdfs/1301/11444106Live_Nelson_Issue_343_WEB_VERSION.pdf"
+    }
+  ],
+  "aliases": [
+    "Cathy McBride"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Nelson City Council, Live Nelson, issue 343, 26 January 2013, p.5: New maps highlight Codgers Mountain Bike Park",
+        "url": "https://img.scoop.co.nz/media/pdfs/1301/11444106Live_Nelson_Issue_343_WEB_VERSION.pdf"
+      }
+    ]
+  ]
+}

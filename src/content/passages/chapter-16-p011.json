@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-16-dfe56f74a1",
+  "slug": "boundary-changes-dfe56f74a1",
+  "articleId": "article:chapter-16",
+  "title": "Boundary changes",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A reusable national geography also creates a problem that a printed census map can hide. The boundaries change. The 2008 metadata records 34,882 meshblocks in the 1990 pattern, 35,152 for the 1991 Census, 36,808 for 1996, 38,366 for 2001 and 41,392 for the 2006 Census. The rising count reflected changing statistical geography as well as population change. Meshblocks were split or adjusted as settlement changed, subdivisions were developed, administrative and electoral boundaries moved, cadastral alignment improved and enumeration needs changed.",
+      "markdown": "A reusable national geography also creates a problem that a printed census map can hide. The boundaries change. The 2008 metadata records 34,882 meshblocks in the 1990 pattern, 35,152 for the 1991 Census, 36,808 for 1996, 38,366 for 2001 and 41,392 for the 2006 Census. The rising count reflected changing statistical geography as well as population change. Meshblocks were split or adjusted as settlement changed, subdivisions were developed, administrative and electoral boundaries moved, cadastral alignment improved and enumeration needs changed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That made time comparison a data-management task. Statistics from two censuses could not always be joined safely merely because both datasets contained a field called meshblock. A code could belong to a different pattern, and the geometry surrounding an apparently comparable place might have changed. Statistics New Zealand therefore maintained concordances between meshblock patterns so users could translate or reconstruct earlier geographic arrangements. The concordance became as important as the boundary file for work that compared population through time.",
+      "markdown": "That made time comparison a data-management task. Statistics from two censuses could not always be joined safely merely because both datasets contained a field called meshblock. A code could belong to a different pattern, and the geometry surrounding an apparently comparable place might have changed. Statistics New Zealand therefore maintained concordances between meshblock patterns so users could translate or reconstruct earlier geographic arrangements. The concordance became as important as the boundary file for work that compared population through time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same issue applied above the meshblock. Area units were revised, generally around census cycles, and administrative boundaries could change according to their own statutory processes. A local authority might be reorganised while a statistical area remained analytically useful, or a statistical area might be revised while the council boundary did not move. GIS made those relationships easier to calculate, but it did not remove the need to know which year and which geographic pattern a dataset represented. A map could be spatially precise and still be historically wrong if its statistics and boundaries came from different vintages.",
+      "markdown": "The same issue applied above the meshblock. Area units were revised, generally around census cycles, and administrative boundaries could change according to their own statutory processes. A local authority might be reorganised while a statistical area remained analytically useful, or a statistical area might be revised while the council boundary did not move. GIS made those relationships easier to calculate, but it did not remove the need to know which year and which geographic pattern a dataset represented. A map could be spatially precise and still be historically wrong if its statistics and boundaries came from different vintages.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

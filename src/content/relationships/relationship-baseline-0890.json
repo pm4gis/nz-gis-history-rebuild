@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0890",
+  "a": "person:iain-campion",
+  "b": "entity:canterbury-regional-council-environment-canterbury",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

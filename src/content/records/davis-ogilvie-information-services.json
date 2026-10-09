@@ -1,0 +1,28 @@
+{
+  "id": "entity:davis-ogilvie-information-services",
+  "slug": "davis-ogilvie-information-services",
+  "name": "Davis Ogilvie Information Services",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/davis-ogilvie-information-services/",
+  "website": null,
+  "story": [
+    "Esther Baumann’s GISList signatures identify her as a GIS analyst at Davis Ogilvie Information Services in Christchurch during 2008–09. Her work included KML export and coordinate transformations, followed by raster reprojection of aerial imagery from NZMG to NZTM. She shared solutions and advice with other practitioners.",
+    "GISList records from 2008–09 show Davis Ogilvie Information Services staff working through practical coordinate and imagery problems during the move from NZMG to NZTM. GIS analyst Esther Baumann documented KML datum transformation and batch reprojection of aerial imagery, including mosaics and coordinate transformations, providing a surviving view of day-to-day consultancy GIS practice in Christchurch."
+  ],
+  "sources": [
+    {
+      "label": "Esther Baumann, GISList: Transforming Rasters from NZMG to NZTM (Batch) - Answers, 2 April 2009"
+    },
+    {
+      "label": "Esther Baumann, GISList: RE: layer to KML file - problem, 15 July 2008"
+    }
+  ],
+  "aliases": [
+    "Davis Ogilvie Information Services"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

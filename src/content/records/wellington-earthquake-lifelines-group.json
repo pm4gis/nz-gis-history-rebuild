@@ -1,0 +1,63 @@
+{
+  "id": "entity:wellington-earthquake-lifelines-group",
+  "slug": "wellington-earthquake-lifelines-group",
+  "name": "Wellington Earthquake Lifelines Group",
+  "kind": "Organisation",
+  "category": "Professional and research organisations",
+  "url": "/entities/wellington-earthquake-lifelines-group/",
+  "website": null,
+  "story": [
+    "The Wellington Earthquake Lifelines Group was established in 1993 to continue regional lifelines work.",
+    "The Wellington Lifelines Group coordinates physical risk management across utility and transport providers. WREMO’s institutional account confirms its 1993 establishment and describes work on hazards, infrastructure dependencies, risk reduction and emergency readiness. This regional coordination joined organisations responsible for roads, ports, water, energy and telecommunications, whose services could fail together during a major earthquake.",
+    "Project manager David Brunsdon’s June 1997 review connected lifelines engineering with GIS overlays of infrastructure and seismic-hazard maps. The Wellington programme also held a joint earthquake-response exercise in May 1996. That exercise tested a regional coordination mechanism; a permanent Regional Lifelines Centre was still being planned when he wrote. The distinction matters: an exercise and a proposal are evidence of coordination work, rather than proof that every organisation had installed the same GIS.",
+    "A 2021 study by Vinod Sadashiva, Richard Mowll and colleagues documented the modelling behind the Wellington Lifelines Group’s 2019 infrastructure-investment business case. Road authorities supplied GIS layers containing asset locations and attributes; analysts divided routes into segments and overlaid hazard maps. Modelling across nine lifeline utilities produced service-outage maps and restoration estimates for investment assessment. The work linked source data from infrastructure owners with scientific modelling and regional decisions, and explicitly used the assets and operations present at the time of modelling."
+  ],
+  "sources": [
+    {
+      "label": "David R. Brunsdon, Lifelines engineering: a long way in a decade, June 1997, pp.194–200",
+      "url": "https://bulletin.nzsee.org.nz/index.php/bnzsee/article/view/574/551"
+    },
+    {
+      "label": "WREMO, Lifeline Utilities: Wellington Lifelines Group",
+      "url": "https://www.getprepared.nz/about-wremo/lifeline-utilities"
+    },
+    {
+      "label": "Sadashiva, Mowll and colleagues, Improving Wellington region’s resilience through integrated infrastructure resilience investments, 2021, pp.117–134",
+      "url": "https://bulletin.nzsee.org.nz/article/view/1542/1423"
+    }
+  ],
+  "aliases": [
+    "Wellington Earthquake Lifelines Group",
+    "Wellington Lifelines Group",
+    "WeLG"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [
+    [
+      {
+        "label": "David R. Brunsdon, Lifelines engineering: a long way in a decade, June 1997, pp.194–200",
+        "url": "https://bulletin.nzsee.org.nz/index.php/bnzsee/article/view/574/551"
+      }
+    ],
+    [
+      {
+        "label": "WREMO, Lifeline Utilities: Wellington Lifelines Group",
+        "url": "https://www.getprepared.nz/about-wremo/lifeline-utilities"
+      }
+    ],
+    [
+      {
+        "label": "David R. Brunsdon, Lifelines engineering: a long way in a decade, June 1997, pp.194–200",
+        "url": "https://bulletin.nzsee.org.nz/index.php/bnzsee/article/view/574/551"
+      }
+    ],
+    [
+      {
+        "label": "Sadashiva, Mowll and colleagues, Improving Wellington region’s resilience through integrated infrastructure resilience investments, 2021, pp.117–134",
+        "url": "https://bulletin.nzsee.org.nz/article/view/1542/1423"
+      }
+    ]
+  ],
+  "biographyParagraphSources": []
+}

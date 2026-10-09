@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0973",
+  "a": "person:henry-piet-drury-van-asch",
+  "b": "entity:new-zealand-aerial-mapping",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

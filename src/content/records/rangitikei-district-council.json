@@ -1,0 +1,25 @@
+{
+  "id": "entity:rangitikei-district-council",
+  "slug": "rangitikei-district-council",
+  "name": "Rangitīkei District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/rangitikei-district-council/",
+  "website": "https://www.rangitikei.govt.nz",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Rangitīkei District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

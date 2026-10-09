@@ -1,0 +1,70 @@
+{
+  "id": "person:matti-seikkula",
+  "slug": "matti-seikkula",
+  "name": "Matti Seikkula",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/matti-seikkula/",
+  "story": [
+    "Matti Seikkula and Simon Jellie formed the consultancy that became e-Spatial in 1998 after working at Critchlow. Seikkula’s work connected spatial consulting, architecture and enterprise information systems. In December 2015 e-Spatial announced his Spatial Excellence Professional of the Year award. Harrison Grierson announced its merger with e-Spatial in November 2017.",
+    "Matti Seikkula and Simon Jellie formed the consultancy that became e-Spatial in 1998 after meeting while working at Critchlow; Harrison Grierson announced a merger with the Wellington spatial consultancy in November 2017, and later accounts record its purchase in 2018. Geographx specialised in cartographic production, while e-Spatial supplied spatial consulting and implementation services."
+  ],
+  "sources": [
+    {
+      "label": "Management Magazine NZ / CIO NZ / Harrison Grierson material on e-Spatial",
+      "url": "https://management.co.nz/news/harrison-grierson-merges-and-diversifies"
+    },
+    {
+      "label": "e-Spatial Limited registry-derived record plus Commerce Commission 2013 description",
+      "url": "https://www.companyhub.nz/companyDetails.cfm?nzbn=9429037578091"
+    },
+    {
+      "label": "e-Spatial, Matti Seikkula awarded Professional of the Year, 3 December 2015, company release",
+      "url": "https://m.scoop.co.nz/stories/BU1512/S00180/e-spatial-s-matti-seikkula-awarded-professional-of-the-year.htm"
+    },
+    {
+      "label": "e-Spatial founding and Harrison Grierson integration, existing company and Chapter 17 research",
+      "url": "https://management.co.nz/news/harrison-grierson-merges-and-diversifies"
+    },
+    {
+      "label": "Matti Seikkula - Accenture | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/matti-seikkula-b9b3164"
+    },
+    {
+      "label": "Chapter 12 · Company staff",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Matti Seikkula"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Management Magazine NZ / CIO NZ / Harrison Grierson material on e-Spatial",
+        "url": "https://management.co.nz/news/harrison-grierson-merges-and-diversifies"
+      },
+      {
+        "label": "e-Spatial Limited registry-derived record plus Commerce Commission 2013 description",
+        "url": "https://www.companyhub.nz/companyDetails.cfm?nzbn=9429037578091"
+      },
+      {
+        "label": "e-Spatial, Matti Seikkula awarded Professional of the Year, 3 December 2015, company release",
+        "url": "https://m.scoop.co.nz/stories/BU1512/S00180/e-spatial-s-matti-seikkula-awarded-professional-of-the-year.htm"
+      },
+      {
+        "label": "e-Spatial founding and Harrison Grierson integration, existing company and Chapter 17 research",
+        "url": "https://management.co.nz/news/harrison-grierson-merges-and-diversifies"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Company staff",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

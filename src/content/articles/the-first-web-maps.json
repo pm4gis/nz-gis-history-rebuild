@@ -1,0 +1,45 @@
+{
+  "id": "article:chapter-30",
+  "slug": "the-first-web-maps",
+  "title": "Early web mapping",
+  "url": "/stories/the-first-web-maps/",
+  "summary": "At the end of the 1990s, a geographic information system could still be a very literal place. In New Zealand Police, the early analyst GIS was installed on customised workstations at individual sites. Crime and mapping data were l",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 30,
+  "themeIds": [
+    "technology-stack",
+    "local-government"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch30-note-01",
+      "text": "1. PHEW! Government launch material for the New Zealand Public Health Observatory on 29 May 2002 describes PHEW! as operating from 1999. The Ministry's description of PHEW! as a world first remains an attributed contemporary claim rather than an independently proven international first."
+    },
+    {
+      "id": "ch30-note-02",
+      "text": "2. Statistics New Zealand's March 2002 Overview of 2001 Census Products and Services supports the free public Census WebMap and distinguishes browser access from the separately priced reusable Census and boundary products of that period. Related institutional product history is also referenced."
+    },
+    {
+      "id": "ch30-note-03",
+      "text": "3. Upper Hutt City Council XPLORER is supported by the United Nations Compendium of Innovative E-Government Practices and government/e-government case material. These sources document online property GIS from February 2003, following an earlier paper property-information process. The project treats this as a firm early public web-GIS benchmark, not a proven New Zealand first."
+    },
+    {
+      "id": "ch30-note-04",
+      "text": "4. Other early institutional browser systems, including Police MAPS and DOCgis, retain the operational chronology established in Chapters 26 and 28 and their source notes. Their use here is limited to demonstrating that browser delivery was spreading across organisational GIS before consumer mapping became normal."
+    },
+    {
+      "id": "ch30-note-05",
+      "text": "5. Any first, earliest, first public or first council web-map wording must remain bounded to the evidence. The chapter's historical claim is that browser GIS was established in several New Zealand organisations by the early 2000s, not that one recovered service can safely be declared the first national web map."
+    },
+    {
+      "id": "ch30-note-06",
+      "text": "DOC's 2003 technical paper and Release II training guide document ArcIMS browser access over the national geodatabase, ArcSDE and SQL Server environment."
+    },
+    {
+      "id": "ch30-note-guild-on-the-web-1996",
+      "text": "Sources: D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996 (https://www.dlib.org/dlib/may04/authors/05authors.html); David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016 (https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf); David Medyckyj-Scott, contributor account supplied by Duane Wilkins, 5 October 2026; UKOLN, JISC-CNI 2000 speaker biography: David Medyckyj-Scott (https://www.ukoln.ac.uk/events/jisc-cni-2000/presentations/jisc_biographies.html); Morris, Medyckyj-Scott and Burnhill, EDINA Digimap, LIBER Quarterly 10(4), 2000, DOI 10.18352/lq.7615 (https://liberquarterly.eu/article/view/10218)."
+    }
+  ]
+}

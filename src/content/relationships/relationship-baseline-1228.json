@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1228",
+  "a": "system:south-island-orthophoto-2004",
+  "b": "chapter:20",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2003-upper-hutt-xplorer",
+  "dateDisplay": "2003-02",
+  "startDate": "2003-02",
+  "datePrecision": "month",
+  "year": 2003,
+  "label": "Upper Hutt property information goes online through XPLORER",
+  "summary": "A council public self-service map replaced a substantial amount of routine paper and counter property-information access.",
+  "url": "/stories/councils-build-corporate-gis/#upper-hutt-puts-property-online-c108b6d8a2",
+  "passageIds": [
+    "passage:chapter-23-c108b6d8a2"
+  ],
+  "recordIds": [
+    "chapter:23",
+    "entity:hutt-city-council",
+    "entity:upper-hutt-city-council"
+  ],
+  "themeIds": [
+    "local-government"
+  ],
+  "categories": [
+    "local-government",
+    "web"
+  ],
+  "sources": []
+}

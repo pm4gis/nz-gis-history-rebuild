@@ -1,0 +1,62 @@
+{
+  "id": "passage:chapter-21-594efcfa4a",
+  "slug": "discrete-global-grids-594efcfa4a",
+  "articleId": "article:chapter-21",
+  "title": "Discrete global grids",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21",
+    "entity:vector",
+    "person:r-g-gibb"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Manaaki Whenua also contributed to new methods of spatial referencing. Robert Gibb led work on the rHEALPix Discrete Global Grid System with Alexander Raichev and Michael Speth. A DGGS divides the Earth into identified cells, with finer cells available within a hierarchy. Data from different sources can be assigned to common cells for comparison and analysis. The rHEALPix work extended the HEALPix approach to ellipsoids and provided algorithms and an open-source implementation.",
+      "markdown": "Manaaki Whenua also contributed to new methods of spatial referencing. Robert Gibb led work on the rHEALPix Discrete Global Grid System with Alexander Raichev and Michael Speth. A DGGS divides the Earth into identified cells, with finer cells available within a hierarchy. Data from different sources can be assigned to common cells for comparison and analysis. The rHEALPix work extended the HEALPix approach to ellipsoids and provided algorithms and an open-source implementation.",
+      "sources": [
+        {
+          "label": "Gibb, Raichev and Speth, The rHEALPix Discrete Global Grid System, Landcare Research DataStore, deposited 2016, DOI 10.7931/J2D21VHM",
+          "url": "https://datastore.landcareresearch.co.nz/dataset/rhealpix-discrete-global-grid-system"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Gibb subsequently contributed to the OGC DGGS specifications, including the first Topic 21 specification published in 2017, and edited its 2021 Part 1 revision. ISO 19170-1:2021 established the corresponding framework for DGGS reference systems, operations and equal-area Earth reference systems. This was an international effort involving several institutions. Manaaki Whenua’s role included developing a grid system and helping define the standards through which such systems could exchange and analyse spatial information.",
+      "markdown": "Gibb subsequently contributed to the OGC DGGS specifications, including the first Topic 21 specification published in 2017, and edited its 2021 Part 1 revision. ISO 19170-1:2021 established the corresponding framework for DGGS reference systems, operations and equal-area Earth reference systems. This was an international effort involving several institutions. Manaaki Whenua’s role included developing a grid system and helping define the standards through which such systems could exchange and analyse spatial information.",
+      "sources": [
+        {
+          "label": "OGC Abstract Specification Topic 21, Discrete Global Grid Systems, version 1.0, 1 August 2017",
+          "url": "https://portal.ogc.org/files/15-104r5.pdf"
+        },
+        {
+          "label": "Robert Gibb (editor), OGC Topic 21, DGGS Part 1, version 2.0, 23 September 2021, 20-040r3",
+          "url": "https://docs.ogc.org/as/20-040r3/20-040r3.html"
+        },
+        {
+          "label": "ISO/TC 211, ISO 19170-1:2021: DGGS core reference system, operations and equal-area Earth reference system",
+          "url": "https://committee.iso.org/sites/tc211/home/projects-old/projects---complete-list-old/iso-19170-1.html"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "DGGS methods have since been applied to land-use mapping in New Zealand. Richard Law’s 2023 presentation described Manaaki Whenua combining raster and vector sources through the H3 grid, and his paper with James Ardo developed the approach further. Cell-based indexing supported reproducible classification and processing across data partitions. This land-use work uses H3, a different DGGS implementation from rHEALPix. It provides a practical application of the broader grid approach alongside the institute’s research and standards work.",
+      "markdown": "DGGS methods have since been applied to land-use mapping in New Zealand. Richard Law’s 2023 presentation described Manaaki Whenua combining raster and vector sources through the H3 grid, and his paper with James Ardo developed the approach further. Cell-based indexing supported reproducible classification and processing across data partitions. This land-use work uses H3, a different DGGS implementation from rHEALPix. It provides a practical application of the broader grid approach alongside the institute’s research and standards work.",
+      "sources": [
+        {
+          "label": "Richard Law, Land-use mapping with a Discrete Global Grid System, FOSS4G SotM Oceania, 17 October 2023: H3 implementation",
+          "url": "https://talks.osgeo.org/foss4g-sotm-oceania-2023/talk/EYAJ7H/"
+        },
+        {
+          "label": "Richard M. Law and James Ardo, Using a discrete global grid system for a scalable, interoperable, and reproducible system of land-use mapping, Big Earth Data 9(1), 2025, DOI 10.1080/20964471.2024.2429847",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/20964471.2024.2429847"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

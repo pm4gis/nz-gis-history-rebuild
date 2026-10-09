@@ -1,0 +1,42 @@
+{
+  "id": "person:ryan-macveigh",
+  "slug": "ryan-macveigh",
+  "name": "Ryan MacVeigh",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ryan-macveigh/",
+  "story": [
+    "Ryan MacVeigh is named on the Downer side of the GRAIL customer account describing the contractor’s GIS implementation from 2011.",
+    "Eagle’s customer account identifies Graeme Henderson as the account manager recommending an ArcGIS configuration and records Ryan MacVeigh on the Downer side. It describes GRAIL as Downer’s first GIS system. A later enterprise licence agreement widened access to the ArcGIS platform. The implementation placed spatial information inside an established contractor’s design and operational work, where the usefulness of a system depended on its fit with delivery teams and their existing records."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+    },
+    {
+      "label": "Chapter 40 · From files to shared data",
+      "url": "/stories/enterprise-gis/"
+    }
+  ],
+  "aliases": [
+    "Ryan MacVeigh"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+        "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 40 · From files to shared data",
+        "url": "/stories/enterprise-gis/"
+      }
+    ]
+  ]
+}

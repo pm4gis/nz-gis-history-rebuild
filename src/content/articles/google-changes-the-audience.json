@@ -1,0 +1,34 @@
+{
+  "id": "article:chapter-31",
+  "slug": "google-changes-the-audience",
+  "title": "Google Maps and Earth",
+  "url": "/stories/google-changes-the-audience/",
+  "summary": "Google Maps launched its fully localised New Zealand service in December 2007, joining earlier interactive mapping services. New Zealand organisations had already spent most of a decade moving spatial information into web browsers",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 31,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch31-note-01",
+      "text": "1. Deep Research Pass 09 is the project control Google's international and New Zealand chronology. It records Google Earth launching on 28 June 2005, Google Maps API geocoding support for Australia and New Zealand on 6 September 2006 and the full localised Google Maps service for New Zealand launching on 12 December 2007. These dates establish platform milestones, not the first New Zealand use of every Google mapping feature."
+    },
+    {
+      "id": "ch31-note-02",
+      "text": "2. Contemporary government material supports Tourism New Zealand's April 2007 100% Pure New Zealand Google Earth layer. The contemporary announcement described it as the first time a tourism authority had developed an official Google Earth layer. The chapter keeps that wording attributed to the announcement rather than turning it into an independently verified global first."
+    },
+    {
+      "id": "ch31-note-03",
+      "text": "3. KML/KMZ is used as a distribution and communication bridge rather than as a replacement for authoritative GIS data structures. The chapter's New Zealand examples are supported by Tourism New Zealand, later LINZ geodetic distribution and the Canterbury-period project evidence. No claim is made that KML became the principal professional maintenance format."
+    },
+    {
+      "id": "ch31-note-04",
+      "text": "4. The project evidence does not establish the first production New Zealand Google Maps API application. The sources describe embedded mapping, geocoding and navigation in ordinary websites."
+    },
+    {
+      "id": "ch31-note-05",
+      "text": "5. OpenStreetMap's New Zealand presence by 2007 and LINZ permission for incorporation and derivation of LINZ data in March 2008 are retained as a bounded widening-of-audience comparison. They do not turn Chapter 31 into the full open-data history, which remains in Chapter 33."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-33-58d0d98adf",
+  "slug": "land-resource-data-opens-58d0d98adf",
+  "articleId": "article:chapter-33",
+  "title": "Land-resource data opens",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33",
+    "entity:koordinates"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The same pattern was appearing in environmental and scientific information. On 24 August 2010 Landcare Research launched the Land Resource Information System Portal. The LRIS Portal provided online access to nationally significant environmental and land-resource datasets used for mapping, analysis and modelling. Its holdings included material derived from the New Zealand Land Resource Inventory, Land Environments of New Zealand, soil databases and digital elevation information.",
+      "markdown": "The same pattern was appearing in environmental and scientific information. On 24 August 2010 Landcare Research launched the Land Resource Information System Portal. The LRIS Portal provided online access to nationally significant environmental and land-resource datasets used for mapping, analysis and modelling. Its holdings included material derived from the New Zealand Land Resource Inventory, Land Environments of New Zealand, soil databases and digital elevation information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Many of these datasets had long histories inside specialist science and government work, so their value predated 2010. The distribution model changed. A user could search for a dataset, inspect metadata and download GIS data through an online service rather than treating access as an exchange between specialists who already knew which group held the information.",
+      "markdown": "Many of these datasets had long histories inside specialist science and government work, so their value predated 2010. The distribution model changed. A user could search for a dataset, inspect metadata and download GIS data through an online service rather than treating access as an exchange between specialists who already knew which group held the information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Manaaki Whenua’s later institutional account notes that the first LRIS Portal release was developed with Koordinates and brought to market rapidly in 2010. Making data accessible depended on software platforms capable of cataloguing, previewing, converting and delivering geospatial data in forms people could use.",
+      "markdown": "Manaaki Whenua’s later institutional account notes that the first LRIS Portal release was developed with Koordinates and brought to market rapidly in 2010. Making data accessible depended on software platforms capable of cataloguing, previewing, converting and delivering geospatial data in forms people could use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The portal model had another advantage. Data could be accompanied by metadata, documentation and licence information in the same environment. Open access without context can simply move confusion from one desk to another. A soil layer or land-resource dataset still needed explanations of its scale, attributes, methods and limitations. Making the file easier to obtain did not remove the need to understand what it represented.",
+      "markdown": "The portal model had another advantage. Data could be accompanied by metadata, documentation and licence information in the same environment. Open access without context can simply move confusion from one desk to another. A soil layer or land-resource dataset still needed explanations of its scale, attributes, methods and limitations. Making the file easier to obtain did not remove the need to understand what it represented.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That combination of file and explanation was especially important for older scientific datasets. A layer created from field surveys carried assumptions about scale, classification and date that were not obvious from its geometry alone. Moving such data into an online portal made it easier to find, but also made it easier for users outside the original research community to apply it in ways its creators had not anticipated. Metadata therefore became part of responsible openness and practical reuse.",
+      "markdown": "That combination of file and explanation was especially important for older scientific datasets. A layer created from field surveys carried assumptions about scale, classification and date that were not obvious from its geometry alone. Moving such data into an online portal made it easier to find, but also made it easier for users outside the original research community to apply it in ways its creators had not anticipated. Metadata therefore became part of responsible openness and practical reuse.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

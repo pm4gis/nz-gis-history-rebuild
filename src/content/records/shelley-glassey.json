@@ -1,0 +1,47 @@
+{
+  "id": "person:shelley-glassey",
+  "slug": "shelley-glassey",
+  "name": "Shelley Glassey",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/shelley-glassey/",
+  "story": [
+    "Shelley Glassey was a GIS developer at North Shore City Council when she offered 3D animation material for the 2008 Esri user conference opening film. Her correspondence describes council GIS data prepared in ArcGIS and viewed in K2VI. The record documents a council developer contributing practical visualisation work to the user community.",
+    "Shelley Glassey, GIS Developer at North Shore City Council, offered 3D animations built from council GIS data in ArcGIS and viewed in K2VI for the conference opening film. The conference even had five-minute “show us what you got” slots. It was an Esri event, but much of its substance came from council practitioners bringing in the work they were already doing."
+  ],
+  "sources": [
+    {
+      "label": "NZ ESRI Users Group 13th Annual Conference 2008 call for papers and final-agenda correspondence"
+    },
+    {
+      "label": "Chapter 12 · Companies and user groups",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Shelley Glassey"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Companies and user groups",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

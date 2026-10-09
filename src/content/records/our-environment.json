@@ -1,0 +1,38 @@
+{
+  "id": "system:our-environment",
+  "slug": "our-environment",
+  "name": "Our Environment",
+  "kind": "Project",
+  "category": "Systems and projects",
+  "url": "/systems/our-environment/",
+  "story": [
+    "Our Environment launched in December 2011 as a Landcare Research land atlas. It let people inspect and query environmental datasets, obtain explanations and create maps or reports without desktop GIS software. Subjects included land-use capability, vegetation, erosion and ecosystems.",
+    "The Informatics team developed it alongside S-map Online, while LRIS supplied downloadable data for users undertaking their own GIS work. David Medyckyj-Scott recalls the national basemaps as possibly the first derived from LINZ’s 1:50,000 vector data. Published accounts document their development; the claim of priority remains attributed to him."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Cartographic Society, Cartographic Activities in New Zealand 2011–2015, printed pp.11–12: August and December 2011 releases and LINZ-derived basemaps",
+      "url": "https://icaci.org/files/documents/national_reports/2011-2015/new_zealand.pdf"
+    },
+    {
+      "label": "Our Environment, About this site: version 1 launched in 2011 and Informatics team",
+      "url": "https://ourenvironment.scinfo.org.nz/help/about"
+    }
+  ],
+  "aliases": [
+    "OurEnvironment"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "Development and use",
+      "paragraphs": [
+        "Our Environment launched in December 2011 as a Landcare Research land atlas. It let people inspect and query environmental datasets, obtain explanations and create maps or reports without desktop GIS software. Subjects included land-use capability, vegetation, erosion and ecosystems.",
+        "The Informatics team developed it alongside S-map Online, while LRIS supplied downloadable data for users undertaking their own GIS work. David Medyckyj-Scott recalls the national basemaps as possibly the first derived from LINZ’s 1:50,000 vector data. Published accounts document their development; the claim of priority remains attributed to him."
+      ]
+    }
+  ]
+}

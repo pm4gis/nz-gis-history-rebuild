@@ -1,0 +1,95 @@
+{
+  "id": "person:duane-wilkins",
+  "slug": "duane-wilkins",
+  "name": "Duane Wilkins",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/duane-wilkins/",
+  "story": [
+    "Duane Wilkins’s work spans health, conservation, policing and land information. At the Department of Conservation he managed GIS and later returned to lead the regional shared-service team formed in 2012. At LINZ he worked in geospatial capability building, including Ngā Poutama Matawhenua, the practical Māori GIS mapping wānanga. In 2020 he was seconded to the COVID-19 Operations Command Centre and developed a support website and mapping tools for Māori and Pacific communities and NGOs. In 2021 he led the Police ArcGIS Enterprise implementation team.",
+    "Duane Wilkins recalls that Eagle Technology designed DOCgis before 2003, with departmental analysts and developers continuing its development. He also recalls difficult relations between regional teams and the GIS manager. Around a decade later, Wilkins returned to lead GIS; in 2012 the team became a shared service for the regions, a change he remembers as highly successful.",
+    "LINZ’s 2026 Geospatial Capability Committee material lists Duane Wilkins in Ngā Poutama Matawhenua geospatial consultant, corresponding member; Geospatial Capability Committee..",
+    "LINZ names Duane Wilkins in its geospatial virtual field-trip record: Geographic Information Advocate, LINZ, 2017 VFT."
+  ],
+  "sources": [
+    {
+      "label": "Duane Wilkins, account of DOCgis development and the 2012 shared-service reform"
+    },
+    {
+      "label": "Duane Wilkins, Manaaki COVID-19 response GIS design and migration record, May 2020"
+    },
+    {
+      "label": "Author account supplied by Duane Wilkins, Police ArcGIS Enterprise team, 2021"
+    },
+    {
+      "label": "Learnz, Meet Duane Wilkins",
+      "url": "https://www.learnz.org.nz/location173/meet-duane-wilkins"
+    },
+    {
+      "label": "Public Service Commission, Public Service Day Awards 2020: Duane Wilkins",
+      "url": "https://www.publicservice.govt.nz/role-and-purpose/spirit-of-service/public-service-day-awards/public-service-day-2020"
+    },
+    {
+      "label": "LINZ Annual Report 2020/21",
+      "url": "https://www.linz.govt.nz/sites/default/files/corp/toitu-te-whenua_annual-report-20-21-a11y-web_20211201.pdf"
+    },
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    },
+    {
+      "label": "Chapter 26 · DOCgis after the 2003 releases",
+      "url": "/stories/conservation-and-environment/"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Duane Wilkins"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Learnz, Meet Duane Wilkins",
+        "url": "https://www.learnz.org.nz/location173/meet-duane-wilkins"
+      },
+      {
+        "label": "Public Service Commission, Public Service Day Awards 2020: Duane Wilkins",
+        "url": "https://www.publicservice.govt.nz/role-and-purpose/spirit-of-service/public-service-day-awards/public-service-day-2020"
+      },
+      {
+        "label": "LINZ Annual Report 2020/21",
+        "url": "https://www.linz.govt.nz/sites/default/files/corp/toitu-te-whenua_annual-report-20-21-a11y-web_20211201.pdf"
+      },
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 26 · DOCgis after the 2003 releases",
+        "url": "/stories/conservation-and-environment/"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:martin-dsouza",
+  "slug": "martin-dsouza",
+  "name": "Martin D’Souza",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/martin-dsouza/",
+  "story": [
+    "Martin D’Souza co-presented the New Zealand Police Geospatial Team’s June 2023 FME case study with Aamir Bonamis and Justin Harris. It documents automated Calls for Service workflows, location and crime-harm analysis, operational dashboards and hourly updates during Cyclone Gabrielle."
+  ],
+  "sources": [
+    {
+      "label": "Police FME conference presentation, 8 June 2023",
+      "url": "https://locusglobal.com/wp-content/uploads/2023/06/FMEConference_PolicePresentation_FinalV2.pdf"
+    }
+  ],
+  "aliases": [
+    "Martin D’Souza"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Police FME conference presentation, 8 June 2023",
+        "url": "https://locusglobal.com/wp-content/uploads/2023/06/FMEConference_PolicePresentation_FinalV2.pdf"
+      }
+    ]
+  ]
+}

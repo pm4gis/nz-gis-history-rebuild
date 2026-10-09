@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1280",
+  "a": "entity:custom-software-quickmap",
+  "b": "chapter:22",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-22-72c3b55191"
+  ],
+  "sources": []
+}

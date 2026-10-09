@@ -1,0 +1,42 @@
+{
+  "id": "person:mick-park",
+  "slug": "mick-park",
+  "name": "Mick Park",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mick-park/",
+  "story": [
+    "Mick Park co-authored the 2005 Motueka case study on GIS for iwi and hapū with Garth Harmsworth and Dean Walker. The report records the practical and cultural considerations involved in connecting iwi knowledge and catchment information through GIS.",
+    "Garth Harmsworth, Mick Park and Dean Walker’s 2005 Motueka case study described Explore Tasman as a comprehensive, read-only council intranet GIS. It held maintained resource, administrative, property, aerial and base information; approved outside users could connect over the internet using a static IP address. The report noted slow access without broadband and limited printing, querying and analysis. For Motueka iwi resource-management practitioners, the viewer provided background information and could avoid buying duplicate base data."
+  ],
+  "sources": [
+    {
+      "label": "Garth Harmsworth, Mick Park and Dean Walker, Report on the development and use of GIS for iwi and hapū: Motueka case study, May 2005",
+      "url": "https://icm.landcareresearch.co.nz/knowledgebase/publications/documents/FinalMay2005ICMMaoriGISreport.pdf"
+    },
+    {
+      "label": "Chapter 23 · Tasman shares council GIS",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Mick Park"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Garth Harmsworth, Mick Park and Dean Walker, Report on the development and use of GIS for iwi and hapū: Motueka case study, May 2005",
+        "url": "https://icm.landcareresearch.co.nz/knowledgebase/publications/documents/FinalMay2005ICMMaoriGISreport.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · Tasman shares council GIS",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

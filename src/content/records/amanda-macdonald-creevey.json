@@ -1,0 +1,39 @@
+{
+  "id": "person:amanda-macdonald-creevey",
+  "slug": "amanda-macdonald-creevey",
+  "name": "Amanda MacDonald-Creevey",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/amanda-macdonald-creevey/",
+  "story": [
+    "Amanda MacDonald-Creevey was a GIS Analyst with Rayonier Matariki Forests when she presented the application of Sentinel-2 satellite data in forestry at the 2018 New Zealand Esri User Conference. The surviving presentation provides a technical record of operational earth-observation use in plantation forestry."
+  ],
+  "sources": [
+    {
+      "label": "Amanda MacDonald-Creevey, Application of Sentinel-2 Satellite Data in Forestry",
+      "url": "https://www.eagle.co.nz/sites/default/files/Amanda%20MacDonald-Creevey%20-%20Application%20of%20Sentinel-2%20Satellite%20Data%20in%20Forestry_R.pdf"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    }
+  ],
+  "aliases": [
+    "Amanda MacDonald-Creevey"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Amanda MacDonald-Creevey, Application of Sentinel-2 Satellite Data in Forestry",
+        "url": "https://www.eagle.co.nz/sites/default/files/Amanda%20MacDonald-Creevey%20-%20Application%20of%20Sentinel-2%20Satellite%20Data%20in%20Forestry_R.pdf"
+      },
+      {
+        "label": "New Zealand Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ]
+  ]
+}

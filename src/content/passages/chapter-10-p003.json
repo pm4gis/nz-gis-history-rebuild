@@ -1,0 +1,64 @@
+{
+  "id": "passage:chapter-10-e81c2fea9a",
+  "slug": "other-government-datasets-e81c2fea9a",
+  "articleId": "article:chapter-10",
+  "title": "Other government datasets",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:10",
+    "entity:department-of-survey-and-land-information-dosli"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 1991 United Nations regional cartographic material records several DOSLI digital production systems at the end of this period. Alongside the DCDB, it records a 100-metre digital terrain model covering about 10 per cent of New Zealand. Coverage was concentrated along major communication routes in the North Island and the east coast of the South Island. The terrain data supported perspective simulation, slope analysis and orthophoto production. This was a separate production capability with its own source data and outputs, not another layer inside the cadastral system.",
+      "markdown": "The 1991 United Nations regional cartographic material records several DOSLI digital production systems at the end of this period. Alongside the DCDB, it records a 100-metre digital terrain model covering about 10 per cent of New Zealand. Coverage was concentrated along major communication routes in the North Island and the east coast of the South Island. The terrain data supported perspective simulation, slope analysis and orthophoto production. This was a separate production capability with its own source data and outputs, not another layer inside the cadastral system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOSLI was also computerising its aerial-photograph index. An analogue photo collection is only useful if staff can locate the right photography for a place, date and project. Computerising the index turned retrieval information into a searchable departmental resource even when the photographs themselves remained physical objects. Its immediate function was administrative and production-oriented: staff could manage and find a large national imagery archive more systematically.",
+      "markdown": "DOSLI was also computerising its aerial-photograph index. An analogue photo collection is only useful if staff can locate the right photography for a place, date and project. Computerising the index turned retrieval information into a searchable departmental resource even when the photographs themselves remained physical objects. Its immediate function was administrative and production-oriented: staff could manage and find a large national imagery archive more systematically.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Photogrammetry was becoming more computational as well. The UN report records DOSLI purchasing software in 1989–90 for photogrammetric restitution from stereoscopic SPOT satellite imagery. Restitution converts the geometry visible in overlapping images into mapped positions and features, a task that had long depended on specialist photogrammetric instruments and trained operators. Digital processing did not remove the need for photogrammetric judgement. It added software, image data, coordinate transformations and computer storage to a production craft already built around precise measurement.",
+      "markdown": "Photogrammetry was becoming more computational as well. The UN report records DOSLI purchasing software in 1989–90 for photogrammetric restitution from stereoscopic SPOT satellite imagery. Restitution converts the geometry visible in overlapping images into mapped positions and features, a task that had long depended on specialist photogrammetric instruments and trained operators. Digital processing did not remove the need for photogrammetric judgement. It added software, image data, coordinate transformations and computer storage to a production craft already built around precise measurement.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Aeronautical mapping formed another distinct line. The 1991 country material describes a digital aeronautical information bank used for totally automated aeronautical chart production and records digital maps being generated and updated for radar-control centres. Aeronautical charts have little tolerance for casual updating because airspace, navigation information and chart content have operational consequences. A maintained digital information bank allowed repeated chart production from controlled information rather than rebuilding every edition as a largely manual drawing. Printed charts still remained part of the operational output, so digital production and hard copy coexisted rather than one immediately replacing the other.",
+      "markdown": "Aeronautical mapping formed another distinct line. The 1991 country material describes a digital aeronautical information bank used for totally automated aeronautical chart production and records digital maps being generated and updated for radar-control centres. Aeronautical charts have little tolerance for casual updating because airspace, navigation information and chart content have operational consequences. A maintained digital information bank allowed repeated chart production from controlled information rather than rebuilding every edition as a largely manual drawing. Printed charts still remained part of the operational output, so digital production and hard copy coexisted rather than one immediately replacing the other.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 1991 the 100-metre DTM covered only part of the country. Staff were working with an expanding national resource rather than a completed elevation surface. Its documented uses included slope analysis, perspective views and orthophoto production. Coverage was concentrated along major communication routes, reflecting a staged acquisition and processing programme rather than immediate national coverage.",
+      "markdown": "By 1991 the 100-metre DTM covered only part of the country. Staff were working with an expanding national resource rather than a completed elevation surface. Its documented uses included slope analysis, perspective views and orthophoto production. Coverage was concentrated along major communication routes, reflecting a staged acquisition and processing programme rather than immediate national coverage.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The aeronautical system had a different rhythm. Its digital information bank supported chart production and the updating of maps for radar-control centres. Here the database existed because the output had to be produced again and kept current. A change to aeronautical information could be incorporated into the maintained digital source and carried into later output, rather than requiring the whole cartographic product to be reconstructed. By the end of the decade, this work was part of DOSLI’s mapping responsibilities.",
+      "markdown": "The aeronautical system had a different rhythm. Its digital information bank supported chart production and the updating of maps for radar-control centres. Here the database existed because the output had to be produced again and kept current. A change to aeronautical information could be incorporated into the maintained digital source and carried into later output, rather than requiring the whole cartographic product to be reconstructed. By the end of the decade, this work was part of DOSLI’s mapping responsibilities.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The computerised aerial-photo index addressed a daily information-management problem. Government aerial photography represented a large accumulation of flights, frames, dates and coverage. An index had to connect a request for a location with the photographs that actually existed. Computerisation made the catalogue more tractable even though a user might still finish the search by retrieving film, prints or other physical imagery from storage. Digital production continued to depend on large analogue collections.",
+      "markdown": "The computerised aerial-photo index addressed a daily information-management problem. Government aerial photography represented a large accumulation of flights, frames, dates and coverage. An index had to connect a request for a location with the photographs that actually existed. Computerisation made the catalogue more tractable even though a user might still finish the search by retrieving film, prints or other physical imagery from storage. Digital production continued to depend on large analogue collections.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In 1990, DOSLI used several systems across these functions. The cadastral database, terrain models, aerial-photo index, photogrammetric processing, topographic conversion and aeronautical production each arose from different records and production requirements. They shared departmental infrastructure, specialist computing and a growing dependence on maintained digital information. Staff had to keep each production system operating between publication cycles.",
+      "markdown": "In 1990, DOSLI used several systems across these functions. The cadastral database, terrain models, aerial-photo index, photogrammetric processing, topographic conversion and aeronautical production each arose from different records and production requirements. They shared departmental infrastructure, specialist computing and a growing dependence on maintained digital information. Staff had to keep each production system operating between publication cycles.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

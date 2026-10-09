@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-40-b5104d43cf",
+  "slug": "auckland-council-gfmo-b5104d43cf",
+  "articleId": "article:chapter-40",
+  "title": "Auckland Council GFMO",
+  "order": 15,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:auckland-council",
+    "person:ingrid-mcclymont",
+    "person:nathan-heazlewood"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Auckland Council inherited a large and inconsistent geospatial estate when the Auckland authorities amalgamated in 2010. The Geospatial Future Mode of Operation programme ran for about four years and consolidated platforms, data and support arrangements while GIS was being placed inside wider IT service-management and governance processes.",
+      "markdown": "Auckland Council inherited a large and inconsistent geospatial estate when the Auckland authorities amalgamated in 2010. The Geospatial Future Mode of Operation programme ran for about four years and consolidated platforms, data and support arrangements while GIS was being placed inside wider IT service-management and governance processes.",
+      "sources": [
+        {
+          "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+          "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The documented technology mix included ArcGIS, FME, a central geodatabase, Portal and the GeoMaps environment. The programme reduced 8,470 inherited geographic datasets to 2,056 and rationalised 697 district-plan GIS datasets to 25. The consolidation removed duplicate datasets, defined services and established a maintained operating model.",
+      "markdown": "The documented technology mix included ArcGIS, FME, a central geodatabase, Portal and the GeoMaps environment. The programme reduced 8,470 inherited geographic datasets to 2,056 and rationalised 697 district-plan GIS datasets to 25. The consolidation removed duplicate datasets, defined services and established a maintained operating model.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Ingrid McClymont represented Auckland Council’s geospatial management during the programme. Nathan Heazlewood was the Eagle professional-services project manager. Their roles illustrate the combined customer, governance and supplier effort involved in a large enterprise consolidation.",
+      "markdown": "Ingrid McClymont represented Auckland Council’s geospatial management during the programme. Nathan Heazlewood was the Eagle professional-services project manager. Their roles illustrate the combined customer, governance and supplier effort involved in a large enterprise consolidation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Read the GFMO case study.",
+      "markdown": "Read the GFMO case study.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2252",
+  "a": "person:sean-audain",
+  "b": "entity:wellington-city-council",
+  "label": "Associated with",
+  "basis": "Documented association in the people-expansion research; role and period are described in the linked profile sources.",
+  "passageIds": [],
+  "sources": []
+}

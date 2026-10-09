@@ -1,0 +1,25 @@
+{
+  "id": "entity:grey-district-council",
+  "slug": "grey-district-council",
+  "name": "Grey District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/grey-district-council/",
+  "website": "https://www.greydc.govt.nz",
+  "description": "Named in The parcel becomes a key (Chapter 23). Follow the linked passage for context.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Grey District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

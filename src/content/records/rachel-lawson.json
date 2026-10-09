@@ -1,0 +1,27 @@
+{
+  "id": "person:rachel-lawson",
+  "slug": "rachel-lawson",
+  "name": "Rachel Lawson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rachel-lawson/",
+  "website": null,
+  "story": [
+    "Rachel Lawson was the 2023 New Zealand Esri Young Scholar while studying at the University of Auckland. Her award-winning project examined the effect of the New Zealand International Convention Centre fire on human mobility, combining GIS datasets and social-media imagery to analyse disrupted movement, smoke exposure and public response.",
+    "Her project is a documented example of GIS being used to study a recent urban emergency through mobility and volunteered digital information, and it connected university GIS study with the international Esri Young Scholar programme."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, Esri User Conference Experience 2023",
+      "url": "https://www.eagle.co.nz/blog/esri-user-conference-experience-2023"
+    }
+  ],
+  "aliases": [
+    "Rachel Lawson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

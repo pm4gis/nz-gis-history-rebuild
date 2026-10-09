@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-13-38a2be5c38",
+  "slug": "keeping-a-moving-target-current-38a2be5c38",
+  "articleId": "article:chapter-13",
+  "title": "Keeping a moving target current",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Conversion would have been easier if the cadastre had politely stopped changing for eleven years. It did not. New subdivisions, road changes, amalgamations and other survey and title actions continued while historical record maps were being captured. The production system therefore had to distinguish between the backlog being converted and new information arriving through ordinary cadastral business. A national database that was complete but several years out of date would have been a disappointing achievement.",
+      "markdown": "Conversion would have been easier if the cadastre had politely stopped changing for eleven years. It did not. New subdivisions, road changes, amalgamations and other survey and title actions continued while historical record maps were being captured. The production system therefore had to distinguish between the backlog being converted and new information arriving through ordinary cadastral business. A national database that was complete but several years out of date would have been a disappointing achievement.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Maintenance made quality assurance an everyday production function rather than a final project phase. Parcel relationships had to remain coherent as new work was added. References to surveys and statutory actions had to remain usable. Errors discovered during conversion or through later survey work had to be corrected without destabilising adjoining data. The database was becoming a maintained record, which meant that procedures, standards and staff knowledge were as important as the initial capture technology.",
+      "markdown": "Maintenance made quality assurance an everyday production function rather than a final project phase. Parcel relationships had to remain coherent as new work was added. References to surveys and statutory actions had to remain usable. Errors discovered during conversion or through later survey work had to be corrected without destabilising adjoining data. The database was becoming a maintained record, which meant that procedures, standards and staff knowledge were as important as the initial capture technology.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Land District structure shaped this work. Historical DCDB documentation describes continuous maps maintained by Land District rather than one single centrally edited national file in the modern sense. That arrangement reflected long-established cadastral administration and also gave the later Landonline rollout a practical sequence: districts could be converted, checked and cut over progressively. National coverage was assembled from maintained district systems before the replacement system brought those records into a different national architecture.",
+      "markdown": "The Land District structure shaped this work. Historical DCDB documentation describes continuous maps maintained by Land District rather than one single centrally edited national file in the modern sense. That arrangement reflected long-established cadastral administration and also gave the later Landonline rollout a practical sequence: districts could be converted, checked and cut over progressively. National coverage was assembled from maintained district systems before the replacement system brought those records into a different national architecture.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

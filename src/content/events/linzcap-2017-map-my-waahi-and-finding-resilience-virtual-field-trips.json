@@ -1,0 +1,34 @@
+{
+  "id": "linzcap-2017-map-my-waahi-and-finding-resilience-virtual-field-trips",
+  "dateDisplay": "2017",
+  "startDate": "2017-01-01",
+  "datePrecision": "year",
+  "year": 2017,
+  "label": "Map my waahi and Finding Resilience virtual field trips",
+  "summary": "LINZ used school field trips to connect place, cultural mapping, hazards and response technology; Duane Wilkins and Sharyn Westlake were named experts.",
+  "url": "/stories/the-real-time-map/#resilience-as-a-geospatial-capability-programme-ef1ce37f8e",
+  "passageIds": [
+    "passage:chapter-42-ef1ce37f8e"
+  ],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Brown Bag Resilience Series presentations",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/brown-bag-resilience-series-presentations"
+    }
+  ]
+}

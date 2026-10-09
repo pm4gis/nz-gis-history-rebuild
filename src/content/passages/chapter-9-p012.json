@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-9-35e889d6d2",
+  "slug": "maintaining-scientific-data-35e889d6d2",
+  "articleId": "article:chapter-9",
+  "title": "Maintaining scientific data",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Across geology, ecology and hydrology the same change appears in different forms. Scientists were no longer producing only maps that happened to be made by computer. They were maintaining spatial evidence from which maps, tables, models and later analyses could be produced. The database became part of the scientific record.",
+      "markdown": "Across geology, ecology and hydrology the same change appears in different forms. Scientists were no longer producing only maps that happened to be made by computer. They were maintaining spatial evidence from which maps, tables, models and later analyses could be produced. The database became part of the scientific record.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That created new preservation requirements. A paper geological sheet could remain readable for decades without its original production system. A GIS dataset could contain more reusable information but depend on file formats, attribute definitions, database structures and documentation that were easier to lose. Institutional restructuring in 1992 and later software changes therefore made metadata and data stewardship part of scientific continuity.",
+      "markdown": "That created new preservation requirements. A paper geological sheet could remain readable for decades without its original production system. A GIS dataset could contain more reusable information but depend on file formats, attribute definitions, database structures and documentation that were easier to lose. Institutional restructuring in 1992 and later software changes therefore made metadata and data stewardship part of scientific continuity.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "It also changed authorship. A printed scientific map might carry the names of the principal geologists or editors, while the database behind it could depend on digital cartographers, programmers, capture staff and database managers whose work was less visible on the sheet. Later GNS metadata that names capture staff is useful precisely because much earlier scientific GIS production was documented mainly through the final map or senior authors.",
+      "markdown": "It also changed authorship. A printed scientific map might carry the names of the principal geologists or editors, while the database behind it could depend on digital cartographers, programmers, capture staff and database managers whose work was less visible on the sheet. Later GNS metadata that names capture staff is useful precisely because much earlier scientific GIS production was documented mainly through the final map or senior authors.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same issue applied to scientific models. A hydrological or prospectivity analysis might be published under a few authors’ names while depending on spatial datasets assembled by other teams over many years. GIS increased the amount of inherited information that could be folded into one analysis. Reuse therefore connected new research to older fieldwork and data-management decisions, even when those earlier contributors were not named in the final paper.",
+      "markdown": "The same issue applied to scientific models. A hydrological or prospectivity analysis might be published under a few authors’ names while depending on spatial datasets assembled by other teams over many years. GIS increased the amount of inherited information that could be folded into one analysis. Reuse therefore connected new research to older fieldwork and data-management decisions, even when those earlier contributors were not named in the final paper.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

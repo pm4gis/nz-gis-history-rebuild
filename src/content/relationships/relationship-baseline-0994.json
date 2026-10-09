@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0994",
+  "a": "person:hugh-blake-manson",
+  "b": "entity:selwyn-district-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

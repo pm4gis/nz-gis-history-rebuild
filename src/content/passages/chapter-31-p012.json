@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-31-88e0e55999",
+  "slug": "the-map-becomes-a-component-88e0e55999",
+  "articleId": "article:chapter-31",
+  "title": "The map becomes a component",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "This was also a change in how websites were assembled. Earlier institutional web GIS tended to be a destination in its own right. A user entered the mapping application, worked inside its interface and left when the task was finished. The Google Maps API made it increasingly normal for mapping to occupy only part of a page. A property listing, tourism page, business directory or event site could contain a map beside text, photographs and other services.",
+      "markdown": "This was also a change in how websites were assembled. Earlier institutional web GIS tended to be a destination in its own right. A user entered the mapping application, worked inside its interface and left when the task was finished. The Google Maps API made it increasingly normal for mapping to occupy only part of a page. A property listing, tourism page, business directory or event site could contain a map beside text, photographs and other services.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That design change made geography easier to add, but it also made the map less self-contained. The website might own the business information while Google supplied the basemap, geocoding or navigation. Another service might provide photographs or user comments. The finished experience depended on several systems that the user experienced as one page. This compositional model would later become normal across digital services.",
+      "markdown": "That design change made geography easier to add, but it also made the map less self-contained. The website might own the business information while Google supplied the basemap, geocoding or navigation. Another service might provide photographs or user comments. The finished experience depended on several systems that the user experienced as one page. This compositional model would later become normal across digital services.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For GIS practitioners, it introduced a new kind of boundary problem. The spatial component could be technically easy to embed while the organisation's actual data remained difficult to maintain. A map could look polished even when addresses were inconsistent, coordinates were poor or attributes were out of date. Consumer mapping therefore lowered the barrier to publication faster than it lowered the barrier to good geographic information management.",
+      "markdown": "For GIS practitioners, it introduced a new kind of boundary problem. The spatial component could be technically easy to embed while the organisation's actual data remained difficult to maintain. A map could look polished even when addresses were inconsistent, coordinates were poor or attributes were out of date. Consumer mapping therefore lowered the barrier to publication faster than it lowered the barrier to good geographic information management.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "It also changed who controlled the interface. When an organisation used a commercial consumer map as a component, some design, data and service decisions sat outside its own systems. Updates to the external platform could improve the experience or alter it without the organisation rebuilding its application. That dependency would become much more important in the later history of APIs and cloud services, but its practical roots were already visible in the mashup era.",
+      "markdown": "It also changed who controlled the interface. When an organisation used a commercial consumer map as a component, some design, data and service decisions sat outside its own systems. Updates to the external platform could improve the experience or alter it without the organisation rebuilding its application. That dependency would become much more important in the later history of APIs and cloud services, but its practical roots were already visible in the mashup era.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

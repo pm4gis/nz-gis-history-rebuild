@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-40-6605699f23",
+  "slug": "downer-grail-6605699f23",
+  "articleId": "article:chapter-40",
+  "title": "Downer GRAIL",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:eagle-technology",
+    "entity:downer",
+    "person:graeme-henderson",
+    "person:ryan-macveigh"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Downer began developing GRAIL in 2011 with Eagle Technology support. Eagle’s case describes it as Downer’s first GIS and names Graeme Henderson in the Eagle account role and Ryan MacVeigh in the project record.",
+      "markdown": "Downer began developing GRAIL in 2011 with Eagle Technology support. Eagle’s case describes it as Downer’s first GIS and names Graeme Henderson in the Eagle account role and Ryan MacVeigh in the project record.",
+      "sources": [
+        {
+          "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+          "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Downer used ArcGIS in operational delivery. Its later enterprise-licence arrangement supported wider use across the company.",
+      "markdown": "Downer used ArcGIS in operational delivery. Its later enterprise-licence arrangement supported wider use across the company.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Eagle’s customer case study is the source for this account.",
+      "markdown": "Eagle’s customer case study is the source for this account.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

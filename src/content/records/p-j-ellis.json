@@ -1,0 +1,42 @@
+{
+  "id": "person:p-j-ellis",
+  "slug": "p-j-ellis",
+  "name": "P. J. Ellis",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/p-j-ellis/",
+  "story": [
+    "P. J. Ellis headed PEL’s Remote Sensing Section in the 1976 Landsat investigation report. His work brought radiometry and electronic instrument design into the programme’s satellite and aircraft observations.",
+    "I. L. Thomas and P. J. Ellis documented the Remote-sensing Image Library Information System, RILIS, in an April 1976 user guide. RILIS ran in Time Shared BASIC on the HP 2100. It stored information about available imagery and allowed users to search the collection using geographic and other identifying information. The system dealt with the catalogue rather than performing the image analysis itself."
+  ],
+  "sources": [
+    {
+      "label": "NASA/DSIR New Zealand Landsat II investigation reports, NASA-CR-146632 and related",
+      "url": "https://ntrs.nasa.gov/api/citations/19760013518/downloads/19760013518.pdf"
+    },
+    {
+      "label": "Chapter 4 · RILIS",
+      "url": "/stories/turning-the-landscape-into-numbers/"
+    }
+  ],
+  "aliases": [
+    "P. J. Ellis"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NASA/DSIR New Zealand Landsat II investigation reports, NASA-CR-146632 and related",
+        "url": "https://ntrs.nasa.gov/api/citations/19760013518/downloads/19760013518.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 4 · RILIS",
+        "url": "/stories/turning-the-landscape-into-numbers/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "person:jason-kerehi",
+  "slug": "jason-kerehi",
+  "name": "Jason Kerehi",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jason-kerehi/",
+  "story": [
+    "Jason Kerehi studied at Victoria University of Wellington from 1997 to 2000, majoring in management and participating in Ngā Tauira, the Māori students' association. His professional record extends from the local-government Māori policy work discussed in the book to Hauora Māori at Health New Zealand. This gives the sacred-sites GIS project a wider background in Māori policy and public services.",
+    "Jason Kerehi, Greater Wellington’s Māori Policy Advisor, presented the Ngāti Hāmua sacred-sites GIS project at the June 2005 Indigenous Knowledges Conference. His paper describes planning the project with Joseph Potangaroa, obtaining equipment and working with Rangitāne researchers and elders. GIS linked mapped sites with photographs and documents to support protection of wāhi tapu and responses to resource-consent proposals.",
+    "Māori Policy Advisor Jason Kerehi and Rangitāne researcher Joseph Potangaroa planned a GIS for Ngāti Hāmua wāhi tapu and other cultural sites so the iwi could organise its research and respond more effectively to resource-consent and land-use pressures."
+  ],
+  "sources": [
+    {
+      "label": "Jason Kerehi, Ngā wāhi tapu o Ngāti Hāmua, Indigenous Knowledges Conference, 22–25 June 2005",
+      "url": "https://www.gw.govt.nz/assets/Documents/2005/09/011-Rangitane-GIS-Conference-Paper-Final-without-umlauts-_2_.pdf"
+    },
+    {
+      "label": "Jason Kerehi - Hauora Māori, Te Whatu Ora | Health New Zealand | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/jason-kerehi-092b5a39"
+    },
+    {
+      "label": "Chapter 29 · Recurring forums",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Jason Kerehi"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Jason Kerehi - Hauora Māori, Te Whatu Ora | Health New Zealand | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/jason-kerehi-092b5a39"
+      }
+    ],
+    [
+      {
+        "label": "Jason Kerehi, Ngā wāhi tapu o Ngāti Hāmua, Indigenous Knowledges Conference, 22–25 June 2005",
+        "url": "https://www.gw.govt.nz/assets/Documents/2005/09/011-Rangitane-GIS-Conference-Paper-Final-without-umlauts-_2_.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · Recurring forums",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

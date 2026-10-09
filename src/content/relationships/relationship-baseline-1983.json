@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1983",
+  "a": "person:r-g-dick",
+  "b": "chapter:2",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-2-8de87e20d6"
+  ],
+  "sources": []
+}

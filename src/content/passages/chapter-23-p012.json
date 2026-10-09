@@ -1,0 +1,28 @@
+{
+  "id": "passage:chapter-23-3756b33c09",
+  "slug": "napier-develops-mapit-3756b33c09",
+  "articleId": "article:chapter-23",
+  "title": "Napier develops MAPiT",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "entity:napier-city-council",
+    "person:simon-nitz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Simon Nitz’s 11 July 2003 Brisbane User Forum presentation, “A Napier Encounter!”, identifies him as GIS Administrator in Napier City Council’s Planning Department. It traces MAPiT through three generations: MapXtreme 2 with static HTML; MapXtreme 3 with MapInfo Encounter and Java applets; and MapXtreme 4 with Encounter 3, XML/XSLT and an image viewer. The internal environment included 109 Encounter users and links to SQL Server, Hansen IMS and a Unix corporate system. MAPiT served the intranet, the public front counter and an internet site.",
+      "markdown": "Simon Nitz’s 11 July 2003 Brisbane User Forum presentation, “A Napier Encounter!”, identifies him as GIS Administrator in Napier City Council’s Planning Department. It traces MAPiT through three generations: MapXtreme 2 with static HTML; MapXtreme 3 with MapInfo Encounter and Java applets; and MapXtreme 4 with Encounter 3, XML/XSLT and an image viewer. The internal environment included 109 Encounter users and links to SQL Server, Hansen IMS and a Unix corporate system. MAPiT served the intranet, the public front counter and an internet site.",
+      "sources": [
+        {
+          "label": "Simon Nitz, “A Napier Encounter!”, Brisbane User Forum, 11 July 2003 (later repost)",
+          "url": "https://www.slideserve.com/tamal/napier-city-council"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

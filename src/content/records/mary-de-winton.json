@@ -1,0 +1,50 @@
+{
+  "id": "person:mary-de-winton",
+  "slug": "mary-de-winton",
+  "name": "Mary de Winton",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mary-de-winton/",
+  "story": [
+    "Mary de Winton's professional profile records work at NIWA. The book connects her freshwater work with the information systems used to organise and retrieve biological observations. Her contribution sits within the wider use of spatial information in freshwater research and environmental management.",
+    "Don Robertson and Mary de Winton described the Freshwater Biodata Information System, FBIS, as a web-based system joining records for fish, invertebrates, submerged macrophytes and other freshwater biota, some of them extending back decades. Users could search by organism, sampling attributes or location, and a web map allowed sites to be selected geographically. Their 2004 article includes a screen image showing how users accessed the records."
+  ],
+  "sources": [
+    {
+      "label": "Mary de Winton - NIWA | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/mary-de-winton-858388250"
+    },
+    {
+      "label": "Chapter 9 · The CRI reorganisation",
+      "url": "/stories/science-goes-spatial/"
+    },
+    {
+      "label": "Don Robertson and Mary de Winton, FBIS: a new freshwater biodata information system, 1 September 2004",
+      "url": "https://niwa.co.nz/water-atmosphere/vol12-no3-september-2004/fbis-new-freshwater-biodata-information-system"
+    }
+  ],
+  "aliases": [
+    "Mary de Winton"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Mary de Winton - NIWA | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/mary-de-winton-858388250"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · The CRI reorganisation",
+        "url": "/stories/science-goes-spatial/"
+      },
+      {
+        "label": "Don Robertson and Mary de Winton, FBIS: a new freshwater biodata information system, 1 September 2004",
+        "url": "https://niwa.co.nz/water-atmosphere/vol12-no3-september-2004/fbis-new-freshwater-biodata-information-system"
+      }
+    ]
+  ]
+}

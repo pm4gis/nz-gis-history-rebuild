@@ -1,0 +1,35 @@
+{
+  "id": "person:grant-lawrence",
+  "slug": "grant-lawrence",
+  "name": "Grant Lawrence",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/grant-lawrence/",
+  "story": [
+    "In 2015 Grant Lawrence's Auckland University of Technology thesis used low-altitude unmanned aerial imagery at Whatipu Scientific Reserve as part of a project classifying coastal wetland vegetation and investigating change. The study combined high-resolution satellite imagery with UAS imagery whose ground detail was about six centimetres. The small aircraft supplied local observations that could complement rather than replace the broader satellite view."
+  ],
+  "sources": [
+    {
+      "label": "Grant LAWRENCE | Researcher | MSc. | Auckland Council, Auckland | Research and Evaluation Unit | Research profile · public profile",
+      "url": "https://www.researchgate.net/profile/Grant-Lawrence"
+    },
+    {
+      "label": "Chapter 38 · Wetlands from low altitude",
+      "url": "/stories/mapping-from-a-drone/"
+    }
+  ],
+  "aliases": [
+    "Grant Lawrence"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 38 · Wetlands from low altitude",
+        "url": "/stories/mapping-from-a-drone/"
+      }
+    ]
+  ]
+}

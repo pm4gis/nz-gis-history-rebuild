@@ -1,0 +1,37 @@
+{
+  "id": "passage:chapter-39-f305bc5792",
+  "slug": "visualisation-and-modelling-f305bc5792",
+  "articleId": "article:chapter-39",
+  "title": "Visualisation and modelling",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39",
+    "person:george-benwell",
+    "person:peter-whigham",
+    "person:yuxiao-li",
+    "person:nick-mulgan"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand GIS researchers were already confronting that distinction by the end of the decade. At the 1999 SIRC colloquium in Dunedin, Yuxiao Li, Peter Whigham, George Benwell and Nick Mulgan presented a paper on the design of a general-purpose three-dimensional spatial information system. The paper addressed the representation, storage and handling of three-dimensional objects. A photographically convincing scene and a spatial database capable of maintaining volumes, relationships and geometry are related problems, but they are not the same problem.",
+      "markdown": "New Zealand GIS researchers were already confronting that distinction by the end of the decade. At the 1999 SIRC colloquium in Dunedin, Yuxiao Li, Peter Whigham, George Benwell and Nick Mulgan presented a paper on the design of a general-purpose three-dimensional spatial information system. The paper addressed the representation, storage and handling of three-dimensional objects. A photographically convincing scene and a spatial database capable of maintaining volumes, relationships and geometry are related problems, but they are not the same problem.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Two-dimensional GIS had developed around familiar abstractions. A road could be a line, a property a polygon and a building a footprint. Height might sit in an attribute or a surface underneath those features. Once the third dimension becomes part of the object itself, the data become more complicated. A tunnel may pass beneath a road without intersecting it. Two legal interests may occupy different vertical spaces above the same patch of ground. A pipe may cross another pipe in plan while remaining safely separated in height.",
+      "markdown": "Two-dimensional GIS had developed around familiar abstractions. A road could be a line, a property a polygon and a building a footprint. Height might sit in an attribute or a surface underneath those features. Once the third dimension becomes part of the object itself, the data become more complicated. A tunnel may pass beneath a road without intersecting it. Two legal interests may occupy different vertical spaces above the same patch of ground. A pipe may cross another pipe in plan while remaining safely separated in height.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Three-dimensional information required data structures, relationships and analytical methods. Geometry needed to describe surfaces or volumes. Relationships had to preserve which objects were above, below, inside or connected to others. Coordinates needed a reliable vertical reference as well as a horizontal one. Software also had to draw and query much larger datasets without turning ordinary workstations into expensive heaters.",
+      "markdown": "Three-dimensional information required data structures, relationships and analytical methods. Geometry needed to describe surfaces or volumes. Relationships had to preserve which objects were above, below, inside or connected to others. Coordinates needed a reliable vertical reference as well as a horizontal one. Software also had to draw and query much larger datasets without turning ordinary workstations into expensive heaters.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

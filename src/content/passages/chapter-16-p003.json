@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-16-bdb6c3e775",
+  "slug": "early-census-geography-bdb6c3e775",
+  "articleId": "article:chapter-16",
+  "title": "Early census geography",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The early census maps also reveal why statistical geography cannot be reduced to drawing boundaries after a count. The geography had to exist before enumeration so each sub-enumerator knew the area for which they were responsible. Maps provided a control framework for field work, while the returned books and schedules carried results back into the same geographic structure. Population could then be totalled for districts whose extent was known rather than treated as a list of names and addresses detached from place. Long before database joins, the map and the enumeration record were already working as paired parts of one information system.",
+      "markdown": "The early census maps also reveal why statistical geography cannot be reduced to drawing boundaries after a count. The geography had to exist before enumeration so each sub-enumerator knew the area for which they were responsible. Maps provided a control framework for field work, while the returned books and schedules carried results back into the same geographic structure. Population could then be totalled for districts whose extent was known rather than treated as a list of names and addresses detached from place. Long before database joins, the map and the enumeration record were already working as paired parts of one information system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That process depended on boundaries that could be recognised and administered. A line on a census map might coincide with a road, river, borough edge or other known feature because an enumerator needed to understand where one responsibility ended and another began. The purpose was different from surveying a parcel or compiling topography. The census did not need to claim ownership of the road or define the river as a physical feature; it needed a defensible way to assign households and population to one side or the other. The same practical need later remained when the line became a digital polygon edge.",
+      "markdown": "That process depended on boundaries that could be recognised and administered. A line on a census map might coincide with a road, river, borough edge or other known feature because an enumerator needed to understand where one responsibility ended and another began. The purpose was different from surveying a parcel or compiling topography. The census did not need to claim ownership of the road or define the river as a physical feature; it needed a defensible way to assign households and population to one side or the other. The same practical need later remained when the line became a digital polygon edge.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Reuse for representation placed another demand on the geography. The areas used to collect census information were not the parliamentary electorates themselves, yet population had to be transferred from the census framework into the geography used by the Representation Commission. The Lands and Survey records from the 1890s and 1901–02 describe exactly that kind of post-census mapping work. Boundaries were checked, subdivisions were coloured and population was allocated across the areas needed for representation. Statistical geography was therefore already acting as an intermediary between where people were counted and another administrative geography that had to be adjusted using those counts.",
+      "markdown": "Reuse for representation placed another demand on the geography. The areas used to collect census information were not the parliamentary electorates themselves, yet population had to be transferred from the census framework into the geography used by the Representation Commission. The Lands and Survey records from the 1890s and 1901–02 describe exactly that kind of post-census mapping work. Boundaries were checked, subdivisions were coloured and population was allocated across the areas needed for representation. Statistical geography was therefore already acting as an intermediary between where people were counted and another administrative geography that had to be adjusted using those counts.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The labour involved is easy to underestimate because the finished census tables conceal it. The 1901 records show district survey offices making working maps and Head Office checking them, with tracing, annotation and colouring continuing after enumeration. One office’s estimate that six draughtsmen could spend about a month on the work gives a rare indication of scale. There was no automatic overlay operation to reconcile the geographies. Staff had to make the relationships legible on paper, carry the population totals across them and check that the mapped units were consistent enough for national use.",
+      "markdown": "The labour involved is easy to underestimate because the finished census tables conceal it. The 1901 records show district survey offices making working maps and Head Office checking them, with tracing, annotation and colouring continuing after enumeration. One office’s estimate that six draughtsmen could spend about a month on the work gives a rare indication of scale. There was no automatic overlay operation to reconcile the geographies. Staff had to make the relationships legible on paper, carry the population totals across them and check that the mapped units were consistent enough for national use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This older workflow is the reason the 1945–46 references to population mesh blocks are more than an isolated phrase. They appear inside an established practice of subdividing census territory, mapping those subdivisions and reusing population geography afterwards. Earlier sub-enumerator divisions used different definitions and cannot be treated as equivalent to later meshblocks or as part of one continuous technical specification. The later digital system inherited an established administrative requirement: New Zealand needed small, maintainable geographic units through which population could be collected once and then related to several larger patterns.",
+      "markdown": "This older workflow is the reason the 1945–46 references to population mesh blocks are more than an isolated phrase. They appear inside an established practice of subdividing census territory, mapping those subdivisions and reusing population geography afterwards. Earlier sub-enumerator divisions used different definitions and cannot be treated as equivalent to later meshblocks or as part of one continuous technical specification. The later digital system inherited an established administrative requirement: New Zealand needed small, maintainable geographic units through which population could be collected once and then related to several larger patterns.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

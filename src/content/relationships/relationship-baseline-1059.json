@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1059",
+  "a": "person:laura-nicol",
+  "b": "entity:dunedin-city-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

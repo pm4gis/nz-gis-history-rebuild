@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1080",
+  "a": "person:ian-sutherland",
+  "b": "entity:marlborough-district-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

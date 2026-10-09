@@ -1,0 +1,16 @@
+{
+  "id": "chapter:10",
+  "articleId": "article:chapter-10",
+  "slug": "gis-inside-government",
+  "name": "Government GIS",
+  "kind": "Story",
+  "category": "Early GIS",
+  "url": "/stories/gis-inside-government/",
+  "description": "By the middle of the 1980s, geographic computing inside the New Zealand state was no longer confined to one experimental programme or one specialist scientific group. The Ministry of Works and Development had been maintaining and analysing land-resource information through the NZLRI and LADEDA lineage. Lands and Survey had experience with computer-assisted cadastral mapping, photogrammetry and automated cartographic ",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "women-in-gis"
+  ]
+}

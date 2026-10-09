@@ -1,0 +1,59 @@
+{
+  "id": "person:david-johnston",
+  "slug": "david-johnston",
+  "name": "David Johnston",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-johnston/",
+  "story": [
+    "David Johnston co-authored the 2015 retrospective explaining the Auckland lifelines project begun in 1996.",
+    "Michele Daly and David Johnston’s later account describes hazard and infrastructure maps alongside workshops in which utilities assessed vulnerability and recovery.",
+    "LINZ’s Brown Bag Resilience Series names David Johnston: Massey University / QuakeCoRE; natural hazard readiness, 11 April 2019."
+  ],
+  "sources": [
+    {
+      "label": "Michele Daly and David Johnston, The genesis of volcanic risk assessment for the Auckland engineering lifelines project: 1996–2000, 2015",
+      "url": "https://link.springer.com/article/10.1186/s13617-015-0027-9"
+    },
+    {
+      "label": "Chapter 25 · Auckland lifelines, established in 1996",
+      "url": "/stories/mapping-the-networks/"
+    },
+    {
+      "label": "LINZ, Brown Bag Resilience Series presentations",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/brown-bag-resilience-series-presentations"
+    }
+  ],
+  "aliases": [
+    "David Johnston"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Michele Daly and David Johnston, The genesis of volcanic risk assessment for the Auckland engineering lifelines project: 1996–2000, 2015",
+        "url": "https://link.springer.com/article/10.1186/s13617-015-0027-9"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 25 · Auckland lifelines, established in 1996",
+        "url": "/stories/mapping-the-networks/"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Brown Bag Resilience Series presentations",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/brown-bag-resilience-series-presentations"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Auckland lifelines, established in 1996",
+      "url": "/stories/mapping-the-networks/"
+    }
+  ]
+}

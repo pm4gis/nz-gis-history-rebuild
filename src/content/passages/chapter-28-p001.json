@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-28-828e75ea07",
+  "slug": "crime-enters-the-records-system-828e75ea07",
+  "articleId": "article:chapter-28",
+  "title": "Crime enters the records system",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28",
+    "entity:new-zealand-police",
+    "person:andy-gilmour",
+    "person:jill-barclay"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the mid-1990s New Zealand Police was rebuilding the way it recorded and retrieved operational information. The important geographic decision was made inside that wider records environment. A later practitioner account by Andy Gilmour and Jill Barclay records that geographic analysis was identified as a key reporting capability while the new system was being developed. Police wanted analysts to ask what had happened, where it had happened, when it had happened and what else had occurred nearby. That requirement placed location alongside offence type, time, people and other recorded attributes as a working part of crime analysis.",
+      "markdown": "By the mid-1990s New Zealand Police was rebuilding the way it recorded and retrieved operational information. The important geographic decision was made inside that wider records environment. A later practitioner account by Andy Gilmour and Jill Barclay records that geographic analysis was identified as a key reporting capability while the new system was being developed. Police wanted analysts to ask what had happened, where it had happened, when it had happened and what else had occurred nearby. That requirement placed location alongside offence type, time, people and other recorded attributes as a working part of crime analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Earlier Police systems preceded MAPS. Police developed a client GIS and rolled it out to 19 analyst sites in early 1999, later expanding the deployment to 33 sites. It was a specialist environment. Each site needed a suitably configured workstation and printer, crime and mapping data had to be loaded locally, software versions could diverge and support was spread across geographically dispersed installations. Intelligence analysts were the principal users, and the practitioner history records limited familiarity with GIS among some of those expected to use it.",
+      "markdown": "Earlier Police systems preceded MAPS. Police developed a client GIS and rolled it out to 19 analyst sites in early 1999, later expanding the deployment to 33 sites. It was a specialist environment. Each site needed a suitably configured workstation and printer, crime and mapping data had to be loaded locally, software versions could diverge and support was spread across geographically dispersed installations. Intelligence analysts were the principal users, and the practitioner history records limited familiarity with GIS among some of those expected to use it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A photograph taken at the Police College on 2 November 1998 provides an earlier visual trace of this emerging practice. It shows a CRT displaying a geographic hot-spot map associated with unlawful taking. The caption does not identify the software, but the image shows that screen-based crime-pattern mapping was already part of Police analytical work before the better documented MAPS milestones of 1999 and 2000.",
+      "markdown": "A photograph taken at the Police College on 2 November 1998 provides an earlier visual trace of this emerging practice. It shows a CRT displaying a geographic hot-spot map associated with unlawful taking. The caption does not identify the software, but the image shows that screen-based crime-pattern mapping was already part of Police analytical work before the better documented MAPS milestones of 1999 and 2000.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

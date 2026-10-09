@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-6-b64cb933b0",
+  "slug": "data-conversion-as-ordinary-work-b64cb933b0",
+  "articleId": "article:chapter-6",
+  "title": "Data conversion as ordinary work",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:6"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The growing GIS market created a large amount of conversion work that rarely appeared in short histories of software adoption. Existing maps had to be digitised. Coordinates had to be transformed between systems. Attribute codes needed to be checked and sometimes redesigned. Files from one package could require translation before another package could read them correctly.",
+      "markdown": "The growing GIS market created a large amount of conversion work that rarely appeared in short histories of software adoption. Existing maps had to be digitised. Coordinates had to be transformed between systems. Attribute codes needed to be checked and sometimes redesigned. Files from one package could require translation before another package could read them correctly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Map projection differences were an everyday example. The North Taranaki biological-resources mock-up used datasets compiled in different projections. Bringing them into one geographic display required more than copying files onto the same disk. Staff needed to know the source coordinate system, transform the geometry and check whether the resulting overlay made sense.",
+      "markdown": "Map projection differences were an everyday example. The North Taranaki biological-resources mock-up used datasets compiled in different projections. Bringing them into one geographic display required more than copying files onto the same disk. Staff needed to know the source coordinate system, transform the geometry and check whether the resulting overlay made sense.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same applied to scale. A national ecological boundary and a detailed local map could both be digital while still representing geography at very different levels of precision. A computer could overlay them exactly in mathematical terms without making their source accuracies equivalent. GIS made comparison easier, but it also made it easier to place unlike datasets on top of one another and forget how they had been compiled.",
+      "markdown": "The same applied to scale. A national ecological boundary and a detailed local map could both be digital while still representing geography at very different levels of precision. A computer could overlay them exactly in mathematical terms without making their source accuracies equivalent. GIS made comparison easier, but it also made it easier to place unlike datasets on top of one another and forget how they had been compiled.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Attribute conversion could be just as laborious as geometry. Different organisations had their own codes, identifiers, field structures and naming conventions. A commercial GIS could store those fields, but the software did not decide whether two agencies meant the same thing by similar terms. Much of the practical work involved translating institutional knowledge into data structures that another system could use.",
+      "markdown": "Attribute conversion could be just as laborious as geometry. Different organisations had their own codes, identifiers, field structures and naming conventions. A commercial GIS could store those fields, but the software did not decide whether two agencies meant the same thing by similar terms. Much of the practical work involved translating institutional knowledge into data structures that another system could use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Staff performed this work under several job titles. Cartographers prepared source material. Digitising operators captured geometry. Programmers wrote conversion routines. Scientists checked classifications. Database staff maintained codes and identifiers. Survey and mapping specialists dealt with coordinate systems and positional problems. The developing GIS profession was built partly from these existing occupations rather than from a new workforce arriving fully formed.",
+      "markdown": "Staff performed this work under several job titles. Cartographers prepared source material. Digitising operators captured geometry. Programmers wrote conversion routines. Scientists checked classifications. Database staff maintained codes and identifiers. Survey and mapping specialists dealt with coordinate systems and positional problems. The developing GIS profession was built partly from these existing occupations rather than from a new workforce arriving fully formed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "entity:interpine-innovation",
+  "slug": "interpine-innovation",
+  "name": "Interpine Innovation",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/interpine-innovation/",
+  "website": null,
+  "story": [
+    "Interpine developed from Mike King’s forestry contracting business into technical forestry services. Its published history documents a changing mix of field experience, inventory and computing. David Herries’ 2014 GeoMaster and ArcMap guide shows an ordinary forestry task: mapping unstocked gaps, changing the stand record and recording why the area had changed. GIS was part of maintaining an operational forest record, with imagery and GPS supplying evidence for the edits."
+  ],
+  "sources": [
+    {
+      "label": "David Herries, GeoMaster and ArcMap workflow, 29 August 2014",
+      "url": "https://interpine.nz/mapping-out-forest-stand-gaps-in-geomaster-and-arcmap/"
+    },
+    {
+      "label": "Interpine, Putting a new Spin on Forestry, 2001",
+      "url": "https://interpine.nz/putting-a-new-spin-on-forestry/"
+    }
+  ],
+  "aliases": [
+    "Interpine Innovation"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

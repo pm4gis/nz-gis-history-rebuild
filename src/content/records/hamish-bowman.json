@@ -1,0 +1,43 @@
+{
+  "id": "person:hamish-bowman",
+  "slug": "hamish-bowman",
+  "name": "Hamish Bowman",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/hamish-bowman/",
+  "story": [
+    "Hamish Bowman works in scientific computing, numerical modelling and instrumentation at the University of Otago. He completed a BA in Earth and Space Science at the State University of New York at Stony Brook in 1996 and worked as an engineer before undertaking contract science in New Zealand. His Otago profile records involvement in the GRASS GIS development team and OSGeo from 2002, alongside research into fjord habitats, storm surge and coastal exposure.",
+    "The 2007 SIRC work by M. Hamish Bowman on tools for aggregating and geoprocessing raw spatial data examined the handling of large spatial datasets. LiDAR was already creating data volumes that required purpose-built approaches rather than treating every return like an ordinary GIS point feature."
+  ],
+  "sources": [
+    {
+      "label": "Hamish Bowman · career/profile reference",
+      "url": "https://www.otago.ac.nz/geology/staff/hamish-bowman"
+    },
+    {
+      "label": "Chapter 37 · The point cloud becomes a dataset",
+      "url": "/stories/lidar-remakes-the-landscape/"
+    }
+  ],
+  "aliases": [
+    "Hamish Bowman",
+    "M. Hamish Bowman"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Hamish Bowman · career/profile reference",
+        "url": "https://www.otago.ac.nz/geology/staff/hamish-bowman"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 37 · The point cloud becomes a dataset",
+        "url": "/stories/lidar-remakes-the-landscape/"
+      }
+    ]
+  ]
+}

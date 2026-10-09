@@ -1,0 +1,49 @@
+{
+  "id": "person:kate-waterhouse",
+  "slug": "kate-waterhouse",
+  "name": "Kate Waterhouse",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kate-waterhouse/",
+  "story": [
+    "Kate Waterhouse’s 2017 award submission records NZEUG executive committee service, two years as secretary, and organising the Rotorua 2016 and Tauranga 2017 regional user conferences. She also contributed to the NZGIS4EM emergency-management network. A 2018 practitioner paper names her in its account of developing geospatial capability and readiness for emergency response.",
+    "LINZ and the Geospatial Capability Committee included Kate Waterhouse in the Leaving School geospatial career-profile series: GIS Analyst, Bay of Plenty Regional Council, July 2018."
+  ],
+  "sources": [
+    {
+      "label": "Kate Waterhouse, Asia Pacific Spatial Excellence Awards 2017, Young Professional of the Year submission"
+    },
+    {
+      "label": "Derek Phyn, New Zealand GIS for Emergency Management, ISCRAM 2018",
+      "url": "https://idl.iscram.org/files/derekphyn/2018/1646_DerekPhyn2018.pdf"
+    },
+    {
+      "label": "Come and join our fabulous geospatial team! We work for a great company, get to live in a great place and work for and alongside great people! ✔️✔️ | Kate Waterhouse · public profile",
+      "url": "https://www.linkedin.com/posts/kate-waterhouse-6ab9a86b_come-and-join-our-fabulous-geospatial-team-activity-7134726121136279552-9aNm"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Kate Waterhouse"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Derek Phyn, New Zealand GIS for Emergency Management, ISCRAM 2018",
+        "url": "https://idl.iscram.org/files/derekphyn/2018/1646_DerekPhyn2018.pdf"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

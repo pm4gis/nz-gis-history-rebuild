@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1609",
+  "a": "person:sarah-hodgson",
+  "b": "chapter:40",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-40-4580a42438"
+  ],
+  "sources": []
+}

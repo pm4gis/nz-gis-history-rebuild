@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1160",
+  "a": "system:enterprise-gis",
+  "b": "chapter:30",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

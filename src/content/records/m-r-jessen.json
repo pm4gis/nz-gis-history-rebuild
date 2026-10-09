@@ -1,0 +1,44 @@
+{
+  "id": "person:m-r-jessen",
+  "slug": "m-r-jessen",
+  "name": "M. R. Jessen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/m-r-jessen/",
+  "story": [
+    "P. G. Luckman, R. G. Gibb and M. R. Jessen wrote on combining expert systems and GIS for land classification.",
+    "M. R. Jessen’s 1987 *Urban Land Use Capability Survey Handbook* documented a system developed for land evaluation at the more detailed scales required for urban development. The work drew on the LUC tradition but focused on constraints relevant to settlement, infrastructure and hazard rather than on agricultural production alone."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 6 · A shared name",
+      "url": "/stories/when-gis-became-gis/"
+    },
+    {
+      "label": "Chapter 7 · Urban land capability",
+      "url": "/stories/mapping-land-as-data/"
+    }
+  ],
+  "aliases": [
+    "M. R. Jessen"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 6 · A shared name",
+        "url": "/stories/when-gis-became-gis/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 7 · Urban land capability",
+        "url": "/stories/mapping-land-as-data/"
+      }
+    ]
+  ]
+}

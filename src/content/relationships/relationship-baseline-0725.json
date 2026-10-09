@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0725",
+  "a": "person:bill-robertson",
+  "b": "chapter:15",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-15-f5ce4f99a7"
+  ],
+  "sources": []
+}

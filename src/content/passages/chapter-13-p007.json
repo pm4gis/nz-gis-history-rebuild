@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-13-0e2b6831a0",
+  "slug": "precision-on-the-screen-0e2b6831a0",
+  "articleId": "article:chapter-13",
+  "title": "Precision on the screen",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For ordinary GIS work the distinction between cadastral representation and legal boundary could be easy to miss. A user could zoom in, overlay an aerial photograph, add a planning zone and measure a distance with a cursor. The software would return a number whether or not the source geometry justified it. The database had made calculation easy before it had made every coordinate equally reliable. That is a recurring problem in digital mapping: a system can calculate far more precisely than its source data was ever observed.",
+      "markdown": "For ordinary GIS work the distinction between cadastral representation and legal boundary could be easy to miss. A user could zoom in, overlay an aerial photograph, add a planning zone and measure a distance with a cursor. The software would return a number whether or not the source geometry justified it. The database had made calculation easy before it had made every coordinate equally reliable. That is a recurring problem in digital mapping: a system can calculate far more precisely than its source data was ever observed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Surveyors approached the same parcel from a different evidential direction. They could use the digital cadastre to locate relevant parcels and surveys, but boundary definition depended on the cadastral survey record, marks on or related to the ground, legal principles and professional judgement. Where parcel coordinates disagreed with better survey information, users needed to check the underlying survey records. Landonline’s conversion work addressed these differences in positional accuracy.",
+      "markdown": "Surveyors approached the same parcel from a different evidential direction. They could use the digital cadastre to locate relevant parcels and surveys, but boundary definition depended on the cadastral survey record, marks on or related to the ground, legal principles and professional judgement. Where parcel coordinates disagreed with better survey information, users needed to check the underlying survey records. Landonline’s conversion work addressed these differences in positional accuracy.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The uneven accuracy also affected downstream overlay. A planning or environmental layer might have its own positional limitations, while an orthophoto could be more or less accurate depending on its control and production. Overlaying all three could create slivers and apparent encroachments that were artefacts of different datasets rather than real conditions on the ground. DCDB users needed metadata, experience and restraint. National digital availability made comparison easier, but comparison could expose differences that paper workflows had kept in separate drawers.",
+      "markdown": "The uneven accuracy also affected downstream overlay. A planning or environmental layer might have its own positional limitations, while an orthophoto could be more or less accurate depending on its control and production. Overlaying all three could create slivers and apparent encroachments that were artefacts of different datasets rather than real conditions on the ground. DCDB users needed metadata, experience and restraint. National digital availability made comparison easier, but comparison could expose differences that paper workflows had kept in separate drawers.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

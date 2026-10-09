@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-39-7e74899263",
+  "slug": "choosing-a-dimensional-model-7e74899263",
+  "articleId": "article:chapter-39",
+  "title": "Choosing a dimensional model",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Organisations used three-dimensional models alongside two-dimensional GIS. Many questions remain easiest to answer in two dimensions. Property searches, thematic maps, network summaries and broad statistical patterns can become harder to read when every object is extruded into a scene. Three dimensions are useful when height, depth, volume, visibility or vertical relationships change the analysis.",
+      "markdown": "Organisations used three-dimensional models alongside two-dimensional GIS. Many questions remain easiest to answer in two dimensions. Property searches, thematic maps, network summaries and broad statistical patterns can become harder to read when every object is extruded into a scene. Three dimensions are useful when height, depth, volume, visibility or vertical relationships change the analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This practical test explains why the strongest New Zealand cases are concentrated in terrain, surveying, infrastructure, dense urban development and complex property rights. In each case the vertical dimension carries information that a plan view alone cannot express adequately. Where it does not, a conventional map may remain clearer and cheaper. Two-dimensional maps and three-dimensional models continued to serve different tasks.",
+      "markdown": "This practical test explains why the strongest New Zealand cases are concentrated in terrain, surveying, infrastructure, dense urban development and complex property rights. In each case the vertical dimension carries information that a plan view alone cannot express adequately. Where it does not, a conventional map may remain clearer and cheaper. Two-dimensional maps and three-dimensional models continued to serve different tasks.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the end of 2025 the third dimension had nevertheless become an ordinary part of the geospatial toolkit. Point clouds could come from airborne or terrestrial laser scanning and from photogrammetry. Surveyors and engineers exchanged richer geometry. Cadastral researchers and LINZ were preparing for more explicit 3D representation. City models, BIM-GIS workflows and digital-twin research were testing how that information could be joined and maintained.",
+      "markdown": "By the end of 2025 the third dimension had nevertheless become an ordinary part of the geospatial toolkit. Point clouds could come from airborne or terrestrial laser scanning and from photogrammetry. Surveyors and engineers exchanged richer geometry. Cadastral researchers and LINZ were preparing for more explicit 3D representation. City models, BIM-GIS workflows and digital-twin research were testing how that information could be joined and maintained.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Once organisations rely on many spatial datasets, applications, databases and services at once, the problem shifts from representation to shared organisational infrastructure. Databases, services, identity, governance and integration determine whether spatial capability can serve many users without requiring every one of them to know where the machinery sits.",
+      "markdown": "Once organisations rely on many spatial datasets, applications, databases and services at once, the problem shifts from representation to shared organisational infrastructure. Databases, services, identity, governance and integration determine whether spatial capability can serve many users without requiring every one of them to know where the machinery sits.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "imageId": "image:linz-otago",
+      "alt": "LINZ imagery: Otago",
+      "caption": "Otago. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    }
+  ],
+  "sources": []
+}

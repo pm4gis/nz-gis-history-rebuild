@@ -1,0 +1,34 @@
+{
+  "id": "article:chapter-16",
+  "slug": "census-geography",
+  "title": "Census geography",
+  "url": "/stories/census-geography/",
+  "summary": "A topographic boundary usually follows something that can be seen or measured in the landscape. A cadastral boundary represents a legal interest in land. Census geography has a different job. Its lines divide the country into unit",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 16,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch16-note-01",
+      "text": "1. Analogue census geography. Department of Lands and Survey annual reports document the 1944–46 census-mapping programme. The 1945 report records census mapping beginning in August 1944, the Government Statistician defining sub-enumerator districts, district Chief Surveyors preparing maps and subdivision into population mesh blocks. The 1946 report records 1,352 completed sub-enumerator maps divided into population mesh blocks and delivered before the September census."
+    },
+    {
+      "id": "ch16-note-02",
+      "text": "2. Nationwide meshblocks and digital conversion. The controlling later Statistics New Zealand geographic standard documents the nationwide meshblock system established in 1976 and DOSLI's nationwide digitisation of the meshblock pattern in 1991. Analogue statistical geography preceded the 1976 national system and its 1991 digital conversion."
+    },
+    {
+      "id": "ch16-note-03",
+      "text": "3. Digital boundary quality. Statistics New Zealand's 2008 Digital Boundaries metadata documents source scales, approximate positional tolerances, maintenance arrangements and the distinction between detailed and generalised boundary products. The original digital geometry was captured from approximately 1:5,000 urban and 1:50,000 rural mapping, with later metadata recording approximately plus or minus 10 metres urban and plus or minus 25 metres rural."
+    },
+    {
+      "id": "ch16-note-04",
+      "text": "4. Counts and concordances. The same metadata records the meshblock totals: 34,882 in the 1990 pattern, 35,152 for the 1991 Census, 36,808 for 1996, 38,366 for 2001 and 41,392 for 2006. Statistics New Zealand documentation describes concordances and pattern-year control. The changing counts do not form a direct population-growth series."
+    },
+    {
+      "id": "ch16-note-05",
+      "text": "5. Distribution and pricing. The March 2002 product material documents the free WebMap, the 2001 Census Meshblock Database price of NZ$1,200 plus GST and the documented redistribution/multi-organisation price. The May 2002 free-access announcement separately documents Census Table Builder and Supermap comparisons. The July and October 2007 government/Statistics New Zealand records document removal of charges on standard Digital Boundaries and StreetLink files and distribution in Esri shapefile and MapInfo formats."
+    }
+  ]
+}

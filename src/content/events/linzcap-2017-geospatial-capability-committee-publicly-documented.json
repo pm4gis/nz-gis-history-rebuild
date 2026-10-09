@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2017-geospatial-capability-committee-publicly-documented",
+  "dateDisplay": "2017",
+  "startDate": "2017-01-01",
+  "datePrecision": "year",
+  "year": 2017,
+  "label": "Geospatial Capability Committee publicly documented",
+  "summary": "By 2017 the cross-sector committee was setting capability goals across schools, tertiary education, industry, participation and workforce development.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

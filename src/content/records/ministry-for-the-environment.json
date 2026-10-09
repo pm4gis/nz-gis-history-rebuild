@@ -1,0 +1,29 @@
+{
+  "id": "agency:ministry-for-the-environment",
+  "slug": "ministry-for-the-environment",
+  "name": "Ministry for the Environment",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/ministry-for-the-environment/",
+  "story": [
+    "The Ministry for the Environment worked with Landcare Research on Land Environments of New Zealand, released as an atlas and digital environmental classification in April 2003. LENZ combined climate, landform and soil variables to identify similar environments across New Zealand.",
+    "The Ministry was also a participant in the four-year Land Cover Research Programme announced in August 2011, which used satellite technology, geospatial mapping and advanced computing and built on the Ministry’s Land Use and Carbon Analysis System."
+  ],
+  "sources": [
+    {
+      "label": "Beehive, Award-winning classification system published as full colour atlas, 23 April 2003",
+      "url": "https://www.beehive.govt.nz/release/award-winning-classification-system-published-full-colour-atlas"
+    },
+    {
+      "label": "Beehive, $4 million for high-tech mapping programme, 12 August 2011",
+      "url": "https://www.beehive.govt.nz/release/4-million-high-tech-mapping-programme"
+    }
+  ],
+  "aliases": [
+    "Ministry for the Environment"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

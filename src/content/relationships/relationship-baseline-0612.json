@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0612",
+  "a": "person:keith-carr",
+  "b": "chapter:6",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-6-9266bbf08f"
+  ],
+  "sources": []
+}

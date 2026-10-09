@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-17-df40b06f16",
+  "slug": "address-standards-df40b06f16",
+  "articleId": "article:chapter-17",
+  "title": "Address standards",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Emergency-service requirements were only one part of a broader move toward consistent addressing. An address had to work for someone reading it on an envelope, a council officer maintaining a property record and software trying to match it against a national database. Small local differences could create large national complications. Road types might be abbreviated differently, duplicated road names might be harmless within one district but ambiguous in a national search, and subdivision could leave several properties competing for numbers between two existing addresses. Consistency therefore depended as much on allocation rules as on database technology.",
+      "markdown": "Emergency-service requirements were only one part of a broader move toward consistent addressing. An address had to work for someone reading it on an envelope, a council officer maintaining a property record and software trying to match it against a national database. Small local differences could create large national complications. Road types might be abbreviated differently, duplicated road names might be harmless within one district but ambiguous in a national search, and subdivision could leave several properties competing for numbers between two existing addresses. Consistency therefore depended as much on allocation rules as on database technology.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Australian/New Zealand rural and urban addressing standard introduced in 2003 provided a common framework for territorial authorities and other users. Its later 2011 replacement covered the assignment of addresses, road naming, recording and mapping information, and signage. The aim was to identify properties clearly and unambiguously. Familiar conventions such as odd and even numbers on opposite sides of a road, and distance-based numbering in rural areas, became part of a nationally recognisable approach rather than a collection of unrelated local customs.",
+      "markdown": "The Australian/New Zealand rural and urban addressing standard introduced in 2003 provided a common framework for territorial authorities and other users. Its later 2011 replacement covered the assignment of addresses, road naming, recording and mapping information, and signage. The aim was to identify properties clearly and unambiguously. Familiar conventions such as odd and even numbers on opposite sides of a road, and distance-based numbering in rural areas, became part of a nationally recognisable approach rather than a collection of unrelated local customs.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This standardisation also clarified the difference between allocating an address and recording one. Councils remained responsible for naming roads and assigning property numbers. The national land-information organisation received those decisions, checked them against the relevant standards and maintained the official record. A database could reject or query an ambiguous allocation; the council retained responsibility for the original decision. The workflow combined local authority with national quality control.",
+      "markdown": "This standardisation also clarified the difference between allocating an address and recording one. Councils remained responsible for naming roads and assigning property numbers. The national land-information organisation received those decisions, checked them against the relevant standards and maintained the official record. A database could reject or query an ambiguous allocation; the council retained responsibility for the original decision. The workflow combined local authority with national quality control.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "As software treated addresses as structured data, separate fields for number, road, locality and unit became operationally important. Number, road name, road type, unit information, suburb or locality and territorial authority could be stored separately and recombined for display. A unique identifier could preserve the identity of the address even when some text changed. A road could likewise have an identity distinct from its displayed name or geometry. This reduced dependence on exact string matching and made it easier to propagate changes across linked systems.",
+      "markdown": "As software treated addresses as structured data, separate fields for number, road, locality and unit became operationally important. Number, road name, road type, unit information, suburb or locality and territorial authority could be stored separately and recombined for display. A unique identifier could preserve the identity of the address even when some text changed. A road could likewise have an identity distinct from its displayed name or geometry. This reduced dependence on exact string matching and made it easier to propagate changes across linked systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Some addresses remained ambiguous even within a structured system. A retirement village, shopping complex or apartment building might contain several independently useful delivery or emergency locations inside one cadastral parcel. A corner property could have relationships to more than one road. A rural property might have several gates that mattered operationally. The data model therefore had to represent the location people actually used as well as the legal land beneath it. National consistency worked best when the system preserved those differences instead of forcing each property into one number, one point and one parcel.",
+      "markdown": "Some addresses remained ambiguous even within a structured system. A retirement village, shopping complex or apartment building might contain several independently useful delivery or emergency locations inside one cadastral parcel. A corner property could have relationships to more than one road. A rural property might have several gates that mattered operationally. The data model therefore had to represent the location people actually used as well as the legal land beneath it. National consistency worked best when the system preserved those differences instead of forcing each property into one number, one point and one parcel.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

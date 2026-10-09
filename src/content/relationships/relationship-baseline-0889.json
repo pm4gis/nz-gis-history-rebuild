@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0889",
+  "a": "person:martin-erasmuson",
+  "b": "entity:canterbury-earthquake-recovery-authority-cera",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

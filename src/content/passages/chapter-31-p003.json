@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-31-c2e3d42633",
+  "slug": "new-zealand-in-a-google-layer-c2e3d42633",
+  "articleId": "article:chapter-31",
+  "title": "New Zealand in a Google layer",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Tourism New Zealand worked with Google to create a 100% Pure New Zealand layer for Google Earth. A contemporary government announcement described it as the first time a tourism authority had developed an official Google Earth layer. The layer identified visitor centres, towns and scenic highlights and linked them back to newzealand.com for more detailed travel information, accommodation, transport and activities.",
+      "markdown": "Tourism New Zealand worked with Google to create a 100% Pure New Zealand layer for Google Earth. A contemporary government announcement described it as the first time a tourism authority had developed an official Google Earth layer. The layer identified visitor centres, towns and scenic highlights and linked them back to newzealand.com for more detailed travel information, accommodation, transport and activities.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A national organisation could take geographically organised information and place it inside a consumer mapping environment already used by people around the world. The map was no longer confined to the organisation's own website or a specialist GIS viewer. New Zealand information could appear as a layer inside a global digital globe.",
+      "markdown": "A national organisation could take geographically organised information and place it inside a consumer mapping environment already used by people around the world. The map was no longer confined to the organisation's own website or a specialist GIS viewer. New Zealand information could appear as a layer inside a global digital globe.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That was a different publishing model from the first web maps. An agency no longer had to own the whole visual environment in which its geography appeared. It could supply an overlay, points of interest and links while Google supplied the globe, imagery, terrain, navigation and software. This separation made geographic publishing easier to imagine for organisations whose real business was tourism, education, communication or public information rather than GIS.",
+      "markdown": "That was a different publishing model from the first web maps. An agency no longer had to own the whole visual environment in which its geography appeared. It could supply an overlay, points of interest and links while Google supplied the globe, imagery, terrain, navigation and software. This separation made geographic publishing easier to imagine for organisations whose real business was tourism, education, communication or public information rather than GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "It also showed how quickly Google Earth had moved from curiosity to distribution channel. Less than two years after its launch, a New Zealand government tourism organisation was using it as part of an international marketing campaign. The audience did not need to know how the geographic layer had been prepared. They only needed Google Earth and enough curiosity to click on New Zealand.",
+      "markdown": "It also showed how quickly Google Earth had moved from curiosity to distribution channel. Less than two years after its launch, a New Zealand government tourism organisation was using it as part of an international marketing campaign. The audience did not need to know how the geographic layer had been prepared. They only needed Google Earth and enough curiosity to click on New Zealand.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

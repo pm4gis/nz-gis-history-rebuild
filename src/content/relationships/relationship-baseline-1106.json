@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1106",
+  "a": "person:steve-caswell",
+  "b": "entity:timaru-district-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

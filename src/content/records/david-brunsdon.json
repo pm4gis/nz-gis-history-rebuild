@@ -1,0 +1,48 @@
+{
+  "id": "person:david-brunsdon",
+  "slug": "david-brunsdon",
+  "name": "David Brunsdon",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-brunsdon/",
+  "story": [
+    "David Brunsdon was the Wellington lifelines project manager; his 1997 paper documents the programme’s growth and the contribution of GIS overlay.",
+    "Writing in June 1997, Wellington group project manager David Brunsdon identified GIS overlay of infrastructure networks and seismic hazards as an important development during this period. Water, wastewater, electricity, gas and telecommunications shared this geographic problem. The study dates establish the collaborative programme; they do not date every participant’s GIS installation."
+  ],
+  "sources": [
+    {
+      "label": "David R. Brunsdon, Lifelines engineering: a long way in a decade, June 1997, pp.194–200",
+      "url": "https://bulletin.nzsee.org.nz/index.php/bnzsee/article/view/574/551"
+    },
+    {
+      "label": "Chapter 25 · Shared utility studies, 1989–1996",
+      "url": "/stories/mapping-the-networks/"
+    }
+  ],
+  "aliases": [
+    "David Brunsdon"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "David R. Brunsdon, Lifelines engineering: a long way in a decade, June 1997, pp.194–200",
+        "url": "https://bulletin.nzsee.org.nz/index.php/bnzsee/article/view/574/551"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 25 · Shared utility studies, 1989–1996",
+        "url": "/stories/mapping-the-networks/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Shared utility studies, 1989–1996",
+      "url": "/stories/mapping-the-networks/"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-36-59ed049ff8",
+  "slug": "specialist-interpretation-59ed049ff8",
+  "articleId": "article:chapter-36",
+  "title": "Specialist interpretation",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Routine access still required users to understand the imagery and its limitations. A modern GIS package can display Sentinel-2, calculate vegetation indices and run classification tools with far less friction than the DSIR teams faced in the 1970s. That accessibility is useful, but it can disguise the number of assumptions built into the result. Optical imagery still needs cloud and atmospheric handling. Sensors differ. A summer-to-winter comparison can be technically precise and analytically useless. Training data and validation determine whether a classification deserves confidence.",
+      "markdown": "Routine access still required users to understand the imagery and its limitations. A modern GIS package can display Sentinel-2, calculate vegetation indices and run classification tools with far less friction than the DSIR teams faced in the 1970s. That accessibility is useful, but it can disguise the number of assumptions built into the result. Optical imagery still needs cloud and atmospheric handling. Sensors differ. A summer-to-winter comparison can be technically precise and analytically useless. Training data and validation determine whether a classification deserves confidence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Remote-sensing specialists continued to select, process and interpret observations, while more of their work became available for everyday GIS use. More GIS practitioners can use satellite-derived products directly, while specialists build and validate the methods that make those products reliable. National agencies can publish mosaics and maintained classifications so every user does not need to rebuild the same processing chain. The difficult science increasingly sits behind datasets that look ordinary when opened in GIS.",
+      "markdown": "Remote-sensing specialists continued to select, process and interpret observations, while more of their work became available for everyday GIS use. More GIS practitioners can use satellite-derived products directly, while specialists build and validate the methods that make those products reliable. National agencies can publish mosaics and maintained classifications so every user does not need to rebuild the same processing chain. The difficult science increasingly sits behind datasets that look ordinary when opened in GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That is why earth observation became routine. Repeated observations and accessible data services changed how imagery could be used. The country had satellite images in the 1970s and high-quality aerial photography long before that. The change came when repeated observation, open archives, multispectral sensors, national classification programmes and ordinary spatial-data services converged. A satellite scene stopped being an event. It became another dated observation in a growing geographic record.",
+      "markdown": "That is why earth observation became routine. Repeated observations and accessible data services changed how imagery could be used. The country had satellite images in the 1970s and high-quality aerial photography long before that. The change came when repeated observation, open archives, multispectral sensors, national classification programmes and ordinary spatial-data services converged. A satellite scene stopped being an event. It became another dated observation in a growing geographic record.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Another kind of measurement was becoming equally important. LiDAR replaced reflected colour and broad spectral patterns with dense measurements of surface height, producing point clouds and terrain models detailed enough to alter flood mapping, engineering, forestry and landscape analysis. Earth observation had become routine from above while the shape of the ground itself was becoming newly measurable.",
+      "markdown": "Another kind of measurement was becoming equally important. LiDAR replaced reflected colour and broad spectral patterns with dense measurements of surface height, producing point clouds and terrain models detailed enough to alter flood mapping, engineering, forestry and landscape analysis. Earth observation had become routine from above while the shape of the ground itself was becoming newly measurable.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

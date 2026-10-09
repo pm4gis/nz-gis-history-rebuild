@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-34-ae96aa10db",
+  "slug": "the-camera-joins-the-record-ae96aa10db",
+  "articleId": "article:chapter-34",
+  "title": "The camera joins the record",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Smartphones and tablets added another element that earlier field systems often kept separate. A worker could now record a coordinate, complete a form and take a photograph on the same device. The photograph could remain attached to the inspection or observation rather than being copied from a separate camera and matched later through filenames or notes. This was useful for asset condition, compliance, environmental observations, damage assessment and field verification. The visual record became another attribute of the mapped feature.",
+      "markdown": "Smartphones and tablets added another element that earlier field systems often kept separate. A worker could now record a coordinate, complete a form and take a photograph on the same device. The photograph could remain attached to the inspection or observation rather than being copied from a separate camera and matched later through filenames or notes. This was useful for asset condition, compliance, environmental observations, damage assessment and field verification. The visual record became another attribute of the mapped feature.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The convenience needs qualification. A phone photograph is not automatically survey evidence, and a stored location does not guarantee survey-grade accuracy. Consumer GNSS may be perfectly adequate for locating a damaged sign, checking a stream site or documenting a culvert, while being completely unsuitable for defining a cadastral boundary or engineering set-out. Organisations therefore had to match positioning methods to the decision being made. Mobile GIS expanded the range of tasks that could include location, but it did not erase the distinction between approximate operational position and precise measurement.",
+      "markdown": "The convenience needs qualification. A phone photograph is not automatically survey evidence, and a stored location does not guarantee survey-grade accuracy. Consumer GNSS may be perfectly adequate for locating a damaged sign, checking a stream site or documenting a culvert, while being completely unsuitable for defining a cadastral boundary or engineering set-out. Organisations therefore had to match positioning methods to the decision being made. Mobile GIS expanded the range of tasks that could include location, but it did not erase the distinction between approximate operational position and precise measurement.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Where greater accuracy was needed, later phones and tablets could act as the interface for external GNSS receivers. A familiar device could handle the form, map, camera and communications while a specialist receiver supplied the position. The field system became modular in much the same way that wider enterprise GIS was becoming modular.",
+      "markdown": "Where greater accuracy was needed, later phones and tablets could act as the interface for external GNSS receivers. A familiar device could handle the form, map, camera and communications while a specialist receiver supplied the position. The field system became modular in much the same way that wider enterprise GIS was becoming modular.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

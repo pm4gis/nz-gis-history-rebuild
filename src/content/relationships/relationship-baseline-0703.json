@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0703",
+  "a": "person:jack-dangermond",
+  "b": "chapter:12",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-12-db33362cb9"
+  ],
+  "sources": []
+}

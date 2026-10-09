@@ -1,0 +1,26 @@
+{
+  "id": "entity:selwyn-district-council",
+  "slug": "selwyn-district-council",
+  "name": "Selwyn District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/selwyn-district-council/",
+  "website": "https://www.selwyn.govt.nz",
+  "story": [
+    "Selwyn District Council’s 2006 Wastewater Activity Management Plan records staff using MapInfo to represent assets geographically during rapid district growth."
+  ],
+  "sources": [
+    {
+      "label": "Selwyn District Council, Wastewater Activity Management Plan, April 2006",
+      "url": "https://www.selwyn.govt.nz/services/water/wastewater/documents/Waste-Water-Activity-Management-Plan.pdf"
+    }
+  ],
+  "aliases": [
+    "Selwyn District Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

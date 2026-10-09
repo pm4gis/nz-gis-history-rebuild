@@ -1,0 +1,29 @@
+{
+  "id": "passage:chapter-23-adbd4f0f56",
+  "slug": "tasman-shares-council-gis-adbd4f0f56",
+  "articleId": "article:chapter-23",
+  "title": "Tasman shares council GIS",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "person:garth-harmsworth",
+    "person:dean-walker",
+    "person:mick-park"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Garth Harmsworth, Mick Park and Dean Walker’s 2005 Motueka case study described Explore Tasman as a comprehensive, read-only council intranet GIS. It held maintained resource, administrative, property, aerial and base information; approved outside users could connect over the internet using a static IP address. The report noted slow access without broadband and limited printing, querying and analysis. For Motueka iwi resource-management practitioners, the viewer provided background information and could avoid buying duplicate base data. The council was preparing Version 2 with planning maps and upgraded archaeological information.",
+      "markdown": "Garth Harmsworth, Mick Park and Dean Walker’s 2005 Motueka case study described Explore Tasman as a comprehensive, read-only council intranet GIS. It held maintained resource, administrative, property, aerial and base information; approved outside users could connect over the internet using a static IP address. The report noted slow access without broadband and limited printing, querying and analysis. For Motueka iwi resource-management practitioners, the viewer provided background information and could avoid buying duplicate base data. The council was preparing Version 2 with planning maps and upgraded archaeological information.",
+      "sources": [
+        {
+          "label": "G. Harmsworth, M. Park and D. Walker, “Report on the development and use of GIS for iwi and hapū: Motueka case study”, 2005",
+          "url": "https://icm.landcareresearch.co.nz/knowledgebase/publications/documents/FinalMay2005ICMMaoriGISreport.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

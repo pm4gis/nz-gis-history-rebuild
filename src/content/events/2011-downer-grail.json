@@ -1,0 +1,32 @@
+{
+  "id": "2011-downer-grail",
+  "dateDisplay": "2011",
+  "startDate": "2011",
+  "datePrecision": "year",
+  "year": 2011,
+  "label": "Downer GRAIL begins",
+  "summary": "Downer began implementing GRAIL with Eagle Technology support. Eagle’s customer case describes GRAIL as Downer’s first GIS system.",
+  "url": "/stories/enterprise-gis/#downer-grail-6605699f23",
+  "passageIds": [
+    "passage:chapter-40-6605699f23"
+  ],
+  "recordIds": [
+    "entity:eagle-technology",
+    "entity:downer",
+    "chapter:40",
+    "person:graeme-henderson",
+    "person:ryan-macveigh"
+  ],
+  "themeIds": [],
+  "categories": [
+    "enterprise",
+    "software",
+    "industry"
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+    }
+  ]
+}

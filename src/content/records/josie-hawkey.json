@@ -1,0 +1,33 @@
+{
+  "id": "person:josie-hawkey",
+  "slug": "josie-hawkey",
+  "name": "Josie Hawkey",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/josie-hawkey/",
+  "story": [
+    "Nathan Heazlewood later recalled an elevator conversation with recent GIS graduate Josie Hawkey, who described how difficult some graduates were finding it to secure their first industry role. That conversation prompted Emerging Spatial Professionals, a volunteer network run by emerging practitioners themselves; its first meeting was held during NZEUC 2015, and by early 2017 Heazlewood reported more than 400 members."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 29 · New professional networks",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Josie Hawkey"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 29 · New professional networks",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

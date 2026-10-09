@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2016-school-virtual-field-trip-focuses-on-positioning",
+  "dateDisplay": "2016",
+  "startDate": "2016-01-01",
+  "datePrecision": "year",
+  "year": 2016,
+  "label": "School virtual field trip focuses on positioning",
+  "summary": "Where are we? covered navigation and positioning across sea, land and air.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

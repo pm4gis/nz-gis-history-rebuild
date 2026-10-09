@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-13-7ee8b0bc4d",
+  "slug": "a-national-conversion-job-7ee8b0bc4d",
+  "articleId": "article:chapter-13",
+  "title": "A national conversion job",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "cadastre"
+  ],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Official LINZ retrospective material dates national conversion into the Digital Cadastral Database from 1985 to 1996, while other period descriptions place formal programme commencement in 1986. These dates may refer to early preparation and conversion work followed by the formal production programme. Converting interpreted record-map content into structured parcel data required years of capture and checking.",
+      "markdown": "Official LINZ retrospective material dates national conversion into the Digital Cadastral Database from 1985 to 1996, while other period descriptions place formal programme commencement in 1986. These dates may refer to early preparation and conversion work followed by the formal production programme. Converting interpreted record-map content into structured parcel data required years of capture and checking.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A record map had to be registered to a digitising table so that the system knew how positions on paper related to coordinates. Operators then traced selected parcel lines and other relevant features with an electronic cursor. Numeric information could also be entered from the keyboard. The captured geometry had to be checked, corrected and connected properly. New cadastral activity did not stop while the old records were being converted, so the production teams had two jobs at once: build the national database and keep the changing cadastre current.",
+      "markdown": "A record map had to be registered to a digitising table so that the system knew how positions on paper related to coordinates. Operators then traced selected parcel lines and other relevant features with an electronic cursor. Numeric information could also be entered from the keyboard. The captured geometry had to be checked, corrected and connected properly. New cadastral activity did not stop while the old records were being converted, so the production teams had two jobs at once: build the national database and keep the changing cadastre current.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The scale of the work is visible in a 1991 United Nations country report on New Zealand cartography. By December 1990 the DCDB contained about 1.066 million parcel polygons, roughly 42 per cent of an estimated 2.5 million. The figure describes the volume of work. Every one of those polygons came from a process of source preparation, capture, interpretation, checking and database maintenance. National coverage was being assembled one district and one collection of records at a time.",
+      "markdown": "The scale of the work is visible in a 1991 United Nations country report on New Zealand cartography. By December 1990 the DCDB contained about 1.066 million parcel polygons, roughly 42 per cent of an estimated 2.5 million. The figure describes the volume of work. Every one of those polygons came from a process of source preparation, capture, interpretation, checking and database maintenance. National coverage was being assembled one district and one collection of records at a time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Surveyors and cadastral specialists interpreted source records. Digitising operators captured geometry. Cartographic and technical staff reconciled source sheets. Database technicians, systems staff, programmers, contractors and quality-control teams supported production. Their work maintained a national parcel database alongside the conversion of paper linework.",
+      "markdown": "Surveyors and cadastral specialists interpreted source records. Digitising operators captured geometry. Cartographic and technical staff reconciled source sheets. Database technicians, systems staff, programmers, contractors and quality-control teams supported production. Their work maintained a national parcel database alongside the conversion of paper linework.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

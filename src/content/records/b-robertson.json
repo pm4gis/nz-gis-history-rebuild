@@ -1,0 +1,42 @@
+{
+  "id": "person:b-robertson",
+  "slug": "b-robertson",
+  "name": "B. Robertson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/b-robertson/",
+  "story": [
+    "B. Robertson wrote Hastings District Council’s 1999 paper on predicting and mapping fire spread. A 2009 Scion review cites that paper in its account of Firesim, a GenaMap application for wildfire simulation and planning.",
+    "The review points back to two 1999 council sources, including a paper by B. Robertson in the Resource Management Division's Office of Emergency Management. Hastings used GenaMap for fire prediction and council spatial data."
+  ],
+  "sources": [
+    {
+      "label": "H. Grant Pearce, Review of Fire Growth Simulation Models for Application in New Zealand, Scion Client Report No. 16246",
+      "url": "https://scion.contentdm.oclc.org/digital/api/collection/p20044coll13/id/27/download"
+    },
+    {
+      "label": "Chapter 28 · Five minutes from the station",
+      "url": "/stories/safety-policing-and-emergency-gis/"
+    }
+  ],
+  "aliases": [
+    "B. Robertson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "H. Grant Pearce, Review of Fire Growth Simulation Models for Application in New Zealand, Scion Client Report No. 16246",
+        "url": "https://scion.contentdm.oclc.org/digital/api/collection/p20044coll13/id/27/download"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 28 · Five minutes from the station",
+        "url": "/stories/safety-policing-and-emergency-gis/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "entity:osgeo-oceania",
+  "slug": "osgeo-oceania",
+  "name": "OSGeo Oceania",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/osgeo-oceania/",
+  "website": "https://osgeo-oceania.org/",
+  "story": [
+    "OSGeo Oceania supports OpenStreetMap and open-source geospatial communities across the region, linking New Zealand practitioners with peers working in QGIS, PostGIS, GeoServer and other open tools.",
+    "OSGeo Oceania is a volunteer organisation supporting OpenStreetMap and open-source geospatial communities across Oceania. Its regional FOSS4G SotM Oceania conference series began in Melbourne in 2018 and came to Wellington in 2019 and Auckland in 2023.",
+    "New Zealand’s open geospatial community became more internationally visible when Auckland hosted the global FOSS4G conference in November 2025. The organisation also supports smaller events, travel and community grants, linking New Zealand practitioners with the wider QGIS, PostGIS, GeoServer, OpenStreetMap and open-source geospatial ecosystem."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    },
+    {
+      "label": "OSGeo Oceania, About",
+      "url": "https://osgeo-oceania.org/about/"
+    },
+    {
+      "label": "OSGeo Oceania, Auckland wins bid to host the 2025 FOSS4G Conference",
+      "url": "https://osgeo-oceania.org/auckland-wins-bid-to-host-the-2025-foss4g-conference/"
+    }
+  ],
+  "aliases": [
+    "OSGeo Oceania"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

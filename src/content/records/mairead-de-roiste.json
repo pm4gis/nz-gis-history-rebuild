@@ -1,0 +1,81 @@
+{
+  "id": "person:mairead-de-roiste",
+  "slug": "mairead-de-roiste",
+  "name": "Mairéad de Róiste",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mairead-de-roiste/",
+  "story": [
+    "Mairéad de Róiste's academic work combines geography, GIS education and research into geospatial skills. Her research profile records a BA with honours, a postgraduate diploma, an MSc and a PhD, and identifies her as an associate professor at Victoria University of Wellington. Her national skills-shortage study links academic research with the practical needs of employers.",
+    "In 2014, Mairéad de Róiste published “Filling the gap: The geospatial skills shortage in New Zealand”. The national study surveyed 157 organisations and documented challenges around student numbers, gaining experience, up-skilling existing practitioners and awareness of geospatial work. It became a workforce anchor for understanding why demand for spatial capability could grow while recruitment remained difficult.",
+    "In 2014, Mairéad de Róiste published a national study of the GIS workforce. Filling the gap: The geospatial skills shortage in New Zealand reported on a survey of 157 organisations across government, academia and the private sector. The study found a New Zealand shortage comparable in broad form with shortages already being discussed overseas. By then organisations clearly valued geospatial work; the harder question was whether enough people could perform it at the level employers required.",
+    "LINZ’s 2026 Geospatial Capability Committee material lists Mairéad de Róiste in Victoria University of Wellington / tertiary representative; Geospatial Capability Committee..",
+    "LINZ’s tertiary GIS directory lists Mairéad de Róiste for Victoria University of Wellington."
+  ],
+  "sources": [
+    {
+      "label": "Mairéad de Róiste, “Filling the gap: The geospatial skills shortage in New Zealand”, New Zealand Geographer 70(3), 2014, 179–189",
+      "url": "https://doi.org/10.1111/nzg.12054"
+    },
+    {
+      "label": "Mairéad DE RÓISTE | Associate Professor/Reader | PhD, MSc, PGDip, BA (Hons) | Victoria University of Wellington, Wellington | School of Geography, Environment and Earth Sciences | Research profile · career/profile reference",
+      "url": "https://www.researchgate.net/profile/Mairead-De-Roiste"
+    },
+    {
+      "label": "Mairéad de Róiste - Wellington, New Zealand | Professional Profile | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/mairead-deroiste"
+    },
+    {
+      "label": "Chapter 29 · The skills shortage becomes visible",
+      "url": "/stories/becoming-a-gis-professional/"
+    },
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    },
+    {
+      "label": "LINZ, Studying GIS",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis"
+    }
+  ],
+  "aliases": [
+    "Mairéad de Róiste"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Mairéad DE RÓISTE | Associate Professor/Reader | PhD, MSc, PGDip, BA (Hons) | Victoria University of Wellington, Wellington | School of Geography, Environment and Earth Sciences | Research profile · career/profile reference",
+        "url": "https://www.researchgate.net/profile/Mairead-De-Roiste"
+      }
+    ],
+    [
+      {
+        "label": "Mairéad de Róiste, “Filling the gap: The geospatial skills shortage in New Zealand”, New Zealand Geographer 70(3), 2014, 179–189",
+        "url": "https://doi.org/10.1111/nzg.12054"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · The skills shortage becomes visible",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Studying GIS",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis"
+      }
+    ]
+  ]
+}

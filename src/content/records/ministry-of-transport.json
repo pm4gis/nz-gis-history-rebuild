@@ -1,0 +1,25 @@
+{
+  "id": "entity:ministry-of-transport",
+  "slug": "ministry-of-transport",
+  "name": "Ministry of Transport",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/ministry-of-transport/",
+  "website": null,
+  "story": [
+    "The Ministry of Transport developed the Transport Domain Plan and Transport Research Strategy, published in July 2016. Joanne Leung, Bonita Cooper (then cited as Bonita Gestro) and Sandy Fong described the work in a 2018 conference paper. A 2019 presentation by Cooper later set out the Transport Evidence Base Strategy."
+  ],
+  "sources": [
+    {
+      "label": "Transport data and research strategy paper, 2018",
+      "url": "https://australasiantransportresearchforum.org.au/wp-content/uploads/2022/03/ATRF2018_paper_56.pdf"
+    }
+  ],
+  "aliases": [
+    "Ministry of Transport"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

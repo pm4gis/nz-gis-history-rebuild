@@ -1,0 +1,31 @@
+{
+  "id": "person:miles-dunkin",
+  "slug": "miles-dunkin",
+  "name": "Miles Dunkin",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/miles-dunkin/",
+  "story": [
+    "A Wellington regional Esri meeting was held on 20 June 2008 at City Gallery Wellington, organised by Laura Nicol and Miles Dunkin. NZEUG covered the attendance cost, Terralink sponsored lunch and Eagle sponsored the closing drinks, while the programme ranged from petroleum-data banking and ArcGIS Server to GIS in schools, remote sensing, Kyoto mapping and DOC use of ArcReader. The December 2008 newsletter nevertheless reported substantial feedback about the lack of regional conferences that year and admitted that attention to the annual conference had come at the expense of other user-group activity. The complaint concerned the amount of regional activity."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Miles Dunkin"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

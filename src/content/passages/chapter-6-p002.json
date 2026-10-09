@@ -1,0 +1,32 @@
+{
+  "id": "passage:chapter-6-864f71f48e",
+  "slug": "north-taranaki-1986-864f71f48e",
+  "articleId": "article:chapter-6",
+  "title": "North Taranaki, 1986",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "local-government",
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:6",
+    "entity:department-of-conservation",
+    "person:mary-mcewen"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Mary McEwen’s 1990 Department of Conservation report preserves contemporary evidence that the Biological Resources Centre was considering digitisation of ecological-region and ecological-district boundaries in late 1985 while DSIR’s Science Mapping Unit was beginning to use an Intergraph GIS. McEwen thought the installation was probably one of the first commercially available GIS systems in New Zealand apart from the specialised NZLRI environment, but she did not claim an absolute national first. A 1986 mock-up for a proposed Biological Resources Information System covering North Taranaki combined graphical and textual material from datasets held in different projections. Commercial GIS was already being used as the GIS label spread across institutions; Chapter 9 describes the scientific application in detail.",
+      "markdown": "Mary McEwen’s 1990 Department of Conservation report preserves contemporary evidence that the Biological Resources Centre was considering digitisation of ecological-region and ecological-district boundaries in late 1985 while DSIR’s Science Mapping Unit was beginning to use an Intergraph GIS. McEwen thought the installation was probably one of the first commercially available GIS systems in New Zealand apart from the specialised NZLRI environment, but she did not claim an absolute national first. A 1986 mock-up for a proposed Biological Resources Information System covering North Taranaki combined graphical and textual material from datasets held in different projections. Commercial GIS was already being used as the GIS label spread across institutions; Chapter 9 describes the scientific application in detail.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "McEwen’s 1989 papers also warned that GIS was expensive, complicated and dependent on clear objectives, trained staff, documented data and continuing maintenance. She recommended defining the organisational problem, piloting the system and assessing costs before wider commitment. Practitioners were already considering how GIS would fit into an organisation’s work.",
+      "markdown": "McEwen’s 1989 papers also warned that GIS was expensive, complicated and dependent on clear objectives, trained staff, documented data and continuing maintenance. She recommended defining the organisational problem, piloting the system and assessing costs before wider commitment. Practitioners were already considering how GIS would fit into an organisation’s work.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

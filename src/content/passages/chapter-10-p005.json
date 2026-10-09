@@ -1,0 +1,54 @@
+{
+  "id": "passage:chapter-10-69b7186ba7",
+  "slug": "government-gis-was-distributed-69b7186ba7",
+  "articleId": "article:chapter-10",
+  "title": "Government GIS was distributed",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:10",
+    "entity:department-of-conservation",
+    "entity:department-of-survey-and-land-information-dosli",
+    "entity:ministry-of-works-and-development"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Other departments also faced these requirements. The Ministry of Works and Development's Water and Soil organisation had already built a mature spatial-information capability around the New Zealand Land Resource Inventory. LADEDA had been developed internally for handling land-dependent data and was explicitly described as a GIS by 1985. Near-contemporary Department of Conservation material records that the NZLRI operation changed from its internally developed software to commercial GIS software in 1988.",
+      "markdown": "Other departments also faced these requirements. The Ministry of Works and Development's Water and Soil organisation had already built a mature spatial-information capability around the New Zealand Land Resource Inventory. LADEDA had been developed internally for handling land-dependent data and was explicitly described as a GIS by 1985. Near-contemporary Department of Conservation material records that the NZLRI operation changed from its internally developed software to commercial GIS software in 1988.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapters 5 and 7 cover the NZLRI in detail. By the late 1980s, spatial information capability was already distributed among organisations with different statutory and operational responsibilities. Water and Soil used GIS for land-resource analysis, Lands and Survey and DOSLI used digital systems for cadastral and national mapping production, and DSIR units used spatial systems for scientific and environmental work. Capability was distributed rather than concentrated in one national GIS unit.",
+      "markdown": "Chapters 5 and 7 cover the NZLRI in detail. By the late 1980s, spatial information capability was already distributed among organisations with different statutory and operational responsibilities. Water and Soil used GIS for land-resource analysis, Lands and Survey and DOSLI used digital systems for cadastral and national mapping production, and DSIR units used spatial systems for scientific and environmental work. Capability was distributed rather than concentrated in one national GIS unit.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Data exchange between those systems could be awkward. Systems had been built for different purposes, sometimes on different computing platforms and in proprietary formats. Coordinate systems, feature classifications and update cycles did not automatically align. Moving data between organisations could require conversion as well as agreement about what the data meant. The increasing professional interest in land-information systems during the late 1980s and early 1990s grew partly from these practical problems.",
+      "markdown": "Data exchange between those systems could be awkward. Systems had been built for different purposes, sometimes on different computing platforms and in proprietary formats. Coordinate systems, feature classifications and update cycles did not automatically align. Moving data between organisations could require conversion as well as agreement about what the data meant. The increasing professional interest in land-information systems during the late 1980s and early 1990s grew partly from these practical problems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Earlier NZLRI data had been held on an IBM 3033 at the Vogel Computer Centre, a central computing environment in Wellington. By the later 1980s commercial GIS and specialist workstations were allowing more spatial processing to sit closer to the teams that used the data, although central services and shared computing did not disappear. Departments had to decide where specialist staff, machines and master databases would sit and how regional users would obtain output. Those arrangements affected response times, support and access to the systems.",
+      "markdown": "Earlier NZLRI data had been held on an IBM 3033 at the Vogel Computer Centre, a central computing environment in Wellington. By the later 1980s commercial GIS and specialist workstations were allowing more spatial processing to sit closer to the teams that used the data, although central services and shared computing did not disappear. Departments had to decide where specialist staff, machines and master databases would sit and how regional users would obtain output. Those arrangements affected response times, support and access to the systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The new systems also increased the number of formats a department had to care about. A printed map could be stored, catalogued and read with no software dependency. A digital dataset depended on its file structure, coordinate system, attribute definitions and often a particular software environment. Proprietary systems could make exchange between agencies awkward, while magnetic media and limited storage encouraged disciplined decisions about what was retained online and how copies were managed. The continuing demand for plots and printed sheets was therefore practical rather than evidence that digitisation had failed.",
+      "markdown": "The new systems also increased the number of formats a department had to care about. A printed map could be stored, catalogued and read with no software dependency. A digital dataset depended on its file structure, coordinate system, attribute definitions and often a particular software environment. Proprietary systems could make exchange between agencies awkward, while magnetic media and limited storage encouraged disciplined decisions about what was retained online and how copies were managed. The continuing demand for plots and printed sheets was therefore practical rather than evidence that digitisation had failed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "An advisory body known in historical technical material as \"old LINZ\" was established in 1987 to advise the LIS/GIS community on standards. It was separate from DOSLI and entirely separate from the statutory Land Information New Zealand created in 1996. The shared abbreviation is an easy source of chronological error because late-1980s documents can appear to refer to an agency that did not yet exist. In this period, land-information coordination and standards were already government concerns, but the later institutional structure had not yet been formed.",
+      "markdown": "An advisory body known in historical technical material as \"old LINZ\" was established in 1987 to advise the LIS/GIS community on standards. It was separate from DOSLI and entirely separate from the statutory Land Information New Zealand created in 1996. The shared abbreviation is an easy source of chronological error because late-1980s documents can appear to refer to an agency that did not yet exist. In this period, land-information coordination and standards were already government concerns, but the later institutional structure had not yet been formed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

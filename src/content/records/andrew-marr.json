@@ -1,0 +1,44 @@
+{
+  "id": "person:andrew-marr",
+  "slug": "andrew-marr",
+  "name": "Andrew Marr",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/andrew-marr/",
+  "story": [
+    "Andrew Marr co-authored Local government GIS in New Zealand with George Benwell, published as a University of Otago working paper in 1995. The paper provides a contemporary research record of GIS use in local government during the expansion of desktop mapping and council spatial-information systems.",
+    "Andrew Marr and George Benwell examined a 1995 study of local-government GIS since 1989. Marr's 1996 MSc thesis, Geographic Information Systems Maturity in New Zealand Local Government, provided a 126-page research treatment of the subject."
+  ],
+  "sources": [
+    {
+      "label": "Andrew Marr and George Benwell, Local government GIS in New Zealand, University of Otago working paper, 1995",
+      "url": "https://ourarchive.otago.ac.nz/esploro/outputs/workingPaper/Local-government-GIS-in-New-Zealand/9926478503701891"
+    },
+    {
+      "label": "Chapter 11 · Researching adoption",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ],
+  "aliases": [
+    "Andrew Marr"
+  ],
+  "themeIds": [
+    "local-government"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Andrew Marr and George Benwell, Local government GIS in New Zealand, University of Otago working paper, 1995",
+        "url": "https://ourarchive.otago.ac.nz/esploro/outputs/workingPaper/Local-government-GIS-in-New-Zealand/9926478503701891"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 11 · Researching adoption",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ]
+  ]
+}

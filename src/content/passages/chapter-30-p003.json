@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-30-dbe9d50e38",
+  "slug": "phew-in-1999-dbe9d50e38",
+  "articleId": "article:chapter-30",
+  "title": "PHEW! in 1999",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Public health was an early use of browser-based GIS in New Zealand. In 1999 the Ministry of Health began combining GIS and the Internet to present communicable-disease information through the Public Health Early Warning system, known as PHEW!. When the New Zealand Public Health Observatory was launched in May 2002, the Ministry described PHEW! as allowing anyone with a web browser to create and view maps, tables and statistics from the national notifiable-disease surveillance system. The Ministry described it as a world first.",
+      "markdown": "Public health was an early use of browser-based GIS in New Zealand. In 1999 the Ministry of Health began combining GIS and the Internet to present communicable-disease information through the Public Health Early Warning system, known as PHEW!. When the New Zealand Public Health Observatory was launched in May 2002, the Ministry described PHEW! as allowing anyone with a web browser to create and view maps, tables and statistics from the national notifiable-disease surveillance system. The Ministry described it as a world first.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "PHEW! sat on top of a wider public-health information environment. EpiSurv held notifiable-disease information, address geocoding converted reported cases into mappable locations, and territorial boundaries and population data allowed patterns to be displayed and compared. Contemporary research described PHEW! as exposing a subset of EpiSurv information at Territorial Local Authority scale. The service widened access to information prepared within the epidemiological system. A person could reach nationally maintained health information through a browser without running the analytical GIS used to prepare and manage it.",
+      "markdown": "PHEW! sat on top of a wider public-health information environment. EpiSurv held notifiable-disease information, address geocoding converted reported cases into mappable locations, and territorial boundaries and population data allowed patterns to be displayed and compared. Contemporary research described PHEW! as exposing a subset of EpiSurv information at Territorial Local Authority scale. The service widened access to information prepared within the epidemiological system. A person could reach nationally maintained health information through a browser without running the analytical GIS used to prepare and manage it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Government descriptions, academic references and historic URLs describe PHEW!’s functions. Its original browser interface, scripts and server configuration have not survived in the available archives. Early web applications depended on servers, browser components and database connections that were often replaced without preserving a working copy.",
+      "markdown": "Government descriptions, academic references and historic URLs describe PHEW!’s functions. Its original browser interface, scripts and server configuration have not survived in the available archives. Early web applications depended on servers, browser components and database connections that were often replaced without preserving a working copy.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "PHEW! was already treating the map as a generated view of current information rather than as a finished paper product. A user selected information, the system returned a map or table, and the same underlying records could support another view. The browser made the relationship between geographic information and the map used to display it more flexible than it had been in a printed workflow.",
+      "markdown": "PHEW! was already treating the map as a generated view of current information rather than as a finished paper product. A user selected information, the system returned a map or table, and the same underlying records could support another view. The browser made the relationship between geographic information and the map used to display it more flexible than it had been in a printed workflow.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

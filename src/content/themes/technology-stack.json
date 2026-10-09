@@ -1,0 +1,53 @@
+{
+  "id": "technology-stack",
+  "slug": "technology-stack",
+  "title": "From specialist system to connected stack",
+  "description": "Follow the changes from specialist mapping systems to desktop software, web maps, field tools and shared services.",
+  "color": "#74b9ae",
+  "passageIds": [
+    "passage:chapter-3-b7f1ee3026",
+    "passage:chapter-6-b5f009e26c",
+    "passage:chapter-22-8f0792952a",
+    "passage:chapter-30-78faf09cfe",
+    "passage:chapter-34-d77bfeff5e",
+    "passage:chapter-41-6e2233d30a",
+    "passage:chapter-43-fc191bdd9b"
+  ],
+  "stops": [
+    {
+      "passageId": "passage:chapter-3-b7f1ee3026",
+      "title": "Inside MAPPAK",
+      "url": "/stories/drawing-maps-by-machine/#inside-mappak"
+    },
+    {
+      "passageId": "passage:chapter-6-b5f009e26c",
+      "title": "Commercial workstations",
+      "url": "/stories/when-gis-became-gis/#commercial-workstations"
+    },
+    {
+      "passageId": "passage:chapter-22-8f0792952a",
+      "title": "A smaller machine, a different user",
+      "url": "/stories/gis-comes-to-the-desktop/#a-smaller-machine-a-different-user"
+    },
+    {
+      "passageId": "passage:chapter-30-78faf09cfe",
+      "title": "GIS reaches the browser",
+      "url": "/stories/the-first-web-maps/#gis-reaches-the-browser"
+    },
+    {
+      "passageId": "passage:chapter-34-d77bfeff5e",
+      "title": "The phone becomes field equipment",
+      "url": "/stories/mapping-leaves-the-office/#the-phone-becomes-field-equipment"
+    },
+    {
+      "passageId": "passage:chapter-41-6e2233d30a",
+      "title": "Beyond the server room",
+      "url": "/stories/cloud-services-and-apis/#beyond-the-server-room"
+    },
+    {
+      "passageId": "passage:chapter-43-fc191bdd9b",
+      "title": "Run it again tomorrow",
+      "url": "/stories/automating-the-gis-work/#run-it-again-tomorrow"
+    }
+  ]
+}

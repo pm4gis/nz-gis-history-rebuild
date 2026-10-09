@@ -1,0 +1,99 @@
+{
+  "id": "system:docgis",
+  "slug": "docgis",
+  "name": "DOCgis",
+  "kind": "Project",
+  "category": "Systems and projects",
+  "url": "/systems/docgis/",
+  "story": [
+    "Department of Conservation began developing the Biodiversity Information Platform during 2000/01 to make biodiversity and other conservation information available more widely. Its annual report recorded a planned Bay of Plenty pilot in August 2001. By 2003 the work had become a National Enterprise GIS, with DOCgis as the intranet and extranet application lineage. The departmental spatial-information, information-management, database and application teams assembled the service for a national organisation with staff working in widely separated offices. Duane Wilkins recalls that Eagle Technology designed DOCgis before 2003; departmental analysts and developers continued the work after its launch.",
+    "DOCgis HTML Version 1.0 was in use by 2003, with Version 2.0 in June and a Java client planned for August. Release II credits the Science and Technology & Information Services Division, Information Management Unit and Spatial Information Management at Head Office.",
+    "A national geodatabase and ArcSDE managed spatial information centrally, with SQL Server in the documented environment. ArcGIS supported specialist desktop work. ArcIMS supplied browser maps through HTML and Java clients, including stored queries, national geodatabase layers, eight-bit PNG map images and access to non-spatial business databases. Linking operational attributes to their business systems helped keep the geographic view connected with information maintained elsewhere in the department.",
+    "Browser delivery suited remote offices with older computers and slow or dial-up connections. Much of the processing stayed on the server, and ordinary desktops received the map and selected functions. Specialist staff continued to use richer desktop tools. GPS, ArcPad and Windows CE work extended the information environment towards field capture. Development involved requirements modelling, prototypes, user testing and successive iterations.",
+    "Steven Li’s 2009 Massey University thesis examines systems integration in an agency whose applications include DOCgis and Bioweb, identifying the Department of Conservation setting through the named systems. It describes problems created by copying and reconciling information between applications. Connections between geographic records and operational databases reduced duplicated business data while increasing the need to maintain identifiers and interfaces.",
+    "On 24 August 2009 DOC’s public explanation of GIS described conservancy specialists contributing local information to a national system. DOC estimated that almost 90 per cent of the data it collected had a geospatial aspect and directed readers to interactive DOCgis maps. A DOCgis print dated 12 February 2013, reproduced in the New Zealand Conservation Authority’s June 2015 public papers, shows continuing use with biodiversity, asset, permission, conservation-unit and other operational layers. Later staff material also records everyday tasks involving Treaty settlement information, Te Araroa, boundaries and functional-location identifiers.",
+    "Duane Wilkins recalls difficult relations between regional teams and the GIS manager in the earlier period. Around 2012, Wilkins returned to lead the GIS team as DOC reorganised it as a shared service for the regions, a change he remembers as highly successful."
+  ],
+  "sources": [
+    {
+      "label": "Department of Conservation Annual Report for the year ended 30 June 2001, Biodiversity Information Platform Project section",
+      "url": "https://www.doc.govt.nz/globalassets/documents/about-doc/role/policies-and-plans/050-annual-report-for-year-ended-30-june-2001.pdf"
+    },
+    {
+      "label": "Department of Conservation, Managing Conservation Enterprise Systems: National Enterprise GIS Implementation for Conservation Management, Esri International User Conference 2003, Paper 1048",
+      "url": "https://proceedings.esri.com/library/userconf/proc03/p1048.pdf"
+    },
+    {
+      "label": "Department of Conservation, DOCgis Training Guide, Intranet Edition, 2003, Release II"
+    },
+    {
+      "label": "Department of Conservation, DOCgis Training Guide, Intranet Edition, 2003, DOCgis Release II"
+    },
+    {
+      "label": "Department of Conservation, Annual Report for the year ended 30 June 2001, Biodiversity Information Platform Project section",
+      "url": "https://www.doc.govt.nz/globalassets/documents/about-doc/role/policies-and-plans/050-annual-report-for-year-ended-30-june-2001.pdf"
+    },
+    {
+      "label": "Department of Conservation, Managing Conservation Enterprise Systems: National Enterprise GIS Implementation for Conservation Management, ESRI International User Conference Paper 1048",
+      "url": "https://proceedings.esri.com/library/userconf/proc03/p1048.pdf"
+    },
+    {
+      "label": "Steven Li, An investigation of system integrations and XML applications within a NZ government agency, Massey University thesis",
+      "url": "https://hdl.handle.net/10179/1627"
+    },
+    {
+      "label": "Department of Conservation, 'GIS? What’s GIS?' conservation blog",
+      "url": "https://blog.doc.govt.nz/2009/08/24/gis-whats-gis/"
+    },
+    {
+      "label": "New Zealand Conservation Authority public papers, June 2015, reproduced DOCgis map print",
+      "url": "https://ftp.doc.govt.nz/public/folder/mlawv0pcMkWvExCkUCOkvg/nzca/public-papers/2015/2015-06-nzca-public-papers-june-2015.pdf"
+    },
+    {
+      "label": "Staff recollection about DOCgis design, development and shared-service reform, supplied 2 October 2026"
+    },
+    {
+      "label": "Duane Wilkins, account of DOCgis development and the 2012 shared-service reform, supplied 2 October 2026"
+    }
+  ],
+  "aliases": [
+    "DOC GIS",
+    "National Enterprise GIS",
+    "Biodiversity Information Platform",
+    "BIP",
+    "DOCgis Release II"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "Development",
+      "paragraphs": [
+        "Department of Conservation began developing the Biodiversity Information Platform during 2000/01 to make biodiversity and other conservation information available more widely. Its annual report recorded a planned Bay of Plenty pilot in August 2001. By 2003 the work had become a National Enterprise GIS, with DOCgis as the intranet and extranet application lineage. The departmental spatial-information, information-management, database and application teams assembled the service for a national organisation with staff working in widely separated offices. Duane Wilkins recalls that Eagle Technology designed DOCgis before 2003; departmental analysts and developers continued the work after its launch.",
+        "DOCgis HTML Version 1.0 was in use by 2003, with Version 2.0 in June and a Java client planned for August. Release II credits the Science and Technology & Information Services Division, Information Management Unit and Spatial Information Management at Head Office."
+      ]
+    },
+    {
+      "title": "Architecture",
+      "paragraphs": [
+        "A national geodatabase and ArcSDE managed spatial information centrally, with SQL Server in the documented environment. ArcGIS supported specialist desktop work. ArcIMS supplied browser maps through HTML and Java clients, including stored queries, national geodatabase layers, eight-bit PNG map images and access to non-spatial business databases. Linking operational attributes to their business systems helped keep the geographic view connected with information maintained elsewhere in the department.",
+        "Browser delivery suited remote offices with older computers and slow or dial-up connections. Much of the processing stayed on the server, and ordinary desktops received the map and selected functions. Specialist staff continued to use richer desktop tools. GPS, ArcPad and Windows CE work extended the information environment towards field capture. Development involved requirements modelling, prototypes, user testing and successive iterations."
+      ]
+    },
+    {
+      "title": "Continuing use",
+      "paragraphs": [
+        "Steven Li’s 2009 Massey University thesis examines systems integration in an agency whose applications include DOCgis and Bioweb, identifying the Department of Conservation setting through the named systems. It describes problems created by copying and reconciling information between applications. Connections between geographic records and operational databases reduced duplicated business data while increasing the need to maintain identifiers and interfaces.",
+        "On 24 August 2009 DOC’s public explanation of GIS described conservancy specialists contributing local information to a national system. DOC estimated that almost 90 per cent of the data it collected had a geospatial aspect and directed readers to interactive DOCgis maps. A DOCgis print dated 12 February 2013, reproduced in the New Zealand Conservation Authority’s June 2015 public papers, shows continuing use with biodiversity, asset, permission, conservation-unit and other operational layers. Later staff material also records everyday tasks involving Treaty settlement information, Te Araroa, boundaries and functional-location identifiers."
+      ]
+    },
+    {
+      "title": "Shared service",
+      "paragraphs": [
+        "Duane Wilkins recalls difficult relations between regional teams and the GIS manager in the earlier period. Around 2012, Wilkins returned to lead the GIS team as DOC reorganised it as a shared service for the regions, a change he remembers as highly successful."
+      ]
+    }
+  ]
+}

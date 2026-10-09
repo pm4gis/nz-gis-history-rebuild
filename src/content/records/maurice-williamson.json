@@ -1,0 +1,31 @@
+{
+  "id": "person:maurice-williamson",
+  "slug": "maurice-williamson",
+  "name": "Maurice Williamson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/maurice-williamson/",
+  "story": [
+    "As Statistics Minister, Maurice Williamson announced the 4 December 2013 release of StatsMaps with new 2013 Census information. The government release describes the tool as a geographic visualisation of population and dwelling data designed to compare regions and show change."
+  ],
+  "sources": [
+    {
+      "label": "Beehive, Release of census information welcomed, 4 December 2013",
+      "url": "https://www.beehive.govt.nz/release/release-census-information-welcomed"
+    }
+  ],
+  "aliases": [
+    "Maurice Williamson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Beehive, Release of census information welcomed, 4 December 2013",
+        "url": "https://www.beehive.govt.nz/release/release-census-information-welcomed"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1210",
+  "a": "system:nzta-enterprise",
+  "b": "system:enterprise-gis",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "passage:chapter-28-06bcc56807",
+  "slug": "from-specialist-client-to-web-access-06bcc56807",
+  "articleId": "article:chapter-28",
+  "title": "From specialist client to web access",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "About eighteen months after the early-1999 client deployment, Police decided to replace the locally installed application with a web-based mapping approach. The practitioner history places this decision within a wider thin-client strategy. A centrally managed browser system removed much of the need for dedicated GIS workstations, local software installations and separate versions at each analyst site. The general browser-based MAPS release is dated to late 2000.",
+      "markdown": "About eighteen months after the early-1999 client deployment, Police decided to replace the locally installed application with a web-based mapping approach. The practitioner history places this decision within a wider thin-client strategy. A centrally managed browser system removed much of the need for dedicated GIS workstations, local software installations and separate versions at each analyst site. The general browser-based MAPS release is dated to late 2000.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change widened access without making every user a GIS analyst. Intelligence staff remained the main analytical users, but guided queries and simpler mapping functions could be made available to operational staff through ordinary Police network computers. The practitioner account estimated a potential reach of about 5,500 networked computers supporting roughly 10,500 staff. GIS had moved from a small number of specialist installations towards an organisational information service.",
+      "markdown": "The change widened access without making every user a GIS analyst. Intelligence staff remained the main analytical users, but guided queries and simpler mapping functions could be made available to operational staff through ordinary Police network computers. The practitioner account estimated a potential reach of about 5,500 networked computers supporting roughly 10,500 staff. GIS had moved from a small number of specialist installations towards an organisational information service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "MAPS also sat closer to operational systems. The practitioner account describes connections with the National Intelligence Application and Computer Aided Resource Dispatch, with information capable of reaching maps within about fifteen minutes of response or entry. That did not make the system a real-time common operating picture in the later disaster-management sense. It did make mapped operational information available much sooner than a periodic analytical report or printed crime map.",
+      "markdown": "MAPS also sat closer to operational systems. The practitioner account describes connections with the National Intelligence Application and Computer Aided Resource Dispatch, with information capable of reaching maps within about fifteen minutes of response or entry. That did not make the system a real-time common operating picture in the later disaster-management sense. It did make mapped operational information available much sooner than a periodic analytical report or printed crime map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The technical architecture remained less important to users than the change in access. A browser let staff query geography without owning a specialist workstation or managing local spatial datasets. Central maintenance meant a change to a map service or analytical function could be made once rather than installed at dozens of sites. Police provides a clear operational reason for adopting it: geographic information was useful to more people than could reasonably be given a dedicated GIS installation.",
+      "markdown": "The technical architecture remained less important to users than the change in access. A browser let staff query geography without owning a specialist workstation or managing local spatial datasets. Central maintenance meant a change to a map service or analytical function could be made once rather than installed at dozens of sites. Police provides a clear operational reason for adopting it: geographic information was useful to more people than could reasonably be given a dedicated GIS installation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The audit also caught MAPS while implementation was still uneven. At the time of field work Police had only about 30 computers capable of running the system, later increased to 51 machines with MAPS software. The Auditor-General did not treat hardware as the only constraint. It also pointed to the availability of skilled intelligence staff and the need for operational staff to provide full reports and respond to analytical products. A sophisticated map could not compensate for incomplete incident recording or a weak relationship between analysts and the officers who were expected to act on the analysis.",
+      "markdown": "The audit also caught MAPS while implementation was still uneven. At the time of field work Police had only about 30 computers capable of running the system, later increased to 51 machines with MAPS software. The Auditor-General did not treat hardware as the only constraint. It also pointed to the availability of skilled intelligence staff and the need for operational staff to provide full reports and respond to analytical products. A sophisticated map could not compensate for incomplete incident recording or a weak relationship between analysts and the officers who were expected to act on the analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The report therefore places crime mapping inside an organisational workflow. Intelligence units produced analysis, operational staff supplied much of the source information, supervisors and managers decided how to use the results, and later reports fed new information back into the system. MAPS could make repeated victimisation or a street-level concentration visible, but somebody still had to decide whether that pattern justified patrol changes, a prevention visit or a longer investigation. Analysts and operational staff remained central to spatial policing; the technology did not operate autonomously. By 2001, Police were using the tool in their regular work.",
+      "markdown": "The report therefore places crime mapping inside an organisational workflow. Intelligence units produced analysis, operational staff supplied much of the source information, supervisors and managers decided how to use the results, and later reports fed new information back into the system. MAPS could make repeated victimisation or a street-level concentration visible, but somebody still had to decide whether that pattern justified patrol changes, a prevention visit or a longer investigation. Analysts and operational staff remained central to spatial policing; the technology did not operate autonomously. By 2001, Police were using the tool in their regular work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Specialists continued using desktop tools alongside browser access. The practitioner account describes Police retaining or later restoring higher-end analytical capability for intelligence specialists while web access served broader users. That mixed model is familiar in mature GIS organisations: a large group needs straightforward map and query access, while a much smaller group needs deeper analytical control. Browser delivery changed the distribution of geographic information without eliminating specialist GIS practice.",
+      "markdown": "Specialists continued using desktop tools alongside browser access. The practitioner account describes Police retaining or later restoring higher-end analytical capability for intelligence specialists while web access served broader users. That mixed model is familiar in mature GIS organisations: a large group needs straightforward map and query access, while a much smaller group needs deeper analytical control. Browser delivery changed the distribution of geographic information without eliminating specialist GIS practice.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

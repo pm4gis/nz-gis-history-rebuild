@@ -1,0 +1,31 @@
+{
+  "id": "person:r-s-morris",
+  "slug": "r-s-morris",
+  "name": "R. S. Morris",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/r-s-morris/",
+  "story": [
+    "At the 1998 SIRC colloquium, J. S. McKenzie, D. U. Pfeiffer and R. S. Morris described ArcView 3.0a and Spatial Analyst models for tuberculosis risk in possums and cattle. One model combined vegetation and slope information on a 20-metre grid, while another related farm geography to disease risk. The results were incorporated into the EpiMAN(TB) decision-support system so control effort could be directed spatially. The analysis examined factors associated with the disease distribution."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 9 · The CRI reorganisation",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "R. S. Morris"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 9 · The CRI reorganisation",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

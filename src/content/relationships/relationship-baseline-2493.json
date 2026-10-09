@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-2493",
+  "a": "person:matt-robson",
+  "b": "chapter:35",
+  "label": "Discussed in chapter",
+  "basis": "Reconciled from existing chapter metadata in the 7 October 2026 entity-gap cleanup.",
+  "passageIds": [
+    "passage:chapter-35-409b125751"
+  ],
+  "sources": []
+}

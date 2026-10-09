@@ -1,0 +1,14 @@
+{
+  "id": "chapter:17",
+  "articleId": "article:chapter-17",
+  "slug": "roads-addresses-and-property",
+  "name": "Roads, addresses and property",
+  "kind": "Story",
+  "category": "National datasets",
+  "url": "/stories/roads-addresses-and-property/",
+  "description": "An address looks simple because most of the work has already been done. A number and road name can usually take a courier, ambulance, council officer or mapping application to one recognisable place. Inside a GIS, however, that apparently ordinary description depends on several different records agreeing with one another. The road needs a name and a geometry. The address needs a number or other identifier and some re",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1113",
+  "a": "person:geoff-patterson",
+  "b": "entity:department-of-conservation",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

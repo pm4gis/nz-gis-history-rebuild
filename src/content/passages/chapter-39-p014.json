@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-39-d0fd378a7d",
+  "slug": "working-across-professions-d0fd378a7d",
+  "articleId": "article:chapter-39",
+  "title": "Working across professions",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Three-dimensional GIS also changed who had to work together. A conventional GIS team could often manage maps, attributes and spatial databases largely within its own professional domain. Complex 3D work pulled surveyors, engineers, architects, planners, remote-sensing specialists and asset managers into the same information chain. Each group brought different assumptions about accuracy, scale, coordinate reference, levels of detail and which record was authoritative.",
+      "markdown": "Three-dimensional GIS also changed who had to work together. A conventional GIS team could often manage maps, attributes and spatial databases largely within its own professional domain. Complex 3D work pulled surveyors, engineers, architects, planners, remote-sensing specialists and asset managers into the same information chain. Each group brought different assumptions about accuracy, scale, coordinate reference, levels of detail and which record was authoritative.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For GIS practitioners, this meant learning enough about neighbouring disciplines to avoid damaging the information during exchange. A detailed BIM model could be simplified for regional analysis, but not so aggressively that the feature needed for the task disappeared. A survey point cloud could be converted into a surface, but the uncertainty and control behind it still needed to be understood. A city model could combine many sources, but only if someone knew which version of each source was current.",
+      "markdown": "For GIS practitioners, this meant learning enough about neighbouring disciplines to avoid damaging the information during exchange. A detailed BIM model could be simplified for regional analysis, but not so aggressively that the feature needed for the task disappeared. A survey point cloud could be converted into a surface, but the uncertainty and control behind it still needed to be understood. A city model could combine many sources, but only if someone knew which version of each source was current.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Three-dimensional work became increasingly collaborative and made translation between disciplines a normal part of spatial practice, while GIS practitioners, surveyors and BIM modellers retained their distinct professional roles. By the 2020s the difficult part was often getting several technically different models to describe the same real place consistently enough that other people could trust and reuse them.",
+      "markdown": "Three-dimensional work became increasingly collaborative and made translation between disciplines a normal part of spatial practice, while GIS practitioners, surveyors and BIM modellers retained their distinct professional roles. By the 2020s the difficult part was often getting several technically different models to describe the same real place consistently enough that other people could trust and reuse them.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

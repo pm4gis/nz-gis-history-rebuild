@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1110",
+  "a": "person:duane-wilkins",
+  "b": "entity:nga-poutama-matawhenua",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

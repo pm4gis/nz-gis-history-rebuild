@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2274",
+  "a": "person:duane-wilkins",
+  "b": "entity:geospatial-capability-committee",
+  "label": "Committee member",
+  "basis": "LINZ current Geospatial Capability Committee membership",
+  "passageIds": [],
+  "sources": []
+}

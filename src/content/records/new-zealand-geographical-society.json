@@ -1,0 +1,24 @@
+{
+  "id": "entity:new-zealand-geographical-society",
+  "slug": "new-zealand-geographical-society",
+  "name": "New Zealand Geographical Society",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/new-zealand-geographical-society/",
+  "story": [
+    "Founded in Wellington in 1944, the New Zealand Geographical Society formed from the Canterbury and Wellington geographical associations. It promotes the study of geography in Aotearoa and communicates geographical research locally, nationally and internationally. Its network spans schools, universities, research institutes, and public and private organisations; it supports geography teaching at secondary and tertiary levels and houses the Board of Geography Teachers."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "New Zealand Geographical Society"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

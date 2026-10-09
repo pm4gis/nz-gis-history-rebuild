@@ -1,0 +1,57 @@
+{
+  "id": "person:byron-cochrane",
+  "slug": "byron-cochrane",
+  "name": "Byron Cochrane",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/byron-cochrane/",
+  "story": [
+    "Byron Cochrane's career has included government, military and private-sector work in New Zealand, Australia and the United States. His expertise centres on geospatial interoperability and open data standards. He has contributed to W3C Spatial Data on the Web, Open Geospatial Consortium initiatives and ISO TC 211 standards, alongside practical open-source work with GeoNetwork, GeoServer, PostGIS and QGIS.",
+    "Steve Richards and Greg Bennett had left the committee at the December 2008 AGM, and the new committee was listed as Byron Cochrane, Glenn Russell, Igor Albornett, John Thyne, Junior Lee-Chee, Laura Nicol, Meghan Williams, Peter Fraser, Rachel Summers, Richard Wells and Tony Standen.",
+    "John Thyne, Byron Cochrane and Richard Wells had stood down; Derrick Williams, Andrew Shakes, Nenad Petrovic and Kurt Janssen were nominated and elected unopposed, while Marie Slako, Tony Standen, Rachel Summers and Richard Sisterson were reconfirmed. The November 2010 minutes use the name “New Zealand ESRI Users Group inc.”"
+  ],
+  "sources": [
+    {
+      "label": "Byron Cochrane :: FOSS4G SOTM Oceania 2023 :: pretalx · career/profile reference",
+      "url": "https://talks.osgeo.org/foss4g-sotm-oceania-2023/speaker/UQSQ3D/"
+    },
+    {
+      "label": "Byron Cochrane - OpenWork Ltd (OWL) | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/byron-cochrane-9641299"
+    },
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Byron Cochrane"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Byron Cochrane :: FOSS4G SOTM Oceania 2023 :: pretalx · career/profile reference",
+        "url": "https://talks.osgeo.org/foss4g-sotm-oceania-2023/speaker/UQSQ3D/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

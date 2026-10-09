@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-27-29839cfc31",
+  "slug": "cases-and-population-29839cfc31",
+  "articleId": "article:chapter-27",
+  "title": "Cases and population",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A disease case can be put on a map as soon as it has a usable location, yet a case count alone is only a partial measure of disease. Ten cases in a suburb of 2,000 people mean something different from ten cases in a city of 100,000, so public-health mapping has to combine events with the population from which they arose. In New Zealand that brought notified-disease records into contact with addresses, Census geography, population tables and the awkward question of how much geographic detail could be shown without identifying a person.",
+      "markdown": "A disease case can be put on a map as soon as it has a usable location, yet a case count alone is only a partial measure of disease. Ten cases in a suburb of 2,000 people mean something different from ten cases in a city of 100,000, so public-health mapping has to combine events with the population from which they arose. In New Zealand that brought notified-disease records into contact with addresses, Census geography, population tables and the awkward question of how much geographic detail could be shown without identifying a person.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The denominator created a second problem. Population data were organised into statistical areas whose boundaries had been designed for census collection and reporting, not for the natural geography of infection. A disease cluster could sit across a meshblock or area-unit boundary, while two nearby households could end up in different statistical units. Rates also became unstable when very small populations were divided into a small number of cases. The map could be numerically correct and still give a strong visual impression that depended heavily on the geography chosen for the calculation.",
+      "markdown": "The denominator created a second problem. Population data were organised into statistical areas whose boundaries had been designed for census collection and reporting, not for the natural geography of infection. A disease cluster could sit across a meshblock or area-unit boundary, while two nearby households could end up in different statistical units. Rates also became unstable when very small populations were divided into a small number of cases. The map could be numerically correct and still give a strong visual impression that depended heavily on the geography chosen for the calculation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 1990s New Zealand public-health organisations had enough digital information for these problems to become routine rather than theoretical. Health Waikato had been collecting digital notified-disease data from general practitioners from 1993 under the Health Act framework. The records included geographic location, disease type and basic patient demographics. Public-health officers wanted to use the accumulated data to find areas with unusually high incidence, investigate possible causes and decide where to direct resources. They needed to turn the growing surveillance database into information they could use quickly and repeatedly.",
+      "markdown": "By the 1990s New Zealand public-health organisations had enough digital information for these problems to become routine rather than theoretical. Health Waikato had been collecting digital notified-disease data from general practitioners from 1993 under the Health Act framework. The records included geographic location, disease type and basic patient demographics. Public-health officers wanted to use the accumulated data to find areas with unusually high incidence, investigate possible causes and decide where to direct resources. They needed to turn the growing surveillance database into information they could use quickly and repeatedly.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "person:martin-erasmuson",
+  "slug": "martin-erasmuson",
+  "name": "Martin Erasmuson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/martin-erasmuson/",
+  "story": [
+    "Martin Erasmuson's professional interests centre on strategic data and information initiatives. His career profile records a Certificate in Management from the New Zealand Institute of Management in 1987, followed by PRINCE2 and agile-method training in 2014. His work therefore extends from GIS operations into the management of information programmes and organisational change.",
+    "Martin Erasmuson co-authored the CERA Spatial Data Infrastructure whitepaper with Stephen Ferriss in March 2016. Its biography identifies him as StratSim’s managing director, with experience in information architecture, GIS, knowledge management and programme delivery. The paper described the data-sharing and organisational work behind Canterbury’s earthquake-recovery mapping. Erasmuson also chaired NZEUG in the project-held December 2008 newsletter.",
+    "In September 2008 NZEUG chair Martin Erasmuson, then at Nelson City Council, asked members whether the annual conference should remain strongly Esri-focused, open further to competing vendors, or become a vendor-neutral GIS industry conference. Council staff were not spectators."
+  ],
+  "sources": [
+    {
+      "label": "Stephen Ferriss and Martin Erasmuson, CERA Spatial Data Infrastructure whitepaper, March 2016",
+      "url": "https://www.dpmc.govt.nz/sites/default/files/2024-04/the_cera_spatial_data_infrastructure_whitepaper_0.pdf"
+    },
+    {
+      "label": "NZEUG, December 2008 newsletter",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Martin Erasmuson - Health New Zealand | Te Whatu Ora | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/martinerasmuson"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Martin Erasmuson"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Martin Erasmuson - Health New Zealand | Te Whatu Ora | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/martinerasmuson"
+      }
+    ],
+    [
+      {
+        "label": "Stephen Ferriss and Martin Erasmuson, CERA Spatial Data Infrastructure whitepaper, March 2016",
+        "url": "https://www.dpmc.govt.nz/sites/default/files/2024-04/the_cera_spatial_data_infrastructure_whitepaper_0.pdf"
+      },
+      {
+        "label": "NZEUG, December 2008 newsletter",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

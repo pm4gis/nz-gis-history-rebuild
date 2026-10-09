@@ -1,0 +1,31 @@
+{
+  "id": "person:will-jones",
+  "slug": "will-jones",
+  "name": "Will Jones",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/will-jones/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Will Jones: Geospatial Developer, Orbica; work across conservation, Kaikōura recovery and freight optimisation."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Will Jones"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

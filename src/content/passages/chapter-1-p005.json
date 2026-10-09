@@ -1,0 +1,53 @@
+{
+  "id": "passage:chapter-1-e557a7129d",
+  "slug": "counting-by-place-e557a7129d",
+  "articleId": "article:chapter-1",
+  "title": "Counting by place",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:1",
+    "entity:stats-nz",
+    "person:malcolm-fraser"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Population statistics had their own geographic machinery. A census could not be collected nationally without dividing the country into manageable areas, and those areas had to be mapped before population totals could be assigned to them. By the 1886 census, enumerators were working with mapped districts and sub-enumerator districts prepared with Survey Office assistance. The boundary was therefore part of the statistical process before a table of results existed.",
+      "markdown": "Population statistics had their own geographic machinery. A census could not be collected nationally without dividing the country into manageable areas, and those areas had to be mapped before population totals could be assigned to them. By the 1886 census, enumerators were working with mapped districts and sub-enumerator districts prepared with Survey Office assistance. The boundary was therefore part of the statistical process before a table of results existed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 1901 the operation involved dozens of duplicate census maps and hundreds of smaller collection districts. District survey offices prepared maps, Head Office checked them, and boundaries were coloured and amended so population could later support electoral redistribution. Lands and Survey reported that the work could occupy several draughtsmen for weeks in one district. Statistical geography was already a production workflow shared between mapping and statistical organisations.",
+      "markdown": "By 1901 the operation involved dozens of duplicate census maps and hundreds of smaller collection districts. District survey offices prepared maps, Head Office checked them, and boundaries were coloured and amended so population could later support electoral redistribution. Lands and Survey reported that the work could occupy several draughtsmen for weeks in one district. Statistical geography was already a production workflow shared between mapping and statistical organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "War pushed the same administrative machinery into a different job. The National Registration Act 1915 required men aged 17 to 60 to supply the Government Statistician with their name, address, age, occupation, dependants, health, military experience and willingness to serve. Post and Telegraph staff delivered registration cards to households across the country, and 208,513 men returned details. Contemporary sources often called the exercise a war census, although legally and administratively it was a separate national registration from the ordinary population census. It used the same habits of enumeration, classification and geographic organisation.",
+      "markdown": "War pushed the same administrative machinery into a different job. The National Registration Act 1915 required men aged 17 to 60 to supply the Government Statistician with their name, address, age, occupation, dependants, health, military experience and willingness to serve. Post and Telegraph staff delivered registration cards to households across the country, and 208,513 men returned details. Contemporary sources often called the exercise a war census, although legally and administratively it was a separate national registration from the ordinary population census. It used the same habits of enumeration, classification and geographic organisation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "When conscription arrived under the Military Service Act 1916, Parliament directed the Government Statistician to build the reserve register from the 1915 National Register together with other available information. Statistics New Zealand's later history records that the 1916 household census schedules were also used to complete the military register. Statistical collection, census administration and recruiting geography therefore became linked directly to the machinery used to call men up for service. Government Statistician Malcolm Fraser, who administered the ballots personally, eventually drew his own card in June 1918. At 45 he sat at the upper edge of military eligibility, giving the office's filing system a particularly literal demonstration of completeness.",
+      "markdown": "When conscription arrived under the Military Service Act 1916, Parliament directed the Government Statistician to build the reserve register from the 1915 National Register together with other available information. Statistics New Zealand's later history records that the 1916 household census schedules were also used to complete the military register. Statistical collection, census administration and recruiting geography therefore became linked directly to the machinery used to call men up for service. Government Statistician Malcolm Fraser, who administered the ballots personally, eventually drew his own card in June 1918. At 45 he sat at the upper edge of military eligibility, giving the office's filing system a particularly literal demonstration of completeness.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The next major step in statistical geography appears in the 1944-45 mapping programme for the census taken on 25 September 1945. Lands and Survey annual reports describe enumerator maps divided into what they explicitly called “population mesh blocks”. The small units allowed population to be assembled geographically and later related to larger administrative and electoral areas. These reports describe the paper-based census workflow and its terminology.",
+      "markdown": "The next major step in statistical geography appears in the 1944-45 mapping programme for the census taken on 25 September 1945. Lands and Survey annual reports describe enumerator maps divided into what they explicitly called “population mesh blocks”. The small units allowed population to be assembled geographically and later related to larger administrative and electoral areas. These reports describe the paper-based census workflow and its terminology.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Census geography had to be drawn, checked and maintained. Staff assigned each census record to a place using the boundaries established for collection. Chapter 16 follows the conversion and maintenance of those boundaries as digital geography.",
+      "markdown": "Census geography had to be drawn, checked and maintained. Staff assigned each census record to a place using the boundaries established for collection. Chapter 16 follows the conversion and maintenance of those boundaries as digital geography.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

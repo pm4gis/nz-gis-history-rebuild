@@ -1,0 +1,31 @@
+{
+  "id": "person:chris-morris",
+  "slug": "chris-morris",
+  "name": "Chris Morris",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/chris-morris/",
+  "story": [
+    "LINZ’s 2026 Geospatial Capability Committee material lists Chris Morris in LocationTech capability representative / Locus; Geospatial Capability Committee.."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    }
+  ],
+  "aliases": [
+    "Chris Morris"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ]
+  ]
+}

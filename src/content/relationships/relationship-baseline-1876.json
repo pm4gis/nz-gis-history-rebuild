@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1876",
+  "a": "person:suzi-kerr",
+  "b": "chapter:22",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [],
+  "sources": []
+}

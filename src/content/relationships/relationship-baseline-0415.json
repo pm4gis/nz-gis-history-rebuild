@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0415",
+  "a": "person:mary-mulcahy",
+  "b": "chapter:1",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-1-a364eef899"
+  ],
+  "sources": []
+}

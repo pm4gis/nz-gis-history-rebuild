@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1247",
+  "a": "system:our-environment",
+  "b": "person:david-medyckyj-scott",
+  "label": "Named in the system account",
+  "basis": "Existing technology/project account",
+  "passageIds": [],
+  "sources": []
+}

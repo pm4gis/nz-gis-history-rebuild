@@ -1,0 +1,31 @@
+{
+  "id": "person:josef-beautrais",
+  "slug": "josef-beautrais",
+  "name": "Josef Beautrais",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/josef-beautrais/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Josef Beautrais: Systems Modeller, AgResearch; spatial ecology/agricultural science."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Josef Beautrais"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

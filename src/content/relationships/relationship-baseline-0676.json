@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0676",
+  "a": "person:john-turnbull-thomson",
+  "b": "chapter:1",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-1-0170b9d0d6"
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2380",
+  "a": "person:karl-majorhazi",
+  "b": "entity:nga-poutama-matawhenua",
+  "label": "Named participant or presenter",
+  "basis": "LINZ Ngā Poutama Matawhenua programme record",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:jonathan-hanson",
+  "slug": "jonathan-hanson",
+  "name": "Jonathan Hanson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jonathan-hanson/",
+  "story": [
+    "LINZ’s Ngā Poutama Matawhenua record names Jonathan Hanson: GeoNet Data Manager, Earth Sciences New Zealand; 2026 earthquake/earth-science wānanga."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ],
+  "aliases": [
+    "Jonathan Hanson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Ngā Poutama Matawhenua",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+      }
+    ]
+  ]
+}

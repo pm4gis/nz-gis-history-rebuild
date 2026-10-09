@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-32-8b534cc5d2",
+  "slug": "many-tools-one-practice-8b534cc5d2",
+  "articleId": "article:chapter-32",
+  "title": "Many tools, one practice",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Open source widened the set of tools available, made it easier to assemble systems from separate components and created more routes for local developers and organisations to contribute directly to software they used. It also brought new responsibilities. A flexible stack still required people who could maintain it, and technical dependency shifted from a single vendor towards code bases, specialist skills, integration choices and the people able to support them.",
+      "markdown": "Open source widened the set of tools available, made it easier to assemble systems from separate components and created more routes for local developers and organisations to contribute directly to software they used. It also brought new responsibilities. A flexible stack still required people who could maintain it, and technical dependency shifted from a single vendor towards code bases, specialist skills, integration choices and the people able to support them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Organisations used open-source and proprietary software together. NIWA used open databases, servers and desktop software while operating inside a wider mixed technology environment. Commercial firms built production services from open components. Government made authoritative data easier to consume from QGIS. LINZ later placed QGIS and Kart inside the future national topographic production workflow while retaining many other systems for other purposes.",
+      "markdown": "Organisations used open-source and proprietary software together. NIWA used open databases, servers and desktop software while operating inside a wider mixed technology environment. Commercial firms built production services from open components. Government made authoritative data easier to consume from QGIS. LINZ later placed QGIS and Kart inside the future national topographic production workflow while retaining many other systems for other purposes.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The mixed environment had become normal by the end of 2025. Asking whether an organisation was an open-source GIS shop or a proprietary GIS shop could miss how modern geospatial work was actually assembled. A map might be edited in one desktop application, stored in a different database, published through another service, checked by automated code and consumed in an application built with yet another set of libraries. Organisations combined products within their working processes.",
+      "markdown": "The mixed environment had become normal by the end of 2025. Asking whether an organisation was an open-source GIS shop or a proprietary GIS shop could miss how modern geospatial work was actually assembled. A map might be edited in one desktop application, stored in a different database, published through another service, checked by automated code and consumed in an application built with yet another set of libraries. Organisations combined products within their working processes.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Open-source GIS changed the choices available to New Zealand practitioners and their relationship with software developers. Alongside commercial enterprise systems, web mapping, open data, mobile GIS and cloud services, it helped make geospatial work more connected and easier to assemble from separate components.",
+      "markdown": "Open-source GIS changed the choices available to New Zealand practitioners and their relationship with software developers. Alongside commercial enterprise systems, web mapping, open data, mobile GIS and cloud services, it helped make geospatial work more connected and easier to assemble from separate components.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

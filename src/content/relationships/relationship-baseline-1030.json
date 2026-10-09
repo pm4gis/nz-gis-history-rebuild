@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1030",
+  "a": "person:ingrid-mcclymont",
+  "b": "entity:auckland-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

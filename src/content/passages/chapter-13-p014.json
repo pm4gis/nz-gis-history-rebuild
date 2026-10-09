@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-13-197b3f6ce4",
+  "slug": "uses-of-cadastral-data-197b3f6ce4",
+  "articleId": "article:chapter-13",
+  "title": "Uses of cadastral data",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "cadastre"
+  ],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By March 2002 the national cadastral production environment had crossed another threshold. The original record maps, survey plans, field evidence and legal instruments still carried the authority from which the cadastre had been built. The operational centre of gravity had moved. Parcel geometry, survey references and related records increasingly lived inside a national electronic system that could be maintained and accessed without returning first to a particular paper sheet.",
+      "markdown": "By March 2002 the national cadastral production environment had crossed another threshold. The original record maps, survey plans, field evidence and legal instruments still carried the authority from which the cadastre had been built. The operational centre of gravity had moved. Parcel geometry, survey references and related records increasingly lived inside a national electronic system that could be maintained and accessed without returning first to a particular paper sheet.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DCDB did the difficult middle work. It took cadastral mapping created for human reading and turned much of it into reusable structured geography. It made national continuity possible, created a common parcel framework for other GIS and exposed inherited positional uncertainty in digital systems. Its imperfections reveal the source cadastre’s histories of scale, measurement, compilation and maintenance, conditions the database made visible but could not remove.",
+      "markdown": "DCDB did the difficult middle work. It took cadastral mapping created for human reading and turned much of it into reusable structured geography. It made national continuity possible, created a common parcel framework for other GIS and exposed inherited positional uncertainty in digital systems. Its imperfections reveal the source cadastre’s histories of scale, measurement, compilation and maintenance, conditions the database made visible but could not remove.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The next system attempted something larger than a better parcel map. Landonline sought to integrate the spatial cadastre with survey and title records and the transactions that changed them. That required different technology, different business rules and a much larger change in professional practice. The parcel had become data. Surveying and title registration now had to become digital as well.",
+      "markdown": "The next system attempted something larger than a better parcel map. Landonline sought to integrate the spatial cadastre with survey and title records and the transactions that changed them. That required different technology, different business rules and a much larger change in professional practice. The parcel had become data. Surveying and title registration now had to become digital as well.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

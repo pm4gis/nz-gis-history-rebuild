@@ -1,0 +1,34 @@
+{
+  "id": "entity:esri",
+  "slug": "esri",
+  "name": "Esri",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/esri/",
+  "website": null,
+  "story": [
+    "Jack and Laura Dangermond founded Esri in California in 1969. ARC/INFO, released in 1982, became part of New Zealand institutional GIS during the later 1980s. The local lineage continued through ArcView, ArcSDE, ArcIMS, ArcGIS Desktop, ArcGIS Server and later online and enterprise platforms. Eagle supplied distribution and support, while New Zealand customers developed implementations suited to their own work.",
+    "The New Zealand Esri Users Group developed its own governance and conference history as an independent professional community, structurally separate from Esri and Eagle."
+  ],
+  "sources": [
+    {
+      "label": "Esri, 'History of GIS' and company history",
+      "url": "https://www.esri.com/en-us/what-is-gis/history-of-gis"
+    },
+    {
+      "label": "Department of Conservation, Managing Conservation Enterprise Systems: National Enterprise GIS Implementation for Conservation Management, Esri International User Conference 2003, Paper 1048",
+      "url": "https://proceedings.esri.com/library/userconf/proc03/p1048.pdf"
+    },
+    {
+      "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+    }
+  ],
+  "aliases": [
+    "Esri"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

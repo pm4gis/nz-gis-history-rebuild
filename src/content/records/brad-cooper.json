@@ -1,0 +1,31 @@
+{
+  "id": "person:brad-cooper",
+  "slug": "brad-cooper",
+  "name": "Brad Cooper",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/brad-cooper/",
+  "story": [
+    "LINZ and the Geospatial Capability Committee included Brad Cooper in the Leaving School geospatial career-profile series: Hydrographic Surveyor, LINZ, July 2024."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Brad Cooper"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

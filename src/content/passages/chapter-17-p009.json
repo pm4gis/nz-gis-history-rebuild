@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-17-a3670e1c5c",
+  "slug": "from-street-list-to-geocoding-a3670e1c5c",
+  "articleId": "article:chapter-17",
+  "title": "From street list to geocoding",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Statistics New Zealand’s StreetLink product provides a useful bridge from Chapter 16 into the address story. StreetLink related street names and address ranges to meshblocks, area units and territorial-authority geographies. A database user could take an address held in a customer or administrative system and assign it to an official statistical area without manually locating every record on a map. The associated Streets file listed address ranges and street names within meshblocks, while Areas files provided the relationship from meshblocks to larger geographies.",
+      "markdown": "Statistics New Zealand’s StreetLink product provides a useful bridge from Chapter 16 into the address story. StreetLink related street names and address ranges to meshblocks, area units and territorial-authority geographies. A database user could take an address held in a customer or administrative system and assign it to an official statistical area without manually locating every record on a map. The associated Streets file listed address ranges and street names within meshblocks, while Areas files provided the relationship from meshblocks to larger geographies.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The service matched addresses with geographic locations for administrative use. The task was to interpret an address consistently enough to attach an official geographic code. For a health service, council, market analyst or government agency, that could turn a table of customers or cases into population-based spatial analysis. StreetLink connected maintained street information with statistical geography; each system retained its own records and update process.",
+      "markdown": "The service matched addresses with geographic locations for administrative use. The task was to interpret an address consistently enough to attach an official geographic code. For a health service, council, market analyst or government agency, that could turn a table of customers or cases into population-based spatial analysis. StreetLink connected maintained street information with statistical geography; each system retained its own records and update process.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Access remained a separate issue. Before July 2007, the standard StreetLink file was a paid Statistics New Zealand product. The government pricing record lists NZ$6,000 plus GST for the first supply, NZ$2,000 for an annual update, or NZ$250 for a quarterly update. On 7 July 2007 the standard file became free, removing a direct acquisition cost for organisations wanting to connect their own address records to official geography. The underlying data and geocoding method already existed.",
+      "markdown": "Access remained a separate issue. Before July 2007, the standard StreetLink file was a paid Statistics New Zealand product. The government pricing record lists NZ$6,000 plus GST for the first supply, NZ$2,000 for an annual update, or NZ$250 for a quarterly update. On 7 July 2007 the standard file became free, removing a direct acquisition cost for organisations wanting to connect their own address records to official geography. The underlying data and geocoding method already existed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That example parallels the census-boundary story without repeating it. A useful national linkage dataset could exist for years while access remained specialised and priced. Making the standard file free widened the potential user base, but organisations still needed clean addresses, matching routines and staff who understood the resulting codes. Removing the invoice did not remove the work.",
+      "markdown": "That example parallels the census-boundary story without repeating it. A useful national linkage dataset could exist for years while access remained specialised and priced. Making the standard file free widened the potential user base, but organisations still needed clean addresses, matching routines and staff who understood the resulting codes. Removing the invoice did not remove the work.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

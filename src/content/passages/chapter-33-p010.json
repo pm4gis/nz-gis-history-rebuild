@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-33-8eeb99d6c9",
+  "slug": "maintaining-open-data-8eeb99d6c9",
+  "articleId": "article:chapter-33",
+  "title": "Maintaining open data",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A free download could still be expensive to use. Large datasets required storage and bandwidth. Different coordinate systems had to be understood. Field names and schemas needed interpretation. Updates had to be managed. An organisation might need to transform data before it fitted an operational database, and someone still had to decide whether the information was accurate enough for the job.",
+      "markdown": "A free download could still be expensive to use. Large datasets required storage and bandwidth. Different coordinate systems had to be understood. Field names and schemas needed interpretation. Updates had to be managed. An organisation might need to transform data before it fitted an operational database, and someone still had to decide whether the information was accurate enough for the job.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Open data therefore rewarded capability. A skilled GIS team could take a free national dataset and make it useful quickly. An organisation without spatial expertise could download the same file and discover that the hard part had only moved. The cost had shifted from purchasing access towards understanding, maintaining and integrating the information.",
+      "markdown": "Open data therefore rewarded capability. A skilled GIS team could take a free national dataset and make it useful quickly. An organisation without spatial expertise could download the same file and discover that the hard part had only moved. The cost had shifted from purchasing access towards understanding, maintaining and integrating the information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Open-source software could reduce some software costs and expand technical choices, while open government data could reduce some information costs and simplify reuse. Neither removed the need for professional judgement, infrastructure or staff time. The barriers became lower, but they did not vanish.",
+      "markdown": "Open-source software could reduce some software costs and expand technical choices, while open government data could reduce some information costs and simplify reuse. Neither removed the need for professional judgement, infrastructure or staff time. The barriers became lower, but they did not vanish.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

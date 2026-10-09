@@ -1,0 +1,33 @@
+{
+  "id": "person:bridgit-sissons",
+  "slug": "bridgit-sissons",
+  "name": "Bridgit Sissons",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/bridgit-sissons/",
+  "story": [
+    "At a Women in Spatial event on 24 October 2018, Bridgit Sissons of Engineering New Zealand spoke about the Diversity Agenda. Fifty members then discussed challenges specific to the spatial industry; the group reported that some members took the discussion back to their workplaces. The event account does not present the engineering-wide statistics in her talk as GIS workforce data."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial, “The Diversity Agenda”, 16 November 2018",
+      "url": "https://womeninspatial.wordpress.com/2018/11/16/the-diversity-agenda/"
+    }
+  ],
+  "aliases": [
+    "Bridgit Sissons"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Women in Spatial, “The Diversity Agenda”, 16 November 2018",
+        "url": "https://womeninspatial.wordpress.com/2018/11/16/the-diversity-agenda/"
+      }
+    ]
+  ]
+}

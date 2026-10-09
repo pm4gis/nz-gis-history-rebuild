@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-40-f6e457bf58",
+  "slug": "christchurch-spreads-gis-through-the-organisatio-f6e457bf58",
+  "articleId": "article:chapter-40",
+  "title": "Christchurch spreads GIS through the organisation",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:christchurch-city-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Christchurch City Council provides a different view of the same transition. The council's 2001/02 Corporate Plan called for further development and integration of GIS, Webmap, environmental layers, GEMs and the National Property Database within its electronic-information environment. ",
+      "markdown": "Christchurch City Council provides a different view of the same transition. The council's 2001/02 Corporate Plan called for further development and integration of GIS, Webmap, environmental layers, GEMs and the National Property Database within its electronic-information environment. ",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By February 2003 the council reported that its Corporate Webmap rollout had been completed. User numbers had increased by 35 per cent since June 2002, while the number of datasets available through the system had grown from 55 to 69. Those are modest figures by later web-platform standards, but they reveal a fundamental organisational shift. More staff could reach common spatial information through a browser without each becoming a desktop GIS specialist.",
+      "markdown": "By February 2003 the council reported that its Corporate Webmap rollout had been completed. User numbers had increased by 35 per cent since June 2002, while the number of datasets available through the system had grown from 55 to 69. Those are modest figures by later web-platform standards, but they reveal a fundamental organisational shift. More staff could reach common spatial information through a browser without each becoming a desktop GIS specialist.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapter 30 treated systems such as the Christchurch Webmap as part of the first generation of browser GIS. The enterprise interpretation is different. The browser application depended on maintained datasets, integration with corporate information and a shared service. The user saw a map. The organisation had to manage the machinery underneath it.",
+      "markdown": "Chapter 30 treated systems such as the Christchurch Webmap as part of the first generation of browser GIS. The enterprise interpretation is different. The browser application depended on maintained datasets, integration with corporate information and a shared service. The user saw a map. The organisation had to manage the machinery underneath it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That machinery encouraged reuse. A property or environmental dataset maintained for one business purpose could appear in another internal application without being manually rebuilt. The same architecture also increased dependency. If the shared Webmap or its underlying data failed, the effect was no longer confined to one GIS analyst. The convenience of corporate access created an expectation of corporate availability.",
+      "markdown": "That machinery encouraged reuse. A property or environmental dataset maintained for one business purpose could appear in another internal application without being manually rebuilt. The same architecture also increased dependency. If the shared Webmap or its underlying data failed, the effect was no longer confined to one GIS analyst. The convenience of corporate access created an expectation of corporate availability.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

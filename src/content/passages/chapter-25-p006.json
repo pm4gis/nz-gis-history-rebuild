@@ -1,0 +1,52 @@
+{
+  "id": "passage:chapter-25-b61cdf1186",
+  "slug": "smallworld-at-vector-b61cdf1186",
+  "articleId": "article:chapter-25",
+  "title": "Smallworld at Vector",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector",
+    "person:mike-bundock"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In late 1998 and early 1999 Vector converted its accumulated geographic and textual network information and functionality to the Smallworld GIS environment. The 1999/2000 Asset Management Plan describes this migration, following the record conversion that began in the early 1990s.",
+      "markdown": "In late 1998 and early 1999 Vector converted its accumulated geographic and textual network information and functionality to the Smallworld GIS environment. The 1999/2000 Asset Management Plan describes this migration, following the record conversion that began in the early 1990s.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Smallworld reached Australasia through an overseas software business. Mike Bundock’s company biography records his work with Smallworld in the United Kingdom before establishing an Australasian operation in 1993. That regional operation date is separate from Vector’s documented migration in 1998–99 and does not establish the first New Zealand installation.",
+      "sources": [
+        {
+          "label": "Augview, Mike Bundock management biography: Smallworld UK and Australasian operation, 1990–2000",
+          "url": "https://www.augview.net/company/"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Smallworld was designed around networked infrastructure rather than only general desktop mapping. Its attraction to utilities lay in the way a physical system could be represented as connected objects with business rules and engineering relationships. For an electricity distributor, the relationship between conductor, switch, transformer, pole, substation and customer was part of the data model. A user could work with a network rather than a collection of lines that happened to share the same map.",
+      "markdown": "Smallworld was designed around networked infrastructure rather than only general desktop mapping. Its attraction to utilities lay in the way a physical system could be represented as connected objects with business rules and engineering relationships. For an electricity distributor, the relationship between conductor, switch, transformer, pole, substation and customer was part of the data model. A user could work with a network rather than a collection of lines that happened to share the same map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vector’s asset-management documentation places the GIS among several systems used to manage condition and performance. Contractors could have systems for daily work scheduling, while Vector maintained records of faults and maintenance histories against individual assets. The GIS supplied the geographic and textual asset register within that wider environment. Network information could therefore be used for planning and maintenance without requiring every function to be stored inside the GIS itself.",
+      "markdown": "Vector’s asset-management documentation places the GIS among several systems used to manage condition and performance. Contractors could have systems for daily work scheduling, while Vector maintained records of faults and maintenance histories against individual assets. The GIS supplied the geographic and textual asset register within that wider environment. Network information could therefore be used for planning and maintenance without requiring every function to be stored inside the GIS itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2005 Vector was documenting further integration. Planned work included a GIS/SAP asset-register connector, wider use of aerial imagery and continued improvement of data quality. Network models were exported into specialist engineering-analysis applications. The GIS was becoming one source within a set of operational systems rather than a self-contained mapping application.",
+      "markdown": "By 2005 Vector was documenting further integration. Planned work included a GIS/SAP asset-register connector, wider use of aerial imagery and continued improvement of data quality. Network models were exported into specialist engineering-analysis applications. The GIS was becoming one source within a set of operational systems rather than a self-contained mapping application.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

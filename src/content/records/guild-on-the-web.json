@@ -1,0 +1,39 @@
+{
+  "id": "system:guild-on-the-web",
+  "slug": "guild-on-the-web",
+  "name": "GUILD-on-the-Web",
+  "kind": "Project",
+  "category": "Systems and projects",
+  "url": "/systems/guild-on-the-web/",
+  "story": [
+    "GUILD-on-the-Web was an environmental spatial-data service released by Landcare Research in January 1996. Robert Gibb led its development and David Medyckyj-Scott was a co-developer. It provided public web access to environmental information and was described in their 1996 Spatial Information Research Centre paper.",
+    "Medyckyj-Scott recalls GUILD as a conceptual predecessor to later Landcare portals and to Digimap, which he led at the University of Edinburgh. Claims that GUILD was the first operational public environmental-data web service are attributed to the developers. Its documented release places it among the early applications in New Zealand web GIS."
+  ],
+  "sources": [
+    {
+      "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+      "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+    },
+    {
+      "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+      "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+    }
+  ],
+  "aliases": [
+    "GUILD",
+    "Guild-on-the-web"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "Development and use",
+      "paragraphs": [
+        "GUILD-on-the-Web was an environmental spatial-data service released by Landcare Research in January 1996. Robert Gibb led its development and David Medyckyj-Scott was a co-developer. It provided public web access to environmental information and was described in their 1996 Spatial Information Research Centre paper.",
+        "Medyckyj-Scott recalls GUILD as a conceptual predecessor to later Landcare portals and to Digimap, which he led at the University of Edinburgh. Claims that GUILD was the first operational public environmental-data web service are attributed to the developers. Its documented release places it among the early applications in New Zealand web GIS."
+      ]
+    }
+  ]
+}

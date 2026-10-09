@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0951",
+  "a": "person:andrew-steffert",
+  "b": "entity:horizons-regional-council-manawatu-wanganui-regional-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

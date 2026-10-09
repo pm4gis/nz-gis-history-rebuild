@@ -1,0 +1,31 @@
+{
+  "id": "person:richard-law",
+  "slug": "richard-law",
+  "name": "Richard Law",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/richard-law/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Richard Law: GIS Developer, MetOcean Solutions; Victoria University Master of Geographic Information Science."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Richard Law"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

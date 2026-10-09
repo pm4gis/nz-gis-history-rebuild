@@ -1,0 +1,22 @@
+{
+  "id": "entity:new-zealand-aerial-mapping",
+  "slug": "new-zealand-aerial-mapping",
+  "name": "New Zealand Aerial Mapping",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/new-zealand-aerial-mapping/",
+  "website": null,
+  "story": [
+    "New Zealand Aerial Mapping developed a commercial aerial-survey capability under Piet van Asch in the 1930s. Pilots, photographers and photogrammetrists produced the imagery and measurements used in national mapping and other projects. Aircraft and cameras were only part of the system: overlap, ground control, stereoplotters and trained operators connected the photographs to usable maps. Surviving photographs and oral histories document working practices as well as the equipment."
+  ],
+  "sources": [],
+  "aliases": [
+    "New Zealand Aerial Mapping"
+  ],
+  "themeIds": [
+    "imagery"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

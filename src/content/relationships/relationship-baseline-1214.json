@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1214",
+  "a": "system:mapinfo-local-government",
+  "b": "entity:gore-district-council",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:rob-garrett",
+  "slug": "rob-garrett",
+  "name": "Rob Garrett",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rob-garrett/",
+  "story": [
+    "Rob Garrett is listed as Senior GIS Analyst in Dunedin City Council’s City Consultants among the special contributors to the December 1998 Dunedin City Lifelines Project report. The study examined the vulnerability of infrastructure services to natural hazards and identified areas needing further investigation or remedial work.",
+    "The December 1998 Dunedin City Lifelines Project report names Rob Garrett, Senior GIS Analyst, and Laura Nicol, GIS Analyst, in City Consultants at Dunedin City Council. The report acknowledged the group’s GIS mapping as essential to the project. Garrett and Nicol produced mapping for infrastructure and hazard assessment."
+  ],
+  "sources": [
+    {
+      "label": "Dunedin City Lifelines Project report, December 1998: contributors",
+      "url": "https://www.dunedin.govt.nz/__data/assets/pdf_file/0006/1234896/dunedin-city-lifelines-project-report-december-1998.pdf"
+    },
+    {
+      "label": "Chapter 23 · Networks meet the ledger",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Rob Garrett"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Dunedin City Lifelines Project report, December 1998: contributors",
+        "url": "https://www.dunedin.govt.nz/__data/assets/pdf_file/0006/1234896/dunedin-city-lifelines-project-report-december-1998.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · Networks meet the ledger",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

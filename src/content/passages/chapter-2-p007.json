@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-2-2ab91fbc4f",
+  "slug": "transforming-one-coordinate-world-into-another-2ab91fbc4f",
+  "articleId": "article:chapter-2",
+  "title": "Transforming one coordinate world into another",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:2",
+    "person:w-i-reilly"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Coordinate transformation became increasingly relevant as New Zealand modernised national mapping and measurement. Metrication changed units, while the New Zealand Map Grid provided the projection framework for the new national metric map series. W. I. Reilly’s NZMG design was published in 1973, and the new 1:50,000 NZMS260 series began appearing later in the decade. The numerical work preceded the cartographic conversion described in Chapter 3.",
+      "markdown": "Coordinate transformation became increasingly relevant as New Zealand modernised national mapping and measurement. Metrication changed units, while the New Zealand Map Grid provided the projection framework for the new national metric map series. W. I. Reilly’s NZMG design was published in 1973, and the new 1:50,000 NZMS260 series began appearing later in the decade. The numerical work preceded the cartographic conversion described in Chapter 3.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A projection turns positions on the curved Earth into coordinates on a flat map according to a defined mathematical relationship. Moving existing information between coordinate frameworks therefore requires more than changing a printed label. Positions have to be transformed consistently, and errors in the source control or formula propagate into the output. Electronic calculation was well suited to repeating those transformations across large numbers of points.",
+      "markdown": "A projection turns positions on the curved Earth into coordinates on a flat map according to a defined mathematical relationship. Moving existing information between coordinate frameworks therefore requires more than changing a printed label. Positions have to be transformed consistently, and errors in the source control or formula propagate into the output. Electronic calculation was well suited to repeating those transformations across large numbers of points.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Survey departments already worked with coordinates, transformations and control networks, while computing departments developed repeatable numerical procedures. Bringing their work together allowed transformations to be applied systematically to large coordinate lists. These calculations made later digital conversion more practical, although they did not themselves create a digital map.",
+      "markdown": "Survey departments already worked with coordinates, transformations and control networks, while computing departments developed repeatable numerical procedures. Bringing their work together allowed transformations to be applied systematically to large coordinate lists. These calculations made later digital conversion more practical, although they did not themselves create a digital map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NZMG’s specialised mathematics later caused compatibility problems in international software. In the early 1970s, however, the issue was more immediate. New Zealand needed a reliable national metric coordinate framework and practical ways to convert inherited information into it. The computer reduced the arithmetic burden while survey and mapping staff remained responsible for whether the transformed result fitted the real control.",
+      "markdown": "NZMG’s specialised mathematics later caused compatibility problems in international software. In the early 1970s, however, the issue was more immediate. New Zealand needed a reliable national metric coordinate framework and practical ways to convert inherited information into it. The computer reduced the arithmetic burden while survey and mapping staff remained responsible for whether the transformed result fitted the real control.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

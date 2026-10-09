@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-22-8f0792952a",
+  "slug": "a-smaller-machine-a-different-user-8f0792952a",
+  "articleId": "article:chapter-22",
+  "title": "A smaller machine, a different user",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "technology-stack"
+  ],
+  "recordIds": [
+    "chapter:22"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Early workstation GIS combined software capability with expensive hardware and specialist support. ARC/INFO could maintain topology, run overlays and manage large production datasets, while Intergraph systems were used where GIS overlapped engineering, CAD, photogrammetry and high-end graphics. Their cost and complexity concentrated use in organisations able to support trained staff. A workstation on a specialist’s desk was still a long way from GIS being available across a general office.",
+      "markdown": "Early workstation GIS combined software capability with expensive hardware and specialist support. ARC/INFO could maintain topology, run overlays and manage large production datasets, while Intergraph systems were used where GIS overlapped engineering, CAD, photogrammetry and high-end graphics. Their cost and complexity concentrated use in organisations able to support trained staff. A workstation on a specialist’s desk was still a long way from GIS being available across a general office.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Desktop products took a different route. MapInfo was designed around personal-computer mapping and business data. ArcView provided a more accessible Esri desktop environment alongside rather than in place of ARC/INFO. GeoMedia later provided another desktop option, and organisations could use several products at once. A 2004 New Zealand study found ArcGIS or ArcView, MapInfo and GeoMedia all present in its sample of councils, universities and Māori organisations, with different organisations choosing different combinations.",
+      "markdown": "Desktop products took a different route. MapInfo was designed around personal-computer mapping and business data. ArcView provided a more accessible Esri desktop environment alongside rather than in place of ARC/INFO. GeoMedia later provided another desktop option, and organisations could use several products at once. A 2004 New Zealand study found ArcGIS or ArcView, MapInfo and GeoMedia all present in its sample of councils, universities and Māori organisations, with different organisations choosing different combinations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The distinction between production and desktop software remained practical. A GIS team might maintain master data in a larger database or specialist environment while other staff used extracts in a desktop package. Some users needed editing and analysis; others mainly needed to view, query and produce maps. A desktop copy could be easier to use without being the authoritative record. New software therefore widened the client end of GIS before it necessarily changed where the master data lived.",
+      "markdown": "The distinction between production and desktop software remained practical. A GIS team might maintain master data in a larger database or specialist environment while other staff used extracts in a desktop package. Some users needed editing and analysis; others mainly needed to view, query and produce maps. A desktop copy could be easier to use without being the authoritative record. New software therefore widened the client end of GIS before it necessarily changed where the master data lived.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That pattern became common across information technology during the 1990s. Central systems did not disappear when PCs arrived. They were increasingly joined by personal tools that allowed staff to work with selected information locally. GIS followed the same path, with the added complication that geographic datasets could be large, coordinate-dependent and easy to copy without carrying all of their context with them.",
+      "markdown": "That pattern became common across information technology during the 1990s. Central systems did not disappear when PCs arrived. They were increasingly joined by personal tools that allowed staff to work with selected information locally. GIS followed the same path, with the added complication that geographic datasets could be large, coordinate-dependent and easy to copy without carrying all of their context with them.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-33-d828a876b3",
+  "slug": "the-price-of-geography-d828a876b3",
+  "articleId": "article:chapter-33",
+  "title": "The price of geography",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The shift had started before the phrase open data became common. On 21 September 1999 the Government announced a major change to the pricing of LINZ topographic information. Copyright reproduction fees for LINZ-held digital data, topographic maps and aerial photographs were to be abolished, and charges for digital data were to reflect dissemination rather than the much heavier cost-recovery regime that had gone before.",
+      "markdown": "The shift had started before the phrase open data became common. On 21 September 1999 the Government announced a major change to the pricing of LINZ topographic information. Copyright reproduction fees for LINZ-held digital data, topographic maps and aerial photographs were to be abolished, and charges for digital data were to reflect dissemination rather than the much heavier cost-recovery regime that had gone before.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The numbers were striking. The Minister said a large map producer could previously have paid about NZ$100,000 a year in copyright fees. More dramatically, the cost to data distributors of buying the entire 1:50,000 digital topographic database was expected to fall from almost NZ$2 million to around NZ$1,500. Printed maps would still be sold, but the economics of reusing the digital national topographic database were being radically altered. That is the sort of price change capable of turning a dataset from something discussed in a budget meeting into something a developer might simply decide to use.",
+      "markdown": "The numbers were striking. The Minister said a large map producer could previously have paid about NZ$100,000 a year in copyright fees. More dramatically, the cost to data distributors of buying the entire 1:50,000 digital topographic database was expected to fall from almost NZ$2 million to around NZ$1,500. Printed maps would still be sold, but the economics of reusing the digital national topographic database were being radically altered. That is the sort of price change capable of turning a dataset from something discussed in a budget meeting into something a developer might simply decide to use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1999 decision was one stage in changing access to government data. The terminology, licensing framework and online services of the next decade were not yet in place. Pricing and licensing could restrict access to publicly funded information and its reuse. Even when an organisation had GIS software and capable staff, the price of foundational data could determine whether a project was practical.",
+      "markdown": "The 1999 decision was one stage in changing access to government data. The terminology, licensing framework and online services of the next decade were not yet in place. Pricing and licensing could restrict access to publicly funded information and its reuse. Even when an organisation had GIS software and capable staff, the price of foundational data could determine whether a project was practical.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The earlier model also shaped everyday project planning. A GIS team could know exactly which national dataset it needed and still have to treat acquisition as a budget item in its own right. A project manager might have to decide whether a full national database was essential, whether a smaller geographic extract would do, or whether an older or less suitable source could be substituted. Data purchasing therefore influenced project scope in ways that are easy to forget once foundational layers become routine downloads.",
+      "markdown": "The earlier model also shaped everyday project planning. A GIS team could know exactly which national dataset it needed and still have to treat acquisition as a budget item in its own right. A project manager might have to decide whether a full national database was essential, whether a smaller geographic extract would do, or whether an older or less suitable source could be substituted. Data purchasing therefore influenced project scope in ways that are easy to forget once foundational layers become routine downloads.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The dramatic reduction also separated two costs that had often been bundled together. Producing and maintaining a national topographic database remained expensive public work. Copying an existing digital dataset for another user was becoming comparatively cheap. Once distribution costs fell, charging each downstream user as though the whole national database had to be created again became harder to justify. That economic distinction sat underneath much of the policy change that followed.",
+      "markdown": "The dramatic reduction also separated two costs that had often been bundled together. Producing and maintaining a national topographic database remained expensive public work. Copying an existing digital dataset for another user was becoming comparatively cheap. Once distribution costs fell, charging each downstream user as though the whole national database had to be created again became harder to justify. That economic distinction sat underneath much of the policy change that followed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This had consequences for who could participate. Large central agencies and established commercial firms might be able to absorb data costs that were prohibitive for a small consultancy, a university researcher, a community organisation or a local project. High prices could also encourage organisations to maintain their own partial copies, work from paper products or avoid using a dataset altogether. Lower prices widened the set of projects that could realistically be attempted.",
+      "markdown": "This had consequences for who could participate. Large central agencies and established commercial firms might be able to absorb data costs that were prohibitive for a small consultancy, a university researcher, a community organisation or a local project. High prices could also encourage organisations to maintain their own partial copies, work from paper products or avoid using a dataset altogether. Lower prices widened the set of projects that could realistically be attempted.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

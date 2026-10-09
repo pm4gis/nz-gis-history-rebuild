@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-37-38a0d9301b",
+  "slug": "terrain-becomes-a-shared-input-38a0d9301b",
+  "articleId": "article:chapter-37",
+  "title": "Terrain becomes a shared input",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Detailed elevation data were reused in many kinds of work. A drainage modeller could receive a terrain raster, an engineer a set of contours, a planner a hillshade, and a GIS analyst a slope layer. The acquisition technology might be invisible to the final user. This mirrors a broader pattern elsewhere in the book: mature geospatial infrastructure often becomes less visible precisely because its outputs become ordinary inputs to other work.",
+      "markdown": "Detailed elevation data were reused in many kinds of work. A drainage modeller could receive a terrain raster, an engineer a set of contours, a planner a hillshade, and a GIS analyst a slope layer. The acquisition technology might be invisible to the final user. This mirrors a broader pattern elsewhere in the book: mature geospatial infrastructure often becomes less visible precisely because its outputs become ordinary inputs to other work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The derived products also changed organisational relationships. A council GIS team could hold the source survey and prepare simpler products for staff who did not need point-cloud software. Consultants could receive the same terrain basis as the client. Regional agencies could reuse a council acquisition for catchment work, while councils could later consume nationally published models. Elevation moved through organisations in several forms, from classified LAS files to grids, contours and shaded relief, each selected for a different audience.",
+      "markdown": "The derived products also changed organisational relationships. A council GIS team could hold the source survey and prepare simpler products for staff who did not need point-cloud software. Consultants could receive the same terrain basis as the client. Regional agencies could reuse a council acquisition for catchment work, while councils could later consume nationally published models. Elevation moved through organisations in several forms, from classified LAS files to grids, contours and shaded relief, each selected for a different audience.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This made provenance increasingly important. A user looking at a slope raster may be several processing steps removed from the aircraft and laser scanner that created the source observations. If the acquisition date, vertical datum, classification method or source survey identifier is lost along the way, the derived layer can become difficult to assess. National distribution later helped by making metadata and survey boundaries easier to retain with the products. The more ordinary elevation became, the more important it was to preserve the history hidden behind the raster.",
+      "markdown": "This made provenance increasingly important. A user looking at a slope raster may be several processing steps removed from the aircraft and laser scanner that created the source observations. If the acquisition date, vertical datum, classification method or source survey identifier is lost along the way, the derived layer can become difficult to assess. National distribution later helped by making metadata and survey boundaries easier to retain with the products. The more ordinary elevation became, the more important it was to preserve the history hidden behind the raster.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

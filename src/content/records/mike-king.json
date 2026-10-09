@@ -1,0 +1,31 @@
+{
+  "id": "person:mike-king",
+  "slug": "mike-king",
+  "name": "Mike King",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mike-king/",
+  "story": [
+    "Interpine’s 2001 history describes Mike King’s forestry contracting business in the 1970s as the origin of its later technical forestry work."
+  ],
+  "sources": [
+    {
+      "label": "Interpine history, 2001",
+      "url": "https://interpine.nz/putting-a-new-spin-on-forestry/"
+    }
+  ],
+  "aliases": [
+    "Mike King"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Interpine history, 2001",
+        "url": "https://interpine.nz/putting-a-new-spin-on-forestry/"
+      }
+    ]
+  ]
+}

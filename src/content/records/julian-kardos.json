@@ -1,0 +1,50 @@
+{
+  "id": "person:julian-kardos",
+  "slug": "julian-kardos",
+  "name": "Julian Kardos",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/julian-kardos/",
+  "story": [
+    "Julian Kardos moved from research on uncertainty in GIS into enterprise software and digital business. He co-founded Electric Kiwi, launched in May 2015, and brought experience in large-scale software development and open-source technology to its online electricity-retailing model. The company used smart-meter information to design off-peak pricing and its Hour of Power offer, extending his data work into the energy sector.",
+    "Julian Kardos completed a PhD on visualising uncertainty in GIS in 2005. His biography in the 2008 Geospatial Vision volume identifies him as an Intergraph business-development manager and consultant, with interests in collaboration and spatial data infrastructure. He co-authored its chapter on tessellation methods for displaying geographical uncertainty with Antoni Moore and George Benwell."
+  ],
+  "sources": [
+    {
+      "label": "University of Canterbury Chronicle, New System in Mechanical Engineering / Computer Integrated Manufacturing",
+      "url": "https://digitalvoyages.canterbury.ac.nz/omeka-s/files/original/246d76e45ec62305c029eca025115c3f85b8a92c.pdf"
+    },
+    {
+      "label": "Geospatial Vision, Springer, 2008, author biography for Julian Kardos, p.X",
+      "url": "https://www.morawa.at/annot/564C42696D677C7C393738333534303730393730317C7C504446.pdf?sq=3"
+    },
+    {
+      "label": "Julian Kardos | New Zealand Energy Excellence Awards · career/profile reference",
+      "url": "https://www.energyawards.co.nz/finalist/2016/young-energy-professional-of-the-year/julian-kardos"
+    }
+  ],
+  "aliases": [
+    "Julian Kardos"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Julian Kardos | New Zealand Energy Excellence Awards · career/profile reference",
+        "url": "https://www.energyawards.co.nz/finalist/2016/young-energy-professional-of-the-year/julian-kardos"
+      }
+    ],
+    [
+      {
+        "label": "University of Canterbury Chronicle, New System in Mechanical Engineering / Computer Integrated Manufacturing",
+        "url": "https://digitalvoyages.canterbury.ac.nz/omeka-s/files/original/246d76e45ec62305c029eca025115c3f85b8a92c.pdf"
+      },
+      {
+        "label": "Geospatial Vision, Springer, 2008, author biography for Julian Kardos, p.X",
+        "url": "https://www.morawa.at/annot/564C42696D677C7C393738333534303730393730317C7C504446.pdf?sq=3"
+      }
+    ]
+  ]
+}

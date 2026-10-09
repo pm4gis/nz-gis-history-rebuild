@@ -1,0 +1,82 @@
+{
+  "id": "entity:eagle-technology",
+  "slug": "eagle-technology",
+  "name": "Eagle Technology",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/eagle-technology/",
+  "website": null,
+  "story": [
+    "Eagle Technology became a long-running New Zealand channel for Esri software and the services that kept it in use. The company dates its New Zealand Esri relationship to 1986; other industry accounts place the formal relationship in the later 1980s, and practitioner records describe early Esri and ERDAS distribution work during 1983–87. The first local production ARC/INFO licence or installation remains undated. Eagle also supported a national practitioner network through its conference work.",
+    "International Data Limited was incorporated in 1969. A separate IDL Utilities entity later became Prime Computer of N Z Limited; Eagle Technology Group was established in 1984. These connected computing and systems-integration businesses form the company’s earlier lineage.",
+    "Parker Jones and David Pimblott are documented in the earlier software and consulting work. Later projects involved Graeme Henderson on Downer GRAIL, Nathan Heazlewood on Auckland GFMO and Jithen Singh on NZTA’s enterprise platform. Scott Campbell was identified as Head of GIS Technology at the 2017 New Zealand Esri User Conference. Eagle announced Henderson’s appointment as Chief Executive Officer on 15 December 2025.",
+    "Duane Wilkins recalls that Eagle Technology designed DOCgis before 2003, followed by continued development by Department of Conservation analysts and developers.",
+    "Since March 2017, New Zealand schools have had free access to Esri ArcGIS Online through the GIS in Schools programme. Eagle Technology developed classroom resources with teachers, aligned to NCEA Geography achievement standards that reference GIS. The programme extends the company’s work from supplying software to supporting geospatial education."
+  ],
+  "sources": [
+    {
+      "label": "NZ Hi-Tech Awards, Trevor Eagle Flying Kiwi profile",
+      "url": "https://www.hitech.org.nz/awards/flying-kiwi/trevor-eagle/"
+    },
+    {
+      "label": "Eagle Technology corporate material and 2013 GBS Gold Partner release",
+      "url": "https://www.eagle.co.nz/"
+    },
+    {
+      "label": "NZ Hi-Tech Awards, Trevor Eagle Flying Kiwi profile",
+      "url": "https://www.hitech.org.nz/awards/flying-kiwi/trevor-eagle/"
+    },
+    {
+      "label": "Registry-derived record for historic International Data Limited, company no. 76949",
+      "url": "https://www.nzlbusiness.com/company/struck-off/Merrett-Financial-Systems-Limited"
+    },
+    {
+      "label": "Registry-derived record for historic IDL Utilities / Prime Computer of N Z Limited",
+      "url": "https://www.nzlbusiness.com/company/registered/It-Qualifications-Limited"
+    },
+    {
+      "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+    },
+    {
+      "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+      "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+    },
+    {
+      "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+    },
+    {
+      "label": "Minister for Land Information Mark Mitchell, 'New Zealand ESRI User Conference'",
+      "url": "https://www.beehive.govt.nz/speech/new-zealand-esri-user-conference"
+    },
+    {
+      "label": "Eagle Technology, 'Eagle Technology Appoints New CEO, Graeme Henderson'",
+      "url": "https://www.eagle.co.nz/news"
+    },
+    {
+      "label": "Geographic Business Solutions, GBS attains Esri Gold Partner Status, carried by Scoop",
+      "url": "https://www.scoop.co.nz/stories/BU1308/S00725/gbs-attains-esri-gold-partner-status.htm"
+    },
+    {
+      "label": "Staff recollection about DOCgis design and development, supplied 2 October 2026"
+    },
+    {
+      "label": "Duane Wilkins, account of DOCgis development and the 2012 shared-service reform, supplied 2 October 2026"
+    },
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    }
+  ],
+  "aliases": [
+    "Eagle Technology"
+  ],
+  "themeIds": [
+    "women-in-gis",
+    "profession"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

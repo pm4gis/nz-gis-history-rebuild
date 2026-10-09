@@ -1,0 +1,26 @@
+{
+  "id": "entity:stantec",
+  "slug": "stantec",
+  "name": "Stantec",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/stantec/",
+  "website": null,
+  "story": [
+    "Stantec’s New Zealand GIS work included utility-information automation. Rory McPherson’s 2019 presentation documented an ArcGIS Pro, Python and FME workflow automating Wellington Water beforeUdig requests."
+  ],
+  "sources": [
+    {
+      "label": "Rory McPherson, Wellington Water beforeUdig automation presentation",
+      "url": "https://www.eagle.co.nz/sites/default/files/Rory_McPherson.pdf"
+    }
+  ],
+  "aliases": [
+    "Stantec"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

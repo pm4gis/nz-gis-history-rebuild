@@ -1,0 +1,76 @@
+{
+  "id": "person:bonita-gestro",
+  "slug": "bonita-gestro",
+  "name": "Bonita Cooper",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/bonita-gestro/",
+  "story": [
+    "Bonita Cooper, also named as Bonita Gestro in earlier records, worked with Eagle Technology and supported conservation GIS. She helped arrange Dawn Wright’s New Zealand visit, participated in the conservation GIS network, and later presented on transport evidence and Maritime NZ’s research, analysis and intelligence work.",
+    "At a 2018 Women in Spatial + Survey event, the report listed her as Bonita Gestro and recorded her account of volunteer conservation GIS. This is a dated example of her contribution under the name used in the contemporary source."
+  ],
+  "sources": [
+    {
+      "label": "SCGIS New Zealand and Fiji chapter",
+      "url": "https://www.scgis.org/new-zealand-and-fiji"
+    },
+    {
+      "label": "Eagle itinerary for Dawn Wright’s visit",
+      "url": "https://dusk.geo.orst.edu/Pickup/Esri/NZ/Dawn_NZ_Eagle_Itinerary.pdf"
+    },
+    {
+      "label": "Transport research presentation, 2019",
+      "url": "https://www.knowledgehub.transport.govt.nz/assets/TKH-Uploads/TRC-2019/Facilitating-collaboration-with-the-research-community.pdf"
+    },
+    {
+      "label": "Maritime NZ board minutes, 2023",
+      "url": "https://fyi.org.nz/request/24688/response/97563/attach/2/Decision%20letter%20to%20John%20Luke%20F33866with%20documents.pdf"
+    },
+    {
+      "label": "Women in Spatial, Transpower lightning talks, 6 August 2018",
+      "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+    },
+    {
+      "label": "Chapter 29 · New professional networks",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Bonita Gestro"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "SCGIS New Zealand and Fiji chapter",
+        "url": "https://www.scgis.org/new-zealand-and-fiji"
+      },
+      {
+        "label": "Eagle itinerary for Dawn Wright’s visit",
+        "url": "https://dusk.geo.orst.edu/Pickup/Esri/NZ/Dawn_NZ_Eagle_Itinerary.pdf"
+      },
+      {
+        "label": "Transport research presentation, 2019",
+        "url": "https://www.knowledgehub.transport.govt.nz/assets/TKH-Uploads/TRC-2019/Facilitating-collaboration-with-the-research-community.pdf"
+      },
+      {
+        "label": "Maritime NZ board minutes, 2023",
+        "url": "https://fyi.org.nz/request/24688/response/97563/attach/2/Decision%20letter%20to%20John%20Luke%20F33866with%20documents.pdf"
+      },
+      {
+        "label": "Women in Spatial, Transpower lightning talks, 6 August 2018",
+        "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · New professional networks",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-27-29e12cb275",
+  "slug": "one-dataset-several-patterns-29e12cb275",
+  "articleId": "article:chapter-27",
+  "title": "One dataset, several patterns",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The conventional vector method aggregated cases into Census units, linked them with resident population and calculated events per 100,000 people. The alternative converted the information into raster surfaces and used focal-neighbourhood functions so the analysis could operate across a consistent moving area rather than being confined to irregular administrative polygons. Both methods started with the same events and population data.",
+      "markdown": "The conventional vector method aggregated cases into Census units, linked them with resident population and calculated events per 100,000 people. The alternative converted the information into raster surfaces and used focal-neighbourhood functions so the analysis could operate across a consistent moving area rather than being confined to irregular administrative polygons. Both methods started with the same events and population data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The methods produced different geographic patterns. The paper reported differences of up to 100 per cent between the vector and raster rates at a given location and scale. Some of that difference came from the geometry of Census units, which varied greatly between densely populated Hamilton and large rural areas. At TLA scale the pattern became smoother; at finer scales the variation was much more visible. A user could therefore change the apparent distribution of disease without changing a single case record, simply by changing the spatial model used to organise the calculation.",
+      "markdown": "The methods produced different geographic patterns. The paper reported differences of up to 100 per cent between the vector and raster rates at a given location and scale. Some of that difference came from the geometry of Census units, which varied greatly between densely populated Hamilton and large rural areas. At TLA scale the pattern became smoother; at finer scales the variation was much more visible. A user could therefore change the apparent distribution of disease without changing a single case record, simply by changing the spatial model used to organise the calculation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For public-health work, staff needed to know how each local rate had been constructed. A polygon shaded dark red could reflect a genuine concentration of cases, a small denominator, an awkward boundary or a combination of all three. Raster methods allowed the analyst to control the neighbourhood more consistently while aggregation still required careful interpretation. The work was an early New Zealand example of GIS being used to interrogate how a result was represented as well as to display it.",
+      "markdown": "For public-health work, staff needed to know how each local rate had been constructed. A polygon shaded dark red could reflect a genuine concentration of cases, a small denominator, an awkward boundary or a combination of all three. Raster methods allowed the analyst to control the neighbourhood more consistently while aggregation still required careful interpretation. The work was an early New Zealand example of GIS being used to interrogate how a result was represented as well as to display it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same paper preserved the link between research and operations. It did not attempt to explain why particular diseases occurred where they did. Its concern was whether public-health staff could represent notified events in ways that were fast enough for routine use and defensible enough for investigation and planning. That boundary kept the GIS focused on surveillance and representation while leaving epidemiological interpretation to the wider public-health process.",
+      "markdown": "The same paper preserved the link between research and operations. It did not attempt to explain why particular diseases occurred where they did. Its concern was whether public-health staff could represent notified events in ways that were fast enough for routine use and defensible enough for investigation and planning. That boundary kept the GIS focused on surveillance and representation while leaving epidemiological interpretation to the wider public-health process.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

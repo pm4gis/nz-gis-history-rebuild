@@ -1,0 +1,31 @@
+{
+  "id": "person:f-barrow",
+  "slug": "f-barrow",
+  "name": "F. Barrow",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/f-barrow/",
+  "story": [
+    "By 1995 P. J. Sallis and F. Barrow were applying natural-language processing and GIS ideas to a railway safety-audit reporting system. In the 2000s New Zealand research included neural networks, fuzzy neural networks, support-vector methods and spatial data mining."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 44 · AI before the boom",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "F. Barrow"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 44 · AI before the boom",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "person:mark-rattenbury",
+  "slug": "mark-rattenbury",
+  "name": "Mark Rattenbury",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mark-rattenbury/",
+  "story": [
+    "Mark Rattenbury is a geologist and geoscience-information specialist whose field experience includes the South Island, Antarctica and Australia. He led QMAP from 2004 to 2012, followed by programmes in minerals and regional geology and in nationally significant databases and collections. His work includes geological maps, database design, three-dimensional modelling and geoscience data standards. He has also advocated FAIR data principles and stronger Māori data governance.",
+    "Mark Rattenbury and Mike Isaac's project history names Philip Carthew, Greg Drummond, David Heron, Biljana Lukovic, Jeff Lyall, Ben Morrison, Penny Murray and Belinda Smith Lyttle among those providing text production, GIS and cartography. Universities supplied thesis and unpublished mapping, while NIWA supplied offshore data. Digital image products were being released from 2004 and vector GIS products from 2006. By 2012 QMAP data could also be consumed through web map services, so a programme conceived as a national map series had become a reusable national data service.",
+    "Simon Cox and Mark Rattenbury documented one example in 2006 using the QMAP dataset for gold-prospectivity modelling. Their work used GIS and weights-of-evidence methods to combine geological information with other indicators associated with mineralisation. The national geological dataset was therefore being treated as an analytical layer rather than only as a collection of finished sheets."
+  ],
+  "sources": [
+    {
+      "label": "Mark Rattenbury · career/profile reference",
+      "url": "https://www.gns.cri.nz/about-us/staff-search/mark-rattenbury/"
+    },
+    {
+      "label": "Chapter 9 · Rebuilding the geological map",
+      "url": "/stories/science-goes-spatial/"
+    },
+    {
+      "label": "Chapter 9 · A map that can be queried again",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Mark Rattenbury"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Mark Rattenbury · career/profile reference",
+        "url": "https://www.gns.cri.nz/about-us/staff-search/mark-rattenbury/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · Rebuilding the geological map",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · A map that can be queried again",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

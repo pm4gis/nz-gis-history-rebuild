@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2263",
+  "a": "person:kat-salm",
+  "b": "entity:geospatial-capability-committee",
+  "label": "Committee member",
+  "basis": "LINZ current Geospatial Capability Committee membership",
+  "passageIds": [],
+  "sources": []
+}

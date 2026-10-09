@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1915",
+  "a": "person:yuxiao-li",
+  "b": "chapter:39",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-39-f305bc5792"
+  ],
+  "sources": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "entity:te-mana-raraunga",
+  "slug": "te-mana-raraunga",
+  "name": "Te Mana Raraunga",
+  "kind": "Organisation",
+  "category": "Iwi and Māori organisations",
+  "url": "/entities/te-mana-raraunga/",
+  "website": null,
+  "story": [
+    "Te Mana Raraunga formed in 2015, with its charter setting out Māori interests and authority in data. Tahu Kukutai and Maui Hudson are among the founding contributors identified in the research. Its principles brought governance, benefit and responsibility into discussion of data access, including information about land, environments and communities."
+  ],
+  "sources": [
+    {
+      "label": "Te Mana Raraunga, organisational history",
+      "url": "https://www.temanararaunga.maori.nz/"
+    },
+    {
+      "label": "Te Mana Raraunga, Tūtohinga / Charter",
+      "url": "https://www.temanararaunga.maori.nz/tutohinga"
+    }
+  ],
+  "aliases": [
+    "Te Mana Raraunga"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

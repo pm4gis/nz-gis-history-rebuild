@@ -1,0 +1,31 @@
+{
+  "id": "person:donald-king",
+  "slug": "donald-king",
+  "name": "Donald King",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/donald-king/",
+  "story": [
+    "Interpine’s 2001 account names Donald King as general manager while describing the business’s expansion into technical forestry services."
+  ],
+  "sources": [
+    {
+      "label": "Interpine history, 2001",
+      "url": "https://interpine.nz/putting-a-new-spin-on-forestry/"
+    }
+  ],
+  "aliases": [
+    "Donald King"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Interpine history, 2001",
+        "url": "https://interpine.nz/putting-a-new-spin-on-forestry/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-18-65d86e5082",
+  "slug": "before-gps-65d86e5082",
+  "articleId": "article:chapter-18",
+  "title": "Before GPS",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18",
+    "person:jon-hargest",
+    "person:f-j-davey"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand surveyors had used earlier satellite-positioning methods before GPS. In 1976 F. J. Davey of DSIR’s Geophysics Division published results from Fiordland using an ITT Model 6000 single-channel satellite navigation receiver. This was the older United States Navy Navigation Satellite System, usually known as Transit, not GPS. Davey observed satellite passes at 13 anchorages and compared the resulting positions with coordinates on the New Zealand Geodetic Datum 1949. The exercise found a systematic difference in latitude of about 170 metres between the satellite reference system and NZGD49 in the area studied.",
+      "markdown": "New Zealand surveyors had used earlier satellite-positioning methods before GPS. In 1976 F. J. Davey of DSIR’s Geophysics Division published results from Fiordland using an ITT Model 6000 single-channel satellite navigation receiver. This was the older United States Navy Navigation Satellite System, usually known as Transit, not GPS. Davey observed satellite passes at 13 anchorages and compared the resulting positions with coordinates on the New Zealand Geodetic Datum 1949. The exercise found a systematic difference in latitude of about 170 metres between the satellite reference system and NZGD49 in the area studied.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The result formed part of New Zealand’s early satellite positioning work. New Zealand practitioners were experimenting with positions derived from satellites a decade before the first GPS survey currently identified by the historical record. The technologies, constellations and techniques were different, but the underlying problem was already visible: a position calculated in a global satellite reference system did not necessarily sit neatly on the coordinates used by an older national mapping system.",
+      "markdown": "The result formed part of New Zealand’s early satellite positioning work. New Zealand practitioners were experimenting with positions derived from satellites a decade before the first GPS survey currently identified by the historical record. The technologies, constellations and techniques were different, but the underlying problem was already visible: a position calculated in a global satellite reference system did not necessarily sit neatly on the coordinates used by an older national mapping system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Te Ara identifies a Fiordland survey in 1986 as New Zealand’s first survey using GPS.",
+      "markdown": "Te Ara identifies a Fiordland survey in 1986 as New Zealand’s first survey using GPS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 1989, GPS survey work was more extensively documented. A photograph taken by Evening Post photographer Jon Hargest shows a Department of Survey and Land Information surveyor checking GPS equipment on a Wellington hilltop. The receiver equipment occupies a substantial case, with the antenna mounted separately on a tripod. It looks nothing like something that would disappear into a jacket pocket. The photograph leaves the receiver model unidentified and comes from a different event than the 1986 Fiordland survey, but it captures the physical character of late-1980s GPS well: specialised field equipment operated by people who knew what they were doing.",
+      "markdown": "By 1989, GPS survey work was more extensively documented. A photograph taken by Evening Post photographer Jon Hargest shows a Department of Survey and Land Information surveyor checking GPS equipment on a Wellington hilltop. The receiver equipment occupies a substantial case, with the antenna mounted separately on a tripod. It looks nothing like something that would disappear into a jacket pocket. The photograph leaves the receiver model unidentified and comes from a different event than the 1986 Fiordland survey, but it captures the physical character of late-1980s GPS well: specialised field equipment operated by people who knew what they were doing.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

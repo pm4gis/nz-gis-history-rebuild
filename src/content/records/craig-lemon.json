@@ -1,0 +1,31 @@
+{
+  "id": "person:craig-lemon",
+  "slug": "craig-lemon",
+  "name": "Craig Lemon",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/craig-lemon/",
+  "story": [
+    "Craig Lemon was named alongside Chris Sharman and Bryan Clarke in Christchurch City Council’s 2004 annual report as a member of the team developing council software recognised by Intergraph. This contemporary credit places him in the council’s software-development work."
+  ],
+  "sources": [
+    {
+      "label": "Christchurch City Council Annual Report 2004, Intergraph software-award caption",
+      "url": "https://archived.ccc.govt.nz/AnnualReport/2004/CCCAnnualReport2004.pdf"
+    }
+  ],
+  "aliases": [
+    "Craig Lemon"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Christchurch City Council Annual Report 2004, Intergraph software-award caption",
+        "url": "https://archived.ccc.govt.nz/AnnualReport/2004/CCCAnnualReport2004.pdf"
+      }
+    ]
+  ]
+}

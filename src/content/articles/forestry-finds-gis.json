@@ -1,0 +1,34 @@
+{
+  "id": "article:chapter-8",
+  "slug": "forestry-finds-gis",
+  "title": "Forestry GIS",
+  "url": "/stories/forestry-finds-gis/",
+  "summary": "Plantation forests require repeated mapping. Stands are planted, thinned and harvested. Roads are built and extended, stream crossings change, firebreaks are maintained, and compartments that once held trees of one age may contain",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 8,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch08-note-01",
+      "text": "1. Forest Research Institute, Indigenous forest survey manual: Two inventory methods, 1983, is the principal documentary source for field inventory, aerial photography, coded records, punched-card/computer processing and the pre-GIS chain between plot location and numerical forest data."
+    },
+    {
+      "id": "ch08-note-02",
+      "text": "2. Andrew Dunningham and S. Thompson, \"Use of geographic information systems in New Zealand forestry applications\", Commonwealth Forestry Review 68(3), 1989, pp.203-213, is the main early GIS source. It documents TERRASOFT on a personal computer and the approximately 550-hectare mapping, inventory, harvesting-planning and viewshed/visual-impact examples. It does not establish New Zealand's first forestry GIS."
+    },
+    {
+      "id": "ch08-note-03",
+      "text": "3. The August 1995 New Zealand Forestry article \"Erosion control forestry grants monitored by MapInfo\" supports the East Coast operational case, including Ministry of Forestry use in Gisborne, more than 16,000 hectares under monitoring and Critchlow Associates as the contemporary MapInfo master agent."
+    },
+    {
+      "id": "ch08-note-04",
+      "text": "4. The Westland inventory-survival case is documented in a later study describing the missing 1986 Forest Service computer files and the surviving database printout and plot-location map. It is a specific preservation failure and does not establish that Forest Service digital data were broadly lost in 1987."
+    },
+    {
+      "id": "ch08-note-05",
+      "text": "5. The late-1990s visualisation work linking TERRASOFT/ARC/INFO stand boundaries, digital elevation information and STANDPAK outputs supports the scenario-visualisation section. Technical details are recorded in the cited proceedings paper."
+    }
+  ]
+}

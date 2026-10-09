@@ -1,0 +1,31 @@
+{
+  "id": "entity:beca",
+  "slug": "beca",
+  "name": "Beca",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/beca/",
+  "website": "https://www.beca.com/",
+  "story": [
+    "Beca developed a substantial GIS practice within its wider New Zealand engineering and advisory business. Its GIS services include spatial analysis, field assessment tools, data management and applications that combine infrastructure information with maps and other business systems.",
+    "The firm’s published examples include GIS infrastructure twins, spatial analytics and mapping used in planning and asset management. This represents the later expansion of GIS from specialist mapping teams into multidisciplinary engineering, infrastructure and digital-delivery practices."
+  ],
+  "sources": [
+    {
+      "label": "Beca, Geographic Information Systems services and consulting",
+      "url": "https://www.beca.com/what-we-do/services/technology/geographic-information-systems-gis"
+    },
+    {
+      "label": "RICS New Zealand Awards 2024, Beca Survey & Spatial Team",
+      "url": "https://www.rics.org/training-events/rics-awards/new-zealand-awards/new-zealand-awards-2024"
+    }
+  ],
+  "aliases": [
+    "Beca"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

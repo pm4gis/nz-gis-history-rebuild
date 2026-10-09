@@ -1,0 +1,60 @@
+{
+  "id": "passage:chapter-35-8ab5f7559c",
+  "slug": "public-applications-8ab5f7559c",
+  "articleId": "article:chapter-35",
+  "title": "Public applications",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35",
+    "entity:orbica",
+    "person:iain-gover",
+    "person:takerei-norton",
+    "person:trevor-howse",
+    "person:matapura-ellison",
+    "person:kelly-davis",
+    "person:jimmy-russell",
+    "person:david-higgins",
+    "person:muriel-johnstone"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Purpose-built public applications also changed the relationship between GIS teams and routine information requests. Before web delivery, a member of the public or another organisation might need to ask for a map, contact a council, purchase a product or rely on someone with specialist software. Early web maps removed part of that mediation. Task-specific applications went further by anticipating particular questions and building the answer path into the interface.",
+      "markdown": "Purpose-built public applications also changed the relationship between GIS teams and routine information requests. Before web delivery, a member of the public or another organisation might need to ask for a map, contact a council, purchase a product or rely on someone with specialist software. Early web maps removed part of that mediation. Task-specific applications went further by anticipating particular questions and building the answer path into the interface.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Policedata.nz guides users through selected searches and views. The application already knows the subject, the available measures and the permitted geographic detail. A user chooses among supported questions rather than constructing a GIS analysis. The design makes the service more accessible while also protecting the integrity and privacy boundaries of the published data.",
+      "markdown": "Policedata.nz guides users through selected searches and views. The application already knows the subject, the available measures and the permitted geographic detail. A user chooses among supported questions rather than constructing a GIS analysis. The design makes the service more accessible while also protecting the integrity and privacy boundaries of the published data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same principle applies across planning, property, environmental and service applications even where the underlying systems differ. A resident may enter an address and see the planning information relevant to that property. A researcher may search a portal for a dataset. A community organisation may view a dashboard summarising a defined issue. In each case the application acts as an interpreter between the user and a larger spatial information environment.",
+      "markdown": "The same principle applies across planning, property, environmental and service applications even where the underlying systems differ. A resident may enter an address and see the planning information relevant to that property. A researcher may search a portal for a dataset. A community organisation may view a dashboard summarising a defined issue. In each case the application acts as an interpreter between the user and a larger spatial information environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Applications reduced some one-off mapping requests while creating work in development, maintenance and support. Instead of producing the same map repeatedly for different requesters, specialists may spend more time maintaining the application, correcting data, improving search, testing permissions and explaining edge cases. Automation shifts the workload rather than making it vanish.",
+      "markdown": "Applications reduced some one-off mapping requests while creating work in development, maintenance and support. Instead of producing the same map repeatedly for different requesters, specialists may spend more time maintaining the application, correcting data, improving search, testing permissions and explaining edge cases. Automation shifts the workload rather than making it vanish.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2018, Orbica helped a regional council present its proposed 2018/19 budget through an interactive rates website. Ratepayers could inspect the proposed spending and the projects funded by rates, turning a council budget into a browsable public information service.",
+      "markdown": "In 2018, Orbica helped a regional council present its proposed 2018/19 budget through an interactive rates website. Ratepayers could inspect the proposed spending and the projects funded by rates, turning a council budget into a browsable public information service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Kā Huru Manu provides a distinct example of public mapping built around iwi knowledge and authority. Takerei Norton managed the Ngāi Tahu Cultural Mapping Project through the Ngāi Tahu Archives Team. Its early paepae included Trevor Howse, Kelly Davis, Matapura Ellison, Jimmy Russell and David Higgins, while Muriel Johnstone contributed knowledge of the Ōraka Aparima takiwā. Iain Gover helped develop a place-name database linked to the mapping system, allowing information to be entered and corrected directly during mapping sessions on marae. The public atlas, launched in November 2017, presented selected information approved by Papatipu Rūnaka from a larger body of collected material.",
+      "markdown": "Kā Huru Manu provides a distinct example of public mapping built around iwi knowledge and authority. Takerei Norton managed the Ngāi Tahu Cultural Mapping Project through the Ngāi Tahu Archives Team. Its early paepae included Trevor Howse, Kelly Davis, Matapura Ellison, Jimmy Russell and David Higgins, while Muriel Johnstone contributed knowledge of the Ōraka Aparima takiwā. Iain Gover helped develop a place-name database linked to the mapping system, allowing information to be entered and corrected directly during mapping sessions on marae. The public atlas, launched in November 2017, presented selected information approved by Papatipu Rūnaka from a larger body of collected material.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:craig-thompson",
+  "slug": "craig-thompson",
+  "name": "Craig Thompson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/craig-thompson/",
+  "story": [
+    "Craig Thompson was a NIWA co-author of the 2005 account of transmission-pylon risk assessment and support for laser surveys.",
+    "In 2005 NIWA’s Craig Thompson, Tom Clarkson and Warren Gray described a GIS risk-assessment tool developed for Transpower’s electricity pylons. The tool combined land cover, slope, proximity to rivers and river size to rank the structures nationally for exposure to flooding, scour and slips. Its results were checked against sites already known to be at risk. This gave a transmission owner a way to direct attention across a large network when several hazards could affect the same asset."
+  ],
+  "sources": [
+    {
+      "label": "Craig Thompson, Tom Clarkson and Warren Gray, Managing risk in energy supply, NIWA Water & Atmosphere",
+      "url": "https://niwa.co.nz/water-atmosphere/vol13-no4-december-2005/managing-risk-energy-supply"
+    },
+    {
+      "label": "Chapter 25 · One asset, several systems",
+      "url": "/stories/mapping-the-networks/"
+    }
+  ],
+  "aliases": [
+    "Craig Thompson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Craig Thompson, Tom Clarkson and Warren Gray, Managing risk in energy supply, NIWA Water & Atmosphere",
+        "url": "https://niwa.co.nz/water-atmosphere/vol13-no4-december-2005/managing-risk-energy-supply"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 25 · One asset, several systems",
+        "url": "/stories/mapping-the-networks/"
+      }
+    ]
+  ]
+}

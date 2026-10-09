@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-35-0a7b1101bd",
+  "slug": "the-specialist-moves-behind-the-interface-0a7b1101bd",
+  "articleId": "article:chapter-35",
+  "title": "The specialist moves behind the interface",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2020s, the GIS specialist was often doing substantial work that a user would never recognise as GIS. Someone had to design the data model, prepare spatial services, configure forms, set permissions, build dashboards, test devices, manage updates and decide how applications should respond to incomplete or ambiguous information. The user might see only a button marked Submit or a chart beside a map.",
+      "markdown": "By the 2020s, the GIS specialist was often doing substantial work that a user would never recognise as GIS. Someone had to design the data model, prepare spatial services, configure forms, set permissions, build dashboards, test devices, manage updates and decide how applications should respond to incomplete or ambiguous information. The user might see only a button marked Submit or a chart beside a map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Desktop GIS remained the specialist environment for analysis, editing, data preparation and investigation. The newer assumption was that downstream users could receive a smaller application suited to their job. A planner, manager, volunteer, field worker or member of the public could work through that purpose-built interface while the specialist retained the broader toolset behind it.",
+      "markdown": "Desktop GIS remained the specialist environment for analysis, editing, data preparation and investigation. The newer assumption was that downstream users could receive a smaller application suited to their job. A planner, manager, volunteer, field worker or member of the public could work through that purpose-built interface while the specialist retained the broader toolset behind it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS staff took on application design, support and information-management work, requiring conversations about users, business processes, language, privacy and maintenance as well as spatial data. Some practitioners became developers. Others became configurators, product owners, data engineers, service administrators or analysts working inside multidisciplinary teams. The common thread was that more of the GIS expertise was being applied to designing what somebody else would experience.",
+      "markdown": "GIS staff took on application design, support and information-management work, requiring conversations about users, business processes, language, privacy and maintenance as well as spatial data. Some practitioners became developers. Others became configurators, product owners, data engineers, service administrators or analysts working inside multidisciplinary teams. The common thread was that more of the GIS expertise was being applied to designing what somebody else would experience.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Applications changed how users accessed geographic expertise. Earlier GIS put the specialist and the software in the foreground. Later applications can put the user's task in the foreground and push the geographic machinery behind it. The technology remains spatial, but the experience no longer needs to announce itself as GIS.",
+      "markdown": "Applications changed how users accessed geographic expertise. Earlier GIS put the specialist and the software in the foreground. Later applications can put the user's task in the foreground and push the geographic machinery behind it. The technology remains spatial, but the experience no longer needs to announce itself as GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -8,6 +8,7 @@ const [themes, records, eventEntries, passageEntries, articleEntries] = await Pr
 const timelineEvents = eventEntries.map((entry) => entry.data)
   .filter((event) => event.passageIds?.length)
   .sort((a, b) => timelineYear(a) - timelineYear(b));
+const dockEvents = timelineEvents.length <= 8 ? timelineEvents : Array.from({ length: 8 }, (_, index) => timelineEvents[Math.round(index * (timelineEvents.length - 1) / 7)]);
 function timelineYear(event) {
   if (Number.isFinite(event.year)) return event.year;
   const parsed = /^(\d{4})/.exec(String(event.startDate || ""));
@@ -29,7 +30,7 @@ const laneKinds = [
 ];
 const timelineLanes = laneKinds.map((lane) => ({
   ...lane,
-  stops: timelineEvents.flatMap((event) => (event.passageIds || []).flatMap((passageId) => (passageById.get(passageId)?.recordIds || []).map((id) => ({ event, record: recordById.get(id) }))))
+  stops: dockEvents.flatMap((event) => (event.passageIds || []).flatMap((passageId) => (passageById.get(passageId)?.recordIds || []).map((id) => ({ event, record: recordById.get(id) }))))
     .filter(({ record }) => record && lane.kinds.includes(record.kind)),
 })).filter((lane) => lane.stops.length);
 const {
@@ -69,7 +70,7 @@ const eventHref = (event) => {
   </head>
   <body class={pageClass}>
     <a class="skip-link" href="#main">Skip to story</a>
-    <div class="preview-ribbon"><span class="live-dot" aria-hidden="true"></span> Structural preview <span class="preview-divider">·</span> Small published sample <span class="preview-divider">·</span> Canonical site unchanged</div>
+    <div class="preview-ribbon"><span class="live-dot" aria-hidden="true"></span> Staging publication <span class="preview-divider">·</span> Published baseline <span class="preview-divider">·</span> Canonical edition separate</div>
     <header class="site-header">
       <a class="wordmark" href="/" aria-label="A History of GIS in New Zealand, home">
         <span class="wordmark-mark" aria-hidden="true"><span>NZ</span><i>GIS</i></span>
@@ -118,7 +119,7 @@ const eventHref = (event) => {
         </button>
         <div class="timeline-track" role="group" aria-label="Select a timeline event">
           <span class="timeline-track-line" aria-hidden="true"></span>
-          {timelineEvents.map((event) => <button
+          {dockEvents.map((event) => <button
             class="timeline-stop"
             type="button"
             style={`--stop-x:${position(timelineYear(event))}%`}
@@ -134,7 +135,7 @@ const eventHref = (event) => {
         <button class="timeline-play" type="button" data-timeline-play aria-label="Play through timeline" title="Play timeline">▶</button>
       </div>
       <div class="timeline-expansion" id="timeline-expansion" hidden>
-        <div class="timeline-expansion-head"><div><p class="eyebrow">Read across time</p><h2>Parallel lanes</h2></div><p>Choose an event to jump to its passage.</p></div>
+        <div class="timeline-expansion-head"><div><p class="eyebrow">Read across time</p><h2>Parallel lanes</h2></div><p>Choose an event to jump to its passage. <a href="/timeline/">Explore all {timelineEvents.length} events →</a></p></div>
         <div class="timeline-lanes">
           {timelineLanes.map((lane) => <div class="timeline-lane" data-lane-label={lane.label}>
             <h3>{lane.label}</h3><div class="timeline-lane-track"><span class="timeline-track-line" aria-hidden="true"></span>
@@ -144,7 +145,7 @@ const eventHref = (event) => {
             </div>
           </div>)}
           <div class="timeline-lane event-lane"><h3>Events</h3><div class="timeline-lane-track"><span class="timeline-track-line" aria-hidden="true"></span>
-            {timelineEvents.map((event) => <button class="lane-stop" type="button" style={`--stop-x:${position(timelineYear(event))}%`} data-event-select data-event-id={event.id} data-event-url={eventHref(event)} data-passage-ids={(event.passageIds || []).join(" ")} data-theme-ids={(event.themeIds || []).join(" ")} title={`${event.dateDisplay}: ${event.label} · ${event.datePrecision} precision`}>
+            {dockEvents.map((event) => <button class="lane-stop" type="button" style={`--stop-x:${position(timelineYear(event))}%`} data-event-select data-event-id={event.id} data-event-url={eventHref(event)} data-passage-ids={(event.passageIds || []).join(" ")} data-theme-ids={(event.themeIds || []).join(" ")} title={`${event.dateDisplay}: ${event.label} · ${event.datePrecision} precision`}>
               <span class="lane-stop-dot" aria-hidden="true"></span><span class="lane-stop-label">{event.label}</span>
             </button>)}
           </div></div>

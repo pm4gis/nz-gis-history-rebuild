@@ -1,0 +1,34 @@
+{
+  "id": "2011-gbs-esri-silver",
+  "dateDisplay": "2011",
+  "startDate": "2011",
+  "datePrecision": "year",
+  "year": 2011,
+  "label": "GBS becomes an Esri Silver Partner",
+  "summary": "GBS’s retrospective dates its Silver Partner status to 2011, recognising its work with the Esri platform.",
+  "url": "/stories/an-industry-and-community-form/#a-consultancy-appears-b51b8936ec",
+  "passageIds": [
+    "passage:chapter-12-b51b8936ec"
+  ],
+  "recordIds": [
+    "entity:geographic-business-solutions",
+    "chapter:12",
+    "entity:abley",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:splice-group",
+    "entity:terralink",
+    "person:steve-abley",
+    "person:beryl-pimblott",
+    "person:harley-prowse",
+    "person:tony-elson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "industry",
+    "software",
+    "enterprise"
+  ],
+  "sources": []
+}

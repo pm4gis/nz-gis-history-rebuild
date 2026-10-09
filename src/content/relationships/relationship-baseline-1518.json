@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1518",
+  "a": "entity:palmerston-north-city-council",
+  "b": "chapter:23",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-23-9ef0acf90d"
+  ],
+  "sources": []
+}

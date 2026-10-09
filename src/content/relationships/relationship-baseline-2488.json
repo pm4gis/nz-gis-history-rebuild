@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2488",
+  "a": "entity:davis-ogilvie-information-services",
+  "b": "chapter:20",
+  "label": "Discussed in chapter",
+  "basis": "GISList evidence connects the company with coordinate transformation, aerial imagery and professional GIS practice.",
+  "passageIds": [],
+  "sources": []
+}

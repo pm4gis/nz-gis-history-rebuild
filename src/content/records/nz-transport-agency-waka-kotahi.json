@@ -1,0 +1,26 @@
+{
+  "id": "entity:nz-transport-agency-waka-kotahi",
+  "slug": "nz-transport-agency-waka-kotahi",
+  "name": "NZ Transport Agency Waka Kotahi",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/nz-transport-agency-waka-kotahi/",
+  "website": null,
+  "story": [
+    "NZTA and Eagle developed ArcGIS Enterprise on Kubernetes from 2021, with Peter Willoughby and Jithen Singh documented in the implementation case. A hub-and-spoke model combined centrally governed information with applications developed by business teams. The platform supported field surveys and situational awareness during Cyclone Gabrielle in February 2023.",
+    "The published customer case records field surveys and situational awareness during Cyclone Gabrielle. NZTA and Esri reported these benefits and performance figures; independent measurements are unavailable."
+  ],
+  "sources": [
+    {
+      "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+    }
+  ],
+  "aliases": [
+    "NZ Transport Agency Waka Kotahi"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

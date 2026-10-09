@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-33-8efa04925a",
+  "slug": "a-licence-for-reuse-8efa04925a",
+  "articleId": "article:chapter-33",
+  "title": "A licence for reuse",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "open-practice"
+  ],
+  "recordIds": [
+    "chapter:33"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 2010 New Zealand also had a more general framework for answering the legal question. The State Services Commission issued the first version of the New Zealand Government Open Access and Licensing framework, NZGOAL, in August 2010. It encouraged State Services agencies to make copyright works available for reuse on the most open licensing terms available where restrictions did not apply.",
+      "markdown": "By 2010 New Zealand also had a more general framework for answering the legal question. The State Services Commission issued the first version of the New Zealand Government Open Access and Licensing framework, NZGOAL, in August 2010. It encouraged State Services agencies to make copyright works available for reuse on the most open licensing terms available where restrictions did not apply.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For copyright works, NZGOAL recommended the Creative Commons Attribution licence as the default. Users could apply a common set of licence terms across participating agencies and datasets. A standard licence could state that material could be copied, adapted and redistributed, including commercially, provided attribution requirements were met.",
+      "markdown": "For copyright works, NZGOAL recommended the Creative Commons Attribution licence as the default. Users could apply a common set of licence terms across participating agencies and datasets. A standard licence could state that material could be copied, adapted and redistributed, including commercially, provided attribution requirements were met.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NZGOAL provided guidance for releasing suitable government information. The framework explicitly recognised restrictions. Agencies still needed to consider copyright ownership, privacy, confidentiality, security, statutory obligations, third-party rights and other limits. Open licensing worked only where an agency had the authority to license the information and where release itself was appropriate.",
+      "markdown": "NZGOAL provided guidance for releasing suitable government information. The framework explicitly recognised restrictions. Agencies still needed to consider copyright ownership, privacy, confidentiality, security, statutory obligations, third-party rights and other limits. Open licensing worked only where an agency had the authority to license the information and where release itself was appropriate.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Licensing and distribution were separate changes. A portal solved practical questions about discovery and delivery. A licence solved a legal question about reuse. A useful open-data environment needed both. A perfectly designed download service could still leave users hesitant if the rights were vague, while an excellent licence was of limited practical value if the data could only be obtained through a slow manual process.",
+      "markdown": "Licensing and distribution were separate changes. A portal solved practical questions about discovery and delivery. A licence solved a legal question about reuse. A useful open-data environment needed both. A perfectly designed download service could still leave users hesitant if the rights were vague, while an excellent licence was of limited practical value if the data could only be obtained through a slow manual process.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

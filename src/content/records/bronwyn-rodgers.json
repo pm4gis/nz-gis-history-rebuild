@@ -1,0 +1,39 @@
+{
+  "id": "person:bronwyn-rodgers",
+  "slug": "bronwyn-rodgers",
+  "name": "Bronwyn Rodgers",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/bronwyn-rodgers/",
+  "story": [
+    "Bronwyn Rodgers is documented as Pāmu’s Geospatial Services Manager. Eagle’s customer case records GIS supporting winter-grazing decisions through ArcGIS Online and Survey123, while the 2019 user conference records her presenting Pāmu’s use of GIS for natural and built asset management."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, Pāmu and Esri help solve winter grazing challenges",
+      "url": "https://www.eagle.co.nz/gis-solutions/case-studies/p%C4%81mu-and-esri-help-solve-winter-grazing-challenges"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    }
+  ],
+  "aliases": [
+    "Bronwyn Rodgers"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Eagle Technology, Pāmu and Esri help solve winter grazing challenges",
+        "url": "https://www.eagle.co.nz/gis-solutions/case-studies/p%C4%81mu-and-esri-help-solve-winter-grazing-challenges"
+      },
+      {
+        "label": "New Zealand Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      }
+    ]
+  ]
+}

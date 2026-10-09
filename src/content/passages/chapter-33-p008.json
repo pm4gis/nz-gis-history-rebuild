@@ -1,0 +1,81 @@
+{
+  "id": "passage:chapter-33-51393f242c",
+  "slug": "the-linz-data-service-51393f242c",
+  "articleId": "article:chapter-33",
+  "title": "The LINZ Data Service",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "open-practice",
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:33",
+    "person:jan-pierce",
+    "person:graeme-blick",
+    "person:michael-cooper"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The LINZ Data Service combined these changes in a public data service. An official open-government case study dates its launch to 1 July 2011. The service delivered property and ownership, topographic, hydrographic, geodetic and electoral address data in commonly used formats, with much of the information licensed under Creative Commons Attribution 3.0 New Zealand.",
+      "markdown": "The LINZ Data Service combined these changes in a public data service. An official open-government case study dates its launch to 1 July 2011. The service delivered property and ownership, topographic, hydrographic, geodetic and electoral address data in commonly used formats, with much of the information licensed under Creative Commons Attribution 3.0 New Zealand.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Te Awarua-o-Porirua",
+      "caption": "Te Awarua-o-Porirua. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jan Pierce joined LINZ as Deputy Chief Executive Location Information in 2009. In 2016 she and Chief Geodesist Graeme Blick presented LINZ’s open-data journey, covering the LINZ Data Service and the release of aerial imagery. The presentation named the institutional leaders and described the service’s licensing, data and technical work.",
+      "markdown": "Jan Pierce joined LINZ as Deputy Chief Executive Location Information in 2009. In 2016 she and Chief Geodesist Graeme Blick presented LINZ’s open-data journey, covering the LINZ Data Service and the release of aerial imagery. The presentation named the institutional leaders and described the service’s licensing, data and technical work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The service changed the ordinary workflow around national spatial information. Instead of treating every request as a special extraction or physical delivery, users could search, inspect and download datasets online. Web services also allowed some data to be connected directly to other systems. Later APIs extended this access through direct application connections. Authoritative spatial information was becoming something other systems could build on.",
+      "markdown": "The service changed the ordinary workflow around national spatial information. Instead of treating every request as a special extraction or physical delivery, users could search, inspect and download datasets online. Web services also allowed some data to be connected directly to other systems. Later APIs extended this access through direct application connections. Authoritative spatial information was becoming something other systems could build on.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By September 2012 that idea had moved beyond one-off downloading. A GISList discussion recorded that LDS now supported incremental change-sets, allowing users to retrieve only records that had changed rather than repeatedly downloading an entire dataset such as New Zealand Primary Parcels. LINZ was also preparing an open-source replication tool for MSSQL 2008, ArcSDE and FileGDB, with reprojection and attribute or spatial filtering built into the workflow. Michael Cooper at the Ministry for the Environment immediately asked whether the same approach could eventually be applied to raster tiles. Open access was beginning to include synchronised operational copies as well as downloadable files.",
+      "markdown": "By September 2012 that idea had moved beyond one-off downloading. A GISList discussion recorded that LDS now supported incremental change-sets, allowing users to retrieve only records that had changed rather than repeatedly downloading an entire dataset such as New Zealand Primary Parcels. LINZ was also preparing an open-source replication tool for MSSQL 2008, ArcSDE and FileGDB, with reprojection and attribute or spatial filtering built into the workflow. Michael Cooper at the Ministry for the Environment immediately asked whether the same approach could eventually be applied to raster tiles. Open access was beginning to include synchronised operational copies as well as downloadable files.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was a substantial administrative change as well as a technical one. Under older distribution models, staff might receive a request, determine the appropriate extract, prepare files and arrange delivery. The customer then had to wait for the transaction to be completed. A self-service portal moved much of that work to the user while also allowing the custodian to publish one maintained version for many different audiences. The same infrastructure could serve a surveyor, a council analyst, a software developer and a community project without creating a separate supply process for each.",
+      "markdown": "This was a substantial administrative change as well as a technical one. Under older distribution models, staff might receive a request, determine the appropriate extract, prepare files and arrange delivery. The customer then had to wait for the transaction to be completed. A self-service portal moved much of that work to the user while also allowing the custodian to publish one maintained version for many different audiences. The same infrastructure could serve a surveyor, a council analyst, a software developer and a community project without creating a separate supply process for each.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Choice of formats also mattered. Open access was far more useful when a user could obtain information in forms that fitted normal GIS and database workflows rather than a single proprietary delivery format. Standards and interoperability had their own history, but the open-data services benefited directly from that work. Access became practical because legal permission, discoverability and technical usability were beginning to line up.",
+      "markdown": "Choice of formats also mattered. Open access was far more useful when a user could obtain information in forms that fitted normal GIS and database workflows rather than a single proprietary delivery format. Standards and interoperability had their own history, but the open-data services benefited directly from that work. Access became practical because legal permission, discoverability and technical usability were beginning to line up.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2013 Government announcement reported early uptake. By 19 June that year the service was offering more than forty datasets for direct integration with business systems and had more than 5,600 registered users. Those users included people in geospatial, surveying, utilities, information technology, contracting and engineering as well as community organisations and central and local government.",
+      "markdown": "A 2013 Government announcement reported early uptake. By 19 June that year the service was offering more than forty datasets for direct integration with business systems and had more than 5,600 registered users. Those users included people in geospatial, surveying, utilities, information technology, contracting and engineering as well as community organisations and central and local government.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Thousands of registered users and dozens of fundamental datasets indicate that the model had moved beyond an experiment. Users were downloading, combining and maintaining the data in working systems. ",
+      "markdown": "Thousands of registered users and dozens of fundamental datasets indicate that the model had moved beyond an experiment. Users were downloading, combining and maintaining the data in working systems. ",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The service also exposed the continuing limits of openness. Not every layer could be treated identically. Property ownership information, for example, carried legal and privacy considerations that required different treatment from an ordinary topographic layer. The general move towards reuse did not remove the obligation to protect people or obey statutory controls.",
+      "markdown": "The service also exposed the continuing limits of openness. Not every layer could be treated identically. Property ownership information, for example, carried legal and privacy considerations that required different treatment from an ordinary topographic layer. The general move towards reuse did not remove the obligation to protect people or obey statutory controls.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

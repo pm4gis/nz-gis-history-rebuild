@@ -1,0 +1,38 @@
+{
+  "id": "entity:new-zealand-cartographic-society",
+  "slug": "new-zealand-cartographic-society",
+  "name": "New Zealand Cartographic Society",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/new-zealand-cartographic-society/",
+  "website": "https://cartography.org.nz/",
+  "story": [
+    "The society also hosts the New Zealand Children’s Map Competition. It invites school students to communicate how they see and understand the world through maps, and winning entries can represent New Zealand at the international Barbara Petchenik competition.",
+    "The New Zealand Cartographic Society / Te Rōpū Tuhi Whenua o Aotearoa was founded on 23 February 1971 to promote cartography in New Zealand. It has represented New Zealand in the International Cartographic Association since 1976 and has provided a continuing professional home for map design, cartographic research and the use of new mapping technologies.",
+    "Its activities include the GeoCart national cartographic conference, exhibitions, workshops, CartoGRAM, conference proceedings and support for students. As computer mapping and GIS became normal parts of cartographic work, the society became one of the places where traditional cartography, GIS, geovisualisation and digital mapping met."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    },
+    {
+      "label": "New Zealand Cartographic Society, About NZCS",
+      "url": "https://cartography.org.nz/about/nzcs"
+    },
+    {
+      "label": "New Zealand Cartographic Society, GeoCart 2026",
+      "url": "https://cartography.org.nz/geocart2026"
+    }
+  ],
+  "aliases": [
+    "New Zealand Cartographic Society",
+    "NZCS",
+    "Te Rōpū Tuhi Whenua o Aotearoa"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "cadastre",
+  "slug": "cadastre",
+  "title": "From paper cadastre to Landonline",
+  "description": "Trace cadastral information from survey records through national digitisation to Landonline.",
+  "color": "#8aa7d8",
+  "passageIds": [
+    "passage:chapter-1-67bf38bca3",
+    "passage:chapter-13-7ee8b0bc4d",
+    "passage:chapter-13-197b3f6ce4",
+    "passage:chapter-14-60c6ff7b97",
+    "passage:chapter-14-226b4cfcfc"
+  ],
+  "stops": [
+    {
+      "passageId": "passage:chapter-1-67bf38bca3",
+      "title": "The parcel record",
+      "url": "/stories/what-the-computer-inherited/#the-parcel-record"
+    },
+    {
+      "passageId": "passage:chapter-13-7ee8b0bc4d",
+      "title": "A national conversion job",
+      "url": "/stories/the-cadastre-becomes-data/#a-national-conversion-job"
+    },
+    {
+      "passageId": "passage:chapter-13-197b3f6ce4",
+      "title": "The database underneath everything",
+      "url": "/stories/the-cadastre-becomes-data/#the-database-underneath-everything"
+    },
+    {
+      "passageId": "passage:chapter-14-60c6ff7b97",
+      "title": "From register to transaction system",
+      "url": "/stories/landonline/#from-register-to-transaction-system"
+    },
+    {
+      "passageId": "passage:chapter-14-226b4cfcfc",
+      "title": "A national utility",
+      "url": "/stories/landonline/#a-national-utility"
+    }
+  ]
+}

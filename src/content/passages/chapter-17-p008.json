@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-17-3112258710",
+  "slug": "property-is-another-geography-3112258710",
+  "articleId": "article:chapter-17",
+  "title": "Property is another geography",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Property information created similar ambiguity in towns and cities. A cadastral parcel is defined through the survey and title system; a council rating unit or valuation property is created for rating and valuation administration. Buildings can cross parcel boundaries or contain multiple separately addressed units, and apartments can have many addresses at nearly the same coordinate. These records belong to related systems and do not always align one-to-one.",
+      "markdown": "Property information created similar ambiguity in towns and cities. A cadastral parcel is defined through the survey and title system; a council rating unit or valuation property is created for rating and valuation administration. Buildings can cross parcel boundaries or contain multiple separately addressed units, and apartments can have many addresses at nearly the same coordinate. These records belong to related systems and do not always align one-to-one.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A late-1990s Waikato project provides a small example of the practical problem. The application used parcel and property information for work beyond title administration. Once boundaries could be linked to records over time, a council question about subdivision could be analysed as changing spatial structure rather than answered from separate plans and tables.",
+      "markdown": "A late-1990s Waikato project provides a small example of the practical problem. The application used parcel and property information for work beyond title administration. Once boundaries could be linked to records over time, a council question about subdivision could be analysed as changing spatial structure rather than answered from separate plans and tables.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same joining problem later appeared in national data. Modern LINZ address data can carry relationships to parcels, but those relationships need careful interpretation where unit titles, shared accessways or complex developments are involved. Valuation and rating datasets introduce another set of identifiers. Integration work used separate parcel, property and address identifiers because each referred to a different object. A robust system links them where appropriate rather than replacing one with another.",
+      "markdown": "The same joining problem later appeared in national data. Modern LINZ address data can carry relationships to parcels, but those relationships need careful interpretation where unit titles, shared accessways or complex developments are involved. Valuation and rating datasets introduce another set of identifiers. Integration work used separate parcel, property and address identifiers because each referred to a different object. A robust system links them where appropriate rather than replacing one with another.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

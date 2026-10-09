@@ -1,0 +1,50 @@
+{
+  "id": "person:rob-coup",
+  "slug": "rob-coup",
+  "name": "Rob Coup",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rob-coup/",
+  "story": [
+    "Rob Coup, listed as Robert Coup in IAG Firemark’s portfolio, co-founded Koordinates with Ed Corkery in 2007. On 4 March 2020 he published the company’s launch announcement for Sno, an open-source tool using Git repositories to version geospatial and tabular data. The release proposed collaborative data-editing workflows and future desktop-to-cloud synchronisation; it stated that Sno was not yet connected to Koordinates Data Management.",
+    "By March 2017 the company was promoting its Query API alongside government data services on the platform. Its contemporary Datarama material said datasets on Stats NZ Datafinder and other Koordinates-powered sites could be accessed using the Koordinates query API. The platform later exposed vector, raster and set-query interfaces as well as OGC and Esri-compatible services."
+  ],
+  "sources": [
+    {
+      "label": "IAG Firemark Ventures, Koordinates investment portfolio",
+      "url": "https://iagfiremarkventures.com/portfolio/"
+    },
+    {
+      "label": "Rob Coup, Sno, our new open source tool for distributed data versioning, Koordinates, 4 March 2020",
+      "url": "https://koordinates.com/news/sno-our-new-open-source-tool-for-distributed-data-versioning"
+    },
+    {
+      "label": "Chapter 41 · Applications call geography",
+      "url": "/stories/cloud-services-and-apis/"
+    }
+  ],
+  "aliases": [
+    "Rob Coup"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "IAG Firemark Ventures, Koordinates investment portfolio",
+        "url": "https://iagfiremarkventures.com/portfolio/"
+      },
+      {
+        "label": "Rob Coup, Sno, our new open source tool for distributed data versioning, Koordinates, 4 March 2020",
+        "url": "https://koordinates.com/news/sno-our-new-open-source-tool-for-distributed-data-versioning"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 41 · Applications call geography",
+        "url": "/stories/cloud-services-and-apis/"
+      }
+    ]
+  ]
+}

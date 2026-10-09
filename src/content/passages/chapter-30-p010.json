@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-30-77a201a83c",
+  "slug": "arcims-inside-government-77a201a83c",
+  "articleId": "article:chapter-30",
+  "title": "ArcIMS inside government",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30",
+    "entity:department-of-conservation"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Department of Conservation documented its national enterprise GIS in 2003. The department’s National Enterprise GIS used ArcSDE, ArcGIS and ArcIMS, with DOCgis acting as a browser-oriented access layer over national spatial and business information. A technical paper from 2003 records an ArcIMS HTML application serving eight-bit PNG map images, stored queries, national geodatabase layers and access to non-spatial databases. DOCgis Intranet and Extranet Version 2.0 were scheduled for June 2003, while a Java client version was planned for August. ArcSDE, SQL Server and the national geodatabase carried central data, while specialist staff continued to use desktop GIS.",
+      "markdown": "The Department of Conservation documented its national enterprise GIS in 2003. The department’s National Enterprise GIS used ArcSDE, ArcGIS and ArcIMS, with DOCgis acting as a browser-oriented access layer over national spatial and business information. A technical paper from 2003 records an ArcIMS HTML application serving eight-bit PNG map images, stored queries, national geodatabase layers and access to non-spatial databases. DOCgis Intranet and Extranet Version 2.0 were scheduled for June 2003, while a Java client version was planned for August. ArcSDE, SQL Server and the national geodatabase carried central data, while specialist staff continued to use desktop GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOCgis Release II gave conservation staff a centrally hosted browser interface, including those at remote offices with older computers and dial-up connections. Its selected mapping tools made national spatial information reachable across a dispersed organisation with the network capacity available at the time.",
+      "markdown": "DOCgis Release II gave conservation staff a centrally hosted browser interface, including those at remote offices with older computers and dial-up connections. Its selected mapping tools made national spatial information reachable across a dispersed organisation with the network capacity available at the time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOCgis also demonstrates why server-side rendering was attractive. If the server performed much of the processing and returned a map image, the local computer did not have to carry the full dataset or the full GIS application. The browser became a practical endpoint for staff who needed to inspect and query national information but did not need to maintain the underlying spatial database. Centralisation made wider distribution possible.",
+      "markdown": "DOCgis also demonstrates why server-side rendering was attractive. If the server performed much of the processing and returned a map image, the local computer did not have to carry the full dataset or the full GIS application. The browser became a practical endpoint for staff who needed to inspect and query national information but did not need to maintain the underlying spatial database. Centralisation made wider distribution possible.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The enterprise model also exposed a new dependency. If many staff relied on the same central service, the reliability of the server, network and data update processes became more important. A local desktop application might fail for one analyst. A national browser service could fail for everyone. Wider access raised the operational stakes for GIS infrastructure.",
+      "markdown": "The enterprise model also exposed a new dependency. If many staff relied on the same central service, the reliability of the server, network and data update processes became more important. A local desktop application might fail for one analyst. A national browser service could fail for everyone. Wider access raised the operational stakes for GIS infrastructure.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-10-799acfb39b",
+  "slug": "access-before-open-data-799acfb39b",
+  "articleId": "article:chapter-10",
+  "title": "Access before open data",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:10",
+    "entity:department-of-survey-and-land-information-dosli"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Government agencies were also beginning to encounter a distinction between producing digital information and making it widely reusable. A national database could exist without being cheap or easy for outside users to obtain. Historical DCDB documentation records licensed distribution and per-feature charging arrangements. Data exchange therefore involved contracts, formats and costs as well as technical transfer.",
+      "markdown": "Government agencies were also beginning to encounter a distinction between producing digital information and making it widely reusable. A national database could exist without being cheap or easy for outside users to obtain. Historical DCDB documentation records licensed distribution and per-feature charging arrangements. Data exchange therefore involved contracts, formats and costs as well as technical transfer.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DCDB also became a data source for organisations outside DOSLI. A department could create a national digital framework for its own statutory work while other users saw it as an input to their systems. The technical documentation describes links and indexing that made the database useful beyond simple map production, including relationships to survey plans and other land records and the inclusion of statistical meshblock and derived boundary information. Once that framework existed, councils, utilities, government agencies and private GIS users had reasons to obtain extracts even though they did not share DOSLI's cadastral responsibilities.",
+      "markdown": "DCDB also became a data source for organisations outside DOSLI. A department could create a national digital framework for its own statutory work while other users saw it as an input to their systems. The technical documentation describes links and indexing that made the database useful beyond simple map production, including relationships to survey plans and other land records and the inclusion of statistical meshblock and derived boundary information. Once that framework existed, councils, utilities, government agencies and private GIS users had reasons to obtain extracts even though they did not share DOSLI's cadastral responsibilities.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplying those users created work of its own. Data had to be extracted in known formats, licensed, documented and delivered, and users had to understand the limitations of the source. A line that looked exact on a computer screen might still derive from a record map compiled at a much smaller scale. Distribution therefore carried a quality problem alongside the commercial and technical one. The supplier had to explain enough about provenance and accuracy for the data to be used sensibly outside the production environment that created it.",
+      "markdown": "Supplying those users created work of its own. Data had to be extracted in known formats, licensed, documented and delivered, and users had to understand the limitations of the source. A line that looked exact on a computer screen might still derive from a record map compiled at a much smaller scale. Distribution therefore carried a quality problem alongside the commercial and technical one. The supplier had to explain enough about provenance and accuracy for the data to be used sensibly outside the production environment that created it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Maintaining large national spatial datasets was expensive, and government information policy was moving toward user charging. Authoritative digital geography was becoming more useful to councils, utilities, government agencies and private GIS users while access remained licensed, priced and technically demanding. The later shift from priced Crown datasets to open distribution is treated in Chapter 33.",
+      "markdown": "Maintaining large national spatial datasets was expensive, and government information policy was moving toward user charging. Authoritative digital geography was becoming more useful to councils, utilities, government agencies and private GIS users while access remained licensed, priced and technically demanding. The later shift from priced Crown datasets to open distribution is treated in Chapter 33.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A printed map could be bought and read without the production system that made it. Digital data required compatible software, storage, coordinate knowledge and enough documentation to interpret the files. Suppliers therefore had to provide more than geometry: users also needed format, projection, provenance and quality information. Standards and documentation became part of digital distribution.",
+      "markdown": "A printed map could be bought and read without the production system that made it. Digital data required compatible software, storage, coordinate knowledge and enough documentation to interpret the files. Suppliers therefore had to provide more than geometry: users also needed format, projection, provenance and quality information. Standards and documentation became part of digital distribution.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

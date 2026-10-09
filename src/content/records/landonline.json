@@ -1,0 +1,16 @@
+{
+  "id": "chapter:14",
+  "articleId": "article:chapter-14",
+  "slug": "landonline",
+  "name": "Landonline",
+  "kind": "Story",
+  "category": "National datasets",
+  "url": "/stories/landonline/",
+  "description": "When Land Information New Zealand was created in 1996 it inherited two national record systems that had grown up for different purposes. The survey and cadastral side came largely from the Department of Survey and Land Information. The land-title side came from the Department of Justice Land Titles Office. Both were already partly computerised, but much of the legal and survey record still depended on paper, microfil",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "cadastre"
+  ]
+}

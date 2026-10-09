@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0657",
+  "a": "person:sheryl-denise-hendriksen",
+  "b": "chapter:11",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-11-224cf9ea6b"
+  ],
+  "sources": []
+}

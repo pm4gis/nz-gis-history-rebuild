@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1742",
+  "a": "person:p-j-ellis",
+  "b": "chapter:4",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-4-db2cb9d359",
+    "passage:chapter-4-191c7a5478"
+  ],
+  "sources": []
+}

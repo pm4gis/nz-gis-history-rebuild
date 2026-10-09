@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2017-03-free-arcgis-online-access-becomes-available-to-new-zealand-schools",
+  "dateDisplay": "2017-03",
+  "startDate": "2017-03-01",
+  "datePrecision": "month",
+  "year": 2017,
+  "label": "Free ArcGIS Online access becomes available to New Zealand schools",
+  "summary": "The GIS in Schools programme provided free school access, with Eagle Technology and teachers developing NCEA-aligned lessons.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

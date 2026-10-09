@@ -1,0 +1,69 @@
+{
+  "id": "article:chapter-29",
+  "slug": "becoming-a-gis-professional",
+  "title": "The GIS profession",
+  "url": "/stories/becoming-a-gis-professional/",
+  "summary": "For much of the period in which digital mapping developed in New Zealand, there was no settled occupation called a GIS professional. People arrived from surveying, cartography, photogrammetry, geography, planning, forestry, comput",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 29,
+  "themeIds": [
+    "profession",
+    "women-in-gis"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch29-note-01",
+      "text": "1. The documented title and proceedings record support the First National Multi-Disciplinary GIS Conference in Wellington, 26–28 June 1989, Getting it all together with GIS, edited by T. Jackman and published by ERA Group. The chapter uses it as a convergence/professional-community marker, not the birth of New Zealand GIS."
+    },
+    {
+      "id": "ch29-note-02",
+      "text": "2. University of Otago records support the inaugural Spatial Information Research Centre colloquium on 30 November–1 December 1989 and the subsequent recurring series. The later 2013 SIRC NZ GIS and Remote Sensing Research Conference was explicitly described as inaugural and is not silently added to the earlier ordinal sequence."
+    },
+    {
+      "id": "ch29-note-03",
+      "text": "3. NZEUG’s own history dates the group’s formation to 1992, with later participant evidence supporting an early-1990s origin. Original founding minutes remain unrecovered, so the 1992 date is attributed to the organisation’s self-history."
+    },
+    {
+      "id": "ch29-note-04",
+      "text": "4. NZEUG’s current history and contemporary event records support annual conferences from 1996 through 2006, the 2005 tenth-anniversary description and the 31 October 2006 eleventh annual conference. The history leaves 2007 blank and resumes in 2008. The book therefore states only that no annual conference is currently documented for 2007. A 2012 Esri publication describing the event as the sixteenth annual conference is compatible with the sequence if 2007 was skipped, but is not used to invent a cancellation."
+    },
+    {
+      "id": "ch29-note-05",
+      "text": "5. Contemporary 2008 OSGeo correspondence supports open-source material and some non-Esri discussion at the NZEUG event; a 2009 government speech there supports the broader SDI/open-data/education/productivity context. These examples show a platform-specific community engaging with wider professional issues."
+    },
+    {
+      "id": "ch29-note-06",
+      "text": "6. Bill Thoen’s participant history, corroborated by near-contemporary technical material, supports the international MapInfo-L mailing list being established with Christchurch MapInfo reseller John McCombs in 1994 and McCombs’s associated FAQ/support role. It is not described as a New Zealand-only mailing list."
+    },
+    {
+      "id": "ch29-note-07",
+      "text": "7. ALGIM institutional history supports its wider information-management lineage, independence in 1995 and formal establishment on 1 July 1996. Contemporary reporting describes the 2011 dedicated ALGIM GIS Symposium as inaugural. GIS is treated as a specialist stream inside wider local-government information management."
+    },
+    {
+      "id": "ch29-note-08",
+      "text": "8. Mairéad de Róiste, Filling the gap: The geospatial skills shortage in New Zealand, New Zealand Geographer 70(3), 2014, 179–189, DOI 10.1111/nzg.12054, supplies the national workforce anchor. The study surveyed 157 organisations and documented the geospatial skills shortage and challenges around student numbers, experience, up-skilling and awareness. The chapter does not invent vacancy counts, salary effects or unsupported skill rankings."
+    },
+    {
+      "id": "ch29-note-09",
+      "text": "9. Organisational histories and the Master Research Register support the later network chronology used in the chapter: SIBA New Zealand from 2009 and later LocationTech identity; Women in Spatial and Survey re-formed in 2011; GIS in Conservation in 2012 and the SCGIS New Zealand/Fiji chapter in 2013; Emerging Spatial Professionals around 2015; NZ GIS Geeks publicly documented by 2015; Geospatial Emergency Management Aotearoa from 2017; and the Geospatial Capability Committee by at least 2017. These organisations are not flattened into a single professional body."
+    },
+    {
+      "id": "ch29-note-10",
+      "text": "10. FOSS4G records support the global conference in Tāmaki Makaurau Auckland from 17 to 23 November 2025. NZEUG organiser material supports eight 2024 regional events involving about 650 people from about 400 organisations. Participation figures remain organiser-reported. No 2026 event is included in the historical narrative."
+    },
+    {
+      "id": "ch29-note-11",
+      "text": "11. The project evidence places the first QGIS User Conference in Nødebo, Denmark. It does not support the earlier project lead placing a New Zealand conference on 23 September 2015."
+    },
+    {
+      "id": "ch29-note-12",
+      "text": "12. The Geospatial Research Institute’s 25 October 2019 seminar notice documents Dr Kat Salm presenting findings from a survey of women in New Zealand’s spatial industry and records her 2018 New Zealand Spatial Excellence Award for Women’s Leadership and a 2019 Asia-Pacific Spatial Excellence Award. Women in Spatial + Survey’s committee biographies document Charlotte Dawson’s GIS-analysis, cartographic and Geographic Board research work, her Stantec GIS team-lead role by 2020 and WIS+S chair role in 2021, and Kirsty Mackie’s use of GIS and remote sensing in geomorphometric analysis and WIS+S chair role from 2023. These sources support selected practitioner examples, not a census of the workforce."
+    },
+    {
+      "id": "ch29-note-13",
+      "text": "13. Women in Spatial + Survey’s homepage is the group’s source for its 2011 re-formation and its broadened inclusion aim; the author archive describes its informal event rhythm. Group event recaps document the 2015 career-networking breakfast, the July and October 2018 events, and the 2024 lightning talks. The committee page gives biographies for Amy Tay, Georgia Goodsell, Devon Allen and Malindi Reihana-Ruka but is not date-stamped. The WIS survey announced in 2018 is not assumed to be the same as Kat Salm’s 2019 survey. The 2025 Geospatial Industry Profile Survey figures are respondent shares reported in a 2026 secondary article, not workforce estimates."
+    }
+  ]
+}

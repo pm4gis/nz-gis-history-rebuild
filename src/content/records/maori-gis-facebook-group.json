@@ -1,0 +1,37 @@
+{
+  "id": "entity:maori-gis-facebook-group",
+  "slug": "maori-gis-facebook-group",
+  "name": "Māori GIS Facebook Group",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/maori-gis-facebook-group/",
+  "website": "https://maorigis.nz/blog/from-conferences-to-wananga",
+  "story": [
+    "By early 2017, a Māori-focused GIS Facebook group was an active practitioner space for sharing technical questions, events, maps, links and peer support. Participant histories describe the group as part of a wider move from conference-based exchange toward online discussion and kaupapa-specific mapping activity.",
+    "The group was deleted after it was hacked."
+  ],
+  "sources": [
+    {
+      "label": "Māori GIS history, From conferences to wānanga",
+      "url": "https://maorigis.nz/blog/from-conferences-to-wananga"
+    },
+    {
+      "label": "Māori GIS history, From DVDs to AI",
+      "url": "https://maorigis.nz/blog/from-dvds-to-ai-maori-gis-history"
+    },
+    {
+      "label": "Contributor recollection about the group’s deletion after it was hacked, supplied 2 October 2026"
+    }
+  ],
+  "aliases": [
+    "Māori GIS Facebook Group",
+    "Maori GIS Facebook group",
+    "Māori GIS group"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -11,6 +11,6 @@ const images = (await getCollection("images")).map((entry) => entry.data).sort((
       <img src={image.assetPath} alt={image.altText} loading="lazy" />
       <span><strong>{image.title}</strong><small>{image.credit} · View image details ↗</small></span>
     </a>)}</div>
-    {!images.length && <p>No images are published in this sample yet.</p>}
+    {!images.length && <p>No images are published yet.</p>}
   </section>
 </SiteLayout>

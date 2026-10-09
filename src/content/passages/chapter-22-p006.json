@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-22-72c3b55191",
+  "slug": "quickmap-72c3b55191",
+  "articleId": "article:chapter-22",
+  "title": "QuickMap",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22",
+    "entity:custom-software-quickmap"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "QuickMap took the software-and-data model further as a New Zealand-developed product. Custom Software was established in Wellington in 1996. The National Library catalogue records QuickMap Professional from 2002 as a Windows GIS distributed on CD-ROM with cadastral, title, owner and geographic data. Aerial photographs were supplied on accompanying discs.",
+      "markdown": "QuickMap took the software-and-data model further as a New Zealand-developed product. Custom Software was established in Wellington in 1996. The National Library catalogue records QuickMap Professional from 2002 as a Windows GIS distributed on CD-ROM with cadastral, title, owner and geographic data. Aerial photographs were supplied on accompanying discs.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The recorded system requirements describe the desktop environment clearly. QuickMap could run on a Pentium 133 MHz or better computer with 64 MB of RAM, an SVGA display and about 50 MB of disk space, across several versions of Windows including 95, 98, 2000, NT and XP. Those specifications were modest compared with the specialist workstations that had supported institutional GIS a decade earlier. The product was designed for users who already had a PC for normal office work.",
+      "markdown": "The recorded system requirements describe the desktop environment clearly. QuickMap could run on a Pentium 133 MHz or better computer with 64 MB of RAM, an SVGA display and about 50 MB of disk space, across several versions of Windows including 95, 98, 2000, NT and XP. Those specifications were modest compared with the specialist workstations that had supported institutional GIS a decade earlier. The product was designed for users who already had a PC for normal office work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "QuickMap also removed the need for the buyer to negotiate several separate data acquisitions before the software became useful. Parcels, titles, owners and geographic data came with the application. A surveyor, valuer, lawyer, property adviser or other user could search and map information relevant to ordinary property work without first constructing a GIS database. The product title described it as a mapping and data-visualisation tool, but the bundle of New Zealand property information was at least as central to its practical value as the map interface.",
+      "markdown": "QuickMap also removed the need for the buyer to negotiate several separate data acquisitions before the software became useful. Parcels, titles, owners and geographic data came with the application. A surveyor, valuer, lawyer, property adviser or other user could search and map information relevant to ordinary property work without first constructing a GIS database. The product title described it as a mapping and data-visualisation tool, but the bundle of New Zealand property information was at least as central to its practical value as the map interface.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the early 2000s New Zealand spatial information could be packaged as a commercial desktop product intended for a broad professional market. GIS capability had moved well beyond the specialist technical organisations that introduced digital mapping in the 1970s and 1980s.",
+      "markdown": "By the early 2000s New Zealand spatial information could be packaged as a commercial desktop product intended for a broad professional market. GIS capability had moved well beyond the specialist technical organisations that introduced digital mapping in the 1970s and 1980s.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "passage:chapter-27-4b1fb43cf4",
+  "slug": "waikato-builds-a-routine-map-4b1fb43cf4",
+  "articleId": "article:chapter-27",
+  "title": "Waikato builds a routine map",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27",
+    "person:j-woodham"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Their starting point was the Waikato Regional Public Health Unit’s notified-disease database. The paper describes a practical requirement for a rapid and routine system for visualising and analysing health events, rather than a one-off research map. ArcView Avenue was used to automate the map-production steps that would otherwise have required repeated pointing, clicking, selecting and calculation.",
+      "markdown": "Their starting point was the Waikato Regional Public Health Unit’s notified-disease database. The paper describes a practical requirement for a rapid and routine system for visualising and analysing health events, rather than a one-off research map. ArcView Avenue was used to automate the map-production steps that would otherwise have required repeated pointing, clicking, selecting and calculation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The automation was fast by the standards of the period. The paper reports that health-event maps for the whole Waikato Health Region could be produced in less than a minute at the most detailed scale. That speed changed what could reasonably be done with surveillance data. A map no longer had to be requested, assembled manually and treated as a finished cartographic product. It could be regenerated as new data arrived or a different disease, time period or geographic scale was selected.",
+      "markdown": "The automation was fast by the standards of the period. The paper reports that health-event maps for the whole Waikato Health Region could be produced in less than a minute at the most detailed scale. That speed changed what could reasonably be done with surveillance data. A map no longer had to be requested, assembled manually and treated as a finished cartographic product. It could be regenerated as new data arrived or a different disease, time period or geographic scale was selected.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The input data were already part of a national system. Notified cases were stored in EpiSurv, the computerised database installed in public-health services, while ESR collected regional data nationally on behalf of the Ministry of Health. Each record could contain a report date, patient name, home address, age, occupation and medical information. For the Waikato research, 500 health-event locations were extracted for analysis, but the locations were deliberately displaced by at least 500 metres in urban areas and 2,500 metres in rural areas before being used. Privacy was therefore part of the GIS method, not something added after the map had been made.",
+      "markdown": "The input data were already part of a national system. Notified cases were stored in EpiSurv, the computerised database installed in public-health services, while ESR collected regional data nationally on behalf of the Ministry of Health. Each record could contain a report date, patient name, home address, age, occupation and medical information. For the Waikato research, 500 health-event locations were extracted for analysis, but the locations were deliberately displaced by at least 500 metres in urban areas and 2,500 metres in rural areas before being used. Privacy was therefore part of the GIS method, not something added after the map had been made.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Geocoding was another part of the workflow. By 2001 EpiSurv had been extended with a GeoStan address-matching engine that allowed an operator to choose from possible matches, and the paper reported exact matching for almost 99 per cent of new cases with some user adjustment. Historical records were harder. Automatic geocoding of 11,564 Waikato records from March 1993 to February 2000 produced mixed results, with 4,015 records receiving a certainty score below 60 per cent. Those low-certainty records were excluded from the later analytical work rather than being placed on the map and quietly treated as reliable.",
+      "markdown": "Geocoding was another part of the workflow. By 2001 EpiSurv had been extended with a GeoStan address-matching engine that allowed an operator to choose from possible matches, and the paper reported exact matching for almost 99 per cent of new cases with some user adjustment. Historical records were harder. Automatic geocoding of 11,564 Waikato records from March 1993 to February 2000 produced mixed results, with 4,015 records receiving a certainty score below 60 per cent. Those low-certainty records were excluded from the later analytical work rather than being placed on the map and quietly treated as reliable.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Dumble and J. Woodham’s 2001–02 dental GIS work examined the allocation of dental-therapist resources and the targeting of health promotion. The project linked children’s records with homes, schools, water and fluoride information, income, NZDep96, school rolls and therapist rosters. ArcView supported geocoding, overlay analysis and reporting. Handwritten therapist forms were collated and scanned for the reporting process. The work was presented through the SIRC paper known as “Terrorising the Tooth Fairy” and a 2002 Esri presentation, “Finding, Filling, Drilling and Closing the Gaps”. Mapping those relationships allowed the service to examine where provision and need differed. Public descriptions use the methods and aggregated findings while individual health records remain protected.",
+      "sources": [
+        {
+          "label": "Finding, Filling, Drilling and Closing the Gaps - ESRI 2002"
+        },
+        {
+          "label": "Whigham, P. A. (ed.), SIRC 2001 proceedings entry, Terrorising the Tooth Fairy with GIS: Finding, Filling, Drilling and Closing the Gaps"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

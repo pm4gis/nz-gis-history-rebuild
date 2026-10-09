@@ -1,0 +1,31 @@
+{
+  "id": "person:rachel-butler",
+  "slug": "rachel-butler",
+  "name": "Rachel Butler",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rachel-butler/",
+  "story": [
+    "Rachel Butler presented the Research, Analysis and Intelligence team’s work to the Maritime NZ board in 2023."
+  ],
+  "sources": [
+    {
+      "label": "Maritime NZ board minutes, 2023, released under the OIA",
+      "url": "https://fyi.org.nz/request/24688/response/97563/attach/2/Decision%20letter%20to%20John%20Luke%20F33866with%20documents.pdf"
+    }
+  ],
+  "aliases": [
+    "Rachel Butler"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Maritime NZ board minutes, 2023, released under the OIA",
+        "url": "https://fyi.org.nz/request/24688/response/97563/attach/2/Decision%20letter%20to%20John%20Luke%20F33866with%20documents.pdf"
+      }
+    ]
+  ]
+}

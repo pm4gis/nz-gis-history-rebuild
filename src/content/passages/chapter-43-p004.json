@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-43-66aa2e3a19",
+  "slug": "python-enters-the-server-66aa2e3a19",
+  "articleId": "article:chapter-43",
+  "title": "Python enters the server",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43",
+    "entity:integrated-mapping",
+    "person:john-mccombs",
+    "person:brent-wood"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "NIWA used a mix of development tools and spatial systems. Brent Wood’s 2022 technical retrospective records that Integrated Mapping in Christchurch developed DASmap for NIWA in the early to mid-2000s, with John McCombs named in the presentation. The web application used MapServer and Python MapScript, placing Python in a New Zealand geospatial application well before it became common in desktop GIS workflows.",
+      "markdown": "NIWA used a mix of development tools and spatial systems. Brent Wood’s 2022 technical retrospective records that Integrated Mapping in Christchurch developed DASmap for NIWA in the early to mid-2000s, with John McCombs named in the presentation. The web application used MapServer and Python MapScript, placing Python in a New Zealand geospatial application well before it became common in desktop GIS workflows.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DASmap connected database observations with automated processing and web display. The application sat on top of NIWA’s Data Acquisition System database, which stored instrument and sensor readings from research vessels. The later database contained tens of billions of observations. By 2022 the challenge had expanded from displaying a track to querying and aggregating very large time-series data quickly enough for the existing application to remain useful. Python, MapServer, SQL and spatial database functions were parts of one working chain rather than rival ways of doing GIS.",
+      "markdown": "DASmap connected database observations with automated processing and web display. The application sat on top of NIWA’s Data Acquisition System database, which stored instrument and sensor readings from research vessels. The later database contained tens of billions of observations. By 2022 the challenge had expanded from displaying a track to querying and aggregating very large time-series data quickly enough for the existing application to remain useful. Python, MapServer, SQL and spatial database functions were parts of one working chain rather than rival ways of doing GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Python later became attractive to GIS practitioners because it could connect many parts of that chain. It could call GIS tools, handle files, query databases, work with web services and perform ordinary operating-system tasks in the same process. That flexibility mattered as GIS stopped being a self-contained desktop application and became one component in wider information systems. Plenty of work remained interactive, and plenty of automated systems used SQL, JavaScript, shell scripts, proprietary workflow tools or other languages instead.",
+      "markdown": "Python later became attractive to GIS practitioners because it could connect many parts of that chain. It could call GIS tools, handle files, query databases, work with web services and perform ordinary operating-system tasks in the same process. That flexibility mattered as GIS stopped being a self-contained desktop application and became one component in wider information systems. Plenty of work remained interactive, and plenty of automated systems used SQL, JavaScript, shell scripts, proprietary workflow tools or other languages instead.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

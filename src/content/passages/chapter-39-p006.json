@@ -1,0 +1,50 @@
+{
+  "id": "passage:chapter-39-55f120350b",
+  "slug": "infrastructure-in-three-dimensions-55f120350b",
+  "articleId": "article:chapter-39",
+  "title": "Infrastructure in three dimensions",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39",
+    "person:chris-scott"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Infrastructure creates similar problems for different reasons. Pipes, cables, bridges, retaining structures and roads occupy real volumes and often pass above or below one another. A two-dimensional network can represent connectivity, but design, construction and maintenance may require levels, clearances, depths and three-dimensional geometry. Large engineering programmes therefore became places where 3D information had to move between surveyors, designers, contractors and GIS teams.",
+      "markdown": "Infrastructure creates similar problems for different reasons. Pipes, cables, bridges, retaining structures and roads occupy real volumes and often pass above or below one another. A two-dimensional network can represent connectivity, but design, construction and maintenance may require levels, clearances, depths and three-dimensional geometry. Large engineering programmes therefore became places where 3D information had to move between surveyors, designers, contractors and GIS teams.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Christchurch's post-earthquake rebuild provides a well-documented operational case. Chris Scott's 2016 FIG paper described the scale of surveying within the Stronger Christchurch Infrastructure Rebuild Team. Around 150 surveyors from sixteen consultancies contributed roughly 200,000 survey hours. The programme used a federated digital delivery environment and included intelligent three-dimensional drainage strings among the information passed through the rebuild workflow.",
+      "markdown": "Christchurch's post-earthquake rebuild provides a well-documented operational case. Chris Scott's 2016 FIG paper described the scale of surveying within the Stronger Christchurch Infrastructure Rebuild Team. Around 150 surveyors from sixteen consultancies contributed roughly 200,000 survey hours. The programme used a federated digital delivery environment and included intelligent three-dimensional drainage strings among the information passed through the rebuild workflow.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Those drainage strings were more than attractive lines drawn in perspective. Their vertical position affected gradients, connections and constructability. Survey information had to move into engineering design, then back into records of what had actually been built. Three-dimensional infrastructure records captured these engineering requirements: an underground pipe has a horizontal route, but its depth and gradient can determine whether the network functions.",
+      "markdown": "Those drainage strings were more than attractive lines drawn in perspective. Their vertical position affected gradients, connections and constructability. Survey information had to move into engineering design, then back into records of what had actually been built. Three-dimensional infrastructure records captured these engineering requirements: an underground pipe has a horizontal route, but its depth and gradient can determine whether the network functions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The SCIRT example also demonstrates that 3D adoption was organisational. Hundreds of people and multiple consultancies needed common controls, naming, coordinates and delivery conventions. A technically excellent model that could not be exchanged across the programme was of limited value. Three-dimensional information therefore increased the importance of standards and governance rather than making those older GIS concerns disappear.",
+      "markdown": "The SCIRT example also demonstrates that 3D adoption was organisational. Hundreds of people and multiple consultancies needed common controls, naming, coordinates and delivery conventions. A technically excellent model that could not be exchanged across the programme was of limited value. Three-dimensional information therefore increased the importance of standards and governance rather than making those older GIS concerns disappear.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Infrastructure consultants were also experimenting with more immersive forms of geospatial visualisation. At the 2017 New Zealand Esri User Conference, Aurecon’s Keri Niven presented work that blurred the line between geospatial visualisation and virtual reality, an example of spatial data moving beyond conventional two-dimensional map interfaces.",
+      "sources": [
+        {
+          "label": "New Zealand Esri User Conference programme, 2017",
+          "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

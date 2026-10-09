@@ -1,0 +1,136 @@
+{
+  "id": "entity:manaaki-whenua-landcare-research",
+  "slug": "manaaki-whenua-landcare-research",
+  "name": "Manaaki Whenua Landcare Research",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/manaaki-whenua-landcare-research/",
+  "website": null,
+  "story": [
+    "Landcare Research inherited land-resource and soil-information work and developed environmental datasets used across New Zealand. The NZLRI, Land Resource Information Systems and Land Cover Database connected field observations and interpretation with managed spatial data. Publishing these records for wider use brought further work in documentation, licensing and data services.",
+    "The New Zealand Land Resource Inventory’s first digitising belongs to predecessor organisations. Manaaki Whenua’s mapping history dates it to 1977–1980, using NWASCO worksheets compiled from aerial photographs, resource maps and field observations. GIS storage initially coexisted with distribution through paper worksheets and regional legends. Landcare Research’s later stewardship continued and restructured this inherited national resource; it did not originate the 1970s digitising programme.",
+    "The LRIS portal opened publicly in August 2010. David Medyckyj-Scott and James Barringer’s September 2011 account described more than 80 available datasets, including NZLRI, Land Environments of New Zealand, soil layers and elevation models. Koordinates software let users choose formats and geographic subsets, with metadata, supporting documents and licences beside each layer. The account recorded over 1,700 download requests since launch, compared with fewer than 50 datasets supplied in 2009.",
+    "In 2011, the Informatics team also delivered S-map Online for viewing soil properties, producing printable maps and retrieving soil factsheets where mapping was available. Its shared platform with Our Environment used PostGIS, MapServer, GeoTools and OpenLayers. James Barringer, David Medyckyj-Scott, Allan Hewitt and Linda Lilburne’s account described a developing service with incomplete national coverage, rather than a finished national soil survey.",
+    "Land-cover mapping followed its own release cycle. Manaaki Whenua records LCDB version 4 as released in 2014 and version 5 as launched in January 2020. The satellite-based classifications supported environmental reporting, catchment monitoring and conservation operations. These release dates describe published database editions, separately from the dates when their source imagery was acquired.",
+    "Its web-mapping work included GUILD-on-the-Web, released in January 1996 under Robert Gibb’s leadership with David Medyckyj-Scott as co-developer. Later services included the LRIS Portal, S-map Online and Our Environment. Medyckyj-Scott recalls LRIS as Koordinates’ first hosted instance outside the company’s own service.",
+    "Robert Gibb, Alexander Raichev and Michael Speth developed rHEALPix, and Gibb contributed to the OGC and ISO DGGS standards. Later land-use mapping at the institute applied the H3 grid. Manaaki Whenua also hosted the OGC Technical and Planning Committee meeting and two open summits in Palmerston North in December 2017.",
+    "Land Environments of New Zealand (LENZ) was released as a national atlas and digital resource in April 2003. Developed by Landcare Research with the Ministry for the Environment, it classified New Zealand environments using 15 climate, landform and soil variables and supplied atlas, technical and digital-data components.",
+    "In August 2011 the Government announced a four-year, $4 million Land Cover Research Programme led by Landcare Research. It linked satellite imagery, geospatial mapping and advanced computing with work by the Ministry for the Environment, Department of Conservation, Ministry of Agriculture and Forestry and regional councils, building on the existing LUCAS programme."
+  ],
+  "sources": [
+    {
+      "label": "Manaaki Whenua Landcare Research, NZLRI/LRIS history",
+      "url": "https://lris.scinfo.org.nz/"
+    },
+    {
+      "label": "Manaaki Whenua, NZLRI mapping editions and digitising chronology",
+      "url": "https://lrp.landcareresearch.co.nz/topics/luc-surveys/mapping-editions"
+    },
+    {
+      "label": "Soil Horizons 20, September 2011, pp.4–5: LRIS portal and S-map Online",
+      "url": "https://www.landcareresearch.co.nz/assets/Publications/Soil-Horizons/Soil_Horizons_20.pdf"
+    },
+    {
+      "label": "Manaaki Whenua, Smarter remote sensing for effective land management, 27 March 2020",
+      "url": "https://www.landcareresearch.co.nz/news/smarter-remote-sensing-for-effective-land-management"
+    },
+    {
+      "label": "Manaaki Whenua, Land Cover Database v5 launched in 2020, 12 December 2020",
+      "url": "https://www.landcareresearch.co.nz/publications/innovation-stories/innovation-articles/land-cover-database-v5-launched-in-2020"
+    },
+    {
+      "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+      "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+    },
+    {
+      "label": "Gibb, Raichev and Speth, The rHEALPix Discrete Global Grid System, Landcare Research DataStore, deposited 2016, DOI 10.7931/J2D21VHM",
+      "url": "https://datastore.landcareresearch.co.nz/dataset/rhealpix-discrete-global-grid-system"
+    },
+    {
+      "label": "Robert Gibb (editor), OGC Topic 21, DGGS Part 1, version 2.0, 23 September 2021, 20-040r3",
+      "url": "https://docs.ogc.org/as/20-040r3/20-040r3.html"
+    },
+    {
+      "label": "Richard Law, Land-use mapping with a Discrete Global Grid System, FOSS4G SotM Oceania, 17 October 2023: H3 implementation",
+      "url": "https://talks.osgeo.org/foss4g-sotm-oceania-2023/talk/EYAJ7H/"
+    },
+    {
+      "label": "James Barringer, Manaaki Whenua contribution to Cartographic Activities in New Zealand 2015–2019, printed pp.30–31: OGC meeting and summits",
+      "url": "https://icaci.org/files/documents/national_reports/2015-2019/newzealand-2019_lq.pdf"
+    },
+    {
+      "label": "Beehive, Award-winning classification system published as full colour atlas, 23 April 2003",
+      "url": "https://www.beehive.govt.nz/release/award-winning-classification-system-published-full-colour-atlas"
+    },
+    {
+      "label": "Beehive, $4 million for high-tech mapping programme, 12 August 2011",
+      "url": "https://www.beehive.govt.nz/release/4-million-high-tech-mapping-programme"
+    }
+  ],
+  "aliases": [
+    "Manaaki Whenua Landcare Research"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [
+    [
+      {
+        "label": "Manaaki Whenua Landcare Research, NZLRI/LRIS history",
+        "url": "https://lris.scinfo.org.nz/"
+      }
+    ],
+    [
+      {
+        "label": "Manaaki Whenua, NZLRI mapping editions and digitising chronology",
+        "url": "https://lrp.landcareresearch.co.nz/topics/luc-surveys/mapping-editions"
+      }
+    ],
+    [
+      {
+        "label": "Soil Horizons 20, September 2011, pp.4–5: LRIS portal and S-map Online",
+        "url": "https://www.landcareresearch.co.nz/assets/Publications/Soil-Horizons/Soil_Horizons_20.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Soil Horizons 20, September 2011, pp.4–5: LRIS portal and S-map Online",
+        "url": "https://www.landcareresearch.co.nz/assets/Publications/Soil-Horizons/Soil_Horizons_20.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Manaaki Whenua, Smarter remote sensing for effective land management, 27 March 2020",
+        "url": "https://www.landcareresearch.co.nz/news/smarter-remote-sensing-for-effective-land-management"
+      },
+      {
+        "label": "Manaaki Whenua, Land Cover Database v5 launched in 2020, 12 December 2020",
+        "url": "https://www.landcareresearch.co.nz/publications/innovation-stories/innovation-articles/land-cover-database-v5-launched-in-2020"
+      }
+    ],
+    [
+      {
+        "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+        "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+      }
+    ],
+    [
+      {
+        "label": "Gibb, Raichev and Speth, The rHEALPix Discrete Global Grid System, Landcare Research DataStore, deposited 2016, DOI 10.7931/J2D21VHM",
+        "url": "https://datastore.landcareresearch.co.nz/dataset/rhealpix-discrete-global-grid-system"
+      },
+      {
+        "label": "Robert Gibb (editor), OGC Topic 21, DGGS Part 1, version 2.0, 23 September 2021, 20-040r3",
+        "url": "https://docs.ogc.org/as/20-040r3/20-040r3.html"
+      },
+      {
+        "label": "Richard Law, Land-use mapping with a Discrete Global Grid System, FOSS4G SotM Oceania, 17 October 2023: H3 implementation",
+        "url": "https://talks.osgeo.org/foss4g-sotm-oceania-2023/talk/EYAJ7H/"
+      },
+      {
+        "label": "James Barringer, Manaaki Whenua contribution to Cartographic Activities in New Zealand 2015–2019, printed pp.30–31: OGC meeting and summits",
+        "url": "https://icaci.org/files/documents/national_reports/2015-2019/newzealand-2019_lq.pdf"
+      }
+    ]
+  ],
+  "biographyParagraphSources": []
+}

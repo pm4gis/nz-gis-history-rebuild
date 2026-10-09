@@ -1,0 +1,33 @@
+{
+  "id": "person:galia-barhava-monteith",
+  "slug": "galia-barhava-monteith",
+  "name": "Galia Barhava-Monteith",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/galia-barhava-monteith/",
+  "story": [
+    "At a Women in Spatial breakfast reported in September 2015, Galia Barhava-Monteith of Professionelle spoke about barriers to career advancement, mentoring and informal professional networks. The group’s report records 47 attendees and presents her guidance as a career-development contribution, not as a survey of the spatial workforce."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial, “What Stops Women Rising to the Top?”, 12 September 2015",
+      "url": "https://womeninspatial.wordpress.com/2015/09/12/galia-barhava-monteith-what-stops-women-rising-to-the-top/"
+    }
+  ],
+  "aliases": [
+    "Galia Barhava-Monteith"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Women in Spatial, “What Stops Women Rising to the Top?”, 12 September 2015",
+        "url": "https://womeninspatial.wordpress.com/2015/09/12/galia-barhava-monteith-what-stops-women-rising-to-the-top/"
+      }
+    ]
+  ]
+}

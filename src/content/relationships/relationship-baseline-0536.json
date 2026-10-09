@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-0536",
+  "a": "person:beryl-pimblott",
+  "b": "chapter:6",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-6-0cce6a3869",
+    "passage:chapter-6-1d1245dd9d"
+  ],
+  "sources": []
+}

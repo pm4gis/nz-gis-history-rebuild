@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0696",
+  "a": "person:william-mackaness",
+  "b": "chapter:11",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-11-6b17dc2b4d"
+  ],
+  "sources": []
+}

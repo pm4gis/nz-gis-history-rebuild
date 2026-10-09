@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-21-2e312a8bcc",
+  "slug": "distributed-datasets-2e312a8bcc",
+  "articleId": "article:chapter-21",
+  "title": "Distributed datasets",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The strategy proposed coordination among organisations maintaining national datasets. Survey and title data needed a land-administration custodian, while census geography remained part of the statistical system. Councils continued to maintain local roads, assets and planning records, and research organisations retained responsibility for scientific information. National spatial infrastructure had to connect these custodians and their systems.",
+      "markdown": "The strategy proposed coordination among organisations maintaining national datasets. Survey and title data needed a land-administration custodian, while census geography remained part of the statistical system. Councils continued to maintain local roads, assets and planning records, and research organisations retained responsibility for scientific information. National spatial infrastructure had to connect these custodians and their systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The emerging model was distributed. Data could remain with the organisation responsible for it while common standards, metadata, reference systems and access mechanisms allowed others to use it. The infrastructure therefore included organisational agreements as well as software. A service delivering a road layer was useful only if somebody remained responsible for the road data after the web service had been deployed.",
+      "markdown": "The emerging model was distributed. Data could remain with the organisation responsible for it while common standards, metadata, reference systems and access mechanisms allowed others to use it. The infrastructure therefore included organisational agreements as well as software. A service delivering a road layer was useful only if somebody remained responsible for the road data after the web service had been deployed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This model also avoided confusing availability with authority. A copy of a dataset held by another agency could be convenient for analysis but become stale if updates were not propagated. Maintaining information at its authoritative source reduced the number of unmanaged copies, provided there was a dependable way for users to discover and retrieve current data. The later language of stewardship and custodianship grew naturally from that arrangement.",
+      "markdown": "This model also avoided confusing availability with authority. A copy of a dataset held by another agency could be convenient for analysis but become stale if updates were not propagated. Maintaining information at its authoritative source reduced the number of unmanaged copies, provided there was a dependable way for users to discover and retrieve current data. The later language of stewardship and custodianship grew naturally from that arrangement.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The physical analogy was straightforward enough. A road network is not one road, and telecommunications infrastructure is not one telephone. Spatial infrastructure similarly consisted of several interdependent parts. By 2007 New Zealand was trying to coordinate the existing components across databases and agencies.",
+      "markdown": "The physical analogy was straightforward enough. A road network is not one road, and telecommunications infrastructure is not one telephone. Spatial infrastructure similarly consisted of several interdependent parts. By 2007 New Zealand was trying to coordinate the existing components across databases and agencies.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

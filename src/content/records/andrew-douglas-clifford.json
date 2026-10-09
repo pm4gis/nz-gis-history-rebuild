@@ -1,0 +1,47 @@
+{
+  "id": "person:andrew-douglas-clifford",
+  "slug": "andrew-douglas-clifford",
+  "name": "Andrew Douglas-Clifford",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/andrew-douglas-clifford/",
+  "website": "https://www.andrewdc.co.nz/",
+  "story": [
+    "LINZ and the Geospatial Capability Committee included Andrew Douglas-Clifford in the Leaving School geospatial career-profile series: Cartographer & Geospatial Analyst, Tonkin + Taylor, October 2021.",
+    "Andrew Douglas-Clifford is a New Zealand cartographer and geospatial professional who completed a Master’s in Geographic Information Science at the University of Canterbury. His Map Kiwi work grew from university mapping projects into a public portfolio of transport, topographic and experimental cartography.",
+    "His State Highway metro map received the New Zealand Cartographic Society People’s Choice Map Award and he received the society’s award at the 2018 New Zealand Spatial Excellence Awards. LINZ later profiled him as a cartographer and geospatial analyst at Tonkin + Taylor."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    },
+    {
+      "label": "The Map Kiwi, Andrew Douglas-Clifford biography",
+      "url": "https://www.andrewdc.co.nz/about/"
+    },
+    {
+      "label": "LINZ, Geospatial for schools career profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    },
+    {
+      "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+      "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+    }
+  ],
+  "aliases": [
+    "Andrew Douglas-Clifford"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

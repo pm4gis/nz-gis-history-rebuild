@@ -1,0 +1,38 @@
+{
+  "id": "article:chapter-2",
+  "slug": "coordinates-enter-the-computer",
+  "title": "Survey calculations",
+  "url": "/stories/coordinates-enter-the-computer/",
+  "summary": "The first electronic computers used in New Zealand government work handled calculations and data processing. The map mostly stayed on paper while the numbers went into the machine. Surveying, geodesy and engineering already genera",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 2,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch02-note-01",
+      "text": "1. The early government-computing chronology retains the source conflict between references to an IBM 1201 and the documented IBM 650 installation. The working appendix records the evidence and uncertainty. The manuscript therefore describes the move into electronic calculation without using an unsupported single \"first government computer\" claim."
+    },
+    {
+      "id": "ch02-note-02",
+      "text": "2. Ministry of Works and related engineering computation is supported by period technical and departmental material covering road, earthwork, hydroelectric and survey calculation. The Mangaweka and Clutha examples are used as numerical engineering and coordinate-processing evidence rather than as GIS systems."
+    },
+    {
+      "id": "ch02-note-03",
+      "text": "3. The NZGD49 and coordinate-adjustment sections rely on official survey/geodetic documentation and later LINZ historical material. The chapter distinguishes the geodetic framework from projections and from later digital mapping systems."
+    },
+    {
+      "id": "ch02-note-04",
+      "text": "4. R. G. Dick's 1966 work and related surveying-computation material provide evidence that electronic calculation was entering routine survey practice. The documented functions define the scope of this evidence."
+    },
+    {
+      "id": "ch02-note-05",
+      "text": "5. W. I. Reilly's 1973 New Zealand Map Grid work is the source the projection/computation transition. Automated contour and terrain work in the mid-1970s is supported by the Harrington material already allocated to the chapter. These sources demonstrate machine calculation of geographic geometry before computer-assisted map production becomes the principal subject of Chapter 3."
+    },
+    {
+      "id": "ch02-note-06",
+      "text": "6. The Chapter 2 source appendix in the manuscript master records exact dates, system names and the IBM chronology."
+    }
+  ]
+}

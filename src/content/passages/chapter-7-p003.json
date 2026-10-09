@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-7-2177212399",
+  "slug": "field-mapping-2177212399",
+  "articleId": "article:chapter-7",
+  "title": "Field mapping",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The classification depended on field and photographic interpretation. Aerial photographs allowed mappers to see landform patterns, vegetation, erosion scars, drainage and other surface characteristics across large areas. Existing soil and geological surveys supplied another part of the evidence. Field visits were needed to check what the imagery and maps could not establish securely and to relate visible patterns to conditions on the ground.",
+      "markdown": "The classification depended on field and photographic interpretation. Aerial photographs allowed mappers to see landform patterns, vegetation, erosion scars, drainage and other surface characteristics across large areas. Existing soil and geological surveys supplied another part of the evidence. Field visits were needed to check what the imagery and maps could not establish securely and to relate visible patterns to conditions on the ground.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The work was necessarily selective. A national survey at one-inch-to-one-mile scale could not record every soil change, slip, gully or paddock boundary. The mapper had to decide which differences were large and consistent enough to justify a separate unit. Small areas could disappear inside a larger mapped unit, while complex areas might be represented by combined symbols where more than one condition occurred within the mapping scale.",
+      "markdown": "The work was necessarily selective. A national survey at one-inch-to-one-mile scale could not record every soil change, slip, gully or paddock boundary. The mapper had to decide which differences were large and consistent enough to justify a separate unit. Small areas could disappear inside a larger mapped unit, while complex areas might be represented by combined symbols where more than one condition occurred within the mapping scale.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Here, 'homogeneous map unit' has its cartographic meaning. It meant that the recorded factors were sufficiently alike for the purpose and scale of the survey, not that every square metre inside the polygon was identical. Later GIS users could zoom into the line until it appeared to divide neighbouring paddocks cleanly, but the original mapping had not been made at that level of detail.",
+      "markdown": "Here, 'homogeneous map unit' has its cartographic meaning. It meant that the recorded factors were sufficiently alike for the purpose and scale of the survey, not that every square metre inside the polygon was identical. Later GIS users could zoom into the line until it appeared to divide neighbouring paddocks cleanly, but the original mapping had not been made at that level of detail.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The people doing this work combined several disciplines. Geological and soil knowledge helped identify parent material and soil groups. Land-resource specialists assessed slope, erosion and vegetation. Cartographic staff compiled boundaries and codes on base maps. Digitising and database staff captured the polygons and attached descriptive information to build the national coverage.",
+      "markdown": "The people doing this work combined several disciplines. Geological and soil knowledge helped identify parent material and soil groups. Land-resource specialists assessed slope, erosion and vegetation. Cartographic staff compiled boundaries and codes on base maps. Digitising and database staff captured the polygons and attached descriptive information to build the national coverage.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

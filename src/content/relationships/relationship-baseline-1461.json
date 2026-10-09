@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1461",
+  "a": "entity:waimakariri-district-council",
+  "b": "chapter:37",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-37-e7aa561e08"
+  ],
+  "sources": []
+}

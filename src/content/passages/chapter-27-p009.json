@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-27-4d08555077",
+  "slug": "the-public-health-observatory-4d08555077",
+  "articleId": "article:chapter-27",
+  "title": "The Public Health Observatory",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27",
+    "entity:eagle-technology",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The New Zealand Public Health Observatory launched on 29 May 2002 as a broader service than PHEW!. It provided a common online window into population-health information, with maps, tables and downloadable material intended for District Health Boards, researchers, health organisations and the public. The Ministry’s Public Health Intelligence group conceived and led the initiative, working with the New Zealand Health Information Service, ESR and Eagle Technology. National context data also came from Statistics New Zealand and LINZ.",
+      "markdown": "The New Zealand Public Health Observatory launched on 29 May 2002 as a broader service than PHEW!. It provided a common online window into population-health information, with maps, tables and downloadable material intended for District Health Boards, researchers, health organisations and the public. The Ministry’s Public Health Intelligence group conceived and led the initiative, working with the New Zealand Health Information Service, ESR and Eagle Technology. National context data also came from Statistics New Zealand and LINZ.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "PHEW! was described at the launch as a forerunner, not as an earlier name for the same application. Its centre of gravity was notifiable communicable disease. The Observatory aimed to bring together a wider range of population-health datasets and to let users download tables for use with their own information. That wider design placed web mapping inside a broader information-distribution service rather than making the map the only output.",
+      "markdown": "PHEW! was described at the launch as a forerunner, not as an earlier name for the same application. Its centre of gravity was notifiable communicable disease. The Observatory aimed to bring together a wider range of population-health datasets and to let users download tables for use with their own information. That wider design placed web mapping inside a broader information-distribution service rather than making the map the only output.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The launch material also reveals the practical state of web GIS at the time. Internet mapping expertise was described as scarce enough that the Ministry used a bureau-service arrangement with Eagle Technology to obtain the technical capability needed for the project. The organisation could own the health purpose and data relationships without maintaining every part of the web-mapping stack internally. That was a common pattern as government agencies began moving specialist GIS functions into browser applications.",
+      "markdown": "The launch material also reveals the practical state of web GIS at the time. Internet mapping expertise was described as scarce enough that the Ministry used a bureau-service arrangement with Eagle Technology to obtain the technical capability needed for the project. The organisation could own the health purpose and data relationships without maintaining every part of the web-mapping stack internally. That was a common pattern as government agencies began moving specialist GIS functions into browser applications.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Observatory also made collaboration more visible. Health data stewards remained responsible for hospitalisation, mortality and cancer information, while Statistics New Zealand supplied demographic context and other organisations contributed specialist data or analysis. The service drew information from several health systems. It was a published view across several maintained sources, joined by geography and a common web interface.",
+      "markdown": "The Observatory also made collaboration more visible. Health data stewards remained responsible for hospitalisation, mortality and cancer information, while Statistics New Zealand supplied demographic context and other organisations contributed specialist data or analysis. The service drew information from several health systems. It was a published view across several maintained sources, joined by geography and a common web interface.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

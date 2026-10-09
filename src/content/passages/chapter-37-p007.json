@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-37-ad0a73fedd",
+  "slug": "seeing-the-ground-beneath-vegetation-ad0a73fedd",
+  "articleId": "article:chapter-37",
+  "title": "Seeing the ground beneath vegetation",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "One of LiDAR's most useful properties is that an airborne pulse can produce more than one return as it passes through vegetation. Some energy may be reflected from the canopy and lower branches while another return reaches the ground. Where vegetation and survey conditions allow it, classification can therefore produce a terrain model that is far less dominated by tree crowns than a photograph or surface model. This capability is especially valuable in a country where forest, scrub and riparian vegetation can obscure landform. Vegetation remains part of the measurement environment, while classification gives analysts another way to infer the ground beneath it.",
+      "markdown": "One of LiDAR's most useful properties is that an airborne pulse can produce more than one return as it passes through vegetation. Some energy may be reflected from the canopy and lower branches while another return reaches the ground. Where vegetation and survey conditions allow it, classification can therefore produce a terrain model that is far less dominated by tree crowns than a photograph or surface model. This capability is especially valuable in a country where forest, scrub and riparian vegetation can obscure landform. Vegetation remains part of the measurement environment, while classification gives analysts another way to infer the ground beneath it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That capability changed the kinds of terrain features that could be inspected in GIS. Subtle channels, terraces, scarps and earthworks can become visible in a bare-earth hillshade even when the same forms are difficult to distinguish in conventional imagery. Forestry, geomorphology, archaeology and hazard work all gained from this, although each field has different standards for deciding what the revealed shape means. The laser does not identify a terrace as geological, archaeological or engineered. It records the geometry from which a specialist may form that interpretation.",
+      "markdown": "That capability changed the kinds of terrain features that could be inspected in GIS. Subtle channels, terraces, scarps and earthworks can become visible in a bare-earth hillshade even when the same forms are difficult to distinguish in conventional imagery. Forestry, geomorphology, archaeology and hazard work all gained from this, although each field has different standards for deciding what the revealed shape means. The laser does not identify a terrace as geological, archaeological or engineered. It records the geometry from which a specialist may form that interpretation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A DSM can preserve the upper shape of forests and buildings while a DEM attempts to represent the ground below them. Comparing the two can support estimates of height or structure when the acquisition and classification are suitable for the task. LiDAR therefore created a family of possible elevation surfaces from the same acquisition. That flexibility helped make the point cloud valuable beyond the purpose for which the aircraft was originally flown.",
+      "markdown": "A DSM can preserve the upper shape of forests and buildings while a DEM attempts to represent the ground below them. Comparing the two can support estimates of height or structure when the acquisition and classification are suitable for the task. LiDAR therefore created a family of possible elevation surfaces from the same acquisition. That flexibility helped make the point cloud valuable beyond the purpose for which the aircraft was originally flown.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-30-dfe555c2d4",
+  "slug": "digital-evidence-disappears-dfe555c2d4",
+  "articleId": "article:chapter-30",
+  "title": "Digital evidence disappears",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The early browser period has left a peculiar historical record. DOCgis survives unusually well because a training guide and a detailed technical paper were retained. Dunedin’s help pages still expose the vocabulary, browser problems and data warnings of an early ArcIMS application. PHEW! is almost the reverse: its purpose, date and functions are securely documented, but the original visual interface remains missing.",
+      "markdown": "The early browser period has left a peculiar historical record. DOCgis survives unusually well because a training guide and a detailed technical paper were retained. Dunedin’s help pages still expose the vocabulary, browser problems and data warnings of an early ArcIMS application. PHEW! is almost the reverse: its purpose, date and functions are securely documented, but the original visual interface remains missing.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The applications depended on software and infrastructure that changed over time. Interactive web systems were assembled from several moving parts: a page, scripts, GIS services, databases, authentication, network addresses and browser behaviour. Preserving the HTML alone might preserve only a shell. A web archive could capture the surrounding page while the map service itself vanished. An application that served thousands of users could therefore leave less visible evidence than a paper map printed in a few hundred copies.",
+      "markdown": "The applications depended on software and infrastructure that changed over time. Interactive web systems were assembled from several moving parts: a page, scripts, GIS services, databases, authentication, network addresses and browser behaviour. Preserving the HTML alone might preserve only a shell. A web archive could capture the surrounding page while the map service itself vanished. An application that served thousands of users could therefore leave less visible evidence than a paper map printed in a few hundred copies.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For the history of digital mapping, manuals and help pages become unusually important objects. A screenshot can show the controls a user actually saw. A training guide can reveal the intended workflow and the assumptions made about the user’s computer. A technical architecture diagram can identify which part of the system performed the work. Even an error message or instruction to clear the browser cache can locate the application in a particular technological moment more accurately than a later summary saying only that a council had “online GIS”.",
+      "markdown": "For the history of digital mapping, manuals and help pages become unusually important objects. A screenshot can show the controls a user actually saw. A training guide can reveal the intended workflow and the assumptions made about the user’s computer. A technical architecture diagram can identify which part of the system performed the work. Even an error message or instruction to clear the browser cache can locate the application in a particular technological moment more accurately than a later summary saying only that a council had “online GIS”.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Early browser GIS depended on the software, data, service configuration and institutional support behind its visible interface. Preserving a working map meant maintaining those parts together.",
+      "markdown": "Early browser GIS depended on the software, data, service configuration and institutional support behind its visible interface. Preserving a working map meant maintaining those parts together.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

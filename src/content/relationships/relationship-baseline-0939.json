@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0939",
+  "a": "person:heath-rongo",
+  "b": "entity:geographic-business-solutions",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

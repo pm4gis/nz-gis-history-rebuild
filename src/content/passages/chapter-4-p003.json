@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-4-6c9f096c05",
+  "slug": "rectification-and-registration-6c9f096c05",
+  "articleId": "article:chapter-4",
+  "title": "Rectification and registration",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:4"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Raw satellite measurements required correction before they could be aligned with New Zealand maps. The imagery contained geometric effects associated with the sensor, satellite motion and the way the Earth was viewed from orbit. PEL staff used rectification methods to correct the geometry and relate the raster to map coordinates. Once rectified, an image could be compared with mapped features and with imagery from another date. Registration placed repeated observations of the same area into a common geographic frame.",
+      "markdown": "Raw satellite measurements required correction before they could be aligned with New Zealand maps. The imagery contained geometric effects associated with the sensor, satellite motion and the way the Earth was viewed from orbit. PEL staff used rectification methods to correct the geometry and relate the raster to map coordinates. Once rectified, an image could be compared with mapped features and with imagery from another date. Registration placed repeated observations of the same area into a common geographic frame.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Researchers comparing change through time needed consistent acquisition dates and processing methods. If two scenes were slightly misaligned, a simple comparison could produce false differences along field edges, rivers or forest boundaries. Registered images reduced that problem by placing corresponding locations in the same part of the grid. The same approach was used with aircraft multispectral imagery and map control. Satellite, aircraft and mapped data could then be examined together instead of being treated as unrelated pictures.",
+      "markdown": "Researchers comparing change through time needed consistent acquisition dates and processing methods. If two scenes were slightly misaligned, a simple comparison could produce false differences along field edges, rivers or forest boundaries. Registered images reduced that problem by placing corresponding locations in the same part of the grid. The same approach was used with aircraft multispectral imagery and map control. Satellite, aircraft and mapped data could then be examined together instead of being treated as unrelated pictures.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The coordinate framework used by mapping agencies therefore remained part of remote-sensing work. Landsat supplied numerical measurements, but analysts still needed control points, map coordinates and geometric correction before the data could be combined reliably with other spatial information. PEL’s technical work included both radiometric processing and cartographic correction. The programme combined image processing with mapping.",
+      "markdown": "The coordinate framework used by mapping agencies therefore remained part of remote-sensing work. Landsat supplied numerical measurements, but analysts still needed control points, map coordinates and geometric correction before the data could be combined reliably with other spatial information. PEL’s technical work included both radiometric processing and cartographic correction. The programme combined image processing with mapping.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

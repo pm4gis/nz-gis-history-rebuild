@@ -1,0 +1,21 @@
+{
+  "id": "relationship:baseline-0178",
+  "a": "entity:stats-nz",
+  "b": "chapter:16",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-16-6017b61846",
+    "passage:chapter-16-43ba45c83b",
+    "passage:chapter-16-1a92db9d49",
+    "passage:chapter-16-59c7cc223c",
+    "passage:chapter-16-54247bd790",
+    "passage:chapter-16-ad5140789b",
+    "passage:chapter-16-dfe56f74a1",
+    "passage:chapter-16-3b501947a5",
+    "passage:chapter-16-df6f81dcf0",
+    "passage:chapter-16-f2e8d11365",
+    "passage:chapter-16-11e24f30e5"
+  ],
+  "sources": []
+}

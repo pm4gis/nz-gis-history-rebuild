@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1732",
+  "a": "person:keith-carr",
+  "b": "chapter:6",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-6-9266bbf08f"
+  ],
+  "sources": []
+}

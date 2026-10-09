@@ -1,0 +1,31 @@
+{
+  "id": "entity:university-of-auckland",
+  "slug": "university-of-auckland",
+  "name": "University of Auckland",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/university-of-auckland/",
+  "website": null,
+  "story": [
+    "The geography department’s GIS teaching is documented from 1985. Research, teaching and commercial consulting also met through UniServices and GTU. GBS’s retrospective remembers David Hawke as a technical mentor to Harley Prowse and Tony Elson, recording one route through which university experience entered later consulting work."
+  ],
+  "sources": [
+    {
+      "label": "David V. Hawke, 'gistt: a geographic information systems teaching tool', International Journal of Geographical Information Systems 6(4)",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/02693799208901913"
+    },
+    {
+      "label": "Geographic Business Solutions, 20 years of GBS: a short history",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    }
+  ],
+  "aliases": [
+    "University of Auckland"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

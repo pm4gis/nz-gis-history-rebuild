@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1258",
+  "a": "entity:algim",
+  "b": "chapter:17",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [],
+  "sources": []
+}

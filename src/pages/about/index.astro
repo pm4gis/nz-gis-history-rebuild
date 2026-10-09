@@ -6,28 +6,31 @@ const [articles, passages, records, events, relationships, themes, images] = awa
   getCollection("articles"), getCollection("passages"), getCollection("records"), getCollection("events"),
   getCollection("relationships"), getCollection("themes"), getCollection("images"),
 ]);
+const entityRecordCount = records.filter((entry) => entry.data.kind !== "Story").length;
+const storyRecordCount = records.filter((entry) => entry.data.kind === "Story").length;
+const sourceNoteCount = articles.reduce((total, entry) => total + (entry.data.sourceNotes?.length || 0), 0);
 ---
 <SiteLayout title="About — A History of GIS in New Zealand" description="How the reader, connected content and editing workflow fit together.">
   <section class="page-wrap about-page">
     <p class="eyebrow">About this reader</p>
     <h1 class="page-title">A history that can keep growing</h1>
     <p class="page-intro">Stories lead. Linked records, themes, dates and images give readers other paths through the same changing collection.</p>
-    <div class="about-counts" aria-label="Current sample size">
+    <div class="about-counts" aria-label="Published collection size">
       <div><strong>{articles.length}</strong><span>stories</span></div><div><strong>{passages.length}</strong><span>passages</span></div>
-      <div><strong>{records.length}</strong><span>records</span></div><div><strong>{events.length}</strong><span>events</span></div>
-      <div><strong>{relationships.length}</strong><span>connections</span></div><div><strong>{themes.length}</strong><span>themes</span></div><div><strong>{images.length}</strong><span>images</span></div>
+      <div><strong>{entityRecordCount}</strong><span>people and organisations</span></div><div><strong>{events.length}</strong><span>timeline events</span></div>
+      <div><strong>{relationships.length}</strong><span>connections</span></div><div><strong>{themes.length}</strong><span>themes</span></div><div><strong>{images.length}</strong><span>local image copies</span></div>
     </div>
     <div class="about-copy">
       <h2>Reading and navigation</h2>
-      <p>The opening reader uses the published AAM / AAMHatch and NorthSouth GIS NZ account. Theme choices filter passages and timeline moments. Timeline events jump to their related passages. The small contextual network stays beside the narrative; the larger Network view is optional.</p>
+      <p>The opening reader begins with the published preface and follows the historical narrative. The AAM / AAMHatch and NorthSouth GIS NZ account appears in its relevant stories and linked records. Theme choices filter passages and timeline moments. Timeline events jump to their related passages. The small contextual network stays beside the narrative; the larger Network view is optional.</p>
       <p>Your reading position and selected skin are stored in this browser. The timeline retains the date precision recorded with each event. A year-level date is labelled as a year.</p>
       <h2>Content updates</h2>
-      <p>Editors add stories and passages as separate entries in the editing workspace. A passage links to records and themes. An event links to one or more passages, and a relationship links two records. New content appears after a reviewed site build. The model has no preset story or passage count.</p>
-      <p>Images are local copies only where reuse terms allow it. Each image page records the source, credit and licence so the reading text stays uncluttered.</p>
+      <p>The current story groupings follow the source publication. Editors can add stories, passages, records, events, connections and themes as separate entries in the editing workspace. A passage links to records and themes. New content appears after a reviewed site build; the model has no preset story or passage count. {storyRecordCount} story records connect the narrative to the wider network.</p>
+      <p>{sourceNoteCount} published source notes are available below their stories. Two locally available image copies have their own pages with source, credit and licence details. Captions are preserved for figures whose image files were not included in the import package; those copies are not shown as if they were available.</p>
       <h2>Suggest an update</h2>
       <p>There is no public submission form. Use the email link at the bottom of the page. It opens with the page address and prompts for the suggested change, source or memory, and related people or organisations.</p>
-      <h2>Preview status</h2>
-      <p>This clean-slate staging build is a small structural sample. The existing live publication remains unchanged. No deployment or production cutover is included in this work.</p>
+      <h2>Staging publication</h2>
+      <p>This staging build contains the published baseline snapshot used for the migration. The canonical publication at history.pm4gis.nz remains separate.</p>
     </div>
   </section>
 </SiteLayout>

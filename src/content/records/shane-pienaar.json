@@ -1,0 +1,53 @@
+{
+  "id": "person:shane-pienaar",
+  "slug": "shane-pienaar",
+  "name": "Shane Pienaar",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/shane-pienaar/",
+  "story": [
+    "Shane Pienaar's career includes technical work at Geographic Business Solutions and study at the University of Auckland from 1994 to 1999. He gained Esri Enterprise Administration Associate certification in June 2018. The architecture and customer-development work described in the book sits within this sustained involvement in enterprise GIS.",
+    "Shane Pienaar provided technical direction at GBS and worked on solutions for Ravensdown.",
+    "GBS’s company history describes Lisa Read’s work on development and processes, Shane Pienaar’s technical direction, and David Aalbers and Heath Rongo joining in 2011 and 2012."
+  ],
+  "sources": [
+    {
+      "label": "GBS retrospective, 2022",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    },
+    {
+      "label": "Shane Pienaar - Geographic Business Solutions | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/shane-pienaar-48b4ab87"
+    },
+    {
+      "label": "Chapter 12 · Company staff",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Shane Pienaar"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Shane Pienaar - Geographic Business Solutions | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/shane-pienaar-48b4ab87"
+      }
+    ],
+    [
+      {
+        "label": "GBS retrospective, 2022",
+        "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Company staff",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

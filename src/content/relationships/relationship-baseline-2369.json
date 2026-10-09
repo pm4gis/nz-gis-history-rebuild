@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2369",
+  "a": "person:roland-pomana",
+  "b": "chapter:35",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "article:chapter-32",
+  "slug": "open-source-changes-the-tools",
+  "title": "Open source GIS",
+  "url": "/stories/open-source-changes-the-tools/",
+  "summary": "New Zealand organisations adopted open-source GIS software gradually. Early operational uses included spatial databases, web servers and custom applications. By the middle of the 2000s, organisations were assembling systems from c",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 32,
+  "themeIds": [
+    "open-practice"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch32-note-01",
+      "text": "1. NIWA / Earth Sciences New Zealand institutional history is the principal source for the Quantum Map case. Master Research Register P9C-S16 documents Quantum Map being built on QGIS, its functionality being merged into QGIS 2.6 in October 2014 and continued NIWA plugin development. It is evidence of institutional production use, not of open source replacing commercial GIS nationally."
+    },
+    {
+      "id": "ch32-note-02",
+      "text": "2. The project research corpus documents NIWA/PostGIS open-source practice publicly by 2008–09. These examples demonstrate a production stack in which database, desktop and web components could be assembled from open-source software. They should not be generalised into a national market-share claim."
+    },
+    {
+      "id": "ch32-note-03",
+      "text": "3. The Future Topographic Maps programme began in November 2024. Later LINZ documentation that mentions QGIS and Kart may be used only retrospectively to establish the direction of the pre-cutoff programme. A 2026 implementation state must not be narrated as though it existed by 31 December 2025."
+    },
+    {
+      "id": "ch32-note-04",
+      "text": "4. FOSS4G 2025 Auckland, held 17–23 November 2025, is a legitimate endpoint for the visibility and maturity of open geospatial software communities in New Zealand. The conference does not by itself prove organisation-wide adoption of any specific product."
+    },
+    {
+      "id": "ch32-note-05",
+      "text": "5. The evidence supports durable open-source production options alongside commercial GIS, not a separate story in which one software model defeated the other."
+    }
+  ]
+}

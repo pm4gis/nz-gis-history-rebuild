@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1253",
+  "a": "system:discrete-global-grid-systems",
+  "b": "chapter:21",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

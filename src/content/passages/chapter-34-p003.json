@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-34-a9e1eadb15",
+  "slug": "handheld-equipment-a9e1eadb15",
+  "articleId": "article:chapter-34",
+  "title": "Handheld equipment",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The first handheld systems also forced organisations to decide what information was genuinely useful in the field. Vector’s iPAQs had 64 MB of memory and a 256 MB storage card. The numbers now look almost comically small, but the design problem has not gone away: a field worker needs the right information, not every byte the organisation owns. Map layers had to be selected, simplified and translated. Symbology that worked on a desktop monitor had to remain legible on a small screen in sunlight. The technical work of reducing the GIS to a field-sized package was part of the application design, not an afterthought.",
+      "markdown": "The first handheld systems also forced organisations to decide what information was genuinely useful in the field. Vector’s iPAQs had 64 MB of memory and a 256 MB storage card. The numbers now look almost comically small, but the design problem has not gone away: a field worker needs the right information, not every byte the organisation owns. Map layers had to be selected, simplified and translated. Symbology that worked on a desktop monitor had to remain legible on a small screen in sunlight. The technical work of reducing the GIS to a field-sized package was part of the application design, not an afterthought.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Rugged notebooks solved some problems by providing a larger screen and more capable software, but they carried different costs in weight, battery demand and price. A utility technician could justify a Toughbook where detailed editing was necessary, while a smaller PDA could handle inspections and simpler updates. The two devices in Vector’s 2002 deployment therefore represented different field jobs rather than a single mobile-computing standard. That pattern continued. Mobile GIS developed as a family of devices matched to tasks, with trade-offs between durability, accuracy, screen size, processing power, battery life and ease of use.",
+      "markdown": "Rugged notebooks solved some problems by providing a larger screen and more capable software, but they carried different costs in weight, battery demand and price. A utility technician could justify a Toughbook where detailed editing was necessary, while a smaller PDA could handle inspections and simpler updates. The two devices in Vector’s 2002 deployment therefore represented different field jobs rather than a single mobile-computing standard. That pattern continued. Mobile GIS developed as a family of devices matched to tasks, with trade-offs between durability, accuracy, screen size, processing power, battery life and ease of use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Power and weather were as significant as processor specifications. A field application had to survive a full working day, and a device that was awkward in rain, bright sun or cold conditions could fail regardless of the quality of the map. Ruggedisation remained important in utilities, conservation, emergency work and surveying long after consumer phones became capable GIS devices. The later smartphone did not make these requirements disappear. It changed the threshold at which a specialist device was necessary and made simpler spatial tasks economical for many more users.",
+      "markdown": "Power and weather were as significant as processor specifications. A field application had to survive a full working day, and a device that was awkward in rain, bright sun or cold conditions could fail regardless of the quality of the map. Ruggedisation remained important in utilities, conservation, emergency work and surveying long after consumer phones became capable GIS devices. The later smartphone did not make these requirements disappear. It changed the threshold at which a specialist device was necessary and made simpler spatial tasks economical for many more users.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

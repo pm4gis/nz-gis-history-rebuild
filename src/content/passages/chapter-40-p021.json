@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-40-b79eaf5f11",
+  "slug": "the-invisible-gis-b79eaf5f11",
+  "articleId": "article:chapter-40",
+  "title": "The invisible GIS",
+  "order": 20,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:locus",
+    "person:john-arnerich"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Enterprise GIS is easiest to recognise when users stop thinking about GIS. A planner opens a property application. A technician receives an asset location. A manager watches a dashboard. A scientist publishes a data portal. An analyst queries a business database that happens to contain geometry. In each case the visible interface may be only a small part of the spatial system involved.",
+      "markdown": "Enterprise GIS is easiest to recognise when users stop thinking about GIS. A planner opens a property application. A technician receives an asset location. A manager watches a dashboard. A scientist publishes a data portal. An analyst queries a business database that happens to contain geometry. In each case the visible interface may be only a small part of the spatial system involved.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Behind those interfaces sit the less glamorous things that make geographic information dependable: databases, services, identifiers, permissions, backups, monitoring, metadata, custodians and people who understand which system is authoritative. Spatial functions became part of both applications and wider organisational systems.",
+      "markdown": "Behind those interfaces sit the less glamorous things that make geographic information dependable: databases, services, identifiers, permissions, backups, monitoring, metadata, custodians and people who understand which system is authoritative. Spatial functions became part of both applications and wider organisational systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the end of 2025, New Zealand organisations used several enterprise GIS architectures. Some organisations ran highly centralised platforms. Others combined specialist systems through services and integrations. Commercial and open-source components coexisted. On-premises servers remained important even as hosted and cloud services expanded. What had changed was the expectation that spatial capability could be shared, maintained and relied upon beyond the individual GIS specialist.",
+      "markdown": "By the end of 2025, New Zealand organisations used several enterprise GIS architectures. Some organisations ran highly centralised platforms. Others combined specialist systems through services and integrations. Commercial and open-source components coexisted. On-premises servers remained important even as hosted and cloud services expanded. What had changed was the expectation that spatial capability could be shared, maintained and relied upon beyond the individual GIS specialist.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The commercial plumbing underneath those platforms could also come from specialist New Zealand firms that most end users never saw. John Arnerich founded Locus in 2004 around the use of FME for data integration, and the company developed into a specialist reseller and consultancy for moving, transforming and automating organisational data. That kind of work complicates any simple count of which GIS vendor an organisation used. A council could present ArcGIS applications to most staff while FME, databases, APIs and other components moved information between the systems behind them.",
+      "markdown": "The commercial plumbing underneath those platforms could also come from specialist New Zealand firms that most end users never saw. John Arnerich founded Locus in 2004 around the use of FME for data integration, and the company developed into a specialist reseller and consultancy for moving, transforming and automating organisational data. That kind of work complicates any simple count of which GIS vendor an organisation used. A council could present ArcGIS applications to most staff while FME, databases, APIs and other components moved information between the systems behind them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Once databases and map services become organisational infrastructure, the next question is how those services are hosted, exposed and consumed beyond the traditional enterprise boundary. Chapter 41 follows the move into cloud platforms, hosted geospatial services and APIs, where geography increasingly travels between systems without a person opening a GIS at all.",
+      "markdown": "Once databases and map services become organisational infrastructure, the next question is how those services are hosted, exposed and consumed beyond the traditional enterprise boundary. Chapter 41 follows the move into cloud platforms, hosted geospatial services and APIs, where geography increasingly travels between systems without a person opening a GIS at all.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

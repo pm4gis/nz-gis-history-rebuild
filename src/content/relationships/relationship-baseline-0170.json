@@ -1,0 +1,17 @@
+{
+  "id": "relationship:baseline-0170",
+  "a": "entity:smallworld-ge-smallworld",
+  "b": "chapter:25",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-25-b61cdf1186",
+    "passage:chapter-25-b239127218",
+    "passage:chapter-25-0dd79fa71a",
+    "passage:chapter-25-d304b58b74",
+    "passage:chapter-25-ce54959f64",
+    "passage:chapter-25-5218b2d89e",
+    "passage:chapter-25-0901ada806"
+  ],
+  "sources": []
+}

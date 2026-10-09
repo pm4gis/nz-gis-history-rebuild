@@ -1,0 +1,30 @@
+{
+  "id": "1996-maori-land-resource-conference",
+  "dateDisplay": "28 June 1996",
+  "startDate": "1996-06-28",
+  "datePrecision": "day",
+  "year": 1996,
+  "label": "Mapping Māori Land and Resource Aspirations",
+  "summary": "A Wellington conference addressed Māori land and resource aspirations; Critchlow Associates issued the proceedings.",
+  "url": "/stories/universities-build-a-field/#maori-land-values-1995-1996-79631e4212",
+  "passageIds": [
+    "passage:chapter-11-79631e4212"
+  ],
+  "recordIds": [
+    "entity:critchlow",
+    "chapter:11",
+    "entity:massey-university",
+    "person:garth-harmsworth"
+  ],
+  "themeIds": [],
+  "categories": [
+    "GIS",
+    "research"
+  ],
+  "sources": [
+    {
+      "label": "Harmsworth, Park and Walker, Report on the development and use of GIS for iwi and hapū: bibliography of 1995–1996 work",
+      "url": "https://www.landcareresearch.co.nz/assets/researchpubs/harmsworth_gis_iwi.pdf"
+    }
+  ]
+}

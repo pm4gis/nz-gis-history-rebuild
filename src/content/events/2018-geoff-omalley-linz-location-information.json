@@ -1,0 +1,26 @@
+{
+  "id": "2018-geoff-omalley-linz-location-information",
+  "dateDisplay": "2018-09-27",
+  "startDate": "2018-09-27",
+  "datePrecision": "day",
+  "year": 2018,
+  "label": "Geoff O’Malley updates the LINZ Location Information Group",
+  "summary": "O’Malley’s University of Otago presentation reviewed LINZ work in positioning, data services, topographic mapping, hydrography, property services and addressing.",
+  "url": "/stories/the-spatial-infrastructure-idea/#from-discussion-to-strategy-5ee12aa3cc",
+  "passageIds": [
+    "passage:chapter-21-5ee12aa3cc"
+  ],
+  "recordIds": [
+    "person:geoff-omalley",
+    "entity:land-information-new-zealand-linz",
+    "chapter:21",
+    "person:david-parker"
+  ],
+  "themeIds": [],
+  "categories": [
+    "linz",
+    "geospatial-capability",
+    "data-services"
+  ],
+  "sources": []
+}

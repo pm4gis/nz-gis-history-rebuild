@@ -1,0 +1,26 @@
+{
+  "id": "2020-orbica-nzta-crash-analysis-system",
+  "dateDisplay": "2 August 2020",
+  "startDate": "2020-08-02",
+  "datePrecision": "day",
+  "year": 2020,
+  "label": "Catalyst and Orbica rebuild NZTA’s Crash Analysis System",
+  "summary": "NZTA partnered with Catalyst and Orbica on a web-based system for querying and mapping Police-reported crash data from 1980, supporting road planning, policing and policy work.",
+  "url": "/stories/safety-policing-and-emergency-gis/#incident-geography-and-emergency-response-a74e7647c8",
+  "passageIds": [
+    "passage:chapter-28-a74e7647c8"
+  ],
+  "recordIds": [
+    "entity:orbica",
+    "chapter:28",
+    "entity:new-zealand-fire-service"
+  ],
+  "themeIds": [],
+  "categories": [
+    "industry",
+    "software",
+    "transport",
+    "enterprise"
+  ],
+  "sources": []
+}

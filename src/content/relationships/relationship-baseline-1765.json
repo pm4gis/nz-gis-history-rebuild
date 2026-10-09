@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1765",
+  "a": "person:rere-no-a-rangi-pope",
+  "b": "chapter:44",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-44-ebb70c2c9a"
+  ],
+  "sources": []
+}

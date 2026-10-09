@@ -1,0 +1,52 @@
+{
+  "id": "passage:chapter-15-a898c7b19e",
+  "slug": "converting-the-detailed-map-a898c7b19e",
+  "articleId": "article:chapter-15",
+  "title": "Converting the detailed map",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:15",
+    "person:robin-pickering"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 1:50,000 programme was less tidy. The later technical history describes early conversion as demand driven, with priority given to particular areas and feature classes where customers or production needs justified the effort. Source material included original 1:25,000 compilations as well as the cartographic drawings prepared for the 1:50,000 NZMS260 series. This meant that the detailed national database grew through a mixture of programme work and practical demand rather than through one cleanly bounded conversion contract.",
+      "markdown": "The 1:50,000 programme was less tidy. The later technical history describes early conversion as demand driven, with priority given to particular areas and feature classes where customers or production needs justified the effort. Source material included original 1:25,000 compilations as well as the cartographic drawings prepared for the 1:50,000 NZMS260 series. This meant that the detailed national database grew through a mixture of programme work and practical demand rather than through one cleanly bounded conversion contract.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Terrain data helped force a more systematic approach. Demand for digital elevation information led to a formal programme to convert the contour source sheets nationally. The later account says that programme was completed within about twelve months and became an important test of the new VTRAK vectorisation capability acquired with an Intergraph Mapsetter 400 in 1993. The programme then extended across the other principal 1:50,000 map features. Contemporary United Nations reporting from 1991 had already described 1:50,000 capture as progressing rapidly, with national completion then expected by 1996.",
+      "markdown": "Terrain data helped force a more systematic approach. Demand for digital elevation information led to a formal programme to convert the contour source sheets nationally. The later account says that programme was completed within about twelve months and became an important test of the new VTRAK vectorisation capability acquired with an Intergraph Mapsetter 400 in 1993. The programme then extended across the other principal 1:50,000 map features. Contemporary United Nations reporting from 1991 had already described 1:50,000 capture as progressing rapidly, with national completion then expected by 1996.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The final three NZMS260 printed sheets were published in 1996. Individual digital conversion tasks began and ended at different dates. The printed-series completion and the development of the digital database were overlapping production histories. Some digital data existed while parts of the paper series were still being finished, and some database work continued after individual printed sheets had long been available. Treating 1996 as one magic conversion date would make a gradual programme look far neater than the evidence allows.",
+      "markdown": "The final three NZMS260 printed sheets were published in 1996. Individual digital conversion tasks began and ended at different dates. The printed-series completion and the development of the digital database were overlapping production histories. Some digital data existed while parts of the paper series were still being finished, and some database work continued after individual printed sheets had long been available. Treating 1996 as one magic conversion date would make a gradual programme look far neater than the evidence allows.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 1991 AURISA conference in Wellington, the professional question had shifted accordingly. Howard, O’Malley and Robin Pickering presented “New Zealand’s Topographic Database - Where To Next?”, discussing the future use of the national database. The challenge was moving from conversion to maintenance, data modelling, distribution and repeated map production. Creating vectors from old linework was only the beginning of a permanent information-management task.",
+      "markdown": "By the 1991 AURISA conference in Wellington, the professional question had shifted accordingly. Howard, O’Malley and Robin Pickering presented “New Zealand’s Topographic Database - Where To Next?”, discussing the future use of the national database. The challenge was moving from conversion to maintenance, data modelling, distribution and repeated map production. Creating vectors from old linework was only the beginning of a permanent information-management task.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversion also forced decisions about classification. A paper map could use symbol, colour, line weight and context to tell an experienced reader that two similar-looking objects were different. A database needed explicit feature codes and attributes. The later programme developed a topographic data dictionary, drawing in part on the United States Spatial Data Transfer Standard, so that features could be classified consistently enough for exchange and repeated production. This was the less visible side of digitisation. A national database required agreement on both where a feature was and what sort of thing it was.",
+      "markdown": "Conversion also forced decisions about classification. A paper map could use symbol, colour, line weight and context to tell an experienced reader that two similar-looking objects were different. A database needed explicit feature codes and attributes. The later programme developed a topographic data dictionary, drawing in part on the United States Spatial Data Transfer Standard, so that features could be classified consistently enough for exchange and repeated production. This was the less visible side of digitisation. A national database required agreement on both where a feature was and what sort of thing it was.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That problem became more difficult at 1:50,000 because the database contained a much richer landscape than the small-scale national overview. Tracks, roads, watercourses, vegetation, structures and named features created more combinations and more exceptions. A feature might change class without changing location. A road could be upgraded, a track abandoned, a building removed or a reserve renamed. The maintenance system therefore needed persistent identification, controlled classification and procedures for deciding when an external report was strong enough to alter the national record.",
+      "markdown": "That problem became more difficult at 1:50,000 because the database contained a much richer landscape than the small-scale national overview. Tracks, roads, watercourses, vegetation, structures and named features created more combinations and more exceptions. A feature might change class without changing location. A road could be upgraded, a track abandoned, a building removed or a reserve renamed. The maintenance system therefore needed persistent identification, controlled classification and procedures for deciding when an external report was strong enough to alter the national record.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

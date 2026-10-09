@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1402",
+  "a": "entity:selwyn-district-council",
+  "b": "chapter:37",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-37-e7aa561e08"
+  ],
+  "sources": []
+}

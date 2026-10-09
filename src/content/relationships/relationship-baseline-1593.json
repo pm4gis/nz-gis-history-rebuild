@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1593",
+  "a": "person:mervyn-c-probine",
+  "b": "chapter:9",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-9-7021842bb3"
+  ],
+  "sources": []
+}

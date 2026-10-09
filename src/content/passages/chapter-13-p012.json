@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-13-ce22b12589",
+  "slug": "cadastral-services-ce22b12589",
+  "articleId": "article:chapter-13",
+  "title": "Cadastral services",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Landonline’s design widened the unit of automation. DCDB had concentrated on the spatial cadastral framework and associated indexes. Landonline was intended to integrate survey and title processes, bringing together spatial data, survey records and the land register within an electronic operating environment. That difference is why the change cannot be described as a simple database upgrade. The new programme reached into professional transactions and legal records as well as map-derived geometry.",
+      "markdown": "Landonline’s design widened the unit of automation. DCDB had concentrated on the spatial cadastral framework and associated indexes. Landonline was intended to integrate survey and title processes, bringing together spatial data, survey records and the land register within an electronic operating environment. That difference is why the change cannot be described as a simple database upgrade. The new programme reached into professional transactions and legal records as well as map-derived geometry.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Survey-plan imaging extended electronic access to the underlying documents. Contemporary 2002 programme papers describe about 1.2 million existing survey plans scanned from microfilm or original plans and loaded into Landonline, with images linked to plan references and spatial location. Staff separately captured the observations and relationships needed as structured data. Imaging made the source record accessible; data capture supplied the information required for processing.",
+      "markdown": "Survey-plan imaging extended electronic access to the underlying documents. Contemporary 2002 programme papers describe about 1.2 million existing survey plans scanned from microfilm or original plans and loaded into Landonline, with images linked to plan references and spatial location. Staff separately captured the observations and relationships needed as structured data. Imaging made the source record accessible; data capture supplied the information required for processing.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Titles followed their own conversion path. Certificates of title and related records were transformed into electronic computer registers between 1999 and 2002. Title information concerns legal ownership and registered interests, while cadastral survey information concerns the location and definition of land boundaries. Landonline brought those previously distinct record systems into a shared electronic service without erasing the distinction between them. Chapter 14 follows how that changed transactions for surveyors, lawyers, conveyancers and LINZ staff.",
+      "markdown": "Titles followed their own conversion path. Certificates of title and related records were transformed into electronic computer registers between 1999 and 2002. Title information concerns legal ownership and registered interests, while cadastral survey information concerns the location and definition of land boundaries. Landonline brought those previously distinct record systems into a shared electronic service without erasing the distinction between them. Chapter 14 follows how that changed transactions for surveyors, lawyers, conveyancers and LINZ staff.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

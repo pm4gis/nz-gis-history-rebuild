@@ -1,0 +1,26 @@
+{
+  "id": "linzcap-2025-05-05-nga-poutama-historical-aerial-imagery-session-published",
+  "dateDisplay": "2025-05-05",
+  "startDate": "2025-05-05",
+  "datePrecision": "day",
+  "year": 2025,
+  "label": "Ngā Poutama historical aerial imagery session published",
+  "summary": "Duane Wilkins demonstrated historical imagery resources including LINZ layers and other imagery archives for Māori mapping work.",
+  "url": "/stories/imagery-becomes-infrastructure/#historical-imagery-returns-as-a-community-tool-5cf3bc2665",
+  "passageIds": [
+    "passage:chapter-20-5cf3bc2665"
+  ],
+  "recordIds": [
+    "chapter:20"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "entity:intergraph-new-zealand",
+  "slug": "intergraph-new-zealand",
+  "name": "Intergraph New Zealand",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/intergraph-new-zealand/",
+  "website": null,
+  "story": [
+    "Intergraph supplied a parallel computing environment for engineering, graphics and GIS. A University of Canterbury agreement names Intergraph Corporation (NZ) Ltd in August 1987, establishing a New Zealand corporate presence by that date. The agreement concerned computer-integrated manufacturing, so it also shows how engineering graphics and GIS shared suppliers and technical infrastructure. Later GIS products included MGE and GeoMedia; their use and replacement varied between organisations.",
+    "In July 1992 Canterbury’s School of Engineering received 80 MicroStation licences through Intergraph’s Professional Development Initiative. The university report names Joe Golden of Intergraph New Zealand and describes MGE geographic and land-information software for civil engineering teaching. It dates the school’s Intergraph association to 1986, giving a contemporary record of the company’s university relationships."
+  ],
+  "sources": [
+    {
+      "label": "University of Canterbury Chronicle, New System in Mechanical Engineering / Computer Integrated Manufacturing",
+      "url": "https://digitalvoyages.canterbury.ac.nz/omeka-s/files/original/246d76e45ec62305c029eca025115c3f85b8a92c.pdf"
+    },
+    {
+      "label": "University of Canterbury Chronicle, 30 July 1992, Intergraph gives CAD software to Engineering, printed p.5",
+      "url": "https://digitalvoyages.canterbury.ac.nz/omeka-s/files/original/b091612a9e70ae57d3df8715e5e2fbfd36b1b9a7.pdf"
+    }
+  ],
+  "aliases": [
+    "Intergraph New Zealand"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

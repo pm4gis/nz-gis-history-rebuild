@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2385",
+  "a": "person:david-johnston",
+  "b": "chapter:42",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

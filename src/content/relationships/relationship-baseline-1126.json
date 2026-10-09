@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1126",
+  "a": "person:r-g-gibb",
+  "b": "entity:manaaki-whenua-landcare-research",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

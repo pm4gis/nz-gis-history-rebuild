@@ -1,0 +1,34 @@
+{
+  "id": "entity:gore-district-council",
+  "slug": "gore-district-council",
+  "name": "Gore District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/gore-district-council/",
+  "website": "https://www.goredc.govt.nz",
+  "story": [
+    "Gore District Council’s MapInfo-L correspondence identifies Tony Shepherd as GIS / IT Support in 1999 and IT/GIS Manager in 2000. He described MapInfo Professional 5.5, substantial MapBasic coding, Windows NT 4.0 and plotting to an HP DesignJet 750C. A separate council cemetery plan, drawn in 2000, modified in 2001 and current to November 2002, states that it was produced on the council’s CAD/GIS system using AutoCAD 2000 and MapInfo Professional 5.5, with cadastral information derived from the LINZ Digital Cadastral Database. Together the records show routine council map production supported by code, plotting and cadastral data."
+  ],
+  "sources": [
+    {
+      "label": "Gore District Council, Gore Cemetery Plot Layout and Site Plan, drawing 1608-02",
+      "url": "https://www.goredc.govt.nz/repository/libraries/id%3A2buwl3j7c17q9srz9ase/hierarchy/Our%20Services/Documents/Cemeteries/cemetery-map-gore.pdf"
+    },
+    {
+      "label": "Tony Shepherd, MapInfo-L correspondence, 11 August 1999",
+      "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40csn.net&o=newest&q=date%3A19990811"
+    },
+    {
+      "label": "Tony Shepherd, MapInfo-L technical correspondence, 21–26 August 2000",
+      "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40csn.net&o=newest&q=date%3A20000821"
+    }
+  ],
+  "aliases": [
+    "Gore District Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

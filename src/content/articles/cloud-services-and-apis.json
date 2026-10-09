@@ -1,0 +1,44 @@
+{
+  "id": "article:chapter-41",
+  "slug": "cloud-services-and-apis",
+  "title": "Spatial services and the cloud",
+  "url": "/stories/cloud-services-and-apis/",
+  "summary": "By the late 2000s New Zealand GIS was already comfortable with servers. Councils, government departments, utilities and research organisations had spent years moving spatial data into shared databases and publishing maps through i",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 41,
+  "themeIds": [
+    "technology-stack"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch41-note-01",
+      "text": "1. Koordinates chronology is controlled by contemporary and platform records: the company was registered in 2005, while the recognisable hosted platform emerged in 2007, with private beta in November 2007 and public beta in April 2008. The chapter treats the early service as a hosted spatial-data distribution model that initially included commercial as well as later open data. It does not back-project the mature open-data platform onto the 2008 product."
+    },
+    {
+      "id": "ch41-note-02",
+      "text": "2. Manaaki Whenua records the first LRIS Portal release with Koordinates in 2010. Official LINZ and government material place the LINZ Data Service launch in 2011. Chapter 41 uses these services to show hosted distribution and service delivery; Chapter 33 discusses the open-data and licensing history."
+    },
+    {
+      "id": "ch41-note-03",
+      "text": "3. Koordinates support documentation and LINZ’s 2017/18 Annual Report independently support the September 2017 migration of LDS to a cloud platform, while the platform documentation also covers LRIS and the MfE Data Service and the shift to Koordinates ID. This evidence applies to those public data services and does not establish that the parent organisations moved all GIS systems to cloud infrastructure."
+    },
+    {
+      "id": "ch41-note-04",
+      "text": "4. Data.govt.nz’s August 2016 technical update is the principal evidence for pragmatic catalogue interoperability. It records a DCAT-based schema mapped to ANZLIC and harvesting from CSW, CKAN and data.json sources including ArcGIS, while acknowledging that most agencies lacked capacity to operate their own catalogue or hosting infrastructure. Later data.govt.nz guidance supports automatic harvesting of ArcGIS Online item metadata. This is the basis for the interpretation that practical SDI functions increasingly appeared through platforms, harvesters and adapters rather than a single national technical stack."
+    },
+    {
+      "id": "ch41-note-05",
+      "text": "5. The New Zealand Walking Access Commission’s 2014 response documents Public Access Areas feature and map service REST endpoints available from July 2013. LINZ’s Central Record of State Land documentation supports the late-2020 full release, weekly update cycle and simultaneous web-viewer, download and REST API access. These cases illustrate machine-to-machine geography without claiming a national first or treating every REST endpoint as a general-purpose API."
+    },
+    {
+      "id": "ch41-note-06",
+      "text": "6. De Gouw, Morgenroth and Xu’s 2020 plantation-forestry survey supports the late-period normalisation of hosted national data portals among respondents: LDS 91 per cent, Koordinates 78 per cent, LRIS 57 per cent and MfE Data Service 52 per cent. These remain sector-specific survey results and are not national adoption rates."
+    },
+    {
+      "id": "ch41-note-07",
+      "text": "The NZTA and Esri case study provides a New Zealand example of the move to ArcGIS Enterprise on Kubernetes, with operational governance and shared-service responsibilities continuing in the cloud-native environment."
+    }
+  ]
+}

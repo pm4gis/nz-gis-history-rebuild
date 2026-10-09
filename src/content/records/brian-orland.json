@@ -1,0 +1,35 @@
+{
+  "id": "person:brian-orland",
+  "slug": "brian-orland",
+  "name": "Brian Orland",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/brian-orland/",
+  "story": [
+    "At GeoComputation '97 and SIRC '97 in Dunedin, Alan Thorn, Terry Daniel and Brian Orland described using GIS data to visualise New Zealand plantation-forest management scenarios. ARC/INFO supplied geographic and terrain information, while SmartForest II, image-processing tools and powerful workstations helped produce photorealistic scenes that could be assessed by managers and the public."
+  ],
+  "sources": [
+    {
+      "label": "Brian Orland Resume/CV | Pennsylvania State University, Landscape Architecture, Emeritus · public profile",
+      "url": "https://pennstate.academia.edu/BrianOrland/CurriculumVitae"
+    },
+    {
+      "label": "Chapter 39 · Three dimensional mapping",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Brian Orland"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 39 · Three dimensional mapping",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1365",
+  "a": "entity:massey-university",
+  "b": "chapter:40",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-40-3782b862a2"
+  ],
+  "sources": []
+}

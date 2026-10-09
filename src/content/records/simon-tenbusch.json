@@ -1,0 +1,31 @@
+{
+  "id": "person:simon-tenbusch",
+  "slug": "simon-tenbusch",
+  "name": "Simon Tenbusch",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/simon-tenbusch/",
+  "story": [
+    "Simon Tenbusch’s 2025 Lincoln University precision-agriculture dissertation examined management-zone creation for maize in the Whakatāne area using Sentinel-2 NDRE, one metre LiDAR elevation information, yield data and GIS/statistical modelling. Satellite imagery was one input among several. The analysis did not ask whether satellite imagery or LiDAR was the better technology. It combined observations at different scales to support a specific management question."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 36 · From fields to management zones",
+      "url": "/stories/earth-observation-becomes-routine/"
+    }
+  ],
+  "aliases": [
+    "Simon Tenbusch"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 36 · From fields to management zones",
+        "url": "/stories/earth-observation-becomes-routine/"
+      }
+    ]
+  ]
+}

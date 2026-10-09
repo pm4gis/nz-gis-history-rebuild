@@ -1,0 +1,34 @@
+{
+  "id": "entity:photomap-nz",
+  "slug": "photomap-nz",
+  "name": "Photomap NZ",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/photomap-nz/",
+  "website": null,
+  "story": [
+    "Photomap NZ Ltd was a Nelson mapping business. Its December 2011 company signature names Cathy McBride and Mark Holmes. Holmes’s practitioner correspondence documents continued use of ArcView 3.2 and questions about coordinate conversion and compatibility with newer computers.",
+    "Photomap’s owners, Cathy McBride and Mark Holmes, designed trail map boards for Codgers Mountain Bike Park. A January 2013 council newsletter describes the work, connecting the commercial mapping practice with the local mountain-bike club and public GIS data."
+  ],
+  "sources": [
+    {
+      "label": "Mark Holmes / Photomap NZ GISList ArcView 3.2 continuity messages"
+    },
+    {
+      "label": "Photomap NZ, GISList correspondence: Arcview 3.2 and 64 bit?, 12 December 2011"
+    },
+    {
+      "label": "Nelson City Council, Live Nelson, issue 343, 26 January 2013, p.5: New maps highlight Codgers Mountain Bike Park",
+      "url": "https://img.scoop.co.nz/media/pdfs/1301/11444106Live_Nelson_Issue_343_WEB_VERSION.pdf"
+    }
+  ],
+  "aliases": [
+    "Photomap NZ"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

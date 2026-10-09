@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-13-32b81a061e",
+  "slug": "inside-the-database-32b81a061e",
+  "articleId": "article:chapter-13",
+  "title": "Inside the database",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Historic technical documentation describes DCDB as an integrated GIS running on Sun Microsystems hardware in a Unix environment. VISION* software supplied by SHL Systemhouse of Canada provided the principal geographic functions, with Oracle used as the relational database. The system supported manual digitising, numeric entry, editing, maintenance, enquiry and output. Data was maintained as continuous maps by Land District, a substantial change from an office culture built around physical sheets and registers.",
+      "markdown": "Historic technical documentation describes DCDB as an integrated GIS running on Sun Microsystems hardware in a Unix environment. VISION* software supplied by SHL Systemhouse of Canada provided the principal geographic functions, with Oracle used as the relational database. The system supported manual digitising, numeric entry, editing, maintenance, enquiry and output. Data was maintained as continuous maps by Land District, a substantial change from an office culture built around physical sheets and registers.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The word continuous needs some care. Paper cadastral mapping had necessarily been organised through sheets, scales and local record systems. A database could hold parcel geometry across those sheet edges and allow it to be queried as a connected spatial framework. It could also maintain topology, the relationships that say which parcel lines connect and which areas adjoin one another. That made the national cadastre far easier to use as data. It did not make the underlying survey evidence uniform.",
+      "markdown": "The word continuous needs some care. Paper cadastral mapping had necessarily been organised through sheets, scales and local record systems. A database could hold parcel geometry across those sheet edges and allow it to be queried as a connected spatial framework. It could also maintain topology, the relationships that say which parcel lines connect and which areas adjoin one another. That made the national cadastre far easier to use as data. It did not make the underlying survey evidence uniform.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DCDB also supported links and indexes beyond the visible parcel linework. Historic documentation describes spatial indexing to survey plans and statutory actions and associations with land-title, Crown and Māori land information, along with other related geographic frameworks. It became both a cadastral production environment and a base dataset for other GIS. The database could answer practical location questions far more readily than shelves of plans and record maps, even when the answer still had to be checked against the survey and legal records behind it.",
+      "markdown": "DCDB also supported links and indexes beyond the visible parcel linework. Historic documentation describes spatial indexing to survey plans and statutory actions and associations with land-title, Crown and Māori land information, along with other related geographic frameworks. It became both a cadastral production environment and a base dataset for other GIS. The database could answer practical location questions far more readily than shelves of plans and record maps, even when the answer still had to be checked against the survey and legal records behind it.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Raglan",
+      "caption": "Raglan. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "DCDB used the architecture of its time: specialist workstations, proprietary software, Oracle, digitising equipment and production practices organised by Land District. Staff could maintain the national cadastral map as structured information within that environment.",
+      "markdown": "DCDB used the architecture of its time: specialist workstations, proprietary software, Oracle, digitising equipment and production practices organised by Land District. Staff could maintain the national cadastral map as structured information within that environment.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

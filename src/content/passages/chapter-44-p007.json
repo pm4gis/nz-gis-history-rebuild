@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-44-77e4d81263",
+  "slug": "ai-enters-practice-77e4d81263",
+  "articleId": "article:chapter-44",
+  "title": "AI enters practice",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:44",
+    "entity:vector",
+    "person:phil-clunies-ross"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of 2025, generative AI was an emerging practitioner and research capability in geospatial work.",
+      "markdown": "By the end of 2025, generative AI was an emerging practitioner and research capability in geospatial work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "FOSS4G 2025, held in Auckland from 17 to 23 November, captures that boundary unusually well. The international open-source geospatial conference programme included workshops and presentations on geospatial AI applications, natural-language spatial search and AI-assisted programming. One session was explicitly titled \"AI Coding and the Future of Open-Source Geospatial Software\". Another dealt with semantic spatial search using natural language with PostGIS and vector search. These subjects appeared in the programme of a major geospatial conference held in New Zealand.",
+      "markdown": "FOSS4G 2025, held in Auckland from 17 to 23 November, captures that boundary unusually well. The international open-source geospatial conference programme included workshops and presentations on geospatial AI applications, natural-language spatial search and AI-assisted programming. One session was explicitly titled \"AI Coding and the Future of Open-Source Geospatial Software\". Another dealt with semantic spatial search using natural language with PostGIS and vector search. These subjects appeared in the programme of a major geospatial conference held in New Zealand.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A local practitioner example appeared at FOSS4G Auckland in November 2025. Phil Clunies-Ross presented a lightning talk about Delinify, a reporting tool he had recently built using open source and AI. The conference record documents a public demonstration; it does not describe organisational deployment or ongoing maintenance. The example places AI-assisted spatial reporting among the tools practitioners were exploring at the end of 2025.",
+      "markdown": "A local practitioner example appeared at FOSS4G Auckland in November 2025. Phil Clunies-Ross presented a lightning talk about Delinify, a reporting tool he had recently built using open source and AI. The conference record documents a public demonstration; it does not describe organisational deployment or ongoing maintenance. The example places AI-assisted spatial reporting among the tools practitioners were exploring at the end of 2025.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "AI-assisted coding sat in a similar position. By 2025 a practitioner could use a conversational coding assistant to produce candidate GIS code far faster than writing every line from memory. That lowered the practical barrier to scripting, particularly for people who understood their workflow but were not experienced software developers. It also moved the bottleneck. The difficult question became less \"can I remember the syntax?\" and more \"does this code actually do what I intended?\" A generated script that runs without an error can still join the wrong table, calculate in degrees instead of metres, ignore null values or quietly process only the first page of an API response.",
+      "markdown": "AI-assisted coding sat in a similar position. By 2025 a practitioner could use a conversational coding assistant to produce candidate GIS code far faster than writing every line from memory. That lowered the practical barrier to scripting, particularly for people who understood their workflow but were not experienced software developers. It also moved the bottleneck. The difficult question became less \"can I remember the syntax?\" and more \"does this code actually do what I intended?\" A generated script that runs without an error can still join the wrong table, calculate in degrees instead of metres, ignore null values or quietly process only the first page of an API response.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "AI-assisted coding extended earlier approaches to automating GIS work. The script, SQL query or application still becomes part of the same maintenance problem described in Chapter 43. It needs tests, documentation, controlled credentials, dependency management and someone who can diagnose it later. Generative systems made code easier to create, including code that a team might not previously have attempted. They did not make generated code self-validating or relieve an organisation of responsibility for what it ran.",
+      "markdown": "AI-assisted coding extended earlier approaches to automating GIS work. The script, SQL query or application still becomes part of the same maintenance problem described in Chapter 43. It needs tests, documentation, controlled credentials, dependency management and someone who can diagnose it later. Generative systems made code easier to create, including code that a team might not previously have attempted. They did not make generated code self-validating or relieve an organisation of responsibility for what it ran.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

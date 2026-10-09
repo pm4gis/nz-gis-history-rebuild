@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-28-4c81da5a4c",
+  "slug": "operational-geography-before-the-major-disasters-4c81da5a4c",
+  "articleId": "article:chapter-28",
+  "title": "Operational geography before the major disasters",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28",
+    "person:gavin-knight"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of the 2010s New Zealand public-safety GIS had several distinct layers. Police analysts had moved from specialist client installations to centrally delivered browser tools, with location captured more deliberately in operational records. Spatial methods had expanded from local incident clusters to national approaches comparing density, harm and vulnerability. Selected crime information had also moved into public interactive reporting, where privacy and aggregation constrained what could be shown.",
+      "markdown": "By the end of the 2010s New Zealand public-safety GIS had several distinct layers. Police analysts had moved from specialist client installations to centrally delivered browser tools, with location captured more deliberately in operational records. Spatial methods had expanded from local incident clusters to national approaches comparing density, harm and vulnerability. Selected crime information had also moved into public interactive reporting, where privacy and aggregation constrained what could be shown.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Fire Service case followed a different path but reached the same basic dependency on maintained geography. An incident database improved the flow of emergency information, while a separate spatial model used risk, deprivation, roads and projected growth to test where stations should be placed. Emergency response depended on reliable address and road information long before anyone opened a crisis dashboard. GIS was embedded in preparation and resource allocation as well as response.",
+      "markdown": "The Fire Service case followed a different path but reached the same basic dependency on maintained geography. An incident database improved the flow of emergency information, while a separate spatial model used risk, deprivation, roads and projected growth to test where stations should be placed. Emergency response depended on reliable address and road information long before anyone opened a crisis dashboard. GIS was embedded in preparation and resource allocation as well as response.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The major disasters that followed would place much heavier demands on these organisational capabilities. Canterbury, Kaikōura and Cyclone Gabrielle required shared operational pictures, rapidly changing road and cordon information, imagery, field updates and cross-agency data flows. Their roots include the quieter work described here: geocoded operational records, common reference data, browser access, maintained analytical capability and organisations accustomed to making decisions with geography.",
+      "markdown": "The major disasters that followed would place much heavier demands on these organisational capabilities. Canterbury, Kaikōura and Cyclone Gabrielle required shared operational pictures, rapidly changing road and cordon information, imagery, field updates and cross-agency data flows. Their roots include the quieter work described here: geocoded operational records, common reference data, browser access, maintained analytical capability and organisations accustomed to making decisions with geography.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Behind those systems was a growing community of people who learned to build, operate, teach and argue about them. By the time GIS had become part of crime analysis, emergency planning and public reporting, New Zealand no longer had only a small group of mapping specialists. It had practitioners with recognisable roles, user groups, conferences, professional networks and career paths. The technology was becoming ordinary enough that the field had to decide what counted as GIS work at all.",
+      "markdown": "Behind those systems was a growing community of people who learned to build, operate, teach and argue about them. By the time GIS had become part of crime analysis, emergency planning and public reporting, New Zealand no longer had only a small group of mapping specialists. It had practitioners with recognisable roles, user groups, conferences, professional networks and career paths. The technology was becoming ordinary enough that the field had to decide what counted as GIS work at all.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "An official Police advisory for the November 2016 launch of policedata.nz names Chief Data Scientist Gavin Knight as the practitioner who would demonstrate the service in Wellington. The record identifies a specific contribution to public crime-data access, alongside the wider operational history of geographic information in policing.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

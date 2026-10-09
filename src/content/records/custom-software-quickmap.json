@@ -1,0 +1,30 @@
+{
+  "id": "entity:custom-software-quickmap",
+  "slug": "custom-software-quickmap",
+  "name": "Custom Software / QuickMap",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/custom-software-quickmap/",
+  "website": null,
+  "story": [
+    "QuickMap brought cadastral, title, property and imagery information together in a New Zealand desktop product. Custom Software dates its establishment to 1996; a National Library record documents QuickMap Professional from 2002. Surveyors, valuers and property professionals could use packaged information without building a general-purpose GIS implementation themselves. Its history belongs to the local software businesses that organised national datasets around a particular profession’s daily work."
+  ],
+  "sources": [
+    {
+      "label": "National Library of New Zealand, QuickMap professional [electronic resource] catalogue record",
+      "url": "https://natlib.govt.nz/records/21843130"
+    },
+    {
+      "label": "QuickMap / Custom Software Ltd, About Us",
+      "url": "https://www.quickmap.co.nz/contact-quickmap/about-us/index.html"
+    }
+  ],
+  "aliases": [
+    "Custom Software",
+    "QuickMap"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

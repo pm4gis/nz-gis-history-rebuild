@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0974",
+  "a": "person:mike-peters",
+  "b": "entity:new-zealand-ecological-restoration-network",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

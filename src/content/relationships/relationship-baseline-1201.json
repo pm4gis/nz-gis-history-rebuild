@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1201",
+  "a": "system:nzta-enterprise",
+  "b": "entity:nz-transport-agency-waka-kotahi",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

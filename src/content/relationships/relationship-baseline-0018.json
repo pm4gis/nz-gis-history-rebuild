@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0018",
+  "a": "entity:canterbury-earthquake-recovery-authority-cera",
+  "b": "chapter:42",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

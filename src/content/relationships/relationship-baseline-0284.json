@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0284",
+  "a": "person:bill-risk",
+  "b": "chapter:23",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-23-461687bcb1"
+  ],
+  "sources": []
+}

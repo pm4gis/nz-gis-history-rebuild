@@ -1,0 +1,42 @@
+{
+  "id": "person:richard-pascoe",
+  "slug": "richard-pascoe",
+  "name": "Richard Pascoe",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/richard-pascoe/",
+  "story": [
+    "In 1990 Richard Pascoe and John Penny published work on the interchange of data between geographic information systems and on constructing interfaces for geographic-data exchange.",
+    "In 2001 Bryan Clarke represented Christchurch as the local-government Data Modeller on the Crown emergency-services core-data project, working with University of Canterbury’s Richard Pascoe, who advised on UML and ISO/TC211 standards."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 11 · Building a workstation laboratory",
+      "url": "/stories/universities-build-a-field/"
+    },
+    {
+      "label": "Chapter 23 · The parcel becomes a key",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Richard Pascoe"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 11 · Building a workstation laboratory",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · The parcel becomes a key",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

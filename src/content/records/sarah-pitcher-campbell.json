@@ -1,0 +1,55 @@
+{
+  "id": "person:sarah-pitcher-campbell",
+  "slug": "sarah-pitcher-campbell",
+  "name": "Sarah Pitcher-Campbell",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sarah-pitcher-campbell/",
+  "story": [
+    "Sarah Pitcher-Campbell worked across forestry GIS, remote sensing and emergency support. Interpine records her presenting cloud services linking GeoMaster, ArcGIS and Office 365 in 2013, leading remote-sensing work involving LiDAR and UAVs, and later providing GIS support to Australian wildfire incident-management teams. She subsequently moved into Eagle Technology’s GIS business."
+  ],
+  "sources": [
+    {
+      "label": "Interpine, Discover the Cloud for Forest Management at NZIF Conference 2013",
+      "url": "https://interpine.nz/discover-the-cloud-for-forest-management-at-nzif-conference-2013/"
+    },
+    {
+      "label": "Interpine GIS archive",
+      "url": "https://interpine.nz/category/gis/page/2/"
+    },
+    {
+      "label": "Interpine wildfire archive",
+      "url": "https://interpine.nz/category/wildfire/"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Sarah Pitcher-Campbell"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Interpine, Discover the Cloud for Forest Management at NZIF Conference 2013",
+        "url": "https://interpine.nz/discover-the-cloud-for-forest-management-at-nzif-conference-2013/"
+      },
+      {
+        "label": "Interpine GIS archive",
+        "url": "https://interpine.nz/category/gis/page/2/"
+      },
+      {
+        "label": "Interpine wildfire archive",
+        "url": "https://interpine.nz/category/wildfire/"
+      },
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

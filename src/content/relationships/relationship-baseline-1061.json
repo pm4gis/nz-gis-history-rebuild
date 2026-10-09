@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1061",
+  "a": "person:rob-garrett",
+  "b": "entity:dunedin-city-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

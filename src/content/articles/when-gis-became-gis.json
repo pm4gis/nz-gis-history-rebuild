@@ -1,0 +1,47 @@
+{
+  "id": "article:chapter-6",
+  "slug": "when-gis-became-gis",
+  "title": "Early GIS systems",
+  "url": "/stories/when-gis-became-gis/",
+  "summary": "On 26 June 1989 a national conference opened in Wellington under the title Getting it all together with GIS. The published proceedings described it as the First National Multi-Disciplinary GIS Conference and ran to 116 pages. The ",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 6,
+  "themeIds": [
+    "profession",
+    "local-government",
+    "women-in-gis",
+    "technology-stack"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch06-note-01",
+      "text": "1. Getting it all together with GIS: first National Multi-Disciplinary GIS Conference, Wellington, 26 to 28 June 1989, edited by T. Jackman and published by ERA Group, is the principal endpoint source. Surviving proceedings records identify papers by P. R. Stephens, R. G. Gibb and J. R. Dymond; P. G. Luckman, R. G. Gibb and M. R. Jessen; and Clive Elliott. The proceedings establish a national multidisciplinary GIS forum, not the origin of digital geography in New Zealand."
+    },
+    {
+      "id": "ch06-note-02",
+      "text": "2. Van Berkel and Williams' 1985 LADEDA paper and the University of Auckland 1985/1986 teaching evidence show that the GIS label was already in contemporary New Zealand use before the 1989 conference."
+    },
+    {
+      "id": "ch06-note-03",
+      "text": "3. W. Mary McEwen's Department of Conservation Science and Research Internal Report 80 preserves the Biological Resources Centre and 1986 North Taranaki mock-up evidence. The report explicitly allows the chapter to describe an early commercial-GIS experiment while keeping the detailed scientific application in Chapter 9 and avoiding an unsupported national-first claim."
+    },
+    {
+      "id": "ch06-note-04",
+      "text": "4. The University of Canterbury Chronicle dated 25 August 1987 names Intergraph Corporation (NZ) Ltd in a CAD/CIM agreement. It proves New Zealand corporate presence by that date but does not prove the first Intergraph GIS installation."
+    },
+    {
+      "id": "ch06-note-05",
+      "text": "5. Keith Carr, \"The Implementation of GIS in New Zealand\", in the 1988 ESCAP regional GIS workshop proceedings, printed p.71/digital PDF p.74, provides a contemporary national checkpoint. The proceedings note that Carr's original presentation relied heavily on slides that were not reproduced, so the missing slides remain unavailable."
+    },
+    {
+      "id": "ch06-note-06",
+      "text": "6. Explorer Graphics and early distributor material is supported by retrospective company histories. Chapter 12 discusses the fuller commercial and community history."
+    },
+    {
+      "id": "ch06-note-overseas-software-new-zealand-data",
+      "text": "Sources: Esri, History of GIS: ARC/INFO release, 1982 (https://www.esri.com/en-us/what-is-gis/history-of-gis); MapInfo Corporate History: company established in Troy, New York, 1986 (https://ssl.japan.mapinfo.com/location/company/history.php)."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-25-5218b2d89e",
+  "slug": "gas-and-the-layered-network-stack-5218b2d89e",
+  "articleId": "article:chapter-25",
+  "title": "Gas and the layered network stack",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the late 2010s Vector’s gas-distribution systems combined GIS with additional operational and enterprise platforms. Its 2018 Asset Management Plan placed GE Smallworld, ArcGIS, SAP, Siebel, SCADA and specialist network-modelling software within the same broad information environment. The products performed different jobs rather than competing to become one all-purpose GIS.",
+      "markdown": "By the late 2010s Vector’s gas-distribution systems combined GIS with additional operational and enterprise platforms. Its 2018 Asset Management Plan placed GE Smallworld, ArcGIS, SAP, Siebel, SCADA and specialist network-modelling software within the same broad information environment. The products performed different jobs rather than competing to become one all-purpose GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Smallworld carried network and asset relationships, while SAP supported asset lifecycle and maintenance processes. Customer and connection information came from other business systems. SCADA monitored operational conditions. Specialist modelling tools used network and demand data to examine pressure, flow, capacity and future constraints. ArcGIS supplied additional geospatial visualisation and analytical capability.",
+      "markdown": "Smallworld carried network and asset relationships, while SAP supported asset lifecycle and maintenance processes. Customer and connection information came from other business systems. SCADA monitored operational conditions. Specialist modelling tools used network and demand data to examine pressure, flow, capacity and future constraints. ArcGIS supplied additional geospatial visualisation and analytical capability.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vector’s system arrangements changed between its 1998 Smallworld migration and 2018. The specialist network GIS continued alongside additional operational, enterprise and analytical systems. The geographic database continued to supply a maintained representation of the physical network.",
+      "markdown": "Vector’s system arrangements changed between its 1998 Smallworld migration and 2018. The specialist network GIS continued alongside additional operational, enterprise and analytical systems. The geographic database continued to supply a maintained representation of the physical network.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Gas also reinforces the distinction between a map and a network model. Pressure systems, regulators, valves and connected customers affect how gas moves through the system. A spatial line is only the visible geometry of that model. Operational planning requires the attributes and relationships that describe what the line carries, how it connects and what constraints apply.",
+      "markdown": "Gas also reinforces the distinction between a map and a network model. Pressure systems, regulators, valves and connected customers affect how gas moves through the system. A spatial line is only the visible geometry of that model. Operational planning requires the attributes and relationships that describe what the line carries, how it connects and what constraints apply.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "entity:earth-cubed",
+  "slug": "earth-cubed",
+  "name": "Earth Cubed",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/earth-cubed/",
+  "website": null,
+  "story": [
+    "Dave Loubser of Wellington consultancy Earth Cubed contributed a Christchurch earthquake web map after the September 2010 earthquake. Practitioners shared the map through their online network during the early response."
+  ],
+  "sources": [
+    {
+      "label": "GISList crowd-sourced Christchurch mapping thread"
+    }
+  ],
+  "aliases": [
+    "Earth Cubed"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

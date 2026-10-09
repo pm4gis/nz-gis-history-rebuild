@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-20-44f14362be",
+  "slug": "auckland-works-together-44f14362be",
+  "articleId": "article:chapter-20",
+  "title": "Auckland works together",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20",
+    "entity:auckland-regional-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 1999 the eight local authorities in the Auckland region had enough GIS activity for regional differences to become a problem in their own right. North Shore City, Auckland City, Auckland Regional Council, Manukau City, Rodney District, Waitakere City, Franklin District and Papakura District councils identified GIS as an area in which they might work together. A regional GIS working group was established. The Office of the Auditor-General later documented the arrangement as one of its case studies of local authorities working jointly.",
+      "markdown": "By 1999 the eight local authorities in the Auckland region had enough GIS activity for regional differences to become a problem in their own right. North Shore City, Auckland City, Auckland Regional Council, Manukau City, Rodney District, Waitakere City, Franklin District and Papakura District councils identified GIS as an area in which they might work together. A regional GIS working group was established. The Office of the Auditor-General later documented the arrangement as one of its case studies of local authorities working jointly.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Hawke’s Bay",
+      "caption": "Hawke’s Bay. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "The councils used different GIS platforms. Their data standards, accuracy, completeness and the kinds of data they held also varied. Each authority had invested heavily in information about the physical area within its own boundaries, while the Regional Council had reasons to work across all of them. Aerial photography was one dataset for which incompatible specifications could be avoided before the next round of data was bought.",
+      "markdown": "The councils used different GIS platforms. Their data standards, accuracy, completeness and the kinds of data they held also varied. Each authority had invested heavily in information about the physical area within its own boundaries, while the Regional Council had reasons to work across all of them. Aerial photography was one dataset for which incompatible specifications could be avoided before the next round of data was bought.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The GIS Working Group agreed to develop an Auckland Area Orthophotography Standard. A Standards Working Group compared the specifications already being used by the councils, prepared a draft and circulated it for comment. The standard was finalised in February 2003 and set minimum specifications for aerial photography. The councils had not standardised their whole GIS environments; they had agreed on the characteristics of a shared class of input data.",
+      "markdown": "The GIS Working Group agreed to develop an Auckland Area Orthophotography Standard. A Standards Working Group compared the specifications already being used by the councils, prepared a draft and circulated it for comment. The standard was finalised in February 2003 and set minimum specifications for aerial photography. The councils had not standardised their whole GIS environments; they had agreed on the characteristics of a shared class of input data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The work also pointed toward procurement. The Auditor-General’s report records that aligning contracts for the purchase of aerial photography had been identified as a further step. Once several councils wanted comparable regional imagery, there was little sense in each specifying overlapping photography independently if joint timing and standards could reduce inconsistency. Imagery was becoming an input whose acquisition could be coordinated before the aircraft took off.",
+      "markdown": "The work also pointed toward procurement. The Auditor-General’s report records that aligning contracts for the purchase of aerial photography had been identified as a further step. Once several councils wanted comparable regional imagery, there was little sense in each specifying overlapping photography independently if joint timing and standards could reduce inconsistency. Imagery was becoming an input whose acquisition could be coordinated before the aircraft took off.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

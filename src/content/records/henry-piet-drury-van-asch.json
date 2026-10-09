@@ -1,0 +1,45 @@
+{
+  "id": "person:henry-piet-drury-van-asch",
+  "slug": "henry-piet-drury-van-asch",
+  "name": "Henry Piet Drury van Asch",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/henry-piet-drury-van-asch/",
+  "story": [
+    "Henry Piet Drury van Asch, known as Piet van Asch, helped establish New Zealand Aerial Mapping at the end of 1935. After acquiring the Monospar Manu Rere, he began survey work in April 1937 with coverage of the Richardson Range for DSIR. The Dictionary of New Zealand Biography describes his subsequent wartime aerial-mapping work for the RNZAF. His photography and surveying belong to the aerial-data history that preceded digital GIS.",
+    "Henry Piet Drury van Asch established New Zealand Aerial Mapping Ltd at the end of 1935, with substantive survey work documented from 1937. The company supplied aircraft, cameras, crews and later photogrammetric mapping to government and private clients. During and after the war, aerial survey became an ordinary input to topographic mapping, engineering, forestry, land development and scientific work."
+  ],
+  "sources": [
+    {
+      "label": "Matthew Wright, Henry Piet Drury van Asch, Dictionary of New Zealand Biography, 2000",
+      "url": "https://teara.govt.nz/en/biographies/5v1/van-asch-henry-piet-drury"
+    },
+    {
+      "label": "Chapter 1 · The country from the air",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "Henry Piet Drury van Asch",
+    "Piet van Asch"
+  ],
+  "themeIds": [
+    "imagery"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Matthew Wright, Henry Piet Drury van Asch, Dictionary of New Zealand Biography, 2000",
+        "url": "https://teara.govt.nz/en/biographies/5v1/van-asch-henry-piet-drury"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 1 · The country from the air",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

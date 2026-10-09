@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-16-df6f81dcf0",
+  "slug": "access-to-census-data-df6f81dcf0",
+  "articleId": "article:chapter-16",
+  "title": "Access to census data",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16",
+    "entity:critchlow",
+    "entity:mapdata-sciences",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "GIS users still faced costs and practical restrictions when obtaining government boundary data. Through the 1990s and early 2000s census data, boundary files and related mapping products were distributed through a mixture of direct sales, licences and commercial suppliers. Companies such as Critchlow and MapData Sciences combined official census information and boundaries with mapping software or other datasets. Commercial suppliers packaged national statistical geography for desktop users.",
+      "markdown": "GIS users still faced costs and practical restrictions when obtaining government boundary data. Through the 1990s and early 2000s census data, boundary files and related mapping products were distributed through a mixture of direct sales, licences and commercial suppliers. Companies such as Critchlow and MapData Sciences combined official census information and boundaries with mapping software or other datasets. Commercial suppliers packaged national statistical geography for desktop users.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The contrast was particularly clear in March 2002. Statistics New Zealand promoted “WebMap – 2001 Census” as a free browser service. A user could navigate a map, identify areas and obtain census information for geographies including area units, wards, territorial authorities and regional councils without buying desktop GIS software. On the same product schedule, however, the complete “2001 Census Meshblock Database” cost $1,200 plus GST. Multi-organisation or redistribution use attracted a $5,000 plus GST fee, while smaller regional and territorial-authority products were priced separately.",
+      "markdown": "The contrast was particularly clear in March 2002. Statistics New Zealand promoted “WebMap – 2001 Census” as a free browser service. A user could navigate a map, identify areas and obtain census information for geographies including area units, wards, territorial authorities and regional councils without buying desktop GIS software. On the same product schedule, however, the complete “2001 Census Meshblock Database” cost $1,200 plus GST. Multi-organisation or redistribution use attracted a $5,000 plus GST fee, while smaller regional and territorial-authority products were priced separately.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The two products offered different kinds of access. WebMap let people look at statistics through an interface designed by Statistics New Zealand. The paid meshblock product let an organisation take detailed data into its own GIS, combine it with other spatial information and carry out analysis independently. A free map in a browser was therefore not the same thing as free reusable GIS data.",
+      "markdown": "The two products offered different kinds of access. WebMap let people look at statistics through an interface designed by Statistics New Zealand. The paid meshblock product let an organisation take detailed data into its own GIS, combine it with other spatial information and carry out analysis independently. A free map in a browser was therefore not the same thing as free reusable GIS data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In May 2002 the Government announced that detailed 2001 Census results would become free through the Census Table Builder. The announcement explicitly contrasted the new access with paid Supermap subscriptions that had started at about $3,300 and could reach roughly $25,000 depending on the information level. This removed a substantial price barrier around detailed statistical tables. Access to Census tables, boundary geometry, address-linking products and commercial packages changed through separate releases.",
+      "markdown": "In May 2002 the Government announced that detailed 2001 Census results would become free through the Census Table Builder. The announcement explicitly contrasted the new access with paid Supermap subscriptions that had started at about $3,300 and could reach roughly $25,000 depending on the information level. This removed a substantial price barrier around detailed statistical tables. Access to Census tables, boundary geometry, address-linking products and commercial packages changed through separate releases.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

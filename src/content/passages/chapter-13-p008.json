@@ -1,0 +1,43 @@
+{
+  "id": "passage:chapter-13-41ad15f707",
+  "slug": "wider-use-of-parcels-41ad15f707",
+  "articleId": "article:chapter-13",
+  "title": "Wider use of parcels",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13",
+    "entity:critchlow",
+    "entity:eagle-technology",
+    "entity:new-zealand-aerial-mapping",
+    "entity:terralink"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Once parcel geography existed as maintained digital data, other organisations wanted it. Councils could align property, rating, planning and asset information with parcels. Utilities could use cadastral context around network assets. Government agencies and consultants could organise environmental, statistical or administrative information against a common land framework. Property systems could use the parcel database as an index to other records. The cadastre was becoming infrastructure for people who had no role in maintaining cadastral surveys.",
+      "markdown": "Once parcel geography existed as maintained digital data, other organisations wanted it. Councils could align property, rating, planning and asset information with parcels. Utilities could use cadastral context around network assets. Government agencies and consultants could organise environmental, statistical or administrative information against a common land framework. Property systems could use the parcel database as an index to other records. The cadastre was becoming infrastructure for people who had no role in maintaining cadastral surveys.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That wider use introduced another layer between Crown custody and the end user. Historical DCDB documentation records a licensed-distributor model in which bulk data could be supplied to organisations including Terralink, New Zealand Aerial Mapping, Eagle Technology, MapInfo Australia, Critchlow Associates and Map Data Sciences. Distributors translated formats, packaged data and supported customers. Chapter 12 follows those firms as part of the GIS industry. A national cadastral database supported a commercial market for distribution and format translation.",
+      "markdown": "That wider use introduced another layer between Crown custody and the end user. Historical DCDB documentation records a licensed-distributor model in which bulk data could be supplied to organisations including Terralink, New Zealand Aerial Mapping, Eagle Technology, MapInfo Australia, Critchlow Associates and Map Data Sciences. Distributors translated formats, packaged data and supported customers. Chapter 12 follows those firms as part of the GIS industry. A national cadastral database supported a commercial market for distribution and format translation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Charges and licences were part of that environment. The historic documentation records per-feature charging and distributor arrangements that made national or regional data access a real cost. Chapter 33 describes Crown information policy and the later move to open data. The cadastral database supplied users beyond the government’s own production teams. Organisations were paying to use a digital parcel framework because reproducing it themselves would have been absurd.",
+      "markdown": "Charges and licences were part of that environment. The historic documentation records per-feature charging and distributor arrangements that made national or regional data access a real cost. Chapter 33 describes Crown information policy and the later move to open data. The cadastral database supplied users beyond the government’s own production teams. Organisations were paying to use a digital parcel framework because reproducing it themselves would have been absurd.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The growing dependence also made maintenance more consequential. A parcel database used only to print an internal map can tolerate different failure modes from a dataset that supports property systems, planning analysis and data products across the country. Updates, identifiers, topology and lineage became part of the value. The national cadastre was no longer only a survey-office record. It had become a shared dependency.",
+      "markdown": "The growing dependence also made maintenance more consequential. A parcel database used only to print an internal map can tolerate different failure modes from a dataset that supports property systems, planning analysis and data products across the country. Updates, identifiers, topology and lineage became part of the value. The national cadastre was no longer only a survey-office record. It had become a shared dependency.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

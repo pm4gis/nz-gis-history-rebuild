@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1116",
+  "a": "person:catriona-oneill",
+  "b": "entity:women-in-spatial-survey",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

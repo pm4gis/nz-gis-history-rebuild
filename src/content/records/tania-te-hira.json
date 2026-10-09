@@ -1,0 +1,31 @@
+{
+  "id": "person:tania-te-hira",
+  "slug": "tania-te-hira",
+  "name": "Tania Te Hira",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/tania-te-hira/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Tania Te Hira: Geospatial Specialist, Haanuiorangi Te Whare Tapu o Ngāpuhi; formerly DOC Geospatial Information Analyst and Stats NZ."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Tania Te Hira"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

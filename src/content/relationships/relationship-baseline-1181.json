@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1181",
+  "a": "system:auckland-gfmo",
+  "b": "entity:geographic-business-solutions",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

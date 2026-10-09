@@ -1,0 +1,25 @@
+{
+  "id": "entity:waikato-district-council",
+  "slug": "waikato-district-council",
+  "name": "Waikato District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/waikato-district-council/",
+  "website": "https://www.waikatodistrict.govt.nz",
+  "description": "Named in Preface (Chapter 0). Follow the linked passage for context.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Waikato District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

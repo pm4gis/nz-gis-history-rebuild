@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1473",
+  "a": "entity:vector",
+  "b": "chapter:9",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-9-7021842bb3",
+    "passage:chapter-9-94bf81a964"
+  ],
+  "sources": []
+}

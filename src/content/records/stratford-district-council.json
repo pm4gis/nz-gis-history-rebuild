@@ -1,0 +1,25 @@
+{
+  "id": "entity:stratford-district-council",
+  "slug": "stratford-district-council",
+  "name": "Stratford District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/stratford-district-council/",
+  "website": "https://www.stratford.govt.nz",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Stratford District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:david-higgins",
+  "slug": "david-higgins",
+  "name": "David Higgins",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-higgins/",
+  "story": [
+    "David Higgins helped locate traditional place names as a member of Kā Huru Manu’s early paepae, documented in Ngāi Tahu’s 2018 project account.",
+    "Kā Huru Manu’s early paepae included Trevor Howse, Kelly Davis, Matapura Ellison, Jimmy Russell and David Higgins, while Muriel Johnstone contributed knowledge of the Ōraka Aparima takiwā."
+  ],
+  "sources": [
+    {
+      "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+      "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+    },
+    {
+      "label": "Chapter 35 · Public applications",
+      "url": "/stories/the-map-becomes-an-application/"
+    }
+  ],
+  "aliases": [
+    "David Higgins"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+        "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 35 · Public applications",
+        "url": "/stories/the-map-becomes-an-application/"
+      }
+    ]
+  ]
+}

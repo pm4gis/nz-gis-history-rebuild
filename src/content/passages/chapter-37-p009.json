@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-37-fe483d07d2",
+  "slug": "from-local-contracts-to-national-coordination-fe483d07d2",
+  "articleId": "article:chapter-37",
+  "title": "From local contracts to national coordination",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For much of the 2000s and early 2010s, New Zealand LiDAR remained a patchwork. Councils and other organisations commissioned surveys when they had money and a sufficiently strong flood, engineering, coastal or planning need. Main urban centres accumulated useful coverage, while many provincial and rural areas did not. Data could be held under different arrangements and produced to different specifications. The national map of available elevation was therefore shaped by local priorities and budgets.",
+      "markdown": "For much of the 2000s and early 2010s, New Zealand LiDAR remained a patchwork. Councils and other organisations commissioned surveys when they had money and a sufficiently strong flood, engineering, coastal or planning need. Main urban centres accumulated useful coverage, while many provincial and rural areas did not. Data could be held under different arrangements and produced to different specifications. The national map of available elevation was therefore shaped by local priorities and budgets.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The October 2018 Provincial Growth Fund decision altered that pattern. Government committed substantial funding for regional three-dimensional mapping, with LINZ managing a coordinated programme alongside regional partners. The public announcement in March 2020 described up to $19 million over five years and said LiDAR then covered about 10 per cent of New Zealand, with the programme expected to lift national coverage towards 80 per cent. The earlier inventory showed the main centres had useful coverage while provincial New Zealand remained sparse.",
+      "markdown": "The October 2018 Provincial Growth Fund decision altered that pattern. Government committed substantial funding for regional three-dimensional mapping, with LINZ managing a coordinated programme alongside regional partners. The public announcement in March 2020 described up to $19 million over five years and said LiDAR then covered about 10 per cent of New Zealand, with the programme expected to lift national coverage towards 80 per cent. The earlier inventory showed the main centres had useful coverage while provincial New Zealand remained sparse.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The programme brought together the Crown and partner organisations. Regional councils, local organisations and central government contributed to acquisitions, and the sequence of contracts reflected regional readiness and priorities. Marlborough, Tasman and Hawke's Bay were among the first contract areas announced, with further work across Bay of Plenty, the West Coast, Waikato, Canterbury, Southland and other regions. Agencies coordinated their surveys and data releases. National funding could fill gaps that were difficult for individual regions to justify alone.",
+      "markdown": "The programme brought together the Crown and partner organisations. Regional councils, local organisations and central government contributed to acquisitions, and the sequence of contracts reflected regional readiness and priorities. Marlborough, Tasman and Hawke's Bay were among the first contract areas announced, with further work across Bay of Plenty, the West Coast, Waikato, Canterbury, Southland and other regions. Agencies coordinated their surveys and data releases. National funding could fill gaps that were difficult for individual regions to justify alone.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later coverage reporting needs to be read by date. In August 2024 LINZ said LiDAR for about 70 per cent of the country was available, with another 10 per cent due over the following months as the programme completed. Current programme reporting describes the partnership effort as bringing national coverage to more than 80 per cent. These figures describe the outcome of several years of acquisition and publication. Coverage was substantially lower when the funding decision was made in 2018.",
+      "markdown": "Later coverage reporting needs to be read by date. In August 2024 LINZ said LiDAR for about 70 per cent of the country was available, with another 10 per cent due over the following months as the programme completed. Current programme reporting describes the partnership effort as bringing national coverage to more than 80 per cent. These figures describe the outcome of several years of acquisition and publication. Coverage was substantially lower when the funding decision was made in 2018.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "entity:te-runanga-o-ngai-tahu-ngai-tahu-archive",
+  "slug": "te-runanga-o-ngai-tahu-ngai-tahu-archive",
+  "name": "Te Rūnanga o Ngāi Tahu / Ngāi Tahu Archive",
+  "kind": "Organisation",
+  "category": "Iwi and Māori organisations",
+  "url": "/entities/te-runanga-o-ngai-tahu-ngai-tahu-archive/",
+  "website": null,
+  "story": [
+    "Kā Huru Manu connected the Ngāi Tahu Archive’s records with tribal place names and geographic knowledge. Takerei Norton and earlier archive contributors worked with people and information accumulated over many years. The web atlas made selected material accessible while remaining part of an iwi-led archival and cultural mapping programme."
+  ],
+  "sources": [
+    {
+      "label": "Ngāi Tahu, Kā Huru Manu cultural mapping project",
+      "url": "https://www.kahurumanu.co.nz/"
+    }
+  ],
+  "aliases": [
+    "Te Rūnanga o Ngāi Tahu",
+    "Ngāi Tahu Archive"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

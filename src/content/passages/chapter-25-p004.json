@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-25-ff9371440e",
+  "slug": "auckland-lifelines-established-in-1996-ff9371440e",
+  "articleId": "article:chapter-25",
+  "title": "Auckland lifelines, established in 1996",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:vector",
+    "entity:auckland-regional-council",
+    "person:michele-daly",
+    "person:david-johnston"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Auckland Regional Council initiated the Auckland Engineering Lifelines Project in 1996, involving about 40 organisations. It brought water, wastewater, power, gas and other services into a shared assessment of hazards and interdependence. Michele Daly and David Johnston’s later account describes hazard and infrastructure maps alongside workshops in which utilities assessed vulnerability and recovery.",
+      "sources": [
+        {
+          "label": "Michele Daly and David Johnston, The genesis of volcanic risk assessment for the Auckland engineering lifelines project: 1996–2000, 2015",
+          "url": "https://link.springer.com/article/10.1186/s13617-015-0027-9"
+        },
+        {
+          "label": "Vector, Asset Management Plan 1999/2000 and 2000/2001, printed pp.10 and 65",
+          "url": "https://blob-static.vector.co.nz/blob/vector/media/vector-regulatory-disclosures/vector-electricity-amp-1999.pdf"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The project began within the 1987–1996 period; its reports and developed assessment belong to 1997–2000. The mapped work is evidence about that programme, rather than proof of a completed GIS implementation in 1996. Vector’s 1999 asset plan separately records participation in the Auckland project.",
+      "sources": [
+        {
+          "label": "Michele Daly and David Johnston, The genesis of volcanic risk assessment for the Auckland engineering lifelines project: 1996–2000, 2015",
+          "url": "https://link.springer.com/article/10.1186/s13617-015-0027-9"
+        },
+        {
+          "label": "Vector, Asset Management Plan 1999/2000 and 2000/2001, printed pp.10 and 65",
+          "url": "https://blob-static.vector.co.nz/blob/vector/media/vector-regulatory-disclosures/vector-electricity-amp-1999.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

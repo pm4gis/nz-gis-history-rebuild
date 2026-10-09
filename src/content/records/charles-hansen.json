@@ -1,0 +1,32 @@
+{
+  "id": "person:charles-hansen",
+  "slug": "charles-hansen",
+  "name": "Charles Hansen",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/charles-hansen/",
+  "story": [
+    "A 1995 Esri user-conference paper by Charles Hansen described ArcInfo as already being used by more than half of New Zealand city and district councils and linked GIS directly with infrastructure valuation. The broader connection between asset management and spatial information is supported by subsequent Audit Office reporting."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23 · Networks meet the ledger",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Charles Hansen",
+    "Charles A. Hansen"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · Networks meet the ledger",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2018-linz-qgis-importer",
+  "dateDisplay": "2018",
+  "startDate": "2018",
+  "datePrecision": "year",
+  "year": 2018,
+  "label": "LINZ Data Importer connects QGIS to authoritative public data",
+  "summary": "Government-supported tooling made it easier to bring LINZ Data Service content directly into an open desktop GIS.",
+  "url": "/stories/open-source-changes-the-tools/#a-mixed-toolkit-33ae40ee2c",
+  "passageIds": [
+    "passage:chapter-32-33ae40ee2c"
+  ],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "themeIds": [],
+  "categories": [
+    "open-source",
+    "open-data"
+  ],
+  "sources": []
+}

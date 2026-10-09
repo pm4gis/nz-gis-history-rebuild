@@ -1,0 +1,26 @@
+{
+  "id": "entity:mackenzie-district-council",
+  "slug": "mackenzie-district-council",
+  "name": "Mackenzie District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/mackenzie-district-council/",
+  "website": "https://www.mackenzie.govt.nz",
+  "story": [
+    "Terralink’s 4 March 2004 announcement names Mackenzie District Council as a participant in the shared South Island orthophoto acquisition. The release describes regional imagery for local-government GIS, consent processing, land-use work, civil defence and asset management. This evidence establishes participation in the shared imagery project; it does not identify the council’s internal GIS platform or named practitioners."
+  ],
+  "sources": [
+    {
+      "label": "Terralink International, ‘Terralink starts biggest ever aerial photography task’, 4 March 2004",
+      "url": "https://www.scoop.co.nz/stories/SC0403/S00018.htm"
+    }
+  ],
+  "aliases": [
+    "Mackenzie District Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

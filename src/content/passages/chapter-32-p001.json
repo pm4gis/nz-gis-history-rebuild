@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-32-069a12d50e",
+  "slug": "open-source-underneath-the-map-069a12d50e",
+  "articleId": "article:chapter-32",
+  "title": "Open source underneath the map",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "open-practice"
+  ],
+  "recordIds": [
+    "chapter:32",
+    "person:brent-wood"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand organisations adopted open-source GIS software gradually. Early operational uses included spatial databases, web servers and custom applications. By the middle of the 2000s, organisations were assembling systems from components such as PostgreSQL/PostGIS, MapServer, Apache, GeoServer and OpenLayers while continuing to use commercial GIS elsewhere. ",
+      "markdown": "New Zealand organisations adopted open-source GIS software gradually. Early operational uses included spatial databases, web servers and custom applications. By the middle of the 2000s, organisations were assembling systems from components such as PostgreSQL/PostGIS, MapServer, Apache, GeoServer and OpenLayers while continuing to use commercial GIS elsewhere. ",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NIWA used open-source software in its work. On 30 October 2006, Brent Wood described using PostGIS to manage spatial datasets containing up to hundreds of millions of features across about half a dozen systems. He also noted that he had recently used PostGIS during two weeks at sea. The message discussed an ordinary technical problem: NIWA was using an open-source spatial database in its operational work.",
+      "markdown": "NIWA used open-source software in its work. On 30 October 2006, Brent Wood described using PostGIS to manage spatial datasets containing up to hundreds of millions of features across about half a dozen systems. He also noted that he had recently used PostGIS during two weeks at sea. The message discussed an ordinary technical problem: NIWA was using an open-source spatial database in its operational work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2006 an open spatial database could sit inside serious operational and scientific work. Removing a licence fee expanded the range of components available, while database design, server management, coordinate-system knowledge, data maintenance and user support remained part of the job.",
+      "markdown": "By 2006 an open spatial database could sit inside serious operational and scientific work. Removing a licence fee expanded the range of components available, while database design, server management, coordinate-system knowledge, data maintenance and user support remained part of the job.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

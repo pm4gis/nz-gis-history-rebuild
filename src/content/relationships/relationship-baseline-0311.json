@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0311",
+  "a": "person:donald-king",
+  "b": "chapter:8",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-8-2911dbd2b5"
+  ],
+  "sources": []
+}

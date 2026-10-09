@@ -1,0 +1,47 @@
+{
+  "id": "person:debbie-care",
+  "slug": "debbie-care",
+  "name": "Debbie Care",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/debbie-care/",
+  "story": [
+    "Dr Debbie Care founded AgVice and used GIS as part of farm-environment planning and catchment work. Eagle documents AgVice using ArcGIS, drones, StoryMaps, Experience Builder and digital farm plans in the Wai Kōkopu programme, and the company won the 2023 New Zealand Esri StoryMaps competition. Care had earlier presented GIS and drone use for farm-environment work at the 2019 user conference."
+  ],
+  "sources": [
+    {
+      "label": "AgVice, About",
+      "url": "https://www.agvice.co.nz/about/"
+    },
+    {
+      "label": "Eagle Technology, AgVice and Wai Kōkopu case material",
+      "url": "https://www.eagle.co.nz/node/355"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    }
+  ],
+  "aliases": [
+    "Debbie Care"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "AgVice, About",
+        "url": "https://www.agvice.co.nz/about/"
+      },
+      {
+        "label": "Eagle Technology, AgVice and Wai Kōkopu case material",
+        "url": "https://www.eagle.co.nz/node/355"
+      },
+      {
+        "label": "New Zealand Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      }
+    ]
+  ]
+}

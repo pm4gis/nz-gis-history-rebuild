@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1924",
+  "a": "person:chris-scott",
+  "b": "chapter:39",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-39-55f120350b"
+  ],
+  "sources": []
+}

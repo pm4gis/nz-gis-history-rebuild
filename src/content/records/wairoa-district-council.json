@@ -1,0 +1,25 @@
+{
+  "id": "entity:wairoa-district-council",
+  "slug": "wairoa-district-council",
+  "name": "Wairoa District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/wairoa-district-council/",
+  "website": "https://www.wairoadc.govt.nz",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Wairoa District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

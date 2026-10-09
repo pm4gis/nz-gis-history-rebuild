@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-13-a2546c4b1a",
+  "slug": "survey-conversion-a2546c4b1a",
+  "articleId": "article:chapter-13",
+  "title": "Survey conversion",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Survey Conversion Project connected DCDB with Landonline. LINZ’s accuracy history states that the positional quality of the DCDB was not sufficient to realise all of the benefits expected from the new system. Conversion therefore used parcel dimensions, including bearings and distances from survey records, to improve the digital cadastre in many intensively surveyed areas. The process combined a cleaner national parcel representation with structured cadastral data and new maintenance workflows. It returned to survey evidence that had always been richer than the map-derived coordinates.",
+      "markdown": "The Survey Conversion Project connected DCDB with Landonline. LINZ’s accuracy history states that the positional quality of the DCDB was not sufficient to realise all of the benefits expected from the new system. Conversion therefore used parcel dimensions, including bearings and distances from survey records, to improve the digital cadastre in many intensively surveyed areas. The process combined a cleaner national parcel representation with structured cadastral data and new maintenance workflows. It returned to survey evidence that had always been richer than the map-derived coordinates.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1980s programme had taken the national record-map fabric and converted it into structured coordinates. The later conversion work then used survey dimensions and other evidence to strengthen those coordinates. Digital infrastructure did not eliminate the older survey archive. It made the archive newly useful as input to improving the database.",
+      "markdown": "The 1980s programme had taken the national record-map fabric and converted it into structured coordinates. The later conversion work then used survey dimensions and other evidence to strengthen those coordinates. Digital infrastructure did not eliminate the older survey archive. It made the archive newly useful as input to improving the database.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Contemporary Landonline papers describe other conversion streams running alongside the spatial work. Existing survey plans were imaged and linked so they could be accessed electronically. Geodetic information was loaded into the new environment. Title records were converted into electronic computer registers between 1999 and 2002. DCDB information from the Land Districts was transformed into the new Landonline structures. Chapter 14 follows those processes in detail. In Chapter 13 they mark the point where a parcel database begins to become part of a wider electronic survey and title system.",
+      "markdown": "Contemporary Landonline papers describe other conversion streams running alongside the spatial work. Existing survey plans were imaged and linked so they could be accessed electronically. Geodetic information was loaded into the new environment. Title records were converted into electronic computer registers between 1999 and 2002. DCDB information from the Land Districts was transformed into the new Landonline structures. Chapter 14 follows those processes in detail. In Chapter 13 they mark the point where a parcel database begins to become part of a wider electronic survey and title system.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

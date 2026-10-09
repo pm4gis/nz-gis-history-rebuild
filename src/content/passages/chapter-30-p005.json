@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-30-0f7b6d4f36",
+  "slug": "police-moves-to-thin-client-0f7b6d4f36",
+  "articleId": "article:chapter-30",
+  "title": "Police moves to thin client",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30",
+    "entity:new-zealand-police"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand Police used browser mapping to make geographic information available to more staff. The early-1999 client GIS was initially distributed to nineteen analyst sites and later expanded to thirty-three. Each site carried the cost and support burden of a customised workstation, printer, local software and locally loaded mapping and crime data. Once the organisation wanted broader access, this architecture became cumbersome.",
+      "markdown": "New Zealand Police used browser mapping to make geographic information available to more staff. The early-1999 client GIS was initially distributed to nineteen analyst sites and later expanded to thirty-three. Each site carried the cost and support burden of a customised workstation, printer, local software and locally loaded mapping and crime data. Once the organisation wanted broader access, this architecture became cumbersome.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "About eighteen months after the desktop rollout, Police decided to replace the locally installed application with web-based mapping as part of a wider thin-client strategy. Wellington used the MAPS name by November 1999; a general browser-based release followed in late 2000. The two dates mark distinct stages in that move to web mapping.",
+      "markdown": "About eighteen months after the desktop rollout, Police decided to replace the locally installed application with web-based mapping as part of a wider thin-client strategy. Wellington used the MAPS name by November 1999; a general browser-based release followed in late 2000. The two dates mark distinct stages in that move to web mapping.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Routine mapping could potentially be reached from ordinary networked Police computers rather than from a small number of specialist installations. Intelligence analysts remained the main users, but guided queries and simpler mapping functions could be placed in front of operational staff as well. The practitioner history described a system connected to national intelligence and dispatch information, bringing mapping closer to the organisation’s current records rather than relying on occasional local data loads.",
+      "markdown": "Routine mapping could potentially be reached from ordinary networked Police computers rather than from a small number of specialist installations. Intelligence analysts remained the main users, but guided queries and simpler mapping functions could be placed in front of operational staff as well. The practitioner history described a system connected to national intelligence and dispatch information, bringing mapping closer to the organisation’s current records rather than relying on occasional local data loads.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Specialists continued using desktop GIS. Police later retained or restored higher-end analytical capability for users who needed more flexibility than the browser application provided. This coexistence is central to the period. Web GIS expanded the audience while desktop GIS remained the workbench for specialist analysis, data management and system administration.",
+      "markdown": "Specialists continued using desktop GIS. Police later retained or restored higher-end analytical capability for users who needed more flexibility than the browser application provided. This coexistence is central to the period. Web GIS expanded the audience while desktop GIS remained the workbench for specialist analysis, data management and system administration.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

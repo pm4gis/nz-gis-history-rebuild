@@ -1,0 +1,46 @@
+{
+  "id": "person:peter-woodsford",
+  "slug": "peter-woodsford",
+  "name": "Peter Woodsford",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/peter-woodsford/",
+  "story": [
+    "A later technical account by Geoff Howard, Robin Pickering, Dave Mole and Peter Woodsford records that Surveyor-General Bill Robertson approved a business case around 1987 to convert the 1:250,000 mapping into a digital database. The programme was expected to take about three years but was reported as completed in roughly eighteen months.",
+    "The 1999 account adds Dave Mole and Peter Woodsford during the move to Laser-Scan technology."
+  ],
+  "sources": [
+    {
+      "label": "Peter Woodsford - Retired | LinkedIn · public profile",
+      "url": "https://uk.linkedin.com/in/peterwoodsford"
+    },
+    {
+      "label": "Chapter 15 · A small-scale database first",
+      "url": "/stories/topography-goes-digital/"
+    },
+    {
+      "label": "Chapter 15 · People behind the database",
+      "url": "/stories/topography-goes-digital/"
+    }
+  ],
+  "aliases": [
+    "Peter Woodsford"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 15 · A small-scale database first",
+        "url": "/stories/topography-goes-digital/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 15 · People behind the database",
+        "url": "/stories/topography-goes-digital/"
+      }
+    ]
+  ]
+}

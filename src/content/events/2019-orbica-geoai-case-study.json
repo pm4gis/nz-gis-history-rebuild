@@ -1,0 +1,25 @@
+{
+  "id": "2019-orbica-geoai-case-study",
+  "dateDisplay": "April 2019",
+  "startDate": "2019-04",
+  "datePrecision": "month",
+  "year": 2019,
+  "label": "AI Forum profiles Orbica’s GeoAI work",
+  "summary": "The case study describes Orbica combining high-resolution imagery, machine learning and geospatial analysis to monitor construction progress at a Thyssenkrupp site in Saudi Arabia.",
+  "url": "/stories/automating-the-gis-work/#automation-reaches-imagery-6fd3556448",
+  "passageIds": [
+    "passage:chapter-43-6fd3556448"
+  ],
+  "recordIds": [
+    "entity:orbica",
+    "chapter:43"
+  ],
+  "themeIds": [],
+  "categories": [
+    "industry",
+    "ai",
+    "imagery",
+    "automation"
+  ],
+  "sources": []
+}

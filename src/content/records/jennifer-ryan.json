@@ -1,0 +1,38 @@
+{
+  "id": "person:jennifer-ryan",
+  "slug": "jennifer-ryan",
+  "name": "Jennifer Ryan",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jennifer-ryan/",
+  "story": [
+    "LINZ’s 2013 geospatial virtual field trip identified Jennifer Ryan as Manager Chart Production. The record provides a named link to the production management behind digital government charting and to LINZ’s geospatial education programme.",
+    "LINZ names Jennifer Ryan in its geospatial virtual field-trip record: Manager Chart Production, LINZ, 2013 VFT."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Jennifer Ryan"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

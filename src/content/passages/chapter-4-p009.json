@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-4-6d293d43f3",
+  "slug": "raster-work-before-commercial-gis-6d293d43f3",
+  "articleId": "article:chapter-4",
+  "title": "Raster work before commercial GIS",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:4",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of the 1970s, New Zealand organisations were maintaining several types of machine-readable geographic information. PEL had digital satellite rasters, image-processing software, rectification methods and a computerised imagery catalogue. Lands and Survey was using computers in orthophoto and cadastral mapping. Land-resource staff were digitising mapped environmental units into polygon databases. These systems were developed by different organisations for different operational needs and were not yet parts of one standard national GIS environment.",
+      "markdown": "By the end of the 1970s, New Zealand organisations were maintaining several types of machine-readable geographic information. PEL had digital satellite rasters, image-processing software, rectification methods and a computerised imagery catalogue. Lands and Survey was using computers in orthophoto and cadastral mapping. Land-resource staff were digitising mapped environmental units into polygon databases. These systems were developed by different organisations for different operational needs and were not yet parts of one standard national GIS environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Raster and vector processing also remained technically distinct. Satellite imagery was organised as grids of measured values. Cadastral and land-resource systems represented discrete features through coordinates and polygons. Each model suited different source material and different questions. Commercial GIS software later combined both forms within common interfaces and data-management systems, but New Zealand practitioners had already accumulated experience with each before that consolidation.",
+      "markdown": "Raster and vector processing also remained technically distinct. Satellite imagery was organised as grids of measured values. Cadastral and land-resource systems represented discrete features through coordinates and polygons. Each model suited different source material and different questions. Commercial GIS software later combined both forms within common interfaces and data-management systems, but New Zealand practitioners had already accumulated experience with each before that consolidation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Landsat research continued beyond the first investigation period. Later satellites provided more bands, different resolutions and larger archives, while personal computers and specialist image-processing packages reduced some of the early hardware constraints. The 1975–77 PEL work remains a clear early record of New Zealand organisations processing the landscape directly as digital raster data.",
+      "markdown": "Landsat research continued beyond the first investigation period. Later satellites provided more bands, different resolutions and larger archives, while personal computers and specialist image-processing packages reduced some of the early hardware constraints. The 1975–77 PEL work remains a clear early record of New Zealand organisations processing the landscape directly as digital raster data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "During the same period, land-resource staff were creating the New Zealand Land Resource Inventory from field survey, aerial photography and thematic information. Between 1977 and 1980 they digitised the mapped units and their descriptions into a national database managed through LADEDA. Chapter 5 follows that work with polygons and attributes in an explicitly described geographic information system.",
+      "markdown": "During the same period, land-resource staff were creating the New Zealand Land Resource Inventory from field survey, aerial photography and thematic information. Between 1977 and 1980 they digitised the mapped units and their descriptions into a national database managed through LADEDA. Chapter 5 follows that work with polygons and attributes in an explicitly described geographic information system.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

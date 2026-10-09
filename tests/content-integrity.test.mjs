@@ -8,51 +8,62 @@ import { inspectContent } from "../src/lib/content-integrity.mjs";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const readJsonDir = async (relative) => Promise.all(
   (await readdir(path.join(root, relative))).filter((file) => file.endsWith(".json")).map(async (file) =>
-    JSON.parse(await readFile(path.join(root, relative, file), "utf8"))),
+    JSON.parse(await readFile(path.join(root, relative, file), "utf8")),
+  ),
 );
-const sample = {
-  records: await readJsonDir("src/content/records"),
-  events: await readJsonDir("src/content/events"),
-  relationships: await readJsonDir("src/content/relationships"),
-  articles: await readJsonDir("src/content/articles"),
-  passages: await readJsonDir("src/content/passages"),
-  themes: await readJsonDir("src/content/themes"),
-  images: await readJsonDir("src/content/images"),
-};
+let corpusPromise;
+const corpus = () => corpusPromise ??= Promise.all([
+  readJsonDir("src/content/records"),
+  readJsonDir("src/content/events"),
+  readJsonDir("src/content/relationships"),
+  readJsonDir("src/content/articles"),
+  readJsonDir("src/content/passages"),
+  readJsonDir("src/content/themes"),
+  readJsonDir("src/content/images"),
+]).then(([records, events, relationships, articles, passages, themes, images]) => ({ records, events, relationships, articles, passages, themes, images }));
 
-test("small sample keeps the published AAM / NorthSouth text and date precision", () => {
-  assert.ok(sample.records.some((record) => record.id === "entity:aam-aamhatch"));
-  assert.ok(sample.records.some((record) => record.id === "entity:northsouth-gis-nz"));
-  assert.equal(sample.articles.length, 1);
-  assert.equal(sample.passages.length, 2);
-  assert.equal(sample.events.length, 2);
-  assert.ok(sample.events.every((event) => event.datePrecision === "year"));
-  assert.ok(sample.relationships.some((relationship) => relationship.label === "acquired"));
-  assert.equal(sample.images.length, 0, "legacy imagery is not carried into the clean sample");
+test("the complete published baseline includes the AAM / NorthSouth GIS account", { timeout: 60_000 }, async () => {
+  const data = await corpus();
+  assert.equal(data.records.length, 796);
+  assert.equal(data.articles.length, 45, "the preface and 44 imported narrative groups are editable stories");
+  assert.equal(data.passages.length, 583);
+  assert.equal(data.events.length, 167);
+  assert.equal(data.relationships.length, 2502);
+  assert.equal(data.themes.length, 7);
+  assert.equal(data.images.length, 2, "both local image copies have image detail records");
+  assert.ok(data.records.some((record) => record.id === "entity:aam-aamhatch"));
+  assert.ok(data.records.some((record) => record.id === "entity:explorer-graphics-northsouth-gis"));
+  assert.ok(data.events.some((event) => event.id === "2009-aamhatch-wellington-city-model" && event.datePrecision === "year"));
+  assert.ok(data.events.some((event) => event.id === "2014-aam-acquires-northsouth-gis-nz" && event.datePrecision === "year"));
 });
 
-test("all sample links, sources, routes and local image copies validate", () => {
-  assert.deepEqual(inspectContent(sample), []);
-  const serialized = JSON.stringify(sample);
+test("all imported links, routes, source references and local image copies validate", { timeout: 60_000 }, async () => {
+  const data = await corpus();
+  assert.deepEqual(inspectContent(data), []);
+  const serialized = JSON.stringify(data);
   assert.doesNotMatch(serialized, /researchRegister|editorialNotes|drive\.google|contributorEmail|assets\/contributions|research register source/i);
+  const redirects = await readFile(path.join(root, "public/_redirects"), "utf8");
+  assert.equal(redirects.trim().split("\n").length, 44, "all previous story URLs redirect to their new story route");
 });
 
-test("articles can contain any number of passages without chapter numbering", () => {
-  const changed = structuredClone(sample);
+test("the story model accepts more passages without a fixed chapter count", { timeout: 60_000 }, async () => {
+  const changed = structuredClone(await corpus());
   const article = { id: "article:future", slug: "future", title: "Future story", url: "/stories/future/", summary: "An additional story.", status: "published", updatedAt: "2026-10-09", themeIds: [] };
   changed.articles.push(article);
-  for (const [index, id] of ["passage:future-1", "passage:future-2", "passage:future-3", "passage:future-4"].entries()) changed.passages.push({ id, slug: `future-${index + 1}`, articleId: article.id, title: `Passage ${index + 1}`, order: index, updatedAt: article.updatedAt, themeIds: [], recordIds: [], paragraphs: [{ text: "A short passage." }] });
+  for (const [index, id] of ["passage:future-1", "passage:future-2", "passage:future-3", "passage:future-4"].entries()) {
+    changed.passages.push({ id, slug: `future-${index + 1}`, articleId: article.id, title: `Passage ${index + 1}`, order: index, updatedAt: article.updatedAt, themeIds: [], recordIds: [], blocks: [{ type: "paragraph", text: "A short passage." }] });
+  }
   assert.deepEqual(inspectContent(changed), []);
 });
 
-test("an event with unknown date precision remains publishable", () => {
-  const changed = structuredClone(sample);
+test("an event with unknown date precision remains publishable", { timeout: 60_000 }, async () => {
+  const changed = structuredClone(await corpus());
   changed.events.push({ id: "event:undated", dateDisplay: "Date unknown", startDate: "unknown", datePrecision: "unknown", label: "Undated sample event", summary: "A record without a known date.", passageIds: [], themeIds: [], sources: [] });
   assert.deepEqual(inspectContent(changed), []);
 });
 
-test("broken relationship endpoints and duplicate routes are flagged", () => {
-  const changed = structuredClone(sample);
+test("broken relationship endpoints and duplicate routes are flagged", { timeout: 60_000 }, async () => {
+  const changed = structuredClone(await corpus());
   changed.relationships[0].a = "record:missing";
   changed.records[0].url = changed.records[1].url;
   changed.relationships[1].basis = "";

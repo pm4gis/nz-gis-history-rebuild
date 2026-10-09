@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-35-2111aa07df",
+  "slug": "one-system-several-interfaces-2111aa07df",
+  "articleId": "article:chapter-35",
+  "title": "One system, several interfaces",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 2020 Manaaki system combined several applications. A contemporary technical document described a Survey123 data-entry form with map and dashboard, a separate registration form, a shared feature layer, multiple mapping applications, a tabbed StoryMap used as the main launch interface, embedded forms and viewers, dashboards, website pages, permissions, access groups, backups and reshared public data. Different users encountered different parts of the system according to what they needed to do.",
+      "markdown": "The 2020 Manaaki system combined several applications. A contemporary technical document described a Survey123 data-entry form with map and dashboard, a separate registration form, a shared feature layer, multiple mapping applications, a tabbed StoryMap used as the main launch interface, embedded forms and viewers, dashboards, website pages, permissions, access groups, backups and reshared public data. Different users encountered different parts of the system according to what they needed to do.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The health and community-response purpose of Manaaki belongs principally in Chapter 27. What belongs here is the architecture of the user experience. A person registering for access did not need the same interface as someone entering place-based information. A manager looking for patterns did not need the same interface as a contributor completing a form. A public user could be given selected maps and information without receiving access to restricted records. The system therefore used several applications over the same broader information environment rather than expecting one interface to serve everybody.",
+      "markdown": "The health and community-response purpose of Manaaki belongs principally in Chapter 27. What belongs here is the architecture of the user experience. A person registering for access did not need the same interface as someone entering place-based information. A manager looking for patterns did not need the same interface as a contributor completing a form. A public user could be given selected maps and information without receiving access to restricted records. The system therefore used several applications over the same broader information environment rather than expecting one interface to serve everybody.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The data-entry form was deliberately designed to make geography simple. The technical record described place-based capture through a small number of mapping steps rather than relying only on typed addresses. Each user's visibility was restricted so that users did not automatically see one another's records. A single feature layer sat underneath, but the application rules controlled which parts of that layer appeared to different people. GIS supplied location and data services behind the application workflow.",
+      "markdown": "The data-entry form was deliberately designed to make geography simple. The technical record described place-based capture through a small number of mapping steps rather than relying only on typed addresses. Each user's visibility was restricted so that users did not automatically see one another's records. A single feature layer sat underneath, but the application rules controlled which parts of that layer appeared to different people. GIS supplied location and data services behind the application workflow.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Manaaki’s workflow used configurable components from Survey123, ArcGIS Online, dashboards and StoryMaps. Configuration still required substantial design work around the data model, permissions, user groups, backup process, embedded applications and transition options. It reduced some programming effort while increasing the value of understanding how the pieces fitted together.",
+      "markdown": "Manaaki’s workflow used configurable components from Survey123, ArcGIS Online, dashboards and StoryMaps. Configuration still required substantial design work around the data model, permissions, user groups, backup process, embedded applications and transition options. It reduced some programming effort while increasing the value of understanding how the pieces fitted together.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The system also demonstrates why the phrase \"the application\" can be misleading. Modern spatial systems often present a family of interfaces over shared data. A user sees the form, dashboard or launch page relevant to them, while administrators see layers, groups and services underneath. The map becomes one component among many. By this stage, asking which single map represents the system is almost the wrong question.",
+      "markdown": "The system also demonstrates why the phrase \"the application\" can be misleading. Modern spatial systems often present a family of interfaces over shared data. A user sees the form, dashboard or launch page relevant to them, while administrators see layers, groups and services underneath. The map becomes one component among many. By this stage, asking which single map represents the system is almost the wrong question.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

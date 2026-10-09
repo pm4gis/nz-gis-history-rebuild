@@ -1,0 +1,31 @@
+{
+  "id": "person:darren-walton",
+  "slug": "darren-walton",
+  "name": "Darren Walton",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/darren-walton/",
+  "story": [
+    "Sophie Curtis-Ham and Darren Walton’s 2017 Applied Geography paper compared two approaches at Census Area Unit level: the Priority Locations Index and the New Zealand Crime Harm Index. Both used geography to guide attention, but they measured different things. Treating them as alternative hot-spot maps would lose the point of the comparison."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 28 · From hot spots to priority locations",
+      "url": "/stories/safety-policing-and-emergency-gis/"
+    }
+  ],
+  "aliases": [
+    "Darren Walton"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 28 · From hot spots to priority locations",
+        "url": "/stories/safety-policing-and-emergency-gis/"
+      }
+    ]
+  ]
+}

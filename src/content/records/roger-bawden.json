@@ -1,0 +1,31 @@
+{
+  "id": "person:roger-bawden",
+  "slug": "roger-bawden",
+  "name": "Roger Bawden",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/roger-bawden/",
+  "story": [
+    "Roger Bawden of Wildland Consultants is credited with GIS work in the 2008 follow-up to the Whole of Northland biodiversity project. In that account, Whangarei District Council had 613 covenant sites that could be compared with regional natural-area mapping, and other protection or management records were incomplete, erroneous or not spatial at all. Regional GIS integration therefore required converting and qualifying information before it could be compared across organisations."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23 · The parcel becomes a key",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Roger Bawden"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · The parcel becomes a key",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

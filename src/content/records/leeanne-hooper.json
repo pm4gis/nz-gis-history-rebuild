@@ -1,0 +1,31 @@
+{
+  "id": "person:leeanne-hooper",
+  "slug": "leeanne-hooper",
+  "name": "Leeanne Hooper",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/leeanne-hooper/",
+  "story": [
+    "Tom Brooks’s April 2006 Heretaunga groundwater-model report acknowledges Kim Coulson for water levels, Simon Harper for wells, Jenna Hewetson for compliance pumping, Leeanne Hooper for groundwater consent allocations, Carol Robertson for surface water, and Darrel Hall for the graphical-information-system contribution. GIS was not the groundwater model itself. It was part of the assembly that made separate monitoring, consent and well records usable together. Two years later, Hall took part in the regional practitioner forum as the council's GIS Coordinator."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23 · Planning as data",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Leeanne Hooper"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · Planning as data",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "passage:chapter-23-043968e0e8",
+  "slug": "planning-as-data-043968e0e8",
+  "articleId": "article:chapter-23",
+  "title": "Planning as data",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "person:darrel-hall",
+    "person:tom-brooks",
+    "person:kim-coulson",
+    "person:simon-harper",
+    "person:jenna-hewetson",
+    "person:leeanne-hooper",
+    "person:carol-robertson"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Planning records were particularly suited to this arrangement because councils already maintained maps that divided land according to regulatory rules. District schemes and later district plans contained zones, designations, hazards and other mapped provisions. GIS allowed those boundaries to be stored as maintained features that could be queried beside properties and other council records rather than redrawn for each map edition.",
+      "markdown": "Planning records were particularly suited to this arrangement because councils already maintained maps that divided land according to regulatory rules. District schemes and later district plans contained zones, designations, hazards and other mapped provisions. GIS allowed those boundaries to be stored as maintained features that could be queried beside properties and other council records rather than redrawn for each map edition.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The link to property made planning information more useful inside ordinary council work. A planner could identify which rules applied to a site, while property and building staff could see the same zoning or hazard information beside their own records. Engineering staff could compare proposed development with roads or services. The planning layer remained a regulatory dataset with its own legal status, but it could participate in a wider corporate information environment.",
+      "markdown": "The link to property made planning information more useful inside ordinary council work. A planner could identify which rules applied to a site, while property and building staff could see the same zoning or hazard information beside their own records. Engineering staff could compare proposed development with roads or services. The planning layer remained a regulatory dataset with its own legal status, but it could participate in a wider corporate information environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Regional councils had a different emphasis. Their work involved catchments, rivers, groundwater, air, coast, land resources, hazards and monitoring networks across large areas. GIS provided a way to maintain those scientific and regulatory records alongside administrative and property references, but the national surveys caution against assuming that every intended use was immediately operational. The technology spread faster than some of the business processes built around it.",
+      "markdown": "Regional councils had a different emphasis. Their work involved catchments, rivers, groundwater, air, coast, land resources, hazards and monitoring networks across large areas. GIS provided a way to maintain those scientific and regulatory records alongside administrative and property references, but the national surveys caution against assuming that every intended use was immediately operational. The technology spread faster than some of the business processes built around it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "One Hawke's Bay report shows exactly how GIS sat inside this work. In April 2006 Tom Brooks's Heretaunga Steady-State Ground-Water Model drew data from council systems called WellStor, Daisy and Hilltop, along with compliance pumping records. The acknowledgements name the people behind the inputs: Kim Coulson for water levels, Simon Harper for wells, Jenna Hewetson for compliance pumping, Leeanne Hooper for groundwater consent allocations, Carol Robertson for surface water, and Darrel Hall for the graphical-information-system contribution. GIS was not the groundwater model itself. It was part of the assembly that made separate monitoring, consent and well records usable together. Two years later, Hall took part in the regional practitioner forum as the council's GIS Coordinator.",
+      "markdown": "One Hawke's Bay report shows exactly how GIS sat inside this work. In April 2006 Tom Brooks's Heretaunga Steady-State Ground-Water Model drew data from council systems called WellStor, Daisy and Hilltop, along with compliance pumping records. The acknowledgements name the people behind the inputs: Kim Coulson for water levels, Simon Harper for wells, Jenna Hewetson for compliance pumping, Leeanne Hooper for groundwater consent allocations, Carol Robertson for surface water, and Darrel Hall for the graphical-information-system contribution. GIS was not the groundwater model itself. It was part of the assembly that made separate monitoring, consent and well records usable together. Two years later, Hall took part in the regional practitioner forum as the council's GIS Coordinator.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Regional, city and district councils had different statutory responsibilities and therefore different GIS priorities. A district or city council might build its corporate GIS around property and infrastructure because those records drove rates, planning and services. A regional council could depend more heavily on catchments, environmental monitoring and resource-management information. Both were moving towards shared organisational systems, but they were not solving the same set of problems.",
+      "markdown": "Regional, city and district councils had different statutory responsibilities and therefore different GIS priorities. A district or city council might build its corporate GIS around property and infrastructure because those records drove rates, planning and services. A regional council could depend more heavily on catchments, environmental monitoring and resource-management information. Both were moving towards shared organisational systems, but they were not solving the same set of problems.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

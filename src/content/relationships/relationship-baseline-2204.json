@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2204",
+  "a": "person:michael-gin",
+  "b": "entity:auckland-council",
+  "label": "Associated with",
+  "basis": "Documented association in the people-expansion research; role and period are described in the linked profile sources.",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0779",
+  "a": "person:brent-wood",
+  "b": "chapter:43",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-43-66aa2e3a19"
+  ],
+  "sources": []
+}

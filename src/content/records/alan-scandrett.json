@@ -1,0 +1,31 @@
+{
+  "id": "person:alan-scandrett",
+  "slug": "alan-scandrett",
+  "name": "Alan Scandrett",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/alan-scandrett/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Alan Scandrett: University of Auckland Geography Honours; LINZ 2016/17 and Watercare 2017/18 summer internships."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Alan Scandrett"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

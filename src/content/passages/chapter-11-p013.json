@@ -1,0 +1,48 @@
+{
+  "id": "passage:chapter-11-a8f3c41256",
+  "slug": "from-individual-papers-to-a-national-pathway-a8f3c41256",
+  "articleId": "article:chapter-11",
+  "title": "From individual papers to a national pathway",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The later education landscape was much broader than the early university laboratories. LINZ’s tertiary directory, updated in March 2026, lists GIS teaching across all eight New Zealand universities as well as NorthTec, Unitec, Eastern Institute of Technology and the Southern Institute of Technology. The offerings range from introductory papers and minors to majors, postgraduate programmes, remote sensing and geospatial data science. LINZ also published student and graduate profiles to show how that study translated into work in councils, central government, defence, research, consulting, infrastructure, environmental management and Māori organisations.",
+      "markdown": "The later education landscape was much broader than the early university laboratories. LINZ’s tertiary directory, updated in March 2026, lists GIS teaching across all eight New Zealand universities as well as NorthTec, Unitec, Eastern Institute of Technology and the Southern Institute of Technology. The offerings range from introductory papers and minors to majors, postgraduate programmes, remote sensing and geospatial data science. LINZ also published student and graduate profiles to show how that study translated into work in councils, central government, defence, research, consulting, infrastructure, environmental management and Māori organisations.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Capability policy increasingly tried to connect those courses with employment. LINZ cited the 2012 geospatial skills-shortage research and the 2016 Graduate Pathways work when explaining its tertiary GIS scholarships. Scholarship recipients included students studying GIS, spatial data science and geospatial science through several institutions. In September 2026 LINZ announced that it would not call for applications for the 2027 academic year because of budget constraints, while leaving open a reassessment for 2028. That pause belongs in the chronology because it shows that geospatial education support was a funded programme, not simply promotional material.",
+      "markdown": "Capability policy increasingly tried to connect those courses with employment. LINZ cited the 2012 geospatial skills-shortage research and the 2016 Graduate Pathways work when explaining its tertiary GIS scholarships. Scholarship recipients included students studying GIS, spatial data science and geospatial science through several institutions. In September 2026 LINZ announced that it would not call for applications for the 2027 academic year because of budget constraints, while leaving open a reassessment for 2028. That pause belongs in the chronology because it shows that geospatial education support was a funded programme, not simply promotional material.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "LINZ’s student and graduate profiles name Alan Scandrett, Alex Pasco, Alistair Collow, Amit Kokje, Cait Giles, Cheng Ho Pan (Ben Cheng), Chloe Samaratunga, Christina McCabe, Deanna Teao, Dempsey Rose-Day, Emma Burge, Hamish Kingsbury, Hannah Reid, Jennifer Coppola, Jordan Stewart, Josef Beautrais, Kasey Oomen, Kelly Hayhurst, Kiu Hei Chloe Yip, Mat Darling, Nikora Warren Heitia, Rachael Nilsson, Rebecca McMorran, Richard Law, Ronny Rowe, Sam Williamson, Samuel Wong, Shalini Mukherjee, Spencer Han, Taipuni Ruakere, Talia Mather, Tania Te Hira, Tristan McHardie, Will Jones. Its tertiary course directory, updated in March 2026, also names Katarzyna Sila-Nowicka, Lars Brabyn, Kristin Stock, Jonathan Procter, Russell Prince, Mairéad de Róiste, Ocean Mercier, Vanessa Bastos, Ioannis Delikostidis, Carolynne Hultquist, Lindsey Conrow, Crile Doscher, Antoni Moore, Chifuyu Horikoshi, Glenn Aguilar, Lisa Turnbull, Dinusha Jayathilake, Phil Lockett as institutional course or programme contacts. The directory listing records an education relationship at that date; it is not treated here as a substantive biography.",
+      "markdown": "LINZ’s student and graduate profiles name Alan Scandrett, Alex Pasco, Alistair Collow, Amit Kokje, Cait Giles, Cheng Ho Pan (Ben Cheng), Chloe Samaratunga, Christina McCabe, Deanna Teao, Dempsey Rose-Day, Emma Burge, Hamish Kingsbury, Hannah Reid, Jennifer Coppola, Jordan Stewart, Josef Beautrais, Kasey Oomen, Kelly Hayhurst, Kiu Hei Chloe Yip, Mat Darling, Nikora Warren Heitia, Rachael Nilsson, Rebecca McMorran, Richard Law, Ronny Rowe, Sam Williamson, Samuel Wong, Shalini Mukherjee, Spencer Han, Taipuni Ruakere, Talia Mather, Tania Te Hira, Tristan McHardie, Will Jones. Its tertiary course directory, updated in March 2026, also names Katarzyna Sila-Nowicka, Lars Brabyn, Kristin Stock, Jonathan Procter, Russell Prince, Mairéad de Róiste, Ocean Mercier, Vanessa Bastos, Ioannis Delikostidis, Carolynne Hultquist, Lindsey Conrow, Crile Doscher, Antoni Moore, Chifuyu Horikoshi, Glenn Aguilar, Lisa Turnbull, Dinusha Jayathilake, Phil Lockett as institutional course or programme contacts. The directory listing records an education relationship at that date; it is not treated here as a substantive biography.",
+      "sources": [
+        {
+          "label": "LINZ, Studying GIS",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

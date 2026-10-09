@@ -1,0 +1,23 @@
+{
+  "id": "1960-government-computing",
+  "dateDisplay": "1960 to 1961",
+  "startDate": "1960",
+  "endDate": "1961",
+  "datePrecision": "year-range",
+  "year": 1960,
+  "label": "Stored-program government computing becomes operational",
+  "summary": "Early government and DSIR computing created the electronic environment later used for survey, engineering and spatial work.",
+  "url": "/stories/coordinates-enter-the-computer/#the-first-government-machines-57e353c855",
+  "passageIds": [
+    "passage:chapter-2-57e353c855"
+  ],
+  "recordIds": [
+    "chapter:2"
+  ],
+  "themeIds": [],
+  "categories": [
+    "computing",
+    "government"
+  ],
+  "sources": []
+}

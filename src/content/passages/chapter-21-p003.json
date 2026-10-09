@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-21-360e89fffc",
+  "slug": "the-exchange-problem-360e89fffc",
+  "articleId": "article:chapter-21",
+  "title": "The exchange problem",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21",
+    "entity:new-zealand-fire-service"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the early 2000s, the practical dependence between agencies was already extensive. The Geospatial Strategy later used the New Zealand Fire Service as one example. Fire operations depended on large national datasets of roads, addresses and place names for locating incidents and dispatching resources. Cadastral and topographic information helped define jurisdictions, road data supported station-location analysis, demographic information could be related to incident records, and weather information was mapped for operational use.",
+      "markdown": "By the early 2000s, the practical dependence between agencies was already extensive. The Geospatial Strategy later used the New Zealand Fire Service as one example. Fire operations depended on large national datasets of roads, addresses and place names for locating incidents and dispatching resources. Cadastral and topographic information helped define jurisdictions, road data supported station-location analysis, demographic information could be related to incident records, and weather information was mapped for operational use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Other agencies maintained most of the datasets used by the Fire Service. Its operational GIS therefore depended on information produced and maintained elsewhere. A current address database or road network could affect whether a system located an emergency correctly, while an outdated or differently coded dataset could create additional checking work. The organisation consuming the information had to trust both the data and the process by which updates reached it.",
+      "markdown": "Other agencies maintained most of the datasets used by the Fire Service. Its operational GIS therefore depended on information produced and maintained elsewhere. A current address database or road network could affect whether a system located an emergency correctly, while an outdated or differently coded dataset could create additional checking work. The organisation consuming the information had to trust both the data and the process by which updates reached it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Scientific organisations had a similar dependency with a different mix of sources. The 2007 strategy described Landcare Research working with distributed environmental datasets across several offices and collaborating with other Crown research institutes. Its examples included modelling flood-related slip scars from satellite imagery, elevation data and field checks, national nitrate-leaching analysis using land use, climate and soils, and invasive-species modelling using environmental information from New Zealand and overseas. None of those analyses could be reduced to one database maintained by one institution.",
+      "markdown": "Scientific organisations had a similar dependency with a different mix of sources. The 2007 strategy described Landcare Research working with distributed environmental datasets across several offices and collaborating with other Crown research institutes. Its examples included modelling flood-related slip scars from satellite imagery, elevation data and field checks, national nitrate-leaching analysis using land use, climate and soils, and invasive-species modelling using environmental information from New Zealand and overseas. None of those analyses could be reduced to one database maintained by one institution.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was the environment in which government began formal work on a national strategy. The issue was no longer whether GIS could combine layers. Practitioners had been doing that for years. The problem was whether the institutional arrangements around those layers allowed the combination to be repeated reliably across agencies, projects and time.",
+      "markdown": "This was the environment in which government began formal work on a national strategy. The issue was no longer whether GIS could combine layers. Practitioners had been doing that for years. The problem was whether the institutional arrangements around those layers allowed the combination to be repeated reliably across agencies, projects and time.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

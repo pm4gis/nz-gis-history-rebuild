@@ -1,0 +1,31 @@
+{
+  "id": "person:tom-brooks",
+  "slug": "tom-brooks",
+  "name": "Tom Brooks",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/tom-brooks/",
+  "story": [
+    "In April 2006 Tom Brooks's Heretaunga Steady-State Ground-Water Model drew data from council systems called WellStor, Daisy and Hilltop, along with compliance pumping records."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23 · Planning as data",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Tom Brooks"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · Planning as data",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

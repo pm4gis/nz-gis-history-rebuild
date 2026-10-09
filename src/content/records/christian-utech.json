@@ -1,0 +1,51 @@
+{
+  "id": "person:christian-utech",
+  "slug": "christian-utech",
+  "name": "Christian Utech",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/christian-utech/",
+  "story": [
+    "Christian Utech's professional record includes GIS work with Tonkin + Taylor and the GISP-AP credential. He has also contributed to mapping accessibility through work with the Royal New Zealand Foundation of the Blind. His conference presentation on Braille maps connected spatial technology with the everyday navigation needs of vision-impaired people.",
+    "Christian Utech’s professional record dates his Mapping for the Blind presentation to 10 November 2004 at the New Zealand Esri User Conference. He describes working with mobility instructors and vision-impaired users to design Braille navigation maps. The account preserves a practitioner example of accessibility mapping from that conference period.",
+    "Christian Utech presented “Mapping for the Blind” on 10 November 2004, describing work with mobility instructors and vision-impaired people to produce practical Braille maps. In 2006, Serge Peeters presented an ArcGIS-based airport air-quality application that generated spatio-temporal emission inventories and converted them into three-dimensional grid cells. Accessibility, environmental modelling and applied GIS appeared alongside council and practitioner work."
+  ],
+  "sources": [
+    {
+      "label": "Christian Utech professional profile, 'Mapping for the Blind' conference presentation record",
+      "url": "https://nz.linkedin.com/in/christian-utech-gisp-7ab0804"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Christian Utech"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Christian Utech, GISP - Tonkin + Taylor | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/christian-utech-gisp-7ab0804"
+      }
+    ],
+    [
+      {
+        "label": "Christian Utech professional profile, 'Mapping for the Blind' conference presentation record",
+        "url": "https://nz.linkedin.com/in/christian-utech-gisp-7ab0804"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

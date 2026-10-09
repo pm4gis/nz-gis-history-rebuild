@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-40-c7180f7625",
+  "slug": "standards-become-operational-c7180f7625",
+  "articleId": "article:chapter-40",
+  "title": "Standards become operational",
+  "order": 18,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Enterprise GIS also turned standards from good intentions into daily operating requirements. When several teams share the same roads, parcels, addresses, assets or environmental features, differences in field names, identifiers, coordinate systems and update rules stop being local annoyances. They become integration failures. A property application cannot reliably join to a parcel layer if the identifiers are unstable, and a field workflow cannot validate an asset if the corporate database uses a different classification from the system that issued the work order. Standardisation therefore became one of the less visible forms of enterprise infrastructure.",
+      "markdown": "Enterprise GIS also turned standards from good intentions into daily operating requirements. When several teams share the same roads, parcels, addresses, assets or environmental features, differences in field names, identifiers, coordinate systems and update rules stop being local annoyances. They become integration failures. A property application cannot reliably join to a parcel layer if the identifiers are unstable, and a field workflow cannot validate an asset if the corporate database uses a different classification from the system that issued the work order. Standardisation therefore became one of the less visible forms of enterprise infrastructure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand organisations dealt with that pressure in several ways. LINZ's Core Records System required survey, title, image and spatial information to coexist inside one national transaction environment. Christchurch was trying to bring GIS, property and environmental information into one corporate electronic-information setting. DOC's national platform connected a geodatabase, browser clients and business databases across a geographically dispersed department. NIWA's scientific infrastructure took a more federated route, but metadata and service standards were essential precisely because the underlying information came from different projects and disciplines.",
+      "markdown": "New Zealand organisations dealt with that pressure in several ways. LINZ's Core Records System required survey, title, image and spatial information to coexist inside one national transaction environment. Christchurch was trying to bring GIS, property and environmental information into one corporate electronic-information setting. DOC's national platform connected a geodatabase, browser clients and business databases across a geographically dispersed department. NIWA's scientific infrastructure took a more federated route, but metadata and service standards were essential precisely because the underlying information came from different projects and disciplines.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Enterprise GIS worked best when organisations standardised the things that needed to cross boundaries while allowing specialist information to remain specialist. Common coordinate references, identifiers, service conventions, metadata and agreed definitions could provide enough consistency for reuse. A scientific observation, a cadastral parcel and an electricity cable could retain different data models while still participating in the same organisational environment. The difficult work was deciding which standards were genuinely organisational and which were merely convenient for the team currently administering the platform.",
+      "markdown": "Enterprise GIS worked best when organisations standardised the things that needed to cross boundaries while allowing specialist information to remain specialist. Common coordinate references, identifiers, service conventions, metadata and agreed definitions could provide enough consistency for reuse. A scientific observation, a cadastral parcel and an electricity cable could retain different data models while still participating in the same organisational environment. The difficult work was deciding which standards were genuinely organisational and which were merely convenient for the team currently administering the platform.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Publishing also became a controlled step in its own right. An editor could maintain detailed or sensitive information in an authoritative environment while a wider audience received a simpler read-only service. That separation reduced the temptation to let every application connect directly to production data and allowed organisations to present information at a level suited to the user. It also created another dependency: the published service had to be refreshed, monitored and kept consistent with its source. Enterprise GIS therefore added a lifecycle between capture and use, with authoritative data being maintained, validated, published and then consumed by several different clients.",
+      "markdown": "Publishing also became a controlled step in its own right. An editor could maintain detailed or sensitive information in an authoritative environment while a wider audience received a simpler read-only service. That separation reduced the temptation to let every application connect directly to production data and allowed organisations to present information at a level suited to the user. It also created another dependency: the published service had to be refreshed, monitored and kept consistent with its source. Enterprise GIS therefore added a lifecycle between capture and use, with authoritative data being maintained, validated, published and then consumed by several different clients.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The cumulative effect was to make GIS less tolerant of casual local changes. Renaming a field, altering a code list or moving a service endpoint might once have affected one map document. In an enterprise environment the same change could break queries, forms, reports or integrations that the person making the change had never seen. Good governance therefore required knowing the dependency chain before touching it. GIS was subject to ordinary organisational requirements for access, maintenance and accountability.",
+      "markdown": "The cumulative effect was to make GIS less tolerant of casual local changes. Renaming a field, altering a code list or moving a service endpoint might once have affected one map document. In an enterprise environment the same change could break queries, forms, reports or integrations that the person making the change had never seen. Good governance therefore required knowing the dependency chain before touching it. GIS was subject to ordinary organisational requirements for access, maintenance and accountability.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

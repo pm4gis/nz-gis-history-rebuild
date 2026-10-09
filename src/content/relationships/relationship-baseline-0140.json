@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0140",
+  "a": "entity:new-zealand-aerial-mapping",
+  "b": "chapter:36",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

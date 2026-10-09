@@ -1,0 +1,46 @@
+{
+  "id": "person:mervyn-c-probine",
+  "slug": "mervyn-c-probine",
+  "name": "Mervyn C. Probine",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mervyn-c-probine/",
+  "story": [
+    "Mervyn C. Probine coordinated the DSIR Landsat II investigation, linking early satellite observations with national digital remote-sensing work.",
+    "Dr M. C. Probine was the principal investigator, with the Remote Sensing Section handling much of the technical work. The formal Landsat II investigation followed earlier image acquisition: an earlier Landsat-1 scene of Canterbury, recorded on 7 December 1973, was later forwarded to DSIR. Satellite imagery had already been collected before the national programme began. By late 1975, however, PEL had a continuing programme for receiving, processing and distributing Landsat data."
+  ],
+  "sources": [
+    {
+      "label": "DSIR Landsat II final report, September 1977",
+      "url": "https://ntrs.nasa.gov/api/citations/19770026620/downloads/19770026620.pdf"
+    },
+    {
+      "label": "Chapter 4 · Landsat arrives",
+      "url": "/stories/turning-the-landscape-into-numbers/"
+    }
+  ],
+  "aliases": [
+    "Mervyn C. Probine",
+    "M. C. Probine",
+    "Dr M. C. Probine"
+  ],
+  "themeIds": [
+    "imagery"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "DSIR Landsat II final report, September 1977",
+        "url": "https://ntrs.nasa.gov/api/citations/19770026620/downloads/19770026620.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 4 · Landsat arrives",
+        "url": "/stories/turning-the-landscape-into-numbers/"
+      }
+    ]
+  ]
+}

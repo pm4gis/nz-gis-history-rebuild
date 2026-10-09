@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-38-7683399e76",
+  "slug": "a-crater-field-above-tongariro-7683399e76",
+  "articleId": "article:chapter-38",
+  "title": "A crater field above Tongariro",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38",
+    "entity:new-zealand-aerial-mapping",
+    "entity:university-of-canterbury",
+    "person:ravitej-pitchika"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The August 2012 Te Maari eruption left hundreds of ballistic impact craters across part of the Tongariro landscape. New Zealand Aerial Mapping flew LiDAR and aerial imagery over the area in November that year, producing a broad record of the disturbed surface. Several years later, University of Canterbury research returned to a much smaller crater field with a very different acquisition system. A Draganfly X4P unmanned aircraft carried a digital camera above the site while ground survey points provided positional control. The images were processed in Agisoft PhotoScan Pro to reconstruct the surface in three dimensions.",
+      "markdown": "The August 2012 Te Maari eruption left hundreds of ballistic impact craters across part of the Tongariro landscape. New Zealand Aerial Mapping flew LiDAR and aerial imagery over the area in November that year, producing a broad record of the disturbed surface. Several years later, University of Canterbury research returned to a much smaller crater field with a very different acquisition system. A Draganfly X4P unmanned aircraft carried a digital camera above the site while ground survey points provided positional control. The images were processed in Agisoft PhotoScan Pro to reconstruct the surface in three dimensions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2012 eruption and the later UAV survey were separate events. Ravitej Pitchika’s 2017 MGIS thesis describes field work conducted roughly four years after the eruption. Remembering it as a 2012 drone survey would collapse the event and the later research into one date. Early UAV mapping in New Zealand also appeared through several routes, including research, surveying, engineering and environmental projects that gradually showed what small aircraft and digital photogrammetry could do.",
+      "markdown": "The 2012 eruption and the later UAV survey were separate events. Ravitej Pitchika’s 2017 MGIS thesis describes field work conducted roughly four years after the eruption. Remembering it as a 2012 drone survey would collapse the event and the later research into one date. Early UAV mapping in New Zealand also appeared through several routes, including research, surveying, engineering and environmental projects that gradually showed what small aircraft and digital photogrammetry could do.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Pitchika's project focused on a site only about 100 square metres in area. The Draganfly was flown at different heights and the photographs were combined with ground-truth survey points. The resulting digital elevation models were used to identify volcanic craters and test how image resolution and flight altitude affected what could be detected. At a 40 metre flight height the model identified 135 craters within the selected site. The thesis compared those results with the much larger LiDAR and orthophoto survey undertaken soon after the eruption and concluded that the UAV approach was feasible and relatively economical for tightly localised work.",
+      "markdown": "Pitchika's project focused on a site only about 100 square metres in area. The Draganfly was flown at different heights and the photographs were combined with ground-truth survey points. The resulting digital elevation models were used to identify volcanic craters and test how image resolution and flight altitude affected what could be detected. At a 40 metre flight height the model identified 135 craters within the selected site. The thesis compared those results with the much larger LiDAR and orthophoto survey undertaken soon after the eruption and concluded that the UAV approach was feasible and relatively economical for tightly localised work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The surveys differed in their coverage, flight arrangements and measurement density. A conventional aircraft carrying a specialist mapping sensor could cover large areas efficiently. A small remotely piloted aircraft could be taken to one slope, one beach, one farm block or one construction site and flown when a particular project required it. The drone did not replace the larger system. It filled a different part of the acquisition spectrum.",
+      "markdown": "The surveys differed in their coverage, flight arrangements and measurement density. A conventional aircraft carrying a specialist mapping sensor could cover large areas efficiently. A small remotely piloted aircraft could be taken to one slope, one beach, one farm block or one construction site and flown when a particular project required it. The drone did not replace the larger system. It filled a different part of the acquisition spectrum.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

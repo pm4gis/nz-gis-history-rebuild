@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0027",
+  "a": "entity:custom-software-quickmap",
+  "b": "chapter:22",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-22-72c3b55191"
+  ],
+  "sources": []
+}

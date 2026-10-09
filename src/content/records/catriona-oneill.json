@@ -1,0 +1,33 @@
+{
+  "id": "person:catriona-oneill",
+  "slug": "catriona-oneill",
+  "name": "Catriona O’Neill",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/catriona-oneill/",
+  "story": [
+    "At a Women in Spatial event in July 2018, Catriona O’Neill presented an update on the NZTA Geospatial team. The event account describes the team’s remit as mapping and analysis, keeping information current, procuring data, advising contracts and business or systems projects, and providing MapHub self-service tools. It records the team update she presented; it does not assign each function as her individual work."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+      "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+    }
+  ],
+  "aliases": [
+    "Catriona O’Neill"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+        "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+      }
+    ]
+  ]
+}

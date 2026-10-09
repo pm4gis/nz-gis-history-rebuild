@@ -1,0 +1,62 @@
+{
+  "id": "person:jan-pierce",
+  "slug": "jan-pierce",
+  "name": "Jan Pierce",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jan-pierce/",
+  "story": [
+    "Jan Pierce joined Land Information New Zealand in 2009 as Deputy Chief Executive Location Information. In that role she led work across the agency’s geographic-information services. She later held the combined Location Information, Policy and Overseas Investment portfolio and was appointed Kaihautū Customer Delivery in August 2021, when LINZ reorganised around customer delivery, digital delivery and other organisation-wide functions."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Leadership team",
+      "url": "https://www.linz.govt.nz/about-us/our-organisation/leadership-team"
+    },
+    {
+      "label": "LINZ Annual Report 2021/22",
+      "url": "https://www.linz.govt.nz/sites/default/files/corp/Toitu%CC%84%20Te%20Whenua%20Annual%20Report%202021-22.pdf"
+    },
+    {
+      "label": "Jan Pierce and Graeme Blick, LINZ’s open data journey, Geospatial World Forum 2016",
+      "url": "https://geospatialworld.net/gwf/speaker/SpeakersImages/Jan%20Pierce.pdf"
+    },
+    {
+      "label": "LINZ, SouthPAN trans-Tasman partnership milestone, 2023",
+      "url": "https://www.linz.govt.nz/news/2023-03/milestone-event-trans-tasman-southpan-partnership"
+    },
+    {
+      "label": "Jan Pierce - Toitū Te Whenua Land Information New Zealand | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/jan-pierce-00b46b55"
+    }
+  ],
+  "aliases": [
+    "Jan Pierce"
+  ],
+  "themeIds": [
+    "open-practice",
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Leadership team",
+        "url": "https://www.linz.govt.nz/about-us/our-organisation/leadership-team"
+      },
+      {
+        "label": "LINZ Annual Report 2021/22",
+        "url": "https://www.linz.govt.nz/sites/default/files/corp/Toitu%CC%84%20Te%20Whenua%20Annual%20Report%202021-22.pdf"
+      },
+      {
+        "label": "Jan Pierce and Graeme Blick, LINZ’s open data journey, Geospatial World Forum 2016",
+        "url": "https://geospatialworld.net/gwf/speaker/SpeakersImages/Jan%20Pierce.pdf"
+      },
+      {
+        "label": "LINZ, SouthPAN trans-Tasman partnership milestone, 2023",
+        "url": "https://www.linz.govt.nz/news/2023-03/milestone-event-trans-tasman-southpan-partnership"
+      }
+    ]
+  ]
+}

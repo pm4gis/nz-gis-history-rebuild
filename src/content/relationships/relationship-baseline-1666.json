@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1666",
+  "a": "person:rob-coup",
+  "b": "chapter:41",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-41-dff8af74a4"
+  ],
+  "sources": []
+}

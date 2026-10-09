@@ -1,0 +1,56 @@
+{
+  "id": "passage:chapter-8-87633bc2db",
+  "slug": "routine-forestry-use-87633bc2db",
+  "articleId": "article:chapter-8",
+  "title": "Routine forestry use",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:8",
+    "entity:scion-forest-research",
+    "person:andrew-dunningham",
+    "person:barbara-hock",
+    "person:tim-payn",
+    "person:j-w-shirley"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of the 1990s GIS sat more naturally beside the other computer tools used in New Zealand forestry. Forest researchers were combining stand maps with digital terrain, growth models and landscape visualisation. Operational programmes were using desktop GIS for mapping and area calculation. Aerial-survey providers could deliver digital mapping instead of forcing every client to digitise paper output again.",
+      "markdown": "By the end of the 1990s GIS sat more naturally beside the other computer tools used in New Zealand forestry. Forest researchers were combining stand maps with digital terrain, growth models and landscape visualisation. Operational programmes were using desktop GIS for mapping and area calculation. Aerial-survey providers could deliver digital mapping instead of forcing every client to digitise paper output again.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Forestry organisations adopted several system architectures. Different organisations used different GIS packages, modelling systems, inventory databases and data sources. Plantation owners also differed in estate size and business requirements. Spatial data became part of the maintained forest record.",
+      "markdown": "Forestry organisations adopted several system architectures. Different organisations used different GIS packages, modelling systems, inventory databases and data sources. Plantation owners also differed in estate size and business requirements. Spatial data became part of the maintained forest record.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1989 TERRASOFT case provides a clear early benchmark because it joins mapping, inventory and harvesting planning inside a named GIS. The East Coast MapInfo project shows desktop GIS embedded in an operational forestry programme several years later. The Westland inventory case records the opposite problem: spatial information can be lost when institutions and systems change, even when the original data collection involved substantial public effort.",
+      "markdown": "The 1989 TERRASOFT case provides a clear early benchmark because it joins mapping, inventory and harvesting planning inside a named GIS. The East Coast MapInfo project shows desktop GIS embedded in an operational forestry programme several years later. The Westland inventory case records the opposite problem: spatial information can be lost when institutions and systems change, even when the original data collection involved substantial public effort.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "An earlier analytical example came from Kaingaroa in 1993. Barbara Höck and Tim Payn of the Forest Research Institute, working with J. W. Shirley of Forestry Corporation, imported 1,643 digital forest compartment boundaries into ARC/INFO. The compartment identifiers linked 744 known site-index values to the spatial data. GIS then supplied compartment-centre coordinates to a geostatistical analysis and received the estimated values back for mapping. The forest’s management units connected inventory records, statistical estimation and map production.",
+      "markdown": "An earlier analytical example came from Kaingaroa in 1993. Barbara Höck and Tim Payn of the Forest Research Institute, working with J. W. Shirley of Forestry Corporation, imported 1,643 digital forest compartment boundaries into ARC/INFO. The compartment identifiers linked 744 known site-index values to the spatial data. GIS then supplied compartment-centre coordinates to a geostatistical analysis and received the estimated values back for mapping. The forest’s management units connected inventory records, statistical estimation and map production.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A 1998 paper by Forest Research scientists Barbara Höck, Tim Payn and Andrew Dunningham describes later work combining remote sensing, permanent sample plots, foliage measurements, soil-map units, GIS and geostatistics. One trial treated satellite pixels as 25-metre ground cells and tested them against measured forest data. Another loaded growth and foliage plots into GIS and overlaid them with soil units while the team worked on a better link between MARVL and GIS. These methods allowed staff to compare field inventory, imagery and environmental information after the institute became a Crown Research Institute.",
+      "markdown": "A 1998 paper by Forest Research scientists Barbara Höck, Tim Payn and Andrew Dunningham describes later work combining remote sensing, permanent sample plots, foliage measurements, soil-map units, GIS and geostatistics. One trial treated satellite pixels as 25-metre ground cells and tested them against measured forest data. Another loaded growth and foliage plots into GIS and overlaid them with soil units while the team worked on a better link between MARVL and GIS. These methods allowed staff to compare field inventory, imagery and environmental information after the institute became a Crown Research Institute.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Forestry therefore entered GIS through work it was already doing. Inventory, aerial photography, road planning, growth modelling and harvesting all existed beforehand. GIS gave those activities a common geographic framework and made the stand or compartment a maintained digital object rather than only a shape on a paper map. Science more broadly developed the same pattern, with geological, ecological, hydrological and other research groups building their own spatial databases and analytical systems around different kinds of evidence.",
+      "markdown": "Forestry therefore entered GIS through work it was already doing. Inventory, aerial photography, road planning, growth modelling and harvesting all existed beforehand. GIS gave those activities a common geographic framework and made the stand or compartment a maintained digital object rather than only a shape on a paper map. Science more broadly developed the same pattern, with geological, ecological, hydrological and other research groups building their own spatial databases and analytical systems around different kinds of evidence.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

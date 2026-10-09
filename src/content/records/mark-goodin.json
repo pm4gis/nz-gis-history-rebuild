@@ -1,0 +1,31 @@
+{
+  "id": "person:mark-goodin",
+  "slug": "mark-goodin",
+  "name": "Mark Goodin",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mark-goodin/",
+  "story": [
+    "Trent Gulliver's University of Canterbury master's research followed in 2015, and a 2016 paper by Gulliver, Anselm Haanen and Mark Goodin set out a pathway towards a 3D digital cadastre for New Zealand by 2021. The date was a proposed target."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 39 · A cadastre with volume",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Mark Goodin"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 39 · A cadastre with volume",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2213",
+  "a": "person:ann-de-schutter",
+  "b": "entity:department-of-conservation",
+  "label": "Associated with",
+  "basis": "Documented association in the people-expansion research; role and period are described in the linked profile sources.",
+  "passageIds": [],
+  "sources": []
+}

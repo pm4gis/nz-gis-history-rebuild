@@ -1,0 +1,39 @@
+{
+  "id": "person:daniel-nutsford",
+  "slug": "daniel-nutsford",
+  "name": "Daniel Nutsford",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/daniel-nutsford/",
+  "story": [
+    "Daniel Nutsford’s geospatial work spans health research and applied environmental GIS. University of Canterbury’s GeoHealth history records his MSc GIS work on natural urban environments and mental health. Morphum identifies him as a Principal GIS Analyst and FME specialist working across transport, infrastructure, conservation, road safety, automation and field data capture."
+  ],
+  "sources": [
+    {
+      "label": "University of Canterbury, GeoHealth people and alumni",
+      "url": "https://www.canterbury.ac.nz/research/about-uc-research/research-groups-and-centres/te-taiwhenua-o-te-hauora-geohealth-laboratory/geohealth-people-staff"
+    },
+    {
+      "label": "Morphum Environmental, Daniel Nutsford profile",
+      "url": "https://www.morphum.com/team/daniel-nutsford"
+    }
+  ],
+  "aliases": [
+    "Daniel Nutsford"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "University of Canterbury, GeoHealth people and alumni",
+        "url": "https://www.canterbury.ac.nz/research/about-uc-research/research-groups-and-centres/te-taiwhenua-o-te-hauora-geohealth-laboratory/geohealth-people-staff"
+      },
+      {
+        "label": "Morphum Environmental, Daniel Nutsford profile",
+        "url": "https://www.morphum.com/team/daniel-nutsford"
+      }
+    ]
+  ]
+}

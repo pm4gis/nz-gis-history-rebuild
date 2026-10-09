@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1337",
+  "a": "entity:gis-in-conservation-scgis-new-zealand-and-fiji",
+  "b": "chapter:29",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-29-349d9512f7"
+  ],
+  "sources": []
+}

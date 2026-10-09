@@ -1,0 +1,53 @@
+{
+  "id": "passage:chapter-20-fb98b2a50d",
+  "slug": "delivery-becomes-part-of-the-product-fb98b2a50d",
+  "articleId": "article:chapter-20",
+  "title": "Delivery becomes part of the product",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A digital orthophoto stored on a council server was already more reusable than an analogue print, but distribution still required moving large raster files. Early GIS users commonly copied imagery from disks, optical media or network shares into local storage. Whole regional mosaics could be too large for convenient transfer or desktop use, so organisations supplied tiled datasets and indexes showing which files covered a requested area.",
+      "markdown": "A digital orthophoto stored on a council server was already more reusable than an analogue print, but distribution still required moving large raster files. Early GIS users commonly copied imagery from disks, optical media or network shares into local storage. Whole regional mosaics could be too large for convenient transfer or desktop use, so organisations supplied tiled datasets and indexes showing which files covered a requested area.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Online spatial-data services changed that workflow. The LINZ Data Service provided a route for users to discover and obtain government spatial data, including raster imagery. A user could identify a regional imagery dataset and its coverage rather than relying on knowledge that a particular office held a set of files. Later basemap services made it possible to stream imagery into mapping applications without downloading the full source raster first.",
+      "markdown": "Online spatial-data services changed that workflow. The LINZ Data Service provided a route for users to discover and obtain government spatial data, including raster imagery. A user could identify a regional imagery dataset and its coverage rather than relying on knowledge that a particular office held a set of files. Later basemap services made it possible to stream imagery into mapping applications without downloading the full source raster first.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These distribution methods altered what counted as maintaining imagery. Publishing a new flight involved more than accepting files from the contractor. Datasets had to be quality checked, described, indexed and made available in forms that other software could use. When new coverage replaced old coverage in a basemap, the service itself became part of the refresh process.",
+      "markdown": "These distribution methods altered what counted as maintaining imagery. Publishing a new flight involved more than accepting files from the contractor. Datasets had to be quality checked, described, indexed and made available in forms that other software could use. When new coverage replaced old coverage in a basemap, the service itself became part of the refresh process.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The map user increasingly saw one current aerial background while the infrastructure behind it managed many surveys, dates, resolutions and tiles. That simplicity at the screen depended on more organisation rather than less. Acquisition specifications, metadata, coordinate systems, storage and publishing workflows had to be consistent enough for the image to appear ordinary.",
+      "markdown": "The map user increasingly saw one current aerial background while the infrastructure behind it managed many surveys, dates, resolutions and tiles. That simplicity at the screen depended on more organisation rather than less. Acquisition specifications, metadata, coordinate systems, storage and publishing workflows had to be consistent enough for the image to appear ordinary.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LINZ’s imagery programme also produced specialist roles around acquisition, management and delivery. Its 2014 Geospatial for Schools material names Andrew Ferrel as National Imagery Manager, and later conference records place him in the imagery and elevation programme as national datasets became easier to discover and reuse.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial for Schools archive",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+        },
+        {
+          "label": "New Zealand Esri User Conference programme, 2018",
+          "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

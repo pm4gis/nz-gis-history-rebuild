@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1023",
+  "a": "person:joanne-leung",
+  "b": "entity:ministry-of-transport",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

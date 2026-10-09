@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1934",
+  "a": "person:kalana-wijegunarathna",
+  "b": "chapter:44",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-44-ce9de66e2a"
+  ],
+  "sources": []
+}

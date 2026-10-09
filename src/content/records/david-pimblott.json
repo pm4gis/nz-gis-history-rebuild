@@ -1,0 +1,55 @@
+{
+  "id": "person:david-pimblott",
+  "slug": "david-pimblott",
+  "name": "David Pimblott",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-pimblott/",
+  "story": [
+    "David Pimblott's professional background includes more than thirty years of strategic GIS and business consultancy. He studied at Wellington Polytechnic from 1973 to 1978. Alongside the commercial GIS work described in the book, his professional profile records an association with Heart Kids New Zealand and governance training through the Institute of Directors.",
+    "David Pimblott appears in the early New Zealand GIS distribution and consultancy record. He worked in the emerging Esri and ERDAS market and later co-founded Explorer Graphics with Beryl Pimblott in 1987. Some detailed claims about the exact establishment of early distributorships remain retrospective and are kept separate from the documented corporate dates.",
+    "David Pimblott’s retrospective places his GIS consulting work in the Eagle lineage in 1983–87 and recalls responsibilities for Esri and ERDAS distribution and support, before he co-founded Explorer Graphics. "
+  ],
+  "sources": [
+    {
+      "label": "David Pimblott professional profile, Topline",
+      "url": "https://topline.com/people/david-pimblott-46e4e308bb"
+    },
+    {
+      "label": "David Pimblott - Heart Kids New Zealand | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/davidpimblott"
+    },
+    {
+      "label": "Chapter 12 · Local channels",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "David Pimblott"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "David Pimblott - Heart Kids New Zealand | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/davidpimblott"
+      }
+    ],
+    [
+      {
+        "label": "David Pimblott professional profile, Topline",
+        "url": "https://topline.com/people/david-pimblott-46e4e308bb"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Local channels",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

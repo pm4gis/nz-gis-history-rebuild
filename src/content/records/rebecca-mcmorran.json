@@ -1,0 +1,31 @@
+{
+  "id": "person:rebecca-mcmorran",
+  "slug": "rebecca-mcmorran",
+  "name": "Rebecca McMorran",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rebecca-mcmorran/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Rebecca McMorran: Senior Transport Analyst, Wellington City Council; Victoria University PGDipGIS."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Rebecca McMorran"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

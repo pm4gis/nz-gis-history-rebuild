@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-12-41d4f44fce",
+  "slug": "from-purchase-to-dependence-41d4f44fce",
+  "articleId": "article:chapter-12",
+  "title": "From purchase to dependence",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of the 1990s, New Zealand organisations could buy GIS software through established local channels, hire specialist consultants, acquire commercial datasets, commission conversion work and send staff to recurring professional events. That did not make implementation easy. It changed the type of difficulty. Organisations needed to combine software, data, people and procedures supplied by several businesses.",
+      "markdown": "By the end of the 1990s, New Zealand organisations could buy GIS software through established local channels, hire specialist consultants, acquire commercial datasets, commission conversion work and send staff to recurring professional events. That did not make implementation easy. It changed the type of difficulty. Organisations needed to combine software, data, people and procedures supplied by several businesses.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The industry had also made the mixed nature of GIS impossible to ignore. Imported platforms sat beside locally developed tools. Data suppliers overlapped with software agents. Consultants worked across products. User groups formed around particular vendors while broader professional forums connected them. Australian ownership and Australasian sales territories also appeared through regional commercial structures. There was no single GIS industry in the sense of one technology or business model. There was a growing set of businesses and communities organised around making location information usable.",
+      "markdown": "The industry had also made the mixed nature of GIS impossible to ignore. Imported platforms sat beside locally developed tools. Data suppliers overlapped with software agents. Consultants worked across products. User groups formed around particular vendors while broader professional forums connected them. Australian ownership and Australasian sales territories also appeared through regional commercial structures. There was no single GIS industry in the sense of one technology or business model. There was a growing set of businesses and communities organised around making location information usable.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Underneath the software sat another problem. A working GIS needed authoritative geographic records that could be maintained, linked and trusted. No dataset was more structurally important to land administration than the cadastre. By the time the commercial GIS market had matured, New Zealand was already converting the legal geography of parcels and surveys from mapped records into national digital systems. The commercial GIS story therefore meets the cadastral one at the point where mapped legal geography became national digital data.",
+      "markdown": "Underneath the software sat another problem. A working GIS needed authoritative geographic records that could be maintained, linked and trusted. No dataset was more structurally important to land administration than the cadastre. By the time the commercial GIS market had matured, New Zealand was already converting the legal geography of parcels and surveys from mapped records into national digital systems. The commercial GIS story therefore meets the cadastral one at the point where mapped legal geography became national digital data.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

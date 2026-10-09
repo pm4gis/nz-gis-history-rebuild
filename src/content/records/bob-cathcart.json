@@ -1,0 +1,31 @@
+{
+  "id": "person:bob-cathcart",
+  "slug": "bob-cathcart",
+  "name": "Bob Cathcart",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/bob-cathcart/",
+  "story": [
+    "Bob Cathcart of the Northland Catchment Commission was credited with preparing some of the earliest New Zealand urban LUC surveys and demonstrating their use in urban planning. Staff from twelve catchment authorities commented during development of the handbook, and Palmerston North City Corporation also contributed to the final review."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 7 · Urban land capability",
+      "url": "/stories/mapping-land-as-data/"
+    }
+  ],
+  "aliases": [
+    "Bob Cathcart"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 7 · Urban land capability",
+        "url": "/stories/mapping-land-as-data/"
+      }
+    ]
+  ]
+}

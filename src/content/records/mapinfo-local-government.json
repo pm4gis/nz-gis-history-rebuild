@@ -1,0 +1,58 @@
+{
+  "id": "system:mapinfo-local-government",
+  "slug": "mapinfo-local-government",
+  "name": "MapInfo in council desktop GIS",
+  "kind": "Technology",
+  "category": "Systems and projects",
+  "url": "/systems/mapinfo-local-government/",
+  "story": [
+    "An August 2000 MapInfo-L message from Jolanda Simon, Hurunui District Council’s IT Officer, describes a MapInfo 6 Hotlink workflow. From a map layer, 78 mapped objects opened separate MapInfo workspaces. Simon also records a mixed desktop environment running Windows 2000 and Windows 95/98. The correspondence documents operational desktop GIS at Hurunui by that date without establishing when the council first used GIS.",
+    "At Gore, technical correspondence and a separate official cemetery plan show a different desktop arrangement: MapInfo Professional 5.5 and MapBasic on Windows NT 4.0, an HP DesignJet 750C for plots, and AutoCAD 2000 alongside MapInfo on the council’s CAD/GIS system. The plan’s cadastral information came from the LINZ Digital Cadastral Database.",
+    "These records show GIS as working desktop equipment, scripts, links between map objects and files, cadastral data and printed plans. They document two council environments in 1999–2002; they do not establish a national first or a single platform used by councils generally."
+  ],
+  "sources": [
+    {
+      "label": "Jolanda Simon, ‘Hotlink tool in MI v6’, MapInfo-L technical correspondence, 22 August 2000",
+      "url": "https://www.mail-archive.com/mapinfo-l%40csn.net/msg09071.html"
+    },
+    {
+      "label": "Gore District Council, Gore Cemetery Plot Layout and Site Plan, drawing 1608-02",
+      "url": "https://www.goredc.govt.nz/repository/libraries/id%3A2buwl3j7c17q9srz9ase/hierarchy/Our%20Services/Documents/Cemeteries/cemetery-map-gore.pdf"
+    },
+    {
+      "label": "Tony Shepherd, MapInfo-L correspondence, 11 August 1999",
+      "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40csn.net&o=newest&q=date%3A19990811"
+    },
+    {
+      "label": "Tony Shepherd, MapInfo-L technical correspondence, 21–26 August 2000",
+      "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40csn.net&o=newest&q=date%3A20000821"
+    }
+  ],
+  "aliases": [
+    "MapInfo",
+    "MapInfo Professional",
+    "MapInfo 6",
+    "MapBasic",
+    "MapInfo Hotlink",
+    "AutoCAD 2000"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "A map opens a workspace",
+      "paragraphs": [
+        "An August 2000 MapInfo-L message from Jolanda Simon, Hurunui District Council’s IT Officer, describes a MapInfo 6 Hotlink workflow. From a map layer, 78 mapped objects opened separate MapInfo workspaces. Simon also records a mixed desktop environment running Windows 2000 and Windows 95/98. The correspondence documents operational desktop GIS at Hurunui by that date without establishing when the council first used GIS.",
+        "At Gore, technical correspondence and a separate official cemetery plan show a different desktop arrangement: MapInfo Professional 5.5 and MapBasic on Windows NT 4.0, an HP DesignJet 750C for plots, and AutoCAD 2000 alongside MapInfo on the council’s CAD/GIS system. The plan’s cadastral information came from the LINZ Digital Cadastral Database."
+      ]
+    },
+    {
+      "title": "Local council workflows",
+      "paragraphs": [
+        "These records show GIS as working desktop equipment, scripts, links between map objects and files, cadastral data and printed plans. They document two council environments in 1999–2002; they do not establish a national first or a single platform used by councils generally."
+      ]
+    }
+  ]
+}

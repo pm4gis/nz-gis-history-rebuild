@@ -1,0 +1,31 @@
+{
+  "id": "person:jesse-merkle",
+  "slug": "jesse-merkle",
+  "name": "Jesse Merkle",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jesse-merkle/",
+  "story": [
+    "A 2019 paper by Martin Brook and Jesse Merkle described UAV/SfM photogrammetry for monitoring active landslides in the Auckland region. High-resolution photomosaics and terrain models could be used to assess deformation and to compare surfaces through time or against LiDAR. A related University of Auckland project funded through EQC, later the Natural Hazards Commission, extended the work into ten monitoring investigations and reported in 2020."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 38 · Mapping unstable ground",
+      "url": "/stories/mapping-from-a-drone/"
+    }
+  ],
+  "aliases": [
+    "Jesse Merkle"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 38 · Mapping unstable ground",
+        "url": "/stories/mapping-from-a-drone/"
+      }
+    ]
+  ]
+}

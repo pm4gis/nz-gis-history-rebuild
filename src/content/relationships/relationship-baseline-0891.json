@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0891",
+  "a": "person:bryan-clarke",
+  "b": "entity:christchurch-city-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

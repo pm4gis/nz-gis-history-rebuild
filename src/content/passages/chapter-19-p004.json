@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-19-9eaa271fec",
+  "slug": "the-deformation-model-9eaa271fec",
+  "articleId": "article:chapter-19",
+  "title": "The deformation model",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The original deformation model represented broad crustal motion across the country. New Zealand spans two major plates, and the relative movement is not uniform from one end of the country to the other. In a global frame, positions in New Zealand move by several centimetres a year, with direction and rate varying across the plate boundary zone. The model allowed GPS observations collected at different dates to be related consistently to epoch 2000.0.",
+      "markdown": "The original deformation model represented broad crustal motion across the country. New Zealand spans two major plates, and the relative movement is not uniform from one end of the country to the other. In a global frame, positions in New Zealand move by several centimetres a year, with direction and rate varying across the plate boundary zone. The model allowed GPS observations collected at different dates to be related consistently to epoch 2000.0.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That approach depended on the quality of the velocity estimates used to build the model. The first model drew heavily on GPS observations from the 1990s, including a limited time span by later standards. Continuous GPS networks later supplied much longer and denser records of crustal movement. The model could therefore be improved as additional observations accumulated.",
+      "markdown": "That approach depended on the quality of the velocity estimates used to build the model. The first model drew heavily on GPS observations from the 1990s, including a limited time span by later standards. Continuous GPS networks later supplied much longer and denser records of crustal movement. The model could therefore be improved as additional observations accumulated.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The model also had limits around sudden deformation. Plate motion can be approximated over time, but an earthquake can displace an area in seconds and create highly variable movement near faults. A datum that accounts for steady deformation still requires intervention when the ground jumps outside the assumptions of the existing model. That problem became operationally familiar during the following two decades.",
+      "markdown": "The model also had limits around sudden deformation. Plate motion can be approximated over time, but an earthquake can displace an area in seconds and create highly variable movement near faults. A datum that accounts for steady deformation still requires intervention when the ground jumps outside the assumptions of the existing model. That problem became operationally familiar during the following two decades.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NZGD2000 was designed to allow coordinates and the deformation model to be updated when new observations, earthquakes or local movement required it. The official coordinate system was therefore not a frozen table inherited from 1998. Its rules included mechanisms for maintaining the relationship between measured positions and the reference epoch.",
+      "markdown": "NZGD2000 was designed to allow coordinates and the deformation model to be updated when new observations, earthquakes or local movement required it. The official coordinate system was therefore not a frozen table inherited from 1998. Its rules included mechanisms for maintaining the relationship between measured positions and the reference epoch.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1044",
+  "a": "person:geoff-omalley",
+  "b": "entity:geospatial-capability-committee",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

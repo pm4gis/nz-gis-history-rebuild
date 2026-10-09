@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-5-704e1b2aa3",
+  "slug": "querying-the-inventory-704e1b2aa3",
+  "articleId": "article:chapter-5",
+  "title": "Querying the inventory",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The inventory lent itself to computer selection because each land unit contained several coded characteristics. A map that had been compiled to show all of them could also be queried for only one part of the description. The database could retrieve land units matching chosen criteria and send those units to tables or mapped output. The user was no longer restricted to the combinations of information chosen when the standard sheet was printed.",
+      "markdown": "The inventory lent itself to computer selection because each land unit contained several coded characteristics. A map that had been compiled to show all of them could also be queried for only one part of the description. The database could retrieve land units matching chosen criteria and send those units to tables or mapped output. The user was no longer restricted to the combinations of information chosen when the standard sheet was printed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was a practical analytical change rather than a cartographic one. On paper, comparing several resource factors across many sheets required repeated visual interpretation and manual compilation. In LADEDA the same coded records could be selected repeatedly under different conditions. The stored polygon provided the geographic extent, while the attributes supplied the characteristics used for retrieval.",
+      "markdown": "This was a practical analytical change rather than a cartographic one. On paper, comparing several resource factors across many sheets required repeated visual interpretation and manual compilation. In LADEDA the same coded records could be selected repeatedly under different conditions. The stored polygon provided the geographic extent, while the attributes supplied the characteristics used for retrieval.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The system was also generalised beyond the original NZLRI application. Van Berkel and Williams’ 1985 paper describes LADEDA as having been developed to process NZLRI information and later extended to other geographic data. The software provided reusable spatial data and processing functions. The data model and retrieval functions could be applied to geographic records that shared the same basic structure of location plus descriptive information.",
+      "markdown": "The system was also generalised beyond the original NZLRI application. Van Berkel and Williams’ 1985 paper describes LADEDA as having been developed to process NZLRI information and later extended to other geographic data. The software provided reusable spatial data and processing functions. The data model and retrieval functions could be applied to geographic records that shared the same basic structure of location plus descriptive information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The distinction between map and database was visible in routine work. Updating a code in a maintained database could affect later tables and plots without altering every previously printed sheet. New outputs could be produced from the same national dataset without redrawing the entire inventory. The value of the system depended on keeping the database and its classifications maintained after the first conversion work had been completed.",
+      "markdown": "The distinction between map and database was visible in routine work. Updating a code in a maintained database could affect later tables and plots without altering every previously printed sheet. New outputs could be produced from the same national dataset without redrawing the entire inventory. The value of the system depended on keeping the database and its classifications maintained after the first conversion work had been completed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-43-33c7f593fd",
+  "slug": "errors-at-scale-33c7f593fd",
+  "articleId": "article:chapter-43",
+  "title": "Errors at scale",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Automation could repeat an incorrect assumption or processing rule across many records. A coordinate reference system can be wrong. A source can change the spelling of a field. Null values can appear where the script expects numbers. An API can return a different structure. A classification threshold can work well in one landscape and poorly in another. If the workflow processes the whole country before anyone checks a sample, consistency becomes a liability.",
+      "markdown": "Automation could repeat an incorrect assumption or processing rule across many records. A coordinate reference system can be wrong. A source can change the spelling of a field. Null values can appear where the script expects numbers. An API can return a different structure. A classification threshold can work well in one landscape and poorly in another. If the workflow processes the whole country before anyone checks a sample, consistency becomes a liability.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The practical response is equally unglamorous: validation, logging, test data, exception handling, peer review and output QA. Automated topographic production still required cartographers to inspect conflicts. LUCAS automation still retained quality control. The Waikato disease-mapping work excluded low-confidence geocodes rather than allowing the script to make uncertainty disappear. Good automation therefore defines both routine processing and the behaviour expected when input is incomplete, unexpected or plainly wrong.",
+      "markdown": "The practical response is equally unglamorous: validation, logging, test data, exception handling, peer review and output QA. Automated topographic production still required cartographers to inspect conflicts. LUCAS automation still retained quality control. The Waikato disease-mapping work excluded low-confidence geocodes rather than allowing the script to make uncertainty disappear. Good automation therefore defines both routine processing and the behaviour expected when input is incomplete, unexpected or plainly wrong.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also changes the meaning of quality assurance. In a manual workflow, a practitioner may notice an odd value while working through the data. In an automated pipeline, that incidental human observation may disappear. Checks have to be designed deliberately, which can make them stronger if done well. A process could check every record against stated rules. The quality work has not vanished. It has been moved into the design of the system and the review of its outputs.",
+      "markdown": "This also changes the meaning of quality assurance. In a manual workflow, a practitioner may notice an odd value while working through the data. In an automated pipeline, that incidental human observation may disappear. Checks have to be designed deliberately, which can make them stronger if done well. A process could check every record against stated rules. The quality work has not vanished. It has been moved into the design of the system and the review of its outputs.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

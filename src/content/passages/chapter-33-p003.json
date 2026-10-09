@@ -1,0 +1,58 @@
+{
+  "id": "passage:chapter-33-e28084f316",
+  "slug": "census-access-changes-e28084f316",
+  "articleId": "article:chapter-33",
+  "title": "Census access changes",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Statistics New Zealand confronted the same issue from a different direction in 2002. On 9 May the Government announced that detailed results from the 2001 Census would be made available free of charge through the Statistics New Zealand website from late May. The announcement was unusually explicit about the old cost barrier. Access through Supermap had cost a minimum of NZ$3,300 and could rise to about NZ$25,000 depending on the information required.",
+      "markdown": "Statistics New Zealand confronted the same issue from a different direction in 2002. On 9 May the Government announced that detailed results from the 2001 Census would be made available free of charge through the Statistics New Zealand website from late May. The announcement was unusually explicit about the old cost barrier. Access through Supermap had cost a minimum of NZ$3,300 and could rise to about NZ$25,000 depending on the information required.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Those figures explain why the effect reached well beyond a nicer website. Census data were basic inputs to planning, health research, local-government analysis, education, business and social policy. A public-health analyst calculating disease rates, a council planning services or a researcher studying population change needed demographic information tied to geographic areas. GIS could perform sophisticated spatial analysis only when the population data required to interpret the results were available as well.",
+      "markdown": "Those figures explain why the effect reached well beyond a nicer website. Census data were basic inputs to planning, health research, local-government analysis, education, business and social policy. A public-health analyst calculating disease rates, a council planning services or a researcher studying population change needed demographic information tied to geographic areas. GIS could perform sophisticated spatial analysis only when the population data required to interpret the results were available as well.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2002 announcement identified cost as a major barrier for communities and other users with limited budgets. Census Table Builder was intended to let users construct tables from hundreds of census databases and compare 2001, 1996 and 1991 census information where available. Its scope was census tables; boundary data and datasets retained their separate access and licensing arrangements. The policy still marked a clear commitment to wider public use of statistical information.",
+      "markdown": "The 2002 announcement identified cost as a major barrier for communities and other users with limited budgets. Census Table Builder was intended to let users construct tables from hundreds of census databases and compare 2001, 1996 and 1991 census information where available. Its scope was census tables; boundary data and datasets retained their separate access and licensing arrangements. The policy still marked a clear commitment to wider public use of statistical information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The intended users were revealing. The Minister referred to businesses, universities, local authorities, community boards, health boards, schools and community organisations. These were precisely the kinds of users for whom a several-thousand-dollar subscription could distort whether spatial evidence was used at all. The policy therefore widened the practical audience for demographic analysis without requiring every user to become a specialist customer of Statistics New Zealand.",
+      "markdown": "The intended users were revealing. The Minister referred to businesses, universities, local authorities, community boards, health boards, schools and community organisations. These were precisely the kinds of users for whom a several-thousand-dollar subscription could distort whether spatial evidence was used at all. The policy therefore widened the practical audience for demographic analysis without requiring every user to become a specialist customer of Statistics New Zealand.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also changed expectations inside government. If one agency could make a nationally important information resource available without transaction charges, users could reasonably ask why other foundational datasets were still sold or supplied only through bespoke arrangements. Agencies had different statutory functions, business models and privacy constraints. The ease of obtaining public information became a policy question.",
+      "markdown": "This also changed expectations inside government. If one agency could make a nationally important information resource available without transaction charges, users could reasonably ask why other foundational datasets were still sold or supplied only through bespoke arrangements. Agencies had different statutory functions, business models and privacy constraints. The ease of obtaining public information became a policy question.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Free access did not always grant reuse rights. A user could obtain information without paying a subscription and still encounter conditions around copyright, redistribution, confidentiality or specialised products. Statistical information also carried privacy constraints that could never be solved merely by making files downloadable. Census geography had always involved aggregation partly because individual responses carried confidentiality constraints. Open access widened legitimate use while leaving the obligation to protect people intact.",
+      "markdown": "Free access did not always grant reuse rights. A user could obtain information without paying a subscription and still encounter conditions around copyright, redistribution, confidentiality or specialised products. Statistical information also carried privacy constraints that could never be solved merely by making files downloadable. Census geography had always involved aggregation partly because individual responses carried confidentiality constraints. Open access widened legitimate use while leaving the obligation to protect people intact.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For GIS practitioners the practical effect was cumulative. If population data became cheaper or free, spatial analysis became easier to justify. If statistical boundaries were also available, demographic information could be joined to maps without constructing the geography independently. Census information did not suddenly become simple. One of the recurring transaction costs around using national population data nevertheless began to recede.",
+      "markdown": "For GIS practitioners the practical effect was cumulative. If population data became cheaper or free, spatial analysis became easier to justify. If statistical boundaries were also available, demographic information could be joined to maps without constructing the geography independently. Census information did not suddenly become simple. One of the recurring transaction costs around using national population data nevertheless began to recede.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

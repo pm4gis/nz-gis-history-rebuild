@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1529",
+  "a": "entity:bay-of-plenty-regional-council",
+  "b": "chapter:22",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-22-38b6be3006"
+  ],
+  "sources": []
+}

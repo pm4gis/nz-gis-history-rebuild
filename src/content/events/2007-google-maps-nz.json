@@ -1,0 +1,23 @@
+{
+  "id": "2007-google-maps-nz",
+  "dateDisplay": "2007-12-12",
+  "startDate": "2007-12-12",
+  "datePrecision": "day",
+  "year": 2007,
+  "label": "Google Maps gains a localised New Zealand service",
+  "summary": "Mass-market interactive mapping further changed public expectations of what a web map should do.",
+  "url": "/stories/google-changes-the-audience/#google-maps-lands-in-new-zealand-5a0505090d",
+  "passageIds": [
+    "passage:chapter-31-5a0505090d"
+  ],
+  "recordIds": [
+    "chapter:31",
+    "entity:stats-nz"
+  ],
+  "themeIds": [],
+  "categories": [
+    "web",
+    "mass-market"
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:leo-white",
+  "slug": "leo-white",
+  "name": "Leo White",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/leo-white/",
+  "story": [
+    "Leo White combined aviation and photography through Whites Aviation, established in Auckland in 1945. His nationwide flights supplied photographs for Whites pictorial reference of New Zealand, first published in 1952 and revised in 1960. This aerial record documented settlements and landscapes before digital mapping; the photographs later became an important historical collection."
+  ],
+  "sources": [
+    {
+      "label": "Ross Macpherson, Leo Lemuel White, Dictionary of New Zealand Biography, 1998",
+      "url": "https://teara.govt.nz/en/biographies/4w14/white-leo-lemuel"
+    }
+  ],
+  "aliases": [
+    "Leo White"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Ross Macpherson, Leo Lemuel White, Dictionary of New Zealand Biography, 1998",
+        "url": "https://teara.govt.nz/en/biographies/4w14/white-leo-lemuel"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-0437",
+  "a": "person:nathan-heazlewood",
+  "b": "chapter:40",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-40-6cefa96e49",
+    "passage:chapter-40-b5104d43cf"
+  ],
+  "sources": []
+}

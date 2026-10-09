@@ -1,0 +1,59 @@
+{
+  "id": "passage:chapter-3-b7f1ee3026",
+  "slug": "inside-mappak-b7f1ee3026",
+  "articleId": "article:chapter-3",
+  "title": "Inside MAPPAK",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "technology-stack"
+  ],
+  "recordIds": [
+    "chapter:3"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The MAPPAK installation used a DEC PDP-11/34 with 48K words of memory, two RK05 disk units and a TS03 nine-track magnetic tape drive. Input and interaction were provided through a DECwriter terminal, a Tektronix 4010 graphics display and a Summagraphics ID48 digitiser measuring 36 by 48 inches. Output went to a Broomall 430/101 flatbed plotter. Colley recorded the complete installation as costing less than $100,000. This small family of specialised machines had to cooperate before a line could travel from paper to screen and back to paper again.",
+      "markdown": "The MAPPAK installation used a DEC PDP-11/34 with 48K words of memory, two RK05 disk units and a TS03 nine-track magnetic tape drive. Input and interaction were provided through a DECwriter terminal, a Tektronix 4010 graphics display and a Summagraphics ID48 digitiser measuring 36 by 48 inches. Output went to a Broomall 430/101 flatbed plotter. Colley recorded the complete installation as costing less than $100,000. This small family of specialised machines had to cooperate before a line could travel from paper to screen and back to paper again.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Waitangi",
+      "caption": "Waitangi. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Whangarei",
+      "caption": "Whangarei. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "The arrangement already contained the main components of a later digital mapping workstation, although spread across separate specialist devices. The digitiser captured coordinates from the paper map. The graphics terminal allowed the operator to inspect and edit the linework. Disks and tape stored the data, while the plotter turned the digital geometry back into hard-copy cartography. Software ran under the PDP-11 environment rather than through the graphical desktop interfaces that would become familiar later.",
+      "markdown": "The arrangement already contained the main components of a later digital mapping workstation, although spread across separate specialist devices. The digitiser captured coordinates from the paper map. The graphics terminal allowed the operator to inspect and edit the linework. Disks and tape stored the data, while the plotter turned the digital geometry back into hard-copy cartography. Software ran under the PDP-11 environment rather than through the graphical desktop interfaces that would become familiar later.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Operators digitised map features as coordinates. A scanner would reproduce the page as an image, including linework, text, symbols, marks and imperfections. A digitising operator selected the features to capture and traced them as coordinates. The process required decisions about which lines represented geographic objects, how features connected and what descriptive information needed to be retained.",
+      "markdown": "Operators digitised map features as coordinates. A scanner would reproduce the page as an image, including linework, text, symbols, marks and imperfections. A digitising operator selected the features to capture and traced them as coordinates. The process required decisions about which lines represented geographic objects, how features connected and what descriptive information needed to be retained.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Colley reported that a dense 1:2,000 cadastral base sheet containing substantial hydrographic detail could take about two hours to digitise. The operator had to register the source sheet correctly, select and trace features, inspect the result and correct errors. Two hours was a production rate for this supervised work. The computer reduced repeated redrawing while the operator remained responsible for checking.",
+      "markdown": "Colley reported that a dense 1:2,000 cadastral base sheet containing substantial hydrographic detail could take about two hours to digitise. The operator had to register the source sheet correctly, select and trace features, inspect the result and correct errors. Two hours was a production rate for this supervised work. The computer reduced repeated redrawing while the operator remained responsible for checking.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The accuracy of the digital output remained tied to the source. A displaced or generalised line on a paper map did not become survey-accurate when converted to coordinates. Digitising could also introduce its own positional error. The computer could store more decimal places than the source justified, but the additional digits did not change the quality of the original mapping.",
+      "markdown": "The accuracy of the digital output remained tied to the source. A displaced or generalised line on a paper map did not become survey-accurate when converted to coordinates. Digitising could also introduce its own positional error. The computer could store more decimal places than the source justified, but the additional digits did not change the quality of the original mapping.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

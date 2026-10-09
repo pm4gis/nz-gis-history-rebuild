@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1572",
+  "a": "person:huia-pacey",
+  "b": "chapter:35",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-35-71de0c0d83"
+  ],
+  "sources": []
+}

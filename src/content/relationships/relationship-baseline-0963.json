@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0963",
+  "a": "person:john-arnerich",
+  "b": "entity:locus",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

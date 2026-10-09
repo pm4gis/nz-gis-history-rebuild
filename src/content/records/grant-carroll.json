@@ -1,0 +1,42 @@
+{
+  "id": "person:grant-carroll",
+  "slug": "grant-carroll",
+  "name": "Grant Carroll",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/grant-carroll/",
+  "story": [
+    "Grant Carroll's experience covers the ArcGIS product family, including desktop GIS, server systems and portals. His professional profile describes more than fifteen years working with these products and records study at the University of Otago from 2004 to 2007. He gained Esri's ArcGIS Developer Foundation certification in March 2022.",
+    "Grant Carroll co-presented LocalMaps in 2018."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "Grant Carroll - Eagle Technology | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/grant-s-carroll"
+    }
+  ],
+  "aliases": [
+    "Grant Carroll"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Grant Carroll - Eagle Technology | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/grant-s-carroll"
+      }
+    ],
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ]
+  ]
+}

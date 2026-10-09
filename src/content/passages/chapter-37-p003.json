@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-37-e7aa561e08",
+  "slug": "waimakariri-and-regional-reuse-e7aa561e08",
+  "articleId": "article:chapter-37",
+  "title": "Waimakariri and regional reuse",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37",
+    "entity:canterbury-regional-council-environment-canterbury",
+    "entity:selwyn-district-council",
+    "entity:waimakariri-district-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Christchurch survey was followed by further Canterbury acquisitions. AAM captured LiDAR from 21 to 24 July 2005 for Environment Canterbury and Waimakariri District Council, and another survey from 6 to 11 February 2008 involved Environment Canterbury and Selwyn District Council. Within a few years LiDAR was being commissioned by several councils for adjoining parts of the same region. Elevation was becoming a reusable regional asset rather than an isolated experimental dataset.",
+      "markdown": "The Christchurch survey was followed by further Canterbury acquisitions. AAM captured LiDAR from 21 to 24 July 2005 for Environment Canterbury and Waimakariri District Council, and another survey from 6 to 11 February 2008 involved Environment Canterbury and Selwyn District Council. Within a few years LiDAR was being commissioned by several councils for adjoining parts of the same region. Elevation was becoming a reusable regional asset rather than an isolated experimental dataset.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2005 Waimakariri data also demonstrate the long life that a good elevation survey can have. Later flood-hazard work continued to use the older LiDAR where newer coverage was absent, sometimes combining different survey years across an area. Where the landscape had changed, mixing survey years created a currency risk and showed why acquisition date and provenance have to travel with the data. A highly detailed surface can still be wrong for today's question if it records yesterday's riverbank, subdivision or stopbank. Currency became another dimension of elevation quality.",
+      "markdown": "The 2005 Waimakariri data also demonstrate the long life that a good elevation survey can have. Later flood-hazard work continued to use the older LiDAR where newer coverage was absent, sometimes combining different survey years across an area. Where the landscape had changed, mixing survey years created a currency risk and showed why acquisition date and provenance have to travel with the data. A highly detailed surface can still be wrong for today's question if it records yesterday's riverbank, subdivision or stopbank. Currency became another dimension of elevation quality.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Regional reuse also raised the problem of consistency. Different contracts could use different specifications, point densities, classification rules, datums, output grids and file structures. Two detailed datasets are not automatically easy to merge just because both came from LiDAR. By the time national coordination became a realistic goal, the challenge was no longer simply obtaining laser-scanned elevation. It was obtaining data to sufficiently consistent specifications that neighbouring regions and later acquisitions could form part of a wider terrain framework.",
+      "markdown": "Regional reuse also raised the problem of consistency. Different contracts could use different specifications, point densities, classification rules, datums, output grids and file structures. Two detailed datasets are not automatically easy to merge just because both came from LiDAR. By the time national coordination became a realistic goal, the challenge was no longer simply obtaining laser-scanned elevation. It was obtaining data to sufficiently consistent specifications that neighbouring regions and later acquisitions could form part of a wider terrain framework.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

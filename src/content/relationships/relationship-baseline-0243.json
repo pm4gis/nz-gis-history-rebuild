@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-0243",
+  "a": "entity:university-of-waikato",
+  "b": "chapter:9",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-9-f5818ca326",
+    "passage:chapter-9-7b174cd504"
+  ],
+  "sources": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "entity:hamilton-city-council",
+  "slug": "hamilton-city-council",
+  "name": "Hamilton City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/hamilton-city-council/",
+  "website": "https://www.hamilton.co.nz",
+  "description": "Named in Users organise themselves (Chapter 12). Follow the linked passage for context.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Hamilton City Council"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

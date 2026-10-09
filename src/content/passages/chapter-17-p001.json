@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-17-f246831d93",
+  "slug": "locating-addresses-f246831d93",
+  "articleId": "article:chapter-17",
+  "title": "Locating addresses",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "An address looks simple because most of the work has already been done. A number and road name can usually take a courier, ambulance, council officer or mapping application to one recognisable place. Inside a GIS, however, that apparently ordinary description depends on several different records agreeing with one another. The road needs a name and a geometry. The address needs a number or other identifier and some relationship to that road. A property record may need to be linked to it, and a cadastral parcel may sit beneath it without being the same thing. By the late twentieth century New Zealand organisations were increasingly trying to make those relationships computable rather than relying on paper street lists, local knowledge and separate agency files.",
+      "markdown": "An address looks simple because most of the work has already been done. A number and road name can usually take a courier, ambulance, council officer or mapping application to one recognisable place. Inside a GIS, however, that apparently ordinary description depends on several different records agreeing with one another. The road needs a name and a geometry. The address needs a number or other identifier and some relationship to that road. A property record may need to be linked to it, and a cadastral parcel may sit beneath it without being the same thing. By the late twentieth century New Zealand organisations were increasingly trying to make those relationships computable rather than relying on paper street lists, local knowledge and separate agency files.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapter 16 followed the statistical geography that divided the country into areas for counting people. Address data solved a related but different problem. A census meshblock could tell an analyst which polygon contained a population, but an individual dwelling or administrative record still had to be assigned to that polygon. Emergency services had an even less forgiving requirement: a caller could supply an address, road name or place name and expect Police, Fire or ambulance services to find the location. Councils needed addresses for property administration and service delivery. Electoral officials needed to know where an address fell in relation to an electorate. Postal systems needed delivery locations. These users shared a broad interest in place, but they did not begin with one common national database.",
+      "markdown": "Chapter 16 followed the statistical geography that divided the country into areas for counting people. Address data solved a related but different problem. A census meshblock could tell an analyst which polygon contained a population, but an individual dwelling or administrative record still had to be assigned to that polygon. Emergency services had an even less forgiving requirement: a caller could supply an address, road name or place name and expect Police, Fire or ambulance services to find the location. Councils needed addresses for property administration and service delivery. Electoral officials needed to know where an address fell in relation to an electorate. Postal systems needed delivery locations. These users shared a broad interest in place, but they did not begin with one common national database.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The records were also created for different reasons. Territorial authorities named roads and allocated property numbers under local-government law. The cadastral system recorded surveyed parcels and legal interests in land. Rating and valuation systems grouped land and improvements according to administrative requirements that did not always match parcel boundaries. Postal addresses were designed for delivery. Statistical geographies divided population for enumeration and aggregation. GIS made it possible to connect these records, but it did not erase their different origins or guarantee a tidy one-to-one relationship among them.",
+      "markdown": "The records were also created for different reasons. Territorial authorities named roads and allocated property numbers under local-government law. The cadastral system recorded surveyed parcels and legal interests in land. Rating and valuation systems grouped land and improvements according to administrative requirements that did not always match parcel boundaries. Postal addresses were designed for delivery. Statistical geographies divided population for enumeration and aggregation. GIS made it possible to connect these records, but it did not erase their different origins or guarantee a tidy one-to-one relationship among them.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

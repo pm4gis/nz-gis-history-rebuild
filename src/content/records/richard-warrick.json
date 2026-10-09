@@ -1,0 +1,50 @@
+{
+  "id": "person:richard-warrick",
+  "slug": "richard-warrick",
+  "name": "Richard Warrick",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/richard-warrick/",
+  "story": [
+    "Richard Warrick contributed to CLIMPACTS research, linking climate scenarios with sector assessment at national, regional and site scales.",
+    "CLIMPACTS, developed from 1993 with Richard Warrick and Gavin Kenny among its researchers, brought NIWA, AgResearch, Crop & Food Research, HortResearch, Landcare Research and university researchers into a common climate-impact assessment programme. Its national and regional work combined climate information with sector models to examine spatial changes in agricultural and horticultural suitability. That was a different model from QMAP or a corporate GIS: specialist science remained distributed across organisations, while a shared spatial framework allowed the components to be analysed together."
+  ],
+  "sources": [
+    {
+      "label": "R.A. Warrick, G.J. Kenny, J.J. Harman et al., The effects of climate change and variation in New Zealand: An assessment using the CLIMPACTS system",
+      "url": "https://hdl.handle.net/10289/897"
+    },
+    {
+      "label": "Chris Hunt, Andrew Manderson, Dave Wheeler and M.S. Srinivasan, Getting Spatial with Nutrients in New Zealand Pastoral Agriculture",
+      "url": "https://flrc.massey.ac.nz/workshops/07/2007%20Abstracts.pdf"
+    },
+    {
+      "label": "Chapter 9 · The CRI reorganisation",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Richard Warrick"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "R.A. Warrick, G.J. Kenny, J.J. Harman et al., The effects of climate change and variation in New Zealand: An assessment using the CLIMPACTS system",
+        "url": "https://hdl.handle.net/10289/897"
+      },
+      {
+        "label": "Chris Hunt, Andrew Manderson, Dave Wheeler and M.S. Srinivasan, Getting Spatial with Nutrients in New Zealand Pastoral Agriculture",
+        "url": "https://flrc.massey.ac.nz/workshops/07/2007%20Abstracts.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · The CRI reorganisation",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

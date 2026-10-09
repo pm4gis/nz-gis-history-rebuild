@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1493",
+  "a": "entity:auckland-council",
+  "b": "chapter:43",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-43-28c71931a5"
+  ],
+  "sources": []
+}

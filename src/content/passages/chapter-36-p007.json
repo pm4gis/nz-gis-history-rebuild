@@ -1,0 +1,43 @@
+{
+  "id": "passage:chapter-36-f75e5d686d",
+  "slug": "sentinel-changes-the-rhythm-f75e5d686d",
+  "articleId": "article:chapter-36",
+  "title": "Sentinel changes the rhythm",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The next shift was frequency and spectral availability. Sentinel-1A launched in April 2014 with synthetic-aperture radar, providing an all-weather, day-and-night observing capability. Sentinel-2A followed in June 2015 with a 13-band multispectral instrument designed for land monitoring. These European programme milestones expanded the open satellite data available to New Zealand practitioners. Sentinel-2 in particular provided 10 metre optical bands useful for regional vegetation, land-cover and coastal work, with repeated coverage that made it practical to look for suitable cloud-free observations across a season rather than rely on a single acquisition.",
+      "markdown": "The next shift was frequency and spectral availability. Sentinel-1A launched in April 2014 with synthetic-aperture radar, providing an all-weather, day-and-night observing capability. Sentinel-2A followed in June 2015 with a 13-band multispectral instrument designed for land monitoring. These European programme milestones expanded the open satellite data available to New Zealand practitioners. Sentinel-2 in particular provided 10 metre optical bands useful for regional vegetation, land-cover and coastal work, with repeated coverage that made it practical to look for suitable cloud-free observations across a season rather than rely on a single acquisition.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Resolution still needs some discipline. A 10 metre satellite pixel does not compete directly with a 10 centimetre council orthophoto. The orthophoto can show individual structures and small surface features that the satellite cannot resolve. Sentinel-2 contributes something different: repeated national coverage, consistent spectral bands and manageable data volumes. For mapping changes in vegetation, land cover or broad agricultural patterns, those qualities may be more useful than centimetre detail. Resolution alone did not determine suitability; spectral bands, revisit rate, cloud cover, cost and the task also mattered.",
+      "markdown": "Resolution still needs some discipline. A 10 metre satellite pixel does not compete directly with a 10 centimetre council orthophoto. The orthophoto can show individual structures and small surface features that the satellite cannot resolve. Sentinel-2 contributes something different: repeated national coverage, consistent spectral bands and manageable data volumes. For mapping changes in vegetation, land cover or broad agricultural patterns, those qualities may be more useful than centimetre detail. Resolution alone did not determine suitability; spectral bands, revisit rate, cloud cover, cost and the task also mattered.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Spectral information also changes what counts as an image. Ordinary red, green and blue display is only one representation of a multispectral sensor. Near-infrared and short-wave infrared bands respond differently to vegetation, water and moisture. Indices such as NDVI or NDRE combine selected bands to highlight particular patterns. They can be very useful, but they are not direct readouts of plant health, crop yield or biomass. Their interpretation depends on the vegetation, season, atmosphere, sensor and purpose of the analysis. Routine access makes it easy to calculate an index. It does not make the meaning of that index automatic.",
+      "markdown": "Spectral information also changes what counts as an image. Ordinary red, green and blue display is only one representation of a multispectral sensor. Near-infrared and short-wave infrared bands respond differently to vegetation, water and moisture. Indices such as NDVI or NDRE combine selected bands to highlight particular patterns. They can be very useful, but they are not direct readouts of plant health, crop yield or biomass. Their interpretation depends on the vegetation, season, atmosphere, sensor and purpose of the analysis. Routine access makes it easy to calculate an index. It does not make the meaning of that index automatic.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Forestry provides a practical New Zealand example. Rayonier Matariki Forests GIS analyst Amanda MacDonald-Creevey presented operational use of Sentinel-2 data in 2018. The case shows freely available, frequently repeated satellite imagery moving into routine plantation-forestry analysis rather than remaining a specialist research input.",
+      "sources": [
+        {
+          "label": "Amanda MacDonald-Creevey, Application of Sentinel-2 Satellite Data in Forestry",
+          "url": "https://www.eagle.co.nz/sites/default/files/Amanda%20MacDonald-Creevey%20-%20Application%20of%20Sentinel-2%20Satellite%20Data%20in%20Forestry_R.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

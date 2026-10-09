@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0993",
+  "a": "person:mark-holmes",
+  "b": "entity:photomap-nz",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-11-eb5bf2ea49",
+  "slug": "from-software-to-spatial-information-eb5bf2ea49",
+  "articleId": "article:chapter-11",
+  "title": "From software to spatial information",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11",
+    "entity:university-of-otago",
+    "person:vaughan-r-j-payne"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The early curriculum could easily have become little more than software training because the packages were unfamiliar and the interfaces demanding. Hawke was studying terrain modelling and computational performance. Canterbury researchers were working on data interchange. At Otago, papers soon addressed natural-language access to GIS databases, semantic data models, fuzzy spatial representation and organisational GIS adoption. Universities were using the new systems while also examining where their underlying models failed or created new problems.",
+      "markdown": "The early curriculum could easily have become little more than software training because the packages were unfamiliar and the interfaces demanding. Hawke was studying terrain modelling and computational performance. Canterbury researchers were working on data interchange. At Otago, papers soon addressed natural-language access to GIS databases, semantic data models, fuzzy spatial representation and organisational GIS adoption. Universities were using the new systems while also examining where their underlying models failed or created new problems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The terminology needs care. Much of this work can now be recognised as part of GIScience, but New Zealand researchers did not necessarily use that label for every project at the time. Their paper titles more often referred to GIS, spatial information, data modelling, terrain, information systems or particular applications. The intellectual shift is visible without retroactively renaming all of it. Researchers were asking questions about geographic information that could not be answered by learning a sequence of software commands.",
+      "markdown": "The terminology needs care. Much of this work can now be recognised as part of GIScience, but New Zealand researchers did not necessarily use that label for every project at the time. Their paper titles more often referred to GIS, spatial information, data modelling, terrain, information systems or particular applications. The intellectual shift is visible without retroactively renaming all of it. Researchers were asking questions about geographic information that could not be answered by learning a sequence of software commands.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "University researchers could investigate methods before agencies committed to production systems. A paper could test a method for exchanging geographic data, representing uncertainty or querying a spatial database before an agency had a business case for implementing the technique. A thesis could spend a year or more on a problem too narrow or speculative for an operational team. Some of that work remained academic, while other ideas moved outward through graduates, conference papers and collaborations.",
+      "markdown": "University researchers could investigate methods before agencies committed to production systems. A paper could test a method for exchanging geographic data, representing uncertainty or querying a spatial database before an agency had a business case for implementing the technique. A thesis could spend a year or more on a problem too narrow or speculative for an operational team. Some of that work remained academic, while other ideas moved outward through graduates, conference papers and collaborations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Universities were also beginning to confront who spatial information was for. Vaughan R. J. Payne’s 1991 University of Otago MA thesis was titled Urupare Torohiko: Planning for the Equitable Use of Spatial Information in the Resolution of Treaty Claims. Payne examined equitable access to spatial information in Treaty claims.",
+      "markdown": "Universities were also beginning to confront who spatial information was for. Vaughan R. J. Payne’s 1991 University of Otago MA thesis was titled Urupare Torohiko: Planning for the Equitable Use of Spatial Information in the Resolution of Treaty Claims. Payne examined equitable access to spatial information in Treaty claims.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

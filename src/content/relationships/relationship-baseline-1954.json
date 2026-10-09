@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1954",
+  "a": "person:russel-mcquoid",
+  "b": "chapter:10",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-10-3d743f9d24"
+  ],
+  "sources": []
+}

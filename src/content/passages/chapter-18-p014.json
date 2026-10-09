@@ -1,0 +1,26 @@
+{
+  "id": "passage:chapter-18-5e0e90ca0c",
+  "slug": "positioning-becomes-school-material-5e0e90ca0c",
+  "articleId": "article:chapter-18",
+  "title": "Positioning becomes school material",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Positioning technology also became part of public geospatial education. LINZ’s 2016 LEARNZ field trip, Where are we?, focused on navigation and positioning on sea, land and air. The 2018 Land, Sky and Space trip extended that story through SBAS, aircraft navigation, the Awarua satellite ground station, autonomous vehicles, forestry, drones and modern surveying. In 2020 Get Outdoors Safely returned to the practical end of the same technology, using maps, GPS, distress beacons and search-and-rescue operations to show why accurate location information affects both everyday navigation and emergency response.",
+      "markdown": "Positioning technology also became part of public geospatial education. LINZ’s 2016 LEARNZ field trip, Where are we?, focused on navigation and positioning on sea, land and air. The 2018 Land, Sky and Space trip extended that story through SBAS, aircraft navigation, the Awarua satellite ground station, autonomous vehicles, forestry, drones and modern surveying. In 2020 Get Outdoors Safely returned to the practical end of the same technology, using maps, GPS, distress beacons and search-and-rescue operations to show why accurate location information affects both everyday navigation and emergency response.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

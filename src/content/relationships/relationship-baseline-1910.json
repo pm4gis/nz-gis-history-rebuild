@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1910",
+  "a": "person:jesse-merkle",
+  "b": "chapter:38",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-38-56d5b073bb"
+  ],
+  "sources": []
+}

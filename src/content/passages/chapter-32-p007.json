@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-32-33ae40ee2c",
+  "slug": "a-mixed-toolkit-33ae40ee2c",
+  "articleId": "article:chapter-32",
+  "title": "A mixed toolkit",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the later 2010s, QGIS was sufficiently established that government could build direct connections to public data around it. By 2018, the LINZ Data Importer plugin provided a route for bringing LINZ Data Service and other public geospatial information into QGIS. The larger history of open data and licensing sits alongside this one. An open desktop GIS could connect directly to authoritative government spatial services, reducing manual downloads and assembly.",
+      "markdown": "By the later 2010s, QGIS was sufficiently established that government could build direct connections to public data around it. By 2018, the LINZ Data Importer plugin provided a route for bringing LINZ Data Service and other public geospatial information into QGIS. The larger history of open data and licensing sits alongside this one. An open desktop GIS could connect directly to authoritative government spatial services, reducing manual downloads and assembly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "QGIS also appeared beside commercial software in training, research, conservation and community work. That coexistence is important. A practitioner might use QGIS at home or for a particular project while using ArcGIS at work. A research organisation might run PostGIS and GeoServer while maintaining commercial software for particular analytical or enterprise tasks. A council or consultancy might choose software differently for desktop editing, databases, field work and web delivery.",
+      "markdown": "QGIS also appeared beside commercial software in training, research, conservation and community work. That coexistence is important. A practitioner might use QGIS at home or for a particular project while using ArcGIS at work. A research organisation might run PostGIS and GeoServer while maintaining commercial software for particular analytical or enterprise tasks. A council or consultancy might choose software differently for desktop editing, databases, field work and web delivery.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Several GIS products coexisted and competed rather than one platform replacing all others. Instead, the assumption weakened that an organisation needed one product family to supply every layer of its spatial environment. Databases, desktop tools, web libraries, services and version-control systems could come from different communities. Commercial vendors were adapting at the same time, expanding their own platforms into web, mobile, cloud and enterprise environments. New Zealand organisations used a wider mix of GIS tools.",
+      "markdown": "Several GIS products coexisted and competed rather than one platform replacing all others. Instead, the assumption weakened that an organisation needed one product family to supply every layer of its spatial environment. Databases, desktop tools, web libraries, services and version-control systems could come from different communities. Commercial vendors were adapting at the same time, expanding their own platforms into web, mobile, cloud and enterprise environments. New Zealand organisations used a wider mix of GIS tools.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also changed the work expected of some GIS specialists. Database skills, SQL, scripting, web services, plugins, repositories and software configuration became more common around traditional mapping and analysis. Most analysts remained analysts, while the boundary between GIS administration and software development became less tidy. Open-source systems were one contributor among several.",
+      "markdown": "This also changed the work expected of some GIS specialists. Database skills, SQL, scripting, web services, plugins, repositories and software configuration became more common around traditional mapping and analysis. Most analysts remained analysts, while the boundary between GIS administration and software development became less tidy. Open-source systems were one contributor among several.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

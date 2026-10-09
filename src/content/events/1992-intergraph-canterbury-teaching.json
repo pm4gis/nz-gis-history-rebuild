@@ -1,0 +1,22 @@
+{
+  "id": "1992-intergraph-canterbury-teaching",
+  "dateDisplay": "July 1992",
+  "startDate": "1992-07",
+  "datePrecision": "month",
+  "year": 1992,
+  "label": "Intergraph supplies Canterbury engineering teaching software",
+  "summary": "A contemporary university report names Joe Golden and records 80 MicroStation licences, with MGE software for civil engineering teaching.",
+  "url": "/timeline/",
+  "passageIds": [],
+  "recordIds": [
+    "entity:intergraph-new-zealand",
+    "entity:university-of-canterbury",
+    "person:joe-golden"
+  ],
+  "themeIds": [],
+  "categories": [
+    "education",
+    "software"
+  ],
+  "sources": []
+}

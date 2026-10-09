@@ -1,0 +1,53 @@
+{
+  "id": "imagery",
+  "slug": "imagery",
+  "title": "From aerial photographs to routine observation",
+  "description": "Follow aerial survey, orthophotography, satellite observation, LiDAR and drone capture.",
+  "color": "#d28e6f",
+  "passageIds": [
+    "passage:chapter-1-db246fba61",
+    "passage:chapter-3-160846e07d",
+    "passage:chapter-4-e9b8032a50",
+    "passage:chapter-20-4e853e3f0f",
+    "passage:chapter-36-7ff6d0e295",
+    "passage:chapter-37-1ebfdc3774",
+    "passage:chapter-38-a1ca3ceb6c"
+  ],
+  "stops": [
+    {
+      "passageId": "passage:chapter-1-db246fba61",
+      "title": "The country from the air",
+      "url": "/stories/what-the-computer-inherited/#the-country-from-the-air"
+    },
+    {
+      "passageId": "passage:chapter-3-160846e07d",
+      "title": "Orthophoto production",
+      "url": "/stories/drawing-maps-by-machine/#orthophoto-production"
+    },
+    {
+      "passageId": "passage:chapter-4-e9b8032a50",
+      "title": "Landsat arrives",
+      "url": "/stories/turning-the-landscape-into-numbers/#landsat-arrives"
+    },
+    {
+      "passageId": "passage:chapter-20-4e853e3f0f",
+      "title": "A maintained background",
+      "url": "/stories/imagery-becomes-infrastructure/#a-maintained-background"
+    },
+    {
+      "passageId": "passage:chapter-36-7ff6d0e295",
+      "title": "Repeated observation becomes ordinary",
+      "url": "/stories/earth-observation-becomes-routine/#repeated-observation-becomes-ordinary"
+    },
+    {
+      "passageId": "passage:chapter-37-1ebfdc3774",
+      "title": "A national terrain foundation",
+      "url": "/stories/lidar-remakes-the-landscape/#a-national-terrain-foundation"
+    },
+    {
+      "passageId": "passage:chapter-38-a1ca3ceb6c",
+      "title": "From experiment to working method",
+      "url": "/stories/mapping-from-a-drone/#from-experiment-to-working-method"
+    }
+  ]
+}

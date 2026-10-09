@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0894",
+  "a": "person:steve-critchlow",
+  "b": "entity:critchlow",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

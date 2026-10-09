@@ -1,0 +1,31 @@
+{
+  "id": "person:samuel-wong",
+  "slug": "samuel-wong",
+  "name": "Samuel Wong",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/samuel-wong/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Samuel Wong: University of Canterbury Bachelor of Data Science, Spatial Data Science major; LINZ scholarship recipient."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    }
+  ],
+  "aliases": [
+    "Samuel Wong"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ]
+  ]
+}

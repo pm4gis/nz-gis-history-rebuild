@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-17-4b7e92a74e",
+  "slug": "the-people-maintaining-place-4b7e92a74e",
+  "articleId": "article:chapter-17",
+  "title": "The people maintaining place",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "None of this geography maintained itself. Council staff named roads, allocated numbers, assessed subdivisions and corrected local records. LINZ staff checked notifications, maintained national address and road databases, managed standards and reconciled relationships with cadastral and electoral information. Statistics New Zealand staff maintained street-to-statistical-area links. Police, Fire and rural-fire specialists supplied operational requirements for locating incidents. Postal organisations and commercial data suppliers maintained their own delivery and value-added products. GIS technicians, database administrators and quality-control staff kept the exchanges working between them.",
+      "markdown": "None of this geography maintained itself. Council staff named roads, allocated numbers, assessed subdivisions and corrected local records. LINZ staff checked notifications, maintained national address and road databases, managed standards and reconciled relationships with cadastral and electoral information. Statistics New Zealand staff maintained street-to-statistical-area links. Police, Fire and rural-fire specialists supplied operational requirements for locating incidents. Postal organisations and commercial data suppliers maintained their own delivery and value-added products. GIS technicians, database administrators and quality-control staff kept the exchanges working between them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The ESA specification makes that institutional breadth unusually visible. Its 2001 acceptance was signed across mapping, survey, Police, rural fire and statistical roles rather than by a single GIS team. The document described minimum shared data because each organisation already had its own operational responsibilities. Standards work was therefore a form of systems integration. The difficult part was agreeing which parts of several organisations’ geography had to mean the same thing when an emergency call or government record crossed their boundaries.",
+      "markdown": "The ESA specification makes that institutional breadth unusually visible. Its 2001 acceptance was signed across mapping, survey, Police, rural fire and statistical roles rather than by a single GIS team. The document described minimum shared data because each organisation already had its own operational responsibilities. Standards work was therefore a form of systems integration. The difficult part was agreeing which parts of several organisations’ geography had to mean the same thing when an emergency call or government record crossed their boundaries.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Errors and exceptions remained part of the work. A duplicated road name, a late council notification, a rural entrance moved after subdivision or several unit addresses sharing one coordinate could all create problems that software alone could not resolve. Quality control required knowledge of local-government decisions, cadastral relationships, road geometry and operational use. Addressing was a national database problem built from thousands of local decisions.",
+      "markdown": "Errors and exceptions remained part of the work. A duplicated road name, a late council notification, a rural entrance moved after subdivision or several unit addresses sharing one coordinate could all create problems that software alone could not resolve. Quality control required knowledge of local-government decisions, cadastral relationships, road geometry and operational use. Addressing was a national database problem built from thousands of local decisions.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

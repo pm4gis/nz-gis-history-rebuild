@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-34-379d4ca04d",
+  "slug": "a-national-system-meets-field-reality-379d4ca04d",
+  "articleId": "article:chapter-34",
+  "title": "A national system meets field reality",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34",
+    "entity:department-of-conservation"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Department of Conservation was confronting the same set of issues from a different direction. Its 2003 enterprise-GIS work documented a national ArcSDE, ArcGIS and ArcIMS environment and described integration with GPS, Windows CE and ArcPad. The technical material discussed downloading and uploading field information, hardware connectivity, datum transformation, standardisation and field verification. The project addressed the practical requirements of connecting handheld GIS with a larger information system. A portable map was easy compared with the harder question of how a field edit became a reliable organisational record.",
+      "markdown": "The Department of Conservation was confronting the same set of issues from a different direction. Its 2003 enterprise-GIS work documented a national ArcSDE, ArcGIS and ArcIMS environment and described integration with GPS, Windows CE and ArcPad. The technical material discussed downloading and uploading field information, hardware connectivity, datum transformation, standardisation and field verification. The project addressed the practical requirements of connecting handheld GIS with a larger information system. A portable map was easy compared with the harder question of how a field edit became a reliable organisational record.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOC’s regional staff and project teams adapted GIS tools to field conditions. A central system provided databases, services and standards, while the teams using devices had to make them work on tracks, in wetlands, beside huts and during helicopter operations.",
+      "markdown": "DOC’s regional staff and project teams adapted GIS tools to field conditions. A central system provided databases, services and standards, while the teams using devices had to make them work on tracks, in wetlands, beside huts and during helicopter operations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Field applications required additional local configuration and support beyond the central architecture. Institutions often describe systems from the centre because central projects leave the best documentation. The work that makes those systems useful is more distributed. A regional team may adapt a form, simplify a dataset, work out a practical synchronisation routine or discover that a theoretically elegant workflow is useless without offline maps. Mobile GIS made that gap especially visible because the software left the controlled environment of the office and met weather, distance, gloves, batteries, weak signals and people whose main job was not GIS.",
+      "markdown": "Field applications required additional local configuration and support beyond the central architecture. Institutions often describe systems from the centre because central projects leave the best documentation. The work that makes those systems useful is more distributed. A regional team may adapt a form, simplify a dataset, work out a practical synchronisation routine or discover that a theoretically elegant workflow is useless without offline maps. Mobile GIS made that gap especially visible because the software left the controlled environment of the office and met weather, distance, gloves, batteries, weak signals and people whose main job was not GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0801",
+  "a": "person:damia-vericat",
+  "b": "chapter:39",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-39-ca1f5dae42"
+  ],
+  "sources": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-19-efe15c6958",
+  "slug": "datum-and-projection-efe15c6958",
+  "articleId": "article:chapter-19",
+  "title": "Datum and projection",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "NZGD2000 provided the datum; a map projection was needed to produce rectangular eastings and northings. A datum defines the reference framework for position. A map projection converts positions from the curved reference surface into coordinates suitable for a flat map or GIS. The two are related but they are not the same object.",
+      "markdown": "NZGD2000 provided the datum; a map projection was needed to produce rectangular eastings and northings. A datum defines the reference framework for position. A map projection converts positions from the curved reference surface into coordinates suitable for a flat map or GIS. The two are related but they are not the same object.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For national mapping, the New Zealand Map Grid had been tied to NZGD49. Its specialised polynomial formulation had served the country well and was used for the NZMS260 1:50,000 series. It was not compatible with the new datum simply by changing a label. LINZ adopted New Zealand Transverse Mercator 2000 for national mapping in 2001 after consultation.",
+      "markdown": "For national mapping, the New Zealand Map Grid had been tied to NZGD49. Its specialised polynomial formulation had served the country well and was used for the NZMS260 1:50,000 series. It was not compatible with the new datum simply by changing a label. LINZ adopted New Zealand Transverse Mercator 2000 for national mapping in 2001 after consultation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NZTM2000 used the new datum and a conventional transverse Mercator projection. Coordinates were expressed as eastings and northings in metres and could be handled readily by mainstream GIS and mapping software. Cadastral surveying followed a related but different path through the new NZGD2000 meridional circuits, introduced in 2000 for local survey work.",
+      "markdown": "NZTM2000 used the new datum and a conventional transverse Mercator projection. Coordinates were expressed as eastings and northings in metres and could be handled readily by mainstream GIS and mapping software. Cadastral surveying followed a related but different path through the new NZGD2000 meridional circuits, introduced in 2000 for local survey work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change therefore produced several linked names that later users could easily confuse. NZGD2000 was the datum. NZTM2000 was the national mapping projection. The meridional circuits were projected coordinate systems used for cadastral surveying. Software needed to know which combination applied before coordinates from different sources could be overlaid correctly.",
+      "markdown": "The change therefore produced several linked names that later users could easily confuse. NZGD2000 was the datum. NZTM2000 was the national mapping projection. The meridional circuits were projected coordinate systems used for cadastral surveying. Software needed to know which combination applied before coordinates from different sources could be overlaid correctly.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

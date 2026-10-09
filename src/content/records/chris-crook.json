@@ -1,0 +1,35 @@
+{
+  "id": "person:chris-crook",
+  "slug": "chris-crook",
+  "name": "Chris Crook",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/chris-crook/",
+  "story": [
+    "Rachelle Winefield, Chris Crook and John Beavan documented the deformation patch developed after the 2009 Fiordland earthquake and the method used to incorporate it into LINZ processing."
+  ],
+  "sources": [
+    {
+      "label": "Chris Crook - Land Information New Zealand | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/chris-crook-0ab4581b"
+    },
+    {
+      "label": "Chapter 19 · Real time",
+      "url": "/stories/rebuilding-the-coordinate-framework/"
+    }
+  ],
+  "aliases": [
+    "Chris Crook"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 19 · Real time",
+        "url": "/stories/rebuilding-the-coordinate-framework/"
+      }
+    ]
+  ]
+}

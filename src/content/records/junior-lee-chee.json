@@ -1,0 +1,44 @@
+{
+  "id": "person:junior-lee-chee",
+  "slug": "junior-lee-chee",
+  "name": "Junior Lee-Chee",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/junior-lee-chee/",
+  "story": [
+    "Junior Lee-Chee was listed on NZEUG’s December 2008 committee, contributing to the user group’s volunteer governance.",
+    "Tony Standen, Team Leader Information Delivery at New Plymouth District Council, was handling the conference call for papers, while Junior Lee-Chee, Maps and Designs Manager at Auckland City Council, collected votes on the conference's future."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG, December 2008 newsletter",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Junior Lee-Chee"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZEUG, December 2008 newsletter",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

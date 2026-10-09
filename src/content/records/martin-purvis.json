@@ -1,0 +1,31 @@
+{
+  "id": "person:martin-purvis",
+  "slug": "martin-purvis",
+  "name": "Martin Purvis",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/martin-purvis/",
+  "story": [
+    "Bruce McLennan, Albert Chong and Martin Purvis described the Taiaroa Head GPS survey for the northern royal albatross project at the 1994 Spatial Information Research Centre colloquium, and McLennan’s later thesis preserved more of the method. Trimble Navigation New Zealand supplied receivers and peripherals."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 18 · A receiver on the trig",
+      "url": "/stories/gps-changes-where-here-is/"
+    }
+  ],
+  "aliases": [
+    "Martin Purvis"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 18 · A receiver on the trig",
+        "url": "/stories/gps-changes-where-here-is/"
+      }
+    ]
+  ]
+}

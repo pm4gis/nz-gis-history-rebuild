@@ -1,0 +1,55 @@
+{
+  "id": "person:robin-falconer",
+  "slug": "robin-falconer",
+  "name": "Robin Falconer",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/robin-falconer/",
+  "story": [
+    "Robin Falconer's professional profile describes his later work as an independent consultant. His earlier GeoResearch Associates practice and bathymetric mapping work, discussed in the history, connect marine information, environmental assessment and GIS. This places his spatial work within a wider scientific and consulting career.",
+    "Robin Falconer operated GeoResearch Associates from 1980 to 1994. His 2014 EPA evidence describes early-1990s bathymetric mapping for the Deepwater Fisheries Group and recalls acquiring what he called New Zealand’s second PC ARC/INFO system. He also claimed a founding role in the Esri user group. These priority claims remain his retrospective account.",
+    "In evidence filed with the Environmental Protection Authority in 2014, Robin Falconer described his earlier work through GeoResearch Associates and stated that he had bought what he described as New Zealand's second PC ARC/INFO system and had founded the ESRI user group. GeoResearch Associates operated from 1980 to 1994 with Falconer and one or two assistants, and in the early 1990s worked on a Deepwater Fisheries Group programme mapping bathymetry around New Zealand. Falconer’s account places his consultancy within the early Esri user community."
+  ],
+  "sources": [
+    {
+      "label": "Robin Falconer, evidence filed with the Environmental Protection Authority, project history",
+      "url": "https://www.epa.govt.nz/assets/FileAPI/proposal/EEZ000006/Evidence/EEZ000006-03AppEvidence-Falconer-Robin-Project-history.pdf"
+    },
+    {
+      "label": "Robin Falconer - Semi-retired/Independent Consultant | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/robin-falconer-a0319116"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Robin Falconer"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Robin Falconer - Semi-retired/Independent Consultant | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/robin-falconer-a0319116"
+      }
+    ],
+    [
+      {
+        "label": "Robin Falconer, evidence filed with the Environmental Protection Authority, project history",
+        "url": "https://www.epa.govt.nz/assets/FileAPI/proposal/EEZ000006/Evidence/EEZ000006-03AppEvidence-Falconer-Robin-Project-history.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

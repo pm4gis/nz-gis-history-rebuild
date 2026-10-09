@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0816",
+  "a": "person:christopher-b-jones",
+  "b": "chapter:44",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-44-ce9de66e2a"
+  ],
+  "sources": []
+}

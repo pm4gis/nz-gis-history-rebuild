@@ -1,0 +1,31 @@
+{
+  "id": "person:shaun-russell",
+  "slug": "shaun-russell",
+  "name": "Shaun Russell",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/shaun-russell/",
+  "story": [
+    "A 2018 GIScience paper by Niloofar Aflaki, Shaun Russell and Kristin Stock examined the difficulties of creating annotated geospatial natural-language descriptions. In 2019 Stock and collaborators presented \"He Tatai Whenua\", work on automated extraction of landscape terms and meanings in New Zealand Māori. These projects predated the current large-language-model boom and treated language as data that needed careful annotation, interpretation and computational representation. Coordinates returned from natural-language queries required validation against the intended places."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 44 · Natural language returns",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Shaun Russell"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 44 · Natural language returns",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

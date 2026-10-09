@@ -1,0 +1,27 @@
+{
+  "id": "1998-nzgd2000",
+  "dateDisplay": "1998",
+  "startDate": "1998",
+  "datePrecision": "year",
+  "year": 1998,
+  "label": "NZGD2000 implemented",
+  "summary": "LINZ implemented the satellite-era semi-dynamic datum that replaced NZGD49.",
+  "url": "/stories/rebuilding-the-coordinate-framework/#designing-nzgd2000-d8aa821386",
+  "passageIds": [
+    "passage:chapter-19-d8aa821386"
+  ],
+  "recordIds": [
+    "chapter:19",
+    "person:graeme-blick",
+    "person:peter-morgan",
+    "person:don-grant",
+    "person:merrin-pearse",
+    "person:john-beavan"
+  ],
+  "themeIds": [],
+  "categories": [
+    "geodesy",
+    "infrastructure"
+  ],
+  "sources": []
+}

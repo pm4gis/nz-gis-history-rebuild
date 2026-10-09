@@ -1,0 +1,31 @@
+{
+  "id": "person:peter-hunt",
+  "slug": "peter-hunt",
+  "name": "Peter Hunt",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/peter-hunt/",
+  "story": [
+    "Peter Hunt carried out photogrammetric interpretation and produced maps used in the spatial database for the Taiaroa Head northern royal albatross project, while graduate students assisted with GPS post-processing and Department of Conservation staff supported the field work. The project joined surveying, wildlife management, photogrammetry and GIS in a way that would become increasingly ordinary over the next decade."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 18 · A receiver on the trig",
+      "url": "/stories/gps-changes-where-here-is/"
+    }
+  ],
+  "aliases": [
+    "Peter Hunt"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 18 · A receiver on the trig",
+        "url": "/stories/gps-changes-where-here-is/"
+      }
+    ]
+  ]
+}

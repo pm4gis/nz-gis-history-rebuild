@@ -1,0 +1,25 @@
+{
+  "id": "entity:taranaki-regional-council",
+  "slug": "taranaki-regional-council",
+  "name": "Taranaki Regional Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/taranaki-regional-council/",
+  "website": "https://www.trc.govt.nz",
+  "description": "Named in A plan for each farm (Chapter 26). Follow the linked passage for context.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Taranaki Regional Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

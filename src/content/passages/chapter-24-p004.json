@@ -1,0 +1,22 @@
+{
+  "id": "passage:chapter-24-a6684b8874",
+  "slug": "modelling-varroa-spread-a6684b8874",
+  "articleId": "article:chapter-24",
+  "title": "Modelling varroa spread",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:24",
+    "person:robert-sanson"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Veterinary epidemiologist Robert Sanson later documented the development of the spatial work after those first weeks. Varroa_sim was programmed in ArcView using Avenue and treated 9,229 registered North Island apiaries with valid map-grid coordinates as the population at risk. The stochastic model represented local spread, movement within a beekeeper's operation and the seasonal concentration of hives for pollination, while eradication assumptions could be changed through menus in the map interface. The work also exposed a quieter data problem. Apiary map-sheet references were subsequently converted automatically to full New Zealand Map Grid coordinates and validation was added to stop impossible locations entering the database. GIS was therefore doing two jobs: modelling where infestation might move and forcing the underlying location records to become more dependable.",
+      "markdown": "Veterinary epidemiologist Robert Sanson later documented the development of the spatial work after those first weeks. Varroa_sim was programmed in ArcView using Avenue and treated 9,229 registered North Island apiaries with valid map-grid coordinates as the population at risk. The stochastic model represented local spread, movement within a beekeeper's operation and the seasonal concentration of hives for pollination, while eradication assumptions could be changed through menus in the map interface. The work also exposed a quieter data problem. Apiary map-sheet references were subsequently converted automatically to full New Zealand Map Grid coordinates and validation was added to stop impossible locations entering the database. GIS was therefore doing two jobs: modelling where infestation might move and forcing the underlying location records to become more dependable.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

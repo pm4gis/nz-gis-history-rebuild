@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1100",
+  "a": "person:simon-nitz",
+  "b": "entity:napier-city-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

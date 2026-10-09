@@ -1,0 +1,44 @@
+{
+  "id": "person:p-j-sallis",
+  "slug": "p-j-sallis",
+  "name": "P. J. Sallis",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/p-j-sallis/",
+  "story": [
+    "The second colloquium in 1990 included P. J. Sallis on natural-language information retrieval from a GIS database and the Canterbury work on sharing geographic data. By the third meeting in 1991, the proceedings carried the title GIS: Realising the Potential and included work on multimedia spatial knowledge. SIRC also dealt with organisational, data and research questions beyond software demonstrations.",
+    "In 1990 P. J. Sallis presented a natural-language interface to a GIS database at the second annual Spatial Information Research Centre colloquium in Dunedin."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 11 · A recurring research forum",
+      "url": "/stories/universities-build-a-field/"
+    },
+    {
+      "label": "Chapter 44 · AI before the boom",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "P. J. Sallis"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 11 · A recurring research forum",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · AI before the boom",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

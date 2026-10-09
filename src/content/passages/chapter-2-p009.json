@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-2-0c07b0b289",
+  "slug": "people-between-the-field-book-and-the-machine-0c07b0b289",
+  "articleId": "article:chapter-2",
+  "title": "People between the field book and the machine",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:2"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Electronic computing changed the work of technical staff. Field observations still had to be made correctly, and someone had to decide how to encode them before a machine could do anything useful. Cards and tapes needed preparation and verification. Programs had to be written and tested. Results had to be checked against known values and then transferred back into survey, engineering or mapping workflows. The computer could take over the arithmetic, but it still depended on a remarkably human chain of people making sure the numbers meant what everybody thought they meant.",
+      "markdown": "Electronic computing changed the work of technical staff. Field observations still had to be made correctly, and someone had to decide how to encode them before a machine could do anything useful. Cards and tapes needed preparation and verification. Programs had to be written and tested. Results had to be checked against known values and then transferred back into survey, engineering or mapping workflows. The computer could take over the arithmetic, but it still depended on a remarkably human chain of people making sure the numbers meant what everybody thought they meant.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Some of the older occupational labels faded as the work moved. The human computer became less common because electronic machines took over much of the repeated calculation. At the same time, programmers, computer operators and technical analysts appeared alongside survey and engineering staff. The work crossed organisational boundaries because the people who understood the geographic problem were not always the people who operated the central computer.",
+      "markdown": "Some of the older occupational labels faded as the work moved. The human computer became less common because electronic machines took over much of the repeated calculation. At the same time, programmers, computer operators and technical analysts appeared alongside survey and engineering staff. The work crossed organisational boundaries because the people who understood the geographic problem were not always the people who operated the central computer.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This created a translation problem that would recur throughout GIS history. A surveyor might know what the calculation had to mean physically but not how a particular computer expected its input. A programmer might understand the machine but not recognise an impossible coordinate. Reliable work depended on both forms of knowledge reaching the same job. The later GIS specialist would often combine more of those responsibilities in one role, but the need to bridge domain knowledge and computing began much earlier.",
+      "markdown": "This created a translation problem that would recur throughout GIS history. A surveyor might know what the calculation had to mean physically but not how a particular computer expected its input. A programmer might understand the machine but not recognise an impossible coordinate. Reliable work depended on both forms of knowledge reaching the same job. The later GIS specialist would often combine more of those responsibilities in one role, but the need to bridge domain knowledge and computing began much earlier.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

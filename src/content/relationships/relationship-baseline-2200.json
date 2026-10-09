@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2200",
+  "a": "person:jeremy-gulson",
+  "b": "entity:nz-transport-agency-waka-kotahi",
+  "label": "Associated with",
+  "basis": "Documented association in the people-expansion research; role and period are described in the linked profile sources.",
+  "passageIds": [],
+  "sources": []
+}

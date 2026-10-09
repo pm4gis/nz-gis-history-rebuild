@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-38-bf70a91d7c",
+  "slug": "a-survey-aircraft-in-a-case-bf70a91d7c",
+  "articleId": "article:chapter-38",
+  "title": "A survey aircraft in a case",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The aircraft themselves made the change visible. Earlier aerial mapping usually involved a crewed aircraft, specialist operator, formal flight planning and a contract large enough to justify mobilisation. By the mid-2010s a professional UAV system could travel in a vehicle and be launched close to the site. That reduced the area that had to be worth flying before aerial capture made sense. The practical unit of mapping could shrink from a district or catchment to a landslide, quarry face or work site. A mapping aircraft remained a specialist tool, yet by then it could be small enough to arrive in the back of a vehicle rather than at an airport.",
+      "markdown": "The aircraft themselves made the change visible. Earlier aerial mapping usually involved a crewed aircraft, specialist operator, formal flight planning and a contract large enough to justify mobilisation. By the mid-2010s a professional UAV system could travel in a vehicle and be launched close to the site. That reduced the area that had to be worth flying before aerial capture made sense. The practical unit of mapping could shrink from a district or catchment to a landslide, quarry face or work site. A mapping aircraft remained a specialist tool, yet by then it could be small enough to arrive in the back of a vehicle rather than at an airport.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The reduction in scale changed timing as much as cost. A regional orthophoto programme might be repeated every few years. A UAV could return after heavy rain, after a construction stage, after erosion or before and after an engineering intervention. This made aerial data collection more closely resemble field survey. The team controlling the project could choose the day, the flight pattern and the area to be observed, subject to weather, access, aviation rules and the limitations of the aircraft.",
+      "markdown": "The reduction in scale changed timing as much as cost. A regional orthophoto programme might be repeated every few years. A UAV could return after heavy rain, after a construction stage, after erosion or before and after an engineering intervention. This made aerial data collection more closely resemble field survey. The team controlling the project could choose the day, the flight pattern and the area to be observed, subject to weather, access, aviation rules and the limitations of the aircraft.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The aircraft was only one component. Batteries, camera, GNSS, flight-planning software, ground-control targets, survey equipment, storage, photogrammetric processing and GIS all had to work together. A small machine hovering over a site could look deceptively simple from the ground. Producing a defensible map from it required rather more than pressing the take-off button and admiring the photographs afterwards.",
+      "markdown": "The aircraft was only one component. Batteries, camera, GNSS, flight-planning software, ground-control targets, survey equipment, storage, photogrammetric processing and GIS all had to work together. A small machine hovering over a site could look deceptively simple from the ground. Producing a defensible map from it required rather more than pressing the take-off button and admiring the photographs afterwards.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

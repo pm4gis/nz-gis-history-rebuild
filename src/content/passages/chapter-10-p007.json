@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-10-7666f816ad",
+  "slug": "planning-departmental-gis-7666f816ad",
+  "articleId": "article:chapter-10",
+  "title": "Planning departmental GIS",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:10",
+    "entity:department-of-conservation",
+    "entity:dsir-science-mapping-unit",
+    "person:mary-mcewen"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Mary McEwen's 1989–90 work for the new Department of Conservation captures the management problem from another angle. DOC had inherited biological, protected-area and other spatial records from predecessor organisations, and McEwen examined whether GIS could help organise them. She drew on the Biological Resources Centre’s earlier work with the DSIR Science Mapping Unit and Intergraph. She was considering what it would take for a department to keep such a capability useful.",
+      "markdown": "Mary McEwen's 1989–90 work for the new Department of Conservation captures the management problem from another angle. DOC had inherited biological, protected-area and other spatial records from predecessor organisations, and McEwen examined whether GIS could help organise them. She drew on the Biological Resources Centre’s earlier work with the DSIR Science Mapping Unit and Intergraph. She was considering what it would take for a department to keep such a capability useful.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Her recommendations concentrated on organisational questions. Objectives had to be defined before a system was selected. A pilot could test whether the proposed uses justified the investment. Costs included more than software, because trained staff, data preparation, documentation, equipment and continuing maintenance all had to be provided. A database that was not kept current could quickly become a more efficient way of distributing old information.",
+      "markdown": "Her recommendations concentrated on organisational questions. Objectives had to be defined before a system was selected. A pilot could test whether the proposed uses justified the investment. Costs included more than software, because trained staff, data preparation, documentation, equipment and continuing maintenance all had to be provided. A database that was not kept current could quickly become a more efficient way of distributing old information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The conditions of the period made those requirements substantial. Specialist workstations, graphics displays, digitisers, plotters and storage were expensive enough to make GIS a departmental investment. Staff needed training, and organisations still had to decide whether computing would be concentrated centrally or supported through regional production arrangements. Large analogue collections had to be converted before many of the promised benefits appeared. Printed maps remained necessary for field, operational and public use, so departments often had to maintain digital databases and conventional outputs at the same time.",
+      "markdown": "The conditions of the period made those requirements substantial. Specialist workstations, graphics displays, digitisers, plotters and storage were expensive enough to make GIS a departmental investment. Staff needed training, and organisations still had to decide whether computing would be concentrated centrally or supported through regional production arrangements. Large analogue collections had to be converted before many of the promised benefits appeared. Printed maps remained necessary for field, operational and public use, so departments often had to maintain digital databases and conventional outputs at the same time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 1989 and 1990, DOC was assessing how to maintain inherited biological, protected-area and other spatial records within a continuing information system. Its reports considered objectives, staffing, costs, pilots and responsibility for data management. Mature conservation GIS followed later.",
+      "markdown": "By 1989 and 1990, DOC was assessing how to maintain inherited biological, protected-area and other spatial records within a continuing information system. Its reports considered objectives, staffing, costs, pilots and responsibility for data management. Mature conservation GIS followed later.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

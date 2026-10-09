@@ -1,0 +1,31 @@
+{
+  "id": "person:andrew-little",
+  "slug": "andrew-little",
+  "name": "Andrew Little",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/andrew-little/",
+  "story": [
+    "As the minister responsible for the Marine and Coastal Area (Takutai Moana) Act, Andrew Little welcomed the public launch of Kōrero Takutai on 11 December 2019. The government release describes a free spatial portal combining applications, coastal permits, Walking Access information, marae locations and other public data for the New Zealand coastline."
+  ],
+  "sources": [
+    {
+      "label": "Beehive, Minister welcomes data-rich coastline mapping tool, 11 December 2019",
+      "url": "https://www.beehive.govt.nz/release/minister-welcomes-data-rich-coastline-mapping-tool"
+    }
+  ],
+  "aliases": [
+    "Andrew Little"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Beehive, Minister welcomes data-rich coastline mapping tool, 11 December 2019",
+        "url": "https://www.beehive.govt.nz/release/minister-welcomes-data-rich-coastline-mapping-tool"
+      }
+    ]
+  ]
+}

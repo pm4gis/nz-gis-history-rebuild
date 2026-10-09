@@ -1,0 +1,55 @@
+{
+  "id": "passage:chapter-9-7b174cd504",
+  "slug": "catchment-monitoring-7b174cd504",
+  "articleId": "article:chapter-9",
+  "title": "Catchment monitoring",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9",
+    "entity:university-of-waikato",
+    "person:brent-wood",
+    "person:sohail-afzal-choudhry",
+    "person:andrew-watkins"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Hydrology presented a different spatial problem because the observations changed through time as well as space. Rainfall, streamflow, groundwater levels and other measurements could be attached to gauges or other locations, but the processes being studied operated across catchments and along river networks. A catchment model therefore needed a geographic structure as well as a time series.",
+      "markdown": "Hydrology presented a different spatial problem because the observations changed through time as well as space. Rainfall, streamflow, groundwater levels and other measurements could be attached to gauges or other locations, but the processes being studied operated across catchments and along river networks. A catchment model therefore needed a geographic structure as well as a time series.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Sohail Afzal Choudhry’s 1998 University of Waikato doctoral research on the Kaimai hydropower project catchment provides a detailed New Zealand example. The work combined surface hydrological modelling with GIS and spatial time-series databases. ARC/INFO and ArcView were used alongside object-oriented programming and dynamic segmentation techniques. The research integrated catchment mapping, modelling and spatial time-series data within the same workflow.",
+      "markdown": "Sohail Afzal Choudhry’s 1998 University of Waikato doctoral research on the Kaimai hydropower project catchment provides a detailed New Zealand example. The work combined surface hydrological modelling with GIS and spatial time-series databases. ARC/INFO and ArcView were used alongside object-oriented programming and dynamic segmentation techniques. The research integrated catchment mapping, modelling and spatial time-series data within the same workflow.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS provided a way to organise the geography used by the hydrological model. Catchment areas, channels and other spatial components could be related to the measurements and parameters associated with them. Time-series records could then be connected to locations or sections of the network rather than treated as anonymous columns in a table. The model could use spatially varying information instead of assuming that one value represented an entire catchment.",
+      "markdown": "GIS provided a way to organise the geography used by the hydrological model. Catchment areas, channels and other spatial components could be related to the measurements and parameters associated with them. Time-series records could then be connected to locations or sections of the network rather than treated as anonymous columns in a table. The model could use spatially varying information instead of assuming that one value represented an entire catchment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Dynamic segmentation is one example of the technical work involved. A river line could carry changing attributes along its length without requiring every section to be redrawn as a completely separate feature. That approach was useful where measurements or model conditions applied to particular reaches. The technique also illustrates how scientific GIS moved beyond static overlay into more structured representations of processes that occurred along networks.",
+      "markdown": "Dynamic segmentation is one example of the technical work involved. A river line could carry changing attributes along its length without requiring every section to be redrawn as a completely separate feature. That approach was useful where measurements or model conditions applied to particular reaches. The technique also illustrates how scientific GIS moved beyond static overlay into more structured representations of processes that occurred along networks.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Kaimai project was university research; NIWA also used GIS in its operational work. In October 2006 NIWA's Brent Wood described PostGIS running behind about half a dozen systems, with some datasets containing hundreds of millions of features. In December 2008 he described PostGIS, Apache and UMN MapServer as a standards-based web-mapping environment supporting WMS and WFS for maritime, fisheries, ecological and oceanographic work. By 2009 the same practitioner record included GeoServer and OpenLayers, and Andrew Watkins was working with GeoNetwork in 2010.",
+      "markdown": "The Kaimai project was university research; NIWA also used GIS in its operational work. In October 2006 NIWA's Brent Wood described PostGIS running behind about half a dozen systems, with some datasets containing hundreds of millions of features. In December 2008 he described PostGIS, Apache and UMN MapServer as a standards-based web-mapping environment supporting WMS and WFS for maritime, fisheries, ecological and oceanographic work. By 2009 the same practitioner record included GeoServer and OpenLayers, and Andrew Watkins was working with GeoNetwork in 2010.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the later 2000s, spatial databases and web services were ordinary production tools inside a national research organisation. They handled datasets at scales that would have been awkward to manage as map files alone, across applications used by different research units.",
+      "markdown": "By the later 2000s, spatial databases and web services were ordinary production tools inside a national research organisation. They handled datasets at scales that would have been awkward to manage as map files alone, across applications used by different research units.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

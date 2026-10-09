@@ -1,0 +1,44 @@
+{
+  "id": "person:peter-fraser",
+  "slug": "peter-fraser",
+  "name": "Peter Fraser",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/peter-fraser/",
+  "story": [
+    "Peter Fraser appears on the December 2008 NZEUG committee list, documenting his participation in the GIS user community.",
+    "Peter Fraser asked GISList for clarification about its administration and said he knew of no handover to the user group. A message dated 29 March 2007 was addressed to the “GIS User List” at gislist [at] gis-list.gisuser.co.nz. By 2008 the system also used a gislist-owner [at] gis-list.gisuser.co.nz address and automated subscription controls. Practitioners shared jobs, data sources, conference notices and fixes for ArcGIS, Python, LiDAR, GPS and NZMG-to-NZTM migration."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG, December 2008 newsletter",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Peter Fraser"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZEUG, December 2008 newsletter",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

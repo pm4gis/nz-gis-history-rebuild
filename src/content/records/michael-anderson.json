@@ -1,0 +1,46 @@
+{
+  "id": "person:michael-anderson",
+  "slug": "michael-anderson",
+  "name": "Michael Anderson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/michael-anderson/",
+  "story": [
+    "M. R. Anderson and George Benwell surveyed GIS use among local authorities in New Zealand and Victoria.",
+    "Michael Anderson and George Benwell surveyed local-authority GIS use in 1992, and K. G. Fraser and E. Todd compared the situation in July 1993 with February 1992."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 11 · A recurring research forum",
+      "url": "/stories/universities-build-a-field/"
+    },
+    {
+      "label": "Chapter 23 · Adoption accelerates",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Michael Anderson",
+    "M. R. Anderson"
+  ],
+  "themeIds": [
+    "profession",
+    "local-government"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 11 · A recurring research forum",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · Adoption accelerates",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

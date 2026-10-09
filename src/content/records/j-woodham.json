@@ -1,0 +1,48 @@
+{
+  "id": "person:j-woodham",
+  "slug": "j-woodham",
+  "name": "J. Woodham",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/j-woodham/",
+  "story": [
+    "J. Woodham co-authored the Waikato dental GIS work presented in 2001–02, alongside F. Dumble.",
+    "Dumble and J. Woodham’s 2001–02 dental GIS work examined the allocation of dental-therapist resources and the targeting of health promotion. The project linked children’s records with homes, schools, water and fluoride information, income, NZDep96, school rolls and therapist rosters. ArcView supported geocoding, overlay analysis and reporting. Handwritten therapist forms were collated and scanned for the reporting process."
+  ],
+  "sources": [
+    {
+      "label": "Finding, Filling, Drilling and Closing the Gaps - ESRI 2002"
+    },
+    {
+      "label": "Whigham, P. A. (ed.), SIRC 2001 proceedings entry, Terrorising the Tooth Fairy with GIS: Finding, Filling, Drilling and Closing the Gaps"
+    },
+    {
+      "label": "Chapter 27 · Health population and place",
+      "url": "/stories/health-population-and-place/"
+    },
+    {
+      "label": "Chapter 27 · Waikato builds a routine map",
+      "url": "/stories/health-population-and-place/"
+    }
+  ],
+  "aliases": [
+    "J. Woodham"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 27 · Health population and place",
+        "url": "/stories/health-population-and-place/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 27 · Waikato builds a routine map",
+        "url": "/stories/health-population-and-place/"
+      }
+    ]
+  ]
+}

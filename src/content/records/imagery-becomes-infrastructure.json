@@ -1,0 +1,16 @@
+{
+  "id": "chapter:20",
+  "articleId": "article:chapter-20",
+  "slug": "imagery-becomes-infrastructure",
+  "name": "Aerial imagery",
+  "kind": "Story",
+  "category": "National datasets",
+  "url": "/stories/imagery-becomes-infrastructure/",
+  "description": "Aerial photographs had been used in New Zealand mapping for decades before GIS became common. They helped photogrammetrists compile topographic maps, foresters interpret stands, engineers inspect routes and land-resource staff read terrain and vegetation. The photograph itself was a perspective view, however. Camera geometry, the angle of view and the relief of the ground displaced features from the positions they wo",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "imagery"
+  ]
+}

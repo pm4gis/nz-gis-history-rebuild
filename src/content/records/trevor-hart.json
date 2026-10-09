@@ -1,0 +1,48 @@
+{
+  "id": "person:trevor-hart",
+  "slug": "trevor-hart",
+  "name": "Trevor Hart",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/trevor-hart/",
+  "story": [
+    "Trevor Hart is documented as an Eagle GIS solution architect and later as a founder of Ope. His work sits in the enterprise-GIS architecture lineage, including ArcGIS Enterprise and later specialist enterprise practice. Public evidence securely supports the roles; his exact Eagle start date remains unresolved.",
+    "Trevor Hart’s later specialist practice, Ope, describes ArcGIS Enterprise design, upgrades, health checks and related tools from 2017 onward. These are distinct kinds of work, connecting customer requirements, project delivery, technical support and the continuing operation of shared systems."
+  ],
+  "sources": [
+    {
+      "label": "Ope Ltd, company website",
+      "url": "https://www.ope.nz/"
+    },
+    {
+      "label": "Trevor Hart - Ope Ltd | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/trevorhartgis"
+    },
+    {
+      "label": "Chapter 12 · Local channels",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Trevor Hart"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Ope Ltd, company website",
+        "url": "https://www.ope.nz/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Local channels",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

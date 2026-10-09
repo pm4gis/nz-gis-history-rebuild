@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1599",
+  "a": "person:nige-sheed",
+  "b": "chapter:40",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-40-fa8b4c43f6"
+  ],
+  "sources": []
+}

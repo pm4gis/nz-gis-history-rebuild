@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0770",
+  "a": "person:jan-rigby",
+  "b": "chapter:27",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-27-3a9d0a44c2"
+  ],
+  "sources": []
+}

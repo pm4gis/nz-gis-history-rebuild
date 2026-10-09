@@ -1,0 +1,29 @@
+{
+  "id": "passage:chapter-36-a1ca3ceb6c",
+  "slug": "from-experiment-to-working-method-a1ca3ceb6c",
+  "articleId": "article:chapter-36",
+  "title": "From experiment to working method",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36",
+    "entity:massey-university",
+    "person:leonard-brown"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the mid-1990s remote sensing was already an established specialist method in New Zealand research. Leonard Brown’s 1995 Massey University doctoral work combined remote sensing, digital image processing and GIS to investigate resource-management questions in Westland, including alluvial gold mining and indigenous forest. Other mid-1990s Massey work used digital image analysis and GIS to examine land-use change on the Hautere Plains. These projects were no longer demonstrations that a satellite could see New Zealand. They treated imagery as evidence that could be analysed with other geographic information to answer a specific land-management question.",
+      "markdown": "By the mid-1990s remote sensing was already an established specialist method in New Zealand research. Leonard Brown’s 1995 Massey University doctoral work combined remote sensing, digital image processing and GIS to investigate resource-management questions in Westland, including alluvial gold mining and indigenous forest. Other mid-1990s Massey work used digital image analysis and GIS to examine land-use change on the Hautere Plains. These projects were no longer demonstrations that a satellite could see New Zealand. They treated imagery as evidence that could be analysed with other geographic information to answer a specific land-management question.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Imagery still required correction, classification and interpretation before it became usable information. A satellite records energy reflected or emitted from the Earth’s surface in particular wavelength bands. The resulting pixels do not arrive with labels saying forest, pasture, wetland or urban land. Classification requires rules, reference information and checking. A change between two images may represent a genuine change on the ground, but it may also reflect cloud, season, illumination, sensor differences, image alignment or the way the classification was produced. As satellite data became easier to obtain, those interpretive problems did not disappear. They became easier for more people to encounter.",
+      "markdown": "Imagery still required correction, classification and interpretation before it became usable information. A satellite records energy reflected or emitted from the Earth’s surface in particular wavelength bands. The resulting pixels do not arrive with labels saying forest, pasture, wetland or urban land. Classification requires rules, reference information and checking. A change between two images may represent a genuine change on the ground, but it may also reflect cloud, season, illumination, sensor differences, image alignment or the way the classification was produced. As satellite data became easier to obtain, those interpretive problems did not disappear. They became easier for more people to encounter.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-2-49fd748adc",
+  "slug": "storage-without-geography-49fd748adc",
+  "articleId": "article:chapter-2",
+  "title": "Storage without geography",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:2"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Magnetic tape and disks expanded the amount of information early computers could store. A tape could hold thousands of coordinate values and still contain no explicit representation of a connected road network or parcel fabric. A program could read those values, calculate new ones and write another tape without preserving the relationships a later spatial database would expect.",
+      "markdown": "Magnetic tape and disks expanded the amount of information early computers could store. A tape could hold thousands of coordinate values and still contain no explicit representation of a connected road network or parcel fabric. A program could read those values, calculate new ones and write another tape without preserving the relationships a later spatial database would expect.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A coordinate file is spatial data, but it may not be a geographic information system. A program that calculates an alignment is computer-assisted spatial analysis, but it may not support general map editing or geographic query. A plot produced from calculated values is computer-generated cartography, but it may be only an output rather than a view of a maintained spatial database.",
+      "markdown": "A coordinate file is spatial data, but it may not be a geographic information system. A program that calculates an alignment is computer-assisted spatial analysis, but it may not support general map editing or geographic query. A plot produced from calculated values is computer-generated cartography, but it may be only an output rather than a view of a maintained spatial database.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The early systems handled demanding calculations and data-processing tasks. GIS developed through the convergence of numerical calculation, digital cartography, database design and spatial analysis. Surveyors brought coordinates and control. Engineers brought numerical terrain and route problems. Cartographers brought generalisation and graphic production. Photogrammetrists brought measured geometry from imagery. Remote-sensing researchers would bring machine-readable rasters, while land-resource teams would bring polygons and attributes. The first computerised stage solved only part of that puzzle: it made the numerical pieces easier to process.",
+      "markdown": "The early systems handled demanding calculations and data-processing tasks. GIS developed through the convergence of numerical calculation, digital cartography, database design and spatial analysis. Surveyors brought coordinates and control. Engineers brought numerical terrain and route problems. Cartographers brought generalisation and graphic production. Photogrammetrists brought measured geometry from imagery. Remote-sensing researchers would bring machine-readable rasters, while land-resource teams would bring polygons and attributes. The first computerised stage solved only part of that puzzle: it made the numerical pieces easier to process.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

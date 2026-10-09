@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-18-a77896ba7d",
+  "slug": "corrections-are-infrastructure-a77896ba7d",
+  "articleId": "article:chapter-18",
+  "title": "Corrections are infrastructure",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Differential positioning also changed the shape of the system around the receiver. A rover could not improve itself merely by knowing that a more accurate position was desirable. It needed observations or corrections from a reference point whose position was already known. Those corrections had to reach the user, either after the field work during post-processing or in real time through radio or another communications service. The accuracy chain therefore extended beyond the object in the worker’s hand.",
+      "markdown": "Differential positioning also changed the shape of the system around the receiver. A rover could not improve itself merely by knowing that a more accurate position was desirable. It needed observations or corrections from a reference point whose position was already known. Those corrections had to reach the user, either after the field work during post-processing or in real time through radio or another communications service. The accuracy chain therefore extended beyond the object in the worker’s hand.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand’s terrain made the correction path a practical design choice. A local base station could give an organisation control over its own reference observations, but it required another receiver and communications equipment. A UHF service could provide real-time corrections without each user operating a base, but radio coverage depended on transmitter locations and terrain. Satellite-delivered corrections reached much larger areas but carried a subscription cost. In Yule’s 1999 agricultural account, commercial UHF coverage was still limited in New Zealand, while the Optus satellite could deliver correction services from Omnistar and Racal.",
+      "markdown": "New Zealand’s terrain made the correction path a practical design choice. A local base station could give an organisation control over its own reference observations, but it required another receiver and communications equipment. A UHF service could provide real-time corrections without each user operating a base, but radio coverage depended on transmitter locations and terrain. Satellite-delivered corrections reached much larger areas but carried a subscription cost. In Yule’s 1999 agricultural account, commercial UHF coverage was still limited in New Zealand, while the Optus satellite could deliver correction services from Omnistar and Racal.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The economics are revealing. In Yule’s worked precision-farming example, the annual differential correction fee represented about 40 per cent of the operating cost of the extra positioning and control system. A farmer who needed sub-metre guidance was therefore buying access to an information service as well as hardware. The receiver might belong to the farm, but part of its useful accuracy arrived from somewhere else. That model would become increasingly familiar in later high-accuracy positioning, where reference stations, communications networks and correction services sit behind what can appear to the user as one instantaneous coordinate.",
+      "markdown": "The economics are revealing. In Yule’s worked precision-farming example, the annual differential correction fee represented about 40 per cent of the operating cost of the extra positioning and control system. A farmer who needed sub-metre guidance was therefore buying access to an information service as well as hardware. The receiver might belong to the farm, but part of its useful accuracy arrived from somewhere else. That model would become increasingly familiar in later high-accuracy positioning, where reference stations, communications networks and correction services sit behind what can appear to the user as one instantaneous coordinate.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Real-time kinematic positioning pushed the same dependency further. RTK could give a rover centimetre-class relative positions while work was underway, but only when carrier-phase ambiguities were resolved and suitable corrections reached the rover reliably. Early radio links imposed range and terrain limits. A lost correction link could turn a high-precision workflow back into waiting, reinitialising or collecting data for later processing. Improved communications allowed positioning corrections to reach receivers away from the office.",
+      "markdown": "Real-time kinematic positioning pushed the same dependency further. RTK could give a rover centimetre-class relative positions while work was underway, but only when carrier-phase ambiguities were resolved and suitable corrections reached the rover reliably. Early radio links imposed range and terrain limits. A lost correction link could turn a high-precision workflow back into waiting, reinitialising or collecting data for later processing. Improved communications allowed positioning corrections to reach receivers away from the office.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also explains why different sectors adopted different techniques at different times. A national geodetic campaign could justify specialist equipment, planned occupations and extensive processing. A farmer needed a system that worked while machinery was moving. A utility field crew often needed a useful location and the correct asset record more than survey precision. An ecologist might accept post-processing if it produced repeatable monitoring points. The technology spread fastest when the positioning method fitted the work rather than when the most accurate available method was imposed on every task.",
+      "markdown": "This also explains why different sectors adopted different techniques at different times. A national geodetic campaign could justify specialist equipment, planned occupations and extensive processing. A farmer needed a system that worked while machinery was moving. A utility field crew often needed a useful location and the correct asset record more than survey precision. An ecologist might accept post-processing if it produced repeatable monitoring points. The technology spread fastest when the positioning method fitted the work rather than when the most accurate available method was imposed on every task.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

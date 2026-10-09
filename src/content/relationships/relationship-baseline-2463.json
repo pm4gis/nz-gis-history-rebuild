@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2463",
+  "a": "person:igor-drecki",
+  "b": "entity:university-of-auckland",
+  "label": "Associated with",
+  "basis": "Documented association in the 7 October 2026 entity-gap expansion research.",
+  "passageIds": [],
+  "sources": []
+}

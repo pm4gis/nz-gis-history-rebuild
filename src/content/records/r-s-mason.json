@@ -1,0 +1,42 @@
+{
+  "id": "person:r-s-mason",
+  "slug": "r-s-mason",
+  "name": "R. S. Mason",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/r-s-mason/",
+  "story": [
+    "R. S. Mason joined PEL’s Remote Sensing Section in 1974. The 1976 programme report records his work preparing aircraft multispectral surveys, constructing electronic equipment and evaluating instruments.",
+    "A. D. Fowler was involved in colour processing, multispectral compositing and calibration, while R. S. Mason worked on electronics and preparation of the aircraft multispectral system."
+  ],
+  "sources": [
+    {
+      "label": "NASA/DSIR New Zealand Landsat II investigation reports, NASA-CR-146632 and related",
+      "url": "https://ntrs.nasa.gov/api/citations/19760013518/downloads/19760013518.pdf"
+    },
+    {
+      "label": "Chapter 4 · Processing the tapes",
+      "url": "/stories/turning-the-landscape-into-numbers/"
+    }
+  ],
+  "aliases": [
+    "R. S. Mason"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NASA/DSIR New Zealand Landsat II investigation reports, NASA-CR-146632 and related",
+        "url": "https://ntrs.nasa.gov/api/citations/19760013518/downloads/19760013518.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 4 · Processing the tapes",
+        "url": "/stories/turning-the-landscape-into-numbers/"
+      }
+    ]
+  ]
+}

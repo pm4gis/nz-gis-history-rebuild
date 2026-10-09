@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0804",
+  "a": "person:mark-goodin",
+  "b": "chapter:39",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-39-d9599a550d"
+  ],
+  "sources": []
+}

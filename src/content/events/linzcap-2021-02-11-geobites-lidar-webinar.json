@@ -1,0 +1,26 @@
+{
+  "id": "linzcap-2021-02-11-geobites-lidar-webinar",
+  "dateDisplay": "2021-02-11",
+  "startDate": "2021-02-11",
+  "datePrecision": "day",
+  "year": 2021,
+  "label": "GeoBites LiDAR webinar",
+  "summary": "LINZ published a practitioner session on finding, accessing and working with New Zealand LiDAR elevation data.",
+  "url": "/stories/lidar-remakes-the-landscape/#lidar-becomes-practitioner-training-0ae1ad6a4d",
+  "passageIds": [
+    "passage:chapter-37-0ae1ad6a4d"
+  ],
+  "recordIds": [
+    "chapter:37"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    }
+  ]
+}

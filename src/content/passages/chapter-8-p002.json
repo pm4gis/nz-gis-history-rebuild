@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-8-f44e7f6f2c",
+  "slug": "forest-inventory-data-f44e7f6f2c",
+  "articleId": "article:chapter-8",
+  "title": "Forest inventory data",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:8",
+    "entity:scion-forest-research"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 1983 Forest Research Institute manual on indigenous forest survey gives a detailed view of computer-supported inventory before GIS became routine. Field measurements were collected through defined survey methods and tied to maps and aerial photographs. Records were coded for computer processing, with punched cards still part of the workflow, and programs were used for checking, summarising, grouping and analysing the observations. The system depended on a chain from field plot to coded record to computer output.",
+      "markdown": "The 1983 Forest Research Institute manual on indigenous forest survey gives a detailed view of computer-supported inventory before GIS became routine. Field measurements were collected through defined survey methods and tied to maps and aerial photographs. Records were coded for computer processing, with punched cards still part of the workflow, and programs were used for checking, summarising, grouping and analysing the observations. The system depended on a chain from field plot to coded record to computer output.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Location remained essential even when much of the processing was statistical. An inventory plot had to be related to the forest area it represented. Aerial photographs and maps provided the geographic framework, while the computer held the measurements and calculations. The two parts could be managed separately, but doing so made later spatial questions cumbersome. Finding every plot associated with a particular area, stand condition or management problem could require matching paper maps with tabular printouts and coded records.",
+      "markdown": "Location remained essential even when much of the processing was statistical. An inventory plot had to be related to the forest area it represented. Aerial photographs and maps provided the geographic framework, while the computer held the measurements and calculations. The two parts could be managed separately, but doing so made later spatial questions cumbersome. Finding every plot associated with a particular area, stand condition or management problem could require matching paper maps with tabular printouts and coded records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Plantation forestry created an even stronger case for joining the parts. A stand is both a place and a management record. Its boundary defines the area to which planting year, species, stocking, pruning, thinning, condition and yield estimates apply. If the boundary changes but the database does not, area calculations become wrong. If the attributes change but the map does not, the map becomes a confident picture of obsolete information.",
+      "markdown": "Plantation forestry created an even stronger case for joining the parts. A stand is both a place and a management record. Its boundary defines the area to which planting year, species, stocking, pruning, thinning, condition and yield estimates apply. If the boundary changes but the database does not, area calculations become wrong. If the attributes change but the map does not, the map becomes a confident picture of obsolete information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Forestry therefore generated a strong use case for digital spatial databases. The practical task was to maintain mapped operational units whose attributes could be updated and used repeatedly in inventory, road planning, harvesting and other work. Map production remained part of the workflow, but the maintained stand and compartment records increasingly sat behind the map.",
+      "markdown": "Forestry therefore generated a strong use case for digital spatial databases. The practical task was to maintain mapped operational units whose attributes could be updated and used repeatedly in inventory, road planning, harvesting and other work. Map production remained part of the workflow, but the maintained stand and compartment records increasingly sat behind the map.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

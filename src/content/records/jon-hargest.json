@@ -1,0 +1,31 @@
+{
+  "id": "person:jon-hargest",
+  "slug": "jon-hargest",
+  "name": "Jon Hargest",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jon-hargest/",
+  "story": [
+    "A photograph taken by Evening Post photographer Jon Hargest shows a Department of Survey and Land Information surveyor checking GPS equipment on a Wellington hilltop. The receiver equipment occupies a substantial case, with the antenna mounted separately on a tripod. It looks nothing like something that would disappear into a jacket pocket. The photograph leaves the receiver model unidentified and comes from a different event than the 1986 Fiordland survey, but it captures the physical character of late-1980s GPS well: specialised field equipment operated by people who knew what they were doing."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 18 · Before GPS",
+      "url": "/stories/gps-changes-where-here-is/"
+    }
+  ],
+  "aliases": [
+    "Jon Hargest"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 18 · Before GPS",
+        "url": "/stories/gps-changes-where-here-is/"
+      }
+    ]
+  ]
+}

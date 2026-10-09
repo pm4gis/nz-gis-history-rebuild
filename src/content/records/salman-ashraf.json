@@ -1,0 +1,42 @@
+{
+  "id": "person:salman-ashraf",
+  "slug": "salman-ashraf",
+  "name": "Salman Ashraf",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/salman-ashraf/",
+  "story": [
+    "Salman Ashraf is a remote-sensing scientist whose qualifications include a doctorate in remote sensing and undergraduate and master's degrees in space science. His expertise spans GIS, photogrammetry, terrain models, vegetation mapping and hazard mapping. His publications include geothermal monitoring, tsunami exposure and the digital mapping of liquefaction after the Canterbury earthquakes, alongside the vegetation-classification work discussed in the book.",
+    "In 2016 Lien Pham, Lars Brabyn and Salman Ashraf published work combining QuickBird imagery, LiDAR-derived topographic information and object-based classification to identify a native tree species, using methods including Random Forest and support-vector machines."
+  ],
+  "sources": [
+    {
+      "label": "Salman Ashraf · career/profile reference",
+      "url": "https://www.gns.cri.nz/about-us/staff-search/salman-ashraf/"
+    },
+    {
+      "label": "Chapter 44 · Learning from examples",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Salman Ashraf"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Salman Ashraf · career/profile reference",
+        "url": "https://www.gns.cri.nz/about-us/staff-search/salman-ashraf/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · Learning from examples",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

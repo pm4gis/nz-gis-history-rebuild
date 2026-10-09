@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-8-518a61ae87",
+  "slug": "a-pc-gis-in-1989-518a61ae87",
+  "articleId": "article:chapter-8",
+  "title": "A PC GIS in 1989",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:8",
+    "entity:new-zealand-aerial-mapping",
+    "person:andrew-dunningham",
+    "person:s-thompson"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 1989 the Ministry of Forestry was describing GIS explicitly as part of New Zealand forestry work. Andrew Dunningham and S. Thompson published “Use of geographic information systems in New Zealand forestry applications” in the Commonwealth Forestry Review. Their paper described the need within Ministry of Forestry service and research work for efficient storage, retrieval, transformation and display of spatial information. The examples used TERRASOFT, a GIS running on a personal computer.",
+      "markdown": "By 1989 the Ministry of Forestry was describing GIS explicitly as part of New Zealand forestry work. Andrew Dunningham and S. Thompson published “Use of geographic information systems in New Zealand forestry applications” in the Commonwealth Forestry Review. Their paper described the need within Ministry of Forestry service and research work for efficient storage, retrieval, transformation and display of spatial information. The examples used TERRASOFT, a GIS running on a personal computer.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "One case dealt with a forest of about 550 hectares. TERRASOFT was used for mapping, inventory and harvesting planning, with additional work on viewshed analysis and visual-impact assessment for landscape design. The system stored more than stand outlines. Mapping, inventory and harvesting records could be used alongside terrain and visibility analysis, allowing the same spatial environment to support both current forest records and planned operations.",
+      "markdown": "One case dealt with a forest of about 550 hectares. TERRASOFT was used for mapping, inventory and harvesting planning, with additional work on viewshed analysis and visual-impact assessment for landscape design. The system stored more than stand outlines. Mapping, inventory and harvesting records could be used alongside terrain and visibility analysis, allowing the same spatial environment to support both current forest records and planned operations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The personal-computer platform also differed from the mainframe and specialist workstation environments found elsewhere in early New Zealand GIS. A smaller forestry operation did not necessarily need a national database or a large central computing facility. A PC-based system could hold the spatial information for an estate or project and support local planning. The scale of the system could match the scale of the forest being managed.",
+      "markdown": "The personal-computer platform also differed from the mainframe and specialist workstation environments found elsewhere in early New Zealand GIS. A smaller forestry operation did not necessarily need a national database or a large central computing facility. A PC-based system could hold the spatial information for an estate or project and support local planning. The scale of the system could match the scale of the forest being managed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "TERRASOFT was one of the systems used in New Zealand forestry. Forest inventory databases already existed, New Zealand Aerial Mapping was producing digital mapping, and other GIS systems were operating elsewhere in government and science. The 1989 paper documents GIS already being applied to ordinary forestry tasks in New Zealand without establishing that the TERRASOFT installation was the first.",
+      "markdown": "TERRASOFT was one of the systems used in New Zealand forestry. Forest inventory databases already existed, New Zealand Aerial Mapping was producing digital mapping, and other GIS systems were operating elsewhere in government and science. The 1989 paper documents GIS already being applied to ordinary forestry tasks in New Zealand without establishing that the TERRASOFT installation was the first.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

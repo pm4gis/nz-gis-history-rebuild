@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-15-acc4b871ab",
+  "slug": "from-map-series-to-spatial-infrastructure-acc4b871ab",
+  "articleId": "article:chapter-15",
+  "title": "From map series to spatial infrastructure",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:15",
+    "entity:department-of-survey-and-land-information-dosli",
+    "entity:terralink"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 2009 New Zealand’s national topographic mapping system had crossed a threshold that had taken more than two decades to reach. The early national topographic database work had concentrated on the smaller-scale 1:250,000 series. Detailed 1:50,000 conversion then grew through demand, contour programmes and wider feature capture. Production systems changed from GeoVision to Laser-Scan technology, organisational responsibility moved through DOSLI, LINZ and Terralink arrangements, and the source record shifted increasingly from cartographic drawings to maintained database features.",
+      "markdown": "By 2009 New Zealand’s national topographic mapping system had crossed a threshold that had taken more than two decades to reach. The early national topographic database work had concentrated on the smaller-scale 1:250,000 series. Detailed 1:50,000 conversion then grew through demand, contour programmes and wider feature capture. Production systems changed from GeoVision to Laser-Scan technology, organisational responsibility moved through DOSLI, LINZ and Terralink arrangements, and the source record shifted increasingly from cartographic drawings to maintained database features.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cartographers increasingly applied their craft to rules, exceptions and portrayal rather than redrawing every feature for every edition. Photogrammetrists and imagery specialists continued to supply observations of the landscape, while database and GIS staff kept the structured source current. Map production became faster because repeated graphic work could be generated from maintained data, not because the country had become easier to observe.",
+      "markdown": "Cartographers increasingly applied their craft to rules, exceptions and portrayal rather than redrawing every feature for every edition. Photogrammetrists and imagery specialists continued to supply observations of the landscape, while database and GIS staff kept the structured source current. Map production became faster because repeated graphic work could be generated from maintained data, not because the country had become easier to observe.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Topo50 launch made the new arrangement obvious to users. One national database supported printed sheets, downloadable images and reusable digital information on a coordinate framework compatible with modern positioning. The map sheet still mattered, but it was no longer the natural container of the national topographic record. New Zealand’s topography had become maintained spatial data from which maps could be made.",
+      "markdown": "The Topo50 launch made the new arrangement obvious to users. One national database supported printed sheets, downloadable images and reusable digital information on a coordinate framework compatible with modern positioning. The map sheet still mattered, but it was no longer the natural container of the national topographic record. New Zealand’s topography had become maintained spatial data from which maps could be made.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A parallel transformation was happening with a different kind of geography. Census boundaries and meshblocks were not designed to describe ridges, rivers or tracks. They divided the country so people, households and statistics could be counted, compared and linked to place. Once those boundaries also became maintained digital data, statistical geography became another national framework on which GIS users increasingly depended.",
+      "markdown": "A parallel transformation was happening with a different kind of geography. Census boundaries and meshblocks were not designed to describe ridges, rivers or tracks. They divided the country so people, households and statistics could be counted, compared and linked to place. Once those boundaries also became maintained digital data, statistical geography became another national framework on which GIS users increasingly depended.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

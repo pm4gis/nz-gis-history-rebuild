@@ -1,0 +1,35 @@
+{
+  "id": "linzcap-2019-02-to-2021-07-brown-bag-resilience-series",
+  "dateDisplay": "2019-02 to 2021-07",
+  "startDate": "2019-02-01",
+  "endDate": "2021-07-01",
+  "datePrecision": "month",
+  "year": 2019,
+  "label": "Brown Bag Resilience Series",
+  "summary": "LINZ hosted a sequence of resilience, hazard, climate, risk-modelling, insurance, transport and iwi/hapū planning presentations.",
+  "url": "/stories/the-real-time-map/#resilience-as-a-geospatial-capability-programme-ef1ce37f8e",
+  "passageIds": [
+    "passage:chapter-42-ef1ce37f8e"
+  ],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Brown Bag Resilience Series presentations",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/brown-bag-resilience-series-presentations"
+    }
+  ]
+}

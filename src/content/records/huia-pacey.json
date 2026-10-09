@@ -1,0 +1,48 @@
+{
+  "id": "person:huia-pacey",
+  "slug": "huia-pacey",
+  "name": "Huia Pacey",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/huia-pacey/",
+  "story": [
+    "Huia Pacey’s 2005 Lincoln thesis, The Benefits and Barriers to GIS for Māori, investigated GIS adoption using a Kaupapa Māori research framework.",
+    "Huia Pacey’s 2005 Lincoln University thesis, The Benefits and Barriers to GIS for Māori, examined adoption through a Kaupapa Māori research framework. It considered the circumstances in which the technology could support Māori development and the difficulties communities encountered in gaining that capability. The thesis provides a contemporary account alongside later cultural mapping projects."
+  ],
+  "sources": [
+    {
+      "label": "Lincoln University thesis, 2005",
+      "url": "https://hdl.handle.net/10182/655"
+    },
+    {
+      "label": "Huia Pacey - Heritage New Zealand Pouhere Taonga | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/huia-pacey-85468b20"
+    },
+    {
+      "label": "Chapter 35 · The map becomes an application",
+      "url": "/stories/the-map-becomes-an-application/"
+    }
+  ],
+  "aliases": [
+    "Huia Pacey"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Lincoln University thesis, 2005",
+        "url": "https://hdl.handle.net/10182/655"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 35 · The map becomes an application",
+        "url": "/stories/the-map-becomes-an-application/"
+      }
+    ]
+  ]
+}

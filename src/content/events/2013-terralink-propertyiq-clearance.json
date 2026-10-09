@@ -1,0 +1,34 @@
+{
+  "id": "2013-terralink-propertyiq-clearance",
+  "dateDisplay": "29 November 2013",
+  "startDate": "2013-11-29",
+  "datePrecision": "day",
+  "year": 2013,
+  "label": "PropertyIQ gains clearance to acquire Terralink",
+  "summary": "The Commerce Commission cleared PropertyIQ New Zealand to acquire Terralink’s business and assets, including its geospatial and property information services.",
+  "url": "/stories/an-industry-and-community-form/#a-consultancy-appears-b51b8936ec",
+  "passageIds": [
+    "passage:chapter-12-b51b8936ec"
+  ],
+  "recordIds": [
+    "entity:terralink",
+    "chapter:12",
+    "entity:abley",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:geographic-business-solutions",
+    "entity:splice-group",
+    "person:steve-abley",
+    "person:beryl-pimblott",
+    "person:harley-prowse",
+    "person:tony-elson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "industry",
+    "government",
+    "land"
+  ],
+  "sources": []
+}

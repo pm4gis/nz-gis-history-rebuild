@@ -1,0 +1,46 @@
+{
+  "id": "person:andrew-ferrel",
+  "slug": "andrew-ferrel",
+  "name": "Andrew Ferrel",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/andrew-ferrel/",
+  "story": [
+    "Andrew Ferrel appears in LINZ’s imagery and elevation work. LINZ’s 2014 Geospatial for Schools archive names him as National Imagery Manager, and the 2018 New Zealand Esri User Conference programme records him presenting LINZ imagery and elevation material.",
+    "LINZ names Andrew Ferrel in its geospatial virtual field-trip record: National Imagery Manager, LINZ, 2014 VFT."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    }
+  ],
+  "aliases": [
+    "Andrew Ferrel"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      },
+      {
+        "label": "New Zealand Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

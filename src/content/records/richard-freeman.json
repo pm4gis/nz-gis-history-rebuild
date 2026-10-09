@@ -1,0 +1,38 @@
+{
+  "id": "person:richard-freeman",
+  "slug": "richard-freeman",
+  "name": "Richard Freeman",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/richard-freeman/",
+  "story": [
+    "LINZ’s 2013 geospatial virtual field trip identified Richard Freeman as a cartographer. His appearance as a geospatial subject-matter expert gives a named practitioner connection between government digital mapping, chart and map production, and the effort to explain spatial careers to school students.",
+    "LINZ names Richard Freeman in its geospatial virtual field-trip record: Cartographer, LINZ, 2013 VFT."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Richard Freeman"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

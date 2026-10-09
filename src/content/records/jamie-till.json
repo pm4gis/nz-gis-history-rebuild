@@ -1,0 +1,39 @@
+{
+  "id": "person:jamie-till",
+  "slug": "jamie-till",
+  "name": "Jamie Till",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jamie-till/",
+  "story": [
+    "Jamie Till worked in Eagle Technology’s technical advisory practice and appears repeatedly in New Zealand Esri conference programmes. A 2019 agribusiness account documents him demonstrating the GIS and hive-management system built for Manuka Health, including hive locations, access routes, hazards and supply-chain traceability. His work illustrates the movement of GIS from mapping software into operational primary-industry applications."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "New Zealand Agribusiness 2019, Manuka Health GIS feature",
+      "url": "https://newzealandinc.com/wp-content/uploads/2020/04/2019-07-31-Agribusiness.pdf"
+    }
+  ],
+  "aliases": [
+    "Jamie Till"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      },
+      {
+        "label": "New Zealand Agribusiness 2019, Manuka Health GIS feature",
+        "url": "https://newzealandinc.com/wp-content/uploads/2020/04/2019-07-31-Agribusiness.pdf"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "entity:mirmak-te-tau-ihu-iwi-gis-collaboration",
+  "slug": "mirmak-te-tau-ihu-iwi-gis-collaboration",
+  "name": "MIRMAK / Te Tau Ihu iwi GIS collaboration",
+  "kind": "Organisation",
+  "category": "Iwi and Māori organisations",
+  "url": "/entities/mirmak-te-tau-ihu-iwi-gis-collaboration/",
+  "website": null,
+  "story": [
+    "The 2003–05 Te Tau Ihu project documented iwi use of GIS for cultural information and environmental planning. Garth Harmsworth, Mick Park and Dean Walker appear in the project record. Public and restricted information were managed separately, providing an early operational example of geographic data governance within an iwi collaboration."
+  ],
+  "sources": [
+    {
+      "label": "G. Harmsworth, M. Park, D. Walker, Māori GIS/iwi information report",
+      "url": "https://www.landcareresearch.co.nz/assets/researchpubs/harmsworth_gis_iwi.pdf"
+    }
+  ],
+  "aliases": [
+    "MIRMAK",
+    "Te Tau Ihu iwi GIS collaboration"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

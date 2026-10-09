@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1063",
+  "a": "person:melanie-candy",
+  "b": "entity:taranaki-regional-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-31-4631ec16bb",
+  "slug": "existing-web-mapping-4631ec16bb",
+  "articleId": "article:chapter-31",
+  "title": "Existing web mapping",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31",
+    "entity:department-of-conservation",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Google Maps launched its fully localised New Zealand service in December 2007, joining earlier interactive mapping services. New Zealand organisations had already spent most of a decade moving spatial information into web browsers. Public-health users could map disease information through PHEW! from 1999, Police had moved routine mapping towards a browser version of MAPS by the end of 2000, Statistics New Zealand had a free Census WebMap by March 2002, and councils and the Department of Conservation were putting property, environmental and operational information behind browser interfaces by 2003 and 2004. Google did not introduce New Zealand to web mapping. It changed the size of the audience and, very quickly, what that audience expected a map to feel like.",
+      "markdown": "Google Maps launched its fully localised New Zealand service in December 2007, joining earlier interactive mapping services. New Zealand organisations had already spent most of a decade moving spatial information into web browsers. Public-health users could map disease information through PHEW! from 1999, Police had moved routine mapping towards a browser version of MAPS by the end of 2000, Statistics New Zealand had a free Census WebMap by March 2002, and councils and the Department of Conservation were putting property, environmental and operational information behind browser interfaces by 2003 and 2004. Google did not introduce New Zealand to web mapping. It changed the size of the audience and, very quickly, what that audience expected a map to feel like.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Those systems were built for particular jobs. A council property viewer let people find a parcel or rating record. DOCgis gave conservation staff access to centrally maintained spatial information. Police MAPS supported crime and intelligence work. PHEW! presented public-health patterns. They were solving organisational problems with the networks, browsers, servers and software available at the time.",
+      "markdown": "Those systems were built for particular jobs. A council property viewer let people find a parcel or rating record. DOCgis gave conservation staff access to centrally maintained spatial information. Police MAPS supported crime and intelligence work. PHEW! presented public-health patterns. They were solving organisational problems with the networks, browsers, servers and software available at the time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "What changed after 2005 was the benchmark. Interactive mapping moved from something a person encountered because a government agency, council or specialist organisation had built an application into something people encountered simply because they used the web. Search, navigation, imagery and directions became consumer functions. A person no longer needed to know that a map was backed by a geographic information system. They simply expected the map to work.",
+      "markdown": "What changed after 2005 was the benchmark. Interactive mapping moved from something a person encountered because a government agency, council or specialist organisation had built an application into something people encountered simply because they used the web. Search, navigation, imagery and directions became consumer functions. A person no longer needed to know that a map was backed by a geographic information system. They simply expected the map to work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The older institutional systems had moved GIS into the browser. Google Earth and Google Maps helped move mapping into ordinary digital life.",
+      "markdown": "The older institutional systems had moved GIS into the browser. Google Earth and Google Maps helped move mapping into ordinary digital life.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

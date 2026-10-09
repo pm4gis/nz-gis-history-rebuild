@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-41-9b5a821419",
+  "slug": "geography-between-machines-9b5a821419",
+  "articleId": "article:chapter-41",
+  "title": "Geography between machines",
+  "order": 16,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41",
+    "entity:koordinates"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the early 2020s New Zealand practitioners were routinely discussing ArcGIS Online, ArcGIS Enterprise, mobile geodatabases, imagery services, cloud infrastructure and other platform technologies at regional professional events. In a 2020 survey of New Zealand plantation forestry companies, 91 per cent of respondents used the LINZ Data Service, 78 per cent used Koordinates, 57 per cent used LRIS and 52 per cent used the MfE Data Service. The figures apply to the surveyed forestry organisations, while confirming that hosted national data portals had become ordinary working infrastructure in that sector.",
+      "markdown": "By the early 2020s New Zealand practitioners were routinely discussing ArcGIS Online, ArcGIS Enterprise, mobile geodatabases, imagery services, cloud infrastructure and other platform technologies at regional professional events. In a 2020 survey of New Zealand plantation forestry companies, 91 per cent of respondents used the LINZ Data Service, 78 per cent used Koordinates, 57 per cent used LRIS and 52 per cent used the MfE Data Service. The figures apply to the surveyed forestry organisations, while confirming that hosted national data portals had become ordinary working infrastructure in that sector.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The deeper change was geographic information moving routinely between machines. A data owner could publish once and allow several applications to consume the result. A catalogue could harvest descriptions automatically. An API could answer a spatial query while a hosted form wrote directly to a managed feature layer. The work of the GIS specialist shifted towards designing those relationships and protecting the meaning of the information as it crossed them.",
+      "markdown": "The deeper change was geographic information moving routinely between machines. A data owner could publish once and allow several applications to consume the result. A catalogue could harvest descriptions automatically. An API could answer a spatial query while a hosted form wrote directly to a managed feature layer. The work of the GIS specialist shifted towards designing those relationships and protecting the meaning of the information as it crossed them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That required skills that sat between traditional GIS and general information technology. Practitioners needed to understand service URLs, authentication, hosted storage, permissions, schemas, identifiers, web-service behaviour and failure modes. They did not all become software developers or cloud engineers. They increasingly had to recognise when an apparently simple map or field form depended on a chain of external services and know which part of that chain they actually controlled.",
+      "markdown": "That required skills that sat between traditional GIS and general information technology. Practitioners needed to understand service URLs, authentication, hosted storage, permissions, schemas, identifiers, web-service behaviour and failure modes. They did not all become software developers or cloud engineers. They increasingly had to recognise when an apparently simple map or field form depended on a chain of external services and know which part of that chain they actually controlled.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

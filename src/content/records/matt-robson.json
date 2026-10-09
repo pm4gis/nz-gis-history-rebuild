@@ -1,0 +1,31 @@
+{
+  "id": "person:matt-robson",
+  "slug": "matt-robson",
+  "name": "Matt Robson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/matt-robson/",
+  "story": [
+    "As Minister for Courts, Matt Robson marked the Māori Land Court modernisation on 16 April 2002. His government release documents MLIS in operation, digitised historic records, Māori Land Online under development and a GIS being built to link mapped Māori land with the Court’s ownership information."
+  ],
+  "sources": [
+    {
+      "label": "Beehive, Māori Land Court changes deliver a world first, 16 April 2002",
+      "url": "https://www.beehive.govt.nz/release/m%C3%A4ori-land-court-changes-deliver-world-first"
+    }
+  ],
+  "aliases": [
+    "Matt Robson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Beehive, Māori Land Court changes deliver a world first, 16 April 2002",
+        "url": "https://www.beehive.govt.nz/release/m%C3%A4ori-land-court-changes-deliver-world-first"
+      }
+    ]
+  ]
+}

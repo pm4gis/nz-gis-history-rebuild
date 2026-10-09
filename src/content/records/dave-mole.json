@@ -1,0 +1,48 @@
+{
+  "id": "person:dave-mole",
+  "slug": "dave-mole",
+  "name": "Dave Mole",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/dave-mole/",
+  "story": [
+    "A caption in Landlink, Issue 8 (May 1999), names Dave Mole as a member of the back row in a team photograph accompanying “LINZ first in mapping”. The article says the pictured team received plaques for contributions to establishing the New Zealand Topographic Digital Database and dates the four-year project to 1995 with LINZ’s predecessor DOSLI.",
+    "A later technical account by Geoff Howard, Robin Pickering, Dave Mole and Peter Woodsford records that Surveyor-General Bill Robertson approved a business case around 1987 to convert the 1:250,000 mapping into a digital database. The programme was expected to take about three years but was reported as completed in roughly eighteen months."
+  ],
+  "sources": [
+    {
+      "label": "Landlink, Issue 8 (May 1999), page 1, “LINZ first in mapping” (scan provided by Nathan Heazlewood)",
+      "url": "/assets/images/landlink-1999-topographic-database.jpg"
+    },
+    {
+      "label": "Chapter 15 · A small-scale database first",
+      "url": "/stories/topography-goes-digital/"
+    }
+  ],
+  "aliases": [
+    "Dave Mole"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Landlink, Issue 8 (May 1999), page 1, “LINZ first in mapping” (scan provided by Nathan Heazlewood)",
+        "url": "/assets/images/landlink-1999-topographic-database.jpg"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 15 · A small-scale database first",
+        "url": "/stories/topography-goes-digital/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "DOSLI history and photo gallery",
+      "url": "/entities/department-of-survey-and-land-information-dosli/"
+    }
+  ]
+}

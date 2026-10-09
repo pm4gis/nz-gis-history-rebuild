@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0990",
+  "a": "person:jill-barclay",
+  "b": "entity:new-zealand-police",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

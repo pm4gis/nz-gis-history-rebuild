@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-42-fddca95d35",
+  "slug": "one-event-several-systems-fddca95d35",
+  "articleId": "article:chapter-42",
+  "title": "One event, several systems",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "SCIRT's GIS Viewer was another system in the same recovery environment, serving infrastructure-rebuild operations rather than public land-zoning enquiries or the whole CERA data-sharing programme. The SCIRT learning record describes more than 600 layers, more than 1,500 users, 32 map configurations and information from more than 30 sources. The viewer was updated more than 2,700 times during the programme. The screen a user sees is the end of a long chain of updates, permissions, source changes and decisions about what belongs in each configuration.",
+      "markdown": "SCIRT's GIS Viewer was another system in the same recovery environment, serving infrastructure-rebuild operations rather than public land-zoning enquiries or the whole CERA data-sharing programme. The SCIRT learning record describes more than 600 layers, more than 1,500 users, 32 map configurations and information from more than 30 sources. The viewer was updated more than 2,700 times during the programme. The screen a user sees is the end of a long chain of updates, permissions, source changes and decisions about what belongs in each configuration.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Tasman",
+      "caption": "Tasman. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "Landcheck, the CERA SDI and the SCIRT viewer served different parts of the recovery. One system answered a public question at enormous scale. Another created secure and public infrastructure for sharing information between organisations. A third supported engineers and rebuild teams with a dense operational view of infrastructure work. They overlapped in data and context, but they had different audiences, governance and update requirements.",
+      "markdown": "Landcheck, the CERA SDI and the SCIRT viewer served different parts of the recovery. One system answered a public question at enormous scale. Another created secure and public infrastructure for sharing information between organisations. A third supported engineers and rebuild teams with a dense operational view of infrastructure work. They overlapped in data and context, but they had different audiences, governance and update requirements.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Canterbury experience also shifted attention from map production towards information availability. A beautifully designed map was little help if the required layer could not be found, if two agencies had incompatible copies or if access approval took longer than the operational decision. Recovery GIS increasingly treated data services, metadata, custodianship and permissions as part of response infrastructure. It was a practical version of the spatial-data-infrastructure ideas discussed earlier in the book, assembled because the recovery could not afford to wait for a theoretically perfect national implementation.",
+      "markdown": "The Canterbury experience also shifted attention from map production towards information availability. A beautifully designed map was little help if the required layer could not be found, if two agencies had incompatible copies or if access approval took longer than the operational decision. Recovery GIS increasingly treated data services, metadata, custodianship and permissions as part of response infrastructure. It was a practical version of the spatial-data-infrastructure ideas discussed earlier in the book, assembled because the recovery could not afford to wait for a theoretically perfect national implementation.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

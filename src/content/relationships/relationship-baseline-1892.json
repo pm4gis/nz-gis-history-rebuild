@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1892",
+  "a": "person:peter-whigham",
+  "b": "chapter:27",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-27-3a9d0a44c2"
+  ],
+  "sources": []
+}

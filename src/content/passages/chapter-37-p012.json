@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-37-24688de27b",
+  "slug": "lidar-limitations-24688de27b",
+  "articleId": "article:chapter-37",
+  "title": "LiDAR limitations",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37",
+    "entity:traverse-seamless"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The dramatic appearance of LiDAR can encourage more confidence than the data deserve. A hillshade can reveal old channels, terraces, earthworks and subtle landforms that are difficult to see in aerial photography, especially when vegetation returns have been removed from a bare-earth model. Automated extraction still misclassified some shapes. A terrain feature still needs geological, archaeological, engineering or environmental context before it becomes evidence of what caused it.",
+      "markdown": "The dramatic appearance of LiDAR can encourage more confidence than the data deserve. A hillshade can reveal old channels, terraces, earthworks and subtle landforms that are difficult to see in aerial photography, especially when vegetation returns have been removed from a bare-earth model. Automated extraction still misclassified some shapes. A terrain feature still needs geological, archaeological, engineering or environmental context before it becomes evidence of what caused it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Grid spacing and positional accuracy describe different properties. Grid spacing describes the raster cells in a derived product. Accuracy describes how close the measured or modelled position is expected to be to reality under specified conditions. Point density describes something else again. Mixing those concepts can make a detailed dataset sound more precise than it is. The national specification helps by separating them, but the user still has to read the metadata.",
+      "markdown": "Grid spacing and positional accuracy describe different properties. Grid spacing describes the raster cells in a derived product. Accuracy describes how close the measured or modelled position is expected to be to reality under specified conditions. Point density describes something else again. Mixing those concepts can make a detailed dataset sound more precise than it is. The national specification helps by separating them, but the user still has to read the metadata.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Water is another limitation. Conventional airborne topographic LiDAR does not generally map the bed beneath water in the same way that it maps dry land. Hydrographic or bathymetric LiDAR uses different wavelengths and specialised acquisition to penetrate suitable water conditions. New Zealand has used bathymetric LiDAR, including after Kaikōura. The ordinary national elevation model should not be imagined as a seamless laser measurement of land and underwater terrain.",
+      "markdown": "Water is another limitation. Conventional airborne topographic LiDAR does not generally map the bed beneath water in the same way that it maps dry land. Hydrographic or bathymetric LiDAR uses different wavelengths and specialised acquisition to penetrate suitable water conditions. New Zealand has used bathymetric LiDAR, including after Kaikōura. The ordinary national elevation model should not be imagined as a seamless laser measurement of land and underwater terrain.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Laser returns measured surfaces, while legal boundaries depended on survey and title records. Just as an orthophoto cannot decide where a cadastral boundary legally lies, a LiDAR point cloud measures surfaces rather than ownership. It can show a bank, fence line, building edge or road formation with impressive clarity. Those visible features may be useful evidence for many tasks, but they do not replace the survey record. High detail is not the same as legal authority.",
+      "markdown": "Laser returns measured surfaces, while legal boundaries depended on survey and title records. Just as an orthophoto cannot decide where a cadastral boundary legally lies, a LiDAR point cloud measures surfaces rather than ownership. It can show a bank, fence line, building edge or road formation with impressive clarity. Those visible features may be useful evidence for many tasks, but they do not replace the survey record. High detail is not the same as legal authority.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

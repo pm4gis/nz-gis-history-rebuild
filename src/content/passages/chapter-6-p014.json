@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-6-73fe4882ef",
+  "slug": "defining-gis-73fe4882ef",
+  "articleId": "article:chapter-6",
+  "title": "Defining GIS",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:6",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Practitioners continued to use different definitions of GIS. A system could draw maps from coordinates without supporting spatial analysis. A remote-sensing package could perform sophisticated raster classification without maintaining vector land records. A CAD system could manage highly accurate engineering geometry while lacking the database structures associated with GIS. Organisations continued to use several of these technologies side by side.",
+      "markdown": "Practitioners continued to use different definitions of GIS. A system could draw maps from coordinates without supporting spatial analysis. A remote-sensing package could perform sophisticated raster classification without maintaining vector land records. A CAD system could manage highly accurate engineering geometry while lacking the database structures associated with GIS. Organisations continued to use several of these technologies side by side.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Contemporary use of the term depended partly on context. LADEDA was explicitly called a geographic information system in 1985. McEwen called the DSIR Intergraph installation GIS. University courses used GIS as a subject name. By 1989 the national conference used GIS as a term covering several products and datasets.",
+      "markdown": "Contemporary use of the term depended partly on context. LADEDA was explicitly called a geographic information system in 1985. McEwen called the DSIR Intergraph installation GIS. University courses used GIS as a subject name. By 1989 the national conference used GIS as a term covering several products and datasets.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A practical common core was emerging. GIS combined geographic coordinates or other spatial reference, structured digital features or cells, descriptive information, storage, retrieval, analysis and mapped output. Not every system provided every function equally well, and specialist tools remained stronger for some jobs. The field was recognisable because those capabilities were increasingly being expected within the same working environment.",
+      "markdown": "A practical common core was emerging. GIS combined geographic coordinates or other spatial reference, structured digital features or cells, descriptive information, storage, retrieval, analysis and mapped output. Not every system provided every function equally well, and specialist tools remained stronger for some jobs. The field was recognisable because those capabilities were increasingly being expected within the same working environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change also affected occupations. Earlier practitioners might have described themselves primarily as cartographers, surveyors, photogrammetrists, programmers, soil scientists, geologists or remote-sensing specialists. GIS created another professional description that crossed those older boundaries. The older occupations did not vanish, but some of their digital work could now be grouped within a common technical field.",
+      "markdown": "The change also affected occupations. Earlier practitioners might have described themselves primarily as cartographers, surveyors, photogrammetrists, programmers, soil scientists, geologists or remote-sensing specialists. GIS created another professional description that crossed those older boundaries. The older occupations did not vanish, but some of their digital work could now be grouped within a common technical field.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was also the period when organisations began buying capability rather than isolated hardware. A GIS purchase implied software support, data conversion, staff training and ongoing maintenance. A university course implied a body of knowledge that could be taught. A national conference implied enough practitioners to exchange methods across organisations. These developments were occurring at the same time rather than in a neat sequence.",
+      "markdown": "This was also the period when organisations began buying capability rather than isolated hardware. A GIS purchase implied software support, data conversion, staff training and ongoing maintenance. A university course implied a body of knowledge that could be taught. A national conference implied enough practitioners to exchange methods across organisations. These developments were occurring at the same time rather than in a neat sequence.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

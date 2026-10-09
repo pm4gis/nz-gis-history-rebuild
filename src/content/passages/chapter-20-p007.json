@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-20-65feb1032e",
+  "slug": "resolution-and-fitness-for-use-65feb1032e",
+  "articleId": "article:chapter-20",
+  "title": "Resolution and fitness for use",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The spread of digital imagery also encouraged a simple comparison number: pixel size. Urban orthophotography could be acquired at much finer ground resolution than broad rural coverage. Smaller pixels showed smaller visible objects and supported closer visual inspection. They also generated larger files, higher processing loads and higher acquisition costs across the same area.",
+      "markdown": "The spread of digital imagery also encouraged a simple comparison number: pixel size. Urban orthophotography could be acquired at much finer ground resolution than broad rural coverage. Smaller pixels showed smaller visible objects and supported closer visual inspection. They also generated larger files, higher processing loads and higher acquisition costs across the same area.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Resolution was only one part of the specification. Sun angle affected shadow. Season affected vegetation and deciduous canopy. Tide affected the coastline and intertidal areas. Cloud could make a nominally complete flight unusable in places, while haze and differences between flight runs could change colour and contrast. Positional accuracy, camera calibration, terrain information and quality-control procedures affected whether a sharp image lined up properly with other GIS layers.",
+      "markdown": "Resolution was only one part of the specification. Sun angle affected shadow. Season affected vegetation and deciduous canopy. Tide affected the coastline and intertidal areas. Cloud could make a nominally complete flight unusable in places, while haze and differences between flight runs could change colour and contrast. Positional accuracy, camera calibration, terrain information and quality-control procedures affected whether a sharp image lined up properly with other GIS layers.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The best dataset therefore depended on the job. Very high-resolution urban imagery was useful where buildings, kerbs and small features were relevant. A broader rural mosaic with larger pixels could be more useful for regional work if it provided consistent, recent coverage across thousands of square kilometres. A perfect image of one small project area did not solve a regional organisation’s need for a common background across its whole jurisdiction.",
+      "markdown": "The best dataset therefore depended on the job. Very high-resolution urban imagery was useful where buildings, kerbs and small features were relevant. A broader rural mosaic with larger pixels could be more useful for regional work if it provided consistent, recent coverage across thousands of square kilometres. A perfect image of one small project area did not solve a regional organisation’s need for a common background across its whole jurisdiction.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These choices increasingly appeared in procurement documents rather than being left entirely to the aerial-survey contractor. Buyers specified ground sample distance, accuracy, projection, deliverables and other conditions before capture. Common standards made it easier for several organisations to accept and reuse the same product. They also gave suppliers a clearer target when imagery was intended for wider distribution.",
+      "markdown": "These choices increasingly appeared in procurement documents rather than being left entirely to the aerial-survey contractor. Buyers specified ground sample distance, accuracy, projection, deliverables and other conditions before capture. Common standards made it easier for several organisations to accept and reuse the same product. They also gave suppliers a clearer target when imagery was intended for wider distribution.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

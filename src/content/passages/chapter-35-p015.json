@@ -1,0 +1,37 @@
+{
+  "id": "passage:chapter-35-23fcc809db",
+  "slug": "practical-maori-web-mapping-23fcc809db",
+  "articleId": "article:chapter-35",
+  "title": "Practical Māori web mapping",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ngā Poutama Matawhenua provides a sustained example of web mapping being taught as a practical community capability. Early recordings showed how to build an online map of Māori Land Blocks, find property information and create StoryMaps for cultural narratives. Later sessions moved into freshwater data, climate resilience, historical imagery, Kōrero Takutai, QGIS, 3D flythroughs and StoryMaps, council GIS and hapū-led systems such as He Kete Mātauranga. Holden Hohaia demonstrated QGIS projects using census and environmental data, while Keith Holswich described the Ngāti Rāhiri experience of building a grassroots GIS for whenua information. The series is useful historically because it records the point where web GIS, open data and community-controlled mapping were being taught together as routine practice.",
+      "markdown": "Ngā Poutama Matawhenua provides a sustained example of web mapping being taught as a practical community capability. Early recordings showed how to build an online map of Māori Land Blocks, find property information and create StoryMaps for cultural narratives. Later sessions moved into freshwater data, climate resilience, historical imagery, Kōrero Takutai, QGIS, 3D flythroughs and StoryMaps, council GIS and hapū-led systems such as He Kete Mātauranga. Holden Hohaia demonstrated QGIS projects using census and environmental data, while Keith Holswich described the Ngāti Rāhiri experience of building a grassroots GIS for whenua information. The series is useful historically because it records the point where web GIS, open data and community-controlled mapping were being taught together as routine practice.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "LINZ’s linked Ngā Poutama Matawhenua material names Duane Wilkins, Roland Pomana, Matt Grose, Holden Hohaia, Keith Holswich, Karl Majorhazi, Jonathan Hanson as presenters, participants or programme contributors in the verified material reviewed for this history.",
+      "markdown": "LINZ’s linked Ngā Poutama Matawhenua material names Duane Wilkins, Roland Pomana, Matt Grose, Holden Hohaia, Keith Holswich, Karl Majorhazi, Jonathan Hanson as presenters, participants or programme contributors in the verified material reviewed for this history.",
+      "sources": [
+        {
+          "label": "LINZ, Ngā Poutama Matawhenua",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

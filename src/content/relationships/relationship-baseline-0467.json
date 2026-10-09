@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0467",
+  "a": "person:sarah-hodgson",
+  "b": "chapter:28",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

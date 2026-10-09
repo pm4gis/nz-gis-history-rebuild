@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0001",
+  "a": "entity:aam-aamhatch",
+  "b": "chapter:20",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

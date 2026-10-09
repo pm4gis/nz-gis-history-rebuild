@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1729",
+  "a": "person:john-mccombs",
+  "b": "chapter:29",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-29-18b0a31a28"
+  ],
+  "sources": []
+}

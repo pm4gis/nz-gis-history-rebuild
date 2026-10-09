@@ -1,0 +1,27 @@
+{
+  "id": "entity:auckland-regional-council",
+  "slug": "auckland-regional-council",
+  "name": "Auckland Regional Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/auckland-regional-council/",
+  "website": null,
+  "story": [
+    "Auckland Regional Council initiated the Auckland Engineering Lifelines Project in 1996."
+  ],
+  "sources": [
+    {
+      "label": "Michele Daly and David Johnston, The genesis of volcanic risk assessment for the Auckland engineering lifelines project: 1996–2000, 2015",
+      "url": "https://link.springer.com/article/10.1186/s13617-015-0027-9"
+    }
+  ],
+  "aliases": [
+    "Auckland Regional Council"
+  ],
+  "themeIds": [
+    "local-government"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

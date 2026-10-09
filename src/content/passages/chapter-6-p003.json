@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-6-b5f009e26c",
+  "slug": "commercial-workstations-b5f009e26c",
+  "articleId": "article:chapter-6",
+  "title": "Commercial workstations",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "technology-stack"
+  ],
+  "recordIds": [
+    "chapter:6",
+    "entity:university-of-canterbury"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Intergraph represented one route into the emerging commercial GIS market. The company had strong international roots in computer graphics, CAD and engineering systems, and its New Zealand presence was not limited to GIS. An August 1987 University of Canterbury Chronicle item independently names Intergraph Corporation (NZ) Ltd in a computer-integrated manufacturing context.",
+      "markdown": "Intergraph represented one route into the emerging commercial GIS market. The company had strong international roots in computer graphics, CAD and engineering systems, and its New Zealand presence was not limited to GIS. An August 1987 University of Canterbury Chronicle item independently names Intergraph Corporation (NZ) Ltd in a computer-integrated manufacturing context.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A purpose-built local system could be effective but required local software development and continuing support. A commercial environment offered a wider set of standard functions, vendor support and a path for skills to move between organisations. The cost remained high enough that these were institutional systems rather than ordinary office tools.",
+      "markdown": "A purpose-built local system could be effective but required local software development and continuing support. A commercial environment offered a wider set of standard functions, vendor support and a path for skills to move between organisations. The cost remained high enough that these were institutional systems rather than ordinary office tools.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The machines also concentrated GIS physically. Workstations, graphics displays, digitising equipment, plotters and specialist software tended to sit in particular units or laboratories. Users came to the GIS rather than carrying it around the organisation. Data conversion could occupy substantial staff time, and much of the work happened before a map appeared on a screen or plotter.",
+      "markdown": "The machines also concentrated GIS physically. Workstations, graphics displays, digitising equipment, plotters and specialist software tended to sit in particular units or laboratories. Users came to the GIS rather than carrying it around the organisation. Data conversion could occupy substantial staff time, and much of the work happened before a map appeared on a screen or plotter.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Organisations adopted commercial products alongside earlier New Zealand systems. They entered organisations that already understood coordinate data, digitising, raster imagery, topology, attributes and map output. In some cases the commercial product replaced locally written software; in others it provided functions that had not previously been available in one environment. The transition was therefore more often a migration than a beginning.",
+      "markdown": "Organisations adopted commercial products alongside earlier New Zealand systems. They entered organisations that already understood coordinate data, digitising, raster imagery, topology, attributes and map output. In some cases the commercial product replaced locally written software; in others it provided functions that had not previously been available in one environment. The transition was therefore more often a migration than a beginning.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

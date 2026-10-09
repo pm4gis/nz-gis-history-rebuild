@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-20-2fc460d5cc",
+  "slug": "from-regional-to-national-coordination-2fc460d5cc",
+  "articleId": "article:chapter-20",
+  "title": "From regional to national coordination",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20",
+    "entity:department-of-conservation"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2010s the case for coordination extended beyond one metropolitan region. Councils, central-government agencies and other public bodies were buying imagery for overlapping purposes. The cost of flying and processing a region could be shared more efficiently when several users required similar products. Aerial imagery also became more useful nationally if neighbouring surveys could be published with consistent metadata and quality expectations.",
+      "markdown": "By the 2010s the case for coordination extended beyond one metropolitan region. Councils, central-government agencies and other public bodies were buying imagery for overlapping purposes. The cost of flying and processing a region could be shared more efficiently when several users required similar products. Aerial imagery also became more useful nationally if neighbouring surveys could be published with consistent metadata and quality expectations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2014 LINZ portfolio briefing described a National Imagery Coordination Programme whose objective was a coordinated approach to public-sector imagery acquisition and dissemination. LINZ had worked with local government on coordinated procurement of aerial imagery and a consistent standard. The briefing also described an expectation that future public imagery would be available under a Creative Commons licence. The acquisition programme included licensing and distribution arrangements alongside image capture. Chapter 33 describes the later licensing history.",
+      "markdown": "A 2014 LINZ portfolio briefing described a National Imagery Coordination Programme whose objective was a coordinated approach to public-sector imagery acquisition and dissemination. LINZ had worked with local government on coordinated procurement of aerial imagery and a consistent standard. The briefing also described an expectation that future public imagery would be available under a Creative Commons licence. The acquisition programme included licensing and distribution arrangements alongside image capture. Chapter 33 describes the later licensing history.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The programme also crossed the boundary between local and central government. The 2014 briefing records a central-government imagery fund with contributions from LINZ, the Ministry for Primary Industries and the Department of Conservation. North and South Island aerial imagery had been released through the LINZ Data Service. Rather than each user holding an isolated copy acquired for one programme, the same imagery could enter a distribution system intended for reuse.",
+      "markdown": "The programme also crossed the boundary between local and central government. The 2014 briefing records a central-government imagery fund with contributions from LINZ, the Ministry for Primary Industries and the Department of Conservation. North and South Island aerial imagery had been released through the LINZ Data Service. Rather than each user holding an isolated copy acquired for one programme, the same imagery could enter a distribution system intended for reuse.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "National coordination accommodated several suppliers, aircraft and survey resolutions. Urban and rural requirements remained different, and councils continued to procure imagery for their own operational needs. The coordination model dealt with specifications, timing, quality and publication so that separately commissioned products could contribute to a larger national resource.",
+      "markdown": "National coordination accommodated several suppliers, aircraft and survey resolutions. Urban and rural requirements remained different, and councils continued to procure imagery for their own operational needs. The coordination model dealt with specifications, timing, quality and publication so that separately commissioned products could contribute to a larger national resource.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

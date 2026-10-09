@@ -1,0 +1,58 @@
+{
+  "id": "entity:university-of-waikato",
+  "slug": "university-of-waikato",
+  "name": "University of Waikato",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/university-of-waikato/",
+  "website": null,
+  "story": [
+    "Waikato researchers contributed to climate-impact assessment through CLIMPACTS.",
+    "Waikato’s geography department also hosted national GIS analysis of hospital access. In a paper published on 12 November 2002, Lars Brabyn and the Ministry of Health’s Chris Skelly modelled travel to 63 public hospitals from approximately 38,000 census meshblock centroids. Brabyn conducted the GIS analysis at the University of Waikato, while Skelly organised the hospital information. Ministry of Health Public Health Intelligence funded the research.",
+    "The study combined a national road network, census population locations and hospital points using ARC/INFO 8.1 network analysis. It calculated least-cost distance and estimated travel time, allowing results to be aggregated for regions and population groups. The authors limited the interpretation: estimated road speeds and omitted congestion, intersection delays and one-way restrictions made the results suitable for regional comparisons, rather than exact journeys for individual patients."
+  ],
+  "sources": [
+    {
+      "label": "R.A. Warrick, G.J. Kenny, J.J. Harman et al., The effects of climate change and variation in New Zealand: An assessment using the CLIMPACTS system",
+      "url": "https://hdl.handle.net/10289/897"
+    },
+    {
+      "label": "Chris Hunt, Andrew Manderson, Dave Wheeler and M.S. Srinivasan, Getting Spatial with Nutrients in New Zealand Pastoral Agriculture",
+      "url": "https://flrc.massey.ac.nz/workshops/07/2007%20Abstracts.pdf"
+    },
+    {
+      "label": "Lars Brabyn and Chris Skelly, Modeling population access to New Zealand public hospitals, International Journal of Health Geographics 1:3, 12 November 2002",
+      "url": "https://link.springer.com/article/10.1186/1476-072X-1-3"
+    }
+  ],
+  "aliases": [
+    "University of Waikato"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [
+    [
+      {
+        "label": "R.A. Warrick, G.J. Kenny, J.J. Harman et al., The effects of climate change and variation in New Zealand: An assessment using the CLIMPACTS system",
+        "url": "https://hdl.handle.net/10289/897"
+      },
+      {
+        "label": "Chris Hunt, Andrew Manderson, Dave Wheeler and M.S. Srinivasan, Getting Spatial with Nutrients in New Zealand Pastoral Agriculture",
+        "url": "https://flrc.massey.ac.nz/workshops/07/2007%20Abstracts.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Lars Brabyn and Chris Skelly, Modeling population access to New Zealand public hospitals, International Journal of Health Geographics 1:3, 12 November 2002",
+        "url": "https://link.springer.com/article/10.1186/1476-072X-1-3"
+      }
+    ],
+    [
+      {
+        "label": "Lars Brabyn and Chris Skelly, Modeling population access to New Zealand public hospitals, International Journal of Health Geographics 1:3, 12 November 2002",
+        "url": "https://link.springer.com/article/10.1186/1476-072X-1-3"
+      }
+    ]
+  ],
+  "biographyParagraphSources": []
+}

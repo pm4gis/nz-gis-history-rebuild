@@ -1,0 +1,42 @@
+{
+  "id": "person:ian-sutherland",
+  "slug": "ian-sutherland",
+  "name": "Ian Sutherland",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ian-sutherland/",
+  "story": [
+    "Ian Sutherland requested the Renwick fault-trace work described in Geotech Consulting’s letter to Marlborough District Council on 10 May 2006. The consultant supplied hand-drawn interpretations for transfer into the council GIS and asked that their approximate locations and interpretive character remain visible in the resulting data.",
+    "The correspondence says the work had been requested by council officer Ian Sutherland. It is a small but revealing handoff: field interpretation became pencil lines, pencil lines became digital geometry, and the uncertainty could not sensibly be cleaned away by the software."
+  ],
+  "sources": [
+    {
+      "label": "Geotech Consulting Ltd letter to Marlborough District Council, Possible fault traces in and near Renwick",
+      "url": "https://data.marlborough.govt.nz/trim/api/trim/get?application=smtechreports&company=mdc&id=14257515"
+    },
+    {
+      "label": "Chapter 23 · A new local government",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Ian Sutherland"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Geotech Consulting Ltd letter to Marlborough District Council, Possible fault traces in and near Renwick",
+        "url": "https://data.marlborough.govt.nz/trim/api/trim/get?application=smtechreports&company=mdc&id=14257515"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · A new local government",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

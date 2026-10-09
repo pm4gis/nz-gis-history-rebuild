@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-42-42415b8257",
+  "slug": "shared-operational-maps-42415b8257",
+  "articleId": "article:chapter-42",
+  "title": "Shared operational maps",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42",
+    "entity:waikato-regional-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Cyclone Gabrielle response organisations maintained several common operating pictures. Fire and Emergency had a COP. Waikato Regional Council stood up a COP or common platform for group-wide response use. Tairāwhiti used its own connected applications and dashboards. NEMA coordinated national incident-data sharing and national geospatial products. These systems were connected by people, shared data and common practices more than by one universal interface.",
+      "markdown": "Cyclone Gabrielle response organisations maintained several common operating pictures. Fire and Emergency had a COP. Waikato Regional Council stood up a COP or common platform for group-wide response use. Tairāwhiti used its own connected applications and dashboards. NEMA coordinated national incident-data sharing and national geospatial products. These systems were connected by people, shared data and common practices more than by one universal interface.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The arrangement accommodated different operational requirements. Different operational levels need different detail and authority. A national coordination centre does not need every local field observation displayed all the time, while a local controller may need street-level information that is irrelevant nationally. The useful commonality lies in compatible identifiers, accessible services, understood sources and the ability to exchange information without rebuilding it from scratch.",
+      "markdown": "The arrangement accommodated different operational requirements. Different operational levels need different detail and authority. A national coordination centre does not need every local field observation displayed all the time, while a local controller may need street-level information that is irrelevant nationally. The useful commonality lies in compatible identifiers, accessible services, understood sources and the ability to exchange information without rebuilding it from scratch.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Wide Area Assessment and Rapid Disaster Assessment information was combined with external datasets. The regional systems continued to maintain their own operational details. National and regional products could therefore coexist, each answering a different set of questions. Emergency teams used several views of overlapping information systems.",
+      "markdown": "Wide Area Assessment and Rapid Disaster Assessment information was combined with external datasets. The regional systems continued to maintain their own operational details. National and regional products could therefore coexist, each answering a different set of questions. Emergency teams used several views of overlapping information systems.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

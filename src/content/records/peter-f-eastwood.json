@@ -1,0 +1,42 @@
+{
+  "id": "person:peter-f-eastwood",
+  "slug": "peter-f-eastwood",
+  "name": "Peter F. Eastwood",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/peter-f-eastwood/",
+  "story": [
+    "Peter F. Eastwood, a civil engineer at Central Hawke’s Bay District Council, took part in the September 2008 debate about the Esri user conference. He argued that a broader event would be easier for council staff to justify attending and that New Zealand’s market was too small for each supplier to sustain a separate conference."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG GISList discussion, The future of the NZ ESRI User Group Conference, including council and Hawke's Bay regional responses"
+    },
+    {
+      "label": "Chapter 23 · Council GIS",
+      "url": "/stories/councils-build-corporate-gis/"
+    },
+    {
+      "label": "Chapter 29 · The GIS profession",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Peter F. Eastwood"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · Council GIS",
+        "url": "/stories/councils-build-corporate-gis/"
+      },
+      {
+        "label": "Chapter 29 · The GIS profession",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

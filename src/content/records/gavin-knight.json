@@ -1,0 +1,53 @@
+{
+  "id": "person:gavin-knight",
+  "slug": "gavin-knight",
+  "name": "Gavin Knight",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/gavin-knight/",
+  "story": [
+    "Gavin Knight's professional work spans investigation, analysis, privacy and business leadership. His research at Griffith University from 2008 to 2014 examined organisational theories and the relationship between performance measurement and organisational behaviour. His later association with GoPrivate adds a privacy and information-governance dimension to the Police data work discussed in the book.",
+    "The official November 2016 Police advisory names Gavin Knight as the Chief Data Scientist demonstrating policedata.nz at its Wellington launch.",
+    "An official Police advisory for the November 2016 launch of policedata.nz names Chief Data Scientist Gavin Knight as the practitioner who would demonstrate the service in Wellington. The record identifies a specific contribution to public crime-data access, alongside the wider operational history of geographic information in policing."
+  ],
+  "sources": [
+    {
+      "label": "Police launch advisory, 29 November 2016",
+      "url": "https://www.police.govt.nz/news/release/invitation-demonstration-new-police-online-crime-data-reporting-tool"
+    },
+    {
+      "label": "Dr Gavin Knight - GoPrivate Limited | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/dr-gavin-knight-550473143"
+    },
+    {
+      "label": "Chapter 28 · Operational geography before the major disasters",
+      "url": "/stories/safety-policing-and-emergency-gis/"
+    }
+  ],
+  "aliases": [
+    "Gavin Knight"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Dr Gavin Knight - GoPrivate Limited | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/dr-gavin-knight-550473143"
+      }
+    ],
+    [
+      {
+        "label": "Police launch advisory, 29 November 2016",
+        "url": "https://www.police.govt.nz/news/release/invitation-demonstration-new-police-online-crime-data-reporting-tool"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 28 · Operational geography before the major disasters",
+        "url": "/stories/safety-policing-and-emergency-gis/"
+      }
+    ]
+  ]
+}

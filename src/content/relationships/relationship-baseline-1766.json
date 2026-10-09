@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1766",
+  "a": "person:robin-pickering",
+  "b": "chapter:10",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-10-d4532463e0"
+  ],
+  "sources": []
+}

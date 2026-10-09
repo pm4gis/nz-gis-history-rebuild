@@ -1,0 +1,42 @@
+{
+  "id": "person:lauren-mcartney",
+  "slug": "lauren-mcartney",
+  "name": "Lauren McArtney",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/lauren-mcartney/",
+  "story": [
+    "Lauren McArtney began at Eagle Technology as a GIS intern and spent nearly eight years with the company before announcing her departure in 2023. Her farewell account describes the professional relationships and learning developed during that period. The ArcGIS Online and LocalMaps presentations in the book belong to this early stage of her geospatial career.",
+    "Lauren McArtney presented ArcGIS Online and LocalMaps in 2018."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "After nearly 8 years, I bid farewell to the amazing team at Eagle Technology. It's been an unforgettable journey, from a little (yet still very tall) GIS intern to where I am now, and I'm grateful… | Lauren McArtney | 66 comments · career/profile reference",
+      "url": "https://www.linkedin.com/posts/lauren-mcartney-26288796_after-nearly-8-years-i-bid-farewell-to-the-activity-7051717488920711168-seWi"
+    }
+  ],
+  "aliases": [
+    "Lauren McArtney"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "After nearly 8 years, I bid farewell to the amazing team at Eagle Technology. It's been an unforgettable journey, from a little (yet still very tall) GIS intern to where I am now, and I'm grateful… | Lauren McArtney | 66 comments · career/profile reference",
+        "url": "https://www.linkedin.com/posts/lauren-mcartney-26288796_after-nearly-8-years-i-bid-farewell-to-the-activity-7051717488920711168-seWi"
+      }
+    ],
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ]
+  ]
+}

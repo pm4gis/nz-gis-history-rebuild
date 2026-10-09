@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-38-c796922a65",
+  "slug": "surveying-from-above-c796922a65",
+  "articleId": "article:chapter-38",
+  "title": "Surveying from above",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Surveyors tested UAV mapping against established accuracy requirements. A high-resolution image is visually persuasive, but a survey workflow needs to know how well coordinates and elevations agree with independent control. The 2017 Auckland and Port Waikato landslide work used aerial imagery and RTK-positioned ground targets to constrain the model. That makes the method comparable with other controlled spatial measurement rather than treating the onboard navigation solution as sufficient.",
+      "markdown": "Surveyors tested UAV mapping against established accuracy requirements. A high-resolution image is visually persuasive, but a survey workflow needs to know how well coordinates and elevations agree with independent control. The 2017 Auckland and Port Waikato landslide work used aerial imagery and RTK-positioned ground targets to constrain the model. That makes the method comparable with other controlled spatial measurement rather than treating the onboard navigation solution as sufficient.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Ground-control targets serve several purposes. They connect the photogrammetric model to a real coordinate system, help remove scale and orientation ambiguity, and provide a way to detect systematic distortion. Separate checkpoints can be withheld from the model and used afterwards to test how well the reconstructed surface predicts known positions. Control points establish the model; independent check points test its accuracy. A model can fit the control used to build it and still perform less well elsewhere.",
+      "markdown": "Ground-control targets serve several purposes. They connect the photogrammetric model to a real coordinate system, help remove scale and orientation ambiguity, and provide a way to detect systematic distortion. Separate checkpoints can be withheld from the model and used afterwards to test how well the reconstructed surface predicts known positions. Control points establish the model; independent check points test its accuracy. A model can fit the control used to build it and still perform less well elsewhere.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The national coordinate framework therefore sits quietly underneath drone mapping just as it does underneath LiDAR. A site model in NZTM2000 can be compared with parcels, roads, earlier surveys and other spatial datasets because it is tied to the same horizontal framework. Heights need an equally clear reference if change in elevation is being measured. The aircraft may be new, but the requirement for coordinate discipline is not.",
+      "markdown": "The national coordinate framework therefore sits quietly underneath drone mapping just as it does underneath LiDAR. A site model in NZTM2000 can be compared with parcels, roads, earlier surveys and other spatial datasets because it is tied to the same horizontal framework. Heights need an equally clear reference if change in elevation is being measured. The aircraft may be new, but the requirement for coordinate discipline is not.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also limits what a UAV product can prove. A fence visible in a centimetre-scale orthomosaic may look like an obvious property line. It is still only a visible feature. Legal cadastral boundaries come from the survey record and cannot be relocated by tracing whatever line appears sharpest in the image. Greater visual detail can make old distinctions easier to forget, not less necessary.",
+      "markdown": "This also limits what a UAV product can prove. A fence visible in a centimetre-scale orthomosaic may look like an obvious property line. It is still only a visible feature. Legal cadastral boundaries come from the survey record and cannot be relocated by tracing whatever line appears sharpest in the image. Greater visual detail can make old distinctions easier to forget, not less necessary.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

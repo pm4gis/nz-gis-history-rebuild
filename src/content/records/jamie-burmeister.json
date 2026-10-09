@@ -1,0 +1,42 @@
+{
+  "id": "person:jamie-burmeister",
+  "slug": "jamie-burmeister",
+  "name": "Jamie Burmeister",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jamie-burmeister/",
+  "story": [
+    "Jamie Burmeister co-founded Adapt Solutions with Nige Sheed in 2007, bringing water-authority and software-implementation experience to the business.",
+    "Nige Sheed and Jamie Burmeister established Adapt Solutions in 2007 after working together on a water-billing implementation in Auckland. Sheed’s earlier experience at Timaru District Council involved moving paper asset records into computerised systems. The company brought those practical implementation experiences into asset-management software and services."
+  ],
+  "sources": [
+    {
+      "label": "Adapt founders’ history",
+      "url": "https://adaptsolutions.co.nz/about/"
+    },
+    {
+      "label": "Chapter 40 · Shared organisational systems",
+      "url": "/stories/enterprise-gis/"
+    }
+  ],
+  "aliases": [
+    "Jamie Burmeister"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Adapt founders’ history",
+        "url": "https://adaptsolutions.co.nz/about/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 40 · Shared organisational systems",
+        "url": "/stories/enterprise-gis/"
+      }
+    ]
+  ]
+}

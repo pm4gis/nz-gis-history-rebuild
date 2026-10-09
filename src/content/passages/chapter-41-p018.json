@@ -1,0 +1,38 @@
+{
+  "id": "passage:chapter-41-ff98c700f7",
+  "slug": "cloud-operations-ff98c700f7",
+  "articleId": "article:chapter-41",
+  "title": "Cloud operations",
+  "order": 17,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 31 December 2025 cloud platforms, hosted data services and APIs sat alongside desktop GIS, enterprise databases, specialist network systems and files throughout New Zealand's geospatial environment. Working systems often combined these approaches, using a local database for controlled editing, a hosted service for public distribution, downloadable files for analysis and an API for software integration.",
+      "markdown": "By 31 December 2025 cloud platforms, hosted data services and APIs sat alongside desktop GIS, enterprise databases, specialist network systems and files throughout New Zealand's geospatial environment. Working systems often combined these approaches, using a local database for controlled editing, a hosted service for public distribution, downloadable files for analysis and an API for software integration.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The earlier SDI goals took shape through platform forms, automatic metadata harvesting, hosted publishing, OGC services, REST endpoints, APIs, shared schemas and catalogue adapters. Each approach helped make spatial information easier to discover, maintain and reuse.",
+      "markdown": "The earlier SDI goals took shape through platform forms, automatic metadata harvesting, hosted publishing, OGC services, REST endpoints, APIs, shared schemas and catalogue adapters. Each approach helped make spatial information easier to discover, maintain and reuse.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That architecture also prepared the ground for a different kind of map. When services can be updated continuously and applications can consume them immediately, geographic information can support live operational pictures rather than periodic products. Sensors, earthquake feeds, emergency reports, rapid imagery and changing access information can move into the same environment. Chapter 42 follows that development through GeoNet, Canterbury, Kaikōura and Cyclone Gabrielle, where the value of connected mapping was repeatedly tested against the inconvenient fact that disasters also break networks. New Zealand’s NZTA ArcGIS Enterprise on Kubernetes case is described in Chapter 40.",
+      "markdown": "That architecture also prepared the ground for a different kind of map. When services can be updated continuously and applications can consume them immediately, geographic information can support live operational pictures rather than periodic products. Sensors, earthquake feeds, emergency reports, rapid imagery and changing access information can move into the same environment. Chapter 42 follows that development through GeoNet, Canterbury, Kaikōura and Cyclone Gabrielle, where the value of connected mapping was repeatedly tested against the inconvenient fact that disasters also break networks. New Zealand’s NZTA ArcGIS Enterprise on Kubernetes case is described in Chapter 40.",
+      "sources": [
+        {
+          "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+          "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

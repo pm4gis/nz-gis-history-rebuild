@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-30-8bba770b5e",
+  "slug": "keeping-it-current-8bba770b5e",
+  "articleId": "article:chapter-30",
+  "title": "Keeping it current",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The move to browser delivery also made update cycles visible in a new way. A printed map could carry a publication date and remain unchanged until a new edition appeared. A web map looked current because it was online, even when some of its layers were refreshed only periodically. That appearance created a risk: users could assume that an interactive service reflected the latest authoritative record simply because the page responded immediately.",
+      "markdown": "The move to browser delivery also made update cycles visible in a new way. A printed map could carry a publication date and remain unchanged until a new edition appeared. A web map looked current because it was online, even when some of its layers were refreshed only periodically. That appearance created a risk: users could assume that an interactive service reflected the latest authoritative record simply because the page responded immediately.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Early systems handled freshness in different ways. Police wanted intelligence and dispatch information to reach operational mapping quickly, while council cadastral layers could be refreshed on a much slower cycle. Dunedin’s help material explicitly told users that LINZ parcel data were updated periodically, then described as every one to two months. The distinction between a responsive application and current source data had to be explained. The browser could generate a map instantly from information that was still weeks old.",
+      "markdown": "Early systems handled freshness in different ways. Police wanted intelligence and dispatch information to reach operational mapping quickly, while council cadastral layers could be refreshed on a much slower cycle. Dunedin’s help material explicitly told users that LINZ parcel data were updated periodically, then described as every one to two months. The distinction between a responsive application and current source data had to be explained. The browser could generate a map instantly from information that was still weeks old.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Centralisation nevertheless gave organisations a better way to control updates. A revised dataset placed behind a centrally managed service could become available to all users without distributing replacement files to every workstation. This reduced one form of version drift, although it increased dependence on disciplined publishing processes. The organisation needed to know which copy was authoritative, when it had been loaded, which services consumed it and whether a failed update had left users looking at stale information.",
+      "markdown": "Centralisation nevertheless gave organisations a better way to control updates. A revised dataset placed behind a centrally managed service could become available to all users without distributing replacement files to every workstation. This reduced one form of version drift, although it increased dependence on disciplined publishing processes. The organisation needed to know which copy was authoritative, when it had been loaded, which services consumed it and whether a failed update had left users looking at stale information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same issue affected public trust. A property viewer, health map or operational application could appear authoritative because it came from a government or council website. That made provenance, caveats and update notes part of the cartography. The web map was an interactive application whose controls changed what information the user could retrieve and display. It was a promise, sometimes implicit, about where the information came from and how much confidence the user should place in it.",
+      "markdown": "The same issue affected public trust. A property viewer, health map or operational application could appear authoritative because it came from a government or council website. That made provenance, caveats and update notes part of the cartography. The web map was an interactive application whose controls changed what information the user could retrieve and display. It was a promise, sometimes implicit, about where the information came from and how much confidence the user should place in it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

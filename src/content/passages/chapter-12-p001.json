@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-12-a7de508d68",
+  "slug": "buying-and-implementing-gis-a7de508d68",
+  "articleId": "article:chapter-12",
+  "title": "Buying and implementing GIS",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12",
+    "entity:smallworld-ge-smallworld"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the early 1990s, buying GIS software was only the opening bid. The demonstration was often the easy part. An organisation still needed computers capable of running it, data in a usable format, someone who understood the installation, people to convert existing maps and records, training for users, and support when the whole arrangement stopped behaving as the demonstration had promised. New Zealand suppliers and consultants connected international software vendors with local customers. Local distributors, consultants, programmers, data suppliers, trainers and technical-support staff turned imported products into systems that could survive ordinary organisational use. The licence mattered, but the working GIS was assembled around it.",
+      "markdown": "By the early 1990s, buying GIS software was only the opening bid. The demonstration was often the easy part. An organisation still needed computers capable of running it, data in a usable format, someone who understood the installation, people to convert existing maps and records, training for users, and support when the whole arrangement stopped behaving as the demonstration had promised. New Zealand suppliers and consultants connected international software vendors with local customers. Local distributors, consultants, programmers, data suppliers, trainers and technical-support staff turned imported products into systems that could survive ordinary organisational use. The licence mattered, but the working GIS was assembled around it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Several companies supplied software, data and implementation services. New Zealand already had digital land-resource systems, cadastral computing, remote sensing, automated mapping and scientific graphics before the commercial GIS market widened. Intergraph, Esri, ERDAS, MapInfo and later Smallworld entered an existing technical landscape. Different sectors chose different products, and some organisations used more than one. The commercial change of the late 1980s and 1990s was that a customer no longer had to invent every part of the system internally. There were increasingly people in New Zealand whose business was to help make GIS work.",
+      "markdown": "Several companies supplied software, data and implementation services. New Zealand already had digital land-resource systems, cadastral computing, remote sensing, automated mapping and scientific graphics before the commercial GIS market widened. Intergraph, Esri, ERDAS, MapInfo and later Smallworld entered an existing technical landscape. Different sectors chose different products, and some organisations used more than one. The commercial change of the late 1980s and 1990s was that a customer no longer had to invent every part of the system internally. There were increasingly people in New Zealand whose business was to help make GIS work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Customers continued to need data conversion and support after purchasing software. Consultants translated data, configured applications, wrote scripts, installed plotters and digitising equipment, trained staff and returned when the first design proved optimistic. Data-conversion teams turned paper plans into structured records. Database specialists worked out how geography related to property, assets or environmental information. Support staff answered questions that did not fit neatly into the manual. A mature GIS market required implementation, data work, training and support alongside software sales.",
+      "markdown": "Customers continued to need data conversion and support after purchasing software. Consultants translated data, configured applications, wrote scripts, installed plotters and digitising equipment, trained staff and returned when the first design proved optimistic. Data-conversion teams turned paper plans into structured records. Database specialists worked out how geography related to property, assets or environmental information. Support staff answered questions that did not fit neatly into the manual. A mature GIS market required implementation, data work, training and support alongside software sales.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

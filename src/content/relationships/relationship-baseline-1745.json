@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1745",
+  "a": "person:r-d-williams",
+  "b": "chapter:5",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-5-bd520402bb"
+  ],
+  "sources": []
+}

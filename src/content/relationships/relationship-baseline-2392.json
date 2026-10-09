@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2392",
+  "a": "entity:geospatial-emergency-management-aotearoa-gema",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

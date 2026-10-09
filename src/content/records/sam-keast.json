@@ -1,0 +1,31 @@
+{
+  "id": "person:sam-keast",
+  "slug": "sam-keast",
+  "name": "Sam Keast",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sam-keast/",
+  "story": [
+    "LINZ and the Geospatial Capability Committee included Sam Keast in the Leaving School geospatial career-profile series: Senior GIS Analyst, Ministry of Social Development, August 2019."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Sam Keast"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

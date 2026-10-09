@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-6-4fce4c5f6d",
+  "slug": "software-support-and-dependence-4fce4c5f6d",
+  "articleId": "article:chapter-6",
+  "title": "Software support and dependence",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:6"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Moving from in-house software to a commercial package changed who carried some of that technical responsibility. A local development team could alter its own program if the source code and expertise were still available. A commercial user depended more on the vendor or distributor for fixes, upgrades and documentation. That reduced some development work while introducing licence and supplier dependencies.",
+      "markdown": "Moving from in-house software to a commercial package changed who carried some of that technical responsibility. A local development team could alter its own program if the source code and expertise were still available. A commercial user depended more on the vendor or distributor for fixes, upgrades and documentation. That reduced some development work while introducing licence and supplier dependencies.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The trade-off was acceptable to many organisations because commercial GIS offered broader functionality and a larger user base. Staff could learn techniques that applied outside one department. Manuals and training materials were shared across customers. Consultants could build experience on one platform and reuse that knowledge with several organisations.",
+      "markdown": "The trade-off was acceptable to many organisations because commercial GIS offered broader functionality and a larger user base. Staff could learn techniques that applied outside one department. Manuals and training materials were shared across customers. Consultants could build experience on one platform and reuse that knowledge with several organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Standardisation was never complete. Different vendors used different file structures and command languages, while CAD and remote-sensing systems continued beside GIS. Data exchange could still involve tapes, custom conversion programs and manual checking. The benefit was that a growing number of practitioners now understood the general problem even when their preferred software differed.",
+      "markdown": "Standardisation was never complete. Different vendors used different file structures and command languages, while CAD and remote-sensing systems continued beside GIS. Data exchange could still involve tapes, custom conversion programs and manual checking. The benefit was that a growing number of practitioners now understood the general problem even when their preferred software differed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also made technical documentation more valuable. A locally developed system could rely heavily on the knowledge of the people who built it. A commercial environment required organisations to document how their own datasets fitted the package. Field definitions, coding rules, coordinate systems and quality limits had to be recorded if data were to survive staff turnover or move between systems.",
+      "markdown": "This also made technical documentation more valuable. A locally developed system could rely heavily on the knowledge of the people who built it. A commercial environment required organisations to document how their own datasets fitted the package. Field definitions, coding rules, coordinate systems and quality limits had to be recorded if data were to survive staff turnover or move between systems.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

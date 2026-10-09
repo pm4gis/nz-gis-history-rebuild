@@ -1,0 +1,31 @@
+{
+  "id": "person:ian-lynn",
+  "slug": "ian-lynn",
+  "name": "Ian Lynn",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ian-lynn/",
+  "story": [
+    "Ian Lynn and Sam Carrick are among the research contributors identified in the technical histories of growOTAGO, published in 2004. Integrated Mapping developed the website and CD presentation. The combination made regional land-resource information usable beyond the offices that had assembled it: farmers and advisers could compare soil and climate conditions when considering an existing activity or a possible new one."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23 · A new local government",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Ian Lynn"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · A new local government",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-26-f9ce793ad8",
+  "slug": "from-ecological-maps-to-managed-data-f9ce793ad8",
+  "articleId": "article:chapter-26",
+  "title": "From ecological maps to managed data",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26",
+    "entity:department-of-conservation",
+    "person:mary-mcewen"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In late 1985 Mary McEwen encountered GIS while ecological region and district boundaries were being digitised and DSIR’s Science Mapping Unit was beginning to use an Intergraph system. The work sat inside a longer conservation tradition of field survey, species records, ecological classification and thematic mapping. The Biological Resources Centre was considering how a national Biological Resources Information System might organise and retrieve biological information geographically. At that stage GIS was still close to scientific mapping and database design rather than a service available across a conservation agency.",
+      "markdown": "In late 1985 Mary McEwen encountered GIS while ecological region and district boundaries were being digitised and DSIR’s Science Mapping Unit was beginning to use an Intergraph system. The work sat inside a longer conservation tradition of field survey, species records, ecological classification and thematic mapping. The Biological Resources Centre was considering how a national Biological Resources Information System might organise and retrieve biological information geographically. At that stage GIS was still close to scientific mapping and database design rather than a service available across a conservation agency.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "When the Department of Conservation was formed in 1987 it inherited more than land and staff. It inherited protected-area boundaries, ecological regions and districts, biological records, historic and archaeological information, huts and tracks, fire and pest records, maps from predecessor agencies and the different practices used to maintain them. Some information was national, some regional and some remained local to the office or specialist who had created it. The new department therefore had a geographic information problem long before it had a single national GIS.",
+      "markdown": "When the Department of Conservation was formed in 1987 it inherited more than land and staff. It inherited protected-area boundaries, ecological regions and districts, biological records, historic and archaeological information, huts and tracks, fire and pest records, maps from predecessor agencies and the different practices used to maintain them. Some information was national, some regional and some remained local to the office or specialist who had created it. The new department therefore had a geographic information problem long before it had a single national GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The records also behaved differently. A reserve boundary could be surveyed or legally described, while the known range of a species might depend on observations collected over years. A hut was a physical asset with a location and condition, while a pest-control operation covered an area that could change between seasons. A track had a route, an operational status and maintenance history. Conservation information was spatial, but not all of it was fixed in the way a cadastral parcel or utility asset was fixed.",
+      "markdown": "The records also behaved differently. A reserve boundary could be surveyed or legally described, while the known range of a species might depend on observations collected over years. A hut was a physical asset with a location and condition, while a pest-control operation covered an area that could change between seasons. A track had a route, an operational status and maintenance history. Conservation information was spatial, but not all of it was fixed in the way a cadastral parcel or utility asset was fixed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Early GIS work helped bring some of these traditions into common digital form, but the department remained geographically dispersed. Field centres and conservancies needed access to local information while Head Office needed national views. Computer capacity, network bandwidth and GIS skill varied between offices. The technical history that followed was therefore as much about distribution and maintenance as it was about analysis.",
+      "markdown": "Early GIS work helped bring some of these traditions into common digital form, but the department remained geographically dispersed. Field centres and conservancies needed access to local information while Head Office needed national views. Computer capacity, network bandwidth and GIS skill varied between offices. The technical history that followed was therefore as much about distribution and maintenance as it was about analysis.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

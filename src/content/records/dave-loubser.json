@@ -1,0 +1,45 @@
+{
+  "id": "person:dave-loubser",
+  "slug": "dave-loubser",
+  "name": "Dave Loubser",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/dave-loubser/",
+  "story": [
+    "Dave Loubser of Earth Cubed, Wellington, contributed a Christchurch earthquake web map to the GISList discussion on 8 September 2010. The exchange records a small consultancy taking part in the rapid circulation of public mapping after the 4 September earthquake.",
+    "Dave Loubser of Wellington consultancy Earth Cubed pointed the list towards another Christchurch earthquake map. Official GIS, commercial systems and public mapping were already being combined within days of the 4 September earthquake."
+  ],
+  "sources": [
+    {
+      "label": "GISList crowd-sourced Christchurch mapping thread"
+    },
+    {
+      "label": "Chapter 42 · Disaster response and live mapping",
+      "url": "/stories/the-real-time-map/"
+    },
+    {
+      "label": "Chapter 42 · Canterbury exposes the gaps",
+      "url": "/stories/the-real-time-map/"
+    }
+  ],
+  "aliases": [
+    "Dave Loubser"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 42 · Disaster response and live mapping",
+        "url": "/stories/the-real-time-map/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 42 · Canterbury exposes the gaps",
+        "url": "/stories/the-real-time-map/"
+      }
+    ]
+  ]
+}

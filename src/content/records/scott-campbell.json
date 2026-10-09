@@ -1,0 +1,52 @@
+{
+  "id": "person:scott-campbell",
+  "slug": "scott-campbell",
+  "name": "Scott Campbell",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/scott-campbell/",
+  "story": [
+    "Scott Campbell is documented in Eagle’s technical and user-community work by 2013. A ministerial speech opening the New Zealand ESRI User Conference on 16 August 2017 identified him as Eagle’s Head of GIS Technology. He also hosted ArcGIS roadmap material at the 2018 conference.",
+    "Parker Jones and David Pimblott belong to the earlier commercial story; later public records connect Graeme Henderson, Scott Campbell, Jithen Singh, Trevor Hart and Nathan Heazlewood with enterprise projects, technology leadership and professional services."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "Minister for Land Information Mark Mitchell, 'New Zealand ESRI User Conference'",
+      "url": "https://www.beehive.govt.nz/speech/new-zealand-esri-user-conference"
+    },
+    {
+      "label": "Chapter 12 · Esri and Eagle in New Zealand",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Scott Campbell"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      },
+      {
+        "label": "Minister for Land Information Mark Mitchell, 'New Zealand ESRI User Conference'",
+        "url": "https://www.beehive.govt.nz/speech/new-zealand-esri-user-conference"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Esri and Eagle in New Zealand",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

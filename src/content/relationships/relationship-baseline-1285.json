@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1285",
+  "a": "entity:department-of-conservation",
+  "b": "chapter:40",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-40-3782b862a2",
+    "passage:chapter-40-20048f3f19"
+  ],
+  "sources": []
+}

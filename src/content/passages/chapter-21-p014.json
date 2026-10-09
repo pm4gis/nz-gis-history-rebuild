@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-21-ff23faebb8",
+  "slug": "continuing-development-ff23faebb8",
+  "articleId": "article:chapter-21",
+  "title": "Continuing development",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 2012 assessment documented the extent of implementation after the policy announcements. The 2007 strategy established direction. The 2009 standards work defined another piece of the problem. Cabinet’s 2010 decision strengthened the mandate. None of those acts could by themselves make every dataset current, documented, standardised and accessible.",
+      "markdown": "The 2012 assessment documented the extent of implementation after the policy announcements. The 2007 strategy established direction. The 2009 standards work defined another piece of the problem. Cabinet’s 2010 decision strengthened the mandate. None of those acts could by themselves make every dataset current, documented, standardised and accessible.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "An SDI is particularly resistant to a completion date because the components keep changing. New datasets appear, old ones need maintenance, standards are revised and agencies rebuild their systems. A national address dataset or imagery service can improve while another theme remains fragmented. A catalogue can list a dataset whose metadata is poor, and a technically standard web service can still deliver information whose meaning differs from the user’s assumptions.",
+      "markdown": "An SDI is particularly resistant to a completion date because the components keep changing. New datasets appear, old ones need maintenance, standards are revised and agencies rebuild their systems. A national address dataset or imagery service can improve while another theme remains fragmented. A catalogue can list a dataset whose metadata is poor, and a technically standard web service can still deliver information whose meaning differs from the user’s assumptions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Funding also cuts across the infrastructure. Individual agencies normally have budgets to perform their statutory work, not necessarily to maximise the reuse of their information by everyone else. The 2012 report identified the lack of dedicated long-term SDI funding as a possible constraint. Shared infrastructure can reduce duplicated work across government while still requiring one organisation to pay for maintenance that benefits users elsewhere.",
+      "markdown": "Funding also cuts across the infrastructure. Individual agencies normally have budgets to perform their statutory work, not necessarily to maximise the reuse of their information by everyone else. The 2012 report identified the lack of dedicated long-term SDI funding as a possible constraint. Shared infrastructure can reduce duplicated work across government while still requiring one organisation to pay for maintenance that benefits users elsewhere.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same tension appears in standards. Agencies can agree that common approaches are desirable while facing the cost of changing established databases, software and work practices. New projects can adopt a standard more easily than old systems can be rebuilt around it. National coordination therefore often proceeded through guidance, endorsed standards, shared projects and gradual convergence rather than one compulsory technical architecture.",
+      "markdown": "The same tension appears in standards. Agencies can agree that common approaches are desirable while facing the cost of changing established databases, software and work practices. New projects can adopt a standard more easily than old systems can be rebuilt around it. National coordination therefore often proceeded through guidance, endorsed standards, shared projects and gradual convergence rather than one compulsory technical architecture.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

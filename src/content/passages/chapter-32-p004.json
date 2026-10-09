@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-32-91d01fe961",
+  "slug": "qgis-comes-into-view-91d01fe961",
+  "articleId": "article:chapter-32",
+  "title": "QGIS comes into view",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "open-practice"
+  ],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "QGIS eventually made open-source GIS much more visible to ordinary GIS users because it put a complete desktop mapping environment directly in front of them. Different people and organisations experimented with it, used it alongside other software, funded improvements and gradually placed it into production. QGIS use became more visible in New Zealand’s professional discussions during the early 2010s.",
+      "markdown": "QGIS eventually made open-source GIS much more visible to ordinary GIS users because it put a complete desktop mapping environment directly in front of them. Different people and organisations experimented with it, used it alongside other software, funded improvements and gradually placed it into production. QGIS use became more visible in New Zealand’s professional discussions during the early 2010s.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Wairarapa",
+      "caption": "Wairarapa. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "NIWA provides the best institutional bridge. Its Quantum Map application used QGIS to make environmental information easier to reach through local files and web services. A NIWA publication shows Quantum Map combining WMS, WFS and local data, including aerial imagery, bathymetry, freshwater observations and LINZ-based context. The application was simpler than the full QGIS environment and gave users a route into freely available environmental information.",
+      "markdown": "NIWA provides the best institutional bridge. Its Quantum Map application used QGIS to make environmental information easier to reach through local files and web services. A NIWA publication shows Quantum Map combining WMS, WFS and local data, including aerial imagery, bathymetry, freshwater observations and LINZ-based context. The application was simpler than the full QGIS environment and gave users a route into freely available environmental information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "NIWA later recorded that Quantum Map functionality was merged into the main QGIS application with QGIS 2.6, released on 31 October 2014. Additional NIWA work continued through QGIS plugins and funded enhancements. A New Zealand research organisation was paying for and developing functionality that then entered the wider QGIS project.",
+      "markdown": "NIWA later recorded that Quantum Map functionality was merged into the main QGIS application with QGIS 2.6, released on 31 October 2014. Additional NIWA work continued through QGIS plugins and funded enhancements. A New Zealand research organisation was paying for and developing functionality that then entered the wider QGIS project.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That reciprocal relationship is one of the distinctive features of open-source development. An organisation can use a shared code base, commission work for its own requirements and, where that work is contributed upstream, make the resulting capability available to other users. Developer costs remain; the difference lies in what happens to the result. NIWA described funded enhancements becoming part of the core application rather than remaining a private feature locked inside one organisation.",
+      "markdown": "That reciprocal relationship is one of the distinctive features of open-source development. An organisation can use a shared code base, commission work for its own requirements and, where that work is contributed upstream, make the resulting capability available to other users. Developer costs remain; the difference lies in what happens to the result. NIWA described funded enhancements becoming part of the core application rather than remaining a private feature locked inside one organisation.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

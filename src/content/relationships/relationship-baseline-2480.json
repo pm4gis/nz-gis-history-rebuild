@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2480",
+  "a": "person:aaria-dobson-waitere",
+  "b": "entity:victoria-university-of-wellington",
+  "label": "Associated with",
+  "basis": "Documented Victoria University of Wellington study and alumni profile.",
+  "passageIds": [],
+  "sources": []
+}

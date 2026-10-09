@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1244",
+  "a": "system:s-map-online",
+  "b": "system:guild-on-the-web",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

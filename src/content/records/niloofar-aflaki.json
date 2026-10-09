@@ -1,0 +1,42 @@
+{
+  "id": "person:niloofar-aflaki",
+  "slug": "niloofar-aflaki",
+  "name": "Niloofar Aflaki",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/niloofar-aflaki/",
+  "story": [
+    "Niloofar Aflaki's institutional profile describes research and teaching in data science and responsible artificial intelligence at Massey University. Her interests include large language models, human–computer interaction and GIS. This broader research setting connects the geospatial language-annotation work in the book with questions about how people and computational systems interpret data.",
+    "A 2018 GIScience paper by Niloofar Aflaki, Shaun Russell and Kristin Stock examined the difficulties of creating annotated geospatial natural-language descriptions. In 2019 Stock and collaborators presented \"He Tatai Whenua\", work on automated extraction of landscape terms and meanings in New Zealand Māori. These projects predated the current large-language-model boom and treated language as data that needed careful annotation, interpretation and computational representation. Coordinates returned from natural-language queries required validation against the intended places."
+  ],
+  "sources": [
+    {
+      "label": "Niloofar Aflaki - Research Officer - Massey University · career/profile reference",
+      "url": "https://www.academicstanding.massey.ac.nz/massey/expertise/college-staff-lists/college-of-sciences/all-staff/all-staff_home.cfm?stref=288122"
+    },
+    {
+      "label": "Chapter 44 · Natural language returns",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Niloofar Aflaki"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Niloofar Aflaki - Research Officer - Massey University · career/profile reference",
+        "url": "https://www.academicstanding.massey.ac.nz/massey/expertise/college-staff-lists/college-of-sciences/all-staff/all-staff_home.cfm?stref=288122"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · Natural language returns",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

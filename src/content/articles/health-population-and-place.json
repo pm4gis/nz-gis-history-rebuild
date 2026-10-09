@@ -1,0 +1,50 @@
+{
+  "id": "article:chapter-27",
+  "slug": "health-population-and-place",
+  "title": "Health population and place",
+  "url": "/stories/health-population-and-place/",
+  "summary": "A disease case can be put on a map as soon as it has a usable location, yet a case count alone is only a partial measure of disease. Ten cases in a suburb of 2,000 people mean something different from ten cases in a city of 100,00",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 27,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch27-note-01",
+      "text": "1. The 2001 Waikato notified-disease study discussed in the chapter documents digital disease information collected from general practitioners from 1993, geographic location and demographic fields, ArcView Avenue automation, sub-minute map production at the most detailed regional scale, historical geocoding quality, privacy displacement and differences between vector and raster representations. The reported results are kept specific to that study."
+    },
+    {
+      "id": "ch27-note-02",
+      "text": "2. The same peer-reviewed source supports the distinction between older automatic geocoding and later GeoStan-assisted entry, including 11,564 historical Waikato records, 4,015 below 60 per cent certainty excluded from later analysis, and the later assisted matching result reported by the authors."
+    },
+    {
+      "id": "ch27-note-03",
+      "text": "3. Contemporary CDC professional material and the Waikato paper support EpiSurv having been distributed to all Public Health Units by January 2001, including address geocoding, alongside state-financed desktop GIS software and digitised topographic maps. The source does not establish identical use or capability in every PHU."
+    },
+    {
+      "id": "ch27-note-04",
+      "text": "4. Ministry of Health launch history supports PHEW! beginning in 1999 as a GIS/Internet communicable-disease service and the broader Public Health Observatory launching on 29 May 2002, with PHEW! described as its forerunner. The Ministry’s description of PHEW! as a world first is retained only as an attributed contemporary government claim."
+    },
+    {
+      "id": "ch27-note-05",
+      "text": "5. Skelly and collaborators’ 2002 rural geocoding work supports the campylobacteriosis uncertainty example. Brabyn and Skelly’s 2002 public-hospital accessibility paper supports the national cost-path analysis from about 38,000 Census meshblock centroids to 63 public hospitals and explicitly records the author contributions. These papers also anchor Chris Skelly’s documented Public Health Intelligence/health-geoinformatics role."
+    },
+    {
+      "id": "ch27-note-06",
+      "text": "6. Government releases of 9 and 29 May 2002 support the Supermap subscription figures, free Census-access transition, Public Health Observatory collaborators and the relationship between population/boundary access and public-health information services. The general open-data history remains in Chapter 33."
+    },
+    {
+      "id": "ch27-note-07",
+      "text": "7. The official account of Duane Wilkins’s COVID-19 secondment supports his work on the Manaaki support website and map-based tools. It does not establish sole ownership of the broader Caring for Communities programme."
+    },
+    {
+      "id": "ch27-note-08",
+      "text": "8. The connected May 2020 Manaaki technical record supports Survey123 Connect data entry, ArcGIS Online feature layers, user-specific visibility, daily extract/backup, web maps, applications and dashboards."
+    },
+    {
+      "id": "ch27-note-09",
+      "text": "9. The connected 2021 Hauora-Manaaki governance material supports its pro-equity vaccination-monitoring purpose and the controls around Māori Data Sovereignty, iwi-level data, confidentiality, aggregation/anonymisation, exclusion of personal identifiable information, two-factor authentication and ArcGIS Online hosting. Original internal material requires privacy and publication-rights review before reproduction."
+    }
+  ]
+}

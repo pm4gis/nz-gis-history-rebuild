@@ -1,0 +1,36 @@
+{
+  "id": "entity:tonkin-taylor",
+  "slug": "tonkin-taylor",
+  "name": "Tonkin + Taylor",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/tonkin-taylor/",
+  "website": "https://www.tonkintaylor.co.nz/",
+  "story": [
+    "Tonkin + Taylor uses GIS and geospatial tools across environmental, hazard and infrastructure work. Its environmental services describe GIS vegetation mapping using UAVs and multispectral analysis, while other projects combine spatial data capture, modelling and web mapping with engineering and scientific work.",
+    "During the Cyclone Gabrielle response the firm reported providing data collection and GIS mapping for Hawke’s Bay councils. Its Pacific hazard work has also included an integrated GIS web viewer for coastal inundation forecasting, showing how consultancy GIS can become part of operational hazard and emergency-response systems."
+  ],
+  "sources": [
+    {
+      "label": "Tonkin + Taylor, Marine, Freshwater and Terrestrial Ecology",
+      "url": "https://www.tonkintaylor.co.nz/expertise/environmental/marine-freshwater-and-terrestrial-ecology/"
+    },
+    {
+      "label": "Tonkin + Taylor Group Sustainability Report 2024",
+      "url": "https://www.tonkintaylor.co.nz/wp-content/uploads/2024/05/TTGroup_sustainability_report_2024-1.pdf"
+    },
+    {
+      "label": "Tonkin + Taylor, Fiji Multi-Hazard Early Warning System",
+      "url": "https://www.tonkintaylor.co.nz/insights/thought-leadership/early-warning-and-early-action-a-look-at-fijis-multi-hazard-early-warning-system/"
+    }
+  ],
+  "aliases": [
+    "Tonkin + Taylor",
+    "T+T"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-16-0e5532e401",
+  "slug": "population-meshblocks-0e5532e401",
+  "articleId": "article:chapter-16",
+  "title": "Population meshblocks",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 1944–45 census preparation used an earlier paper-based form of population geography. Lands and Survey began the mapping work in August 1944. Head Office prepared enumerator maps, the Government Statistician defined the sub-enumerator districts, and Chief Surveyors in the districts prepared the detailed maps. The 1945 departmental report described each sub-enumerator district as being divided into “population mesh blocks”, with local-authority boundaries, electoral districts and other administrative lines carried through the mapping.",
+      "markdown": "The 1944–45 census preparation used an earlier paper-based form of population geography. Lands and Survey began the mapping work in August 1944. Head Office prepared enumerator maps, the Government Statistician defined the sub-enumerator districts, and Chief Surveyors in the districts prepared the detailed maps. The 1945 departmental report described each sub-enumerator district as being divided into “population mesh blocks”, with local-authority boundaries, electoral districts and other administrative lines carried through the mapping.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1946 Lands and Survey report recorded 1,352 completed sub-enumerator maps, each divided into population mesh blocks, checked at Head Office and passed to the Government Statistician for the census held on 25 September 1945. After enumeration, population mapping again fed the Representation Commission. The same broad cycle visible earlier in the century remained in place: define workable areas on maps, enumerate the population within them, then reuse the results for representation and administration.",
+      "markdown": "The 1946 Lands and Survey report recorded 1,352 completed sub-enumerator maps, each divided into population mesh blocks, checked at Head Office and passed to the Government Statistician for the census held on 25 September 1945. After enumeration, population mapping again fed the Representation Commission. The same broad cycle visible earlier in the century remained in place: define workable areas on maps, enumerate the population within them, then reuse the results for representation and administration.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lands and Survey’s 1945–46 reports used the term “population mesh block”. Census staff subdivided larger enumeration districts into smaller mapped population units.",
+      "markdown": "Lands and Survey’s 1945–46 reports used the term “population mesh block”. Census staff subdivided larger enumeration districts into smaller mapped population units.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

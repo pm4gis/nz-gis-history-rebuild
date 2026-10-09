@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-31-6b7760f041",
+  "slug": "interactive-google-maps-6b7760f041",
+  "articleId": "article:chapter-31",
+  "title": "Interactive Google maps",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The interface change was just as important as the data service. First-generation web GIS often behaved like a sequence of requests. The user clicked a zoom tool, the request went back to a server, and a new map image arrived. Moving sideways could mean clicking an arrow or drawing another box. Some applications opened new windows for attributes or printing. Dunedin’s early WebMap help pages documented browser-cache problems and other behaviours that now feel distinctly of their period.",
+      "markdown": "The interface change was just as important as the data service. First-generation web GIS often behaved like a sequence of requests. The user clicked a zoom tool, the request went back to a server, and a new map image arrived. Moving sideways could mean clicking an arrow or drawing another box. Some applications opened new windows for attributes or printing. Dunedin’s early WebMap help pages documented browser-cache problems and other behaviours that now feel distinctly of their period.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Google Maps popularised a different interaction model. The map could be dragged continuously. Panning felt like moving a sheet beneath the cursor rather than ordering a new picture from a remote server. Zooming became immediate enough to feel conversational. Search was integrated with the map instead of being a separate GIS query form. These details changed what users thought an online map was supposed to feel like.",
+      "markdown": "Google Maps popularised a different interaction model. The map could be dragged continuously. Panning felt like moving a sheet beneath the cursor rather than ordering a new picture from a remote server. Zooming became immediate enough to feel conversational. Search was integrated with the map instead of being a separate GIS query form. These details changed what users thought an online map was supposed to feel like.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The earlier systems were designed around server-side processing, slower connections, constrained browsers, security requirements and controlled business functions. A council viewer did not need to let a user wander freely across the planet. It needed to find the right property and expose the right council information.",
+      "markdown": "The earlier systems were designed around server-side processing, slower connections, constrained browsers, security requirements and controlled business functions. A council viewer did not need to let a user wander freely across the planet. It needed to find the right property and expose the right council information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A public viewer built in 2003 could still be doing its job perfectly well in 2007, but its users now had another reference point. They knew maps could glide, search could be quick and imagery could sit one click away. Consumer software had started setting requirements for institutional GIS.",
+      "markdown": "A public viewer built in 2003 could still be doing its job perfectly well in 2007, but its users now had another reference point. They knew maps could glide, search could be quick and imagery could sit one click away. Consumer software had started setting requirements for institutional GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

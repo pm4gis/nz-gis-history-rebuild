@@ -1,0 +1,25 @@
+{
+  "id": "entity:chatham-islands-council",
+  "slug": "chatham-islands-council",
+  "name": "Chatham Islands Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/chatham-islands-council/",
+  "website": "https://www.cic.govt.nz",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Chatham Islands Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

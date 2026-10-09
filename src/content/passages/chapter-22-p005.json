@@ -1,0 +1,53 @@
+{
+  "id": "passage:chapter-22-5fd83bd561",
+  "slug": "census-data-on-an-analyst-s-desk-5fd83bd561",
+  "articleId": "article:chapter-22",
+  "title": "Census data on an analyst’s desk",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:22",
+    "entity:critchlow",
+    "entity:terralink"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A Treasury working paper published in 2000 provides a compact desktop-GIS example. Critchlow Associates supplied Census96 data and ArcView software, allowing Treasury researchers to analyse regional economic characteristics without building the statistical geography or a departmental production GIS themselves. The full government-use case belongs in Chapter 24. Policy analysts could receive prepared national data and a desktop tool, then work directly with geographic boundaries and socioeconomic information.",
+      "markdown": "A Treasury working paper published in 2000 provides a compact desktop-GIS example. Critchlow Associates supplied Census96 data and ArcView software, allowing Treasury researchers to analyse regional economic characteristics without building the statistical geography or a departmental production GIS themselves. The full government-use case belongs in Chapter 24. Policy analysts could receive prepared national data and a desktop tool, then work directly with geographic boundaries and socioeconomic information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Suppliers increasingly offered software and the data needed to use it as one package.",
+      "markdown": "Suppliers increasingly offered software and the data needed to use it as one package.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The spread of desktop GIS coincided with a growing market for spatial data on physical media. CD-ROM was particularly useful because it could carry far more information than floppy disks and did not depend on the slow internet connections available to many offices during the 1990s and early 2000s. A supplier could ship software, boundaries, property records or imagery together. The user inserted a disc rather than establishing a connection to the database where the source information was maintained.",
+      "markdown": "The spread of desktop GIS coincided with a growing market for spatial data on physical media. CD-ROM was particularly useful because it could carry far more information than floppy disks and did not depend on the slow internet connections available to many offices during the 1990s and early 2000s. A supplier could ship software, boundaries, property records or imagery together. The user inserted a disc rather than establishing a connection to the database where the source information was maintained.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That method encouraged products built around particular groups of users. Property professionals needed parcels, titles, ownership and addresses more than they needed a generic GIS environment. Foresters needed stands, roads, terrain and land information. Census analysts needed statistical boundaries and demographic tables. Desktop GIS became more useful when the software arrived with the data required for the job.",
+      "markdown": "That method encouraged products built around particular groups of users. Property professionals needed parcels, titles, ownership and addresses more than they needed a generic GIS environment. Foresters needed stands, roads, terrain and land information. Census analysts needed statistical boundaries and demographic tables. Desktop GIS became more useful when the software arrived with the data required for the job.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Terralink’s TerraView was one example of this packaging. A 2001 National Library record describes a Windows CD-ROM product containing cadastral information sourced from LINZ’s Digital Cadastral Database along with survey-plan references, property and title information and other land records. It required a 100 MHz processor, 32 MB of RAM, Windows 95, 98 or NT and an eight-speed CD-ROM drive. By then a national land-information product could be designed for machines that would have been entirely ordinary in many offices.",
+      "markdown": "Terralink’s TerraView was one example of this packaging. A 2001 National Library record describes a Windows CD-ROM product containing cadastral information sourced from LINZ’s Digital Cadastral Database along with survey-plan references, property and title information and other land records. It required a 100 MHz processor, 32 MB of RAM, Windows 95, 98 or NT and an eight-speed CD-ROM drive. By then a national land-information product could be designed for machines that would have been entirely ordinary in many offices.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The convenience had a built-in date. TerraView’s record notes that the supplied data represented a particular point in time. A CD could be authoritative when it was produced and stale months later. Desktop distribution therefore traded direct connection to the source for convenience, portability and local performance.",
+      "markdown": "The convenience had a built-in date. TerraView’s record notes that the supplied data represented a particular point in time. A CD could be authoritative when it was produced and stale months later. Desktop distribution therefore traded direct connection to the source for convenience, portability and local performance.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

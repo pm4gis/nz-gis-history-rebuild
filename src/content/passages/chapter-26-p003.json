@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-26-e03e0ab2de",
+  "slug": "a-department-spread-across-the-country-e03e0ab2de",
+  "articleId": "article:chapter-26",
+  "title": "A department spread across the country",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "DOC’s organisational geography made centralisation difficult. Staff worked in field centres, area offices, conservancies, regional offices and Head Office, often far from the systems or specialists maintaining national datasets. Some users needed full desktop GIS. Others needed to find a reserve, print a map, inspect an asset or combine a few approved layers. A national system had to serve people who did not all have the same software, training or connection speed.",
+      "markdown": "DOC’s organisational geography made centralisation difficult. Staff worked in field centres, area offices, conservancies, regional offices and Head Office, often far from the systems or specialists maintaining national datasets. Some users needed full desktop GIS. Others needed to find a reserve, print a map, inspect an asset or combine a few approved layers. A national system had to serve people who did not all have the same software, training or connection speed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The information itself was distributed as well. Biological records might originate from scientific surveys. Asset information came from facilities and field operations. Protected areas and administrative boundaries changed through legal processes. Tracks and huts were maintained through operational programmes. External layers such as roads, cadastral information, topography and land cover came from other agencies or national datasets. The department needed ways to join these sources without treating every layer as if DOC owned and maintained it.",
+      "markdown": "The information itself was distributed as well. Biological records might originate from scientific surveys. Asset information came from facilities and field operations. Protected areas and administrative boundaries changed through legal processes. Tracks and huts were maintained through operational programmes. External layers such as roads, cadastral information, topography and land cover came from other agencies or national datasets. The department needed ways to join these sources without treating every layer as if DOC owned and maintained it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the late 1990s and early 2000s the problem was no longer whether conservation work could use GIS. Local capability already existed. The harder problem was how to provide consistent access across a large organisation while keeping national data current and allowing regional staff to contribute information. That led first to the Biodiversity Information Platform and then to a wider National Enterprise GIS.",
+      "markdown": "By the late 1990s and early 2000s the problem was no longer whether conservation work could use GIS. Local capability already existed. The harder problem was how to provide consistent access across a large organisation while keeping national data current and allowing regional staff to contribute information. That led first to the Biodiversity Information Platform and then to a wider National Enterprise GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

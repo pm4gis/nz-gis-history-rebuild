@@ -1,0 +1,26 @@
+{
+  "id": "entity:morphum-environmental",
+  "slug": "morphum-environmental",
+  "name": "Morphum Environmental",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/morphum-environmental/",
+  "website": null,
+  "story": [
+    "Morphum’s geospatial practice combines environmental consulting with GIS, field data capture and data integration. Daniel Nutsford’s profile documents work across transport, infrastructure, conservation, road safety and FME-based automation."
+  ],
+  "sources": [
+    {
+      "label": "Morphum Environmental, Daniel Nutsford profile",
+      "url": "https://www.morphum.com/team/daniel-nutsford"
+    }
+  ],
+  "aliases": [
+    "Morphum Environmental"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

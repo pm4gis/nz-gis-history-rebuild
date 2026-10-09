@@ -1,0 +1,16 @@
+{
+  "id": "chapter:43",
+  "articleId": "article:chapter-43",
+  "slug": "automating-the-gis-work",
+  "name": "GIS automation",
+  "kind": "Story",
+  "category": "Shared systems",
+  "url": "/stories/automating-the-gis-work/",
+  "description": "GIS has always involved repetition. A dataset arrives, its coordinate system is checked, unwanted records are removed, fields are joined, geometry is processed, a map is produced, and the result is exported. Early practitioners could perform every one of those steps manually, and often did. The problem appeared when the same sequence had to be repeated for another district, another month, another disease, another map",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "technology-stack"
+  ]
+}

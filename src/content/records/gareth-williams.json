@@ -1,0 +1,21 @@
+{
+  "id": "person:gareth-williams",
+  "slug": "gareth-williams",
+  "name": "Gareth Williams",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/gareth-williams/",
+  "story": [
+    "Gareth Williams managed Vector’s mobile-GIS deployment combining Smallworld, ArcPad, rugged laptops, iPAQs and GPS."
+  ],
+  "sources": [],
+  "aliases": [
+    "Gareth Williams"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    []
+  ]
+}

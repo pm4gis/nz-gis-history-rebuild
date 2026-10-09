@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-14-07493706d7",
+  "slug": "stage-one-07493706d7",
+  "articleId": "article:chapter-14",
+  "title": "Stage one",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:14"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Stage One concentrated on making the existing record usable electronically. Titles were converted into computer registers. Survey plans were imaged and indexed so they could be found from the spatial and textual records around them. Cadastral information was progressively moved from DCDB into the new structure, while geodetic information and survey references were brought into the same operating environment. Internally, LINZ staff could process work against electronic records instead of relying on the old combination of paper registers, mainframe indexes and district collections.",
+      "markdown": "Stage One concentrated on making the existing record usable electronically. Titles were converted into computer registers. Survey plans were imaged and indexed so they could be found from the spatial and textual records around them. Cadastral information was progressively moved from DCDB into the new structure, while geodetic information and survey references were brought into the same operating environment. Internally, LINZ staff could process work against electronic records instead of relying on the old combination of paper registers, mainframe indexes and district collections.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Remote search was one of the earliest changes visible to customers. Otago and Southland were the first areas brought into the new service from April 2000, and Dunedin became the first customer region for the Stage One release later that year. The change went beyond viewing an image on a computer. A customer no longer had to depend on the physical location of a title or survey record in the same way. Search could become national, and the same electronic record could support both LINZ processing and professional access.",
+      "markdown": "Remote search was one of the earliest changes visible to customers. Otago and Southland were the first areas brought into the new service from April 2000, and Dunedin became the first customer region for the Stage One release later that year. The change went beyond viewing an image on a computer. A customer no longer had to depend on the physical location of a title or survey record in the same way. Search could become national, and the same electronic record could support both LINZ processing and professional access.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The rollout remained staged because the source material was staged. Land Districts had different collections, conversion status and workloads, and the underlying cadastral information had to be cut over in a controlled sequence. By early 2002 the remote service had spread northward, with Auckland among the last major regions. More than 500 remote access licences had been issued by March 2002, with many licences covering several staff. The customer base was still specialist, but Landonline had already changed the geography of access before electronic lodgement itself became routine.",
+      "markdown": "The rollout remained staged because the source material was staged. Land Districts had different collections, conversion status and workloads, and the underlying cadastral information had to be cut over in a controlled sequence. By early 2002 the remote service had spread northward, with Auckland among the last major regions. More than 500 remote access licences had been issued by March 2002, with many licences covering several staff. The customer base was still specialist, but Landonline had already changed the geography of access before electronic lodgement itself became routine.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "On 31 May 2002, the Minister for Land Information signed what the government described as the last paper certificate of land title issued under the old system. The event coincided with completion of Stage One and the opening of the new LINZ Centre in Auckland. The symbolism was unusually apt. Paper had not vanished from land administration, but the authoritative register was now electronic and national. A title record no longer depended on issuing a fresh paper certificate as the principal operational expression of the register.",
+      "markdown": "On 31 May 2002, the Minister for Land Information signed what the government described as the last paper certificate of land title issued under the old system. The event coincided with completion of Stage One and the opening of the new LINZ Centre in Auckland. The symbolism was unusually apt. Paper had not vanished from land administration, but the authoritative register was now electronic and national. A title record no longer depended on issuing a fresh paper certificate as the principal operational expression of the register.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Stage One also changed LINZ's own working geography. Under the older arrangements, district offices and specialist registries held records whose location was part of the way the service operated. Converting those records into a common electronic environment allowed work to be handled with less dependence on the office where a particular register or plan happened to sit. That promised more consistent national processing, but it also meant that long-established local routines and knowledge had to be translated into common procedures. The database centralised information and altered how that information was lodged, checked and maintained. It standardised enough of the work around that information for processing to become less tied to place.",
+      "markdown": "Stage One also changed LINZ's own working geography. Under the older arrangements, district offices and specialist registries held records whose location was part of the way the service operated. Converting those records into a common electronic environment allowed work to be handled with less dependence on the office where a particular register or plan happened to sit. That promised more consistent national processing, but it also meant that long-established local routines and knowledge had to be translated into common procedures. The database centralised information and altered how that information was lodged, checked and maintained. It standardised enough of the work around that information for processing to become less tied to place.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Title processing and survey processing required different approaches to automation. A title register recorded registered ownership and interests under land-transfer law. A cadastral survey record contained measurements and evidence used to define parcel boundaries. Both could be searched through Landonline, but the system could not safely treat them as two versions of the same record. One of the programme's harder design problems was therefore integration without collapse: users needed links between title, parcel, survey and geodetic information while the system preserved the different authority and purpose of each.",
+      "markdown": "Title processing and survey processing required different approaches to automation. A title register recorded registered ownership and interests under land-transfer law. A cadastral survey record contained measurements and evidence used to define parcel boundaries. Both could be searched through Landonline, but the system could not safely treat them as two versions of the same record. One of the programme's harder design problems was therefore integration without collapse: users needed links between title, parcel, survey and geodetic information while the system preserved the different authority and purpose of each.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

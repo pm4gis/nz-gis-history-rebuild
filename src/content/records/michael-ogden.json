@@ -1,0 +1,31 @@
+{
+  "id": "person:michael-ogden",
+  "slug": "michael-ogden",
+  "name": "Michael Ogden",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/michael-ogden/",
+  "story": [
+    "Michael Ogden at Nelson City Council organised the Top of the South Island meeting for 15 May 2009, with a programme spanning emergency management, mobile GIS, conservation, mining, ArcGIS Server and CAD integration."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Michael Ogden"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

@@ -22,6 +22,11 @@ const maxYear = eventYearValues.length ? Math.max(...eventYearValues) : 0;
 const recordById = new Map(records.map((record) => [record.id, record]));
 const articleById = new Map(articles.map((article) => [article.id, article]));
 const passageById = new Map(passages.map((passage) => [passage.id, passage]));
+const graphRecordId = (id) => {
+  const record = recordById.get(id);
+  return record?.kind === "Story" ? record.articleId : id;
+};
+const relationContext = (basis) => /research|reconciled|cleanup|expansion|curated|chapter association|name matched|role and period require verification|existing structured/i.test(basis || "") ? "" : String(basis || "").replace(/GISList evidence connects/i, "GISList accounts connect");
 const eventUrl = (event) => {
   if (event.url) return event.url;
   const passage = (event.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
@@ -29,35 +34,39 @@ const eventUrl = (event) => {
   return passage && article ? `${article.url}#${passage.slug}` : "";
 };
 const nodes = [
-  ...records.map((record) => ({ id: record.id, label: record.name, kind: record.kind, url: record.url, summary: record.description || record.story?.[0] || "", sourceCount: record.sources?.length || 0, themeIds: record.themeIds || [] })),
+  ...records.filter((record) => record.kind !== "Story").map((record) => ({ id: record.id, label: record.name, kind: record.kind, url: record.url, summary: record.description || record.story?.[0] || "", sourceCount: record.sources?.length || 0, themeIds: record.themeIds || [] })),
   ...articles.map((article) => ({ id: article.id, label: article.title, kind: "Story", url: article.url, summary: article.summary, sourceCount: 0, themeIds: article.themeIds || [] })),
   ...events.map((event) => ({ id: event.id, label: event.label, kind: "Event", url: eventUrl(event), summary: event.summary, sourceCount: event.sources?.length || 0, year: timelineYear(event), dateDisplay: event.dateDisplay, datePrecision: event.datePrecision, themeIds: event.themeIds || [] })),
   ...themes.map((theme) => ({ id: theme.id, label: theme.title, kind: "Theme", url: "/", summary: theme.description || "Reader theme", sourceCount: 0, themeIds: [theme.id] })),
 ];
 const eventYearsForPassages = (passageIds) => events.filter((event) => (event.passageIds || []).some((id) => passageIds.includes(id))).map(timelineYear).filter(Number.isFinite);
-const passageSources = (passage) => (passage.paragraphs || []).flatMap((paragraph) => paragraph.sources || []);
+const passageSources = (passage) => (passage.blocks?.length ? passage.blocks : passage.paragraphs || []).flatMap((block) => block.sources || []);
+const storyRecordsFor = (passage: { recordIds?: string[] }) => [...new Set<string>((passage.recordIds || []).filter((id: string) => recordById.has(id) && recordById.get(id).kind !== "Story"))];
 const edges = [
   ...relationshipEntries.map((entry) => {
     const relation = entry.data;
     const contextPassage = (relation.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
-    return { id: relation.id, a: relation.a, b: relation.b, label: relation.label, basis: relation.basis, sources: relation.sources || [], years: eventYearsForPassages(relation.passageIds || []), themeIds: contextPassage?.themeIds || [], passageUrl: contextPassage ? `${articleById.get(contextPassage.articleId)?.url || "/"}#${contextPassage.slug}` : "" };
+    return { id: relation.id, a: graphRecordId(relation.a), b: graphRecordId(relation.b), label: relation.label, basis: relationContext(relation.basis), sources: relation.sources || [], years: eventYearsForPassages(relation.passageIds || []), themeIds: contextPassage?.themeIds || [], passageUrl: contextPassage ? `${articleById.get(contextPassage.articleId)?.url || "/"}#${contextPassage.slug}` : "" };
   }),
   ...passages.flatMap((passage) => {
     const article = articleById.get(passage.articleId);
-    return (passage.recordIds || []).filter((recordId) => recordById.has(recordId)).map((recordId) => ({
+    return storyRecordsFor(passage).map((recordId) => ({
       id: `story-link:${passage.id}:${recordId}`, a: passage.articleId, b: recordId,
       label: "in story", basis: `Linked in “${passage.title}”.`, sources: passageSources(passage), years: eventYearsForPassages([passage.id]),
       themeIds: passage.themeIds || [], passageUrl: `${article?.url || "/"}#${passage.slug}`,
     }));
   }),
-  ...events.flatMap((event) => (event.passageIds || []).flatMap((passageId) => {
-    const passage = passageById.get(passageId);
-    return (passage?.recordIds || []).filter((recordId) => recordById.has(recordId)).map((recordId) => ({
+  ...events.flatMap((event) => {
+    const linkedPassages = (event.passageIds || []).map((passageId) => passageById.get(passageId)).filter(Boolean);
+    const linkedIds = new Set<string>();
+    for (const recordId of (event.recordIds || []) as string[]) linkedIds.add(recordId);
+    for (const passage of linkedPassages) for (const recordId of storyRecordsFor(passage)) linkedIds.add(recordId);
+    return [...linkedIds].filter((recordId) => recordById.has(recordId) && recordById.get(recordId).kind !== "Story").map((recordId) => ({
       id: `event-link:${event.id}:${recordId}`, a: event.id, b: recordId, label: "connected in time",
       basis: `${event.dateDisplay} · ${event.datePrecision} precision.`, sources: event.sources || [], years: [timelineYear(event)].filter(Number.isFinite),
-      themeIds: event.themeIds || [], passageUrl: `${articleById.get(passage.articleId)?.url || "/"}#${passage.slug}`,
+      themeIds: event.themeIds || [], passageUrl: linkedPassages[0] ? `${articleById.get(linkedPassages[0].articleId)?.url || "/"}#${linkedPassages[0].slug}` : "",
     }));
-  })),
+  }),
   ...nodes.flatMap((node) => (node.themeIds || []).filter((themeId) => themes.some((theme) => theme.id === themeId)).map((themeId) => ({
     id: `theme-link:${node.id}:${themeId}`, a: node.id, b: themeId, label: "theme", basis: "Tagged with this reader theme.", sources: [], years: [], themeIds: [themeId], passageUrl: "",
   }))),
@@ -104,7 +113,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       <ol class="relationship-list">{edges.map((edge) => {
         const a = nodes.find((node) => node.id === edge.a);
         const b = nodes.find((node) => node.id === edge.b);
-        return <li class="card relationship-card"><p>{a?.url ? <a href={a.url}>{a.label}</a> : a?.label} <strong>{edge.label}</strong> {b?.url ? <a href={b.url}>{b.label}</a> : b?.label}</p><p class="small">{edge.basis}</p>{edge.sources?.length > 0 && <ul>{edge.sources.map((source) => <li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label} ↗</a></li>)}</ul>}</li>;
+        return <li class="card relationship-card"><p>{a?.url ? <a href={a.url}>{a.label}</a> : a?.label} <strong>{edge.label}</strong> {b?.url ? <a href={b.url}>{b.label}</a> : b?.label}</p>{edge.basis && <p class="small">{edge.basis}</p>}{edge.sources?.length > 0 && <ul>{edge.sources.map((source) => <li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label} ↗</a></li>)}</ul>}</li>;
       })}</ol>
     </details>
   </section>
@@ -243,7 +252,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       selectedEdgeId = id; selectedNodeId = ""; hoveredNodeId = ""; hoveredEdgeId = ""; nodePicker.value = ""; clearPanel();
       const a = nodeById.get(edge.a); const b = nodeById.get(edge.b);
       text(detailPanel, "strong", `${a?.label || "Item"} ${edge.label} ${b?.label || "item"}`);
-      text(detailPanel, "p", edge.basis);
+      if (edge.basis) text(detailPanel, "p", edge.basis);
       if (a?.url && a.kind !== "Theme") addLink(detailPanel, `Open ${a.label} →`, a.url);
       if (b?.url && b.kind !== "Theme") addLink(detailPanel, `Open ${b.label} →`, b.url);
       if (edge.passageUrl) addLink(detailPanel, "Read the related passage →", edge.passageUrl);
@@ -260,9 +269,8 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       }
     };
     const nodePosition = (node, index, total) => {
-      if (node.kind === "Story") return { x: 0, y: 0 };
-      const ring = node.kind === "Theme" ? 1.03 : node.kind === "Event" ? .48 : .76;
-      const seed = (index * 2.399963 + (node.kind === "Event" ? .65 : node.kind === "Theme" ? 1.1 : 0));
+      const ring = node.kind === "Theme" ? 1.03 : node.kind === "Event" ? .48 : node.kind === "Story" ? .30 : .76;
+      const seed = (index * 2.399963 + (node.kind === "Event" ? .65 : node.kind === "Theme" ? 1.1 : node.kind === "Story" ? .2 : 0));
       return { x: Math.cos(seed) * ring, y: Math.sin(seed) * ring };
     };
     const svgNode = (name, attrs = {}) => { const el = document.createElementNS(svgNS, name); Object.entries(attrs).forEach(([key, value]) => el.setAttribute(key, String(value))); return el; };

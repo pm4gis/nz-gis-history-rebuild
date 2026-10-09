@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1166",
+  "a": "system:enterprise-gis",
+  "b": "system:auckland-gfmo",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

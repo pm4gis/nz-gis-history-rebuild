@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-11-31e0ae06aa",
+  "slug": "teaching-with-scarce-access-31e0ae06aa",
+  "articleId": "article:chapter-11",
+  "title": "Teaching with scarce access",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Early GIS education was constrained by access in ways that are easy to lose from later accounts. A course depended on institutional software, laboratory access and prepared datasets rather than each student installing the same package on a personal computer. Commercial GIS and image-processing systems were institutional purchases, while useful digital data often came from government or research custodians under technical and sometimes commercial conditions. Laboratory time therefore had to be shared, exercises had to match the data and software actually available, and staff had to prepare material before students could begin the spatial part of the work.",
+      "markdown": "Early GIS education was constrained by access in ways that are easy to lose from later accounts. A course depended on institutional software, laboratory access and prepared datasets rather than each student installing the same package on a personal computer. Commercial GIS and image-processing systems were institutional purchases, while useful digital data often came from government or research custodians under technical and sometimes commercial conditions. Laboratory time therefore had to be shared, exercises had to match the data and software actually available, and staff had to prepare material before students could begin the spatial part of the work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Courses combined geographic concepts with practical software use. Students had to learn enough about coordinates, spatial data structures, raster and vector information, database relationships and map output to understand why an operation worked, while also learning the commands needed to make a specialist system perform it. A failed exercise might reflect a conceptual mistake, a data-format problem, a projection mismatch, a software limitation or simple lack of access to the required file. Teaching GIS meant teaching students how to separate those possibilities.",
+      "markdown": "Courses combined geographic concepts with practical software use. Students had to learn enough about coordinates, spatial data structures, raster and vector information, database relationships and map output to understand why an operation worked, while also learning the commands needed to make a specialist system perform it. A failed exercise might reflect a conceptual mistake, a data-format problem, a projection mismatch, a software limitation or simple lack of access to the required file. Teaching GIS meant teaching students how to separate those possibilities.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Students learned data preparation through their practical exercises. National datasets were not yet waiting in open portals, and many New Zealand spatial records were still being digitised inside government agencies. A lecturer designing a practical exercise therefore needed data that were small enough to handle, documented well enough to teach from and legally or institutionally available for student use. Remote-sensing exercises added image files, classification and display requirements to the same problem. The close pairing of GIS and image processing in Auckland's 1986 Calendar and Canterbury's later ARC/INFO and ERDAS environment reflects a teaching world in which the boundaries between spatial database work and digital imagery were still being built in practice.",
+      "markdown": "Students learned data preparation through their practical exercises. National datasets were not yet waiting in open portals, and many New Zealand spatial records were still being digitised inside government agencies. A lecturer designing a practical exercise therefore needed data that were small enough to handle, documented well enough to teach from and legally or institutionally available for student use. Remote-sensing exercises added image files, classification and display requirements to the same problem. The close pairing of GIS and image processing in Auckland's 1986 Calendar and Canterbury's later ARC/INFO and ERDAS environment reflects a teaching world in which the boundaries between spatial database work and digital imagery were still being built in practice.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Course material also had to compensate for a field that was changing faster than a settled local textbook tradition could capture. Staff used software manuals, international literature, their own research and local datasets; Hawke also developed a dedicated teaching tool at Auckland. The first SIRC proceedings soon provided another source of material grounded in problems being discussed in New Zealand. A student could encounter terrain modelling, organisational implementation, data exchange or natural-language spatial queries through work produced by researchers they might hear at a local colloquium. Teaching and research were therefore feeding each other from the beginning.",
+      "markdown": "Course material also had to compensate for a field that was changing faster than a settled local textbook tradition could capture. Staff used software manuals, international literature, their own research and local datasets; Hawke also developed a dedicated teaching tool at Auckland. The first SIRC proceedings soon provided another source of material grounded in problems being discussed in New Zealand. A student could encounter terrain modelling, organisational implementation, data exchange or natural-language spatial queries through work produced by researchers they might hear at a local colloquium. Teaching and research were therefore feeding each other from the beginning.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "person:rachael-pull",
+  "slug": "rachael-pull",
+  "name": "Rachael Pull",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rachael-pull/",
+  "story": [
+    "Rachael Pull worked at Far North District Council as a Specialist Planner on reserves and urban-design work. Eagle’s 2020 virtual user conference records Pull and Logan Ashmore presenting a GIS-based framework for the council’s open-space programme, with GIS used as the source for later strategies and decision tools."
+  ],
+  "sources": [
+    {
+      "label": "Eagle Technology, 2020 Virtual User Conference Series",
+      "url": "https://www.eagle.co.nz/2020-virtual-user-conference-series"
+    },
+    {
+      "label": "Far North District Council, Bay of Islands-Whangaroa Community Board agenda, 2019",
+      "url": "https://infocouncil.fndc.govt.nz/Open/2019/09/BIWCB_20190923_AGN_2166_AT.htm"
+    }
+  ],
+  "aliases": [
+    "Rachael Pull"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Eagle Technology, 2020 Virtual User Conference Series",
+        "url": "https://www.eagle.co.nz/2020-virtual-user-conference-series"
+      },
+      {
+        "label": "Far North District Council, Bay of Islands-Whangaroa Community Board agenda, 2019",
+        "url": "https://infocouncil.fndc.govt.nz/Open/2019/09/BIWCB_20190923_AGN_2166_AT.htm"
+      }
+    ]
+  ]
+}

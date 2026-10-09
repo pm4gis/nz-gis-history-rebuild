@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0008",
+  "a": "entity:adapt-solutions",
+  "b": "chapter:40",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-40-fa8b4c43f6"
+  ],
+  "sources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "person:jack-tang",
+  "slug": "jack-tang",
+  "name": "Jack Tang",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jack-tang/",
+  "story": [
+    "During the September 2008 user-conference debate, Jack Tang at Dunedin City Council wrote: “I believe GIS professionals need wider views.”"
+  ],
+  "sources": [
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Jack Tang"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

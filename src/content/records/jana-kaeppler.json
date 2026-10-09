@@ -1,0 +1,31 @@
+{
+  "id": "person:jana-kaeppler",
+  "slug": "jana-kaeppler",
+  "name": "Jana Kaeppler",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jana-kaeppler/",
+  "story": [
+    "LINZ’s geospatial industry career material profiles Jana Kaeppler: Mackenzie District Council GIS Officer from 2012; web maps, cemetery viewer, 3D and core GIS database."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Working in New Zealand’s geospatial industry",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry"
+    }
+  ],
+  "aliases": [
+    "Jana Kaeppler"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Working in New Zealand’s geospatial industry",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry"
+      }
+    ]
+  ]
+}

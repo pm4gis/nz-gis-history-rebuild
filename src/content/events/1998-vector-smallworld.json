@@ -1,0 +1,31 @@
+{
+  "id": "1998-vector-smallworld",
+  "dateDisplay": "1998 to 1999",
+  "startDate": "1998",
+  "endDate": "1999",
+  "datePrecision": "year-range",
+  "year": 1998,
+  "label": "Vector converts established GIS to Smallworld",
+  "summary": "The utility migrated existing GIS data and functionality to Smallworld, a documented network-GIS transition.",
+  "url": "/stories/mapping-the-networks/#smallworld-at-vector-b61cdf1186",
+  "passageIds": [
+    "passage:chapter-25-b61cdf1186"
+  ],
+  "recordIds": [
+    "entity:smallworld-ge-smallworld",
+    "entity:vector",
+    "chapter:25",
+    "person:mike-bundock"
+  ],
+  "themeIds": [],
+  "categories": [
+    "utilities",
+    "enterprise"
+  ],
+  "sources": [
+    {
+      "label": "Augview, Mike Bundock management biography: Smallworld UK and Australasian operation, 1990–2000",
+      "url": "https://www.augview.net/company/"
+    }
+  ]
+}

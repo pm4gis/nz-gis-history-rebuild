@@ -1,0 +1,31 @@
+{
+  "id": "entity:harrison-grierson",
+  "slug": "harrison-grierson",
+  "name": "Harrison Grierson",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/harrison-grierson/",
+  "website": "https://www.harrisongrierson.com/",
+  "story": [
+    "Harrison Grierson’s surveying and spatial practice includes UAV capture, LiDAR, photogrammetry, high-definition laser scanning, aerial imagery, terrain models and 3D point clouds. Its published service description explicitly provides outputs for CAD, GIS and BIM workflows.",
+    "The firm’s 2021–2025 work with Selwyn District Council on the Future Selwyn Spatial Plan included advice on a GIS portal, spatial metrics and data-led monitoring. This places a long-established surveying and engineering consultancy within the modern GIS, reality-capture and spatial-planning market."
+  ],
+  "sources": [
+    {
+      "label": "Harrison Grierson, Surveying and spatial services",
+      "url": "https://www.harrisongrierson.com/services/surveying"
+    },
+    {
+      "label": "Harrison Grierson, Future Selwyn Spatial Plan",
+      "url": "https://www.harrisongrierson.com/projects/future-selwyn-spatial-plan"
+    }
+  ],
+  "aliases": [
+    "Harrison Grierson"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

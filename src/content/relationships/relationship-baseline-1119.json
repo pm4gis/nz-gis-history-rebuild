@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1119",
+  "a": "person:amy-tay",
+  "b": "entity:women-in-spatial-survey",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

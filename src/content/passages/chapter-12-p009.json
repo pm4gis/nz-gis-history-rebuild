@@ -1,0 +1,148 @@
+{
+  "id": "passage:chapter-12-db33362cb9",
+  "slug": "users-organise-themselves-db33362cb9",
+  "articleId": "article:chapter-12",
+  "title": "Users organise themselves",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "profession"
+  ],
+  "recordIds": [
+    "chapter:12",
+    "entity:dunedin-city-council",
+    "entity:eagle-technology",
+    "entity:georesearch-associates",
+    "entity:hastings-district-council",
+    "entity:hawke-s-bay-regional-council",
+    "entity:integrated-mapping",
+    "entity:nelson-city-council",
+    "entity:new-plymouth-district-council",
+    "entity:new-zealand-esri-users-group",
+    "entity:photomap-nz",
+    "entity:university-of-canterbury",
+    "entity:new-zealand-gis-geeks",
+    "entity:napier-city-council",
+    "entity:hamilton-city-council",
+    "person:nathan-heazlewood",
+    "person:george-benwell",
+    "person:rachel-summers",
+    "person:kurt-janssen",
+    "person:martin-erasmuson",
+    "person:darrel-hall",
+    "person:serge-peeters",
+    "person:richard-earl",
+    "person:tony-standen",
+    "person:junior-lee-chee",
+    "person:peter-fraser",
+    "person:steve-richards",
+    "person:simon-nitz",
+    "person:christian-utech",
+    "person:john-mccombs",
+    "person:john-thyne",
+    "person:ken-williams",
+    "person:mark-holmes",
+    "person:robin-falconer",
+    "person:shelley-glassey",
+    "person:subodh-gidh",
+    "person:bill-thoen",
+    "person:linda-lilburne",
+    "person:roz-buick",
+    "person:jack-tang",
+    "person:mark-peacey",
+    "person:jack-dangermond"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A commercial field becomes a professional community when users start teaching one another. The New Zealand Esri Users Group was formed in 1992, according to its own history. The user group operated separately from Eagle Technology and Esri, with both organisations supporting its events. It created a user-led setting where implementation knowledge could circulate among people facing similar problems.",
+      "markdown": "A commercial field becomes a professional community when users start teaching one another. The New Zealand Esri Users Group was formed in 1992, according to its own history. The user group operated separately from Eagle Technology and Esri, with both organisations supporting its events. It created a user-led setting where implementation knowledge could circulate among people facing similar problems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The group's beginning also has useful practitioner versions. In evidence filed with the Environmental Protection Authority in 2014, Robin Falconer described his earlier work through GeoResearch Associates and stated that he had bought what he described as New Zealand's second PC ARC/INFO system and had founded the ESRI user group. GeoResearch Associates operated from 1980 to 1994 with Falconer and one or two assistants, and in the early 1990s worked on a Deepwater Fisheries Group programme mapping bathymetry around New Zealand. Falconer’s account places his consultancy within the early Esri user community.",
+      "markdown": "The group's beginning also has useful practitioner versions. In evidence filed with the Environmental Protection Authority in 2014, Robin Falconer described his earlier work through GeoResearch Associates and stated that he had bought what he described as New Zealand's second PC ARC/INFO system and had founded the ESRI user group. GeoResearch Associates operated from 1980 to 1994 with Falconer and one or two assistants, and in the early 1990s worked on a Deepwater Fisheries Group programme mapping bathymetry around New Zealand. Falconer’s account places his consultancy within the early Esri user community.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In a 2026 NZEUG committee profile, GIS educator Rachel Summers recalled attending what she described as the first NZEUG meeting in Dunedin in 1994. She said she had remained involved with the committee on and off since then. The group’s history gives 1992 as its formation date; later conference accounts describe a meeting in 1995 and the start of the numbered annual sequence in 1996. These accounts may refer to different stages: formation, an early user-group meeting and the emergence of the national conference.",
+      "markdown": "In a 2026 NZEUG committee profile, GIS educator Rachel Summers recalled attending what she described as the first NZEUG meeting in Dunedin in 1994. She said she had remained involved with the committee on and off since then. The group’s history gives 1992 as its formation date; later conference accounts describe a meeting in 1995 and the start of the numbered annual sequence in 1996. These accounts may refer to different stages: formation, an early user-group meeting and the emergence of the national conference.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "One strand of the professional network was specifically New Zealand. John McCombs of Christchurch-based Integrated Mapping maintained the NZ-GIS mailing list and a MapInfo FAQ. In the northern autumn of 1994, McCombs and Colorado GIS practitioner Bill Thoen established MapInfo-L on Colorado SuperNet as a free international forum. Thoen later recalled that McCombs maintained and distributed the early monthly message logs. By 2001, a New Zealand GIS survey was circulated through the NZ ESRI User Group and separately through GISList, GeoCommunity's international successor to GIS-L. A June 2008 discussion about road classification records a practitioner emailing the NZ ESRI User Group list and receiving replies from it. NZ-GIS, the NZ Esri list, GISList and MapInfo-L were separate services used by overlapping groups of practitioners. In a separate exchange, Landcare Research scientist Linda Lilburne used the wider Internet in a more improvised way. She asked a Usenet artificial-intelligence group whether anyone had integrated an expert system with GIS, then later returned with a summary after finding that many of the replies were people asking her to forward whatever answers she received. She did exactly that, circulating the useful references and examples back to the group. The exchange is a small but unusually clear picture of technical peer support before searchable web archives made this kind of knowledge easier to find. By 1996 Lilburne, George Benwell and Roz Buick were putting the architecture question more formally, warning that GIS could grow towards “bloatware” proportions if every specialist function were absorbed into one package and arguing instead for interoperability. The terminology is very 1990s; the platform-versus-specialist-tools argument is not.",
+      "markdown": "One strand of the professional network was specifically New Zealand. John McCombs of Christchurch-based Integrated Mapping maintained the NZ-GIS mailing list and a MapInfo FAQ. In the northern autumn of 1994, McCombs and Colorado GIS practitioner Bill Thoen established MapInfo-L on Colorado SuperNet as a free international forum. Thoen later recalled that McCombs maintained and distributed the early monthly message logs. By 2001, a New Zealand GIS survey was circulated through the NZ ESRI User Group and separately through GISList, GeoCommunity's international successor to GIS-L. A June 2008 discussion about road classification records a practitioner emailing the NZ ESRI User Group list and receiving replies from it. NZ-GIS, the NZ Esri list, GISList and MapInfo-L were separate services used by overlapping groups of practitioners. In a separate exchange, Landcare Research scientist Linda Lilburne used the wider Internet in a more improvised way. She asked a Usenet artificial-intelligence group whether anyone had integrated an expert system with GIS, then later returned with a summary after finding that many of the replies were people asking her to forward whatever answers she received. She did exactly that, circulating the useful references and examples back to the group. The exchange is a small but unusually clear picture of technical peer support before searchable web archives made this kind of knowledge easier to find. By 1996 Lilburne, George Benwell and Roz Buick were putting the architecture question more formally, warning that GIS could grow towards “bloatware” proportions if every specialist function were absorbed into one package and arguing instead for interoperability. The terminology is very 1990s; the platform-versus-specialist-tools argument is not.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GISList messages show practitioners using gis-list.gisuser.co.nz, often calling it the “NZEUG List” or “GIS User List”. In a 2008 exchange, some participants described the service as controlled by Eagle Technology rather than NZEUG. Peter Fraser asked the list for clarification and said he knew of no handover to the user group. A message dated 29 March 2007 was addressed to the “GIS User List” at gislist [at] gis-list.gisuser.co.nz. By 2008 the system also used a gislist-owner [at] gis-list.gisuser.co.nz address and automated subscription controls. Practitioners shared jobs, data sources, conference notices and fixes for ArcGIS, Python, LiDAR, GPS and NZMG-to-NZTM migration. John Thyne at the University of Canterbury used the list to organise Christchurch GISoc meetings at C1 Espresso as casual gatherings for southern GIS people.",
+      "markdown": "GISList messages show practitioners using gis-list.gisuser.co.nz, often calling it the “NZEUG List” or “GIS User List”. In a 2008 exchange, some participants described the service as controlled by Eagle Technology rather than NZEUG. Peter Fraser asked the list for clarification and said he knew of no handover to the user group. A message dated 29 March 2007 was addressed to the “GIS User List” at gislist [at] gis-list.gisuser.co.nz. By 2008 the system also used a gislist-owner [at] gis-list.gisuser.co.nz address and automated subscription controls. Practitioners shared jobs, data sources, conference notices and fixes for ArcGIS, Python, LiDAR, GPS and NZMG-to-NZTM migration. John Thyne at the University of Canterbury used the list to organise Christchurch GISoc meetings at C1 Espresso as casual gatherings for southern GIS people.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The list could work like a national helpdesk. In December 2009 Ken Williams at North Shore City Council thanked members after a question about splitting polylines produced 25 replies. He circulated at least six workable approaches, including COGO tools, add-ons, Manifold and Python. A few weeks earlier Steve Richards of Poseidon Consulting had posted “A handy wee thing”, a small Python program written because sending a whole batch of MapBook PDFs to an OKI C8600 consumed too much memory. His solution was gloriously practical: send the PDFs one at a time with a 30-second pause. These exchanges say more about the value of the list than the generic word network. It was where practitioners asked awkward everyday questions and quite often got several usable answers before the manual had finished loading.",
+      "markdown": "The list could work like a national helpdesk. In December 2009 Ken Williams at North Shore City Council thanked members after a question about splitting polylines produced 25 replies. He circulated at least six workable approaches, including COGO tools, add-ons, Manifold and Python. A few weeks earlier Steve Richards of Poseidon Consulting had posted “A handy wee thing”, a small Python program written because sending a whole batch of MapBook PDFs to an OKI C8600 consumed too much memory. His solution was gloriously practical: send the PDFs one at a time with a 30-second pause. These exchanges say more about the value of the list than the generic word network. It was where practitioners asked awkward everyday questions and quite often got several usable answers before the manual had finished loading.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The archive also makes the software chronology less tidy. In September 2010 Richard Earl, a spatial analyst in DOC’s Southern Science Office, opened an ArcGIS 10 problem with “Angry, of Christchurch, writes” after a buffer operation that had worked in earlier ArcMap and ArcView versions began returning an empty-output warning. Before the message had even finished circulating he traced one problem to a runaway Desktop Indexing Service process, killed it and reported that ArcMap worked again. More than a year later Mark Holmes at Photomap NZ was still asking whether ArcView 3.2 would run happily on a 64-bit Windows 7 machine. New releases, old software, home-grown scripts and operating-system changes overlapped for years. Organisations moved between desktop versions at different times.",
+      "markdown": "The archive also makes the software chronology less tidy. In September 2010 Richard Earl, a spatial analyst in DOC’s Southern Science Office, opened an ArcGIS 10 problem with “Angry, of Christchurch, writes” after a buffer operation that had worked in earlier ArcMap and ArcView versions began returning an empty-output warning. Before the message had even finished circulating he traced one problem to a runaway Desktop Indexing Service process, killed it and reported that ArcMap worked again. More than a year later Mark Holmes at Photomap NZ was still asking whether ArcView 3.2 would run happily on a 64-bit Windows 7 machine. New releases, old software, home-grown scripts and operating-system changes overlapped for years. Organisations moved between desktop versions at different times.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "It could also be argumentative. In September 2008 NZEUG chair Martin Erasmuson, then at Nelson City Council, asked members whether the annual conference should remain strongly Esri-focused, open further to competing vendors, or become a vendor-neutral GIS industry conference. Council staff were not spectators. Tony Standen, Team Leader Information Delivery at New Plymouth District Council, was handling the conference call for papers, while Junior Lee-Chee, Maps and Designs Manager at Auckland City Council, collected votes on the conference's future. Subodh Gidh, GIS Specialist at Hamilton City Council, argued for a more open format because some organisations already used more than one GIS application and staff often struggled to get approval for even one conference. Jack Tang at Dunedin City Council was terser: “I believe GIS professionals need wider views.”",
+      "markdown": "It could also be argumentative. In September 2008 NZEUG chair Martin Erasmuson, then at Nelson City Council, asked members whether the annual conference should remain strongly Esri-focused, open further to competing vendors, or become a vendor-neutral GIS industry conference. Council staff were not spectators. Tony Standen, Team Leader Information Delivery at New Plymouth District Council, was handling the conference call for papers, while Junior Lee-Chee, Maps and Designs Manager at Auckland City Council, collected votes on the conference's future. Subodh Gidh, GIS Specialist at Hamilton City Council, argued for a more open format because some organisations already used more than one GIS application and staff often struggled to get approval for even one conference. Jack Tang at Dunedin City Council was terser: “I believe GIS professionals need wider views.”",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Darrel Hall, GIS Coordinator at Hawke's Bay Regional Council, took the question to the Hawke's Bay Region GIS Forum. His summary is an unusually clear snapshot of local-government GIS in 2008: Napier City, Wairoa and Central Hawke's Bay councils were described as MapInfo users, Hastings District Council as GenaMap, and Hawke's Bay Regional Council as Esri. Simon Nitz at Napier City Council favoured an independent bi- or triannual whole-sector event, while Central Hawke's Bay engineer Peter Eastwood argued that New Zealand was too small for every supplier to sustain a separate conference. The discussion concerned the cost, format and usefulness of conferences. It reflected the mixed software estates council staff were actually supporting.",
+      "markdown": "Darrel Hall, GIS Coordinator at Hawke's Bay Regional Council, took the question to the Hawke's Bay Region GIS Forum. His summary is an unusually clear snapshot of local-government GIS in 2008: Napier City, Wairoa and Central Hawke's Bay councils were described as MapInfo users, Hastings District Council as GenaMap, and Hawke's Bay Regional Council as Esri. Simon Nitz at Napier City Council favoured an independent bi- or triannual whole-sector event, while Central Hawke's Bay engineer Peter Eastwood argued that New Zealand was too small for every supplier to sustain a separate conference. The discussion concerned the cost, format and usefulness of conferences. It reflected the mixed software estates council staff were actually supporting.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The conference itself was also built around practitioners rather than only vendor presentations. Standen's call for papers invited work on database automation, metadata, integration, remote sensing, spatial data infrastructure, emergency response, land information, transport and utilities, with 20–25 minute user presentations and a new pre-conference workshop day. By October the advertised workshops included ArcGIS Server, ModelBuilder, GNSS, GIS return on investment, remote sensing and advanced Python. Shelley Glassey, GIS Developer at North Shore City Council, offered 3D animations built from council GIS data in ArcGIS and viewed in K2VI for the conference opening film. The conference even had five-minute “show us what you got” slots. It was an Esri event, but much of its substance came from council practitioners bringing in the work they were already doing.",
+      "markdown": "The conference itself was also built around practitioners rather than only vendor presentations. Standen's call for papers invited work on database automation, metadata, integration, remote sensing, spatial data infrastructure, emergency response, land information, transport and utilities, with 20–25 minute user presentations and a new pre-conference workshop day. By October the advertised workshops included ArcGIS Server, ModelBuilder, GNSS, GIS return on investment, remote sensing and advanced Python. Shelley Glassey, GIS Developer at North Shore City Council, offered 3D animations built from council GIS data in ArcGIS and viewed in K2VI for the conference opening film. The conference even had five-minute “show us what you got” slots. It was an Esri event, but much of its substance came from council practitioners bringing in the work they were already doing.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In October 2012 Mark Peacey announced a replacement NZEUG website with forums for technical problems, jobs, services, maps, news, “hot gossip” and even recommendations for somewhere to have a drink after work. A later professional profile records Kurt Janssen as an NZEUG committee member from August 2010 and chair from October 2012 to August 2016. GISList messages also identify him as NZEUG president in January 2013, when he told members that the mailing list would be disabled on 8 February and encouraged them towards searchable web forums and RSS feeds. The archive records the address and end of GISList as well as a clear change in how New Zealand GIS practitioners kept in touch.",
+      "markdown": "In October 2012 Mark Peacey announced a replacement NZEUG website with forums for technical problems, jobs, services, maps, news, “hot gossip” and even recommendations for somewhere to have a drink after work. A later professional profile records Kurt Janssen as an NZEUG committee member from August 2010 and chair from October 2012 to August 2016. GISList messages also identify him as NZEUG president in January 2013, when he told members that the mailing list would be disabled on 8 February and encouraged them towards searchable web forums and RSS feeds. The archive records the address and end of GISList as well as a clear change in how New Zealand GIS practitioners kept in touch.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That process continued into social media. By 2023 NZ GIS Geeks was being used as the name of a Facebook group, with Nathan Heazlewood also involved in its administration. It sat outside the formal structure of NZEUG and other professional bodies, but that informality was the point: practitioner communities increasingly operated in parallel, with official user groups, specialist organisations, LinkedIn networks and Facebook groups all carrying different parts of the conversation. NZ GIS Geeks was still being recommended publicly to New Zealand practitioners in 2024.",
+      "markdown": "That process continued into social media. By 2023 NZ GIS Geeks was being used as the name of a Facebook group, with Nathan Heazlewood also involved in its administration. It sat outside the formal structure of NZEUG and other professional bodies, but that informality was the point: practitioner communities increasingly operated in parallel, with official user groups, specialist organisations, LinkedIn networks and Facebook groups all carrying different parts of the conversation. NZ GIS Geeks was still being recommended publicly to New Zealand practitioners in 2024.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The first gathering preceded the numbered annual conference series. Eagle Technology's 2017 retrospective says the event grew from a first meeting of GIS professionals in 1995, while the user group's later history lists conferences from 1996 through 2006. A contemporary November 2005 report records Jack Dangermond in Wellington to mark the tenth anniversary of the annual New Zealand Esri User Group conference, and Serge Peeters later recorded his 31 October 2006 presentation as part of the 11th Annual conference. The first meeting was held in 1995, followed by the numbered annual conference sequence from 1996.",
+      "markdown": "The first gathering preceded the numbered annual conference series. Eagle Technology's 2017 retrospective says the event grew from a first meeting of GIS professionals in 1995, while the user group's later history lists conferences from 1996 through 2006. A contemporary November 2005 report records Jack Dangermond in Wellington to mark the tenth anniversary of the annual New Zealand Esri User Group conference, and Serge Peeters later recorded his 31 October 2006 presentation as part of the 11th Annual conference. The first meeting was held in 1995, followed by the numbered annual conference sequence from 1996.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Programme records from 2004 and 2006 show the range of topics at early NZEUG meetings. Christian Utech presented “Mapping for the Blind” on 10 November 2004, describing work with mobility instructors and vision-impaired people to produce practical Braille maps. In 2006, Peeters presented an ArcGIS-based airport air-quality application that generated spatio-temporal emission inventories and converted them into three-dimensional grid cells. Accessibility, environmental modelling and applied GIS appeared alongside council and practitioner work.",
+      "markdown": "Programme records from 2004 and 2006 show the range of topics at early NZEUG meetings. Christian Utech presented “Mapping for the Blind” on 10 November 2004, describing work with mobility instructors and vision-impaired people to produce practical Braille maps. In 2006, Peeters presented an ArcGIS-based airport air-quality application that generated spatio-temporal emission inventories and converted them into three-dimensional grid cells. Accessibility, environmental modelling and applied GIS appeared alongside council and practitioner work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "MapInfo users developed their own New Zealand community as well. The MapInfo Users Group of New Zealand was also incorporated. AURISA offered a wider Australasian forum for urban and regional information systems, including GIS, land information and local-government practice. Its 1991 Wellington conference and the joint AURISA/SIRC event in Palmerston North in 1995 show vendors, academics and practitioners moving through overlapping professional spaces. No one group represented the entire field. That plurality matched the software market itself.",
+      "markdown": "MapInfo users developed their own New Zealand community as well. The MapInfo Users Group of New Zealand was also incorporated. AURISA offered a wider Australasian forum for urban and regional information systems, including GIS, land information and local-government practice. Its 1991 Wellington conference and the joint AURISA/SIRC event in Palmerston North in 1995 show vendors, academics and practitioners moving through overlapping professional spaces. No one group represented the entire field. That plurality matched the software market itself.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

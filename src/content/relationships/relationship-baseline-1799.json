@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1799",
+  "a": "person:barbara-hock",
+  "b": "chapter:8",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-8-87633bc2db"
+  ],
+  "sources": []
+}

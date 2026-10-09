@@ -1,0 +1,42 @@
+{
+  "id": "article:chapter-1",
+  "slug": "what-the-computer-inherited",
+  "title": "Maps before computers",
+  "url": "/stories/what-the-computer-inherited/",
+  "summary": "When electronic computers entered New Zealand government offices around the turn of the 1960s, they encountered extensive survey, mapping and land records. This large, untidy and highly organised inheritance consisted of survey pl",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 1,
+  "themeIds": [
+    "cadastre",
+    "imagery",
+    "women-in-gis"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch01-note-01",
+      "text": "1. The nineteenth- and early-twentieth-century cadastral record-map lineage, maintained block sheets and the scale of the Lands and Survey record system are supported by Department of Lands and Survey annual reporting, surviving LINZ and Archives New Zealand cadastral records, and the Chapter 1 embedded source appendix. These sources support the argument only where analogue records became direct inputs to later digital cadastral work."
+    },
+    {
+      "id": "ch01-note-02",
+      "text": "2. The Wairarapa baseline and early geodetic-adjustment discussion is supported by Lands and Survey reporting and the surviving C. E. Adams material identified in the Master Research Register. The later NZGD49 account should be read with official geodetic histories and LINZ retrospective documentation rather than treated as evidence that one 1912 calculation created the national datum."
+    },
+    {
+      "id": "ch01-note-03",
+      "text": "3. The statistical-geography runway is supported by General Survey Office and Representation Commission mapping, Statistics New Zealand historical material and the surviving 1887 electoral map based on the 1886 Census. The documented use of the phrase \"population mesh blocks\" in the 1945 census-mapping programme belongs to the analogue lineage that later became digital statistical geography; Chapter 16 discusses the full meshblock history."
+    },
+    {
+      "id": "ch01-note-04",
+      "text": "4. The aerial-survey lineage is supported by material on the 1926 Waimakariri aerial survey, New Zealand Permanent Air Force photography, New Zealand Aerial Mapping and the Crown Aerial Film Library. These sources support the practical transition from photographs and photogrammetric compilation to later digital imagery, not a claim that early aerial photography was itself GIS."
+    },
+    {
+      "id": "ch01-note-05",
+      "text": "5. The 1939 NZMS1 Napier and Hastings N134 sheet is supported by the surviving LINZ/National Library series record. The National Resources Survey discussion is supported by the 1964 Northland Region publication and its thematic maps. Both are used as inherited production systems and structured geographic inputs, not as analogue GIS."
+    },
+    {
+      "id": "ch01-note-06",
+      "text": "6. Madge Pirrit and other named draughting work is supported by map credits, Gazette and repository records identified in the Master Research Register. Rachel Gillanders' later \"Draughtswoman and Computer\" material is useful retrospective context for changing technical work, and the named roles are documented in the cited records."
+    }
+  ]
+}

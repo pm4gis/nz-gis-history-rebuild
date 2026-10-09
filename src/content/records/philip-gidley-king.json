@@ -1,0 +1,31 @@
+{
+  "id": "person:philip-gidley-king",
+  "slug": "philip-gidley-king",
+  "name": "Philip Gidley King",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/philip-gidley-king/",
+  "story": [
+    "Tuki Te Terenui Whare Pirau’s 1793 map of Aotearoa was recorded during the Norfolk Island encounter involving Philip Gidley King. Tuki represented geographic knowledge together with social, political and spiritual relationships. Place names and routes carried information that a later European survey sheet would organise differently."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 1 · Existing map records",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "Philip Gidley King"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 1 · Existing map records",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

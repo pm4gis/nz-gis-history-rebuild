@@ -1,0 +1,77 @@
+{
+  "id": "passage:chapter-35-409b125751",
+  "slug": "the-gis-behind-the-button-409b125751",
+  "articleId": "article:chapter-35",
+  "title": "The GIS behind the button",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35",
+    "entity:department-of-conservation",
+    "entity:maori-land-court",
+    "person:matt-robson",
+    "person:georgina-te-heuheu",
+    "person:andrew-little"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For much of GIS history, using GIS meant seeing GIS. A specialist sat at a workstation surrounded by layers, toolbars, coordinate systems and query functions. When GIS moved into browsers around the turn of the century, much of that structure remained visible. The user still knew they were using a map system. They switched layers, zoomed to a place, queried a feature or chose from a set of tools that had been moved from the desktop into a browser. The map application looked like GIS because, in many cases, it was still asking a non-specialist to think rather like a GIS operator.",
+      "markdown": "For much of GIS history, using GIS meant seeing GIS. A specialist sat at a workstation surrounded by layers, toolbars, coordinate systems and query functions. When GIS moved into browsers around the turn of the century, much of that structure remained visible. The user still knew they were using a map system. They switched layers, zoomed to a place, queried a feature or chose from a set of tools that had been moved from the desktop into a browser. The map application looked like GIS because, in many cases, it was still asking a non-specialist to think rather like a GIS operator.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2010s, an increasing number of users encountered something different. They might open a public crime-reporting site, complete a safety checklist, search a land-resource portal or work through a community-response application without seeing anything that looked like traditional GIS. Geographic data, map services and spatial relationships were still doing work underneath. The difference was that the interface started with the task rather than the software. Instead of asking the user to learn a GIS, the application tried to present only the part of the spatial system needed for the job.",
+      "markdown": "By the 2010s, an increasing number of users encountered something different. They might open a public crime-reporting site, complete a safety checklist, search a land-resource portal or work through a community-response application without seeing anything that looked like traditional GIS. Geographic data, map services and spatial relationships were still doing work underneath. The difference was that the interface started with the task rather than the software. Instead of asking the user to learn a GIS, the application tried to present only the part of the spatial system needed for the job.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In April 2002 the Māori Land Court completed a major stage in its move from paper records to digital land information. Courts Minister Matt Robson described the Māori Land Information System (MLIS) as a complete computerised index of Māori land title and ownership information, accessible across the Court network. Historic records had also been digitised, Māori Land Online was under development, and a Geographic Information System was being built to link with MLIS and show the location and characteristics of Māori land in map form. The 2002 system therefore belongs before the later public GIS portal: it established the Court’s digital land-information base and explicitly prepared a geographic interface for it.",
+      "markdown": "In April 2002 the Māori Land Court completed a major stage in its move from paper records to digital land information. Courts Minister Matt Robson described the Māori Land Information System (MLIS) as a complete computerised index of Māori land title and ownership information, accessible across the Court network. Historic records had also been digitised, Māori Land Online was under development, and a Geographic Information System was being built to link with MLIS and show the location and characteristics of Māori land in map form. The 2002 system therefore belongs before the later public GIS portal: it established the Court’s digital land-information base and explicitly prepared a geographic interface for it.",
+      "sources": [
+        {
+          "label": "Beehive, Māori Land Court changes deliver a world first, 16 April 2002",
+          "url": "https://www.beehive.govt.nz/release/m%C3%A4ori-land-court-changes-deliver-world-first"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "On 4 March 2011 Courts Minister Georgina te Heuheu officially launched the Māori Land Court GIS Project. The internet portal supplied geospatial information for Māori land blocks to land owners, judges, researchers, local government and the public. It used Google technology with LINZ information, supported searching and downloading, could be viewed in te reo Māori, and was designed so further information layers could be added. The public service built on the land-information modernisation already under way inside the Court.",
+      "markdown": "On 4 March 2011 Courts Minister Georgina te Heuheu officially launched the Māori Land Court GIS Project. The internet portal supplied geospatial information for Māori land blocks to land owners, judges, researchers, local government and the public. It used Google technology with LINZ information, supported searching and downloading, could be viewed in te reo Māori, and was designed so further information layers could be added. The public service built on the land-information modernisation already under way inside the Court.",
+      "sources": [
+        {
+          "label": "Beehive, GIS launch heralds new era, 4 March 2011",
+          "url": "https://www.beehive.govt.nz/release/gis-launch-heralds-new-era"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Kōrero Takutai provides a later government example of a subject-specific spatial portal. The Office for Māori Crown Relations – Te Arawhiti publicly launched the coastline information hub on 11 December 2019 after it had been developed for Crown use from 2014. The portal overlaid applications under the Marine and Coastal Area (Takutai Moana) Act, coastal permits, Walking Access information, marae locations and other public records. Applicant groups, the Crown, local authorities and other decision-makers could work from one geographic view of the coast rather than tracing each information source separately.",
+      "markdown": "Kōrero Takutai provides a later government example of a subject-specific spatial portal. The Office for Māori Crown Relations – Te Arawhiti publicly launched the coastline information hub on 11 December 2019 after it had been developed for Crown use from 2014. The portal overlaid applications under the Marine and Coastal Area (Takutai Moana) Act, coastal permits, Walking Access information, marae locations and other public records. Applicant groups, the Crown, local authorities and other decision-makers could work from one geographic view of the coast rather than tracing each information source separately.",
+      "sources": [
+        {
+          "label": "Beehive, Minister welcomes data-rich coastline mapping tool, 11 December 2019",
+          "url": "https://www.beehive.govt.nz/release/minister-welcomes-data-rich-coastline-mapping-tool"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Mobile field work increasingly used task-specific forms rather than miniature desktop GIS interfaces. The Department of Conservation's Helicopter Boarding Pass used a location-enabled form for a defined safety task. It was a pre-flight safety checklist, not a mapping system. Survey123 supplied the form, location and supporting metadata, but the person completing it did not need to think about layers, spatial databases or web services. ",
+      "markdown": "Mobile field work increasingly used task-specific forms rather than miniature desktop GIS interfaces. The Department of Conservation's Helicopter Boarding Pass used a location-enabled form for a defined safety task. It was a pre-flight safety checklist, not a mapping system. Survey123 supplied the form, location and supporting metadata, but the person completing it did not need to think about layers, spatial databases or web services. ",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This was a broader shift than a change in screen design. A simpler interface could depend on more deliberate work behind it. Someone had to decide which data were authoritative, what a user was allowed to see, which fields were mandatory, how locations were captured, how records were stored, what happened when categories changed and how the application would continue working after the original project team moved on. GIS became easier for many users partly because more of the complexity had been moved out of sight.",
+      "markdown": "This was a broader shift than a change in screen design. A simpler interface could depend on more deliberate work behind it. Someone had to decide which data were authoritative, what a user was allowed to see, which fields were mandatory, how locations were captured, how records were stored, what happened when categories changed and how the application would continue working after the original project team moved on. GIS became easier for many users partly because more of the complexity had been moved out of sight.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "entity:asurequality",
+  "slug": "asurequality",
+  "name": "AsureQuality",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/asurequality/",
+  "website": null,
+  "story": [
+    "AsureQuality’s AgriBase is a maintained spatial database of New Zealand farms and rural properties. Public company and MPI material shows the dataset and its GIS staff being used in agricultural information and biosecurity surveillance, including operational response work."
+  ],
+  "sources": [
+    {
+      "label": "AsureQuality, Database that makes a difference for NZ producers",
+      "url": "https://www.asurequality.com/about/news/database-that-makes-a-difference-for-nz-producers/"
+    },
+    {
+      "label": "MPI surveillance reporting",
+      "url": "https://www.mpi.govt.nz/dmsdocument/65409/direct"
+    }
+  ],
+  "aliases": [
+    "AsureQuality"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

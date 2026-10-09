@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-41-31c00f15f6",
+  "slug": "dependencies-become-visible-31c00f15f6",
+  "articleId": "article:chapter-41",
+  "title": "Dependencies become visible",
+  "order": 15,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41",
+    "entity:koordinates"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 2017 Koordinates migration is useful again here because it required users to migrate identities across three services. That is a modest inconvenience compared with rebuilding a GIS platform, but it reveals a structural fact. Once several organisations and applications consume an external platform, changes made by the platform can propagate widely. Authentication, service URLs, supported formats and subscription features become part of other organisations' operating environment.",
+      "markdown": "The 2017 Koordinates migration is useful again here because it required users to migrate identities across three services. That is a modest inconvenience compared with rebuilding a GIS platform, but it reveals a structural fact. Once several organisations and applications consume an external platform, changes made by the platform can propagate widely. Authentication, service URLs, supported formats and subscription features become part of other organisations' operating environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Hosted services can remove duplication, improve capacity and make specialised infrastructure available to organisations that would struggle to build it themselves. This concentration extends the shared-service risk described in Chapter 40 across organisational boundaries. Shared services are useful precisely because many consumers can rely on them, making reliability, communication and change management part of the geographic service.",
+      "markdown": "Hosted services can remove duplication, improve capacity and make specialised infrastructure available to organisations that would struggle to build it themselves. This concentration extends the shared-service risk described in Chapter 40 across organisational boundaries. Shared services are useful precisely because many consumers can rely on them, making reliability, communication and change management part of the geographic service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same principle applies to open standards. OGC services can reduce dependence on one client product, while individual implementations still vary and endpoints can disappear. REST-style services are often straightforward for application developers but can expose platform-specific structures. APIs range from well documented to mysterious. Interoperability became a practical exercise in maintaining stable agreements between systems rather than choosing one perfect standard.",
+      "markdown": "The same principle applies to open standards. OGC services can reduce dependence on one client product, while individual implementations still vary and endpoints can disappear. REST-style services are often straightforward for application developers but can expose platform-specific structures. APIs range from well documented to mysterious. Interoperability became a practical exercise in maintaining stable agreements between systems rather than choosing one perfect standard.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

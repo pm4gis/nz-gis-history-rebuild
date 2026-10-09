@@ -1,0 +1,16 @@
+{
+  "id": "chapter:35",
+  "articleId": "article:chapter-35",
+  "slug": "the-map-becomes-an-application",
+  "name": "Mapping applications",
+  "kind": "Story",
+  "category": "Web mapping",
+  "url": "/stories/the-map-becomes-an-application/",
+  "description": "For much of GIS history, using GIS meant seeing GIS. A specialist sat at a workstation surrounded by layers, toolbars, coordinate systems and query functions. When GIS moved into browsers around the turn of the century, much of that structure remained visible. The user still knew they were using a map system. They switched layers, zoomed to a place, queried a feature or chose from a set of tools that had been moved f",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "women-in-gis"
+  ]
+}

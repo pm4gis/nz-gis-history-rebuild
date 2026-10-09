@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1912",
+  "a": "person:alan-thorn",
+  "b": "chapter:39",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-39-0d16451ce2"
+  ],
+  "sources": []
+}

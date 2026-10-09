@@ -1,0 +1,25 @@
+{
+  "id": "entity:thundermaps",
+  "slug": "thundermaps",
+  "name": "ThunderMaps",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/thundermaps/",
+  "website": null,
+  "story": [
+    "ThunderMaps, launched in 2012, connected mobile reporting with mapped hazards and incidents. The government’s open-data showcase describes its use of public, private and crowdsourced information. People could receive location-related warnings and contribute reports, bringing mapping into a daily safety application. It is an early example of a New Zealand business operating where mobile software, open data and GIS overlapped."
+  ],
+  "sources": [
+    {
+      "label": "data.govt.nz, ThunderMaps showcase",
+      "url": "https://www.data.govt.nz/catalogue-guide/showcase/thundermaps"
+    }
+  ],
+  "aliases": [
+    "ThunderMaps"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

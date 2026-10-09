@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-41-ef94c5a949",
+  "slug": "from-wfs-to-application-apis-ef94c5a949",
+  "articleId": "article:chapter-41",
+  "title": "From WFS to application APIs",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The early spatial-data-infrastructure vision leaned heavily on OGC interfaces. WMS was effective for drawing maps, WFS offered standards-based feature transfer, and catalogue services supported discovery. The Canterbury earthquake recovery SDI showed that a standards-based service architecture could support a large multi-agency programme when dedicated funding, governance, custodians and technical staff were available.",
+      "markdown": "The early spatial-data-infrastructure vision leaned heavily on OGC interfaces. WMS was effective for drawing maps, WFS offered standards-based feature transfer, and catalogue services supported discovery. The Canterbury earthquake recovery SDI showed that a standards-based service architecture could support a large multi-agency programme when dedicated funding, governance, custodians and technical staff were available.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "National application delivery posed a different problem. WFS implementations varied between products, GML responses could be heavy, and interactive browser or mobile applications often needed smaller, faster and more predictable responses than a general feature-transfer service provided. REST-style feature services and JSON APIs fitted application development more naturally, while cached and tiled services, including WMTS-style delivery, suited responsive basemaps. By the later 2010s these interfaces carried much of the practical web-application load that earlier SDI designs had expected standards-based feature services to handle.",
+      "markdown": "National application delivery posed a different problem. WFS implementations varied between products, GML responses could be heavy, and interactive browser or mobile applications often needed smaller, faster and more predictable responses than a general feature-transfer service provided. REST-style feature services and JSON APIs fitted application development more naturally, while cached and tiled services, including WMTS-style delivery, suited responsive basemaps. By the later 2010s these interfaces carried much of the practical web-application load that earlier SDI designs had expected standards-based feature services to handle.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "WFS still had a useful place for standards-based feature exchange, just as WMS remained valuable for interoperable map display. The working architecture became plural: REST or platform APIs for interactive applications, tiles for fast basemaps, downloads for bulk transfer, and OGC services where the consumer needed them. New Zealand's operational SDI emerged as a collection of compatible routes rather than a single WFS-centred national implementation.",
+      "markdown": "WFS still had a useful place for standards-based feature exchange, just as WMS remained valuable for interoperable map display. The working architecture became plural: REST or platform APIs for interactive applications, tiles for fast basemaps, downloads for bulk transfer, and OGC services where the consumer needed them. New Zealand's operational SDI emerged as a collection of compatible routes rather than a single WFS-centred national implementation.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

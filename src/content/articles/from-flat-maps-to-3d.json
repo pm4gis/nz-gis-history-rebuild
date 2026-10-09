@@ -1,0 +1,39 @@
+{
+  "id": "article:chapter-39",
+  "slug": "from-flat-maps-to-3d",
+  "title": "Mapping in 3D",
+  "url": "/stories/from-flat-maps-to-3d/",
+  "summary": "For much of GIS history, height was present without making GIS fully three-dimensional. Contours carried elevation across topographic maps. Digital elevation models stored a height value across a surface. Surveyors measured levels",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 39,
+  "themeIds": [],
+  "featured": false,
+  "headerImageId": "image:linz-pauatahanui",
+  "sourceNotes": [
+    {
+      "id": "ch39-note-01",
+      "text": "1. Chapter 39 begins with integrated three-dimensional use rather than retelling LiDAR or UAV acquisition. Elevation models, LiDAR point clouds, photogrammetric surfaces, buildings and engineering models become inputs that can be combined in a 3D information environment."
+    },
+    {
+      "id": "ch39-note-02",
+      "text": "2. Coordinate and height-reference issues remain governed by the national geodetic framework established earlier in the book. Horizontal and vertical reference systems affected the integration of the three-dimensional models."
+    },
+    {
+      "id": "ch39-note-03",
+      "text": "3. Three-dimensional distribution through lighter web viewers and scene services is treated as a delivery development, while the broader hosted/cloud/service architecture remains in Chapter 41."
+    },
+    {
+      "id": "ch39-note-04",
+      "text": "4. MBIE material recorded in the Master Research Register as P9C-S23 is the principal digital-twin route. It includes a 2018 National Digital Infrastructure Model briefing, a 2019 Wellington City Council workshop and later New Zealand examples. The term digital twin is used only where the evidence supports a persistent digital representation linked to updates, live or periodic data and operational/planning use. It is not applied retrospectively to every 3D model, BIM model or simulation."
+    },
+    {
+      "id": "ch39-note-05",
+      "text": "5. A visually detailed model is not automatically current, authoritative or interoperable. The chapter retains distinctions between visualisation, 3D GIS, engineering/BIM models, city models and digital twins where the source material supports them."
+    },
+    {
+      "id": "ch39-note-06",
+      "text": "6. By the mid-2020s, New Zealand had several three-dimensional information systems, research projects and digital-twin initiatives."
+    }
+  ]
+}

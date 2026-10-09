@@ -1,0 +1,52 @@
+{
+  "id": "passage:chapter-40-3782b862a2",
+  "slug": "doc-builds-a-national-platform-3782b862a2",
+  "articleId": "article:chapter-40",
+  "title": "DOC builds a national platform",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:department-of-conservation",
+    "entity:massey-university",
+    "person:steven-li"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Department of Conservation described its National Enterprise GIS architecture in 2003. The Department's earlier Biodiversity Information Platform evolved into DOCgis and a wider national architecture using ArcSDE, ArcGIS and ArcIMS. The technical material describes a national geodatabase, browser applications, access to aspatial business databases and integration with GPS, ArcPad and Windows CE field technology.",
+      "markdown": "The Department of Conservation described its National Enterprise GIS architecture in 2003. The Department's earlier Biodiversity Information Platform evolved into DOCgis and a wider national architecture using ArcSDE, ArcGIS and ArcIMS. The technical material describes a national geodatabase, browser applications, access to aspatial business databases and integration with GPS, ArcPad and Windows CE field technology.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOCgis Version 2.0 was documented in June 2003, followed by an ArcIMS Java-client milestone in August. The Department also described using the Rational Unified Process for parts of its software and enterprise-component development. Requirements were modelled, prototypes were tested with users, and successive iterations added capability. This was no longer a case of a GIS specialist building a useful map for colleagues. It was software and information infrastructure being developed for an organisation with national and regional operations.",
+      "markdown": "DOCgis Version 2.0 was documented in June 2003, followed by an ArcIMS Java-client milestone in August. The Department also described using the Rational Unified Process for parts of its software and enterprise-component development. Requirements were modelled, prototypes were tested with users, and successive iterations added capability. This was no longer a case of a GIS specialist building a useful map for colleagues. It was software and information infrastructure being developed for an organisation with national and regional operations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOC established a national geodatabase, ArcIMS services and centrally developed components. Regional and operational teams used that platform while developing tools suited to their own work.",
+      "markdown": "DOC established a national geodatabase, ArcIMS services and centrally developed components. Regional and operational teams used that platform while developing tools suited to their own work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "DOC’s enterprise system combined databases, services, applications and support. Spatial and non-spatial information were intended to work together. Browser clients widened access. Field tools could connect to national data. Different application types could use common information. The enterprise platform sat between authoritative data and the many contexts in which staff needed to use it.",
+      "markdown": "DOC’s enterprise system combined databases, services, applications and support. Spatial and non-spatial information were intended to work together. Browser clients widened access. Field tools could connect to national data. Different application types could use common information. The enterprise platform sat between authoritative data and the many contexts in which staff needed to use it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Steven Li’s 2009 Massey University thesis examined systems integration in a government agency whose named applications included DOCgis and Bioweb. The system descriptions identify the Department of Conservation context. The study describes the difficulty of keeping information consistent when business data was copied or reconciled between applications. Linking a spatial record to the operational database responsible for its attributes reduced the need for separate GIS copies, while creating dependencies on identifiers, interfaces and the availability of the other system. DOCgis therefore belonged to a wider information environment in which database integration and organisational responsibility affected the quality of the map service.",
+      "sources": [
+        {
+          "label": "Steven Li, An investigation of system integrations and XML applications within a NZ government agency, Massey University thesis",
+          "url": "https://hdl.handle.net/10179/1627"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

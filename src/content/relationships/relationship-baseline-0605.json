@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0605",
+  "a": "person:james-maguire",
+  "b": "chapter:30",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-30-b284cddde9"
+  ],
+  "sources": []
+}

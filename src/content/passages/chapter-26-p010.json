@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-26-bf899cfe67",
+  "slug": "from-image-to-environmental-record-bf899cfe67",
+  "articleId": "article:chapter-26",
+  "title": "From image to environmental record",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "LCDB also records a change in the relationship between remote sensing and GIS. Satellite imagery supplied the observation, while the database supplied the categories and geometry that could be joined with other environmental information. A user interested in land-cover change did not need to become an image-processing specialist. The classified result could be combined with catchments, soils, protected areas or other layers in an ordinary GIS workflow.",
+      "markdown": "LCDB also records a change in the relationship between remote sensing and GIS. Satellite imagery supplied the observation, while the database supplied the categories and geometry that could be joined with other environmental information. A user interested in land-cover change did not need to become an image-processing specialist. The classified result could be combined with catchments, soils, protected areas or other layers in an ordinary GIS workflow.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That separation allowed LCDB to move between agencies and applications. The dataset could support national reporting, regional analysis or research using the same class structure. It could also be criticised and corrected through later versions. Classification choices and imagery dates affected the national dataset’s account of each place.",
+      "markdown": "That separation allowed LCDB to move between agencies and applications. The dataset could support national reporting, regional analysis or research using the same class structure. It could also be criticised and corrected through later versions. Classification choices and imagery dates affected the national dataset’s account of each place.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The wider environmental-data landscape developed along similar lines. Land-resource information created in earlier decades moved into newer GIS and web-distribution environments. Soil, river, wetland, biodiversity and hazard datasets were maintained by research organisations and councils. Chapter 9 follows the scientific origins of many of these systems and Chapter 33 follows later open access. These datasets supported conservation mapping and analysis.",
+      "markdown": "The wider environmental-data landscape developed along similar lines. Land-resource information created in earlier decades moved into newer GIS and web-distribution environments. Soil, river, wetland, biodiversity and hazard datasets were maintained by research organisations and councils. Chapter 9 follows the scientific origins of many of these systems and Chapter 33 follows later open access. These datasets supported conservation mapping and analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Regional councils had their own statutory and operational reasons to maintain environmental geography. Catchments, consent locations, water takes, flood areas, soils, erosion, coastal features and monitoring sites all required spatial records. The Resource Management Act 1991 increased the amount of environmental planning and monitoring carried out by councils, but it arrived alongside local-government restructuring, desktop GIS, national datasets and existing catchment-management work.",
+      "markdown": "Regional councils had their own statutory and operational reasons to maintain environmental geography. Catchments, consent locations, water takes, flood areas, soils, erosion, coastal features and monitoring sites all required spatial records. The Resource Management Act 1991 increased the amount of environmental planning and monitoring carried out by councils, but it arrived alongside local-government restructuring, desktop GIS, national datasets and existing catchment-management work.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

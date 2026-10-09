@@ -1,0 +1,53 @@
+{
+  "id": "person:lars-brabyn",
+  "slug": "lars-brabyn",
+  "name": "Lars Brabyn",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/lars-brabyn/",
+  "story": [
+    "Lars Brabyn conducted the GIS analysis for the 2002 study Modeling population access to New Zealand public hospitals, co-authored with Chris Skelly. The work was carried out at Waikato’s Department of Geography with Ministry of Health funding. Its contribution statement identifies Brabyn’s analytical role separately from Skelly’s collection of hospital information, documenting how university GIS research and public-health data work were combined.",
+    "Lars Brabyn’s work on automatically classifying New Zealand landscapes used GIS to combine environmental variables and produce a national landscape classification. The method shifted some of the work from drawing regions manually toward applying explicit rules or procedures to digital data.",
+    "LINZ’s tertiary GIS directory lists Lars Brabyn for University of Waikato."
+  ],
+  "sources": [
+    {
+      "label": "Lars Brabyn and Chris Skelly, Modeling population access to New Zealand public hospitals, 2002",
+      "url": "https://link.springer.com/article/10.1186/1476-072X-1-3"
+    },
+    {
+      "label": "Chapter 9 · Classifying landscapes by computer",
+      "url": "/stories/science-goes-spatial/"
+    },
+    {
+      "label": "LINZ, Studying GIS",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis"
+    }
+  ],
+  "aliases": [
+    "Lars Brabyn"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Lars Brabyn and Chris Skelly, Modeling population access to New Zealand public hospitals, 2002",
+        "url": "https://link.springer.com/article/10.1186/1476-072X-1-3"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · Classifying landscapes by computer",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Studying GIS",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis"
+      }
+    ]
+  ]
+}

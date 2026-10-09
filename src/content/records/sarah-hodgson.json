@@ -1,0 +1,34 @@
+{
+  "id": "person:sarah-hodgson",
+  "slug": "sarah-hodgson",
+  "name": "Sarah Hodgson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sarah-hodgson/",
+  "story": [
+    "Sarah Hodgson was part of the Police ArcGIS Enterprise implementation team in 2021, according to Duane Wilkins’s account. Locus’s public case study separately identifies her as Police’s Manager Geospatial Intelligence in its account of the 2023 Cyclone Gabrielle response, when FME supported calls-for-service processing and geospatial data integration."
+  ],
+  "sources": [
+    {
+      "label": "Author account supplied by Duane Wilkins, Police ArcGIS Enterprise team, 2021"
+    },
+    {
+      "label": "Locus, How NZ Police Used FME to Power Their Cyclone Gabrielle Emergency Response",
+      "url": "https://locusglobal.com/customer-stories/emergency-disaster/nzpolice_emergency_response/"
+    }
+  ],
+  "aliases": [
+    "Sarah Hodgson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Locus, How NZ Police Used FME to Power Their Cyclone Gabrielle Emergency Response",
+        "url": "https://locusglobal.com/customer-stories/emergency-disaster/nzpolice_emergency_response/"
+      }
+    ]
+  ]
+}

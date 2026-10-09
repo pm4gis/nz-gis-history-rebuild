@@ -1,0 +1,34 @@
+{
+  "id": "linzcap-2026-09-linz-pauses-tertiary-gis-scholarships-for-2027",
+  "dateDisplay": "2026-09",
+  "startDate": "2026-09-01",
+  "datePrecision": "month",
+  "year": 2026,
+  "label": "LINZ pauses tertiary GIS scholarships for 2027",
+  "summary": "LINZ said no applications would be called for the 2027 academic year because of budget constraints, with a reassessment planned in 2027 for possible 2028 scholarships.",
+  "url": "/stories/universities-build-a-field/#from-individual-papers-to-a-national-pathway-a8f3c41256",
+  "passageIds": [
+    "passage:chapter-11-a8f3c41256"
+  ],
+  "recordIds": [
+    "chapter:11"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Studying GIS",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis"
+    }
+  ]
+}

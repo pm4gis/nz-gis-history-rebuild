@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-41-c5ee4518cc",
+  "slug": "standards-meet-local-incentives-c5ee4518cc",
+  "articleId": "article:chapter-41",
+  "title": "Standards meet local incentives",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41",
+    "entity:koordinates",
+    "entity:waimate-district-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "National standards also faced an incentive problem. The benefit of a common schema, metadata profile or feature definition appeared at system level after several organisations adopted it. The cost arrived locally and immediately through staff time, data remodelling, system changes, testing and continuing governance. A council gained little day-to-day value from reshaping a working asset, property or planning dataset solely to satisfy a voluntary national schema unless the exchange solved a problem it already had.",
+      "markdown": "National standards also faced an incentive problem. The benefit of a common schema, metadata profile or feature definition appeared at system level after several organisations adopted it. The cost arrived locally and immediately through staff time, data remodelling, system changes, testing and continuing governance. A council gained little day-to-day value from reshaping a working asset, property or planning dataset solely to satisfy a voluntary national schema unless the exchange solved a problem it already had.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Staffing and GIS capacity differed substantially between participating organisations. The project record spans Christchurch's ten-person GeoData Services product-delivery team and Waimate District Council's single GIS administrator. A national standard could therefore reach one organisation as a specialist team assignment and another as extra work for one person already supporting operational GIS. Under tight FTE constraints, standards work competed with rates, property, assets, planning, emergency response, data maintenance and ordinary map requests.",
+      "markdown": "Staffing and GIS capacity differed substantially between participating organisations. The project record spans Christchurch's ten-person GeoData Services product-delivery team and Waimate District Council's single GIS administrator. A national standard could therefore reach one organisation as a specialist team assignment and another as extra work for one person already supporting operational GIS. Under tight FTE constraints, standards work competed with rates, property, assets, planning, emergency response, data maintenance and ordinary map requests.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Hosted platforms partly reduced that burden by moving standards work into product interfaces, adapters and APIs. The national catalogue could harvest ArcGIS Online metadata; Koordinates could expose several service types from one published dataset; a council could participate through a platform it already used. Publishing tools made standards compliance part of routine work.",
+      "markdown": "Hosted platforms partly reduced that burden by moving standards work into product interfaces, adapters and APIs. The national catalogue could harvest ArcGIS Online metadata; Koordinates could expose several service types from one published dataset; a council could participate through a platform it already used. Publishing tools made standards compliance part of routine work.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "entity:wellington-water",
+  "slug": "wellington-water",
+  "name": "Wellington Water",
+  "kind": "Business",
+  "category": "Local government",
+  "url": "/entities/wellington-water/",
+  "website": null,
+  "story": [
+    "Wellington Water’s network-information workflows depended on spatial data shared with external service users. A 2019 practitioner presentation documents automation of beforeUdig requests using ArcGIS Pro, Python and FME."
+  ],
+  "sources": [
+    {
+      "label": "Rory McPherson, Wellington Water beforeUdig automation presentation",
+      "url": "https://www.eagle.co.nz/sites/default/files/Rory_McPherson.pdf"
+    }
+  ],
+  "aliases": [
+    "Wellington Water"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

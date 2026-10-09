@@ -1,0 +1,38 @@
+{
+  "id": "article:chapter-19",
+  "slug": "rebuilding-the-coordinate-framework",
+  "title": "The national coordinate system",
+  "url": "/stories/rebuilding-the-coordinate-framework/",
+  "summary": "By the early 1990s, New Zealand surveyors could determine positions from satellites with increasing precision, but the national coordinate framework had been built for a different era. The New Zealand Geodetic Datum 1949 had provi",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 19,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch19-note-01",
+      "text": "1. NZGD2000. LINZ standards and period implementation papers by Graeme Blick, Don Grant and other documented geodetic contributors document introduction of NZGD2000 in 1998, alignment to ITRF96 at epoch 2000.0, use of GRS80 and the semi-dynamic deformation model. The datum is semi-dynamic."
+    },
+    {
+      "id": "ch19-note-02",
+      "text": "2. Realisation. LINZ technical material documents the five repeat first-order GPS campaigns between 1992 and 1998, the 29 primary First Order 2000 stations and Peter Morgan's contracted processing work. Named contributors such as Blick, Grant, Merrin Pearse, John Beavan and Chris Crook should remain tied to documented roles rather than being presented as a small founder group."
+    },
+    {
+      "id": "ch19-note-03",
+      "text": "3. NZTM2000. Period LINZ geodetic-system and implementation material documents national mapping adoption in 2001. NZTM2000 is the projection; NZGD2000 is the datum. Transformation into the new framework does not improve the source accuracy of the underlying feature."
+    },
+    {
+      "id": "ch19-note-04",
+      "text": "4. PositioNZ. The 2003 LINZ technical report documents the early permanent-station network, 30-second RINEX distribution and the first-phase North Island station count. LINZ reporting documents one-second streaming trials from 2006, twenty stations streaming around 2010 and the February 2011 LINZ/GNS real-time-network upgrade. The first-station chronology remains unverified."
+    },
+    {
+      "id": "ch19-note-05",
+      "text": "5. Earthquake deformation. The documented Fiordland 15 July 2009 earthquake work by LINZ/GNS contributors describes the local deformation-patch approach. Official LINZ Kaikōura maps, survey guidance and later technical documentation document the 14 November 2016 earthquake, provisional coordinate environments and model revision."
+    },
+    {
+      "id": "ch19-note-06",
+      "text": "6. 2018 updates. LINZ's 14 January 2018 release documents NZGD2000 version 20171201, the approximately 72,700 Landonline parcels updated and NTv2 grids supplied to GIS custodians. The 1 December 2018 update documents the later geodetic refinement and the statement that 98 per cent of Order 5 and better marks had horizontal changes below two centimetres in that update context. That percentage applies to the stated marks, rather than all parcels or GIS features."
+    }
+  ]
+}

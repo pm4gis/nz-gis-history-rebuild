@@ -1,0 +1,27 @@
+{
+  "id": "1985-auckland-gis-course",
+  "dateDisplay": "1985",
+  "startDate": "1985",
+  "datePrecision": "year",
+  "year": 1985,
+  "label": "Senior undergraduate GIS course offered at Auckland",
+  "summary": "University of Auckland Geography offered a senior undergraduate GIS course, providing an early documented date for formal GIS education in New Zealand.",
+  "url": "/stories/when-gis-became-gis/#teaching-gis-e04c029193",
+  "passageIds": [
+    "passage:chapter-6-e04c029193"
+  ],
+  "recordIds": [
+    "entity:university-of-auckland",
+    "chapter:6",
+    "entity:university-of-canterbury",
+    "entity:vector"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "categories": [
+    "education",
+    "professional"
+  ],
+  "sources": []
+}

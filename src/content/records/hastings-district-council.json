@@ -1,0 +1,31 @@
+{
+  "id": "entity:hastings-district-council",
+  "slug": "hastings-district-council",
+  "name": "Hastings District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/hastings-district-council/",
+  "website": "https://www.hastingsdc.govt.nz",
+  "story": [
+    "Hastings District Council was using GenaMap for its Firesim wildfire simulator by 1999. The Hawke’s Bay Region GIS Forum’s 2008 account still identified Hastings as a GenaMap council."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG GISList discussion, The future of the NZ ESRI User Group Conference, including council and Hawke's Bay regional responses"
+    },
+    {
+      "label": "H. Grant Pearce, Review of Fire Growth Simulation Models for Application in New Zealand, Scion Client Report No. 16246",
+      "url": "https://scion.contentdm.oclc.org/digital/api/collection/p20044coll13/id/27/download"
+    }
+  ],
+  "aliases": [
+    "Hastings District Council"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

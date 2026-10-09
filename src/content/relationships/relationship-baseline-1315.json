@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1315",
+  "a": "entity:dunedin-city-council",
+  "b": "chapter:23",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-23-5cf46cdf27"
+  ],
+  "sources": []
+}

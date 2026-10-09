@@ -1,0 +1,25 @@
+{
+  "id": "2014-quantum-map-qgis",
+  "dateDisplay": "2014-10-31",
+  "startDate": "2014-10-31",
+  "datePrecision": "day",
+  "year": 2014,
+  "label": "NIWA Quantum Map functionality merges into QGIS 2.6",
+  "summary": "A New Zealand research organisation's funded functionality moved into the wider open-source desktop project.",
+  "url": "/stories/open-source-changes-the-tools/#qgis-comes-into-view-91d01fe961",
+  "passageIds": [
+    "passage:chapter-32-91d01fe961"
+  ],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "themeIds": [
+    "open-practice"
+  ],
+  "categories": [
+    "open-source",
+    "software",
+    "science"
+  ],
+  "sources": []
+}

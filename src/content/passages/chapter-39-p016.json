@@ -1,0 +1,26 @@
+{
+  "id": "passage:chapter-39-dd9961d631",
+  "slug": "3d-storytelling-for-whenua-dd9961d631",
+  "articleId": "article:chapter-39",
+  "title": "3D storytelling for whenua",
+  "order": 15,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ngā Poutama Matawhenua extended community GIS into 3D visualisation. A 2025 session on Creating 3D Flythroughs and Visual Narratives used LINZ basemaps, topographic maps and historical imagery as material for Māori GIS projects, while the June 2026 Kōrero ā-Mahere session used 3D StoryMaps to combine maps, photographs, data and kōrero. These were practical teaching sessions rather than experimental demonstrations, showing that 3D web tools had become accessible enough to be taught in one-hour online wānanga.",
+      "markdown": "Ngā Poutama Matawhenua extended community GIS into 3D visualisation. A 2025 session on Creating 3D Flythroughs and Visual Narratives used LINZ basemaps, topographic maps and historical imagery as material for Māori GIS projects, while the June 2026 Kōrero ā-Mahere session used 3D StoryMaps to combine maps, photographs, data and kōrero. These were practical teaching sessions rather than experimental demonstrations, showing that 3D web tools had become accessible enough to be taught in one-hour online wānanga.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

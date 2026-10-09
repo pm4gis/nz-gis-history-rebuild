@@ -1,0 +1,31 @@
+{
+  "id": "person:keith-holswich",
+  "slug": "keith-holswich",
+  "name": "Keith Holswich",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/keith-holswich/",
+  "story": [
+    "LINZ’s Ngā Poutama Matawhenua record names Keith Holswich: Ngāti Rāhiri / Te Atiawa / Taranaki; He Kete Mātauranga presenter."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    }
+  ],
+  "aliases": [
+    "Keith Holswich"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Ngā Poutama Matawhenua",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+      }
+    ]
+  ]
+}

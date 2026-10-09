@@ -1,0 +1,16 @@
+{
+  "id": "chapter:38",
+  "articleId": "article:chapter-38",
+  "slug": "mapping-from-a-drone",
+  "name": "Drone mapping",
+  "kind": "Story",
+  "category": "Capturing the landscape",
+  "url": "/stories/mapping-from-a-drone/",
+  "description": "The August 2012 Te Maari eruption left hundreds of ballistic impact craters across part of the Tongariro landscape. New Zealand Aerial Mapping flew LiDAR and aerial imagery over the area in November that year, producing a broad record of the disturbed surface. Several years later, University of Canterbury research returned to a much smaller crater field with a very different acquisition system. A Draganfly X4P unmann",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "imagery"
+  ]
+}

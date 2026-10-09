@@ -1,0 +1,48 @@
+{
+  "id": "person:amy-tay",
+  "slug": "amy-tay",
+  "name": "Amy Tay",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/amy-tay/",
+  "story": [
+    "Women in Spatial + Survey’s committee biography describes Amy Tay’s geospatial consulting on transport and infrastructure projects at Aurecon, including GIS services, FME, data transformation and 3D modelling. The page identifies her as committee secretary when the biography was written; it is not a dated employment record.",
+    "Committee biographies connect the network to different career stages: Amy Tay’s transport and infrastructure consulting, FME and 3D modelling; Georgia Goodsell’s spatial-intelligence work and support for new entrants; Devon Allen’s cadastral and engineering surveying; and student representative Malindi Reihana-Ruka’s interest in working with her community and encouraging other women into the field. The biographies are not date-stamped, so they do not establish current employment or study status. A 2024 recap records lightning talks on tactile mapping, surveying, GIS in schools and data collection."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial + Survey, “The Committee”",
+      "url": "https://womeninspatial.wordpress.com/the-committee/"
+    },
+    {
+      "label": "Amy Tay - Auckland Council | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/amyhwtay"
+    },
+    {
+      "label": "Chapter 29 · New professional networks",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Amy Tay"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Women in Spatial + Survey, “The Committee”",
+        "url": "https://womeninspatial.wordpress.com/the-committee/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · New professional networks",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

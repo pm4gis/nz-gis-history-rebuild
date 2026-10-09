@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0934",
+  "a": "person:justin-fail",
+  "b": "entity:geographic-business-solutions",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

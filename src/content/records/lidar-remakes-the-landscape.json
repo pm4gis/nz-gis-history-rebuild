@@ -1,0 +1,16 @@
+{
+  "id": "chapter:37",
+  "articleId": "article:chapter-37",
+  "slug": "lidar-remakes-the-landscape",
+  "name": "LiDAR mapping",
+  "kind": "Story",
+  "category": "Capturing the landscape",
+  "url": "/stories/lidar-remakes-the-landscape/",
+  "description": "For four days in July 2003, an aircraft crossed Christchurch and part of the adjoining Waimakariri River corridor carrying a laser scanner. Christchurch City Council commissioned the survey, flown by AAM GeoScan from 6 to 9 July. The scanner measured elevation through airborne laser returns, which were processed into a digital model of the ground and objects above it. The survey provides a detailed New Zealand operat",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "imagery"
+  ]
+}

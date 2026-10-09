@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1265",
+  "a": "entity:canterbury-regional-council-environment-canterbury",
+  "b": "chapter:23",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-23-bef81bd90d"
+  ],
+  "sources": []
+}

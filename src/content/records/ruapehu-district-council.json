@@ -1,0 +1,25 @@
+{
+  "id": "entity:ruapehu-district-council",
+  "slug": "ruapehu-district-council",
+  "name": "Ruapehu District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/ruapehu-district-council/",
+  "website": "https://www.ruapehudc.govt.nz",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Ruapehu District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

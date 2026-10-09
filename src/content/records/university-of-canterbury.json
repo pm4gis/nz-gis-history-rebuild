@@ -1,0 +1,28 @@
+{
+  "id": "entity:university-of-canterbury",
+  "slug": "university-of-canterbury",
+  "name": "University of Canterbury",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/university-of-canterbury/",
+  "website": null,
+  "story": [
+    "Canterbury’s computing, engineering and geography work appears across several stages of the history. The MAPPAK thesis records cadastral computer mapping in 1979, while later laboratories and GIS education supported a developing discipline. Postgraduate projects preserved unusually detailed descriptions of software and workflows that might otherwise have disappeared."
+  ],
+  "sources": [
+    {
+      "label": "University of Canterbury Chronicle, New System in Mechanical Engineering / Computer Integrated Manufacturing",
+      "url": "https://digitalvoyages.canterbury.ac.nz/omeka-s/files/original/246d76e45ec62305c029eca025115c3f85b8a92c.pdf"
+    }
+  ],
+  "aliases": [
+    "University of Canterbury"
+  ],
+  "themeIds": [
+    "technology-stack",
+    "profession"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

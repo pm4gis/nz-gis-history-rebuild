@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-3-712fd9e97d",
+  "slug": "analytical-photogrammetry-712fd9e97d",
+  "articleId": "article:chapter-3",
+  "title": "Analytical photogrammetry",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:3",
+    "entity:new-zealand-aerial-mapping"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "New Zealand Aerial Mapping followed another route into digital production. In 1984 the company acquired a Wild BC1 analytical stereoplotter, replacing part of the older optical and mechanical geometry with computer-supported calculation. The operator continued to view overlapping photographs stereoscopically and identify terrain and features, while the analytical instrument calculated the geometry of the stereo model. Measurements could be recorded as coordinates rather than only driving a plotting table.",
+      "markdown": "New Zealand Aerial Mapping followed another route into digital production. In 1984 the company acquired a Wild BC1 analytical stereoplotter, replacing part of the older optical and mechanical geometry with computer-supported calculation. The operator continued to view overlapping photographs stereoscopically and identify terrain and features, while the analytical instrument calculated the geometry of the stereo model. Measurements could be recorded as coordinates rather than only driving a plotting table.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Ground control, image orientation and visual interpretation remained with the photogrammetrist. Roads, rivers, buildings, ridges and terrain still had to be identified by an operator. The measured result, however, could move directly into a digital production chain instead of first becoming linework on a cartographic manuscript.",
+      "markdown": "Ground control, image orientation and visual interpretation remained with the photogrammetrist. Roads, rivers, buildings, ridges and terrain still had to be identified by an operator. The measured result, however, could move directly into a digital production chain instead of first becoming linework on a cartographic manuscript.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 1988, seven analogue stereoplotters had been fitted with GeoVision equipment to support digital mapping. Contemporary reporting describes their use for structured urban land bases, local-authority and utility work, forestry datasets, line-of-sight profiles and other products intended for CAD or GIS use. Existing analogue equipment was therefore being adapted rather than discarded. Digital coordinate capture was added to a production environment that still depended on established instruments and operator skills.",
+      "markdown": "By 1988, seven analogue stereoplotters had been fitted with GeoVision equipment to support digital mapping. Contemporary reporting describes their use for structured urban land bases, local-authority and utility work, forestry datasets, line-of-sight profiles and other products intended for CAD or GIS use. Existing analogue equipment was therefore being adapted rather than discarded. Digital coordinate capture was added to a production environment that still depended on established instruments and operator skills.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The arrangement produced a hybrid workplace. Optical and mechanical equipment remained in use while computers handled increasing amounts of geometry, storage and output. A measurement extracted from a stereo model could be delivered as a coordinate or structured digital feature rather than as a line that another person later had to digitise from paper. This reduced one conversion step between aerial survey and downstream computer systems.",
+      "markdown": "The arrangement produced a hybrid workplace. Optical and mechanical equipment remained in use while computers handled increasing amounts of geometry, storage and output. A measurement extracted from a stereo model could be delivered as a coordinate or structured digital feature rather than as a line that another person later had to digitise from paper. This reduced one conversion step between aerial survey and downstream computer systems.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

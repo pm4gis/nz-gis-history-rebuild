@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0789",
+  "a": "person:jon-tunnicliffe",
+  "b": "chapter:38",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-38-fb6060a98b"
+  ],
+  "sources": []
+}

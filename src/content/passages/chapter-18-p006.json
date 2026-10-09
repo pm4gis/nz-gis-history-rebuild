@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-18-35ef672bb3",
+  "slug": "the-signal-gets-better-35ef672bb3",
+  "articleId": "article:chapter-18",
+  "title": "The signal gets better",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "One obstacle to ordinary civilian GPS during the 1990s came from the system itself. The United States deliberately degraded the public signal through Selective Availability. The effect applied globally. It did not prevent precise professional surveying because relative, carrier-phase and differential methods could remove or reduce much of the error, but it made a cheap stand-alone receiver far less accurate than later users would consider normal.",
+      "markdown": "One obstacle to ordinary civilian GPS during the 1990s came from the system itself. The United States deliberately degraded the public signal through Selective Availability. The effect applied globally. It did not prevent precise professional surveying because relative, carrier-phase and differential methods could remove or reduce much of the error, but it made a cheap stand-alone receiver far less accurate than later users would consider normal.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The United States switched Selective Availability off on 1 May 2000. Contemporary official material predicted an improvement in basic civilian positioning from roughly a 100-metre specification to around 20 metres, with real performance often better. Test data published after the change showed an immediate large reduction in positional scatter. Existing receivers gained the improvement without needing to be replaced.",
+      "markdown": "The United States switched Selective Availability off on 1 May 2000. Contemporary official material predicted an improvement in basic civilian positioning from roughly a 100-metre specification to around 20 metres, with real performance often better. Test data published after the change showed an immediate large reduction in positional scatter. Existing receivers gained the improvement without needing to be replaced.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Differential positioning remained essential for surveyors, precision farmers, hydrographers and other users needing metre, sub-metre or centimetre results. The floor shifted instead. An inexpensive receiver that had previously been most useful for broad navigation could now place itself closely enough for many mapping, asset and field tasks. That widened the set of jobs for which a GPS coordinate was worth collecting.",
+      "markdown": "Differential positioning remained essential for surveyors, precision farmers, hydrographers and other users needing metre, sub-metre or centimetre results. The floor shifted instead. An inexpensive receiver that had previously been most useful for broad navigation could now place itself closely enough for many mapping, asset and field tasks. That widened the set of jobs for which a GPS coordinate was worth collecting.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "It also changed expectations. A decade earlier, a survey-quality GPS setup had been conspicuous equipment on a hilltop. After 2000, a much smaller unit could provide a field worker with a useful stand-alone position as part of an ordinary work process. The transition from survey instrument to general positioning component was underway.",
+      "markdown": "It also changed expectations. A decade earlier, a survey-quality GPS setup had been conspicuous equipment on a hilltop. After 2000, a much smaller unit could provide a field worker with a useful stand-alone position as part of an ordinary work process. The transition from survey instrument to general positioning component was underway.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

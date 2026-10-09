@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-34-55a033c645",
+  "slug": "field-reality-corrects-the-database-55a033c645",
+  "articleId": "article:chapter-34",
+  "title": "Field reality corrects the database",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Across these examples the most persistent contribution of mobile GIS is the closing of a loop. The office system tells the worker what the organisation thinks is at a place. The worker goes there and sees what is actually present. The field observation then changes the system that guided the visit. This sounds simple, but it shifts the database from being a product maintained mainly by GIS staff to being an operational record maintained through the work itself.",
+      "markdown": "Across these examples the most persistent contribution of mobile GIS is the closing of a loop. The office system tells the worker what the organisation thinks is at a place. The worker goes there and sees what is actually present. The field observation then changes the system that guided the visit. This sounds simple, but it shifts the database from being a product maintained mainly by GIS staff to being an operational record maintained through the work itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The North Shore flow-path pilot showed this clearly by taking a modelled result back to the street. Utility work did it by taking asset records back to poles, cables and transformers. Conservation and environmental work did it whenever field observations were compared with existing mapped features. The more immediate that return path became, the less sense it made to treat “the GIS database” as something created only in an office mapping unit.",
+      "markdown": "The North Shore flow-path pilot showed this clearly by taking a modelled result back to the street. Utility work did it by taking asset records back to poles, cables and transformers. Conservation and environmental work did it whenever field observations were compared with existing mapped features. The more immediate that return path became, the less sense it made to treat “the GIS database” as something created only in an office mapping unit.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The loop also exposed disagreements between mapped data and local knowledge more quickly. A field worker could see that an asset was missing, a track had shifted, an access point was wrong or a feature’s condition had changed. Mobile GIS did not solve the institutional question of who was allowed to declare the new information authoritative. It did make the disagreement visible at the point where it could be checked.",
+      "markdown": "The loop also exposed disagreements between mapped data and local knowledge more quickly. A field worker could see that an asset was missing, a track had shifted, an access point was wrong or a feature’s condition had changed. Mobile GIS did not solve the institutional question of who was allowed to declare the new information authoritative. It did make the disagreement visible at the point where it could be checked.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

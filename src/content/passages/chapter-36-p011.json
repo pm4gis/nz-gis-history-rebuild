@@ -1,0 +1,27 @@
+{
+  "id": "passage:chapter-36-b7e270eebf",
+  "slug": "seeing-through-cloud-b7e270eebf",
+  "articleId": "article:chapter-36",
+  "title": "Seeing through cloud",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Optical imagery still carries one stubborn New Zealand limitation. Cloud is not impressed by a project deadline. Repeated coverage increases the chance of finding useful optical observations, but a wet season or mountainous region can still frustrate attempts to build a clean time series. Synthetic-aperture radar offers a different observing method. Sentinel-1 actively transmits microwave energy and measures the return, allowing it to acquire data at night and through cloud that blocks ordinary optical imagery.",
+      "markdown": "Optical imagery still carries one stubborn New Zealand limitation. Cloud is not impressed by a project deadline. Repeated coverage increases the chance of finding useful optical observations, but a wet season or mountainous region can still frustrate attempts to build a clean time series. Synthetic-aperture radar offers a different observing method. Sentinel-1 actively transmits microwave energy and measures the return, allowing it to acquire data at night and through cloud that blocks ordinary optical imagery.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Radar observations support surface-change, moisture, flood, maritime and deformation analysis. By the Sentinel era, New Zealand practitioners could obtain both optical multispectral and radar observations. The cases described here used optical imagery.",
+      "markdown": "Radar observations support surface-change, moisture, flood, maritime and deformation analysis. By the Sentinel era, New Zealand practitioners could obtain both optical multispectral and radar observations. The cases described here used optical imagery.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

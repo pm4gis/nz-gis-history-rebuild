@@ -1,0 +1,44 @@
+{
+  "id": "article:chapter-35",
+  "slug": "the-map-becomes-an-application",
+  "title": "Mapping applications",
+  "url": "/stories/the-map-becomes-an-application/",
+  "summary": "For much of GIS history, using GIS meant seeing GIS. A specialist sat at a workstation surrounded by layers, toolbars, coordinate systems and query functions. When GIS moved into browsers around the turn of the century, much of th",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 35,
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch35-note-01",
+      "text": "1. The sources cover early browser GIS and later applications configured for particular tasks. PHEW!, Census WebMap, council viewers and DOCgis establish browser delivery; Chapter 35 concentrates on systems in which the user encounters a purpose-built task rather than a traditional GIS interface."
+    },
+    {
+      "id": "ch35-note-02",
+      "text": "2. New Zealand Police official records support policedata.nz launching on 30 November 2016 and moving from Flash to HTML on 31 October 2017, with later mobile-friendly reporting. Privacy and anonymisation controls distinguish the public application from internal operational Police GIS."
+    },
+    {
+      "id": "ch35-note-03",
+      "text": "3. The 2020 Manaaki technical record already controlled in Chapter 27 supports Survey123 Connect data entry, ArcGIS Online feature layers, user-specific visibility, daily extract/backup, web maps, applications and dashboards. Chapter 35 uses this evidence only for application architecture and user experience; the health/community-response history remains in Chapter 27."
+    },
+    {
+      "id": "ch35-note-04",
+      "text": "4. LRIS can be used here as an example of a portal/application that organises spatial data for a user task, while Chapter 33 remains the principal home of its open-data significance."
+    },
+    {
+      "id": "ch35-note-05",
+      "text": "5. StoryMaps, dashboards, portals and specialised viewers should be described as application forms only where the evidence supports the particular product and date. The chapter does not claim that every user-facing map had become an application by a single transition year."
+    },
+    {
+      "id": "ch35-note-06",
+      "text": "6. Enterprise architecture, cloud hosting and service/API delivery are discussed in Chapters 40 and 41."
+    },
+    {
+      "id": "ch35-note-s-map-and-our-environment-2011",
+      "text": "Sources: Landcare Research press release, National soils data now available online, 29 August 2011 (https://www.scoop.co.nz/stories/SC1108/S00076/national-soils-data-now-available-online.htm); New Zealand Cartographic Society, Cartographic Activities in New Zealand 2011–2015, printed pp.11–12: August and December 2011 releases and LINZ-derived basemaps (https://icaci.org/files/documents/national_reports/2011-2015/new_zealand.pdf); Landcare Research, Soil Horizons 20, September 2011, printed pp.4–5: LRIS Portal and S-map Online (https://www.landcareresearch.co.nz/assets/Publications/Soil-Horizons/Soil_Horizons_20.pdf); Our Environment, About this site: version 1 launched in 2011 and Informatics team (https://ourenvironment.scinfo.org.nz/help/about); David Medyckyj-Scott, contributor account supplied by Duane Wilkins, 5 October 2026; David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016 (https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf)."
+    }
+  ]
+}

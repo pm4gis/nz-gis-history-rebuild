@@ -1,0 +1,27 @@
+{
+  "id": "2022-critchlow-apsea-award",
+  "dateDisplay": "2022-05-25",
+  "startDate": "2022-05-25",
+  "datePrecision": "day",
+  "year": 2022,
+  "label": "SwitchMyFleet wins the Asia-Pacific Technical Excellence award",
+  "summary": "Critchlow’s fleet-planning tool received the SIBA|GITA Technical Excellence award at the 2022 Asia-Pacific Spatial Excellence Awards.",
+  "url": "/stories/an-industry-and-community-form/#a-mixed-software-market-75032ec60f",
+  "passageIds": [
+    "passage:chapter-12-75032ec60f"
+  ],
+  "recordIds": [
+    "entity:critchlow",
+    "chapter:12",
+    "entity:custom-software-quickmap",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "themeIds": [],
+  "categories": [
+    "business",
+    "award",
+    "route-optimisation"
+  ],
+  "sources": []
+}

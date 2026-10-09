@@ -1,0 +1,55 @@
+{
+  "id": "person:serge-peeters",
+  "slug": "serge-peeters",
+  "name": "Serge Peeters",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/serge-peeters/",
+  "story": [
+    "Serge Peeters's consulting work includes asset data for three-waters reticulation networks. His professional profile records work at M&P Consulting, study at the University of the Witwatersrand and volunteer GIS service beginning in April 2014. That volunteer work included the little blue penguin project on Matiu/Somes Island.",
+    "Serge Peeters provided volunteer mapping support through New Zealand GIS in Conservation. DOC’s June 2020 account describes his maps of kororā nests on Matiu/Somes Island and, from 2016, work with Places for Penguins around Miramar. He developed a dashboard combining nest occupancy, chicks and predator-trapping results. The information also supported council works planning and preparation for possible oil spills.",
+    "A contemporary November 2005 report records Jack Dangermond in Wellington to mark the tenth anniversary of the annual New Zealand Esri User Group conference, and Serge Peeters later recorded his 31 October 2006 presentation as part of the 11th Annual conference. The first meeting was held in 1995, followed by the numbered annual conference sequence from 1996."
+  ],
+  "sources": [
+    {
+      "label": "Department of Conservation, Kororā getting a helping hand with GIS, 5 June 2020",
+      "url": "https://blog.doc.govt.nz/2020/06/05/korora-getting-a-helping-hand-with-gis/"
+    },
+    {
+      "label": "Serge Peeters - M&P Consulting Ltd | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/sergepeetersgeospatial"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Serge Peeters"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Serge Peeters - M&P Consulting Ltd | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/sergepeetersgeospatial"
+      }
+    ],
+    [
+      {
+        "label": "Department of Conservation, Kororā getting a helping hand with GIS, 5 June 2020",
+        "url": "https://blog.doc.govt.nz/2020/06/05/korora-getting-a-helping-hand-with-gis/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:lex-chalmers",
+  "slug": "lex-chalmers",
+  "name": "Lex Chalmers",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/lex-chalmers/",
+  "story": [
+    "Lex Chalmers at the University of Waikato supported GIS use in schools. A 2004 Esri education conference paper describes him and Kim Green running teacher workshops in the Waikato region and answering teachers’ GIS queries. This work brought university expertise into classroom practice.",
+    "Duane Wilkins credits Lex Chalmers with encouragement during his first Waikato District Council project in the summer following 1997. That project examined land fragmentation and soil degradation at Tamahere, south of Hamilton."
+  ],
+  "sources": [
+    {
+      "label": "Esri Education User Conference 2004 paper, GIS in New Zealand schools",
+      "url": "https://proceedings.esri.com/library/userconf/educ04/papers/pap5097.pdf"
+    },
+    {
+      "label": "Preface · Preface",
+      "url": "/preface/"
+    }
+  ],
+  "aliases": [
+    "Lex Chalmers"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Esri Education User Conference 2004 paper, GIS in New Zealand schools",
+        "url": "https://proceedings.esri.com/library/userconf/educ04/papers/pap5097.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Preface · Preface",
+        "url": "/preface/"
+      }
+    ]
+  ]
+}

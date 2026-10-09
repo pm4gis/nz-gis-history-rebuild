@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-42-3eae32241d",
+  "slug": "imagery-after-the-ground-changes-3eae32241d",
+  "articleId": "article:chapter-42",
+  "title": "Imagery after the ground changes",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Emergencies also change the value of imagery. Under normal conditions a council or national agency can plan an aerial survey, process it carefully and replace an older image set on an orderly cycle. After a major event, the older image may be precisely registered and completely misleading. A road visible in the database may be buried. A coastline may have moved. A bridge may no longer exist. The question becomes how quickly a new observation can be acquired, processed and made usable.",
+      "markdown": "Emergencies also change the value of imagery. Under normal conditions a council or national agency can plan an aerial survey, process it carefully and replace an older image set on an orderly cycle. After a major event, the older image may be precisely registered and completely misleading. A road visible in the database may be buried. A coastline may have moved. A bridge may no longer exist. The question becomes how quickly a new observation can be acquired, processed and made usable.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Rapid imagery still involved acquisition, processing and delivery time. Aerial photographs still need aircraft, weather, acquisition, photogrammetric processing and distribution. LiDAR needs its own flight, processing and quality controls. Satellite imagery depends on overpass timing, cloud and the characteristics of the sensor. UAV surveys have local advantages but still need safe access and processing. Acquisition systems could be mobilised after an event and feed web services and operational workflows during response or recovery.",
+      "markdown": "Rapid imagery still involved acquisition, processing and delivery time. Aerial photographs still need aircraft, weather, acquisition, photogrammetric processing and distribution. LiDAR needs its own flight, processing and quality controls. Satellite imagery depends on overpass timing, cloud and the characteristics of the sensor. UAV surveys have local advantages but still need safe access and processing. Acquisition systems could be mobilised after an event and feed web services and operational workflows during response or recovery.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Canterbury demonstrated the long-term value of event-driven capture because pre- and post-earthquake datasets could be compared as the region changed. The July 2003 Christchurch LiDAR described in Chapter 37 became unexpectedly valuable as a pre-earthquake baseline years after it had been commissioned for ordinary council purposes. Disaster mapping often gives older spatial data a second life. A dataset collected for flood modelling, engineering or routine imagery can become the reference against which sudden physical change is measured.",
+      "markdown": "Canterbury demonstrated the long-term value of event-driven capture because pre- and post-earthquake datasets could be compared as the region changed. The July 2003 Christchurch LiDAR described in Chapter 37 became unexpectedly valuable as a pre-earthquake baseline years after it had been commissioned for ordinary council purposes. Disaster mapping often gives older spatial data a second life. A dataset collected for flood modelling, engineering or routine imagery can become the reference against which sudden physical change is measured.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

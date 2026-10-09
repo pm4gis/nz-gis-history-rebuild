@@ -1,0 +1,50 @@
+{
+  "id": "person:geoff-patterson",
+  "slug": "geoff-patterson",
+  "name": "Geoff Patterson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/geoff-patterson/",
+  "story": [
+    "Geoff Patterson developed ARDS in dBase II in 1987 and, with Duncan Cunningham, BIOSITE using Oracle in 1993.",
+    "Geoff Patterson developed the Amphibian and Reptile Distribution Scheme in dBase II in 1987, when responsibility for it passed to DOC."
+  ],
+  "sources": [
+    {
+      "label": "DOC, Amphibian and Reptile Distribution Scheme: database development chronology",
+      "url": "https://www.doc.govt.nz/our-work/reptiles-and-frogs-distribution/atlas/species-sightings-and-data-management/what-is-the-ard-scheme/"
+    },
+    {
+      "label": "Chapter 26 · Species records, 1987–1993",
+      "url": "/stories/conservation-and-environment/"
+    }
+  ],
+  "aliases": [
+    "Geoff Patterson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "DOC, Amphibian and Reptile Distribution Scheme: database development chronology",
+        "url": "https://www.doc.govt.nz/our-work/reptiles-and-frogs-distribution/atlas/species-sightings-and-data-management/what-is-the-ard-scheme/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 26 · Species records, 1987–1993",
+        "url": "/stories/conservation-and-environment/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Species records, 1987–1993",
+      "url": "/stories/conservation-and-environment/"
+    }
+  ]
+}

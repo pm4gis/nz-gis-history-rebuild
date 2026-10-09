@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-9-142ed9a70b",
+  "slug": "across-the-sheet-edge-142ed9a70b",
+  "articleId": "article:chapter-9",
+  "title": "Across the sheet edge",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:9"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A national geological series also exposed problems that were less obvious when individual sheets were treated largely on their own. Geological units did not stop at the edge of a map sheet, and the interpretation made by one compilation team had to remain compatible with work on the adjoining sheet. Names, codes and ages needed to be reconciled well enough that a unit crossing a sheet boundary did not become two unrelated database records simply because it had been mapped at different times.",
+      "markdown": "A national geological series also exposed problems that were less obvious when individual sheets were treated largely on their own. Geological units did not stop at the edge of a map sheet, and the interpretation made by one compilation team had to remain compatible with work on the adjoining sheet. Names, codes and ages needed to be reconciled well enough that a unit crossing a sheet boundary did not become two unrelated database records simply because it had been mapped at different times.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS made those inconsistencies easier to detect. Adjacent datasets could be viewed together, edge geometry could be compared and attributes could be checked across the boundary. The correction still depended on geological judgement, especially where the source mapping differed or new field evidence had changed the interpretation. The computer could identify that two lines failed to meet or two codes differed; it could not decide which geological interpretation was better.",
+      "markdown": "GIS made those inconsistencies easier to detect. Adjacent datasets could be viewed together, edge geometry could be compared and attributes could be checked across the boundary. The correction still depended on geological judgement, especially where the source mapping differed or new field evidence had changed the interpretation. The computer could identify that two lines failed to meet or two codes differed; it could not decide which geological interpretation was better.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This national production work required a degree of standardisation that was less pressing in one-off research maps. Feature classes, naming conventions, map-unit descriptions and database structures had to be consistent enough for data to move between sheets and later be assembled nationally. Standardisation did not remove regional geological complexity. It provided a common structure in which that complexity could be stored without every new user having to reconstruct the meaning of the data from the printed legend alone.",
+      "markdown": "This national production work required a degree of standardisation that was less pressing in one-off research maps. Feature classes, naming conventions, map-unit descriptions and database structures had to be consistent enough for data to move between sheets and later be assembled nationally. Standardisation did not remove regional geological complexity. It provided a common structure in which that complexity could be stored without every new user having to reconstruct the meaning of the data from the printed legend alone.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

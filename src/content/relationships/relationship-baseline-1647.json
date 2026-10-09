@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1647",
+  "a": "person:lars-brabyn",
+  "b": "chapter:27",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-27-73a6354dbb"
+  ],
+  "sources": []
+}

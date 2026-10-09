@@ -1,0 +1,35 @@
+{
+  "id": "1996-abley-crossings-project",
+  "dateDisplay": "1996",
+  "startDate": "1996",
+  "datePrecision": "year",
+  "year": 1996,
+  "label": "Steve Abley maps Christchurch pedestrian crossings",
+  "summary": "Abley’s company history dates its origin to a final-year university project for Christchurch City Council. A transport consultancy followed in 2003.",
+  "url": "/stories/an-industry-and-community-form/#a-consultancy-appears-b51b8936ec",
+  "passageIds": [
+    "passage:chapter-12-b51b8936ec"
+  ],
+  "recordIds": [
+    "entity:abley",
+    "chapter:12",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:geographic-business-solutions",
+    "entity:splice-group",
+    "entity:terralink",
+    "person:steve-abley",
+    "person:beryl-pimblott",
+    "person:harley-prowse",
+    "person:tony-elson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "industry",
+    "local-government",
+    "transport",
+    "gis"
+  ],
+  "sources": []
+}

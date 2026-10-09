@@ -1,0 +1,31 @@
+{
+  "id": "person:alaina-dalzell",
+  "slug": "alaina-dalzell",
+  "name": "Alaina Dalzell",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/alaina-dalzell/",
+  "story": [
+    "Alaina Dalzell of Transpower presented a 2017 conference lightning talk on improving data quality by georeferencing substation assets. The example puts a named practitioner behind the continuing work of aligning utility asset records with reliable spatial locations."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Alaina Dalzell"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

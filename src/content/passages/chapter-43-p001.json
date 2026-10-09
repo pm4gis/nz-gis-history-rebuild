@@ -1,0 +1,43 @@
+{
+  "id": "passage:chapter-43-3a10af3db4",
+  "slug": "the-repetitive-job-3a10af3db4",
+  "articleId": "article:chapter-43",
+  "title": "The repetitive job",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43",
+    "entity:locus",
+    "entity:traverse-seamless",
+    "person:bruce-harold",
+    "person:greg-bennett",
+    "person:john-arnerich",
+    "person:sam-drummond"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "GIS has always involved repetition. A dataset arrives, its coordinate system is checked, unwanted records are removed, fields are joined, geometry is processed, a map is produced, and the result is exported. Early practitioners could perform every one of those steps manually, and often did. The problem appeared when the same sequence had to be repeated for another district, another month, another disease, another map sheet or another delivery cycle. Automation began when practitioners stopped treating each run as a fresh series of clicks and started encoding part of the sequence so the computer could repeat it according to defined rules.",
+      "markdown": "GIS has always involved repetition. A dataset arrives, its coordinate system is checked, unwanted records are removed, fields are joined, geometry is processed, a map is produced, and the result is exported. Early practitioners could perform every one of those steps manually, and often did. The problem appeared when the same sequence had to be repeated for another district, another month, another disease, another map sheet or another delivery cycle. Automation began when practitioners stopped treating each run as a fresh series of clicks and started encoding part of the sequence so the computer could repeat it according to defined rules.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That change was less dramatic than a new map on a screen, but it altered the work. The manual operator spent time carrying out each transformation. The automated workflow shifted effort towards deciding what the transformation should do, setting parameters, checking inputs, dealing with exceptions and deciding whether the output was good enough to use. Automation could process more information and make repeated work more consistent, but it also made an error easier to reproduce. A wrong assumption embedded in a script is admirably tireless. It will make the same mistake at three in the morning without becoming bored, suspicious or embarrassed. The operator’s job therefore moved from repeating the clicks to knowing when not to trust the result.",
+      "markdown": "That change was less dramatic than a new map on a screen, but it altered the work. The manual operator spent time carrying out each transformation. The automated workflow shifted effort towards deciding what the transformation should do, setting parameters, checking inputs, dealing with exceptions and deciding whether the output was good enough to use. Automation could process more information and make repeated work more consistent, but it also made an error easier to reproduce. A wrong assumption embedded in a script is admirably tireless. It will make the same mistake at three in the morning without becoming bored, suspicious or embarrassed. The operator’s job therefore moved from repeating the clicks to knowing when not to trust the result.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "John Arnerich’s November 2025 retrospective traces Locus to GPS-phone experiments discussed in 2000, followed a few years later by FME. His account names Rotorua Lakes and Greg Bennett as early supporters and recalls Bruce Harold’s encouragement, adding people and working relationships to the software’s adoption history.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Sam Drummond’s November 2025 anniversary account describes ten years of Traverse and Seamless. The business concentrated on information moving between systems, including those used by councils and electricity distributors. Its history follows the growth of specialist integration services as geographic information became part of wider organisational workflows.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

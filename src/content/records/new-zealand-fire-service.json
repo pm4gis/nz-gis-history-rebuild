@@ -1,0 +1,25 @@
+{
+  "id": "entity:new-zealand-fire-service",
+  "slug": "new-zealand-fire-service",
+  "name": "New Zealand Fire Service",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/new-zealand-fire-service/",
+  "website": null,
+  "story": [
+    "The Fire Service used geographic information to investigate risk, station locations and response coverage. Its 2000–01 annual reporting documents a TransCAD resource-allocation model using population and other risk information. The modelling task concerned how resources were distributed and the travel required to reach incidents."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Fire Service Commission, Annual Report for the year ended 30 June 2001",
+      "url": "https://www.fireandemergency.nz/assets/Documents/About-FENZ/Key-documents/NZFS-Annual-Report-2001.pdf"
+    }
+  ],
+  "aliases": [
+    "New Zealand Fire Service"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

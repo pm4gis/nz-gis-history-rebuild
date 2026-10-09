@@ -1,0 +1,25 @@
+{
+  "id": "entity:new-zealand-ecological-restoration-network",
+  "slug": "new-zealand-ecological-restoration-network",
+  "name": "New Zealand Ecological Restoration Network",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/new-zealand-ecological-restoration-network/",
+  "website": null,
+  "story": [
+    "NZERN’s Pipi programme supported community restoration projects through shared information and later GIS and web mapping. Mike Peters’ technical archive records the development plan and subsequent experience. The project connects volunteer conservation work with databases, ArcIMS, ArcSDE and the effort involved in maintaining a shared information service."
+  ],
+  "sources": [
+    {
+      "label": "Mike Peters, Pipi 4 / NZERN GIS history and NZ Esri User Conference recollection",
+      "url": "https://www.blog.ajabbi.com/search/label/open-source"
+    }
+  ],
+  "aliases": [
+    "New Zealand Ecological Restoration Network"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

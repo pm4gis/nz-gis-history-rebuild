@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-8-c1774fb8be",
+  "slug": "the-forest-service-disappears-c1774fb8be",
+  "articleId": "article:chapter-8",
+  "title": "The forest service disappears",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:8",
+    "entity:new-zealand-forest-service"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The institutional setting changed abruptly in 1987 when the New Zealand Forest Service was disestablished. Plantation and commercial functions were moved into new corporate arrangements while conservation responsibilities were redistributed elsewhere. Staff, paper records, computer files and inventory systems did not all move through that reorganisation in the same way.",
+      "markdown": "The institutional setting changed abruptly in 1987 when the New Zealand Forest Service was disestablished. Plantation and commercial functions were moved into new corporate arrangements while conservation responsibilities were redistributed elsewhere. Staff, paper records, computer files and inventory systems did not all move through that reorganisation in the same way.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A later Westland research project records one particularly stark case. In 1986 an inventory database used by the study had been stored on a New Zealand Forest Service computer. After the Forest Service was dissolved, the computer files could no longer be found. The surviving material consisted of one private copy of a database printout and one map showing the inventory plot locations.",
+      "markdown": "A later Westland research project records one particularly stark case. In 1986 an inventory database used by the study had been stored on a New Zealand Forest Service computer. After the Forest Service was dissolved, the computer files could no longer be found. The surviving material consisted of one private copy of a database printout and one map showing the inventory plot locations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The later researchers re-entered the inventory into GIS so the records could again be linked to spatial survey information. In this case, paper records survived the loss of the digital dataset. The available account concerns this inventory alone. A computer file was only durable if somebody retained the system, media, documentation and responsibility needed to preserve it.",
+      "markdown": "The later researchers re-entered the inventory into GIS so the records could again be linked to spatial survey information. In this case, paper records survived the loss of the digital dataset. The available account concerns this inventory alone. A computer file was only durable if somebody retained the system, media, documentation and responsibility needed to preserve it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Westland inventory shows how an organisational change could separate a database from the computer and staff needed to use it. Paper was awkward to query and expensive to copy, but the retained printout and map allowed researchers to reconstruct the inventory in GIS.",
+      "markdown": "The Westland inventory shows how an organisational change could separate a database from the computer and staff needed to use it. Paper was awkward to query and expensive to copy, but the retained printout and map allowed researchers to reconstruct the inventory in GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

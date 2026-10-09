@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-13-52e69de113",
+  "slug": "a-department-is-split-52e69de113",
+  "articleId": "article:chapter-13",
+  "title": "A department is split",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13",
+    "entity:terralink"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Institutional change arrived before the next technical system was ready. On 1 July 1996 the Department of Survey and Land Information was divided. Land Information New Zealand was created as a government department responsible for core Crown land-information and regulatory functions, while commercial mapping and land-information activities moved to Terralink. The similarly named ‘old LINZ’ standards advisory body that had existed from 1987 was a different organisation and was dissolved during the restructuring.",
+      "markdown": "Institutional change arrived before the next technical system was ready. On 1 July 1996 the Department of Survey and Land Information was divided. Land Information New Zealand was created as a government department responsible for core Crown land-information and regulatory functions, while commercial mapping and land-information activities moved to Terralink. The similarly named ‘old LINZ’ standards advisory body that had existed from 1987 was a different organisation and was dissolved during the restructuring.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For the cadastre, the division separated public authority from some of the commercial machinery around production and distribution. LINZ retained responsibility for the survey and title systems and the standards that underpinned them. Terralink carried commercial mapping, data and production capability into the new structure and became involved in major conversion work. Customers could encounter Crown data through commercial channels, but the commercial supplier did not thereby become the cadastral authority.",
+      "markdown": "For the cadastre, the division separated public authority from some of the commercial machinery around production and distribution. LINZ retained responsibility for the survey and title systems and the standards that underpinned them. Terralink carried commercial mapping, data and production capability into the new structure and became involved in major conversion work. Customers could encounter Crown data through commercial channels, but the commercial supplier did not thereby become the cadastral authority.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The split also occurred just as the limitations of the existing digital arrangement were becoming harder to ignore. DCDB had solved the enormous problem of creating a national parcel framework, but it had not integrated every survey and title process into one electronic environment. Paper plans and legal records still carried information that the parcel database alone could not replace. A digital cadastre existed. The next task was to rebuild the surrounding land-information system around digital records and transactions.",
+      "markdown": "The split also occurred just as the limitations of the existing digital arrangement were becoming harder to ignore. DCDB had solved the enormous problem of creating a national parcel framework, but it had not integrated every survey and title process into one electronic environment. Paper plans and legal records still carried information that the parcel database alone could not replace. A digital cadastre existed. The next task was to rebuild the surrounding land-information system around digital records and transactions.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

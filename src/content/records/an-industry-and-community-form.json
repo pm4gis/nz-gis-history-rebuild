@@ -1,0 +1,17 @@
+{
+  "id": "chapter:12",
+  "articleId": "article:chapter-12",
+  "slug": "an-industry-and-community-form",
+  "name": "Companies and user groups",
+  "kind": "Story",
+  "category": "Early GIS",
+  "url": "/stories/an-industry-and-community-form/",
+  "description": "By the early 1990s, buying GIS software was only the opening bid. The demonstration was often the easy part. An organisation still needed computers capable of running it, data in a usable format, someone who understood the installation, people to convert existing maps and records, training for users, and support when the whole arrangement stopped behaving as the demonstration had promised. New Zealand suppliers and c",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "women-in-gis",
+    "profession"
+  ]
+}

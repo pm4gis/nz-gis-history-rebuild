@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1439",
+  "a": "entity:traverse-seamless",
+  "b": "chapter:15",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-15-f5ce4f99a7"
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1197",
+  "a": "system:downer-grail",
+  "b": "chapter:25",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

@@ -9,14 +9,18 @@ export async function getStaticPaths() {
 }
 
 const { articleId } = Astro.props;
-const [articleEntries, passageEntries, recordEntries, eventEntries, relationshipEntries, themeEntries] = await Promise.all([
+const [articleEntries, passageEntries, recordEntries, eventEntries, relationshipEntries, themeEntries, imageEntries] = await Promise.all([
   getCollection("articles"), getCollection("passages"), getCollection("records"), getCollection("events"),
-  getCollection("relationships"), getCollection("themes"),
+  getCollection("relationships"), getCollection("themes"), getCollection("images"),
 ]);
-const article = articleEntries.find((entry) => entry.data.id === articleId)?.data;
+const publishedArticles = articleEntries.map((entry) => entry.data).filter((item) => item.status === "published").sort((a, b) => (a.readingOrder ?? Number.MAX_SAFE_INTEGER) - (b.readingOrder ?? Number.MAX_SAFE_INTEGER) || a.title.localeCompare(b.title));
+const articleIndex = publishedArticles.findIndex((item) => item.id === articleId);
+const article = articleIndex >= 0 ? publishedArticles[articleIndex] : undefined;
 const passages = passageEntries.map((entry) => entry.data).filter((passage) => passage.articleId === articleId).sort((a, b) => a.order - b.order);
+const previousArticle = articleIndex > 0 ? publishedArticles[articleIndex - 1] : undefined;
+const nextArticle = articleIndex >= 0 ? publishedArticles[articleIndex + 1] : undefined;
 ---
 
 {article ? <SiteLayout title={article.title + " — A History of GIS in New Zealand"} description={article.summary}>
-  <StoryReader article={article} passages={passages} themes={themeEntries.map((entry) => entry.data)} records={recordEntries.map((entry) => entry.data)} events={eventEntries.map((entry) => entry.data)} relationships={relationshipEntries.map((entry) => entry.data)} />
+  <StoryReader article={article} passages={passages} themes={themeEntries.map((entry) => entry.data)} records={recordEntries.map((entry) => entry.data)} events={eventEntries.map((entry) => entry.data)} relationships={relationshipEntries.map((entry) => entry.data)} images={imageEntries.map((entry) => entry.data)} previousArticle={previousArticle} nextArticle={nextArticle} />
 </SiteLayout> : <SiteLayout title="Story not found — A History of GIS in New Zealand"><section class="not-found"><p class="eyebrow">Story</p><h1>Story unavailable</h1><a href="/">Return to the reader</a></section></SiteLayout>}

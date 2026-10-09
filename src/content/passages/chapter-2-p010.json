@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-2-ac4187e878",
+  "slug": "maps-and-calculation-ac4187e878",
+  "articleId": "article:chapter-2",
+  "title": "Maps and calculation",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:2"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the early 1970s, electronic computation was no longer unusual in the technical parts of New Zealand government. Coordinates could be processed electronically, engineering alternatives could be compared, survey calculations could be repeated by program and national coordinate transformations could be handled at a scale that suited large conversion programmes. This was a substantial change from the calculation rooms inherited from the pre-war survey state.",
+      "markdown": "By the early 1970s, electronic computation was no longer unusual in the technical parts of New Zealand government. Coordinates could be processed electronically, engineering alternatives could be compared, survey calculations could be repeated by program and national coordinate transformations could be handled at a scale that suited large conversion programmes. This was a substantial change from the calculation rooms inherited from the pre-war survey state.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The geography itself, however, remained mostly outside the computer. A cadastral map could supply coordinates to a calculation without its parcel fabric being stored digitally. A topographic sheet could provide terrain information without its roads and rivers existing as reusable features. An aerial photograph could support measurement while remaining a film object. The computer had become useful to mapping before the map became a computer-managed dataset.",
+      "markdown": "The geography itself, however, remained mostly outside the computer. A cadastral map could supply coordinates to a calculation without its parcel fabric being stored digitally. A topographic sheet could provide terrain information without its roads and rivers existing as reusable features. An aerial photograph could support measurement while remaining a film object. The computer had become useful to mapping before the map became a computer-managed dataset.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the late 1970s, operators were placing paper maps on digitising tables so that lines could be captured and stored as coordinates. Computer contouring, orthophoto production and analytical photogrammetry moved more of the mapping chain into digital form. The arithmetic had entered first. The machine was beginning to remember the geometry.",
+      "markdown": "By the late 1970s, operators were placing paper maps on digitising tables so that lines could be captured and stored as coordinates. Computer contouring, orthophoto production and analytical photogrammetry moved more of the mapping chain into digital form. The arithmetic had entered first. The machine was beginning to remember the geometry.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

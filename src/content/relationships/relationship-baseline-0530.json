@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0530",
+  "a": "person:malcolm-fraser",
+  "b": "chapter:16",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-16-6017b61846"
+  ],
+  "sources": []
+}

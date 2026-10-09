@@ -1,0 +1,31 @@
+{
+  "id": "person:w-m-prebble",
+  "slug": "w-m-prebble",
+  "name": "W. M. Prebble",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/w-m-prebble/",
+  "story": [
+    "The 2017 New Zealand Geotechnical Society paper by D. J. Bevan, Martin Brook, Jon Tunnicliffe, Nick Richards and W. M. Prebble provides a clear professional example. The team mapped the Kepa Road landslide in Auckland and the Ohuka landslide south of Port Waikato using a DJI Inspire 1 fitted with a Zenmuse X3 camera. Roughly 200 to 300 overlapping photographs were collected at each site. Up to 20 ground-control points, including targets and identifiable features, were positioned using real-time kinematic GPS."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 38 · Control on the ground",
+      "url": "/stories/mapping-from-a-drone/"
+    }
+  ],
+  "aliases": [
+    "W. M. Prebble"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 38 · Control on the ground",
+        "url": "/stories/mapping-from-a-drone/"
+      }
+    ]
+  ]
+}

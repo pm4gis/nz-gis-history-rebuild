@@ -1,0 +1,17 @@
+{
+  "id": "chapter:44",
+  "articleId": "article:chapter-44",
+  "slug": "gis-at-the-end-of-2025",
+  "name": "GIS and AI in 2025",
+  "kind": "Story",
+  "category": "GIS and AI",
+  "url": "/stories/gis-at-the-end-of-2025/",
+  "description": "By 31 December 2025, a New Zealand geospatial practitioner could spend much of a working day dealing with geography without opening what an earlier generation would have recognised as a conventional GIS. Data could arrive through an API, sit in a spatial database, be processed by a scheduled workflow, appear in a browser application and be collected again through a mobile form. Satellite imagery could be classified w",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "women-in-gis",
+    "profession"
+  ]
+}

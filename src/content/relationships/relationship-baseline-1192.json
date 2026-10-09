@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1192",
+  "a": "system:downer-grail",
+  "b": "entity:eagle-technology",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

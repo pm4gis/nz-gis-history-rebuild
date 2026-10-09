@@ -1,0 +1,28 @@
+{
+  "id": "passage:chapter-36-e6f8bc631d",
+  "slug": "repeated-satellite-coverage-e6f8bc631d",
+  "articleId": "article:chapter-36",
+  "title": "Repeated satellite coverage",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36",
+    "entity:dsir-physics-and-engineering-laboratory"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In October 1975 a New Zealand Landsat II scene entered a computing world that looked nothing like modern GIS. The DSIR Physics and Engineering Laboratory programme handled satellite data through computer-compatible tapes, IBM mainframe processing, minicomputers and programs written in PL/I. Images had to be rectified, classified and interpreted by specialists who understood both the sensor and the limitations of the available computers. That early work established that satellite observation could contribute to New Zealand mapping and environmental analysis, but there was nothing routine about it. Obtaining a scene was only the beginning. Turning it into useful geographic information was a substantial technical project in its own right.",
+      "markdown": "In October 1975 a New Zealand Landsat II scene entered a computing world that looked nothing like modern GIS. The DSIR Physics and Engineering Laboratory programme handled satellite data through computer-compatible tapes, IBM mainframe processing, minicomputers and programs written in PL/I. Images had to be rectified, classified and interpreted by specialists who understood both the sensor and the limitations of the available computers. That early work established that satellite observation could contribute to New Zealand mapping and environmental analysis, but there was nothing routine about it. Obtaining a scene was only the beginning. Turning it into useful geographic information was a substantial technical project in its own right.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2020s the same country could be represented by repeated national satellite mosaics, multispectral time series and land-cover products available through ordinary data services. A GIS analyst no longer needed to begin with magnetic tape or build a complete processing chain simply to look at a new observation. Satellite earth observation did not suddenly become useful when a particular sensor was launched, and it did not replace aerial photography. It became routine when repeated observations could be found, processed, compared and incorporated into continuing geographic datasets and operational workflows.",
+      "markdown": "By the 2020s the same country could be represented by repeated national satellite mosaics, multispectral time series and land-cover products available through ordinary data services. A GIS analyst no longer needed to begin with magnetic tape or build a complete processing chain simply to look at a new observation. Satellite earth observation did not suddenly become useful when a particular sensor was launched, and it did not replace aerial photography. It became routine when repeated observations could be found, processed, compared and incorporated into continuing geographic datasets and operational workflows.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

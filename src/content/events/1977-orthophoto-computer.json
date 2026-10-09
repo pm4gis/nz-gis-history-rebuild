@@ -1,0 +1,26 @@
+{
+  "id": "1977-orthophoto-computer",
+  "dateDisplay": "1977 to 1979",
+  "startDate": "1977",
+  "endDate": "1979",
+  "datePrecision": "year-range",
+  "year": 1977,
+  "label": "Computer system enters orthophoto production",
+  "summary": "Lands and Survey bought a computer system for orthophoto production, bridging analogue photogrammetry and digital mapped imagery.",
+  "url": "/stories/drawing-maps-by-machine/#orthophoto-production-160846e07d",
+  "passageIds": [
+    "passage:chapter-3-160846e07d"
+  ],
+  "recordIds": [
+    "chapter:3"
+  ],
+  "themeIds": [
+    "imagery"
+  ],
+  "categories": [
+    "imagery",
+    "photogrammetry",
+    "computing"
+  ],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:hugh-blake-manson",
+  "slug": "hugh-blake-manson",
+  "name": "Hugh Blake-Manson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/hugh-blake-manson/",
+  "story": [
+    "Hugh Blake-Manson was Selwyn District Council’s Asset Manager Water and the authorising officer for its April 2006 Wastewater Activity Management Plan. The plan records MapInfo being used to represent wastewater assets spatially. It documents GIS within the asset-management service he oversaw.",
+    "Selwyn District Council’s April 2006 Wastewater Activity Management Plan names Hugh Blake-Manson as Asset Manager Water and states that MapInfo was used for spatial representation of wastewater assets. During Selwyn’s rapid growth, staff used desktop GIS for routine infrastructure asset management."
+  ],
+  "sources": [
+    {
+      "label": "Selwyn District Council, Wastewater Activity Management Plan, April 2006",
+      "url": "https://www.selwyn.govt.nz/services/water/wastewater/documents/Waste-Water-Activity-Management-Plan.pdf"
+    },
+    {
+      "label": "Chapter 23 · The parcel becomes a key",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Hugh Blake-Manson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Selwyn District Council, Wastewater Activity Management Plan, April 2006",
+        "url": "https://www.selwyn.govt.nz/services/water/wastewater/documents/Waste-Water-Activity-Management-Plan.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · The parcel becomes a key",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

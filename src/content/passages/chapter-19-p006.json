@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-19-2f1debe20c",
+  "slug": "moving-the-data-2f1debe20c",
+  "articleId": "article:chapter-19",
+  "title": "Moving the data",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A national datum change is partly a surveying exercise and partly a data-conversion programme. By the late 1990s government agencies, councils, utilities, consultants and research organisations already held large digital spatial databases. Those records had been captured in NZMG, local circuits or other coordinate systems tied to NZGD49. Moving into the new framework required more than changing metadata in a file header.",
+      "markdown": "A national datum change is partly a surveying exercise and partly a data-conversion programme. By the late 1990s government agencies, councils, utilities, consultants and research organisations already held large digital spatial databases. Those records had been captured in NZMG, local circuits or other coordinate systems tied to NZGD49. Moving into the new framework required more than changing metadata in a file header.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Coordinates had to be transformed using the correct operation for the source and destination systems. Software configurations, projection libraries and database definitions had to recognise the new datum and projections. Maps, standard templates, export routines and documentation also had to change. Organisations could hold old and new coordinate environments in parallel while applications, datasets and users moved at different speeds.",
+      "markdown": "Coordinates had to be transformed using the correct operation for the source and destination systems. Software configurations, projection libraries and database definitions had to recognise the new datum and projections. Maps, standard templates, export routines and documentation also had to change. Organisations could hold old and new coordinate environments in parallel while applications, datasets and users moved at different speeds.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Rotorua District Council left a neat snapshot of that overlap on 5 April 2002. A council map of marae says it was produced on CIVIC INFO, the council's Geographic Information System, and its production path ends in an ArcMap `.mxd` file. The same map still declares New Zealand Geodetic Datum 1949 and New Zealand Map Grid, with Landsat 7 imagery from September 2000 underneath. New desktop software had arrived; the old national coordinate framework had not yet left. Migration happened layer by layer rather than at midnight on a changeover date.",
+      "markdown": "Rotorua District Council left a neat snapshot of that overlap on 5 April 2002. A council map of marae says it was produced on CIVIC INFO, the council's Geographic Information System, and its production path ends in an ArcMap `.mxd` file. The same map still declares New Zealand Geodetic Datum 1949 and New Zealand Map Grid, with Landsat 7 imagery from September 2000 underneath. New desktop software had arrived; the old national coordinate framework had not yet left. Migration happened layer by layer rather than at midnight on a changeover date.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Transformation changed the coordinate reference while preserving errors inherited from the source geometry. A boundary digitised from a small-scale map could be transformed accurately into NZTM2000 and remain no more accurate on the ground than it had been in NZMG. The same was true of early cadastral database geometry. Changing the coordinate framework corrected the reference system, not every positional weakness in the source record.",
+      "markdown": "Transformation changed the coordinate reference while preserving errors inherited from the source geometry. A boundary digitised from a small-scale map could be transformed accurately into NZTM2000 and remain no more accurate on the ground than it had been in NZMG. The same was true of early cadastral database geometry. Changing the coordinate framework corrected the reference system, not every positional weakness in the source record.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Automated GIS transformations hid more of the reference-frame work from users. A user could add two layers in different coordinate systems and watch one appear to move into place on the screen. The mathematics could be correct while the datasets still represented very different source scales, survey methods and accuracies. The new datum removed one class of incompatibility without removing the history of the data being transformed.",
+      "markdown": "Automated GIS transformations hid more of the reference-frame work from users. A user could add two layers in different coordinate systems and watch one appear to move into place on the screen. The mathematics could be correct while the datasets still represented very different source scales, survey methods and accuracies. The new datum removed one class of incompatibility without removing the history of the data being transformed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For national mapping, the change eventually appeared in the Topo50 series and other datasets produced in NZTM2000. Chapter 15 follows that cartographic history. For survey and GIS users, the earlier work consisted of updating coordinate definitions, transforming stored data and ensuring that new observations were not mixed with older coordinates under ambiguous labels.",
+      "markdown": "For national mapping, the change eventually appeared in the Topo50 series and other datasets produced in NZTM2000. Chapter 15 follows that cartographic history. For survey and GIS users, the earlier work consisted of updating coordinate definitions, transforming stored data and ensuring that new observations were not mixed with older coordinates under ambiguous labels.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

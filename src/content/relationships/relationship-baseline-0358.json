@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0358",
+  "a": "person:j-woodham",
+  "b": "chapter:27",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-27-4b1fb43cf4"
+  ],
+  "sources": []
+}

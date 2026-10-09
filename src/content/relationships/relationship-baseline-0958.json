@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0958",
+  "a": "person:patrick-de-jong",
+  "b": "entity:interpine-innovation",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

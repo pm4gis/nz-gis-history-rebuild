@@ -1,0 +1,26 @@
+{
+  "id": "2020-fox-tasman-river-model",
+  "dateDisplay": "2020",
+  "startDate": "2020",
+  "datePrecision": "year",
+  "year": 2020,
+  "label": "Fox & Associates trials full-channel river modelling for Tasman District",
+  "summary": "The 30-kilometre Waimea and Motueka rivers trial combined UAV LiDAR, aerial photos, GPS and vessel-mounted sonar across 9 km².",
+  "url": "/stories/from-flat-maps-to-3d/#terrain-becomes-data-44fef5297f",
+  "passageIds": [
+    "passage:chapter-39-44fef5297f"
+  ],
+  "recordIds": [
+    "entity:fox-and-associates",
+    "entity:tasman-district-council",
+    "chapter:39"
+  ],
+  "themeIds": [],
+  "categories": [
+    "business",
+    "lidar",
+    "hydrography",
+    "river-modelling"
+  ],
+  "sources": []
+}

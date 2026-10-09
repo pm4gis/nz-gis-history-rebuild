@@ -1,0 +1,35 @@
+{
+  "id": "person:ian-yule",
+  "slug": "ian-yule",
+  "name": "Ian Yule",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ian-yule/",
+  "story": [
+    "Ian Yule’s 1999 paper on precision farming in New Zealand described sub-metre differential receivers as capable of meeting the needs of precision agriculture, but the correction signal was a significant part of the cost. A user could establish a local base station, use a commercial UHF correction service where coverage existed, or buy corrections delivered through satellite services. Yule described Satlink coverage in Canterbury at NZ$3,600 a year and satellite-delivered correction services through Omnistar and Racal at about NZ$4,000 a year. His worked example allowed NZ$8,000 for the DGPS receiver itself."
+  ],
+  "sources": [
+    {
+      "label": "Ian Yule - MI8 Optics | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/ian-yule-abaa322a"
+    },
+    {
+      "label": "Chapter 18 · Accuracy had a price",
+      "url": "/stories/gps-changes-where-here-is/"
+    }
+  ],
+  "aliases": [
+    "Ian Yule"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 18 · Accuracy had a price",
+        "url": "/stories/gps-changes-where-here-is/"
+      }
+    ]
+  ]
+}

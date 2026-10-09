@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1144",
+  "a": "system:esri-arcgis",
+  "b": "system:downer-grail",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

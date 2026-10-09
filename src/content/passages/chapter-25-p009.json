@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-25-0dd79fa71a",
+  "slug": "wellington-electricity-rebuilds-the-links-0dd79fa71a",
+  "articleId": "article:chapter-25",
+  "title": "Wellington Electricity rebuilds the links",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Wellington Electricity’s 2009 Asset Management Plan records this problem at the point of organisational separation. The company was migrating asset-management data previously held by Vector into its own systems. The plan described the migration as continuing through 2009 and stated that the inherited asset data was believed to be of good quality. The new environment had to preserve that information while connecting it to systems owned and operated by the new company.",
+      "markdown": "Wellington Electricity’s 2009 Asset Management Plan records this problem at the point of organisational separation. The company was migrating asset-management data previously held by Vector into its own systems. The plan described the migration as continuing through 2009 and stated that the inherited asset data was believed to be of good quality. The new environment had to preserve that information while connecting it to systems owned and operated by the new company.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The planned GIS was GE Smallworld, the same network platform used by Vector. Wellington Electricity described it as a representation of fixed system assets over a map of the supply area and as the primary repository of network asset data. It was intended for planning, design and operation as well as locating faults. The plan included GIS in routine network work.",
+      "markdown": "The planned GIS was GE Smallworld, the same network platform used by Vector. Wellington Electricity described it as a representation of fixed system assets over a map of the supply area and as the primary repository of network asset data. It was intended for planning, design and operation as well as locating faults. The plan included GIS in routine network work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The most useful detail is the identifier. Other specialised asset-information systems, including SAP, were to interface with the GIS using a unique asset identifier common across the systems. That design allowed maintenance records and spatial records to refer to the same equipment without relying on names or manual matching. The identifier tied the map to the asset-management process.",
+      "markdown": "The most useful detail is the identifier. Other specialised asset-information systems, including SAP, were to interface with the GIS using a unique asset identifier common across the systems. That design allowed maintenance records and spatial records to refer to the same equipment without relying on names or manual matching. The identifier tied the map to the asset-management process.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The plan also proposed an interface between GIS and SCADA so that the GIS could display the status of switching devices monitored by the operational system. SCADA remained responsible for monitoring and control. GIS supplied the network and geographic context. Connecting them allowed a user to view operational device state against the asset model, while each system retained its own functions.",
+      "markdown": "The plan also proposed an interface between GIS and SCADA so that the GIS could display the status of switching devices monitored by the operational system. SCADA remained responsible for monitoring and control. GIS supplied the network and geographic context. Connecting them allowed a user to view operational device state against the asset model, while each system retained its own functions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Wellington case also records the durability of network data across corporate boundaries. The electricity network had not changed ownership by being redrawn from scratch. Its accumulated digital record moved from Vector into Wellington Electricity’s systems. Platform compatibility helped, but the harder requirement was retaining identifiers, asset history and network relationships during the migration.",
+      "markdown": "The Wellington case also records the durability of network data across corporate boundaries. The electricity network had not changed ownership by being redrawn from scratch. Its accumulated digital record moved from Vector into Wellington Electricity’s systems. Platform compatibility helped, but the harder requirement was retaining identifiers, asset history and network relationships during the migration.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

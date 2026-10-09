@@ -1,0 +1,53 @@
+{
+  "id": "person:john-arnerich",
+  "slug": "john-arnerich",
+  "name": "John Arnerich",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/john-arnerich/",
+  "story": [
+    "John Arnerich founded Locus Global, which developed into an FME reseller and integration business. His professional profile also records study at the University of Auckland. His account of building Locus from the beginning gives the company's technical integration work a wider entrepreneurial context.",
+    "John Arnerich developed Locus from GPS-phone experiments in 2000 into FME integration and training services.",
+    "John Arnerich founded Locus in 2004 around the use of FME for data integration, and the company developed into a specialist reseller and consultancy for moving, transforming and automating organisational data. That kind of work complicates any simple count of which GIS vendor an organisation used. A council could present ArcGIS applications to most staff while FME, databases, APIs and other components moved information between the systems behind them."
+  ],
+  "sources": [
+    {
+      "label": "John Arnerich, 25 Years of Locus, 2025",
+      "url": "https://locusglobal.com/blog/blog/2025/11/27/25-years-of-locus/"
+    },
+    {
+      "label": "John Arnerich - LOCUS | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/john-arnerich-35572551"
+    },
+    {
+      "label": "Chapter 40 · The invisible GIS",
+      "url": "/stories/enterprise-gis/"
+    }
+  ],
+  "aliases": [
+    "John Arnerich"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "John Arnerich - LOCUS | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/john-arnerich-35572551"
+      }
+    ],
+    [
+      {
+        "label": "John Arnerich, 25 Years of Locus, 2025",
+        "url": "https://locusglobal.com/blog/blog/2025/11/27/25-years-of-locus/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 40 · The invisible GIS",
+        "url": "/stories/enterprise-gis/"
+      }
+    ]
+  ]
+}

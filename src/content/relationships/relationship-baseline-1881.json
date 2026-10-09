@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1881",
+  "a": "person:francis-oriley",
+  "b": "chapter:25",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-25-b239127218"
+  ],
+  "sources": []
+}

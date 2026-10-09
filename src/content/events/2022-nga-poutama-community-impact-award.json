@@ -1,0 +1,119 @@
+{
+  "id": "2022-nga-poutama-community-impact-award",
+  "dateDisplay": "2022-02-10",
+  "startDate": "2022-02-10",
+  "datePrecision": "day",
+  "year": 2022,
+  "label": "Ngā Poutama collaboration wins the 2021 Community Impact Award",
+  "summary": "The 2021 Spatial Excellence Community Impact award recognised the practical mapping wānanga collaboration between LINZ, Te Kāhui Manu Hōkai and GIS Journey Limited.",
+  "url": "/stories/becoming-a-gis-professional/#new-professional-networks-71ae35ecbd",
+  "passageIds": [
+    "passage:chapter-29-71ae35ecbd"
+  ],
+  "recordIds": [
+    "entity:nga-poutama-matawhenua",
+    "entity:te-kahui-manu-hokai-maori-gis-association",
+    "entity:journey-gis",
+    "entity:land-information-new-zealand-linz",
+    "chapter:29",
+    "entity:geospatial-capability-committee",
+    "entity:siba-new-zealand-locationtech",
+    "entity:grow-gis-nz",
+    "entity:new-zealand-gis-geeks",
+    "entity:maori-gis-facebook-group",
+    "person:bonita-gestro",
+    "person:duane-wilkins",
+    "person:elaine-mcalister",
+    "person:geoff-omalley",
+    "person:nathan-heazlewood",
+    "person:kat-salm",
+    "person:charlotte-dawson",
+    "person:kirsty-mackie",
+    "person:claire-buxton",
+    "person:catriona-oneill",
+    "person:olivia-martin",
+    "person:rosey-harris",
+    "person:amy-tay",
+    "person:georgia-goodsell",
+    "person:devon-allen",
+    "person:malindi-reihana-ruka",
+    "person:galia-barhava-monteith",
+    "person:bridgit-sissons",
+    "person:josie-hawkey",
+    "person:louise-upston"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "maori-gis",
+    "community-impact",
+    "award"
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial + Survey, homepage",
+      "url": "https://womeninspatial.wordpress.com/"
+    },
+    {
+      "label": "Women in Spatial + Survey, group archive and history",
+      "url": "https://womeninspatial.wordpress.com/author/womeninspatial/"
+    },
+    {
+      "label": "Women in Spatial, “What Stops Women Rising to the Top?”, 12 September 2015",
+      "url": "https://womeninspatial.wordpress.com/2015/09/12/galia-barhava-monteith-what-stops-women-rising-to-the-top/"
+    },
+    {
+      "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+      "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+    },
+    {
+      "label": "Women in Spatial, “Rosey Harris on GeoCart’18”, 30 August 2019",
+      "url": "https://womeninspatial.wordpress.com/2019/08/30/rosey-harris-on-geocart18/"
+    },
+    {
+      "label": "Beehive, Awards put spotlight on location innovation, 29 November 2014",
+      "url": "https://www.beehive.govt.nz/release/awards-put-spotlight-location-innovation"
+    },
+    {
+      "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+      "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+    },
+    {
+      "label": "Women in Spatial, “The Diversity Agenda”, 16 November 2018",
+      "url": "https://womeninspatial.wordpress.com/2018/11/16/the-diversity-agenda/"
+    },
+    {
+      "label": "Women in Spatial + Survey, “The Committee”",
+      "url": "https://womeninspatial.wordpress.com/the-committee/"
+    },
+    {
+      "label": "Women in Spatial + Survey, “Mid-Winter Lightning Talks”, 25 August 2024",
+      "url": "https://womeninspatial.wordpress.com/2024/08/25/mid-winter-lightning-talks/"
+    },
+    {
+      "label": "Geospatial Research Institute Toi Hangarau, seminar with Kat Salm, 25 October 2019",
+      "url": "https://geospatial.ac.nz/seminar-25-october-2019-women-in-spatial-and-frontiersi/"
+    },
+    {
+      "label": "Women in Spatial + Survey, The Committee",
+      "url": "https://womeninspatial.wordpress.com/the-committee/"
+    },
+    {
+      "label": "NEMA, Emergency Management Awards recipients",
+      "url": "https://www.civildefence.govt.nz/guidance-training/guidelines/information-series/emergency-management-awards/award-recipients"
+    },
+    {
+      "label": "Derek Phyn, New Zealand GIS for Emergency Management, ISCRAM 2018",
+      "url": "https://idl.iscram.org/files/derekphyn/2018/1646_DerekPhyn2018.pdf"
+    },
+    {
+      "label": "New Zealand Cartographic Society, About NZCS",
+      "url": "https://cartography.org.nz/about/nzcs"
+    },
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ]
+}

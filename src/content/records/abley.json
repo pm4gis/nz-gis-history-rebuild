@@ -1,0 +1,36 @@
+{
+  "id": "entity:abley",
+  "slug": "abley",
+  "name": "Abley",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/abley/",
+  "website": null,
+  "story": [
+    "Abley’s company history gives two starting points. In 1996, Steve Abley’s final-year university project mapped Christchurch City pedestrian crossings for the city council; a transport consultancy followed in 2003. Spatial analysis then became part of a wider practice in transport engineering, road safety and infrastructure advice.",
+    "The consultancy used GIS within its wider professional services. Its work joined location data and spatial analysis with transport planning and engineering questions, including how people move through streets and how road networks can be made safer."
+  ],
+  "sources": [
+    {
+      "label": "Abley, Our Story",
+      "url": "https://abley.com/our-story"
+    },
+    {
+      "label": "Abley, Our Story, and registry-derived company record",
+      "url": "https://abley.com/our-story"
+    },
+    {
+      "label": "Abley, Our transport history",
+      "url": "https://abley.com/"
+    }
+  ],
+  "aliases": [
+    "Abley"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

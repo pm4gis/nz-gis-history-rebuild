@@ -1,0 +1,31 @@
+{
+  "id": "person:julia-moloney",
+  "slug": "julia-moloney",
+  "name": "Julia Moloney",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/julia-moloney/",
+  "story": [
+    "The Environmental Protection Authority profiles Julia Moloney as a Spatial Intelligence Analyst. It describes her study in physical geography and GIS at the University of Otago, interest in coastal geomorphology, and use of GIS to analyse and visualise location-based information for environmental work. The profile does not name a software platform or date her role."
+  ],
+  "sources": [
+    {
+      "label": "Environmental Protection Authority, “Women in Science: Julia Moloney”",
+      "url": "https://www.epa.govt.nz/community-involvement/science-at-work/women-in-science/"
+    }
+  ],
+  "aliases": [
+    "Julia Moloney"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Environmental Protection Authority, “Women in Science: Julia Moloney”",
+        "url": "https://www.epa.govt.nz/community-involvement/science-at-work/women-in-science/"
+      }
+    ]
+  ]
+}

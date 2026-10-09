@@ -1,0 +1,57 @@
+{
+  "id": "system:discrete-global-grid-systems",
+  "slug": "discrete-global-grid-systems",
+  "name": "Discrete Global Grid Systems",
+  "kind": "Technology",
+  "category": "Systems and projects",
+  "url": "/systems/discrete-global-grid-systems/",
+  "story": [
+    "A Discrete Global Grid System assigns identifiers to cells covering the Earth, with a hierarchy of finer cells. Robert Gibb, Alexander Raichev and Michael Speth developed rHEALPix at Manaaki Whenua. Gibb contributed to the OGC DGGS specifications and edited the 2021 Part 1 revision associated with ISO 19170-1:2021.",
+    "Manaaki Whenua also applied DGGS methods to land-use mapping. Richard Law’s 2023 presentation documents an H3-based workflow combining raster and vector sources, followed by a paper with James Ardo. H3 is a different grid implementation from rHEALPix. The research, standards and application each form a part of the institute’s contribution to grid-based spatial information."
+  ],
+  "sources": [
+    {
+      "label": "Gibb, Raichev and Speth, The rHEALPix Discrete Global Grid System, Landcare Research DataStore, deposited 2016, DOI 10.7931/J2D21VHM",
+      "url": "https://datastore.landcareresearch.co.nz/dataset/rhealpix-discrete-global-grid-system"
+    },
+    {
+      "label": "OGC Abstract Specification Topic 21, Discrete Global Grid Systems, version 1.0, 1 August 2017",
+      "url": "https://portal.ogc.org/files/15-104r5.pdf"
+    },
+    {
+      "label": "Robert Gibb (editor), OGC Topic 21, DGGS Part 1, version 2.0, 23 September 2021, 20-040r3",
+      "url": "https://docs.ogc.org/as/20-040r3/20-040r3.html"
+    },
+    {
+      "label": "ISO/TC 211, ISO 19170-1:2021: DGGS core reference system, operations and equal-area Earth reference system",
+      "url": "https://committee.iso.org/sites/tc211/home/projects-old/projects---complete-list-old/iso-19170-1.html"
+    },
+    {
+      "label": "Richard Law, Land-use mapping with a Discrete Global Grid System, FOSS4G SotM Oceania, 17 October 2023: H3 implementation",
+      "url": "https://talks.osgeo.org/foss4g-sotm-oceania-2023/talk/EYAJ7H/"
+    },
+    {
+      "label": "Richard M. Law and James Ardo, Using a discrete global grid system for a scalable, interoperable, and reproducible system of land-use mapping, Big Earth Data 9(1), 2025, DOI 10.1080/20964471.2024.2429847",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/20964471.2024.2429847"
+    }
+  ],
+  "aliases": [
+    "DGGS",
+    "rHEALPix",
+    "ISO 19170",
+    "ISO 19170-1"
+  ],
+  "themeIds": [],
+  "status": "Sourced account",
+  "paragraphSources": [],
+  "biographyParagraphSources": [],
+  "contentSections": [
+    {
+      "title": "Development and use",
+      "paragraphs": [
+        "A Discrete Global Grid System assigns identifiers to cells covering the Earth, with a hierarchy of finer cells. Robert Gibb, Alexander Raichev and Michael Speth developed rHEALPix at Manaaki Whenua. Gibb contributed to the OGC DGGS specifications and edited the 2021 Part 1 revision associated with ISO 19170-1:2021.",
+        "Manaaki Whenua also applied DGGS methods to land-use mapping. Richard Law’s 2023 presentation documents an H3-based workflow combining raster and vector sources, followed by a paper with James Ardo. H3 is a different grid implementation from rHEALPix. The research, standards and application each form a part of the institute’s contribution to grid-based spatial information."
+      ]
+    }
+  ]
+}

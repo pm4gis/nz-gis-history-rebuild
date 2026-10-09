@@ -1,0 +1,73 @@
+{
+  "id": "passage:chapter-26-12070ee487",
+  "slug": "a-plan-for-each-farm-12070ee487",
+  "articleId": "article:chapter-26",
+  "title": "A plan for each farm",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:taranaki-regional-council",
+    "person:melanie-candy",
+    "person:mike-nield"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Taranaki provides a more concrete view of GIS inside an environmental programme. The Taranaki Regional Council adopted its Management of Riparian Margins implementation strategy in March 1993. The programme worked with landowners to fence and plant stream margins, particularly across the intensively farmed ring plain. Early property plans were prepared without the later GIS workflow and required substantial staff time.",
+      "markdown": "Taranaki provides a more concrete view of GIS inside an environmental programme. The Taranaki Regional Council adopted its Management of Riparian Margins implementation strategy in March 1993. The programme worked with landowners to fence and plant stream margins, particularly across the intensively farmed ring plain. Early property plans were prepared without the later GIS workflow and required substantial staff time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The council’s own programme history records GIS-based riparian plan preparation from 2001. Land-management officers walked individual properties, assessed fencing and planting needs and produced property-specific plans. The A3 plan combined an aerial map with GIS layers showing recommended work and tables covering timing, costs and suitable plant species. GIS therefore sat inside a face-to-face land-management process rather than replacing field inspection.",
+      "markdown": "The council’s own programme history records GIS-based riparian plan preparation from 2001. Land-management officers walked individual properties, assessed fencing and planting needs and produced property-specific plans. The A3 plan combined an aerial map with GIS layers showing recommended work and tables covering timing, costs and suitable plant species. GIS therefore sat inside a face-to-face land-management process rather than replacing field inspection.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The council reported a sharp change in production after the GIS workflow was introduced. From 1993 to 2001 it had prepared 279 riparian plans. Between 2001 and 2011 it prepared more than 2,000. The same retrospective account says average plan-preparation time fell from about three days to one day, giving the council capacity to prepare roughly 350 plans a year. The council reported these improvements in its environmental workflow.",
+      "markdown": "The council reported a sharp change in production after the GIS workflow was introduced. From 1993 to 2001 it had prepared 279 riparian plans. Between 2001 and 2011 it prepared more than 2,000. The same retrospective account says average plan-preparation time fell from about three days to one day, giving the council capacity to prepare roughly 350 plans a year. The council reported these improvements in its environmental workflow.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The changes also supported later updates and related work. Land-management officers revisited farms, recorded implemented fencing and planting and updated progress. GIS allowed the council to report implementation at property, catchment and regional scales. The same database could therefore support the landowner conversation, annual follow-up and wider programme reporting.",
+      "markdown": "The changes also supported later updates and related work. Land-management officers revisited farms, recorded implemented fencing and planting and updated progress. GIS allowed the council to report implementation at property, catchment and regional scales. The same database could therefore support the landowner conversation, annual follow-up and wider programme reporting.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In a 2011 conference presentation, Taranaki Regional Council manager Mike Nield described the GIS application as a joint development with Explorer Graphics, using Esri technology and delivered as an ArcGIS/ArcView ArcMap extension called the Land Management Application. Land-management officers worked through an LMA toolbar and menu while plan status could also be reported through the corporate intranet GIS. The council's November 2011 programme booklet shows GIS officer Melanie Candy updating a riparian plan, with aerial mapping on screen and paper.",
+      "markdown": "In a 2011 conference presentation, Taranaki Regional Council manager Mike Nield described the GIS application as a joint development with Explorer Graphics, using Esri technology and delivered as an ArcGIS/ArcView ArcMap extension called the Land Management Application. Land-management officers worked through an LMA toolbar and menu while plan status could also be reported through the corporate intranet GIS. The council's November 2011 programme booklet shows GIS officer Melanie Candy updating a riparian plan, with aerial mapping on screen and paper.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Other photographs in the council publication show land-management officers working with farmers. The GIS officer maintained and produced the spatial information; the field officer supplied observations and worked through the recommendations with the property owner.",
+      "markdown": "Other photographs in the council publication show land-management officers working with farmers. The GIS officer maintained and produced the spatial information; the field officer supplied observations and worked through the recommendations with the property owner.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Farm and biosecurity applications also reveal a broader practitioner group. Debbie Care’s AgVice combined digital farm plans, drones and web mapping in catchment work, while Pāmu geospatial manager Bronwyn Rodgers used ArcGIS Online and Survey123 in winter-grazing and asset decisions. Marcus Girvan’s Boffa Miskell work connected GIS, UAV capture and 3D web mapping with invasive-conifer control.",
+      "sources": [
+        {
+          "label": "Eagle Technology, AgVice and Wai Kōkopu case material",
+          "url": "https://www.eagle.co.nz/node/355"
+        },
+        {
+          "label": "Eagle Technology, Pāmu and Esri help solve winter grazing challenges",
+          "url": "https://www.eagle.co.nz/gis-solutions/case-studies/p%C4%81mu-and-esri-help-solve-winter-grazing-challenges"
+        },
+        {
+          "label": "Boffa Miskell, Leveraging GIS technology to combat invasive conifers",
+          "url": "https://www.boffamiskell.co.nz/news-insights/leveraging-gis-technology-to-combat-invasive-conifers"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:nam-thang-ha",
+  "slug": "nam-thang-ha",
+  "name": "Nam-Thang Ha",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/nam-thang-ha/",
+  "story": [
+    "Nam-Thang Ha’s 2021 University of Waikato doctoral work examined seagrass dynamics and above-ground biomass in Tauranga Harbour using Landsat and Sentinel imagery, GIS and machine-learning methods. The research combined observations through time rather than treating a satellite image as a static background map.",
+    "At Tauranga Harbour, Nam-Thang Ha and collaborators used Sentinel and Landsat imagery with ensemble machine learning, change detection and later radar-optical sensor fusion to map seagrass distribution and biomass. By 2021, researchers were using machine learning in geospatial work. It was one of several analytical approaches available for specific mapping problems."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 36 · Pixels become data",
+      "url": "/stories/earth-observation-becomes-routine/"
+    },
+    {
+      "label": "Chapter 44 · Learning from examples",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Nam-Thang Ha"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 36 · Pixels become data",
+        "url": "/stories/earth-observation-becomes-routine/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · Learning from examples",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "entity:tracmap-tabula",
+  "slug": "tracmap-tabula",
+  "name": "TracMap / Tabula",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/tracmap-tabula/",
+  "website": null,
+  "story": [
+    "TracMap developed GPS guidance and mapping for agricultural work, with its first devices installed in 2006. These systems recorded where an application had taken place and connected field work with job management. The Tabula name was already in use by June 2023, when the company announced a partnership and planned acquisition of CLASS software from MAP Computer Systems."
+  ],
+  "sources": [
+    {
+      "label": "Tabula, CLASS software announcement, 5 June 2023",
+      "url": "https://tabula.live/en/news_post/tabulas-aquisition-of-class-software/"
+    },
+    {
+      "label": "TracMap / Tabula company history and contemporary Otago Daily Times reporting",
+      "url": "https://tabula.live/en/about/"
+    }
+  ],
+  "aliases": [
+    "TracMap",
+    "Tabula"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

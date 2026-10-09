@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-10-d4532463e0",
+  "slug": "topographic-databases-d4532463e0",
+  "articleId": "article:chapter-10",
+  "title": "Topographic databases",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:10",
+    "entity:department-of-survey-and-land-information-dosli",
+    "person:geoff-omalley",
+    "person:robin-pickering",
+    "person:geoff-howard",
+    "person:chris-hoogsteden",
+    "person:derry-gordon"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Digital topographic production was moving in the same institutional direction. Conversion of national topographic information was under way by the later 1980s, and by the 1991 AURISA conference Geoff Howard, Geoff O'Malley and Robin Pickering could present a paper titled \"New Zealand's Topographic Database - Where To Next?\" The paper records a change in the organisation’s work: DOSLI was no longer dealing only with printed map editions. It was maintaining digital topographic information that could support later products and supply users outside the traditional cartographic production line.",
+      "markdown": "Digital topographic production was moving in the same institutional direction. Conversion of national topographic information was under way by the later 1980s, and by the 1991 AURISA conference Geoff Howard, Geoff O'Malley and Robin Pickering could present a paper titled \"New Zealand's Topographic Database - Where To Next?\" The paper records a change in the organisation’s work: DOSLI was no longer dealing only with printed map editions. It was maintaining digital topographic information that could support later products and supply users outside the traditional cartographic production line.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That changed the role of the national mapping agency. Roads, rivers, contours, place names and other features could be maintained separately from the particular sheet on which they were published, while cartographers still had to decide what belonged on each map and how it should be shown. Chris Hoogsteden and Derry Gordon's 1991 discussion of the national surveying and mapping agency in a GIS world reflects that broader shift from map producer towards custodian and supplier of spatial information. The national topographic database, later digital series and Topo50 became part of departmental spatial production. Chapter 15 describes their development.",
+      "markdown": "That changed the role of the national mapping agency. Roads, rivers, contours, place names and other features could be maintained separately from the particular sheet on which they were published, while cartographers still had to decide what belonged on each map and how it should be shown. Chris Hoogsteden and Derry Gordon's 1991 discussion of the national surveying and mapping agency in a GIS world reflects that broader shift from map producer towards custodian and supplier of spatial information. The national topographic database, later digital series and Topo50 became part of departmental spatial production. Chapter 15 describes their development.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

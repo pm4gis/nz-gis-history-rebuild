@@ -1,0 +1,39 @@
+{
+  "id": "person:derek-phyn",
+  "slug": "derek-phyn",
+  "name": "Derek Phyn",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/derek-phyn/",
+  "story": [
+    "Derek Phyn helped establish geospatial emergency-management practice as a professional community. NEMA records him, then a Waikato Regional Council GIS Analyst, receiving a Silver Ministerial Award for his contribution to GIS in emergency management and leadership in developing NZGIS4EM. His 2018 ISCRAM paper documents the community’s formation and purpose."
+  ],
+  "sources": [
+    {
+      "label": "NEMA, Emergency Management Awards recipients",
+      "url": "https://www.civildefence.govt.nz/guidance-training/guidelines/information-series/emergency-management-awards/award-recipients"
+    },
+    {
+      "label": "Derek Phyn, New Zealand GIS for Emergency Management, ISCRAM 2018",
+      "url": "https://idl.iscram.org/files/derekphyn/2018/1646_DerekPhyn2018.pdf"
+    }
+  ],
+  "aliases": [
+    "Derek Phyn"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NEMA, Emergency Management Awards recipients",
+        "url": "https://www.civildefence.govt.nz/guidance-training/guidelines/information-series/emergency-management-awards/award-recipients"
+      },
+      {
+        "label": "Derek Phyn, New Zealand GIS for Emergency Management, ISCRAM 2018",
+        "url": "https://idl.iscram.org/files/derekphyn/2018/1646_DerekPhyn2018.pdf"
+      }
+    ]
+  ]
+}

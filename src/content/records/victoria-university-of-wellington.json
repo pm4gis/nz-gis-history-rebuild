@@ -1,0 +1,33 @@
+{
+  "id": "entity:victoria-university-of-wellington",
+  "slug": "victoria-university-of-wellington",
+  "name": "Te Herenga Waka—Victoria University of Wellington",
+  "kind": "Organisation",
+  "category": "Academic institutions",
+  "url": "/entities/victoria-university-of-wellington/",
+  "website": "https://www.wgtn.ac.nz/",
+  "story": [
+    "Te Herenga Waka—Victoria University of Wellington has supported GIS teaching and research through the School of Geography, Environment and Earth Sciences. The School maintains GIS teaching and postgraduate facilities using ArcGIS, QGIS and other spatial software, along with data resources for teaching and research.",
+    "The University offers postgraduate study in Geographic Information Science and has contributed research on GIS education, spatial cognition, geovisualisation, urban mobility and related areas. Its Wellington location has also connected academic GIS work with government and the wider geospatial profession."
+  ],
+  "sources": [
+    {
+      "label": "Victoria University of Wellington, Geographical Information Systems Facilities",
+      "url": "https://www.wgtn.ac.nz/sgees/research/facilities/gis"
+    },
+    {
+      "label": "Victoria University of Wellington, postgraduate study in Geographic Information Science",
+      "url": "https://www.wgtn.ac.nz/sgees/study/postgraduate-study"
+    }
+  ],
+  "aliases": [
+    "Victoria University of Wellington",
+    "Te Herenga Waka—Victoria University of Wellington",
+    "VUW"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

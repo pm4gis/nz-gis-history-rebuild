@@ -1,0 +1,23 @@
+{
+  "id": "2006-nz-geospatial-office",
+  "dateDisplay": "2006 to 2007",
+  "startDate": "2006",
+  "endDate": "2007",
+  "datePrecision": "year-range",
+  "year": 2006,
+  "label": "National geospatial coordination becomes explicit",
+  "summary": "The New Zealand Geospatial Office and Geospatial Strategy formalised national spatial-data-infrastructure coordination.",
+  "url": "/stories/the-spatial-infrastructure-idea/#from-coordination-to-sdi-bfb7b389e7",
+  "passageIds": [
+    "passage:chapter-21-bfb7b389e7"
+  ],
+  "recordIds": [
+    "chapter:21"
+  ],
+  "themeIds": [],
+  "categories": [
+    "government",
+    "infrastructure"
+  ],
+  "sources": []
+}

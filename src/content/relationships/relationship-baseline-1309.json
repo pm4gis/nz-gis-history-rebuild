@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1309",
+  "a": "entity:dsir-physics-and-engineering-laboratory",
+  "b": "chapter:36",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-36-e6f8bc631d"
+  ],
+  "sources": []
+}

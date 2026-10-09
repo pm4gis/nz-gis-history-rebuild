@@ -1,0 +1,17 @@
+{
+  "id": "chapter:30",
+  "articleId": "article:chapter-30",
+  "slug": "the-first-web-maps",
+  "name": "Early web mapping",
+  "kind": "Story",
+  "category": "Web mapping",
+  "url": "/stories/the-first-web-maps/",
+  "description": "At the end of the 1990s, a geographic information system could still be a very literal place. In New Zealand Police, the early analyst GIS was installed on customised workstations at individual sites. Crime and mapping data were loaded locally, printers were part of the setup, and different installations could drift into different software versions. The system did useful analytical work, but every additional site bro",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "technology-stack",
+    "local-government"
+  ]
+}

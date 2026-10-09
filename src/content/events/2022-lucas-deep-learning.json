@@ -1,0 +1,30 @@
+{
+  "id": "2022-lucas-deep-learning",
+  "dateDisplay": "2022",
+  "startDate": "2022",
+  "datePrecision": "year",
+  "year": 2022,
+  "label": "Deep learning enters a national land-use production workflow",
+  "summary": "The Ministry for the Environment contracted Manaaki Whenua to produce the 2020 Land Use Map using a mixture of established methods and deep-learning techniques.",
+  "url": "/stories/gis-at-the-end-of-2025/#learning-from-examples-bc3f33378c",
+  "passageIds": [
+    "passage:chapter-44-bc3f33378c"
+  ],
+  "recordIds": [
+    "chapter:44",
+    "entity:manaaki-whenua-landcare-research",
+    "entity:vector",
+    "person:lars-brabyn",
+    "person:nam-thang-ha",
+    "person:lien-pham",
+    "person:salman-ashraf",
+    "person:guopeng-jiang"
+  ],
+  "themeIds": [],
+  "categories": [
+    "ai",
+    "earth-observation",
+    "government"
+  ],
+  "sources": []
+}

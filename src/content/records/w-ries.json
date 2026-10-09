@@ -1,0 +1,31 @@
+{
+  "id": "person:w-ries",
+  "slug": "w-ries",
+  "name": "W. Ries",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/w-ries/",
+  "story": [
+    "A GNS Science project by R. Langridge and W. Ries, undertaken in 2009, mapped the Alpine Fault through Buller, Grey and Westland using GIS, QMAP, University of Otago fault mapping, RTK-GPS topography, sketch maps, aerial photographs, orthophotos and field checking. The project converted those sources into fault traces, attribute tables and planning-oriented Fault Avoidance Zones, generally at about 1:10,000. At Franz Josef, the report compared an Otago-derived trace with a dashed fault line already used by the regional council."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23 · The parcel becomes a key",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "W. Ries"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · The parcel becomes a key",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

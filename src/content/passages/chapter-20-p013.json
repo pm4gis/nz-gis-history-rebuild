@@ -1,0 +1,26 @@
+{
+  "id": "passage:chapter-20-5cf3bc2665",
+  "slug": "historical-imagery-returns-as-a-community-tool-5cf3bc2665",
+  "articleId": "article:chapter-20",
+  "title": "Historical imagery returns as a community tool",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Historical aerial imagery later became teaching material for Māori GIS work as well as a source for professional interpretation. In May 2025 an Ngā Poutama Matawhenua session led by Duane Wilkins brought together LINZ historical imagery and other imagery archives to show how older photographs could help investigate change in whenua and recover spatial context. The example belongs with the history of aerial imagery because it shows the archive being reused long after the original photography programme, with web access turning a specialist historical collection into a practical community mapping resource.",
+      "markdown": "Historical aerial imagery later became teaching material for Māori GIS work as well as a source for professional interpretation. In May 2025 an Ngā Poutama Matawhenua session led by Duane Wilkins brought together LINZ historical imagery and other imagery archives to show how older photographs could help investigate change in whenua and recover spatial context. The example belongs with the history of aerial imagery because it shows the archive being reused long after the original photography programme, with web access turning a specialist historical collection into a practical community mapping resource.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

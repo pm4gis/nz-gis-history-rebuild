@@ -1,0 +1,41 @@
+{
+  "id": "article:chapter-33",
+  "slug": "open-data-changes-access",
+  "title": "Open spatial data",
+  "url": "/stories/open-data-changes-access/",
+  "summary": "By the early 2000s New Zealanders could already see a surprising amount of geographic information on the web. Statistics New Zealand had a free Census WebMap by March 2002. Councils were putting property and planning information i",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 33,
+  "themeIds": [
+    "open-practice",
+    "women-in-gis"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch33-note-01",
+      "text": "1. Statistics New Zealand product records around 2001–02 establish the distinction between free browser mapping and paid reusable statistical/geographic products before the major access reforms. is the principal this baseline."
+    },
+    {
+      "id": "ch33-note-02",
+      "text": "2. The State Services Commission's New Zealand Government Open Access and Licensing framework, NZGOAL version 1, August 2010, is the authoritative policy the open-licensing framework. It recommends Creative Commons Attribution as the default open licence for reusable State Services copyright works where restrictions do not apply."
+    },
+    {
+      "id": "ch33-note-03",
+      "text": "3. LINZ Data Service chronology is supported by the 19 June 2013 Beehive announcement recorded as P9C-S15. It states that LDS launched in 2011 and by 2013 offered more than forty free/open fundamental datasets with more than 5,600 registered users. Those are period government figures and remain attributed as such."
+    },
+    {
+      "id": "ch33-note-04",
+      "text": "4. The December 2014 data.govt.nz LDS showcase provides a dated near-period interface and open-data example. Its screenshot must not be used as though it showed the exact 2011 launch interface."
+    },
+    {
+      "id": "ch33-note-05",
+      "text": "5. LRIS and related research-data services support the broader shift towards reusable environmental and land-resource information. Chapter 33 discusses the access/licensing history; Chapter 35 discusses the LRIS application design, and Chapter 41 discusses later service/API architecture."
+    },
+    {
+      "id": "ch33-note-06",
+      "text": "6. The chapter keeps four ideas separate: data free of charge, data legally reusable, data downloadable in usable formats and data consumable through maintained services. A dataset can satisfy one of these conditions without satisfying all four."
+    }
+  ]
+}

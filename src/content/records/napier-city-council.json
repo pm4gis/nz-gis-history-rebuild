@@ -1,0 +1,28 @@
+{
+  "id": "entity:napier-city-council",
+  "slug": "napier-city-council",
+  "name": "Napier City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/napier-city-council/",
+  "website": "https://www.napier.govt.nz",
+  "story": [
+    "A 2003 presentation by GIS Administrator Simon Nitz traces Napier’s MAPiT browser GIS through MapXtreme 2, 3 and 4, MapInfo Encounter, Java applets, XML/XSLT and an image viewer. It describes an internal environment with 109 Encounter users linked to SQL Server, Hansen IMS and a Unix corporate system, with MAPiT available on the intranet, at the public counter and on the internet."
+  ],
+  "sources": [
+    {
+      "label": "Simon Nitz, “A Napier Encounter!”, Brisbane User Forum, 11 July 2003 (later repost)",
+      "url": "https://www.slideserve.com/tamal/napier-city-council"
+    }
+  ],
+  "aliases": [
+    "Napier City Council"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

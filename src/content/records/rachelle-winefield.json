@@ -1,0 +1,35 @@
+{
+  "id": "person:rachelle-winefield",
+  "slug": "rachelle-winefield",
+  "name": "Rachelle Winefield",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rachelle-winefield/",
+  "story": [
+    "Rachelle Winefield, Chris Crook and John Beavan documented the deformation patch developed after the 2009 Fiordland earthquake and the method used to incorporate it into LINZ processing."
+  ],
+  "sources": [
+    {
+      "label": "Rachelle Winefield - Land Information New Zealand | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/rachelle-winefield-3402033b"
+    },
+    {
+      "label": "Chapter 19 · Real time",
+      "url": "/stories/rebuilding-the-coordinate-framework/"
+    }
+  ],
+  "aliases": [
+    "Rachelle Winefield"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 19 · Real time",
+        "url": "/stories/rebuilding-the-coordinate-framework/"
+      }
+    ]
+  ]
+}

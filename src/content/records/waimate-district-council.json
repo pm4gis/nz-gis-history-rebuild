@@ -1,0 +1,43 @@
+{
+  "id": "entity:waimate-district-council",
+  "slug": "waimate-district-council",
+  "name": "Waimate District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/waimate-district-council/",
+  "website": "https://www.waimatedc.govt.nz",
+  "story": [
+    "Andrew Hare’s account describes Waimate District Council’s use of MapInfo Professional, data collection during the 2006 snowstorm and later spatial joins between pipe features and Excel records. His recollection adds the handover from his predecessor around 2000, Bizeasset asset management, Encounter browser integration and mapping for planning, LIMs and rates.",
+    "Terralink’s 4 March 2004 announcement names Waimate District Council as a participant in the shared South Island orthophoto acquisition. The release describes regional imagery for local-government GIS, consent processing, land-use work, civil defence and asset management. This evidence establishes participation in the shared imagery project; it does not identify the council’s internal GIS platform or named practitioners."
+  ],
+  "sources": [
+    {
+      "label": "MapInfo-L, Andrew Hare response, “MapInfo Pro 8.0 Info Tool quit working”",
+      "url": "https://groups.google.com/g/mapinfo-l/c/wyFf9q_KMZ8"
+    },
+    {
+      "label": "Jordy Hendrikx, Preliminary analysis of the 12 June 2006 Canterbury snow storm, NIWA Client Report CHC2006-088",
+      "url": "https://niwa.co.nz/sites/default/files/import/attachments/canterbury_snow_storm_june_2006.pdf"
+    },
+    {
+      "label": "MapInfo-L, Andrew Hare, “points along a line”",
+      "url": "https://groups.google.com/g/mapinfo-l/c/rcAa6-FkL2Q"
+    },
+    {
+      "label": "Andrew Hare, My GIS Work Life",
+      "url": "https://www.linkedin.com/pulse/my-gis-work-life-andrew-hare-keu5c"
+    },
+    {
+      "label": "Terralink International, ‘Terralink starts biggest ever aerial photography task’, 4 March 2004",
+      "url": "https://www.scoop.co.nz/stories/SC0403/S00018.htm"
+    }
+  ],
+  "aliases": [
+    "Waimate District Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,5 +1,6 @@
 const PRIVATE_FIELD = /(researchSources|researchRegister|mrr|editorial|review|internal|private|sourceDocument|googleDrive|drive|assetMetadata|storageMetadata|contributor|contact|email|phone|moderator|metadata)/i;
 const PRIVATE_VALUE = /\/assets\/contributions\/|\/drive\/folders\/|research register source|\b(?:MRR|DR|GAP\d*|PE|OP\d*|LINZCAP|BIO|R\d*|C\d*|P\d*|UT\d*|GOV\d*)-[A-Z0-9-]{1,16}\b/i;
+const PRIVATE_URL = /\/assets\/contributions\/|\/drive\/folders\//i;
 const EMAIL_VALUE = /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/i;
 const DATE_PARTS = /^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?$/;
 
@@ -30,7 +31,8 @@ export function inspectContent({ records = [], events = [], relationships = [], 
   const privateFields = (value, at) => {
     if (typeof value === "string") {
       if (/---\s*TRUNCATED\s*---|\.\.\.\s*\d+\s*more items|\d+\s+keys omitted/i.test(value)) errors.push(at + ": export placeholder is not allowed");
-      if (/\.(?:label|url|basis|text|summary)$/.test(at) && PRIVATE_VALUE.test(value)) errors.push(at + ": private contributor asset or research-register reference is not allowed");
+      if (/\.url$/.test(at) && PRIVATE_URL.test(value)) errors.push(at + ": private contributor asset URL is not allowed");
+      if (/\.(?:label|basis|text|summary)$/.test(at) && PRIVATE_VALUE.test(value)) errors.push(at + ": private contributor asset or research-register reference is not allowed");
       if (EMAIL_VALUE.test(value)) errors.push(at + ": contact email is not allowed in public content");
       return;
     }
@@ -46,10 +48,18 @@ export function inspectContent({ records = [], events = [], relationships = [], 
     const at = "theme " + (theme.id || "(missing ID)"); unique(theme.id, at, "themes");
     if (!theme.slug || !theme.title) errors.push(at + ": title and slug are required");
   }
+  const articleById = new Map(articles.map((article) => [article.id, article]));
   for (const record of records) {
     const at = "record " + (record.id || "(missing ID)"); unique(record.id, at, "records");
     if (!record.slug || !record.name || !record.kind) errors.push(at + ": name, type and slug are required");
-    route(record.url, at); sources(record.sources, at + ".sources");
+    if (record.kind === "Story") {
+      const article = articleById.get(record.articleId);
+      if (!article || article.url !== record.url) errors.push(at + ": story record must link to its matching article route");
+    } else route(record.url, at);
+    sources(record.sources, at + ".sources");
+    (record.paragraphSources || []).forEach((group, index) => sources(group, at + ".paragraphSources[" + index + "]"));
+    (record.biographyParagraphSources || []).forEach((group, index) => sources(group, at + ".biographyParagraphSources[" + index + "]"));
+    sources(record.contextLinks, at + ".contextLinks");
     for (const id of record.themeIds || []) if (!ids.themes.has(id)) errors.push(at + ": theme " + id + " is missing");
   }
   for (const article of articles) {
@@ -64,8 +74,16 @@ export function inspectContent({ records = [], events = [], relationships = [], 
     if (!ids.articles.has(passage.articleId)) errors.push(at + ": story " + passage.articleId + " is missing");
     for (const id of passage.themeIds || []) if (!ids.themes.has(id)) errors.push(at + ": theme " + id + " is missing");
     for (const id of passage.recordIds || []) if (!ids.records.has(id)) errors.push(at + ": record " + id + " is missing");
-    if (!passage.paragraphs?.length) errors.push(at + ": at least one paragraph is required");
+    const blocks = passage.blocks || [];
+    if (!blocks.length && !passage.paragraphs?.length) errors.push(at + ": at least one narrative block is required");
+    blocks.forEach((block, index) => {
+      if (block.type === "paragraph" && !block.text?.trim()) errors.push(at + ".blocks[" + index + "]: paragraph text is required");
+      if (block.type === "figure" && !block.caption?.trim()) errors.push(at + ".blocks[" + index + "]: figure caption is required");
+      if (!['paragraph', 'figure'].includes(block.type)) errors.push(at + ".blocks[" + index + "]: unsupported block type");
+      sources(block.sources, at + ".blocks[" + index + "].sources");
+    });
     (passage.paragraphs || []).forEach((paragraph, index) => sources(paragraph.sources, at + ".paragraphs[" + index + "].sources"));
+    sources(passage.sources, at + ".sources");
   }
   for (const article of articles) {
     if (article.status === "published" && !passages.some((passage) => passage.articleId === article.id)) errors.push("story " + article.id + ": a published story needs a passage");
@@ -79,13 +97,16 @@ export function inspectContent({ records = [], events = [], relationships = [], 
     if (!unknownDate && !start) errors.push(at + ": start date must keep year, month or day precision");
     if (event.endDate && !end) errors.push(at + ": end date must keep year, month or day precision");
     if (start && end && event.endDate < event.startDate) errors.push(at + ": end date precedes start date");
+    const validPrecision = new Set(["day", "month", "year", "approximate", "range", "year-range", "day-range", "decade", "unknown"]);
+    if (!validPrecision.has(event.datePrecision)) errors.push(at + ": date precision is not recognised");
     for (const id of event.passageIds || []) if (!ids.passages.has(id)) errors.push(at + ": passage " + id + " is missing");
+    for (const id of event.recordIds || []) if (!ids.records.has(id)) errors.push(at + ": record " + id + " is missing");
     for (const id of event.themeIds || []) if (!ids.themes.has(id)) errors.push(at + ": theme " + id + " is missing");
     sources(event.sources, at + ".sources");
   }
   for (const relationship of relationships) {
     const at = "relationship " + (relationship.id || "(missing ID)"); unique(relationship.id, at, "relationships");
-    if (!ids.records.has(relationship.a) || !ids.records.has(relationship.b)) errors.push(at + ": both endpoints must be records in this sample");
+    if (!ids.records.has(relationship.a) || !ids.records.has(relationship.b)) errors.push(at + ": both endpoints must be records in the collection");
     if (!relationship.label?.trim() || !relationship.basis?.trim()) errors.push(at + ": relationship wording and basis are required");
     for (const id of relationship.passageIds || []) if (!ids.passages.has(id)) errors.push(at + ": passage " + id + " is missing");
     sources(relationship.sources, at + ".sources");
@@ -96,6 +117,13 @@ export function inspectContent({ records = [], events = [], relationships = [], 
     route("/images/" + image.slug + "/", at);
     for (const id of image.themeIds || []) if (!ids.themes.has(id)) errors.push(at + ": theme " + id + " is missing");
     sources([{ label: image.sourceName, url: image.sourceUrl }, { label: image.licence, url: image.licenceUrl }], at + ".attribution");
+  }
+  for (const passage of passages) for (const [index, block] of (passage.blocks || []).entries()) {
+    if (block.imageId && !ids.images.has(block.imageId)) errors.push("passage " + passage.id + ".blocks[" + index + "]: image " + block.imageId + " is missing");
+  }
+  for (const theme of themes) {
+    for (const id of theme.passageIds || []) if (!ids.passages.has(id)) errors.push("theme " + theme.id + ": passage " + id + " is missing");
+    for (const stop of theme.stops || []) if (!ids.passages.has(stop.passageId)) errors.push("theme " + theme.id + ": stop passage " + stop.passageId + " is missing");
   }
   privateFields([records, events, relationships, articles, passages, themes, images], "content");
   return errors;

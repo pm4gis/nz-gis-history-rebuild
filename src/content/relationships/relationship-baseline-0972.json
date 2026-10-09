@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0972",
+  "a": "person:kilmeny-stephens",
+  "b": "entity:nelson-city-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

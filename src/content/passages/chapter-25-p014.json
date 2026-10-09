@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-25-53e024cd7b",
+  "slug": "keeping-the-model-current-53e024cd7b",
+  "articleId": "article:chapter-25",
+  "title": "Keeping the model current",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A utility network changes every working day. New customers connect. Development extends mains and cables. Equipment reaches the end of its life and is replaced. Fault repairs can alter a route. Projects move from proposed design to constructed asset. Field staff discover errors that have survived for years in inherited plans. Every one of these changes can create a difference between the network in the ground and the network in the database.",
+      "markdown": "A utility network changes every working day. New customers connect. Development extends mains and cables. Equipment reaches the end of its life and is replaced. Fault repairs can alter a route. Projects move from proposed design to constructed asset. Field staff discover errors that have survived for years in inherited plans. Every one of these changes can create a difference between the network in the ground and the network in the database.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vector’s 2007 asset-management documentation records field data collection and verification applications for inspections, tests and defects. It also describes proposed networks transitioning to as-built status during the project lifecycle. A design drawing represents intended work; the asset register needs the network that was actually built.",
+      "markdown": "Vector’s 2007 asset-management documentation records field data collection and verification applications for inspections, tests and defects. It also describes proposed networks transitioning to as-built status during the project lifecycle. A design drawing represents intended work; the asset register needs the network that was actually built.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The operator therefore needs a controlled process for accepting change. Engineering design, construction records, field verification and asset commissioning all contribute different information. Geometry must be updated, but so must identifiers, status and associated attributes. A new segment that appears on the map without entering the maintenance system is incomplete, and an asset created in finance without usable geographic or network relationships is equally awkward for operations.",
+      "markdown": "The operator therefore needs a controlled process for accepting change. Engineering design, construction records, field verification and asset commissioning all contribute different information. Geometry must be updated, but so must identifiers, status and associated attributes. A new segment that appears on the map without entering the maintenance system is incomplete, and an asset created in finance without usable geographic or network relationships is equally awkward for operations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The cost of stale data rises when more systems depend on the same network model. An error in a paper plan might inconvenience one crew. An error in a corporate network database can flow into planning, field work, analysis and other connected applications. The move to integrated GIS therefore made data governance more operational, not less.",
+      "markdown": "The cost of stale data rises when more systems depend on the same network model. An error in a paper plan might inconvenience one crew. An error in a corporate network database can flow into planning, field work, analysis and other connected applications. The move to integrated GIS therefore made data governance more operational, not less.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

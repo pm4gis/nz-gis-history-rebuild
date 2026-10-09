@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-10-7ee8b0bc4d",
+  "slug": "a-national-conversion-job-7ee8b0bc4d",
+  "articleId": "article:chapter-10",
+  "title": "A national conversion job",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:10",
+    "entity:department-of-survey-and-land-information-dosli"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Digital Cadastral Database required sustained national production and maintenance. Computer-assisted cadastral mapping had already been explored through MAPPAK, but the DCDB put conversion of the cadastral record-map system onto a national programme. A 1991 United Nations country report records conversion beginning in 1986. By December 1990, 1.066 million parcel polygons had been captured, about 42 per cent of an estimated 2.5 million parcels. Chapter 13 describes the DCDB’s positional limitations and its later relationship with Landonline.",
+      "markdown": "The Digital Cadastral Database required sustained national production and maintenance. Computer-assisted cadastral mapping had already been explored through MAPPAK, but the DCDB put conversion of the cadastral record-map system onto a national programme. A 1991 United Nations country report records conversion beginning in 1986. By December 1990, 1.066 million parcel polygons had been captured, about 42 per cent of an estimated 2.5 million parcels. Chapter 13 describes the DCDB’s positional limitations and its later relationship with Landonline.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The work was much more than tracing parcel lines. Record maps had to be registered to their coordinate framework, geometry captured and edited, descriptive information linked, and inconsistencies checked. Current cadastral changes continued while the historical backlog was being converted, so some areas needed routine digital maintenance while other districts were still being digitised. National conversion also required common coding, topology and quality-control procedures so records produced in different Land Districts could later operate as one maintained system. Digitising created a new production line rather than a finite data-entry job.",
+      "markdown": "The work was much more than tracing parcel lines. Record maps had to be registered to their coordinate framework, geometry captured and edited, descriptive information linked, and inconsistencies checked. Current cadastral changes continued while the historical backlog was being converted, so some areas needed routine digital maintenance while other districts were still being digitised. National conversion also required common coding, topology and quality-control procedures so records produced in different Land Districts could later operate as one maintained system. Digitising created a new production line rather than a finite data-entry job.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later technical documentation describes the production environment using Sun Microsystems hardware, Unix, VISION* software supplied by SHL Systemhouse and an Oracle relational database. VISION* supported digitising, survey entry, editing, maintenance, enquiry and output. Such a system required specialist operators, survey and mapping knowledge, database and system support, backup procedures and continuing funding. The department was therefore acquiring an organisational capability as well as a set of digital parcel files.",
+      "markdown": "Later technical documentation describes the production environment using Sun Microsystems hardware, Unix, VISION* software supplied by SHL Systemhouse and an Oracle relational database. VISION* supported digitising, survey entry, editing, maintenance, enquiry and output. Such a system required specialist operators, survey and mapping knowledge, database and system support, backup procedures and continuing funding. The department was therefore acquiring an organisational capability as well as a set of digital parcel files.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The conversion also demonstrates why institutional GIS cannot be dated simply from a software purchase. The database began acquiring users and maintenance obligations before national capture was complete, while hard-copy survey and title records remained part of the working environment around it. Digital geometry carried forward the strengths and limitations of the source records, so a clean screen did not make every boundary survey accurate. By the end of the 1980s, DOSLI was operating a large national spatial database as continuing government infrastructure.",
+      "markdown": "The conversion also demonstrates why institutional GIS cannot be dated simply from a software purchase. The database began acquiring users and maintenance obligations before national capture was complete, while hard-copy survey and title records remained part of the working environment around it. Digital geometry carried forward the strengths and limitations of the source records, so a clean screen did not make every boundary survey accurate. By the end of the 1980s, DOSLI was operating a large national spatial database as continuing government infrastructure.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

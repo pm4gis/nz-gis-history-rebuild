@@ -1,0 +1,60 @@
+{
+  "id": "person:madge-pirrit",
+  "slug": "madge-pirrit",
+  "name": "Madge Pirrit",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/madge-pirrit/",
+  "story": [
+    "Madge Pirrit was a Lands and Survey draughtswoman whose maps were credited M. Pirrit. Her surviving work includes the 1925 Papakura town map and the 1932 Wharekawa Survey District sheet. The 1926 Gazette names her in an office-transfer record, establishing the given name behind those printed credits.",
+    "Rachel Gillanders and draughtswoman Madge Pirrit worked within this broader production system. Pirrit’s credited maps span town and cadastral compilation from the 1920s through aerial-photo-supported wartime topography and later work into 1949. Their names sit alongside a much larger workforce whose observations, calculations and linework accumulated in departmental records. Later digitisation inherited that work, including its strengths, omissions and uncertain boundaries."
+  ],
+  "sources": [
+    {
+      "label": "National Library, Town district of Papakura / M. Pirrit, Delt.",
+      "url": "https://natlib.govt.nz/records/32060309"
+    },
+    {
+      "label": "National Library, Wharekawa Survey District / M. Pirrit, Delt. 1932",
+      "url": "https://natlib.govt.nz/records/21701281"
+    },
+    {
+      "label": "New Zealand Gazette, 10 June 1926, issue 38, p.1611, Lands and Survey transfer record",
+      "url": "https://library.victoria.ac.nz/databases/nzgazettearchive/pubs/gazettes/1926/1926%20ISSUE%20038.pdf"
+    },
+    {
+      "label": "Chapter 1 · The people behind the sheets",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "Madge Pirrit"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "National Library, Town district of Papakura / M. Pirrit, Delt.",
+        "url": "https://natlib.govt.nz/records/32060309"
+      },
+      {
+        "label": "National Library, Wharekawa Survey District / M. Pirrit, Delt. 1932",
+        "url": "https://natlib.govt.nz/records/21701281"
+      },
+      {
+        "label": "New Zealand Gazette, 10 June 1926, issue 38, p.1611, Lands and Survey transfer record",
+        "url": "https://library.victoria.ac.nz/databases/nzgazettearchive/pubs/gazettes/1926/1926%20ISSUE%20038.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 1 · The people behind the sheets",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

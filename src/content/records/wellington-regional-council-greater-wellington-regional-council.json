@@ -1,0 +1,36 @@
+{
+  "id": "entity:wellington-regional-council-greater-wellington-regional-council",
+  "slug": "wellington-regional-council-greater-wellington-regional-council",
+  "name": "Wellington Regional Council / Greater Wellington Regional Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/wellington-regional-council-greater-wellington-regional-council/",
+  "website": "https://www.gw.govt.nz",
+  "story": [
+    "Wellington Regional Council used GIS for environmental and hazard work, including its 1998 Wildfire Study. In 2005, it provided technical support and funding for Rangitāne’s Ngā wāhi tapu o Ngāti Hāmua cultural-sites GIS project, whose software choice took ArcView compatibility into account.",
+    "The council commissioned the combined hazard mapping report in 1996."
+  ],
+  "sources": [
+    {
+      "label": "Jason Kerehi, Nga wahi tapu o Ngati Hamua: Sacred sites of Ngati Hamua - Paramount hapu of Rangitane o Wairarapa, Indigenous Knowledges Conference",
+      "url": "https://www.gw.govt.nz/assets/Documents/2005/09/011-Rangitane-GIS-Conference-Paper-Final-without-umlauts-_2_.pdf"
+    },
+    {
+      "label": "New Zealand Fire Service Commission Research Report No.10, A Pilot Study to Identify Strategies to Assess Vegetation Fire Hazards, Chilton Saint James School",
+      "url": "https://www.fireandemergency.nz/assets/Documents/Research-and-reports/Report-10-Pilot-Study-to-Identify-Strategies-to-Assess-Vegetation-Fire-Hazards.pdf"
+    },
+    {
+      "label": "Ian R Brown Associates with Kingston Morrison and Victoria University, Preparation of comprehensive earthquake hazard maps, April 1996, WRC/RP-T-96/22, pp.1 and 16",
+      "url": "https://ltp.gw.govt.nz/assets/Documents/Documents/2025/11/Combined-seismic-hazard-Maps_Ian-Brown_methodology_1996.PDF"
+    }
+  ],
+  "aliases": [
+    "Wellington Regional Council",
+    "Greater Wellington Regional Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

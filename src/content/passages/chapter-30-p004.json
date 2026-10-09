@@ -1,0 +1,48 @@
+{
+  "id": "passage:chapter-30-b284cddde9",
+  "slug": "a-map-without-gis-software-b284cddde9",
+  "articleId": "article:chapter-30",
+  "title": "A map without GIS software",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30",
+    "entity:massey-university",
+    "entity:vector",
+    "person:james-maguire"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Early browser GIS was attractive because the browser was ordinary. By the turn of the century it was already present on routine office computers, and users knew the basic conventions of links, forms, buttons and pages. An organisation could therefore provide a constrained geographic application without asking every user to learn the full interface and file structure of a desktop GIS. A person looking for an address, a property, a disease pattern or an operational location could be given only the tools required for that task.",
+      "markdown": "Early browser GIS was attractive because the browser was ordinary. By the turn of the century it was already present on routine office computers, and users knew the basic conventions of links, forms, buttons and pages. An organisation could therefore provide a constrained geographic application without asking every user to learn the full interface and file structure of a desktop GIS. A person looking for an address, a property, a disease pattern or an operational location could be given only the tools required for that task.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The trade-off was deliberate. Browser applications usually offered fewer analytical and editing functions than specialist desktop software. A guided query might be easier to use precisely because the application designer had already decided which layers, fields, searches and outputs were relevant. This reduced training requirements and made support more predictable, but it also limited the questions a user could ask. Early browser GIS widened reach by narrowing freedom.",
+      "markdown": "The trade-off was deliberate. Browser applications usually offered fewer analytical and editing functions than specialist desktop software. A guided query might be easier to use precisely because the application designer had already decided which layers, fields, searches and outputs were relevant. This reduced training requirements and made support more predictable, but it also limited the questions a user could ask. Early browser GIS widened reach by narrowing freedom.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The technology reinforced that pattern. In many first-generation systems, data and most spatial processing remained on the server. The user sent a request, and the server returned a map image or a small amount of query information. Interfaces could be slower and more brittle than later web maps, especially over modest network connections. There were no assumptions of modern vector tiles, cloud-native services or rich JavaScript clients. The browser was a thin window into a centrally operated system.",
+      "markdown": "The technology reinforced that pattern. In many first-generation systems, data and most spatial processing remained on the server. The user sent a request, and the server returned a map image or a small amount of query information. Interfaces could be slower and more brittle than later web maps, especially over modest network connections. There were no assumptions of modern vector tiles, cloud-native services or rich JavaScript clients. The browser was a thin window into a centrally operated system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This architecture also made maintenance more organisational. Updating the map service, changing a data connection or adding a standard query could be done centrally instead of repeated across dozens of workstations. The GIS team did not disappear. Its role shifted towards maintaining a service used by people who might never know which GIS software was behind the page.",
+      "markdown": "This architecture also made maintenance more organisational. Updating the map service, changing a data connection or adding a standard query could be done centrally instead of repeated across dozens of workstations. The GIS team did not disappear. Its role shifted towards maintaining a service used by people who might never know which GIS software was behind the page.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "James Maguire’s 1999 Massey University thesis records another approach to widening GIS access. Working with Genasys New Zealand software, he developed a Java viewing client with vector, image-download and database components. The project addressed the performance and usability of tools available to occasional GIS users. It places client-side GIS development within the late-1990s New Zealand software record, alongside the server-based web systems used by public agencies.",
+      "markdown": "James Maguire’s 1999 Massey University thesis records another approach to widening GIS access. Working with Genasys New Zealand software, he developed a Java viewing client with vector, image-download and database components. The project addressed the performance and usability of tools available to occasional GIS users. It places client-side GIS development within the late-1990s New Zealand software record, alongside the server-based web systems used by public agencies.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

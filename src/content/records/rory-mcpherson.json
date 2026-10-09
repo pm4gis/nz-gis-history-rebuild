@@ -1,0 +1,39 @@
+{
+  "id": "person:rory-mcpherson",
+  "slug": "rory-mcpherson",
+  "name": "Rory McPherson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rory-mcpherson/",
+  "story": [
+    "Rory McPherson was a Stantec GIS Analyst when he documented automation of Wellington Water beforeUdig requests. His 2019 presentation described a workflow using ArcGIS Pro, Python and FME to turn a repeated utility-information task into an automated process."
+  ],
+  "sources": [
+    {
+      "label": "Rory McPherson, Wellington Water beforeUdig automation presentation",
+      "url": "https://www.eagle.co.nz/sites/default/files/Rory_McPherson.pdf"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    }
+  ],
+  "aliases": [
+    "Rory McPherson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Rory McPherson, Wellington Water beforeUdig automation presentation",
+        "url": "https://www.eagle.co.nz/sites/default/files/Rory_McPherson.pdf"
+      },
+      {
+        "label": "New Zealand Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      }
+    ]
+  ]
+}

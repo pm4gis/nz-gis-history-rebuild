@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-5-092f0c23d6",
+  "slug": "converting-the-national-series-092f0c23d6",
+  "articleId": "article:chapter-5",
+  "title": "Converting the national series",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:5"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Between 1987 and 1990 all NZLRI mapping was converted from 1:63,360 to 1:50,000 using GIS. Manaaki Whenua’s historical account records a checking process against aerial photographs and topographic maps. Staff corrected the position of map-unit polygons in relation to coastlines, lakes, trig points, latitude and longitude positioning, and other geographic control. The conversion therefore combined data transformation with systematic review of the mapped geometry.",
+      "markdown": "Between 1987 and 1990 all NZLRI mapping was converted from 1:63,360 to 1:50,000 using GIS. Manaaki Whenua’s historical account records a checking process against aerial photographs and topographic maps. Staff corrected the position of map-unit polygons in relation to coastlines, lakes, trig points, latitude and longitude positioning, and other geographic control. The conversion therefore combined data transformation with systematic review of the mapped geometry.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A simple reproduction of the old sheet at a different scale would have preserved every mismatch between the earlier resource mapping and the newer topographic framework. Instead, the conversion staff compared the polygon boundaries with more current reference information. Some lines could be accepted, while others needed adjustment to fit coastlines, water bodies or positional control more consistently. The revised work produced a 1:50,000 digital dataset aligned more closely with the national mapping base used by other organisations.",
+      "markdown": "A simple reproduction of the old sheet at a different scale would have preserved every mismatch between the earlier resource mapping and the newer topographic framework. Instead, the conversion staff compared the polygon boundaries with more current reference information. Some lines could be accepted, while others needed adjustment to fit coastlines, water bodies or positional control more consistently. The revised work produced a 1:50,000 digital dataset aligned more closely with the national mapping base used by other organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The work also exposed the limits of automation. GIS could transform coordinates, manage polygons and support editing, but people still had to judge whether the transformed geometry was plausible. A coastline could be checked against aerial photography and topographic mapping, but a thematic boundary through hill country might still depend on the original land-resource interpretation. The conversion team therefore worked with both geometric control and subject knowledge.",
+      "markdown": "The work also exposed the limits of automation. GIS could transform coordinates, manage polygons and support editing, but people still had to judge whether the transformed geometry was plausible. A coastline could be checked against aerial photography and topographic mapping, but a thematic boundary through hill country might still depend on the original land-resource interpretation. The conversion team therefore worked with both geometric control and subject knowledge.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The digitised national inventory contained roughly 85,000 map units by the late 1980s. The programme revisited the geometry across the full series, requiring teams to digitise, check, correct and replot polygons. It was a national data-maintenance exercise rather than a one-off demonstration.",
+      "markdown": "The digitised national inventory contained roughly 85,000 map units by the late 1980s. The programme revisited the geometry across the full series, requiring teams to digitise, check, correct and replot polygons. It was a national data-maintenance exercise rather than a one-off demonstration.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

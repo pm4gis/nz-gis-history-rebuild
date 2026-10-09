@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2214",
+  "a": "person:amanda-macdonald-creevey",
+  "b": "entity:rayonier-matariki-forests",
+  "label": "Associated with",
+  "basis": "Documented association in the people-expansion research; role and period are described in the linked profile sources.",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "passage:chapter-14-0aee31f3d5",
+  "slug": "changing-the-law-0aee31f3d5",
+  "articleId": "article:chapter-14",
+  "title": "Changing the law",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:14"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Electronic search could be introduced by changing how records were stored and accessed. Electronic transactions required more. The law had been written for instruments, signatures, certificates and plans that people could hold, sign and lodge physically. Landonline Stage Two therefore needed legislation that recognised electronic records and electronic lodgement without weakening the principles that gave the survey and title systems their authority.",
+      "markdown": "Electronic search could be introduced by changing how records were stored and accessed. Electronic transactions required more. The law had been written for instruments, signatures, certificates and plans that people could hold, sign and lodge physically. Landonline Stage Two therefore needed legislation that recognised electronic records and electronic lodgement without weakening the principles that gave the survey and title systems their authority.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Land Transfer (Computer Registers and Electronic Lodgement) Amendment Act 2002 and the Cadastral Survey Act 2002 were both enacted in May and commenced substantially from 1 June 2002. The land-transfer amendments allowed computer registers, electronic instruments, electronic workspaces and digital authentication to sit inside the existing registration system. The cadastral legislation explicitly allowed cadastral survey datasets to be lodged and processed electronically. The legislation modernised the transaction medium while retaining the fundamental land-transfer principles and the Crown-backed guarantee of title stressed in parliamentary material.",
+      "markdown": "The Land Transfer (Computer Registers and Electronic Lodgement) Amendment Act 2002 and the Cadastral Survey Act 2002 were both enacted in May and commenced substantially from 1 June 2002. The land-transfer amendments allowed computer registers, electronic instruments, electronic workspaces and digital authentication to sit inside the existing registration system. The cadastral legislation explicitly allowed cadastral survey datasets to be lodged and processed electronically. The legislation modernised the transaction medium while retaining the fundamental land-transfer principles and the Crown-backed guarantee of title stressed in parliamentary material.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The legal design also recognised that electronic processing required control over who could do what. Conveyancers and licensed surveyors would work in electronic workspaces and authenticate submissions using digital certificates. Routine transactions could be checked against business rules before they reached the register. Survey data could be tested electronically for compliance with survey requirements. A system that accepted structured data could perform checks that were impossible when its only input was a paper document arriving over a counter.",
+      "markdown": "The legal design also recognised that electronic processing required control over who could do what. Conveyancers and licensed surveyors would work in electronic workspaces and authenticate submissions using digital certificates. Routine transactions could be checked against business rules before they reached the register. Survey data could be tested electronically for compliance with survey requirements. A system that accepted structured data could perform checks that were impossible when its only input was a paper document arriving over a counter.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "At first, electronic lodgement was an option rather than a universal requirement. The legislation allowed the government to make electronic lodgement compulsory later by regulation or order once the system and its users were ready. That sequencing reduced the risk of changing the law faster than the service could operate. It also created a long transition in which paper and electronic processes coexisted, sometimes awkwardly, while professions adapted.",
+      "markdown": "At first, electronic lodgement was an option rather than a universal requirement. The legislation allowed the government to make electronic lodgement compulsory later by regulation or order once the system and its users were ready. That sequencing reduced the risk of changing the law faster than the service could operate. It also created a long transition in which paper and electronic processes coexisted, sometimes awkwardly, while professions adapted.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The benefits case depended on more than faster searching. If professionals still prepared paper, LINZ staff still re-keyed it, and the electronic register merely stored the result, much of the old handling cost remained. Stage Two was intended to move structured information closer to the person who originated it. That changed where data quality was checked. A professional could discover a routine error during preparation, not after a couriered or counter-lodged instrument had entered a formal examination queue.",
+      "markdown": "The benefits case depended on more than faster searching. If professionals still prepared paper, LINZ staff still re-keyed it, and the electronic register merely stored the result, much of the old handling cost remained. Stage Two was intended to move structured information closer to the person who originated it. That changed where data quality was checked. A professional could discover a routine error during preparation, not after a couriered or counter-lodged instrument had entered a formal examination queue.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Automation also forced business rules out of manuals and tacit practice and into forms that software could apply. That was straightforward for some tests and difficult for others. A missing field, invalid reference or mathematical misclosure could be checked mechanically. Questions involving evidence, legal interpretation or professional judgement still needed a person. Landonline therefore did not automate the professions out of the process. It shifted the boundary between mechanical checking and expert decision.",
+      "markdown": "Automation also forced business rules out of manuals and tacit practice and into forms that software could apply. That was straightforward for some tests and difficult for others. A missing field, invalid reference or mathematical misclosure could be checked mechanically. Questions involving evidence, legal interpretation or professional judgement still needed a person. Landonline therefore did not automate the professions out of the process. It shifted the boundary between mechanical checking and expert decision.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

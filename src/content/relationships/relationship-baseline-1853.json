@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1853",
+  "a": "person:rachelle-winefield",
+  "b": "chapter:19",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-19-7ec6ff6340"
+  ],
+  "sources": []
+}

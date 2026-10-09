@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1847",
+  "a": "person:jon-hargest",
+  "b": "chapter:18",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-18-65d86e5082"
+  ],
+  "sources": []
+}

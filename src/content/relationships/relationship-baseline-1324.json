@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1324",
+  "a": "entity:eagle-technology",
+  "b": "chapter:26",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-26-70d5c1dde2",
+    "passage:chapter-26-611e7efe0e"
+  ],
+  "sources": []
+}

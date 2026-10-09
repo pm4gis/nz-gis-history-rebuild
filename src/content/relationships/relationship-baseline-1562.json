@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1562",
+  "a": "person:gavin-knight",
+  "b": "chapter:28",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-28-4c81da5a4c"
+  ],
+  "sources": []
+}

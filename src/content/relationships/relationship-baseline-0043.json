@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0043",
+  "a": "entity:department-of-survey-and-land-information-dosli",
+  "b": "chapter:14",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-14-279983c56b"
+  ],
+  "sources": []
+}

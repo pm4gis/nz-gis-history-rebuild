@@ -1,0 +1,26 @@
+{
+  "id": "2013-geographx-earth-atlas-award",
+  "dateDisplay": "2013",
+  "startDate": "2013",
+  "datePrecision": "year",
+  "year": 2013,
+  "label": "Geographx atlas wins the IMTA Global Award",
+  "summary": "Geographx managed cartographic production for the EARTH Platinum World Atlas, which won the International Map Trade Association’s Global Award for Best Map Product.",
+  "url": "/stories/from-flat-maps-to-3d/#terrain-becomes-data-44fef5297f",
+  "passageIds": [
+    "passage:chapter-39-44fef5297f"
+  ],
+  "recordIds": [
+    "entity:geographx",
+    "chapter:39",
+    "entity:tasman-district-council",
+    "entity:fox-and-associates"
+  ],
+  "themeIds": [],
+  "categories": [
+    "cartography",
+    "map-design",
+    "award"
+  ],
+  "sources": []
+}

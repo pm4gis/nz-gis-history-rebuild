@@ -1,0 +1,48 @@
+{
+  "id": "entity:nga-poutama-matawhenua",
+  "slug": "nga-poutama-matawhenua",
+  "name": "Ngā Poutama Matawhenua",
+  "kind": "Organisation",
+  "category": "Iwi and Māori organisations",
+  "url": "/entities/nga-poutama-matawhenua/",
+  "website": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga",
+  "story": [
+    "Ngā Poutama Matawhenua is LINZ’s practical Māori GIS mapping wānanga programme. Its sessions help iwi, Māori trusts and environmental groups learn to work with spatial data and map whenua and community priorities.",
+    "LINZ’s 2020/21 annual report records fortnightly online wānanga from October 2020, delivered with Te Kāhui Manu Hōkai Māori GIS Association and supported by GIS Journey Limited. The collaboration received the 2021 Spatial Excellence Community Impact award, announced in 2022.",
+    "LINZ identifies Duane Wilkins as a geospatial consultant for the Ngā Poutama Matawhenua wānanga series. Its annual report also names him as a GIS wānanga facilitator in Whangārei.",
+    "The programme treats GIS as a practical tool for communities to record places, assets and priorities and use spatial information in their own work."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Ngā Poutama Matawhenua wānanga series",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/nga-poutama-matawhenua-practical-maori-gis-mapping-wananga"
+    },
+    {
+      "label": "LINZ Annual Report 2020/21",
+      "url": "https://www.linz.govt.nz/sites/default/files/corp/toitu-te-whenua_annual-report-20-21-a11y-web_20211201.pdf"
+    },
+    {
+      "label": "Survey & Spatial NZ, 2021 Spatial Excellence Awards",
+      "url": "https://www.spatialsource.com.au/nz-spatial-excellence-awards-winners-announced/"
+    },
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    },
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    }
+  ],
+  "aliases": [
+    "Ngā Poutama Matawhenua",
+    "Ngā Poutama",
+    "Practical Māori GIS Mapping Wānanga"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

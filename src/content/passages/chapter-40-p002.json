@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-40-607a7bde5d",
+  "slug": "what-enterprise-gis-includes-607a7bde5d",
+  "articleId": "article:chapter-40",
+  "title": "What enterprise GIS includes",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:smallworld-ge-smallworld"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Enterprise GIS is an organisational operating model rather than a particular product. Shared authoritative data sits in databases or controlled repositories, services publish it to several applications, and integrations connect location with property, assets, science, operations and other business systems. Identity and permissions determine who can see or edit information. Governance defines ownership, custodianship, standards and change control. Platform teams keep the system available, backed up, patched and monitored through its lifecycle.",
+      "markdown": "Enterprise GIS is an organisational operating model rather than a particular product. Shared authoritative data sits in databases or controlled repositories, services publish it to several applications, and integrations connect location with property, assets, science, operations and other business systems. Identity and permissions determine who can see or edit information. Governance defines ownership, custodianship, standards and change control. Platform teams keep the system available, backed up, patched and monitored through its lifecycle.",
+      "sources": [
+        {
+          "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+          "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+        },
+        {
+          "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+          "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+        },
+        {
+          "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+          "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The practical consequence is dependency. A local desktop failure affects one analyst. A shared service can affect hundreds of staff and several business processes. Enterprise GIS therefore brings spatial systems into ordinary IT disciplines: resilience, security, service management, release planning, architecture and support. New Zealand organisations reached that state through several technical lineages, including Esri, Intergraph, MapInfo, Smallworld, open-source systems and bespoke applications.",
+      "markdown": "The practical consequence is dependency. A local desktop failure affects one analyst. A shared service can affect hundreds of staff and several business processes. Enterprise GIS therefore brings spatial systems into ordinary IT disciplines: resilience, security, service management, release planning, architecture and support. New Zealand organisations reached that state through several technical lineages, including Esri, Intergraph, MapInfo, Smallworld, open-source systems and bespoke applications.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

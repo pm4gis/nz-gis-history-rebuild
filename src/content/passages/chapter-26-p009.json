@@ -1,0 +1,50 @@
+{
+  "id": "passage:chapter-26-3065a3f775",
+  "slug": "a-national-picture-of-land-cover-3065a3f775",
+  "articleId": "article:chapter-26",
+  "title": "A national picture of land cover",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "While DOC was building enterprise access, New Zealand was also creating a different kind of environmental spatial record. The first Land Cover Database was completed in 2000 using SPOT satellite imagery acquired during the summer of 1996/97. It classified land cover across mainland New Zealand, near-shore islands and the Chatham Islands. The date of the imagery and the date of the finished database need to remain separate because the product required classification, checking and correction after image acquisition.",
+      "markdown": "While DOC was building enterprise access, New Zealand was also creating a different kind of environmental spatial record. The first Land Cover Database was completed in 2000 using SPOT satellite imagery acquired during the summer of 1996/97. It classified land cover across mainland New Zealand, near-shore islands and the Chatham Islands. The date of the imagery and the date of the finished database need to remain separate because the product required classification, checking and correction after image acquisition.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LCDB converted imagery into a maintained thematic GIS dataset. Land-cover classes had to be interpreted, delineated, checked and stored consistently across the country. The database could then be used without every organisation repeating the classification work from the original imagery. For environmental agencies and researchers, that created a common national reference for questions about forest, scrub, grassland, urban cover and other land-cover types.",
+      "markdown": "LCDB converted imagery into a maintained thematic GIS dataset. Land-cover classes had to be interpreted, delineated, checked and stored consistently across the country. The database could then be used without every organisation repeating the classification work from the original imagery. For environmental agencies and researchers, that created a common national reference for questions about forest, scrub, grassland, urban cover and other land-cover types.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LCDB2 was released in July 2004 using Landsat 7 ETM+ imagery from summer 2001/02. During its production the earlier LCDB1 classifications were checked and corrected, and the two epochs could be used to identify changes between the late 1990s and early 2000s. The product was therefore both a new national snapshot and a revision of the earlier database. That quality-control step is part of the history because repeated national datasets inherit errors as readily as they inherit useful features.",
+      "markdown": "LCDB2 was released in July 2004 using Landsat 7 ETM+ imagery from summer 2001/02. During its production the earlier LCDB1 classifications were checked and corrected, and the two epochs could be used to identify changes between the late 1990s and early 2000s. The product was therefore both a new national snapshot and a revision of the earlier database. That quality-control step is part of the history because repeated national datasets inherit errors as readily as they inherit useful features.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Later versions extended the time series. Users could compare land cover across several periods rather than treat one map as permanent. That supported environmental reporting, land-use analysis and research into change. The imagery source changed over time, but the durable object for many GIS users was the classified national database, not the raw satellite scene.",
+      "markdown": "Later versions extended the time series. Users could compare land cover across several periods rather than treat one map as permanent. That supported environmental reporting, land-use analysis and research into change. The imagery source changed over time, but the durable object for many GIS users was the classified national database, not the raw satellite scene.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In August 2011 the Government funded a four-year Land Cover Research Programme at $1 million a year. Environment Minister Nick Smith and Science and Innovation Minister Wayne Mapp described work using satellite technology, geospatial mapping and advanced computing to update information about forests, pastures, rivers, cities and changing land use. Landcare Research led the programme with the Ministry for the Environment, Department of Conservation, Ministry of Agriculture and Forestry and regional councils, building on the Land Use and Carbon Analysis System.",
+      "markdown": "In August 2011 the Government funded a four-year Land Cover Research Programme at $1 million a year. Environment Minister Nick Smith and Science and Innovation Minister Wayne Mapp described work using satellite technology, geospatial mapping and advanced computing to update information about forests, pastures, rivers, cities and changing land use. Landcare Research led the programme with the Ministry for the Environment, Department of Conservation, Ministry of Agriculture and Forestry and regional councils, building on the Land Use and Carbon Analysis System.",
+      "sources": [
+        {
+          "label": "Beehive, $4 million for high-tech mapping programme, 12 August 2011",
+          "url": "https://www.beehive.govt.nz/release/4-million-high-tech-mapping-programme"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-43-e694e8604c",
+  "slug": "oversight-of-automated-work-e694e8604c",
+  "articleId": "article:chapter-43",
+  "title": "Oversight of automated work",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of 2025 automation was embedded across New Zealand geospatial work at several levels. A desktop analyst could reuse a processing model or script. A database could derive geometry and aggregate billions of readings. An ETL process could move and reshape information between enterprise systems. A national mapping workflow could generate products from maintained data and rules. Remote-sensing production could combine automated classification with human review. None of these required the same technology, but all reduced the amount of repeated handling needed to produce a reliable spatial result.",
+      "markdown": "By the end of 2025 automation was embedded across New Zealand geospatial work at several levels. A desktop analyst could reuse a processing model or script. A database could derive geometry and aggregate billions of readings. An ETL process could move and reshape information between enterprise systems. A national mapping workflow could generate products from maintained data and rules. Remote-sensing production could combine automated classification with human review. None of these required the same technology, but all reduced the amount of repeated handling needed to produce a reliable spatial result.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Staff maintained and checked automated processes, deciding where human attention was most useful. Repetition could be delegated to code or configured workflows, while people concentrated on requirements, exceptions, interpretation and quality. That arrangement also created new obligations to maintain the automation itself. A workflow that saves a thousand hours this year can become a thousand-hour problem later if nobody understands how it works.",
+      "markdown": "Staff maintained and checked automated processes, deciding where human attention was most useful. Repetition could be delegated to code or configured workflows, while people concentrated on requirements, exceptions, interpretation and quality. That arrangement also created new obligations to maintain the automation itself. A workflow that saves a thousand hours this year can become a thousand-hour problem later if nobody understands how it works.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The final chapter begins at that boundary. Traditional GIS automation encoded rules in scripts, models, SQL and production systems. Machine learning increasingly allowed some patterns to be learned from examples rather than specified step by step. Generative AI then began changing how practitioners produced code, searched documentation and interacted with spatial systems. By the end of 2025 the question was no longer whether GIS work could be automated. It was how much of the process could be delegated while keeping enough human understanding to know when the result was wrong.",
+      "markdown": "The final chapter begins at that boundary. Traditional GIS automation encoded rules in scripts, models, SQL and production systems. Machine learning increasingly allowed some patterns to be learned from examples rather than specified step by step. Generative AI then began changing how practitioners produced code, searched documentation and interacted with spatial systems. By the end of 2025 the question was no longer whether GIS work could be automated. It was how much of the process could be delegated while keeping enough human understanding to know when the result was wrong.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

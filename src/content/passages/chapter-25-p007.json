@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-25-310848c3b6",
+  "slug": "network-topology-and-tracing-310848c3b6",
+  "articleId": "article:chapter-25",
+  "title": "Network topology and tracing",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Topology in a utility network is practical rather than decorative. An overhead electricity line can cross another line on a map without being electrically connected to it. A cable can pass beneath a road, join a transformer and continue as another circuit. A switch can change which part of the network is energised. Representing these relationships requires the data to distinguish a crossing from a connection and to record the devices that alter the path.",
+      "markdown": "Topology in a utility network is practical rather than decorative. An overhead electricity line can cross another line on a map without being electrically connected to it. A cable can pass beneath a road, join a transformer and continue as another circuit. A switch can change which part of the network is energised. Representing these relationships requires the data to distinguish a crossing from a connection and to record the devices that alter the path.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same principle applies to other networks. A water main branches through valves and junctions, and closing one valve can isolate a section while leaving another supplied. A gas system has mains, pressure zones, regulators and valves whose arrangement affects flow and capacity. Telecommunications networks depend on physical routes through ducts, cabinets, cables and connection points. Each sector uses its own engineering rules, but all require the GIS to know more than where the line was drawn.",
+      "markdown": "The same principle applies to other networks. A water main branches through valves and junctions, and closing one valve can isolate a section while leaving another supplied. A gas system has mains, pressure zones, regulators and valves whose arrangement affects flow and capacity. Telecommunications networks depend on physical routes through ducts, cabinets, cables and connection points. Each sector uses its own engineering rules, but all require the GIS to know more than where the line was drawn.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This is why a network database can fail while still looking plausible. A cable may be snapped to the wrong node. Two water-main segments may stop just short of one another. A switch may exist graphically but be associated with the wrong circuit. In an ordinary map these errors may be hard to see. In a trace, isolation calculation or exported network model they can produce an obviously wrong result.",
+      "markdown": "This is why a network database can fail while still looking plausible. A cable may be snapped to the wrong node. Two water-main segments may stop just short of one another. A switch may exist graphically but be associated with the wrong circuit. In an ordinary map these errors may be hard to see. In a trace, isolation calculation or exported network model they can produce an obviously wrong result.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Network GIS therefore moved quality assurance into the structure of the data. Geometry, connectivity and attributes had to agree. The database could enforce some rules automatically, but many errors still depended on people who understood the physical network. Engineering knowledge and GIS data management were forced into closer contact than in applications where a line mainly represented a boundary or thematic feature.",
+      "markdown": "Network GIS therefore moved quality assurance into the structure of the data. Geometry, connectivity and attributes had to agree. The database could enforce some rules automatically, but many errors still depended on people who understood the physical network. Engineering knowledge and GIS data management were forced into closer contact than in applications where a line mainly represented a boundary or thematic feature.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

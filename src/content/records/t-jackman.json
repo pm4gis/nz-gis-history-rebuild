@@ -1,0 +1,42 @@
+{
+  "id": "person:t-jackman",
+  "slug": "t-jackman",
+  "name": "T. Jackman",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/t-jackman/",
+  "story": [
+    "Getting it all together with GIS: first National Multi-Disciplinary GIS Conference, Wellington, 26 to 28 June 1989, edited by T. Jackman and published by ERA Group, records the meeting’s papers.",
+    "The proceedings document the First National Multi-Disciplinary GIS Conference in Wellington, 26–28 June 1989, Getting it all together with GIS, edited by T. Jackman and published by ERA Group."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 6 · Chapter source notes",
+      "url": "/stories/when-gis-became-gis/"
+    },
+    {
+      "label": "Chapter 29 · Chapter source notes",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "T. Jackman"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 6 · Chapter source notes",
+        "url": "/stories/when-gis-became-gis/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · Chapter source notes",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

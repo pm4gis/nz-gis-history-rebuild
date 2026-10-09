@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0884",
+  "a": "person:hamish-kingsbury",
+  "b": "entity:abley",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1755",
+  "a": "person:w-i-reilly",
+  "b": "chapter:2",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-2-2ab91fbc4f"
+  ],
+  "sources": []
+}

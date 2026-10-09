@@ -1,0 +1,53 @@
+{
+  "id": "passage:chapter-23-2085360bd2",
+  "slug": "adoption-accelerates-2085360bd2",
+  "articleId": "article:chapter-23",
+  "title": "Adoption accelerates",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "local-government"
+  ],
+  "recordIds": [
+    "chapter:23",
+    "entity:university-of-otago",
+    "person:george-benwell",
+    "person:andrew-marr",
+    "person:michael-anderson",
+    "person:e-todd",
+    "person:k-g-fraser"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Contemporary research from the University of Otago provides a better national picture than a list of individual council purchases. Michael Anderson and George Benwell surveyed local-authority GIS use in 1992, and K. G. Fraser and E. Todd compared the situation in July 1993 with February 1992. By 1995 Andrew Marr and George Benwell were examining how local-government GIS had developed since the 1989 restructuring. Their interest had already moved beyond whether a council owned GIS software to how deeply the technology was being used inside the organisation.",
+      "markdown": "Contemporary research from the University of Otago provides a better national picture than a list of individual council purchases. Michael Anderson and George Benwell surveyed local-authority GIS use in 1992, and K. G. Fraser and E. Todd compared the situation in July 1993 with February 1992. By 1995 Andrew Marr and George Benwell were examining how local-government GIS had developed since the 1989 restructuring. Their interest had already moved beyond whether a council owned GIS software to how deeply the technology was being used inside the organisation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Marr and Benwell’s 1996 study described the council systems then in use. Their survey achieved a 74.4 per cent response rate, and 70 per cent of the responding organisations said they had GIS. They also reported that the majority of implementations had occurred in the previous three years, while some dated from before 1988. Adoption grew rapidly in the early 1990s, though councils followed different timetables.",
+      "markdown": "Marr and Benwell’s 1996 study described the council systems then in use. Their survey achieved a 74.4 per cent response rate, and 70 per cent of the responding organisations said they had GIS. They also reported that the majority of implementations had occurred in the previous three years, while some dated from before 1988. Adoption grew rapidly in the early 1990s, though councils followed different timetables.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The research also records a change in who managed GIS. Earlier systems were often associated with a planning, engineering or other specialist function. Marr and Benwell found a marked increase in responsibility moving towards information-services departments as councils tried to manage GIS as a corporate resource. That shift did not remove planners, engineers or GIS specialists from the work. It changed the organisational home of the databases, software, networks and support needed by several business units.",
+      "markdown": "The research also records a change in who managed GIS. Earlier systems were often associated with a planning, engineering or other specialist function. Marr and Benwell found a marked increase in responsibility moving towards information-services departments as councils tried to manage GIS as a corporate resource. That shift did not remove planners, engineers or GIS specialists from the work. It changed the organisational home of the databases, software, networks and support needed by several business units.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Their exploratory maturity model compared councils by their uses of GIS, the departments involved and the age of each implementation. The strongest indicators were the number of uses supported by GIS, the number of departments using it and the age of the implementation. A council with one GIS operator producing maps for one department sat at a different stage from a council where property, planning, engineering and environmental staff were all using the same spatial resources. GIS maturity depended on its use across departments as well as the maps produced.",
+      "markdown": "Their exploratory maturity model compared councils by their uses of GIS, the departments involved and the age of each implementation. The strongest indicators were the number of uses supported by GIS, the number of departments using it and the age of the implementation. A council with one GIS operator producing maps for one department sat at a different stage from a council where property, planning, engineering and environmental staff were all using the same spatial resources. GIS maturity depended on its use across departments as well as the maps produced.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS use varied across council departments. A 1997 New Zealand paper cited the finding that 70 per cent of local-government authorities had GIS but noted that only 20 per cent were actually using it for land-use mapping, although 45.5 per cent had intended to do so. The gap is a useful check on the adoption statistics. By the middle of the decade GIS was common in councils, but coverage of individual functions remained uneven.",
+      "markdown": "GIS use varied across council departments. A 1997 New Zealand paper cited the finding that 70 per cent of local-government authorities had GIS but noted that only 20 per cent were actually using it for land-use mapping, although 45.5 per cent had intended to do so. The gap is a useful check on the adoption statistics. By the middle of the decade GIS was common in councils, but coverage of individual functions remained uneven.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "passage:chapter-23-a81f59d2fe",
+  "slug": "continuing-council-development-a81f59d2fe",
+  "articleId": "article:chapter-23",
+  "title": "Continuing council development",
+  "order": 16,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "entity:abley",
+    "entity:christchurch-city-council",
+    "person:steve-abley"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Councils took different paths into corporate GIS. Size, responsibilities, budgets and existing data shaped whether the work sat with a specialist team, one or two staff, an outside supplier or a regional partnership. Cities, districts and regional councils also had different information needs.",
+      "markdown": "Councils took different paths into corporate GIS. Size, responsibilities, budgets and existing data shaped whether the work sat with a specialist team, one or two staff, an outside supplier or a regional partnership. Cities, districts and regional councils also had different information needs.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Departments shared information while retaining separate systems. Old datasets survived, business systems were replaced at different times and network records remained incomplete in some places. The Audit Office continued to report weaknesses in asset information after GIS had become common. A council could have an advanced spatial system and still be uncertain about the age or condition of underground infrastructure.",
+      "markdown": "Departments shared information while retaining separate systems. Old datasets survived, business systems were replaced at different times and network records remained incomplete in some places. The Audit Office continued to report weaknesses in asset information after GIS had become common. A council could have an advanced spatial system and still be uncertain about the age or condition of underground infrastructure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The software environment remained mixed. ArcInfo and ArcView were widely used, while MapInfo and GeoMedia had established council markets. Different products served different tasks, with shared, maintained information connecting the work across departments.",
+      "markdown": "The software environment remained mixed. ArcInfo and ArcView were widely used, while MapInfo and GeoMedia had established council markets. Different products served different tasks, with shared, maintained information connecting the work across departments.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2000s and early 2010s, GIS was a standard council information service in much of New Zealand. Property, planning and asset data were being made available through more than one application. Internal viewers widened staff access; public services exposed selected records outside the council. Regional programmes shared information that crossed council boundaries.",
+      "markdown": "By the 2000s and early 2010s, GIS was a standard council information service in much of New Zealand. Property, planning and asset data were being made available through more than one application. Internal viewers widened staff access; public services exposed selected records outside the council. Regional programmes shared information that crossed council boundaries.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Council GIS increasingly connected maintained spatial data to departmental databases, staff viewers and selected public services. Shared regional projects extended those links across council boundaries. Chapter 24 follows the corresponding expansion of GIS across central government.",
+      "markdown": "Council GIS increasingly connected maintained spatial data to departmental databases, staff viewers and selected public services. Shared regional projects extended those links across council boundaries. Chapter 24 follows the corresponding expansion of GIS across central government.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Steve Abley’s 1996 pedestrian-crossing mapping project for Christchurch City Council is part of Abley’s business history, described in Chapter 12.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

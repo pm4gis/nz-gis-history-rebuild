@@ -1,0 +1,31 @@
+{
+  "id": "person:chris-scott",
+  "slug": "chris-scott",
+  "name": "Chris Scott",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/chris-scott/",
+  "story": [
+    "Chris Scott's 2016 FIG paper described the scale of surveying within the Stronger Christchurch Infrastructure Rebuild Team. Around 150 surveyors from sixteen consultancies contributed roughly 200,000 survey hours. The programme used a federated digital delivery environment and included intelligent three-dimensional drainage strings among the information passed through the rebuild workflow."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 39 · Infrastructure in three dimensions",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Chris Scott"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 39 · Infrastructure in three dimensions",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

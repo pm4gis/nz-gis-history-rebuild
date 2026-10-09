@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-21-71400a2800",
+  "slug": "ogc-in-palmerston-north-71400a2800",
+  "articleId": "article:chapter-21",
+  "title": "OGC in Palmerston North",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21",
+    "person:david-medyckyj-scott"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Manaaki Whenua hosted the OGC’s 105th Technical and Planning Committee meeting in Palmerston North from 4 to 8 December 2017. The New Zealand Cartographic Society’s national report records it as the first OGC meeting held in New Zealand. Local practitioners were able to work with overseas participants in the consortium’s Domain and Standards Working Groups.",
+      "markdown": "Manaaki Whenua hosted the OGC’s 105th Technical and Planning Committee meeting in Palmerston North from 4 to 8 December 2017. The New Zealand Cartographic Society’s national report records it as the first OGC meeting held in New Zealand. Local practitioners were able to work with overseas participants in the consortium’s Domain and Standards Working Groups.",
+      "sources": [
+        {
+          "label": "James Barringer, Manaaki Whenua contribution to Cartographic Activities in New Zealand 2015–2019, printed pp.30–31: OGC meeting and summits",
+          "url": "https://icaci.org/files/documents/national_reports/2015-2019/newzealand-2019_lq.pdf"
+        },
+        {
+          "label": "OGC historical events directory: 105th Member Meeting, Palmerston North, New Zealand, 2017",
+          "url": "https://portal.ogc.org/meet/ogcmeet/events/"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Two open summits accompanied the meeting: Environmental Data and Data Interoperability, and Agritech. They extended the discussion to environmental-data providers, researchers and agricultural technology users beyond the committee sessions. David Medyckyj-Scott recalls the Palmerston North event as the only OGC Technical Committee meeting held in New Zealand. The event record confirms the 2017 meeting; the claim that it remained the only one is retained as his account.",
+      "markdown": "Two open summits accompanied the meeting: Environmental Data and Data Interoperability, and Agritech. They extended the discussion to environmental-data providers, researchers and agricultural technology users beyond the committee sessions. David Medyckyj-Scott recalls the Palmerston North event as the only OGC Technical Committee meeting held in New Zealand. The event record confirms the 2017 meeting; the claim that it remained the only one is retained as his account.",
+      "sources": [
+        {
+          "label": "James Barringer, Manaaki Whenua contribution to Cartographic Activities in New Zealand 2015–2019, printed pp.30–31: OGC meeting and summits",
+          "url": "https://icaci.org/files/documents/national_reports/2015-2019/newzealand-2019_lq.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

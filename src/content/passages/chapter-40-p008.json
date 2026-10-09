@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-40-170f4bb82f",
+  "slug": "location-joins-the-business-systems-170f4bb82f",
+  "articleId": "article:chapter-40",
+  "title": "Location joins the business systems",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Connecting GIS to other organisational systems changed the enterprise environment substantially. GIS became more valuable when it stopped behaving as a separate world of layers and began linking records that the organisation already cared about. A parcel could connect to title or property information. A cable could connect to an asset record and a maintenance history. A conservation feature could link to operational or scientific databases. Geography became another route into organisational information.",
+      "markdown": "Connecting GIS to other organisational systems changed the enterprise environment substantially. GIS became more valuable when it stopped behaving as a separate world of layers and began linking records that the organisation already cared about. A parcel could connect to title or property information. A cable could connect to an asset record and a maintenance history. A conservation feature could link to operational or scientific databases. Geography became another route into organisational information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vector's early-2000s field system shows the operational consequence of connecting mobile devices with corporate GIS. In April 2002 the electricity company was deploying 40 Compaq iPAQs and six Panasonic Toughbooks to field crews. The notebooks used Vector's Smallworld GIS, while the iPAQs ran ArcPad. Vector developed translation software so data could move between ArcPad and the Smallworld environment when devices were synchronised at the office.",
+      "markdown": "Vector's early-2000s field system shows the operational consequence of connecting mobile devices with corporate GIS. In April 2002 the electricity company was deploying 40 Compaq iPAQs and six Panasonic Toughbooks to field crews. The notebooks used Vector's Smallworld GIS, while the iPAQs ran ArcPad. Vector developed translation software so data could move between ArcPad and the Smallworld environment when devices were synchronised at the office.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2003 contemporary reporting described staff using handheld devices and communications links to reach the corporate GIS asset register during network work. The spatial asset record had become part of an operational workflow. Field work could consume organisational GIS information and return updates instead of producing paperwork that someone later re-entered at a desk.",
+      "markdown": "By 2003 contemporary reporting described staff using handheld devices and communications links to reach the corporate GIS asset register during network work. The spatial asset record had become part of an operational workflow. Field work could consume organisational GIS information and return updates instead of producing paperwork that someone later re-entered at a desk.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Systems could exchange information across vendors and file formats. Vector used a translation layer to connect its systems. Different tools survive because they suit different jobs. The organisation's problem is to make the information move between them without losing meaning or control.",
+      "markdown": "Systems could exchange information across vendors and file formats. Vector used a translation layer to connect its systems. Different tools survive because they suit different jobs. The organisation's problem is to make the information move between them without losing meaning or control.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

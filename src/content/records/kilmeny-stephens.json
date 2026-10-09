@@ -1,0 +1,42 @@
+{
+  "id": "person:kilmeny-stephens",
+  "slug": "kilmeny-stephens",
+  "name": "Kilmeny Stephens",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/kilmeny-stephens/",
+  "story": [
+    "Kilmeny Stephens served as NZEUG’s secretary at its fifteenth AGM, held at Wellington Town Hall on 10 November 2010. The project-held minutes record that the executive remained unchanged after the election.",
+    "Minutes of the fifteenth Annual General Meeting, held at Wellington Town Hall on 10 November 2010, name Igor Albornett as chair, Tony Standen as deputy chair, Kilmeny Stephens as secretary and Chris Holden as treasurer."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG, 10 November 2010 AGM minutes",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Kilmeny Stephens"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZEUG, 10 November 2010 AGM minutes",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

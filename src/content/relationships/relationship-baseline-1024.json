@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1024",
+  "a": "person:sandy-fong",
+  "b": "entity:ministry-of-transport",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

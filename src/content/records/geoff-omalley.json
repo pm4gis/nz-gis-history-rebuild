@@ -1,0 +1,114 @@
+{
+  "id": "person:geoff-omalley",
+  "slug": "geoff-omalley",
+  "name": "Geoff O'Malley",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/geoff-omalley/",
+  "story": [
+    "Geoff O'Malley's career connects national mapping with the development of geospatial capability at Land Information New Zealand. His professional profile records study at Victoria University of Wellington in 2004–05 and the GISP-AP credential. These sit alongside the technical and national coordination roles described in the history.",
+    "Geoff O’Malley’s public work spans national digital topographic mapping and geospatial capability. His technical papers on the national 1:250,000 topographic database appear in the historical record of DOSLI and early digital mapping. Later presentations show his work moving into national data coordination, policy and workforce development. LINZ lists him as chair of the Geospatial Capability Committee. A 2017 presentation records the committee’s goals across schools, tertiary education and industry, and its work on New Zealand geospatial research priorities. He also contributed to the committee’s analysis and the 2023 Geospatial Industry Profile Survey report.",
+    "Conversion of national topographic information was under way by the later 1980s, and by the 1991 AURISA conference Geoff Howard, Geoff O'Malley and Robin Pickering could present a paper titled \"New Zealand's Topographic Database - Where To Next?\" The paper records a change in the organisation’s work: DOSLI was no longer dealing only with printed map editions. It was maintaining digital topographic information that could support later products and supply users outside the traditional cartographic production line.",
+    "Geoff O’Malley received the Outstanding Contribution to Spatial award at the 2018 New Zealand Spatial Excellence Awards. The award sits within a career already documented across national topographic data, the New Zealand Geospatial Strategy and later geospatial capability work.",
+    "LINZ’s 2026 Geospatial Capability Committee material lists Geoff O’Malley in LINZ / GCC chair; Geospatial Capability Committee.."
+  ],
+  "sources": [
+    {
+      "label": "Geoff O’Malley, Delivering the New Zealand Geospatial Strategy, National Lifelines Forum 2008",
+      "url": "https://www.civildefence.govt.nz/assets/Uploads/documents/lifelines/lifelines-forum/lifelines-forum-2008-omalley.pdf"
+    },
+    {
+      "label": "University of Otago, National perspectives on geospatial capability and research, 2017",
+      "url": "https://www.otago.ac.nz/__data/assets/pdf_file/0023/324536/national-perspectives-on-geospatial-capability-and-research-661997.pdf"
+    },
+    {
+      "label": "University of Otago, Update on LINZ Location Information Group activities, 2018",
+      "url": "https://www.otago.ac.nz/__data/assets/pdf_file/0031/326839/update-on-linz-location-information-group-activities-and-more-696458.pdf"
+    },
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    },
+    {
+      "label": "LINZ, New Zealand Geospatial Industry Profile Survey",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry/new-zealand-geospatial-industry-profile-survey"
+    },
+    {
+      "label": "LINZ, New Zealand Geospatial Industry Profile Survey 2023 report",
+      "url": "https://www.linz.govt.nz/sites/default/files/doc/GISS%20Report%202023.pdf"
+    },
+    {
+      "label": "Geoff O'Malley - Toitū Te Whenua Land Information New Zealand | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/geoff-o-malley-35258115"
+    },
+    {
+      "label": "Chapter 10 · Topographic databases",
+      "url": "/stories/gis-inside-government/"
+    },
+    {
+      "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+      "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+    }
+  ],
+  "aliases": [
+    "Geoff O'Malley",
+    "Geoff O’Malley"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Geoff O'Malley - Toitū Te Whenua Land Information New Zealand | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/geoff-o-malley-35258115"
+      }
+    ],
+    [
+      {
+        "label": "Geoff O’Malley, Delivering the New Zealand Geospatial Strategy, National Lifelines Forum 2008",
+        "url": "https://www.civildefence.govt.nz/assets/Uploads/documents/lifelines/lifelines-forum/lifelines-forum-2008-omalley.pdf"
+      },
+      {
+        "label": "University of Otago, National perspectives on geospatial capability and research, 2017",
+        "url": "https://www.otago.ac.nz/__data/assets/pdf_file/0023/324536/national-perspectives-on-geospatial-capability-and-research-661997.pdf"
+      },
+      {
+        "label": "University of Otago, Update on LINZ Location Information Group activities, 2018",
+        "url": "https://www.otago.ac.nz/__data/assets/pdf_file/0031/326839/update-on-linz-location-information-group-activities-and-more-696458.pdf"
+      },
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      },
+      {
+        "label": "LINZ, New Zealand Geospatial Industry Profile Survey",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry/new-zealand-geospatial-industry-profile-survey"
+      },
+      {
+        "label": "LINZ, New Zealand Geospatial Industry Profile Survey 2023 report",
+        "url": "https://www.linz.govt.nz/sites/default/files/doc/GISS%20Report%202023.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 10 · Topographic databases",
+        "url": "/stories/gis-inside-government/"
+      }
+    ],
+    [
+      {
+        "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+        "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ]
+  ]
+}

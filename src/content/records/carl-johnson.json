@@ -1,0 +1,42 @@
+{
+  "id": "person:carl-johnson",
+  "slug": "carl-johnson",
+  "name": "Carl Johnson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/carl-johnson/",
+  "story": [
+    "Carl Johnson was a DHI co-author of the 2006–07 Horizons flood-modelling and mapping report.",
+    "The Horizons flood-modelling record held by Archives Central names the modelling team: Terry van Kalken and Carl Johnson of DHI Water and Environment prepared the 2006-07 final report for Mangaone Stream, the Taonui Basin and Manawatū breach scenarios. The useful afterlife was as important as the original purchase. Horizons later used the same elevation data for landform and soil work, drainage, tsunami and storm-surge analysis, transport corridors, erosion and river-channel migration. A dataset bought because the region had just flooded had become general-purpose terrain infrastructure."
+  ],
+  "sources": [
+    {
+      "label": "Archives Central, Flood Plain Hazard Assessment Hydraulic Modelling and Mapping - Mangaone Stream and Taonui Basin and Manawatu Breach, HRC 00460:2:54",
+      "url": "https://archivescentral.org.nz/horizons-regional-council/record/flood-plain-hazard-assessment-hydraulic-modelling-and-mapping"
+    },
+    {
+      "label": "Chapter 20 · Imagery as a base layer",
+      "url": "/stories/imagery-becomes-infrastructure/"
+    }
+  ],
+  "aliases": [
+    "Carl Johnson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Archives Central, Flood Plain Hazard Assessment Hydraulic Modelling and Mapping - Mangaone Stream and Taonui Basin and Manawatu Breach, HRC 00460:2:54",
+        "url": "https://archivescentral.org.nz/horizons-regional-council/record/flood-plain-hazard-assessment-hydraulic-modelling-and-mapping"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 20 · Imagery as a base layer",
+        "url": "/stories/imagery-becomes-infrastructure/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "person:ann-de-schutter",
+  "slug": "ann-de-schutter",
+  "name": "Ann De Schutter",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ann-de-schutter/",
+  "story": [
+    "DOC profiled Ann De Schutter in 2015 as a Christchurch Geospatial Analyst supporting mapping, spatial analysis, 1080 projects, application training and GPS/GIS support. She later presented imagery and drone work on Auckland Island at the 2019 New Zealand Esri User Conference."
+  ],
+  "sources": [
+    {
+      "label": "Department of Conservation, Jobs at DOC: Geospatial Analyst, 2015",
+      "url": "https://blog.doc.govt.nz/2015/07/24/geospatial-analyst/"
+    },
+    {
+      "label": "New Zealand Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    }
+  ],
+  "aliases": [
+    "Ann De Schutter"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Department of Conservation, Jobs at DOC: Geospatial Analyst, 2015",
+        "url": "https://blog.doc.govt.nz/2015/07/24/geospatial-analyst/"
+      },
+      {
+        "label": "New Zealand Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      }
+    ]
+  ]
+}

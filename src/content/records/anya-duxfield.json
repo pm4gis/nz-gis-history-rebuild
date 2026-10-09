@@ -1,0 +1,31 @@
+{
+  "id": "person:anya-duxfield",
+  "slug": "anya-duxfield",
+  "name": "Anya Duxfield",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/anya-duxfield/",
+  "story": [
+    "Anya Duxfield of Far North District Council presented the use of ArcGIS Online for community engagement in district planning at the 2017 New Zealand Esri User Conference. The example shows web GIS being used as part of public planning communication rather than only as an internal council viewer."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Anya Duxfield"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

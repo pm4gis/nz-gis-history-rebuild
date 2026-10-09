@@ -1,0 +1,31 @@
+{
+  "id": "person:trish-merz",
+  "slug": "trish-merz",
+  "name": "Trish Merz",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/trish-merz/",
+  "story": [
+    "LINZ’s geospatial industry career material profiles Trish Merz: ANZ Representation Planning Manager; location analytics for branch/ATM/banker network."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Working in New Zealand’s geospatial industry",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry"
+    }
+  ],
+  "aliases": [
+    "Trish Merz"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Working in New Zealand’s geospatial industry",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry"
+      }
+    ]
+  ]
+}

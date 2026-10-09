@@ -1,0 +1,37 @@
+{
+  "id": "person:linda-lilburne",
+  "slug": "linda-lilburne",
+  "name": "Linda Lilburne",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/linda-lilburne/",
+  "story": [
+    "Landcare Research scientist Linda Lilburne used the wider Internet to seek practical advice. She asked a Usenet artificial-intelligence group whether anyone had integrated an expert system with GIS, then later returned with a summary after finding that many of the replies were people asking her to forward whatever answers she received. She did exactly that, circulating the useful references and examples back to the group."
+  ],
+  "sources": [
+    {
+      "label": "Linda LILBURNE | Manaaki Whenua - Landcare Research, Lincoln | Research profile · public profile",
+      "url": "https://www.researchgate.net/profile/Linda-Lilburne"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Linda Lilburne"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

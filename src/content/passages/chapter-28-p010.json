@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-28-f7e6282567",
+  "slug": "crime-count-harm-and-vulnerability-f7e6282567",
+  "articleId": "article:chapter-28",
+  "title": "Crime count, harm and vulnerability",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The move from specialist installations to broader browser access substantially changed the MAPS environment. In 2001 an analyst could use incident points, time windows and Census information to examine local patterns and plan patrol or prevention activity. By 2017 spatial analysis could also combine nationally calculated measures to identify communities for sustained resource attention. The map had moved further upstream into prioritisation.",
+      "markdown": "The move from specialist installations to broader browser access substantially changed the MAPS environment. In 2001 an analyst could use incident points, time windows and Census information to examine local patterns and plan patrol or prevention activity. By 2017 spatial analysis could also combine nationally calculated measures to identify communities for sustained resource attention. The map had moved further upstream into prioritisation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change also made methodological choices more visible. An index built from sociodemographic and crime variables carries assumptions about which indicators represent vulnerability and how they should be combined. A harm index carries assumptions about how offence seriousness should be weighted. These indices supported decisions about Police resources; their results depended on the indicators and weighting selected. They are analytical tools designed to represent different operational concerns.",
+      "markdown": "The change also made methodological choices more visible. An index built from sociodemographic and crime variables carries assumptions about which indicators represent vulnerability and how they should be combined. A harm index carries assumptions about how offence seriousness should be weighted. These indices supported decisions about Police resources; their results depended on the indicators and weighting selected. They are analytical tools designed to represent different operational concerns.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2017 paper tested how the methods overlapped and differed rather than declaring one universal answer. Some locations ranked highly under more than one measure, while others were elevated by one approach and not the other. The measures identified different geographic problems. Density asks where incidents concentrate. Harm asks where the consequences of offending are greatest under the chosen weighting. Vulnerability asks where crime intersects with wider social conditions.",
+      "markdown": "The 2017 paper tested how the methods overlapped and differed rather than declaring one universal answer. Some locations ranked highly under more than one measure, while others were elevated by one approach and not the other. The measures identified different geographic problems. Density asks where incidents concentrate. Harm asks where the consequences of offending are greatest under the chosen weighting. Vulnerability asks where crime intersects with wider social conditions.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

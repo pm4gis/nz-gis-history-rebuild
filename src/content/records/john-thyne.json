@@ -1,0 +1,56 @@
+{
+  "id": "person:john-thyne",
+  "slug": "john-thyne",
+  "name": "John Thyne",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/john-thyne/",
+  "story": [
+    "John Thyne at the University of Canterbury organised Christchurch GISoc gatherings through GISList in 2008 and a regional Esri user meeting at NZi3 for 10 June 2009. The December 2008 NZEUG newsletter lists him on the committee. The November 2010 AGM minutes record him standing down, documenting both his local organising and national volunteer service.",
+    "John Thyne at the University of Canterbury used the list to organise Christchurch GISoc meetings at C1 Espresso as casual gatherings for southern GIS people."
+  ],
+  "sources": [
+    {
+      "label": "Duane Wilkins Gmail archive, NZEUG GISList messages, administration traffic and shutdown notice"
+    },
+    {
+      "label": "John Thyne, Christchurch NZ ESRI User Group Meeting notice"
+    },
+    {
+      "label": "New Zealand ESRI User Group Newsletter, December 2008"
+    },
+    {
+      "label": "New Zealand ESRI Users Group, 2010 Annual General Meeting Minutes"
+    },
+    {
+      "label": "Chapter 12 · Companies and user groups",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 12 · Users organise themselves",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "John Thyne"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Companies and user groups",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Users organise themselves",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

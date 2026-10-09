@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-35-a527809038",
+  "slug": "applications-for-staff-a527809038",
+  "articleId": "article:chapter-35",
+  "title": "Applications for staff",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The internal version of the same change can be even less visible. A planner, call-centre worker, field coordinator or manager may use spatial information as part of a business process without thinking of themselves as a GIS user. Their application might show one map, one search box and a set of records. It may allow a person to select a property, confirm a location or review a dashboard while keeping the underlying geodatabase and services entirely out of sight.",
+      "markdown": "The internal version of the same change can be even less visible. A planner, call-centre worker, field coordinator or manager may use spatial information as part of a business process without thinking of themselves as a GIS user. Their application might show one map, one search box and a set of records. It may allow a person to select a property, confirm a location or review a dashboard while keeping the underlying geodatabase and services entirely out of sight.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This widened the organisational reach of GIS. Earlier corporate GIS programmes often focused on increasing the number of people who could access mapping software or browser viewers. Application-based delivery focused instead on embedding spatial capability into jobs that already existed. The emphasis shifted from identifying who needed GIS to identifying where location improved an existing process. That was a different way of thinking about deployment.",
+      "markdown": "This widened the organisational reach of GIS. Earlier corporate GIS programmes often focused on increasing the number of people who could access mapping software or browser viewers. Application-based delivery focused instead on embedding spatial capability into jobs that already existed. The emphasis shifted from identifying who needed GIS to identifying where location improved an existing process. That was a different way of thinking about deployment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change also altered user support. Training someone to use a general GIS can require explaining layers, selections, queries, scale and other concepts. A well-designed task application can reduce that burden by embedding defaults and controls. However, if the application is too rigid, users may have no way to handle unusual cases. Designing for ordinary work without preventing necessary exceptions becomes part of the product decision.",
+      "markdown": "The change also altered user support. Training someone to use a general GIS can require explaining layers, selections, queries, scale and other concepts. A well-designed task application can reduce that burden by embedding defaults and controls. However, if the application is too rigid, users may have no way to handle unusual cases. Designing for ordinary work without preventing necessary exceptions becomes part of the product decision.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Good user requirements became part of spatial design. The builder needs to understand the available data, the user’s task, their decision authority, the language they use and what happens when the data do not fit the expected pattern. GIS practitioners increasingly had to work as translators between operational teams and spatial systems.",
+      "markdown": "Good user requirements became part of spatial design. The builder needs to understand the available data, the user’s task, their decision authority, the language they use and what happens when the data do not fit the expected pattern. GIS practitioners increasingly had to work as translators between operational teams and spatial systems.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

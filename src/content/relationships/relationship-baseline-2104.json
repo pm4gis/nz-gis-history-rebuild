@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2104",
+  "a": "person:paula-gentle",
+  "b": "chapter:18",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

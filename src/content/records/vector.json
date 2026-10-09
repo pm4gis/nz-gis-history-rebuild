@@ -1,0 +1,29 @@
+{
+  "id": "entity:vector",
+  "slug": "vector",
+  "name": "Vector",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/vector/",
+  "website": null,
+  "story": [
+    "Vector’s mobile GIS work brought network information into field operations. Gareth Williams described this work in the research collected for this history.",
+    "Its 1999 asset plan documents early 1990s GIS data conversion and subsequent Smallworld migration."
+  ],
+  "sources": [
+    {
+      "label": "Vector, Asset Management Plan 1999/2000 and 2000/2001, printed pp.10 and 65",
+      "url": "https://blob-static.vector.co.nz/blob/vector/media/vector-regulatory-disclosures/vector-electricity-amp-1999.pdf"
+    }
+  ],
+  "aliases": [
+    "Vector"
+  ],
+  "themeIds": [
+    "profession",
+    "imagery"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

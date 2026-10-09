@@ -1,0 +1,39 @@
+{
+  "id": "entity:vicinity-solutions",
+  "slug": "vicinity-solutions",
+  "name": "Vicinity Solutions",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/vicinity-solutions/",
+  "website": null,
+  "story": [
+    "Vicinity Solutions supplied geospatial services, including work on local-government systems and geographic data. It was listed in the 2013 market review.",
+    "Vicinity’s Waimakariri case study describes work following the Canterbury earthquakes to improve the relationship between rating parcels, addresses and property records. Shelley Sutcliffe developed automated processing for multiple flats on a parcel and rating parcels crossing land parcels, with data cleanup and integration across GIS platforms.",
+    "Another case records co-founder Bryan Clarke’s independent review of a draft New Zealand addressing profile for a LINZ-led standards group. His critique informed changes to the conceptual model and related international-standard work. The cases document the company’s work on data structures and reliable exchange of location information; neither supplies a precise project-completion year."
+  ],
+  "sources": [
+    {
+      "label": "Commerce Commission, PropertyIQ NZ / Terralink International clearance application",
+      "url": "https://www.comcom.govt.nz/__data/assets/pdf_file/0027/76293/PropertyIQ-NZ-and-Terralink-International-clearance-application-15-July-2013.pdf"
+    },
+    {
+      "label": "Vicinity Solutions, Waimakariri District Council: geospatial data integration after the Canterbury earthquakes",
+      "url": "https://vicgis.com/projects/waimakariri-district-council.html"
+    },
+    {
+      "label": "Vicinity Solutions, New Zealand Geospatial Office: review of draft addressing profile",
+      "url": "https://vicgis.com/projects/nz-geospatial-office.html"
+    },
+    {
+      "label": "Vicinity GIS, company background and Bryan Clarke memorial",
+      "url": "https://vicinitysolutions.co.nz/contact-us/about-us.html"
+    }
+  ],
+  "aliases": [
+    "Vicinity Solutions"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

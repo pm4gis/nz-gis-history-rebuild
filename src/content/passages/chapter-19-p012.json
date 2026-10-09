@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-19-b8214adc9c",
+  "slug": "further-refinement-b8214adc9c",
+  "articleId": "article:chapter-19",
+  "title": "Further refinement",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Additional post-earthquake observations continued to arrive during 2018. LINZ incorporated new geodetic survey data into the National Geodetic Adjustment and refined the earthquake modelling again. A further update on 1 December 2018 changed geodetic coordinates and coordinate orders where the improved evidence justified it.",
+      "markdown": "Additional post-earthquake observations continued to arrive during 2018. LINZ incorporated new geodetic survey data into the National Geodetic Adjustment and refined the earthquake modelling again. A further update on 1 December 2018 changed geodetic coordinates and coordinate orders where the improved evidence justified it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Across most of the national high-order network the later changes were small. LINZ reported that 98 per cent of Order 5 and better marks had horizontal changes below two centimetres. Larger adjustments remained concentrated in and around the earthquake-affected area. Some control marks near complex faulting were downgraded because the available model could not support their previous accuracy classification.",
+      "markdown": "Across most of the national high-order network the later changes were small. LINZ reported that 98 per cent of Order 5 and better marks had horizontal changes below two centimetres. Larger adjustments remained concentrated in and around the earthquake-affected area. Some control marks near complex faulting were downgraded because the available model could not support their previous accuracy classification.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Previous coordinate values were retained in the Geodetic Database as historical values. That allowed users to trace which coordinate had applied before an update rather than erasing the earlier reference. By this point the national geodetic system was maintaining coordinate history as well as current values, observations and model versions.",
+      "markdown": "Previous coordinate values were retained in the Geodetic Database as historical values. That allowed users to trace which coordinate had applied before an update rather than erasing the earlier reference. By this point the national geodetic system was maintaining coordinate history as well as current values, observations and model versions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Kaikōura required changes to coordinates and deformation modelling within NZGD2000. The response used mechanisms already anticipated by the semi-dynamic design: new observations, updated coordinates and modifications to the deformation model. The earthquake increased the scale and visibility of that maintenance work and forced the distinction between physical ground movement, official coordinates and GIS data alignment into normal operational practice.",
+      "markdown": "Kaikōura required changes to coordinates and deformation modelling within NZGD2000. The response used mechanisms already anticipated by the semi-dynamic design: new observations, updated coordinates and modifications to the deformation model. The earthquake increased the scale and visibility of that maintenance work and forced the distinction between physical ground movement, official coordinates and GIS data alignment into normal operational practice.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

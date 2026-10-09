@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-30-78faf09cfe",
+  "slug": "gis-reaches-the-browser-78faf09cfe",
+  "articleId": "article:chapter-30",
+  "title": "GIS reaches the browser",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "technology-stack"
+  ],
+  "recordIds": [
+    "chapter:30",
+    "entity:new-zealand-police"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "At the end of the 1990s, a geographic information system could still be a very literal place. In New Zealand Police, the early analyst GIS was installed on customised workstations at individual sites. Crime and mapping data were loaded locally, printers were part of the setup, and different installations could drift into different software versions. The system did useful analytical work, but every additional site brought another bundle of installation, maintenance and support. This was a manageable model while GIS remained a specialist activity used by a relatively small number of trained staff.",
+      "markdown": "At the end of the 1990s, a geographic information system could still be a very literal place. In New Zealand Police, the early analyst GIS was installed on customised workstations at individual sites. Crime and mapping data were loaded locally, printers were part of the setup, and different installations could drift into different software versions. The system did useful analytical work, but every additional site brought another bundle of installation, maintenance and support. This was a manageable model while GIS remained a specialist activity used by a relatively small number of trained staff.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The browser changed that equation. Instead of placing a complete GIS application and its data on every user’s machine, an organisation could keep much more of the application, processing and information centrally and allow people to reach selected functions through an ordinary web browser. The user still needed a computer and a network connection, while the organisation still needed servers, databases, software, administrators, security and support. The complexity moved. More of it could be managed once, centrally, rather than reproduced across many local installations.",
+      "markdown": "The browser changed that equation. Instead of placing a complete GIS application and its data on every user’s machine, an organisation could keep much more of the application, processing and information centrally and allow people to reach selected functions through an ordinary web browser. The user still needed a computer and a network connection, while the organisation still needed servers, databases, software, administrators, security and support. The complexity moved. More of it could be managed once, centrally, rather than reproduced across many local installations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Desktop GIS remained essential for specialist analysts who needed to edit data, design maps, build models and ask questions beyond a pre-built browser application. Browser GIS solved a different problem. It allowed a much larger group of people to search, inspect, query and display geographic information without becoming full GIS operators. By the early 2000s policing, public health, councils and central government used browser GIS alongside specialist desktop systems.",
+      "markdown": "Desktop GIS remained essential for specialist analysts who needed to edit data, design maps, build models and ask questions beyond a pre-built browser application. Browser GIS solved a different problem. It allowed a much larger group of people to search, inspect, query and display geographic information without becoming full GIS operators. By the early 2000s policing, public health, councils and central government used browser GIS alongside specialist desktop systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The documented early New Zealand web maps were interactive information services delivered through websites. They were interfaces to maintained information systems. Behind the browser sat operational databases, spatial layers, business records, servers and staff responsible for keeping the whole arrangement working. The screen could look simple because the difficult work had moved elsewhere.",
+      "markdown": "The documented early New Zealand web maps were interactive information services delivered through websites. They were interfaces to maintained information systems. Behind the browser sat operational databases, spatial layers, business records, servers and staff responsible for keeping the whole arrangement working. The screen could look simple because the difficult work had moved elsewhere.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

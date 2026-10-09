@@ -1,0 +1,25 @@
+{
+  "id": "entity:whangarei-district-council",
+  "slug": "whangarei-district-council",
+  "name": "Whangarei District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/whangarei-district-council/",
+  "website": "https://www.wdc.govt.nz",
+  "description": "Named in The parcel becomes a key (Chapter 23). Follow the linked passage for context.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Whangarei District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

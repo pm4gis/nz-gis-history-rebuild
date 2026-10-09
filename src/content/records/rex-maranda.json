@@ -1,0 +1,31 @@
+{
+  "id": "person:rex-maranda",
+  "slug": "rex-maranda",
+  "name": "Rex Maranda",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/rex-maranda/",
+  "story": [
+    "Tauranga City Council marked Rex Maranda’s 25 years of service in June 2022. Its meeting minutes record that he arrived from Vanuatu as a Land Information Officer and moved into the GIS team in 2004. They credit him with developing and managing the internal SmartZoom viewer, managing SmartViewer and internal mapping, and providing GIS support to emergency management."
+  ],
+  "sources": [
+    {
+      "label": "Tauranga City Council meeting minutes, 13 June 2022: Rex Maranda’s 25 years’ service",
+      "url": "https://infocouncil.tauranga.govt.nz/Open/2022/06/CO_20220613_MIN_2429.PDF"
+    }
+  ],
+  "aliases": [
+    "Rex Maranda"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Tauranga City Council meeting minutes, 13 June 2022: Rex Maranda’s 25 years’ service",
+        "url": "https://infocouncil.tauranga.govt.nz/Open/2022/06/CO_20220613_MIN_2429.PDF"
+      }
+    ]
+  ]
+}

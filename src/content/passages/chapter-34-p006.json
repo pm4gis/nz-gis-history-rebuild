@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-34-d1bd509df3",
+  "slug": "working-without-a-signal-d1bd509df3",
+  "articleId": "article:chapter-34",
+  "title": "Working without a signal",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Offline operation remained one of the defining practical requirements of New Zealand mobile GIS. A conservation worker in remote country, a utility crew beyond urban coverage or an environmental team in a catchment cannot treat connectivity as guaranteed. The field application therefore needs a useful state when the network disappears. That can mean cached basemaps, downloaded feature layers, local forms, stored attachments and a queue of edits waiting to synchronise. The details changed across software generations, but the problem did not.",
+      "markdown": "Offline operation remained one of the defining practical requirements of New Zealand mobile GIS. A conservation worker in remote country, a utility crew beyond urban coverage or an environmental team in a catchment cannot treat connectivity as guaranteed. The field application therefore needs a useful state when the network disappears. That can mean cached basemaps, downloaded feature layers, local forms, stored attachments and a queue of edits waiting to synchronise. The details changed across software generations, but the problem did not.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Mobile GIS differed from simply opening a web map on a portable screen. A browser viewer could assume a connection because it had no independent copy of the data. A field system had to survive disconnection without losing context or creating untraceable edits. It also had to reconnect cleanly. Once several people could edit features away from the central database, the organisation needed rules for conflicts, permissions, validation and failed synchronisation. The technology became easier to use while the governance underneath it became more important.",
+      "markdown": "Mobile GIS differed from simply opening a web map on a portable screen. A browser viewer could assume a connection because it had no independent copy of the data. A field system had to survive disconnection without losing context or creating untraceable edits. It also had to reconnect cleanly. Once several people could edit features away from the central database, the organisation needed rules for conflicts, permissions, validation and failed synchronisation. The technology became easier to use while the governance underneath it became more important.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Offline design remained essential as mobile broadband expanded. Coverage improved dramatically through the 2000s and 2010s, while New Zealand’s geography ensured that field teams continued to work in gaps. Disaster work could create new gaps precisely when information was most urgent. Conservation and environmental work often occurred beyond ordinary networks by design. A good field application therefore became less dependent on a permanent connection even as its connected functions improved.",
+      "markdown": "Offline design remained essential as mobile broadband expanded. Coverage improved dramatically through the 2000s and 2010s, while New Zealand’s geography ensured that field teams continued to work in gaps. Disaster work could create new gaps precisely when information was most urgent. Conservation and environmental work often occurred beyond ordinary networks by design. A good field application therefore became less dependent on a permanent connection even as its connected functions improved.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

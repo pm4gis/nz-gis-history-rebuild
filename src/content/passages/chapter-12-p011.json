@@ -1,0 +1,102 @@
+{
+  "id": "passage:chapter-12-b0f15360d7",
+  "slug": "conferences-and-meetings-b0f15360d7",
+  "articleId": "article:chapter-12",
+  "title": "Conferences and meetings",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12",
+    "entity:canterbury-regional-council-environment-canterbury",
+    "entity:geographic-business-solutions",
+    "entity:gns-science",
+    "entity:massey-university",
+    "entity:nelson-city-council",
+    "entity:new-plymouth-district-council",
+    "entity:new-zealand-esri-users-group",
+    "entity:stats-nz",
+    "entity:terralink",
+    "entity:university-of-canterbury",
+    "entity:tauranga-city-council",
+    "person:greg-bennett",
+    "person:richard-wells",
+    "person:rachel-summers",
+    "person:tony-elson",
+    "person:kurt-janssen",
+    "person:martin-erasmuson",
+    "person:laura-nicol",
+    "person:igor-albornett",
+    "person:tony-standen",
+    "person:kilmeny-stephens",
+    "person:chris-holden",
+    "person:junior-lee-chee",
+    "person:peter-fraser",
+    "person:steve-richards",
+    "person:john-thyne",
+    "person:mark-thompson",
+    "person:roland-pomana",
+    "person:byron-cochrane",
+    "person:glenn-russell",
+    "person:meghan-williams",
+    "person:marie-slako",
+    "person:richard-sisterson",
+    "person:derrick-williams",
+    "person:andrew-shakes",
+    "person:nenad-petrovic",
+    "person:sarah-cowell",
+    "person:miles-dunkin",
+    "person:michael-ogden"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "User conferences allowed practitioners to discuss problems and exchange experience directly. They let practitioners see how another organisation had implemented the same software, what had failed, what data model had been chosen and what could be adapted locally. Vendor staff could demonstrate new capabilities, but customer presentations often supplied the more useful test: whether the system survived real data, real budgets and real colleagues. Training sessions and informal conversations spread techniques faster than waiting for a journal article. A practitioner community became a form of technical infrastructure.",
+      "markdown": "User conferences allowed practitioners to discuss problems and exchange experience directly. They let practitioners see how another organisation had implemented the same software, what had failed, what data model had been chosen and what could be adapted locally. Vendor staff could demonstrate new capabilities, but customer presentations often supplied the more useful test: whether the system survived real data, real budgets and real colleagues. Training sessions and informal conversations spread techniques faster than waiting for a journal article. A practitioner community became a form of technical infrastructure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The conferences also linked people who otherwise worked inside separate institutions. A council GIS specialist, a Crown researcher, a consultant and a software support engineer could encounter the same problem from different directions. Universities remained part of this flow, but Chapter 11's course and research history was only one source of capability. Commercial training, customer projects and user-group events created another route. Knowledge moved through employment, contracts and professional relationships as much as through qualifications.",
+      "markdown": "The conferences also linked people who otherwise worked inside separate institutions. A council GIS specialist, a Crown researcher, a consultant and a software support engineer could encounter the same problem from different directions. Universities remained part of this flow, but Chapter 11's course and research history was only one source of capability. Commercial training, customer projects and user-group events created another route. Knowledge moved through employment, contracts and professional relationships as much as through qualifications.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The group itself also required volunteer labour that is easy to lose behind the conference branding. The December 2008 NZEUG newsletter gives an unusually concrete governance snapshot. Steve Richards and Greg Bennett had left the committee at that year's AGM, and the new committee was listed as Byron Cochrane, Glenn Russell, Igor Albornett, John Thyne, Junior Lee-Chee, Laura Nicol, Meghan Williams, Peter Fraser, Rachel Summers, Richard Wells and Tony Standen. Martin Erasmuson signed the newsletter as chairman. The names spanned Defence, MAF, PowerCo, the University of Canterbury, Auckland City Council, Terralink, Massey University, New Plymouth District Council, private business and a student member. Members from several institutions ran the group.",
+      "markdown": "The group itself also required volunteer labour that is easy to lose behind the conference branding. The December 2008 NZEUG newsletter gives an unusually concrete governance snapshot. Steve Richards and Greg Bennett had left the committee at that year's AGM, and the new committee was listed as Byron Cochrane, Glenn Russell, Igor Albornett, John Thyne, Junior Lee-Chee, Laura Nicol, Meghan Williams, Peter Fraser, Rachel Summers, Richard Wells and Tony Standen. Martin Erasmuson signed the newsletter as chairman. The names spanned Defence, MAF, PowerCo, the University of Canterbury, Auckland City Council, Terralink, Massey University, New Plymouth District Council, private business and a student member. Members from several institutions ran the group.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The governance record becomes firmer in 2010. Minutes of the fifteenth Annual General Meeting, held at Wellington Town Hall on 10 November, name Igor Albornett as chair, Tony Standen as deputy chair, Kilmeny Stephens as secretary and Chris Holden as treasurer. The committee listed Tony Elson, Marie Slako, Richard Sisterson, Rachel Summers and Richard Wells, with 33 members present at the meeting. The chair reported increased membership, two user meetings that year in Northland and Auckland, and work on rules and policies for awards, regional user groups and committee roles. Under the election item, the executive remained unchanged. The minutes quote rule 6.1 as giving the executive responsibility for appointing non-executive committee members from the membership. John Thyne, Byron Cochrane and Richard Wells had stood down; Derrick Williams, Andrew Shakes, Nenad Petrovic and Kurt Janssen were nominated and elected unopposed, while Marie Slako, Tony Standen, Rachel Summers and Richard Sisterson were reconfirmed. The November 2010 minutes use the name “New Zealand ESRI Users Group inc.”",
+      "markdown": "The governance record becomes firmer in 2010. Minutes of the fifteenth Annual General Meeting, held at Wellington Town Hall on 10 November, name Igor Albornett as chair, Tony Standen as deputy chair, Kilmeny Stephens as secretary and Chris Holden as treasurer. The committee listed Tony Elson, Marie Slako, Richard Sisterson, Rachel Summers and Richard Wells, with 33 members present at the meeting. The chair reported increased membership, two user meetings that year in Northland and Auckland, and work on rules and policies for awards, regional user groups and committee roles. Under the election item, the executive remained unchanged. The minutes quote rule 6.1 as giving the executive responsibility for appointing non-executive committee members from the membership. John Thyne, Byron Cochrane and Richard Wells had stood down; Derrick Williams, Andrew Shakes, Nenad Petrovic and Kurt Janssen were nominated and elected unopposed, while Marie Slako, Tony Standen, Rachel Summers and Richard Sisterson were reconfirmed. The November 2010 minutes use the name “New Zealand ESRI Users Group inc.”",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Committee members continued organising the group after 2010. A 2015 Geographic Business Solutions profile described Tony Elson as NZEUG vice-chair and as a committee member since 2009. Kurt Janssen's professional record gives chair service from 2012 to 2016, while 2013 GISList messages also identify him as NZEUG president. In 2017 Eagle's conference prospectus named Roland Pomana as chairman of the NZEUG committee and described the non-profit group as serving more than 450 members. The conference programme set aside a community meeting for the user-group AGM, facilitated by Pomana. Volunteers maintained the group and its activities alongside their GIS jobs.",
+      "markdown": "Committee members continued organising the group after 2010. A 2015 Geographic Business Solutions profile described Tony Elson as NZEUG vice-chair and as a committee member since 2009. Kurt Janssen's professional record gives chair service from 2012 to 2016, while 2013 GISList messages also identify him as NZEUG president. In 2017 Eagle's conference prospectus named Roland Pomana as chairman of the NZEUG committee and described the non-profit group as serving more than 450 members. The conference programme set aside a community meeting for the user-group AGM, facilitated by Pomana. Volunteers maintained the group and its activities alongside their GIS jobs.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Regional activity was already part of that volunteer structure well before the later RUC label became prominent. On 17 April 2008 the Christchurch ESRI User Group held a regional meeting at Environment Canterbury. Sarah Cowell of Statistics New Zealand organised correspondence on behalf of the Christchurch committee, and the venue filled before the day. The agenda mixed an ArcGIS 9.3 preview with DOC wildfire analysis, Statistics New Zealand meshblocks, Canterbury transport analysis, GNS Science geology, Terralink data delivery and five-minute practitioner demonstrations. A follow-up message in May said the presentations had been placed online. Wellington followed on 20 June at City Gallery Wellington, organised by Laura Nicol and Miles Dunkin. NZEUG covered the attendance cost, Terralink sponsored lunch and Eagle sponsored the closing drinks, while the programme ranged from petroleum-data banking and ArcGIS Server to GIS in schools, remote sensing, Kyoto mapping and DOC use of ArcReader. The December 2008 newsletter nevertheless reported substantial feedback about the lack of regional conferences that year and admitted that attention to the annual conference had come at the expense of other user-group activity. The complaint concerned the amount of regional activity.",
+      "markdown": "Regional activity was already part of that volunteer structure well before the later RUC label became prominent. On 17 April 2008 the Christchurch ESRI User Group held a regional meeting at Environment Canterbury. Sarah Cowell of Statistics New Zealand organised correspondence on behalf of the Christchurch committee, and the venue filled before the day. The agenda mixed an ArcGIS 9.3 preview with DOC wildfire analysis, Statistics New Zealand meshblocks, Canterbury transport analysis, GNS Science geology, Terralink data delivery and five-minute practitioner demonstrations. A follow-up message in May said the presentations had been placed online. Wellington followed on 20 June at City Gallery Wellington, organised by Laura Nicol and Miles Dunkin. NZEUG covered the attendance cost, Terralink sponsored lunch and Eagle sponsored the closing drinks, while the programme ranged from petroleum-data banking and ArcGIS Server to GIS in schools, remote sensing, Kyoto mapping and DOC use of ArcReader. The December 2008 newsletter nevertheless reported substantial feedback about the lack of regional conferences that year and admitted that attention to the annual conference had come at the expense of other user-group activity. The complaint concerned the amount of regional activity.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GISList messages record several regional user-group meetings in 2009. Michael Ogden at Nelson City Council organised the Top of the South Island meeting for 15 May, with a programme spanning emergency management, mobile GIS, conservation, mining, ArcGIS Server and CAD integration. Mark Thompson at Tauranga City Council organised a Bay of Plenty meeting for 27 May, and John Thyne at the University of Canterbury organised a Christchurch meeting at NZi3 for 10 June. In November, committee member Igor Albornett asked the national list whether users wanted local or regional conferences in 2010. The 2010 AGM minutes record meetings in Northland and Auckland. Local conferences continued with Rotorua in 2016, Tauranga in 2017, Whakatāne and Christchurch in 2019, a nine-part virtual series in 2020, and online meetings in 2022. By 2026 the physical series had returned to eight centres. The format changed, while the practical purpose remained familiar: local places for users to compare work, hear technical updates and meet others using the same platform.",
+      "markdown": "GISList messages record several regional user-group meetings in 2009. Michael Ogden at Nelson City Council organised the Top of the South Island meeting for 15 May, with a programme spanning emergency management, mobile GIS, conservation, mining, ArcGIS Server and CAD integration. Mark Thompson at Tauranga City Council organised a Bay of Plenty meeting for 27 May, and John Thyne at the University of Canterbury organised a Christchurch meeting at NZi3 for 10 June. In November, committee member Igor Albornett asked the national list whether users wanted local or regional conferences in 2010. The 2010 AGM minutes record meetings in Northland and Auckland. Local conferences continued with Rotorua in 2016, Tauranga in 2017, Whakatāne and Christchurch in 2019, a nine-part virtual series in 2020, and online meetings in 2022. By 2026 the physical series had returned to eight centres. The format changed, while the practical purpose remained familiar: local places for users to compare work, hear technical updates and meet others using the same platform.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Companies gained from the same circulation. Successful implementations created references and experienced staff. Customer problems exposed gaps that could become scripts, extensions or new service offerings. Consultants learnt which parts of an installation repeatedly caused trouble. Distributors learnt which data and training packages were needed alongside the software. The market accumulated more than licences. It also accumulated local memory about how to build and maintain GIS in New Zealand conditions.",
+      "markdown": "Companies gained from the same circulation. Successful implementations created references and experienced staff. Customer problems exposed gaps that could become scripts, extensions or new service offerings. Consultants learnt which parts of an installation repeatedly caused trouble. Distributors learnt which data and training packages were needed alongside the software. The market accumulated more than licences. It also accumulated local memory about how to build and maintain GIS in New Zealand conditions.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

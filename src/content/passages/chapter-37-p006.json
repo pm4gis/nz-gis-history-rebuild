@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-37-79d396dcaa",
+  "slug": "measuring-change-in-canterbury-79d396dcaa",
+  "articleId": "article:chapter-37",
+  "title": "Measuring change in Canterbury",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Canterbury made that value unusually visible after the earthquakes of 2010 and 2011. The region already possessed pre-event LiDAR from 2003, 2005 and 2008. New surveys after the earthquakes could therefore be compared with earlier surfaces rather than interpreted in isolation. Researchers and agencies used repeated elevation models to measure subsidence and changes in flood vulnerability. A ground surface had become something that could be compared through time with enough precision to alter engineering and hazard analysis.",
+      "markdown": "Canterbury made that value unusually visible after the earthquakes of 2010 and 2011. The region already possessed pre-event LiDAR from 2003, 2005 and 2008. New surveys after the earthquakes could therefore be compared with earlier surfaces rather than interpreted in isolation. Researchers and agencies used repeated elevation models to measure subsidence and changes in flood vulnerability. A ground surface had become something that could be compared through time with enough precision to alter engineering and hazard analysis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The wider earthquake response involved emergency systems, recovery mapping, data sharing and organisational consequences beyond the LiDAR story. Earlier surveys provided measurements of the landscape before the earthquakes. The 2003 survey was commissioned years before the earthquakes, yet it became a baseline against which later ground movement could be assessed. Several services could use the same terrain data.",
+      "markdown": "The wider earthquake response involved emergency systems, recovery mapping, data sharing and organisational consequences beyond the LiDAR story. Earlier surveys provided measurements of the landscape before the earthquakes. The 2003 survey was commissioned years before the earthquakes, yet it became a baseline against which later ground movement could be assessed. Several services could use the same terrain data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Repeated surveys also highlighted the importance of a common coordinate and height framework. A difference of a few centimetres or decimetres is meaningless if two datasets are not on compatible datums or if vertical transformations are poorly controlled. New Zealand's geodetic framework therefore sits quietly underneath the LiDAR story. Dense elevation points do not escape the basic requirement to know where zero is and which coordinate reference system is being used. The more precise the comparison, the more obvious those foundations become.",
+      "markdown": "Repeated surveys also highlighted the importance of a common coordinate and height framework. A difference of a few centimetres or decimetres is meaningless if two datasets are not on compatible datums or if vertical transformations are poorly controlled. New Zealand's geodetic framework therefore sits quietly underneath the LiDAR story. Dense elevation points do not escape the basic requirement to know where zero is and which coordinate reference system is being used. The more precise the comparison, the more obvious those foundations become.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This repeated-measurement capability extended beyond earthquakes. River channels shift, coastlines erode, subdivisions alter drainage, stopbanks are modified and forests change. Capturing the same area again can support change detection, but only when analysts control for acquisition date, classification, density, datum and processing. LiDAR did not make change self-evident. It made more kinds of change measurable.",
+      "markdown": "This repeated-measurement capability extended beyond earthquakes. River channels shift, coastlines erode, subdivisions alter drainage, stopbanks are modified and forests change. Capturing the same area again can support change detection, but only when analysts control for acquisition date, classification, density, datum and processing. LiDAR did not make change self-evident. It made more kinds of change measurable.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

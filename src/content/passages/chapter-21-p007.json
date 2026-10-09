@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-21-60a9e07f1c",
+  "slug": "practical-standards-60a9e07f1c",
+  "articleId": "article:chapter-21",
+  "title": "Practical standards",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21",
+    "person:sarah-mehrtens"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The implementation gap was examined directly in 2009. Sarah Mehrtens of the New Zealand Geospatial Office reported to the Geospatial Executives Group after a project involving an advisory group of twenty people from government, industry and academia. The group considered how standards were being developed and used and whether government needed a more deliberate coordination role.",
+      "markdown": "The implementation gap was examined directly in 2009. Sarah Mehrtens of the New Zealand Geospatial Office reported to the Geospatial Executives Group after a project involving an advisory group of twenty people from government, industry and academia. The group considered how standards were being developed and used and whether government needed a more deliberate coordination role.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The report described good spatial-data resources that were scattered, inconsistent and sometimes difficult to use. Its recommendation was modest compared with the scale of the problem. It did not propose a new central standards authority that would write every technical rule. It proposed a coordination function within NZGO that could connect existing standards bodies, government, industry, academia, data producers and data users.",
+      "markdown": "The report described good spatial-data resources that were scattered, inconsistent and sometimes difficult to use. Its recommendation was modest compared with the scale of the problem. It did not propose a new central standards authority that would write every technical rule. It proposed a coordination function within NZGO that could connect existing standards bodies, government, industry, academia, data producers and data users.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The job included making relevant standards easier to find, supporting consultation and endorsement, encouraging uptake and making sure New Zealand connected properly with international work. Standards New Zealand, ANZLIC, ISO, the State Services Commission and others already occupied parts of that landscape. The missing piece identified by the project was national coordination across those existing arrangements.",
+      "markdown": "The job included making relevant standards easier to find, supporting consultation and endorsement, encouraging uptake and making sure New Zealand connected properly with international work. Standards New Zealand, ANZLIC, ISO, the State Services Commission and others already occupied parts of that landscape. The missing piece identified by the project was national coordination across those existing arrangements.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The practical target was repeated translation work. If every agency separately decided how to encode the same kind of feature, describe its metadata or expose a service, every data-sharing exercise needed another conversion. Agreed standards could reduce that work. They could not make two datasets equivalent when their underlying purposes were different, but they could make the differences easier to identify and the technical exchange less improvised.",
+      "markdown": "The practical target was repeated translation work. If every agency separately decided how to encode the same kind of feature, describe its metadata or expose a service, every data-sharing exercise needed another conversion. Agreed standards could reduce that work. They could not make two datasets equivalent when their underlying purposes were different, but they could make the differences easier to identify and the technical exchange less improvised.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

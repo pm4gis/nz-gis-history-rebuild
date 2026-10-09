@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-0622",
+  "a": "person:p-j-ellis",
+  "b": "chapter:4",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-4-db2cb9d359",
+    "passage:chapter-4-191c7a5478"
+  ],
+  "sources": []
+}

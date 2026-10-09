@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1066",
+  "a": "person:kelly-davis",
+  "b": "entity:te-runanga-o-ngai-tahu-ngai-tahu-archive",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

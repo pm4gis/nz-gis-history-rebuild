@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1142",
+  "a": "system:esri-arcgis",
+  "b": "system:docgis",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

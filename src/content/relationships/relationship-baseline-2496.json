@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2496",
+  "a": "agency:te-arawhiti",
+  "b": "chapter:35",
+  "label": "Discussed in chapter",
+  "basis": "Reconciled from existing chapter metadata in the 7 October 2026 entity-gap cleanup.",
+  "passageIds": [],
+  "sources": []
+}

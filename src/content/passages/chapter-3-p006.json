@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-3-160846e07d",
+  "slug": "orthophoto-production-160846e07d",
+  "articleId": "article:chapter-3",
+  "title": "Orthophoto production",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "imagery"
+  ],
+  "recordIds": [
+    "chapter:3"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Aerial photography had been part of New Zealand mapping for decades before computers entered the workflow. Photogrammetrists used overlapping photographs, ground control and stereoscopic instruments to measure terrain and compile map detail. By the 1970s, computers were being introduced into parts of this production chain, particularly where geometric correction and coordinate calculation could be automated.",
+      "markdown": "Aerial photography had been part of New Zealand mapping for decades before computers entered the workflow. Photogrammetrists used overlapping photographs, ground control and stereoscopic instruments to measure terrain and compile map detail. By the 1970s, computers were being introduced into parts of this production chain, particularly where geometric correction and coordinate calculation could be automated.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lands and Survey purchased a computer system for orthophoto production in 1977. Orthophotos correct much of the displacement produced by camera geometry and terrain so that the resulting image can be used within a map coordinate framework. The corrections require numerical information about the geometry of the photograph and the ground surface.",
+      "markdown": "Lands and Survey purchased a computer system for orthophoto production in 1977. Orthophotos correct much of the displacement produced by camera geometry and terrain so that the resulting image can be used within a map coordinate framework. The corrections require numerical information about the geometry of the photograph and the ground surface.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Orthophoto mapping was produced for the Clutha-Alexandra area during 1978 and 1979 for Ministry of Works hydro-development planning. The product remained recognisably photographic, but its geometry had been corrected through a computer-assisted production process. The imagery could then be compared more directly with mapped features and engineering information. This was still specialist mapping production rather than general-purpose GIS.",
+      "markdown": "Orthophoto mapping was produced for the Clutha-Alexandra area during 1978 and 1979 for Ministry of Works hydro-development planning. The product remained recognisably photographic, but its geometry had been corrected through a computer-assisted production process. The imagery could then be compared more directly with mapped features and engineering information. This was still specialist mapping production rather than general-purpose GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

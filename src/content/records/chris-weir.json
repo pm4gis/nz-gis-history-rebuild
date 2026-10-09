@@ -1,0 +1,42 @@
+{
+  "id": "person:chris-weir",
+  "slug": "chris-weir",
+  "name": "Chris Weir",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/chris-weir/",
+  "story": [
+    "Chris Weir served as treasurer and on the organising committee for the 2011 Surveying and Spatial Sciences Conference. He later reported attendance of 680. Organiser accounts describe a successful event, though some practitioner recollections question how well it fitted the usual Esri conference culture. In 2012 the Esri lineage was explicit again when the Auckland Esri Asia Pacific User Conference incorporated the sixteenth annual New Zealand Esri User Group conference.",
+    "Chris Weir later reported attendance of 680. The organiser and practitioner accounts assess the 2011 conference differently. The named New Zealand Esri Users Conference series is visible again in 2012."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 12 · Recurring conferences",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 29 · Recurring forums",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Chris Weir"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Recurring conferences",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · Recurring forums",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

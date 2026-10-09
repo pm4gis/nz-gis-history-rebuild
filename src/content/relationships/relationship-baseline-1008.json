@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1008",
+  "a": "person:neville-churcher",
+  "b": "entity:university-of-canterbury",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

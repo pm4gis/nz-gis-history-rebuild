@@ -1,0 +1,37 @@
+{
+  "id": "passage:chapter-12-609636e9aa",
+  "slug": "gis-reaches-the-school-classroom-609636e9aa",
+  "articleId": "article:chapter-12",
+  "title": "GIS reaches the school classroom",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "From March 2017, New Zealand schools could obtain free access to ArcGIS Online through the GIS in Schools programme. Eagle Technology, the New Zealand Esri distributor, worked with teachers to develop lesson plans tied to NCEA Geography achievement standards. LINZ’s capability programme linked that software access with the LEARNZ virtual field trips and later career material, so school GIS was being supported through software, curriculum resources and examples of people doing geospatial work. Brendon Robertson of Mount Aspiring College later represented the Schools and GIS Teacher Champions Network on the Geospatial Capability Committee, and an Eagle video from 2021 records him demonstrating GIS in school teaching.",
+      "markdown": "From March 2017, New Zealand schools could obtain free access to ArcGIS Online through the GIS in Schools programme. Eagle Technology, the New Zealand Esri distributor, worked with teachers to develop lesson plans tied to NCEA Geography achievement standards. LINZ’s capability programme linked that software access with the LEARNZ virtual field trips and later career material, so school GIS was being supported through software, curriculum resources and examples of people doing geospatial work. Brendon Robertson of Mount Aspiring College later represented the Schools and GIS Teacher Champions Network on the Geospatial Capability Committee, and an Eagle video from 2021 records him demonstrating GIS in school teaching.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "LINZ’s school capability record names virtual-field-trip subject specialists Helen Payn, Duane Wilkins, Sharyn Westlake, Jennifer Coppola, Dionne Hansen, Paula Gentle, Marcus Girvan, Andrew Ferrel, Jeremy Severinsen, Richard Freeman, Jennifer Ryan, Jeremy Gulson, Nic Donnelly. The Leaving School career series names Kate Waterhouse, Sam Keast, Kasey Oomen, Andrew Douglas-Clifford, Sean Bragg, Grace Kuru, Kate Downes, Brad Cooper, Anataia van Leeuwen, Carolina Faka’osi Manu, Kimberley D’Arcy, Seamus Evanson. The children’s map competition history records New Zealand winners Hayden Livingston, Amy Wang, Rebecca Kneale, Akira McTavish-Huriwai, Phoebe McClean, Barnaby Blampied.",
+      "markdown": "LINZ’s school capability record names virtual-field-trip subject specialists Helen Payn, Duane Wilkins, Sharyn Westlake, Jennifer Coppola, Dionne Hansen, Paula Gentle, Marcus Girvan, Andrew Ferrel, Jeremy Severinsen, Richard Freeman, Jennifer Ryan, Jeremy Gulson, Nic Donnelly. The Leaving School career series names Kate Waterhouse, Sam Keast, Kasey Oomen, Andrew Douglas-Clifford, Sean Bragg, Grace Kuru, Kate Downes, Brad Cooper, Anataia van Leeuwen, Carolina Faka’osi Manu, Kimberley D’Arcy, Seamus Evanson. The children’s map competition history records New Zealand winners Hayden Livingston, Amy Wang, Rebecca Kneale, Akira McTavish-Huriwai, Phoebe McClean, Barnaby Blampied.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial for schools",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "entity:splice-group",
+  "slug": "splice-group",
+  "name": "Splice Group",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/splice-group/",
+  "website": null,
+  "story": [
+    "The 2013 acquisition application describes Splice Group as a new competitor formed by former NorthSouth GIS staff. It records people moving between businesses as a source of new consulting capacity.",
+    "Leigh Hunt’s professional history identifies him as a Splice founder and technical director from 2010 to 2013. His project account describes a LIM application for Hutt, Selwyn, Kāpiti and Upper Hutt councils, automating retrieval from GIS and property or finance systems. It also records migration of BureauCo’s PLAN.IT.road application from ArcIMS to ArcGIS and Silverlight, and integration between Northland Regional Council’s IRIS and TechnologyOne finance systems.",
+    "A November 2012 company announcement described a lightweight Esri map viewer for tablets and phones. Together, the dated announcement and participant project history give more specific evidence of Splice’s applications and council work than its appearance in the market-review directory alone."
+  ],
+  "sources": [
+    {
+      "label": "Commerce Commission, PropertyIQ NZ / Terralink International clearance application",
+      "url": "https://www.comcom.govt.nz/__data/assets/pdf_file/0027/76293/PropertyIQ-NZ-and-Terralink-International-clearance-application-15-July-2013.pdf"
+    },
+    {
+      "label": "Leigh Hunt, professional project history: Splice Group, 2010–2013",
+      "url": "https://leighghunt.github.io/"
+    },
+    {
+      "label": "Splice Group company announcement, Cutting-edge tech changes Kiwi business strategy, 2 November 2012",
+      "url": "https://ecommercenews.co.nz/story/cutting-edge-tech-changes-kiwi-business-strategy"
+    }
+  ],
+  "aliases": [
+    "Splice Group"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-41-d251b21eed",
+  "slug": "types-of-service-d251b21eed",
+  "articleId": "article:chapter-41",
+  "title": "Types of service",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41",
+    "entity:koordinates",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The word service covered several different technical arrangements, and the distinction affected what consumers could do. A rendered map service could return an image that was efficient for display but offered little direct access to the underlying features. A feature service could expose geometry and attributes that another application could query or, where permissions allowed, edit. Tiled services pre-rendered or cached map images so that large basemaps could be delivered quickly. Query APIs could return selected records or values in machine-readable forms such as JSON. Treating all of these as interchangeable obscures why one endpoint suited a public basemap while another could become part of an operational application.",
+      "markdown": "The word service covered several different technical arrangements, and the distinction affected what consumers could do. A rendered map service could return an image that was efficient for display but offered little direct access to the underlying features. A feature service could expose geometry and attributes that another application could query or, where permissions allowed, edit. Tiled services pre-rendered or cached map images so that large basemaps could be delivered quickly. Query APIs could return selected records or values in machine-readable forms such as JSON. Treating all of these as interchangeable obscures why one endpoint suited a public basemap while another could become part of an operational application.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand's hosted platforms increasingly exposed several of these routes at once. Koordinates documentation describes OGC web services, Esri-compatible REST services and its own vector, raster and set query APIs. LDS also developed into a service where users could browse, export and obtain map or data interfaces from the same published source. This multi-interface model reduced pressure to choose one permanent distribution format for every consumer. A desktop analyst, web developer and automated process could reach the same published information differently, provided the custodian maintained the service and its semantics.",
+      "markdown": "New Zealand's hosted platforms increasingly exposed several of these routes at once. Koordinates documentation describes OGC web services, Esri-compatible REST services and its own vector, raster and set query APIs. LDS also developed into a service where users could browse, export and obtain map or data interfaces from the same published source. This multi-interface model reduced pressure to choose one permanent distribution format for every consumer. A desktop analyst, web developer and automated process could reach the same published information differently, provided the custodian maintained the service and its semantics.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The service model also changed ideas about currency. A downloaded copy has a clear acquisition date, even if the user later forgets it. A live endpoint can appear perpetually current while actually depending on the publisher's update process. CRoSL specified weekly updates. Other services might update continuously, nightly, irregularly or only when a custodian republishes them. Consuming a service therefore did not remove the need to understand currency. It moved that question from the file on the user's disk to the provider's publishing workflow.",
+      "markdown": "The service model also changed ideas about currency. A downloaded copy has a clear acquisition date, even if the user later forgets it. A live endpoint can appear perpetually current while actually depending on the publisher's update process. CRoSL specified weekly updates. Other services might update continuously, nightly, irregularly or only when a custodian republishes them. Consuming a service therefore did not remove the need to understand currency. It moved that question from the file on the user's disk to the provider's publishing workflow.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1130",
+  "a": "system:esri-arcgis",
+  "b": "entity:new-zealand-esri-users-group",
+  "label": "Connected in the system account",
+  "basis": "Role details are given in the linked system account",
+  "passageIds": [],
+  "sources": []
+}

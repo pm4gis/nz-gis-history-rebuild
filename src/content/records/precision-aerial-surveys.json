@@ -1,0 +1,25 @@
+{
+  "id": "entity:precision-aerial-surveys",
+  "slug": "precision-aerial-surveys",
+  "name": "Precision Aerial Surveys",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/precision-aerial-surveys/",
+  "website": null,
+  "story": [
+    "Precision Aerial Surveys supplied aerial-survey services and was listed in the 2013 review of New Zealand’s commercial imagery market."
+  ],
+  "sources": [
+    {
+      "label": "Commerce Commission, PropertyIQ NZ / Terralink International clearance application",
+      "url": "https://www.comcom.govt.nz/__data/assets/pdf_file/0027/76293/PropertyIQ-NZ-and-Terralink-International-clearance-application-15-July-2013.pdf"
+    }
+  ],
+  "aliases": [
+    "Precision Aerial Surveys"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

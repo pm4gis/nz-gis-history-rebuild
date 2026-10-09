@@ -1,0 +1,42 @@
+{
+  "id": "person:pip-forer",
+  "slug": "pip-forer",
+  "name": "Pip Forer",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/pip-forer/",
+  "story": [
+    "Pip Forer's academic work at the University of Auckland includes geography and the representation of human activity in space and time. His research profile records a doctorate in geography from Bristol. His publications explore time-geographic prisms, data quality and uncertainty, connecting GIS methods with questions about people's movements and opportunities.",
+    "A near-contemporary review by John P. Wilson and Pip Forer records the University of Canterbury’s Geography Department entering GIS teaching in 1987 with a graduate course. In 1989 the department acquired workstation ARC/INFO and ERDAS capability. The acquisition put a general vector GIS and a major raster image-processing system into the same teaching and research environment, allowing students to work with geographic databases and remotely sensed imagery rather than treating the two as unrelated specialities."
+  ],
+  "sources": [
+    {
+      "label": "Pip FORER | Ph.D. Soc Sci, Geog Bristol | University of Auckland, Auckland | School of Environment | Research profile · career/profile reference",
+      "url": "https://www.researchgate.net/profile/Pip-Forer"
+    },
+    {
+      "label": "Chapter 11 · Building a workstation laboratory",
+      "url": "/stories/universities-build-a-field/"
+    }
+  ],
+  "aliases": [
+    "Pip Forer"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Pip FORER | Ph.D. Soc Sci, Geog Bristol | University of Auckland, Auckland | School of Environment | Research profile · career/profile reference",
+        "url": "https://www.researchgate.net/profile/Pip-Forer"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 11 · Building a workstation laboratory",
+        "url": "/stories/universities-build-a-field/"
+      }
+    ]
+  ]
+}

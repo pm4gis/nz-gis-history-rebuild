@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1942",
+  "a": "person:biljana-lukovic",
+  "b": "chapter:9",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-9-94bf81a964"
+  ],
+  "sources": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "person:boudewijn-boogaard",
+  "slug": "boudewijn-boogaard",
+  "name": "Boudewijn Boogaard",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/boudewijn-boogaard/",
+  "story": [
+    "Boudewijn Boogaard presented Living Atlas and ArcGIS Pro in 2018."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2018",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+    },
+    {
+      "label": "Boudewijn Boogaard - Eagle Technology | LinkedIn · public profile",
+      "url": "https://au.linkedin.com/in/boudewijnboogaard"
+    }
+  ],
+  "aliases": [
+    "Boudewijn Boogaard"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2018",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC_2018_Final.pdf"
+      }
+    ]
+  ]
+}

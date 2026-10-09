@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1328",
+  "a": "entity:explorer-graphics-northsouth-gis",
+  "b": "chapter:26",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-26-12070ee487"
+  ],
+  "sources": []
+}

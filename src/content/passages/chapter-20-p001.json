@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-20-72c979d587",
+  "slug": "a-photograph-you-can-measure-72c979d587",
+  "articleId": "article:chapter-20",
+  "title": "A photograph you can measure",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20",
+    "entity:new-zealand-aerial-mapping",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Aerial photographs had been used in New Zealand mapping for decades before GIS became common. They helped photogrammetrists compile topographic maps, foresters interpret stands, engineers inspect routes and land-resource staff read terrain and vegetation. The photograph itself was a perspective view, however. Camera geometry, the angle of view and the relief of the ground displaced features from the positions they would occupy on a map. A river, road or building could be clearly visible without the image being suitable for direct measurement against cadastral or topographic coordinates.",
+      "markdown": "Aerial photographs had been used in New Zealand mapping for decades before GIS became common. They helped photogrammetrists compile topographic maps, foresters interpret stands, engineers inspect routes and land-resource staff read terrain and vegetation. The photograph itself was a perspective view, however. Camera geometry, the angle of view and the relief of the ground displaced features from the positions they would occupy on a map. A river, road or building could be clearly visible without the image being suitable for direct measurement against cadastral or topographic coordinates.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Orthophotography dealt with that geometric problem. Using survey control, camera information and terrain data, the photograph could be corrected so that its pixels related consistently to map coordinates. The result retained the visual information of photography while behaving much more like a map. A user could place vector boundaries, roads or other features over the image and expect corresponding locations to line up within the accuracy of the source and processing.",
+      "markdown": "Orthophotography dealt with that geometric problem. Using survey control, camera information and terrain data, the photograph could be corrected so that its pixels related consistently to map coordinates. The result retained the visual information of photography while behaving much more like a map. A user could place vector boundaries, roads or other features over the image and expect corresponding locations to line up within the accuracy of the source and processing.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand organisations were already experimenting with computer-assisted orthophoto production in the 1970s. Lands and Survey bought a computer system for orthophoto production in 1977, and orthophoto mapping of the Clutha–Alexandra area followed in 1978 and 1979 for Ministry of Works hydro-development planning. Computer-assisted orthophoto production preceded widespread GIS adoption.",
+      "markdown": "New Zealand organisations were already experimenting with computer-assisted orthophoto production in the 1970s. Lands and Survey bought a computer system for orthophoto production in 1977, and orthophoto mapping of the Clutha–Alexandra area followed in 1978 and 1979 for Ministry of Works hydro-development planning. Computer-assisted orthophoto production preceded widespread GIS adoption.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "During the 1980s, analytical and digital photogrammetry shortened the path from aerial photography to computer-held spatial information. New Zealand Aerial Mapping acquired a Wild BC1 analytical stereoplotter in 1984 and fitted seven analogue stereoplotters with GeoVision equipment in 1988. Chapter 3 follows that equipment transition in detail. By the following decade, the operational question was increasingly what organisations could do once corrected imagery arrived as digital data rather than how the photogrammetric instrument itself worked.",
+      "markdown": "During the 1980s, analytical and digital photogrammetry shortened the path from aerial photography to computer-held spatial information. New Zealand Aerial Mapping acquired a Wild BC1 analytical stereoplotter in 1984 and fitted seven analogue stereoplotters with GeoVision equipment in 1988. Chapter 3 follows that equipment transition in detail. By the following decade, the operational question was increasingly what organisations could do once corrected imagery arrived as digital data rather than how the photogrammetric instrument itself worked.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

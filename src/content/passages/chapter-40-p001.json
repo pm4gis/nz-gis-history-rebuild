@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-40-fa8b4c43f6",
+  "slug": "shared-organisational-systems-fa8b4c43f6",
+  "articleId": "article:chapter-40",
+  "title": "Shared organisational systems",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40",
+    "entity:adapt-solutions",
+    "entity:timaru-district-council",
+    "person:jamie-burmeister",
+    "person:nige-sheed"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the late 1990s New Zealand organisations had already proved that GIS could do useful work. That success created a new problem: GIS multiplied. Councils could maintain property and infrastructure layers, government departments could manage national datasets, utilities could trace networks and assets, and scientists could analyse environmental information. More useful systems meant more users, more data, more copies, more applications and more expectations about which version was the right one. Enterprise GIS began partly as an answer to the success of the smaller systems that came before it.",
+      "markdown": "By the late 1990s New Zealand organisations had already proved that GIS could do useful work. That success created a new problem: GIS multiplied. Councils could maintain property and infrastructure layers, government departments could manage national datasets, utilities could trace networks and assets, and scientists could analyse environmental information. More useful systems meant more users, more data, more copies, more applications and more expectations about which version was the right one. Enterprise GIS began partly as an answer to the success of the smaller systems that came before it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A small GIS team could survive for quite a while with files on network drives, specialist workstations and a shared understanding of who was allowed to change what. That arrangement became fragile as spatial information spread through an organisation. Someone copied a dataset for a project, someone else edited an older version, another team created a differently named field, and soon the same road or property existed in several technically valid but mutually irritating forms. The problem was no longer whether GIS worked. It was how to make it work for everyone without losing control of the information underneath it.",
+      "markdown": "A small GIS team could survive for quite a while with files on network drives, specialist workstations and a shared understanding of who was allowed to change what. That arrangement became fragile as spatial information spread through an organisation. Someone copied a dataset for a project, someone else edited an older version, another team created a differently named field, and soon the same road or property existed in several technically valid but mutually irritating forms. The problem was no longer whether GIS worked. It was how to make it work for everyone without losing control of the information underneath it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Enterprise GIS developed gradually, and organisations used several labels and architectures. Spatial data moved into databases designed for many users. Editing became controlled. Map servers and later feature services allowed one maintained dataset to support several applications. Authentication, permissions, backup, performance, upgrades and data ownership became part of the GIS job. A mapping system was turning into organisational infrastructure.",
+      "markdown": "Enterprise GIS developed gradually, and organisations used several labels and architectures. Spatial data moved into databases designed for many users. Editing became controlled. Map servers and later feature services allowed one maintained dataset to support several applications. Authentication, permissions, backup, performance, upgrades and data ownership became part of the GIS job. A mapping system was turning into organisational infrastructure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nige Sheed and Jamie Burmeister established Adapt Solutions in 2007 after working together on a water-billing implementation in Auckland. Sheed’s earlier experience at Timaru District Council involved moving paper asset records into computerised systems. The company brought those practical implementation experiences into asset-management software and services.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

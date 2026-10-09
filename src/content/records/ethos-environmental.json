@@ -1,0 +1,33 @@
+{
+  "id": "entity:ethos-environmental",
+  "slug": "ethos-environmental",
+  "name": "Ethos Environmental",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/ethos-environmental/",
+  "website": null,
+  "story": [
+    "Ethos Environmental combined GIS, field information and connected devices in conservation work. Its Great Barrier Island pest-control system received the Supreme Award at the 2018 New Zealand Spatial Excellence Awards. The system helped staff use observations from the field to plan and manage pest control."
+  ],
+  "sources": [
+    {
+      "label": "Government announcement, 17 October 2018",
+      "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+    },
+    {
+      "label": "Beehive, Pest control system wins spatial excellence award",
+      "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+    },
+    {
+      "label": "Ethos Environmental current company record and project material",
+      "url": "https://www.nzlbusiness.com/company/registered/Ethos-Environmental-Limited-1"
+    }
+  ],
+  "aliases": [
+    "Ethos Environmental"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

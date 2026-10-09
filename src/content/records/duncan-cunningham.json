@@ -1,0 +1,37 @@
+{
+  "id": "person:duncan-cunningham",
+  "slug": "duncan-cunningham",
+  "name": "Duncan Cunningham",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/duncan-cunningham/",
+  "story": [
+    "Duncan Cunningham and Geoff Patterson developed the nationally available BIOSITE species-record retrieval system using Oracle in 1993."
+  ],
+  "sources": [
+    {
+      "label": "DOC, Amphibian and Reptile Distribution Scheme: database development chronology",
+      "url": "https://www.doc.govt.nz/our-work/reptiles-and-frogs-distribution/atlas/species-sightings-and-data-management/what-is-the-ard-scheme/"
+    }
+  ],
+  "aliases": [
+    "Duncan Cunningham"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "DOC, Amphibian and Reptile Distribution Scheme: database development chronology",
+        "url": "https://www.doc.govt.nz/our-work/reptiles-and-frogs-distribution/atlas/species-sightings-and-data-management/what-is-the-ard-scheme/"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Species records, 1987–1993",
+      "url": "/stories/conservation-and-environment/"
+    }
+  ]
+}

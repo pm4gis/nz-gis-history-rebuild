@@ -1,0 +1,31 @@
+{
+  "id": "person:bill-robertson",
+  "slug": "bill-robertson",
+  "name": "Bill Robertson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/bill-robertson/",
+  "story": [
+    "A later technical account by Geoff Howard, Robin Pickering, Dave Mole and Peter Woodsford records that Surveyor-General Bill Robertson approved a business case around 1987 to convert the 1:250,000 mapping into a digital database. The programme was expected to take about three years but was reported as completed in roughly eighteen months."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 15 · A small-scale database first",
+      "url": "/stories/topography-goes-digital/"
+    }
+  ],
+  "aliases": [
+    "Bill Robertson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 15 · A small-scale database first",
+        "url": "/stories/topography-goes-digital/"
+      }
+    ]
+  ]
+}

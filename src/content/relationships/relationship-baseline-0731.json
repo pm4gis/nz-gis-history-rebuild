@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-0731",
+  "a": "person:peter-morgan",
+  "b": "chapter:19",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-19-e05eda5fc5",
+    "passage:chapter-19-d8aa821386"
+  ],
+  "sources": []
+}

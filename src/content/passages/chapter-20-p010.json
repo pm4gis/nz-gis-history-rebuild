@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-20-e8db92ea8d",
+  "slug": "an-archive-becomes-digital-e8db92ea8d",
+  "articleId": "article:chapter-20",
+  "title": "An archive becomes digital",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:20"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The same digital methods also changed the value of older aerial photography. LINZ’s Crown Aerial Film Library contains nearly 700,000 negatives from around 7,300 surveys flown between 1936 and 2008. The collection had been created for topographic mapping, defence, land management, planning and many other purposes. For decades its primary artefacts were physical film, contact prints and survey charts. Finding the right frame could mean knowing the survey, run and photograph number before anyone had the luxury of typing a place name into a search box.",
+      "markdown": "The same digital methods also changed the value of older aerial photography. LINZ’s Crown Aerial Film Library contains nearly 700,000 negatives from around 7,300 surveys flown between 1936 and 2008. The collection had been created for topographic mapping, defence, land management, planning and many other purposes. For decades its primary artefacts were physical film, contact prints and survey charts. Finding the right frame could mean knowing the survey, run and photograph number before anyone had the luxury of typing a place name into a search box.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2014 LINZ began a collaborative programme to scan the Crown film archive. The work continued for nine years and was completed in June 2023. Specialised scanners digitised negatives at high resolution, while associated information such as capture date, altitude, camera model, frame size, scale, survey charts and calibration files was recorded where available. The result preserved a national photographic record that would otherwise remain dependent on ageing film and specialist access.",
+      "markdown": "In 2014 LINZ began a collaborative programme to scan the Crown film archive. The work continued for nine years and was completed in June 2023. Specialised scanners digitised negatives at high resolution, while associated information such as capture date, altitude, camera model, frame size, scale, survey charts and calibration files was recorded where available. The result preserved a national photographic record that would otherwise remain dependent on ageing film and specialist access.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A scanned photograph required further processing to become an orthophoto. It preserved the image digitally but did not by itself remove perspective and terrain displacement or place every pixel into map coordinates. Users could search survey footprints and retrieve frames, while selected historical surveys could undergo further georeferencing and orthorectification before publication as GIS-ready layers. Both products appear as digital photographs on screen, although only an orthophoto has been geometrically corrected for map use.",
+      "markdown": "A scanned photograph required further processing to become an orthophoto. It preserved the image digitally but did not by itself remove perspective and terrain displacement or place every pixel into map coordinates. Users could search survey footprints and retrieve frames, while selected historical surveys could undergo further georeferencing and orthorectification before publication as GIS-ready layers. Both products appear as digital photographs on screen, although only an orthophoto has been geometrically corrected for map use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The archive nevertheless gained a second life as spatial evidence. Historical frames could be compared with current imagery to examine settlement growth, river movement, coastal change, vegetation, infrastructure and land use. A photograph originally flown for one government task could support a different analysis many decades later because the image and its survey metadata had survived and could now be brought into digital workflows.",
+      "markdown": "The archive nevertheless gained a second life as spatial evidence. Historical frames could be compared with current imagery to examine settlement growth, river movement, coastal change, vegetation, infrastructure and land use. A photograph originally flown for one government task could support a different analysis many decades later because the image and its survey metadata had survived and could now be brought into digital workflows.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

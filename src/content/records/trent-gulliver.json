@@ -1,0 +1,35 @@
+{
+  "id": "person:trent-gulliver",
+  "slug": "trent-gulliver",
+  "name": "Trent Gulliver",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/trent-gulliver/",
+  "story": [
+    "Trent Gulliver and Anselm Haanen presented Developing a Three-Dimensional Digital Cadastral System for New Zealand at the FIG Congress in 2014."
+  ],
+  "sources": [
+    {
+      "label": "Trent Gulliver - Land Information New Zealand | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/trent-gulliver-12918bb6"
+    },
+    {
+      "label": "Chapter 39 · A cadastre with volume",
+      "url": "/stories/from-flat-maps-to-3d/"
+    }
+  ],
+  "aliases": [
+    "Trent Gulliver"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 39 · A cadastre with volume",
+        "url": "/stories/from-flat-maps-to-3d/"
+      }
+    ]
+  ]
+}

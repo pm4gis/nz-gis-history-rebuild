@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-44-fc971b58aa",
+  "slug": "embedded-spatial-systems-fc971b58aa",
+  "articleId": "article:chapter-44",
+  "title": "Embedded spatial systems",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:44",
+    "entity:aranz-geo-seequent"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By 31 December 2025, a New Zealand geospatial practitioner could spend much of a working day dealing with geography without opening what an earlier generation would have recognised as a conventional GIS. Data could arrive through an API, sit in a spatial database, be processed by a scheduled workflow, appear in a browser application and be collected again through a mobile form. Satellite imagery could be classified with machine-learning methods, a point cloud could be processed into derived surfaces, and code for part of the workflow could be drafted with help from a general-purpose AI system. The underlying work was still geographic. It had simply spread into databases, web services, applications, software development and data engineering.",
+      "markdown": "By 31 December 2025, a New Zealand geospatial practitioner could spend much of a working day dealing with geography without opening what an earlier generation would have recognised as a conventional GIS. Data could arrive through an API, sit in a spatial database, be processed by a scheduled workflow, appear in a browser application and be collected again through a mobile form. Satellite imagery could be classified with machine-learning methods, a point cloud could be processed into derived surfaces, and code for part of the workflow could be drafted with help from a general-purpose AI system. The underlying work was still geographic. It had simply spread into databases, web services, applications, software development and data engineering.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Organisations continued using GIS while adopting these additional tools. Geographic information became more useful as it escaped the specialist workstation and entered corporate databases, web maps, mobile devices, open-data services, cloud platforms and operational systems. Automation then moved repeated processing into scripts, SQL, ETL workflows and production pipelines. By the end of 2025, artificial intelligence was adding another layer to that environment, but it had not removed the older ones. A council could still need a desktop GIS, a national agency could still maintain a spatial database, and a field team could still need an offline map when the network stopped cooperating.",
+      "markdown": "Organisations continued using GIS while adopting these additional tools. Geographic information became more useful as it escaped the specialist workstation and entered corporate databases, web maps, mobile devices, open-data services, cloud platforms and operational systems. Automation then moved repeated processing into scripts, SQL, ETL workflows and production pipelines. By the end of 2025, artificial intelligence was adding another layer to that environment, but it had not removed the older ones. A council could still need a desktop GIS, a national agency could still maintain a spatial database, and a field team could still need an offline map when the network stopped cooperating.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The difficult decisions remained with the practitioner. Someone still had to decide which dataset represented the thing being analysed, whether a coordinate system was appropriate, whether an address match was plausible, whether a classification was defensible and whether a result could safely be published. A model might identify a pattern faster than a person, yet poor training data remained poor training data and an unclear requirement remained unclear. A language model might produce a competent-looking Python script in seconds and still choose the wrong field or assume that every layer used the same projection. Competent-looking output was never the same thing as correct output. AI made that old GIS lesson easier to forget. The habit of checking what the computer had actually done remained useful.",
+      "markdown": "The difficult decisions remained with the practitioner. Someone still had to decide which dataset represented the thing being analysed, whether a coordinate system was appropriate, whether an address match was plausible, whether a classification was defensible and whether a result could safely be published. A model might identify a pattern faster than a person, yet poor training data remained poor training data and an unclear requirement remained unclear. A language model might produce a competent-looking Python script in seconds and still choose the wrong field or assume that every layer used the same projection. Competent-looking output was never the same thing as correct output. AI made that old GIS lesson easier to forget. The habit of checking what the computer had actually done remained useful.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2025, organisations were using a mixture of established systems and newer tools. New Zealand GIS in 2025 included long-lived operational databases, desktop software, open-source tools, cloud services, dashboards, remote sensing, mobile capture, automation and experimental AI methods at the same time. Different organisations adopted them at different speeds and for different reasons. Some machine-learning methods were already part of maintained national production. Some large-model work remained research. Some generative-AI use was appearing in practitioner tools and conference programmes without yet supplying a strong documentary basis for claiming organisation-wide geospatial adoption.",
+      "markdown": "By 2025, organisations were using a mixture of established systems and newer tools. New Zealand GIS in 2025 included long-lived operational databases, desktop software, open-source tools, cloud services, dashboards, remote sensing, mobile capture, automation and experimental AI methods at the same time. Different organisations adopted them at different speeds and for different reasons. Some machine-learning methods were already part of maintained national production. Some large-model work remained research. Some generative-AI use was appearing in practitioner tools and conference programmes without yet supplying a strong documentary basis for claiming organisation-wide geospatial adoption.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same widening is visible in businesses that no longer fit neatly inside the traditional GIS label. Christchurch-based ARANZ Geo built a global business around Leapfrog 3D geological modelling and related subsurface data tools, then changed its name to Seequent in 2017 as it expanded beyond mining into civil, environmental and energy work. Bentley Systems acquired Seequent in 2021, by which time the New Zealand-born company was serving specialist users around the world. Digital spatial practice extended into adjacent fields using three-dimensional models, cloud data and location.",
+      "markdown": "The same widening is visible in businesses that no longer fit neatly inside the traditional GIS label. Christchurch-based ARANZ Geo built a global business around Leapfrog 3D geological modelling and related subsurface data tools, then changed its name to Seequent in 2017 as it expanded beyond mining into civil, environmental and energy work. Bentley Systems acquired Seequent in 2021, by which time the New Zealand-born company was serving specialist users around the world. Digital spatial practice extended into adjacent fields using three-dimensional models, cloud data and location.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

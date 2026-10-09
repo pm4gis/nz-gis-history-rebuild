@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-21-40741ff283",
+  "slug": "fundamental-data-40741ff283",
+  "articleId": "article:chapter-21",
+  "title": "Fundamental data",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:21"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 2007 strategy used the term fundamental geospatial datasets for the national information that other systems repeatedly depended on. The set of nationally important datasets could change as needs developed. It identified a smaller group of reference resources whose maintenance affected many other activities. The geodetic framework described in Chapter 19 is an obvious example because other spatial datasets depend on a common positional reference.",
+      "markdown": "The 2007 strategy used the term fundamental geospatial datasets for the national information that other systems repeatedly depended on. The set of nationally important datasets could change as needs developed. It identified a smaller group of reference resources whose maintenance affected many other activities. The geodetic framework described in Chapter 19 is an obvious example because other spatial datasets depend on a common positional reference.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cadastre and property, topography, roads, addresses, administrative and statistical boundaries, elevation and imagery also performed reference roles in different parts of government and industry. Some were already mature national systems. Others were assembled from several organisations or still varied regionally. Their usefulness as infrastructure depended on both content and maintenance.",
+      "markdown": "Cadastre and property, topography, roads, addresses, administrative and statistical boundaries, elevation and imagery also performed reference roles in different parts of government and industry. Some were already mature national systems. Others were assembled from several organisations or still varied regionally. Their usefulness as infrastructure depended on both content and maintenance.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Stewardship made that maintenance responsibility explicit. A dataset can be widely used while still having an organisation accountable for deciding what it is, how it should develop and what quality is required. Custodianship deals more closely with its operational management and maintenance. Those roles are easily blurred in everyday GIS because the organisation publishing the data may also be the organisation maintaining it, but the distinction becomes useful when several agencies contribute to one national theme.",
+      "markdown": "Stewardship made that maintenance responsibility explicit. A dataset can be widely used while still having an organisation accountable for deciding what it is, how it should develop and what quality is required. Custodianship deals more closely with its operational management and maintenance. Those roles are easily blurred in everyday GIS because the organisation publishing the data may also be the organisation maintaining it, but the distinction becomes useful when several agencies contribute to one national theme.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "During 2012/13 the New Zealand Geospatial Office worked with stakeholders to develop a Stewards and Custodians Framework for fundamental data. LINZ later presented fundamental data themes covering positioning, elevation and depth, water, land use and land cover, cadastre, property and administrative boundaries, transportation, addressing and geographic names, and imagery. The framework was an attempt to assign continuing responsibility around national data rather than treat the publication of a dataset as the end of the job.",
+      "markdown": "During 2012/13 the New Zealand Geospatial Office worked with stakeholders to develop a Stewards and Custodians Framework for fundamental data. LINZ later presented fundamental data themes covering positioning, elevation and depth, water, land use and land cover, cadastre, property and administrative boundaries, transportation, addressing and geographic names, and imagery. The framework was an attempt to assign continuing responsibility around national data rather than treat the publication of a dataset as the end of the job.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

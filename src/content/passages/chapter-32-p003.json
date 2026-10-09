@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-32-55defdf0d2",
+  "slug": "web-maps-without-a-single-vendor-55defdf0d2",
+  "articleId": "article:chapter-32",
+  "title": "Web maps without a single vendor",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:32",
+    "entity:integrated-mapping"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "This period therefore sits naturally after the first generation of browser GIS. New Zealand organisations had already moved maps into browsers through systems such as ArcIMS and other institutional platforms. Open-source server software widened the technical choices available for building the same broad kind of service, adding another route alongside established commercial platforms.",
+      "markdown": "This period therefore sits naturally after the first generation of browser GIS. New Zealand organisations had already moved maps into browsers through systems such as ArcIMS and other institutional platforms. Open-source server software widened the technical choices available for building the same broad kind of service, adding another route alongside established commercial platforms.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Christchurch had an earlier open-source GIS implementation. Later NIWA technical material records DASmap as an early or mid-2000s application developed by Integrated Mapping using MapServer and Python Mapscript. Integrated Mapping was building web applications from open components while browser GIS was still relatively new.",
+      "markdown": "Christchurch had an earlier open-source GIS implementation. Later NIWA technical material records DASmap as an early or mid-2000s application developed by Integrated Mapping using MapServer and Python Mapscript. Integrated Mapping was building web applications from open components while browser GIS was still relatively new.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These systems also demonstrate why free software is an incomplete description. Someone still had to install the software, understand it, connect it to data, secure the server, build the interface, test upgrades and respond when something broke. Open source changed the licensing and development model, not the need for professional capability. Organisations could avoid some licence costs or gain more freedom to customise, but the trade shifted towards skills, integration and support.",
+      "markdown": "These systems also demonstrate why free software is an incomplete description. Someone still had to install the software, understand it, connect it to data, secure the server, build the interface, test upgrades and respond when something broke. Open source changed the licensing and development model, not the need for professional capability. Organisations could avoid some licence costs or gain more freedom to customise, but the trade shifted towards skills, integration and support.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Many New Zealand organisations combined open-source and proprietary tools. Commercial desktop GIS might be used for specialist editing and analysis while PostGIS stored data, GeoServer or MapServer published services and a web application delivered the result. Later, QGIS could be added to that environment as another desktop option. The software ecology became more mixed precisely because systems were becoming more connected.",
+      "markdown": "Many New Zealand organisations combined open-source and proprietary tools. Commercial desktop GIS might be used for specialist editing and analysis while PostGIS stored data, GeoServer or MapServer published services and a web application delivered the result. Later, QGIS could be added to that environment as another desktop option. The software ecology became more mixed precisely because systems were becoming more connected.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

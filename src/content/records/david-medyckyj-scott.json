@@ -1,0 +1,95 @@
+{
+  "id": "person:david-medyckyj-scott",
+  "slug": "david-medyckyj-scott",
+  "name": "David Medyckyj-Scott",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/david-medyckyj-scott/",
+  "story": [
+    "David Medyckyj-Scott worked on geospatial information services in New Zealand and the United Kingdom. His early research covered metadata, human interaction with GIS and the organisational use of spatial information. A contemporary career record places him at the Midlands Regional Research Laboratory from 1989 to 1995, followed by a senior-scientist role at Landcare Research. There he co-developed GUILD-on-the-Web with Robert Gibb, bringing environmental spatial information to public web users in January 1996.",
+    "In 1997 he joined the University of Edinburgh’s Data Library and led the Digimap project. The EDINA service launched in January 2000 with online Ordnance Survey maps and downloadable data for higher education. He identifies the earlier GUILD work as its conceptual background and recalls about 100,000 registered users by his departure in 2010. The scale and departure date are from his contributor account.",
+    "Back at Landcare Research, Medyckyj-Scott was Informatics Team Manager when S-map Online launched in August 2011. He co-authored accounts of the LRIS Portal and S-map Online, and later described the institute’s web-mapping work with Andrew Cowie at GeoCart 2016. His work helped make scientific data available through applications that people could query without desktop GIS software. His contribution to this history also identifies Gibb’s grid-systems work and Richard Murcott’s standards work."
+  ],
+  "sources": [
+    {
+      "label": "UKOLN, JISC-CNI 2000 speaker biography: David Medyckyj-Scott",
+      "url": "https://www.ukoln.ac.uk/events/jisc-cni-2000/presentations/jisc_biographies.html"
+    },
+    {
+      "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+      "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+    },
+    {
+      "label": "Morris, Medyckyj-Scott and Burnhill, EDINA Digimap, LIBER Quarterly 10(4), 2000, DOI 10.18352/lq.7615",
+      "url": "https://liberquarterly.eu/article/view/10218"
+    },
+    {
+      "label": "Landcare Research press release, National soils data now available online, 29 August 2011",
+      "url": "https://www.scoop.co.nz/stories/SC1108/S00076/national-soils-data-now-available-online.htm"
+    },
+    {
+      "label": "Landcare Research, Soil Horizons 20, September 2011, printed pp.4–5: LRIS Portal and S-map Online",
+      "url": "https://www.landcareresearch.co.nz/assets/Publications/Soil-Horizons/Soil_Horizons_20.pdf"
+    },
+    {
+      "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+      "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+    },
+    {
+      "label": "David Medyckyj-Scott, LinkedIn profile supplied with his contribution",
+      "url": "https://www.linkedin.com/in/ACoAAAMV6YMBAtj7SYyOyF2MoxFbuJqoe35FP7I"
+    }
+  ],
+  "aliases": [
+    "David Medyckyj-Scott"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "UKOLN, JISC-CNI 2000 speaker biography: David Medyckyj-Scott",
+        "url": "https://www.ukoln.ac.uk/events/jisc-cni-2000/presentations/jisc_biographies.html"
+      },
+      {
+        "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+        "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+      }
+    ],
+    [
+      {
+        "label": "UKOLN, JISC-CNI 2000 speaker biography: David Medyckyj-Scott",
+        "url": "https://www.ukoln.ac.uk/events/jisc-cni-2000/presentations/jisc_biographies.html"
+      },
+      {
+        "label": "Morris, Medyckyj-Scott and Burnhill, EDINA Digimap, LIBER Quarterly 10(4), 2000, DOI 10.18352/lq.7615",
+        "url": "https://liberquarterly.eu/article/view/10218"
+      }
+    ],
+    [
+      {
+        "label": "Landcare Research press release, National soils data now available online, 29 August 2011",
+        "url": "https://www.scoop.co.nz/stories/SC1108/S00076/national-soils-data-now-available-online.htm"
+      },
+      {
+        "label": "Landcare Research, Soil Horizons 20, September 2011, printed pp.4–5: LRIS Portal and S-map Online",
+        "url": "https://www.landcareresearch.co.nz/assets/Publications/Soil-Horizons/Soil_Horizons_20.pdf"
+      },
+      {
+        "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+        "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "Web, 1996",
+      "url": "/stories/the-first-web-maps/"
+    },
+    {
+      "label": "S-map and Our Environment",
+      "url": "/stories/the-map-becomes-an-application/"
+    }
+  ]
+}

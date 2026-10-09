@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0883",
+  "a": "person:steve-abley",
+  "b": "entity:abley",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

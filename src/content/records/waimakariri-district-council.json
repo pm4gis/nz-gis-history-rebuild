@@ -1,0 +1,31 @@
+{
+  "id": "entity:waimakariri-district-council",
+  "slug": "waimakariri-district-council",
+  "name": "Waimakariri District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/waimakariri-district-council/",
+  "website": "https://www.waimakariri.govt.nz",
+  "story": [
+    "Waimakariri District Council used GIS in its 2005 District Plan production. Its 1 July 2008 engineering standard required reserve as-built GIS layers in GeoMedia format and NZMG coordinates. The council supplied existing layers for contractors to update.",
+    "Terralink’s 4 March 2004 announcement names Waimakariri District Council as a participant in the shared South Island orthophoto acquisition. The release describes regional imagery for local-government GIS, consent processing, land-use work, civil defence and asset management. This evidence establishes participation in the shared imagery project; it does not identify the council’s internal GIS platform or named practitioners."
+  ],
+  "sources": [
+    {
+      "label": "Waimakariri District Council Engineering Code of Practice, Part 12 As-Builts, QP-C821 Issue 1",
+      "url": "https://www.waimakariri.govt.nz/__data/assets/pdf_file/0018/134280/Engineering-Code-of-Practice-updated-February-2025.pdf?v=0.0.2"
+    },
+    {
+      "label": "Terralink International, ‘Terralink starts biggest ever aerial photography task’, 4 March 2004",
+      "url": "https://www.scoop.co.nz/stories/SC0403/S00018.htm"
+    }
+  ],
+  "aliases": [
+    "Waimakariri District Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

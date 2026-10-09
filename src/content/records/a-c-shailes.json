@@ -1,0 +1,31 @@
+{
+  "id": "person:a-c-shailes",
+  "slug": "a-c-shailes",
+  "name": "A. C. Shailes",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/a-c-shailes/",
+  "story": [
+    "A. C. Shailes later described the Mangaweka road-rail deviation as one case in which computers generated or evaluated possible trail lines subject to engineering controls such as gradient and earthworks. In the Clutha Valley, ten road alternatives were reported as being examined through computer processing where manual methods might have allowed detailed consideration of only two. The computers supported engineering analysis."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 3 · Routes and terrain",
+      "url": "/stories/drawing-maps-by-machine/"
+    }
+  ],
+  "aliases": [
+    "A. C. Shailes"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 3 · Routes and terrain",
+        "url": "/stories/drawing-maps-by-machine/"
+      }
+    ]
+  ]
+}

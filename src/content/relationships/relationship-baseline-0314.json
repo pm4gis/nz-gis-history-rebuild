@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-0314",
+  "a": "person:duane-wilkins",
+  "b": "chapter:27",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-27-4122c498e8",
+    "passage:chapter-27-1962327508"
+  ],
+  "sources": []
+}

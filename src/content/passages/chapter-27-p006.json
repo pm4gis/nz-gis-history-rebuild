@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-27-c0ce78eba9",
+  "slug": "geocoding-uncertainty-c0ce78eba9",
+  "articleId": "article:chapter-27",
+  "title": "Geocoding uncertainty",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27",
+    "person:chris-skelly"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Address quality could distort the analysis before any rate was calculated. In 2002 Chris Skelly and colleagues published a study of campylobacteriosis notifications from 1993 to 1997 that examined uncertainty in rural geocoding. They calculated minimum and maximum notification rates according to whether cases with uncertain locations were assigned to rural or urban areas. The estimated maximum rural rates were four times the estimated minimum rural rates, while the equivalent urban estimates changed much less.",
+      "markdown": "Address quality could distort the analysis before any rate was calculated. In 2002 Chris Skelly and colleagues published a study of campylobacteriosis notifications from 1993 to 1997 that examined uncertainty in rural geocoding. They calculated minimum and maximum notification rates according to whether cases with uncertain locations were assigned to rural or urban areas. The estimated maximum rural rates were four times the estimated minimum rural rates, while the equivalent urban estimates changed much less.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Rural addresses were harder to place confidently in the first place. A case with an incomplete or ambiguous address could be assigned to the wrong type of area or left ungeocoded. Because rural populations were smaller, a relatively modest number of uncertain cases could alter the rate substantially. A perfect-looking dot could still be in the wrong paddock.",
+      "markdown": "Rural addresses were harder to place confidently in the first place. A case with an incomplete or ambiguous address could be assigned to the wrong type of area or left ungeocoded. Because rural populations were smaller, a relatively modest number of uncertain cases could alter the rate substantially. A perfect-looking dot could still be in the wrong paddock.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The study found wide variation between Public Health Service Regions in the relationship between ungeocoded and rural notifications. That made data quality a geographic characteristic of the surveillance system itself. An analyst comparing regions needed to consider disease incidence alongside how well cases could be located in each region. Improvements in national address data and geocoding would later reduce some of the friction, but spatial precision remained limited by the quality of the reference information used to create the coordinates.",
+      "markdown": "The study found wide variation between Public Health Service Regions in the relationship between ungeocoded and rural notifications. That made data quality a geographic characteristic of the surveillance system itself. An analyst comparing regions needed to consider disease incidence alongside how well cases could be located in each region. Improvements in national address data and geocoding would later reduce some of the friction, but spatial precision remained limited by the quality of the reference information used to create the coordinates.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "For health GIS, this also constrained what could be inferred from absence. A place with few mapped cases could genuinely have low incidence, or it could have a larger share of records that failed to geocode. Spatial analysis could expose these differences, but it could not make poor source data disappear. The safer workflow was to retain geocoding quality, exclude or flag weak matches and make the uncertainty visible in the analysis.",
+      "markdown": "For health GIS, this also constrained what could be inferred from absence. A place with few mapped cases could genuinely have low incidence, or it could have a larger share of records that failed to geocode. Spatial analysis could expose these differences, but it could not make poor source data disappear. The safer workflow was to retain geocoding quality, exclude or flag weak matches and make the uncertainty visible in the analysis.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

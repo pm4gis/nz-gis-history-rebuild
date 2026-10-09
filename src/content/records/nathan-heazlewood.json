@@ -1,0 +1,70 @@
+{
+  "id": "person:nathan-heazlewood",
+  "slug": "nathan-heazlewood",
+  "name": "Nathan Heazlewood",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/nathan-heazlewood/",
+  "story": [
+    "Nathan Heazlewood was the Eagle GIS professional-services project manager for Auckland Council’s four-year Geospatial Future Mode of Operation programme. The programme consolidated inherited council GIS platforms, data and processes after Auckland’s 2010 amalgamation. A caption in Landlink, Issue 8 (May 1999), names Nathan Heazlewood as a member of the back row in a team photograph accompanying “LINZ first in mapping”. The article says the pictured team received plaques for contributions to establishing the New Zealand Topographic Digital Database and dates the four-year project to 1995 with LINZ’s predecessor DOSLI.",
+    "Parker Jones and David Pimblott belong to the earlier commercial story; later public records connect Graeme Henderson, Scott Campbell, Jithen Singh, Trevor Hart and Nathan Heazlewood with enterprise projects, technology leadership and professional services.",
+    "LINZ’s 2026 Geospatial Capability Committee material lists Nathan Heazlewood in Eagle Technology, corresponding member; Geospatial Capability Committee.."
+  ],
+  "sources": [
+    {
+      "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+      "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+    },
+    {
+      "label": "Landlink, Issue 8 (May 1999), page 1, “LINZ first in mapping” (scan provided by Nathan Heazlewood)",
+      "url": "/assets/images/landlink-1999-topographic-database.jpg"
+    },
+    {
+      "label": "Chapter 12 · Esri and Eagle in New Zealand",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    }
+  ],
+  "aliases": [
+    "Nathan Heazlewood"
+  ],
+  "themeIds": [
+    "women-in-gis",
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+        "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+      },
+      {
+        "label": "Landlink, Issue 8 (May 1999), page 1, “LINZ first in mapping” (scan provided by Nathan Heazlewood)",
+        "url": "/assets/images/landlink-1999-topographic-database.jpg"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Esri and Eagle in New Zealand",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial Capability Committee",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+      }
+    ]
+  ],
+  "contextLinks": [
+    {
+      "label": "DOSLI history and photo gallery",
+      "url": "/entities/department-of-survey-and-land-information-dosli/"
+    }
+  ]
+}

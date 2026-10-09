@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1071",
+  "a": "person:peter-fraser",
+  "b": "entity:new-zealand-esri-users-group",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

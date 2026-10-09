@@ -1,0 +1,26 @@
+{
+  "id": "entity:tasman-district-council",
+  "slug": "tasman-district-council",
+  "name": "Tasman District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/tasman-district-council/",
+  "website": "https://www.tasman.govt.nz",
+  "story": [
+    "By 2004–05, Tasman District Council operated Explore Tasman, a corporate intranet GIS with regularly maintained resource, administrative, property, aerial and base data. It supported external iwi access through the MIRMAK data-sharing work and a participatory GIS workshop at Te Awhina Marae. The council was preparing Version 2 with planning and archaeological information."
+  ],
+  "sources": [
+    {
+      "label": "Garth Harmsworth, Mick Park and Dean Walker, Report on the development and use of GIS for iwi and hapu: Motueka case study, Aotearoa-New Zealand",
+      "url": "https://www.landcareresearch.co.nz/assets/researchpubs/harmsworth_gis_iwi.pdf"
+    }
+  ],
+  "aliases": [
+    "Tasman District Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

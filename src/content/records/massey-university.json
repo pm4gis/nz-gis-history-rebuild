@@ -1,0 +1,32 @@
+{
+  "id": "entity:massey-university",
+  "slug": "massey-university",
+  "name": "Massey University",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/massey-university/",
+  "website": null,
+  "story": [
+    "Massey taught and researched GIS adoption, spatial information and web delivery. James Maguire’s 1999 JavaGenasys thesis described an early approach to browser mapping using specialised software components.",
+    "Sheryl Denise Hendriksen’s 1995 soil-science thesis used GIS to analyse East Coast erosion following Cyclone Bola. Massey also hosted Harmsworth’s 1996 GIS and Māori land-values workshop contribution."
+  ],
+  "sources": [
+    {
+      "label": "Sheryl Denise Hendriksen, East Coast soil-slip GIS thesis, Massey University, 1995",
+      "url": "https://mro.massey.ac.nz/items/5eec6d47-c57a-4d98-a75f-5b32bccf1f1d/full"
+    },
+    {
+      "label": "Harmsworth, Park and Walker, Report on the development and use of GIS for iwi and hapū: bibliography of 1995–1996 work",
+      "url": "https://www.landcareresearch.co.nz/assets/researchpubs/harmsworth_gis_iwi.pdf"
+    }
+  ],
+  "aliases": [
+    "Massey University"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "1909-wairarapa-baseline",
+  "dateDisplay": "1909",
+  "startDate": "1909",
+  "datePrecision": "year",
+  "year": 1909,
+  "label": "Wairarapa baseline enters the national geodetic-control story",
+  "summary": "Survey and geodetic work around the Wairarapa baseline became part of the renewed effort to establish more precise national control.",
+  "url": "/stories/what-the-computer-inherited/#coordinates-before-computers-6c2c3ccbe6",
+  "passageIds": [
+    "passage:chapter-1-6c2c3ccbe6"
+  ],
+  "recordIds": [
+    "chapter:1",
+    "entity:traverse-seamless",
+    "person:rachel-gillanders"
+  ],
+  "themeIds": [],
+  "categories": [
+    "survey",
+    "geodesy"
+  ],
+  "sources": []
+}

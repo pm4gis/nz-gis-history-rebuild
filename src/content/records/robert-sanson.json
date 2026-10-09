@@ -1,0 +1,35 @@
+{
+  "id": "person:robert-sanson",
+  "slug": "robert-sanson",
+  "name": "Robert Sanson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/robert-sanson/",
+  "story": [
+    "Veterinary epidemiologist Robert Sanson later documented the development of the spatial work after the first weeks of the 2000 varroa response. Varroa_sim was programmed in ArcView using Avenue and treated 9,229 registered North Island apiaries with valid map-grid coordinates as the population at risk. The stochastic model represented local spread, movement within a beekeeper's operation and the seasonal concentration of hives for pollination, while eradication assumptions could be changed through menus in the map interface. "
+  ],
+  "sources": [
+    {
+      "label": "Robert Sanson - AsureQuality Limited | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/robert-sanson-6b579020"
+    },
+    {
+      "label": "Chapter 24 · Modelling varroa spread",
+      "url": "/stories/government-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Robert Sanson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 24 · Modelling varroa spread",
+        "url": "/stories/government-goes-spatial/"
+      }
+    ]
+  ]
+}

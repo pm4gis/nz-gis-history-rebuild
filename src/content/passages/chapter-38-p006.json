@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-38-56d5b073bb",
+  "slug": "mapping-unstable-ground-56d5b073bb",
+  "articleId": "article:chapter-38",
+  "title": "Mapping unstable ground",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:38",
+    "entity:university-of-auckland",
+    "person:martin-brook",
+    "person:jesse-merkle"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Auckland and Port Waikato landslide work shows another attraction of UAV mapping. Unstable slopes are inconvenient places to carry survey equipment around for long periods. Remote image capture can reduce the amount of time staff need to spend directly on hazardous ground while still providing a detailed three-dimensional record. The 2017 paper argued that UAV/SfM could support engineering-geological mapping of scarps, irregular surfaces and other features at fine scale.",
+      "markdown": "The Auckland and Port Waikato landslide work shows another attraction of UAV mapping. Unstable slopes are inconvenient places to carry survey equipment around for long periods. Remote image capture can reduce the amount of time staff need to spend directly on hazardous ground while still providing a detailed three-dimensional record. The 2017 paper argued that UAV/SfM could support engineering-geological mapping of scarps, irregular surfaces and other features at fine scale.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The method became more useful when repeated. A 2019 paper by Martin Brook and Jesse Merkle described UAV/SfM photogrammetry for monitoring active landslides in the Auckland region. High-resolution photomosaics and terrain models could be used to assess deformation and to compare surfaces through time or against LiDAR. A related University of Auckland project funded through EQC, later the Natural Hazards Commission, extended the work into ten monitoring investigations and reported in 2020.",
+      "markdown": "The method became more useful when repeated. A 2019 paper by Martin Brook and Jesse Merkle described UAV/SfM photogrammetry for monitoring active landslides in the Auckland region. High-resolution photomosaics and terrain models could be used to assess deformation and to compare surfaces through time or against LiDAR. A related University of Auckland project funded through EQC, later the Natural Hazards Commission, extended the work into ten monitoring investigations and reported in 2020.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Repeated capture changed the question. One flight could describe a slope. A sequence could show whether parts of it moved, where scarps extended or how the surface responded after rainfall. That still required control and careful comparison. If two surveys were aligned differently, or if vegetation changed between flights, apparent movement might come from the method rather than the landslide.",
+      "markdown": "Repeated capture changed the question. One flight could describe a slope. A sequence could show whether parts of it moved, where scarps extended or how the surface responded after rainfall. That still required control and careful comparison. If two surveys were aligned differently, or if vegetation changed between flights, apparent movement might come from the method rather than the landslide.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same logic applies outside hazards. Construction sites, quarries, stockpiles, river channels, beaches and restoration sites are valuable precisely because they change. A method that can be brought back at project-defined intervals creates a local time series. UAV mapping lowered the threshold at which repeat aerial capture became practical.",
+      "markdown": "The same logic applies outside hazards. Construction sites, quarries, stockpiles, river channels, beaches and restoration sites are valuable precisely because they change. A method that can be brought back at project-defined intervals creates a local time series. UAV mapping lowered the threshold at which repeat aerial capture became practical.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

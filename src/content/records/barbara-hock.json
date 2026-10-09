@@ -1,0 +1,42 @@
+{
+  "id": "person:barbara-hock",
+  "slug": "barbara-hock",
+  "name": "Barbara Höck",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/barbara-hock/",
+  "story": [
+    "Barbara Höck and Tim Payn, working with J. W. Shirley of Forestry Corporation, had 1,643 forest compartment boundaries in digital form and imported them into ARC/INFO. The compartment identifiers linked 744 known site-index values to the spatial data, while the GIS supplied compartment-centre coordinates to a geostatistical analysis and received the estimated values back for mapping. The job shows a step beyond computerised forest inventory: the forest's management units had become spatial objects that could connect inventory records, statistical estimation and map production.",
+    "A 1998 paper by Forest Research scientists Barbara Höck, Tim Payn and Andrew Dunningham shows what this looked like after the institute became a Crown Research Institute. Their work combined remote sensing, permanent sample plots, foliage measurements, soil-map units, GIS and geostatistics. One trial treated satellite pixels as 25-metre ground cells and tested them against measured forest data; another loaded growth and foliage plots into GIS and overlaid them with soil units while the team worked on a better link between MARVL and GIS. Forestry scientists used GIS to compare and analyse their information."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 8 · Routine forestry use",
+      "url": "/stories/forestry-finds-gis/"
+    },
+    {
+      "label": "Chapter 8 · Routine forestry use",
+      "url": "/stories/forestry-finds-gis/"
+    }
+  ],
+  "aliases": [
+    "Barbara Höck"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 8 · Routine forestry use",
+        "url": "/stories/forestry-finds-gis/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 8 · Routine forestry use",
+        "url": "/stories/forestry-finds-gis/"
+      }
+    ]
+  ]
+}

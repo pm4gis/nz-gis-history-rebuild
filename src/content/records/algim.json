@@ -1,0 +1,25 @@
+{
+  "id": "entity:algim",
+  "slug": "algim",
+  "name": "ALGIM",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/algim/",
+  "website": null,
+  "story": [
+    "ALGIM brought local-government information practitioners together across technology and information management. Its history traces roots to the ITMG in 1975 and the formal establishment of ALGIM in 1996. GIS symposia, awards and practitioner exchange gave council staff a forum grounded in common organisational problems and public services."
+  ],
+  "sources": [
+    {
+      "label": "ALGIM, What is ALGIM?",
+      "url": "https://algim.org.nz/What-is-ALGIM"
+    }
+  ],
+  "aliases": [
+    "ALGIM"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

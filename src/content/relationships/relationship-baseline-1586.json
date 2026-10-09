@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1586",
+  "a": "person:katie-milne",
+  "b": "chapter:34",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [],
+  "sources": []
+}

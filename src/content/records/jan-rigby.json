@@ -1,0 +1,42 @@
+{
+  "id": "person:jan-rigby",
+  "slug": "jan-rigby",
+  "name": "Jan Rigby",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/jan-rigby/",
+  "story": [
+    "Jan Rigby is a health geographer with interests in spatial epidemiology, inequality, poverty and women's health. Her GIS background includes a commitment to developing capability for health research in poorer countries. Her publications connect spatial analysis with healthcare access and public-health risk, including research on gambling geography in New Zealand.",
+    "Contemporary CDC material identifies Chris Skelly, then Senior Advisor, Health GeoInformatics, and Jan Rigby as organisers of GeoHealth 2002 in Wellington."
+  ],
+  "sources": [
+    {
+      "label": "Jan Rigby | Maynooth University · career/profile reference",
+      "url": "https://www.maynoothuniversity.ie/faculty-social-sciences/our-people/jan-rigby"
+    },
+    {
+      "label": "Chapter 27 · A health-geoinformatics community",
+      "url": "/stories/health-population-and-place/"
+    }
+  ],
+  "aliases": [
+    "Jan Rigby"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Jan Rigby | Maynooth University · career/profile reference",
+        "url": "https://www.maynoothuniversity.ie/faculty-social-sciences/our-people/jan-rigby"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 27 · A health-geoinformatics community",
+        "url": "/stories/health-population-and-place/"
+      }
+    ]
+  ]
+}

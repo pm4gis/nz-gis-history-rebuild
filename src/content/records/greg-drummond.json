@@ -1,0 +1,48 @@
+{
+  "id": "person:greg-drummond",
+  "slug": "greg-drummond",
+  "name": "Greg Drummond",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/greg-drummond/",
+  "story": [
+    "Greg Drummond is acknowledged as Hutt City Council’s GIS in School mentor in the February 2001 vegetation-fire-hazard research report. The Chilton Saint James project combined council data and aerial photographs with student GPS fieldwork and GIS analysis. Contemporary GISList correspondence signed Greg Drummond records a Team Leader GIS role at Land Information New Zealand in 2008 and an Acting Manager, Business Engagement role in 2009. The messages shared an orthophoto world-file resource from the University of Otago Surveying School and an Open Geospatial Consortium standards announcement.",
+    "Mark Rattenbury and Mike Isaac's project history names Philip Carthew, Greg Drummond, David Heron, Biljana Lukovic, Jeff Lyall, Ben Morrison, Penny Murray and Belinda Smith Lyttle among those providing text production, GIS and cartography. Universities supplied thesis and unpublished mapping, while NIWA supplied offshore data. Digital image products were being released from 2004 and vector GIS products from 2006. By 2012 QMAP data could also be consumed through web map services, so a programme conceived as a national map series had become a reusable national data service."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Fire Service Commission Research Report No.10, A Pilot Study to Identify Strategies to Assess Vegetation Fire Hazards, Chilton Saint James School",
+      "url": "https://www.fireandemergency.nz/assets/Documents/Research-and-reports/Report-10-Pilot-Study-to-Identify-Strategies-to-Assess-Vegetation-Fire-Hazards.pdf"
+    },
+    {
+      "label": "Greg Drummond, LINZ, GISList: SUM: World files for LINZ Orthophotos (tif), 4 June 2008"
+    },
+    {
+      "label": "Greg Drummond, LINZ, GISList: OGC Announces Web Coverage Processing Service Standard, 30 March 2009"
+    },
+    {
+      "label": "Chapter 9 · Rebuilding the geological map",
+      "url": "/stories/science-goes-spatial/"
+    }
+  ],
+  "aliases": [
+    "Greg Drummond"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Fire Service Commission Research Report No.10, A Pilot Study to Identify Strategies to Assess Vegetation Fire Hazards, Chilton Saint James School",
+        "url": "https://www.fireandemergency.nz/assets/Documents/Research-and-reports/Report-10-Pilot-Study-to-Identify-Strategies-to-Assess-Vegetation-Fire-Hazards.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 9 · Rebuilding the geological map",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ]
+  ]
+}

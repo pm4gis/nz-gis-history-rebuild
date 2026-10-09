@@ -1,0 +1,50 @@
+{
+  "id": "entity:department-of-lands-and-survey",
+  "slug": "department-of-lands-and-survey",
+  "name": "Department of Lands and Survey",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/department-of-lands-and-survey/",
+  "website": null,
+  "story": [
+    "Lands and Survey maintained cadastral, geodetic, topographic and aerial-mapping records that became inputs to digital systems. Its staff worked across field survey, computation, draughting and map production. The transition to computer mapping inherited both that information and the need to keep it consistent as land and administrative records changed.",
+    "The department’s metric-conversion work supplied a concrete reason to automate mapping in the 1970s. M. S. Colley’s 1979 Canterbury thesis describes Lands and Survey’s responsibility for converting topographic and cadastral mapping from the earlier imperial grid to the metric grid introduced in 1973. The research addressed automated cadastral conversion, computer-produced cartography and structures that could store graphical features with descriptive information. Chapter 3 follows that work through MAPPAK.",
+    "The April 1987 reorganisation divided responsibilities as well as changing the national mapping organisation. DOSLI took government civil and military survey, mapping and land-information services, while land development and conservation management were assigned elsewhere. This division is important when tracing older datasets and staff accounts: a Lands and Survey origin does not imply that every function passed to DOSLI or, later, to LINZ."
+  ],
+  "sources": [
+    {
+      "label": "Land Information New Zealand, Our whakapapa",
+      "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+    },
+    {
+      "label": "M. S. Colley, A computer system for a cadastral mapping application, MSc thesis, University of Canterbury, 1979",
+      "url": "https://ir.canterbury.ac.nz/items/f2abb49d-e38f-4019-b8ba-38667aaba5bb"
+    }
+  ],
+  "aliases": [
+    "Department of Lands and Survey"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [
+    [
+      {
+        "label": "Land Information New Zealand, Our whakapapa",
+        "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+      }
+    ],
+    [
+      {
+        "label": "M. S. Colley, A computer system for a cadastral mapping application, MSc thesis, University of Canterbury, 1979",
+        "url": "https://ir.canterbury.ac.nz/items/f2abb49d-e38f-4019-b8ba-38667aaba5bb"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Our whakapapa: April 1987 restructuring, 1995 title transfer and 1 July 1996 division",
+        "url": "https://www.linz.govt.nz/about-us/our-organisation/our-whakapapa"
+      }
+    ]
+  ],
+  "biographyParagraphSources": []
+}

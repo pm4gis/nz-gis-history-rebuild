@@ -1,0 +1,25 @@
+{
+  "id": "entity:south-wairarapa-district-council",
+  "slug": "south-wairarapa-district-council",
+  "name": "South Wairarapa District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/south-wairarapa-district-council/",
+  "website": "https://www.swdc.govt.nz",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "South Wairarapa District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

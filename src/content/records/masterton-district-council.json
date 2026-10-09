@@ -1,0 +1,25 @@
+{
+  "id": "entity:masterton-district-council",
+  "slug": "masterton-district-council",
+  "name": "Masterton District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/masterton-district-council/",
+  "website": "https://www.mstn.govt.nz",
+  "description": "Named in Recurring forums (Chapter 29). Follow the linked passage for context.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Masterton District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:justin-harris",
+  "slug": "justin-harris",
+  "name": "Justin Harris",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/justin-harris/",
+  "story": [
+    "Justin Harris was part of the New Zealand Police Geospatial Team that presented an FME case study in June 2023. With Aamir Bonamis and Martin D’Souza, he described automated Calls for Service workflows, combining location and crime-harm information, and hourly updates that supported the team’s response to Cyclone Gabrielle."
+  ],
+  "sources": [
+    {
+      "label": "Police FME conference presentation, 8 June 2023",
+      "url": "https://locusglobal.com/wp-content/uploads/2023/06/FMEConference_PolicePresentation_FinalV2.pdf"
+    }
+  ],
+  "aliases": [
+    "Justin Harris"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Police FME conference presentation, 8 June 2023",
+        "url": "https://locusglobal.com/wp-content/uploads/2023/06/FMEConference_PolicePresentation_FinalV2.pdf"
+      }
+    ]
+  ]
+}

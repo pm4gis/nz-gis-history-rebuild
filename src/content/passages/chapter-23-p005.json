@@ -1,0 +1,76 @@
+{
+  "id": "passage:chapter-23-5cf46cdf27",
+  "slug": "networks-meet-the-ledger-5cf46cdf27",
+  "articleId": "article:chapter-23",
+  "title": "Networks meet the ledger",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "entity:dunedin-city-council",
+    "entity:waitakere-city-council",
+    "entity:wellington-city-council",
+    "person:laura-nicol",
+    "person:rob-garrett",
+    "person:martin-roundill",
+    "person:charles-hansen"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Roads, water, wastewater and stormwater created another route into corporate GIS. Councils owned long networks of assets that had traditionally been recorded on engineering plans, as-built drawings, registers and maintenance files. By the 1990s financial and audit requirements were forcing local authorities to identify those assets more systematically, assess their value and condition, and prepare asset-management plans. Location was part of that record because a pipe or road segment could not be managed if the council did not know which physical asset the database entry referred to.",
+      "markdown": "Roads, water, wastewater and stormwater created another route into corporate GIS. Councils owned long networks of assets that had traditionally been recorded on engineering plans, as-built drawings, registers and maintenance files. By the 1990s financial and audit requirements were forcing local authorities to identify those assets more systematically, assess their value and condition, and prepare asset-management plans. Location was part of that record because a pipe or road segment could not be managed if the council did not know which physical asset the database entry referred to.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nelson combined aerial capture with engineering records and field checks to build its asset GIS. The council now says GIS information on city properties had been available since 1993, while its later asset-management history dates GIS implementation and photogrammetric capture to 1994. The aerial capture supplied contours, buildings, road markings, kerbs, channels and visible fittings, but it could not tell the council everything about buried pipes. Staff checked coordinates and went back through engineering plans and field books for alignments, materials and ages. Where buried fittings could not economically be located, a best estimate went into GIS and the accuracy limitation was flagged. New assets then arrived through as-built plans and regular engineering updates. Photogrammetric capture and historical engineering records supplied different parts of the asset information.",
+      "markdown": "Nelson combined aerial capture with engineering records and field checks to build its asset GIS. The council now says GIS information on city properties had been available since 1993, while its later asset-management history dates GIS implementation and photogrammetric capture to 1994. The aerial capture supplied contours, buildings, road markings, kerbs, channels and visible fittings, but it could not tell the council everything about buried pipes. Staff checked coordinates and went back through engineering plans and field books for alignments, materials and ages. Where buried fittings could not economically be located, a best estimate went into GIS and the accuracy limitation was flagged. New assets then arrived through as-built plans and regular engineering updates. Photogrammetric capture and historical engineering records supplied different parts of the asset information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Wellington City Council left a different migration trail. Its current GIS metadata says kerb-line data had been acquired since 1987 and loaded into an older system called City Mapping. In 1996 those data were completely recaptured from aerial stereopairs for a new GIS. Later metadata places the maintained data in ArcSDE and records recurring aerial-refly updates.",
+      "markdown": "Wellington City Council left a different migration trail. Its current GIS metadata says kerb-line data had been acquired since 1987 and loaded into an older system called City Mapping. In 1996 those data were completely recaptured from aerial stereopairs for a new GIS. Later metadata places the maintained data in ArcSDE and records recurring aerial-refly updates.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A 1995 Esri user-conference paper by Charles Hansen described ArcInfo as already being used by more than half of New Zealand city and district councils and linked GIS directly with infrastructure valuation. The broader connection between asset management and spatial information is supported by subsequent Audit Office reporting.",
+      "markdown": "A 1995 Esri user-conference paper by Charles Hansen described ArcInfo as already being used by more than half of New Zealand city and district councils and linked GIS directly with infrastructure valuation. The broader connection between asset management and spatial information is supported by subsequent Audit Office reporting.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Waitakere City Council shows what that connection looked like at the working end of local government. In 2000 its GIS Manager, Martin Roundill, described a MapBasic application that linked MapInfo to the Confirm asset-management system through DDE. When it began throwing a fatal internal error after users had installed or run Access 97, Roundill took the problem to the international MapInfo mailing list because the error was not documented and the council had run out of obvious places to look. His messages also show him swapping MapBasic solutions for data conversion, object creation and synchronised map windows. It was less a story of buying a finished corporate GIS than of keeping several pieces of software talking to one another with scripts, DLLs and whatever clues could be found from other practitioners.",
+      "markdown": "Waitakere City Council shows what that connection looked like at the working end of local government. In 2000 its GIS Manager, Martin Roundill, described a MapBasic application that linked MapInfo to the Confirm asset-management system through DDE. When it began throwing a fatal internal error after users had installed or run Access 97, Roundill took the problem to the international MapInfo mailing list because the error was not documented and the council had run out of obvious places to look. His messages also show him swapping MapBasic solutions for data conversion, object creation and synchronised map windows. It was less a story of buying a finished corporate GIS than of keeping several pieces of software talking to one another with scripts, DLLs and whatever clues could be found from other practitioners.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Audit Office later described councils collecting key information about their infrastructure, developing asset-management plans and improving the links between the general ledger, fixed-asset register, asset-management plan and long-term financial strategy. By the 2000–01 financial year all local authorities had received unqualified audit opinions in relation to reporting infrastructural assets. GIS sat inside that larger information environment where the geometry of a network could be connected to the identifiers and attributes used for maintenance, valuation and planning.",
+      "markdown": "The Audit Office later described councils collecting key information about their infrastructure, developing asset-management plans and improving the links between the general ledger, fixed-asset register, asset-management plan and long-term financial strategy. By the 2000–01 financial year all local authorities had received unqualified audit opinions in relation to reporting infrastructural assets. GIS sat inside that larger information environment where the geometry of a network could be connected to the identifiers and attributes used for maintenance, valuation and planning.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The network map therefore changed function. A water-main line no longer existed only to show where the pipe was thought to run. It could be linked to diameter, material, installation date, condition, break history, replacement cost or maintenance work. A road segment could connect geometry with surface, classification, condition and financial records. The map became one view of an asset register whose other parts might live in dedicated engineering, asset-management or financial systems.",
+      "markdown": "The network map therefore changed function. A water-main line no longer existed only to show where the pipe was thought to run. It could be linked to diameter, material, installation date, condition, break history, replacement cost or maintenance work. A road segment could connect geometry with surface, classification, condition and financial records. The map became one view of an asset register whose other parts might live in dedicated engineering, asset-management or financial systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That integration also made poor data harder to ignore. A missing pipe, duplicate asset identifier or road segment with no reliable length could affect mapping, engineering and valuation at the same time. Corporate GIS created more ways to find inconsistencies because several systems were now expected to refer to the same physical object. Cleaning the data was rarely a single conversion exercise. It became continuing maintenance.",
+      "markdown": "That integration also made poor data harder to ignore. A missing pipe, duplicate asset identifier or road segment with no reliable length could affect mapping, engineering and valuation at the same time. Corporate GIS created more ways to find inconsistencies because several systems were now expected to refer to the same physical object. Cleaning the data was rarely a single conversion exercise. It became continuing maintenance.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Dunedin’s lifelines work also identifies the council staff doing the mapping. The December 1998 Dunedin City Lifelines Project report names Rob Garrett, Senior GIS Analyst, and Laura Nicol, GIS Analyst, in City Consultants at Dunedin City Council. The report acknowledged the group’s GIS mapping as essential to the project. Garrett and Nicol produced mapping for infrastructure and hazard assessment.",
+      "markdown": "Dunedin’s lifelines work also identifies the council staff doing the mapping. The December 1998 Dunedin City Lifelines Project report names Rob Garrett, Senior GIS Analyst, and Laura Nicol, GIS Analyst, in City Consultants at Dunedin City Council. The report acknowledged the group’s GIS mapping as essential to the project. Garrett and Nicol produced mapping for infrastructure and hazard assessment.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

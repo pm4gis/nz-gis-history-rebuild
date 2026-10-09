@@ -1,0 +1,22 @@
+{
+  "id": "2001-nztm2000",
+  "dateDisplay": "2001",
+  "startDate": "2001",
+  "datePrecision": "year",
+  "year": 2001,
+  "label": "NZTM2000 replaces NZMG for modern national mapping",
+  "summary": "The new projection aligned national mapping practice with NZGD2000.",
+  "url": "/stories/rebuilding-the-coordinate-framework/#datum-and-projection-efe15c6958",
+  "passageIds": [
+    "passage:chapter-19-efe15c6958"
+  ],
+  "recordIds": [
+    "chapter:19"
+  ],
+  "themeIds": [],
+  "categories": [
+    "projection",
+    "topography"
+  ],
+  "sources": []
+}

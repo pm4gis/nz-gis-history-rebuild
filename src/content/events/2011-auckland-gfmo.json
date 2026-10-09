@@ -1,0 +1,32 @@
+{
+  "id": "2011-auckland-gfmo",
+  "dateDisplay": "c.2011–2015",
+  "startDate": "2011",
+  "endDate": "2015",
+  "datePrecision": "year",
+  "year": 2011,
+  "label": "Auckland Council runs the GFMO programme",
+  "summary": "The post-amalgamation programme consolidated inherited systems, data and geospatial service arrangements.",
+  "url": "/stories/enterprise-gis/#auckland-council-gfmo-b5104d43cf",
+  "passageIds": [
+    "passage:chapter-40-b5104d43cf"
+  ],
+  "recordIds": [
+    "entity:auckland-council",
+    "chapter:40",
+    "person:ingrid-mcclymont",
+    "person:nathan-heazlewood"
+  ],
+  "themeIds": [],
+  "categories": [
+    "enterprise",
+    "software",
+    "local-government"
+  ],
+  "sources": [
+    {
+      "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+      "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+    }
+  ]
+}

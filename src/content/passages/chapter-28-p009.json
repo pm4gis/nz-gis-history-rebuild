@@ -1,0 +1,53 @@
+{
+  "id": "passage:chapter-28-46b1a61852",
+  "slug": "from-hot-spots-to-priority-locations-46b1a61852",
+  "articleId": "article:chapter-28",
+  "title": "From hot spots to priority locations",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28",
+    "person:sophie-curtis-ham",
+    "person:darren-walton"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2010s Police spatial analysis was being used for a different kind of prioritisation. Sophie Curtis-Ham and Darren Walton’s 2017 Applied Geography paper compared two approaches at Census Area Unit level: the Priority Locations Index and the New Zealand Crime Harm Index. Both used geography to guide attention, but they measured different things. Treating them as alternative hot-spot maps would lose the point of the comparison.",
+      "markdown": "By the 2010s Police spatial analysis was being used for a different kind of prioritisation. Sophie Curtis-Ham and Darren Walton’s 2017 Applied Geography paper compared two approaches at Census Area Unit level: the Priority Locations Index and the New Zealand Crime Harm Index. Both used geography to guide attention, but they measured different things. Treating them as alternative hot-spot maps would lose the point of the comparison.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Priority Locations Index combined five sociodemographic variables with three crime variables, each indexed against national averages for Census Area Units. It was intended to identify communities experiencing a combination of social disadvantage and crime-related vulnerability. Police used the index as one input to resource allocation and the placement of Neighbourhood Policing Teams, alongside further local analysis. A place could therefore rank as a priority because of the interaction between social conditions and crime rather than raw offence counts alone.",
+      "markdown": "The Priority Locations Index combined five sociodemographic variables with three crime variables, each indexed against national averages for Census Area Units. It was intended to identify communities experiencing a combination of social disadvantage and crime-related vulnerability. Police used the index as one input to resource allocation and the placement of Neighbourhood Policing Teams, alongside further local analysis. A place could therefore rank as a priority because of the interaction between social conditions and crime rather than raw offence counts alone.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The New Zealand Crime Harm Index approached the problem differently. Instead of giving each recorded offence equal weight, it assigned relative harm according to the seriousness of offence types using sentencing information. A location with fewer serious offences could therefore carry more measured harm than a location with a larger number of lower-harm offences. Crime count and crime harm were not interchangeable.",
+      "markdown": "The New Zealand Crime Harm Index approached the problem differently. Instead of giving each recorded offence equal weight, it assigned relative harm according to the seriousness of offence types using sentencing information. A location with fewer serious offences could therefore carry more measured harm than a location with a larger number of lower-harm offences. Crime count and crime harm were not interchangeable.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The study also distinguished these measures from density. A densely populated commercial or entertainment area could generate many incidents because large numbers of people passed through it. A socially disadvantaged residential community might have a different relationship between victimisation, harm and local vulnerability. GIS allowed the measures to be compared on the same geography, but it did not make them equivalent. The policy decision depended on which problem Police was trying to address.",
+      "markdown": "The study also distinguished these measures from density. A densely populated commercial or entertainment area could generate many incidents because large numbers of people passed through it. A socially disadvantaged residential community might have a different relationship between victimisation, harm and local vulnerability. GIS allowed the measures to be compared on the same geography, but it did not make them equivalent. The policy decision depended on which problem Police was trying to address.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Priority Locations Index was calculated as an average of eight component measures: five demographic variables and three crime variables. Each component was converted to an index against the national average across Census Area Units, putting unlike measures onto a common scale before they were combined. The Crime Harm Index was built on a different foundation. Rather than averaging vulnerability indicators, it applied offence-specific weights derived from New Zealand sentencing information and then aggregated those weighted offences geographically. The authors calculated both total harm and population-controlled harm rates, which allowed a large population centre to be distinguished from a place experiencing unusually high harm relative to its population.",
+      "markdown": "The Priority Locations Index was calculated as an average of eight component measures: five demographic variables and three crime variables. Each component was converted to an index against the national average across Census Area Units, putting unlike measures onto a common scale before they were combined. The Crime Harm Index was built on a different foundation. Rather than averaging vulnerability indicators, it applied offence-specific weights derived from New Zealand sentencing information and then aggregated those weighted offences geographically. The authors calculated both total harm and population-controlled harm rates, which allowed a large population centre to be distinguished from a place experiencing unusually high harm relative to its population.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors then tested the relationship between the two indices rather than assuming they would identify the same places. The correlation was weak. Population size and urban-rural classification also explained part of the variation in Crime Harm Index scores, and mapped outliers showed Census Area Units where the two measures diverged substantially. Those differences are central to the historical story because they show Police geography moving beyond the question of where many offences occurred. The analytical framework could now ask whether a place had high offence volume, high weighted harm, high social vulnerability or some combination of the three.",
+      "markdown": "The authors then tested the relationship between the two indices rather than assuming they would identify the same places. The correlation was weak. Population size and urban-rural classification also explained part of the variation in Crime Harm Index scores, and mapped outliers showed Census Area Units where the two measures diverged substantially. Those differences are central to the historical story because they show Police geography moving beyond the question of where many offences occurred. The analytical framework could now ask whether a place had high offence volume, high weighted harm, high social vulnerability or some combination of the three.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

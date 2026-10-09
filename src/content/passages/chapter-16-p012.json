@@ -1,0 +1,35 @@
+{
+  "id": "passage:chapter-16-3b501947a5",
+  "slug": "census-geography-staff-3b501947a5",
+  "articleId": "article:chapter-16",
+  "title": "Census geography staff",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16",
+    "entity:department-of-survey-and-land-information-dosli",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Maintaining census geography required a mixed workforce. The early record is especially clear about Lands and Survey draughting staff preparing, checking and colouring census maps. Later systems added Statistics New Zealand geography and classifications staff, DOSLI and LINZ mapping specialists, database technicians and quality-control staff. Census processing teams had to ensure that records were assigned to the correct geographic codes. Address and street information increasingly helped connect administrative records and customer databases to meshblocks, while boundary specialists dealt with requests from councils, electoral bodies and census operations.",
+      "markdown": "Maintaining census geography required a mixed workforce. The early record is especially clear about Lands and Survey draughting staff preparing, checking and colouring census maps. Later systems added Statistics New Zealand geography and classifications staff, DOSLI and LINZ mapping specialists, database technicians and quality-control staff. Census processing teams had to ensure that records were assigned to the correct geographic codes. Address and street information increasingly helped connect administrative records and customer databases to meshblocks, while boundary specialists dealt with requests from councils, electoral bodies and census operations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The work could be routine in appearance and unforgiving in consequence. A misplaced boundary, miscoded address or incorrect geographic identifier could put a dwelling into the wrong small area and affect every table or map built from that assignment. Quality control therefore involved more than checking whether polygons closed. Staff had to reconcile statistical definitions with streets, parcels and administrative boundaries, maintain relationships through successive patterns and ensure that files distributed to users matched the published census geography. The national dataset was produced by repeated clerical, cartographic and database work, not generated automatically from census forms.",
+      "markdown": "The work could be routine in appearance and unforgiving in consequence. A misplaced boundary, miscoded address or incorrect geographic identifier could put a dwelling into the wrong small area and affect every table or map built from that assignment. Quality control therefore involved more than checking whether polygons closed. Staff had to reconcile statistical definitions with streets, parcels and administrative boundaries, maintain relationships through successive patterns and ensure that files distributed to users matched the published census geography. The national dataset was produced by repeated clerical, cartographic and database work, not generated automatically from census forms.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Addresses formed part of that process alongside field geography. Earlier censuses relied heavily on enumerator maps, written instructions and local field knowledge. By 2002 Statistics New Zealand was also supplying an electronic Streets File containing street names and address ranges associated with meshblocks. It was designed, among other uses, to help organisations relate their own customer databases to meshblocks and higher-level areas. That database-oriented route belongs to the later period; earlier census operations still depended on the enumerator’s map as the practical location framework.",
+      "markdown": "Addresses formed part of that process alongside field geography. Earlier censuses relied heavily on enumerator maps, written instructions and local field knowledge. By 2002 Statistics New Zealand was also supplying an electronic Streets File containing street names and address ranges associated with meshblocks. It was designed, among other uses, to help organisations relate their own customer databases to meshblocks and higher-level areas. That database-oriented route belongs to the later period; earlier census operations still depended on the enumerator’s map as the practical location framework.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

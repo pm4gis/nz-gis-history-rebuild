@@ -1,0 +1,34 @@
+{
+  "id": "article:chapter-7",
+  "slug": "mapping-land-as-data",
+  "title": "Land assessment",
+  "url": "/stories/mapping-land-as-data/",
+  "summary": "Chapter 5 followed the creation and digitisation of the New Zealand Land Resource Inventory and the LADEDA system. The inventory itself was built from stereo aerial photography, geological and soil information, topographic maps an",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 7,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch07-note-01",
+      "text": "1. The physical NZLRI factors and the Land Use Capability hierarchy are supported by New Zealand land-resource survey manuals, extended legends and later Manaaki Whenua technical guidance. The manuscript distinguishes the observed or mapped inventory factors from the interpreted LUC assessment."
+    },
+    {
+      "id": "ch07-note-02",
+      "text": "2. The eight LUC classes and subclass logic are documented in the relevant New Zealand Land Use Capability Survey Handbook/technical guidance already recorded in the chapter packet. The classification describes sustained productive capability and physical limitation; it is not a land-value, consent or statutory-zoning system."
+    },
+    {
+      "id": "ch07-note-03",
+      "text": "3. M. R. Jessen, Urban Land Capability Survey Handbook, 1987, is the principal source documenting the urban adaptation of the LUC approach. The handbook also supports the credited contribution of catchment-authority staff, including Bob Cathcart, where named in the manuscript."
+    },
+    {
+      "id": "ch07-note-04",
+      "text": "4. NZLRI conversion and LADEDA chronology are not re-proved here. Chapter 5 discusses the digitisation history. Chapter 7 cites those sources only where needed to explain how the mature resource inventory could later be queried, recombined and maintained in GIS."
+    },
+    {
+      "id": "ch07-note-05",
+      "text": "5. Later Manaaki Whenua/NZLRI histories support the discussion of second editions, mixed survey dates and the maintenance/age problem. A modern seamless layer should not be cited as evidence that every polygon was surveyed at one time or scale."
+    }
+  ]
+}

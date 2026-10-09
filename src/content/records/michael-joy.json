@@ -1,0 +1,31 @@
+{
+  "id": "person:michael-joy",
+  "slug": "michael-joy",
+  "name": "Michael Joy",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/michael-joy/",
+  "story": [
+    "Michael Joy's 2003 doctoral research at Massey University used GIS and neural-network predictive modelling for river biological assessment, while Brendon Woodford's SIRC work in 2005 and 2008 examined machine learning and rule extraction from spatial data."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 44 · AI before the boom",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Michael Joy"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 44 · AI before the boom",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

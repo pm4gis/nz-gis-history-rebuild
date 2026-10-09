@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-31-efe6519f22",
+  "slug": "kml-as-a-bridge-efe6519f22",
+  "articleId": "article:chapter-31",
+  "title": "KML as a bridge",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Google Earth also supplied a remarkably simple bridge between professional and consumer mapping through KML and KMZ. A GIS practitioner could export points, lines, polygons or image overlays and send them to someone who did not have the same GIS software. The recipient could open the file in Google Earth and immediately see the information in a familiar three-dimensional context.",
+      "markdown": "Google Earth also supplied a remarkably simple bridge between professional and consumer mapping through KML and KMZ. A GIS practitioner could export points, lines, polygons or image overlays and send them to someone who did not have the same GIS software. The recipient could open the file in Google Earth and immediately see the information in a familiar three-dimensional context.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "KML was used alongside shapefiles, geodatabases, spatial databases and other data structures. It was usually a poor choice for maintaining complex authoritative datasets. Its strength was distribution. A KML file could carry enough geography and description to communicate a result, mark locations or publish an overlay without requiring the recipient to reproduce the author's GIS environment.",
+      "markdown": "KML was used alongside shapefiles, geodatabases, spatial databases and other data structures. It was usually a poor choice for maintaining complex authoritative datasets. Its strength was distribution. A KML file could carry enough geography and description to communicate a result, mark locations or publish an overlay without requiring the recipient to reproduce the author's GIS environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand agencies adopted that convenience in different ways. The Tourism New Zealand layer demonstrated a deliberately public version in 2007. LINZ later exposed geodetic marks in KML so they could be viewed against imagery and terrain in software such as Google Earth. Other public agencies and councils generated KML or KMZ from map services and data portals. During the Canterbury earthquake recovery, agencies used KML to exchange and publish geographic information.",
+      "markdown": "New Zealand agencies adopted that convenience in different ways. The Tourism New Zealand layer demonstrated a deliberately public version in 2007. LINZ later exposed geodetic marks in KML so they could be viewed against imagery and terrain in software such as Google Earth. Other public agencies and councils generated KML or KMZ from map services and data portals. During the Canterbury earthquake recovery, agencies used KML to exchange and publish geographic information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "KML also helped blur the boundary between making a map and sharing geographic data. The recipient could inspect, navigate and reuse the shared geographic content. They could switch other layers on and off, zoom to a location, inspect attributes and combine the overlay with the wider Google Earth environment. That was modest compared with a full GIS, but it was enough for many communication tasks.",
+      "markdown": "KML also helped blur the boundary between making a map and sharing geographic data. The recipient could inspect, navigate and reuse the shared geographic content. They could switch other layers on and off, zoom to a location, inspect attributes and combine the overlay with the wider Google Earth environment. That was modest compared with a full GIS, but it was enough for many communication tasks.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

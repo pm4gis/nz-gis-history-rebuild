@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-7-b2151b9956",
+  "slug": "the-gis-version-b2151b9956",
+  "articleId": "article:chapter-7",
+  "title": "The GIS version",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The first-edition NZLRI worksheets were digitised between 1977 and 1980, and the database was managed through the LADEDA environment before moving into ARC/INFO in the late 1980s. Chapter 5 covered that conversion in detail. For users of land-resource information, the operational change was that the same mapped units could now be selected by their attributes and plotted in different combinations.",
+      "markdown": "The first-edition NZLRI worksheets were digitised between 1977 and 1980, and the database was managed through the LADEDA environment before moving into ARC/INFO in the late 1980s. Chapter 5 covered that conversion in detail. For users of land-resource information, the operational change was that the same mapped units could now be selected by their attributes and plotted in different combinations.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Rangitoto",
+      "caption": "Rangitoto. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "A request no longer had to begin with a cartographer manually compiling every relevant unit from several sheets. A database query could identify polygons sharing an erosion class, slope range, soil grouping or LUC category, subject to the coding available in the data. The resulting map could be produced for a planning or research task without altering the underlying national record.",
+      "markdown": "A request no longer had to begin with a cartographer manually compiling every relevant unit from several sheets. A database query could identify polygons sharing an erosion class, slope range, soil grouping or LUC category, subject to the coding available in the data. The resulting map could be produced for a planning or research task without altering the underlying national record.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The digital database also separated the inventory from its standard printed presentation. One worksheet displayed a particular set of symbols and labels because paper space was limited. In GIS the user could emphasise one attribute and suppress another, combine the polygons with administrative boundaries or compare them with other spatial datasets. The national land-resource units became inputs to other analyses rather than remaining only the content of the original worksheet series.",
+      "markdown": "The digital database also separated the inventory from its standard printed presentation. One worksheet displayed a particular set of symbols and labels because paper space was limited. In GIS the user could emphasise one attribute and suppress another, combine the polygons with administrative boundaries or compare them with other spatial datasets. The national land-resource units became inputs to other analyses rather than remaining only the content of the original worksheet series.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "None of this changed the origin of the polygons. A query could retrieve every unit coded with a particular erosion limitation very quickly, but the answer still depended on field mapping and classification carried out years earlier. A clean thematic plot could make the selection look current even when the underlying observation was not. As GIS made reuse easier, the age and provenance of the data became more relevant rather than less.",
+      "markdown": "None of this changed the origin of the polygons. A query could retrieve every unit coded with a particular erosion limitation very quickly, but the answer still depended on field mapping and classification carried out years earlier. A clean thematic plot could make the selection look current even when the underlying observation was not. As GIS made reuse easier, the age and provenance of the data became more relevant rather than less.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

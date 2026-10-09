@@ -1,0 +1,57 @@
+{
+  "id": "passage:chapter-15-6ca71b18e1",
+  "slug": "the-topo50-release-6ca71b18e1",
+  "articleId": "article:chapter-15",
+  "title": "The Topo50 release",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:15"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Topo50 was released nationally on 23 September 2009. The launch brought several long-running changes together in one visible event. The 451 1:50,000 sheets were released as a complete series, the old NZMS260 series was withdrawn, and emergency-service systems were shifted to the new framework. The maps used NZGD2000 and NZTM2000, and LINZ presented their compatibility with modern GPS and international mapping practice as a major practical improvement.",
+      "markdown": "Topo50 was released nationally on 23 September 2009. The launch brought several long-running changes together in one visible event. The 451 1:50,000 sheets were released as a complete series, the old NZMS260 series was withdrawn, and emergency-service systems were shifted to the new framework. The maps used NZGD2000 and NZTM2000, and LINZ presented their compatibility with modern GPS and international mapping practice as a major practical improvement.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The physical maps were only half the release. TIFF and GeoTIFF images of all 451 Topo50 sheets were made available as free downloads, alongside digital topographic information that could be incorporated directly into GIS and other applications. The same national programme could therefore serve a tramper buying a printed sheet, an emergency service loading a map into an operational system and a GIS analyst who wanted the underlying digital information. Topography was no longer bound to one delivery form.",
+      "markdown": "The physical maps were only half the release. TIFF and GeoTIFF images of all 451 Topo50 sheets were made available as free downloads, alongside digital topographic information that could be incorporated directly into GIS and other applications. The same national programme could therefore serve a tramper buying a printed sheet, an emergency service loading a map into an operational system and a GIS analyst who wanted the underlying digital information. Topography was no longer bound to one delivery form.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The production system behind those outputs had also changed. The 2009 technical paper describes a maintained national topographic database as the single source for the new maps. Cartographic rules generated most of the portrayal automatically, while operators intervened for difficult cases and text placement. Sheet-specific information such as marginalia and grid-reference examples could be assembled from definition files. The same workflow could produce PostScript, PDF, TIFF and GeoTIFF outputs, with map-generation times measured in minutes rather than months of manual compilation.",
+      "markdown": "The production system behind those outputs had also changed. The 2009 technical paper describes a maintained national topographic database as the single source for the new maps. Cartographic rules generated most of the portrayal automatically, while operators intervened for difficult cases and text placement. Sheet-specific information such as marginalia and grid-reference examples could be assembled from definition files. The same workflow could produce PostScript, PDF, TIFF and GeoTIFF outputs, with map-generation times measured in minutes rather than months of manual compilation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Printed sheets continued to be produced using automated processes. A paper map works without batteries, network coverage, software licences or a functioning server. It can be carried into the bush, spread across a table and annotated with a pencil. Emergency organisations continued to value nationally standardised printed mapping even as their GIS systems adopted the digital series. Paper maps remained in use after digital production was introduced. The database became the maintained source, and paper became one of several outputs generated from it.",
+      "markdown": "Printed sheets continued to be produced using automated processes. A paper map works without batteries, network coverage, software licences or a functioning server. It can be carried into the bush, spread across a table and annotated with a pencil. Emergency organisations continued to value nationally standardised printed mapping even as their GIS systems adopted the digital series. Paper maps remained in use after digital production was introduced. The database became the maintained source, and paper became one of several outputs generated from it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The redesign created a large one-off cartographic job even though the source was digital. The 2009 technical paper describes automatic rules handling most feature portrayal, but text placement still required concentrated human work. Five cartographers worked through conflicts using raster versions of the old maps as one reference, moving labels and resolving cases that the automated process could not settle satisfactorily. Once those exceptions were stored, later production could reuse the result. Automation shifted effort toward designing rules and resolving exceptions rather than eliminating the initial labour.",
+      "markdown": "The redesign created a large one-off cartographic job even though the source was digital. The 2009 technical paper describes automatic rules handling most feature portrayal, but text placement still required concentrated human work. Five cartographers worked through conflicts using raster versions of the old maps as one reference, moving labels and resolving cases that the automated process could not settle satisfactorily. Once those exceptions were stored, later production could reuse the result. Automation shifted effort toward designing rules and resolving exceptions rather than eliminating the initial labour.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Sheet marginalia became data-driven as well. Grid-reference examples, magnetic information, edition data and sheet-specific details could be held in definition files and inserted during production. Relief shading could be added from a separate raster source as part of the printing process. The map was increasingly assembled from controlled components rather than built as one indivisible graphic object.",
+      "markdown": "Sheet marginalia became data-driven as well. Grid-reference examples, magnetic information, edition data and sheet-specific details could be held in definition files and inserted during production. Relief shading could be added from a separate raster source as part of the printing process. The map was increasingly assembled from controlled components rather than built as one indivisible graphic object.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The change also reduced the delay between database maintenance and new cartographic output. A feature could be corrected in the maintained source and carried into regenerated products without reconstructing an entire sheet by hand. The 2009 project described map-generation times of roughly ten to fifteen minutes for production files once the data and rules were ready. That did not mean a newly observed road reached a finished map in fifteen minutes. Verification, editing and quality assurance still came first. The speed applied to generating the cartographic product from an accepted database state.",
+      "markdown": "The change also reduced the delay between database maintenance and new cartographic output. A feature could be corrected in the maintained source and carried into regenerated products without reconstructing an entire sheet by hand. The 2009 project described map-generation times of roughly ten to fifteen minutes for production files once the data and rules were ready. That did not mean a newly observed road reached a finished map in fifteen minutes. Verification, editing and quality assurance still came first. The speed applied to generating the cartographic product from an accepted database state.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

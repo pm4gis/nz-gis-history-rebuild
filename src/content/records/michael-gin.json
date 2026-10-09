@@ -1,0 +1,47 @@
+{
+  "id": "person:michael-gin",
+  "slug": "michael-gin",
+  "name": "Michael Gin",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/michael-gin/",
+  "story": [
+    "Michael Gin worked in Auckland Council’s geospatial team during the GFMO and GeoMaps programme and is shown in GBS material with the team’s Esri Special Achievement in GIS award. He later joined Geographic Business Solutions as Solutions Manager after more than fifteen years in geospatial work, including substantial local-government experience."
+  ],
+  "sources": [
+    {
+      "label": "GBS, Auckland Council GeoMaps case study",
+      "url": "https://gbs.kiwi/case_studies/ac-geomaps/"
+    },
+    {
+      "label": "GBS, New staff: Michael Gin",
+      "url": "https://gbs.kiwi/new-staff-michael-gin/"
+    },
+    {
+      "label": "GBS, GeoMaps 2015 case study",
+      "url": "https://gbs.kiwi/wp-content/uploads/2016/08/GBS-GeoMaps-2015-web.pdf"
+    }
+  ],
+  "aliases": [
+    "Michael Gin"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "GBS, Auckland Council GeoMaps case study",
+        "url": "https://gbs.kiwi/case_studies/ac-geomaps/"
+      },
+      {
+        "label": "GBS, New staff: Michael Gin",
+        "url": "https://gbs.kiwi/new-staff-michael-gin/"
+      },
+      {
+        "label": "GBS, GeoMaps 2015 case study",
+        "url": "https://gbs.kiwi/wp-content/uploads/2016/08/GBS-GeoMaps-2015-web.pdf"
+      }
+    ]
+  ]
+}

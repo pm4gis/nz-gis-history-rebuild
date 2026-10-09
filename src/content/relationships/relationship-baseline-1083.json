@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1083",
+  "a": "person:m-j-mcdonnell",
+  "b": "entity:dsir-physics-and-engineering-laboratory",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

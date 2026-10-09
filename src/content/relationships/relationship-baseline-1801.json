@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1801",
+  "a": "person:bruce-mclennan",
+  "b": "chapter:9",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-9-f5818ca326"
+  ],
+  "sources": []
+}

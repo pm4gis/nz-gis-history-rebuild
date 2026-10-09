@@ -1,0 +1,16 @@
+{
+  "id": "chapter:36",
+  "articleId": "article:chapter-36",
+  "slug": "earth-observation-becomes-routine",
+  "name": "Satellite observations",
+  "kind": "Story",
+  "category": "Capturing the landscape",
+  "url": "/stories/earth-observation-becomes-routine/",
+  "description": "In October 1975 a New Zealand Landsat II scene entered a computing world that looked nothing like modern GIS. The DSIR Physics and Engineering Laboratory programme handled satellite data through computer-compatible tapes, IBM mainframe processing, minicomputers and programs written in PL/I. Images had to be rectified, classified and interpreted by specialists who understood both the sensor and the limitations of the ",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "imagery"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "person:heath-rongo",
+  "slug": "heath-rongo",
+  "name": "Heath Rongo",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/heath-rongo/",
+  "story": [
+    "Heath Rongo's computing career included computer repair, desktop support, network administration and software development before his specialised GIS work. GBS's 2018 biography described more than twenty years in IT, over half of that in GIS. His work focused on GIS software development, design and implementation using Esri technology. Outside his technical work, he ran a taiko drumming school and taught and performed.",
+    "Heath Rongo joined GBS in 2012.",
+    "GBS’s company history describes Lisa Read’s work on development and processes, Shane Pienaar’s technical direction, and David Aalbers and Heath Rongo joining in 2011 and 2012."
+  ],
+  "sources": [
+    {
+      "label": "GBS retrospective, 2022",
+      "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+    },
+    {
+      "label": "Heath Rongo · career/profile reference",
+      "url": "https://gbs.kiwi/our_team/heath-rongo/"
+    },
+    {
+      "label": "Chapter 12 · Company staff",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Heath Rongo"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Heath Rongo · career/profile reference",
+        "url": "https://gbs.kiwi/our_team/heath-rongo/"
+      }
+    ],
+    [
+      {
+        "label": "GBS retrospective, 2022",
+        "url": "https://gbs.kiwi/20-years-of-gbs-a-short-history/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Company staff",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

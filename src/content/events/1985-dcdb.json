@@ -1,0 +1,26 @@
+{
+  "id": "1985-dcdb",
+  "dateDisplay": "1985 to 1986",
+  "startDate": "1985",
+  "endDate": "1986",
+  "datePrecision": "year-range",
+  "year": 1985,
+  "label": "National cadastral digitisation moves into the DCDB programme",
+  "summary": "Cadastral record maps began being converted into the Digital Cadastral Database during the mid-1980s.",
+  "url": "/stories/the-cadastre-becomes-data/#a-national-conversion-job-7ee8b0bc4d",
+  "passageIds": [
+    "passage:chapter-13-7ee8b0bc4d"
+  ],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "themeIds": [
+    "cadastre"
+  ],
+  "categories": [
+    "cadastral",
+    "database",
+    "government"
+  ],
+  "sources": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "article:chapter-22",
+  "slug": "gis-comes-to-the-desktop",
+  "title": "Desktop GIS",
+  "url": "/stories/gis-comes-to-the-desktop/",
+  "summary": "In the late 1980s a New Zealand organisation that used GIS could still have a fairly literal GIS room. A GIS installation could be somewhere you walked into, because the room contained a fair portion of the system. The more capabl",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 22,
+  "themeIds": [
+    "technology-stack"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch22-note-01",
+      "text": "1. The workstation-to-desktop setting is supported by the documented Water and Soil migration of NZLRI/LADEDA to ARC/INFO in 1988 and University of Canterbury ARC/INFO and ERDAS workstation capability by 1989. These cases establish the specialist commercial-GIS environment and are not used as national first claims."
+    },
+    {
+      "id": "ch22-note-02",
+      "text": "2. The Ministry of Forestry East Coast programme case is supported by the August 1995 New Zealand Forestry article describing MapInfo use in Gisborne. It records mapping, grant tabulation, planted areas, reserves, land use and calculation of eligible hectares, with more than 16,000 hectares monitored. Randolph Hambling is identified as project manager and Critchlow Associates as the Wellington-based MapInfo master agent. The chapter does not claim this was New Zealand’s first MapInfo deployment."
+    },
+    {
+      "id": "ch22-note-03",
+      "text": "3. The Treasury desktop-analysis example is supported by Suzi Kerr and Jason Timmins, Treasury Working Paper 00/11. The paper states that Critchlow Associates supplied Census96 data and ArcView and describes boundaries and census tables at meshblock, area unit, territorial authority and regional council levels. Chapter 22 uses this only as evidence of prepared national data reaching an analyst’s desktop; Chapter 24 discusses the fuller government-policy case."
+    },
+    {
+      "id": "ch22-note-04",
+      "text": "4. TerraView is supported by the 2001 National Library catalogue record describing Terralink NZ’s Windows CD-ROM GIS/data product using LINZ DCDB-derived cadastral information and associated land records. The catalogue supplies the period PC requirements used in the chapter."
+    },
+    {
+      "id": "ch22-note-05",
+      "text": "5. QuickMap Professional is supported by the National Library record from 2002 for Wellington-based Custom Software Ltd. The record documents cadastral, title, owner and geographic data, accompanying aerial-photograph CD-ROMs and period Windows hardware requirements. It is not presented as New Zealand’s first desktop GIS."
+    },
+    {
+      "id": "ch22-note-06",
+      "text": "6. The 2004 study The Benefits and Barriers to GIS for Māori supports the sampled presence of ArcView/ArcGIS, MapInfo and GeoMedia, the local supplier identities used in the chapter and the quoted November 2004 licence and maintenance figures. These figures are period observations from that study, not official national tariffs or market-share statistics."
+    },
+    {
+      "id": "ch22-note-07",
+      "text": "7. Statistics New Zealand distribution records support the statement that by 2007 digital geographic boundaries were available in Esri shapefile and MapInfo formats. This is evidence of routine desktop exchange targets, not a claim that these were the only supported formats."
+    }
+  ]
+}

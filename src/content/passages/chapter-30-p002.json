@@ -1,0 +1,63 @@
+{
+  "id": "passage:chapter-30-1ac44c5733",
+  "slug": "guild-on-the-web-1996-1ac44c5733",
+  "articleId": "article:chapter-30",
+  "title": "GUILD-on-the-Web, 1996",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30",
+    "entity:university-of-otago",
+    "person:r-g-gibb",
+    "person:david-medyckyj-scott"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Landcare Research was delivering environmental spatial data through the web by January 1996. GUILD-on-the-Web was developed under Robert Gibb’s leadership, with David Medyckyj-Scott as a co-developer. Medyckyj-Scott’s published author biography dates its release to January 1996 and places it among the earliest online GIS services. Their 1996 paper described the application at the University of Otago’s Spatial Information Research Centre colloquium. GUILD gave public users a browser interface to environmental information held by the research organisation.",
+      "markdown": "Landcare Research was delivering environmental spatial data through the web by January 1996. GUILD-on-the-Web was developed under Robert Gibb’s leadership, with David Medyckyj-Scott as a co-developer. Medyckyj-Scott’s published author biography dates its release to January 1996 and places it among the earliest online GIS services. Their 1996 paper described the application at the University of Otago’s Spatial Information Research Centre colloquium. GUILD gave public users a browser interface to environmental information held by the research organisation.",
+      "sources": [
+        {
+          "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+          "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+        },
+        {
+          "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+          "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Medyckyj-Scott recalls GUILD as a possible first operational web service created specifically for public access to environmental spatial data. His 2016 paper with Andrew Cowie also described it as the first environmental-data web-mapping site. Those are participants’ assessments of its place internationally. The January 1996 release establishes an early New Zealand example before the health and council applications described later in this chapter. GUILD also provided a conceptual predecessor to Landcare Research’s later data portals and browser mapping services.",
+      "markdown": "Medyckyj-Scott recalls GUILD as a possible first operational web service created specifically for public access to environmental spatial data. His 2016 paper with Andrew Cowie also described it as the first environmental-data web-mapping site. Those are participants’ assessments of its place internationally. The January 1996 release establishes an early New Zealand example before the health and council applications described later in this chapter. GUILD also provided a conceptual predecessor to Landcare Research’s later data portals and browser mapping services.",
+      "sources": [
+        {
+          "label": "David Medyckyj-Scott and Andrew Cowie, Web Mapping and Scientific Data: The Experiences of Landcare Research, GeoCart 2016",
+          "url": "https://geocart.cartography.org.nz/2016/downloads/abstracts/2016-091_medyckyjscott-cowie.pdf"
+        },
+        {
+          "label": "D-Lib Magazine, David Medyckyj-Scott author biography, May 2004: GUILD released January 1996",
+          "url": "https://www.dlib.org/dlib/may04/authors/05authors.html"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The experience travelled with Medyckyj-Scott to the United Kingdom. He joined the University of Edinburgh’s Data Library in 1997 and led work on Digimap, which became an EDINA service for higher education. After trials in six university map collections, Digimap launched on 10 January 2000, providing Ordnance Survey maps and downloadable digital data. Medyckyj-Scott identifies GUILD as the conceptual background for that work. He recalls Digimap reaching hundreds of universities and about 100,000 registered users by his departure in 2010.",
+      "markdown": "The experience travelled with Medyckyj-Scott to the United Kingdom. He joined the University of Edinburgh’s Data Library in 1997 and led work on Digimap, which became an EDINA service for higher education. After trials in six university map collections, Digimap launched on 10 January 2000, providing Ordnance Survey maps and downloadable digital data. Medyckyj-Scott identifies GUILD as the conceptual background for that work. He recalls Digimap reaching hundreds of universities and about 100,000 registered users by his departure in 2010.",
+      "sources": [
+        {
+          "label": "UKOLN, JISC-CNI 2000 speaker biography: David Medyckyj-Scott",
+          "url": "https://www.ukoln.ac.uk/events/jisc-cni-2000/presentations/jisc_biographies.html"
+        },
+        {
+          "label": "Morris, Medyckyj-Scott and Burnhill, EDINA Digimap, LIBER Quarterly 10(4), 2000, DOI 10.18352/lq.7615",
+          "url": "https://liberquarterly.eu/article/view/10218"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

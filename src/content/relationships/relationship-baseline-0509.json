@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0509",
+  "a": "person:mary-mcewen",
+  "b": "chapter:9",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-9-68517bbc35"
+  ],
+  "sources": []
+}

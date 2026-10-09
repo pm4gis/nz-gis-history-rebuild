@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-44-0c663d2b52",
+  "slug": "31-december-2025-0c663d2b52",
+  "articleId": "article:chapter-44",
+  "title": "31 December 2025",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:44"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "At the end of 2025, New Zealand organisations used a range of platforms and working methods. The country had national spatial databases descended from earlier digitisation programmes, modern coordinate infrastructure, open data services, cloud-hosted applications, mobile capture, routinely available imagery, LiDAR and 3D data, enterprise GIS, automated pipelines and a growing body of machine-learning and multimodal research. Paper maps still existed. Desktop GIS still existed. So did specialised survey systems, spreadsheets, databases and all the awkward interfaces between them.",
+      "markdown": "At the end of 2025, New Zealand organisations used a range of platforms and working methods. The country had national spatial databases descended from earlier digitisation programmes, modern coordinate infrastructure, open data services, cloud-hosted applications, mobile capture, routinely available imagery, LiDAR and 3D data, enterprise GIS, automated pipelines and a growing body of machine-learning and multimodal research. Paper maps still existed. Desktop GIS still existed. So did specialised survey systems, spreadsheets, databases and all the awkward interfaces between them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Organisations began using artificial intelligence alongside their existing GIS methods. Rule-based AI had appeared alongside GIS in the 1980s. Machine learning became useful for prediction and image classification over the following decades. Deep learning could assist a national land-use production workflow by the early 2020s. In 2025 New Zealand researchers were testing automatic historical-map georeferencing and large multimodal models that could combine maps with written locality descriptions, while practitioners were beginning to present AI-assisted spatial reporting and coding workflows in mainstream geospatial forums.",
+      "markdown": "Organisations began using artificial intelligence alongside their existing GIS methods. Rule-based AI had appeared alongside GIS in the 1980s. Machine learning became useful for prediction and image classification over the following decades. Deep learning could assist a national land-use production workflow by the early 2020s. In 2025 New Zealand researchers were testing automatic historical-map georeferencing and large multimodal models that could combine maps with written locality descriptions, while practitioners were beginning to present AI-assisted spatial reporting and coding workflows in mainstream geospatial forums.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 31 December 2025, research prototypes, coding assistants and multimodal map-reading models were still evolving. Research prototypes might become production services or disappear. Coding assistants might become ordinary infrastructure or be absorbed into other tools until the label became uninteresting. Models might improve at reading maps while continuing to fail in ways that require specialised checking. Practitioners had to evaluate those changing tools while maintaining established GIS systems.",
+      "markdown": "By 31 December 2025, research prototypes, coding assistants and multimodal map-reading models were still evolving. Research prototypes might become production services or disappear. Coding assistants might become ordinary infrastructure or be absorbed into other tools until the label became uninteresting. Models might improve at reading maps while continuing to fail in ways that require specialised checking. Practitioners had to evaluate those changing tools while maintaining established GIS systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Paper maps persisted alongside digital databases. Specialist systems persisted alongside desktop GIS. Desktop software persisted alongside web mapping. Commercial platforms persisted alongside open source. Offices and practitioners persisted through mobile GIS and automation. By the end of 2025 AI had begun changing how some geographic work could be classified, interpreted, programmed and delivered. The map remained one visible part of a much larger information system, and someone still had to know whether it was right.",
+      "markdown": "Paper maps persisted alongside digital databases. Specialist systems persisted alongside desktop GIS. Desktop software persisted alongside web mapping. Commercial platforms persisted alongside open source. Offices and practitioners persisted through mobile GIS and automation. By the end of 2025 AI had begun changing how some geographic work could be classified, interpreted, programmed and delivered. The map remained one visible part of a much larger information system, and someone still had to know whether it was right.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "imageId": "image:linz-otago",
+      "alt": "LINZ imagery: Otago",
+      "caption": "Otago. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2382",
+  "a": "person:jonathan-hanson",
+  "b": "chapter:35",
+  "label": "Discussed in chapter",
+  "basis": "LINZ geospatial capability research, 6 October 2026",
+  "passageIds": [],
+  "sources": []
+}

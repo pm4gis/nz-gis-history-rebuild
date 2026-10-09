@@ -1,0 +1,25 @@
+{
+  "id": "entity:trade-me",
+  "slug": "trade-me",
+  "name": "Trade Me",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/trade-me/",
+  "website": null,
+  "story": [
+    "Trade Me contributed web-development capacity to Canterbury’s earthquake recovery. CERA’s September 2011 announcement records the public Landcheck service being built in four days at no cost. The service let people look up land information during a period of rapidly changing decisions and considerable public demand. It is a case where an established web company helped deliver a geographic service outside the usual GIS-vendor structure."
+  ],
+  "sources": [
+    {
+      "label": "CERA media release, Landcheck site notches up ten million hits",
+      "url": "https://www.dpmc.govt.nz/sites/default/files/2024-04/landcheck-site-notches-up-ten-million-hits-16-september-2011.pdf"
+    }
+  ],
+  "aliases": [
+    "Trade Me"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

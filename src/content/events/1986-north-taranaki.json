@@ -1,0 +1,27 @@
+{
+  "id": "1986-north-taranaki",
+  "dateDisplay": "1986",
+  "startDate": "1986",
+  "datePrecision": "year",
+  "year": 1986,
+  "label": "North Taranaki GIS work demonstrates the emerging field",
+  "summary": "The North Taranaki case sits among the early New Zealand examples of work being described and organised as GIS.",
+  "url": "/stories/when-gis-became-gis/#north-taranaki-1986-864f71f48e",
+  "passageIds": [
+    "passage:chapter-6-864f71f48e"
+  ],
+  "recordIds": [
+    "chapter:6",
+    "entity:department-of-conservation",
+    "person:mary-mcewen"
+  ],
+  "themeIds": [
+    "local-government",
+    "women-in-gis"
+  ],
+  "categories": [
+    "local-government",
+    "gis"
+  ],
+  "sources": []
+}

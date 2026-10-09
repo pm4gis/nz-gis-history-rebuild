@@ -1,0 +1,55 @@
+{
+  "id": "passage:chapter-37-a6aa735b22",
+  "slug": "christchurch-july-2003-a6aa735b22",
+  "articleId": "article:chapter-37",
+  "title": "Christchurch, July 2003",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37",
+    "entity:christchurch-city-council",
+    "person:andrew-steffert",
+    "person:carl-johnson",
+    "person:terry-van-kalken"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For four days in July 2003, an aircraft crossed Christchurch and part of the adjoining Waimakariri River corridor carrying a laser scanner. Christchurch City Council commissioned the survey, flown by AAM GeoScan from 6 to 9 July. The scanner measured elevation through airborne laser returns, which were processed into a digital model of the ground and objects above it. The survey provides a detailed New Zealand operational example of airborne LiDAR in 2003.",
+      "markdown": "For four days in July 2003, an aircraft crossed Christchurch and part of the adjoining Waimakariri River corridor carrying a laser scanner. Christchurch City Council commissioned the survey, flown by AAM GeoScan from 6 to 9 July. The scanner measured elevation through airborne laser returns, which were processed into a digital model of the ground and objects above it. The survey provides a detailed New Zealand operational example of airborne LiDAR in 2003.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The aircraft position was controlled using GPS, and ground checks assessed the survey. The laser returns were classified into ground and non-ground points. Staff reviewed and corrected algorithmic classifications against intensity information before generating the terrain products. Coordinates were transformed into the client’s mapping system, and local height control set the vertical reference. The delivered model was the end of an acquisition and processing chain, rather than a raw stream of laser pulses.",
+      "markdown": "The aircraft position was controlled using GPS, and ground checks assessed the survey. The laser returns were classified into ground and non-ground points. Staff reviewed and corrected algorithmic classifications against intensity information before generating the terrain products. Coordinates were transformed into the client’s mapping system, and local height control set the vertical reference. The delivered model was the end of an acquisition and processing chain, rather than a raw stream of laser pulses.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A point cloud can look almost photographic when displayed in three dimensions, but it is a set of measured returns with positions and heights. To produce a bare-earth model, software and people have to decide which returns represent the ground and which belong to vegetation, buildings or other objects. Interpolation, thinning, editing and gridding then turn selected points into a surface that ordinary GIS software can use. The apparently simple hillshade or digital elevation model on screen can conceal a considerable amount of judgement. LiDAR made terrain far more measurable, but it did not remove the need to understand how the terrain model was made.",
+      "markdown": "A point cloud can look almost photographic when displayed in three dimensions, but it is a set of measured returns with positions and heights. To produce a bare-earth model, software and people have to decide which returns represent the ground and which belong to vegetation, buildings or other objects. Interpolation, thinning, editing and gridding then turn selected points into a surface that ordinary GIS software can use. The apparently simple hillshade or digital elevation model on screen can conceal a considerable amount of judgement. LiDAR made terrain far more measurable, but it did not remove the need to understand how the terrain model was made.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Andrew Steffert’s 2012 account explains the development of the Horizons Flood Plain Mapping Project following the February 2004 floods. The first LiDAR survey covered about 1,200 square kilometres in 2005, with later work extending the coverage. DHI’s Terry van Kalken and Carl Johnson prepared the 2006–07 modelling and mapping report. Elevation information was combined with gauging records, hydrographs, photographs and observed flood extents to calibrate hydraulic models and map scenarios including 1-in-50, 1-in-100 and 1-in-200 events. The outputs supported evacuation planning, stopbank works and land-use decisions. The elevation data also found uses in drainage, soil and land-use capability assessment, coastal hazards, transport and erosion work. The people named in the later reports documented those stages; the original 2005 commissioning team remains to be identified.",
+      "sources": [
+        {
+          "label": "Archives Central, Horizons Regional Council reports and project records relating to the 2004 flood and subsequent floodplain mapping/LiDAR",
+          "url": "https://archivescentral.org.nz/horizons-regional-council/recordset/horizons-regional-council-reports-no-numbering?order=field_has_beginning_date&page=0&sort=asc"
+        },
+        {
+          "label": "Archives Central, Flood Plain Hazard Assessment Hydraulic Modelling and Mapping - Mangaone Stream and Taonui Basin and Manawatu Breach, HRC 00460:2:54",
+          "url": "https://archivescentral.org.nz/horizons-regional-council/record/flood-plain-hazard-assessment-hydraulic-modelling-and-mapping"
+        },
+        {
+          "label": "Andrew Steffert, Horizons Regional Council Flood Plain Mapping Project and LiDAR Overview, 8th ICA Mountain Cartography Workshop",
+          "url": "https://mountaincartography.icaci.org/publications/papers/papers_taurewa_12/papers/mcw2012_sec5_ch18_p119-120_steffert.pdf"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-31-5a0505090d",
+  "slug": "google-maps-lands-in-new-zealand-5a0505090d",
+  "articleId": "article:chapter-31",
+  "title": "Google Maps lands in New Zealand",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "On 12 December 2007 Google announced the full launch of Google Maps in New Zealand. The localised service brought together New Zealand addresses, local search, driving directions, imagery, user-created maps and mobile use in a single public environment. A broad New Zealand consumer audience could now use those functions without arriving through the website of a council, government department or specialist mapping company.",
+      "markdown": "On 12 December 2007 Google announced the full launch of Google Maps in New Zealand. The localised service brought together New Zealand addresses, local search, driving directions, imagery, user-created maps and mobile use in a single public environment. A broad New Zealand consumer audience could now use those functions without arriving through the website of a council, government department or specialist mapping company.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The date is a better historical marker than the global release of Google Maps because it captures the point at which the service became deliberately New Zealand-specific. A person could search a local street or business, find a route between places and move between conventional mapping and imagery using a familiar global interface. The map appeared within the service people were already using. It was part of search and ordinary web use.",
+      "markdown": "The date is a better historical marker than the global release of Google Maps because it captures the point at which the service became deliberately New Zealand-specific. A person could search a local street or business, find a route between places and move between conventional mapping and imagery using a familiar global interface. The map appeared within the service people were already using. It was part of search and ordinary web use.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also changed the meaning of a national map audience. Earlier public digital mapping had tended to be organised around information held by a particular institution. The council knew about properties. Statistics New Zealand knew about census geography. DOC knew about conservation land. Google organised the experience around the user instead. The starting point could be an address, a business, a journey or simply a place the user wanted to see.",
+      "markdown": "This also changed the meaning of a national map audience. Earlier public digital mapping had tended to be organised around information held by a particular institution. The council knew about properties. Statistics New Zealand knew about census geography. DOC knew about conservation land. Google organised the experience around the user instead. The starting point could be an address, a business, a journey or simply a place the user wanted to see.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That shift sounds obvious now because it became normal. At the time, it rearranged the relationship between the map and the organisation that supplied information. People increasingly expected to begin with a general-purpose map and then add context, rather than begin with an agency and discover whether it happened to provide a map.",
+      "markdown": "That shift sounds obvious now because it became normal. At the time, it rearranged the relationship between the map and the organisation that supplied information. People increasingly expected to begin with a general-purpose map and then add context, rather than begin with an agency and discover whether it happened to provide a map.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

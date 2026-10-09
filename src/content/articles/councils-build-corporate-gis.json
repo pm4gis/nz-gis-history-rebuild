@@ -1,0 +1,60 @@
+{
+  "id": "article:chapter-23",
+  "slug": "councils-build-corporate-gis",
+  "title": "Council GIS",
+  "url": "/stories/councils-build-corporate-gis/",
+  "summary": "On 1 November 1989 New Zealand’s local-government map changed abruptly. Hundreds of local bodies, including cities, boroughs, counties, catchment boards and other authorities, were reorganised into 86 regional and territorial auth",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 23,
+  "themeIds": [
+    "local-government"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch23-note-01",
+      "text": "1. The institutional reset is supported by official local-government history for the 1 November 1989 reorganisation. The chapter uses restructuring as context and does not claim it caused GIS adoption."
+    },
+    {
+      "id": "ch23-note-02",
+      "text": "2. The Resource Management Act 1991 date and commencement are drawn from the legislation. The chapter treats the Act as one source of demand for integrated land, planning, regulatory and environmental information and does not state that it mandated GIS."
+    },
+    {
+      "id": "ch23-note-03",
+      "text": "3. Andrew Marr and George Benwell’s GIS maturity and integration research is the principal national adoption evidence. Their survey reported a 74.4 per cent response rate and GIS in 70 per cent of responding organisations, with most implementations occurring during the previous three years and some predating 1988. The 70 per cent figure remains explicitly a percentage of respondents."
+    },
+    {
+      "id": "ch23-note-04",
+      "text": "4. Marr and Benwell also support the organisational interpretation of corporate GIS, including their measures of number of uses, departments and implementation age, and the increasing role of information-services departments in managing GIS as a corporate resource. Their maturity model is research, not an official standard."
+    },
+    {
+      "id": "ch23-note-05",
+      "text": "5. Charles A. Hansen’s 1995 Esri user-conference paper is used as contemporary evidence linking ArcInfo use in councils with infrastructural-asset valuation. Its statement that ArcInfo was used by more than half of New Zealand cities and district councils is treated as a contemporary conference/vendor statement rather than independent market-share research."
+    },
+    {
+      "id": "ch23-note-06",
+      "text": "6. Office of the Auditor-General reporting supports the broader asset-management setting: councils collecting infrastructural-asset information, developing asset-management plans, valuing assets and linking this material with financial and long-term planning requirements."
+    },
+    {
+      "id": "ch23-note-07",
+      "text": "7. Auckland cross-council coordination is supported by the documented collaboration of eight territorial authorities and the Auckland Regional Council from 1999, despite different GIS platforms, and the GIS/standards work that produced the Auckland Area Orthophotography Standard finalised in February 2003. Chapter 20 retains the orthophotography history; Chapter 23 uses this only as corporate coordination evidence."
+    },
+    {
+      "id": "ch23-note-08",
+      "text": "8. Upper Hutt City Council’s XPLORER case is supported by the e-government record documenting online property information from February 2003, property/rates information, values, aerial photography, approximately 26,000 map downloads per month and reduced in-person enquiries. Later 2013 material is used only for the functionality documented at that later date. XPLORER is not called New Zealand’s first public web GIS."
+    },
+    {
+      "id": "ch23-note-09",
+      "text": "9. Archives Central’s Palmerston North record set PNCC 00086 supports the bounded archival statement that council map records from approximately 1990–2005 included City Corporate, Future Planning, GIS and Civil Defence. No software or database architecture is inferred from the catalogue."
+    },
+    {
+      "id": "ch23-note-regional-land-resource-data-1993-1994",
+      "text": "Sources: Manaaki Whenua ICM, Garth Harmsworth bibliography: 1993 Bay of Plenty and 1994 Gisborne–East Cape GIS data reports (https://icm.landcareresearch.co.nz/about/people/garth_harmsworth.asp)."
+    },
+    {
+      "id": "ch23-note-wellington-hazard-data-1996-utilities",
+      "text": "Contemporary report, pp.1, 6–16. TECHBASE use does not establish New Zealand software authorship."
+    }
+  ]
+}

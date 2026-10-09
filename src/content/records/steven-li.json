@@ -1,0 +1,42 @@
+{
+  "id": "person:steven-li",
+  "slug": "steven-li",
+  "name": "Steven Li",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/steven-li/",
+  "story": [
+    "Steven Li authored the 2009 Massey University thesis on systems integration in a government agency whose named applications included DOCgis and Bioweb.",
+    "Steven Li’s 2009 Massey University thesis examined systems integration in a government agency whose named applications included DOCgis and Bioweb. The system descriptions identify the Department of Conservation context. The study describes the difficulty of keeping information consistent when business data was copied or reconciled between applications. Linking a spatial record to the operational database responsible for its attributes reduced the need for separate GIS copies, while creating dependencies on identifiers, interfaces and the availability of the other system."
+  ],
+  "sources": [
+    {
+      "label": "Steven Li, An investigation of system integrations and XML applications within a NZ government agency, Massey University thesis",
+      "url": "https://hdl.handle.net/10179/1627"
+    },
+    {
+      "label": "Chapter 40 · DOC builds a national platform",
+      "url": "/stories/enterprise-gis/"
+    }
+  ],
+  "aliases": [
+    "Steven Li"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Steven Li, An investigation of system integrations and XML applications within a NZ government agency, Massey University thesis",
+        "url": "https://hdl.handle.net/10179/1627"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 40 · DOC builds a national platform",
+        "url": "/stories/enterprise-gis/"
+      }
+    ]
+  ]
+}

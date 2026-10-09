@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-2-e0a704a66a",
+  "slug": "engineering-by-batch-e0a704a66a",
+  "articleId": "article:chapter-2",
+  "title": "Engineering by batch",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:2"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Ministry of Works became one of the important homes of technical computing in the public sector. Its engineering responsibilities created problems involving routes, terrain, structures, hydrology and earthworks, all of which could require large numerical calculations. Public-sector computing histories describe substantial technical use during the 1960s and early 1970s, including road and hydro-development work. The computer was attractive where several alternatives could be calculated more systematically than a team could manage manually.",
+      "markdown": "The Ministry of Works became one of the important homes of technical computing in the public sector. Its engineering responsibilities created problems involving routes, terrain, structures, hydrology and earthworks, all of which could require large numerical calculations. Public-sector computing histories describe substantial technical use during the 1960s and early 1970s, including road and hydro-development work. The computer was attractive where several alternatives could be calculated more systematically than a team could manage manually.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Route work illustrates the boundary between spatial calculation and GIS. An alignment can be represented by coordinates, gradients, curve parameters, terrain values and engineering constraints. Software can compare alternatives and calculate quantities without maintaining a reusable digital road network or landscape database. The problem is geographic, but the computer is solving a designed calculation rather than providing a general environment for geographic enquiry.",
+      "markdown": "Route work illustrates the boundary between spatial calculation and GIS. An alignment can be represented by coordinates, gradients, curve parameters, terrain values and engineering constraints. Software can compare alternatives and calculate quantities without maintaining a reusable digital road network or landscape database. The problem is geographic, but the computer is solving a designed calculation rather than providing a general environment for geographic enquiry.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Retrospective accounts describe Ministry of Works projects in which computers helped generate or compare route alternatives, including work associated with the Mangaweka road-rail deviation and Clutha Valley planning. Computers supported route planning and engineering decisions before general-purpose GIS arrived.",
+      "markdown": "Retrospective accounts describe Ministry of Works projects in which computers helped generate or compare route alternatives, including work associated with the Mangaweka road-rail deviation and Clutha Valley planning. Computers supported route planning and engineering decisions before general-purpose GIS arrived.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Terrain posed a related problem. Heights could be measured at surveyed positions and software could calculate profiles, volumes or interpolated surfaces between them. By the mid-1970s New Zealand technical publications included programs for producing contours from surveyed field data. Detailed automated contouring belongs in Chapter 3 because the output was moving into computer-assisted mapping, but the underlying calculation developed from the same earlier habit: represent position and height numerically, then let the machine repeat the mathematics.",
+      "markdown": "Terrain posed a related problem. Heights could be measured at surveyed positions and software could calculate profiles, volumes or interpolated surfaces between them. By the mid-1970s New Zealand technical publications included programs for producing contours from surveyed field data. Detailed automated contouring belongs in Chapter 3 because the output was moving into computer-assisted mapping, but the underlying calculation developed from the same earlier habit: represent position and height numerically, then let the machine repeat the mathematics.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

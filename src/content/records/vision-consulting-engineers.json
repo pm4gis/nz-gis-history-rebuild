@@ -1,0 +1,30 @@
+{
+  "id": "entity:vision-consulting-engineers",
+  "slug": "vision-consulting-engineers",
+  "name": "Vision Consulting Engineers",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/vision-consulting-engineers/",
+  "website": null,
+  "story": [
+    "Vision Consulting Engineers appears in the practitioner record through Logan Ashmore’s GIS analysis and machine-learning work. His 2019 presentation documented subdivision-susceptibility modelling, while later work connected GIS with Far North planning and reserves analysis."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    },
+    {
+      "label": "Far North District Council, Regional Liquefaction Vulnerability Assessment",
+      "url": "https://www.fndc.govt.nz/__data/assets/pdf_file/0017/28403/regional-liquefaction-vulnerability-assessment-far-north-district.pdf"
+    }
+  ],
+  "aliases": [
+    "Vision Consulting Engineers"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "article:chapter-36",
+  "slug": "earth-observation-becomes-routine",
+  "title": "Satellite observations",
+  "url": "/stories/earth-observation-becomes-routine/",
+  "summary": "In October 1975 a New Zealand Landsat II scene entered a computing world that looked nothing like modern GIS. The DSIR Physics and Engineering Laboratory programme handled satellite data through computer-compatible tapes, IBM main",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 36,
+  "themeIds": [
+    "imagery"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch36-note-01",
+      "text": "1. The chapter treats Landsat as a mature time series rather than retelling its early New Zealand arrival. The early Landsat, raster-processing and classification history remains in Chapter 4. Part VI evidence is used for routine repeated observation, operational monitoring and later multispectral/radar workflows."
+    },
+    {
+      "id": "ch36-note-02",
+      "text": "2. European Space Agency mission material supports Sentinel-1A launching on 3 April 2014 and its synthetic-aperture radar capability for day/night and all-weather observation. This is an international platform milestone and does not establish a New Zealand adoption date by itself."
+    },
+    {
+      "id": "ch36-note-03",
+      "text": "3. Sentinel and Landsat references in New Zealand environmental, land-cover, coastal and hazard work are supported by the existing Deep Research Pass 09 and chapter development evidence. The chapter distinguishes platform availability from documented New Zealand operational use."
+    },
+    {
+      "id": "ch36-note-04",
+      "text": "4. Land Cover Database chronology remains anchored in the existing project evidence: LCDB1 was completed in 2000 from 1996/97 SPOT imagery and LCDB2 released in July 2004 using summer 2001/02 Landsat 7 imagery with checking and correction. Later releases and monitoring illustrate continuity rather than a new origin story. The process must not be described as fully automatic classification."
+    },
+    {
+      "id": "ch36-note-05",
+      "text": "5. Machine-learning classification and automated feature extraction are mentioned only where needed to explain the later observation workflow. Their broader endpoint belongs in Chapter 44, and the chapter must not project 2026 investigations back into 2025."
+    },
+    {
+      "id": "ch36-note-06",
+      "text": "6. Disaster-related satellite imagery may appear as a technical example, but the Canterbury, Kaikōura and Cyclone Gabrielle operational sequence remains principally in Chapter 42."
+    }
+  ]
+}

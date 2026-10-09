@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-1637",
+  "a": "person:garth-harmsworth",
+  "b": "chapter:23",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-23-e6274a0794",
+    "passage:chapter-23-adbd4f0f56"
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "1993-smallworld-australasian-operation",
+  "dateDisplay": "1993",
+  "startDate": "1993",
+  "datePrecision": "year",
+  "year": 1993,
+  "label": "Smallworld Australasian operation established",
+  "summary": "Bundock’s biography dates the regional operation, without identifying a first New Zealand installation.",
+  "url": "/stories/mapping-the-networks/#smallworld-at-vector-b61cdf1186",
+  "passageIds": [
+    "passage:chapter-25-b61cdf1186"
+  ],
+  "recordIds": [
+    "person:mike-bundock",
+    "entity:smallworld-ge-smallworld",
+    "chapter:25",
+    "entity:vector"
+  ],
+  "themeIds": [],
+  "categories": [
+    "GIS",
+    "utilities",
+    "research"
+  ],
+  "sources": [
+    {
+      "label": "Augview, Mike Bundock management biography: Smallworld UK and Australasian operation, 1990–2000",
+      "url": "https://www.augview.net/company/"
+    }
+  ]
+}

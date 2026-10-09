@@ -1,0 +1,133 @@
+{
+  "id": "passage:chapter-23-bef81bd90d",
+  "slug": "the-parcel-becomes-a-key-bef81bd90d",
+  "articleId": "article:chapter-23",
+  "title": "The parcel becomes a key",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "entity:canterbury-regional-council-environment-canterbury",
+    "entity:christchurch-city-council",
+    "entity:department-of-conservation",
+    "entity:gns-science",
+    "entity:lincoln-university",
+    "entity:university-of-canterbury",
+    "entity:university-of-otago",
+    "entity:gisborne-district-council",
+    "entity:northland-regional-council",
+    "entity:whangarei-district-council",
+    "entity:grey-district-council",
+    "entity:west-coast-regional-council",
+    "person:bryan-clarke",
+    "person:martin-erasmuson",
+    "person:andrew-hare",
+    "person:ryan-elly",
+    "person:simon-nitz",
+    "person:chris-sharman",
+    "person:craig-lemon",
+    "person:hugh-blake-manson",
+    "person:richard-pascoe",
+    "person:trevor-glass",
+    "person:roger-bawden",
+    "person:m-r-jessen",
+    "person:r-langridge",
+    "person:t-f-crippen",
+    "person:w-c-rijkse",
+    "person:w-ries"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Council GIS could use a parcel as a spatial link between rates, valuation, addresses, planning and consent records. Each system retained its own identifiers and update rules.",
+      "markdown": "Council GIS could use a parcel as a spatial link between rates, valuation, addresses, planning and consent records. Each system retained its own identifiers and update rules.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Those records served different purposes and used different levels of detail. Rating systems might rely on valuation numbers, cadastral data represented legal parcels, address files located places and planning systems used zones or sites that did not always match a parcel. Integration depended on stable identifiers and clear responsibility for updates.",
+      "markdown": "Those records served different purposes and used different levels of detail. Rating systems might rely on valuation numbers, cadastral data represented legal parcels, address files located places and planning systems used zones or sites that did not always match a parcel. Integration depended on stable identifiers and clear responsibility for updates.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The links could go stale. A subdivision might reach the cadastre before the council’s other systems, while addresses, rates and planning records changed on their own schedules. GIS teams had to maintain those relationships as well as the map layers.",
+      "markdown": "The links could go stale. A subdivision might reach the cadastre before the council’s other systems, while addresses, rates and planning records changed on their own schedules. GIS teams had to maintain those relationships as well as the map layers.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Christchurch organised GIS as a council service. A 2003 Lincoln University study described the City Council's GeoData Services unit as a stand-alone operation that had been running for about three years, supplying and collating geographic information for other divisions. Asset management was a central job, but the list was broad: soils, waterways, zoning, sewage pipes, vacant residential land and the locations of building consents. Council financial material from 2001–02 records the expenditure. Environmental Services carried a specific GeoData Services overhead, aerial photographs were sold as an information product, and a related efficiency proposal identified a ten-person Product Delivery Team. That was an internal information service with customers, budgets and routine data maintenance, broader than a cartography desk.",
+      "markdown": "Christchurch organised GIS as a council service. A 2003 Lincoln University study described the City Council's GeoData Services unit as a stand-alone operation that had been running for about three years, supplying and collating geographic information for other divisions. Asset management was a central job, but the list was broad: soils, waterways, zoning, sewage pipes, vacant residential land and the locations of building consents. Council financial material from 2001–02 records the expenditure. Environmental Services carried a specific GeoData Services overhead, aerial photographs were sold as an information product, and a related efficiency proposal identified a ten-person Product Delivery Team. That was an internal information service with customers, budgets and routine data maintenance, broader than a cartography desk.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Linking corporate records exposed inconsistencies between systems. In a 2005 analysis for the city's growth work, records from the Valuation Hub were linked through the council's GIS cadastral layer so floor area and rating information could be analysed by zone. At the beginning of November, 799 of 9,918 parcels in the Business and Central City zones did not link between the valuation system and the current cadastre. Some additional valuation records had no total floor area recorded at all. The two production systems disagreed about the same land records. Christchurch staff had to analyse the city while knowing that the database join itself was incomplete.",
+      "markdown": "Linking corporate records exposed inconsistencies between systems. In a 2005 analysis for the city's growth work, records from the Valuation Hub were linked through the council's GIS cadastral layer so floor area and rating information could be analysed by zone. At the beginning of November, 799 of 9,918 parcels in the Business and Central City zones did not link between the valuation system and the current cadastre. Some additional valuation records had no total floor area recorded at all. The two production systems disagreed about the same land records. Christchurch staff had to analyse the city while knowing that the database join itself was incomplete.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Christchurch City Council records show staff time shifting away from electronic Liquid Waste Plan conversion after GeoData Services was established. By October 2000 and April 2002, council maps were credited to GeoData Services and carried .dgn project filenames. In 2001 Bryan Clarke represented Christchurch as the local-government Data Modeller on the Crown emergency-services core-data project, working with University of Canterbury’s Richard Pascoe, who advised on UML and ISO/TC211 standards. The 2004 council annual report named Chris Sharman, Bryan Clarke and Craig Lemon among the staff who developed council-designed software that won an Intergraph award.",
+      "markdown": "Christchurch City Council records show staff time shifting away from electronic Liquid Waste Plan conversion after GeoData Services was established. By October 2000 and April 2002, council maps were credited to GeoData Services and carried .dgn project filenames. In 2001 Bryan Clarke represented Christchurch as the local-government Data Modeller on the Crown emergency-services core-data project, working with University of Canterbury’s Richard Pascoe, who advised on UML and ISO/TC211 standards. The 2004 council annual report named Chris Sharman, Bryan Clarke and Craig Lemon among the staff who developed council-designed software that won an Intergraph award.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The regional council was solving a different set of problems. In 2003 Environment Canterbury used GIS as a geographic database for regional management, including bus-stop locations and attributes alongside wells and other natural and physical resource information. The wetland-data lineage included surveys from the 1980s and 1990s, a GIS database and a 1999 report. In 2003 the information was supplied to the Department of Conservation and checked against satellite imagery from 1999 to 2003; coastal wetland work then combined field survey, aerial photographs and GIS entry. Ryan Elly joined the regional council in 1997, working mainly in GIS analysis before moving into software development and GIS integration.",
+      "markdown": "The regional council was solving a different set of problems. In 2003 Environment Canterbury used GIS as a geographic database for regional management, including bus-stop locations and attributes alongside wells and other natural and physical resource information. The wetland-data lineage included surveys from the 1980s and 1990s, a GIS database and a 1999 report. In 2003 the information was supplied to the Department of Conservation and checked against satellite imagery from 1999 to 2003; coastal wetland work then combined field survey, aerial photographs and GIS entry. Ryan Elly joined the regional council in 1997, working mainly in GIS analysis before moving into software development and GIS integration.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Selwyn supplies a useful smaller-district comparison. Its April 2006 Wastewater Activity Management Plan names Hugh Blake-Manson as Asset Manager Water and states that MapInfo was used for spatial representation of wastewater assets. During Selwyn’s rapid growth, staff used desktop GIS for routine infrastructure asset management.",
+      "markdown": "Selwyn supplies a useful smaller-district comparison. Its April 2006 Wastewater Activity Management Plan names Hugh Blake-Manson as Asset Manager Water and states that MapInfo was used for spatial representation of wastewater assets. During Selwyn’s rapid growth, staff used desktop GIS for routine infrastructure asset management.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Waimate gives the small-council version of the same history. By June 2006 Andrew Hare was the council's GIS Administrator. During the 12 June snowstorm he collected twelve additional snow-depth observations from callers around the district, data that NIWA then used in its regional reconstruction of the event. In March 2007 he was on the MapInfo-L mailing list answering a MapInfo Professional 8.0 problem under his Waimate title. A year later he described another practical job: create a marker point every metre down a pipe, join an Excel table to those points by distance using SQL, convert decimal distances to whole numbers and accept a little positional error to the nearest metre. It is an unusually good record of what a small council GIS job could involve: property and asset systems one day, local event data the next, followed by making imperfect data and desktop software work well enough to get the job done.",
+      "markdown": "Waimate gives the small-council version of the same history. By June 2006 Andrew Hare was the council's GIS Administrator. During the 12 June snowstorm he collected twelve additional snow-depth observations from callers around the district, data that NIWA then used in its regional reconstruction of the event. In March 2007 he was on the MapInfo-L mailing list answering a MapInfo Professional 8.0 problem under his Waimate title. A year later he described another practical job: create a marker point every metre down a pipe, join an Excel table to those points by distance using SQL, convert decimal distances to whole numbers and accept a little positional error to the nearest metre. It is an unusually good record of what a small council GIS job could involve: property and asset systems one day, local event data the next, followed by making imperfect data and desktop software work well enough to get the job done.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Hare described Waimate’s earlier work in a later account. He says he took the council GIS role around 2000, replacing Martin Erasmuson, implemented the Bizeasset asset-management system created by Trevor Glass, and engaged Simon Nitz as a contractor to install MapInfo web browsers such as Encounter. He also remembers the less glamorous corporate work that sat around those systems: District Plan mapping, matching land parcels to rating information, LIM mapping and asset management. He wrote this recollection in 2025. His account describes how the council’s earlier systems led into its MapInfo work in 2006–08.",
+      "markdown": "Hare described Waimate’s earlier work in a later account. He says he took the council GIS role around 2000, replacing Martin Erasmuson, implemented the Bizeasset asset-management system created by Trevor Glass, and engaged Simon Nitz as a contractor to install MapInfo web browsers such as Encounter. He also remembers the less glamorous corporate work that sat around those systems: District Plan mapping, matching land parcels to rating information, LIM mapping and asset management. He wrote this recollection in 2025. His account describes how the council’s earlier systems led into its MapInfo work in 2006–08.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Northland shows a different corporate GIS problem: several organisations could be working on the same regional issue without holding their information in equally usable forms. The Whole of Northland biodiversity project, developed from 2005 and reported in 2007, began assembling a regional GIS database from council, conservation and community information. The report records different approaches to data collection and different levels of GIS capacity. Some district information had to be entered from NZMS260 grid references, and it notes that two district councils had limited GIS capacity without securely identifying which two in that statement. A 2008 follow-up for Northland Regional Council documented the work. Roger Bawden of Wildland Consultants is named for the GIS work, Whangarei District Council had 613 covenant sites that could be compared with regional natural-area mapping, and other protection or management records were incomplete, erroneous or not spatial at all. Regional GIS integration therefore required converting and qualifying information before it could be compared across organisations.",
+      "markdown": "Northland shows a different corporate GIS problem: several organisations could be working on the same regional issue without holding their information in equally usable forms. The Whole of Northland biodiversity project, developed from 2005 and reported in 2007, began assembling a regional GIS database from council, conservation and community information. The report records different approaches to data collection and different levels of GIS capacity. Some district information had to be entered from NZMS260 grid references, and it notes that two district councils had limited GIS capacity without securely identifying which two in that statement. A 2008 follow-up for Northland Regional Council documented the work. Roger Bawden of Wildland Consultants is named for the GIS work, Whangarei District Council had 613 covenant sites that could be compared with regional natural-area mapping, and other protection or management records were incomplete, erroneous or not spatial at all. Regional GIS integration therefore required converting and qualifying information before it could be compared across organisations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Gisborne provides a particularly strong council-and-science example. From September 1995 Landcare Research and Gisborne District Council soil-conservation staff worked on the second-edition Gisborne-East Coast land-resource inventory. By October 1998 the 1:50,000 field sheets had been compiled and checked, and by mid-February 1999 the work had become a digital spatial database containing 7,790 mapped polygons and 104 land-use-capability units. The database was available through Landcare Research and Gisborne District Council held its own copy. More unusually, the remapped region was deliberately aligned with the council's administrative boundary so district-wide analysis no longer required staff to work across three older NZLRI regions and three classifications. The technical report also records land-use capability being used in district planning and credits a close working relationship with council soil-conservation staff. Here the council boundary shaped the compilation and maintenance of the GIS itself. It helped define how the national scientific database was rebuilt for practical local use. The report credits M. R. Jessen, T. F. Crippen, M. J. Page, W. C. Rijkse, G. R. Harmsworth and M. McLeod as authors.",
+      "markdown": "Gisborne provides a particularly strong council-and-science example. From September 1995 Landcare Research and Gisborne District Council soil-conservation staff worked on the second-edition Gisborne-East Coast land-resource inventory. By October 1998 the 1:50,000 field sheets had been compiled and checked, and by mid-February 1999 the work had become a digital spatial database containing 7,790 mapped polygons and 104 land-use-capability units. The database was available through Landcare Research and Gisborne District Council held its own copy. More unusually, the remapped region was deliberately aligned with the council's administrative boundary so district-wide analysis no longer required staff to work across three older NZLRI regions and three classifications. The technical report also records land-use capability being used in district planning and credits a close working relationship with council soil-conservation staff. Here the council boundary shaped the compilation and maintenance of the GIS itself. It helped define how the national scientific database was rebuilt for practical local use. The report credits M. R. Jessen, T. F. Crippen, M. J. Page, W. C. Rijkse, G. R. Harmsworth and M. McLeod as authors.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Grey District Council gives a much smaller but unusually concrete view of maintenance. Its 2004 Annual Report records a NZ$200,000 budget to update aerial photographs in the council's GIS system. The work did not proceed that financial year because of other commitments and less suitable prevailing conditions, so the budget was carried into 2004/05. By 2004, Grey District Council was budgeting for a substantial imagery refresh to keep its operational GIS current. Completing the work depended on aircraft availability and suitable flying conditions.",
+      "markdown": "Grey District Council gives a much smaller but unusually concrete view of maintenance. Its 2004 Annual Report records a NZ$200,000 budget to update aerial photographs in the council's GIS system. The work did not proceed that financial year because of other commitments and less suitable prevailing conditions, so the budget was carried into 2004/05. By 2004, Grey District Council was budgeting for a substantial imagery refresh to keep its operational GIS current. Completing the work depended on aircraft availability and suitable flying conditions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "West Coast Regional Council’s later records describe further GIS work. A GNS Science project by R. Langridge and W. Ries, undertaken in 2009, mapped the Alpine Fault through Buller, Grey and Westland using GIS, QMAP, University of Otago fault mapping, RTK-GPS topography, sketch maps, aerial photographs, orthophotos and field checking. The project converted those sources into fault traces, attribute tables and planning-oriented Fault Avoidance Zones, generally at about 1:10,000. At Franz Josef, the report compared an Otago-derived trace with a dashed fault line already used by the regional council.",
+      "markdown": "West Coast Regional Council’s later records describe further GIS work. A GNS Science project by R. Langridge and W. Ries, undertaken in 2009, mapped the Alpine Fault through Buller, Grey and Westland using GIS, QMAP, University of Otago fault mapping, RTK-GPS topography, sketch maps, aerial photographs, orthophotos and field checking. The project converted those sources into fault traces, attribute tables and planning-oriented Fault Avoidance Zones, generally at about 1:10,000. At Franz Josef, the report compared an Otago-derived trace with a dashed fault line already used by the regional council.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "With those links maintained, staff could select a property and retrieve rates, planning or consent details from the systems that remained authoritative for each record. GIS supplied the geographic route between them.",
+      "markdown": "With those links maintained, staff could select a property and retrieve rates, planning or consent details from the systems that remained authoritative for each record. GIS supplied the geographic route between them.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

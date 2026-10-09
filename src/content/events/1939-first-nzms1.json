@@ -1,0 +1,22 @@
+{
+  "id": "1939-first-nzms1",
+  "dateDisplay": "1939-03",
+  "startDate": "1939-03",
+  "datePrecision": "month",
+  "year": 1939,
+  "label": "First NZMS1 sheet published",
+  "summary": "Napier and Hastings N134 became the first published sheet in the NZMS1 national one-inch series.",
+  "url": "/stories/what-the-computer-inherited/#national-sheets-80f8ea6518",
+  "passageIds": [
+    "passage:chapter-1-80f8ea6518"
+  ],
+  "recordIds": [
+    "chapter:1"
+  ],
+  "themeIds": [],
+  "categories": [
+    "topography",
+    "cartography"
+  ],
+  "sources": []
+}

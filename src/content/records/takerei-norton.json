@@ -1,0 +1,31 @@
+{
+  "id": "person:takerei-norton",
+  "slug": "takerei-norton",
+  "name": "Takerei Norton",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/takerei-norton/",
+  "story": [
+    "Takerei Norton’s 2018 Kā Huru Manu account describes the mapping wānanga, archival research and field trips, including the change from printed labels on topographic maps to direct digital mapping."
+  ],
+  "sources": [
+    {
+      "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+      "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+    }
+  ],
+  "aliases": [
+    "Takerei Norton"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Te Rūnanga o Ngāi Tahu, Kā Huru Manu, Te Karaka issue 77, 2018",
+        "url": "https://ngaitahu.iwi.nz/opportunities-and-resources/publications/te-karaka/ka-huru-manu-tk77/"
+      }
+    ]
+  ]
+}

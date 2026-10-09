@@ -1,0 +1,25 @@
+{
+  "id": "entity:dsir-physics-and-engineering-laboratory",
+  "slug": "dsir-physics-and-engineering-laboratory",
+  "name": "DSIR Physics and Engineering Laboratory",
+  "kind": "Organisation",
+  "category": "Research and education",
+  "url": "/entities/dsir-physics-and-engineering-laboratory/",
+  "website": null,
+  "story": [
+    "The laboratory coordinated the Landsat II Investigation Programme, with Mervyn Probine associated with the national effort. The September 1977 final report documents early digital image processing, rectification and classification. It connects mainframe and minicomputer work with the practical question of extracting useful information from satellite observations."
+  ],
+  "sources": [
+    {
+      "label": "DSIR Physics and Engineering Laboratory, Final Report: Landsat II Investigation Programme No. 28230, Report No. 587",
+      "url": "https://ntrs.nasa.gov/api/citations/19770026620/downloads/19770026620.pdf"
+    }
+  ],
+  "aliases": [
+    "DSIR Physics and Engineering Laboratory"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

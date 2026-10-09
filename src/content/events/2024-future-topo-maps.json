@@ -1,0 +1,23 @@
+{
+  "id": "2024-future-topo-maps",
+  "dateDisplay": "2024-11",
+  "startDate": "2024-11",
+  "datePrecision": "month",
+  "year": 2024,
+  "label": "Future Topographic Maps programme begins",
+  "summary": "LINZ began a programme to replace ageing national topographic production technology and modernise the workflow.",
+  "url": "/stories/open-source-changes-the-tools/#the-national-map-adopts-open-tools-ce97893059",
+  "passageIds": [
+    "passage:chapter-32-ce97893059"
+  ],
+  "recordIds": [
+    "chapter:32"
+  ],
+  "themeIds": [],
+  "categories": [
+    "topography",
+    "open-source",
+    "government"
+  ],
+  "sources": []
+}

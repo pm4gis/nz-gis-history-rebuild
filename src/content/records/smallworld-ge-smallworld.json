@@ -1,0 +1,46 @@
+{
+  "id": "entity:smallworld-ge-smallworld",
+  "slug": "smallworld-ge-smallworld",
+  "name": "Smallworld / GE Smallworld",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/smallworld-ge-smallworld/",
+  "website": null,
+  "story": [
+    "Smallworld systems were used for electricity and telecommunications network inventory in New Zealand. They maintained connected assets and their relationships. The New Zealand legal entity was registered in 1995, and GE acquired Smallworld in 2000.",
+    "Mike Bundock’s biography dates its Australasian operation to 1993."
+  ],
+  "sources": [
+    {
+      "label": "Augview, Company / management history",
+      "url": "https://www.augview.net/company/"
+    },
+    {
+      "label": "GE Energy / InterComms, New Service Delivery",
+      "url": "https://www.intercomms.net/issue-09/nsd-4.html"
+    },
+    {
+      "label": "BizDb, GE Energy (New Zealand) Limited business information",
+      "url": "https://www.bizdb.co.nz/company/9429038459672/"
+    },
+    {
+      "label": "Vector Electricity Asset Management Plan 1999",
+      "url": "https://blob-static.vector.co.nz/blob/vector/media/vector-regulatory-disclosures/vector-electricity-amp-1999.pdf"
+    },
+    {
+      "label": "Augview, Mike Bundock management biography: Smallworld UK and Australasian operation, 1990–2000",
+      "url": "https://www.augview.net/company/"
+    }
+  ],
+  "aliases": [
+    "Smallworld",
+    "GE Smallworld"
+  ],
+  "themeIds": [
+    "women-in-gis",
+    "profession"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

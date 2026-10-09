@@ -1,0 +1,62 @@
+{
+  "id": "passage:chapter-12-b51b8936ec",
+  "slug": "a-consultancy-appears-b51b8936ec",
+  "articleId": "article:chapter-12",
+  "title": "A consultancy appears",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "recordIds": [
+    "chapter:12",
+    "entity:abley",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:geographic-business-solutions",
+    "entity:splice-group",
+    "entity:terralink",
+    "person:steve-abley",
+    "person:beryl-pimblott",
+    "person:harley-prowse",
+    "person:tony-elson"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "David and Beryl Pimblott founded the company in 1987. Explorer Graphics operated as a specialist GIS consultancy at a time when many organisations did not yet have enough internal experience to design, configure and support a system themselves. The firm later moved into application development and public web GIS, but its 1987 origin belongs to the earlier phase when specialist implementation knowledge was itself a scarce product.",
+      "markdown": "David and Beryl Pimblott founded the company in 1987. Explorer Graphics operated as a specialist GIS consultancy at a time when many organisations did not yet have enough internal experience to design, configure and support a system themselves. The firm later moved into application development and public web GIS, but its 1987 origin belongs to the earlier phase when specialist implementation knowledge was itself a scarce product.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A consultancy could sit between customer requirements and a rapidly changing software market. It could help decide what data needed to be converted, which functions were worth automating, how an application should be configured and what staff would need after the consultants left. That was different from selling a licence, although the roles could overlap. A technically successful installation also needed users who trusted it, records that were maintained and business processes that supplied reasonably clean information. The awkward truth of organisational GIS was that a very expensive mapping system could still be defeated by an identifier that did not match the identifier in the next database.",
+      "markdown": "A consultancy could sit between customer requirements and a rapidly changing software market. It could help decide what data needed to be converted, which functions were worth automating, how an application should be configured and what staff would need after the consultants left. That was different from selling a licence, although the roles could overlap. A technically successful installation also needed users who trusted it, records that were maintained and business processes that supplied reasonably clean information. The awkward truth of organisational GIS was that a very expensive mapping system could still be defeated by an identifier that did not match the identifier in the next database.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Explorer Graphics later joined with the United States firm Elroi Consulting to establish NorthSouth GIS in 2005, rebranded in New Zealand in 2011 and was acquired by Australian firm AAM in 2014. Those later developments reveal the direction in which the early consultancy market could grow. A specialist New Zealand GIS business could develop into international delivery, web systems and disaster-recovery work, then become part of a trans-Tasman geospatial group. The company continued supplying services through successive changes in GIS technology.",
+      "markdown": "Explorer Graphics later joined with the United States firm Elroi Consulting to establish NorthSouth GIS in 2005, rebranded in New Zealand in 2011 and was acquired by Australian firm AAM in 2014. Those later developments reveal the direction in which the early consultancy market could grow. A specialist New Zealand GIS business could develop into international delivery, web systems and disaster-recovery work, then become part of a trans-Tasman geospatial group. The company continued supplying services through successive changes in GIS technology.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Staff also established new businesses. In the 2013 PropertyIQ and Terralink competition proceeding, the applicant described Splice Group as a new entrant formed by employees leaving NorthSouth GIS. Experienced staff could take their expertise into new competitors as established firms merged or changed ownership.",
+      "markdown": "Staff also established new businesses. In the 2013 PropertyIQ and Terralink competition proceeding, the applicant described Splice Group as a new entrant formed by employees leaving NorthSouth GIS. Experienced staff could take their expertise into new competitors as established firms merged or changed ownership.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Geographic Business Solutions (GBS) followed a consultancy path rooted in Auckland’s GIS community. Harley Prowse and Tony Elson met through GTU, associated with Auckland UniServices, and formed GBS in June 2002 after contracting independently. The company’s retrospective records its early hires, a client base spanning councils, utilities, forestry, research and agriculture, and Esri Silver and Gold partner milestones in 2011 and 2013. GBS later established an affiliate in Korea and began US operations.",
+      "markdown": "Geographic Business Solutions (GBS) followed a consultancy path rooted in Auckland’s GIS community. Harley Prowse and Tony Elson met through GTU, associated with Auckland UniServices, and formed GBS in June 2002 after contracting independently. The company’s retrospective records its early hires, a client base spanning councils, utilities, forestry, research and agriculture, and Esri Silver and Gold partner milestones in 2011 and 2013. GBS later established an affiliate in Korea and began US operations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Abley’s company history records a different starting point: Steve Abley mapped Christchurch City pedestrian crossings for a final-year university project in 1996, then established a transport consultancy in 2003. The firm’s development joined spatial analysis with transport engineering and road-safety work.",
+      "markdown": "Abley’s company history records a different starting point: Steve Abley mapped Christchurch City pedestrian crossings for a final-year university project in 1996, then established a transport consultancy in 2003. The firm’s development joined spatial analysis with transport engineering and road-safety work.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

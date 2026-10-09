@@ -1,0 +1,42 @@
+{
+  "id": "person:lien-pham",
+  "slug": "lien-pham",
+  "name": "Lien Pham",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/lien-pham/",
+  "story": [
+    "Lien Pham's professional work includes remote sensing and forestry, with Kaingaroa Tipu listed in her career profile. Her record includes study at the University of Waikato and an Australia–APEC Women in Research Fellowship in 2018. Her published work combines satellite imagery, LiDAR and GIS-derived terrain information for vegetation analysis.",
+    "In 2016 Lien Pham, Lars Brabyn and Salman Ashraf published work combining QuickBird imagery, LiDAR-derived topographic information and object-based classification to identify a native tree species, using methods including Random Forest and support-vector machines."
+  ],
+  "sources": [
+    {
+      "label": "Lien Pham - Kaingaroa Tipu | LinkedIn · career/profile reference",
+      "url": "https://nz.linkedin.com/in/lien-pham-0613a512"
+    },
+    {
+      "label": "Chapter 44 · Learning from examples",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Lien Pham"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Lien Pham - Kaingaroa Tipu | LinkedIn · career/profile reference",
+        "url": "https://nz.linkedin.com/in/lien-pham-0613a512"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 44 · Learning from examples",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1123",
+  "a": "person:david-brunsdon",
+  "b": "entity:wellington-earthquake-lifelines-group",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

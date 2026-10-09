@@ -1,0 +1,46 @@
+{
+  "id": "article:chapter-42",
+  "slug": "the-real-time-map",
+  "title": "Disaster response and live mapping",
+  "url": "/stories/the-real-time-map/",
+  "summary": "For much of GIS history, a map could be out of date without anyone noticing for a while. A road changed, a subdivision appeared, a river shifted or a new building was added, and the database caught up later. Emergency mapping make",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 42,
+  "themeIds": [],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch42-note-01",
+      "text": "1. GeoNet’s institutional history and the 2004 Strategic Review support establishment in 2001 and a July 2001 programme launch within a ten-year plan for a modern national geological-hazard monitoring system. The chapter uses GeoNet to establish continuous observation and rapid geospatial dissemination. It does not describe GeoNet itself as a conventional GIS platform or use the current interface as a 2001 visual."
+    },
+    {
+      "id": "ch42-note-02",
+      "text": "2. Ferriss and Erasmuson’s 2016 CERA Spatial Data Infrastructure whitepaper is the principal Canterbury infrastructure source. It records the LINZ-funded cloud GIS, the 2011 GIS roundtable, more than 4,000 datasets, 80 secure and public services including ten imagery services, and participation by fourteen public and private organisations. Landcheck, the CERA SDI and the SCIRT GIS Viewer remain separate systems with different purposes."
+    },
+    {
+      "id": "ch42-note-03",
+      "text": "3. The SCIRT Learning Legacy supports the operational GIS Viewer scale: more than 600 layers, more than 1,500 users, 32 configurations, more than 30 source systems and more than 2,700 updates. The figures are programme records and do not imply every user saw every layer or that the Viewer was itself the CERA SDI."
+    },
+    {
+      "id": "ch42-note-04",
+      "text": "4. De Raadt, Blick and Hodge’s 2018 Kaikōura response poster supports post-event aerial imagery, LiDAR, offshore hydrographic LiDAR, building outlines and resurvey work following the 14 November 2016 earthquake. Exact capture dates are not assigned where the source does not establish them. Chapter 19 retains the detailed coordinate-update history."
+    },
+    {
+      "id": "ch42-note-05",
+      "text": "5. “Cyclone Gabrielle: The Geospatial Story” is the principal late-period operational source. It supports NEMA incident-data sharing, GEMA coordination, surge staffing drawn from multiple organisations, more than 100 national geospatial products, regional and agency common operating pictures, field workflows and assessment figures. The phrase is “more than 100 products”, not more than 100 maps. Sensitive operational information is not reproduced."
+    },
+    {
+      "id": "ch42-note-06",
+      "text": "6. Offline desktop work and printed or exported mapping are retained as resilience findings where communications and power failed. The cited accounts document the continuing operational use of printed maps."
+    },
+    {
+      "id": "ch42-note-07",
+      "text": "The practitioner account records live crowd-sourced information alongside refreshed authoritative information in a 2010 Common Operating Picture. It does not establish sole ownership by one organisation."
+    },
+    {
+      "id": "ch42-note-08",
+      "text": "The NZTA and Esri case study records the 2023 field-survey and situational-awareness use. Benefit and performance descriptions are attributed to the customer case rather than treated as independent measurements."
+    }
+  ]
+}

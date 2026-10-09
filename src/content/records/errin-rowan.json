@@ -1,0 +1,31 @@
+{
+  "id": "person:errin-rowan",
+  "slug": "errin-rowan",
+  "name": "Errin Rowan",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/errin-rowan/",
+  "story": [
+    "Errin Rowan appears in the 2017 New Zealand Esri User Conference programme as an Eagle Technology presenter. Rowan co-presented the two-part ArcGIS Pro “What’s New” session with Lauren McArtney, placing her in the technical training and product-translation work through which local users learned new desktop GIS capabilities."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Errin Rowan"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

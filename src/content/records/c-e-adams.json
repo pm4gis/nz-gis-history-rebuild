@@ -1,0 +1,31 @@
+{
+  "id": "person:c-e-adams",
+  "slug": "c-e-adams",
+  "name": "C. E. Adams",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/c-e-adams/",
+  "story": [
+    "Lands and Survey reporting and C. E. Adams’s material document the Wairarapa baseline and early geodetic-adjustment work. These early calculations should be distinguished from the later development of NZGD49, described in official geodetic histories and LINZ’s retrospective documentation. These records do not establish that a single calculation in 1912 created the national datum."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 1 · Chapter source notes",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "C. E. Adams"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 1 · Chapter source notes",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

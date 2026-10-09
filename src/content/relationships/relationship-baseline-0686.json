@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0686",
+  "a": "person:john-dymond",
+  "b": "chapter:6",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-6-bc94bd66ec"
+  ],
+  "sources": []
+}

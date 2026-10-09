@@ -1,0 +1,39 @@
+{
+  "id": "person:christopher-duncan",
+  "slug": "christopher-duncan",
+  "name": "Christopher Duncan",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/christopher-duncan/",
+  "story": [
+    "Christopher Duncan provides a person-level link between GIS data translation and the later enterprise-integration market. Seamless Data identifies him as CTO/COO, while the company’s history traces its origins through Traverse, a New Zealand mapping and geospatial specialist and Safe Software/FME partner, into a broader data and application integration business."
+  ],
+  "sources": [
+    {
+      "label": "Seamless Data, Company",
+      "url": "https://www.seamlessdata.co.nz/company/"
+    },
+    {
+      "label": "Seamless Data, Come celebrate our Seamless launch",
+      "url": "https://www.seamlessdata.co.nz/articles/come-celebrate-our-seamless-launch/"
+    }
+  ],
+  "aliases": [
+    "Christopher Duncan"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Seamless Data, Company",
+        "url": "https://www.seamlessdata.co.nz/company/"
+      },
+      {
+        "label": "Seamless Data, Come celebrate our Seamless launch",
+        "url": "https://www.seamlessdata.co.nz/articles/come-celebrate-our-seamless-launch/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0053",
+  "a": "entity:eagle-technology",
+  "b": "chapter:22",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-22-38b6be3006"
+  ],
+  "sources": []
+}

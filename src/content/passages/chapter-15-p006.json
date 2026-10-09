@@ -1,0 +1,53 @@
+{
+  "id": "passage:chapter-15-5980b53c2f",
+  "slug": "a-purchaser-and-a-provider-5980b53c2f",
+  "articleId": "article:chapter-15",
+  "title": "A purchaser and a provider",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:15",
+    "entity:department-of-survey-and-land-information-dosli",
+    "entity:terralink"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 1996 restructuring changed the organisation around the database while the digital transition was still under way. DOSLI was split, with Land Information New Zealand retaining Crown responsibilities for national land information and Terralink taking substantial commercial mapping and production capability into a state-owned enterprise. For topographic mapping this created a purchaser-provider relationship around a national product whose authority remained with the Crown. Production expertise and contract work could sit outside the department even though LINZ remained responsible for the national mapping programme.",
+      "markdown": "The 1996 restructuring changed the organisation around the database while the digital transition was still under way. DOSLI was split, with Land Information New Zealand retaining Crown responsibilities for national land information and Terralink taking substantial commercial mapping and production capability into a state-owned enterprise. For topographic mapping this created a purchaser-provider relationship around a national product whose authority remained with the Crown. Production expertise and contract work could sit outside the department even though LINZ remained responsible for the national mapping programme.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1998 Balclutha 1:50,000 sheet was published by LINZ and credits cartography to Terralink. That ordinary production credit records the division between the Crown organisation responsible for the official series and the commercial provider carrying out the cartographic work.",
+      "markdown": "The 1998 Balclutha 1:50,000 sheet was published by LINZ and credits cartography to Terralink. That ordinary production credit records the division between the Crown organisation responsible for the official series and the commercial provider carrying out the cartographic work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Technology was changing again at the same time. The earlier GeoVision environment became increasingly difficult to sustain, and the 1999 technical history records a reassessment after limitations in the system and changes in its supplier. By late 1995 the programme had selected Laser-Scan’s LAMPS2 object-oriented mapping environment. Implementation then overlapped the 1996 organisational split. Database migration, production software and government restructuring were therefore happening together rather than in a comfortable sequence.",
+      "markdown": "Technology was changing again at the same time. The earlier GeoVision environment became increasingly difficult to sustain, and the 1999 technical history records a reassessment after limitations in the system and changes in its supplier. By late 1995 the programme had selected Laser-Scan’s LAMPS2 object-oriented mapping environment. Implementation then overlapped the 1996 organisational split. Database migration, production software and government restructuring were therefore happening together rather than in a comfortable sequence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The arrangement changed over time. During development of Topo50, LINZ later brought topographic data maintenance and database management back in-house. The same national dataset passed through internal government production, outsourced or contracted cartographic work, and later a more integrated in-house maintenance model as costs, technology and operational priorities changed.",
+      "markdown": "The arrangement changed over time. During development of Topo50, LINZ later brought topographic data maintenance and database management back in-house. The same national dataset passed through internal government production, outsourced or contracted cartographic work, and later a more integrated in-house maintenance model as costs, technology and operational priorities changed.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In 1998 a user buying H46 received a conventional 1:50,000 topographic map on NZMG. It could be folded, carried, annotated and read without knowing anything about databases or government restructuring. Yet its production credit points to a digital and organisational system behind the familiar object. The visible map remained stable enough for users while the machinery that produced and maintained it was changing rapidly.",
+      "markdown": "In 1998 a user buying H46 received a conventional 1:50,000 topographic map on NZMG. It could be folded, carried, annotated and read without knowing anything about databases or government restructuring. Yet its production credit points to a digital and organisational system behind the familiar object. The visible map remained stable enough for users while the machinery that produced and maintained it was changing rapidly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That separation between user experience and production history is easy to miss. A tramper could buy two editions a decade apart and see broadly the same cartographic language while the source data, software, contractor arrangements and revision workflow had all changed. National map series deliberately preserve continuity because users build habits and operational procedures around them. Digital production therefore had to modernise the source without making the product unnecessarily unfamiliar.",
+      "markdown": "That separation between user experience and production history is easy to miss. A tramper could buy two editions a decade apart and see broadly the same cartographic language while the source data, software, contractor arrangements and revision workflow had all changed. National map series deliberately preserve continuity because users build habits and operational procedures around them. Digital production therefore had to modernise the source without making the product unnecessarily unfamiliar.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

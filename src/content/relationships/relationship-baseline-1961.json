@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1961",
+  "a": "person:w-m-prebble",
+  "b": "chapter:38",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-38-fb6060a98b"
+  ],
+  "sources": []
+}

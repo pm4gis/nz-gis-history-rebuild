@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-2498",
+  "a": "person:maurice-williamson",
+  "b": "chapter:16",
+  "label": "Discussed in chapter",
+  "basis": "Reconciled from existing chapter metadata in the 7 October 2026 entity-gap cleanup.",
+  "passageIds": [
+    "passage:chapter-16-ad5140789b"
+  ],
+  "sources": []
+}

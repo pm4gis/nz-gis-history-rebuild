@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-25-329014cdad",
+  "slug": "shared-utility-studies-1989-1996-329014cdad",
+  "articleId": "article:chapter-25",
+  "title": "Shared utility studies, 1989–1996",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "person:david-brunsdon"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Centre for Advanced Engineering began its Wellington lifelines study in 1989 and completed it in 1991. Christchurch’s project followed in 1993, extending assessment to several natural hazards. Wellington also established an ongoing lifelines group in 1993. These initiatives brought utility operators, engineers and scientists together to examine the vulnerability of services and their dependence on one another.",
+      "sources": [
+        {
+          "label": "David R. Brunsdon, Lifelines engineering: a long way in a decade, June 1997, pp.194–200",
+          "url": "https://bulletin.nzsee.org.nz/index.php/bnzsee/article/view/574/551"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Writing in June 1997, Wellington group project manager David Brunsdon identified GIS overlay of infrastructure networks and seismic hazards as an important development during this period. Water, wastewater, electricity, gas and telecommunications shared this geographic problem. The study dates establish the collaborative programme; they do not date every participant’s GIS installation.",
+      "sources": [
+        {
+          "label": "David R. Brunsdon, Lifelines engineering: a long way in a decade, June 1997, pp.194–200",
+          "url": "https://bulletin.nzsee.org.nz/index.php/bnzsee/article/view/574/551"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "entity:northland-regional-council",
+  "slug": "northland-regional-council",
+  "name": "Northland Regional Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/northland-regional-council/",
+  "website": "https://www.nrc.govt.nz",
+  "description": "Named in The parcel becomes a key (Chapter 23). Follow the linked passage for context.",
+  "story": [
+    "Northland Regional Council used web GIS in land-management programmes as well as its wider regional environmental work. Its Hill Country Erosion Fund reporting documents GIS specialist Janelle Palmer developing an afforestation viewer combining erosion, property and waterway information."
+  ],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    },
+    {
+      "label": "Northland Regional Council, Hill Country Erosion Fund final report",
+      "url": "https://www.nrc.govt.nz/media/jpjbr0q4/hill-country-erosion-fund-boost-year-final-report.pdf"
+    }
+  ],
+  "aliases": [
+    "Northland Regional Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "coverageEnd": 2025,
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "person:malindi-reihana-ruka",
+  "slug": "malindi-reihana-ruka",
+  "name": "Malindi Reihana-Ruka",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/malindi-reihana-ruka/",
+  "story": [
+    "Women in Spatial + Survey’s committee biography identifies Malindi Reihana-Ruka as a surveying student and the group’s student representative when the page was written. She describes wanting a career connected to her own people and the wider community, with attention to environmental care, and planned to promote events and encourage women entering surveying and spatial work. The undated page does not establish her study year today.",
+    "Committee biographies connect the network to different career stages: Amy Tay’s transport and infrastructure consulting, FME and 3D modelling; Georgia Goodsell’s spatial-intelligence work and support for new entrants; Devon Allen’s cadastral and engineering surveying; and student representative Malindi Reihana-Ruka’s interest in working with her community and encouraging other women into the field. The biographies are not date-stamped, so they do not establish current employment or study status. A 2024 recap records lightning talks on tactile mapping, surveying, GIS in schools and data collection."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial + Survey, “The Committee”",
+      "url": "https://womeninspatial.wordpress.com/the-committee/"
+    },
+    {
+      "label": "Chapter 29 · New professional networks",
+      "url": "/stories/becoming-a-gis-professional/"
+    }
+  ],
+  "aliases": [
+    "Malindi Reihana-Ruka"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Women in Spatial + Survey, “The Committee”",
+        "url": "https://womeninspatial.wordpress.com/the-committee/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 29 · New professional networks",
+        "url": "/stories/becoming-a-gis-professional/"
+      }
+    ]
+  ]
+}

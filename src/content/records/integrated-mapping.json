@@ -1,0 +1,44 @@
+{
+  "id": "entity:integrated-mapping",
+  "slug": "integrated-mapping",
+  "name": "Integrated Mapping",
+  "kind": "Business",
+  "category": "Companies",
+  "url": "/entities/integrated-mapping/",
+  "website": null,
+  "story": [
+    "John McCombs’ Christchurch business supplied software and technical support, including MapInfo assistance, mailing lists and FAQs. Its later web-mapping work included NIWA’s DASmap.",
+    "Integrated Mapping dates its establishment in Christchurch to 1992. Its MapToaster product line brought New Zealand topographic maps and imagery to desktop and mobile users. The publisher’s mobile listing, with a 2014–23 copyright history, documents offline maps, location display, tracks and waypoints. This product work extended the company’s earlier software support and shared technical information into packaged mapping tools."
+  ],
+  "sources": [
+    {
+      "label": "Bill Thoen, MapInfo-L forum archive recollection on the origins of MapInfo-L",
+      "url": "https://groups.google.com/g/mapinfo-l/c/l2OWByBpMVs"
+    },
+    {
+      "label": "MapInfo software user guide entry for Integrated Mapping, Christchurch",
+      "url": "https://manualzz.com/doc/30945219/mapinfo-software-user-guide"
+    },
+    {
+      "label": "NIWA DAS database upgrade presentation, Integrated Mapping / John McCombs development note",
+      "url": "https://pgrsc.org/wp-content/uploads/2023/07/1-4-2-Brent-Wood-DASdb_OSGEO_2022.pdf"
+    },
+    {
+      "label": "Integrated Mapping, company history",
+      "url": "https://www.integrated-mapping.com/"
+    },
+    {
+      "label": "Integrated Mapping, MapToaster NZ Topo Maps: publisher’s App Store listing",
+      "url": "https://apps.apple.com/nz/app/maptoaster-nz-topo-maps/id839300690"
+    }
+  ],
+  "aliases": [
+    "Integrated Mapping"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

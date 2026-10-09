@@ -1,0 +1,31 @@
+{
+  "id": "person:phil-woods",
+  "slug": "phil-woods",
+  "name": "Phil Woods",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/phil-woods/",
+  "story": [
+    "Phil Woods of CoreLogic NZ presented “Smarter contextual marketing using Location Business Intelligence” at the 2017 New Zealand Esri User Conference. The presentation is a useful named example of GIS moving into commercial location intelligence and customer analysis beyond the traditional government and natural-resource sectors."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Phil Woods"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1096",
+  "a": "person:stuart-halliday",
+  "b": "entity:bay-of-plenty-regional-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

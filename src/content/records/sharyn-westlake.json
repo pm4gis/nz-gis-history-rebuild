@@ -1,0 +1,38 @@
+{
+  "id": "person:sharyn-westlake",
+  "slug": "sharyn-westlake",
+  "name": "Sharyn Westlake",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sharyn-westlake/",
+  "story": [
+    "LINZ’s 2017 geospatial virtual field trip identified Sharyn Westlake as a Senior Engineer in Flood Protection at Greater Wellington Regional Council and as a geospatial subject-matter expert for schools. Her inclusion records the use of spatial information in regional flood-protection engineering as well as the professional outreach around that work.",
+    "LINZ names Sharyn Westlake in its geospatial virtual field-trip record: Senior Engineer, Flood Protection, Greater Wellington Regional Council, 2017 VFT."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for Schools archive",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Sharyn Westlake"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for Schools archive",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

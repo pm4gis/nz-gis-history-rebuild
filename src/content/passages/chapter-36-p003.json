@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-36-b4b26dba97",
+  "slug": "land-cover-through-time-b4b26dba97",
+  "articleId": "article:chapter-36",
+  "title": "Land cover through time",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Land Cover Database provided a maintained national record of land cover. LCDB1 was completed in 2000 using SPOT imagery acquired during the summer of 1996/97. LCDB2 was released in July 2004 from Landsat 7 ETM+ imagery acquired between September 2001 and March 2002. The second database did more than provide a newer picture. It corrected parts of the earlier classification and created a basis for identifying changes over roughly five years.",
+      "markdown": "The Land Cover Database provided a maintained national record of land cover. LCDB1 was completed in 2000 using SPOT imagery acquired during the summer of 1996/97. LCDB2 was released in July 2004 from Landsat 7 ETM+ imagery acquired between September 2001 and March 2002. The second database did more than provide a newer picture. It corrected parts of the earlier classification and created a basis for identifying changes over roughly five years.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LCDB converted satellite imagery and other evidence into a checked, edited GIS dataset with consistent land-cover classes. The result could be combined with protected areas, land environments, administrative boundaries and other spatial information. By 2007 the Ministry for the Environment was using the first two LCDB epochs as national environmental indicators for land cover, land use and biodiversity reporting. Repeated national classification made the imagery useful for those reporting tasks.",
+      "markdown": "LCDB converted satellite imagery and other evidence into a checked, edited GIS dataset with consistent land-cover classes. The result could be combined with protected areas, land environments, administrative boundaries and other spatial information. By 2007 the Ministry for the Environment was using the first two LCDB epochs as national environmental indicators for land cover, land use and biodiversity reporting. Repeated national classification made the imagery useful for those reporting tasks.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That repeated character became more important as the series continued. Ministry for the Environment material describes LCDB as using satellite imagery to produce national land-cover maps approximately every five years from the 1996/97 baseline. Later editions added 2008 and 2012 epochs, and version 5, launched in 2020, extended the maintained record again. A single satellite scene can show what was visible on one date. A controlled national series can show where classes have changed and where apparent change needs further checking. Once that series exists, earth observation becomes part of environmental information infrastructure rather than a collection of interesting images.",
+      "markdown": "That repeated character became more important as the series continued. Ministry for the Environment material describes LCDB as using satellite imagery to produce national land-cover maps approximately every five years from the 1996/97 baseline. Later editions added 2008 and 2012 epochs, and version 5, launched in 2020, extended the maintained record again. A single satellite scene can show what was visible on one date. A controlled national series can show where classes have changed and where apparent change needs further checking. Once that series exists, earth observation becomes part of environmental information infrastructure rather than a collection of interesting images.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

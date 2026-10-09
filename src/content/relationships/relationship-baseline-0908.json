@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0908",
+  "a": "person:mary-mcewen",
+  "b": "entity:dsir-science-mapping-unit",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

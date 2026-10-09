@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0643",
+  "a": "person:charlotte-dawson",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-29-71ae35ecbd"
+  ],
+  "sources": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "relationship:baseline-0146",
+  "a": "entity:new-zealand-forest-service",
+  "b": "chapter:8",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-8-1b6d74c5d5",
+    "passage:chapter-8-c1774fb8be"
+  ],
+  "sources": []
+}

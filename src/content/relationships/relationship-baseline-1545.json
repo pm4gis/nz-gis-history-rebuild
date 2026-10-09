@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1545",
+  "a": "person:carl-johnson",
+  "b": "chapter:20",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-20-0efc7747ca"
+  ],
+  "sources": []
+}

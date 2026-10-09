@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2470",
+  "a": "person:omid-khazaeian",
+  "b": "entity:victoria-university-of-wellington",
+  "label": "Associated with",
+  "basis": "Documented association in the 7 October 2026 entity-gap expansion research.",
+  "passageIds": [],
+  "sources": []
+}

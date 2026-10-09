@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-24-6e7bae235e",
+  "slug": "different-agencies-common-practice-6e7bae235e",
+  "articleId": "article:chapter-24",
+  "title": "Different agencies, common practice",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:24",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The four cases used different software and had different institutional purposes, but the working pattern is recognisable. Treasury combined spatial boundaries and statistics for policy analysis. MAF connected registered apiaries, field survey and control areas during an operational response. Fisheries maintained a reusable spatial information service around biological and management data. Crown Minerals administration treated mapped areas and coordinates as components of permits.",
+      "markdown": "The four cases used different software and had different institutional purposes, but the working pattern is recognisable. Treasury combined spatial boundaries and statistics for policy analysis. MAF connected registered apiaries, field survey and control areas during an operational response. Fisheries maintained a reusable spatial information service around biological and management data. Crown Minerals administration treated mapped areas and coordinates as components of permits.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "None required a single central-government GIS. Each agency used national or sector data appropriate to its work. Statistical geography came from Statistics New Zealand. Topographic and coordinate frameworks came through national mapping and geodetic systems. Agencies added their own administrative or scientific information and maintained the parts for which they were responsible. The resulting government spatial environment was distributed long before cloud services made that architecture easier to describe.",
+      "markdown": "None required a single central-government GIS. Each agency used national or sector data appropriate to its work. Statistical geography came from Statistics New Zealand. Topographic and coordinate frameworks came through national mapping and geodetic systems. Agencies added their own administrative or scientific information and maintained the parts for which they were responsible. The resulting government spatial environment was distributed long before cloud services made that architecture easier to describe.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "GIS teams and technical staff remained part of the arrangement, but their role increasingly involved supporting other users. They prepared datasets, maintained layers, solved coordinate problems, built repeatable processes and connected geographic records with other information systems. Policy staff and programme teams could then use the spatial result without understanding every part of the production chain. The organisational split was similar to other forms of information technology: specialists kept the infrastructure working while a larger group used the service.",
+      "markdown": "GIS teams and technical staff remained part of the arrangement, but their role increasingly involved supporting other users. They prepared datasets, maintained layers, solved coordinate problems, built repeatable processes and connected geographic records with other information systems. Policy staff and programme teams could then use the spatial result without understanding every part of the production chain. The organisational split was similar to other forms of information technology: specialists kept the infrastructure working while a larger group used the service.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This wider use increased the cost of poor maintenance. An old boundary could affect a regulatory decision. A missing apiary could distort an operational picture. A fisheries layer whose date or source was unclear could be reused outside the context in which it was produced. A statistical boundary joined to the wrong census vintage could produce a technically successful but historically mismatched analysis. Metadata and stewardship, discussed in Chapter 21, were practical requirements inside these ordinary workflows.",
+      "markdown": "This wider use increased the cost of poor maintenance. An old boundary could affect a regulatory decision. A missing apiary could distort an operational picture. A fisheries layer whose date or source was unclear could be reused outside the context in which it was produced. A statistical boundary joined to the wrong census vintage could produce a technically successful but historically mismatched analysis. Metadata and stewardship, discussed in Chapter 21, were practical requirements inside these ordinary workflows.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Government restructuring added another complication. Functions moved between agencies, and names changed. Data, systems and staff had to move with them if continuity was to be preserved. The Ministry of Fisheries functions later entered the Ministry for Primary Industries, while minerals and petroleum administration now sits within the Ministry of Business, Innovation and Employment. A spatial database could outlive the department name on the report that first described it.",
+      "markdown": "Government restructuring added another complication. Functions moved between agencies, and names changed. Data, systems and staff had to move with them if continuity was to be preserved. The Ministry of Fisheries functions later entered the Ministry for Primary Industries, while minerals and petroleum administration now sits within the Ministry of Business, Innovation and Employment. A spatial database could outlive the department name on the report that first described it.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-35-9652c96e6c",
+  "slug": "maps-beside-numbers-9652c96e6c",
+  "articleId": "article:chapter-35",
+  "title": "Maps beside numbers",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35",
+    "entity:new-zealand-police"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A second change was the growing importance of dashboards and interactive reporting. Traditional GIS tended to give the map visual priority. Other information appeared in an attribute table, popup or separate report. Dashboards redistributed that attention. The map could sit beside totals, charts, lists, indicators, date filters and categories, allowing the user to move between geography and summary statistics without constructing an analysis from scratch.",
+      "markdown": "A second change was the growing importance of dashboards and interactive reporting. Traditional GIS tended to give the map visual priority. Other information appeared in an attribute table, popup or separate report. Dashboards redistributed that attention. The map could sit beside totals, charts, lists, indicators, date filters and categories, allowing the user to move between geography and summary statistics without constructing an analysis from scratch.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand Police's policedata.nz, launched on 30 November 2016, provides a strong public example. The service was designed to let people explore crime and victimisation information by dimensions including place, time and demographics. The public interface offered selected crime information and searches. The application constrained the questions to those that could be answered safely and consistently from published data. Users interacted with reports, filters and visual summaries in which location was one of several organising dimensions.",
+      "markdown": "New Zealand Police's policedata.nz, launched on 30 November 2016, provides a strong public example. The service was designed to let people explore crime and victimisation information by dimensions including place, time and demographics. The public interface offered selected crime information and searches. The application constrained the questions to those that could be answered safely and consistently from published data. Users interacted with reports, filters and visual summaries in which location was one of several organising dimensions.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That design also reflects a wider tension in public spatial applications. Location can make statistics easier to understand, but it can also make sensitive information easier to identify. Police therefore had to treat anonymisation and privacy as part of the application rather than as a separate policy document sitting beside it. The public interface required a filtered and anonymised view of the operational records used inside policing. The application had to decide what geographic detail, categories and combinations were safe to present.",
+      "markdown": "That design also reflects a wider tension in public spatial applications. Location can make statistics easier to understand, but it can also make sensitive information easier to identify. Police therefore had to treat anonymisation and privacy as part of the application rather than as a separate policy document sitting beside it. The public interface required a filtered and anonymised view of the operational records used inside policing. The application had to decide what geographic detail, categories and combinations were safe to present.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2016 system also illustrates the maintenance burden hidden behind a public interface. Police records show that policedata.nz moved from Flash to HTML on 31 October 2017. A Tableau Public object for Victimisations Time and Place survives from that period. The underlying public purpose persisted while part of the delivery environment had to be replaced. Applications are living systems that depend on browsers, platforms and components continuing to change after launch.",
+      "markdown": "The 2016 system also illustrates the maintenance burden hidden behind a public interface. Police records show that policedata.nz moved from Flash to HTML on 31 October 2017. A Tableau Public object for Victimisations Time and Place survives from that period. The underlying public purpose persisted while part of the delivery environment had to be replaced. Applications are living systems that depend on browsers, platforms and components continuing to change after launch.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A dashboard does something else as well. It tells the user, through its layout, which questions the designers think are useful. A general GIS might allow almost unlimited combinations of layers and queries. A dashboard presents selected measures and relationships. This can make evidence easier to use, but it also makes the design choices more consequential. The categories on screen, the default time period, the geographic unit and the filters provided all shape what the user sees.",
+      "markdown": "A dashboard does something else as well. It tells the user, through its layout, which questions the designers think are useful. A general GIS might allow almost unlimited combinations of layers and queries. A dashboard presents selected measures and relationships. This can make evidence easier to use, but it also makes the design choices more consequential. The categories on screen, the default time period, the geographic unit and the filters provided all shape what the user sees.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

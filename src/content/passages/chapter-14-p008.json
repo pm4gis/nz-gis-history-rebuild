@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-14-757438b7f9",
+  "slug": "from-optional-to-normal-757438b7f9",
+  "articleId": "article:chapter-14",
+  "title": "From optional to normal",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:14"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Electronic lodgement took several years to become the default. LINZ trained users, changed fees, released additional functionality and worked with the New Zealand Law Society, the New Zealand Institute of Surveyors and other professional groups. Consultation helped identify professional requirements and implementation problems. Surveyors and conveyancers were being asked to alter workflows that affected statutory rights and professional liability. Poor adoption would have left LINZ maintaining two complete channels indefinitely and would have undermined much of the expected return from the investment.",
+      "markdown": "Electronic lodgement took several years to become the default. LINZ trained users, changed fees, released additional functionality and worked with the New Zealand Law Society, the New Zealand Institute of Surveyors and other professional groups. Consultation helped identify professional requirements and implementation problems. Surveyors and conveyancers were being asked to alter workflows that affected statutory rights and professional liability. Poor adoption would have left LINZ maintaining two complete channels indefinitely and would have undermined much of the expected return from the investment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2006 the government had decided that the remaining paper route would be phased out. Mandatory electronic lodgement was introduced in stages rather than on one date. Discharges of mortgages became compulsory electronically in May 2007, followed by major categories of routine title dealing. All cadastral survey datasets had to be lodged electronically from September 2007. The last categories of title transaction handled by lawyers and conveyancers became compulsory through Landonline in February 2009.",
+      "markdown": "By 2006 the government had decided that the remaining paper route would be phased out. Mandatory electronic lodgement was introduced in stages rather than on one date. Discharges of mortgages became compulsory electronically in May 2007, followed by major categories of routine title dealing. All cadastral survey datasets had to be lodged electronically from September 2007. The last categories of title transaction handled by lawyers and conveyancers became compulsory through Landonline in February 2009.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Compulsion changed the organisation behind the service. Once most work arrived electronically, LINZ could consolidate processing and reduce public counters built around paper. Public counters in Auckland, Wellington and Dunedin closed in early 2009, while processing was concentrated into fewer offices. Staff roles changed as routine handling and re-keying declined and more work centred on exception processing, quality, support and system administration. The same technology that let customers work nationally also allowed LINZ to reorganise where its own work was done.",
+      "markdown": "Compulsion changed the organisation behind the service. Once most work arrived electronically, LINZ could consolidate processing and reduce public counters built around paper. Public counters in Auckland, Wellington and Dunedin closed in early 2009, while processing was concentrated into fewer offices. Staff roles changed as routine handling and re-keying declined and more work centred on exception processing, quality, support and system administration. The same technology that let customers work nationally also allowed LINZ to reorganise where its own work was done.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Professionals experienced the transition differently. Earlier branch closures had already raised concerns about losing local access to historical paper records, including concerns from Māori communities where land history depended on material not fully represented in the new electronic system. LINZ considered copying or preserving records that fell outside the normal conversion scope. The conversion covered operational records and left parts of the wider archive undigitised. A system can become more accessible for routine national business while particular local histories become harder to encounter.",
+      "markdown": "Professionals experienced the transition differently. Earlier branch closures had already raised concerns about losing local access to historical paper records, including concerns from Māori communities where land history depended on material not fully represented in the new electronic system. LINZ considered copying or preserving records that fell outside the normal conversion scope. The conversion covered operational records and left parts of the wider archive undigitised. A system can become more accessible for routine national business while particular local histories become harder to encounter.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The long coexistence of paper and electronic channels helps explain why the programme's benefits were slow to become fully visible. Running two channels meant maintaining two sets of procedures, staff knowledge and exception handling. Users who stayed with paper could avoid some immediate change costs, but LINZ could not remove the infrastructure that supported them. The expected financial benefits depended increasingly on professionals using electronic transactions. Mandatory lodgement was the final organisational step needed to turn an optional digital service into the default national operating model.",
+      "markdown": "The long coexistence of paper and electronic channels helps explain why the programme's benefits were slow to become fully visible. Running two channels meant maintaining two sets of procedures, staff knowledge and exception handling. Users who stayed with paper could avoid some immediate change costs, but LINZ could not remove the infrastructure that supported them. The expected financial benefits depended increasingly on professionals using electronic transactions. Mandatory lodgement was the final organisational step needed to turn an optional digital service into the default national operating model.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

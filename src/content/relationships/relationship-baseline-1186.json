@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1186",
+  "a": "system:auckland-gfmo",
+  "b": "chapter:35",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

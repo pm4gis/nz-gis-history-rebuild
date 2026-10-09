@@ -1,0 +1,46 @@
+{
+  "id": "2011-christchurch-earthquake",
+  "dateDisplay": "2011-02",
+  "startDate": "2011-02",
+  "datePrecision": "month",
+  "year": 2011,
+  "label": "Christchurch earthquake drives rapid geospatial response",
+  "summary": "The Canterbury earthquake exposed the need to combine official, volunteer, imagery and operational spatial information quickly.",
+  "url": "/stories/the-real-time-map/#canterbury-exposes-the-gaps-617f32c44a",
+  "passageIds": [
+    "passage:chapter-42-617f32c44a"
+  ],
+  "recordIds": [
+    "chapter:42",
+    "entity:canterbury-regional-council-environment-canterbury",
+    "entity:christchurch-city-council",
+    "entity:eagle-technology",
+    "entity:earth-cubed",
+    "entity:trade-me",
+    "entity:tauranga-city-council",
+    "person:jithen-singh",
+    "person:justin-fail",
+    "person:kim-ollivier",
+    "person:martin-erasmuson",
+    "person:stephen-ferriss",
+    "person:dave-loubser",
+    "person:iain-campion",
+    "person:mark-thompson"
+  ],
+  "themeIds": [],
+  "categories": [
+    "emergency",
+    "web",
+    "imagery"
+  ],
+  "sources": [
+    {
+      "label": "Beehive, Important boost for Canterbury rebuild, 16 November 2012",
+      "url": "https://www.beehive.govt.nz/release/important-boost-canterbury-rebuild"
+    },
+    {
+      "label": "Beehive, Canterbury SDI programme delivering benefits, 31 July 2013",
+      "url": "https://www.beehive.govt.nz/release/canterbury-sdi-programme-delivering-benefits"
+    }
+  ]
+}

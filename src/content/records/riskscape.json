@@ -1,0 +1,24 @@
+{
+  "id": "system:riskscape",
+  "slug": "riskscape",
+  "name": "RiskScape",
+  "kind": "Technology",
+  "category": "Technology",
+  "url": "/systems/riskscape/",
+  "story": [
+    "LINZ’s geospatial capability material records RiskScape in the national capability network. 2021 Brown Bag presentation records RiskScape risk modelling and RiskScape 2.0 open-source development."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Brown Bag Resilience Series presentations",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/brown-bag-resilience-series-presentations"
+    }
+  ],
+  "aliases": [
+    "RiskScape"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

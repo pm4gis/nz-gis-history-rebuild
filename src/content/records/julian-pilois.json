@@ -1,0 +1,35 @@
+{
+  "id": "person:julian-pilois",
+  "slug": "julian-pilois",
+  "name": "Julian Pilois",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/julian-pilois/",
+  "story": [
+    "At the 2018 New Zealand Esri User Conference, Julian Pilois presented “Beneath the Eagle’s Wing”; in 2019, he presented a two-part update on ArcGIS Online. Those sessions covered new capabilities in mapping, web applications, 3D, data management and administration for New Zealand practitioners."
+  ],
+  "sources": [
+    {
+      "label": "NZ Esri User Conference programme, 2019",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+    },
+    {
+      "label": "Julian Pilois - Esri UK | LinkedIn · public profile",
+      "url": "https://uk.linkedin.com/in/julianpilois"
+    }
+  ],
+  "aliases": [
+    "Julian Pilois"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "NZ Esri User Conference programme, 2019",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%20_Programme_V3.pdf"
+      }
+    ]
+  ]
+}

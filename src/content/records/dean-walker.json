@@ -1,0 +1,42 @@
+{
+  "id": "person:dean-walker",
+  "slug": "dean-walker",
+  "name": "Dean Walker",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/dean-walker/",
+  "story": [
+    "Dean Walker co-authored the May 2005 report on developing and using GIS for iwi and hapū in the Motueka catchment with Garth Harmsworth and Mick Park. The report documents collaborative work on Māori knowledge, environmental information and GIS within integrated catchment management.",
+    "Garth Harmsworth, Mick Park and Dean Walker’s 2005 Motueka case study described Explore Tasman as a comprehensive, read-only council intranet GIS. It held maintained resource, administrative, property, aerial and base information; approved outside users could connect over the internet using a static IP address. The report noted slow access without broadband and limited printing, querying and analysis. For Motueka iwi resource-management practitioners, the viewer provided background information and could avoid buying duplicate base data."
+  ],
+  "sources": [
+    {
+      "label": "Garth Harmsworth, Mick Park and Dean Walker, Report on the development and use of GIS for iwi and hapū: Motueka case study, May 2005",
+      "url": "https://icm.landcareresearch.co.nz/knowledgebase/publications/documents/FinalMay2005ICMMaoriGISreport.pdf"
+    },
+    {
+      "label": "Chapter 23 · Tasman shares council GIS",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Dean Walker"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Garth Harmsworth, Mick Park and Dean Walker, Report on the development and use of GIS for iwi and hapū: Motueka case study, May 2005",
+        "url": "https://icm.landcareresearch.co.nz/knowledgebase/publications/documents/FinalMay2005ICMMaoriGISreport.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · Tasman shares council GIS",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-28-7fcb4d2517",
+  "slug": "place-time-and-repeat-victimisation-7fcb4d2517",
+  "articleId": "article:chapter-28",
+  "title": "Place, time and repeat victimisation",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Repeat locations were particularly well suited to spatial analysis. An address that had generated several call-outs in a given period could be identified as a repeated operational demand rather than appearing as separate incidents in separate reports. An area with many recorded offences could also be distinguished from a place where fewer offences involved greater harm. Those distinctions would become more formal in later Police analysis, but the underlying problem was already present in MAPS: counts, concentration, recurrence and severity describe different aspects of crime.",
+      "markdown": "Repeat locations were particularly well suited to spatial analysis. An address that had generated several call-outs in a given period could be identified as a repeated operational demand rather than appearing as separate incidents in separate reports. An area with many recorded offences could also be distinguished from a place where fewer offences involved greater harm. Those distinctions would become more formal in later Police analysis, but the underlying problem was already present in MAPS: counts, concentration, recurrence and severity describe different aspects of crime.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2001 audit also records the organisational requirements behind the software. Effective use depended on continuous input of current incident information, skilled intelligence staff and co-operation from patrol and other operational personnel. Reports had to be complete enough for analysis, and analysts needed feedback about whether the products they supplied were useful. The map could reveal patterns only to the extent that operational recording placed reliable information behind the coordinates.",
+      "markdown": "The 2001 audit also records the organisational requirements behind the software. Effective use depended on continuous input of current incident information, skilled intelligence staff and co-operation from patrol and other operational personnel. Reports had to be complete enough for analysis, and analysts needed feedback about whether the products they supplied were useful. The map could reveal patterns only to the extent that operational recording placed reliable information behind the coordinates.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Geocoding had become part of Police business process rather than a back-office technical detail. The later practitioner history records that early geocoding within the National Intelligence Application succeeded for only about half of records. Police changed data-entry requirements so crime locations were captured more structurally. Later geocoding was estimated at roughly 75 to 80 per cent. Improving the map therefore required changes at the point where an officer or staff member recorded the event.",
+      "markdown": "Geocoding had become part of Police business process rather than a back-office technical detail. The later practitioner history records that early geocoding within the National Intelligence Application succeeded for only about half of records. Police changed data-entry requirements so crime locations were captured more structurally. Later geocoding was estimated at roughly 75 to 80 per cent. Improving the map therefore required changes at the point where an officer or staff member recorded the event.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

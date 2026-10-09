@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1997",
+  "a": "person:david-medyckyj-scott",
+  "b": "chapter:21",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-21-71400a2800"
+  ],
+  "sources": []
+}

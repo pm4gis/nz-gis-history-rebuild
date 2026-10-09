@@ -1,0 +1,27 @@
+{
+  "id": "passage:chapter-43-deb256c7e5",
+  "slug": "models-without-typing-everything-deb256c7e5",
+  "articleId": "article:chapter-43",
+  "title": "Models without typing everything",
+  "order": 2,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Practitioners also built reusable workflows through graphical tools. Graphical processing models allowed users to connect tools as a sequence, pass the output of one operation into the next and expose selected parameters for later runs. A practitioner could formalise a repeatable process without becoming a full-time software developer, and the model itself could show colleagues how the steps were connected.",
+      "markdown": "Practitioners also built reusable workflows through graphical tools. Graphical processing models allowed users to connect tools as a sequence, pass the output of one operation into the next and expose selected parameters for later runs. A practitioner could formalise a repeatable process without becoming a full-time software developer, and the model itself could show colleagues how the steps were connected.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Graphical models also required maintenance. A large workflow can become as opaque as a badly documented script, especially when expressions, SQL, embedded code or assumptions about file locations accumulate inside it. By the 2000s and 2010s GIS software increasingly gave practitioners several ways to turn manual analysis into a reusable process, from code to visual models to database logic.",
+      "markdown": "Graphical models also required maintenance. A large workflow can become as opaque as a badly documented script, especially when expressions, SQL, embedded code or assumptions about file locations accumulate inside it. By the 2000s and 2010s GIS software increasingly gave practitioners several ways to turn manual analysis into a reusable process, from code to visual models to database logic.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1173",
+  "a": "system:docgis",
+  "b": "chapter:26",
+  "label": "Discussed in chapter",
+  "basis": "Existing chapter association",
+  "passageIds": [],
+  "sources": []
+}

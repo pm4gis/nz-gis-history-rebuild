@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-11-e05808ff57",
+  "slug": "publishing-a-new-field-e05808ff57",
+  "articleId": "article:chapter-11",
+  "title": "Publishing a new field",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:11"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A research field also needs places where work can be recorded. SIRC proceedings became one such archive, but they sat beside journals and professional publications rather than replacing them. Hawke's teaching work appeared in the International Journal of Geographical Information Systems. Canterbury data-interchange research appeared in the New Zealand Geographer, the New Zealand Journal of Computing and an international GIS journal. The same spatial problem could therefore be read by geographers, computer scientists and GIS specialists through different publication channels.",
+      "markdown": "A research field also needs places where work can be recorded. SIRC proceedings became one such archive, but they sat beside journals and professional publications rather than replacing them. Hawke's teaching work appeared in the International Journal of Geographical Information Systems. Canterbury data-interchange research appeared in the New Zealand Geographer, the New Zealand Journal of Computing and an international GIS journal. The same spatial problem could therefore be read by geographers, computer scientists and GIS specialists through different publication channels.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand's specialist cartographic literature was changing at the same time. The New Zealand Cartographic Journal ran to 1990, and its successor from 1991 carried the title New Zealand Cartography and Geographic Information Systems. The journal brought cartographic and GIS work into the same publication. Universities were teaching and researching GIS while cartographers were debating how computer mapping and GIS affected established practice.",
+      "markdown": "New Zealand's specialist cartographic literature was changing at the same time. The New Zealand Cartographic Journal ran to 1990, and its successor from 1991 carried the title New Zealand Cartography and Geographic Information Systems. The journal brought cartographic and GIS work into the same publication. Universities were teaching and researching GIS while cartographers were debating how computer mapping and GIS affected established practice.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The resulting literature was fragmented by modern standards. A useful idea might first appear in a colloquium paper, return in a thesis, then be developed in a journal article or an operational project. SIRC's recurring proceedings are valuable because they preserve early stages that conventional journal databases often miss. Students and researchers used conference volumes, software documentation and journals from several disciplines.",
+      "markdown": "The resulting literature was fragmented by modern standards. A useful idea might first appear in a colloquium paper, return in a thesis, then be developed in a journal article or an operational project. SIRC's recurring proceedings are valuable because they preserve early stages that conventional journal databases often miss. Students and researchers used conference volumes, software documentation and journals from several disciplines.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

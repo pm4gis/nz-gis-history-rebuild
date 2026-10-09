@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-4-e9b8032a50",
+  "slug": "landsat-arrives-e9b8032a50",
+  "articleId": "article:chapter-4",
+  "title": "Landsat arrives",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "imagery"
+  ],
+  "recordIds": [
+    "chapter:4",
+    "person:mervyn-c-probine"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In October 1975, the Department of Scientific and Industrial Research’s Physics and Engineering Laboratory in Lower Hutt received a Landsat II scene of New Zealand for the organised national investigation programme. Dr M. C. Probine was the principal investigator, with the Remote Sensing Section handling much of the technical work. The programme reports treat this as the start of the formal Landsat II investigation, although an earlier Landsat-1 scene of Canterbury, recorded on 7 December 1973, was later forwarded to DSIR. Satellite imagery had already been collected before the national programme began. By late 1975, however, PEL had a continuing programme for receiving, processing and distributing Landsat data.",
+      "markdown": "In October 1975, the Department of Scientific and Industrial Research’s Physics and Engineering Laboratory in Lower Hutt received a Landsat II scene of New Zealand for the organised national investigation programme. Dr M. C. Probine was the principal investigator, with the Remote Sensing Section handling much of the technical work. The programme reports treat this as the start of the formal Landsat II investigation, although an earlier Landsat-1 scene of Canterbury, recorded on 7 December 1973, was later forwarded to DSIR. Satellite imagery had already been collected before the national programme began. By late 1975, however, PEL had a continuing programme for receiving, processing and distributing Landsat data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The material arrived as computer-compatible magnetic tape rather than as a finished map. Landsat’s multispectral scanner recorded reflected energy in several wavelength bands and stored the measurements as a regular grid. Each cell represented an area on the ground and carried numerical values for the sensor bands. The data could be processed before any image was printed or displayed. This differed from conventional aerial photography, where the photograph itself was normally the primary object and later measurements were derived from it.",
+      "markdown": "The material arrived as computer-compatible magnetic tape rather than as a finished map. Landsat’s multispectral scanner recorded reflected energy in several wavelength bands and stored the measurements as a regular grid. Each cell represented an area on the ground and carried numerical values for the sensor bands. The data could be processed before any image was printed or displayed. This differed from conventional aerial photography, where the photograph itself was normally the primary object and later measurements were derived from it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "PEL staff therefore worked with raster data before raster GIS became routine software. The grid structure allowed programs to alter contrast, compare bands, remove known sensor effects, group similar values and register one scene against another. The output could still be a map or colour image, but the processing was applied to the stored measurements rather than to a photographic print. Forestry, agriculture, snow studies, land evaluation and other applications could use different combinations of the same source bands. The same scene could produce several derived products without changing the original tape.",
+      "markdown": "PEL staff therefore worked with raster data before raster GIS became routine software. The grid structure allowed programs to alter contrast, compare bands, remove known sensor effects, group similar values and register one scene against another. The output could still be a map or colour image, but the processing was applied to the stored measurements rather than to a photographic print. Forestry, agriculture, snow studies, land evaluation and other applications could use different combinations of the same source bands. The same scene could produce several derived products without changing the original tape.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-30-b0e252e929",
+  "slug": "the-map-leaves-the-counter-b0e252e929",
+  "articleId": "article:chapter-30",
+  "title": "The map leaves the counter",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30",
+    "entity:hutt-city-council",
+    "entity:upper-hutt-city-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Upper Hutt City Council’s XPLORER provides a well-documented early example of a council public viewer. Before the online service, the process was simple but inconvenient: visit the council and ask for a paper “property packet”. That was especially awkward in a city where a large proportion of residents worked elsewhere and had to fit council visits around working hours. The council wanted property and rates information to be available without requiring a trip to the counter. The web map was therefore solving an ordinary civic nuisance as much as a technical GIS problem.",
+      "markdown": "Upper Hutt City Council’s XPLORER provides a well-documented early example of a council public viewer. Before the online service, the process was simple but inconvenient: visit the council and ask for a paper “property packet”. That was especially awkward in a city where a large proportion of residents worked elsewhere and had to fit council visits around working hours. The council wanted property and rates information to be available without requiring a trip to the counter. The web map was therefore solving an ordinary civic nuisance as much as a technical GIS problem.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "From February 2003, council-held property information was available online through XPLORER. The service included land information and aerial photography. A United Nations e-government case study later reported about 26,000 map downloads a month and described reduced in-person enquiries as staff directed users towards the website. Residents were obtaining council information online instead of visiting the office.",
+      "markdown": "From February 2003, council-held property information was available online through XPLORER. The service included land information and aerial photography. A United Nations e-government case study later reported about 26,000 map downloads a month and described reduced in-person enquiries as staff directed users towards the website. Residents were obtaining council information online instead of visiting the office.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "XPLORER turned part of the council’s information service into self-service. A resident could locate a property and inspect selected information directly instead of relying on staff to assemble and explain a paper packet. The council still had to maintain the records, the spatial data and the application, but part of the search work moved to the user. The map became part of service delivery.",
+      "markdown": "XPLORER turned part of the council’s information service into self-service. A resident could locate a property and inspect selected information directly instead of relying on staff to assemble and explain a paper packet. The council still had to maintain the records, the spatial data and the application, but part of the search work moved to the user. The map became part of service delivery.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By early 2003, Upper Hutt’s public web GIS was handling enough enquiries to change routine customer contact.",
+      "markdown": "By early 2003, Upper Hutt’s public web GIS was handling enough enquiries to change routine customer contact.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

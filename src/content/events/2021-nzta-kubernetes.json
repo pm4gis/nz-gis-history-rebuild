@@ -1,0 +1,32 @@
+{
+  "id": "2021-nzta-kubernetes",
+  "dateDisplay": "2021",
+  "startDate": "2021",
+  "datePrecision": "year",
+  "year": 2021,
+  "label": "NZTA implements ArcGIS Enterprise on Kubernetes",
+  "summary": "NZTA and Eagle developed a governed hub-and-spoke spatial-as-a-service platform.",
+  "url": "/stories/enterprise-gis/#nzta-moves-to-kubernetes-2ad50c26cf",
+  "passageIds": [
+    "passage:chapter-40-2ad50c26cf"
+  ],
+  "recordIds": [
+    "chapter:40",
+    "entity:nz-transport-agency-waka-kotahi",
+    "person:jithen-singh",
+    "person:peter-willoughby"
+  ],
+  "themeIds": [],
+  "categories": [
+    "enterprise",
+    "software",
+    "transport",
+    "cloud"
+  ],
+  "sources": [
+    {
+      "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1987",
+  "a": "person:r-g-gibb",
+  "b": "chapter:30",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-30-1ac44c5733"
+  ],
+  "sources": []
+}

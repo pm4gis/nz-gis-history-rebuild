@@ -1,0 +1,48 @@
+{
+  "id": "passage:chapter-29-0e41912671",
+  "slug": "geospatial-capability-becomes-a-programme-0e41912671",
+  "articleId": "article:chapter-29",
+  "title": "Geospatial capability becomes a programme",
+  "order": 9,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:29"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the 2010s, LINZ was treating geospatial capability as a programme in its own right. Its work reached from schools and tertiary study into professional networks, career promotion and practitioner training. By 2017 the Geospatial Capability Committee was publicly setting goals around career recognition, school exposure, tertiary pathways, young professionals, Māori participation, women in senior roles and the wider skills shortage. Grow GIS NZ provided a public channel for this work, while the LINZ groups directory connected practitioners with networks including Emerging Spatial Professionals, GEMA, the local-government geospatial group, the New Zealand Esri Users Group, conservation GIS, LocationTech, Maptime, OSGeo Oceania, Survey and Spatial NZ, Te Kāhui Manu Hōkai, WaiGIS and Women in Spatial + Survey.",
+      "markdown": "By the 2010s, LINZ was treating geospatial capability as a programme in its own right. Its work reached from schools and tertiary study into professional networks, career promotion and practitioner training. By 2017 the Geospatial Capability Committee was publicly setting goals around career recognition, school exposure, tertiary pathways, young professionals, Māori participation, women in senior roles and the wider skills shortage. Grow GIS NZ provided a public channel for this work, while the LINZ groups directory connected practitioners with networks including Emerging Spatial Professionals, GEMA, the local-government geospatial group, the New Zealand Esri Users Group, conservation GIS, LocationTech, Maptime, OSGeo Oceania, Survey and Spatial NZ, Te Kāhui Manu Hōkai, WaiGIS and Women in Spatial + Survey.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The programme also developed its own recurring activities. LINZ-sponsored LEARNZ virtual field trips introduced school students to GIS, mapping, positioning, drones, hazards, climate change, place names and seabed mapping from 2012 onward. The GIS in Schools programme provided free ArcGIS Online access from March 2017, with Eagle Technology and teachers producing NCEA-aligned lessons. GeoBites added short technical webinars for working practitioners, and Ngā Poutama Matawhenua built a sustained practical Māori GIS wānanga programme. The 2023 and 2025 Geospatial Industry Profile Surveys then gave the sector a recurring workforce baseline rather than relying only on anecdotes about skills shortages.",
+      "markdown": "The programme also developed its own recurring activities. LINZ-sponsored LEARNZ virtual field trips introduced school students to GIS, mapping, positioning, drones, hazards, climate change, place names and seabed mapping from 2012 onward. The GIS in Schools programme provided free ArcGIS Online access from March 2017, with Eagle Technology and teachers producing NCEA-aligned lessons. GeoBites added short technical webinars for working practitioners, and Ngā Poutama Matawhenua built a sustained practical Māori GIS wānanga programme. The 2023 and 2025 Geospatial Industry Profile Surveys then gave the sector a recurring workforce baseline rather than relying only on anecdotes about skills shortages.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial capability",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2026 Geospatial Capability Committee membership lists Clay Byrne, Mairéad de Róiste, Geoff O’Malley, Kat Salm, Deanna Teao, Chris Morris, Adrian Patchett, Brendon Robertson, Holden Hohaia, Nathan Heazlewood, Duane Wilkins, Jasmin Callosa-Tarr. LINZ’s geospatial-industry career profiles also name Boris Kirov, Erica Black, Jana Kaeppler, Scott Tansley, Trish Merz.",
+      "markdown": "The 2026 Geospatial Capability Committee membership lists Clay Byrne, Mairéad de Róiste, Geoff O’Malley, Kat Salm, Deanna Teao, Chris Morris, Adrian Patchett, Brendon Robertson, Holden Hohaia, Nathan Heazlewood, Duane Wilkins, Jasmin Callosa-Tarr. LINZ’s geospatial-industry career profiles also name Boris Kirov, Erica Black, Jana Kaeppler, Scott Tansley, Trish Merz.",
+      "sources": [
+        {
+          "label": "LINZ, Geospatial Capability Committee",
+          "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

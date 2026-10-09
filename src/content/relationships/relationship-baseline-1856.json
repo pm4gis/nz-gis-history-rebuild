@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1856",
+  "a": "person:sarah-mehrtens",
+  "b": "chapter:21",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-21-60a9e07f1c"
+  ],
+  "sources": []
+}

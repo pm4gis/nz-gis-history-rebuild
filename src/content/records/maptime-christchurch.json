@@ -1,0 +1,24 @@
+{
+  "id": "entity:maptime-christchurch",
+  "slug": "maptime-christchurch",
+  "name": "Maptime Christchurch",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/maptime-christchurch/",
+  "story": [
+    "Maptime Christchurch is a GIS, cartography and OpenStreetMap meetup listed in LINZ’s directory of national geospatial groups. Its Christchurch focus offers a local entry point for people to learn about maps and collaborative spatial tools."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "Maptime Christchurch"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

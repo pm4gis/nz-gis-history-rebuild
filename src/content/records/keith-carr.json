@@ -1,0 +1,42 @@
+{
+  "id": "person:keith-carr",
+  "slug": "keith-carr",
+  "name": "Keith Carr",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/keith-carr/",
+  "story": [
+    "Keith Carr wrote The Implementation of GIS in New Zealand for the 1988 ESCAP workshop report. His contemporary account described the established New Zealand Land Resource Inventory, purpose-built vector GIS and the wider use of spatial technology. The paper provides a record of how a New Zealand practitioner described the field before the 1989 Wellington GIS conference.",
+    "Keith Carr’s 1988 ESCAP workshop paper “The Implementation of GIS in New Zealand” described an existing national resource database, digital cadastral work, remote-sensing activity and growing use of commercial systems. Carr used the term GIS for this work before the 1989 Wellington conference."
+  ],
+  "sources": [
+    {
+      "label": "Keith Carr, Implementation of GIS in New Zealand, ESCAP GIS workshop report",
+      "url": "https://repository.unescap.org/bitstream/handle/20.500.12870/7966/ESCAP-1988-RP-GIS-geographic-information-systems.pdf"
+    },
+    {
+      "label": "Chapter 6 · A field described from New Zealand",
+      "url": "/stories/when-gis-became-gis/"
+    }
+  ],
+  "aliases": [
+    "Keith Carr"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Keith Carr, Implementation of GIS in New Zealand, ESCAP GIS workshop report",
+        "url": "https://repository.unescap.org/bitstream/handle/20.500.12870/7966/ESCAP-1988-RP-GIS-geographic-information-systems.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 6 · A field described from New Zealand",
+        "url": "/stories/when-gis-became-gis/"
+      }
+    ]
+  ]
+}

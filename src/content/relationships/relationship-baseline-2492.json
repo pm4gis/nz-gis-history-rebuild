@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-2492",
+  "a": "person:elaine-mcalister",
+  "b": "chapter:29",
+  "label": "Discussed in chapter",
+  "basis": "Reconciled from existing chapter metadata in the 7 October 2026 entity-gap cleanup.",
+  "passageIds": [
+    "passage:chapter-29-71ae35ecbd"
+  ],
+  "sources": []
+}

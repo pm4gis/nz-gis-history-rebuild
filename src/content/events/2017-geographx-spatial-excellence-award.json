@@ -1,0 +1,27 @@
+{
+  "id": "2017-geographx-spatial-excellence-award",
+  "dateDisplay": "2017",
+  "startDate": "2017",
+  "datePrecision": "year",
+  "year": 2017,
+  "label": "Roger Smith receives a Spatial Excellence award",
+  "summary": "The award recognised Smith’s contribution to New Zealand’s spatial and cartographic community.",
+  "url": "/stories/from-flat-maps-to-3d/#terrain-becomes-data-44fef5297f",
+  "passageIds": [
+    "passage:chapter-39-44fef5297f"
+  ],
+  "recordIds": [
+    "entity:geographx",
+    "person:roger-smith",
+    "chapter:39",
+    "entity:tasman-district-council",
+    "entity:fox-and-associates"
+  ],
+  "themeIds": [],
+  "categories": [
+    "cartography",
+    "award",
+    "professional-community"
+  ],
+  "sources": []
+}

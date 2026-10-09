@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-37-d3f659379a",
+  "slug": "water-finds-the-low-places-d3f659379a",
+  "articleId": "article:chapter-37",
+  "title": "Water finds the low places",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:37"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "North Shore City used LiDAR in an early operational workflow. A LiDAR survey flown in 2004 was used to create a digital terrain model with 2 metre grid nodes. From 2005, the council and its consultants used that surface with MIKE 21 hydraulic modelling to identify overland flow paths across the city. During the summer of 2005/06, field work was used to inspect and verify the modelled paths. The resulting information was then attached to property information and made available through the council's GIS environment.",
+      "markdown": "North Shore City used LiDAR in an early operational workflow. A LiDAR survey flown in 2004 was used to create a digital terrain model with 2 metre grid nodes. From 2005, the council and its consultants used that surface with MIKE 21 hydraulic modelling to identify overland flow paths across the city. During the summer of 2005/06, field work was used to inspect and verify the modelled paths. The resulting information was then attached to property information and made available through the council's GIS environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The North Shore workflow linked laser survey, terrain modelling, hydraulic modelling, field verification and corporate GIS. Each stage turned the preceding output into something more directly related to a council decision. The elevation model helped predict where stormwater would travel when the piped network was exceeded. Field staff checked whether the model corresponded with the real city. GIS then made the resulting flow paths available alongside cadastre, roads, stormwater assets, aerial imagery and other council information.",
+      "markdown": "The North Shore workflow linked laser survey, terrain modelling, hydraulic modelling, field verification and corporate GIS. Each stage turned the preceding output into something more directly related to a council decision. The elevation model helped predict where stormwater would travel when the piped network was exceeded. Field staff checked whether the model corresponded with the real city. GIS then made the resulting flow paths available alongside cadastre, roads, stormwater assets, aerial imagery and other council information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Flood modelling required manual corrections to the terrain model. A later Auckland remapping project using 2016/17 LiDAR created a one-metre terrain model and still required thousands of manual adjustments to represent features that affected water movement. Kerbs, walls, culverts, underpasses and other structures can determine whether water crosses a surface in reality even when the raw elevation model indicates another path. A bare-earth surface is a model of the landscape rather than the landscape itself. Flood modelling depends on how that surface has been edited as much as on the density of the original point cloud.",
+      "markdown": "Flood modelling required manual corrections to the terrain model. A later Auckland remapping project using 2016/17 LiDAR created a one-metre terrain model and still required thousands of manual adjustments to represent features that affected water movement. Kerbs, walls, culverts, underpasses and other structures can determine whether water crosses a surface in reality even when the raw elevation model indicates another path. A bare-earth surface is a model of the landscape rather than the landscape itself. Flood modelling depends on how that surface has been edited as much as on the density of the original point cloud.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LiDAR changed GIS practice most clearly at this point. It allowed councils to begin with a detailed measured terrain rather than construct every local height relationship from field survey or sparse elevation sources. That moved effort rather than eliminating it. Staff could spend more time interpreting flow routes, fixing model barriers and assessing consequences. The technology supplied a richer starting surface, while professional judgement remained necessary to turn it into a defensible model.",
+      "markdown": "LiDAR changed GIS practice most clearly at this point. It allowed councils to begin with a detailed measured terrain rather than construct every local height relationship from field survey or sparse elevation sources. That moved effort rather than eliminating it. Staff could spend more time interpreting flow routes, fixing model barriers and assessing consequences. The technology supplied a richer starting surface, while professional judgement remained necessary to turn it into a defensible model.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

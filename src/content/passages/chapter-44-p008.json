@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-44-8b4cf52f29",
+  "slug": "research-and-production-8b4cf52f29",
+  "articleId": "article:chapter-44",
+  "title": "Research and production",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:44"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of 2025, the phrase \"using AI\" covered too many different conditions to be historically useful on its own. LUCAS had deep-learning methods embedded within a completed national mapping project that supported formal greenhouse-gas reporting. The GIScience multimodal work was a peer-reviewed research experiment with a proposed workflow and clearly documented limitations. The historical-map georeferencing algorithm had been tested at large scale but remained research. The FOSS4G Auckland programme showed professional experimentation and product development. These are all legitimate parts of the history, but they are not equivalent stages of adoption.",
+      "markdown": "By the end of 2025, the phrase \"using AI\" covered too many different conditions to be historically useful on its own. LUCAS had deep-learning methods embedded within a completed national mapping project that supported formal greenhouse-gas reporting. The GIScience multimodal work was a peer-reviewed research experiment with a proposed workflow and clearly documented limitations. The historical-map georeferencing algorithm had been tested at large scale but remained research. The FOSS4G Auckland programme showed professional experimentation and product development. These are all legitimate parts of the history, but they are not equivalent stages of adoption.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same caution applies to software capability. A commercial or open-source GIS package might expose a machine-learning tool, an AI service or a natural-language interface internationally. International availability alone provides no record of New Zealand use. An agency might issue a request for information about automatic feature extraction. A request for information records an investigation; a subsequent deployment requires separate documentation.",
+      "markdown": "The same caution applies to software capability. A commercial or open-source GIS package might expose a machine-learning tool, an AI service or a natural-language interface internationally. International availability alone provides no record of New Zealand use. An agency might issue a request for information about automatic feature extraction. A request for information records an investigation; a subsequent deployment requires separate documentation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Earlier systems retain the terminology and technical context of their own period. Expert systems from 1989 belong to the AI lineage and differ fundamentally from large language models. Random Forest classification is machine learning, while generative AI is a different category. A Python script that extracts features according to explicit rules is automation. A language model that writes that Python script is an AI-assisted development tool, while the resulting workflow may remain deterministic.",
+      "markdown": "Earlier systems retain the terminology and technical context of their own period. Expert systems from 1989 belong to the AI lineage and differ fundamentally from large language models. Random Forest classification is machine learning, while generative AI is a different category. A Python script that extracts features according to explicit rules is automation. A language model that writes that Python script is an AI-assisted development tool, while the resulting workflow may remain deterministic.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The production boundary is also porous. Research methods can later become operational tools, and operational teams routinely borrow methods that began in universities. New Zealand's GIS history contains many examples of this movement, from university GIS teaching and SIRC research through remote sensing, web mapping and open-source development. The endpoint simply catches several AI-related methods at different positions along that path. Some were established enough to contribute to national production. Others were still being tested against the geography they were meant to understand.",
+      "markdown": "The production boundary is also porous. Research methods can later become operational tools, and operational teams routinely borrow methods that began in universities. New Zealand's GIS history contains many examples of this movement, from university GIS teaching and SIRC research through remote sensing, web mapping and open-source development. The endpoint simply catches several AI-related methods at different positions along that path. Some were established enough to contribute to national production. Others were still being tested against the geography they were meant to understand.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "person:igor-drecki",
+  "slug": "igor-drecki",
+  "name": "Igor Drecki",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/igor-drecki/",
+  "website": null,
+  "story": [
+    "Igor Drecki (1966–2023) was a cartographer whose New Zealand career included Wises Publications, Bay of Plenty Regional Council, the University of Auckland and the Alexander Turnbull Library. At the University of Auckland he led cartographic and geospatial work, including development of the Geodata Hub and digitisation of New Zealand maps.",
+    "He served as president of the New Zealand Cartographic Society from 2013 to 2018 and edited ICA News from 2007 to 2023. His work connected New Zealand cartography with GIS, digital map collections and the International Cartographic Association."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Cartographic Society, Remembering Igor Drecki",
+      "url": "https://ghtest.cartography.org.nz/igordrecki"
+    },
+    {
+      "label": "University of Auckland, farewell to Igor Drecki, 2021",
+      "url": "https://p-cubed.blogs.auckland.ac.nz/2021/03/29/issue-52-monday-29th-march-2021/"
+    }
+  ],
+  "aliases": [
+    "Igor Drecki"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "coverageEnd": 2026,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

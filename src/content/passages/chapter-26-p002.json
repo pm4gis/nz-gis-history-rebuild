@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-26-0a1a08e6d9",
+  "slug": "species-records-1987-1993-0a1a08e6d9",
+  "articleId": "article:chapter-26",
+  "title": "Species records, 1987–1993",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26",
+    "person:geoff-patterson",
+    "person:duncan-cunningham",
+    "person:ross-pickard",
+    "person:dave-towns"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Geoff Patterson developed the Amphibian and Reptile Distribution Scheme in dBase II in 1987, when responsibility for it passed to DOC. Ross Pickard and Dave Towns produced maps published in 1988. Patterson and Duncan Cunningham developed a nationally available retrieval system called BIOSITE using Oracle in 1993.",
+      "sources": [
+        {
+          "label": "DOC, Amphibian and Reptile Distribution Scheme: database development chronology",
+          "url": "https://www.doc.govt.nz/our-work/reptiles-and-frogs-distribution/atlas/species-sightings-and-data-management/what-is-the-ard-scheme/"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The local work combined species observations, database design, application development and mapped outputs. The underlying database platforms came from overseas. The records continued through changes in the tools used to store and retrieve them, giving conservation staff a maintained body of information about where species had been observed.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

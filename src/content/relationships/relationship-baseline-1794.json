@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1794",
+  "a": "person:john-turnbull-thomson",
+  "b": "chapter:1",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-1-0170b9d0d6"
+  ],
+  "sources": []
+}

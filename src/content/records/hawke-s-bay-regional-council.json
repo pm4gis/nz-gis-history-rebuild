@@ -1,0 +1,31 @@
+{
+  "id": "entity:hawke-s-bay-regional-council",
+  "slug": "hawke-s-bay-regional-council",
+  "name": "Hawke's Bay Regional Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/hawke-s-bay-regional-council/",
+  "website": "https://www.hbrc.govt.nz",
+  "story": [
+    "Hawke’s Bay Regional Council used GIS and linked environmental databases for groundwater, river, hazard and resource-management work. The 2006 Heretaunga Steady-State Ground-Water Model credits named database and GIS contributors. The Hawke’s Bay Region GIS Forum reported its use of an Esri platform in 2008."
+  ],
+  "sources": [
+    {
+      "label": "NZEUG GISList discussion, The future of the NZ ESRI User Group Conference, including council and Hawke's Bay regional responses"
+    },
+    {
+      "label": "Hawke's Bay Regional Council, Heretaunga Steady-State Ground-Water Model, HBRC Plan 3765, prepared by Tom Brooks",
+      "url": "https://www.envirolink.govt.nz/assets/Envirolink/210-HBRC17.pdf"
+    }
+  ],
+  "aliases": [
+    "Hawke's Bay Regional Council"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "GIS account available",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,61 @@
+{
+  "id": "person:martin-roundill",
+  "slug": "martin-roundill",
+  "name": "Martin Roundill",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/martin-roundill/",
+  "story": [
+    "Martin Roundill's professional background includes more than thirty years in geospatial work for local and central government in New Zealand. His company biography describes experience across MapInfo, MapBasic, QGIS, MapServer and Esri products, together with asset-management integration. This wider technical range places the Waitakere GIS–Confirm connection in the book within a long career in council information systems.",
+    "Martin Roundill was Waitakere City Council’s GIS Manager in the 1999–2002 MapInfo-L correspondence. He described linking MapInfo to Confirm asset management through MapBasic and DDE, and sought help with an error associated with Access 97. Emtel’s company history later identifies him and Ethan Hohneck as its founders in July 2016, after working together at Waitakere.",
+    "In 2000 Waitakere City Council’s GIS Manager, Martin Roundill, described a MapBasic application that linked MapInfo to the Confirm asset-management system through DDE. When it began throwing a fatal internal error after users had installed or run Access 97, Roundill took the problem to the international MapInfo mailing list because the error was not documented and the council had run out of obvious places to look. His messages also show him swapping MapBasic solutions for data conversion, object creation and synchronised map windows. It was less a story of buying a finished corporate GIS than of keeping several pieces of software talking to one another with scripts, DLLs and whatever clues could be found from other practitioners."
+  ],
+  "sources": [
+    {
+      "label": "Martin Roundill, MapInfo-L message on Waitakere City Council MapInfo/Confirm integration and related MapBasic correspondence",
+      "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40lists.directionsmag.com&o=newest&q=subject%3A%22%5C%5BMI%5C-L%5C%5D+Error%22"
+    },
+    {
+      "label": "Emtel, Company history and Martin Roundill biography",
+      "url": "https://emtel.co.nz/company/"
+    },
+    {
+      "label": "Martin Roundill | emtel · career/profile reference",
+      "url": "https://emtel.co.nz/company/our-key-people/martin-roundill/"
+    },
+    {
+      "label": "Chapter 23 · Networks meet the ledger",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Martin Roundill"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Martin Roundill | emtel · career/profile reference",
+        "url": "https://emtel.co.nz/company/our-key-people/martin-roundill/"
+      }
+    ],
+    [
+      {
+        "label": "Martin Roundill, MapInfo-L message on Waitakere City Council MapInfo/Confirm integration and related MapBasic correspondence",
+        "url": "https://www.mail-archive.com/search?f=1&l=mapinfo-l%40lists.directionsmag.com&o=newest&q=subject%3A%22%5C%5BMI%5C-L%5C%5D+Error%22"
+      },
+      {
+        "label": "Emtel, Company history and Martin Roundill biography",
+        "url": "https://emtel.co.nz/company/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · Networks meet the ledger",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

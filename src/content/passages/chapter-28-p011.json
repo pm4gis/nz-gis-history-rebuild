@@ -1,0 +1,59 @@
+{
+  "id": "passage:chapter-28-87d97a67ca",
+  "slug": "police-data-goes-public-87d97a67ca",
+  "articleId": "article:chapter-28",
+  "title": "Police data goes public",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:28",
+    "entity:new-zealand-police",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "On 30 November 2016 Police launched policedata.nz, bringing another audience into the geographic information chain. The service provided interactive reports for partners, communities, researchers, media and other users who wanted to explore recorded crime data. Police described the reports as supporting planning, decision-making and policy development. The public service presented selected information through a separate interface.",
+      "markdown": "On 30 November 2016 Police launched policedata.nz, bringing another audience into the geographic information chain. The service provided interactive reports for partners, communities, researchers, media and other users who wanted to explore recorded crime data. Police described the reports as supporting planning, decision-making and policy development. The public service presented selected information through a separate interface.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The difference can be seen in the treatment of location and identity. Internal systems could contain detailed event records used for investigation, repeat-victim analysis and operational deployment. Public reports used anonymised information and disclosure controls. Police consulted Statistics New Zealand on official-statistics practice and the Office of the Privacy Commissioner on privacy issues. The service explicitly warned users not to attempt to re-identify people from released information.",
+      "markdown": "The difference can be seen in the treatment of location and identity. Internal systems could contain detailed event records used for investigation, repeat-victim analysis and operational deployment. Public reports used anonymised information and disclosure controls. Police consulted Statistics New Zealand on official-statistics practice and the Office of the Privacy Commissioner on privacy issues. The service explicitly warned users not to attempt to re-identify people from released information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Public geographic precision was therefore a policy choice as well as a technical one. A community needs enough location detail to understand patterns in its area, but publishing exact household-level victimisation can expose people. The current Police service excludes dwelling-based victimisations from some time-and-place public views, apart from burglary, while more complete information is handled through other controlled statistical products. The public map and the internal map answer different questions for different users.",
+      "markdown": "Public geographic precision was therefore a policy choice as well as a technical one. A community needs enough location detail to understand patterns in its area, but publishing exact household-level victimisation can expose people. The current Police service excludes dwelling-based victimisations from some time-and-place public views, apart from burglary, while more complete information is handled through other controlled statistical products. The public map and the internal map answer different questions for different users.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The technology also changed after launch. Police records that policedata.nz moved from Flash to HTML on 31 October 2017 so the reports could be used on a wider range of devices. Further mobile-friendly reporting followed in April 2018. The changes widened access to public crime information. By then browser delivery was ordinary infrastructure. The operational decision was to make selected, privacy-managed Police information broadly usable outside the organisation.",
+      "markdown": "The technology also changed after launch. Police records that policedata.nz moved from Flash to HTML on 31 October 2017 so the reports could be used on a wider range of devices. Further mobile-friendly reporting followed in April 2018. The changes widened access to public crime information. By then browser delivery was ordinary infrastructure. The operational decision was to make selected, privacy-managed Police information broadly usable outside the organisation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The public reporting environment also changed the meaning of a crime map. An internal analyst can work with precise records because the organisation has lawful operational reasons to hold them and access can be controlled. A public report has to assume a very different audience, including people who know the local area well enough to infer identities from small numbers or precise addresses. Aggregation, suppression and the choice of which records to expose are therefore part of the geography. Less spatial precision can be a feature rather than a defect when the purpose is public statistics rather than investigation.",
+      "markdown": "The public reporting environment also changed the meaning of a crime map. An internal analyst can work with precise records because the organisation has lawful operational reasons to hold them and access can be controlled. A public report has to assume a very different audience, including people who know the local area well enough to infer identities from small numbers or precise addresses. Aggregation, suppression and the choice of which records to expose are therefore part of the geography. Less spatial precision can be a feature rather than a defect when the purpose is public statistics rather than investigation.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Police’s launch material made the intended change clear. Before policedata.nz, Police said it had not had an effective way to present recorded crime data online in an easily accessible format. The new service brought five interactive reports together and allowed users to combine information about victims, offenders, time, place and other characteristics without identifying individuals. Data that had previously been distributed through Statistics New Zealand were moved into a Police-hosted reporting environment, with Statistics New Zealand continuing to advise on the production of official statistics.",
+      "markdown": "Police’s launch material made the intended change clear. Before policedata.nz, Police said it had not had an effective way to present recorded crime data online in an easily accessible format. The new service brought five interactive reports together and allowed users to combine information about victims, offenders, time, place and other characteristics without identifying individuals. Data that had previously been distributed through Statistics New Zealand were moved into a Police-hosted reporting environment, with Statistics New Zealand continuing to advise on the production of official statistics.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The later HTML and mobile changes extended that publication model rather than changing the underlying distinction. A partner organisation planning local services could use aggregated public reports without gaining access to intelligence files. A journalist could explore patterns without seeing the addresses and identities available to investigators. A resident could examine reported victimisation in an area without receiving a map of individual households. By this stage New Zealand Police was operating several geographic layers for different purposes, from internal operational detail to deliberately limited public statistics.",
+      "markdown": "The later HTML and mobile changes extended that publication model rather than changing the underlying distinction. A partner organisation planning local services could use aggregated public reports without gaining access to intelligence files. A journalist could explore patterns without seeing the addresses and identities available to investigators. A resident could examine reported victimisation in an area without receiving a map of individual households. By this stage New Zealand Police was operating several geographic layers for different purposes, from internal operational detail to deliberately limited public statistics.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

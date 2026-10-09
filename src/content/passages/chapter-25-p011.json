@@ -1,0 +1,34 @@
+{
+  "id": "passage:chapter-25-d304b58b74",
+  "slug": "telecommunications-at-national-scale-d304b58b74",
+  "articleId": "article:chapter-25",
+  "title": "Telecommunications at national scale",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:smallworld-ge-smallworld"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Telecommunications networks create another demanding inventory problem. Copper, fibre and other physical infrastructure run through ducts, cabinets, exchanges and connection points, often with many individual paths sharing the same route. A network inventory has to record more than the street occupied by the cable. It needs enough connectivity and capacity information to relate physical routes to services and planned changes.",
+      "markdown": "Telecommunications networks create another demanding inventory problem. Copper, fibre and other physical infrastructure run through ducts, cabinets, exchanges and connection points, often with many individual paths sharing the same route. A network inventory has to record more than the street occupied by the cable. It needs enough connectivity and capacity information to relate physical routes to services and planned changes.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By about 2007, however, GE’s communications business publicly named Telecom New Zealand alongside operators such as Telstra, Deutsche Telekom and Swisscom as a major Tier One Smallworld customer. The service was being used for production-scale telecommunications work.",
+      "markdown": "By about 2007, however, GE’s communications business publicly named Telecom New Zealand alongside operators such as Telstra, Deutsche Telekom and Swisscom as a major Tier One Smallworld customer. The service was being used for production-scale telecommunications work.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the middle of the 2000s, a national telecommunications operator was using the specialist product family already established in electricity. Both sectors needed to maintain large physical inventories in which connectivity and asset relationships determined how the network could be used.",
+      "markdown": "By the middle of the 2000s, a national telecommunications operator was using the specialist product family already established in electricity. Both sectors needed to maintain large physical inventories in which connectivity and asset relationships determined how the network could be used.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

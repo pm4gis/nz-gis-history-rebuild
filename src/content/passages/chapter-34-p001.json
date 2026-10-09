@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-34-be5de9df71",
+  "slug": "taking-gis-into-the-field-be5de9df71",
+  "articleId": "article:chapter-34",
+  "title": "Taking GIS into the field",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:34"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For most of the history of GIS, the computer stayed inside. The field worker went outside. That division shaped how information moved. Someone might leave the office with a paper map, printed aerial photograph, notebook, inspection form and, by the 1990s, a separate GPS receiver. Observations made at a stream, pole, track, culvert or property then had to be matched back to the right feature and entered into the organisation’s database later. Good field teams developed disciplined ways to do this, but the separation between observation and database maintenance was built into the workflow.",
+      "markdown": "For most of the history of GIS, the computer stayed inside. The field worker went outside. That division shaped how information moved. Someone might leave the office with a paper map, printed aerial photograph, notebook, inspection form and, by the 1990s, a separate GPS receiver. Observations made at a stream, pole, track, culvert or property then had to be matched back to the right feature and entered into the organisation’s database later. Good field teams developed disciplined ways to do this, but the separation between observation and database maintenance was built into the workflow.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Portable computing began to narrow that separation. The change combined portable computing with positioning, structured data capture and synchronisation. A useful mobile GIS had to take enough of the organisation’s map and data into the field, let a worker find or update the right feature, preserve the result, and return it to the central system without creating a second uncontrolled version of reality. The technology was only one part of that. Data had to be simplified, forms had to be designed, identifiers had to remain stable, positions had to be interpreted correctly, and field staff had to know which edits they were authorised to make.",
+      "markdown": "Portable computing began to narrow that separation. The change combined portable computing with positioning, structured data capture and synchronisation. A useful mobile GIS had to take enough of the organisation’s map and data into the field, let a worker find or update the right feature, preserve the result, and return it to the central system without creating a second uncontrolled version of reality. The technology was only one part of that. Data had to be simplified, forms had to be designed, identifiers had to remain stable, positions had to be interpreted correctly, and field staff had to know which edits they were authorised to make.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand was a particularly good test of the idea because the places where GIS was useful were often the places where communications were least convenient. Utility corridors, conservation land, farms, mountains, rivers, coastlines and rural roads did not offer reliable network coverage simply because a project had bought handheld computers. Early mobile systems therefore developed with an assumption that disconnection was normal. Maps and data might be loaded before leaving the office, edits stored locally, and changes reconciled later. Even after mobile networks improved, that basic requirement did not disappear.",
+      "markdown": "New Zealand was a particularly good test of the idea because the places where GIS was useful were often the places where communications were least convenient. Utility corridors, conservation land, farms, mountains, rivers, coastlines and rural roads did not offer reliable network coverage simply because a project had bought handheld computers. Early mobile systems therefore developed with an assumption that disconnection was normal. Maps and data might be loaded before leaving the office, edits stored locally, and changes reconciled later. Even after mobile networks improved, that basic requirement did not disappear.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

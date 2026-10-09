@@ -1,0 +1,31 @@
+{
+  "id": "person:boris-kirov",
+  "slug": "boris-kirov",
+  "name": "Boris Kirov",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/boris-kirov/",
+  "story": [
+    "LINZ’s geospatial industry career material profiles Boris Kirov: Wellington City Council Business Intelligence Analyst; previously Critchlow GIS Consultant."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Working in New Zealand’s geospatial industry",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry"
+    }
+  ],
+  "aliases": [
+    "Boris Kirov"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Working in New Zealand’s geospatial industry",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/working-new-zealands-geospatial-industry"
+      }
+    ]
+  ]
+}

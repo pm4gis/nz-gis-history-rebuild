@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1515",
+  "a": "entity:mackenzie-district-council",
+  "b": "chapter:17",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-17-b9920fb018"
+  ],
+  "sources": []
+}

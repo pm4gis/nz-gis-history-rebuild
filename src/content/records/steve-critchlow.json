@@ -1,0 +1,46 @@
+{
+  "id": "person:steve-critchlow",
+  "slug": "steve-critchlow",
+  "name": "Steve Critchlow",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/steve-critchlow/",
+  "story": [
+    "Steve Critchlow founded Critchlow in April 1991. In his company retrospective he describes building a market for affordable desktop GIS and later diversifying into WebEOC incident-management systems. His account links the firm’s software-reseller origins with its subsequent work in emergency and business-continuity systems.",
+    "Steve Critchlow founded the company in Wellington in 1991. By August 1995 a contemporary New Zealand forestry publication described Critchlow Associates as the Wellington-based MapInfo master agent. The same report documented operational MapInfo use in the Ministry of Forestry's East Coast erosion-control programme, which had begun the previous year. More than 16,000 hectares were being monitored, with the software used to map reserves, planting and land use and to calculate areas relevant to forestry grants."
+  ],
+  "sources": [
+    {
+      "label": "Steve Critchlow, Critchlow celebrates a quarter-century, company retrospective",
+      "url": "https://info.critchlow.co.nz/critchlow-turns-25"
+    },
+    {
+      "label": "Steve Critchlow - Critchlow Geospatial Ltd | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/stevecritchlow"
+    },
+    {
+      "label": "Chapter 12 · The desktop market widens",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Steve Critchlow"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Steve Critchlow, Critchlow celebrates a quarter-century, company retrospective",
+        "url": "https://info.critchlow.co.nz/critchlow-turns-25"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · The desktop market widens",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

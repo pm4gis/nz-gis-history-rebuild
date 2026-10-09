@@ -1,0 +1,62 @@
+{
+  "id": "entity:department-of-conservation",
+  "slug": "department-of-conservation",
+  "name": "Department of Conservation",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/department-of-conservation/",
+  "website": null,
+  "story": [
+    "DOC used GIS for ecological records, land administration and conservation operations across New Zealand. National systems and browser access made geographic information available to offices and field staff. Maintaining the data required attention to its accuracy, completeness and sensitivity.",
+    "The Biodiversity Information Platform developed during 2000/01 and evolved into the National Enterprise GIS and DOCgis by 2003. The architecture joined a national geodatabase, ArcSDE, specialist ArcGIS, ArcIMS browser clients, business databases and field technology. Conservancy specialists contributed local information to a national environment. Official public records show DOCgis in continuing use in 2009 and 2013.",
+    "The 2003 release timeline lists Version 2 in June and a Java-client milestone planned for August. Departmental teams included the Science and Technology & Information Services Division, Information Management Unit, Spatial Information Management and conservancy information-management units. Duane Wilkins recalls that Eagle Technology designed DOCgis before 2003, with departmental analysts and developers carrying on the work afterwards.",
+    "Wilkins recalls difficult relations between regional teams and the GIS manager in the earlier period. Around a decade later he returned to lead GIS. In 2012 the team became a shared service for the regions, a reform he remembers as highly successful.",
+    "Early conservation records included WERI, demonstrated by Helen Adcock in 1990, and the ARDS and BIOSITE species-information systems developed by Geoff Patterson and Duncan Cunningham."
+  ],
+  "sources": [
+    {
+      "label": "Mary McEwen, DOC science report on development of biological-resource information/GIS",
+      "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/SRIR80.pdf"
+    },
+    {
+      "label": "Department of Conservation Annual Report for the year ended 30 June 2001, Biodiversity Information Platform Project section",
+      "url": "https://www.doc.govt.nz/globalassets/documents/about-doc/role/policies-and-plans/050-annual-report-for-year-ended-30-june-2001.pdf"
+    },
+    {
+      "label": "Department of Conservation, Managing Conservation Enterprise Systems: National Enterprise GIS Implementation for Conservation Management, Esri International User Conference 2003, Paper 1048",
+      "url": "https://proceedings.esri.com/library/userconf/proc03/p1048.pdf"
+    },
+    {
+      "label": "Department of Conservation, 'GIS? What’s GIS?' conservation blog",
+      "url": "https://blog.doc.govt.nz/2009/08/24/gis-whats-gis/"
+    },
+    {
+      "label": "New Zealand Conservation Authority public papers, June 2015, reproduced DOCgis map print",
+      "url": "https://ftp.doc.govt.nz/public/folder/mlawv0pcMkWvExCkUCOkvg/nzca/public-papers/2015/2015-06-nzca-public-papers-june-2015.pdf"
+    },
+    {
+      "label": "Department of Conservation, DOCgis Training Guide, Intranet Edition, 2003, Release II"
+    },
+    {
+      "label": "Duane Wilkins, account of DOCgis development and the 2012 shared-service reform, supplied 2 October 2026"
+    },
+    {
+      "label": "Helen M. Adcock and W. Mary McEwen, DOC National Database Workshop report, October 1990, printed pp.27–28",
+      "url": "https://www.doc.govt.nz/globalassets/documents/science-and-technical/SRIR88.pdf"
+    },
+    {
+      "label": "DOC, Amphibian and Reptile Distribution Scheme: database development chronology",
+      "url": "https://www.doc.govt.nz/our-work/reptiles-and-frogs-distribution/atlas/species-sightings-and-data-management/what-is-the-ard-scheme/"
+    }
+  ],
+  "aliases": [
+    "Department of Conservation"
+  ],
+  "themeIds": [
+    "local-government",
+    "women-in-gis"
+  ],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

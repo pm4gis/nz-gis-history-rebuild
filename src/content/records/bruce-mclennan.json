@@ -1,0 +1,42 @@
+{
+  "id": "person:bruce-mclennan",
+  "slug": "bruce-mclennan",
+  "name": "Bruce McLennan",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/bruce-mclennan/",
+  "story": [
+    "At SIRC in December 2007, Bruce McLennan described GIS uptake at AgResearch as piecemeal: individual researchers had built useful project-level capability, but access to software, core datasets and support was uneven across its four campuses. AgResearch was therefore preparing a company-wide geographic information service intended to provide common software access, core data, specialist support and in-house training. The CRI began organising GIS as a shared service for its research teams.",
+    "Bruce McLennan, Albert Chong and Martin Purvis described the Taiaroa Head GPS survey for the northern royal albatross project at the 1994 Spatial Information Research Centre colloquium, and McLennan’s later thesis preserved more of the method. Trimble Navigation New Zealand supplied receivers and peripherals."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 9 · The CRI reorganisation",
+      "url": "/stories/science-goes-spatial/"
+    },
+    {
+      "label": "Chapter 18 · A receiver on the trig",
+      "url": "/stories/gps-changes-where-here-is/"
+    }
+  ],
+  "aliases": [
+    "Bruce McLennan"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 9 · The CRI reorganisation",
+        "url": "/stories/science-goes-spatial/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 18 · A receiver on the trig",
+        "url": "/stories/gps-changes-where-here-is/"
+      }
+    ]
+  ]
+}

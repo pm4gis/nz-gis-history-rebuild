@@ -1,0 +1,47 @@
+{
+  "id": "passage:chapter-25-0901ada806",
+  "slug": "the-network-as-operational-data-0901ada806",
+  "articleId": "article:chapter-25",
+  "title": "The network as operational data",
+  "order": 14,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:25",
+    "entity:smallworld-ge-smallworld",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the end of the 2000s, utilities were using GIS for network maintenance and operational work. Vector used Smallworld as a geographic and textual asset register, linked it with other asset and engineering systems and extended selected information into the field. Wellington Electricity designed common asset identifiers across GIS and SAP and planned an interface with SCADA. Watercare used GIS as an integrator of network information for office and field staff. Telecom New Zealand was operating Smallworld at national telecommunications scale.",
+      "markdown": "By the end of the 2000s, utilities were using GIS for network maintenance and operational work. Vector used Smallworld as a geographic and textual asset register, linked it with other asset and engineering systems and extended selected information into the field. Wellington Electricity designed common asset identifiers across GIS and SAP and planned an interface with SCADA. Watercare used GIS as an integrator of network information for office and field staff. Telecom New Zealand was operating Smallworld at national telecommunications scale.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The systems remained different because the networks were different. Electricity required electrical connectivity and switching logic. Water and wastewater required pipes, valves, direction, facilities and service relationships. Telecommunications required detailed physical inventory and paths through a complex cable network. Gas combined spatial connectivity with pressure and capacity modelling. No single generic line feature captured those operational differences.",
+      "markdown": "The systems remained different because the networks were different. Electricity required electrical connectivity and switching logic. Water and wastewater required pipes, valves, direction, facilities and service relationships. Telecommunications required detailed physical inventory and paths through a complex cable network. Gas combined spatial connectivity with pressure and capacity modelling. No single generic line feature captured those operational differences.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The shared history lies in the data discipline. Operators converted legacy records, assigned identifiers, represented connectivity, linked the network to maintenance and business records, and then kept the result current as the physical system changed. GIS supplied the geographic structure, but the useful system depended on engineering knowledge, database maintenance and organisational procedures around it.",
+      "markdown": "The shared history lies in the data discipline. Operators converted legacy records, assigned identifiers, represented connectivity, linked the network to maintenance and business records, and then kept the result current as the physical system changed. GIS supplied the geographic structure, but the useful system depended on engineering knowledge, database maintenance and organisational procedures around it.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The work also pushed GIS further into ordinary infrastructure management. A fault dispatcher, maintenance planner or field technician might rely on spatial information without making a map. A financial system could depend on asset identifiers linked back to GIS. A network model could be exported into engineering software. The geographic database became one part of the operational record of the infrastructure itself.",
+      "markdown": "The work also pushed GIS further into ordinary infrastructure management. A fault dispatcher, maintenance planner or field technician might rely on spatial information without making a map. A financial system could depend on asset identifiers linked back to GIS. A network model could be exported into engineering software. The geographic database became one part of the operational record of the infrastructure itself.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Conservation and environmental management dealt with different kinds of geography: habitats, protected areas, species records, rivers, wetlands and changing ecological conditions. These systems shared the same growing dependence on maintained spatial databases, but their boundaries were often less physically fixed than a pipe or cable and the evidence came from a different mix of field observation, science and land management.",
+      "markdown": "Conservation and environmental management dealt with different kinds of geography: habitats, protected areas, species records, rivers, wetlands and changing ecological conditions. These systems shared the same growing dependence on maintained spatial databases, but their boundaries were often less physically fixed than a pipe or cable and the evidence came from a different mix of field observation, science and land management.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

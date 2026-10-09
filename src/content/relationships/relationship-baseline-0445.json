@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0445",
+  "a": "person:patrick-de-jong",
+  "b": "chapter:34",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

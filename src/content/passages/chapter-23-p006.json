@@ -1,0 +1,37 @@
+{
+  "id": "passage:chapter-23-896825b241",
+  "slug": "wellington-hazard-data-1996-896825b241",
+  "articleId": "article:chapter-23",
+  "title": "Wellington hazard data, 1996",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:23",
+    "entity:wellington-regional-council-greater-wellington-regional-council",
+    "entity:ian-r-brown-associates"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In April 1996, Ian R Brown Associates, working with Kingston Morrison and Victoria University of Wellington, reported on combined earthquake hazard mapping for Wellington Regional Council. Existing digital layers in Arc-Info format covered ground shaking, liquefaction, slope failure, active faults and tsunami inundation. The project translated those data into TECHBASE and used a 10-metre grid to calculate a combined hazard index.",
+      "sources": [
+        {
+          "label": "Ian R Brown Associates with Kingston Morrison and Victoria University, Preparation of comprehensive earthquake hazard maps, April 1996, WRC/RP-T-96/22, pp.1 and 16",
+          "url": "https://ltp.gw.govt.nz/assets/Documents/Documents/2025/11/Combined-seismic-hazard-Maps_Ian-Brown_methodology_1996.PDF"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The calculations considered representative infrastructure, including utilities. They assumed a uniform distribution of assets to compare relative hazard between areas. The maps therefore supported regional assessment rather than locating each actual pipe or cable. Council hazard data, consulting work and university participation supplied a further strand of New Zealand GIS practice in the same period as national mapping programmes.",
+      "sources": [
+        {
+          "label": "Ian R Brown Associates with Kingston Morrison and Victoria University, Preparation of comprehensive earthquake hazard maps, April 1996, WRC/RP-T-96/22, pp.1 and 16",
+          "url": "https://ltp.gw.govt.nz/assets/Documents/Documents/2025/11/Combined-seismic-hazard-Maps_Ian-Brown_methodology_1996.PDF"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

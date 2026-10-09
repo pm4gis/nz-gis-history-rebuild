@@ -1,0 +1,55 @@
+{
+  "id": "person:claire-buxton",
+  "slug": "claire-buxton",
+  "name": "Claire Buxton",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/claire-buxton/",
+  "story": [
+    "Claire Buxton's professional career includes surveying and land administration, with McElhanney listed in her career profile. Her public writing has also considered Indigenous peoples and women's access to land rights. These interests give a wider setting to her Women in Spatial talk about whether information is accessible or understandable.",
+    "At Women in Spatial’s 2018 lightning talks, Claire Buxton of Calibre discussed land administration and the difference between information being publicly available and people being physically able to access it. Drawing on a paper she co-authored, she advocated fit-for-purpose, community-grounded approaches and also described overseas volunteering opportunities through NZIS.",
+    "Claire Buxton received both Young Professional of the Year and the People’s Choice award at the 2018 New Zealand Spatial Excellence Awards. The awards provide a dated national recognition alongside her documented work in land administration and Women in Spatial."
+  ],
+  "sources": [
+    {
+      "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+      "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+    },
+    {
+      "label": "Claire Buxton - McElhanney | LinkedIn · career/profile reference",
+      "url": "https://ca.linkedin.com/in/claire-buxton-088a8285"
+    },
+    {
+      "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+      "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+    }
+  ],
+  "aliases": [
+    "Claire Buxton"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Claire Buxton - McElhanney | LinkedIn · career/profile reference",
+        "url": "https://ca.linkedin.com/in/claire-buxton-088a8285"
+      }
+    ],
+    [
+      {
+        "label": "Women in Spatial, “Lightning Talks @ Transpower”, 6 August 2018",
+        "url": "https://womeninspatial.wordpress.com/2018/08/06/lightning-talks-transpower/"
+      }
+    ],
+    [
+      {
+        "label": "Beehive, Pest control system wins spatial excellence award, 17 October 2018",
+        "url": "https://www.beehive.govt.nz/release/pest-control-system-wins-spatial-excellence-award"
+      }
+    ]
+  ]
+}

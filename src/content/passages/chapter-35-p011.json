@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-35-f3b44e2a2e",
+  "slug": "the-hidden-spatial-infrastructure-f3b44e2a2e",
+  "articleId": "article:chapter-35",
+  "title": "The hidden spatial infrastructure",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The apparent simplicity of these applications can obscure how much GIS remains underneath. A public reporting application may depend on geocoding, authoritative boundaries, regularly updated source data, spatial aggregation, privacy rules and hosted services. A form may write to a feature layer with controlled identifiers and permissions. A dashboard may depend on scheduled updates and carefully defined categories. A portal may link metadata, previews, downloads and maps maintained by different teams.",
+      "markdown": "The apparent simplicity of these applications can obscure how much GIS remains underneath. A public reporting application may depend on geocoding, authoritative boundaries, regularly updated source data, spatial aggregation, privacy rules and hosted services. A form may write to a feature layer with controlled identifiers and permissions. A dashboard may depend on scheduled updates and carefully defined categories. A portal may link metadata, previews, downloads and maps maintained by different teams.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "None of this requires the user to see the architecture. In fact the point of the application is often to prevent them from having to see it. But the infrastructure still determines whether the application is trustworthy. If the address data are stale, the search fails. If boundaries change without the reporting logic being updated, statistics become inconsistent. If a source layer moves, an embedded map can break even though nothing obvious has changed in the interface.",
+      "markdown": "None of this requires the user to see the architecture. In fact the point of the application is often to prevent them from having to see it. But the infrastructure still determines whether the application is trustworthy. If the address data are stale, the search fails. If boundaries change without the reporting logic being updated, statistics become inconsistent. If a source layer moves, an embedded map can break even though nothing obvious has changed in the interface.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Application behaviour depended on data, services and configuration as well as the visible interface. The visible interface may be the easiest object to archive, but the durable historical work often sits in technical documents, configuration records and source notes explaining what data and services were underneath. The application is the public face of a larger system.",
+      "markdown": "Application behaviour depended on data, services and configuration as well as the visible interface. The visible interface may be the easiest object to archive, but the durable historical work often sits in technical documents, configuration records and source notes explaining what data and services were underneath. The application is the public face of a larger system.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Enterprise architecture, cloud services and APIs would make these environments more durable and more interconnected. Users worked through task-specific applications supported by GIS services.",
+      "markdown": "Enterprise architecture, cloud services and APIs would make these environments more durable and more interconnected. Users worked through task-specific applications supported by GIS services.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

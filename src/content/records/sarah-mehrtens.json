@@ -1,0 +1,35 @@
+{
+  "id": "person:sarah-mehrtens",
+  "slug": "sarah-mehrtens",
+  "name": "Sarah Mehrtens",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/sarah-mehrtens/",
+  "story": [
+    "Sarah Mehrtens of the New Zealand Geospatial Office reported in 2009 to the Geospatial Executives Group after a project involving an advisory group of twenty people from government, industry and academia. The group considered how standards were being developed and used and whether government needed a more deliberate coordination role."
+  ],
+  "sources": [
+    {
+      "label": "Sarah Mehrtens - Mehrtens Consulting | LinkedIn · public profile",
+      "url": "https://nz.linkedin.com/in/sarah-mehrtens-06211739"
+    },
+    {
+      "label": "Chapter 21 · Practical standards",
+      "url": "/stories/the-spatial-infrastructure-idea/"
+    }
+  ],
+  "aliases": [
+    "Sarah Mehrtens"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 21 · Practical standards",
+        "url": "/stories/the-spatial-infrastructure-idea/"
+      }
+    ]
+  ]
+}

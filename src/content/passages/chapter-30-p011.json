@@ -1,0 +1,40 @@
+{
+  "id": "passage:chapter-30-e8a4aa6754",
+  "slug": "dunedin-webmap-e8a4aa6754",
+  "articleId": "article:chapter-30",
+  "title": "Dunedin WebMap",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:30",
+    "entity:dunedin-city-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Dunedin City Council’s WebMap help pages show how early public web GIS behaved. Built with Esri ArcIMS, the application generated simple maps on request and connected them to the Rating Information Database, addresses, cadastral parcels, aerial photography and other council information. The pages describe address, road and place searches, property identification, rate-account links, scale-dependent display and user-selected map types.",
+      "markdown": "Dunedin City Council’s WebMap help pages show how early public web GIS behaved. Built with Esri ArcIMS, the application generated simple maps on request and connected them to the Rating Information Database, addresses, cadastral parcels, aerial photography and other council information. The pages describe address, road and place searches, property identification, rate-account links, scale-dependent display and user-selected map types.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The help material also preserves the awkwardness of the period. Users were warned to keep a second council browser window open because the rates pages and WebMap depended on one another. Resizing the map window could cause the map to disappear. Some functions could fail if browser scripts entered an erroneous state, requiring users to close windows, clear the browser cache and start again. Popup blockers could interfere with printing. Some early web-GIS skill was therefore less about spatial analysis than knowing which window to leave alone and when to clear the cache. Interactive mapping had arrived with plenty of friction.",
+      "markdown": "The help material also preserves the awkwardness of the period. Users were warned to keep a second council browser window open because the rates pages and WebMap depended on one another. Resizing the map window could cause the map to disappear. Some functions could fail if browser scripts entered an erroneous state, requiring users to close windows, clear the browser cache and start again. Popup blockers could interfere with printing. Some early web-GIS skill was therefore less about spatial analysis than knowing which window to leave alone and when to clear the cache. Interactive mapping had arrived with plenty of friction.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The documentation was equally careful about the information itself. Parcel boundaries were described as cadastral land parcels rather than rate-account boundaries, aerial photography could contain positional error, and some rural or older survey boundaries were less reliable. Cadastral data from Land Information New Zealand were updated periodically, then stated as every one to two months. Aerial photography carried its own copyright conditions. The help page treated data provenance and interpretation as part of the application.",
+      "markdown": "The documentation was equally careful about the information itself. Parcel boundaries were described as cadastral land parcels rather than rate-account boundaries, aerial photography could contain positional error, and some rural or older survey boundaries were less reliable. Cadastral data from Land Information New Zealand were updated periodically, then stated as every one to two months. Aerial photography carried its own copyright conditions. The help page treated data provenance and interpretation as part of the application.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By April 2004 Dunedin City Council was documenting WebMap for public users. The guides brought browser instructions and explanations of the council’s data together for that audience.",
+      "markdown": "By April 2004 Dunedin City Council was documenting WebMap for public users. The guides brought browser instructions and explanations of the council’s data together for that audience.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

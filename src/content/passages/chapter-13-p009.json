@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-13-6f9e9f8266",
+  "slug": "the-cadastral-base-6f9e9f8266",
+  "articleId": "article:chapter-13",
+  "title": "The cadastral base",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:13"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The parcel layer’s usefulness came partly from its ability to connect otherwise unrelated information. A council property record, a valuation entry, a planning rule or an asset could be associated with a parcel identifier or spatially related to parcel geometry. A utility did not need the cadastre to define its pipes or cables, but parcels provided familiar land context around the network. Environmental analysts could aggregate or intersect information by property. The digital cadastre became a common organising frame because land administration touched so many other databases.",
+      "markdown": "The parcel layer’s usefulness came partly from its ability to connect otherwise unrelated information. A council property record, a valuation entry, a planning rule or an asset could be associated with a parcel identifier or spatially related to parcel geometry. A utility did not need the cadastre to define its pipes or cables, but parcels provided familiar land context around the network. Environmental analysts could aggregate or intersect information by property. The digital cadastre became a common organising frame because land administration touched so many other databases.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That reuse also created expectations the original record maps had never been designed to meet. A customer might want a whole region in one coordinate system, refreshed regularly and supplied in the format required by its GIS. Another might want attributes stripped down to a small set for a desktop application. A national database could support those demands because the information had been separated from the fixed paper sheet. Distribution firms and internal data teams could translate and package it rather than redrawing the geography.",
+      "markdown": "That reuse also created expectations the original record maps had never been designed to meet. A customer might want a whole region in one coordinate system, refreshed regularly and supplied in the format required by its GIS. Another might want attributes stripped down to a small set for a desktop application. A national database could support those demands because the information had been separated from the fixed paper sheet. Distribution firms and internal data teams could translate and package it rather than redrawing the geography.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The relationship between authority and convenience needed constant care. DCDB was an official maintained Crown cadastral information system within its defined role, but that did not make every coordinate definitive evidence of a legal boundary. Downstream users often wanted one simple parcel layer to behave as both index and survey truth. The history of the digital cadastre is partly the history of managing that expectation.",
+      "markdown": "The relationship between authority and convenience needed constant care. DCDB was an official maintained Crown cadastral information system within its defined role, but that did not make every coordinate definitive evidence of a legal boundary. Downstream users often wanted one simple parcel layer to behave as both index and survey truth. The history of the digital cadastre is partly the history of managing that expectation.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

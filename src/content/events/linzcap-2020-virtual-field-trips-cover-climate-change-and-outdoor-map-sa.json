@@ -1,0 +1,30 @@
+{
+  "id": "linzcap-2020-virtual-field-trips-cover-climate-change-and-outdoor-map-safety",
+  "dateDisplay": "2020",
+  "startDate": "2020-01-01",
+  "datePrecision": "year",
+  "year": 2020,
+  "label": "Virtual field trips cover climate change and outdoor map safety",
+  "summary": "Map my Waahi Climate Change and Get Outdoors Safely used maps, GPS, GIS and search-and-rescue examples.",
+  "url": "/stories/an-industry-and-community-form/#gis-reaches-the-school-classroom-609636e9aa",
+  "passageIds": [
+    "passage:chapter-12-609636e9aa"
+  ],
+  "recordIds": [
+    "chapter:12"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ]
+}

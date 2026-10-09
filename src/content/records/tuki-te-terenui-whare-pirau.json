@@ -1,0 +1,41 @@
+{
+  "id": "person:tuki-te-terenui-whare-pirau",
+  "slug": "tuki-te-terenui-whare-pirau",
+  "name": "Tuki Te Terenui Whare Pirau",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/tuki-te-terenui-whare-pirau/",
+  "story": [
+    "Tuki Te Terenui Whare Pirau drew a 1793 map of Aotearoa during the Norfolk Island encounter, communicating geographic, social, political and spiritual knowledge."
+  ],
+  "sources": [
+    {
+      "label": "National Library of New Zealand, Tuki map catalogue, Ref MapColl-830ap/[1793]/Acc.6421",
+      "url": "https://natlib.govt.nz/records/22364255"
+    },
+    {
+      "label": "National Library, Polynesian navigation and Tuki's map",
+      "url": "https://natlib.govt.nz/visiting/wellington/unfolding-the-map/polynesian-navigation-and-tukis-map"
+    }
+  ],
+  "aliases": [
+    "Tuki Te Terenui Whare Pirau",
+    "Tuki",
+    "Tuki Te Terenui Whare Pirau"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "National Library of New Zealand, Tuki map catalogue, Ref MapColl-830ap/[1793]/Acc.6421",
+        "url": "https://natlib.govt.nz/records/22364255"
+      },
+      {
+        "label": "National Library, Polynesian navigation and Tuki's map",
+        "url": "https://natlib.govt.nz/visiting/wellington/unfolding-the-map/polynesian-navigation-and-tukis-map"
+      }
+    ]
+  ]
+}

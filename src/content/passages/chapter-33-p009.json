@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-33-1d3598d97b",
+  "slug": "commercial-value-moves-1d3598d97b",
+  "articleId": "article:chapter-33",
+  "title": "Commercial value moves",
+  "order": 8,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Open government data changed where commercial suppliers added value. A raw cadastral parcel layer is not the same thing as a cleaned property-intelligence service. An address point is not the same thing as a maintained customer database. A census table is not the same thing as a demographic market model.",
+      "markdown": "Open government data changed where commercial suppliers added value. A raw cadastral parcel layer is not the same thing as a cleaned property-intelligence service. An address point is not the same thing as a maintained customer database. A census table is not the same thing as a demographic market model.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Companies could combine open government data with proprietary information, clean errors, standardise fields, create APIs, host services, build applications and provide analysis. Those activities could become more valuable when the underlying national framework was easier to obtain because less effort was wasted recreating basic geography.",
+      "markdown": "Companies could combine open government data with proprietary information, clean errors, standardise fields, create APIs, host services, build applications and provide analysis. Those activities could become more valuable when the underlying national framework was easier to obtain because less effort was wasted recreating basic geography.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also changed the position of government agencies. If a fundamental dataset was already being collected as part of a statutory or public function, charging a high price for downstream digital reuse could suppress activity without creating better data. Open distribution did not remove the cost of producing or maintaining the authoritative source. It changed how that cost was recovered and how broadly the resulting information could circulate.",
+      "markdown": "This also changed the position of government agencies. If a fundamental dataset was already being collected as part of a statutory or public function, charging a high price for downstream digital reuse could suppress activity without creating better data. Open distribution did not remove the cost of producing or maintaining the authoritative source. It changed how that cost was recovered and how broadly the resulting information could circulate.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The boundary moved. Some information that had once been sold as a specialist input became public infrastructure, while commercial value shifted towards convenience, interpretation, linking, currency, specialised support and applications. Government and commercial spatial information continued to coexist, but they occupied different parts of the value chain.",
+      "markdown": "The boundary moved. Some information that had once been sold as a specialist input became public infrastructure, while commercial value shifted towards convenience, interpretation, linking, currency, specialised support and applications. Government and commercial spatial information continued to coexist, but they occupied different parts of the value chain.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

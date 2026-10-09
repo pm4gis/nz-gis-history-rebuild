@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1846",
+  "a": "person:peter-hunt",
+  "b": "chapter:18",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-18-6482c1e00e"
+  ],
+  "sources": []
+}

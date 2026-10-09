@@ -1,0 +1,48 @@
+{
+  "id": "passage:chapter-16-f2e8d11365",
+  "slug": "using-census-data-f2e8d11365",
+  "articleId": "article:chapter-16",
+  "title": "Using census data",
+  "order": 13,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:16",
+    "entity:critchlow",
+    "entity:mapdata-sciences",
+    "entity:stats-nz"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For an outside GIS user, obtaining statistical geography involved more than getting a polygon file. The boundary pattern had to match the census tables being used, the identifiers had to join correctly, the coordinate system had to suit the receiving GIS and the licence had to permit the intended use. A user also needed enough metadata to know whether a file was the detailed maintained pattern or a generalised census version. The technical work at the receiving end could therefore include projection conversion, table joins, checking geographic codes and reconciling different pattern years before any thematic map was made.",
+      "markdown": "For an outside GIS user, obtaining statistical geography involved more than getting a polygon file. The boundary pattern had to match the census tables being used, the identifiers had to join correctly, the coordinate system had to suit the receiving GIS and the licence had to permit the intended use. A user also needed enough metadata to know whether a file was the detailed maintained pattern or a generalised census version. The technical work at the receiving end could therefore include projection conversion, table joins, checking geographic codes and reconciling different pattern years before any thematic map was made.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Commercial suppliers could package official boundaries, census tables, street or topographic context and software configuration together. This reduced the work of obtaining and assembling national data for desktop use. Critchlow, MapData Sciences and similar suppliers added distribution and integration services around official statistics; Statistics New Zealand continued to define the meshblock framework.",
+      "markdown": "Commercial suppliers could package official boundaries, census tables, street or topographic context and software configuration together. This reduced the work of obtaining and assembling national data for desktop use. Critchlow, MapData Sciences and similar suppliers added distribution and integration services around official statistics; Statistics New Zealand continued to define the meshblock framework.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2002 product catalogue captures a transitional moment because several access models coexisted. A member of the public could inspect census results through WebMap without learning a desktop GIS. A specialist organisation could buy the Meshblock Database and work directly with detailed census information. Other users could obtain packaged mapping products or street-linking data through commercial or licensed channels. The same underlying statistical geography was therefore visible through a free public interface, a priced government dataset and private-sector products at the same time.",
+      "markdown": "The 2002 product catalogue captures a transitional moment because several access models coexisted. A member of the public could inspect census results through WebMap without learning a desktop GIS. A specialist organisation could buy the Meshblock Database and work directly with detailed census information. Other users could obtain packaged mapping products or street-linking data through commercial or licensed channels. The same underlying statistical geography was therefore visible through a free public interface, a priced government dataset and private-sector products at the same time.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "After charges were removed, users still had to choose the correct boundary vintage, projection and file format and check how geographic codes related to their statistical tables. The 2007 distribution changes made the source material easier to obtain. Common desktop formats and both NZMG and NZTM versions of the 2006 national Level 2 data also reduced conversion work. Free access and technical interoperability improved through related but separate changes.",
+      "markdown": "After charges were removed, users still had to choose the correct boundary vintage, projection and file format and check how geographic codes related to their statistical tables. The 2007 distribution changes made the source material easier to obtain. Common desktop formats and both NZMG and NZTM versions of the 2006 national Level 2 data also reduced conversion work. Free access and technical interoperability improved through related but separate changes.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Census geography also depended on street and address records to place dwellings and administrative records in statistical areas. Property and parcel data helped define or check boundaries without becoming statistical geography themselves. Chapter 17 traces those location systems as they developed into national digital infrastructure.",
+      "markdown": "Census geography also depended on street and address records to place dwellings and administrative records in statistical areas. Property and parcel data helped define or check boundaries without becoming statistical geography themselves. Chapter 17 traces those location systems as they developed into national digital infrastructure.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

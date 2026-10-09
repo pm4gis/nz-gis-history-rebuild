@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0906",
+  "a": "person:keith-carr",
+  "b": "entity:department-of-survey-and-land-information-dosli",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

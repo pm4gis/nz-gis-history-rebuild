@@ -1,0 +1,42 @@
+{
+  "id": "person:nenad-petrovic",
+  "slug": "nenad-petrovic",
+  "name": "Nenad Petrovic",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/nenad-petrovic/",
+  "story": [
+    "Nenad Petrovic's background in geoscience and GIS developed into demographic analysis and population forecasting at .id. His work includes community profiles, catchment analysis and the interpretation of spatial demographic patterns. He uses maps and other visual methods to help councils in Australia and New Zealand plan services for issues such as ageing, education, disadvantage and health.",
+    "John Thyne, Byron Cochrane and Richard Wells had stood down; Derrick Williams, Andrew Shakes, Nenad Petrovic and Kurt Janssen were nominated and elected unopposed, while Marie Slako, Tony Standen, Rachel Summers and Richard Sisterson were reconfirmed. The November 2010 minutes use the name “New Zealand ESRI Users Group inc.”"
+  ],
+  "sources": [
+    {
+      "label": "Our Team - Nenad Petrovic | ID · career/profile reference",
+      "url": "https://www.id.com.au/our-team/nenad-petrovic/"
+    },
+    {
+      "label": "Chapter 12 · Conferences and meetings",
+      "url": "/stories/an-industry-and-community-form/"
+    }
+  ],
+  "aliases": [
+    "Nenad Petrovic"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Our Team - Nenad Petrovic | ID · career/profile reference",
+        "url": "https://www.id.com.au/our-team/nenad-petrovic/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 12 · Conferences and meetings",
+        "url": "/stories/an-industry-and-community-form/"
+      }
+    ]
+  ]
+}

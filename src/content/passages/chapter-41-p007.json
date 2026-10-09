@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-41-3fe0167d81",
+  "slug": "data-services-3fe0167d81",
+  "articleId": "article:chapter-41",
+  "title": "Data services",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:41"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Once software can call spatial information directly, a visible map is optional. A property application may ask for the parcel containing a coordinate. A field system may request the attributes of a nearby asset. A website may retrieve a geometry and draw it inside an interface designed for a completely different business task. The consuming application may use location to make a decision and never show the user a conventional map at all.",
+      "markdown": "Once software can call spatial information directly, a visible map is optional. A property application may ask for the parcel containing a coordinate. A field system may request the attributes of a nearby asset. A website may retrieve a geometry and draw it inside an interface designed for a completely different business task. The consuming application may use location to make a decision and never show the user a conventional map at all.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapter 35 followed maps disappearing behind task-specific applications. Spatial services extended that approach by letting applications request data directly. The application does not need to know how the source database is administered, and the data provider may never see the final interface. What has to remain stable is the contract between them: identifiers, fields, geometry, authentication and the behaviour of the endpoint.",
+      "markdown": "Chapter 35 followed maps disappearing behind task-specific applications. Spatial services extended that approach by letting applications request data directly. The application does not need to know how the source database is administered, and the data provider may never see the final interface. What has to remain stable is the contract between them: identifiers, fields, geometry, authentication and the behaviour of the endpoint.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That stability is harder than a browser interface can make it look. A human user can usually recover when a button moves or a label changes. Software may fail immediately if a field is renamed, an endpoint disappears or authentication changes. API-based geography therefore increased the value of documentation, versioning, deprecation policies and predictable schemas. The machine is remarkably literal, which is excellent when the interface is stable and less charming when somebody casually renames parcel_id on Friday afternoon.",
+      "markdown": "That stability is harder than a browser interface can make it look. A human user can usually recover when a button moves or a label changes. Software may fail immediately if a field is renamed, an endpoint disappears or authentication changes. API-based geography therefore increased the value of documentation, versioning, deprecation policies and predictable schemas. The machine is remarkably literal, which is excellent when the interface is stable and less charming when somebody casually renames parcel_id on Friday afternoon.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

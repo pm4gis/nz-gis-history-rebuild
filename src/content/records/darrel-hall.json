@@ -1,0 +1,44 @@
+{
+  "id": "person:darrel-hall",
+  "slug": "darrel-hall",
+  "name": "Darrel Hall",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/darrel-hall/",
+  "story": [
+    "Darrel Hall contributed GIS mapping and statistics for catchment boundaries and land use to Hawke’s Bay Regional Council’s July 2010 inventory of the Mohaka, Waikari and Waihua rivers within the Ngāti Pāhauwera rohe. The report also credits him, with Pete Manson, on land-use pressures. These named contributions document the spatial-analysis work behind the wider natural-resource assessment.",
+    "Tom Brooks’s April 2006 Heretaunga groundwater-model report acknowledges Kim Coulson for water levels, Simon Harper for wells, Jenna Hewetson for compliance pumping, Leeanne Hooper for groundwater consent allocations, Carol Robertson for surface water, and Darrel Hall for the graphical-information-system contribution. GIS was not the groundwater model itself. It was part of the assembly that made separate monitoring, consent and well records usable together. Two years later, Hall took part in the regional practitioner forum as the council's GIS Coordinator."
+  ],
+  "sources": [
+    {
+      "label": "Hawke’s Bay Regional Council, Mohaka, Waikari and Waihua Rivers resource inventory, July 2010",
+      "url": "https://www.hbrc.govt.nz/assets/Document-Library/Publications-Database/Mohaka-Waikari-and-Waihua-Rivers-An-inventory-of-current-knowledge-of-natural-resources-within-the-Ngati-Pahauwera-Rohe.pdf"
+    },
+    {
+      "label": "Chapter 23 · Planning as data",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Darrel Hall"
+  ],
+  "themeIds": [
+    "profession"
+  ],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Hawke’s Bay Regional Council, Mohaka, Waikari and Waihua Rivers resource inventory, July 2010",
+        "url": "https://www.hbrc.govt.nz/assets/Document-Library/Publications-Database/Mohaka-Waikari-and-Waihua-Rivers-An-inventory-of-current-knowledge-of-natural-resources-within-the-Ngati-Pahauwera-Rohe.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 23 · Planning as data",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

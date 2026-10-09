@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2500",
+  "a": "agency:ministry-for-the-environment",
+  "b": "chapter:26",
+  "label": "Discussed in chapter",
+  "basis": "Reconciled from existing chapter metadata in the 7 October 2026 entity-gap cleanup.",
+  "passageIds": [],
+  "sources": []
+}

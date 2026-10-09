@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-17-dcb49d0b98",
+  "slug": "coordinate-limitations-dcb49d0b98",
+  "articleId": "article:chapter-17",
+  "title": "Coordinate limitations",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:17"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the time address and road information had become widely reusable digital infrastructure, another change was altering how locations entered these systems. Earlier address databases were assembled mainly from maps, council records, survey information and manual coding. Increasingly, field staff could capture a coordinate directly with satellite positioning. Rural address entrances, assets, incidents and new features could be observed in the field rather than inferred only from existing plans.",
+      "markdown": "By the time address and road information had become widely reusable digital infrastructure, another change was altering how locations entered these systems. Earlier address databases were assembled mainly from maps, council records, survey information and manual coding. Increasingly, field staff could capture a coordinate directly with satellite positioning. Rural address entrances, assets, incidents and new features could be observed in the field rather than inferred only from existing plans.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Addresses remained useful for identifying places and communicating locations. A coordinate can identify a position, but people still communicate through road names, numbers, suburbs and localities. Emergency services still need an address that can be spoken over a telephone and recognised at a gate. Property systems still need relationships to parcels and administrative identifiers. Satellite positioning added another way to establish where something was; it did not replace the institutional geography that told users what the place was called and how it related to other records.",
+      "markdown": "Addresses remained useful for identifying places and communicating locations. A coordinate can identify a position, but people still communicate through road names, numbers, suburbs and localities. Emergency services still need an address that can be spoken over a telephone and recognised at a gate. Property systems still need relationships to parcels and administrative identifiers. Satellite positioning added another way to establish where something was; it did not replace the institutional geography that told users what the place was called and how it related to other records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That positional change was already under way. GPS and later GNSS moved coordinate capture from specialist survey networks into field operations, vehicles, handheld receivers and eventually ordinary devices. Roads, addresses and property records gave New Zealand an increasingly consistent language for named and administrative location. Satellite positioning made the coordinates themselves increasingly immediate.",
+      "markdown": "That positional change was already under way. GPS and later GNSS moved coordinate capture from specialist survey networks into field operations, vehicles, handheld receivers and eventually ordinary devices. Roads, addresses and property records gave New Zealand an increasingly consistent language for named and administrative location. Satellite positioning made the coordinates themselves increasingly immediate.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

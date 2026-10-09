@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-36-b7eb249f1e",
+  "slug": "a-maintained-map-changes-the-method-b7eb249f1e",
+  "articleId": "article:chapter-36",
+  "title": "A maintained map changes the method",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:36"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The value of repeated earth observation depended on keeping the comparison stable enough to mean something. LCDB made that visible. Each later edition required cross-date checking so apparent change could be separated from differences in imagery, classification and interpretation. If an earlier polygon had been misclassified, leaving the mistake untouched would create a false change when the later image was interpreted correctly. LCDB2 therefore included corrections to LCDB1 as well as new mapping. The database became a maintained historical record in which improving the baseline was part of producing a credible change series.",
+      "markdown": "The value of repeated earth observation depended on keeping the comparison stable enough to mean something. LCDB made that visible. Each later edition required cross-date checking so apparent change could be separated from differences in imagery, classification and interpretation. If an earlier polygon had been misclassified, leaving the mistake untouched would create a false change when the later image was interpreted correctly. LCDB2 therefore included corrections to LCDB1 as well as new mapping. The database became a maintained historical record in which improving the baseline was part of producing a credible change series.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That creates an unusual information-management problem. A normal corporate database is often expected to replace an old value with a better one. A time-series land-cover database has to preserve the historical state while also ensuring that differences between epochs represent changes on the ground rather than changes in interpretation. Classification definitions, polygon boundaries, imagery dates and editing rules were needed to interpret the results. The GIS layer may look simple when displayed, but its usefulness depends on the discipline applied between each observation date.",
+      "markdown": "That creates an unusual information-management problem. A normal corporate database is often expected to replace an old value with a better one. A time-series land-cover database has to preserve the historical state while also ensuring that differences between epochs represent changes on the ground rather than changes in interpretation. Classification definitions, polygon boundaries, imagery dates and editing rules were needed to interpret the results. The GIS layer may look simple when displayed, but its usefulness depends on the discipline applied between each observation date.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "LUCAS developed the same problem under the pressure of national greenhouse-gas reporting. A land-use change had consequences beyond cartography because forest establishment, harvesting or conversion affected emissions and removals reported internationally. The mapping process therefore combined satellite imagery with aerial photography and other spatial information, and interpretation guidance defined how land-use classes should be recognised. Map dates such as the end of 1989 or 2007 represented reporting dates, with imagery collected across a wider period. A national map assembled for a reporting date may draw on imagery from a window around that date, with interpretation used to establish the best defensible state.",
+      "markdown": "LUCAS developed the same problem under the pressure of national greenhouse-gas reporting. A land-use change had consequences beyond cartography because forest establishment, harvesting or conversion affected emissions and removals reported internationally. The mapping process therefore combined satellite imagery with aerial photography and other spatial information, and interpretation guidance defined how land-use classes should be recognised. Map dates such as the end of 1989 or 2007 represented reporting dates, with imagery collected across a wider period. A national map assembled for a reporting date may draw on imagery from a window around that date, with interpretation used to establish the best defensible state.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 2020 map, the technical assistance available to that process had expanded considerably. Sentinel-2 supplied repeated multispectral coverage, and the documented methodology included automated and deep-learning steps alongside manual interpretation and quality assurance. The computer was no longer struggling simply to turn tape into a rectified image. It could help identify likely change across the country. Human review still remained because the consequence of classifying the wrong patch of scrub, forest or grassland was not fixed by giving the algorithm more confidence.",
+      "markdown": "By the 2020 map, the technical assistance available to that process had expanded considerably. Sentinel-2 supplied repeated multispectral coverage, and the documented methodology included automated and deep-learning steps alongside manual interpretation and quality assurance. The computer was no longer struggling simply to turn tape into a rectified image. It could help identify likely change across the country. Human review still remained because the consequence of classifying the wrong patch of scrub, forest or grassland was not fixed by giving the algorithm more confidence.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

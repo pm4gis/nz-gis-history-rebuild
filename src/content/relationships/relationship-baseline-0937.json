@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0937",
+  "a": "person:lisa-read",
+  "b": "entity:geographic-business-solutions",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:mat-darling",
+  "slug": "mat-darling",
+  "name": "Mat Darling",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mat-darling/",
+  "story": [
+    "A LINZ geospatial student or graduate profile records Mat Darling: Geospatial Development Leader, Pattle Delamore Partners; disaster risk and transient-population research.",
+    "LINZ’s Brown Bag Resilience Series names Mat Darling: University of Canterbury; Project AF8 and transient populations, 8 October 2019."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, GIS student and graduate profiles",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+    },
+    {
+      "label": "LINZ, Brown Bag Resilience Series presentations",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/brown-bag-resilience-series-presentations"
+    }
+  ],
+  "aliases": [
+    "Mat Darling"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, GIS student and graduate profiles",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/studying-gis/gis-student-and-graduate-profiles"
+      }
+    ],
+    [
+      {
+        "label": "LINZ, Brown Bag Resilience Series presentations",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/brown-bag-resilience-series-presentations"
+      }
+    ]
+  ]
+}

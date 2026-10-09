@@ -1,0 +1,35 @@
+{
+  "id": "2014-aam-acquires-northsouth-gis-nz",
+  "dateDisplay": "2014",
+  "startDate": "2014",
+  "datePrecision": "year",
+  "year": 2014,
+  "label": "AAM acquires NorthSouth GIS NZ",
+  "summary": "AAM acquired the New Zealand consultancy that had grown from Explorer Graphics and adopted the NorthSouth GIS NZ name in 2011.",
+  "url": "/stories/an-industry-and-community-form/#a-consultancy-appears-b51b8936ec",
+  "passageIds": [
+    "passage:chapter-12-b51b8936ec"
+  ],
+  "recordIds": [
+    "entity:aam-aamhatch",
+    "entity:explorer-graphics-northsouth-gis",
+    "chapter:12",
+    "entity:abley",
+    "entity:geographic-business-solutions",
+    "entity:splice-group",
+    "entity:terralink",
+    "person:steve-abley",
+    "person:beryl-pimblott",
+    "person:harley-prowse",
+    "person:tony-elson"
+  ],
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "categories": [
+    "industry",
+    "software",
+    "enterprise"
+  ],
+  "sources": []
+}

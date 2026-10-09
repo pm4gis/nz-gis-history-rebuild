@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-43-32dfcb95bc",
+  "slug": "maintaining-automation-32dfcb95bc",
+  "articleId": "article:chapter-43",
+  "title": "Maintaining automation",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:43"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Automation also created a new kind of geospatial inheritance. Scripts, models and scheduled jobs can remain useful long after the person who created them has changed role or left the organisation. The workflow can become increasingly relied upon while its origin becomes increasingly vague. A script written for a temporary task could remain in operational use for years, accumulating dependencies and maintenance obligations.",
+      "markdown": "Automation also created a new kind of geospatial inheritance. Scripts, models and scheduled jobs can remain useful long after the person who created them has changed role or left the organisation. The workflow can become increasingly relied upon while its origin becomes increasingly vague. A script written for a temporary task could remain in operational use for years, accumulating dependencies and maintenance obligations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The maintenance problem explains why documentation and ordinary engineering disciplines became more relevant to GIS teams. A useful script needs more than code that runs once. It needs understandable inputs and outputs, controlled dependencies, an owner, a way to test changes and enough explanation that another person can fix it. By the 2010s and 2020s GIS practitioners increasingly encountered Git, repositories, APIs, databases and deployment processes because their work was becoming entangled with software and data engineering. Many analysts could continue without writing complex applications, while a growing share needed to understand the automated machinery around them.",
+      "markdown": "The maintenance problem explains why documentation and ordinary engineering disciplines became more relevant to GIS teams. A useful script needs more than code that runs once. It needs understandable inputs and outputs, controlled dependencies, an owner, a way to test changes and enough explanation that another person can fix it. By the 2010s and 2020s GIS practitioners increasingly encountered Git, repositories, APIs, databases and deployment processes because their work was becoming entangled with software and data engineering. Many analysts could continue without writing complex applications, while a growing share needed to understand the automated machinery around them.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The boundary between GIS specialist and developer therefore became less tidy. Some practitioners remained primarily cartographers, analysts, remote-sensing specialists or data custodians. Others moved towards scripting, database design, integration and application development. Many sat somewhere in the middle, able to inspect a script, alter a query or repair a model without describing themselves as programmers. Automation widened the range of technical roles around GIS rather than replacing the discipline with software development.",
+      "markdown": "The boundary between GIS specialist and developer therefore became less tidy. Some practitioners remained primarily cartographers, analysts, remote-sensing specialists or data custodians. Others moved towards scripting, database design, integration and application development. Many sat somewhere in the middle, able to inspect a script, alter a query or repair a model without describing themselves as programmers. Automation widened the range of technical roles around GIS rather than replacing the discipline with software development.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

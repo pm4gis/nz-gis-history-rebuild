@@ -1,0 +1,31 @@
+{
+  "id": "person:carolina-faka-osi-manu",
+  "slug": "carolina-faka-osi-manu",
+  "name": "Carolina Faka’osi Manu",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/carolina-faka-osi-manu/",
+  "story": [
+    "LINZ and the Geospatial Capability Committee included Carolina Faka’osi Manu in the Leaving School geospatial career-profile series: Geospatial Specialist, LINZ, May 2025."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial for schools",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+    }
+  ],
+  "aliases": [
+    "Carolina Faka’osi Manu"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "LINZ, Geospatial for schools",
+        "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-schools"
+      }
+    ]
+  ]
+}

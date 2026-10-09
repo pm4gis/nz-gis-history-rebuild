@@ -1,0 +1,42 @@
+{
+  "id": "person:peter-morgan",
+  "slug": "peter-morgan",
+  "name": "Peter Morgan",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/peter-morgan/",
+  "story": [
+    "LINZ contracted Dr Peter Morgan of the University of Canberra to process the first-order GPS campaign data for NZGD2000, using the GAMIT, GLOBK and GLOGR software suite. The work produced coordinates for the defining network in the International Terrestrial Reference Frame 1996, initially calculated at an observation epoch around 1996.5 before being related to the new datum’s reference epoch.",
+    "The published development papers also record Peter Morgan’s processing work on the first-order network. These named contributors sat within a wider programme involving LINZ, GNS and the survey community rather than forming a small group that created the system in isolation."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 19 · The repeat GPS network",
+      "url": "/stories/rebuilding-the-coordinate-framework/"
+    },
+    {
+      "label": "Chapter 19 · Designing NZGD2000",
+      "url": "/stories/rebuilding-the-coordinate-framework/"
+    }
+  ],
+  "aliases": [
+    "Peter Morgan"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 19 · The repeat GPS network",
+        "url": "/stories/rebuilding-the-coordinate-framework/"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 19 · Designing NZGD2000",
+        "url": "/stories/rebuilding-the-coordinate-framework/"
+      }
+    ]
+  ]
+}

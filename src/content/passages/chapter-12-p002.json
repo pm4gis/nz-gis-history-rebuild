@@ -1,0 +1,95 @@
+{
+  "id": "passage:chapter-12-6f2ca241b9",
+  "slug": "local-channels-6f2ca241b9",
+  "articleId": "article:chapter-12",
+  "title": "Local channels",
+  "order": 1,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:12",
+    "entity:dsir-science-mapping-unit",
+    "entity:explorer-graphics-northsouth-gis",
+    "entity:university-of-canterbury",
+    "entity:auckland-council",
+    "entity:downer",
+    "person:david-pimblott",
+    "person:graeme-henderson",
+    "person:jithen-singh",
+    "person:nathan-heazlewood",
+    "person:parker-jones",
+    "person:scott-campbell",
+    "person:trevor-hart"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Eagle entered the GIS market through a New Zealand computing and systems-integration business, rather than as a company founded solely to sell GIS.",
+      "markdown": "Eagle entered the GIS market through a New Zealand computing and systems-integration business, rather than as a company founded solely to sell GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Company material dates Eagle’s New Zealand Esri distributorship to 1986. Other New Zealand industry accounts place the formal relationship in the later 1980s; practitioner records describe Esri and ERDAS distribution work between 1983 and 1987. The first New Zealand production ARC/INFO licence or installation remains undated.",
+      "markdown": "Company material dates Eagle’s New Zealand Esri distributorship to 1986. Other New Zealand industry accounts place the formal relationship in the later 1980s; practitioner records describe Esri and ERDAS distribution work between 1983 and 1987. The first New Zealand production ARC/INFO licence or installation remains undated.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2013 it was described in competition material as supplying software, data, mobile capture, enterprise solutions, implementation, support, management services, training and technology transfer. Those later words describe activities that had been accumulating for years. A customer might buy an overseas software product, but it still needed local knowledge of hardware, data, operating environments and the peculiarities of New Zealand organisations. A distributor that could train staff and help implement the system was selling capability as much as a licence.",
+      "markdown": "By 2013 it was described in competition material as supplying software, data, mobile capture, enterprise solutions, implementation, support, management services, training and technology transfer. Those later words describe activities that had been accumulating for years. A customer might buy an overseas software product, but it still needed local knowledge of hardware, data, operating environments and the peculiarities of New Zealand organisations. A distributor that could train staff and help implement the system was selling capability as much as a licence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Intergraph followed a different model. The DSIR Science Mapping Unit was using an Intergraph GIS around 1985, and a University of Canterbury record from August 1987 explicitly names Intergraph Corporation (NZ) Ltd in a computer-integrated manufacturing agreement. By 1994 New Zealand-based Intergraph staff were providing GIS and land-information training into the Pacific. Intergraph's local operation spanned graphics, CAD, engineering, photogrammetry, land information and GIS, well beyond desktop mapping resale.",
+      "markdown": "Intergraph followed a different model. The DSIR Science Mapping Unit was using an Intergraph GIS around 1985, and a University of Canterbury record from August 1987 explicitly names Intergraph Corporation (NZ) Ltd in a computer-integrated manufacturing agreement. By 1994 New Zealand-based Intergraph staff were providing GIS and land-information training into the Pacific. Intergraph's local operation spanned graphics, CAD, engineering, photogrammetry, land information and GIS, well beyond desktop mapping resale.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Eagle’s software business depended on people who could identify suitable applications and explain them to customers. A Royal Society Wellington Branch biography describes Parker Jones’s role in selecting, importing, selling and supporting software, including Esri GIS. David Pimblott’s retrospective places his GIS consulting work in the Eagle lineage in 1983–87 and recalls responsibilities for Esri and ERDAS distribution and support, before he co-founded Explorer Graphics. Their accounts show the people behind the local commercial GIS channel.",
+      "sources": [
+        {
+          "label": "David Pimblott professional profile, Topline",
+          "url": "https://topline.com/people/david-pimblott-46e4e308bb"
+        },
+        {
+          "label": "Royal Society Te Apārangi Wellington Branch, Parker Jones lecture notice, 'Putting the Where into decisions: a 40 year journey...'",
+          "url": "https://www.royalsocietyofnewzealandwellingtonbranch.org/"
+        },
+        {
+          "label": "Geographic Business Solutions, GBS attains Esri Gold Partner Status, carried by Scoop",
+          "url": "https://www.scoop.co.nz/stories/BU1308/S00725/gbs-attains-esri-gold-partner-status.htm"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Eagle staff delivered and supported organisational GIS platforms. Graeme Henderson worked with Downer on the ArcGIS configuration for GRAIL from 2011. Nathan Heazlewood was Eagle’s project manager for Auckland Council’s Geospatial Future Mode of Operation programme. Jithen Singh appears in the NZTA case describing ArcGIS Enterprise on Kubernetes from 2021. Scott Campbell was identified as Eagle’s Head of GIS Technology in the official speech opening the 2017 New Zealand Esri User Conference. Trevor Hart’s later specialist practice, Ope, describes ArcGIS Enterprise design, upgrades, health checks and related tools from 2017 onward. These are distinct kinds of work, connecting customer requirements, project delivery, technical support and the continuing operation of shared systems.",
+      "sources": [
+        {
+          "label": "Eagle Technology, 'Downer realises efficiencies with GIS tools'",
+          "url": "https://www.eagle.co.nz/gis-solutions/case-studies/downer-realises-efficiencies-gis-tools"
+        },
+        {
+          "label": "Esri ArcNews, In Focus: Auckland Council Deploys the ArcGIS Platform",
+          "url": "https://www.esri.com/esri-news/arcnews/summer16articles/in-focus-auckland-council-deploys-the-arcgis-platform"
+        },
+        {
+          "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+          "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+        },
+        {
+          "label": "Minister for Land Information Mark Mitchell, 'New Zealand ESRI User Conference'",
+          "url": "https://www.beehive.govt.nz/speech/new-zealand-esri-user-conference"
+        },
+        {
+          "label": "Ope Ltd, company website",
+          "url": "https://www.ope.nz/"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

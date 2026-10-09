@@ -1,0 +1,46 @@
+{
+  "id": "passage:chapter-6-215b00c649",
+  "slug": "from-ladeda-to-arc-info-215b00c649",
+  "articleId": "article:chapter-6",
+  "title": "From LADEDA to ARC/INFO",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:6",
+    "entity:vector"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Water and Soil moved NZLRI from the purpose-built LADEDA environment to ARC/INFO in 1988. The migration carried the national land-resource inventory into a commercial GIS platform for ongoing production and maintenance.",
+      "markdown": "Water and Soil moved NZLRI from the purpose-built LADEDA environment to ARC/INFO in 1988. The migration carried the national land-resource inventory into a commercial GIS platform for ongoing production and maintenance.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The staff making the transition already understood polygon attributes, geographic retrieval and plotting. They had been doing those things through LADEDA. ARC/INFO offered a commercial data model and toolset that was being used internationally and would increasingly be taught in universities and supported by local suppliers. The change gave an established national dataset a route into a more standard professional environment.",
+      "markdown": "The staff making the transition already understood polygon attributes, geographic retrieval and plotting. They had been doing those things through LADEDA. ARC/INFO offered a commercial data model and toolset that was being used internationally and would increasingly be taught in universities and supported by local suppliers. The change gave an established national dataset a route into a more standard professional environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The NZLRI database and LADEDA preceded the purchase of ARC/INFO. Commercial GIS later brought that earlier work into a more standardised software environment.",
+      "markdown": "The NZLRI database and LADEDA preceded the purchase of ARC/INFO. Commercial GIS later brought that earlier work into a more standardised software environment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "ARC/INFO also brought terminology that became familiar to a generation of practitioners. Its vector data structure used arcs, nodes and polygons linked through topology and attribute tables. Later users would know the term “coverage” as a specific ARC/INFO data structure rather than the ordinary meaning of the word. None of those concepts was entirely new to New Zealand spatial computing, but the commercial package supplied a common implementation and vocabulary.",
+      "markdown": "ARC/INFO also brought terminology that became familiar to a generation of practitioners. Its vector data structure used arcs, nodes and polygons linked through topology and attribute tables. Later users would know the term “coverage” as a specific ARC/INFO data structure rather than the ordinary meaning of the word. None of those concepts was entirely new to New Zealand spatial computing, but the commercial package supplied a common implementation and vocabulary.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The migration occurred as other organisations were considering the same general question: continue building and maintaining specialised software, or adopt a supported commercial environment. Organisations answered it differently. Scientific image processing retained specialist packages. CAD remained strong in engineering and utilities. In-house programs continued where they fitted established work. GIS developed alongside these tools rather than replacing them all.",
+      "markdown": "The migration occurred as other organisations were considering the same general question: continue building and maintaining specialised software, or adopt a supported commercial environment. Organisations answered it differently. Scientific image processing retained specialist packages. CAD remained strong in engineering and utilities. In-house programs continued where they fitted established work. GIS developed alongside these tools rather than replacing them all.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

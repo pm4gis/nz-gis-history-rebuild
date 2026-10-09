@@ -1,0 +1,26 @@
+{
+  "id": "entity:transpower",
+  "slug": "transpower",
+  "name": "Transpower",
+  "kind": "Business",
+  "category": "Organisations",
+  "url": "/entities/transpower/",
+  "website": null,
+  "story": [
+    "Transpower’s national electricity network depends on spatially reliable asset information. A 2017 New Zealand Esri User Conference lightning talk by Alaina Dalzell documented work to improve data quality by georeferencing substation assets."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Transpower"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "coverageEnd": 2025,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

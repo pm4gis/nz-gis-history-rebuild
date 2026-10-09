@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0965",
+  "a": "person:bruce-harold",
+  "b": "entity:locus",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

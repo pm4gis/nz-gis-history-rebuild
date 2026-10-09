@@ -1,0 +1,49 @@
+{
+  "id": "passage:chapter-23-c108b6d8a2",
+  "slug": "upper-hutt-puts-property-online-c108b6d8a2",
+  "articleId": "article:chapter-23",
+  "title": "Upper Hutt puts property online",
+  "order": 12,
+  "updatedAt": "2026-10-08",
+  "themeIds": [
+    "local-government"
+  ],
+  "recordIds": [
+    "chapter:23",
+    "entity:hutt-city-council",
+    "entity:upper-hutt-city-council"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Upper Hutt City Council put property information online through XPLORER in February 2003. The service brought property and rating details, property values and aerial photographs into a browser; previously, residents commonly visited the council for a paper property-information packet.",
+      "markdown": "Upper Hutt City Council put property information online through XPLORER in February 2003. The service brought property and rating details, property values and aerial photographs into a browser; previously, residents commonly visited the council for a paper property-information packet.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The e-government case recorded about 26,000 map downloads a month and fewer in-person property enquiries after launch. Staff could direct people to the website for routine property information.",
+      "markdown": "The e-government case recorded about 26,000 map downloads a month and fewer in-person property enquiries after launch. Staff could direct people to the website for routine property information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Behind the viewer, property and rating records had to be linked to spatial features, while aerial photographs and other layers were stored and published. Updates still depended on council systems and staff maintaining the underlying data.",
+      "markdown": "Behind the viewer, property and rating records had to be linked to spatial features, while aerial photographs and other layers were stored and published. Updates still depended on council systems and staff maintaining the underlying data.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2013 Upper Hutt upgraded XPLORER for mobile access using HTML5. The council described property and rating details, underground services and district-planning information, including use by contractors checking records in the field.",
+      "markdown": "In 2013 Upper Hutt upgraded XPLORER for mobile access using HTML5. The council described property and rating details, underground services and district-planning information, including use by contractors checking records in the field.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapter 30 follows the wider spread of browser GIS in New Zealand.",
+      "markdown": "Chapter 30 follows the wider spread of browser GIS in New Zealand.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

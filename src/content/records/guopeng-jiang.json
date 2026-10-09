@@ -1,0 +1,35 @@
+{
+  "id": "person:guopeng-jiang",
+  "slug": "guopeng-jiang",
+  "name": "Guopeng Jiang",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/guopeng-jiang/",
+  "story": [
+    "In the Waikato, Guopeng Jiang's 2020 doctoral work used random forests, XGBoost and other methods with spatial yield and environmental data for precision agriculture."
+  ],
+  "sources": [
+    {
+      "label": "My Doctoral Story - Guopeng Jiang (2020) - Massey University · public profile",
+      "url": "https://www.academicstanding.massey.ac.nz/massey/expertise/phd-student-profiles/doctoral-my-story.cfm?studid=F%2BwubFvfz9M%3D"
+    },
+    {
+      "label": "Chapter 44 · Learning from examples",
+      "url": "/stories/gis-at-the-end-of-2025/"
+    }
+  ],
+  "aliases": [
+    "Guopeng Jiang"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 44 · Learning from examples",
+        "url": "/stories/gis-at-the-end-of-2025/"
+      }
+    ]
+  ]
+}

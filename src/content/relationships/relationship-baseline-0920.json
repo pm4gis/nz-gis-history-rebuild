@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0920",
+  "a": "person:boudewijn-boogaard",
+  "b": "entity:eagle-technology",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-31-336d16e715",
+  "slug": "imagery-becomes-ordinary-336d16e715",
+  "articleId": "article:chapter-31",
+  "title": "Imagery becomes ordinary",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:31"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "One of the most visible changes was the normalisation of imagery as a map background. Professional GIS users had worked with orthophotos and satellite imagery for years, and New Zealand agencies had invested heavily in aerial photography well before Google Earth. Consumer services brought that imagery to a much wider audience.",
+      "markdown": "One of the most visible changes was the normalisation of imagery as a map background. Professional GIS users had worked with orthophotos and satellite imagery for years, and New Zealand agencies had invested heavily in aerial photography well before Google Earth. Consumer services brought that imagery to a much wider audience.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "A person who had never ordered an orthophoto or loaded a raster layer could switch from a street map to an image view. This altered conversations about property, landscape, travel and development because the photograph-like surface became an expected companion to the abstract map. Roads and labels could be compared with roofs, paddocks, rivers and terrain. For many users, the image looked more immediately real than a conventional map.",
+      "markdown": "A person who had never ordered an orthophoto or loaded a raster layer could switch from a street map to an image view. This altered conversations about property, landscape, travel and development because the photograph-like surface became an expected companion to the abstract map. Roads and labels could be compared with roofs, paddocks, rivers and terrain. For many users, the image looked more immediately real than a conventional map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The apparent realism required care. Imagery might be months or years old, and orthorectification, mosaicking, capture angle, terrain and source resolution all affected what users saw. An image showed what was captured at a particular date; it did not establish current property conditions. Features and fences in an image did not define legal parcel boundaries. Consumer access widened the audience for imagery faster than it widened understanding of its limits.",
+      "markdown": "The apparent realism required care. Imagery might be months or years old. Orthorectification, mosaicking, capture angle, terrain and source resolution could affect what a user saw. A house visible in the image was not proof of its current condition, and an apparent boundary was not a cadastral boundary merely because it lined up with a fence. Consumer access widened the audience for imagery much faster than it widened understanding of its limitations.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

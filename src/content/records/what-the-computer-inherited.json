@@ -1,0 +1,18 @@
+{
+  "id": "chapter:1",
+  "articleId": "article:chapter-1",
+  "slug": "what-the-computer-inherited",
+  "name": "Maps before computers",
+  "kind": "Story",
+  "category": "Early computing",
+  "url": "/stories/what-the-computer-inherited/",
+  "description": "When electronic computers entered New Zealand government offices around the turn of the 1960s, they encountered extensive survey, mapping and land records. This large, untidy and highly organised inheritance consisted of survey plans, cadastral record maps, triangulation records, coordinate lists, aerial photographs, census boundaries, topographic sheets, hydrographic charts and thematic maps. Different agencies had ",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "cadastre",
+    "imagery",
+    "women-in-gis"
+  ]
+}

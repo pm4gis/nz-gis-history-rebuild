@@ -1,0 +1,50 @@
+{
+  "id": "person:andy-gilmour",
+  "slug": "andy-gilmour",
+  "name": "Andy Gilmour",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/andy-gilmour/",
+  "story": [
+    "Andy Gilmour co-authored the 2008 chapter Developing Geographical Information Systems and Crime Mapping Tools in New Zealand with Jill Barclay. The publisher identifies a New Zealand Police GIS affiliation. The chapter followed development of Police web GIS and the map-based analytical policing system (MAPS).",
+    "A later practitioner account by Andy Gilmour and Jill Barclay records that geographic analysis was identified as a key reporting capability during development of Police’s operational records system. Police wanted analysts to ask what had happened, where it had happened, when it had happened and what else had occurred nearby. That requirement placed location alongside offence type, time, people and other recorded attributes as a working part of crime analysis."
+  ],
+  "sources": [
+    {
+      "label": "Andy Gilmour and Jill Barclay, Developing Geographical Information Systems and Crime Mapping Tools in New Zealand, 2008",
+      "url": "https://doi.org/10.1002/9780470987193.ch1"
+    },
+    {
+      "label": "Accessible book preview: Andy Gilmour and Jill Barclay, Developing Geographical Information Systems and Crime Mapping Tools in New Zealand, 2008",
+      "url": "https://api.pageplace.de/preview/DT0400.9780470987186_A23604726/preview-9780470987186_A23604726.pdf"
+    },
+    {
+      "label": "Chapter 28 · Crime enters the records system",
+      "url": "/stories/safety-policing-and-emergency-gis/"
+    }
+  ],
+  "aliases": [
+    "Andy Gilmour"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Andy Gilmour and Jill Barclay, Developing Geographical Information Systems and Crime Mapping Tools in New Zealand, 2008",
+        "url": "https://doi.org/10.1002/9780470987193.ch1"
+      },
+      {
+        "label": "Accessible book preview: Andy Gilmour and Jill Barclay, Developing Geographical Information Systems and Crime Mapping Tools in New Zealand, 2008",
+        "url": "https://api.pageplace.de/preview/DT0400.9780470987186_A23604726/preview-9780470987186_A23604726.pdf"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 28 · Crime enters the records system",
+        "url": "/stories/safety-policing-and-emergency-gis/"
+      }
+    ]
+  ]
+}

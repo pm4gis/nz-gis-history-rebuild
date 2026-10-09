@@ -1,0 +1,31 @@
+{
+  "id": "person:ian-mccahon",
+  "slug": "ian-mccahon",
+  "name": "Ian McCahon",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/ian-mccahon/",
+  "story": [
+    "In May 2006 Ian McCahon of Geotech Consulting sent Marlborough District Council two hand-drawn sheets of possible fault traces around Renwick. The traces had been interpreted from old RNZAF aerial photographs, newer council aerials and field observations, and were intended to be digitised into the council GIS. The consultant offered either to redraw them in CorelDraw and supply DWF files for transfer, or to let council staff digitise the sheets in-house. He also insisted that the approximate locations and interpretive nature of the traces be carried into the final output."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23 · A new local government",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Ian McCahon"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · A new local government",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

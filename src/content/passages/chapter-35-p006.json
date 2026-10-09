@@ -1,0 +1,53 @@
+{
+  "id": "passage:chapter-35-adca84c920",
+  "slug": "the-form-becomes-the-interface-adca84c920",
+  "articleId": "article:chapter-35",
+  "title": "The form becomes the interface",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Forms followed the same trajectory. Mobile forms reduced transcription and helped field workers attach structured observations directly to places and features. Once the approach became familiar, there was no reason it had to remain limited to field inspection. A form could become the front end of a spatial system for users who never needed to see a full map.",
+      "markdown": "Forms followed the same trajectory. Mobile forms reduced transcription and helped field workers attach structured observations directly to places and features. Once the approach became familiar, there was no reason it had to remain limited to field inspection. A form could become the front end of a spatial system for users who never needed to see a full map.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The DOC Helicopter Boarding Pass shows this in a particularly clean form. By 2020 the department described it as a compulsory paperless pre-flight checklist and the final check of critical safety controls before take-off. The application's geographic capability sat in the background. It could capture location and other metadata, but the user experience was organised around completing a safety procedure. GIS had become part of operational software rather than a separate mapping activity.",
+      "markdown": "The DOC Helicopter Boarding Pass shows this in a particularly clean form. By 2020 the department described it as a compulsory paperless pre-flight checklist and the final check of critical safety controls before take-off. The application's geographic capability sat in the background. It could capture location and other metadata, but the user experience was organised around completing a safety procedure. GIS had become part of operational software rather than a separate mapping activity.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Spatial design remained part of application development. If a form captured a location automatically, someone still had to decide how accurate that location needed to be and what happened when it was wrong. If users selected a place from a list or map, the identifiers had to align with the database. If the form was later used in reporting, the categories needed to remain stable enough to compare records. Hiding GIS from the user increases the importance of getting those underlying decisions right because the user has fewer opportunities to see or correct the machinery directly.",
+      "markdown": "Spatial design remained part of application development. If a form captured a location automatically, someone still had to decide how accurate that location needed to be and what happened when it was wrong. If users selected a place from a list or map, the identifiers had to align with the database. If the form was later used in reporting, the categories needed to remain stable enough to compare records. Hiding GIS from the user increases the importance of getting those underlying decisions right because the user has fewer opportunities to see or correct the machinery directly.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Forms also made permissions more visible as a design problem. A user might be allowed to create a record but not see other people's records. A manager might need a summary but not detailed personal information. An administrator might need to correct data without changing the historical record of who submitted it. These are information-governance questions expressed through an application. They are not solved simply by making the form attractive or easy to complete.",
+      "markdown": "Forms also made permissions more visible as a design problem. A user might be allowed to create a record but not see other people's records. A manager might need a summary but not detailed personal information. An administrator might need to correct data without changing the historical record of who submitted it. These are information-governance questions expressed through an application. They are not solved simply by making the form attractive or easy to complete.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The same pattern appeared outside conservation. Quenten Higgan worked with AsureQuality’s AgriBase and later biosecurity response, while Bronwyn Rodgers used Survey123 in Pāmu farm operations. These applications presented a task, form or decision workflow to the user while spatial databases and services worked underneath.",
+      "sources": [
+        {
+          "label": "AsureQuality, Database that makes a difference for NZ producers",
+          "url": "https://www.asurequality.com/about/news/database-that-makes-a-difference-for-nz-producers/"
+        },
+        {
+          "label": "Eagle Technology, Pāmu and Esri help solve winter grazing challenges",
+          "url": "https://www.eagle.co.nz/gis-solutions/case-studies/p%C4%81mu-and-esri-help-solve-winter-grazing-challenges"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

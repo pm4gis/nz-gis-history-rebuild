@@ -1,0 +1,29 @@
+{
+  "id": "2023-nzta-gabrielle",
+  "dateDisplay": "2023-02",
+  "startDate": "2023-02",
+  "datePrecision": "month",
+  "year": 2023,
+  "label": "NZTA platform used during Cyclone Gabrielle",
+  "summary": "The enterprise platform supported field survey and situational awareness during the response. Reported benefits remain attributed to the customer case.",
+  "url": "/stories/the-real-time-map/#nzta-during-cyclone-gabrielle-c58a7ffce6",
+  "passageIds": [
+    "passage:chapter-42-c58a7ffce6"
+  ],
+  "recordIds": [
+    "chapter:42"
+  ],
+  "themeIds": [],
+  "categories": [
+    "enterprise",
+    "software",
+    "transport",
+    "emergency"
+  ],
+  "sources": [
+    {
+      "label": "Esri, 'NZTA Modernizes Highways with ArcGIS Enterprise on Kubernetes'",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview/nzta-modernizes-highways-with-arcgis-enterprise-on-kubernetes-case-study"
+    }
+  ]
+}

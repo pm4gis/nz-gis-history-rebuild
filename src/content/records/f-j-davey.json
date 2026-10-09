@@ -1,0 +1,31 @@
+{
+  "id": "person:f-j-davey",
+  "slug": "f-j-davey",
+  "name": "F. J. Davey",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/f-j-davey/",
+  "story": [
+    "In 1976 F. J. Davey of DSIR’s Geophysics Division published results from Fiordland using an ITT Model 6000 single-channel satellite navigation receiver. This was the older United States Navy Navigation Satellite System, usually known as Transit, not GPS. Davey observed satellite passes at 13 anchorages and compared the resulting positions with coordinates on the New Zealand Geodetic Datum 1949. The exercise found a systematic difference in latitude of about 170 metres between the satellite reference system and NZGD49 in the area studied."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 18 · Before GPS",
+      "url": "/stories/gps-changes-where-here-is/"
+    }
+  ],
+  "aliases": [
+    "F. J. Davey"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 18 · Before GPS",
+        "url": "/stories/gps-changes-where-here-is/"
+      }
+    ]
+  ]
+}

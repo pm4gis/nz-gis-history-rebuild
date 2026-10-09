@@ -1,0 +1,29 @@
+{
+  "id": "2011-linz-data-service",
+  "dateDisplay": "2011",
+  "startDate": "2011",
+  "datePrecision": "year",
+  "year": 2011,
+  "label": "LINZ Data Service launches",
+  "summary": "Authoritative government spatial datasets became easier to discover, download and use through online services and APIs.",
+  "url": "/stories/open-data-changes-access/#the-linz-data-service-51393f242c",
+  "passageIds": [
+    "passage:chapter-33-51393f242c"
+  ],
+  "recordIds": [
+    "chapter:33",
+    "person:jan-pierce",
+    "person:graeme-blick",
+    "person:michael-cooper"
+  ],
+  "themeIds": [
+    "open-practice",
+    "women-in-gis"
+  ],
+  "categories": [
+    "open-data",
+    "government",
+    "services"
+  ],
+  "sources": []
+}

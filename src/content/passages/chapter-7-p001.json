@@ -1,0 +1,21 @@
+{
+  "id": "passage:chapter-7-2b878e178f",
+  "slug": "reading-the-land-2b878e178f",
+  "articleId": "article:chapter-7",
+  "title": "Reading the land",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:7"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Chapter 5 followed the creation and digitisation of the New Zealand Land Resource Inventory and the LADEDA system. The inventory itself was built from stereo aerial photography, geological and soil information, topographic maps and field observations. Its polygons described interpreted land-resource units rather than legal parcels. By the end of the 1970s first-edition coverage comprised about 85,000 mapped units, each carrying codes for rock type, soil, slope, present erosion and vegetation.",
+      "markdown": "Chapter 5 followed the creation and digitisation of the New Zealand Land Resource Inventory and the LADEDA system. The inventory itself was built from stereo aerial photography, geological and soil information, topographic maps and field observations. Its polygons described interpreted land-resource units rather than legal parcels. By the end of the 1970s first-edition coverage comprised about 85,000 mapped units, each carrying codes for rock type, soil, slope, present erosion and vegetation.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

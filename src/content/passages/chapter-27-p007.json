@@ -1,0 +1,42 @@
+{
+  "id": "passage:chapter-27-73a6354dbb",
+  "slug": "getting-to-a-hospital-73a6354dbb",
+  "articleId": "article:chapter-27",
+  "title": "Getting to a hospital",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:27",
+    "entity:university-of-waikato",
+    "person:lars-brabyn",
+    "person:chris-skelly"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Public-health GIS was also moving beyond disease surveillance. In November 2002 Lars Brabyn and Chris Skelly published a national study of access to public hospitals. The analysis used a road network to calculate minimum travel distance and estimated travel time from roughly 38,000 Census meshblock centroids to 63 public hospitals. Local population could then be related to the calculated accessibility rather than represented only by straight-line distance.",
+      "markdown": "Public-health GIS was also moving beyond disease surveillance. In November 2002 Lars Brabyn and Chris Skelly published a national study of access to public hospitals. The analysis used a road network to calculate minimum travel distance and estimated travel time from roughly 38,000 Census meshblock centroids to 63 public hospitals. Local population could then be related to the calculated accessibility rather than represented only by straight-line distance.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The method recognised that two places the same distance from a hospital can have very different access. A winding rural road, urban congestion, river crossings and the actual structure of the road network affect travel. The GIS cost-path model assigned travel characteristics to the network and calculated the least-cost route to the closest hospital. This turned a national road dataset and population geography into a health-service planning measure.",
+      "markdown": "The method recognised that two places the same distance from a hospital can have very different access. A winding rural road, urban congestion, river crossings and the actual structure of the road network affect travel. The GIS cost-path model assigned travel characteristics to the network and calculated the least-cost route to the closest hospital. This turned a national road dataset and population geography into a health-service planning measure.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The division of work is documented clearly. Brabyn conducted the GIS analysis, while Skelly organised the collection of hospital information; both contributed to the conception of the research and the paper. Public Health Intelligence funded the work, and the computer analysis was undertaken in the University of Waikato Department of Geography. The study therefore linked a Ministry policy requirement with university GIS capability rather than placing the whole analytical process inside one agency.",
+      "markdown": "The division of work is documented clearly. Brabyn conducted the GIS analysis, while Skelly organised the collection of hospital information; both contributed to the conception of the research and the paper. Public Health Intelligence funded the work, and the computer analysis was undertaken in the University of Waikato Department of Geography. The study therefore linked a Ministry policy requirement with university GIS capability rather than placing the whole analytical process inside one agency.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The May 2002 Public Health Observatory launch had already signalled where this work was heading. The Ministry said the Waikato Geography Department had been an instrumental collaborator in developing national accessibility models and expected travel distances and times to hospitals, primary care and pharmacies to become available through the Observatory. Health GIS was extending from where disease had occurred to how easily populations could reach services.",
+      "markdown": "The May 2002 Public Health Observatory launch had already signalled where this work was heading. The Ministry said the Waikato Geography Department had been an instrumental collaborator in developing national accessibility models and expected travel distances and times to hospitals, primary care and pharmacies to become available through the Observatory. Health GIS was extending from where disease had occurred to how easily populations could reach services.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

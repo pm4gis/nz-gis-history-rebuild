@@ -1,0 +1,16 @@
+{
+  "id": "chapter:41",
+  "articleId": "article:chapter-41",
+  "slug": "cloud-services-and-apis",
+  "name": "Spatial services and the cloud",
+  "kind": "Story",
+  "category": "Shared systems",
+  "url": "/stories/cloud-services-and-apis/",
+  "description": "By the late 2000s New Zealand GIS was already comfortable with servers. Councils, government departments, utilities and research organisations had spent years moving spatial data into shared databases and publishing maps through internal and public web systems. The next change was quieter: the organisation no longer had to own every piece of the machinery, and geographic information no longer had to arrive as a file.",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "technology-stack"
+  ]
+}

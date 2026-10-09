@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1688",
+  "a": "person:matapura-ellison",
+  "b": "chapter:35",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-35-8ab5f7559c"
+  ],
+  "sources": []
+}

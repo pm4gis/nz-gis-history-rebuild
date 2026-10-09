@@ -1,0 +1,14 @@
+{
+  "id": "chapter:7",
+  "articleId": "article:chapter-7",
+  "slug": "mapping-land-as-data",
+  "name": "Land assessment",
+  "kind": "Story",
+  "category": "Early GIS",
+  "url": "/stories/mapping-land-as-data/",
+  "description": "Chapter 5 followed the creation and digitisation of the New Zealand Land Resource Inventory and the LADEDA system. The inventory itself was built from stereo aerial photography, geological and soil information, topographic maps and field observations. Its polygons described interpreted land-resource units rather than legal parcels. By the end of the 1970s first-edition coverage comprised about 85,000 mapped units, ea",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": []
+}

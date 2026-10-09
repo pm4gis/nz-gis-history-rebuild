@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1094",
+  "a": "person:martin-roundill",
+  "b": "entity:waitakere-city-council",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

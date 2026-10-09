@@ -1,0 +1,31 @@
+{
+  "id": "person:katie-dooley",
+  "slug": "katie-dooley",
+  "name": "Katie Dooley",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/katie-dooley/",
+  "story": [
+    "Katie Dooley of the New Zealand Transport Agency co-presented a 2017 conference session on how the agency and the North Canterbury Transport Infrastructure Recovery alliance used GIS for collaboration after the Kaikōura earthquake. The presentation records geospatial work inside a large transport-recovery programme."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Katie Dooley"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

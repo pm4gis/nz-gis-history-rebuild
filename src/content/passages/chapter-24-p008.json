@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-24-4bacf0bd7f",
+  "slug": "the-ordinary-user-4bacf0bd7f",
+  "articleId": "article:chapter-24",
+  "title": "The ordinary user",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:24"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the early 2010s the government GIS user was no longer easy to identify from a job title. Some were dedicated GIS analysts. Others were economists, policy advisers, biosecurity staff, fisheries scientists, permit administrators or programme managers using an application in which geography was already built in. Internal viewers and web systems further reduced the need for every user to have a desktop GIS licence.",
+      "markdown": "By the early 2010s the government GIS user was no longer easy to identify from a job title. Some were dedicated GIS analysts. Others were economists, policy advisers, biosecurity staff, fisheries scientists, permit administrators or programme managers using an application in which geography was already built in. Internal viewers and web systems further reduced the need for every user to have a desktop GIS licence.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The map consequently became less useful as a measure of whether an agency had mature GIS. A policy paper might contain only a few static figures even though its analysis depended on spatial datasets. An operational system might display locations without allowing the user to edit geometry. A regulatory database could use spatial validation behind forms and permit records. GIS capability was spreading into workflows that did not advertise themselves as mapping systems.",
+      "markdown": "The map consequently became less useful as a measure of whether an agency had mature GIS. A policy paper might contain only a few static figures even though its analysis depended on spatial datasets. An operational system might display locations without allowing the user to edit geometry. A regulatory database could use spatial validation behind forms and permit records. GIS capability was spreading into workflows that did not advertise themselves as mapping systems.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Maps remained central. Treasury published them because regional pattern was part of the analysis. MAF produced outbreak and control-area maps because people needed to understand the response geography. NABIS was explicitly map based, and permit administration still required mapped boundaries. The larger change lay behind the map: maintained datasets linked to policy, programme, scientific and regulatory records.",
+      "markdown": "Maps remained central. Treasury published them because regional pattern was part of the analysis. MAF produced outbreak and control-area maps because people needed to understand the response geography. NABIS was explicitly map based, and permit administration still required mapped boundaries. The larger change lay behind the map: maintained datasets linked to policy, programme, scientific and regulatory records.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By this stage government agencies could also expect spatial information from one another. A department did not have to create its own national coordinate framework, statistical geography or topographic base before beginning a project. That dependence made national data maintenance part of ordinary government capability. It also meant that decisions made by one data custodian could affect applications in agencies far removed from the original production system.",
+      "markdown": "By this stage government agencies could also expect spatial information from one another. A department did not have to create its own national coordinate framework, statistical geography or topographic base before beginning a project. That dependence made national data maintenance part of ordinary government capability. It also meant that decisions made by one data custodian could affect applications in agencies far removed from the original production system.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

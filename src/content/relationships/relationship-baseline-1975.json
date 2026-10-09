@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1975",
+  "a": "person:m-r-jessen",
+  "b": "chapter:23",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-23-bef81bd90d"
+  ],
+  "sources": []
+}

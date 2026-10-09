@@ -1,0 +1,39 @@
+{
+  "id": "passage:chapter-35-999bb8d90f",
+  "slug": "storymaps-999bb8d90f",
+  "articleId": "article:chapter-35",
+  "title": "StoryMaps",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:35"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The use of a StoryMap-style launch interface in Manaaki points to another change in spatial communication. Earlier web GIS invited the user to explore. Narrative mapping can instead guide the user through a sequence. Maps sit beside text, images, videos, charts or embedded applications, allowing the designer to explain a subject rather than merely provide access to layers.",
+      "markdown": "The use of a StoryMap-style launch interface in Manaaki points to another change in spatial communication. Earlier web GIS invited the user to explore. Narrative mapping can instead guide the user through a sequence. Maps sit beside text, images, videos, charts or embedded applications, allowing the designer to explain a subject rather than merely provide access to layers.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Atlases, reports and web pages had long combined maps with text and images. Modern platforms made it much easier to assemble interactive maps, media and live applications into a single browser experience. A GIS team could publish something that behaved more like an illustrated explanation or service portal than a mapping application.",
+      "markdown": "Atlases, reports and web pages had long combined maps with text and images. Modern platforms made it much easier to assemble interactive maps, media and live applications into a single browser experience. A GIS team could publish something that behaved more like an illustrated explanation or service portal than a mapping application.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This changed the balance of expertise again. Cartographic judgement still applied, but the designer also had to think about sequence, narrative, screen size and what the reader needed to understand before reaching the next map or application. The audience was no longer expected to discover the story by turning layers on and off. ",
+      "markdown": "This changed the balance of expertise again. Cartographic judgement still applied, but the designer also had to think about sequence, narrative, screen size and what the reader needed to understand before reaching the next map or application. The audience was no longer expected to discover the story by turning layers on and off. ",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That approach became common enough that by the 2020s a StoryMap could be used for professional communication, public explanation, project documentation or operational synthesis. Spatial communication had expanded into structured online publications. GIS could now sit inside a structured explanation with no expectation that the reader would operate GIS controls.",
+      "markdown": "That approach became common enough that by the 2020s a StoryMap could be used for professional communication, public explanation, project documentation or operational synthesis. Spatial communication had expanded into structured online publications. GIS could now sit inside a structured explanation with no expectation that the reader would operate GIS controls.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

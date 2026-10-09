@@ -1,0 +1,24 @@
+{
+  "id": "agency:te-arawhiti",
+  "slug": "office-for-maori-crown-relations-te-arawhiti",
+  "name": "Office for Māori Crown Relations – Te Arawhiti",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/office-for-maori-crown-relations-te-arawhiti/",
+  "story": [
+    "Te Arawhiti publicly launched Kōrero Takutai in December 2019 after the coastline information hub had been developed for Crown use from 2014. It combined spatial layers from several public sources so applicant groups, local authorities, the Crown and other decision-makers could work with applications and related coastal information in one portal."
+  ],
+  "sources": [
+    {
+      "label": "Beehive, Minister welcomes data-rich coastline mapping tool, 11 December 2019",
+      "url": "https://www.beehive.govt.nz/release/minister-welcomes-data-rich-coastline-mapping-tool"
+    }
+  ],
+  "aliases": [
+    "Office for Māori Crown Relations – Te Arawhiti"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "person:malcolm-fraser",
+  "slug": "malcolm-fraser",
+  "name": "Malcolm Fraser",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/malcolm-fraser/",
+  "story": [
+    "Malcolm Fraser was appointed to the government-statistician position created under the Census and Statistics Act 1910. He organised official statistics and the census, remaining government statistician until 1930. His work contributed to the institutional development of national population records before computer-based GIS.",
+    "Government Statistician Malcolm Fraser, who administered the ballots personally, eventually drew his own card in June 1918. At 45 he sat at the upper edge of military eligibility, giving the office's filing system a particularly literal demonstration of completeness."
+  ],
+  "sources": [
+    {
+      "label": "Manatū Taonga, Malcolm Fraser, NZ History, 2016",
+      "url": "https://nzhistory.govt.nz/people/malcolm-fraser"
+    },
+    {
+      "label": "Chapter 1 · Counting by place",
+      "url": "/stories/what-the-computer-inherited/"
+    }
+  ],
+  "aliases": [
+    "Malcolm Fraser"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Manatū Taonga, Malcolm Fraser, NZ History, 2016",
+        "url": "https://nzhistory.govt.nz/people/malcolm-fraser"
+      }
+    ],
+    [
+      {
+        "label": "Chapter 1 · Counting by place",
+        "url": "/stories/what-the-computer-inherited/"
+      }
+    ]
+  ]
+}

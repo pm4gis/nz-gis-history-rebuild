@@ -1,0 +1,25 @@
+{
+  "id": "1977-mappak",
+  "dateDisplay": "1977 to 1979",
+  "startDate": "1977",
+  "endDate": "1979",
+  "datePrecision": "year-range",
+  "year": 1977,
+  "label": "MAPPAK used for cadastral map compilation",
+  "summary": "Lands and Survey developed and used MAPPAK for rural and urban cadastral map compilation on PDP-11 hardware.",
+  "url": "/stories/drawing-maps-by-machine/#inside-mappak-b7f1ee3026",
+  "passageIds": [
+    "passage:chapter-3-b7f1ee3026"
+  ],
+  "recordIds": [
+    "chapter:3"
+  ],
+  "themeIds": [
+    "technology-stack"
+  ],
+  "categories": [
+    "cadastral",
+    "computing"
+  ],
+  "sources": []
+}

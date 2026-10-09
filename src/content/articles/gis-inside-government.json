@@ -1,0 +1,44 @@
+{
+  "id": "article:chapter-10",
+  "slug": "gis-inside-government",
+  "title": "Government GIS",
+  "url": "/stories/gis-inside-government/",
+  "summary": "By the middle of the 1980s, geographic computing inside the New Zealand state was no longer confined to one experimental programme or one specialist scientific group. The Ministry of Works and Development had been maintaining and ",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 10,
+  "themeIds": [
+    "women-in-gis"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch10-note-01",
+      "text": "1. The 1991 United Nations regional cartographic/country material is the principal cross-departmental checkpoint. It supports the 1986 DCDB conversion date, 1.066 million captured parcel polygons by December 1990, approximately 42 per cent of an estimated 2.5 million parcels, partial 100-metre DTM coverage, computerisation of the aerial-photo index, photogrammetric work with stereoscopic SPOT imagery and the digital aeronautical information-bank account."
+    },
+    {
+      "id": "ch10-note-02",
+      "text": "2. LINZ's historical DCDB Data Characteristics documentation supports the Sun Microsystems, Unix, VISION* and Oracle description and the distinction between digitising, survey entry, maintenance, enquiry and output. The sources describe the staffing, maintenance and production arrangements for the national spatial database. Chapter 13 discusses the detailed DCDB history and inherited cadastral-accuracy problem."
+    },
+    {
+      "id": "ch10-note-03",
+      "text": "3. Geoff Howard, Geoff O'Malley and Robin Pickering, \"New Zealand's Topographic Database - Where To Next?\", AURISA 1991, and Chris Hoogsteden and Derry Gordon's 1991 national mapping-agency paper support the short topographic-database section. Chapter 15 discusses the detailed topographic production history."
+    },
+    {
+      "id": "ch10-note-04",
+      "text": "4. McEwen's 1989-90 Department of Conservation GIS reports support the discussion of objectives, pilots, staffing, costs, maintenance and organisational responsibility. They document planning and assessment, not the later mature DOC enterprise GIS covered elsewhere."
+    },
+    {
+      "id": "ch10-note-05",
+      "text": "5. AURISA 1991 material, including Brian McLay and the Walsh/McQuoid land-information work, supports the policy and standards discussion. The late-1980s \"LINZ\" advisory usage is distinct from Land Information New Zealand, the statutory department created in 1996."
+    },
+    {
+      "id": "ch10-note-06",
+      "text": "6. Historical DCDB distribution documentation supports the pre-open-data discussion of licensing and charging. Chapter 33 discusses later shift to open distribution."
+    },
+    {
+      "id": "ch10-note-conservation-databases-1990",
+      "text": "Sources: Helen M. Adcock and W. Mary McEwen, DOC National Database Workshop report, October 1990, printed pp.27–28 (https://www.doc.govt.nz/globalassets/documents/science-and-technical/SRIR88.pdf)."
+    }
+  ]
+}

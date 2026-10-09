@@ -1,0 +1,31 @@
+{
+  "id": "person:danielle-spain",
+  "slug": "danielle-spain",
+  "name": "Danielle Spain",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/danielle-spain/",
+  "story": [
+    "Danielle Spain appears in the 2017 New Zealand Esri User Conference programme as an Eagle Technology technical presenter. She co-presented two ArcGIS Online sessions with Esri’s Bernie Szukalski, documenting the local technical-support and training work around the move from desktop GIS to hosted web mapping."
+  ],
+  "sources": [
+    {
+      "label": "New Zealand Esri User Conference programme, 2017",
+      "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+    }
+  ],
+  "aliases": [
+    "Danielle Spain"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "New Zealand Esri User Conference programme, 2017",
+        "url": "https://www.eagle.co.nz/sites/default/files/NZEUC%202017%20Programme_Draft0707.pdf"
+      }
+    ]
+  ]
+}

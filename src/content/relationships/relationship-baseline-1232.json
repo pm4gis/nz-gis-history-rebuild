@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1232",
+  "a": "system:timaru-significant-natural-areas-survey",
+  "b": "person:richard-lovell",
+  "label": "Named in the system account",
+  "basis": "Existing technology/project account",
+  "passageIds": [],
+  "sources": []
+}

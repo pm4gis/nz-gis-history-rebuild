@@ -1,0 +1,35 @@
+{
+  "id": "linzcap-2023-03-23-to-2023-05-15-first-new-zealand-geospatial-industry-profile-survey",
+  "dateDisplay": "2023-03-23 to 2023-05-15",
+  "startDate": "2023-03-23",
+  "endDate": "2023-05-15",
+  "datePrecision": "day",
+  "year": 2023,
+  "label": "First New Zealand Geospatial Industry Profile Survey",
+  "summary": "The GISS Committee collected 523 responses to establish a baseline of the geospatial workforce.",
+  "url": "/stories/becoming-a-gis-professional/#geospatial-capability-becomes-a-programme-0e41912671",
+  "passageIds": [
+    "passage:chapter-29-0e41912671"
+  ],
+  "recordIds": [
+    "chapter:29"
+  ],
+  "themeIds": [],
+  "categories": [
+    "capability"
+  ],
+  "sources": [
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial capability",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability"
+    },
+    {
+      "label": "LINZ, Geospatial Capability Committee",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/geospatial-capability-committee"
+    }
+  ]
+}

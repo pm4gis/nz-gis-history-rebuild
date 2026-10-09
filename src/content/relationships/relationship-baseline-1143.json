@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1143",
+  "a": "system:esri-arcgis",
+  "b": "system:auckland-gfmo",
+  "label": "Related system",
+  "basis": "Existing curated technology/project relationship",
+  "passageIds": [],
+  "sources": []
+}

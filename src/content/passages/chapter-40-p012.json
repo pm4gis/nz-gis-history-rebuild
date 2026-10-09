@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-40-aacad209de",
+  "slug": "when-the-gis-goes-down-aacad209de",
+  "articleId": "article:chapter-40",
+  "title": "When the GIS goes down",
+  "order": 11,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:40"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The difference becomes obvious during failure. A desktop GIS crash may delay one analyst. A failed shared database or map service may remove maps from several applications at once. Field staff may lose access to assets. A browser system may stop answering property enquiries. Automated processes may fail because a service they expected to exist has disappeared.",
+      "markdown": "The difference becomes obvious during failure. A desktop GIS crash may delay one analyst. A failed shared database or map service may remove maps from several applications at once. Field staff may lose access to assets. A browser system may stop answering property enquiries. Automated processes may fail because a service they expected to exist has disappeared.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "That risk drove GIS towards ordinary information-technology disciplines. Staff needed to test that backups could be restored. Maintenance needed planning. Performance had to be monitored. Changes needed testing before they reached important users. Disaster recovery and service continuity became relevant because spatial capability had become part of normal organisational operations.",
+      "markdown": "That risk drove GIS towards ordinary information-technology disciplines. Staff needed to test that backups could be restored. Maintenance needed planning. Performance had to be monitored. Changes needed testing before they reached important users. Disaster recovery and service continuity became relevant because spatial capability had become part of normal organisational operations.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "New Zealand organisations adopted formal development, test and production environments at different times. Some moved early; others used less formal controls and gradually strengthened them. As GIS was reused more widely, casual changes became harder to make safely.",
+      "markdown": "New Zealand organisations adopted formal development, test and production environments at different times. Some moved early; others used less formal controls and gradually strengthened them. As GIS was reused more widely, casual changes became harder to make safely.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

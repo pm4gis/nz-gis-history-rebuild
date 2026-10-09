@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0903",
+  "a": "person:rachel-gillanders",
+  "b": "entity:department-of-lands-and-survey",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

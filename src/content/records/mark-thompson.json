@@ -1,0 +1,45 @@
+{
+  "id": "person:mark-thompson",
+  "slug": "mark-thompson",
+  "name": "Mark Thompson",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/mark-thompson/",
+  "story": [
+    "Mark Thompson, GIS business leader at Tauranga City Council, organised a Bay of Plenty GIS gathering in May 2009. On 8 September 2010 he circulated a crowd-sourced Christchurch earthquake map through GISList. His correspondence records council practitioners organising local technical exchange and sharing public mapping during an emergency."
+  ],
+  "sources": [
+    {
+      "label": "GISList crowd-sourced Christchurch mapping thread"
+    },
+    {
+      "label": "Mark Thompson / Tauranga City Council, Bay of Plenty Regional get together"
+    },
+    {
+      "label": "Chapter 12 · Companies and user groups",
+      "url": "/stories/an-industry-and-community-form/"
+    },
+    {
+      "label": "Chapter 42 · Disaster response and live mapping",
+      "url": "/stories/the-real-time-map/"
+    }
+  ],
+  "aliases": [
+    "Mark Thompson"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 12 · Companies and user groups",
+        "url": "/stories/an-industry-and-community-form/"
+      },
+      {
+        "label": "Chapter 42 · Disaster response and live mapping",
+        "url": "/stories/the-real-time-map/"
+      }
+    ]
+  ]
+}

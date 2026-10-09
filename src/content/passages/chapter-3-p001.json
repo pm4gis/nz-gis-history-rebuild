@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-3-5966de2c1f",
+  "slug": "digitising-map-sheets-5966de2c1f",
+  "articleId": "article:chapter-3",
+  "title": "Digitising map sheets",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:3",
+    "entity:department-of-lands-and-survey",
+    "entity:university-of-canterbury",
+    "person:m-s-colley"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "By the late 1970s, the Department of Lands and Survey was using a computer-assisted system to convert cadastral mapping into digital form. A paper cadastral sheet was fixed to a large digitising table, control points were established, and an operator traced selected lines and points with an electronic cursor. The system recorded coordinates rather than an image of the page. Boundaries, roads and other features could then be stored, edited and plotted from the computer instead of being redrawn entirely by hand.",
+      "markdown": "By the late 1970s, the Department of Lands and Survey was using a computer-assisted system to convert cadastral mapping into digital form. A paper cadastral sheet was fixed to a large digitising table, control points were established, and an operator traced selected lines and points with an electronic cursor. The system recorded coordinates rather than an image of the page. Boundaries, roads and other features could then be stored, edited and plotted from the computer instead of being redrawn entirely by hand.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The system was MAPPAK. M. S. Colley developed it during MSc work in Computer Science at the University of Canterbury, using requirements supplied by Lands and Survey. Colley’s 1979 thesis, A Computer System for a Cadastral Mapping Application, described its use for rural and urban cadastral compilation. It covered automated conversion between map series, computer-produced cartography, graphical and descriptive data structures, editing and plotting, as well as proposed land-information functions. The distinction between operational and proposed features is retained in the thesis.",
+      "markdown": "The system was MAPPAK. M. S. Colley developed it during MSc work in Computer Science at the University of Canterbury, using requirements supplied by Lands and Survey. Colley’s 1979 thesis, A Computer System for a Cadastral Mapping Application, described its use for rural and urban cadastral compilation. It covered automated conversion between map series, computer-produced cartography, graphical and descriptive data structures, editing and plotting, as well as proposed land-information functions. The distinction between operational and proposed features is retained in the thesis.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Computers were already being used for survey adjustment, engineering calculation and coordinate transformation. Those applications could accept geographic measurements, calculate results and print an answer without retaining a reusable map database. MAPPAK retained the linework itself in digital form. Once a feature had been captured, the same geometry could be corrected, transformed and plotted again without returning to the original sheet.",
+      "markdown": "Computers were already being used for survey adjustment, engineering calculation and coordinate transformation. Those applications could accept geographic measurements, calculate results and print an answer without retaining a reusable map database. MAPPAK retained the linework itself in digital form. Once a feature had been captured, the same geometry could be corrected, transformed and plotted again without returning to the original sheet.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

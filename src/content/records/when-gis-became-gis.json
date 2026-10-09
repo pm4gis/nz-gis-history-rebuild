@@ -1,0 +1,19 @@
+{
+  "id": "chapter:6",
+  "articleId": "article:chapter-6",
+  "slug": "when-gis-became-gis",
+  "name": "Early GIS systems",
+  "kind": "Story",
+  "category": "Early GIS",
+  "url": "/stories/when-gis-became-gis/",
+  "description": "On 26 June 1989 a national conference opened in Wellington under the title Getting it all together with GIS. The published proceedings described it as the First National Multi-Disciplinary GIS Conference and ran to 116 pages. The title had a useful honesty: by then there was already plenty to get together. New Zealand organisations had spent more than a decade digitising maps, processing satellite imagery, storing la",
+  "story": [],
+  "sources": [],
+  "aliases": [],
+  "themeIds": [
+    "profession",
+    "local-government",
+    "women-in-gis",
+    "technology-stack"
+  ]
+}

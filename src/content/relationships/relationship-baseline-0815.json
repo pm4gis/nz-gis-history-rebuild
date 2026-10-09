@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-0815",
+  "a": "person:kalana-wijegunarathna",
+  "b": "chapter:44",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [
+    "passage:chapter-44-ce9de66e2a"
+  ],
+  "sources": []
+}

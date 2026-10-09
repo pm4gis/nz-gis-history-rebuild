@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0969",
+  "a": "person:garth-harmsworth",
+  "b": "entity:mirmak-te-tau-ihu-iwi-gis-collaboration",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

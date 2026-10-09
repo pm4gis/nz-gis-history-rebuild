@@ -1,0 +1,31 @@
+{
+  "id": "person:trevor-glass",
+  "slug": "trevor-glass",
+  "name": "Trevor Glass",
+  "kind": "Person",
+  "category": "People",
+  "url": "/people/trevor-glass/",
+  "story": [
+    "In a 2025 recollection, Andrew Hare says he took Waimate District Council’s GIS role around 2000, replacing Martin Erasmuson, implemented the Bizeasset asset-management system created by Trevor Glass, and engaged Simon Nitz as a contractor to install MapInfo web browsers such as Encounter. He also remembers the less glamorous corporate work that sat around those systems: District Plan mapping, matching land parcels to rating information, LIM mapping and asset management. His account describes how the council’s earlier systems led into its MapInfo work in 2006–08."
+  ],
+  "sources": [
+    {
+      "label": "Chapter 23 · The parcel becomes a key",
+      "url": "/stories/councils-build-corporate-gis/"
+    }
+  ],
+  "aliases": [
+    "Trevor Glass"
+  ],
+  "themeIds": [],
+  "status": "Account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": [
+    [
+      {
+        "label": "Chapter 23 · The parcel becomes a key",
+        "url": "/stories/councils-build-corporate-gis/"
+      }
+    ]
+  ]
+}

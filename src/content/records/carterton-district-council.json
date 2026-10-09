@@ -1,0 +1,25 @@
+{
+  "id": "entity:carterton-district-council",
+  "slug": "carterton-district-council",
+  "name": "Carterton District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/carterton-district-council/",
+  "website": "https://cdc.govt.nz",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Carterton District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

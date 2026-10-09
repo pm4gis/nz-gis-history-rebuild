@@ -1,0 +1,30 @@
+{
+  "id": "2009-jan-pierce-joins-linz",
+  "dateDisplay": "2009",
+  "startDate": "2009",
+  "datePrecision": "year",
+  "year": 2009,
+  "label": "Jan Pierce joins LINZ as Deputy Chief Executive Location Information",
+  "summary": "Pierce joined LINZ to lead the Location Information group, which was responsible for core geospatial data and services.",
+  "url": "/stories/open-data-changes-access/#the-linz-data-service-51393f242c",
+  "passageIds": [
+    "passage:chapter-33-51393f242c"
+  ],
+  "recordIds": [
+    "person:jan-pierce",
+    "entity:land-information-new-zealand-linz",
+    "chapter:33",
+    "person:graeme-blick",
+    "person:michael-cooper"
+  ],
+  "themeIds": [
+    "open-practice",
+    "women-in-gis"
+  ],
+  "categories": [
+    "linz",
+    "leadership",
+    "location-information"
+  ],
+  "sources": []
+}

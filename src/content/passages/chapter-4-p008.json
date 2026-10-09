@@ -1,0 +1,33 @@
+{
+  "id": "passage:chapter-4-0c61026266",
+  "slug": "from-imagery-to-mapped-data-0c61026266",
+  "articleId": "article:chapter-4",
+  "title": "From imagery to mapped data",
+  "order": 7,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:4"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Remote sensing and orthophotography were developing at the same time but followed different technical paths. Lands and Survey bought a computer system for orthophoto production in 1977, and orthophoto mapping of the Clutha-Alexandra area followed in 1978 and 1979 for Ministry of Works hydro-development planning. Orthophotography started with aerial photographs and corrected their geometry so the imagery could be used in map space. Landsat started with a numerical raster and required geometric correction before it could be aligned with maps and other datasets.",
+      "markdown": "Remote sensing and orthophotography were developing at the same time but followed different technical paths. Lands and Survey bought a computer system for orthophoto production in 1977, and orthophoto mapping of the Clutha-Alexandra area followed in 1978 and 1979 for Ministry of Works hydro-development planning. Orthophotography started with aerial photographs and corrected their geometry so the imagery could be used in map space. Landsat started with a numerical raster and required geometric correction before it could be aligned with maps and other datasets.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Both workflows depended on coordinates and control. Once an image had been rectified, it could be overlaid with mapped information rather than used only as a visual reference. This made imagery easier to combine with cadastral, topographic and resource data. The later spread of GIS would place these sources inside the same software environments, but the geometric work required to make them compatible was already being done in the 1970s.",
+      "markdown": "Both workflows depended on coordinates and control. Once an image had been rectified, it could be overlaid with mapped information rather than used only as a visual reference. This made imagery easier to combine with cadastral, topographic and resource data. The later spread of GIS would place these sources inside the same software environments, but the geometric work required to make them compatible was already being done in the 1970s.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The two image traditions also produced different kinds of records. Orthophotos retained a photograph-like appearance at relatively high local detail. Landsat stored broader multispectral measurements that could be analysed numerically before being rendered for display. Both later became ordinary GIS layers, but their production histories, resolutions and analytical uses remained different.",
+      "markdown": "The two image traditions also produced different kinds of records. Orthophotos retained a photograph-like appearance at relatively high local detail. Landsat stored broader multispectral measurements that could be analysed numerically before being rendered for display. Both later became ordinary GIS layers, but their production histories, resolutions and analytical uses remained different.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

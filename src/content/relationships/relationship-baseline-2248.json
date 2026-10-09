@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2248",
+  "a": "person:craig-macalpine",
+  "b": "entity:new-zealand-fire-service",
+  "label": "Associated with",
+  "basis": "Documented association in the people-expansion research; role and period are described in the linked profile sources.",
+  "passageIds": [],
+  "sources": []
+}

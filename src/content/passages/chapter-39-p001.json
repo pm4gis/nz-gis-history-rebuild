@@ -1,0 +1,36 @@
+{
+  "id": "passage:chapter-39-0d16451ce2",
+  "slug": "three-dimensional-mapping-0d16451ce2",
+  "articleId": "article:chapter-39",
+  "title": "Three dimensional mapping",
+  "order": 0,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:39",
+    "person:alan-thorn",
+    "person:terry-daniel",
+    "person:brian-orland"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "For much of GIS history, height was present without making GIS fully three-dimensional. Contours carried elevation across topographic maps. Digital elevation models stored a height value across a surface. Surveyors measured levels, photogrammetrists reconstructed terrain and engineers worked with sections and profiles. Even when a GIS displayed terrain in perspective, much of the information around it still behaved as flat points, lines and polygons draped over a surface.",
+      "markdown": "For much of GIS history, height was present without making GIS fully three-dimensional. Contours carried elevation across topographic maps. Digital elevation models stored a height value across a surface. Surveyors measured levels, photogrammetrists reconstructed terrain and engineers worked with sections and profiles. Even when a GIS displayed terrain in perspective, much of the information around it still behaved as flat points, lines and polygons draped over a surface.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By the 1990s that arrangement was already becoming more sophisticated. New Zealand organisations had digital terrain, imagery and forest information that could be combined into convincing perspective views. At GeoComputation '97 and SIRC '97 in Dunedin, Alan Thorn, Terry Daniel and Brian Orland described using GIS data to visualise New Zealand plantation-forest management scenarios. ARC/INFO supplied geographic and terrain information, while SmartForest II, image-processing tools and powerful workstations helped produce photorealistic scenes that could be assessed by managers and the public.",
+      "markdown": "By the 1990s that arrangement was already becoming more sophisticated. New Zealand organisations had digital terrain, imagery and forest information that could be combined into convincing perspective views. At GeoComputation '97 and SIRC '97 in Dunedin, Alan Thorn, Terry Daniel and Brian Orland described using GIS data to visualise New Zealand plantation-forest management scenarios. ARC/INFO supplied geographic and terrain information, while SmartForest II, image-processing tools and powerful workstations helped produce photorealistic scenes that could be assessed by managers and the public.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The images helped users understand the modelled space. Forest management under the Resource Management Act could involve arguments about what harvesting or planting would look like from real places, and a perspective scene could communicate effects that a contour map or coded stand polygon did not make obvious. The work demonstrated how GIS could feed a three-dimensional visual environment well before modern web scenes and digital twins. It also exposed a distinction that would become increasingly relevant: a view can be three-dimensional without the underlying information system being a general three-dimensional GIS.",
+      "markdown": "The images helped users understand the modelled space. Forest management under the Resource Management Act could involve arguments about what harvesting or planting would look like from real places, and a perspective scene could communicate effects that a contour map or coded stand polygon did not make obvious. The work demonstrated how GIS could feed a three-dimensional visual environment well before modern web scenes and digital twins. It also exposed a distinction that would become increasingly relevant: a view can be three-dimensional without the underlying information system being a general three-dimensional GIS.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

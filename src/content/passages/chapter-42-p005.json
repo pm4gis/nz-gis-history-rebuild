@@ -1,0 +1,26 @@
+{
+  "id": "passage:chapter-42-26067d18a1",
+  "slug": "canterbury-common-operating-picture-2010-26067d18a1",
+  "articleId": "article:chapter-42",
+  "title": "Canterbury Common Operating Picture, 2010",
+  "order": 4,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:42",
+    "person:jithen-singh"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "During the September 2010 Canterbury earthquake response, Jithen Singh reported live crowd-sourced information being added to a Common Operating Picture alongside refreshed authoritative data. Web services, official GIS and public contributions supplied a shared operational view.",
+      "markdown": "During the September 2010 Canterbury earthquake response, Jithen Singh reported live crowd-sourced information being added to a Common Operating Picture alongside refreshed authoritative data. Web services, official GIS and public contributions supplied a shared operational view.",
+      "sources": [
+        {
+          "label": "GISList crowd-sourced Christchurch mapping thread"
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

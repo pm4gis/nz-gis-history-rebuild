@@ -1,0 +1,57 @@
+{
+  "id": "entity:stronger-christchurch-infrastructure-rebuild-team-scirt",
+  "slug": "stronger-christchurch-infrastructure-rebuild-team-scirt",
+  "name": "Stronger Christchurch Infrastructure Rebuild Team (SCIRT)",
+  "kind": "Agency",
+  "category": "Government",
+  "url": "/entities/stronger-christchurch-infrastructure-rebuild-team-scirt/",
+  "website": null,
+  "story": [
+    "SCIRT’s GIS Viewer gave infrastructure-rebuild participants a shared way to use information from many sources. The project legacy records describe hundreds of layers and different viewer configurations for particular users. Its usefulness depended on repeated updates and shared working practices across an alliance, as well as the application itself.",
+    "The viewer began in 2010 on a consultant’s server as a design-support tool for the Burwood, Dallington and Avonside repair pod within the Infrastructure Rebuild Management Office. When SCIRT formed in 2011 it moved to Amazon cloud servers for reliability, then to Fulton Hogan’s servers in 2013 to reduce costs.",
+    "The SCIRT GIS team maintained a common view of infrastructure and recovery data from more than 30 providers. The legacy account records over 600 layers, more than 1,500 users, 32 restricted-view configurations and over 2,700 updates during the programme. Access reflected provider agreements: CERA’s confidential geotechnical information was limited to named users, while other suppliers specified how their data could be displayed or used.",
+    "A 2013 upgrade improved server performance, indexed attributes used for display and filtering, and incorporated user feedback on pop-ups and a simple interface. A mobile map used JavaScript, Leaflet and the Esri Leaflet plug-in. After major flooding in 2013 and 2014, the GIS team gave the council’s task force access to support its decisions."
+  ],
+  "sources": [
+    {
+      "label": "SCIRT Learning Legacy, SCIRT Geographic Information System (GIS) Viewer",
+      "url": "https://scirtlearninglegacy.org.nz/finance-and-business-systems/scirt-geographic-information-system-gis-viewer/"
+    },
+    {
+      "label": "SCIRT Learning Legacy, GIS Viewer: a window to central data, pp.1–3",
+      "url": "https://scirtlearninglegacy.org.nz/wp-content/uploads/2021/07/qsr-part_337854.pdf"
+    }
+  ],
+  "aliases": [
+    "Stronger Christchurch Infrastructure Rebuild Team (SCIRT)"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [
+    [
+      {
+        "label": "SCIRT Learning Legacy, SCIRT Geographic Information System (GIS) Viewer",
+        "url": "https://scirtlearninglegacy.org.nz/finance-and-business-systems/scirt-geographic-information-system-gis-viewer/"
+      }
+    ],
+    [
+      {
+        "label": "SCIRT Learning Legacy, GIS Viewer: a window to central data, pp.1–3",
+        "url": "https://scirtlearninglegacy.org.nz/wp-content/uploads/2021/07/qsr-part_337854.pdf"
+      }
+    ],
+    [
+      {
+        "label": "SCIRT Learning Legacy, GIS Viewer: a window to central data, pp.1–3",
+        "url": "https://scirtlearninglegacy.org.nz/wp-content/uploads/2021/07/qsr-part_337854.pdf"
+      }
+    ],
+    [
+      {
+        "label": "SCIRT Learning Legacy, GIS Viewer: a window to central data, pp.1–3",
+        "url": "https://scirtlearninglegacy.org.nz/wp-content/uploads/2021/07/qsr-part_337854.pdf"
+      }
+    ]
+  ],
+  "biographyParagraphSources": []
+}

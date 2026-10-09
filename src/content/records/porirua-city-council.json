@@ -1,0 +1,25 @@
+{
+  "id": "entity:porirua-city-council",
+  "slug": "porirua-city-council",
+  "name": "Porirua City Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/porirua-city-council/",
+  "website": "https://www.poriruacity.govt.nz",
+  "description": "Council directory entry.",
+  "story": [],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    }
+  ],
+  "aliases": [
+    "Porirua City Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

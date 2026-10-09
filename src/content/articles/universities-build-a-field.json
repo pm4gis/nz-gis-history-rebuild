@@ -1,0 +1,53 @@
+{
+  "id": "article:chapter-11",
+  "slug": "universities-build-a-field",
+  "title": "University teaching and research",
+  "url": "/stories/universities-build-a-field/",
+  "summary": "In 1985, when the University of Auckland was already teaching GIS to senior undergraduates in Geography, there was no settled New Zealand pathway for becoming a GIS practitioner. The software was specialised, useful digital data w",
+  "status": "published",
+  "updatedAt": "2026-10-08",
+  "readingOrder": 11,
+  "themeIds": [
+    "profession",
+    "women-in-gis"
+  ],
+  "featured": false,
+  "sourceNotes": [
+    {
+      "id": "ch11-note-01",
+      "text": "1. David V. Hawke's 1992 paper on gistt records senior undergraduate GIS teaching at the University of Auckland from 1985. The University of Auckland 1986 Calendar, p.163, independently lists Geography 20.314, \"Geographic Information Systems and Image Processing\"; p.437 is supporting timetable evidence. The project treats 1985 as the earliest firmly documented university GIS teaching found, not a proven national first."
+    },
+    {
+      "id": "ch11-note-02",
+      "text": "2. John P. Wilson and Pip Forer's near-contemporary account supports Canterbury Geography entering GIS teaching in 1987 and acquiring workstation ARC/INFO and ERDAS capability in 1989, including the documented specialist laboratory environment. The equipment list does not establish the existence of a period photograph."
+    },
+    {
+      "id": "ch11-note-03",
+      "text": "3. Richard Pascoe, John Penny, Neville Churcher and related Canterbury publications from 1990 onward support the geographic-data interchange and computer-science strand. The chapter uses these to show GIS becoming a data-structure and interface research problem as well as an application subject."
+    },
+    {
+      "id": "ch11-note-04",
+      "text": "4. The original Spatial Information Research Centre colloquium proceedings establish the recurring Otago research forum from the inaugural meeting on 30 November to 1 December 1989 through the twentieth event in 2008. The 2013 SIRC NZ GIS and Remote Sensing Research Conference was explicitly styled as inaugural and is not silently counted as the twenty-first meeting of the older annual series."
+    },
+    {
+      "id": "ch11-note-05",
+      "text": "5. Vaughan R. J. Payne, Urupare Torohiko: Planning for the Equitable Use of Spatial Information in the Resolution of Treaty Claims, University of Otago MA thesis, 1991, is bibliographically secure. The thesis title identifies the research question. Its methods and findings remain unverified because the full text is unavailable."
+    },
+    {
+      "id": "ch11-note-06",
+      "text": "6. Andrew Marr and George Benwell's 1995 local-government GIS study and Marr's 1996 MSc thesis on GIS maturity support the adoption-research section. Chapter 23 discusses the substantive local-government adoption history; Chapter 11 discusses the university research feedback loop."
+    },
+    {
+      "id": "ch11-note-hendriksen-cyclone-bola-1995",
+      "text": "Sources: Sheryl Denise Hendriksen, East Coast soil-slip GIS thesis, Massey University, 1995 (https://mro.massey.ac.nz/items/5eec6d47-c57a-4d98-a75f-5b32bccf1f1d/full)."
+    },
+    {
+      "id": "ch11-note-maori-land-values-1995-1996",
+      "text": "Sources: Harmsworth, Park and Walker, Report on the development and use of GIS for iwi and hapū: bibliography of 1995–1996 work (https://www.landcareresearch.co.nz/assets/researchpubs/harmsworth_gis_iwi.pdf)."
+    },
+    {
+      "id": "ch11-note-lsis-late-1980s",
+      "text": "University of Otago, History of the School of Surveying: Land and Spatial Information Studies degree (https://www.otago.ac.nz/surveying/about/history)."
+    }
+  ]
+}

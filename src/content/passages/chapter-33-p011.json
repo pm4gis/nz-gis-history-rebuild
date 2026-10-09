@@ -1,0 +1,53 @@
+{
+  "id": "passage:chapter-33-bce15db842",
+  "slug": "controlled-information-bce15db842",
+  "articleId": "article:chapter-33",
+  "title": "Controlled information",
+  "order": 10,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:33",
+    "entity:te-mana-raraunga",
+    "person:maui-hudson",
+    "person:tahu-kukutai"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The open-data period also made limits more visible. Some information should not be released simply because publication is technically easy. Personal information, protected locations, security-sensitive infrastructure, commercially confidential material and data affected by statutory restrictions require different treatment.",
+      "markdown": "The open-data period also made limits more visible. Some information should not be released simply because publication is technically easy. Personal information, protected locations, security-sensitive infrastructure, commercially confidential material and data affected by statutory restrictions require different treatment.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Spatial information can be particularly revealing because location allows datasets to be combined. A table that appears harmless on its own can become sensitive when joined to property, demographic or infrastructure information. The same GIS capability that makes open data useful can also make re-identification or unintended disclosure easier.",
+      "markdown": "Spatial information can be particularly revealing because location allows datasets to be combined. A table that appears harmless on its own can become sensitive when joined to property, demographic or infrastructure information. The same GIS capability that makes open data useful can also make re-identification or unintended disclosure easier.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Māori data governance raises a further issue that cannot be reduced to privacy. Data relating to whenua, wāhi tapu, taonga, whakapapa or other culturally significant knowledge may involve questions of authority, tikanga and collective interests that are not resolved by Crown copyright or a Creative Commons licence. Technical possession of coordinates does not settle who should decide how knowledge is represented, shared or reused.",
+      "markdown": "Māori data governance raises a further issue that cannot be reduced to privacy. Data relating to whenua, wāhi tapu, taonga, whakapapa or other culturally significant knowledge may involve questions of authority, tikanga and collective interests that are not resolved by Crown copyright or a Creative Commons licence. Technical possession of coordinates does not settle who should decide how knowledge is represented, shared or reused.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Open data required continued investment in maintenance, documentation and support. Custodians needed to establish access conditions, licences and stewardship obligations for open data. The early open-data programmes were strongest where access, licensing, metadata and stewardship were treated together rather than as separate afterthoughts.",
+      "markdown": "Open data required continued investment in maintenance, documentation and support. Custodians needed to establish access conditions, licences and stewardship obligations for open data. The early open-data programmes were strongest where access, licensing, metadata and stewardship were treated together rather than as separate afterthoughts.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This also placed more responsibility on users. A Creative Commons licence might grant broad legal permission, but it did not certify that a dataset was complete, current or appropriate for a particular decision. Open data made reuse possible; it did not transfer professional judgement from the user back to the custodian. Every layer still had a lineage, a scale, an update cycle and a purpose, even when the download button made acquisition feel effortless.",
+      "markdown": "This also placed more responsibility on users. A Creative Commons licence might grant broad legal permission, but it did not certify that a dataset was complete, current or appropriate for a particular decision. Open data made reuse possible; it did not transfer professional judgement from the user back to the custodian. Every layer still had a lineage, a scale, an update cycle and a purpose, even when the download button made acquisition feel effortless.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Te Mana Raraunga formed in 2015, with Tahu Kukutai and Maui Hudson among the founding contributors identified in the research. Its charter brought Māori authority, governance and benefit into discussion of data access. These questions applied to geographic information about land, environments and communities as well as other forms of data.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

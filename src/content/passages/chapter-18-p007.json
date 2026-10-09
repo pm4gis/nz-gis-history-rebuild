@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-18-af4c925404",
+  "slug": "the-coordinate-joins-the-record-af4c925404",
+  "articleId": "article:chapter-18",
+  "title": "The coordinate joins the record",
+  "order": 6,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:18",
+    "entity:university-of-otago",
+    "entity:university-of-waikato"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "GPS became far more valuable to GIS when a position could be attached directly to the record being collected. A point alone says little. A field worker might need to record that the point is a transformer, weed infestation, bird nest, culvert, sampling site or damaged asset, along with condition, date, identifier and notes. The useful change was the connection between measured position and structured information.",
+      "markdown": "GPS became far more valuable to GIS when a position could be attached directly to the record being collected. A point alone says little. A field worker might need to record that the point is a transformer, weed infestation, bird nest, culvert, sampling site or damaged asset, along with condition, date, identifier and notes. The useful change was the connection between measured position and structured information.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The Taiaroa Head work was an early example. Survey control supported a spatial information system in which decades of breeding observations could be related to nest sites and environmental information. The wider system combined GPS observations with databases and field procedures. It supplied spatial control that made other records more reliable and analytically useful. This was a recurring pattern as GPS entered environmental and operational GIS.",
+      "markdown": "The Taiaroa Head work was an early example. Survey control supported a spatial information system in which decades of breeding observations could be related to nest sites and environmental information. The wider system combined GPS observations with databases and field procedures. It supplied spatial control that made other records more reliable and analytically useful. This was a recurring pattern as GPS entered environmental and operational GIS.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2004 a University of Otago and Solid Energy project at Wangaloa Coal Mine in South Otago was using differential GPS with ArcGIS to support rehabilitation monitoring involving vegetation, soils and invertebrate observations. By the later 2000s, University of Waikato coastal research combined RTK GPS with multibeam bathymetry, ArcGIS, ArcSDE and SQL Server. The positioning technology had become one component in larger data-management and analysis workflows.",
+      "markdown": "By 2004 a University of Otago and Solid Energy project at Wangaloa Coal Mine in South Otago was using differential GPS with ArcGIS to support rehabilitation monitoring involving vegetation, soils and invertebrate observations. By the later 2000s, University of Waikato coastal research combined RTK GPS with multibeam bathymetry, ArcGIS, ArcSDE and SQL Server. The positioning technology had become one component in larger data-management and analysis workflows.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "These systems still depended on quality control after the coordinate was measured. A perfectly good coordinate could be assigned to the wrong asset identifier. A point could be captured beside a pole when the organisation’s data model expected the pole centre, or at a rural gate when another system expected a dwelling. A receiver could be working properly under trees while delivering a worse position than the user assumed. GPS reduced one class of location uncertainty while leaving plenty of ordinary database mistakes available for anyone who missed them.",
+      "markdown": "These systems still depended on quality control after the coordinate was measured. A perfectly good coordinate could be assigned to the wrong asset identifier. A point could be captured beside a pole when the organisation’s data model expected the pole centre, or at a rural gate when another system expected a dwelling. A receiver could be working properly under trees while delivering a worse position than the user assumed. GPS reduced one class of location uncertainty while leaving plenty of ordinary database mistakes available for anyone who missed them.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "entity:new-zealand-mountain-safety-council",
+  "slug": "new-zealand-mountain-safety-council",
+  "name": "New Zealand Mountain Safety Council",
+  "kind": "Organisation",
+  "category": "Professional communities",
+  "url": "/entities/new-zealand-mountain-safety-council/",
+  "story": [
+    "The New Zealand Mountain Safety Council (MSC), established in 1965, works to prevent harm and help people enjoy outdoor recreation safely. Its work includes safety education, behaviour-change campaigns, trip-planning resources and research. Maps and location information support this work: during LINZ and LEARNZ’s 2020 Get Outdoors field trip, an MSC expert discussed choosing trips, using maps and online track tools, and planning for conditions."
+  ],
+  "sources": [
+    {
+      "label": "LINZ, New Zealand GIS and geospatial groups and networks",
+      "url": "https://www.linz.govt.nz/our-work/location-information/geospatial-capability/new-zealand-gis-and-geospatial-groups-and-networks"
+    }
+  ],
+  "aliases": [
+    "New Zealand Mountain Safety Council"
+  ],
+  "themeIds": [],
+  "status": "GIS account available",
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

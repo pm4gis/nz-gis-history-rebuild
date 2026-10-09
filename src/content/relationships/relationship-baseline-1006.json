@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1006",
+  "a": "person:tony-elson",
+  "b": "entity:university-of-auckland",
+  "label": "Associated with",
+  "basis": "Existing structured association; role and period require verification",
+  "passageIds": [],
+  "sources": []
+}

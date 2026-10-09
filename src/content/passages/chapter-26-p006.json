@@ -1,0 +1,45 @@
+{
+  "id": "passage:chapter-26-f5e29d7033",
+  "slug": "the-browser-reaches-the-field-office-f5e29d7033",
+  "articleId": "article:chapter-26",
+  "title": "The browser reaches the field office",
+  "order": 5,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:26"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The 2003 training guide shows what enterprise GIS looked like before broadband could be assumed. DOCgis was centrally hosted, but many users reached it from offices with slow connections and older computers. The interface and support material had to account for that. Web delivery reduced the software burden on the client machine, but it did not remove the limitations of the departmental network.",
+      "markdown": "The 2003 training guide shows what enterprise GIS looked like before broadband could be assumed. DOCgis was centrally hosted, but many users reached it from offices with slow connections and older computers. The interface and support material had to account for that. Web delivery reduced the software burden on the client machine, but it did not remove the limitations of the departmental network.",
+      "sources": []
+    },
+    {
+      "type": "figure",
+      "alt": "LINZ imagery: Tongariro River",
+      "caption": "Tongariro River. Imagery CC4.0 LINZ 2021.",
+      "credit": "Imagery CC4.0 LINZ 2021"
+    },
+    {
+      "type": "paragraph",
+      "text": "For many staff the browser changed the way GIS appeared in daily work. A user did not need to open a professional GIS package, locate the correct project files and understand every dataset before answering a straightforward location question. The portal exposed selected layers and tools through a controlled interface. Staff could view conservation areas, assets, roads, tracks and other information from the same national environment used by specialist GIS staff.",
+      "markdown": "For many staff the browser changed the way GIS appeared in daily work. A user did not need to open a professional GIS package, locate the correct project files and understand every dataset before answering a straightforward location question. The portal exposed selected layers and tools through a controlled interface. Staff could view conservation areas, assets, roads, tracks and other information from the same national environment used by specialist GIS staff.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The system also connected spatial information with operational databases. A mapped feature could lead to records maintained elsewhere in the department. That was useful for assets because a hut, track structure or other facility had both a position and a business record. The same pattern applied to biodiversity and management information, where location was one part of a larger record rather than the whole record.",
+      "markdown": "The system also connected spatial information with operational databases. A mapped feature could lead to records maintained elsewhere in the department. That was useful for assets because a hut, track structure or other facility had both a position and a business record. The same pattern applied to biodiversity and management information, where location was one part of a larger record rather than the whole record.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Field-device integration was already part of the architecture being discussed in 2003. GPS, ArcPad and Windows CE devices appeared in the technical design as ways to connect field activity with the national system. Information collected in the field had to return to the same databases used for planning and reporting.",
+      "markdown": "Field-device integration was already part of the architecture being discussed in 2003. GPS, ArcPad and Windows CE devices appeared in the technical design as ways to connect field activity with the national system. Information collected in the field had to return to the same databases used for planning and reporting.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

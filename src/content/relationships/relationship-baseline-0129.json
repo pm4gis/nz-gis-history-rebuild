@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-0129",
+  "a": "entity:ministry-of-works-and-development",
+  "b": "chapter:7",
+  "label": "Discussed in chapter",
+  "basis": "Curated link to a relevant chapter; check event sources for specific roles",
+  "passageIds": [],
+  "sources": []
+}

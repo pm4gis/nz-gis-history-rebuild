@@ -1,0 +1,41 @@
+{
+  "id": "passage:chapter-14-279983c56b",
+  "slug": "a-contract-goes-wrong-279983c56b",
+  "articleId": "article:chapter-14",
+  "title": "A contract goes wrong",
+  "order": 3,
+  "updatedAt": "2026-10-08",
+  "themeIds": [],
+  "recordIds": [
+    "chapter:14",
+    "entity:department-of-survey-and-land-information-dosli",
+    "entity:terralink"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The conversion programme also produced one of the least tidy episodes in New Zealand’s geospatial history. On 16 June 1999 Terralink signed a subcontract with EDS for Landonline work. Terralink had been created only three years earlier from the commercial side of the old DOSLI organisation, so it carried substantial national mapping and land-information capability into the contract. The work formed part of the core programme. It sat close to the technical lineage from which many of the records and production practices had come.",
+      "markdown": "The conversion programme also produced one of the least tidy episodes in New Zealand’s geospatial history. On 16 June 1999 Terralink signed a subcontract with EDS for Landonline work. Terralink had been created only three years earlier from the commercial side of the old DOSLI organisation, so it carried substantial national mapping and land-information capability into the contract. The work formed part of the core programme. It sat close to the technical lineage from which many of the records and production practices had come.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2000 the subcontract was in serious difficulty. The government later said the cost and time required had been underestimated, creating losses and risks that Terralink could not absorb. A KPMG review was commissioned, the Crown provided a secured loan late in 2000, and on 15 January 2001 Terralink entered receivership at the board’s request. Contemporary government material described about 200 full-time Terralink staff and roughly another 80 people contracted to the EDS project. The company continued to trade under receivers while the consequences were worked through.",
+      "markdown": "By 2000 the subcontract was in serious difficulty. The government later said the cost and time required had been underestimated, creating losses and risks that Terralink could not absorb. A KPMG review was commissioned, the Crown provided a secured loan late in 2000, and on 15 January 2001 Terralink entered receivership at the board’s request. Contemporary government material described about 200 full-time Terralink staff and roughly another 80 people contracted to the EDS project. The company continued to trade under receivers while the consequences were worked through.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "National record conversion contains work that is difficult to see from a sample. Exceptions accumulate. Old records vary. Quality problems do not distribute evenly. Staff who understand obscure cases are scarce. A conversion rate that looks reasonable in a pilot can collapse once the difficult districts and unusual records arrive. Terralink’s failure does not prove that any one of these factors caused the losses, but the episode demonstrates the financial danger of treating national spatial conversion as routine production.",
+      "markdown": "National record conversion contains work that is difficult to see from a sample. Exceptions accumulate. Old records vary. Quality problems do not distribute evenly. Staff who understand obscure cases are scarce. A conversion rate that looks reasonable in a pilot can collapse once the difficult districts and unusual records arrive. Terralink’s failure does not prove that any one of these factors caused the losses, but the episode demonstrates the financial danger of treating national spatial conversion as routine production.",
+      "sources": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The disruption had operational consequences. In an October 2001 speech to surveyors, the Minister for Land Information noted that survey conversion had been affected by the receivership and that EDS was working through a revised delivery plan. Otago and Southland were close to completion and Christchurch was under way, while national completion was then expected later. The survey and title system still had to keep functioning during the commercial failure. That separation between statutory continuity and contractor difficulty was one reason the programme could not be treated as an ordinary outsourced software build.",
+      "markdown": "The disruption had operational consequences. In an October 2001 speech to surveyors, the Minister for Land Information noted that survey conversion had been affected by the receivership and that EDS was working through a revised delivery plan. Otago and Southland were close to completion and Christchurch was under way, while national completion was then expected later. The survey and title system still had to keep functioning during the commercial failure. That separation between statutory continuity and contractor difficulty was one reason the programme could not be treated as an ordinary outsourced software build.",
+      "sources": []
+    }
+  ],
+  "sources": []
+}

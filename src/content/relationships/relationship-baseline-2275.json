@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2275",
+  "a": "person:duane-wilkins",
+  "b": "entity:nga-poutama-matawhenua",
+  "label": "Named participant or presenter",
+  "basis": "LINZ Ngā Poutama Matawhenua programme record",
+  "passageIds": [],
+  "sources": []
+}

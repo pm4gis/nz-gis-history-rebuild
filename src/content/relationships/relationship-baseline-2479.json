@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-2479",
+  "a": "person:aaria-dobson-waitere",
+  "b": "entity:gis-in-conservation-scgis-new-zealand-and-fiji",
+  "label": "Associated with",
+  "basis": "Documented SCGIS scholarship, training and conservation-GIS involvement.",
+  "passageIds": [],
+  "sources": []
+}

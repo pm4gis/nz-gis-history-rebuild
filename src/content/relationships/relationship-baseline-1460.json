@@ -1,0 +1,9 @@
+{
+  "id": "relationship:baseline-1460",
+  "a": "entity:vicinity-solutions",
+  "b": "chapter:21",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [],
+  "sources": []
+}

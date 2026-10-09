@@ -1,0 +1,24 @@
+{
+  "id": "2017-aranz-geo-renamed-seequent",
+  "dateDisplay": "2 November 2017",
+  "startDate": "2017-11-02",
+  "datePrecision": "day",
+  "year": 2017,
+  "label": "ARANZ Geo adopts the Seequent name",
+  "summary": "The Christchurch company announced its rebrand as it expanded from mining software into geothermal, civil engineering and environmental work.",
+  "url": "/stories/gis-at-the-end-of-2025/#embedded-spatial-systems-fc971b58aa",
+  "passageIds": [
+    "passage:chapter-44-fc971b58aa"
+  ],
+  "recordIds": [
+    "entity:aranz-geo-seequent",
+    "chapter:44"
+  ],
+  "themeIds": [],
+  "categories": [
+    "industry",
+    "software",
+    "global-context"
+  ],
+  "sources": []
+}

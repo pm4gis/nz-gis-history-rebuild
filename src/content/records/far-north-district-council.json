@@ -1,0 +1,36 @@
+{
+  "id": "entity:far-north-district-council",
+  "slug": "far-north-district-council",
+  "name": "Far North District Council",
+  "kind": "Council",
+  "category": "Local government",
+  "url": "/entities/far-north-district-council/",
+  "website": "https://www.fndc.govt.nz",
+  "description": "Council directory entry.",
+  "story": [
+    "Far North District Council used GIS as a basis for open-space planning and reserves work. Its 2020 user-conference presentation with consultant Logan Ashmore described a GIS framework intended to support later strategy and decision tools."
+  ],
+  "sources": [
+    {
+      "label": "LGNZ council directory",
+      "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+    },
+    {
+      "label": "Eagle Technology, 2020 Virtual User Conference Series",
+      "url": "https://www.eagle.co.nz/2020-virtual-user-conference-series"
+    },
+    {
+      "label": "Far North District Council, Bay of Islands-Whangaroa Community Board agenda, 2019",
+      "url": "https://infocouncil.fndc.govt.nz/Open/2019/09/BIWCB_20190923_AGN_2166_AT.htm"
+    }
+  ],
+  "aliases": [
+    "Far North District Council"
+  ],
+  "themeIds": [],
+  "status": "Council directory record",
+  "coverageEnd": 2025,
+  "currentCouncil": true,
+  "paragraphSources": [],
+  "biographyParagraphSources": []
+}

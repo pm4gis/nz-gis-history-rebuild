@@ -1,0 +1,11 @@
+{
+  "id": "relationship:baseline-1519",
+  "a": "entity:upper-hutt-city-council",
+  "b": "chapter:30",
+  "label": "Mentioned in chapter",
+  "basis": "Name matched in published prose; reading connection only",
+  "passageIds": [
+    "passage:chapter-30-b0e252e929"
+  ],
+  "sources": []
+}
