@@ -63,7 +63,7 @@ const preface = await readFile(path.join(dist, "stories/preface/index.html"), "u
 if (!preface.includes("Writing this book began as a way of using AI") || !preface.includes("use the Suggest an update by email link")) throw new Error("The separate preface page is missing or its update instructions are out of date.");
 const aam = records.find((record) => record.id === "entity:aam-aamhatch");
 if (!aam) throw new Error("The AAM / AAMHatch record is missing.");
-const aamPage = await readFile(path.join(dist, aam.url.replace(/^\\/+/, ""), "index.html"), "utf8");
+const aamPage = await readFile(path.join(dist, aam.url.replace(/^\/+/, ""), "index.html"), "utf8");
 if (!aamPage.includes("AAM / AAMHatch") || !aamPage.includes("NorthSouth GIS NZ")) throw new Error("The AAM / NorthSouth GIS record content is missing.");
 if (home.includes("Download PDF")) throw new Error("PDF functionality remains on the reader home.");
 for (const file of builtFiles.filter((path) => path.endsWith(".html"))) {
