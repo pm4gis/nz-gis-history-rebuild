@@ -176,6 +176,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     const nodeResults = document.getElementById("node-search-results");
     const nodeSearchCount = document.getElementById("node-search-count");
     const detailPanel = document.getElementById("graph-details");
+    const graphHelp = document.getElementById("graph-help");
     const count = document.getElementById("network-count");
     const graphPulse = document.getElementById("graph-pulse");
     const palette = { Person: "#3989a0", Business: "#dc9d4c", Company: "#dc9d4c", Organisation: "#48a98c", Agency: "#48a98c", Council: "#48a98c", Project: "#9c78bb", Technology: "#d47859", System: "#d47859", Story: "#ec7462", Event: "#f4c967", Theme: "#63caba", Index: "#8a9b91" };
@@ -189,6 +190,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     let selectedEdgeId = "";
     let hoveredNodeId = "";
     let hoveredEdgeId = "";
+    let positionAnimationToken = 0;
 
     function readThemes() { try { return JSON.parse(localStorage.getItem("nzgis-reader-themes-v1") || "[]"); } catch { return []; } }
     const svgNS = "http://www.w3.org/2000/svg";
@@ -240,6 +242,18 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       contextEdges.forEach((edge) => { visibleIds.add(edge.a); visibleIds.add(edge.b); });
       const connected = new Set(contextEdges.flatMap((edge) => [edge.a, edge.b]));
       return { nodes: candidates.filter((node) => visibleIds.has(node.id) && (!rangeActive() || node.kind !== "Event" || connected.has(node.id))), edges: contextEdges };
+    };
+    const displaySet = (filtered = visibleSet()) => {
+      const roots = selectedNodeId ? [selectedNodeId] : selectedEdgeId ? (() => {
+        const edge = filtered.edges.find((item) => item.id === selectedEdgeId);
+        return edge ? [edge.a, edge.b] : [];
+      })() : [];
+      if (!roots.length || roots.some((id) => !filtered.nodes.some((node) => node.id === id))) return { ...filtered, totalNodes: filtered.nodes.length };
+      const rootIds = new Set(roots);
+      const edges = filtered.edges.filter((edge) => rootIds.has(edge.a) || rootIds.has(edge.b));
+      const nodeIds = new Set(rootIds);
+      edges.forEach((edge) => { nodeIds.add(edge.a); nodeIds.add(edge.b); });
+      return { nodes: filtered.nodes.filter((node) => nodeIds.has(node.id)), edges, totalNodes: filtered.nodes.length };
     };
     const address = () => {
       const query = new URLSearchParams();
@@ -305,7 +319,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       if (!renderer) return;
       const attrs = renderer.getNodeDisplayData(id);
       if (!attrs) return;
-      focusPosition(attrs.x, attrs.y);
+      focusPosition(selectedNodeId === id ? 0 : attrs.x, selectedNodeId === id ? 0 : attrs.y);
       graphPulse.dataset.nodeId = id;
       graphPulse.classList.remove("is-active");
       requestAnimationFrame(() => graphPulse.classList.add("is-active"));
@@ -336,6 +350,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
         const nameB = nodeById.get(b.a === id ? b.b : b.a)?.label || "";
         return nameA.localeCompare(nameB);
       });
+      graphHelp.textContent = `${node.label} at the centre · ${connected.length} direct connections · select a nearby item to follow its links.`;
       if (connected.length) {
         text(detailPanel, "h3", `Connected items · ${connected.length}`);
         const list = document.createElement("ul"); list.className = "graph-related-list";
@@ -354,12 +369,13 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
         detailPanel.append(list);
         if (connected.length > 40) text(detailPanel, "p", `The complete set is available in the network list below. Showing the first 40 connections here.`, "small muted");
       }
-      address(); syncSelection(); focusNode(id); renderNodeResults();
+      draw(); address(); syncSelection(); focusNode(id); renderNodeResults();
     };
     const showEdge = (id) => {
       const edge = edgeById.get(id); if (!edge) return;
       selectedEdgeId = id; selectedNodeId = ""; hoveredNodeId = ""; hoveredEdgeId = ""; clearPanel(); graphPulse.classList.remove("is-active");
       const a = nodeById.get(edge.a); const b = nodeById.get(edge.b);
+      graphHelp.textContent = `Showing the linked neighbourhood around ${a?.label || "this item"} and ${b?.label || "its connection"}.`;
       text(detailPanel, "strong", `${a?.label || "Item"} ${edge.label} ${b?.label || "item"}`);
       if (edge.basis) text(detailPanel, "p", edge.basis);
       if (a?.url) addLink(detailPanel, `Open ${a.label} →`, a.url);
@@ -370,7 +386,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
         edge.sources.forEach((source) => { const li = document.createElement("li"); addLink(li, `${source.label} ↗`, source.url || "#", Boolean(source.url && source.url.startsWith("http"))); list.append(li); });
         detailPanel.append(list);
       }
-      address(); syncSelection();
+      draw(); address(); syncSelection();
       if (a && b && graph?.hasNode(a.id) && graph?.hasNode(b.id)) {
         const aa = renderer.getNodeDisplayData(a.id); const bb = renderer.getNodeDisplayData(b.id);
         if (!aa || !bb) return;
@@ -383,11 +399,35 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       const seed = hash / 4294967296 * Math.PI * 2 + (node.kind === "Event" ? .65 : node.kind === "Theme" ? 1.1 : node.kind === "Story" ? .2 : 0);
       return { x: Math.cos(seed) * ring, y: Math.sin(seed) * ring };
     };
+    const graphPositions = (nodes, edges) => {
+      const roots = selectedNodeId ? [selectedNodeId] : selectedEdgeId ? (() => {
+        const edge = edges.find((item) => item.id === selectedEdgeId);
+        return edge ? [edge.a, edge.b] : [];
+      })() : [];
+      if (!roots.length) return new Map(nodes.map((node, index) => [node.id, nodePosition(node, index, nodes.length)]));
+      const rootIds = new Set(roots);
+      const related = nodes.filter((node) => !rootIds.has(node.id));
+      const order = { Story: 0, Theme: 1, Event: 2, Organisation: 3, Agency: 3, Council: 3, Business: 4, Company: 4, Project: 5, System: 6, Technology: 6, Person: 7, Index: 8 };
+      related.sort((a, b) => (order[a.kind] ?? 9) - (order[b.kind] ?? 9) || a.label.localeCompare(b.label));
+      const positions = new Map();
+      if (roots.length === 1) positions.set(roots[0], { x: 0, y: 0 });
+      else {
+        positions.set(roots[0], { x: -.16, y: 0 });
+        positions.set(roots[1], { x: .16, y: 0 });
+      }
+      const radius = related.length > 100 ? .92 : related.length > 40 ? .82 : .72;
+      related.forEach((node, index) => {
+        const angle = (index / Math.max(related.length, 1)) * Math.PI * 2 - Math.PI / 2;
+        positions.set(node.id, { x: Math.cos(angle) * radius, y: Math.sin(angle) * radius });
+      });
+      return positions;
+    };
     const svgNode = (name, attrs = {}) => { const el = document.createElementNS(svgNS, name); Object.entries(attrs).forEach(([key, value]) => el.setAttribute(key, String(value))); return el; };
     const drawSVG = (nodes, edges) => {
       graphElement.replaceChildren();
       const svg = svgNode("svg", { viewBox: "0 0 900 620", class: "network-svg", role: "group", "aria-label": "Network diagram. Use Tab to inspect nodes and links." });
-      const points = new Map(nodes.map((node, index) => { const point = nodePosition(node, index, nodes.length); return [node.id, { x: 450 + point.x * 335, y: 310 + point.y * 235 }]; }));
+      const layout = graphPositions(nodes, edges);
+      const points = new Map(nodes.map((node) => { const point = layout.get(node.id); return [node.id, { x: 450 + point.x * 335, y: 310 + point.y * 235 }]; }));
       edges.forEach((edge) => {
         const a = points.get(edge.a); const b = points.get(edge.b); if (!a || !b) return;
         const group = svgNode("g", { tabindex: "0", role: "button", "aria-pressed": String(selectedEdgeId === edge.id), "data-edge-id": edge.id, class: `network-svg-edge${selectedEdgeId === edge.id ? " is-selected is-highlighted" : ""}`, "aria-label": `${nodeById.get(edge.a)?.label} ${edge.label} ${nodeById.get(edge.b)?.label}` });
@@ -398,25 +438,33 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       nodes.forEach((node) => {
         const p = points.get(node.id); const isSelected = selectedNodeId === node.id; const g = svgNode("g", { tabindex: "0", role: "button", "aria-pressed": String(isSelected), "data-node-id": node.id, class: `network-svg-node${isSelected ? " is-selected is-highlighted" : ""}`, "aria-label": `Inspect ${node.label}, ${node.kind}` });
         g.append(svgNode("circle", { cx: p.x, cy: p.y, r: node.kind === "Story" ? 14 : 9, fill: paletteColor(node) }));
-        const label = svgNode("text", { x: p.x, y: p.y + 24, "text-anchor": "middle" }); label.textContent = node.label.length > 25 ? node.label.slice(0, 22) + "…" : node.label; g.append(label);
+        const label = svgNode("text", { x: p.x, y: p.y + 24, "text-anchor": "middle" }); label.textContent = node.label.length > 25 ? node.label.slice(0, 22) + "…" : node.label;
+        if (node.id !== selectedNodeId && !["Story", "Theme", "Event", "Organisation", "Agency", "Council", "Business", "Project", "Technology", "System"].includes(node.kind)) label.setAttribute("class", "network-svg-label-secondary");
+        g.append(label);
         g.addEventListener("click", () => showNode(node.id)); g.addEventListener("focus", () => { hoveredNodeId = node.id; syncSelection(); }); g.addEventListener("blur", () => { hoveredNodeId = ""; syncSelection(); }); g.addEventListener("keydown", (event) => { if (["Enter", " "].includes(event.key)) { event.preventDefault(); showNode(node.id); } }); svg.append(g);
       });
       graphElement.append(svg);
     };
     const draw = () => {
-      const { nodes, edges } = visibleSet();
+      const filtered = visibleSet();
+      const { nodes, edges, totalNodes } = displaySet(filtered);
+      const oldPositions = new Map();
+      if (graph) graph.forEachNode((id, attrs) => oldPositions.set(id, { x: attrs.x, y: attrs.y }));
+      const layout = graphPositions(nodes, edges);
       if (renderer) { renderer.kill(); renderer = undefined; }
       graphElement.replaceChildren();
       if (!webgl) drawSVG(nodes, edges);
       else {
         graph = new MultiUndirectedGraph();
         nodes.forEach((node, index) => {
-          const p = nodePosition(node, index, nodes.length);
-          graph.addNode(node.id, { label: node.label, x: p.x, y: p.y, size: selectedNodeId === node.id ? 11 : node.kind === "Story" ? 10 : node.kind === "Theme" ? 7 : 6, color: selectedNodeId === node.id ? "#f0b562" : paletteColor(node), kind: node.kind });
+          const p = layout.get(node.id);
+          const previous = oldPositions.get(node.id);
+          const labelKinds = ["Story", "Theme", "Event", "Organisation", "Agency", "Council", "Business", "Project", "Technology", "System"];
+          graph.addNode(node.id, { label: node.id === selectedNodeId || labelKinds.includes(node.kind) ? node.label : "", x: previous?.x ?? p.x, y: previous?.y ?? p.y, size: selectedNodeId === node.id ? 11 : node.kind === "Story" ? 10 : node.kind === "Theme" ? 7 : 6, color: selectedNodeId === node.id ? "#f0b562" : paletteColor(node), kind: node.kind });
         });
         edges.forEach((edge) => { if (graph.hasNode(edge.a) && graph.hasNode(edge.b)) graph.addUndirectedEdgeWithKey(edge.id, edge.a, edge.b, { label: edge.label, size: selectedEdgeId === edge.id ? 2.5 : 1.3, color: selectedEdgeId === edge.id ? "#f0b562" : "#7d9a8f" }); });
         renderer = new Sigma(graph, graphElement, {
-          renderEdgeLabels: false, labelRenderedSizeThreshold: 5, labelDensity: .18, labelGridCellSize: 85,
+          renderEdgeLabels: false, labelRenderedSizeThreshold: 6, labelDensity: .08, labelGridCellSize: 90,
           defaultNodeColor: "#48a98c", defaultEdgeColor: "#78948a", enableEdgeEvents: true,
           nodeReducer: (key, attrs) => {
             const focusId = selectedNodeId || hoveredNodeId;
@@ -446,14 +494,34 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
         renderer.on("enterEdge", ({ edge }) => { hoveredEdgeId = edge; renderer.refresh(); });
         renderer.on("leaveEdge", ({ edge }) => { if (hoveredEdgeId === edge) { hoveredEdgeId = ""; renderer.refresh(); } });
         renderer.on("afterRender", placePulse);
+        if ((selectedNodeId || selectedEdgeId) && oldPositions.size && !reducedMotion.matches) {
+          const token = ++positionAnimationToken;
+          const start = performance.now();
+          const animateLayout = (now) => {
+            if (token !== positionAnimationToken || !graph || !renderer) return;
+            const progress = Math.min(1, (now - start) / 420);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            nodes.forEach((node) => {
+              const from = oldPositions.get(node.id); const to = layout.get(node.id);
+              if (!from || !to) return;
+              graph.setNodeAttribute(node.id, "x", from.x + (to.x - from.x) * eased);
+              graph.setNodeAttribute(node.id, "y", from.y + (to.y - from.y) * eased);
+            });
+            renderer.refresh();
+            if (progress < 1) requestAnimationFrame(animateLayout);
+          };
+          requestAnimationFrame(animateLayout);
+        } else positionAnimationToken++;
       }
-      count.textContent = `${nodes.length} visible items · ${edges.length} visible links`;
+      count.textContent = selectedNodeId || selectedEdgeId
+        ? `${nodes.length} in focus · ${edges.length} links · ${totalNodes} items match filters`
+        : `${nodes.length} visible items · ${edges.length} visible links`;
     };
     const updateAddressAndDraw = () => {
       const visibleIds = new Set(visibleSet().nodes.map((node) => node.id));
       if (selectedNodeId && !visibleIds.has(selectedNodeId)) { selectedNodeId = ""; selectedEdgeId = ""; clearPanel(); graphPulse.classList.remove("is-active"); }
-      draw(); address(); renderNodeResults();
       if (selectedNodeId) showNode(selectedNodeId);
+      else { draw(); address(); renderNodeResults(); }
     };
     kindAllButton.addEventListener("click", () => { selectedKinds.clear(); syncFilterButtons(); updateAddressAndDraw(); });
     kindButtons.forEach((button) => button.addEventListener("click", () => {
@@ -473,6 +541,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     document.getElementById("graph-reset").addEventListener("click", () => {
       selectedNodeId = ""; selectedEdgeId = ""; hoveredNodeId = ""; hoveredEdgeId = ""; graphPulse.classList.remove("is-active");
       clearPanel(); text(detailPanel, "p", "Select a node or line. Its description, source links and connected items will appear here.");
+      graphHelp.textContent = "Choose a name or theme to bring its story links, relationships and dates into focus.";
       address(); syncSelection(); renderNodeResults();
       if (renderer) {
         const camera = renderer.getCamera();
