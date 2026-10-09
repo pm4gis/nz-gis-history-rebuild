@@ -50,7 +50,7 @@ const payload = JSON.stringify({ nodes: cleanNodes, edges: cleanEdges, centralId
     };
     const kindToken = (kind) => ({
       Person: "person", Organisation: "organisation", Agency: "organisation", Council: "organisation",
-      Business: "business", Company: "company", Project: "project", System: "technology",
+      Business: "business", Company: "business", Project: "project", System: "technology",
       Technology: "technology", Story: "story", Event: "event", Theme: "theme", Index: "index",
     })[kind] || "organisation";
     let colours = getThemeColours();

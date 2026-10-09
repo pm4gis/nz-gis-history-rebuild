@@ -116,3 +116,9 @@ test("embedded network keeps a themed, keyboard-accessible SVG preview without W
   assert.match(miniNetwork, /site:palette-changed/);
   assert.doesNotMatch(miniNetwork, /!payload\.nodes\.length \|\| !supportsWebGL\(\)/);
 });
+
+test("embedded SVG preview uses responsive theme-aware contrast styles", () => {
+  assert.match(css, /\.mini-network-svg\s*\{[^}]*width:\s*100%[^}]*height:\s*100%/s);
+  assert.match(css, /\.mini-network-svg-edge\s*\{[^}]*var\(--graph-edge\)/s);
+  assert.match(css, /\.mini-network-svg-node text\s*\{[^}]*var\(--ink\)[^}]*var\(--surface\)/s);
+});
