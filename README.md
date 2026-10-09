@@ -38,7 +38,7 @@ Add as many entries as needed. A new story is an article and one or more passage
 
 ## Reader interactions
 
-The story is the default view. The contextual network stays small; the full animated network is optional. The compact timeline stays at the bottom of the screen and opens into parallel lanes. Theme filters, two visual skins, reading progress and timeline selection are stored or applied in the browser. Motion stops when the operating system requests reduced motion. Keyboard users can follow links and controls without the animated view.
+The story is the default view. Story and record pages have compact interactive Sigma.js 4 network diagrams with draggable nodes and linked record navigation. The full network supports dragging nodes, rearranging and resetting positions while retaining filters, search, selection and source links. Keyboard users have text-based alternatives. The full animated network is optional. The compact timeline stays at the bottom of the screen and opens into parallel lanes. Theme filters, two visual skins, reading progress and timeline selection are stored or applied in the browser. Motion stops when the operating system requests reduced motion. Keyboard users can follow links and controls without the animated view.
 
 “Suggest an update” opens a prepared email to `pm4gis@gmail.com`. The site has no public submission form and no PDF function.
 
