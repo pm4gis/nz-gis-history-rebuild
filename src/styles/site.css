@@ -899,3 +899,16 @@ main { min-height: 62vh; padding-bottom: 115px; }
 @media (prefers-reduced-motion: reduce) {
   .theme-chip, .choice-chip, .browse-theme-card, .graph-selection-pulse, .network-svg-edge.is-highlighted line:first-child { animation: none !important; transition: none !important; }
 }
+
+/* Draggable Sigma 4 diagrams in the article and record views. */
+#graph.is-dragging, #graph.is-dragging canvas { cursor: grabbing !important; }
+.mini-network { margin: .5rem 0 .25rem; min-width: 0; }
+.mini-network-graph { height: 235px; width: 100%; border-radius: 12px; background: radial-gradient(ellipse at center, color-mix(in srgb, var(--green) 9%, var(--surface)), var(--surface)); touch-action: pan-y; }
+.mini-network-graph canvas { display: block; }
+.mini-network-instructions { margin: .25rem 0 .4rem; color: var(--muted); font-size: .65rem; }
+.mini-network-selection { min-height: 2.1rem; padding: .45rem .55rem; font-size: .68rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.mini-network-selection strong { font-size: .7rem; }
+.mini-network-selection a { margin-left: .35rem; }
+.mini-network-alternative { margin: .6rem 0; font-size: .66rem; }
+.mini-network-alternative ul { max-height: 150px; overflow: auto; padding-left: 1.1rem; }
+.mini-network > .text-link { display: inline-block; margin-top: .35rem; }
