@@ -18,6 +18,7 @@ const linkedRecords = recordIds.map((id) => recordById.get(id)).filter(Boolean);
 const linkedEvents = events.filter((event) => (event.passageIds || []).some((id) => passages.some((passage) => passage.id === id)));
 const relevantRelationships = relationships.filter((item) => recordIds.includes(item.a) && recordIds.includes(item.b));
 const themeById = new Map<string, any>(themes.map((theme) => [theme.id, theme] as const));
+const articleThemeIds = [...new Set([...(article.themeIds || []), ...passages.flatMap((passage) => passage.themeIds || [])])];
 const imageById = new Map<string, any>(images.map((image) => [image.id, image] as const));
 const positions = [[50, 18], [18, 76], [82, 76], [50, 55]];
 const visibleRecords = linkedRecords.slice(0, positions.length);
@@ -147,10 +148,10 @@ const eventHref = (event) => {
       <div class="context-card theme-card">
         <p class="eyebrow">Choose a lens</p>
         <h2>Read by theme</h2>
-        <p>Turn themes on in the header to shape this story and its timeline.</p>
+        <p>Select a theme above to filter the passages and timeline, or open its page to see every related record.</p>
         <div class="theme-tags">
-          {(article.themeIds || []).map((id) => themeById.get(id)).filter(Boolean).map((theme) => (
-            <span class="theme-tag" style={`--theme-color:${theme.color || "#55b9a7"}`}>{theme.title}</span>
+          {articleThemeIds.map((id) => themeById.get(id)).filter(Boolean).map((theme) => (
+            <a class="theme-tag" href={`/themes/${theme.slug}/`} style={`--theme-color:${theme.color || "#55b9a7"}`}>{theme.title}<span aria-hidden="true"> ↗</span></a>
           ))}
         </div>
       </div>

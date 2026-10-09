@@ -1,0 +1,79 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import { getCollection } from "astro:content";
+
+const [themeEntries, passageEntries, recordEntries, eventEntries, articleEntries] = await Promise.all([
+  getCollection("themes"), getCollection("passages"), getCollection("records"), getCollection("events"), getCollection("articles"),
+]);
+export async function getStaticPaths() {
+  const themes = await getCollection("themes");
+  return themes.map((entry) => ({ params: { slug: entry.data.slug }, props: { themeId: entry.data.id } }));
+}
+const { themeId } = Astro.props;
+const theme = themeEntries.map((entry) => entry.data).find((item) => item.id === themeId);
+const passages = passageEntries.map((entry) => entry.data);
+const records = recordEntries.map((entry) => entry.data);
+const events = eventEntries.map((entry) => entry.data);
+const articles = articleEntries.map((entry) => entry.data);
+const articleById = new Map(articles.map((article) => [article.id, article]));
+const passageIds = new Set([
+  ...(theme?.passageIds || []),
+  ...passages.filter((passage) => (passage.themeIds || []).includes(themeId)).map((passage) => passage.id),
+]);
+const linkedPassages = passages.filter((passage) => passageIds.has(passage.id)).sort((a, b) => {
+  const order = (articleById.get(a.articleId)?.readingOrder ?? 0) - (articleById.get(b.articleId)?.readingOrder ?? 0);
+  return order || a.order - b.order;
+});
+const linkedRecordIds = new Set([...records.filter((record) => (record.themeIds || []).includes(themeId)).map((record) => record.id), ...linkedPassages.flatMap((passage) => passage.recordIds || [])]);
+const linkedRecords = records.filter((record) => linkedRecordIds.has(record.id) && record.kind !== "Story").sort((a, b) => a.name.localeCompare(b.name));
+const peopleAndOrganisations = linkedRecords.filter((record) => ["Person", "Organisation", "Agency", "Council", "Business", "Company"].includes(record.kind));
+const otherRecords = linkedRecords.filter((record) => !peopleAndOrganisations.includes(record));
+const linkedEvents = events.filter((event) => (event.themeIds || []).includes(themeId) || (event.passageIds || []).some((id) => passageIds.has(id))).sort((a, b) => String(a.startDate || "").localeCompare(String(b.startDate || "")));
+const storyCount = new Set(linkedPassages.map((passage) => passage.articleId)).size;
+---
+
+{theme ? <SiteLayout title={`${theme.title} — A History of GIS in New Zealand`} description={theme.description || `Read passages, people, organisations and dates connected with ${theme.title}.`}>
+  <section class="page-wrap theme-page">
+    <p class="eyebrow">Reading theme · {linkedPassages.length} passages across {storyCount} stories</p>
+    <h1 class="page-title">{theme.title}</h1>
+    <p class="page-intro">{theme.description || "Explore the passages, people, organisations, projects and events tagged with this theme."}</p>
+    <div class="theme-page-actions">
+      <button class="button-secondary theme-action" type="button" data-theme-choice value={theme.id} aria-pressed="false">Use this theme while reading</button>
+      <a class="button-secondary" href={`/network/?focus=${encodeURIComponent(theme.id)}`}>Open in the network <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <section class="theme-page-section" aria-labelledby="theme-passages-title">
+      <div class="section-heading"><h2 id="theme-passages-title">Read these passages</h2><a href="/network/">Explore the network →</a></div>
+      {linkedPassages.length ? <ol class="theme-passage-list">{linkedPassages.map((passage) => {
+        const article = articleById.get(passage.articleId);
+        return <li><a href={`${article?.url || "/"}#${passage.slug}`}><span class="theme-passage-story">{article?.title || "Story"}</span><strong>{passage.title}</strong><span class="theme-passage-arrow" aria-hidden="true">↗</span></a></li>;
+      })}</ol> : <p class="muted">No passages are currently tagged with this theme.</p>}
+    </section>
+
+    {peopleAndOrganisations.length > 0 && <section class="theme-page-section" aria-labelledby="theme-people-title">
+      <div class="section-heading"><h2 id="theme-people-title">People and organisations</h2><span class="small muted">{peopleAndOrganisations.length} linked records</span></div>
+      <ul class="theme-record-grid">{peopleAndOrganisations.map((record) => <li class="theme-record-card">
+        <a href={record.url}><strong>{record.name}</strong><span>{record.kind}</span></a>
+        <a class="theme-record-network" href={`/network/?focus=${encodeURIComponent(record.id)}`}>Show connections ↗</a>
+      </li>)}</ul>
+    </section>}
+
+    {otherRecords.length > 0 && <section class="theme-page-section" aria-labelledby="theme-records-title">
+      <div class="section-heading"><h2 id="theme-records-title">Projects, systems and technologies</h2><span class="small muted">{otherRecords.length} linked records</span></div>
+      <ul class="theme-record-grid">{otherRecords.map((record) => <li class="theme-record-card">
+        <a href={record.url}><strong>{record.name}</strong><span>{record.kind}</span></a>
+        <a class="theme-record-network" href={`/network/?focus=${encodeURIComponent(record.id)}`}>Show connections ↗</a>
+      </li>)}</ul>
+    </section>}
+
+    {linkedEvents.length > 0 && <section class="theme-page-section" aria-labelledby="theme-events-title">
+      <div class="section-heading"><h2 id="theme-events-title">Events across time</h2><a href="/timeline/">Open full timeline →</a></div>
+      <ol class="theme-event-list">{linkedEvents.map((event) => {
+        const passage = (event.passageIds || []).map((id) => passages.find((item) => item.id === id)).find(Boolean);
+        const article = passage && articleById.get(passage.articleId);
+        const href = event.url || (passage && article ? `${article.url}#${passage.slug}` : "/timeline/");
+        return <li><a href={href}><time>{event.dateDisplay}</time><strong>{event.label}</strong><small>{event.datePrecision} precision</small></a></li>;
+      })}</ol>
+    </section>}
+  </section>
+</SiteLayout> : <SiteLayout title="Theme not found — A History of GIS in New Zealand"><section class="not-found"><h1 class="page-title">This theme is not in the collection</h1><p><a class="button-secondary" href="/browse/">Browse the collection</a></p></section></SiteLayout>}

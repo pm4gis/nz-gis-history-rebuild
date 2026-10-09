@@ -81,22 +81,17 @@ const eventHref = (event) => {
         ))}
       </nav>
       <div class="header-tools">
-        <details class="theme-picker">
-          <summary><span class="theme-picker-icon" aria-hidden="true">◉</span><span>Focus</span><span class="theme-picker-count" data-theme-count>All</span></summary>
-          <fieldset>
-            <legend>Shape the reading view</legend>
-            <p>Choose one or more themes to filter passages, links and timeline moments.</p>
-            {themes.map((entry) => <label class="theme-option">
-              <input type="checkbox" data-theme-choice value={entry.data.id} />
-              <span class="theme-option-dot" style={`--theme-color:${entry.data.color || "#55b9a7"}`}></span>
-              <span>{entry.data.title}</span>
-            </label>)}
-            <button class="text-button" type="button" data-clear-themes>Clear theme filters</button>
-          </fieldset>
-        </details>
         <button class="skin-toggle" type="button" data-skin-toggle aria-pressed="false" aria-label="Switch to dark glass skin"><span aria-hidden="true">◐</span><span>Skin</span></button>
         <a class="header-search" href="/search/" aria-label="Search the publication"><span aria-hidden="true">⌕</span></a>
       </div>
+      <nav class="theme-rail" aria-label="Select themes to shape the reading view">
+        <span class="theme-rail-label">Read by theme</span>
+        {themes.map((entry) => <button class="theme-chip" type="button" data-theme-choice value={entry.data.id} aria-pressed="false" style={`--theme-color:${entry.data.color || "#55b9a7"}`}>
+          <span class="theme-option-dot" aria-hidden="true"></span>{entry.data.title}
+        </button>)}
+        <button class="theme-clear" type="button" data-clear-themes>Clear</button>
+        <span class="theme-status" data-theme-count aria-live="polite">All themes</span>
+      </nav>
     </header>
     <main id="main" data-pagefind-body>
       <a class="resume-nudge" data-resume-link hidden><span>Continue reading</span><strong data-resume-title></strong><span aria-hidden="true">↗</span></a>
@@ -206,22 +201,25 @@ const eventHref = (event) => {
 
       const themeInputs = [...document.querySelectorAll("[data-theme-choice]")];
       const applyThemes = (chosen) => {
-        themeInputs.forEach((input) => { input.checked = chosen.includes(input.value); });
+        themeInputs.forEach((input) => input.setAttribute("aria-pressed", String(chosen.includes(input.value))));
         const active = new Set(chosen);
         document.querySelectorAll("[data-theme-ids]").forEach((item) => {
           const ids = item.dataset.themeIds.trim().split(/\s+/).filter(Boolean);
-          const visible = active.size === 0 || ids.length === 0 || ids.some((id) => active.has(id));
+          const strict = item.hasAttribute("data-theme-filter-strict");
+          const visible = active.size === 0 || (strict ? ids.some((id) => active.has(id)) : ids.length === 0 || ids.some((id) => active.has(id)));
           item.hidden = !visible;
         });
         const count = document.querySelector("[data-theme-count]");
-        if (count) count.textContent = chosen.length ? String(chosen.length) : "All";
+        if (count) count.textContent = chosen.length ? `${chosen.length} selected` : "All themes";
         localStorage.setItem(themeKey, JSON.stringify(chosen));
         window.dispatchEvent(new CustomEvent("reader:themes-changed", { detail: { themes: chosen } }));
       };
       const savedThemes = readStored(themeKey, []);
       applyThemes(Array.isArray(savedThemes) ? savedThemes : []);
-      themeInputs.forEach((input) => input.addEventListener("change", () => {
-        applyThemes(themeInputs.filter((item) => item.checked).map((item) => item.value));
+      themeInputs.forEach((input) => input.addEventListener("click", () => {
+        const chosen = readStored(themeKey, []);
+        const next = chosen.includes(input.value) ? chosen.filter((id) => id !== input.value) : [...chosen, input.value];
+        applyThemes(next);
       }));
       document.querySelector("[data-clear-themes]")?.addEventListener("click", () => applyThemes([]));
 

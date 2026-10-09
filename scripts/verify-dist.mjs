@@ -20,6 +20,7 @@ const readJsonFiles = async (relative) => {
 const [articles, records, images] = await Promise.all([
   readJsonFiles("src/content/articles"), readJsonFiles("src/content/records"), readJsonFiles("src/content/images"),
 ]);
+const themes = await readJsonFiles("src/content/themes");
 for (const article of articles.filter((item) => item.status === "published")) {
   const relative = path.join(article.url.replace(/^\/+|\/+$/g, ""), "index.html");
   if (!(await exists(relative))) throw new Error("Published story route is missing: " + relative);
@@ -27,6 +28,10 @@ for (const article of articles.filter((item) => item.status === "published")) {
 for (const record of records.filter((item) => item.kind !== "Story")) {
   const relative = path.join(record.url.replace(/^\/+|\/+$/g, ""), "index.html");
   if (!(await exists(relative))) throw new Error("Record route is missing: " + relative);
+}
+for (const theme of themes) {
+  const relative = path.join("themes", theme.slug, "index.html");
+  if (!(await exists(relative))) throw new Error("Theme route is missing: " + relative);
 }
 for (const image of images) {
   const page = path.join("images", image.slug, "index.html");
@@ -62,5 +67,26 @@ if (!aam) throw new Error("The AAM / AAMHatch record is missing from the importe
 const aamPage = await readFile(path.join(dist, aam.url.replace(/^\/+/, ""), "index.html"), "utf8");
 if (!aamPage.includes("AAM / AAMHatch") || !aamPage.includes("NorthSouth GIS NZ")) throw new Error("The AAM / NorthSouth GIS record content is missing from its public page.");
 if (home.includes("Download PDF")) throw new Error("PDF functionality remains on the reader home.");
+for (const relative of ["network/index.html", "timeline/index.html", "browse/index.html"]) {
+  const html = await readFile(path.join(dist, relative), "utf8");
+  if (/<select\b/i.test(html)) throw new Error("A dropdown selector remains on " + relative + ". Use visible selection buttons instead.");
+}
+const network = await readFile(path.join(dist, "network/index.html"), "utf8");
+if (!network.includes('data-kind-filter="people"') || !network.includes('data-kind-filter="organisations"') || !network.includes('Interactive network of stories, records, events and themes')) {
+  throw new Error("Network output is missing the people/organisation selection buttons or accessible graph fallback.");
+}
+const graphMatch = network.match(/<script id="graph-data" type="application\/json">([\s\S]*?)<\/script>/);
+if (!graphMatch) throw new Error("Network graph data is missing from the built page.");
+const graphData = JSON.parse(graphMatch[1]);
+const graphIds = new Set(graphData.nodes.map((node) => node.id));
+const dangling = graphData.edges.filter((edge) => !graphIds.has(edge.a) || !graphIds.has(edge.b) || edge.a === edge.b);
+if (dangling.length) throw new Error(`Network graph has ${dangling.length} missing or self-linked endpoints.`);
+const adjacency = new Map(graphData.nodes.map((node) => [node.id, []]));
+for (const edge of graphData.edges) { adjacency.get(edge.a).push(edge.b); adjacency.get(edge.b).push(edge.a); }
+const connected = new Set(["index:collection"]);
+const pending = ["index:collection"];
+while (pending.length) for (const id of adjacency.get(pending.pop()) || []) if (!connected.has(id)) { connected.add(id); pending.push(id); }
+const unconnectedCore = graphData.nodes.filter((node) => ["people", "organisations", "themes"].includes(node.group) && !connected.has(node.id));
+if (unconnectedCore.length) throw new Error(`Network graph leaves ${unconnectedCore.length} people, organisations or themes disconnected from its index.`);
 const totalBytes = (await Promise.all(builtFiles.map((file) => stat(file)))).reduce((sum, item) => sum + item.size, 0);
-console.log(`Static output verification passed: ${required.length} core paths, ${articles.filter((item) => item.status === "published").length} stories, ${records.filter((item) => item.kind !== "Story").length} entity records, ${records.filter((item) => item.kind === "Story").length} story records, ${images.length} image detail pages, ${builtFiles.length} files (${totalBytes} bytes), no PDF output.`);
+console.log(`Static output verification passed: ${required.length} core paths, ${articles.filter((item) => item.status === "published").length} stories, ${records.filter((item) => item.kind !== "Story").length} entity records, ${themes.length} theme pages, ${images.length} image detail pages, ${builtFiles.length} files (${totalBytes} bytes), no PDF output.`);

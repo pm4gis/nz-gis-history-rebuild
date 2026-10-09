@@ -2,27 +2,105 @@
 import SiteLayout from "../../layouts/SiteLayout.astro";
 import { getCollection } from "astro:content";
 
-const entries = await getCollection("records");
+const [recordEntries, themeEntries, passageEntries] = await Promise.all([getCollection("records"), getCollection("themes"), getCollection("passages")]);
+const records = recordEntries.map((entry) => entry.data).filter((record) => record.kind !== "Story").sort((a, b) => a.name.localeCompare(b.name));
+const themes = themeEntries.map((entry) => entry.data);
+const themeIdsByRecord = new Map(records.map((record) => [record.id, new Set(record.themeIds || [])]));
+for (const entry of passageEntries) for (const recordId of entry.data.recordIds || []) {
+  const ids = themeIdsByRecord.get(recordId);
+  if (ids) for (const themeId of entry.data.themeIds || []) ids.add(themeId);
+}
 const groups = [
-  { label: "People", kinds: ["Person"] },
-  { label: "Organisations and agencies", kinds: ["Organisation", "Agency", "Council"] },
-  { label: "Businesses", kinds: ["Business", "Company"] },
-  { label: "Systems, projects and technologies", kinds: ["System", "Project", "Technology"] },
+  { id: "people", label: "People", kinds: ["Person"] },
+  { id: "organisations", label: "Organisations and councils", kinds: ["Organisation", "Agency", "Council"] },
+  { id: "businesses", label: "Businesses", kinds: ["Business", "Company"] },
+  { id: "projects", label: "Projects", kinds: ["Project"] },
+  { id: "technologies", label: "Systems and technologies", kinds: ["System", "Technology"] },
 ];
-const recordsFor = (group) => entries.filter((entry) => group.kinds.includes(entry.data.kind)).sort((a, b) => a.data.name.localeCompare(b.data.name));
+const groupFor = (record) => groups.find((group) => group.kinds.includes(record.kind))?.id || "other";
+const groupCounts = Object.fromEntries(groups.map((group) => [group.id, records.filter((record) => group.kinds.includes(record.kind)).length]));
+const passageCount = (theme) => new Set([...theme.passageIds, ...passageEntries.map((entry) => entry.data).filter((passage) => (passage.themeIds || []).includes(theme.id)).map((passage) => passage.id)]).size;
 ---
-<SiteLayout title="Browse records — A History of GIS in New Zealand">
-  <section class="page-wrap">
+
+<SiteLayout title="Browse records — A History of GIS in New Zealand" description="Find people, organisations, projects and technologies and open their connected stories and relationships.">
+  <section class="page-wrap browse-page">
     <p class="eyebrow">People · organisations · projects · technologies</p>
     <h1 class="page-title">Browse the collection</h1>
-    <p class="page-intro">Every record has its own page. Follow the story passages, dates, sources and connections related to it.</p>
-    <div class="browse-sections">
-      {groups.map((group) => (
-        <section class="browse-section">
-          <h2>{group.label} <span class="muted">({recordsFor(group).length})</span></h2>
-          <ul>{recordsFor(group).map((entry) => <li><a href={entry.data.url}><span>{entry.data.name}</span><span aria-hidden="true">↗</span></a></li>)}</ul>
-        </section>
-      ))}
+    <p class="page-intro">Search a name, filter by type or open a record in the network. Each profile links back to the stories, dates and people connected with it.</p>
+
+    <div class="browse-tools">
+      <label class="browse-search-label" for="browse-search">Find a person or organisation</label>
+      <input id="browse-search" type="search" placeholder="Search names, aliases or record types" autocomplete="off" />
+      <div class="browse-filter-row" role="group" aria-label="Select a record type">
+        <button type="button" class="choice-chip is-active" data-browse-kind="all" aria-pressed="true">All records <span>{records.length}</span></button>
+        {groups.map((group) => <button type="button" class="choice-chip" data-browse-kind={group.id} aria-pressed="false">{group.label} <span>{groupCounts[group.id]}</span></button>)}
+      </div>
+      <p class="browse-count" id="browse-count" aria-live="polite">Showing {records.length} records</p>
     </div>
+
+    <ul class="browse-record-grid" id="browse-records">
+      {records.map((record) => <li class="browse-record-card" data-browse-record data-kind={groupFor(record)} data-search={`${record.name} ${(record.aliases || []).join(" ")} ${record.kind}`} data-theme-ids={[...(themeIdsByRecord.get(record.id) || [])].join(" ")} data-theme-filter-strict>
+        <div class="browse-record-main">
+          <span class="browse-record-kind">{record.kind}</span>
+          <a class="browse-record-name" href={record.url}>{record.name}</a>
+        </div>
+        <div class="browse-record-actions">
+          <a href={record.url}>Open profile <span aria-hidden="true">↗</span></a>
+          <a href={`/network/?focus=${encodeURIComponent(record.id)}`}>Show connections <span aria-hidden="true">⌘</span></a>
+        </div>
+      </li>)}
+    </ul>
+    <p class="browse-empty" id="browse-empty" hidden>No records match these selections.</p>
+
+    <section class="browse-themes" aria-labelledby="browse-themes-title">
+      <div class="section-heading"><h2 id="browse-themes-title">Themes across the collection</h2><span class="small muted">Select a theme to open its passages and linked records.</span></div>
+      <div class="browse-theme-grid">{themes.map((theme) => <a class="browse-theme-card" href={`/themes/${theme.slug}/`} style={`--theme-color:${theme.color || "#55b9a7"}`}>
+        <span class="theme-option-dot" aria-hidden="true"></span><span><strong>{theme.title}</strong><small>{passageCount(theme)} passages</small></span><span aria-hidden="true">↗</span>
+      </a>)}</div>
+    </section>
   </section>
+  <script>
+    // @ts-nocheck
+    const records = [...document.querySelectorAll("[data-browse-record]")];
+    const search = document.getElementById("browse-search");
+    const filterButtons = [...document.querySelectorAll("[data-browse-kind]")];
+    const count = document.getElementById("browse-count");
+    const empty = document.getElementById("browse-empty");
+    let activeKind = "all";
+    let activeThemes = [];
+    try { activeThemes = JSON.parse(localStorage.getItem("nzgis-reader-themes-v1") || "[]"); } catch { activeThemes = []; }
+    const update = () => {
+      const query = search.value.trim().toLocaleLowerCase();
+      let visibleCount = 0;
+      records.forEach((record) => {
+        const themes = record.dataset.themeIds.split(/\s+/).filter(Boolean);
+        const matches = (activeKind === "all" || record.dataset.kind === activeKind) &&
+          (!query || record.dataset.search.toLocaleLowerCase().includes(query)) &&
+          (!activeThemes.length || themes.some((id) => activeThemes.includes(id)));
+        record.hidden = !matches;
+        if (matches) visibleCount += 1;
+      });
+      count.textContent = `Showing ${visibleCount} of ${records.length} records`;
+      empty.hidden = visibleCount > 0;
+    };
+    const syncKindButtons = () => filterButtons.forEach((button) => {
+      const pressed = button.dataset.browseKind === activeKind;
+      button.setAttribute("aria-pressed", String(pressed)); button.classList.toggle("is-active", pressed);
+    });
+    const params = new URLSearchParams(location.search);
+    const requestedKind = params.get("kind");
+    if (requestedKind && filterButtons.some((button) => button.dataset.browseKind === requestedKind)) activeKind = requestedKind;
+    syncKindButtons();
+    filterButtons.forEach((button) => button.addEventListener("click", () => {
+      activeKind = button.dataset.browseKind;
+      syncKindButtons();
+      const next = new URLSearchParams(location.search);
+      if (activeKind === "all") next.delete("kind"); else next.set("kind", activeKind);
+      history.replaceState({}, "", location.pathname + (next.toString() ? `?${next}` : ""));
+      update();
+    }));
+    search.addEventListener("input", update);
+    window.addEventListener("reader:themes-changed", (event) => { activeThemes = event.detail.themes; update(); });
+    update();
+  </script>
 </SiteLayout>

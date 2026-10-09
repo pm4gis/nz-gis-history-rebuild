@@ -26,6 +26,19 @@ const graphRecordId = (id) => {
   const record = recordById.get(id);
   return record?.kind === "Story" ? record.articleId : id;
 };
+const passageThemes = (ids) => [...new Set((ids || []).flatMap((id) => passageById.get(id)?.themeIds || []))].filter((id) => themes.some((theme) => theme.id === id));
+const articleThemeIds = (article) => [...new Set([...(article.themeIds || []), ...passageThemes(passages.filter((passage) => passage.articleId === article.id).map((passage) => passage.id))])];
+const recordThemeIds = (record) => [...new Set([...(record.themeIds || []), ...passageThemes(passages.filter((passage) => (passage.recordIds || []).includes(record.id)).map((passage) => passage.id))])];
+const eventThemeIds = (event) => [...new Set([...(event.themeIds || []), ...passageThemes(event.passageIds || [])])];
+const directoryGroups = [
+  { id: "people", label: "People", kinds: ["Person"] },
+  { id: "organisations", label: "Organisations and councils", kinds: ["Organisation", "Agency", "Council"] },
+  { id: "businesses", label: "Businesses", kinds: ["Business", "Company"] },
+  { id: "projects", label: "Projects", kinds: ["Project"] },
+  { id: "technologies", label: "Systems and technologies", kinds: ["System", "Technology"] },
+  { id: "other", label: "Other records", kinds: [] },
+];
+const recordGroup = (record) => directoryGroups.find((group) => group.kinds.includes(record.kind))?.id || "other";
 const relationContext = (basis) => /research|reconciled|cleanup|expansion|curated|chapter association|name matched|role and period require verification|existing structured/i.test(basis || "") ? "" : String(basis || "").replace(/GISList evidence connects/i, "GISList accounts connect");
 const eventUrl = (event) => {
   if (event.url) return event.url;
@@ -34,19 +47,24 @@ const eventUrl = (event) => {
   return passage && article ? `${article.url}#${passage.slug}` : "";
 };
 const nodes = [
-  ...records.filter((record) => record.kind !== "Story").map((record) => ({ id: record.id, label: record.name, kind: record.kind, url: record.url, summary: record.description || record.story?.[0] || "", sourceCount: record.sources?.length || 0, themeIds: record.themeIds || [] })),
-  ...articles.map((article) => ({ id: article.id, label: article.title, kind: "Story", url: article.url, summary: article.summary, sourceCount: 0, themeIds: article.themeIds || [] })),
-  ...events.map((event) => ({ id: event.id, label: event.label, kind: "Event", url: eventUrl(event), summary: event.summary, sourceCount: event.sources?.length || 0, year: timelineYear(event), dateDisplay: event.dateDisplay, datePrecision: event.datePrecision, themeIds: event.themeIds || [] })),
-  ...themes.map((theme) => ({ id: theme.id, label: theme.title, kind: "Theme", url: "/", summary: theme.description || "Reader theme", sourceCount: 0, themeIds: [theme.id] })),
+  ...records.filter((record) => record.kind !== "Story").map((record) => ({ id: record.id, label: record.name, kind: record.kind, group: recordGroup(record), url: record.url, summary: record.description || record.story?.[0] || "", sourceCount: record.sources?.length || 0, themeIds: recordThemeIds(record) })),
+  ...articles.map((article) => ({ id: article.id, label: article.title, kind: "Story", group: "stories", url: article.url, summary: article.summary, sourceCount: 0, themeIds: articleThemeIds(article) })),
+  ...events.map((event) => ({ id: event.id, label: event.label, kind: "Event", group: "events", url: eventUrl(event), summary: event.summary, sourceCount: event.sources?.length || 0, year: timelineYear(event), dateDisplay: event.dateDisplay, datePrecision: event.datePrecision, themeIds: eventThemeIds(event) })),
+  ...themes.map((theme) => ({ id: theme.id, label: theme.title, kind: "Theme", group: "themes", url: `/themes/${theme.slug}/`, summary: theme.description || "Reader theme", sourceCount: 0, themeIds: [theme.id] })),
+  ...directoryGroups.map((group) => ({ id: `index:${group.id}`, label: `${group.label} index`, kind: "Index", group: group.id, url: `/browse/?kind=${group.id}`, summary: `A navigation index for ${group.label.toLocaleLowerCase()}. This catalogue link does not describe a historical relationship.`, sourceCount: 0, themeIds: [] })),
+  { id: "index:collection", label: "Collection index", kind: "Index", group: "indexes", url: "/browse/", summary: "Browse all published people, organisations, projects, technologies and themes.", sourceCount: 0, themeIds: [] },
 ];
 const eventYearsForPassages = (passageIds) => events.filter((event) => (event.passageIds || []).some((id) => passageIds.includes(id))).map(timelineYear).filter(Number.isFinite);
 const passageSources = (passage) => (passage.blocks?.length ? passage.blocks : passage.paragraphs || []).flatMap((block) => block.sources || []);
 const storyRecordsFor = (passage: { recordIds?: string[] }) => [...new Set<string>((passage.recordIds || []).filter((id: string) => recordById.has(id) && recordById.get(id).kind !== "Story"))];
 const edges = [
+  ...records.filter((record) => record.kind !== "Story").map((record) => ({ id: `directory-link:${record.id}`, a: record.id, b: `index:${recordGroup(record)}`, label: "indexed in", basis: "Directory link for navigation. This does not describe a historical relationship.", sources: [], years: [], themeIds: recordThemeIds(record), passageUrl: "" })),
+  ...directoryGroups.map((group) => ({ id: `index-section:${group.id}`, a: `index:${group.id}`, b: "index:collection", label: "section of", basis: "Directory navigation link between the collection index and a section.", sources: [], years: [], themeIds: [], passageUrl: "" })),
+  ...themes.map((theme) => ({ id: `theme-index:${theme.id}`, a: theme.id, b: "index:collection", label: "listed in", basis: "Theme directory link for browsing the collection.", sources: [], years: [], themeIds: [theme.id], passageUrl: "" })),
   ...relationshipEntries.map((entry) => {
     const relation = entry.data;
     const contextPassage = (relation.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
-    return { id: relation.id, a: graphRecordId(relation.a), b: graphRecordId(relation.b), label: relation.label, basis: relationContext(relation.basis), sources: relation.sources || [], years: eventYearsForPassages(relation.passageIds || []), themeIds: contextPassage?.themeIds || [], passageUrl: contextPassage ? `${articleById.get(contextPassage.articleId)?.url || "/"}#${contextPassage.slug}` : "" };
+    return { id: relation.id, a: graphRecordId(relation.a), b: graphRecordId(relation.b), label: relation.label, basis: relationContext(relation.basis), sources: relation.sources || [], years: eventYearsForPassages(relation.passageIds || []), themeIds: passageThemes(relation.passageIds || []), passageUrl: contextPassage ? `${articleById.get(contextPassage.articleId)?.url || "/"}#${contextPassage.slug}` : "" };
   }),
   ...passages.flatMap((passage) => {
     const article = articleById.get(passage.articleId);
@@ -64,40 +82,57 @@ const edges = [
     return [...linkedIds].filter((recordId) => recordById.has(recordId) && recordById.get(recordId).kind !== "Story").map((recordId) => ({
       id: `event-link:${event.id}:${recordId}`, a: event.id, b: recordId, label: "connected in time",
       basis: `${event.dateDisplay} · ${event.datePrecision} precision.`, sources: event.sources || [], years: [timelineYear(event)].filter(Number.isFinite),
-      themeIds: event.themeIds || [], passageUrl: linkedPassages[0] ? `${articleById.get(linkedPassages[0].articleId)?.url || "/"}#${linkedPassages[0].slug}` : "",
+      themeIds: eventThemeIds(event), passageUrl: linkedPassages[0] ? `${articleById.get(linkedPassages[0].articleId)?.url || "/"}#${linkedPassages[0].slug}` : "",
     }));
   }),
   ...nodes.flatMap((node) => (node.themeIds || []).filter((themeId) => themes.some((theme) => theme.id === themeId)).map((themeId) => ({
+    // A theme node points to its own detail page; it should not also create a self-loop.
     id: `theme-link:${node.id}:${themeId}`, a: node.id, b: themeId, label: "theme", basis: "Tagged with this reader theme.", sources: [], years: [], themeIds: [themeId], passageUrl: "",
-  }))),
+  })).filter((edge) => edge.a !== edge.b)),
 ];
 const graphData = JSON.stringify({ nodes, edges, minYear, maxYear }).replace(/</g, "\\u003c");
-const nodeKinds = [...new Set(nodes.map((node) => node.kind))].sort();
+const kindGroups = [
+  ...directoryGroups.map((group) => ({ label: group.label, id: group.id })),
+  { label: "Stories", id: "stories" }, { label: "Events", id: "events" }, { label: "Themes", id: "themes" }, { label: "Directory indexes", id: "indexes" },
+];
+const nodeGroups = new Set(nodes.map((node) => node.group));
+const visibleKindGroups = kindGroups.filter((group) => nodeGroups.has(group.id));
 const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
 ---
 <SiteLayout title="Network — A History of GIS in New Zealand" description="An optional, source-linked view of stories, records, themes and dates.">
   <section class="network-layout">
     <p class="eyebrow">Optional view · {nodes.length} nodes · {edges.length} links</p>
     <h1 class="page-title">See the connections</h1>
-    <p class="page-intro">This view maps the links behind the narrative. Filter by theme or year, then select a node or line to open its story, record or named source.</p>
-    <div class="tool-panel network-filters" aria-label="Network filters">
-      <div class="field"><label for="filter-kind">Show type</label><select id="filter-kind"><option value="">All types</option>{nodeKinds.map((kind) => <option value={kind}>{kind}</option>)}</select></div>
-      <div class="field"><label for="filter-relation">Link wording</label><select id="filter-relation"><option value="">All links</option>{relationLabels.map((label) => <option value={label}>{label}</option>)}</select></div>
-      <div class="field"><label for="filter-from">From year</label><input id="filter-from" type="number" /></div>
-      <div class="field"><label for="filter-to">To year</label><input id="filter-to" type="number" /></div>
-      <label class="checkbox-field"><input id="filter-undated" type="checkbox" checked /> Include links without a date</label>
-      <button class="button-secondary" id="filter-reset" type="button">Reset filters</button>
-      <span class="small muted" id="network-count" aria-live="polite">{nodes.length} items · {edges.length} links</span>
+    <p class="page-intro">People, organisations, stories, events and themes share one network. Select a type or connection button, then choose any item to see its related passages, dates and records.</p>
+    <div class="network-filter-panel" aria-label="Network filters">
+      <div class="network-filter-block"><span class="filter-label">Show types</span><div class="choice-row" role="group" aria-label="Select network item types">
+        <button class="choice-chip is-active" type="button" data-kind-all aria-pressed="true">All types</button>
+        {visibleKindGroups.map((group) => <button class="choice-chip" type="button" data-kind-filter={group.id} aria-pressed="false">{group.label}</button>)}
+      </div></div>
+      <div class="network-filter-block"><span class="filter-label">Connection types</span><div class="choice-row" role="group" aria-label="Select connection types">
+        <button class="choice-chip is-active" type="button" data-link-all aria-pressed="true">All connections</button>
+        {relationLabels.map((label) => <button class="choice-chip" type="button" data-link-filter={label} aria-pressed="false">{label}</button>)}
+      </div></div>
+      <div class="network-range-row">
+        <label class="field"><span>From year</span><input id="filter-from" type="number" inputmode="numeric" /></label>
+        <label class="field"><span>To year</span><input id="filter-to" type="number" inputmode="numeric" /></label>
+        <label class="checkbox-field"><input id="filter-undated" type="checkbox" checked /> Include links without a date</label>
+        <button class="button-secondary" id="filter-reset" type="button">Reset filters</button>
+        <span class="small muted" id="network-count" aria-live="polite">{nodes.length} items · {edges.length} links</span>
+      </div>
     </div>
     <div class="network-workspace">
       <div class="graph-frame">
         <div id="graph" role="img" aria-describedby="graph-help" aria-label="Interactive network of stories, records, events and themes"></div>
-        <div class="graph-overlay"><span class="graph-status-dot" aria-hidden="true"></span><span id="graph-help">Select a node to focus its connections. Use the item picker or network list with a keyboard.</span></div>
+        <span class="graph-selection-pulse" id="graph-pulse" aria-hidden="true"></span>
+        <div class="graph-overlay"><span class="graph-status-dot" aria-hidden="true"></span><span id="graph-help">Choose a name or theme to bring its story links, relationships and dates into focus.</span></div>
         <p class="graph-motion-note">Selection animates focus · respects reduced motion</p>
       </div>
       <aside class="graph-panel" aria-labelledby="network-inspector-title">
         <p class="eyebrow">Link inspector</p><h2 id="network-inspector-title">Explore a connection</h2>
-        <div class="field"><label for="node-picker">Choose a record or story</label><select id="node-picker"><option value="">Select an item</option>{nodes.map((node) => <option value={node.id}>{node.label} · {node.kind}</option>)}</select></div>
+        <label class="field node-search-label" for="node-search"><span>Find any person, organisation, story or theme</span><input id="node-search" type="search" placeholder="Type a name or subject" autocomplete="off" /></label>
+        <p id="node-search-count" class="small muted" aria-live="polite"></p>
+        <div class="node-search-results" id="node-search-results" role="group" aria-label="Matching network items"></div>
         <div id="graph-details" class="graph-details" aria-live="polite"><p>Select a node or line. Its description, source links and related passage will appear here.</p></div>
         <button class="button-secondary" id="graph-reset" type="button">Clear selection and reset view</button>
         <button class="button-secondary" id="copy-state" type="button">Copy this view</button>
@@ -129,19 +164,26 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     const edgesByNode = new Map(data.nodes.map((node) => [node.id, []]));
     data.edges.forEach((edge) => { edgesByNode.get(edge.a)?.push(edge); edgesByNode.get(edge.b)?.push(edge); });
     const graphElement = document.getElementById("graph");
-    const kindFilter = document.getElementById("filter-kind");
-    const linkFilter = document.getElementById("filter-relation");
+    const kindButtons = [...document.querySelectorAll("[data-kind-filter]")];
+    const kindAllButton = document.querySelector("[data-kind-all]");
+    const linkButtons = [...document.querySelectorAll("[data-link-filter]")];
+    const linkAllButton = document.querySelector("[data-link-all]");
     const fromInput = document.getElementById("filter-from");
     const toInput = document.getElementById("filter-to");
     const undatedFilter = document.getElementById("filter-undated");
-    const nodePicker = document.getElementById("node-picker");
+    const nodeSearch = document.getElementById("node-search");
+    const nodeResults = document.getElementById("node-search-results");
+    const nodeSearchCount = document.getElementById("node-search-count");
     const detailPanel = document.getElementById("graph-details");
     const count = document.getElementById("network-count");
-    const palette = { Person: "#3989a0", Business: "#dc9d4c", Company: "#dc9d4c", Organisation: "#48a98c", Agency: "#48a98c", Project: "#9c78bb", Technology: "#d47859", System: "#d47859", Story: "#ec7462", Event: "#f4c967", Theme: "#63caba" };
+    const graphPulse = document.getElementById("graph-pulse");
+    const palette = { Person: "#3989a0", Business: "#dc9d4c", Company: "#dc9d4c", Organisation: "#48a98c", Agency: "#48a98c", Council: "#48a98c", Project: "#9c78bb", Technology: "#d47859", System: "#d47859", Story: "#ec7462", Event: "#f4c967", Theme: "#63caba", Index: "#8a9b91" };
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     let renderer;
     let graph;
     let currentThemeIds = readThemes();
+    let selectedKinds = new Set();
+    let selectedLinks = new Set();
     let selectedNodeId = "";
     let selectedEdgeId = "";
     let hoveredNodeId = "";
@@ -153,20 +195,38 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     fromInput.min = String(data.minYear); fromInput.max = String(data.maxYear); fromInput.value = String(data.minYear);
     toInput.min = String(data.minYear); toInput.max = String(data.maxYear); toInput.value = String(data.maxYear);
     const params = new URLSearchParams(location.search);
-    kindFilter.value = params.get("kind") || ""; linkFilter.value = params.get("link") || "";
+    const kindAliases = { Person: "people", Organisation: "organisations", Agency: "organisations", Council: "organisations", Business: "businesses", Company: "businesses", Project: "projects", System: "technologies", Technology: "technologies", Story: "stories", Event: "events", Theme: "themes", Index: "indexes" };
+    const validGroups = new Set(data.nodes.map((node) => node.group).filter(Boolean));
+    selectedKinds = new Set((params.get("kind") || "").split("|").filter(Boolean).map((value) => kindAliases[value] || value).filter((value) => validGroups.has(value)));
+    selectedLinks = new Set((params.get("link") || "").split("|").filter(Boolean));
     fromInput.value = params.get("from") || String(data.minYear); toInput.value = params.get("to") || String(data.maxYear);
     selectedNodeId = params.get("focus") || "";
     const text = (parent, tag, value, className) => { const el = document.createElement(tag); el.textContent = value || ""; if (className) el.className = className; parent.append(el); return el; };
     const addLink = (parent, label, href, external = false) => { const el = document.createElement("a"); el.textContent = label; el.href = href; if (external) { el.target = "_blank"; el.rel = "noopener noreferrer"; } parent.append(el); return el; };
     const paletteColor = (node) => palette[node.kind] || "#6c9284";
-    const activeTheme = (node) => !currentThemeIds.length || (node.themeIds || []).some((id) => currentThemeIds.includes(id)) || currentThemeIds.includes(node.id);
+    const activeTheme = (node) => node.id === selectedNodeId || !currentThemeIds.length || (node.themeIds || []).some((id) => currentThemeIds.includes(id)) || currentThemeIds.includes(node.id);
     const rangeActive = () => Number(fromInput.value) > data.minYear || Number(toInput.value) < data.maxYear;
+    const syncFilterButtons = () => {
+      kindAllButton.setAttribute("aria-pressed", String(selectedKinds.size === 0));
+      kindAllButton.classList.toggle("is-active", selectedKinds.size === 0);
+      kindButtons.forEach((button) => {
+        const values = button.dataset.kindFilter.split("|");
+        const pressed = values.every((value) => selectedKinds.has(value));
+        button.setAttribute("aria-pressed", String(pressed)); button.classList.toggle("is-active", pressed);
+      });
+      linkAllButton.setAttribute("aria-pressed", String(selectedLinks.size === 0));
+      linkAllButton.classList.toggle("is-active", selectedLinks.size === 0);
+      linkButtons.forEach((button) => {
+        const pressed = selectedLinks.has(button.dataset.linkFilter);
+        button.setAttribute("aria-pressed", String(pressed)); button.classList.toggle("is-active", pressed);
+      });
+    };
     const visibleSet = () => {
       const from = Number(fromInput.value || data.minYear); const to = Number(toInput.value || data.maxYear);
-      const nodes = data.nodes.filter((node) => (!kindFilter.value || node.kind === kindFilter.value) && activeTheme(node) &&
+      const nodes = data.nodes.filter((node) => (!selectedKinds.size || selectedKinds.has(node.group)) && activeTheme(node) &&
         (node.kind !== "Event" || !rangeActive() || (Number.isFinite(node.year) ? node.year >= from && node.year <= to : undatedFilter.checked)));
       const ids = new Set(nodes.map((node) => node.id));
-      const edges = data.edges.filter((edge) => ids.has(edge.a) && ids.has(edge.b) && (!linkFilter.value || edge.label === linkFilter.value) &&
+      const edges = data.edges.filter((edge) => ids.has(edge.a) && ids.has(edge.b) && (!selectedLinks.size || selectedLinks.has(edge.label)) &&
         (!currentThemeIds.length || !edge.themeIds?.length || edge.themeIds.some((id) => currentThemeIds.includes(id))) &&
         (!rangeActive() || (edge.years?.length ? edge.years.some((year) => year >= from && year <= to) : undatedFilter.checked)));
       const connected = new Set(edges.flatMap((edge) => [edge.a, edge.b]));
@@ -174,14 +234,30 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     };
     const address = () => {
       const query = new URLSearchParams();
-      if (kindFilter.value) query.set("kind", kindFilter.value);
-      if (linkFilter.value) query.set("link", linkFilter.value);
+      if (selectedKinds.size) query.set("kind", [...selectedKinds].join("|"));
+      if (selectedLinks.size) query.set("link", [...selectedLinks].join("|"));
       if (Number(fromInput.value) !== data.minYear) query.set("from", fromInput.value);
       if (Number(toInput.value) !== data.maxYear) query.set("to", toInput.value);
       if (selectedNodeId) query.set("focus", selectedNodeId);
       history.replaceState({}, "", location.pathname + (query.toString() ? "?" + query : ""));
     };
     const clearPanel = () => detailPanel.replaceChildren();
+    const renderNodeResults = () => {
+      const query = nodeSearch.value.trim().toLocaleLowerCase();
+      const visible = visibleSet().nodes;
+      const matches = visible.filter((node) => !query || `${node.label} ${node.kind}`.toLocaleLowerCase().includes(query));
+      if (!query) matches.sort((a, b) => (edgesByNode.get(b.id)?.length || 0) - (edgesByNode.get(a.id)?.length || 0));
+      else matches.sort((a, b) => a.label.localeCompare(b.label));
+      nodeSearchCount.textContent = query ? `${matches.length} matches` : "Connected starting points · type to search all visible items";
+      nodeResults.replaceChildren();
+      matches.slice(0, 16).forEach((node) => {
+        const button = document.createElement("button"); button.type = "button"; button.className = "node-result";
+        button.setAttribute("aria-pressed", String(node.id === selectedNodeId)); button.textContent = `${node.label} · ${node.kind}`;
+        button.addEventListener("click", () => showNode(node.id)); nodeResults.append(button);
+      });
+      if (!matches.length) text(nodeResults, "span", "No items match these filters.", "small muted");
+      if (matches.length > 16) text(nodeResults, "span", `Showing 16 of ${matches.length}. Refine the search to see another item.`, "small muted");
+    };
     const syncSelection = () => {
       renderer?.refresh();
       graphElement.querySelectorAll("[data-node-id]").forEach((element) => {
@@ -220,41 +296,64 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       const attrs = renderer.getNodeDisplayData(id);
       if (!attrs) return;
       focusPosition(attrs.x, attrs.y);
+      graphPulse.dataset.nodeId = id;
+      graphPulse.classList.remove("is-active");
+      requestAnimationFrame(() => graphPulse.classList.add("is-active"));
+    };
+    const placePulse = () => {
+      if (!renderer || !graphPulse.dataset.nodeId) return;
+      const attrs = renderer.getNodeDisplayData(graphPulse.dataset.nodeId);
+      if (!attrs) return;
+      const point = renderer.graphToViewport({ x: attrs.x, y: attrs.y });
+      graphPulse.style.left = `${point.x}px`; graphPulse.style.top = `${point.y}px`;
     };
     const showNode = (id) => {
       const node = nodeById.get(id); if (!node) return;
-      selectedNodeId = id; selectedEdgeId = ""; hoveredNodeId = ""; hoveredEdgeId = ""; nodePicker.value = id; clearPanel();
+      selectedNodeId = id; selectedEdgeId = ""; hoveredNodeId = ""; hoveredEdgeId = ""; clearPanel();
       text(detailPanel, "strong", node.label); text(detailPanel, "div", node.kind, "small muted");
       if (node.summary) text(detailPanel, "p", node.summary);
       if (node.dateDisplay) text(detailPanel, "p", `${node.dateDisplay} · ${node.datePrecision} precision`, "small muted");
       if (node.sourceCount) text(detailPanel, "p", `${node.sourceCount} source ${node.sourceCount === 1 ? "reference" : "references"} attached.`, "small muted");
-      if (node.url && node.kind !== "Theme") addLink(detailPanel, node.kind === "Story" ? "Read this story →" : node.kind === "Event" ? "Open its passage →" : "Open record →", node.url);
-      const connected = edgesByNode.get(id) || [];
+      if (node.url) addLink(detailPanel, node.kind === "Story" ? "Read this story →" : node.kind === "Event" ? "Open its passage →" : node.kind === "Theme" ? "Open this theme →" : node.kind === "Index" ? "Open directory →" : "Open record →", node.url);
+      const linkedThemes = (node.themeIds || []).map((themeId) => nodeById.get(themeId)).filter((theme) => theme?.kind === "Theme" && theme.id !== id);
+      if (linkedThemes.length) {
+        text(detailPanel, "h3", "Themes");
+        const themeLinks = document.createElement("div"); themeLinks.className = "graph-theme-links";
+        linkedThemes.forEach((theme) => addLink(themeLinks, theme.label, theme.url)); detailPanel.append(themeLinks);
+      }
+      const connected = (edgesByNode.get(id) || []).slice().sort((a, b) => {
+        const nameA = nodeById.get(a.a === id ? a.b : a.a)?.label || "";
+        const nameB = nodeById.get(b.a === id ? b.b : b.a)?.label || "";
+        return nameA.localeCompare(nameB);
+      });
       if (connected.length) {
         text(detailPanel, "h3", `Connected items · ${connected.length}`);
         const list = document.createElement("ul"); list.className = "graph-related-list";
-        connected.forEach((edge) => {
+        connected.slice(0, 40).forEach((edge) => {
           const other = nodeById.get(edge.a === id ? edge.b : edge.a);
           if (!other) return;
           const item = document.createElement("li");
-          if (other.url && other.kind !== "Theme") addLink(item, `${other.label} · ${other.kind}`, other.url);
+          if (other.url) addLink(item, `${other.label} · ${other.kind}`, other.url);
           else text(item, "span", `${other.label} · ${other.kind}`);
           const relation = document.createElement("button"); relation.type = "button"; relation.className = "relationship-open";
           relation.textContent = `${edge.label} · view connection details`;
-          relation.addEventListener("click", () => showEdge(edge.id)); item.append(relation); list.append(item);
+          relation.addEventListener("click", () => showEdge(edge.id)); item.append(relation);
+          if (edge.passageUrl) addLink(item, "Read in the narrative →", edge.passageUrl);
+          list.append(item);
         });
         detailPanel.append(list);
+        if (connected.length > 40) text(detailPanel, "p", `The complete set is available in the network list below. Showing the first 40 connections here.`, "small muted");
       }
-      address(); syncSelection(); focusNode(id);
+      address(); syncSelection(); focusNode(id); renderNodeResults();
     };
     const showEdge = (id) => {
       const edge = edgeById.get(id); if (!edge) return;
-      selectedEdgeId = id; selectedNodeId = ""; hoveredNodeId = ""; hoveredEdgeId = ""; nodePicker.value = ""; clearPanel();
+      selectedEdgeId = id; selectedNodeId = ""; hoveredNodeId = ""; hoveredEdgeId = ""; clearPanel(); graphPulse.classList.remove("is-active");
       const a = nodeById.get(edge.a); const b = nodeById.get(edge.b);
       text(detailPanel, "strong", `${a?.label || "Item"} ${edge.label} ${b?.label || "item"}`);
       if (edge.basis) text(detailPanel, "p", edge.basis);
-      if (a?.url && a.kind !== "Theme") addLink(detailPanel, `Open ${a.label} →`, a.url);
-      if (b?.url && b.kind !== "Theme") addLink(detailPanel, `Open ${b.label} →`, b.url);
+      if (a?.url) addLink(detailPanel, `Open ${a.label} →`, a.url);
+      if (b?.url) addLink(detailPanel, `Open ${b.label} →`, b.url);
       if (edge.passageUrl) addLink(detailPanel, "Read the related passage →", edge.passageUrl);
       if (edge.sources?.length) {
         const list = document.createElement("ul");
@@ -270,7 +369,8 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     };
     const nodePosition = (node, index, total) => {
       const ring = node.kind === "Theme" ? 1.03 : node.kind === "Event" ? .48 : node.kind === "Story" ? .30 : .76;
-      const seed = (index * 2.399963 + (node.kind === "Event" ? .65 : node.kind === "Theme" ? 1.1 : node.kind === "Story" ? .2 : 0));
+      const hash = [...node.id].reduce((value, char) => Math.imul(value ^ char.charCodeAt(0), 16777619), 2166136261) >>> 0;
+      const seed = hash / 4294967296 * Math.PI * 2 + (node.kind === "Event" ? .65 : node.kind === "Theme" ? 1.1 : node.kind === "Story" ? .2 : 0);
       return { x: Math.cos(seed) * ring, y: Math.sin(seed) * ring };
     };
     const svgNode = (name, attrs = {}) => { const el = document.createElementNS(svgNS, name); Object.entries(attrs).forEach(([key, value]) => el.setAttribute(key, String(value))); return el; };
@@ -335,19 +435,35 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
         renderer.on("leaveNode", ({ node }) => { if (hoveredNodeId === node) { hoveredNodeId = ""; renderer.refresh(); } });
         renderer.on("enterEdge", ({ edge }) => { hoveredEdgeId = edge; renderer.refresh(); });
         renderer.on("leaveEdge", ({ edge }) => { if (hoveredEdgeId === edge) { hoveredEdgeId = ""; renderer.refresh(); } });
+        renderer.on("afterRender", placePulse);
       }
       count.textContent = `${nodes.length} visible items · ${edges.length} visible links`;
     };
-    const updateAddressAndDraw = () => { draw(); address(); };
-    [kindFilter, linkFilter, fromInput, toInput, undatedFilter].forEach((control) => control.addEventListener("change", updateAddressAndDraw));
-    nodePicker.addEventListener("change", () => nodePicker.value && showNode(nodePicker.value));
+    const updateAddressAndDraw = () => {
+      const visibleIds = new Set(visibleSet().nodes.map((node) => node.id));
+      if (selectedNodeId && !visibleIds.has(selectedNodeId)) { selectedNodeId = ""; selectedEdgeId = ""; clearPanel(); graphPulse.classList.remove("is-active"); }
+      draw(); address(); renderNodeResults();
+      if (selectedNodeId) showNode(selectedNodeId);
+    };
+    kindAllButton.addEventListener("click", () => { selectedKinds.clear(); syncFilterButtons(); updateAddressAndDraw(); });
+    kindButtons.forEach((button) => button.addEventListener("click", () => {
+      button.dataset.kindFilter.split("|").forEach((kind) => selectedKinds.has(kind) ? selectedKinds.delete(kind) : selectedKinds.add(kind));
+      syncFilterButtons(); updateAddressAndDraw();
+    }));
+    linkAllButton.addEventListener("click", () => { selectedLinks.clear(); syncFilterButtons(); updateAddressAndDraw(); });
+    linkButtons.forEach((button) => button.addEventListener("click", () => {
+      selectedLinks.has(button.dataset.linkFilter) ? selectedLinks.delete(button.dataset.linkFilter) : selectedLinks.add(button.dataset.linkFilter);
+      syncFilterButtons(); updateAddressAndDraw();
+    }));
+    [fromInput, toInput, undatedFilter].forEach((control) => control.addEventListener("change", updateAddressAndDraw));
+    nodeSearch.addEventListener("input", renderNodeResults);
     document.querySelectorAll("[data-focus-node]").forEach((button) => button.addEventListener("click", () => showNode(button.dataset.focusNode)));
     document.querySelectorAll("[data-focus-edge]").forEach((button) => button.addEventListener("click", () => showEdge(button.dataset.focusEdge)));
-    document.getElementById("filter-reset").addEventListener("click", () => { kindFilter.value = ""; linkFilter.value = ""; fromInput.value = data.minYear; toInput.value = data.maxYear; undatedFilter.checked = true; selectedNodeId = ""; selectedEdgeId = ""; updateAddressAndDraw(); });
+    document.getElementById("filter-reset").addEventListener("click", () => { selectedKinds.clear(); selectedLinks.clear(); fromInput.value = data.minYear; toInput.value = data.maxYear; undatedFilter.checked = true; selectedNodeId = ""; selectedEdgeId = ""; graphPulse.classList.remove("is-active"); syncFilterButtons(); updateAddressAndDraw(); });
     document.getElementById("graph-reset").addEventListener("click", () => {
-      selectedNodeId = ""; selectedEdgeId = ""; hoveredNodeId = ""; hoveredEdgeId = ""; nodePicker.value = "";
+      selectedNodeId = ""; selectedEdgeId = ""; hoveredNodeId = ""; hoveredEdgeId = ""; graphPulse.classList.remove("is-active");
       clearPanel(); text(detailPanel, "p", "Select a node or line. Its description, source links and connected items will appear here.");
-      address(); syncSelection();
+      address(); syncSelection(); renderNodeResults();
       if (renderer) {
         const camera = renderer.getCamera();
         if (reducedMotion.matches) camera.setState({ x: .5, y: .5, angle: 0, ratio: 1 });
@@ -357,7 +473,8 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     document.getElementById("copy-state").addEventListener("click", async () => { const label = document.getElementById("copy-result"); try { await navigator.clipboard.writeText(location.href); label.textContent = "View link copied."; } catch { label.textContent = "Copy is unavailable here. Copy the address from your browser."; } });
     window.addEventListener("reader:themes-changed", (event) => { currentThemeIds = event.detail.themes; updateAddressAndDraw(); });
     reducedMotion.addEventListener?.("change", () => { if (reducedMotion.matches) renderer?.getCamera().cancelAnimation(); });
-    draw();
+    syncFilterButtons(); draw(); renderNodeResults();
     if (selectedNodeId && nodeById.has(selectedNodeId)) showNode(selectedNodeId);
+    if ("ResizeObserver" in window) new ResizeObserver(() => { renderer?.resize(true); renderer?.refresh(); }).observe(graphElement);
   </script>
 </SiteLayout>

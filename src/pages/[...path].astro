@@ -20,7 +20,8 @@ const connectedPassages = passageEntries.map((entry) => entry.data).filter((pass
 const recordEvents = eventEntries.map((entry) => entry.data).filter((event) => (event.recordIds || []).includes(recordId) || (event.passageIds || []).some((passageId) => connectedPassages.some((passage) => passage.id === passageId)));
 const articlesById = new Map(articleEntries.map((entry) => [entry.data.id, entry.data]));
 const themesById = new Map(themeEntries.map((entry) => [entry.data.id, entry.data]));
-const currentThemes = (record?.themeIds || []).map((id) => themesById.get(id)).filter(Boolean);
+const currentThemeIds = new Set([...(record?.themeIds || []), ...connectedPassages.flatMap((passage) => passage.themeIds || [])]);
+const currentThemes = [...currentThemeIds].map((id) => themesById.get(id)).filter(Boolean);
 const toYearLabel = (event) => `${event.dateDisplay} · ${event.datePrecision} precision`;
 const datePrecisionLabel = (event) => `${event.dateDisplay} · ${String(event.datePrecision).replace("-", " ")} precision`;
 const displayRelationContext = (basis) => /research|reconciled|cleanup|expansion|curated|chapter association|name matched|role and period require verification|existing structured/i.test(basis || "") ? "" : String(basis || "").replace(/GISList evidence connects/i, "GISList accounts connect");
@@ -38,7 +39,8 @@ const eventHref = (event) => event.url || (() => {
       <p class="record-updated">{record.status || "Published record"}</p>
       <h1 class="page-title">{record.name}</h1>
       <p class="page-intro">{record.description || record.story?.[0] || "A linked record in the NZ GIS History collection."}</p>
-      <div class="theme-tags">{currentThemes.map((theme) => <span class="theme-tag" style={`--theme-color:${theme.color || "#55b9a7"}`}>{theme.title}</span>)}</div>
+      <div class="theme-tags">{currentThemes.map((theme) => <a class="theme-tag" href={`/themes/${theme.slug}/`} style={`--theme-color:${theme.color || "#55b9a7"}`}>{theme.title}<span aria-hidden="true"> ↗</span></a>)}</div>
+      <div class="record-network-actions"><a class="button-secondary" href={`/network/?focus=${encodeURIComponent(record.id)}`}>Explore this record in the network <span aria-hidden="true">↗</span></a></div>
     </div>
 
     <div class="record-page-grid">

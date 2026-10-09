@@ -15,10 +15,12 @@ const recordById = new Map<string, any>(records.map((record) => [record.id, reco
 const passageById = new Map<string, any>(passageEntries.map((entry) => [entry.data.id, entry.data] as const));
 const articleById = new Map<string, any>(articleEntries.map((entry) => [entry.data.id, entry.data] as const));
 const relatedRecordIds = (event: any): string[] => [...new Set<string>([...(event.recordIds || []), ...(event.passageIds || []).flatMap((passageId: string) => passageById.get(passageId)?.recordIds || [])])];
+const eventThemeIds = (event: any): string[] => [...new Set<string>([...(event.themeIds || []), ...(event.passageIds || []).flatMap((passageId: string) => passageById.get(passageId)?.themeIds || [])])];
 const years = events.map(eventYear).filter(Number.isFinite);
 const minYear = years.length ? Math.min(...years) : 0;
 const maxYear = years.length ? Math.max(...years) : 0;
 const precisionLabels = { day: "day recorded", month: "month recorded", year: "year recorded", approximate: "approximate date", range: "date range", "year-range": "year range", "day-range": "day range", decade: "decade recorded", unknown: "date unknown" };
+const precisionValues = [...new Set(events.map((event) => event.datePrecision))].sort();
 const eventHref = (event) => {
   if (event.url) return event.url;
   const passage = (event.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
@@ -31,13 +33,26 @@ const eventHref = (event) => {
     <p class="eyebrow">Parallel timelines</p>
     <h1 class="page-title">GIS history, across time</h1>
     <p class="page-intro">Follow events across people, organisations, projects and technologies. The date label keeps the precision recorded in its source.</p>
-    <div class="tool-panel" aria-label="Timeline filters">
-      <div class="field"><label for="timeline-record">Related record</label><select id="timeline-record"><option value="">All records</option>{records.map((record) => <option value={record.id}>{record.name}</option>)}</select></div>
-      <div class="field"><label for="timeline-precision">Date precision</label><select id="timeline-precision"><option value="">All precision levels</option><option value="day">Day</option><option value="month">Month</option><option value="year">Year</option><option value="approximate">Approximate</option><option value="range">Range</option><option value="decade">Decade</option><option value="unknown">Unknown</option></select></div>
-      <div class="field"><label for="timeline-from">From year</label><input id="timeline-from" type="number" min={minYear} max={maxYear} value={minYear} /></div>
-      <div class="field"><label for="timeline-to">To year</label><input id="timeline-to" type="number" min={minYear} max={maxYear} value={maxYear} /></div>
-      <button class="button-secondary" id="timeline-reset" type="button">Reset</button>
-      <span id="timeline-count" class="small muted" aria-live="polite">{events.length} events</span>
+    <div class="timeline-filter-panel" aria-label="Timeline filters">
+      <div class="timeline-record-filter">
+        <label class="browse-search-label" for="timeline-record-search">Related people and organisations</label>
+        <input id="timeline-record-search" type="search" placeholder="Type a name, organisation or project" autocomplete="off" />
+        <div class="timeline-selected-records" id="timeline-selected-records" aria-label="Selected records"></div>
+        <p id="timeline-record-count" class="small muted" aria-live="polite"></p>
+        <div class="timeline-record-results" id="timeline-record-results" role="group" aria-label="Matching records"></div>
+      </div>
+      <div class="timeline-filter-options">
+        <div class="timeline-precision-filter"><span class="filter-label">Date precision</span><div class="choice-row" role="group" aria-label="Select date precision">
+          <button class="choice-chip is-active" type="button" data-precision-all aria-pressed="true">All precision</button>
+          {precisionValues.map((precision) => <button class="choice-chip" type="button" data-precision-filter={precision} aria-pressed="false">{precisionLabels[precision] || precision}</button>)}
+        </div></div>
+        <div class="timeline-range-filter">
+          <label class="field"><span>From year</span><input id="timeline-from" type="number" min={minYear} max={maxYear} value={minYear} /></label>
+          <label class="field"><span>To year</span><input id="timeline-to" type="number" min={minYear} max={maxYear} value={maxYear} /></label>
+          <button class="button-secondary" id="timeline-reset" type="button">Reset filters</button>
+          <span id="timeline-count" class="small muted" aria-live="polite">{events.length} events</span>
+        </div>
+      </div>
     </div>
     <ol class="timeline-list" id="timeline-list">
       {events.map((event) => {
@@ -45,7 +60,7 @@ const eventHref = (event) => {
         const publicLinked = linked.filter((id) => recordById.has(id) && recordById.get(id).kind !== "Story");
         const otherCount = linked.length - publicLinked.length;
         const year = eventYear(event);
-        return <li class="timeline-item card" id={`event-${event.id}`} data-year={Number.isFinite(year) ? year : ""} data-precision={event.datePrecision} data-records={linked.join("|")} data-theme-ids={(event.themeIds || []).join(" ")}>
+        return <li class="timeline-item card" id={`event-${event.id}`} data-year={Number.isFinite(year) ? year : ""} data-precision={event.datePrecision} data-records={linked.join("|")} data-theme-ids={eventThemeIds(event).join(" ")}>
           <div class="timeline-date">{event.dateDisplay}<span class="precision-note">{precisionLabels[event.datePrecision] || "date precision not specified"}</span></div>
           <h2>{event.label}</h2>
           <p>{event.summary}</p>
@@ -59,31 +74,84 @@ const eventHref = (event) => {
     <p class="small muted" id="timeline-empty" hidden>No events match these filters.</p>
     <p class="timeline-precision-note">Dates are shown as published. “2014” means the source gives a year, not a specific day.</p>
   </section>
+  <script id="timeline-record-data" type="application/json" set:html={JSON.stringify(records.filter((record) => record.kind !== "Story").map((record) => ({ id: record.id, name: record.name, kind: record.kind }))).replace(/</g, "\\u003c")}></script>
   <script>
     // @ts-nocheck
     const list = document.getElementById("timeline-list");
     const items = Array.from(list.querySelectorAll(".timeline-item"));
-    const recordSelect = document.getElementById("timeline-record");
-    const precisionSelect = document.getElementById("timeline-precision");
+    const recordSearch = document.getElementById("timeline-record-search");
+    const recordResults = document.getElementById("timeline-record-results");
+    const selectedRecordBox = document.getElementById("timeline-selected-records");
+    const recordCount = document.getElementById("timeline-record-count");
+    const recordData = JSON.parse(document.getElementById("timeline-record-data").textContent);
+    const selectedRecordIds = new Set();
+    const selectedPrecisions = new Set();
+    const precisionButtons = [...document.querySelectorAll("[data-precision-filter]")];
+    const precisionAll = document.querySelector("[data-precision-all]");
     const fromInput = document.getElementById("timeline-from");
     const toInput = document.getElementById("timeline-to");
     const count = document.getElementById("timeline-count");
     const empty = document.getElementById("timeline-empty");
+    let activeThemes = [];
+    try { activeThemes = JSON.parse(localStorage.getItem("nzgis-reader-themes-v1") || "[]"); } catch { activeThemes = []; }
+    const syncPrecisionButtons = () => {
+      precisionAll.setAttribute("aria-pressed", String(selectedPrecisions.size === 0)); precisionAll.classList.toggle("is-active", selectedPrecisions.size === 0);
+      precisionButtons.forEach((button) => { const pressed = selectedPrecisions.has(button.dataset.precisionFilter); button.setAttribute("aria-pressed", String(pressed)); button.classList.toggle("is-active", pressed); });
+    };
+    const renderRecords = () => {
+      const query = recordSearch.value.trim().toLocaleLowerCase();
+      const matches = recordData.filter((record) => !query || `${record.name} ${record.kind}`.toLocaleLowerCase().includes(query)).sort((a, b) => a.name.localeCompare(b.name));
+      recordCount.textContent = query ? `${matches.length} matches` : "Type to find a record. Select more than one to compare their dates.";
+      recordResults.replaceChildren();
+      matches.slice(0, 14).forEach((record) => {
+        const button = document.createElement("button"); button.type = "button"; button.className = "choice-chip"; button.textContent = `${record.name} · ${record.kind}`;
+        button.setAttribute("aria-pressed", String(selectedRecordIds.has(record.id)));
+        if (selectedRecordIds.has(record.id)) button.classList.add("is-active");
+        button.addEventListener("click", () => {
+          selectedRecordIds.has(record.id) ? selectedRecordIds.delete(record.id) : selectedRecordIds.add(record.id);
+          renderRecords(); renderSelectedRecords(); update();
+        });
+        recordResults.append(button);
+      });
+      if (!matches.length) recordResults.textContent = "No records match that name.";
+      if (matches.length > 14) { const more = document.createElement("span"); more.className = "small muted"; more.textContent = `Showing 14 of ${matches.length}; refine the search to find another record.`; recordResults.append(more); }
+    };
+    const renderSelectedRecords = () => {
+      selectedRecordBox.replaceChildren();
+      selectedRecordIds.forEach((id) => {
+        const record = recordData.find((item) => item.id === id); if (!record) return;
+        const button = document.createElement("button"); button.type = "button"; button.className = "selected-record-chip"; button.textContent = `${record.name} ×`;
+        button.setAttribute("aria-label", `Remove ${record.name} from timeline filters`);
+        button.addEventListener("click", () => { selectedRecordIds.delete(id); renderRecords(); renderSelectedRecords(); update(); });
+        selectedRecordBox.append(button);
+      });
+    };
     const update = () => {
       const visible = items.filter((item) => {
         const year = item.dataset.year ? Number(item.dataset.year) : Number.NaN;
         const recordIds = (item.dataset.records || "").split("|");
-        return (!recordSelect.value || recordIds.includes(recordSelect.value)) &&
-          (!precisionSelect.value || precisionSelect.value === item.dataset.precision) &&
+        const themeIds = (item.dataset.themeIds || "").split(/\s+/).filter(Boolean);
+        return (!selectedRecordIds.size || [...selectedRecordIds].some((id) => recordIds.includes(id))) &&
+          (!selectedPrecisions.size || selectedPrecisions.has(item.dataset.precision)) &&
+          (!activeThemes.length || !themeIds.length || themeIds.some((id) => activeThemes.includes(id))) &&
           (!Number.isFinite(year) || (year >= Number(fromInput.value || -Infinity) && year <= Number(toInput.value || Infinity)));
       });
       items.forEach((item) => { item.hidden = !visible.includes(item); });
       count.textContent = visible.length + (visible.length === 1 ? " event" : " events");
       empty.hidden = visible.length > 0;
     };
-    [recordSelect, precisionSelect, fromInput, toInput].forEach((element) => element.addEventListener("change", update));
+    precisionAll.addEventListener("click", () => { selectedPrecisions.clear(); syncPrecisionButtons(); update(); });
+    precisionButtons.forEach((button) => button.addEventListener("click", () => {
+      selectedPrecisions.has(button.dataset.precisionFilter) ? selectedPrecisions.delete(button.dataset.precisionFilter) : selectedPrecisions.add(button.dataset.precisionFilter);
+      syncPrecisionButtons(); update();
+    }));
+    recordSearch.addEventListener("input", renderRecords);
+    [fromInput, toInput].forEach((element) => element.addEventListener("change", update));
+    window.addEventListener("reader:themes-changed", (event) => { activeThemes = event.detail.themes; update(); });
     document.getElementById("timeline-reset").addEventListener("click", () => {
-      recordSelect.value = ""; precisionSelect.value = ""; fromInput.value = fromInput.min; toInput.value = toInput.max; update();
+      selectedRecordIds.clear(); selectedPrecisions.clear(); recordSearch.value = ""; fromInput.value = fromInput.min; toInput.value = toInput.max;
+      syncPrecisionButtons(); renderRecords(); renderSelectedRecords(); update();
     });
+    syncPrecisionButtons(); renderRecords(); update();
   </script>
 </SiteLayout>
