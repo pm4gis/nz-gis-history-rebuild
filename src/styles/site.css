@@ -259,10 +259,10 @@ html[data-palette="light-paper"] {
   --graph-theme: #277e88;
   --graph-index: #647b73;
   --graph-edge: #739188;
-  --graph-muted: #92a8a0;
+  --graph-muted: #758b80;
   --graph-selection: #9a611e;
   --graph-highlight: #8d5a22;
-  --graph-edge-dim: #c3cdc5;
+  --graph-edge-dim: #83958c;
   --hero-text: #f4f7f5;
   --hero-secondary: #e6eee9;
   --image-text: #ffffff;
@@ -305,10 +305,10 @@ html[data-palette="light-mist"] {
   --graph-theme: #277795;
   --graph-index: #627c91;
   --graph-edge: #7189a7;
-  --graph-muted: #94a6ba;
+  --graph-muted: #788b9f;
   --graph-selection: #905a1c;
   --graph-highlight: #865719;
-  --graph-edge-dim: #b7c6d7;
+  --graph-edge-dim: #7f93ab;
   --hero-text: #f4f7f5;
   --hero-secondary: #e6eee9;
   --image-text: #ffffff;
@@ -354,7 +354,7 @@ html[data-palette="dark-night"] {
   --graph-muted: #607b95;
   --graph-selection: #ffd092;
   --graph-highlight: #ffcb85;
-  --graph-edge-dim: #405265;
+  --graph-edge-dim: #607a92;
   --hero-text: #f4f7f5;
   --hero-secondary: #e6eee9;
   --image-text: #ffffff;
@@ -400,7 +400,7 @@ html[data-palette="dark-forest"] {
   --graph-muted: #678978;
   --graph-selection: #fbd194;
   --graph-highlight: #f8ca80;
-  --graph-edge-dim: #385c4b;
+  --graph-edge-dim: #6a927f;
   --hero-text: #f4f7f5;
   --hero-secondary: #e6eee9;
   --image-text: #ffffff;

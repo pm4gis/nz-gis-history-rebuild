@@ -62,7 +62,7 @@ for (const name of names) {
     const t = palette(name);
     for (const kind of [
       "person", "business", "organisation", "project", "technology", "story",
-      "event", "theme", "index", "edge", "selection", "highlight",
+      "event", "theme", "index", "edge", "muted", "edge-dim", "selection", "highlight",
     ]) assert.ok(ratio(t["graph-" + kind], t.surface) >= 3,
       name + " graph-" + kind + " is below 3:1 against graph surface");
   });
