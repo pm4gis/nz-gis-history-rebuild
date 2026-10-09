@@ -1,35 +1,164 @@
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
-import StoryReader from "../components/StoryReader.astro";
 import { getCollection } from "astro:content";
 
 const [articleEntries, passageEntries, recordEntries, eventEntries, relationshipEntries, themeEntries, imageEntries] = await Promise.all([
   getCollection("articles"), getCollection("passages"), getCollection("records"), getCollection("events"),
   getCollection("relationships"), getCollection("themes"), getCollection("images"),
 ]);
-const articles = articleEntries.map((entry) => entry.data).filter((article) => article.status === "published")
+
+const articles = articleEntries.map((entry) => entry.data)
+  .filter((article) => article.status === "published" && article.slug !== "preface")
   .sort((a, b) => (a.readingOrder ?? Number.MAX_SAFE_INTEGER) - (b.readingOrder ?? Number.MAX_SAFE_INTEGER) || a.title.localeCompare(b.title));
-const featured = articles[0];
-const nextArticle = articles[1];
-const storyPassages = featured ? passageEntries.map((entry) => entry.data).filter((passage) => passage.articleId === featured.id).sort((a, b) => a.order - b.order) : [];
-const image = imageEntries[0]?.data;
-const getPageTitle = (article) => article ? article.title + " — A History of GIS in New Zealand" : "A History of GIS in New Zealand";
+const firstStory = articles[0];
+const firstStoryPassages = firstStory
+  ? passageEntries.map((entry) => entry.data).filter((passage) => passage.articleId === firstStory.id).sort((a, b) => a.order - b.order)
+  : [];
+const records = recordEntries.map((entry) => entry.data);
+const recordById = new Map(records.map((record) => [record.id, record] as const));
+const relationships = relationshipEntries.map((entry) => entry.data);
+const storyRecord = firstStory ? records.find((record) => record.kind === "Story" && record.url === firstStory.url) : undefined;
+const firstLinkedRecordId = firstStoryPassages.flatMap((passage) => passage.recordIds || []).find((id) => recordById.has(id));
+const networkCentre = storyRecord || (firstLinkedRecordId ? recordById.get(firstLinkedRecordId) : undefined);
+const networkEdges = networkCentre ? relationships.flatMap((relationship) => {
+  const otherId = relationship.a === networkCentre.id ? relationship.b : relationship.b === networkCentre.id ? relationship.a : undefined;
+  const record = otherId ? recordById.get(otherId) : undefined;
+  return record && record.kind !== "Story" ? [{ relationship, record }] : [];
+}).slice(0, 3) : [];
+const networkRecords = [networkCentre, ...networkEdges.map(({ record }) => record)].filter(Boolean).slice(0, 4);
+const networkIds = new Set(networkRecords.map((record) => record.id));
+const visibleNetworkEdges = relationships.filter((relationship) => networkIds.has(relationship.a) && networkIds.has(relationship.b));
+const graphPoints = [[50, 50], [50, 16], [18, 80], [82, 80]];
+const networkNodes = networkRecords.map((record, index) => ({ record, point: graphPoints[index] }));
+const networkPositions = new Map(networkNodes.map(({ record, point }) => [record.id, point] as const));
+const networkLinks = visibleNetworkEdges.map((relationship) => ({
+  relationship,
+  from: networkPositions.get(relationship.a),
+  to: networkPositions.get(relationship.b),
+})).filter((edge) => edge.from && edge.to);
+
+const passages = passageEntries.map((entry) => entry.data);
+const passageById = new Map(passages.map((passage) => [passage.id, passage] as const));
+const articleById = new Map(articleEntries.map((entry) => [entry.data.id, entry.data] as const));
+const eventYear = (event) => {
+  if (Number.isFinite(event.year)) return event.year;
+  const parsed = /^(\d{4})/.exec(String(event.startDate || ""));
+  return parsed ? Number(parsed[1]) : Number.NaN;
+};
+const eventHref = (event) => {
+  if (event.url) return event.url;
+  const passage = (event.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
+  const article = passage && articleById.get(passage.articleId);
+  return passage && article ? `${article.url}#${passage.slug}` : "/timeline/";
+};
+const datedEvents = eventEntries.map((entry) => entry.data)
+  .filter((event) => event.passageIds?.length && Number.isFinite(eventYear(event)))
+  .sort((a, b) => eventYear(a) - eventYear(b));
+const milestoneCount = Math.min(5, datedEvents.length);
+const milestones = Array.from({ length: milestoneCount }, (_, index) => {
+  const position = milestoneCount === 1 ? 0 : Math.round(index * (datedEvents.length - 1) / (milestoneCount - 1));
+  return datedEvents[position];
+});
+const yearValues = datedEvents.map(eventYear);
+const timelineRange = yearValues.length ? `${Math.min(...yearValues)} → ${Math.max(...yearValues)}` : "Explore the timeline";
+const precisionLabels = { day: "day recorded", month: "month recorded", year: "year recorded", approximate: "approximate date", range: "date range", "year-range": "year range", "day-range": "day range", decade: "decade recorded", unknown: "date unknown" };
+
+const themes = themeEntries.map((entry) => entry.data)
+  .map((theme) => ({ ...theme, passageCount: theme.passageIds?.length || 0, firstStop: theme.stops?.find((stop) => stop.url) }))
+  .filter((theme) => theme.firstStop)
+  .sort((a, b) => b.passageCount - a.passageCount || a.title.localeCompare(b.title))
+  .slice(0, 4);
+const updateDates = [...new Set(articles.map((article) => article.updatedAt).filter(Boolean))].sort();
+const latestUpdate = updateDates.length > 1 ? updateDates.at(-1) : undefined;
+const recentUpdates = latestUpdate ? articles.filter((article) => article.updatedAt === latestUpdate).slice(0, 4) : [];
+const featuredImage = imageEntries.map((entry) => entry.data).sort((a, b) => a.title.localeCompare(b.title))[0];
+const entityRecordCount = records.filter((record) => record.kind !== "Story").length;
+const formatDate = (value) => new Date(value + "T00:00:00Z").toLocaleDateString("en-NZ", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 ---
 
-<SiteLayout title={getPageTitle(featured)} description={featured?.summary || "An evolving, linked history of GIS in Aotearoa New Zealand."} pageClass="home-reader">
-  {featured ? <StoryReader article={featured} passages={storyPassages} themes={themeEntries.map((entry) => entry.data)} records={recordEntries.map((entry) => entry.data)} events={eventEntries.map((entry) => entry.data)} relationships={relationshipEntries.map((entry) => entry.data)} images={imageEntries.map((entry) => entry.data)} nextArticle={nextArticle} /> : <section class="empty-reader"><p class="eyebrow">Reader workspace</p><h1>Stories are being prepared</h1><p>When an article is published, it will appear here. More passages can be added as the story grows.</p></section>}
-
-  <section class="home-after-reader" aria-label="More to explore">
-    <div class="home-after-heading"><div><p class="eyebrow">Keep exploring</p><h2>Follow the threads</h2></div><p>Each person, organisation, project and image opens as its own page.</p></div>
-    <div class="explore-cards">
-      <a class="explore-card" href="/browse/"><span class="explore-card-icon" aria-hidden="true">⌘</span><span><strong>People &amp; organisations</strong><small>Open the connected records</small></span><span aria-hidden="true">↗</span></a>
-      <a class="explore-card" href="/timeline/"><span class="explore-card-icon" aria-hidden="true">◷</span><span><strong>Browse time</strong><small>See the published milestones</small></span><span aria-hidden="true">↗</span></a>
-      <a class="explore-card" href="/network/"><span class="explore-card-icon" aria-hidden="true">⌘</span><span><strong>Open the network</strong><small>Explore the wider set of links</small></span><span aria-hidden="true">↗</span></a>
+<SiteLayout title="A History of GIS in New Zealand" description="Explore how people, organisations, projects and technologies shaped geographic information systems in New Zealand." pageClass="home-landing-page">
+  <section class="landing-hero" aria-labelledby="home-title">
+    <div class="landing-intro">
+      <p class="eyebrow">Aotearoa New Zealand · GIS history</p>
+      <h1 id="home-title">How GIS took shape in New Zealand</h1>
+      <p class="landing-lead">Follow the people, organisations, projects and technologies behind geographic information systems, from survey records and early computer mapping to web services and spatial tools used across the country.</p>
+      <div class="landing-actions">
+        {firstStory && <a class="button" href={firstStory.url}>Start reading <span aria-hidden="true">→</span></a>}
+        <a class="button-secondary" href="/timeline/">Explore the timeline <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="landing-preface-link"><a href="/stories/preface/">Read the Preface</a><span aria-hidden="true">·</span> An introduction from Duane Wilkins</p>
+      <p class="landing-collection-size"><strong>{articles.length}</strong> narrative stories <span aria-hidden="true">·</span> <strong>{eventEntries.length}</strong> timeline events <span aria-hidden="true">·</span> <strong>{entityRecordCount}</strong> linked records</p>
     </div>
-    {articles.length > 1 && <div class="recent-stories"><h2>Continue the narrative</h2><p>Read the stories in sequence, or follow a person, organisation or theme. The collection can grow without a preset chapter limit.</p><ol>{articles.slice(1).map((article) => <li><a href={article.url}><span>{article.title}</span><small>{article.summary}</small></a></li>)}</ol></div>}
-    {image && <a class="image-feature" href={`/images/${image.slug}/`}>
-      <img src={image.assetPath} alt={image.altText} width="1800" height="520" loading="lazy" />
-      <span class="image-feature-overlay"><span class="eyebrow">From the image archive</span><strong>{image.title}</strong><small>{image.credit} · Image details and source ↗</small></span>
-    </a>}
+
+    {networkNodes.length > 0 && <aside class="landing-network-card" aria-labelledby="landing-network-title">
+      <div class="landing-network-heading">
+        <div><p class="eyebrow">A small view of the wider collection</p><h2 id="landing-network-title">Connections in the opening story</h2></div>
+        <a href="/network/" aria-label="Open the full network">↗</a>
+      </div>
+      <p class="landing-network-note">Select a record to open its page. The full animated graph is in Network.</p>
+      <div class="landing-network-canvas">
+        <svg viewBox="0 0 100 100" role="img" aria-label="A small network showing records connected to the opening story">
+          <title>Records connected to {firstStory?.title}</title>
+          {networkLinks.map(({ relationship, from, to }) => <g class="landing-network-edge" aria-label={relationship.label}>
+            <line x1={from[0]} y1={from[1]} x2={to[0]} y2={to[1]} />
+            <circle r="1.35" cx={(from[0] + to[0]) / 2} cy={(from[1] + to[1]) / 2} />
+          </g>)}
+        </svg>
+        {networkNodes.map(({ record, point }, index) => <a class:list={["landing-network-node", { "is-network-centre": index === 0 }]} style={`--x:${point[0]}%;--y:${point[1]}%`} href={record.url} title={`${record.name} · ${record.kind}`}>
+          <span class="landing-node-dot" aria-hidden="true"></span><span class="landing-node-label">{record.name}</span>
+        </a>)}
+      </div>
+      <a class="landing-network-link" href="/network/">Open the full network <span aria-hidden="true">→</span></a>
+    </aside>}
   </section>
+
+  <section class="landing-timeline-section" aria-labelledby="landing-timeline-title">
+    <div class="landing-section-heading">
+      <div><p class="eyebrow">A timeline through the collection</p><h2 id="landing-timeline-title">Explore across time</h2></div>
+      <a href="/timeline/">Open all {eventEntries.length} events <span aria-hidden="true">→</span></a>
+    </div>
+    <p class="landing-timeline-range">{timelineRange} <span>· dates retain the precision recorded with each event</span></p>
+    {milestones.length > 0 && <div class="landing-timeline-scroll" role="region" aria-label="Selected events across the timeline" tabindex="0">
+      <ol class="landing-timeline-stops">
+        {milestones.map((event) => <li>
+          <a href={eventHref(event)} aria-label={`${event.dateDisplay}: ${event.label}; ${precisionLabels[event.datePrecision] || "date precision not specified"}`}>
+            <span class="landing-timeline-dot" aria-hidden="true"></span>
+            <span class="landing-timeline-date">{event.dateDisplay}</span>
+            <strong>{event.label}</strong>
+            <small>{precisionLabels[event.datePrecision] || "date precision not specified"}</small>
+          </a>
+        </li>)}
+      </ol>
+    </div>}
+  </section>
+
+  <section class="landing-explore" aria-labelledby="landing-explore-title">
+    <div class="landing-section-heading"><div><p class="eyebrow">Choose a way in</p><h2 id="landing-explore-title">Follow a subject or a connection</h2></div></div>
+    <div class="landing-route-grid">
+      <a class="landing-route-card" href="/browse/"><span class="landing-route-icon" aria-hidden="true">◎</span><strong>People and organisations</strong><small>Open a page for a person, agency, business, project or technology.</small><span class="landing-route-arrow" aria-hidden="true">↗</span></a>
+      <a class="landing-route-card" href="/timeline/"><span class="landing-route-icon" aria-hidden="true">◷</span><strong>Events across time</strong><small>Filter by year, related record or date precision.</small><span class="landing-route-arrow" aria-hidden="true">↗</span></a>
+      <a class="landing-route-card" href="/network/"><span class="landing-route-icon" aria-hidden="true">⌘</span><strong>Full network</strong><small>Explore linked records in the animated graph when you choose.</small><span class="landing-route-arrow" aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  {themes.length > 0 && <section class="landing-themes" aria-labelledby="landing-themes-title">
+    <div class="landing-section-heading"><div><p class="eyebrow">Themes across the narrative</p><h2 id="landing-themes-title">Read along a thread</h2></div><p>Theme controls in the header filter passages and timeline moments as you read.</p></div>
+    <div class="landing-theme-grid">
+      {themes.map((theme) => <a class="landing-theme-card" href={theme.firstStop.url} style={`--theme-color:${theme.color || "#247f72"}`}>
+        <span class="landing-theme-mark" aria-hidden="true"></span><span><strong>{theme.title}</strong><small>{theme.passageCount} connected passages · Start at “{theme.firstStop.title}”</small></span><span aria-hidden="true">→</span>
+      </a>)}
+    </div>
+  </section>}
+
+  {recentUpdates.length > 0 && <section class="landing-updates" aria-labelledby="landing-updates-title">
+    <div class="landing-section-heading"><div><p class="eyebrow">Editorial updates</p><h2 id="landing-updates-title">Recently updated</h2></div><span class="landing-update-date">{formatDate(latestUpdate)}</span></div>
+    <ul>{recentUpdates.map((article) => <li><a href={article.url}><span><strong>{article.title}</strong><small>{article.summary}</small></span><span aria-hidden="true">↗</span></a></li>)}</ul>
+  </section>}
+
+  {featuredImage && <section class="landing-image-section" aria-label="Featured image">
+    <a class="image-feature" href={`/images/${featuredImage.slug}/`}>
+      <img src={featuredImage.assetPath} alt={featuredImage.altText} width="1800" height="520" loading="lazy" />
+      <span class="image-feature-overlay"><span class="eyebrow">From the image archive</span><strong>{featuredImage.title}</strong><small>{featuredImage.credit} · Image details and source ↗</small></span>
+    </a>
+  </section>}
 </SiteLayout>

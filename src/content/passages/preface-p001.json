@@ -4,7 +4,7 @@
   "articleId": "article:preface",
   "title": "Preface",
   "order": 0,
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
   "themeIds": [],
   "recordIds": [],
   "blocks": [
@@ -80,7 +80,7 @@
     },
     {
       "type": "paragraph",
-      "text": "If you have a correction, an image, a document or a recollection that would help fill those gaps, use Contribute or comment in the top toolbar. The form carries the page address with it, so your material can be linked to the relevant passage. An old conference programme, a photograph of a workplace or a recollection of how a system was introduced may provide the detail that a published site leaves out.",
+      "text": "If you have a correction, an image, a document or a recollection that would help fill those gaps, use the Suggest an update by email link at the bottom of this page. The email opens with the page title and address and includes prompts for the suggested change and its source or context. An old conference programme, a photograph of a workplace or a recollection of how a system was introduced may provide the detail that a published site leaves out.",
       "sources": []
     },
     {

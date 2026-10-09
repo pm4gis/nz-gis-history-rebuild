@@ -14,11 +14,13 @@ const [articleEntries, passageEntries, recordEntries, eventEntries, relationship
   getCollection("relationships"), getCollection("themes"), getCollection("images"),
 ]);
 const publishedArticles = articleEntries.map((entry) => entry.data).filter((item) => item.status === "published").sort((a, b) => (a.readingOrder ?? Number.MAX_SAFE_INTEGER) - (b.readingOrder ?? Number.MAX_SAFE_INTEGER) || a.title.localeCompare(b.title));
-const articleIndex = publishedArticles.findIndex((item) => item.id === articleId);
-const article = articleIndex >= 0 ? publishedArticles[articleIndex] : undefined;
+const narrativeArticles = publishedArticles.filter((item) => item.slug !== "preface");
+const article = publishedArticles.find((item) => item.id === articleId);
+const isPreface = article?.slug === "preface";
+const articleIndex = article && !isPreface ? narrativeArticles.findIndex((item) => item.id === article.id) : -1;
 const passages = passageEntries.map((entry) => entry.data).filter((passage) => passage.articleId === articleId).sort((a, b) => a.order - b.order);
-const previousArticle = articleIndex > 0 ? publishedArticles[articleIndex - 1] : undefined;
-const nextArticle = articleIndex >= 0 ? publishedArticles[articleIndex + 1] : undefined;
+const previousArticle = articleIndex > 0 ? narrativeArticles[articleIndex - 1] : undefined;
+const nextArticle = isPreface ? narrativeArticles[0] : articleIndex >= 0 ? narrativeArticles[articleIndex + 1] : undefined;
 ---
 
 {article ? <SiteLayout title={article.title + " — A History of GIS in New Zealand"} description={article.summary}>

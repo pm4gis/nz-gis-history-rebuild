@@ -6,7 +6,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
 const exists = async (relative) => access(path.join(dist, relative)).then(() => true, () => false);
 const required = [
-  "index.html", "timeline/index.html", "browse/index.html", "network/index.html", "about/index.html",
+  "index.html", "stories/preface/index.html", "timeline/index.html", "browse/index.html", "network/index.html", "about/index.html",
   "images/index.html", "search/index.html", "admin/index.html", "admin/config.yml", "admin/decap-cms.js",
   "pagefind/pagefind.js", "pagefind/pagefind-ui.js",
 ];
@@ -47,14 +47,20 @@ const walk = async (directory) => {
 const builtFiles = await walk(dist);
 if (builtFiles.some((file) => file.toLowerCase().endsWith(".pdf"))) throw new Error("Unexpected PDF output exists in the static site.");
 const home = await readFile(path.join(dist, "index.html"), "utf8");
-if (!home.includes("Preface") || !home.includes("Continue the narrative") || !home.includes("Suggest an update by email")) {
-  throw new Error("Home output is missing the opening narrative, story index or update-by-email link.");
+if (!home.includes("How GIS took shape in New Zealand") || !home.includes("Start reading") || !home.includes("Explore across time") || !home.includes("Suggest an update by email")) {
+  throw new Error("Home output is missing the reading entry point, timeline or update-by-email link.");
+}
+if (home.includes("Writing this book began as a way of using AI") || home.includes("Staging publication") || home.includes("No linked records in this story yet")) {
+  throw new Error("The home page still renders the preface or internal staging copy as its main content.");
+}
+const preface = await readFile(path.join(dist, "stories/preface/index.html"), "utf8");
+if (!preface.includes("Writing this book began as a way of using AI") || !preface.includes("use the Suggest an update by email link")) {
+  throw new Error("The separate preface page is missing or its update instructions are out of date.");
 }
 const aam = records.find((record) => record.id === "entity:aam-aamhatch");
 if (!aam) throw new Error("The AAM / AAMHatch record is missing from the imported collection.");
 const aamPage = await readFile(path.join(dist, aam.url.replace(/^\/+/, ""), "index.html"), "utf8");
 if (!aamPage.includes("AAM / AAMHatch") || !aamPage.includes("NorthSouth GIS NZ")) throw new Error("The AAM / NorthSouth GIS record content is missing from its public page.");
-if (!home.includes("without a preset chapter limit")) throw new Error("Home output does not communicate that the narrative can grow.");
 if (home.includes("Download PDF")) throw new Error("PDF functionality remains on the reader home.");
 const totalBytes = (await Promise.all(builtFiles.map((file) => stat(file)))).reduce((sum, item) => sum + item.size, 0);
 console.log(`Static output verification passed: ${required.length} core paths, ${articles.filter((item) => item.status === "published").length} stories, ${records.filter((item) => item.kind !== "Story").length} entity records, ${records.filter((item) => item.kind === "Story").length} story records, ${images.length} image detail pages, ${builtFiles.length} files (${totalBytes} bytes), no PDF output.`);

@@ -43,7 +43,8 @@ test("all imported links, routes, source references and local image copies valid
   const serialized = JSON.stringify(data);
   assert.doesNotMatch(serialized, /researchRegister|editorialNotes|drive\.google|contributorEmail|assets\/contributions|research register source/i);
   const redirects = await readFile(path.join(root, "public/_redirects"), "utf8");
-  assert.equal(redirects.trim().split("\n").length, 44, "all previous story URLs redirect to their new story route");
+  assert.equal(redirects.trim().split("\n").length, 45, "previous story URLs and the preface route redirect to their new locations");
+  assert.match(redirects, /^\/preface\/ \/stories\/preface\/ 301$/m);
 });
 
 test("the story model accepts more passages without a fixed chapter count", { timeout: 60_000 }, async () => {

@@ -41,7 +41,7 @@ const {
 } = Astro.props;
 const activePath = Astro.url.pathname;
 const navigation = [
-  { label: "Read", href: "/" },
+  { label: "Home", href: "/" },
   { label: "Timeline", href: "/timeline/" },
   { label: "Browse", href: "/browse/" },
   { label: "Network", href: "/network/" },
@@ -69,8 +69,7 @@ const eventHref = (event) => {
     <title>{title}</title>
   </head>
   <body class={pageClass}>
-    <a class="skip-link" href="#main">Skip to story</a>
-    <div class="preview-ribbon"><span class="live-dot" aria-hidden="true"></span> Staging publication <span class="preview-divider">·</span> Published baseline <span class="preview-divider">·</span> Canonical edition separate</div>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header class="site-header">
       <a class="wordmark" href="/" aria-label="A History of GIS in New Zealand, home">
         <span class="wordmark-mark" aria-hidden="true"><span>NZ</span><i>GIS</i></span>
@@ -104,10 +103,10 @@ const eventHref = (event) => {
       <slot />
     </main>
     <footer class="site-footer">
-      <div class="footer-brand"><strong>A History of GIS in New Zealand</strong><span>Stories that keep growing as new material is added.</span></div>
-      <nav class="footer-links" aria-label="Footer navigation"><a href="/images/">Images</a><a href="/about/">About</a><a href="/network/">Network</a></nav>
+      <div class="footer-brand"><strong>A History of GIS in New Zealand</strong><span>Narrative, records, images and dates from New Zealand’s GIS history.</span></div>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="/stories/preface/">Preface</a><a href="/images/">Images</a><a href="/about/">About</a><a href="/network/">Network</a></nav>
       <a class="suggest-link" href={`mailto:pm4gis@gmail.com?subject=${mailSubject}&body=${mailBody}`}>Suggest an update by email <span aria-hidden="true">↗</span></a>
-      <p class="footer-note">No submission form. Your email opens with the page details and prompts ready to fill in.</p>
+      <p class="footer-note">The email opens with this page’s title and address, with prompts for your suggested change and its source or context.</p>
     </footer>
 
     {timelineEvents.length > 0 && <aside class="timeline-dock" aria-label="Story timeline">
