@@ -15,6 +15,7 @@ const essential = [
   "graph-person", "graph-business", "graph-organisation", "graph-project",
   "graph-technology", "graph-story", "graph-event", "graph-theme", "graph-index",
   "graph-edge", "graph-muted", "graph-selection", "graph-highlight", "graph-edge-dim",
+  "hero-text", "hero-secondary", "image-text",
 ];
 
 const palette = (name) => {
@@ -47,6 +48,9 @@ for (const name of names) {
       ["green-dark", "paper"], ["green-dark", "surface"],
       ["link-hover", "paper"], ["link-hover", "surface"],
       ["on-accent", "green-dark"], ["on-ink", "ink"],
+      ["gold", "paper"], ["gold", "surface"], ["rose", "surface"], ["green", "paper"],
+      ["logo-mark", "logo-a"], ["logo-mark", "logo-b"],
+      ["hero-text", "hero-a"], ["hero-secondary", "hero-b"], ["hero-accent", "hero-b"],
     ];
     for (const [foreground, background] of pairs) {
       assert.ok(ratio(t[foreground], t[background]) >= 4.5,
