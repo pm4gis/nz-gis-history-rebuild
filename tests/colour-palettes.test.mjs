@@ -98,6 +98,7 @@ test("search, controls, source cards and graph fallback have semantic foreground
     /#pagefind\s*\{[^}]*--pagefind-ui-text: var\(--ink\)/s,
     /\.palette-toggle\s*\{[^}]*color: var\(--ink\)/s,
     /input::placeholder[^}]*color: var\(--muted\)/s,
+    /\.network-range-row input, \.timeline-range-filter input, \.browse-tools > input, \.node-search-label input, \.timeline-record-filter > input\s*\{[^}]*border: 1px solid var\(--field-border\)/s,
   ]) assert.match(css, expression);
 });
 

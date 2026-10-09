@@ -947,7 +947,7 @@ main { min-height: 62vh; padding-bottom: 115px; }
 .network-range-row, .timeline-range-filter { display: flex; flex-wrap: wrap; gap: .65rem; align-items: end; margin-top: .9rem; }
 .network-range-row .field, .timeline-range-filter .field { min-width: 100px; }
 .network-range-row input, .timeline-range-filter input, .browse-tools > input, .node-search-label input, .timeline-record-filter > input {
-  width: 100%; min-height: 40px; padding: .52rem .68rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink);
+  width: 100%; min-height: 40px; padding: .52rem .68rem; border: 1px solid var(--field-border); border-radius: 10px; background: var(--surface); color: var(--ink);
 }
 .network-range-row .checkbox-field { min-height: 40px; }
 .network-range-row #filter-reset, .timeline-range-filter #timeline-reset { min-height: 40px; }
