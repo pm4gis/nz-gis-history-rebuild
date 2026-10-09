@@ -797,6 +797,7 @@ main { min-height: 62vh; padding-bottom: 115px; }
 .network-range-row .checkbox-field { min-height: 40px; }
 .network-range-row #filter-reset, .timeline-range-filter #timeline-reset { min-height: 40px; }
 .network-workspace { grid-template-columns: minmax(0, 1fr) minmax(290px, 330px); gap: 1rem; min-height: min(70vh, 780px); }
+.network-context-note { margin: -.6rem 0 .55rem; color: var(--muted); font-size: .68rem; }
 .graph-frame { min-height: clamp(470px, 58vw, 720px); border-radius: 18px; background: radial-gradient(ellipse at 48% 46%, color-mix(in srgb, var(--green) 10%, var(--surface)), var(--surface) 74%); }
 #graph { touch-action: none; }
 #graph canvas { display: block; }

@@ -105,7 +105,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     <h1 class="page-title">See the connections</h1>
     <p class="page-intro">People, organisations, stories, events and themes share one network. Select a type or connection button, then choose any item to see its related passages, dates and records.</p>
     <div class="network-filter-panel" aria-label="Network filters">
-      <div class="network-filter-block"><span class="filter-label">Show types</span><div class="choice-row" role="group" aria-label="Select network item types">
+      <div class="network-filter-block"><span class="filter-label">Focus on types</span><div class="choice-row" role="group" aria-label="Focus network on selected item types and their connections">
         <button class="choice-chip is-active" type="button" data-kind-all aria-pressed="true">All types</button>
         {visibleKindGroups.map((group) => <button class="choice-chip" type="button" data-kind-filter={group.id} aria-pressed="false">{group.label}</button>)}
       </div></div>
@@ -121,6 +121,7 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
         <span class="small muted" id="network-count" aria-live="polite">{nodes.length} items · {edges.length} links</span>
       </div>
     </div>
+    <p class="network-context-note">A type selection keeps each item’s directly connected stories, events, people and organisations in view.</p>
     <div class="network-workspace">
       <div class="graph-frame">
         <div id="graph" role="img" aria-describedby="graph-help" aria-label="Interactive network of stories, records, events and themes"></div>
@@ -223,14 +224,22 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
     };
     const visibleSet = () => {
       const from = Number(fromInput.value || data.minYear); const to = Number(toInput.value || data.maxYear);
-      const nodes = data.nodes.filter((node) => (!selectedKinds.size || selectedKinds.has(node.group)) && activeTheme(node) &&
+      const candidates = data.nodes.filter((node) => activeTheme(node) &&
         (node.kind !== "Event" || !rangeActive() || (Number.isFinite(node.year) ? node.year >= from && node.year <= to : undatedFilter.checked)));
-      const ids = new Set(nodes.map((node) => node.id));
-      const edges = data.edges.filter((edge) => ids.has(edge.a) && ids.has(edge.b) && (!selectedLinks.size || selectedLinks.has(edge.label)) &&
+      const candidateIds = new Set(candidates.map((node) => node.id));
+      const edges = data.edges.filter((edge) => candidateIds.has(edge.a) && candidateIds.has(edge.b) && (!selectedLinks.size || selectedLinks.has(edge.label)) &&
         (!currentThemeIds.length || !edge.themeIds?.length || edge.themeIds.some((id) => currentThemeIds.includes(id))) &&
         (!rangeActive() || (edge.years?.length ? edge.years.some((year) => year >= from && year <= to) : undatedFilter.checked)));
-      const connected = new Set(edges.flatMap((edge) => [edge.a, edge.b]));
-      return { nodes: nodes.filter((node) => !rangeActive() || node.kind !== "Event" || connected.has(node.id)), edges };
+      if (!selectedKinds.size) {
+        const connected = new Set(edges.flatMap((edge) => [edge.a, edge.b]));
+        return { nodes: candidates.filter((node) => !rangeActive() || node.kind !== "Event" || connected.has(node.id)), edges };
+      }
+      const focusedIds = new Set(candidates.filter((node) => selectedKinds.has(node.group)).map((node) => node.id));
+      const contextEdges = edges.filter((edge) => focusedIds.has(edge.a) || focusedIds.has(edge.b));
+      const visibleIds = new Set(focusedIds);
+      contextEdges.forEach((edge) => { visibleIds.add(edge.a); visibleIds.add(edge.b); });
+      const connected = new Set(contextEdges.flatMap((edge) => [edge.a, edge.b]));
+      return { nodes: candidates.filter((node) => visibleIds.has(node.id) && (!rangeActive() || node.kind !== "Event" || connected.has(node.id))), edges: contextEdges };
     };
     const address = () => {
       const query = new URLSearchParams();
@@ -246,7 +255,8 @@ const relationLabels = [...new Set(edges.map((edge) => edge.label))].sort();
       const query = nodeSearch.value.trim().toLocaleLowerCase();
       const visible = visibleSet().nodes;
       const matches = visible.filter((node) => !query || `${node.label} ${node.kind}`.toLocaleLowerCase().includes(query));
-      if (!query) matches.sort((a, b) => (edgesByNode.get(b.id)?.length || 0) - (edgesByNode.get(a.id)?.length || 0));
+      if (selectedKinds.size) matches.sort((a, b) => Number(selectedKinds.has(b.group)) - Number(selectedKinds.has(a.group)) || (query ? a.label.localeCompare(b.label) : (edgesByNode.get(b.id)?.length || 0) - (edgesByNode.get(a.id)?.length || 0)));
+      else if (!query) matches.sort((a, b) => (edgesByNode.get(b.id)?.length || 0) - (edgesByNode.get(a.id)?.length || 0));
       else matches.sort((a, b) => a.label.localeCompare(b.label));
       nodeSearchCount.textContent = query ? `${matches.length} matches` : "Connected starting points · type to search all visible items";
       nodeResults.replaceChildren();

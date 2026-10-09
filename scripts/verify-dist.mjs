@@ -88,5 +88,15 @@ const pending = ["index:collection"];
 while (pending.length) for (const id of adjacency.get(pending.pop()) || []) if (!connected.has(id)) { connected.add(id); pending.push(id); }
 const unconnectedCore = graphData.nodes.filter((node) => ["people", "organisations", "themes"].includes(node.group) && !connected.has(node.id));
 if (unconnectedCore.length) throw new Error(`Network graph leaves ${unconnectedCore.length} people, organisations or themes disconnected from its index.`);
+for (const [group, contextGroups] of [["people", ["stories", "organisations"]], ["organisations", ["stories", "people"]], ["themes", ["stories", "people"]]]) {
+  const focused = new Set(graphData.nodes.filter((node) => node.group === group).map((node) => node.id));
+  const contextEdges = graphData.edges.filter((edge) => focused.has(edge.a) || focused.has(edge.b));
+  const contextIds = new Set(focused);
+  for (const edge of contextEdges) { contextIds.add(edge.a); contextIds.add(edge.b); }
+  const context = graphData.nodes.filter((node) => contextIds.has(node.id));
+  if (!contextGroups.every((contextGroup) => context.some((node) => node.group === contextGroup))) {
+    throw new Error(`Focusing the network on ${group} no longer retains its connected stories and records.`);
+  }
+}
 const totalBytes = (await Promise.all(builtFiles.map((file) => stat(file)))).reduce((sum, item) => sum + item.size, 0);
 console.log(`Static output verification passed: ${required.length} core paths, ${articles.filter((item) => item.status === "published").length} stories, ${records.filter((item) => item.kind !== "Story").length} entity records, ${themes.length} theme pages, ${images.length} image detail pages, ${builtFiles.length} files (${totalBytes} bytes), no PDF output.`);
