@@ -21,7 +21,7 @@ const passageCount = passageEntries.length;
     <h1>A History of GIS in New Zealand</h1>
     <p class="book-intro-lead">Read the history as a continuous book. Follow the people, organisations, councils, businesses, public agencies, systems and projects through the passages, then open the linked records and sources as you go.</p>
     <div class="book-intro-actions">
-      {firstPassage && <a class="button" href={`#${articles[0]?.slug || firstPassage.slug}`}>Start reading <span aria-hidden="true">↓</span></a>}
+      {firstPassage && <a class="button" href={`#book-section-${articles[0]?.slug || firstPassage.slug}`}>Start reading <span aria-hidden="true">↓</span></a>}
       <a class="button-secondary" href="/browse/">Browse people and organisations</a>
       <a class="button-secondary" href="/timeline/">Open chronology</a>
     </div>
