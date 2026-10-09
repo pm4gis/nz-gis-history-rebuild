@@ -2,37 +2,7 @@
 import "../styles/site.css";
 import { getCollection } from "astro:content";
 
-const [themes, records, eventEntries, passageEntries, articleEntries] = await Promise.all([
-  getCollection("themes"), getCollection("records"), getCollection("events"), getCollection("passages"), getCollection("articles"),
-]);
-const timelineEvents = eventEntries.map((entry) => entry.data)
-  .filter((event) => event.passageIds?.length)
-  .sort((a, b) => timelineYear(a) - timelineYear(b));
-const dockEvents = timelineEvents.length <= 8 ? timelineEvents : Array.from({ length: 8 }, (_, index) => timelineEvents[Math.round(index * (timelineEvents.length - 1) / 7)]);
-function timelineYear(event) {
-  if (Number.isFinite(event.year)) return event.year;
-  const parsed = /^(\d{4})/.exec(String(event.startDate || ""));
-  return parsed ? Number(parsed[1]) : Number.POSITIVE_INFINITY;
-}
-const recordById = new Map(records.map((entry) => [entry.data.id, entry.data]));
-const passageById = new Map(passageEntries.map((entry) => [entry.data.id, entry.data]));
-const articleById = new Map(articleEntries.map((entry) => [entry.data.id, entry.data]));
-const yearValues = timelineEvents.map(timelineYear).filter(Number.isFinite);
-const firstYear = yearValues.length ? Math.min(...yearValues) : 0;
-const lastYear = yearValues.length ? Math.max(...yearValues) : 0;
-const position = (year) => !Number.isFinite(year) || firstYear === lastYear ? 50 : 7 + ((year - firstYear) / (lastYear - firstYear)) * 86;
-const timelineRange = yearValues.length ? `${firstYear} → ${lastYear}` : "Dates not yet known";
-const laneKinds = [
-  { label: "People", kinds: ["Person"] },
-  { label: "Organisations", kinds: ["Organisation", "Agency", "Council", "Business", "Company"] },
-  { label: "Projects", kinds: ["Project"] },
-  { label: "Technologies", kinds: ["Technology", "System"] },
-];
-const timelineLanes = laneKinds.map((lane) => ({
-  ...lane,
-  stops: dockEvents.flatMap((event) => (event.passageIds || []).flatMap((passageId) => (passageById.get(passageId)?.recordIds || []).map((id) => ({ event, record: recordById.get(id) }))))
-    .filter(({ record }) => record && lane.kinds.includes(record.kind)),
-})).filter((lane) => lane.stops.length);
+const themes = (await getCollection("themes")).map((entry) => entry.data);
 const {
   title = "A History of GIS in New Zealand",
   description = "Stories, people, organisations and events in New Zealand’s GIS history.",
@@ -40,20 +10,16 @@ const {
   pageClass = "",
 } = Astro.props;
 const activePath = Astro.url.pathname;
+const activePath = Astro.url.pathname;
 const navigation = [
-  { label: "Home", href: "/" },
-  { label: "Timeline", href: "/timeline/" },
+  { label: "Read", href: "/" },
+  { label: "Chronology", href: "/timeline/" },
   { label: "Browse", href: "/browse/" },
   { label: "Network", href: "/network/" },
 ];
 const mailSubject = encodeURIComponent(`NZ GIS History suggestion: ${title}`);
 const mailBody = encodeURIComponent(`Page or story: ${title}\nURL: ${Astro.url.href}\n\nWhat should be added or changed?\n\nWhat source or memory can help us check it?\n\nWhich people, organisations, projects, themes or dates should connect to it?\n\nYour name (optional):\n`);
-const eventHref = (event) => {
-  if (event.url) return event.url;
-  const passage = (event.passageIds || []).map((id) => passageById.get(id)).find(Boolean);
-  const article = passage && articleById.get(passage.articleId);
-  return passage && article ? `${article.url}#${passage.slug}` : "/timeline/";
-};
+---
 ---
 <!doctype html>
 <html lang="en-NZ" data-palette="dark-night">
@@ -127,51 +93,6 @@ const eventHref = (event) => {
       <p class="footer-note">The email opens with this page’s title and address, with prompts for your suggested change and its source or context.</p>
     </footer>
 
-    {timelineEvents.length > 0 && <aside class="timeline-dock" aria-label="Story timeline">
-      <div class="timeline-dock-bar">
-        <button class="timeline-toggle" type="button" data-timeline-toggle aria-expanded="false" aria-controls="timeline-expansion">
-          <span class="timeline-orbit" aria-hidden="true"><i></i><i></i><i></i></span>
-          <span><strong>Timeline</strong><small>{timelineRange}</small></span>
-          <span class="timeline-chevron" aria-hidden="true">⌃</span>
-        </button>
-        <div class="timeline-track" role="group" aria-label="Select a timeline event">
-          <span class="timeline-track-line" aria-hidden="true"></span>
-          {dockEvents.map((event) => <button
-            class="timeline-stop"
-            type="button"
-            style={`--stop-x:${position(timelineYear(event))}%`}
-            data-event-select
-            data-event-id={event.id}
-            data-event-url={eventHref(event)}
-            data-passage-ids={(event.passageIds || []).join(" ")}
-            data-theme-ids={(event.themeIds || []).join(" ")}
-            aria-label={`${event.dateDisplay}, ${event.label} (${event.datePrecision} date precision)`}
-            title={`${event.dateDisplay} · ${event.label} · ${event.datePrecision} precision`}
-          ><span class="timeline-stop-dot" aria-hidden="true"></span><span class="timeline-stop-label">{event.dateDisplay}</span></button>)}
-        </div>
-        <button class="timeline-play" type="button" data-timeline-play aria-label="Play through timeline" title="Play timeline">▶</button>
-      </div>
-      <div class="timeline-expansion" id="timeline-expansion" hidden>
-        <div class="timeline-expansion-head"><div><p class="eyebrow">Read across time</p><h2>Parallel lanes</h2></div><p>Choose an event to jump to its passage. <a href="/timeline/">Explore all {timelineEvents.length} events →</a></p></div>
-        <div class="timeline-lanes">
-          {timelineLanes.map((lane) => <div class="timeline-lane" data-lane-label={lane.label}>
-            <h3>{lane.label}</h3><div class="timeline-lane-track"><span class="timeline-track-line" aria-hidden="true"></span>
-          {lane.stops.map(({ event, record }) => <button class="lane-stop" type="button" style={`--stop-x:${position(timelineYear(event))}%`} data-event-select data-event-id={event.id} data-event-url={eventHref(event)} data-passage-ids={(event.passageIds || []).join(" ")} data-theme-ids={(event.themeIds || []).join(" ")} title={`${event.dateDisplay}: ${record.name} · ${event.datePrecision} precision`}>
-                <span class="lane-stop-dot" aria-hidden="true"></span><span class="lane-stop-label">{record.name}</span>
-              </button>)}
-            </div>
-          </div>)}
-          <div class="timeline-lane event-lane"><h3>Events</h3><div class="timeline-lane-track"><span class="timeline-track-line" aria-hidden="true"></span>
-            {dockEvents.map((event) => <button class="lane-stop" type="button" style={`--stop-x:${position(timelineYear(event))}%`} data-event-select data-event-id={event.id} data-event-url={eventHref(event)} data-passage-ids={(event.passageIds || []).join(" ")} data-theme-ids={(event.themeIds || []).join(" ")} title={`${event.dateDisplay}: ${event.label} · ${event.datePrecision} precision`}>
-              <span class="lane-stop-dot" aria-hidden="true"></span><span class="lane-stop-label">{event.label}</span>
-            </button>)}
-          </div></div>
-        </div>
-        <p class="timeline-date-note">Dates retain their published precision. A year label means the source gives a year, not a specific day.</p>
-      </div>
-      <p class="timeline-live" aria-live="polite" data-timeline-live></p>
-    </aside>}
-
     <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
     <script>
       // @ts-nocheck
@@ -190,21 +111,7 @@ const eventHref = (event) => {
       ];
       const paletteBackgrounds = { "dark-night": "#0d1522", "dark-forest": "#0b1a16", "light-paper": "#f7f4ec", "light-mist": "#edf3f9" };
       let savedProgress = readStored(progressKey, null);
-      if (savedProgress?.url === "/") {
-        // The old root page held the Preface and the earlier AAM sample. Preserve those readers' saved place after the homepage change.
-        const legacyTitle = String(savedProgress.title || "");
-        const legacyPassage = String(savedProgress.passage || "");
-        if (legacyPassage === "preface" || /preface/i.test(legacyTitle)) {
-          savedProgress = { ...savedProgress, url: "/stories/preface/", title: "Preface — A History of GIS in New Zealand" };
-          localStorage.setItem(progressKey, JSON.stringify(savedProgress));
-        } else if (/aamhatch|northsouth|wellington/i.test(`${legacyTitle} ${legacyPassage}`)) {
-          savedProgress = { ...savedProgress, url: "/stories/from-flat-maps-to-3d/", passage: "buildings-meet-geography-2289da86de", title: "Mapping in 3D — A History of GIS in New Zealand" };
-          localStorage.setItem(progressKey, JSON.stringify(savedProgress));
-        } else {
-          savedProgress = null;
-        }
-      }
-      const resumeLink = document.querySelector("[data-resume-link]");
+            const resumeLink = document.querySelector("[data-resume-link]");
       if (savedProgress?.url && savedProgress?.passage && resumeLink) {
         const targetHash = "#" + encodeURIComponent(savedProgress.passage);
         if (savedProgress.url !== location.pathname || location.hash !== targetHash) {
@@ -272,58 +179,6 @@ const eventHref = (event) => {
       window.addEventListener("scroll", updateProgress, { passive: true });
       window.addEventListener("resize", updateProgress);
       updateProgress();
-
-      const timelineExpansion = document.getElementById("timeline-expansion");
-      const timelineToggle = document.querySelector("[data-timeline-toggle]");
-      timelineToggle?.addEventListener("click", () => {
-        const open = timelineToggle.getAttribute("aria-expanded") !== "true";
-        timelineToggle.setAttribute("aria-expanded", String(open));
-        timelineExpansion.hidden = !open;
-      });
-      const selectTimelineEvent = (button) => {
-        const ids = (button.dataset.passageIds || "").split(/\s+/).filter(Boolean);
-        const passage = ids.map((id) => document.querySelector(`[data-passage-id="${CSS.escape(id)}"]`)).find(Boolean);
-        if (passage) {
-          document.querySelectorAll("[data-event-select]").forEach((stop) => stop.classList.toggle("is-current", stop.dataset.eventId === button.dataset.eventId));
-          passage.classList.add("is-timeline-selected");
-          if (!reduceMotion.matches) passage.scrollIntoView({ behavior: "smooth", block: "center" });
-          else passage.scrollIntoView({ block: "center" });
-          passage.focus({ preventScroll: true });
-          const label = button.getAttribute("aria-label") || button.title;
-          const live = document.querySelector("[data-timeline-live]");
-          if (live) live.textContent = "Selected " + label;
-          history.replaceState({}, "", location.pathname + location.search + "#" + passage.id);
-          window.setTimeout(() => passage.classList.remove("is-timeline-selected"), reduceMotion.matches ? 1 : 1600);
-        } else if (button.dataset.eventUrl) {
-          location.href = button.dataset.eventUrl;
-        }
-      };
-      document.querySelectorAll("[data-event-select]").forEach((button) => button.addEventListener("click", () => selectTimelineEvent(button)));
-      const playButton = document.querySelector("[data-timeline-play]");
-      let playTimer;
-      playButton?.addEventListener("click", () => {
-        if (playTimer) {
-          clearInterval(playTimer); playTimer = undefined;
-          playButton.textContent = "▶"; playButton.setAttribute("aria-label", "Play through timeline"); return;
-        }
-        const stops = [...document.querySelectorAll(".timeline-dock-bar [data-event-select]")].filter((stop) => !stop.hidden);
-        if (!stops.length) return;
-        let index = -1;
-        playButton.textContent = "Ⅱ"; playButton.setAttribute("aria-label", "Pause timeline playback");
-        const advance = () => { index = (index + 1) % stops.length; selectTimelineEvent(stops[index]); };
-        advance();
-        playTimer = window.setInterval(advance, reduceMotion.matches ? 3500 : 2300);
-      });
-
-      document.addEventListener("keydown", (event) => {
-        if (!(event.target instanceof HTMLElement) || !event.target.matches(".timeline-stop, .lane-stop")) return;
-        if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return;
-        const stops = [...event.target.closest(".timeline-track, .timeline-lane-track").querySelectorAll("button:not([hidden])")];
-        const current = stops.indexOf(event.target);
-        const step = event.key === "ArrowRight" ? 1 : -1;
-        const next = stops[(current + step + stops.length) % stops.length];
-        if (next) { event.preventDefault(); next.focus(); }
-      });
     </script>
   </body>
 </html>

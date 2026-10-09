@@ -1126,3 +1126,94 @@ input[type="checkbox"], input[type="radio"], input[type="range"] { accent-color:
 .network-svg-edge .edge-hit { stroke: transparent; stroke-width: 14px; }
 .network-svg-edge.is-selected line:first-child { stroke: var(--graph-selection); }
 .network-svg-node text { fill: var(--ink); stroke: var(--surface); }
+
+
+/* Book-first reading layout. */
+.book-home-page main { padding-bottom: 2rem; }
+.book-intro { max-width: 1160px; margin: 0 auto; padding: clamp(2.4rem, 6vw, 5rem) clamp(1.1rem, 5vw, 4.5rem) 2rem; }
+.book-intro h1 { max-width: 18ch; margin: 0; font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.02; letter-spacing: -.055em; }
+.book-intro-lead { max-width: 72ch; margin: 1.1rem 0 1.4rem; color: var(--muted); font-size: clamp(1rem, 1.45vw, 1.2rem); line-height: 1.7; }
+.book-intro-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.book-intro-note { margin: .8rem 0 0; color: var(--muted); font-size: .72rem; }
+.book-navigation { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .55rem; max-width: 1060px; margin: 0 auto 2.5rem; padding: 0 1.2rem; }
+.book-navigation a { display: flex; justify-content: space-between; gap: .6rem; align-items: center; min-height: 56px; padding: .75rem .9rem; border: 1px solid var(--line); border-radius: 12px; background: var(--glass); color: var(--ink); font-size: .74rem; font-weight: 700; line-height: 1.45; text-decoration: none; }
+.book-navigation a:hover { border-color: var(--green); color: var(--green-dark); }
+.book-contents { position: relative; z-index: 1; max-width: 76ch; margin: 0 auto 2rem; padding: 0 1.2rem; }
+.book-contents details { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.book-contents summary { display: flex; justify-content: space-between; gap: .7rem; padding: .85rem 1rem; color: var(--ink); cursor: pointer; font-size: .86rem; font-weight: 750; }
+.book-contents summary span { color: var(--muted); font-size: .72rem; font-weight: 550; }
+.book-contents ol { columns: 2; column-gap: 2rem; margin: 0; padding: .2rem 1.4rem 1rem 2.5rem; }
+.book-contents li { break-inside: avoid; padding: .24rem 0; color: var(--muted); font-size: .77rem; }
+.book-contents a { color: var(--ink); text-decoration-color: var(--line); text-underline-offset: .16em; }
+.book-contents a:hover { color: var(--green-dark); text-decoration-color: currentColor; }
+.book-text { width: 100%; }
+.book-section { max-width: 1060px; margin: 0 auto; padding: clamp(2.4rem, 5vw, 4rem) clamp(1.2rem, 5vw, 3rem) 2rem; border-top: 1px solid var(--line); scroll-margin-top: 1.5rem; }
+.book-section-heading { max-width: 74ch; margin: 0 auto 2.8rem; }
+.book-section-heading .eyebrow { margin-bottom: .55rem; }
+.book-section-heading h2 { margin: 0; font-size: clamp(2rem, 4vw, 3.25rem); line-height: 1.08; letter-spacing: -.045em; }
+.book-section-heading > p:not(.eyebrow) { margin: .85rem 0 0; color: var(--muted); font-size: 1.02rem; line-height: 1.7; }
+.book-cover { margin: 1.6rem 0 0; }
+.book-cover img, .book-figure img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.book-cover figcaption, .book-figure figcaption { padding-top: .45rem; color: var(--muted); font-size: .7rem; line-height: 1.5; }
+.book-cover figcaption a, .book-figure figcaption a { margin-left: .35rem; }
+.book-passage { max-width: 74ch; margin: 2.8rem auto 0; padding-top: .25rem; scroll-margin-top: 1.4rem; }
+.book-passage-heading h3 { margin: .3rem 0 .95rem; font-size: clamp(1.28rem, 2.2vw, 1.7rem); line-height: 1.25; letter-spacing: -.025em; }
+.book-dates { display: flex; flex-wrap: wrap; gap: .35rem; margin: 0; padding: 0; list-style: none; }
+.book-dates a { display: inline-flex; flex-wrap: wrap; gap: .35rem; align-items: baseline; padding: .28rem .52rem; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .65rem; line-height: 1.4; text-decoration: none; }
+.book-dates a:hover { border-color: var(--green); color: var(--green-dark); }
+.book-dates time { color: var(--green-dark); font-weight: 800; }
+.book-passage-copy { color: var(--ink); font-size: clamp(1rem, 1.08vw, 1.08rem); line-height: 1.82; }
+.book-passage-copy p { margin: 0 0 1.15rem; }
+.book-figure { margin: 1.5rem 0; }
+.book-passage-links { margin-top: 1.1rem; padding-top: .7rem; border-top: 1px solid var(--line); }
+.book-record-links { display: flex; flex-wrap: wrap; gap: .35rem; margin: 0 0 .4rem; padding: 0; list-style: none; }
+.book-record-links li { display: inline-flex; gap: .38rem; align-items: baseline; padding: .27rem .5rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); font-size: .68rem; }
+.book-record-links a { color: var(--ink); font-weight: 700; text-decoration: none; }
+.book-record-links a:hover { color: var(--green-dark); text-decoration: underline; }
+.book-record-links span { color: var(--muted); font-size: .6rem; }
+.book-sources, .book-source-notes { margin-top: .65rem; color: var(--muted); font-size: .72rem; }
+.book-sources summary, .book-source-notes summary { cursor: pointer; color: var(--ink); font-weight: 720; }
+.book-sources ol, .book-source-notes ol { display: grid; gap: .35rem; margin: .5rem 0 0; padding-left: 1.3rem; line-height: 1.5; }
+.book-source-notes { max-width: 74ch; margin: 1.6rem auto 0; padding: 1rem; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.book-return { max-width: 74ch; margin: 2rem auto 0; font-size: .73rem; }
+.book-return a { color: var(--green-dark); font-weight: 700; }
+
+/* Keep relationships readable and directly linked without in-story network diagrams. */
+.relationship-list, .connected-record-list { display: grid; gap: .5rem; margin: .7rem 0; padding: 0; list-style: none; }
+.relationship-list li, .connected-record-list li { padding: .62rem .7rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); font-size: .74rem; line-height: 1.5; }
+.relationship-list p { margin: 0; }
+.relationship-list small { display: block; margin-top: .25rem; color: var(--muted); font-size: .66rem; }
+.connected-record-list li { display: flex; justify-content: space-between; gap: .7rem; align-items: baseline; }
+.connected-record-list a { color: var(--ink); font-weight: 700; text-decoration: none; }
+.connected-record-list a:hover { color: var(--green-dark); text-decoration: underline; }
+.connected-record-list span { color: var(--muted); font-size: .65rem; }
+
+/* Desktop chronology is horizontal; small screens use the same source order vertically. */
+.timeline-page { max-width: 100%; }
+.timeline-decade-nav { display: flex; flex-wrap: wrap; gap: .35rem; align-items: center; margin: 1rem 0 .6rem; }
+.timeline-decade-nav > span { margin-right: .25rem; color: var(--muted); font-size: .72rem; font-weight: 700; }
+.timeline-scroll-tools { display: flex; justify-content: space-between; gap: .6rem; max-width: 100%; margin: .6rem 0; }
+.timeline-scroll-tools button { min-height: 40px; }
+.timeline-track-region { overflow-x: auto; overflow-y: hidden; padding: .35rem .25rem 1rem; border-radius: 14px; scrollbar-color: var(--green) var(--line); overscroll-behavior-inline: contain; }
+.timeline-track-region:focus-visible { outline: 3px solid var(--green-dark); outline-offset: 2px; }
+.timeline-list { display: flex; flex-flow: row nowrap; gap: .9rem; width: max-content; min-width: 100%; margin: 0; padding: .2rem .2rem .6rem; border: 0; list-style: none; }
+.timeline-item { position: relative; flex: 0 0 clamp(300px, 31vw, 410px); min-height: 345px; margin: 0; padding: 1.15rem; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.timeline-item::before { display: none; }
+.timeline-item h2 { font-size: 1.08rem; line-height: 1.3; }
+.timeline-item p { color: var(--muted); }
+.timeline-date { color: var(--green-dark); }
+.event-records { display: flex; flex-wrap: wrap; gap: .3rem; }
+.timeline-precision-note { max-width: 74ch; line-height: 1.6; }
+
+@media (max-width: 760px) {
+  .book-navigation { grid-template-columns: 1fr; }
+  .book-contents ol { columns: 1; }
+  .book-section { padding-inline: 1.1rem; }
+  .book-passage { margin-top: 2.2rem; }
+  .timeline-decade-nav { flex-wrap: nowrap; overflow-x: auto; padding: .2rem 0 .35rem; }
+  .timeline-scroll-tools { display: none; }
+  .timeline-track-region { overflow: visible; padding: 0; }
+  .timeline-list { display: block; width: 100%; min-width: 0; padding: .2rem 0 .2rem 1.15rem; border-left: 2px solid var(--line); }
+  .timeline-item { min-height: 0; margin: 0 0 .8rem; padding: .95rem; }
+  .timeline-item::before { display: block; top: 1rem; left: -1.68rem; width: 11px; height: 11px; border-color: var(--surface); }
+}
