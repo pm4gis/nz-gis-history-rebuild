@@ -106,3 +106,13 @@ test("the SVG network fallback supports pointer dragging with theme-aware dim co
   assert.match(css, /\.network-svg-edge\.is-dimmed line:first-child\s*\{[^}]*var\(--graph-edge-dim\)/s);
   assert.doesNotMatch(css, /\.network-svg-node\.is-dimmed, \.network-svg-edge\.is-dimmed\s*\{\s*opacity:\s*\.27/);
 });
+
+test("embedded network keeps a themed, keyboard-accessible SVG preview without WebGL", () => {
+  assert.match(miniNetwork, /if \(!supportsWebGL\(\)\)/);
+  assert.match(miniNetwork, /drawMiniSvg/);
+  assert.match(miniNetwork, /mini-network-svg-edge/);
+  assert.match(miniNetwork, /data-mini-node-id/);
+  assert.match(miniNetwork, /addEventListener\("keydown"/);
+  assert.match(miniNetwork, /site:palette-changed/);
+  assert.doesNotMatch(miniNetwork, /!payload\.nodes\.length \|\| !supportsWebGL\(\)/);
+});

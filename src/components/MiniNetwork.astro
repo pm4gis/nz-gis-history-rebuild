@@ -31,7 +31,7 @@ const payload = JSON.stringify({ nodes: cleanNodes, edges: cleanEdges, centralId
     const stage = host.querySelector("[data-mini-canvas]");
     const selection = host.querySelector("[data-mini-selection]");
     const payload = JSON.parse(host.querySelector("[data-mini-json]").textContent);
-    if (!payload.nodes.length || !supportsWebGL()) {
+    if (!payload.nodes.length) {
       stage.hidden = true;
       host.querySelector(".mini-network-instructions").hidden = true;
       return;
@@ -50,10 +50,77 @@ const payload = JSON.stringify({ nodes: cleanNodes, edges: cleanEdges, centralId
     };
     const kindToken = (kind) => ({
       Person: "person", Organisation: "organisation", Agency: "organisation", Council: "organisation",
-      Business: "business", Company: "business", Project: "project", System: "technology",
+      Business: "business", Company: "company", Project: "project", System: "technology",
       Technology: "technology", Story: "story", Event: "event", Theme: "theme", Index: "index",
     })[kind] || "organisation";
     let colours = getThemeColours();
+    if (!supportsWebGL()) {
+      stage.hidden = false;
+      host.querySelector(".mini-network-instructions").hidden = false;
+      stage.setAttribute("role", "group");
+      stage.setAttribute("aria-label", "Network diagram. Select a record to inspect its connections.");
+      let selectedMiniId = "";
+      const drawMiniSvg = () => {
+        stage.replaceChildren();
+        const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        svg.setAttribute("viewBox", "0 0 360 235");
+        svg.setAttribute("class", "mini-network-svg");
+        svg.setAttribute("role", "group");
+        svg.setAttribute("aria-label", "Connected records diagram");
+        const centre = { x: 180, y: 108 };
+        const others = payload.nodes.filter((node) => node.id !== payload.centralId);
+        const points = new Map(payload.nodes.map((node) => {
+          if (node.id === payload.centralId) return [node.id, centre];
+          const index = others.findIndex((item) => item.id === node.id);
+          const angle = (2 * Math.PI * index / Math.max(others.length, 1)) - Math.PI / 2;
+          const radius = others.length > 18 ? .85 : .72;
+          return [node.id, { x: centre.x + Math.cos(angle) * radius * 145, y: centre.y + Math.sin(angle) * radius * 85 }];
+        }));
+        const make = (name, attrs) => {
+          const element = document.createElementNS("http://www.w3.org/2000/svg", name);
+          Object.entries(attrs).forEach(([key, value]) => element.setAttribute(key, String(value)));
+          return element;
+        };
+        payload.edges.forEach((edge) => {
+          const a = points.get(edge.a), b = points.get(edge.b);
+          if (!a || !b) return;
+          svg.append(make("line", { x1:a.x, y1:a.y, x2:b.x, y2:b.y, class:"mini-network-svg-edge" }));
+        });
+        payload.nodes.forEach((node) => {
+          const point = points.get(node.id);
+          const selected = node.id === selectedMiniId;
+          const group = make("g", { tabindex:"0", role:"button", "aria-pressed":String(selected),
+            "data-mini-node-id":node.id, class:"mini-network-svg-node" + (selected ? " is-selected" : ""),
+            "aria-label":"Inspect " + node.label + (node.kind ? ", " + node.kind : "") });
+          group.append(make("circle", { cx:point.x, cy:point.y, r:node.id === payload.centralId ? 12 : 8,
+            fill:node.id === payload.centralId ? colours.selection : colours[kindToken(node.kind)] || colours.organisation }));
+          const label = make("text", { x:point.x, y:point.y + 21, "text-anchor":"middle" });
+          label.textContent = node.label.length > 22 ? node.label.slice(0, 19) + "…" : node.label;
+          group.append(label);
+          const select = () => {
+            selectedMiniId = node.id;
+            svg.querySelectorAll("[data-mini-node-id]").forEach((item) => {
+              const isSelected = item.dataset.miniNodeId === selectedMiniId;
+              item.classList.toggle("is-selected", isSelected);
+              item.setAttribute("aria-pressed", String(isSelected));
+            });
+            selection.replaceChildren();
+            const title = document.createElement("strong"); title.textContent = node.label; selection.append(title);
+            if (node.kind) { const kind = document.createElement("span"); kind.textContent = " · " + node.kind; selection.append(kind); }
+            const count = payload.edges.filter((edge) => edge.a === node.id || edge.b === node.id).length;
+            const relationships = document.createElement("span"); relationships.textContent = " · " + count + " connected " + (count === 1 ? "record" : "records"); selection.append(relationships);
+            if (node.url) { const link = document.createElement("a"); link.href = node.url; link.textContent = " Open page →"; selection.append(link); }
+          };
+          group.addEventListener("click", select);
+          group.addEventListener("keydown", (event) => { if (["Enter", " "].includes(event.key)) { event.preventDefault(); select(); } });
+          svg.append(group);
+        });
+        stage.append(svg);
+      };
+      drawMiniSvg();
+      window.addEventListener("site:palette-changed", () => { colours = getThemeColours(); drawMiniSvg(); });
+      return;
+    }
     const graph = new MultiUndirectedGraph();
     const nodeMap = new Map(payload.nodes.map((node) => [node.id, node]));
     const others = payload.nodes.filter((node) => node.id !== payload.centralId);
