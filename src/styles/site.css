@@ -1265,6 +1265,8 @@ input[type="checkbox"], input[type="radio"], input[type="range"] { accent-color:
 .entity-preview-open { justify-self: start; color: var(--green-dark); font-size: .7rem; font-weight: 750; text-decoration: underline; text-underline-offset: .16em; }
 .entity-preview-open:hover { color: var(--link-hover); }
 .entity-preview-open:focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
+.entity-reference[data-preview-placement="above"] .entity-preview { top: auto; bottom: calc(100% + .35rem); }
+.entity-reference[data-preview-align="right"] .entity-preview { left: auto; right: 0; }
 @media (max-width: 650px) {
   .entity-preview { width: min(18rem, calc(100vw - 2rem)); }
 }
