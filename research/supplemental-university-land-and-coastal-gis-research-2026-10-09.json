@@ -40,7 +40,7 @@
       "finding": "The Opuatia GIS case study demonstrates a block-level method connecting Māori Land Court historic records with LINZ geospatial data. It reports substantial alienation and fragmentation, while explicitly identifying poor interoperability and archival research limits.",
       "evidenceSourceIds": [
         "whitehead-opuatia",
-        "kuk utai-opuatia"
+        "kukutai-opuatia"
       ],
       "interpretation": "A strong proposed story is about reconstructing block histories by linking records, parcel/title structures and maps, alongside data sovereignty and interoperability limits."
     },
@@ -124,13 +124,13 @@
       "id": "morris-south-dunedin-risk",
       "title": "Sea level rise: an assessment of risk, South Dunedin",
       "authorOrganisation": "Kirsty Morris; University of Otago",
-      "publishedAt": "2009",
+      "publishedAt": "23 May 2009",
       "type": "Master of Planning thesis",
-      "url": "https://hdl.handle.net/10523/8468",
-      "relevantEvidence": "Uses GIS in an assessment of South Dunedin sea-level-rise risk and is an early local planning example.",
+      "url": "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/Sea-level-rise--an-assessment/9926479582501891",
+      "relevantEvidence": "The abstract states GIS methodology was integrated into a South Dunedin risk assessment; it gives scenario outputs but explicitly notes excluded compounding hazards and a dune-breach assumption. Those historical scenario results must not be presented as current forecasts.",
       "accessDate": "2026-10-09",
-      "rightsAndReuse": "Repository-hosted thesis; link and cite.",
-      "citationRef": "turn52search1"
+      "rightsAndReuse": "Open-access thesis for research/private study; repository says copyright all rights reserved unless otherwise indicated. Link and cite; do not mirror thesis or maps.",
+      "citationRef": "turn65view1"
     },
     {
       "id": "kelly-nz-shoreline-change",
@@ -138,23 +138,23 @@
       "authorOrganisation": "Melissa Kelly; University of Otago",
       "publishedAt": "2013",
       "type": "Master of Science thesis",
-      "url": "https://ourarchive.otago.ac.nz/",
-      "relevantEvidence": "Research uses GIS and GPS to examine decadal shoreline change; useful as a national coastal-change research lead.",
+      "url": "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/Decadal-shoreline-change-on-the-New/9926480079401891",
+      "relevantEvidence": "Uses GIS, orthorectified aerial photographs, 2011 GPS shoreline positions and Environment Canterbury beach profiles across four study sites. The repository says full text is unavailable/restricted; use the abstract and metadata only.",
       "accessDate": "2026-10-09",
-      "rightsAndReuse": "Use repository record/search by exact title; no full-text redistribution rights established.",
-      "citationRef": "turn52search2"
+      "rightsAndReuse": "Repository marks full text unavailable/restricted; do not redistribute. Link and cite.",
+      "citationRef": "turn65view2"
     },
     {
       "id": "newman-southland-coastal-change",
-      "title": "Historical satellite imagery and 3D UAV modelling of coastal change in Southland, New Zealand",
+      "title": "Using Historic Satellite and 3D UAV Imagery to Map the Dynamics of the Coast at Sites with Anthropogenic Debris in Southland New Zealand",
       "authorOrganisation": "Cassandra Newman; Auckland University of Technology",
       "publishedAt": "2022",
       "type": "Master of Science Research thesis",
-      "url": "https://hdl.handle.net/10292/15494",
-      "relevantEvidence": "Combines historical satellite imagery with 3D UAV modelling to study coastal change in Southland.",
+      "url": "https://openrepository.aut.ac.nz/items/17e3daab-8246-4738-bbbd-8f6c6716133b",
+      "relevantEvidence": "Uses historical satellite imagery and seasonal 3D UAV imagery at four Southland sites to quantify shoreline and volumetric change; the repository identifies it as a 2022 Master of Science (Research) thesis.",
       "accessDate": "2026-10-09",
       "rightsAndReuse": "Institutional repository record; link and cite.",
-      "citationRef": "turn49search5"
+      "citationRef": "turn65view3"
     },
     {
       "id": "nutsford-urban-nature-health",
@@ -292,7 +292,7 @@
       "citationRef": "turn61search3"
     },
     {
-      "id": "kuk utai-opuatia",
+      "id": "kukutai-opuatia",
       "title": "Tracing Opuatia: Repatriating and repurposing colonial land data",
       "authorOrganisation": "Tahu Kukutai et al.; New Zealand Geographer",
       "publishedAt": "2022",
@@ -352,7 +352,7 @@
       "citationRef": "turn64search10"
     },
     {
-      "id": "kuk utai-insurance-retreat",
+      "id": "kukutai-insurance-retreat",
       "title": "Insurance retreat in residential properties from future sea level rise in Aotearoa New Zealand",
       "authorOrganisation": "Climatic Change",
       "publishedAt": "2024",
@@ -441,8 +441,8 @@
       "authorOrganisation": "National Library of New Zealand",
       "publishedAt": "undated",
       "type": "cartographic history guide",
-      "url": "https://natlib.govt.nz/",
-      "relevantEvidence": "Historical guide used as a lead for the NZMS 260 to Topo50 transition, NZTM adoption and the 2009 national release. Use the specific page permalink in any public import.",
+      "url": "https://natlib.govt.nz/collections/a-z/cartographic-collection",
+      "relevantEvidence": "National Library cartographic history is a discovery lead for the NZMS 260 to Topo50 transition and NZTM history; exact history page permalink remains to be pinned before public import.",
       "accessDate": "2026-10-09",
       "rightsAndReuse": "Link and paraphrase; identify a stable page URL before publication.",
       "citationRef": "turn54search8",
@@ -455,7 +455,7 @@
       "publishedAt": "undated; current company page",
       "type": "company profile",
       "url": "https://koordinates.com/about/",
-      "relevantEvidence": "Company page identifies Ed Corkery as CEO. Koordinates' own account says its platform supports the LINZ Data Service; treat company claims as first-party statements and corroborate with LINZ.",
+      "relevantEvidence": "Koordinates company page identifies Ed Corkery as CEO. Koordinates' own 2013 account states that LDS was built using Koordinates Enterprise and supported by its engineers; treat this as a company account and corroborate with LINZ records.",
       "accessDate": "2026-10-09",
       "rightsAndReuse": "Company source; link and paraphrase.",
       "citationRef": "turn61search4"
@@ -466,11 +466,11 @@
       "authorOrganisation": "Esri event / Eagle Technology and Fire and Emergency New Zealand presenters",
       "publishedAt": "undated event page",
       "type": "conference or user-group presentation",
-      "url": "https://storymaps.arcgis.com/",
-      "relevantEvidence": "Event material identifies Ed Cook in an Eagle Technology GIS technical consultant role and Craig MacAlpine at Fire and Emergency New Zealand. Find the exact event permalink and date before making a full person or event record.",
+      "url": "https://storymaps.arcgis.com/stories/a599ee990ba04782bb492850b8ed1670",
+      "relevantEvidence": "A StoryMaps event item among a set of GIS emergency-management presentations; this lead requires the title, authors and event date to be read from the presentation before public import.",
       "accessDate": "2026-10-09",
       "rightsAndReuse": "Presentation material; link only until item-specific reuse permissions are known.",
-      "citationRef": "turn55search10",
+      "citationRef": "turn66view1",
       "confidence": "medium"
     },
     {
@@ -479,8 +479,8 @@
       "authorOrganisation": "Toitū Te Whenua Land Information New Zealand",
       "publishedAt": "2021",
       "type": "annual report",
-      "url": "https://www.linz.govt.nz/",
-      "relevantEvidence": "LINZ reports that LDS launched on 1 July 2011 and was powered by Koordinates. Pinpoint the annual-report page/section in the final public citation.",
+      "url": "https://www.linz.govt.nz/about-linz/our-organisation/annual-reports",
+      "relevantEvidence": "LINZ annual reporting gives the LDS launch date as 1 July 2011 and describes it as powered by Koordinates; pinpoint the exact report page/section before public import.",
       "accessDate": "2026-10-09",
       "rightsAndReuse": "Government report; link and paraphrase.",
       "citationRef": "turn55search13",
@@ -493,7 +493,7 @@
       "title": "The alienation of the Opuatia block: a GIS case study",
       "sourceIds": [
         "whitehead-opuatia",
-        "kuk utai-opuatia"
+        "kukutai-opuatia"
       ],
       "summary": "A research publication pair on reconstructing Māori land-block history by linking historical land records to current geospatial structures, while documenting data interoperability and governance limitations.",
       "connectionsToReview": [
@@ -533,7 +533,7 @@
         "tate-new-plymouth-sea-level",
         "newman-southland-coastal-change",
         "kennedy-nz-higher-sea-levels",
-        "kuk utai-insurance-retreat",
+        "kukutai-insurance-retreat",
         "linz-3d-coastal-programme"
       ],
       "summary": "Trace the evolution from local GIS risk and shoreline studies to present coastal elevation and bathymetric mapping, keeping terrain data, hazard modelling and insurance/planning interpretation distinct.",
