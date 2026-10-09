@@ -137,7 +137,9 @@ main { min-height: 65vh; }
 .network-svg { width: 100%; height: 100%; display: block; }
 .network-svg-node, .network-svg-edge { cursor: pointer; outline: none; transition: opacity .18s ease, transform .18s ease; }
 .network-svg-node text { font: 12px var(--font-sans); fill: #284539; paint-order: stroke; stroke: #fcfcf8; stroke-width: 3px; stroke-linejoin: round; opacity: 0; pointer-events: none; }
-.network-svg-node:hover text, .network-svg-node:focus-visible text, .network-svg-node.is-highlighted text { opacity: 1; }
+.network-svg-node:hover text, .network-svg-node:focus-visible text, .network-svg-node.is-highlighted text:not(.network-svg-label-secondary) { opacity: 1; }
+.network-svg-node text.network-svg-label-secondary { opacity: 0 !important; }
+.network-svg-node:hover text.network-svg-label-secondary, .network-svg-node:focus-visible text.network-svg-label-secondary { opacity: 1 !important; }
 .network-svg-node.is-highlighted { transform-box: fill-box; transform-origin: center; transform: scale(1.1); }
 .network-svg-node.is-dimmed, .network-svg-edge.is-dimmed { opacity: .27; }
 .network-svg-node:focus-visible circle, .network-svg-node.is-selected circle { stroke: #172a23; stroke-width: 4px; }
