@@ -355,33 +355,50 @@ main { min-height: 62vh; padding-bottom: 115px; }
 .resume-nudge { display: flex; width: max-content; max-width: calc(100% - 2.4rem); align-items: center; gap: .55rem; margin: 1rem auto 0; padding: .55rem .8rem; border: 1px solid var(--line); border-radius: 999px; background: var(--glass); box-shadow: var(--shadow); color: var(--muted); font-size: .67rem; text-decoration: none; }
 .resume-nudge strong { overflow: hidden; max-width: min(55vw, 410px); color: var(--ink); font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
 .resume-nudge:hover { border-color: var(--green); color: var(--green-dark); }
-.reader-workspace { max-width: 1440px; margin: 0 auto; padding: clamp(2rem, 5vw, 4.4rem) clamp(1.2rem, 5vw, 5rem) 2rem; }
+.reader-workspace { max-width: 1440px; margin: 0 auto; padding: clamp(1.25rem, 3.4vw, 3rem) clamp(1.2rem, 5vw, 5rem) 2rem; }
 .story-heading {
   position: relative; isolation: isolate; overflow: hidden;
-  margin: 0 0 clamp(2.4rem, 5vw, 4.4rem); padding: clamp(1.4rem, 4vw, 3rem) clamp(0rem, 1vw, 1rem) 1.35rem;
+  display: flex; flex-direction: column; justify-content: center;
+  min-height: clamp(350px, 38vw, 500px);
+  margin: 0 0 clamp(2rem, 4.5vw, 3.8rem); padding: clamp(1.5rem, 4.5vw, 3.8rem);
+  border: 1px solid rgb(224 188 120 / .22); border-radius: 18px;
+  color: #f4f2e9;
+  background:
+    radial-gradient(ellipse at 76% 48%, rgb(41 111 96 / .34), transparent 40%),
+    linear-gradient(118deg, #081916 0%, #112a26 55%, #0a1c19 100%);
+  box-shadow: 0 25px 65px rgb(9 27 23 / .16);
 }
 .story-heading::before {
-  content: ""; position: absolute; z-index: -1; inset: -3rem -5rem -2rem 45%; opacity: .38;
+  content: ""; position: absolute; z-index: 0; inset: -3rem -5rem -2rem 39%; opacity: .64; pointer-events: none;
   background:
-    radial-gradient(circle at 62% 35%, var(--green) 0 2px, transparent 3px),
-    radial-gradient(circle at 82% 22%, var(--gold) 0 2px, transparent 3px),
-    radial-gradient(circle at 71% 72%, var(--green) 0 2px, transparent 3px),
-    radial-gradient(circle at 95% 57%, var(--gold) 0 2px, transparent 3px),
-    linear-gradient(149deg, transparent 61.5%, var(--line) 61.7% 61.9%, transparent 62.1%),
-    linear-gradient(24deg, transparent 57%, var(--line) 57.2% 57.4%, transparent 57.6%),
-    linear-gradient(119deg, transparent 69%, var(--line) 69.2% 69.4%, transparent 69.6%);
-  mask-image: radial-gradient(ellipse at 70% 50%, #000, transparent 69%);
+    radial-gradient(circle at 62% 35%, #83d6bd 0 2px, transparent 3px),
+    radial-gradient(circle at 82% 22%, #e1b76e 0 2px, transparent 3px),
+    radial-gradient(circle at 71% 72%, #83d6bd 0 2px, transparent 3px),
+    radial-gradient(circle at 95% 57%, #e1b76e 0 2px, transparent 3px),
+    radial-gradient(circle at 50% 56%, rgb(225 183 110 / .82) 0 2px, transparent 3px),
+    linear-gradient(149deg, transparent 61.5%, rgb(225 183 110 / .23) 61.7% 61.9%, transparent 62.1%),
+    linear-gradient(24deg, transparent 57%, rgb(198 225 210 / .16) 57.2% 57.4%, transparent 57.6%),
+    linear-gradient(119deg, transparent 69%, rgb(198 225 210 / .18) 69.2% 69.4%, transparent 69.6%),
+    linear-gradient(164deg, transparent 45%, rgb(198 225 210 / .13) 45.2% 45.35%, transparent 45.55%);
+  mask-image: radial-gradient(ellipse at 66% 50%, #000 8%, transparent 72%);
   animation: ambient-drift 18s ease-in-out infinite alternate;
 }
-.story-heading-topline { display: flex; justify-content: space-between; align-items: center; gap: 1rem; max-width: 900px; }
-.story-heading .eyebrow, .story-heading-topline .eyebrow { margin: 0 0 .7rem; color: var(--green-dark); font-size: .69rem; letter-spacing: .12em; }
+.story-heading::after {
+  content: ""; position: absolute; z-index: 0; inset: 0; pointer-events: none;
+  background: linear-gradient(90deg, rgb(4 17 15 / .28), transparent 76%), linear-gradient(0deg, rgb(4 17 15 / .28), transparent 48%);
+}
+.story-heading > * { position: relative; z-index: 1; }
+.story-heading-topline { display: flex; justify-content: space-between; align-items: center; gap: 1rem; max-width: 940px; }
+.story-heading .eyebrow, .story-heading-topline .eyebrow { margin: 0 0 .7rem; color: #e2b76d; font-size: .69rem; letter-spacing: .15em; }
 .story-heading .eyebrow span { margin: 0 .35rem; color: var(--gold); }
 .updated-stamp { display: inline-flex; gap: .55rem; align-items: center; color: var(--muted); font-size: .69rem; }
 .pulse-mark { width: 6px; height: 6px; box-shadow: 0 0 0 4px color-mix(in srgb, var(--green) 13%, transparent); }
-.story-heading h1 { max-width: 940px; margin: .35rem 0 1rem; font: 500 clamp(2.65rem, 6vw, 5.6rem)/.99 Georgia, "Times New Roman", serif; letter-spacing: -.055em; }
-.story-summary { max-width: 760px; margin: 0; color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.22rem); line-height: 1.6; }
-.story-heading-meta { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.25rem; color: var(--muted); font-size: .68rem; }
-.story-heading-meta span { padding: .35rem .6rem; border: 1px solid var(--line); border-radius: 999px; background: color-mix(in srgb, var(--surface) 65%, transparent); }
+.story-heading .updated-stamp { color: #c3d1c8; }
+.story-heading .pulse-mark { background: #83d6bd; box-shadow: 0 0 0 4px rgb(131 214 189 / .14); }
+.story-heading h1 { max-width: 980px; margin: .35rem 0 1rem; font: 520 clamp(2.65rem, 6.6vw, 6rem)/.96 "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif; letter-spacing: -.065em; text-wrap: balance; }
+.story-summary { max-width: 770px; margin: .15rem 0 0; padding-left: 1rem; border-left: 2px solid #d8a755; color: #d3ded7; font-size: clamp(1rem, 1.65vw, 1.22rem); line-height: 1.62; }
+.story-heading-meta { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1.35rem; color: #d8e3dc; font-size: .68rem; }
+.story-heading-meta span { padding: .36rem .62rem; border: 1px solid rgb(222 231 223 / .23); border-radius: 999px; background: rgb(255 255 255 / .055); backdrop-filter: blur(8px); }
 .reader-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(245px, 315px); gap: clamp(2rem, 6vw, 6rem); align-items: start; }
 .narrative-column { max-width: var(--reader-width); }
 .reading-passage { scroll-margin-top: 8.5rem; padding: 0 0 clamp(2.8rem, 6vw, 4.2rem); margin: 0 0 clamp(2rem, 4vw, 3.2rem); border-bottom: 1px solid var(--line); transition: background-color .28s ease, box-shadow .28s ease; }
