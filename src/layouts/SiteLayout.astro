@@ -56,7 +56,7 @@ const eventHref = (event) => {
 };
 ---
 <!doctype html>
-<html lang="en-NZ" data-skin="light">
+<html lang="en-NZ" data-palette="dark-night">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -65,7 +65,26 @@ const eventHref = (event) => {
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
-    <meta name="theme-color" content="#f4f2ec" />
+    <meta name="theme-color" content="#0d1522" />
+    <script is:inline>
+      // Apply the stored colour palette before styles and content are painted.
+      (() => {
+        const valid = ["dark-night", "dark-forest", "light-paper", "light-mist"];
+        const key = "nzgis-colour-palette-v1";
+        let selected = "dark-night";
+        try {
+          const saved = JSON.parse(localStorage.getItem(key) || "null");
+          if (valid.includes(saved)) selected = saved;
+          else {
+            const older = JSON.parse(localStorage.getItem("nzgis-skin-v1") || "null");
+            if (older === "light") selected = "light-paper";
+          }
+        } catch {}
+        document.documentElement.dataset.palette = selected;
+        const backgrounds = { "dark-night": "#0d1522", "dark-forest": "#0b1a16", "light-paper": "#f7f4ec", "light-mist": "#edf3f9" };
+        document.querySelector('meta[name="theme-color"]')?.setAttribute("content", backgrounds[selected]);
+      })();
+    </script>
     <title>{title}</title>
   </head>
   <body class={pageClass}>
@@ -81,8 +100,12 @@ const eventHref = (event) => {
         ))}
       </nav>
       <div class="header-tools">
-        <button class="skin-toggle" type="button" data-skin-toggle aria-pressed="false" aria-label="Switch to dark glass skin"><span aria-hidden="true">◐</span><span>Skin</span></button>
         <a class="header-search" href="/search/" aria-label="Search the publication"><span aria-hidden="true">⌕</span></a>
+        <button class="palette-toggle" type="button" data-palette-toggle aria-label="Change colour theme" title="Change colour theme">
+          <span class="palette-swatch" aria-hidden="true"></span>
+          <span class="palette-name" data-palette-name>Night</span>
+          <span class="palette-cycle" aria-hidden="true">↻</span>
+        </button>
       </div>
       <nav class="theme-rail" aria-label="Select themes to shape the reading view">
         <span class="theme-rail-label">Read by theme</span>
@@ -152,15 +175,20 @@ const eventHref = (event) => {
     <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
     <script>
       // @ts-nocheck
-      const skinKey = "nzgis-skin-v1";
+      const paletteKey = "nzgis-colour-palette-v1";
       const progressKey = "nzgis-reading-progress-v2";
       const themeKey = "nzgis-reader-themes-v1";
       const root = document.documentElement;
       const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
       const readStored = (key, fallback) => { try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); } catch { return fallback; } };
 
-      const savedSkin = readStored(skinKey, "light");
-      root.dataset.skin = savedSkin === "dark" ? "dark" : "light";
+      const paletteOptions = [
+        { id: "dark-night", label: "Night", next: "Forest" },
+        { id: "dark-forest", label: "Forest", next: "Paper" },
+        { id: "light-paper", label: "Paper", next: "Mist" },
+        { id: "light-mist", label: "Mist", next: "Night" },
+      ];
+      const paletteBackgrounds = { "dark-night": "#0d1522", "dark-forest": "#0b1a16", "light-paper": "#f7f4ec", "light-mist": "#edf3f9" };
       let savedProgress = readStored(progressKey, null);
       if (savedProgress?.url === "/") {
         // The old root page held the Preface and the earlier AAM sample. Preserve those readers' saved place after the homepage change.
@@ -185,18 +213,23 @@ const eventHref = (event) => {
           resumeLink.hidden = false;
         }
       }
-      const skinButton = document.querySelector("[data-skin-toggle]");
-      const updateSkinLabel = () => {
-        const dark = root.dataset.skin === "dark";
-        skinButton?.setAttribute("aria-pressed", String(dark));
-        skinButton?.setAttribute("aria-label", dark ? "Switch to light editorial skin" : "Switch to dark glass skin");
-        if (skinButton) skinButton.querySelector("span:last-child").textContent = dark ? "Light" : "Dark";
+      const paletteButton = document.querySelector("[data-palette-toggle]");
+      const updatePaletteButton = () => {
+        const current = paletteOptions.find((option) => option.id === root.dataset.palette) || paletteOptions[0];
+        if (!paletteButton) return;
+        paletteButton.querySelector("[data-palette-name]").textContent = current.label;
+        paletteButton.setAttribute("aria-label", `Colour theme: ${current.label}. Switch to ${current.next}.`);
+        paletteButton.title = `Current theme: ${current.label}. Next: ${current.next}.`;
+        document.querySelector('meta[name="theme-color"]')?.setAttribute("content", paletteBackgrounds[current.id]);
       };
-      updateSkinLabel();
-      skinButton?.addEventListener("click", () => {
-        root.dataset.skin = root.dataset.skin === "dark" ? "light" : "dark";
-        localStorage.setItem(skinKey, JSON.stringify(root.dataset.skin));
-        updateSkinLabel();
+      updatePaletteButton();
+      paletteButton?.addEventListener("click", () => {
+        const index = Math.max(0, paletteOptions.findIndex((option) => option.id === root.dataset.palette));
+        const next = paletteOptions[(index + 1) % paletteOptions.length];
+        root.dataset.palette = next.id;
+        try { localStorage.setItem(paletteKey, JSON.stringify(next.id)); } catch {}
+        updatePaletteButton();
+        window.dispatchEvent(new CustomEvent("site:palette-changed", { detail: { palette: next.id } }));
       });
 
       const themeInputs = [...document.querySelectorAll("[data-theme-choice]")];
