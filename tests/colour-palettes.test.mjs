@@ -128,3 +128,9 @@ test("embedded SVG preview uses responsive theme-aware contrast styles", () => {
   assert.match(css, /\.mini-network-svg-edge\s*\{[^}]*var\(--graph-edge\)/s);
   assert.match(css, /\.mini-network-svg-node text\s*\{[^}]*var\(--ink\)[^}]*var\(--surface\)/s);
 });
+
+test("embedded network preview limits default label overlap and reveals focused labels", () => {
+  assert.match(miniNetwork, /data-central/);
+  assert.match(css, /\.mini-network-svg-node text\s*\{[^}]*opacity:\s*0/s);
+  assert.match(css, /\.mini-network-svg-node:hover text[^}]*\.mini-network-svg-node:focus-visible text[^}]*opacity:\s*1/s);
+});

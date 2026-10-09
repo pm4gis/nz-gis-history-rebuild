@@ -1062,8 +1062,9 @@ main { min-height: 62vh; padding-bottom: 115px; }
 .mini-network-svg-edge { stroke: var(--graph-edge); stroke-width: 1.4px; opacity: .82; }
 .mini-network-svg-node { cursor: pointer; outline: none; }
 .mini-network-svg-node circle { stroke: var(--surface); stroke-width: 2px; }
-.mini-network-svg-node text { font: 9px var(--font-sans); fill: var(--ink); paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+.mini-network-svg-node text { font: 9px var(--font-sans); fill: var(--ink); paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; opacity: 0; transition: opacity .12s ease; }
 .mini-network-svg-node:hover circle, .mini-network-svg-node.is-selected circle, .mini-network-svg-node:focus-visible circle { stroke: var(--gold); stroke-width: 3px; }
+.mini-network-svg-node[data-central="true"] text, .mini-network-svg-node:hover text, .mini-network-svg-node.is-selected text, .mini-network-svg-node:focus-visible text { opacity: 1; }
 .mini-network-instructions { margin: .25rem 0 .4rem; color: var(--muted); font-size: .65rem; }
 .mini-network-selection { min-height: 2.1rem; padding: .45rem .55rem; font-size: .68rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
 .mini-network-selection strong { font-size: .7rem; }

@@ -90,7 +90,8 @@ const payload = JSON.stringify({ nodes: cleanNodes, edges: cleanEdges, centralId
           const point = points.get(node.id);
           const selected = node.id === selectedMiniId;
           const group = make("g", { tabindex:"0", role:"button", "aria-pressed":String(selected),
-            "data-mini-node-id":node.id, class:"mini-network-svg-node" + (selected ? " is-selected" : ""),
+            "data-mini-node-id":node.id, "data-central":String(node.id === payload.centralId),
+            class:"mini-network-svg-node" + (selected ? " is-selected" : ""),
             "aria-label":"Inspect " + node.label + (node.kind ? ", " + node.kind : "") });
           group.append(make("circle", { cx:point.x, cy:point.y, r:node.id === payload.centralId ? 12 : 8,
             fill:node.id === payload.centralId ? colours.selection : colours[kindToken(node.kind)] || colours.organisation }));
