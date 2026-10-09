@@ -63,7 +63,7 @@ const payload = JSON.stringify({ nodes: cleanNodes, edges: cleanEdges, centralId
       const angle = (2 * Math.PI * index / Math.max(others.length, 1)) - Math.PI / 2;
       const radius = others.length > 24 ? .93 : .78;
       graph.addNode(node.id, { label: node.label, x: central ? 0 : Math.cos(angle) * radius,
-        y: central ? 0 : Math.sin(angle) * radius, color: central ? colours.selection : colours[kindToken(node.kind)], size: central ? 12 : 8 });
+        y: central ? 0 : Math.sin(angle) * radius, color: central ? colours.selection : colours[kindToken(node.kind)], labelTint: colours.label, labelBackdrop: colours.surface, size: central ? 12 : 8 });
     });
     payload.edges.forEach((edge) => {
       if (graph.hasNode(edge.a) && graph.hasNode(edge.b) && !graph.hasEdge(edge.id))
@@ -74,7 +74,7 @@ const payload = JSON.stringify({ nodes: cleanNodes, edges: cleanEdges, centralId
       settings: { enableNodeDrag: true, autoRescale: "once", itemSizesReference: "screen",
         enableEdgeEvents: false, nodeLabelEvents: "extend", labelDensity: .18, labelRenderedSizeThreshold: 6,
         gestureTarget: "shared", enableCameraRotation: false },
-      styles: { nodes: [DEFAULT_STYLES.nodes, { cursor: "grab", labelColor: colours.label, labelBackgroundColor: colours.surface, labelBackgroundPadding: 2 },
+      styles: { nodes: [DEFAULT_STYLES.nodes, { cursor: "grab", labelColor: { attribute: "labelTint" }, labelBackgroundColor: { attribute: "labelBackdrop" }, labelBackgroundPadding: 2 },
         { whenState: "isDragged", then: { cursor: "grabbing", labelVisibility: "visible", depth: "topNodes" } }],
         stage: [{ whenState: "isDragging", then: { cursor: "grabbing" } }] },
     });
@@ -83,16 +83,10 @@ const payload = JSON.stringify({ nodes: cleanNodes, edges: cleanEdges, centralId
       graph.forEachNode((id) => {
         const node = nodeMap.get(id);
         graph.setNodeAttribute(id, "color", id === payload.centralId ? colours.selection : colours[kindToken(node?.kind)]);
+        graph.setNodeAttribute(id, "labelTint", colours.label);
+        graph.setNodeAttribute(id, "labelBackdrop", colours.surface);
       });
       graph.forEachEdge((id) => graph.setEdgeAttribute(id, "color", colours.edge));
-      renderer.setStyles({
-        nodes: [
-          DEFAULT_STYLES.nodes,
-          { cursor: "grab", labelColor: colours.label, labelBackgroundColor: colours.surface, labelBackgroundPadding: 2 },
-          { whenState: "isDragged", then: { cursor: "grabbing", labelVisibility: "visible", depth: "topNodes" } },
-        ],
-        stage: [{ whenState: "isDragging", then: { cursor: "grabbing" } }],
-      });
       renderer.refresh();
     });
     renderer.on("nodeDragEnd", () => { draggedRecently = performance.now(); });
