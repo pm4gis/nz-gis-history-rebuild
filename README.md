@@ -1,3 +1,9 @@
+# Retired NZ GIS History staging repository
+
+This repository is no longer deployed or maintained as a website. Production is at https://history.pm4gis.nz and the active source repository is https://github.com/pm4gis/gishistory26. The previous Cloudflare Pages project nzgis-history-stage was deleted on 10 October 2026. Retain this repository as an archival reference until the unfinished PR #9 and unique source/research material have been reconciled. Do not deploy from this repository.
+
+---
+
 # NZ GIS History reader
 
 This is the staging rebuild of the NZ GIS History reader. It contains the complete published baseline released on 7 October 2026: 45 editable stories (the preface and 44 narrative groupings), 583 passages, 796 records, 167 events, 2,502 connections, seven themes and 300 source notes. The AAM / AAMHatch Wellington city model and NorthSouth GIS NZ acquisition are included in the relevant narrative and linked records. The content model has no fixed chapter count.
